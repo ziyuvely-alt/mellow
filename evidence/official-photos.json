@@ -290,9 +290,10 @@
     {
       "family": "오버 글레이즈",
       "goodsNo": "1000000166",
-      "url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/25/03/12/1000000166/1000000166_magnify_014.jpg",
+      "url": "https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/1785825068205.jpg",
       "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000166",
-      "prior_source": "WEB_VISUAL_20261029"
+      "prior_source": "OFFICIAL_DETAIL_IMAGE_ALTERNATE_AFTER_PRIMARY_CDN_HTML_BLOCK",
+      "previous_hero_url_blocked": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/25/03/12/1000000166/1000000166_magnify_014.jpg"
     },
     {
       "family": "오버 글레이즈 스틱",
