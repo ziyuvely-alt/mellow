@@ -1,0 +1,26 @@
+name: Check official BBIA product photograph references
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'evidence/official-photos.json'
+      - 'scripts/check_bbia_official_photos.py'
+      - '.github/workflows/verify-official-bbia-photos.yml'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Check all official product-photo URLs for actual image bytes
+        run: python3 scripts/check_bbia_official_photos.py
+      - name: Preserve evidence report
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: bbia-official-photos-qa
+          path: bbia-official-photos-qa.json
+          if-no-files-found: warn
