@@ -1,0 +1,17 @@
+{
+  "root": {
+    "url": "https://mellow-bbia-images.onrender.com/",
+    "status": 200,
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 318,
+    "body_prefix": "<!doctype html><html lang=\"en\"><head><meta charset=\"utf-8\"><meta name=\"viewport\" content=\"width=device-width,initial-scale=1\"><title>Mellow KR Image Assets</title></head>"
+  },
+  "new_marker": {
+    "url": "https://mellow-bbia-images.onrender.com/deploy-probe-v245-20261101.txt",
+    "error": "HTTP Error 404: Not Found"
+  },
+  "lamelin_cream_01": {
+    "url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/01.jpg",
+    "error": "HTTP Error 404: Not Found"
+  }
+}
