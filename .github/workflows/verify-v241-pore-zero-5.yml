@@ -1,0 +1,25 @@
+name: Verify 5 recovered OBgE Pore Zero public JPG URLs v241
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'evidence/v241-pore-zero-5.json'
+      - 'scripts/verify_v241_pore_zero_5.py'
+      - '.github/workflows/verify-v241-pore-zero-5.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install Pillow
+      - run: python3 scripts/verify_v241_pore_zero_5.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v241-pore-zero-5-public-url-qa
+          path: v241-pore-zero-public-5.json
+          if-no-files-found: warn
