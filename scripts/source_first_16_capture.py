@@ -40,3 +40,36 @@ json.dump(rows,open(OUT/'report.json','w'),ensure_ascii=False,indent=2)
 print('ALT',json.dumps([{'id':r['id'],'status':r.get('alternate_status','not_applicable')} for r in rows]))
 
 # Browser captured screenshots already archived in the previous run.
+
+
+# V2.3.0 second-scene collection. Unapproved discovery, never sell these without visual source checks.
+try:
+ from playwright.sync_api import sync_playwright
+ with sync_playwright() as pw:
+  b=pw.chromium.launch(headless=True,args=['--no-sandbox'])
+  for p in PRODUCTS:
+   page=b.new_page(viewport={'width':1440,'height':1000})
+   rec=next(r for r in rows if r['id']==p['id'])
+   rec['further_sources']=[]
+   try:
+    page.goto(p['page'],wait_until='domcontentloaded',timeout=18000)
+    page.wait_for_timeout(1300)
+    resources=page.locator('img').evaluate_all('(els)=>els.map(e=>({url:e.currentSrc||e.src,alt:e.alt||"",w:e.naturalWidth,h:e.naturalHeight}))')
+    resources=[x for x in resources if x['url'].startswith('http') and x['w']>=450 and x['h']>=450 and not any(k in x['url'].lower() for k in ['logo','icon','banner'])]
+    unique={x['url']:x for x in resources}
+    for j,x in enumerate(sorted(unique.values(),key=lambda a:a['w']*a['h'],reverse=True)[:14]):
+     try:
+      response=requests.get(x['url'],headers={**HEAD,'Referer':p['page']},timeout=9)
+      response.raise_for_status()
+      dst=OUT/p['id']/('discovery_'+str(j+1).zfill(2))
+      result=save(response.content,dst)
+      rec['further_sources'].append({**result,'url':x['url'],'alt':x['alt'][:120]})
+     except Exception: pass
+    rec['further_source_status']='collected' if rec['further_sources'] else 'no_extra_photos'
+   except Exception as e:rec['further_source_status']='failed_'+str(e)[:150]
+   finally:page.close()
+  b.close()
+except Exception as e:
+ for r in rows:r['further_source_status']='browser_unavailable_'+str(e)[:150]
+json.dump(rows,open(OUT/'report.json','w'),ensure_ascii=False,indent=2)
+print('EXTRA_SCENES',json.dumps([{'id':r['id'],'new':len(r.get('further_sources',[]))} for r in rows]))
