@@ -24,37 +24,19 @@ for p in PRODUCTS:
  except Exception as exc: record['download_status']='failed: '+str(exc)[:220]
  rows.append(record)
 json.dump(rows,open(OUT/'report.json','w'),ensure_ascii=False,indent=2)
-# Screenshot fallback uses rendered image element, not an arbitrary webpage screenshot.
-try:
- from playwright.sync_api import sync_playwright
- with sync_playwright() as pw:
-  browser=pw.chromium.launch(headless=True,args=['--no-sandbox'])
-  for p,record in zip(PRODUCTS,rows):
-   # Always inspect product-page image elements for additional independent source candidates.
-   page=browser.new_page(viewport={'width':1440,'height':1100},device_scale_factor=1)
-   try:
-    page.goto(p['page'],wait_until='domcontentloaded',timeout=18000)
-    page.wait_for_timeout(1700)
-    imgs=page.locator('img')
-    candidates=[]
-    for j in range(min(imgs.count(),70)):
-     img=imgs.nth(j)
-     v=img.evaluate('(el)=>({w:el.naturalWidth,h:el.naturalHeight,src:el.currentSrc||el.src})')
-     if v['w']>=380 and v['h']>=380 and img.is_visible():
-      candidates.append((v['w']*v['h'],img,v['src']))
-    if not candidates:raise ValueError('no_large_visible_image')
-    candidates.sort(key=lambda x:x[0],reverse=True)
-    for j,(_,node,src) in enumerate(candidates[:3]):
-     dest=OUT/p['id']/('screenshot_'+str(j+1)+'.png')
-     node.screenshot(path=str(dest),timeout=12000)
-     with Image.open(dest) as im: im.verify()
-     record.setdefault('screenshot_files',[]).append({'file':str(dest),'image_src':src,'sha256':hashlib.sha256(dest.read_bytes()).hexdigest()})
-    record['screenshot_status']='saved'
-   except Exception as exc:record['screenshot_status']='failed: '+str(exc)[:220]
-   finally:page.close()
-  browser.close()
-except Exception as exc:
- for record in rows:
-  if record['screenshot_status']=='not_attempted':record['screenshot_status']='browser_unavailable: '+str(exc)[:180]
+# Fetch independent alternative-source URLs first, keeping each as unapproved evidence.
+ALT={"12":"https://dybeauty.de/cdn/shop/files/magic-cushion-moist-up-uvlaznyayushhii-tonalnyi-kuson-missha-ton-23-2821874.webp?v=1778175851&width=533","14":"https://down-sg.img.susercontent.com/file/sg-11134207-7rdxu-mc1h4jshbjji0c","15":"https://d2gfz7wkiigkmv.cloudfront.net/pickin/2/1/2/yFqekpHORc60Vqi1Je3VTg","16":"https://www.dodoskin.com/cdn/shop/files/OBgEPoreZeroFreshAllInOne150ml-1.jpg?v=1761114787","17":"https://oceanbuy.ca/cdn/shop/files/bioheal-boh-bioheal-boh-probioderm-3d-lifting-cream-50ml-oceanbuy-beauty-722829.jpg?v=1748329929&width=1080","18":"https://lushher.ro/cdn/shop/files/BIOHEALBOH-ProbiodermCollagenRemodelingEyePatch.png?v=1747506108","02":"https://beautybuddy.co/cdn/shop/files/peripera-lip-stain-tint-default-title-peripera-ink-mood-glowy-tint-4g-41-pink-spirit-26068196687949.jpg?v=1773732770&width=800","03":"https://nuupbeauty.com/cdn/shop/files/Sintitulo-3_dbd13cd9-62d6-4fd2-91b3-6277f1b78e4c.png?v=1770848397","08":"https://cdn.zochil.shop/7566e0e7-0271-48b9-b798-cff4b3db1b01_t700.jpg","09":"https://cdn-image.oliveyoung.com/prdtImg/1760/c6ee51ec-b18e-4b45-accf-fe9794d443b4.jpg?AR=0&QT=80&RS=1500x1500"}
+for rec in rows:
+ url=ALT.get(rec['id'])
+ if not url: continue
+ try:
+  resp=requests.get(url,headers=HEAD,timeout=15)
+  resp.raise_for_status()
+  rec['alt_photo']=save(resp.content,OUT/rec['id']/'alternate')
+  rec['alt_source_url']=url
+  rec['alternate_status']='saved'
+ except Exception as exc: rec['alternate_status']='failed: '+str(exc)[:220]
 json.dump(rows,open(OUT/'report.json','w'),ensure_ascii=False,indent=2)
-print('REPORT',json.dumps([{k:r[k] for k in ('id','download_status','screenshot_status')} for r in rows],ensure_ascii=False))
+print('ALT',json.dumps([{'id':r['id'],'status':r.get('alternate_status','not_applicable')} for r in rows]))
+
+# Browser captured screenshots already archived in the previous run.
