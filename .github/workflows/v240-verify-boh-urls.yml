@@ -1,0 +1,25 @@
+name: Verify v240 BIOHEAL BOH 5 image URLs across GitHub raw and Render
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v240_verify_boh_urls.py'
+      - '.github/workflows/v240-verify-boh-urls.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install pillow requests
+      - name: Verify anonymous HTTPS image bytes against SHA256
+        run: python3 scripts/v240_verify_boh_urls.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v240-boh-public-url-qa
+          path: v240_boh_public_url_qa.json
+          if-no-files-found: warn
