@@ -1,0 +1,73 @@
+name: Package LAMELIN hair JPGs and audit Render URLs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit-lamelin-v244.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Package and verify public images (existing JPGs untouched)
+        run: |
+          python - <<'PY'
+          import json, urllib.request, hashlib, time, zipfile, io
+          from pathlib import Path
+          from PIL import Image
+          base='https://mellow-bbia-images.onrender.com/'
+          sources=[
+            ('LAMELIN_BIOTOX','public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101'),
+            ('LAMELIN_HAIR_SERUM_22','public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101')]
+          report=[]
+          for product,folder in sources:
+            for i in range(1,6):
+              local=Path(folder)/f'{i:02}.jpg'
+              data=local.read_bytes()
+              image=Image.open(io.BytesIO(data));image.load()
+              assert image.format=='JPEG' and image.size==(1080,1080) and len(data)<2000000
+              expected_sha=hashlib.sha256(data).hexdigest()
+              url=base+folder.replace('public/','')+f'/{i:02}.jpg'
+              row={'product':product,'local_path':str(local),'url':url,'expected_sha256':expected_sha,'expected_bytes':len(data),'public_status':'NOT_VERIFIED'}
+              for attempt in range(3):
+                try:
+                  req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (MellowKR public image QA)','Accept':'image/jpeg'})
+                  with urllib.request.urlopen(req,timeout=50) as resp:
+                    status=resp.status;ctype=resp.headers.get('Content-Type','')
+                    public=resp.read(2000001)
+                  img=Image.open(io.BytesIO(public));img.load()
+                  public_sha=hashlib.sha256(public).hexdigest()
+                  ok=status==200 and 'image/jpeg' in ctype.lower() and img.format=='JPEG' and img.size==(1080,1080) and len(public)<2000000 and public_sha==expected_sha
+                  row.update({'http':status,'mime':ctype,'size':list(img.size),'format':img.format,'bytes':len(public),'sha256':public_sha,'public_status':'PASS' if ok else 'FAIL'})
+                  if ok:break
+                except Exception as ex:
+                  row.update({'public_status':'FAIL','error':str(ex)[:180]})
+                time.sleep(12)
+              print(product,i,row['public_status'],flush=True);report.append(row)
+          Path('evidence').mkdir(exist_ok=True)
+          Path('evidence/lamelin-v244-public-audit.json').write_text(json.dumps({'total':len(report),'passed':sum(r['public_status']=='PASS' for r in report),'results':report},indent=2))
+          out=Path('releases/lamelin-hair-serum-22-v244-five-jpg.zip');out.parent.mkdir(exist_ok=True)
+          with zipfile.ZipFile(out,'w',compression=zipfile.ZIP_DEFLATED) as z:
+            for j in range(1,6):
+              p=Path(sources[1][1])/f'{j:02}.jpg'
+              z.write(p,arcname=p.name)
+            z.write('evidence/lamelin-hair-v244-local-qa.json',arcname='LOCAL_QA_MANIFEST.json')
+          PY
+      - name: Commit packaged JPGs and public audit evidence
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add releases/lamelin-hair-serum-22-v244-five-jpg.zip evidence/lamelin-v244-public-audit.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Package LAMELIN hair JPGs and record Render public audit"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi
