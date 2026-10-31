@@ -1,0 +1,62 @@
+name: Independently audit 15 LAMELIN Render image URLs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/audit-lamelin-15-v245.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Probe all actual Render URLs, save evidence regardless of failures
+        run: |
+          python - <<'PY'
+          import io, json, time, urllib.request, hashlib, concurrent.futures
+          from PIL import Image
+          from pathlib import Path
+          paths=[
+            ('LAMELIN_BIOTOX_CREAM','public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101'),
+            ('LAMELIN_NEEDLE_SHOT_HAIR_SERUM_22','public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101'),
+            ('LAMELIN_BIOTOX_MASK_PACK','public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101')]
+          def audit(args):
+            product,folder,j=args
+            local=Path(folder)/f'{j:02}.jpg'; blob=local.read_bytes()
+            img=Image.open(io.BytesIO(blob));img.load()
+            expected_sha=hashlib.sha256(blob).hexdigest()
+            url='https://mellow-bbia-images.onrender.com/'+folder.removeprefix('public/')+f'/{j:02}.jpg'
+            row={'product':product,'number':j,'repository_path':str(local),'url':url,'expected_sha256':expected_sha,'expected_bytes':len(blob),'local_qa':img.format=='JPEG' and img.size==(1080,1080) and len(blob)<2000000,'public_verified':False}
+            for attempt in range(2):
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 MellowKR-QA','Accept':'image/jpeg'})
+                with urllib.request.urlopen(req,timeout=20) as res:
+                  public=res.read(2000001);row['http_status']=res.status;row['mime']=res.headers.get('Content-Type','')
+                photo=Image.open(io.BytesIO(public));photo.load()
+                actual=hashlib.sha256(public).hexdigest()
+                row.update({'actual_sha256':actual,'actual_bytes':len(public),'dimensions':list(photo.size),'format':photo.format})
+                row['public_verified']=row['http_status']==200 and row['mime'].lower().startswith('image/jpeg') and photo.format=='JPEG' and photo.size==(1080,1080) and len(public)<2000000 and actual==expected_sha and len(public)==len(blob)
+                if row['public_verified']:break
+              except Exception as e:row['error']=repr(e)[:160]
+              time.sleep(4)
+            return row
+          work=[(product,folder,j) for product,folder in paths for j in range(1,6)]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as pool:results=list(pool.map(audit,work))
+          Path('evidence').mkdir(exist_ok=True)
+          out={'verified_count':sum(x['public_verified'] for x in results),'total':len(results),'results':results}
+          Path('evidence/lamelin-15-public-audit-v245.json').write_text(json.dumps(out,indent=2,ensure_ascii=False))
+          print('VERIFIED',out['verified_count'],'/',len(results),flush=True)
+          PY
+      - name: Commit independent public verification evidence
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add evidence/lamelin-15-public-audit-v245.json
+          git commit -m "Record fresh Render URL audit for 15 LAMELIN JPGs" || exit 0
+          git pull --rebase origin main
+          git push origin HEAD:main
