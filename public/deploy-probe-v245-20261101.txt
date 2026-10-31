@@ -1,0 +1,3 @@
+MELLOWKR_RENDER_DEPLOY_PROBE_V245_20261101
+Repo: ziyuvely-alt/mellow
+Expected staticPublishPath: public
