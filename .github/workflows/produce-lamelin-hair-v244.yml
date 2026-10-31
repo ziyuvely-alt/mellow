@@ -1,0 +1,90 @@
+name: Produce LAMELIN Hair Serum 22 source-photo JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/produce-lamelin-hair-v244.yml'
+permissions:
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - name: Install imaging dependency
+        run: python -m pip install Pillow
+      - name: Produce five original-photo-preserving layouts
+        run: |
+          python - <<'PY'
+          import urllib.request, io, os, hashlib, json, time
+          from pathlib import Path
+          from PIL import Image,ImageDraw,ImageFont
+          official='https://lamelin.co.kr/web/product/big/202605/7292569acb53f790c820e9b791fe79fc.jpg'
+          req=urllib.request.Request(official,headers={'User-Agent':'Mozilla/5.0 (compatible; MellowKR-Product-Image-QA/1.0)'})
+          with urllib.request.urlopen(req,timeout=45) as res: raw=res.read(5000000)
+          original=Image.open(io.BytesIO(raw));original.load()
+          assert original.format=='JPEG' and original.width>=700 and original.height>=700, 'Official original image not retrieved'
+          src=original.convert('RGB')
+          legacy=Image.open('public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/01.jpg').convert('RGB')
+          lg=legacy.crop((908,907,1065,1065)).convert('RGBA')
+          m=Image.new('L',lg.size,0);ImageDraw.Draw(m).ellipse((2,2,lg.width-2,lg.height-2),fill=255);lg.putalpha(m)
+          dest=Path('public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101');dest.mkdir(parents=True,exist_ok=True)
+          fonts=['/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf','/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf']
+          f=lambda sz,b=False:ImageFont.truetype(fonts[0 if b else 1],sz)
+          def addphoto(canvas,region,crop=None):
+              image=src.crop(crop) if crop else src.copy()
+              x,y,w,h=region;image.thumbnail((w,h),Image.Resampling.LANCZOS)
+              px=x+(w-image.width)//2;py=y+(h-image.height)//2
+              canvas.paste(image,(px,py))
+          def logo(img):img.paste(lg,(898,907),lg)
+          imgs=[]
+          # Do not invent the product's volume; official page currently omits it.
+          im=Image.new('RGB',(1080,1080),'#F3F1EF');d=ImageDraw.Draw(im)
+          d.text((65,65),'LAMELIN',font=f(65,True),fill='#31343A')
+          d.text((70,150),'NMN + PDRN  |  HAIR SERUM 22',font=f(27),fill='#50545C')
+          addphoto(im,(35,215,1010,700));logo(im);imgs.append(im)
+          im=Image.new('RGB',(1080,1080),'#FFFFFF');d=ImageDraw.Draw(im)
+          d.rectangle((0,0,1080,180),fill='#D9CFBD')
+          d.text((60,40),'MIRACLE',font=f(55,True),fill='#31343A')
+          d.text((63,110),'NEEDLE SHOT HAIR SERUM 22',font=f(26),fill='#34373B')
+          addphoto(im,(50,180,980,730));logo(im);imgs.append(im)
+          im=Image.new('RGB',(1080,1080),'#F6F1E8');d=ImageDraw.Draw(im)
+          d.rectangle((0,0,1080,170),fill='#292C32')
+          d.text((65,44),'HAIR CARE  /  LAMELIN',font=f(43,True),fill='white')
+          addphoto(im,(55,207,970,655))
+          d.text((65,915),'NMN + PDRN',font=f(44,True),fill='#34383D')
+          logo(im);imgs.append(im)
+          im=Image.new('RGB',(1080,1080),'#FFFFFF');d=ImageDraw.Draw(im)
+          d.text((60,65),'DISCOVER THE DETAILS',font=f(44,True),fill='#383638')
+          addphoto(im,(62,170,940,650))
+          d.rounded_rectangle((62,856,930,971),radius=26,fill='#F0E7D6')
+          d.text((86,882),'Official bottle + carton',font=f(29),fill='#45413D')
+          logo(im);imgs.append(im)
+          im=Image.new('RGB',(1080,1080),'#F7F5F2');d=ImageDraw.Draw(im)
+          d.text((65,55),'LAMELIN',font=f(62,True),fill='#34383C')
+          addphoto(im,(55,195,970,688))
+          d.text((68,907),'NEEDLE SHOT HAIR SERUM 22',font=f(27,True),fill='#34383C')
+          logo(im);imgs.append(im)
+          manifest=[]
+          for j,im in enumerate(imgs,1):
+              path=dest/f'{j:02}.jpg';im.save(path,'JPEG',quality=91,optimize=True,subsampling=0)
+              b=path.read_bytes();t=Image.open(path)
+              assert t.format=='JPEG' and t.size==(1080,1080) and len(b)<2000000
+              manifest.append({'path':str(path),'sha256':hashlib.sha256(b).hexdigest(),'bytes':len(b),'status':'LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED'})
+          Path('evidence').mkdir(exist_ok=True)
+          Path('evidence/lamelin-hair-v244-local-qa.json').write_text(json.dumps({'source':official,'package_provenance':'Official Korean Lamelin product hero photograph','volume':'NOT_VERIFIED_15ML_NOT_SHOWN','files':manifest},indent=2))
+          print(json.dumps(manifest,indent=2))
+          PY
+      - name: Commit only validated new JPGs and local evidence
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101 evidence/lamelin-hair-v244-local-qa.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Produce official-photo LAMELIN hair serum 22 five JPGs v244"
+            git push origin HEAD:main
+          fi
