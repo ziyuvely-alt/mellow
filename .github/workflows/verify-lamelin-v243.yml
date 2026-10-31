@@ -1,0 +1,59 @@
+name: Verify LAMELIN Biotox Cream v243 public JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-lamelin-v243.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify public JPEG hashes and dimensions
+        run: |
+          python - <<'PY'
+          import urllib.request, hashlib, json, time, struct
+          from pathlib import Path
+          entries=[["01.jpg",141667,"d26180e75d3727eb3f86c1e51b7d745caee69609548fce71679076caea32264c"],["02.jpg",143795,"17824a8f279a74cb7d9b9cb9d38c03573bc61f7f8c652b4c63870c5041124120"],["03.jpg",137975,"048283d8752c35fa9675a3ce4d933487139cac7854ca22a3e54c6bf96c9a2441"],["04.jpg",147652,"4a2d888e08b5e80387fd1ab30d771cb58167ab4a60b0d9a9b12e9a0f5f11dd45"],["05.jpg",143675,"b87a433af96d40b4f3ae75593bc439ed21991975c7c1f67d4d740023b7a27d4c"]]
+          root='https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/'
+          results=[]
+          for fn,size,sha in entries:
+              url=root+fn
+              check={'filename':fn,'url':url,'expected_bytes':size,'expected_sha256':sha,'passed':False}
+              for attempt in range(3):
+                  try:
+                      req=urllib.request.Request(url,headers={'User-Agent':'MellowKR-LamelinVerifier/1.0','Accept':'image/jpeg'})
+                      with urllib.request.urlopen(req,timeout=45) as r:
+                          data=r.read(2000001)
+                          status=r.status
+                          mime=r.headers.get('Content-Type','')
+                      dims=None
+                      if data.startswith(b'\xff\xd8'):
+                          import io
+                          from PIL import Image
+                          im=Image.open(io.BytesIO(data));im.load()
+                          dims=list(im.size)
+                          fmt=im.format
+                      else:
+                          fmt='NOT_JPEG'
+                      check.update({'http_status':status,'content_type':mime,'bytes':len(data),'dimensions':dims,'format':fmt,'sha256':hashlib.sha256(data).hexdigest()})
+                      check['passed']=(status==200 and 'image/jpeg' in mime.lower() and fmt=='JPEG' and dims==[1080,1080] and len(data)<2000000 and len(data)==size and check['sha256']==sha)
+                      if check['passed']: break
+                  except Exception as e:check['error']=str(e)[:200]
+                  time.sleep(10)
+              print(fn, 'PASS' if check['passed'] else 'FAIL',flush=True)
+              results.append(check)
+          Path('lamelin-v243-public-verification.json').write_text(json.dumps({'passed':sum(int(x['passed']) for x in results),'total':len(results),'results':results},indent=2))
+          if not all(x['passed'] for x in results):
+              raise SystemExit('Public verification incomplete')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: lamelin-v243-url-verification
+          path: lamelin-v243-public-verification.json
+          if-no-files-found: warn
