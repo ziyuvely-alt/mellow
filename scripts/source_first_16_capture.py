@@ -30,7 +30,7 @@ try:
  with sync_playwright() as pw:
   browser=pw.chromium.launch(headless=True,args=['--no-sandbox'])
   for p,record in zip(PRODUCTS,rows):
-   if record['download_status']=='saved':continue
+   # Always inspect product-page image elements for additional independent source candidates.
    page=browser.new_page(viewport={'width':1440,'height':1100},device_scale_factor=1)
    try:
     page.goto(p['page'],wait_until='domcontentloaded',timeout=18000)
