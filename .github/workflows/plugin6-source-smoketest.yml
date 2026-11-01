@@ -1,0 +1,45 @@
+name: Plugin 6 isolated source-file smoke test
+on:
+  push:
+    branches:
+      - plugin6-source-smoketest-20261102
+    paths:
+      - .github/workflows/plugin6-source-smoketest.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify-photo-file:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify existing JPEG bytes and create isolated test ZIP
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import hashlib,json,zipfile
+          from pathlib import Path
+          p=Path('public/images/206/02.jpg')
+          out=Path('plugin6-smoketest-output');out.mkdir(exist_ok=True)
+          if not p.is_file():
+              raise SystemExit('Source file missing: '+str(p))
+          data=p.read_bytes()
+          if len(data)<100 or data[:3]!=bytes.fromhex('ffd8ff'):
+              raise SystemExit('Invalid JPEG signature')
+          info={'status':'SOURCE_BINARY_AVAILABLE','source_path':str(p),
+                'size_bytes':len(data),'sha256':hashlib.sha256(data).hexdigest(),
+                'sale_ready':False,'note':'Binary transfer smoke-test only. Product and color unverified.'}
+          (out/'source_report.json').write_text(json.dumps(info,indent=2),encoding='utf-8')
+          with zipfile.ZipFile(out/'source_test_only.zip','w',zipfile.ZIP_DEFLATED) as z:
+              z.write(p,'source_unverified/206_02.jpg')
+              z.write(out/'source_report.json','source_report.json')
+          with zipfile.ZipFile(out/'source_test_only.zip') as z:
+              if z.testzip() is not None:raise SystemExit('ZIP verification failed')
+          print(json.dumps(info))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plugin6-source-binary-smoketest-not-sale-ready
+          path: plugin6-smoketest-output/
+          if-no-files-found: error
