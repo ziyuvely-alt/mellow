@@ -161,9 +161,9 @@
   {
     "id": "pending-20",
     "name": "구달 청귤 비타C 세럼 미스트 100ml",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
+    "url": "https://oceanbuy.ca/cdn/shop/products/goodal-goodal-green-tangerine-vita-c-serum-mist-100ml-154746.jpg?v=1745717232&width=1800",
+    "page": "https://oceanbuy.ca/products/goodal-green-tangerine-vita-c-serum-mist-100ml",
+    "source_status": "EXTERNAL_RETAILER_IMAGE_CANDIDATE_UNVERIFIED",
     "source_approved": false
   },
   {
