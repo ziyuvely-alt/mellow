@@ -1,0 +1,43 @@
+{
+  "version": "2.4.10",
+  "run_id": 41344170998,
+  "artifact_id": 13098214697,
+  "production_branch": "production-assets-v2410",
+  "produced_new_jpg": 67,
+  "queue_pending_ids": [
+    "pending-12",
+    "pending-13",
+    "pending-14",
+    "pending-17",
+    "pending-20",
+    "pending-21",
+    "pending-26"
+  ],
+  "candidate_pages": [
+    {
+      "id": "pending-12",
+      "url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+      "type": "KOREAN_OFFICIAL",
+      "next": "Extract exact image bytes and verify item 15ml"
+    },
+    {
+      "id": "pending-12",
+      "url": "https://www.misshajp.com/shop/g/gMS104057/",
+      "type": "BRAND_OFFICIAL_JP",
+      "next": "Compare Korean packaging 15ml"
+    },
+    {
+      "id": "pending-20",
+      "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566&salestrNo=6005&siteNo=6004",
+      "type": "RETAILER",
+      "next": "Extract 25AD 100ml product image"
+    },
+    {
+      "id": "pending-26",
+      "url": "https://pixelpure.com/product/detail.html?product_no=21",
+      "type": "KOREAN_OFFICIAL",
+      "next": "Confirm 145ml versus 150ml label before image production"
+    }
+  ],
+  "policy": "Unverified page leads only; not downloaded sources or approved images. Never count as completed JPG."
+}
