@@ -1,0 +1,31 @@
+name: Shopee cross-brand image source byte probe v247
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/capture-source-bytes-v247.yml'
+      - 'scripts/capture_source_bytes_v247.py'
+      - 'evidence/source-first-16.json'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: python -m pip install requests Pillow
+      - name: Download image candidates from cross-brand inventory
+        run: python scripts/capture_source_bytes_v247.py
+      - name: Preserve actual image bytes and CSV evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-cross-brand-source-bytes-v247
+          path: source-first-output-v247/
+          if-no-files-found: warn
