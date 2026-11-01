@@ -1,0 +1,34 @@
+name: Shopee all-30 batch JPG review drafts v248
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/all-30-batch-preview-v248.yml'
+      - 'scripts/all_30_batch_preview_v248.py'
+      - 'evidence/pending-30-v247.json'
+permissions:
+  contents: read
+jobs:
+  batch-review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow and Korean font
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install requests Pillow
+      - name: Iterate all 30 unfinished families, skip blocked ones
+        run: python scripts/all_30_batch_preview_v248.py
+      - name: Export all draft images and per-family QA hold statuses
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-30-batch-review-v248
+          path: batch-preview-v248/
+          if-no-files-found: warn
