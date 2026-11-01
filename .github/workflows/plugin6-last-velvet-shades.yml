@@ -1,0 +1,23 @@
+name: Plugin6 Last Velvet Tint official shade capture
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-last-velvet-shades.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install Pillow requests beautifulsoup4
+      - name: Capture real official shade product assets
+        run: python3 scripts/plugin6_last_velvet_shades.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-last-velvet-official-shade-candidates
+          path: plugin6-last-velvet-official/
+          if-no-files-found: warn
