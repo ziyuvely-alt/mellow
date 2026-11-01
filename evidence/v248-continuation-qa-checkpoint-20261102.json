@@ -1,0 +1,32 @@
+{
+  "version": "2.4.8",
+  "date": "2026-11-02",
+  "previous_checkpoint": "evidence/v248-dual-lane-checkpoint-20261102.json",
+  "baseline_preserved": {
+    "families": 11,
+    "urls": 55
+  },
+  "modified_families": [
+    "pending-06"
+  ],
+  "revised_frames": [
+    "03",
+    "04"
+  ],
+  "revised_jpg": 2,
+  "technical_verified_jpg": 10,
+  "qa_approved_families": 0,
+  "new_public_jpg": 0,
+  "new_verified_urls": 0,
+  "holds": {
+    "pending-06": "MK logo binary not accessible in runtime; exact five-shade chart, physical kit contents and photo rights unverified",
+    "pending-22": "MK logo binary not accessible in runtime; pump photo diversity and exact physical packaging/rights unverified"
+  },
+  "next_priority": [
+    "pending-02",
+    "pending-01",
+    "pending-05",
+    "pending-10"
+  ],
+  "notes": "Technical QA only. Local ZIP generated. Do not publish unapproved JPGs."
+}
