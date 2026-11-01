@@ -1,0 +1,23 @@
+name: Plugin6 Lucky Tint official gallery capture
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-lucky-gallery.yml']
+permissions:
+  contents: read
+jobs:
+  gather:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: pip install Pillow requests beautifulsoup4
+      - name: Collect official product gallery
+        run: python3 scripts/plugin6_lucky_gallery.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-lucky-shine-gallery-unreviewed
+          path: plugin6-lucky-gallery/
+          if-no-files-found: warn
