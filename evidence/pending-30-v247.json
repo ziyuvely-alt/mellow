@@ -62,12 +62,14 @@
   },
   {
     "id": "pending-08",
-    "name": "페리페라 무드 글로이 틴트 (26AD) 4g",
+    "name": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
     "url": "https://www.ballagrio.com/cdn/shop/files/peripera-mood-glowy-tint-4g-14.jpg?v=1777339704",
     "page": "https://www.ballagrio.com/products/peripera-mood-glowy-tint-4g",
     "source_status": "CANDIDATE_URL_UNVERIFIED",
     "source_approved": false,
-    "candidate_ref_id": "02"
+    "candidate_ref_id": "02",
+    "seller_option_scope": "01-20",
+    "qa_note": "21~25호 및 26AD는 이번 판매 옵션 및 공식 발색 차트에서 제외; 해당 후보 이미지는 실제 대상 옵션과 교차검증 전 미승인"
   },
   {
     "id": "pending-09",

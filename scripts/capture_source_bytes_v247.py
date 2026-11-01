@@ -79,3 +79,14 @@ with (BASE/"candidate_manifest.csv").open("w",newline="",encoding="utf-8-sig") a
     "This artifact does not update public/images or verified URL mapping.\n",encoding="utf-8")
 count=sum(r["status"]=="DOWNLOADED_UNAPPROVED" for r in rows)
 print(f"Downloaded {count}/{len(rows)} candidate images. None approved for publication.")
+
+# Machine-readable report for GitHub commit status and future batch retry.
+summary = {
+    "candidate_count": len(rows),
+    "downloaded_unapproved": count,
+    "download_failed": sum(r["status"] == "DOWNLOAD_FAILED" for r in rows),
+    "missing_source_url": sum(r["status"] == "SOURCE_URL_NOT_IDENTIFIED" for r in rows),
+    "invalid_url": sum(r["status"] == "INVALID_HTTPS_SOURCE" for r in rows),
+    "published_or_approved": 0,
+}
+(BASE / "capture_summary.json").write_text(json.dumps(summary, ensure_ascii=False, indent=2), encoding="utf-8")
