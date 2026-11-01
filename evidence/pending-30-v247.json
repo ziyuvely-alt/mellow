@@ -96,7 +96,7 @@
   },
   {
     "id": "pending-12",
-    "name": "미샤 피디알엔 엔에이디 리뉴 필 샷 25 15ml",
+    "name": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
@@ -104,7 +104,7 @@
   },
   {
     "id": "pending-13",
-    "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼 30ml",
+    "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
@@ -112,7 +112,7 @@
   },
   {
     "id": "pending-14",
-    "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림 70ml",
+    "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
@@ -152,7 +152,7 @@
   },
   {
     "id": "pending-19",
-    "name": "구달 청귤 비타C 잡티케어 크림 알파 50ml",
+    "name": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
@@ -160,15 +160,15 @@
   },
   {
     "id": "pending-20",
-    "name": "구달 청귤 비타C 세럼 미스트 100ml",
-    "url": "https://oceanbuy.ca/cdn/shop/products/goodal-goodal-green-tangerine-vita-c-serum-mist-100ml-154746.jpg?v=1745717232&width=1800",
-    "page": "https://oceanbuy.ca/products/goodal-green-tangerine-vita-c-serum-mist-100ml",
-    "source_status": "EXTERNAL_RETAILER_IMAGE_CANDIDATE_UNVERIFIED",
+    "name": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+    "url": "",
+    "page": "",
+    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
     "source_approved": false
   },
   {
     "id": "pending-21",
-    "name": "구달 청귤 비타C 잡티케어 아이크림",
+    "name": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
@@ -176,7 +176,7 @@
   },
   {
     "id": "pending-22",
-    "name": "오브제 맥스 워터풀 선크림 300ml",
+    "name": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
     "url": "",
     "page": "",
     "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
