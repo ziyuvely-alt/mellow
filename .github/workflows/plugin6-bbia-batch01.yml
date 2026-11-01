@@ -1,0 +1,23 @@
+name: Plugin6 BBIA bulk source batch01
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch01.yml']
+permissions:
+  contents: read
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: pip install Pillow
+      - name: Collect fourteen official image candidates
+        run: python3 scripts/plugin6_bbia_batch01.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch01-source-candidates-not-sale-ready
+          path: plugin6-bbia-batch01-source/
+          if-no-files-found: warn
