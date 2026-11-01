@@ -2,18 +2,20 @@
   {
     "id": "pending-01",
     "name": "미샤 매직 쿠션 커버 래스팅",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://cosmic.net.ua/image/cache/catalog/0011/000000000051-800x800.jpg",
+    "page": "https://www.ssg.com/item/itemView.ssg?itemId=1000635446637",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "11"
   },
   {
     "id": "pending-02",
     "name": "미샤 매직 쿠션 모이스트 업",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://adminbeauty.hvnet.vn/Upload/Files/moistyup.jpg",
+    "page": "https://www.ssg.com/item/itemView.ssg?itemId=1000635446637",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "12"
   },
   {
     "id": "pending-03",
@@ -34,34 +36,38 @@
   {
     "id": "pending-05",
     "name": "클리오 킬커버 파운웨어 쿠션 기획세트",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://image.coupangcdn.com/image/vendor_inventory/a7c5/220686d1e0387fb52f88a99d7cbd1b3228b5907e70a2749cb37c690fb32d.jpg",
+    "page": "https://www.coupang.com/vp/products/8391107597",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "07"
   },
   {
     "id": "pending-06",
     "name": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://cdn-image.oliveyoung.com/prdtImg/1746/4061072b-d844-433d-8b56-c5ab930bbee0.jpg?AR=0&QT=80&RS=1500x1500&SF=webp",
+    "page": "https://global.oliveyoung.com/product/detail?prdtNo=GA250228712",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "08"
   },
   {
     "id": "pending-07",
     "name": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://cdn-image.oliveyoung.com/prdtImg/1760/c6ee51ec-b18e-4b45-accf-fe9794d443b4.jpg?AR=0&QT=80&RS=1500x1500",
+    "page": "https://global.oliveyoung.com",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "09"
   },
   {
     "id": "pending-08",
     "name": "페리페라 무드 글로이 틴트 (26AD) 4g",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://www.ballagrio.com/cdn/shop/files/peripera-mood-glowy-tint-4g-14.jpg?v=1777339704",
+    "page": "https://www.ballagrio.com/products/peripera-mood-glowy-tint-4g",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "02"
   },
   {
     "id": "pending-09",
@@ -74,10 +80,11 @@
   {
     "id": "pending-10",
     "name": "오브제 퍼펙트 옴므 쿠션 15g",
-    "url": "",
-    "page": "",
-    "source_status": "SOURCE_URL_NOT_YET_IDENTIFIED",
-    "source_approved": false
+    "url": "https://m.media-amazon.com/images/I/31XhRY9PZmL._SL500_.jpg",
+    "page": "https://search.kakaku.com/Obge%20ファンデーション/",
+    "source_status": "CANDIDATE_URL_UNVERIFIED",
+    "source_approved": false,
+    "candidate_ref_id": "15"
   },
   {
     "id": "pending-11",
