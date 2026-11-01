@@ -1,0 +1,21 @@
+name: Plugin6 source acquisition check
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-source-acquisition.yml']
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect available source files
+        run: |
+          mkdir -p plugin6-check
+          find public/images -type f \( -iname '*.jpg' -o -iname '*.png' \) | head -30 > plugin6-check/files.txt
+          wc -l plugin6-check/files.txt
+      - uses: actions/upload-artifact@v4
+        with:
+          name: plugin6-source-inventory
+          path: plugin6-check/
