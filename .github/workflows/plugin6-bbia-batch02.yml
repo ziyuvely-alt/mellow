@@ -1,0 +1,23 @@
+name: Plugin6 BBIA batch02 29-family source intake
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch02.yml']
+permissions:
+  contents: read
+jobs:
+  download:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: pip install Pillow
+      - name: Collect 29 BBIA source candidates
+        run: python3 scripts/plugin6_bbia_batch02.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch02-source-candidates-not-sale-ready
+          path: plugin6-bbia-batch02-sources/
+          if-no-files-found: warn
