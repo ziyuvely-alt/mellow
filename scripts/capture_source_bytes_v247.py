@@ -17,7 +17,11 @@ Image.MAX_IMAGE_PIXELS = 50_000_000
 ImageFile.LOAD_TRUNCATED_IMAGES = False
 BASE = Path("source-first-output-v247")
 BASE.mkdir(exist_ok=True)
+# Preserve existing candidates while covering every unfinished family.
+# Missing URLs are recorded as holds, not download successes.
 items = json.loads(Path("evidence/source-first-16.json").read_text(encoding="utf-8"))
+pending = json.loads(Path("evidence/pending-30-v247.json").read_text(encoding="utf-8"))
+items.extend(pending)
 rows = []
 columns = ["id","name","candidate_url","source_page","status","filename","bytes","width","height","sha256","error"]
 headers = {"User-Agent":"Mozilla/5.0 (compatible; Shopee-Source-QA/1.0)", "Accept":"image/avif,image/webp,image/png,image/jpeg,image/*;q=0.8"}
@@ -28,6 +32,9 @@ def collect(item):
     url = item.get("url","")
     rec = {k:"" for k in columns}
     rec.update({"id":str(item.get("id","")),"name":item.get("name",""),"candidate_url":url,"source_page":item.get("page",""),"status":"NOT_STARTED"})
+    if not url:
+        rec.update(status="SOURCE_URL_NOT_IDENTIFIED", error="No exact source URL; retain hold")
+        return rec
     if not http_candidate(url):
         rec.update(status="INVALID_HTTPS_SOURCE",error="Only absolute HTTPS sources permitted")
         return rec
