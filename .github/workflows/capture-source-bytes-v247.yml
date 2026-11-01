@@ -7,6 +7,7 @@ on:
       - '.github/workflows/capture-source-bytes-v247.yml'
       - 'scripts/capture_source_bytes_v247.py'
       - 'evidence/source-first-16.json'
+      - 'evidence/pending-30-v247.json'
 permissions:
   contents: read
 jobs:
