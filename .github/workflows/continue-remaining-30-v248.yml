@@ -36,7 +36,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2415-production-checked
+          name: shopee-v2415-standalone-curated
           path: production-v2415/
           retention-days: 90
           if-no-files-found: warn
@@ -46,7 +46,7 @@ jobs:
           cp -a production-v2415 /tmp/v2415-assets
           git worktree add --detach /tmp/v2415-wt HEAD
           cd /tmp/v2415-wt
-          git switch --orphan production-assets-v2415
+          git switch --orphan production-assets-v2415-curated
           git rm -r --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
           cp -a /tmp/v2415-assets/. .
@@ -54,4 +54,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Preserve v2415 original 155 JPG and new documented candidates"
-          git push origin HEAD:refs/heads/production-assets-v2415
+          git push origin HEAD:refs/heads/production-assets-v2415-curated
