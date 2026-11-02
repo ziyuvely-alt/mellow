@@ -1,0 +1,94 @@
+{
+  "version": "2.4.20",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "policy": {
+    "live_family_original": 11,
+    "live_url_baseline": 55,
+    "public_originals_overwrite": false,
+    "public_new_urls": 0,
+    "MX_excluded": true
+  },
+  "source_checkpoint": {
+    "production_run": 41479649159,
+    "artifact_id": 13159661312,
+    "production_branch": "production-assets-v2419-photo-qa",
+    "source_160_jpg_branch": "production-assets-v2416c"
+  },
+  "public_audit": {
+    "run_id": 41481878883,
+    "artifact_id": 13158793808,
+    "branch": "production-assets-v2420-public-language-audit",
+    "branch_sha": "b2dc7c2e3f95ed87389fe33ed4399558b8d548c9",
+    "candidate_family_count": 11,
+    "candidate_image_count": 55,
+    "http_200_count": 55,
+    "sha_equal_current_github": 55,
+    "reported_historical_exact_list_verified": false,
+    "reason": "A historical file-of-record listing the exact 55 approved URLs was not found; 55 paths reconstructed from 11 five-frame public families and validated over HTTP.",
+    "visual_grid_reviewed": true,
+    "public_qa_status": {
+      "PUBLIC_QA_PASS": 0,
+      "PUBLIC_LANGUAGE_REVISION": 0,
+      "PUBLIC_VISUAL_REVISION": 16,
+      "PUBLIC_PRODUCT_MISMATCH": 0,
+      "PUBLIC_SOURCE_UNVERIFIED": 39
+    },
+    "language_overlay_review": "55 candidate public images have predominantly English designed text; no clearly confirmed Korean editorial overlay requiring a rewrite. Original Korean on actual packaging must not be erased.",
+    "corrected_public_jpg": 0,
+    "corrected_public_qa_pass": 0,
+    "public_originals_modified": 0
+  },
+  "pending_en_production": {
+    "run_id": 41482880060,
+    "artifact_id": 13159209025,
+    "branch": "production-assets-v2420-en-master",
+    "branch_commit": "c1e02bb5cec1d5c77b0cba984c03fb7386d1d013",
+    "input_jpg": 160,
+    "source_original_160_preserved_sha": 160,
+    "original_text_info_frames_from_creator_scripts": 64,
+    "actual_rendered_en_jpg": 64,
+    "all_jpg_1080_under2mb": 64,
+    "translated_family_count": 22,
+    "photo_originals_not_modified": 96,
+    "before_after_pairs": 64,
+    "thirty_product_family_zip": 30,
+    "language_qa_hold_on_original_info": 0,
+    "photo_original_language_final_review_pending": 96,
+    "EN_MASTER_COMPLETE": 0,
+    "FINAL_QA_APPROVED": 0
+  },
+  "future_defaults": {
+    "MASTER_LANGUAGE": "EN",
+    "render_preflight_blocks_hangul": true,
+    "source": "scripts/v2420_en_master_revise.py",
+    "translation_locales": [
+      "TW",
+      "TH",
+      "VN",
+      "BR"
+    ],
+    "MX": false,
+    "existing_historical_Korean_scripts_not_rewritten": true
+  },
+  "known_holds": [
+    "Product package inscriptions left authentic and unmodified",
+    "Official shade charts still waiting Global SKU vs official visual matching",
+    "Original MK logo PNG binary remains inaccessible; no guessed logo inserted",
+    "Source scripts for historical runs are frozen; new EN generator implements English default",
+    "Some EN draft frames contain internal inventory/verification caveats and require seller-facing copy clearance",
+    "Public visual repetition and licensing/package verification remain; no live site replacements"
+  ],
+  "urls_preserved_git_diff": {
+    "base_main": "274975c7ade55cce4f8ec0fd62b17525e908dd9a",
+    "current_main": "8f378ca9e8dd02190558cbec7c881570e12b4ac6",
+    "changed_public_assets": 0
+  },
+  "next": [
+    "Check historical exact 55-URL approved list vs reconstructed verified 55",
+    "Visually review and polish English layout; remove internal QA-only copy for final customer-facing master",
+    "Address 16 publicly repetitive frames in new version path only",
+    "Review 96 source-photo frames for tiny Korean marketing overlays vs original package print",
+    "Validate real MK logo and official shade tables before final sales QA"
+  ]
+}
