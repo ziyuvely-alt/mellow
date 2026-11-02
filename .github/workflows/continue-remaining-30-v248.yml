@@ -1,11 +1,11 @@
-name: Shopee v2414 partial family verified info frame batch
+name: Shopee v2414b partial family verified info frame batch
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - '.github/workflows/continue-remaining-30-v248.yml'
-      - 'scripts/continue_remaining_30_v2414.py'
+      - 'scripts/continue_remaining_30_v2414b.py'
 permissions:
   contents: write
   actions: read
@@ -31,27 +31,27 @@ jobs:
           git fetch origin production-assets-v2413-curated
           git archive FETCH_HEAD | tar -xf - -C input-v2413
       - name: Continue all 30 families and audit SHA and visual repetitions
-        run: python scripts/continue_remaining_30_v2414.py
+        run: python scripts/continue_remaining_30_v2414b.py
       - name: Preserve JPGs SHA and per-family checkpoint as artifact
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2414-partial-info-frames
-          path: production-v2414/
+          name: shopee-v2414b-missing-info-frames
+          path: production-v2414b/
           retention-days: 90
           if-no-files-found: warn
       - name: Persist long-lived separate production branch
         if: success()
         run: |
-          cp -a production-v2414 /tmp/shopee-v2414-preserve
-          git worktree add --detach /tmp/shopee-v2414-worktree HEAD
-          cd /tmp/shopee-v2414-worktree
-          git switch --orphan production-assets-v2414
+          cp -a production-v2414b /tmp/shopee-v2414b-preserve
+          git worktree add --detach /tmp/shopee-v2414b-worktree HEAD
+          cd /tmp/shopee-v2414b-worktree
+          git switch --orphan production-assets-v2414b
           git rm -r --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
-          cp -a /tmp/shopee-v2414-preserve/. .
+          cp -a /tmp/shopee-v2414b-preserve/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Save v2414 source-faithful information drafts and original images"
-          git push origin HEAD:refs/heads/production-assets-v2414
+          git commit -m "Save v2414b source-faithful information drafts and original images"
+          git push origin HEAD:refs/heads/production-assets-v2414b
