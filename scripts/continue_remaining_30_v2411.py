@@ -190,6 +190,41 @@ for item in QUEUE:
     if len(unique_sources)>=5:break
    except Exception as exc:
     source_log.append({'family':fid,'source':page,'result':'PAGE_FAILED','reason':str(exc)[:150]})
+ # Product-page verified Olive Young images (actual 50ml Dr.G listing), captured only as pre-QA evidence.
+ if fid=='pending-17':
+  direct_images=[
+   'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013806ko.jpg?l=ko',
+   'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013808ko.jpg?l=ko',
+   'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013807ko.jpg?l=ko',
+   'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013809ko.jpg?l=ko',
+  ]
+  source_folder.mkdir(parents=True,exist_ok=True)
+  direct_hashes=[]
+  for image_url in direct_images:
+   try:
+    raw,mime,landed=fetch_url(image_url)
+    with Image.open(io.BytesIO(raw)) as im:
+     im.load()
+     if im.format not in ('JPEG','PNG','WEBP'):raise ValueError('INVALID_PHOTO_FORMAT')
+     if min(im.size)<320 or max(im.size)/min(im.size)>2.4:raise ValueError('WRONG_ASPECT_OR_SIZE')
+     picture=im.convert('RGB')
+     h1,h2=dhash(picture),ahash(picture)
+    if any(dist(h1,v1)<=6 and dist(h2,v2)<=8 for v1,v2 in direct_hashes):
+     source_log.append({'family':fid,'source':image_url,'result':'NEAR_DUPLICATE_SOURCE','reason':'same photo composition'})
+     continue
+    sourcehash=sha_bytes(raw)
+    suffix={'JPEG':'.jpg','PNG':'.png','WEBP':'.webp'}[im.format]
+    sourcepath=source_folder/(sourcehash[:20]+suffix)
+    sourcepath.write_bytes(raw)
+    direct_hashes.append((h1,h2))
+    source_log.append({'family':fid,'source':landed,'result':'SOURCE_BYTES_CAPTURED','reason':'verified_retailer_product_page=oliveyoung_A000000180138;source_sha256='+sourcehash})
+    if len(list(folder.glob('*.jpg')))<5:
+     output=folder/('SOURCE_%s.jpg'%sourcehash[:12])
+     if not output.exists():
+      capture_framed_photo(sourcepath,name,output)
+      new+=1;added_here+=1
+   except Exception as exc:
+    source_log.append({'family':fid,'source':image_url,'result':'IMAGE_FAILED','reason':str(exc)[:140]})
  if added_here and not prior:new_fam+=1
  files=sorted(folder.glob('*.jpg'))
  if len(files)==0:
