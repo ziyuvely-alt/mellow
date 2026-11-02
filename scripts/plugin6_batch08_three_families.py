@@ -22,7 +22,7 @@ def capture(info):
    if not u:continue
    u=urljoin(r.url,u)
    if (product.lower() in alt.lower() or slug=='ready_to_wear_downy_cheek' and 'downy cheek' in alt.lower()) and re.search(r'\b\d{2}\b',alt):
-    m=re.search(r'(?:-|\\s)\\s*(\\d{2})\\s+(.+)$',alt,re.I)
+    m=re.search(r' - ([0-9]{2}) (.+)$',alt,re.I)
     if m:
      opt=int(m.group(1))
      if slug=='last_auto_gel_eyeliner' and opt==10:
