@@ -45,11 +45,12 @@ jobs:
         run: |
           cp -a production-v2411 /tmp/production-v2411-checkpoint
           git fetch origin production-assets-v2411
-          git switch -C production-assets-v2411 FETCH_HEAD
-          git rm -rf -- . >/dev/null 2>&1 || true
+          git worktree add -B production-assets-v2411 /tmp/shopee-v2411-output origin/production-assets-v2411
+          cd /tmp/shopee-v2411-output
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
           cp -a /tmp/production-v2411-checkpoint/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git diff --cached --quiet || git commit -m "Persist v2.4.11 JPGs, source evidence and similarity audit"
+          git diff --cached --quiet || git commit -m "Persist curated v2.4.11 JPGs, source evidence and similarity audit"
           git push origin HEAD:refs/heads/production-assets-v2411
