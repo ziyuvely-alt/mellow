@@ -1,0 +1,57 @@
+{
+  "version": "2.4.16d",
+  "date": "2026-11-02",
+  "latest_success": {
+    "run_id": 41466818468,
+    "artifact_id": 13152861733,
+    "artifact_name": "shopee-v2416d-visual-qa-proof",
+    "workflow_commit": "59441577b96ad4d500e87dc7b0057c6b89f2087f",
+    "production_branch": "production-assets-v2416d-visual-qa",
+    "production_branch_sha": "15f1d1f04918ea8fe8d9006a871ecef8eb4d997d"
+  },
+  "source": {
+    "run_id": 41459087143,
+    "branch": "production-assets-v2416c",
+    "source_jpg": 160,
+    "project_cumulative_count": 197
+  },
+  "validated": {
+    "source_jpg_sha_preserved": 160,
+    "new_sales_jpg": 0,
+    "qa_contact_sheet_jpg": 30,
+    "families_reviewed": 30,
+    "shortlist_groups": 3,
+    "distinct_five_frame_review_shortlists": 2,
+    "near_duplicate_dhash_alerts": 12,
+    "mk_binary_recovered": false,
+    "logo_applied": 0,
+    "official_color_charts_complete": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "published_urls_new": 0,
+    "previous_verified_urls": 55
+  },
+  "specific": [
+    "pending-05: official catalog lists several different Kill Cover Founwear packaging/versions; existing source visual cannot be assumed same as current Original black edition; 1 distinct image and repeat typography, HOLD",
+    "pending-15: select INV_03, INV_02, INV_01, INFO_04, INFO_05; exclude two near-similar old tube scenes, final QA remains HOLD for logo/packaging",
+    "pending-21: existing PHOTO_01 and PHOTO_02 show product on plain white and product with lotion swatch respectively; select both plus 3 different info panels, 25AD packaging rights QA remains HOLD",
+    "pending-08: official shades 01-20 only; no generated unverified swatches",
+    "pending-26: official 145ml image preserved; do not merge 150ml package"
+  ],
+  "logo_attempt": {
+    "plugin_id": "plugins_6ae087bd15e08191a877fe8830c65d9b",
+    "path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_bytes": 280031,
+    "full_archive_signed_url_issued": true,
+    "binary_download_succeeded": false,
+    "failure": "Plugin Creator only returns short-lived signed archive URL; available binary download route requires a web-view and host fetch is disabled; standalone runtime cannot DNS resolve archive host.",
+    "placeholder_created": false
+  },
+  "next_steps": [
+    "Get actual MK PNG binary through supported connector/file upload; hash size and alpha verify, compare existing approved logos",
+    "Get exact Global SKU option sheet and official swatch images for Peripera 01-20, MISSHA, CLIO, OBgE",
+    "Confirm exact Founwear edition and physical gift/refill contents against inventory",
+    "Replace duplicate compositions from genuinely separate authentic photos; never crops or resized duplicates",
+    "Keep public/images and 55 verified URLs immutable until approval"
+  ]
+}
