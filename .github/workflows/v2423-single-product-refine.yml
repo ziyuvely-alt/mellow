@@ -1,0 +1,54 @@
+name: Shopee v2423 eight single-product actual frame QA refinement
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2423-single-product-refine.yml'
+      - 'scripts/v2423_single_eight_visual_refine.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  single-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install safe image edit dependencies
+        run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Restore all v2422 assets without recreation
+        run: |
+          mkdir -p input-v2422
+          git fetch origin production-assets-v2422-hero5-en
+          git archive origin/production-assets-v2422-hero5-en | tar -xf - -C input-v2422
+      - name: Repair only two repetitive Pixelpure headings, curate eight five-frame sets
+        run: python scripts/v2423_single_eight_visual_refine.py
+      - name: Save edited JPEG, complete source SHA and candidate sets
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2423-single-product-refinement
+          path: production-v2423-single-qa/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Preserve new independent QA branch, never touch approved public URLs
+        if: success()
+        run: |
+          cp -a production-v2423-single-qa /tmp/v2423-assets
+          git worktree add --detach /tmp/v2423-wt HEAD
+          cd /tmp/v2423-wt
+          git switch --orphan production-assets-v2423-single-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2423-assets/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve v2423 Pixelpure title patches and all 215 original/156 EN files"
+          git push origin HEAD:refs/heads/production-assets-v2423-single-qa
