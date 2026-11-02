@@ -1,11 +1,11 @@
-name: Shopee v2415 real-photo partial frame completion
+name: Shopee v2416 official 145ml photo and 30-family QA
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - '.github/workflows/continue-remaining-30-v248.yml'
-      - 'scripts/continue_remaining_30_v2415.py'
+      - 'scripts/continue_remaining_30_v2416.py'
 permissions:
   contents: write
   actions: read
@@ -27,31 +27,31 @@ jobs:
           python -m pip install Pillow requests
       - name: Restore exact v2414b production JPGs
         run: |
-          mkdir -p input-v2414b
-          git fetch origin production-assets-v2414b-curated
-          git archive FETCH_HEAD | tar -xf - -C input-v2414b
+          mkdir -p input-v2415
+          git fetch origin production-assets-v2415-curated
+          git archive FETCH_HEAD | tar -xf - -C input-v2415
       - name: Produce and audit partial-family images
-        run: python scripts/continue_remaining_30_v2415.py
+        run: python scripts/continue_remaining_30_v2416.py
       - name: Upload JPG and SHA manifests
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2415-standalone-curated
-          path: production-v2415/
+          name: shopee-v2416-standalone-curated
+          path: production-v2416/
           retention-days: 90
           if-no-files-found: warn
       - name: Persist immutable non-public checkpoint
         if: success()
         run: |
-          cp -a production-v2415 /tmp/v2415-assets
-          git worktree add --detach /tmp/v2415-wt HEAD
-          cd /tmp/v2415-wt
-          git switch --orphan production-assets-v2415-curated
+          cp -a production-v2416 /tmp/v2416-assets
+          git worktree add --detach /tmp/v2416-wt HEAD
+          cd /tmp/v2416-wt
+          git switch --orphan production-assets-v2416
           git rm -r --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
-          cp -a /tmp/v2415-assets/. .
+          cp -a /tmp/v2416-assets/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Preserve v2415 original 155 JPG and new documented candidates"
-          git push origin HEAD:refs/heads/production-assets-v2415-curated
+          git commit -m "Preserve v2416 original 155 JPG and new documented candidates"
+          git push origin HEAD:refs/heads/production-assets-v2416
