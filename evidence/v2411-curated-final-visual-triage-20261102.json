@@ -1,0 +1,52 @@
+{
+  "version": "2.4.11",
+  "date": "2026-11-02",
+  "source_run_id": 41367931294,
+  "artifact_id": 13108165626,
+  "release_policy": "PRODUCTION_FIRST_FINAL_SALES_QA_DEFERRED",
+  "verified_artifact": {
+    "reused_jpg": 80,
+    "new_jpg": 12,
+    "jpg_total": 92,
+    "sha256_unique": 92,
+    "jpeg_1080_under_2000000": 92,
+    "source_files_captured": 12,
+    "with_jpg_families": 28,
+    "without_jpg_families": 2
+  },
+  "visual_triage": {
+    "pending-12": {
+      "new_photo_frames": 3,
+      "notes": "Different photos of exact MISSHA PDRN NAD+ Renew Peel Shot 25 15ml; source use rights and final frame role QA pending"
+    },
+    "pending-13": {
+      "new_photo_frames": 2,
+      "notes": "Other-product yellow bottle and promo-model photo rejected; two serum product photos retained for further edition QA"
+    },
+    "pending-14": {
+      "new_photo_frames": 3,
+      "notes": "Green vegan moisturizer photos rejected; three MISSHA PDRN NAD+ cream photos retained for edition QA"
+    },
+    "pending-17": {
+      "new_photo_frames": 3,
+      "notes": "Three Dr.G Brightening Up Moisture Sun 50ml photos show similar front-facing product view; visually repetitive for information-frame standard; distinct design/official claims still required"
+    },
+    "pending-20": {
+      "new_photo_frames": 1,
+      "notes": "Goodal 25AD serum mist candidate, package and commercial photo rights unverified"
+    }
+  },
+  "held_without_any_photo": [
+    {
+      "id": "pending-21",
+      "reason": "Exact Goodal 25AD eye cream standalone product image still uncollected; 1+1 kit must not be substituted"
+    },
+    {
+      "id": "pending-26",
+      "reason": "PIXEL PURE cleanser 145ml vs 150ml label mismatch, blocked"
+    }
+  ],
+  "production_complete_qa_pending": 0,
+  "five_image_physical_families": 12,
+  "note": "A JPG quantity, different SHA, and accepted product photo are not proof of five distinct seller-ready informational frames or verified shade chart. Existing 11 live families and 55 URLs unchanged."
+}
