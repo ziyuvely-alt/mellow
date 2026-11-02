@@ -1,0 +1,18 @@
+{
+  "version": "2.4.15",
+  "reused_jpg": 155,
+  "new_jpg": 2,
+  "unique_file_sha256": 157,
+  "artifact_jpg": 157,
+  "families_with_5plus_jpg": 29,
+  "partial_families": 0,
+  "missing_families": 1,
+  "production_complete_qa_pending": 0,
+  "original_logo_binary_recovered": false,
+  "original_logo_applied_families": 0,
+  "official_shade_complete": 0,
+  "duplicate_pairs_replaced": 0,
+  "new_public_urls": 0,
+  "existing_public_urls_preserved": 55,
+  "note": "Neither repeated photography nor unverified product matches are considered final merchant artwork"
+}
