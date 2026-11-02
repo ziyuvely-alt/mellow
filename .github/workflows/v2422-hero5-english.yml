@@ -1,0 +1,55 @@
+name: Shopee v2422 actual HERO5 EN photo-safe repairs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2422-hero5-english.yml'
+      - 'scripts/v2422_hero5_english_safe.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  hero-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image repair runtime
+        run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Restore latest source EN drafts and independent Clio source candidate
+        run: |
+          mkdir -p input-v2421c input-v2421-gallery
+          git fetch origin production-assets-v2421c-photo-en production-assets-v2421-official-photo-options
+          git archive origin/production-assets-v2421c-photo-en | tar -xf - -C input-v2421c
+          git archive origin/production-assets-v2421-official-photo-options | tar -xf - -C input-v2421-gallery
+      - name: Create actual 5 HERO English JPGs while keeping original product photography
+        run: python scripts/v2422_hero5_english_safe.py
+      - name: Upload new images and SHA verification
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2422-five-hero-english-clean
+          path: production-v2422/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Commit a new immutable private QA branch
+        if: success()
+        run: |
+          cp -a production-v2422 /tmp/v2422-fixed
+          git worktree add --detach /tmp/v2422-wt HEAD
+          cd /tmp/v2422-wt
+          git switch --orphan production-assets-v2422-hero5-en
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2422-fixed/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve 215 originals, 151 EN edits, 5 photo-safe HERO caption fixes"
+          git push origin HEAD:refs/heads/production-assets-v2422-hero5-en
