@@ -1,0 +1,23 @@
+name: Plugin6 BBIA batch20 official editorial imagery
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch20-editorial.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: python3 -m pip install Pillow requests beautifulsoup4
+      - name: Capture official editorial photo candidates
+        run: python3 scripts/plugin6_bbia_batch20_editorial.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch20-editorial-source-candidates
+          path: plugin6-bbia-batch20-editorial/
+          if-no-files-found: warn
