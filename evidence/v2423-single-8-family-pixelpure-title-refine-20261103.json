@@ -1,0 +1,49 @@
+{
+  "version": "2.4.23",
+  "date": "2026-11-03",
+  "source": {
+    "run_id": 41491009292,
+    "artifact_id": 13164990418,
+    "branch": "production-assets-v2422-hero5-en",
+    "commit": "fa4f292bf8551cb3acaf8c5b816c26645244854b"
+  },
+  "execution": {
+    "run_id": 41493050496,
+    "artifact_id": 13165660833,
+    "branch": "production-assets-v2423-single-qa",
+    "commit": "d0648d3bf3ba18ba67b612fe07ac00b2eee13bfb",
+    "status": "success"
+  },
+  "preserved": {
+    "original215_sha": 215,
+    "previous_en151_sha": 151,
+    "hero5_sha": 5,
+    "full_prior_asset_jpg_count": 371,
+    "existing_public_urls_untouched": 55
+  },
+  "changes": {
+    "pixelpure_radiance_aqua_soothing_cream_50ml_revised_jpg": 2,
+    "files": [
+      "INV_02_1a858dfc39_EN_V2421C_V2423.jpg",
+      "INV_03_2ebc3d949d_EN_V2421C_V2423.jpg"
+    ],
+    "exact_product_pixels_below_y260_unchanged_before_jpeg": true,
+    "prior_repetitive_headings": "A closer look / A closer look",
+    "new_headings": "JAR DETAILS / CREAM TEXTURE",
+    "actual_review_five_frame_candidate_sets": 8
+  },
+  "single_product_status": {
+    "all_eight": "SOURCE_QA_HOLD",
+    "ready_except_logo": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "reason": "Original MK binary not verified, rights, packaging, distinct frames, user inventory still to be verified"
+  },
+  "next_priority": [
+    "Obtain exact commercial rights/physical packaging for Pixelpure cream 50mL",
+    "Replace model-only OBgE Finisher scenes with authenticated distinct product photography",
+    "Verify 8 single-product 5-frame candidates frame-by-frame and official product copy",
+    "Recover genuine MK PNG binary rather than accepting logo printed in legacy JPG as binary proof",
+    "Keep 55 published URLs and existing 11 approved families unchanged"
+  ]
+}
