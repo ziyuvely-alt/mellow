@@ -1,0 +1,23 @@
+name: Plugin6 BBIA batch14 twenty official goods detail galleries
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch14.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image dependencies
+        run: python3 -m pip install Pillow requests beautifulsoup4
+      - name: Capture 20 product galleries by exact goods codes
+        run: python3 scripts/plugin6_bbia_batch14.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch14-twenty-official-product-galleries
+          path: plugin6-bbia-batch14-korean-detail/
+          if-no-files-found: warn
