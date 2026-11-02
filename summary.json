@@ -1,0 +1,19 @@
+{
+  "version": "2.4.16",
+  "reused_jpg": 157,
+  "new_jpg": 1,
+  "unique_file_sha256": 158,
+  "artifact_jpg": 158,
+  "families_with_5plus_jpg": 29,
+  "partial_families": 1,
+  "missing_families": 0,
+  "production_complete_qa_pending": 0,
+  "original_logo_binary_recovered": false,
+  "original_logo_applied_families": 0,
+  "official_shade_complete": 0,
+  "duplicate_pairs_replaced": 0,
+  "new_public_urls": 0,
+  "existing_public_urls_preserved": 55,
+  "source_145ml_official_photo_attempted": true,
+  "note": "v2.4.16 official 145ml image capture; semantic QA, swatches, and authentic binary MK logo remain blocked"
+}
