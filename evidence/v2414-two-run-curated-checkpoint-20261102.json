@@ -1,0 +1,105 @@
+{
+  "version": "2.4.14",
+  "date": "2026-11-02",
+  "repository": "ziyuvely-alt/mellow",
+  "baseline": {
+    "run_id": 41376717218,
+    "artifact_id": 13111566514,
+    "branch": "production-assets-v2413-curated",
+    "previous_cumulative_jpg": 170,
+    "previous_archived_jpg": 133,
+    "public_families": 11,
+    "public_verified_urls": 55
+  },
+  "runs": [
+    {
+      "run_id": 41377744981,
+      "commit": "e7905ec74edc58e6f645ecb631d3b4b979e6a368",
+      "new_jpg": 15,
+      "status": "success",
+      "artifact_id": 13111308530
+    },
+    {
+      "run_id": 41378076722,
+      "commit": "7ff6fbcda58d57e6cde55b120eb3c764a71e58b6",
+      "new_jpg": 7,
+      "status": "success",
+      "artifact_id": 13111543355
+    }
+  ],
+  "final": {
+    "branch": "production-assets-v2414b-curated",
+    "branch_commit": "d94edb29eb830a0717d3c65f6b54b9f0ed4de667",
+    "new_jpg": 22,
+    "previous_archive_jpg_reused": 133,
+    "final_archive_jpg": 155,
+    "archive_unique_sha256": 155,
+    "final_archive_jpg_spec_pass": 155,
+    "cumulative_work_jpg": 192,
+    "physical_five_plus_families": 27,
+    "partial_families": 2,
+    "source_hold_families": 1,
+    "info_complete_families": 0,
+    "official_shade_chart_completed": 0,
+    "actual_original_MK_logo_applied": 0,
+    "production_complete_qa_pending": 0,
+    "sales_qa_approved": 0,
+    "new_public_urls": 0,
+    "existing_public_urls_preserved": 55,
+    "visual_near_duplicate_pairs": 3
+  },
+  "partial": [
+    {
+      "id": "pending-08",
+      "count": 4,
+      "reason": "Peripera 01-20 official exact option/color and swatch chart not verified; one or more distinct-photo frames missing"
+    },
+    {
+      "id": "pending-23",
+      "count": 4,
+      "reason": "OBgE Pore Zero sunscreen info/detail image still missing"
+    }
+  ],
+  "hold": [
+    {
+      "id": "pending-26",
+      "count": 0,
+      "reason": "Pixel Pure cleanser official 145ml and candidate photo 150ml unresolved; must not substitute"
+    }
+  ],
+  "visual_near_duplicates": [
+    {
+      "id": "pending-05",
+      "files": [
+        "INFO_HOWTO_01_V2414B.jpg",
+        "INFO_PACKAGE_01_V2414.jpg"
+      ],
+      "issue": "Visually similar typographic panels, not distinct product-photo frames"
+    },
+    {
+      "id": "pending-15",
+      "files": [
+        "INV_03_8d52f556bc.jpg",
+        "INV_05_cb19b69c09.jpg"
+      ],
+      "issue": "Similar inventory photo composition"
+    },
+    {
+      "id": "pending-21",
+      "files": [
+        "PHOTO_01_V2413.jpg",
+        "PHOTO_02_V2413.jpg"
+      ],
+      "issue": "Near-identical product photo composition"
+    }
+  ],
+  "logo": "Plugin metadata references references/mellowkr-brand/mellowkr-mk-original.png, 280031 bytes; actual binary inaccessible to Github Actions, therefore no substituted or falsely claimed MK application.",
+  "policy": "All new 22 are product-specific information text panels based on documented product information. They do not supply actual product photographs or establish finished five-frame compositions. Original JPGs unchanged; existing public/images and 55 URLs unchanged.",
+  "next": [
+    "Prioritize physical product photo and package/stock verification across 27 five-plus groups, not sheer JPEG totals",
+    "Recover true original MK logo binary from plugin package to runner, with evidence hash",
+    "Verify per-option official swatches against Global SKU especially peripera shades 01-20",
+    "Replace near-duplicate visuals and resolve partial pending-08/pending-23",
+    "Keep pending-26 at hold until exact 145ml package confirmed"
+  ]
+}
