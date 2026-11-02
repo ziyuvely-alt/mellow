@@ -1,0 +1,85 @@
+{
+  "version": "2.4.16",
+  "date": "2026-11-02",
+  "repo": "ziyuvely-alt/mellow",
+  "baseline": {
+    "run_id": 41384409102,
+    "artifact_id": 13115155122,
+    "branch": "production-assets-v2415-curated",
+    "previous_project_cumulative_jpg": 194,
+    "previous_saved_artifact_jpg": 157,
+    "existing_live_families": 11,
+    "existing_live_urls": 55
+  },
+  "current": {
+    "run_id": 41426887273,
+    "artifact_id": 13132328075,
+    "workflow_commit": "0477d7fbf5b0bc86d9c4b4c38d82a96e95a4d955",
+    "branch": "production-assets-v2416",
+    "branch_commit": "2cd656cbde3c6e4ca618a0b0bb83fedb5074ef2b",
+    "status": "success"
+  },
+  "verified": {
+    "old_jpg_sha_unchanged": 157,
+    "new_unique_jpg": 1,
+    "artifact_jpg": 158,
+    "artifact_sha_unique": 158,
+    "technical_jpg_valid": 158,
+    "project_cumulative_based_on_prior_counter": 195,
+    "with_any_photo": 30,
+    "families_with_5plus_physical_images": 29,
+    "partial": 1,
+    "source_missing_0_photo": 0,
+    "production_complete_qa_pending": 0,
+    "sales_final_qa_approved": 0,
+    "official_chart_complete": 0,
+    "original_mk_binary_recovered": false,
+    "original_mk_logo_applied": 0,
+    "duplicate_pairs_replaced": 0,
+    "public_new_urls": 0,
+    "public_original_urls": 55
+  },
+  "photo": {
+    "id": "pending-26",
+    "official_page": "https://eng.pixelpure.com/product/pixelpure-gentle-gel-to-foam-cleanser-145ml/21/",
+    "source_image_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/medium/20250812/30a33e4776530ee82fc763b18f523f01.jpg",
+    "rendered_jpg_sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+    "source_sha256": "6bcb50db894591dd724125629308de7907b427021fef2edcc67f8debecc505cd",
+    "label_read_by_visual": "145ml / 4.90 fl.oz",
+    "status": "OFFICIAL_145ML_SOURCE_IMAGE_CAPTURED_PRE_QA",
+    "caution": "Other brand photos show 150ml. Treat two physical editions as distinct. Match actual Korean stock and rights before final seller release."
+  },
+  "logo": {
+    "exact_plugin_id": "plugins_6ae087bd15e08191a877fe8830c65d9b",
+    "path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_bytes": 280031,
+    "download": "get_owned_plugin_archive yielded short-lived signed archive URL, direct runtime GET failed DNS and web access denied",
+    "binary_recovered": false,
+    "placeholder_generated": false
+  },
+  "qa": {
+    "review_per_family": "family_visual_qa.csv",
+    "near_duplicate_candidates": 5,
+    "known_pending": [
+      "pending-05",
+      "pending-15",
+      "pending-21"
+    ],
+    "additional_hash_candidates": [
+      "pending-01",
+      "pending-02"
+    ],
+    "statuses": {
+      "REVISE": 23,
+      "HOLD": 7
+    },
+    "release_condition": "No existing product family may be marked production complete without original logo, validated package edition, independent frame content and exact official SKU shade chart where applicable."
+  },
+  "next": [
+    "Recover original MK PNG via accessible binary file transfer from plugin archive",
+    "Verify 29 families visually on all five frames rather than hash only",
+    "Resolve official shade chart 01-20 peripera and exact SKU options",
+    "Replace redundant photos with truly independent official detail photos",
+    "Complete 4 other original photographic frames for Pixelpure 145ml, never mix 150ml"
+  ]
+}
