@@ -1,0 +1,15 @@
+{
+  "version": "2.4.14-b",
+  "reused_jpg": 148,
+  "new_jpg": 7,
+  "archive_jpg": 155,
+  "sha256_unique": 155,
+  "with_five_or_more": 27,
+  "partial_jpg_families": 2,
+  "source_pending": 1,
+  "duplicate_candidates": 3,
+  "production_complete_qa_pending": 0,
+  "official_shade_charts_complete": 0,
+  "original_logo_applied": 0,
+  "public_url_preserved": 55
+}
