@@ -1,16 +1,16 @@
-name: Shopee v2417 authentic photo pair and curated 5-frame sets
+name: Shopee v2418 B12 five frame source-photo replacements
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - '.github/workflows/continue-remaining-30-v248.yml'
-      - 'scripts/continue_remaining_30_v2417.py'
+      - 'scripts/continue_remaining_30_v2418.py'
 permissions:
   contents: write
   actions: read
 jobs:
-  photo-curation:
+  repair-b12:
     runs-on: ubuntu-latest
     timeout-minutes: 35
     steps:
@@ -20,38 +20,38 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install Pillow and Korean fonts
+      - name: Setup pillow and Korean fonts
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
-          python -m pip install Pillow requests
-      - name: Restore newest source JPEG checkpoint
+          python -m pip install Pillow
+      - name: Restore previous complete source archive unchanged
         run: |
-          mkdir -p input-v2416c
-          git fetch origin production-assets-v2416c
-          git archive FETCH_HEAD | tar -xf - -C input-v2416c
-      - name: Produce real-image candidates and five-frame review sets
-        run: python scripts/continue_remaining_30_v2417.py
-      - name: Upload actual images and SHA256 provenance
+          mkdir -p input-v2417
+          git fetch origin production-assets-v2417-photo-curation
+          git archive FETCH_HEAD | tar -xf - -C input-v2417
+      - name: Produce 5 versioned replacement frames and 12 five-frame sets
+        run: python scripts/continue_remaining_30_v2418.py
+      - name: Upload actual replaced JPG candidates and SHA comparisons
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2417-curated-five-frame-sets
-          path: production-v2417/
+          name: shopee-v2418-B12-frame-repair
+          path: production-v2418/
           retention-days: 90
           if-no-files-found: warn
-      - name: Persist all original photo bytes and curated candidates
+      - name: Persist next versioned private working branch
         if: success()
         run: |
-          cp -a production-v2417 /tmp/shopee-v2417-backup
-          git worktree add --detach /tmp/shopee-v2417-worktree HEAD
-          cd /tmp/shopee-v2417-worktree
-          git switch --orphan production-assets-v2417-photo-curation
+          cp -a production-v2418 /tmp/shopee-v2418-preserve
+          git worktree add --detach /tmp/shopee-v2418-worktree HEAD
+          cd /tmp/shopee-v2418-worktree
+          git switch --orphan production-assets-v2418-B12
           git rm -rf --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
-          cp -a /tmp/shopee-v2417-backup/. .
+          cp -a /tmp/shopee-v2418-preserve/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Preserve 160 originals and independent DrG Goodal image candidate sets"
-          git push origin HEAD:refs/heads/production-assets-v2417-photo-curation
+          git commit -m "Preserve exact 160 prior JPG and 5 real-photo B12 repairs"
+          git push origin HEAD:refs/heads/production-assets-v2418-B12
