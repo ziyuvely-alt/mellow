@@ -38,6 +38,14 @@ SOURCE_PAGES={
  ],
 }
 HOLD={'pending-26':'145ml versus 150ml packaging conflict; no auto-image production'}
+# Exact SHA-256 prefixes manually screened against product imagery; reject adverts,
+# unrelated vegan packaging, bundled products, diagrams and model-led frames.
+CURATED={
+ 'pending-12':{'aeee02ac48ee','4166c45da556','f9e33b456bc5'},
+ 'pending-13':{'4d228780ef6c','ac47ea3f8fde'},
+ 'pending-14':{'9d197a03300b','5c660ccf24ce','7f391f26af48'},
+}
+
 SESSION=requests.Session()
 SESSION.headers.update({'User-Agent':'Mozilla/5.0 (compatible; ProductEvidenceAudit/1.0)','Accept-Language':'ko-KR,ko;q=0.9,en;q=0.8'})
 FONT='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc'
@@ -162,7 +170,11 @@ for item in QUEUE:
       if any(dist(ph,p0)<=6 and dist(ah,p1)<=8 for p0,p1 in unique_sources):
        source_log.append({'family':fid,'source':final,'result':'NEAR_DUPLICATE_SOURCE','reason':'visual hash'})
        continue
-      sourcehash=sha_bytes(raw);ext={'JPEG':'.jpg','PNG':'.png','WEBP':'.webp'}[test.format]
+      sourcehash=sha_bytes(raw)
+      if fid in CURATED and sourcehash[:12] not in CURATED[fid]:
+       source_log.append({'family':fid,'source':final,'result':'VISUAL_TRIAGE_REJECT','reason':'not exact standalone product imagery'})
+       continue
+      ext={'JPEG':'.jpg','PNG':'.png','WEBP':'.webp'}[test.format]
       spath=source_folder/(sourcehash[:20]+ext)
       if not spath.exists():spath.write_bytes(raw)
       unique_sources.append((ph,ah))
