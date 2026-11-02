@@ -1,0 +1,110 @@
+{
+  "version": "2.4.19",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "input": {
+    "run_id": 41472344728,
+    "artifact_id": 13155587743,
+    "branch": "production-assets-v2418d-alpha-clean",
+    "commit": "889e4d4a9d9e2208baacb165d31ebf81d830c835",
+    "existing_public_family_count": 11,
+    "existing_verified_public_urls": 55,
+    "preserved_original_jpg": 160
+  },
+  "execution": {
+    "run_id": 41479649159,
+    "artifact_id": 13159661312,
+    "branch": "production-assets-v2419-photo-qa",
+    "branch_commit": "4bdae6a2bb096b5a9be861da936a9fc6d1f04875",
+    "workflow_commit": "90717578950765364574178f0d341760e76d60b9",
+    "result": "success"
+  },
+  "verified": {
+    "old_original_jpg_sha256_unchanged": 160,
+    "new_real_photo_candiate_jpg": 2,
+    "b12_reviewed": 12,
+    "c8_reviewed": 8,
+    "d10_reviewed": 10,
+    "b12_five_frame_sets": 12,
+    "real_photo_source_candidates": 2,
+    "final_qa_approved_replacements": 0,
+    "readiness_except_logo": 0,
+    "production_complete_qa_pending": 0,
+    "official_shade_charts_complete": 0,
+    "d10_promoted": 0,
+    "original_mk_logo_binary_recovered": false,
+    "public_new_urls": 0,
+    "existing_public_urls_preserved": 55
+  },
+  "image_candidates": [
+    {
+      "family": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70ml",
+      "image_url": "https://img.dr-g.co.kr/img/hb/GlobalOY/redblemish_cream_70ml_02.jpg?QT=80&SF=webp",
+      "scene": "open jar + product smear",
+      "status": "SOURCE_VERIFIED_VISUAL_QA_PENDING",
+      "hold": "2022 Korean stock package crosscheck, marketing license, original MK logo, final frame role"
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 210ml/70p",
+      "image_url": "https://web.tradekorea.com/product/872/2334872/pixelpure_Glow_Cleansing_Serum_Pad_210ml___70_pads%28skin_care%29_2.jpg",
+      "scene": "hand lifting serum-soaked pad above jar",
+      "status": "SOURCE_VERIFIED_VISUAL_QA_PENDING",
+      "hold": "Commercial image reuse rights, exact inventory print, no MK original logo"
+    }
+  ],
+  "three_similarity_alerts": [
+    {
+      "family": "pending-16",
+      "result": "Different semantic original photos: open jar, model, cream texture, standalone product. New independent scene sourced but replacement not final QA approved."
+    },
+    {
+      "family": "pending-18",
+      "result": "Two typography slides share layout but differ content (SPF vs 50ml). No fake photo replacement."
+    },
+    {
+      "family": "pending-28",
+      "result": "Original photos have different content: pad, jar, texture and usage. Independent scene acquired but final swap not approved."
+    }
+  ],
+  "C_swatch_queue": {
+    "families": [
+      "pending-01",
+      "pending-02",
+      "pending-04",
+      "pending-05",
+      "pending-06",
+      "pending-07",
+      "pending-08",
+      "pending-10"
+    ],
+    "complete": 0,
+    "reason": "Exact Global SKU option rows, current official original shade photos and matching packaging version not jointly verified."
+  },
+  "D_queue": {
+    "families": [
+      "pending-03",
+      "pending-11",
+      "pending-12",
+      "pending-13",
+      "pending-14",
+      "pending-17",
+      "pending-19",
+      "pending-20",
+      "pending-23",
+      "pending-26"
+    ],
+    "promoted": 0,
+    "note": "PIXEL PURE 145ml authentic package source preserved from v2416; not enough distinct QA-approved frames to promote."
+  },
+  "MK_logo": {
+    "status": "LOGO_BINARY_ACCESS_BLOCKED",
+    "reference": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "size_from_plugin_metadata": 280031,
+    "real_binary_read": false,
+    "no_placeholder_created": true,
+    "reason": "Plugin Creator read supports text only; prior signed full-archive download failed DNS in this execution environment. Did not repeat previously failed download."
+  },
+  "QA_gate": "A candidate JPG is not a QA-approved replacement or ready-except-logo item. No product family meets all conditions."
+}
