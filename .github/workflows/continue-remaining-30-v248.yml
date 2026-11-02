@@ -44,8 +44,9 @@ jobs:
         if: success()
         run: |
           cp -a production-v2411 /tmp/production-v2411-checkpoint
-          git switch -C production-assets-v2411
-          git rm -r --cached . >/dev/null 2>&1 || true
+          git fetch origin production-assets-v2411
+          git switch -C production-assets-v2411 FETCH_HEAD
+          git rm -rf -- . >/dev/null 2>&1 || true
           cp -a /tmp/production-v2411-checkpoint/. .
           git add -A
           git config user.name "github-actions[bot]"
