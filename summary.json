@@ -1,0 +1,24 @@
+{
+  "version": "2.4.22",
+  "preserved_215_original_jpg_sha": 215,
+  "preserved_151_active_en_jpg_sha": 151,
+  "hero_images_edited": 5,
+  "hero_image_damage_hold": 0,
+  "hero_option_family_final_qa_hold": [
+    "pending-01",
+    "pending-07",
+    "pending-08"
+  ],
+  "public_16_previously_flagged": 16,
+  "public_16_actual_final_approved_replacements": 0,
+  "public_clio_independent_scene_held_for_inventory_rights": 1,
+  "public_source_39_fully_cleared": 0,
+  "single_product_eight_reviewed": 8,
+  "ready_except_logo": 0,
+  "production_complete_qa_pending": 0,
+  "final_qa_approved": 0,
+  "original_mk_logo_binary": false,
+  "official_shade_charts_complete": 0,
+  "live_55_urls_unchanged": 55,
+  "note": "Five actual HERO captions repainted via constrained mask inpainting; no product pixels above y870 altered beyond JPEG encoding noise. Public 16 require independent confirmed packaging and image reuse rights before final photo swap."
+}
