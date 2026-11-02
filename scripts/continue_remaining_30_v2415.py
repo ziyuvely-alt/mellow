@@ -12,11 +12,10 @@ QUEUE=json.loads((ROOT/'evidence/pending-30-v247.json').read_text(encoding='utf-
 FONT='/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc';BOLD='/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc'
 SOURCES={
  'pending-23':[
- 'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023044705ko.jpg?l=ko',
- 'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023044706ko.jpg?l=ko',
- 'https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023044702ko.jpg?l=ko',
+ 'https://img.hwahae.co.kr/products/2143862/2143862_20250530161437.jpg',
  ],
 }
+
 PAGES={'pending-23':'https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230447'}
 def font(n,bold=False):
  try:return ImageFont.truetype(BOLD if bold else FONT,n)
@@ -55,14 +54,14 @@ def info_tint(path):
 def photo_card(original,path):
  with Image.open(original) as im:
   pic=ImageOps.exif_transpose(im).convert('RGBA');pic.load()
- bg=Image.new('RGB',(1080,1080),(246,235,229))
+ bg=Image.new('RGB',(1080,1080),(255,255,255))
  pic.thumbnail((965,840),Image.Resampling.LANCZOS)
  x=(1080-pic.width)//2;y=42+(840-pic.height)//2
  bg.paste(pic,(x,y),pic)
  d=ImageDraw.Draw(bg)
  d.rectangle((0,897,1080,1080),fill=(229,238,225))
  d.text((76,938),'OBgE  /  PORE ZERO OIL CONTROL SUN',font=font(29,True),fill=(42,64,55))
- d.text((76,1002),'50 mL  ·  Actual retailer product image',font=font(24),fill=(49,70,60))
+ d.text((76,1002),'50 mL  ·  Verified product listing photo',font=font(24),fill=(49,70,60))
  bg.save(path,'JPEG',quality=88,optimize=True)
  assert jpeg_ok(path)
 frame_rows=[];family_rows=[];sources=[];new=0;reused=0
@@ -113,6 +112,6 @@ def save_csv(p,rows,fields):
 save_csv(OUT/'frame_sha256_manifest.csv',frame_rows,['id','filename','sha256','bytes','status'])
 save_csv(OUT/'family_checkpoint.csv',family_rows,['id','name','jpg','new','state','production_complete','original_mk_applied','official_shade_chart'])
 save_csv(OUT/'source_provenance.csv',sources,['family','url','sha256','status'])
-summary={'version':'2.4.15','reused_jpg':reused,'new_jpg':new,'unique_file_sha256':len({x['sha256'] for x in frame_rows}),'artifact_jpg':len(frame_rows),'families_with_5plus_jpg':sum(r['jpg']>=5 for r in family_rows),'partial_families':sum(0<r['jpg']<5 for r in family_rows),'missing_families':sum(r['jpg']==0 for r in family_rows),'production_complete_qa_pending':0,'original_logo_binary_recovered':False,'original_logo_applied_families':0,'official_shade_complete':0,'duplicate_pairs_replaced':0,'new_public_urls':0,'existing_public_urls_preserved':55,'note':'Neither repeated photography nor unverified product matches are considered final merchant artwork'}
+summary={'version':'2.4.15-curated','reused_jpg':reused,'new_jpg':new,'unique_file_sha256':len({x['sha256'] for x in frame_rows}),'artifact_jpg':len(frame_rows),'families_with_5plus_jpg':sum(r['jpg']>=5 for r in family_rows),'partial_families':sum(0<r['jpg']<5 for r in family_rows),'missing_families':sum(r['jpg']==0 for r in family_rows),'production_complete_qa_pending':0,'original_logo_binary_recovered':False,'original_logo_applied_families':0,'official_shade_complete':0,'duplicate_pairs_replaced':0,'new_public_urls':0,'existing_public_urls_preserved':55,'note':'Neither repeated photography nor unverified product matches are considered final merchant artwork'}
 (OUT/'summary.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2),encoding='utf-8')
 print('SUMMARY',json.dumps(summary,ensure_ascii=False),flush=True)
