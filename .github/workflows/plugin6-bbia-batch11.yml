@@ -1,0 +1,23 @@
+name: Plugin6 BBIA batch11 fifteen official option galleries
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch11.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install deps
+        run: python3 -m pip install Pillow requests beautifulsoup4
+      - name: Discover official galleries and download option images
+        run: python3 scripts/plugin6_bbia_batch11.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch11-official-option-sources
+          path: plugin6-bbia-batch11-official/
+          if-no-files-found: warn
