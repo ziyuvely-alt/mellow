@@ -1,0 +1,54 @@
+name: Shopee v2421 customer-facing EN copy refinement
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2421-customer-en.yml'
+      - 'scripts/v2421_customer_english_clean.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  english-retouch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Pillow dependency
+        run: python -m pip install Pillow
+      - name: Restore latest 64 EN drafts and all 215 untouched originals
+        run: |
+          mkdir -p input-v2420-en
+          git fetch origin production-assets-v2420-en-master
+          git archive origin/production-assets-v2420-en-master | tar -xf - -C input-v2420-en
+      - name: Pixel-patch internal footer and unsuitable English copy
+        run: python scripts/v2421_customer_english_clean.py
+      - name: Archive EN customer revisions and QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2421-customer-en-copy-candidates
+          path: production-v2421-customer-copy/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Save immutable versioned branch, no public file edits
+        if: success()
+        run: |
+          cp -a production-v2421-customer-copy /tmp/shopee-v2421-qa
+          git worktree add --detach /tmp/shopee-v2421-wt HEAD
+          cd /tmp/shopee-v2421-wt
+          git switch --orphan production-assets-v2421-customer-en-copy
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/shopee-v2421-qa/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve v2421 modified EN customer copy and all 215 immutable source JPGs"
+          git push origin HEAD:refs/heads/production-assets-v2421-customer-en-copy
