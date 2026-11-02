@@ -33,21 +33,7 @@ F={
 ('05','제품 정보','30 mL','청귤 비타C 잡티케어 아이크림','단품 기준 · 1+1 제외','공식 리뉴얼 25AD 상품정보')]},
 'pending-23':{'title':'OBgE PORE ZERO OIL CONTROL SUN','url':'https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000230447','frames':[
 ('05','제품 정보','50 mL','포어 제로 오일 컨트롤','선크림 단품','유통사 제품정보')]},
-'pending-12':{'title':'MISSHA PDRN NAD+ RENEW PEEL SHOT 25','url':'https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236','frames':[
- ('04','성분 정보','GLUCONOLACTONE','락틱애씨드 · 글루코노락톤','공식 전성분에 함유','기능성 과장 없이 성분명만 표기'),
- ('05','제품 정보','15 mL','미샤 리뉴 필 샷 25','한국 제조 · 단품','브랜드 공식 상품정보')]},
-'pending-13':{'title':'MISSHA PDRN NAD+ FIRMING REPAIR SERUM','url':'https://zigzag.kr/catalog/products/169746464','frames':[
- ('03','제품 구성','30 mL','퍼밍 리페어 세럼','단품 30 mL','브랜드 제품 및 판매정보'),
- ('04','성분 정보','PANTHENOL','나이아신아마이드 함유','공식 전성분에 기재','공식 제품정보 전성분 표기'),
- ('05','제품 정보','PDRN NAD+','미백 · 주름개선','2중 기능성 화장품','제품정보 고시 기준')]},
-'pending-14':{'title':'MISSHA PDRN NAD+ FIRMING REPAIR CREAM','url':'https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238','frames':[
- ('04','성분 정보','PDRN NAD+','나이아신아마이드 함유','제품 전성분 기준','브랜드 공식 자료'),
- ('05','제품 구성','70 mL','퍼밍 리페어 크림','한국 제조 · 단품','브랜드 공식 용량')]},
-'pending-20':{'title':'GOODAL GREEN TANGERINE VITA C MIST 25AD','url':'https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566&salestrNo=6005&siteNo=6004','frames':[
- ('02','제품 정보','100 mL','청귤 비타C 세럼 미스트','25AD 판매 사양','신세계 상품 필수정보'),
- ('03','사용 방법','SHAKE WELL','내용물을 충분히 흔든 후','사용하도록 안내','판매처 상품필수정보'),
- ('04','사용 방법','CLOSE YOUR EYES','눈을 감고 얼굴 전체에','골고루 분사','판매처 상품필수정보'),
- ('05','성분 정보','NIACINAMIDE','나이아신아마이드','20,000 ppm 표기','상품 고시 전성분 기준')]}
+
 }
 def font(n,bold=False):
  try:return ImageFont.truetype(BF if bold else NF,n)
