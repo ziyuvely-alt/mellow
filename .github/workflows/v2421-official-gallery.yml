@@ -1,0 +1,54 @@
+name: Shopee v2421 public 16 official photo alternatives
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2421-official-gallery.yml'
+      - 'scripts/v2421_official_gallery_candidates.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  official-gallery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install candidate gallery dependencies
+        run: python -m pip install Pillow requests beautifulsoup4
+      - name: Restore original approved product images from v2421b
+        run: |
+          mkdir -p input-v2421b
+          git fetch origin production-assets-v2421b-customer-final
+          git archive origin/production-assets-v2421b-customer-final | tar -xf - -C input-v2421b
+      - name: Verify exact manufacturer gallery, generate new photo candidates
+        run: python scripts/v2421_official_gallery_candidates.py
+      - name: Upload only official photo candidates and source proofs
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2421-official-gallery-alternates
+          path: production-v2421-official-gallery/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Save branch isolated from public approved files
+        if: success()
+        run: |
+          cp -a production-v2421-official-gallery /tmp/v2421-gallery
+          git worktree add --detach /tmp/v2421-gallery-wt HEAD
+          cd /tmp/v2421-gallery-wt
+          git switch --orphan production-assets-v2421-official-photo-options
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2421-gallery/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Save v2421 official product detail candidates without altering original 55 URLs"
+          git push origin HEAD:refs/heads/production-assets-v2421-official-photo-options
