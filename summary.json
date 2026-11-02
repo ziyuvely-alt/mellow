@@ -1,0 +1,14 @@
+{
+  "version": "2.4.17",
+  "original_jpg_unchanged": 160,
+  "new_candidate_jpg": 2,
+  "candidate_five_frame_sets": 2,
+  "ready_except_logo": 0,
+  "production_complete_qa_pending": 0,
+  "final_qa_approved": 0,
+  "real_mk_logo_binary_recovered": false,
+  "official_swatch_charts_complete": 0,
+  "resolved_duplicate_pairs": 0,
+  "original_public_urls_unchanged": 55,
+  "note": "Two actual product-photo candidate files and non-destructive five-frame review copies. Not final seller-approved due to image rights/edition/logo."
+}
