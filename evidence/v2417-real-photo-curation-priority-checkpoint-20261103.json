@@ -1,0 +1,290 @@
+{
+  "version": "2.4.17",
+  "timestamp": "2026-11-03",
+  "previous": {
+    "run_id": 41466818468,
+    "archive_source_branch": "production-assets-v2416c",
+    "sha_preserved_jpg": 160,
+    "global_cumulative_project_jpg": 197
+  },
+  "run": {
+    "id": 41468514253,
+    "artifact_id": 13152848784,
+    "workflow_commit": "96dbb6b8671b9f7a88e489ef5ee91142e00499e4",
+    "output_branch": "production-assets-v2417-photo-curation",
+    "output_branch_commit": "9af3168295005cfe1168b3a340bfe3d41d5ea744",
+    "conclusion": "success"
+  },
+  "results": {
+    "preserved_exact_jpg": 160,
+    "new_photo_led_jpg_candidates": 2,
+    "global_cumulative_project_jpg": 199,
+    "two_real_photo_five_frame_review_sets": true,
+    "ready_except_logo": 0,
+    "final_qa_approved": 0,
+    "production_complete_qa_pending": 0,
+    "official_shade_chart_complete": 0,
+    "actual_mk_logo_png_binary_found": false,
+    "duplicate_original_frames_replaced": 0,
+    "new_public_urls": 0,
+    "public_urls_preserved": 55
+  },
+  "source_captures": [
+    {
+      "id": "pending-15",
+      "source_photo": "https://image.msscdn.net/thumbnails/images/prd_img/20230828/3505223/detail_3505223_16932037977475_big.jpg?w=1200",
+      "source_sha256": "ff1bd32db4957d8902197907326cdbf49226fd3e39e60aba46bd0e412cb0000b",
+      "new_jpg_sha256": "eaa4bdd44ae02b804c563ebc39064355032b4e0111f7240c8e76916f092bac9f",
+      "role": "product and texture",
+      "qa": "Packaging 2022 version and rights pending"
+    },
+    {
+      "id": "pending-21",
+      "source_photo": "https://image.coupangcdn.com/image/vendor_inventory/20f5/008034caf02a6153d28358f99a4d400b0a3ffa1447bde37651e353d12feb.jpg",
+      "source_sha256": "20f5008034caf02a6153d28358f99a4d400b0a3ffa1447bde37651e353d12feb",
+      "new_jpg_sha256": "19eee15bcf4db4e7ce17436bb0828d82710eb9590d284ee2ddb99ff73a1377e4",
+      "role": "single product with box",
+      "qa": "25AD edition and source rights pending"
+    }
+  ],
+  "priorities": {
+    "A": 0,
+    "B": 12,
+    "C": 8,
+    "D": 10
+  },
+  "priority_definitions": {
+    "A": "Official photo, source, packaging and informative roles verified (none yet)",
+    "B": "Relatively complete photograph/photo+information candidate requiring targeted edits",
+    "C": "Option chart dependent; hold until Global SKU 1:1 match",
+    "D": "Source or package version remains insufficient"
+  },
+  "families": [
+    {
+      "id": "pending-01",
+      "name": "미샤 매직 쿠션 커버 래스팅",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-02",
+      "name": "미샤 매직 쿠션 모이스트 업",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-03",
+      "name": "미샤 M 퍼펙트 커버 비비크림",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-04",
+      "name": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-05",
+      "name": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-06",
+      "name": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-07",
+      "name": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-08",
+      "name": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-09",
+      "name": "오브제 오일 컨트롤 피니셔 5g",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-10",
+      "name": "오브제 퍼펙트 옴므 쿠션 15g",
+      "priority": "C",
+      "meaning": "Exact Global SKU options and official shade imagery needed",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-11",
+      "name": "오브제 올인원 더블 에센스 50ml+50ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-12",
+      "name": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-13",
+      "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-14",
+      "name": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-15",
+      "name": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-16",
+      "name": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-17",
+      "name": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-18",
+      "name": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-19",
+      "name": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-20",
+      "name": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-21",
+      "name": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-22",
+      "name": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-23",
+      "name": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-24",
+      "name": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-25",
+      "name": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-26",
+      "name": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "priority": "D",
+      "meaning": "Standalone package/source photo edition mismatch or insufficient proof",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-27",
+      "name": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-28",
+      "name": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-29",
+      "name": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    },
+    {
+      "id": "pending-30",
+      "name": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "priority": "B",
+      "meaning": "Photographic frame edit candidate; genuine MK logo and final license/package QA remain pending",
+      "passed_visual_qa": false
+    }
+  ],
+  "logo_status": {
+    "original_png_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_bytes": 280031,
+    "bin_extraction": false,
+    "connector_read_path": "binary PNG rejected by plugin text-read interface",
+    "archive": "Signed archive URL obtainable; direct binary transfer inaccessible in sandbox",
+    "library_check": "No exact original PNG library hit; unrelated MellowKR PNGs do not substitute",
+    "status": "LOGO_BINARY_ACCESS_BLOCKED"
+  },
+  "next": [
+    "Secure original PNG binary with supported connector or original file supplied as attachment and compare hash/alpha to approved logo",
+    "QA actual 2022 Dr.G stock package and Goodal 25AD box version; images currently genuine candidate not final seller clearance",
+    "Obtain 01-20 peripera official color chart and exact SKU options; check Korean MISSHA/CLIO/OBgE variants",
+    "Source distinct image alternatives for pending-05; do not claim all 12 similar pairs resolved",
+    "Keep 55 approved public URLs untouched"
+  ]
+}
