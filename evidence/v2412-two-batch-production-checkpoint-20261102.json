@@ -1,0 +1,133 @@
+{
+  "version": "2.4.12",
+  "date": "2026-11-02",
+  "batch_1": {
+    "run_id": 41374018170,
+    "artifact_id": 13109843274,
+    "commit": "54c9cfff16814c501a0e556a8515bae096a84b9f",
+    "new_jpg": 13
+  },
+  "batch_2": {
+    "run_id": 41374281649,
+    "artifact_id": 13110199564,
+    "commit": "e3f13202ff08631220c6fa13b863ff78099d5936",
+    "new_jpg": 11
+  },
+  "current": {
+    "run_status": "success",
+    "original_jpg_preserved": 92,
+    "new_jpg": 24,
+    "artifact_jpg": 116,
+    "unique_sha256": 116,
+    "technical_jpg_pass": 116,
+    "with_any_jpg": 28,
+    "physical_five_plus_families": 17,
+    "partial_under_five": 11,
+    "source_hold": 2,
+    "official_swatch_completed": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "public_uploaded": 0,
+    "baseline_public_urls": 55
+  },
+  "information_sources": [
+    {
+      "family": "pending-09",
+      "url": "https://obge.co.kr/product/detail.html?product_no=1865",
+      "frames": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-15",
+      "url": "https://www.dr-g.co.kr/item/9637",
+      "frames": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-16",
+      "url": "https://www.dr-g.co.kr/item/9826?cc=26&pc=5",
+      "frames": [
+        "05"
+      ]
+    },
+    {
+      "family": "pending-18",
+      "url": "https://www.dr-g.co.kr/item/3622?cc=19&pc=4",
+      "frames": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-22",
+      "url": "https://obge.co.kr/product/detail.html?product_no=1251",
+      "frames": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-12",
+      "url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+      "frames": [
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-13",
+      "url": "https://zigzag.kr/catalog/products/169746464",
+      "frames": [
+        "03",
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-14",
+      "url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238",
+      "frames": [
+        "04",
+        "05"
+      ]
+    },
+    {
+      "family": "pending-20",
+      "url": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566&salestrNo=6005&siteNo=6004",
+      "frames": [
+        "02",
+        "03",
+        "04",
+        "05"
+      ]
+    }
+  ],
+  "source_pending": [
+    {
+      "id": "pending-21",
+      "reason": "Shilla duty free direct 25AD eye cream 30ml product identity and method found, but standalone product JPG not yet captured or packaging-proven",
+      "lead": "https://m.shilladfs.com/estore/kr/ko/p/5754369"
+    },
+    {
+      "id": "pending-26",
+      "reason": "Official website lists 145 ml but prior candidate photo label appeared 150 ml; exact package mismatch unresolved",
+      "lead": "https://www.pixelpure.com/product/detail.html?product_no=21"
+    }
+  ],
+  "needs_next": [
+    "Inspect source packaging authenticity, rights and exact Korean variants on existing drafts",
+    "Replace repetitive source-led photo scenes with unique actual detail images",
+    "Create official shade charts only from actual SKU option references",
+    "Recover original binary MK logo from plugin reference archive",
+    "Keep explicit product method role awaiting official evidence where absent"
+  ],
+  "policy": "New images are distinct information typography and grounded text only. They are not proof of five standalone visually verified sales frames. All old JPG preserved. No public/images changes."
+}
