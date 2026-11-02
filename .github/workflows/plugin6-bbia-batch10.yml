@@ -1,0 +1,23 @@
+name: Plugin6 BBIA Batch10 official three-family options
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch10.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: python3 -m pip install Pillow requests beautifulsoup4
+      - name: Collect official options
+        run: python3 scripts/plugin6_bbia_batch10.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch10-official-options
+          path: plugin6-bbia-batch10-source/
+          if-no-files-found: warn
