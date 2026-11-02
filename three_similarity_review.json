@@ -1,0 +1,20 @@
+[
+  {
+    "family": "pending-16",
+    "interpretation": "Distinct actual scenes: open jar, model, texture and package",
+    "resolved_by_replacement": false,
+    "need_replacement": false
+  },
+  {
+    "family": "pending-18",
+    "interpretation": "Same information template but different data: UV vs capacity",
+    "resolved_by_replacement": false,
+    "need_replacement": false
+  },
+  {
+    "family": "pending-28",
+    "interpretation": "Original photos are distinct: pad, jar, closeup, fibers",
+    "resolved_by_replacement": false,
+    "need_replacement": false
+  }
+]

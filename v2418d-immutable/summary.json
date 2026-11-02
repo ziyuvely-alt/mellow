@@ -1,0 +1,16 @@
+{
+  "version": "2.4.18d",
+  "source_previous_files_preserved": 295,
+  "new_alpha_corrected_jpg": 1,
+  "final_b12_five_frame_sets": 12,
+  "original_png_has_alpha": true,
+  "source_sha256": "aed157d7d1dd648313e5ee78681ff257d58fa567f39462881bea8fa76f012a9d",
+  "corrected_jpg_sha256": "ec89f049dfc14c5566789552bd06faef440880e7c703c09c0693b52d3b644369",
+  "black_background_issue_fixed": true,
+  "actual_source_photography_unchanged": true,
+  "logo_binary_restored": false,
+  "production_complete_qa_pending": 0,
+  "ready_except_logo": 0,
+  "official_swatch_chart_completed": 0,
+  "public_urls_preserved": 55
+}
