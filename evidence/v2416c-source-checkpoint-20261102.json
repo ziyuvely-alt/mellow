@@ -1,0 +1,65 @@
+{
+  "version": "2.4.16-continuation",
+  "requested_start": "2.4.15",
+  "actual_safe_start": "2.4.16",
+  "reason": "The v2.4.16 success checkpoint is newer than the user's re-supplied v2.4.14 checkpoint; never roll back existing 195 project JPGs.",
+  "baseline": {
+    "run_id": 41426887273,
+    "artifact_id": 13132328075,
+    "production_branch": "production-assets-v2416",
+    "archive_jpg": 158,
+    "project_global_cumulative": 195
+  },
+  "output": {
+    "run_id": 41459087143,
+    "artifact_id": 13148512259,
+    "workflow_commit": "07a366cee97f1ef3851557aec092758108e92a7c",
+    "production_branch": "production-assets-v2416c",
+    "production_branch_sha": "db7005c4091785d9d6eee2e60d47e10cb0af8903",
+    "status": "success",
+    "new_jpg": 2,
+    "archive_jpg": 160,
+    "preserved_prior_sha_unchanged": 158,
+    "unique_sha256": 160,
+    "technical_pass": 160,
+    "new_project_global_cumulative": 197,
+    "production_complete_qa_pending": 0,
+    "logo_applied": 0,
+    "official_shade_complete": 0,
+    "duplicate_issues_replaced": 0,
+    "public_new_urls": 0,
+    "public_original_urls": 55
+  },
+  "new_frames": [
+    {
+      "family": "pending-26",
+      "file": "PIXELPURE_INFO_02_V2416C.jpg",
+      "sha256": "e3899656cf6cb22a75b4d488306fecb525bf5730bf07cf1d1f2aeac96ba4bb26",
+      "evidence": "https://eng.pixelpure.com/product/pixelpure-gentle-gel-to-foam-cleanser-145ml/21/",
+      "status": "TEXT_ONLY_DRAFT_NOT_RELEASE_APPROVED"
+    },
+    {
+      "family": "pending-26",
+      "file": "PIXELPURE_INFO_03_V2416C.jpg",
+      "sha256": "c81faaad021d96c23e4bcad01fc9352ef6f90e65a7bf9e925ecb84ed281cd3ed",
+      "evidence": "Official product page buyer review summary; not brand efficacy claim",
+      "status": "TEXT_ONLY_DRAFT_NOT_RELEASE_APPROVED"
+    }
+  ],
+  "logo": {
+    "plugin_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_size": 280031,
+    "archive_url_generated": true,
+    "binary_download": false,
+    "reason": "The sandbox container could not DNS-resolve temporary signed plugin archive host; plugin text interface rejects binary PNG",
+    "not_fabricated": true
+  },
+  "remaining": [
+    "Restore actual MK logo binary through accessible supported channel",
+    "Complete official shade chart keyed to Global SKU options",
+    "Review 29 families' photo variety and packaging before release",
+    "Replace three known redundant visual pairs rather than cropping",
+    "Finish Pixelpure 145ml with distinct official product detail photos"
+  ],
+  "restriction": "No existing JPG overwritten, no public/images writes or deployment performed."
+}
