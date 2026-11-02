@@ -1,0 +1,54 @@
+name: Shopee v2421c photo caption EN correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2421c-photo-captions.yml'
+      - 'scripts/v2421c_photo_87_en_caption.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  photo-english:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Restore already refined 64 EN plus 215 originals
+        run: |
+          mkdir -p input-v2421b
+          git fetch origin production-assets-v2421b-customer-final
+          git archive origin/production-assets-v2421b-customer-final | tar -xf - -C input-v2421b
+      - name: Render EN outer captions without touching product photos
+        run: python scripts/v2421c_photo_87_en_caption.py
+      - name: Upload 87 actual JPG corrections with original SHA
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2421c-87-english-photo-captions
+          path: production-v2421c-photo-en/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Save immutable source and versioned EN corrections
+        if: success()
+        run: |
+          cp -a production-v2421c-photo-en /tmp/v2421c-photo
+          git worktree add --detach /tmp/v2421c-wt HEAD
+          cd /tmp/v2421c-wt
+          git switch --orphan production-assets-v2421c-photo-en
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2421c-photo/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve 215 original JPG and 151 modified English information+photo frames"
+          git push origin HEAD:refs/heads/production-assets-v2421c-photo-en
