@@ -21,7 +21,7 @@ def one(args):
   for tag in soup.find_all("img"):
    alt=(tag.get("alt") or "").strip()
    if prefix.lower() not in alt.lower():continue
-   m=re.search(r" - (\\d{2}) (.+)$",alt)
+   m=re.search(r" - ([0-9]{2}) (.+)$",alt)
    if not m:continue
    n=int(m.group(1));imgurl=urljoin(r.url,tag.get("src") or tag.get("data-src") or "")
    if not imgurl.startswith("http"):continue
