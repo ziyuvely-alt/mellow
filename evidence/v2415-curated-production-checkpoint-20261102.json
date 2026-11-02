@@ -1,0 +1,78 @@
+{
+  "version": "2.4.15",
+  "date": "2026-11-02",
+  "repo": "ziyuvely-alt/mellow",
+  "source": {
+    "run_id": 41378076722,
+    "artifact_id": 13111543355,
+    "branch": "production-assets-v2414b-curated",
+    "commit": "d94edb29eb830a0717d3c65f6b54b9f0ed4de667",
+    "prior_project_cumulative_jpg": 192,
+    "source_archive_jpg": 155
+  },
+  "final_run": {
+    "id": 41384409102,
+    "artifact_id": 13115155122,
+    "status": "success",
+    "source_code_commit": "1a0bea9afa6edb6e1b66b249bf8e947caac839de",
+    "branch": "production-assets-v2415-curated",
+    "branch_commit": "c7cf7e44057ff733dd68c548f784e387b3b4d8d1"
+  },
+  "verified": {
+    "previous_jpg_reused_sha_identical": 155,
+    "new_jpg": 2,
+    "new_jpg_by_family": {
+      "pending-08": 1,
+      "pending-23": 1
+    },
+    "current_archive_jpg": 157,
+    "current_archive_sha_unique": 157,
+    "current_archive_jpeg_1080_under2mb": 157,
+    "global_cumulative_jpg_based_on_prev_checkpoint": 194,
+    "five_plus_physical_files": 29,
+    "partial_1_to_4": 0,
+    "source_mismatch_0": 1,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "official_chart_complete": 0,
+    "original_logo_applied": 0,
+    "duplicate_pairs_replaced": 0,
+    "existing_public_urls": 55,
+    "new_public_urls": 0
+  },
+  "sources": [
+    {
+      "family": "pending-23",
+      "photo": "https://img.hwahae.co.kr/products/2143862/2143862_20250530161437.jpg",
+      "sha256": "d6c40a03743ff6f7ece32c5ae979a2ee9584a377a8377379b867f6816c20104a",
+      "status": "Product standalone photo candidate captured; not final commercial rights approved"
+    },
+    {
+      "family": "pending-08",
+      "page": "https://clubclio.co.kr/shop/brandsList/all/brand/2",
+      "status": "4g and seller-scoped 01~20 only; official swatch still pending"
+    }
+  ],
+  "logo": {
+    "source": "Plugin Creator private plugin references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_size_bytes": 280031,
+    "metadata_read": true,
+    "actual_binary_recovered": false,
+    "reason": "Plugin Creator get_plugin_files rejects binary PNG; plugin archive returned expiring URL but runtime could not download; no fake logo generated"
+  },
+  "holds": [
+    {
+      "family": "pending-26",
+      "reason": "Official 145ml but available candidate label 150ml; packaging equivalence not proven"
+    },
+    {
+      "family": "pending-08",
+      "reason": "01~20 option chart not verified against exact Global SKU options; final completion blocked"
+    },
+    {
+      "family": "pending-05,pending-15,pending-21",
+      "reason": "Known visual redundancy still unresolved, 0 frames confidently replaced"
+    }
+  ],
+  "quality": "All old 155 JPG verified SHA identical. New info panel and product standalone candidate only; no false claim of seller-ready complete."
+}
