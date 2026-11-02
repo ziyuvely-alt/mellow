@@ -1,0 +1,28 @@
+{
+  "version": "2.4.20",
+  "public_55_http_originals_sha_preserved": 55,
+  "pending_source_jpg_preserved": 160,
+  "original_info_frames_mapped": 64,
+  "original_info_frames_found": 64,
+  "english_rendered_jpg": 64,
+  "language_qa_hold_on_information_frames": 0,
+  "unmapped_original_photography_or_hero": 96,
+  "public_overlay_provisional_en": 55,
+  "public_visual_revision_identified": 16,
+  "public_source_final_verification_pending": 39,
+  "public_product_mismatch_proven": 0,
+  "public_originals_modified": 0,
+  "new_public_urls": 0,
+  "en_master_complete_families_final_qa": 0,
+  "master_language": "EN",
+  "country_translations_deferred": [
+    "TW",
+    "TH",
+    "VN",
+    "BR"
+  ],
+  "country_excluded": [
+    "MX"
+  ],
+  "note": "Source reconstruction: intentionally embedded Korean in 64 text-only INFO frames rewritten as English. Original photographic frames and 55 published images unchanged; accurate package and final English visual QA still gated."
+}
