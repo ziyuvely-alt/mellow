@@ -1,0 +1,13 @@
+﻿family,frames,improved_candidate,replacement_slot,review_result,ready_except_logo,official_swatch_complete,reason
+pending-09,5,True,INV_05_121547b5c9.jpg,REVISE,False,False,5g product; source photo original from owned86
+pending-15,5,True,INV_01_6b3a4a3666.jpg,REVISE,False,False,"Prior 2022 package, cannot assert latest 2026 packaging"
+pending-16,5,False,,REVISE,False,False,Four different real product image roles plus volume panel already present; no justified replacement
+pending-18,5,True,INV_01_254aee0e0f.jpg,REVISE,False,False,"Brightening Up Sun PLUS, not Moisture Sun"
+pending-21,5,True,PHOTO_01_V2413.jpg,REVISE,False,False,Caution: physical 25AD packaging not verified by stock sample
+pending-22,5,True,INV_05_8629d1d381.jpg,REVISE,False,False,"300ml package detail verified against owned86 picture, stock version still QA pending"
+pending-24,5,False,,REVISE,False,False,"Existing product images include distinct package, texture and detail scenes; verify stock packaging later"
+pending-25,5,False,,REVISE,False,False,Five visually different actual product scenes present; preserve without regeneration
+pending-27,5,False,,REVISE,False,False,Five different toner product scenes present; no evidence-backed replacement needed
+pending-28,5,False,,REVISE,False,False,Five pad/jar product detail scenes present; no evidence-backed replacement needed
+pending-29,5,False,,REVISE,False,False,Five soothing cream scenes present; no evidence-backed replacement needed
+pending-30,5,False,,REVISE,False,False,Five serum product / texture scenes present; no evidence-backed replacement needed

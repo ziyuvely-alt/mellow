@@ -1,0 +1,18 @@
+{
+  "version": "2.4.18",
+  "original_jpg_unchanged": 160,
+  "new_photo_led_jpg": 5,
+  "versioned_frame_slots_replaced": 5,
+  "improved_B_families": 5,
+  "B_families_reviewed": 12,
+  "unchanged_B_families": 7,
+  "five_frame_candidate_sets": 12,
+  "near_duplicate_candidate_pairs_in_sets": 0,
+  "final_qa_approved": 0,
+  "ready_except_logo": 0,
+  "production_complete_qa_pending": 0,
+  "true_mk_logo_binary": false,
+  "official_swatch_charts_complete": 0,
+  "published_public_urls_unchanged": 55,
+  "note": "Five distinct source-photo improvements in versioned sets; packaging editions, original logo, exact SKUs and redistribution rights require final QA."
+}
