@@ -46,7 +46,7 @@ jobs:
           cp -a production-v2414b /tmp/shopee-v2414b-preserve
           git worktree add --detach /tmp/shopee-v2414b-worktree HEAD
           cd /tmp/shopee-v2414b-worktree
-          git switch --orphan production-assets-v2414b
+          git switch --orphan production-assets-v2414b-curated
           git rm -r --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
           cp -a /tmp/shopee-v2414b-preserve/. .
@@ -54,4 +54,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Save v2414b source-faithful information drafts and original images"
-          git push origin HEAD:refs/heads/production-assets-v2414b
+          git push origin HEAD:refs/heads/production-assets-v2414b-curated
