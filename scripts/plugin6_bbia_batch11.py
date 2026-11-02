@@ -33,7 +33,7 @@ for page in pages:
   soup=BeautifulSoup(res.text,'html.parser')
   for a in soup.select('a[href]'):
    href=urljoin(res.url,a['href'])
-   match=re.search(r'products_id=(\\d+)',href)
+   match=re.search(r'products_id=([0-9]+)',href)
    if not match:continue
    title=' '.join(a.get_text(' ',strip=True).split())
    img=a.find('img')
