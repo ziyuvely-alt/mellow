@@ -1,0 +1,110 @@
+{
+  "version": "2.4.22",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "start": {
+    "source_run": 41488447493,
+    "source_artifact": 13162449979,
+    "source_branch": "production-assets-v2421c-photo-en",
+    "source_commit": "2e5842d8d997fa7fab0a3bc2e7f24af46c13c767",
+    "original_jpg_count": 215,
+    "english_active_jpg": 151
+  },
+  "run": {
+    "id": 41491009292,
+    "artifact_id": 13164990418,
+    "branch": "production-assets-v2422-hero5-en",
+    "commit": "fa4f292bf8551cb3acaf8c5b816c26645244854b",
+    "workflow_commit": "9ceeb96d23e2317f5f519576c2710e8c09e4c4d9",
+    "status": "success"
+  },
+  "counts": {
+    "originals_sha_preserved": 215,
+    "prior_en_sha_preserved": 151,
+    "new_hero_jpg": 5,
+    "hero_en_patch_pass": 5,
+    "hero_original_korean_customer_caption_removed": 5,
+    "hero_no_damage_verified_top_870_pixel_diff_threshold": 3.5,
+    "pending_30_family_en_candidate_archive_jpg": 160,
+    "public_16_photo_repeat_targets": 16,
+    "public_review_candidate_clio_independent_photo_reused": 1,
+    "public_actual_image_replacement_qa_approved": 0,
+    "public_39_source_verification_pass": 0,
+    "primary_8_single_product_family_reviewed": 8,
+    "ready_except_logo": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "original_mk_png_binary_recovered": false,
+    "official_shade_chart_complete": 0,
+    "public_url_preserved": 55,
+    "new_public_urls": 0
+  },
+  "hero_frames": [
+    {
+      "id": "pending-01",
+      "name": "MISSHA Magic Cushion Cover Lasting",
+      "status": "EN_HERO_CAPTION_PATCHED_VISUAL_QA_PENDING",
+      "hold": "Old image displays #21,#23,#25,#27. Verify exact Global SKU options and official chart before approval"
+    },
+    {
+      "id": "pending-07",
+      "name": "CLIO Mesh Blur Cushion Set",
+      "status": "EN_HERO_CAPTION_PATCHED_VISUAL_QA_PENDING",
+      "hold": "Exact kit package and official shades unverified"
+    },
+    {
+      "id": "pending-08",
+      "name": "peripera Mood Glowy Tint 4g",
+      "status": "EN_HERO_CAPTION_PATCHED_VISUAL_QA_PENDING",
+      "hold": "Old photographic swatches shown. Restrict sellable options 01-20; verify every official swatch"
+    },
+    {
+      "id": "pending-19",
+      "name": "goodal Vita C Dark Spot Cream Alpha 50mL",
+      "status": "EN_HERO_CAPTION_PATCHED_VISUAL_QA_PENDING",
+      "hold": "Global-only 25AD actual packaging and reuse rights need confirmation"
+    },
+    {
+      "id": "pending-23",
+      "name": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+      "status": "EN_HERO_CAPTION_PATCHED_VISUAL_QA_PENDING",
+      "hold": "Package version and commercial source rights remain pending"
+    }
+  ],
+  "public": {
+    "original_55_url_status": "IMMUTABLE_NO_CHANGES",
+    "historical_exact_55_list": "RECONSTRUCTED_PUBLIC_BASELINE_NO_HISTORICAL_MATCH_YET",
+    "old_repetitive_clio_5_same_scene": true,
+    "new_review_only_clio_closed_compacts": 1,
+    "clio_final_approval": false,
+    "reason": "Official source alternative depicts two closed packages; mini stock edition and content quantity unclear; not safe to swap active image. Three Lamelin candidate photos remain similar and six wrong-product photos excluded."
+  },
+  "photos": {
+    "original_photo_96_reviewed": 96,
+    "english_caption_87_preserved": 87,
+    "english_original_4_preserved": 4,
+    "new_hero_5": true
+  },
+  "logo": {
+    "status": "LOGO_BINARY_ACCESS_BLOCKED",
+    "expected_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "expected_metadata_bytes": 280031,
+    "checked_files_in_current_local_archives": true,
+    "found_binary": false,
+    "not_fabricated": true
+  },
+  "shades": {
+    "C8_completed": 0,
+    "peripera_selling_options": "01-20 only",
+    "global_sku_excel_option_crosscheck_complete": false
+  },
+  "next": [
+    "Verify MISSHA cushion official shade set and stock: old HERO displays #21 #23 #25 #27",
+    "Recover original MK PNG via new accessible binary connection; no reattempt of known-failed signed URL",
+    "Clear photo rights and exact mini edition for publicly held Clio independent frame",
+    "Source independent actual detail photographs for 16 public visual revisions; no fake crop diversity",
+    "Clear actual package, licensing, roles and original MK for 8 single-product QA sets",
+    "Only after exact Global SKU verification make official 6th shade image for C-grade products"
+  ],
+  "warning": "Five HERO JPGs are actual new versioned edits. Public 16 is still not improved to final QA because rights/package condition unresolved; do not claim final sales QA approval."
+}
