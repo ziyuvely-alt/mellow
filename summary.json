@@ -1,0 +1,18 @@
+{
+  "version": "2.4.11",
+  "queue": 30,
+  "reused_jpg": 80,
+  "new_jpg": 15,
+  "unique_sha256_in_artifact": 95,
+  "newly_started_families": 3,
+  "with_any_jpg": 26,
+  "five_frames_physical": 15,
+  "production_complete_qa_pending": 0,
+  "source_pending": 4,
+  "visual_duplicate_pairs": 0,
+  "source_bytes_captured": 15,
+  "qa_approved": 0,
+  "new_public_urls": 0,
+  "existing_public_urls": 55,
+  "notes": "No fabricated claims, swatches, logo or packaging. 5 JPG files alone never count as PRODUCTION_COMPLETE_QA_PENDING."
+}

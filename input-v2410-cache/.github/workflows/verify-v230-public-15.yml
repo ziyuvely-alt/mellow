@@ -1,0 +1,26 @@
+name: Verify 15 public Shopee URLs for v2.3.0
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/verify_v230_public_15.py'
+      - 'evidence/v230-public-url-15.json'
+      - '.github/workflows/verify-v230-public-15.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install Pillow
+      - name: Check anonymous HTTPS MIME JPEG dimensions byte count SHA256
+        run: python3 scripts/verify_v230_public_15.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v230-15-public-url-qa
+          path: v230-url-check.json
+          if-no-files-found: warn

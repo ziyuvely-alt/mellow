@@ -1,0 +1,55 @@
+name: Shopee v2410 inventory-first continuous JPG production
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/continue-remaining-30-v248.yml'
+      - 'scripts/continue_remaining_30_v2410.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  continuous-production:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow and Korean fonts
+        run: |
+          sudo apt-get update -qq
+          sudo apt-get install -y fonts-noto-cjk
+          python -m pip install Pillow
+      - name: Restore existing JPG from persistent branch
+        run: |
+          mkdir -p input-v249-cache
+          git fetch origin production-assets-v249
+          git archive FETCH_HEAD | tar -xf - -C input-v249-cache
+      - name: Run complete queue with inventory source image reuse
+        run: python scripts/continue_remaining_30_v2410.py
+      - name: Upload complete 30-family checkpoint artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2410-full-production
+          path: production-v2410/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Persist new production work to separate versioned branch
+        if: success()
+        run: |
+          mkdir -p /tmp/production-2410
+          cp -a production-v2410/. /tmp/production-2410/
+          git switch -C production-assets-v2410
+          git rm -r --cached . >/dev/null 2>&1 || true
+          cp -a /tmp/production-2410/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Persist 2.4.10 production checkpoint outside public images"
+          git push origin HEAD:refs/heads/production-assets-v2410

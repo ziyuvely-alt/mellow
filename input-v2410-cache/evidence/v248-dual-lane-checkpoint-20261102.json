@@ -1,0 +1,166 @@
+{
+  "version": "2.4.8",
+  "base": {
+    "approved_families": 11,
+    "verified_urls": 55
+  },
+  "latest_run": {
+    "modified_jpg": 10,
+    "qa_approved": 0,
+    "public_uploaded": 0,
+    "render_deployed": 0,
+    "new_url_verified": 0
+  },
+  "families": [
+    {
+      "id": "pending-01",
+      "state": "SOURCE_PENDING",
+      "reason": "cover-lasting shade reference only"
+    },
+    {
+      "id": "pending-02",
+      "state": "SOURCE_PENDING",
+      "reason": "moist-up packaging and shade unverified"
+    },
+    {
+      "id": "pending-03",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-04",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-05",
+      "state": "SOURCE_PENDING",
+      "reason": "Founwear set contents unverified"
+    },
+    {
+      "id": "pending-06",
+      "state": "JPG_QA_HOLD",
+      "reason": "10 real-photo rework JPGs saved locally; original logo binary inaccessible in runtime; product-photo release QA pending"
+    },
+    {
+      "id": "pending-07",
+      "state": "SOURCE_PENDING",
+      "reason": "six unrelated images excluded; remaining photo insufficient"
+    },
+    {
+      "id": "pending-08",
+      "state": "SOURCE_PENDING",
+      "reason": "official 01-20 shade chart pending"
+    },
+    {
+      "id": "pending-09",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-10",
+      "state": "SOURCE_PENDING",
+      "reason": "Homme cushion options unverified"
+    },
+    {
+      "id": "pending-11",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-12",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-13",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-14",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-15",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-16",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-17",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-18",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-19",
+      "state": "SOURCE_PENDING",
+      "reason": "Goodal global 25AD package mismatch check"
+    },
+    {
+      "id": "pending-20",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-21",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-22",
+      "state": "JPG_QA_HOLD",
+      "reason": "10 real-photo rework JPGs saved locally; original logo binary inaccessible in runtime; product-photo release QA pending"
+    },
+    {
+      "id": "pending-23",
+      "state": "SOURCE_PENDING",
+      "reason": "OBgE Pore Zero product edition verification"
+    },
+    {
+      "id": "pending-24",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-25",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-26",
+      "state": "SOURCE_PENDING",
+      "reason": "PIXEL PURE 145ml vs 150ml mismatch"
+    },
+    {
+      "id": "pending-27",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-28",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-29",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    },
+    {
+      "id": "pending-30",
+      "state": "SOURCE_PENDING",
+      "reason": "No complete official verified image set in current evidence"
+    }
+  ]
+}

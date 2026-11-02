@@ -1,0 +1,48 @@
+{
+  "source_image": "https://www.toktokbeauty.com/cdn/shop/files/8809970759770_0.png?v=1743131689&width=1200",
+  "source_page": "https://www.toktokbeauty.com/products/kill-cover-founwear-cushion-the-original-mini-more-colors",
+  "official_product_page": "https://clubclio.co.kr/event/eventDetail/721",
+  "shade_specific_claims": "NONE",
+  "files": [
+    {
+      "path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245-20261101/01.jpg",
+      "sha256": "85909324d485e658e610ab04ed87c38fc47ebda81c24fc4f1bc222ef9b8813aa",
+      "bytes": 85028,
+      "local_qa": "PASS",
+      "public_verification": "NOT_VERIFIED",
+      "visual_approval": "PENDING_FINAL"
+    },
+    {
+      "path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245-20261101/02.jpg",
+      "sha256": "3a46a8bb4099bec1cbbcd1a3ba04e835e468ca97619d8ce6903589c542a5b660",
+      "bytes": 83750,
+      "local_qa": "PASS",
+      "public_verification": "NOT_VERIFIED",
+      "visual_approval": "PENDING_FINAL"
+    },
+    {
+      "path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245-20261101/03.jpg",
+      "sha256": "d972870db2aee20ad1ef8290c00ed99f965cfcbf2efc8b43bb14fc10a8a0e7a3",
+      "bytes": 83334,
+      "local_qa": "PASS",
+      "public_verification": "NOT_VERIFIED",
+      "visual_approval": "PENDING_FINAL"
+    },
+    {
+      "path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245-20261101/04.jpg",
+      "sha256": "ba8f9f58442ee25bf6a9231f24df8283cfdef12c630aaa6cb3635365e972f74b",
+      "bytes": 83369,
+      "local_qa": "PASS",
+      "public_verification": "NOT_VERIFIED",
+      "visual_approval": "PENDING_FINAL"
+    },
+    {
+      "path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245-20261101/05.jpg",
+      "sha256": "186c8c37e6de791cd3abb7083f51d138ecc627ced6db44eb098c86fd99d4b16d",
+      "bytes": 78879,
+      "local_qa": "PASS",
+      "public_verification": "NOT_VERIFIED",
+      "visual_approval": "PENDING_FINAL"
+    }
+  ]
+}

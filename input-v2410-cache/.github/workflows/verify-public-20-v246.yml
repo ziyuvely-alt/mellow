@@ -1,0 +1,68 @@
+name: Verify 20 new Shopee public images after Render recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/verify-public-20-v246.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Verify 20 public image files against GitHub source bytes
+        run: |
+          python - <<'PY'
+          import concurrent.futures,hashlib,io,json,time,urllib.request
+          from pathlib import Path
+          from PIL import Image
+          groups=[
+            ('라멜린 바이오톡스 크림 50ml','lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101'),
+            ('라멜린 이들샷 헤어 세럼 22','lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101'),
+            ('라멜린 바이오톡스 마스크팩','lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101'),
+            ('클리오 킬커버 파운웨어쿠션 디 오리지널 미니','clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101')]
+          def audit(item):
+            name,folder,num=item
+            local=Path('public/images')/folder/f'{num:02d}.jpg'
+            source=local.read_bytes()
+            local_sha=hashlib.sha256(source).hexdigest()
+            image=Image.open(io.BytesIO(source));image.load()
+            locpass=(image.format=='JPEG' and image.size==(1080,1080) and len(source)<2000000)
+            url=f'https://mellow-bbia-images.onrender.com/images/{folder}/{num:02d}.jpg'
+            result={'product':name,'image_number':num,'repo_path':str(local),'public_https_url':url,'sha256_expected':local_sha,'local_bytes':len(source),'local_jpg_pass':locpass,'public_verified':False}
+            for attempt in range(3):
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (MellowKR Shopee Public Image QA)','Accept':'image/jpeg'})
+                with urllib.request.urlopen(req,timeout=38) as resp:
+                  data=resp.read(2000001);status=resp.status;ctype=resp.headers.get('Content-Type','')
+                im=Image.open(io.BytesIO(data));im.load()
+                sha=hashlib.sha256(data).hexdigest()
+                passed=locpass and status==200 and ctype.lower().startswith('image/jpeg') and im.format=='JPEG' and im.size==(1080,1080) and len(data)<2000000 and sha==local_sha and len(data)==len(source)
+                result.update({'http_status':status,'content_type':ctype,'actual_bytes':len(data),'actual_sha256':sha,'actual_dimensions':list(im.size),'actual_format':im.format,'public_verified':passed})
+                if passed: break
+              except Exception as exc: result['error']=str(exc)[:200]
+              time.sleep(4)
+            return result
+          jobs=[(name,folder,n) for name,folder in groups for n in range(1,6)]
+          with concurrent.futures.ThreadPoolExecutor(max_workers=6) as ex: results=list(ex.map(audit,jobs))
+          out={'total':len(results),'public_verified':sum(x['public_verified'] for x in results),'render_deploy_commit':'21675106b0a8d856e6bf193080785815c6d5e7d0','results':results}
+          Path('evidence').mkdir(exist_ok=True)
+          Path('evidence/verify-public-20-v246.json').write_text(json.dumps(out,ensure_ascii=False,indent=2))
+          print('PUBLIC VERIFIED',out['public_verified'],'of',out['total'])
+          for row in results: print(row['product'],row['image_number'],row['public_verified'],row.get('error',''),flush=True)
+          PY
+      - name: Save fresh verification results without touching original images
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add evidence/verify-public-20-v246.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record public JPEG SHA256 verification for 20 newly deployed images"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

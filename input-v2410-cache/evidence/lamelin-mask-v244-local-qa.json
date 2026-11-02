@@ -1,0 +1,37 @@
+{
+  "source": "https://lamelin.co.kr/web/product/big/202605/eea0b93790fb13ada7427772dfd1e564.png",
+  "package_provenance": "Official Korean Lamelin Biotox Mask Pack product hero photograph",
+  "volume": "OFFICIAL_PACK_25ML_PER_SHEET_TOTAL_COUNT_NOT_VERIFIED",
+  "files": [
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/01.jpg",
+      "sha256": "0ac0c55007688a933d39c88ed1e1a7d75237a6fb04e98166bb075ab1cccb8e09",
+      "bytes": 92091,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/02.jpg",
+      "sha256": "5b2131738c0568dfb2a55d6888e8ad67230231407b2db91172033219853ac18d",
+      "bytes": 98616,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/03.jpg",
+      "sha256": "29108a4109af65ddfb371dc7139a2a5626f4bb4a5148b0fb0ca31c13cf1fcfd5",
+      "bytes": 92891,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/04.jpg",
+      "sha256": "328d7c387b8bc16fe0beab80d04aec6d2cf9fc95596687b104f046aa202b4ea3",
+      "bytes": 90932,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/05.jpg",
+      "sha256": "d4f94dfd5342e50490e9c32502dcc8b57586caf6a0c1a6674dbb7c03fe39153c",
+      "bytes": 89488,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    }
+  ]
+}

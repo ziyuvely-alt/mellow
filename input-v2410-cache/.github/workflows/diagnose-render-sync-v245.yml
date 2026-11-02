@@ -1,0 +1,49 @@
+name: Diagnose Render deploy marker without changing service settings
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/diagnose-render-sync-v245.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  diagnose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Fetch static publish marker and root page
+        run: |
+          python - <<'PY'
+          import urllib.request,json,time
+          from pathlib import Path
+          root='https://mellow-bbia-images.onrender.com/'
+          endpoints=[('root',root),('new_marker',root+'deploy-probe-v245-20261101.txt'),('lamelin_cream_01',root+'images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/01.jpg')]
+          report={}
+          for name,url in endpoints:
+            row={'url':url}
+            for n in range(3):
+              try:
+                req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 MellowKR Render Diagnostics'})
+                with urllib.request.urlopen(req,timeout=25) as r:
+                  body=r.read(300000)
+                  row.update({'status':r.status,'content_type':r.headers.get('Content-Type',''),'bytes':len(body),'body_prefix':body[:170].decode('utf-8','replace') if name!='lamelin_cream_01' else 'image binary'})
+                break
+              except Exception as exc:row.update({'error':str(exc)})
+              time.sleep(10)
+            report[name]=row
+          Path('evidence').mkdir(exist_ok=True)
+          Path('evidence/render-v245-live-diagnostic.json').write_text(json.dumps(report,indent=2))
+          print(json.dumps(report,indent=2))
+          PY
+      - name: Commit non-mutating diagnosis
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add evidence/render-v245-live-diagnostic.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Record live Render static deploy marker diagnosis"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

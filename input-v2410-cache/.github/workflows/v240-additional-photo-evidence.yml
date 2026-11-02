@@ -1,0 +1,25 @@
+name: Capture v2.4 official additional real product photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v240_additional_sources.py'
+      - '.github/workflows/v240-additional-photo-evidence.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python3 -m pip install requests pillow
+      - name: Acquire authentic source pixels with provenance
+        run: python3 scripts/v240_additional_sources.py
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v240-real-photo-extra
+          path: additional_real_photo_evidence
+          if-no-files-found: warn

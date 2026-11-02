@@ -1,0 +1,44 @@
+name: Package LAMELIN Hair and Mask source-photo JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/package-lamelin-v244.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build ZIPs without changing JPGs
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile,ZIP_DEFLATED
+          families=[
+            ('hair-serum-22','public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101','evidence/lamelin-hair-v244-local-qa.json'),
+            ('biotox-mask-pack','public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101','evidence/lamelin-mask-v244-local-qa.json')
+          ]
+          Path('releases').mkdir(exist_ok=True)
+          for name,folder,manifest in families:
+            p=Path('releases')/f'lamelin-{name}-v244-five-jpg.zip'
+            files=sorted(Path(folder).glob('*.jpg'))
+            assert len(files)==5
+            with ZipFile(p,'w',ZIP_DEFLATED) as z:
+              for f in files:z.write(f,arcname=f.name)
+              z.write(manifest,arcname='LOCAL_QA_MANIFEST.json')
+            print(p,p.stat().st_size)
+          PY
+      - name: Commit ready-to-download ZIPs
+        run: |
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.name "github-actions[bot]"
+          git add releases/lamelin-hair-serum-22-v244-five-jpg.zip releases/lamelin-biotox-mask-pack-v244-five-jpg.zip
+          if ! git diff --cached --quiet; then
+            git commit -m "Package LAMELIN hair and mask JPGs into downloadable ZIPs"
+            git pull --rebase origin main
+            git push origin HEAD:main
+          fi

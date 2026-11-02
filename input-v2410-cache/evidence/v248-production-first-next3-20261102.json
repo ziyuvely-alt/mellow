@@ -1,0 +1,50 @@
+{
+  "version": "2.4.8",
+  "mode": "PRODUCTION_FIRST_FINAL_QA_DEFERRED",
+  "baseline": {
+    "approved_families": 11,
+    "verified_urls": 55
+  },
+  "this_run": {
+    "product_families": 3,
+    "created_jpg": 15,
+    "qa_approved": 0,
+    "github_product_uploads": 0,
+    "new_verified_urls": 0
+  },
+  "families": [
+    {
+      "id": "pending-02",
+      "name": "미샤 매직 쿠션 모이스트 업",
+      "status": "JPG_PRODUCTION",
+      "frames": 5,
+      "blockers": [
+        "MK original logo binary unavailable for local composite",
+        "shade and packaging confirmation deferred"
+      ]
+    },
+    {
+      "id": "pending-05",
+      "name": "클리오 킬커버 파운웨어 쿠션",
+      "status": "JPG_PRODUCTION",
+      "frames": 5,
+      "blockers": [
+        "MK original logo binary unavailable for local composite",
+        "physical kit contents confirmation deferred"
+      ]
+    },
+    {
+      "id": "pending-10",
+      "name": "오브제 퍼펙트 옴므 쿠션",
+      "status": "JPG_PRODUCTION",
+      "frames": 5,
+      "blockers": [
+        "MK original logo binary unavailable for local composite",
+        "shade chart confirmation deferred"
+      ]
+    }
+  ],
+  "remaining": "25 unstarted source-pending plus 2 older partially reworked families",
+  "next": "pending-01 (Missha Cover Lasting), then pending-07 or families with verified source",
+  "notes": "15 draft JPG and per-frame sha256 saved in local downloadable ZIP, not published. No invented product or logo."
+}

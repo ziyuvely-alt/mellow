@@ -1,0 +1,37 @@
+{
+  "source": "https://lamelin.co.kr/web/product/big/202605/7292569acb53f790c820e9b791fe79fc.jpg",
+  "package_provenance": "Official Korean Lamelin product hero photograph",
+  "volume": "NOT_VERIFIED_15ML_NOT_SHOWN",
+  "files": [
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/01.jpg",
+      "sha256": "f14023176e2bcff0ee437f96caae35f9a3b09f3954c54276e02aafa511ca1d13",
+      "bytes": 93487,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/02.jpg",
+      "sha256": "f34cc9b26e793a87f837b5135910a95fc2fa0d0f171bb66a6d36cde89cbb89f5",
+      "bytes": 102646,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/03.jpg",
+      "sha256": "f7761b8b3ef61a19abdfbe362addaa553fd347a3d766a5cec741bcacbd57d209",
+      "bytes": 96381,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/04.jpg",
+      "sha256": "92d3f295b54b4a5109699a0c5ce1c6db1ca2b550ade989157bba9b78638c0dbc",
+      "bytes": 94023,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    },
+    {
+      "path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/05.jpg",
+      "sha256": "98507050a3ebf866ac1a5bddb7ed9ba8c0f2d28b2730bd8648339194f6b01d98",
+      "bytes": 94510,
+      "status": "LOCAL_QA_PASS_PUBLIC_NOT_VERIFIED"
+    }
+  ]
+}

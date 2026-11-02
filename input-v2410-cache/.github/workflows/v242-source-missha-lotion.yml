@@ -1,0 +1,24 @@
+name: Source first MISSHA 130ml lotion photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v242_source_missha_lotion.py'
+      - '.github/workflows/v242-source-missha-lotion.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: pip install requests Pillow
+      - run: python scripts/v242_source_missha_lotion.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: v242-missha-130ml-realphoto-candidates
+          path: evidence/v242-missha-lotion-130ml-candidates/
+          if-no-files-found: warn

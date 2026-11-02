@@ -1,0 +1,15 @@
+{
+  "version": "2.4.10",
+  "queue": 30,
+  "new_jpg": 67,
+  "reused_jpg": 13,
+  "inventory_source_files_examined": 72,
+  "unique_jpg_in_artifact": 80,
+  "newly_started_families": 13,
+  "five_frame_candidate_families": 12,
+  "final_qa_pending_families": 23,
+  "source_pending_families": 7,
+  "published": 0,
+  "baseline_public_url": 55,
+  "note": "Inventory originals may themselves be composites; multi-frame composition is NOT final merchant approval; official package, source license, claims, options and brand MK logo still require final review."
+}

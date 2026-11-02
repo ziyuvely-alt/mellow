@@ -1,0 +1,387 @@
+{
+  "total": 20,
+  "public_verified": 20,
+  "render_deploy_commit": "21675106b0a8d856e6bf193080785815c6d5e7d0",
+  "results": [
+    {
+      "product": "라멜린 바이오톡스 크림 50ml",
+      "image_number": 1,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/01.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/01.jpg",
+      "sha256_expected": "d26180e75d3727eb3f86c1e51b7d745caee69609548fce71679076caea32264c",
+      "local_bytes": 141667,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 141667,
+      "actual_sha256": "d26180e75d3727eb3f86c1e51b7d745caee69609548fce71679076caea32264c",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 크림 50ml",
+      "image_number": 2,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/02.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/02.jpg",
+      "sha256_expected": "17824a8f279a74cb7d9b9cb9d38c03573bc61f7f8c652b4c63870c5041124120",
+      "local_bytes": 143795,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 143795,
+      "actual_sha256": "17824a8f279a74cb7d9b9cb9d38c03573bc61f7f8c652b4c63870c5041124120",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 크림 50ml",
+      "image_number": 3,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/03.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/03.jpg",
+      "sha256_expected": "048283d8752c35fa9675a3ce4d933487139cac7854ca22a3e54c6bf96c9a2441",
+      "local_bytes": 137975,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 137975,
+      "actual_sha256": "048283d8752c35fa9675a3ce4d933487139cac7854ca22a3e54c6bf96c9a2441",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 크림 50ml",
+      "image_number": 4,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/04.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/04.jpg",
+      "sha256_expected": "4a2d888e08b5e80387fd1ab30d771cb58167ab4a60b0d9a9b12e9a0f5f11dd45",
+      "local_bytes": 147652,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 147652,
+      "actual_sha256": "4a2d888e08b5e80387fd1ab30d771cb58167ab4a60b0d9a9b12e9a0f5f11dd45",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 크림 50ml",
+      "image_number": 5,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/05.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-cream-50ml-sourcephoto-v243-20261101/05.jpg",
+      "sha256_expected": "b87a433af96d40b4f3ae75593bc439ed21991975c7c1f67d4d740023b7a27d4c",
+      "local_bytes": 143675,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 143675,
+      "actual_sha256": "b87a433af96d40b4f3ae75593bc439ed21991975c7c1f67d4d740023b7a27d4c",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 이들샷 헤어 세럼 22",
+      "image_number": 1,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/01.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/01.jpg",
+      "sha256_expected": "f14023176e2bcff0ee437f96caae35f9a3b09f3954c54276e02aafa511ca1d13",
+      "local_bytes": 93487,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 93487,
+      "actual_sha256": "f14023176e2bcff0ee437f96caae35f9a3b09f3954c54276e02aafa511ca1d13",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 이들샷 헤어 세럼 22",
+      "image_number": 2,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/02.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/02.jpg",
+      "sha256_expected": "f34cc9b26e793a87f837b5135910a95fc2fa0d0f171bb66a6d36cde89cbb89f5",
+      "local_bytes": 102646,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 102646,
+      "actual_sha256": "f34cc9b26e793a87f837b5135910a95fc2fa0d0f171bb66a6d36cde89cbb89f5",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 이들샷 헤어 세럼 22",
+      "image_number": 3,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/03.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/03.jpg",
+      "sha256_expected": "f7761b8b3ef61a19abdfbe362addaa553fd347a3d766a5cec741bcacbd57d209",
+      "local_bytes": 96381,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 96381,
+      "actual_sha256": "f7761b8b3ef61a19abdfbe362addaa553fd347a3d766a5cec741bcacbd57d209",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 이들샷 헤어 세럼 22",
+      "image_number": 4,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/04.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/04.jpg",
+      "sha256_expected": "92d3f295b54b4a5109699a0c5ce1c6db1ca2b550ade989157bba9b78638c0dbc",
+      "local_bytes": 94023,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 94023,
+      "actual_sha256": "92d3f295b54b4a5109699a0c5ce1c6db1ca2b550ade989157bba9b78638c0dbc",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 이들샷 헤어 세럼 22",
+      "image_number": 5,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/05.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-needle-shot-hair-serum-22-v244-20261101/05.jpg",
+      "sha256_expected": "98507050a3ebf866ac1a5bddb7ed9ba8c0f2d28b2730bd8648339194f6b01d98",
+      "local_bytes": 94510,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 94510,
+      "actual_sha256": "98507050a3ebf866ac1a5bddb7ed9ba8c0f2d28b2730bd8648339194f6b01d98",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 마스크팩",
+      "image_number": 1,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/01.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/01.jpg",
+      "sha256_expected": "0ac0c55007688a933d39c88ed1e1a7d75237a6fb04e98166bb075ab1cccb8e09",
+      "local_bytes": 92091,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 92091,
+      "actual_sha256": "0ac0c55007688a933d39c88ed1e1a7d75237a6fb04e98166bb075ab1cccb8e09",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 마스크팩",
+      "image_number": 2,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/02.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/02.jpg",
+      "sha256_expected": "5b2131738c0568dfb2a55d6888e8ad67230231407b2db91172033219853ac18d",
+      "local_bytes": 98616,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 98616,
+      "actual_sha256": "5b2131738c0568dfb2a55d6888e8ad67230231407b2db91172033219853ac18d",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 마스크팩",
+      "image_number": 3,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/03.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/03.jpg",
+      "sha256_expected": "29108a4109af65ddfb371dc7139a2a5626f4bb4a5148b0fb0ca31c13cf1fcfd5",
+      "local_bytes": 92891,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 92891,
+      "actual_sha256": "29108a4109af65ddfb371dc7139a2a5626f4bb4a5148b0fb0ca31c13cf1fcfd5",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 마스크팩",
+      "image_number": 4,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/04.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/04.jpg",
+      "sha256_expected": "328d7c387b8bc16fe0beab80d04aec6d2cf9fc95596687b104f046aa202b4ea3",
+      "local_bytes": 90932,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 90932,
+      "actual_sha256": "328d7c387b8bc16fe0beab80d04aec6d2cf9fc95596687b104f046aa202b4ea3",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "라멜린 바이오톡스 마스크팩",
+      "image_number": 5,
+      "repo_path": "public/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/05.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/lamelin-miracle-nmn-pdrn-biotox-mask-pack-v244-20261101/05.jpg",
+      "sha256_expected": "d4f94dfd5342e50490e9c32502dcc8b57586caf6a0c1a6674dbb7c03fe39153c",
+      "local_bytes": 89488,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 89488,
+      "actual_sha256": "d4f94dfd5342e50490e9c32502dcc8b57586caf6a0c1a6674dbb7c03fe39153c",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "클리오 킬커버 파운웨어쿠션 디 오리지널 미니",
+      "image_number": 1,
+      "repo_path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/01.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/01.jpg",
+      "sha256_expected": "0dcc0e23c1fb1f12eb9c59a11150bd1863e07dbba47c1cf406685bca9c6aaeb8",
+      "local_bytes": 137196,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 137196,
+      "actual_sha256": "0dcc0e23c1fb1f12eb9c59a11150bd1863e07dbba47c1cf406685bca9c6aaeb8",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "클리오 킬커버 파운웨어쿠션 디 오리지널 미니",
+      "image_number": 2,
+      "repo_path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/02.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/02.jpg",
+      "sha256_expected": "a608930952dfe90942a8bec3c6af8b17407923f9cbcecfe0695c9f01685bc138",
+      "local_bytes": 138909,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 138909,
+      "actual_sha256": "a608930952dfe90942a8bec3c6af8b17407923f9cbcecfe0695c9f01685bc138",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "클리오 킬커버 파운웨어쿠션 디 오리지널 미니",
+      "image_number": 3,
+      "repo_path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/03.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/03.jpg",
+      "sha256_expected": "93b7d2ab09babc833a1c949192fdcfba67425adef34d6ff3164f98b18792c8d5",
+      "local_bytes": 140901,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 140901,
+      "actual_sha256": "93b7d2ab09babc833a1c949192fdcfba67425adef34d6ff3164f98b18792c8d5",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "클리오 킬커버 파운웨어쿠션 디 오리지널 미니",
+      "image_number": 4,
+      "repo_path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/04.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/04.jpg",
+      "sha256_expected": "c953476c83fdd69473d9f53df0ff3b75367fbd70a2a9f9e6061e0c285839ddb5",
+      "local_bytes": 136494,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 136494,
+      "actual_sha256": "c953476c83fdd69473d9f53df0ff3b75367fbd70a2a9f9e6061e0c285839ddb5",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    },
+    {
+      "product": "클리오 킬커버 파운웨어쿠션 디 오리지널 미니",
+      "image_number": 5,
+      "repo_path": "public/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/05.jpg",
+      "public_https_url": "https://mellow-bbia-images.onrender.com/images/clio-kill-cover-founwear-cushion-original-mini-sourcephoto-v245b-cutout-20261101/05.jpg",
+      "sha256_expected": "40cd128dea56a1a05b27e861df6d9c260b321ca4db7b036a699485e0becddf5c",
+      "local_bytes": 132471,
+      "local_jpg_pass": true,
+      "public_verified": true,
+      "http_status": 200,
+      "content_type": "image/jpeg",
+      "actual_bytes": 132471,
+      "actual_sha256": "40cd128dea56a1a05b27e861df6d9c260b321ca4db7b036a699485e0becddf5c",
+      "actual_dimensions": [
+        1080,
+        1080
+      ],
+      "actual_format": "JPEG"
+    }
+  ]
+}

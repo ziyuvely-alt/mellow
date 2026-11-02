@@ -1,0 +1,92 @@
+[
+  {
+    "group": "goodal-serum-alpha-40ml-qa-20261031",
+    "file": "images/goodal-serum-alpha-40ml-qa-20261031/01.jpg",
+    "bytes": 129659,
+    "sha256": "91824df324d7b8311e35f5acee9adb56d6e86fed8715339ce19c11a4f18a1808"
+  },
+  {
+    "group": "goodal-serum-alpha-40ml-qa-20261031",
+    "file": "images/goodal-serum-alpha-40ml-qa-20261031/02.jpg",
+    "bytes": 143928,
+    "sha256": "3082a2c37ede2eb696f00a881f965955239237d65ffcefc4037dfbbd3763f19e"
+  },
+  {
+    "group": "goodal-serum-alpha-40ml-qa-20261031",
+    "file": "images/goodal-serum-alpha-40ml-qa-20261031/03.jpg",
+    "bytes": 119328,
+    "sha256": "9b106bb1684c3429fc6c5dad249fe85ba9bd2a16052e45f59bf9894932b7c563"
+  },
+  {
+    "group": "goodal-serum-alpha-40ml-qa-20261031",
+    "file": "images/goodal-serum-alpha-40ml-qa-20261031/04.jpg",
+    "bytes": 111702,
+    "sha256": "fe086464646a43999a81518b5b64804383ea083a6fa1498ad4ed96fd5c964cc4"
+  },
+  {
+    "group": "goodal-serum-alpha-40ml-qa-20261031",
+    "file": "images/goodal-serum-alpha-40ml-qa-20261031/05.jpg",
+    "bytes": 113064,
+    "sha256": "6f2f1f2149cd2a4e047a90a670795f90e9712e4f13b31175728422f1dc0d570f"
+  },
+  {
+    "group": "missha-glow-bb-boomer-40ml-realphoto-20261031",
+    "file": "images/missha-glow-bb-boomer-40ml-realphoto-20261031/01.jpg",
+    "bytes": 81247,
+    "sha256": "1a69cf9b92d5ae2615f6a88e5208c54b4c1155bc48726704f38a3b0253457b24"
+  },
+  {
+    "group": "missha-glow-bb-boomer-40ml-realphoto-20261031",
+    "file": "images/missha-glow-bb-boomer-40ml-realphoto-20261031/02.jpg",
+    "bytes": 83720,
+    "sha256": "1201609ffaebb10d0729202aa6732c1e39f471e8c53a565f85871ef49f7621d5"
+  },
+  {
+    "group": "missha-glow-bb-boomer-40ml-realphoto-20261031",
+    "file": "images/missha-glow-bb-boomer-40ml-realphoto-20261031/03.jpg",
+    "bytes": 79945,
+    "sha256": "9c7dd720b7256da1285ee55d98dcac622a71fdae0b8129b12987fff4f13a3c9c"
+  },
+  {
+    "group": "missha-glow-bb-boomer-40ml-realphoto-20261031",
+    "file": "images/missha-glow-bb-boomer-40ml-realphoto-20261031/04.jpg",
+    "bytes": 106252,
+    "sha256": "a47a877ccdba8a021f82f6c3131c26a7ee2a8f530dd24b2c866f680042afefce"
+  },
+  {
+    "group": "missha-glow-bb-boomer-40ml-realphoto-20261031",
+    "file": "images/missha-glow-bb-boomer-40ml-realphoto-20261031/05.jpg",
+    "bytes": 70024,
+    "sha256": "5371d5a033d67fe6db41ca22432ff79b01c32989b1d7309055a23d9b6df44521"
+  },
+  {
+    "group": "bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031",
+    "file": "images/bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031/01.jpg",
+    "bytes": 109208,
+    "sha256": "9805c959e1e522c631d0282b8965200e395900f0641d29d0a383899f6dc7ea0c"
+  },
+  {
+    "group": "bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031",
+    "file": "images/bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031/02.jpg",
+    "bytes": 121736,
+    "sha256": "5f16fcb7dc7975236ab4e63feed592d43d8d215f6e97b38ada8c1557d567edde"
+  },
+  {
+    "group": "bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031",
+    "file": "images/bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031/03.jpg",
+    "bytes": 126968,
+    "sha256": "2bcb38cfffd5ea4e5f2c4174b1f1b0193e86c915c5f56c7b650c221fced1f386"
+  },
+  {
+    "group": "bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031",
+    "file": "images/bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031/04.jpg",
+    "bytes": 113309,
+    "sha256": "a2a92fb5ba14c0b1f17d3943cb0907aac2f402f423abace070c084205815df53"
+  },
+  {
+    "group": "bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031",
+    "file": "images/bioheal-boh-probioderm-3d-lifting-cream-50ml-realphoto-v230-20261031/05.jpg",
+    "bytes": 108043,
+    "sha256": "8c983af48984f0a8858f7373d809f9127300d890b3bb549bb5c16a3e3bc5ce8a"
+  }
+]
