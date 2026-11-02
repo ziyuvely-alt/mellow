@@ -1,18 +1,18 @@
-name: Shopee v2418d official transparent PNG final QA correction
+name: Shopee v2419 independent official photo QA and BCD continuation
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - '.github/workflows/continue-remaining-30-v248.yml'
-      - 'scripts/continue_remaining_30_v2418d.py'
+      - 'scripts/continue_remaining_30_v2419.py'
 permissions:
   contents: write
   actions: read
 jobs:
-  fix-alpha:
+  photo-qa:
     runs-on: ubuntu-latest
-    timeout-minutes: 30
+    timeout-minutes: 40
     steps:
       - uses: actions/checkout@v4
         with:
@@ -20,38 +20,38 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install Pillow and fonts
+      - name: Install image and networking dependencies
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
-          python -m pip install Pillow
-      - name: Restore prior all source candidates unchanged
+          python -m pip install Pillow requests
+      - name: Restore immutable v2418d production checkpoint
         run: |
-          mkdir -p input-v2418c
-          git fetch origin production-assets-v2418c-final
-          git archive FETCH_HEAD | tar -xf - -C input-v2418c
-      - name: Render official PNG with true alpha and preserve all JPEGs
-        run: python scripts/continue_remaining_30_v2418d.py
-      - name: Archive clean corrected JPG and 12 five-frame review sets
+          mkdir -p input-v2418d
+          git fetch origin production-assets-v2418d-alpha-clean
+          git archive FETCH_HEAD | tar -xf - -C input-v2418d
+      - name: Capture genuinely different photographic content and queue all 30
+        run: python scripts/continue_remaining_30_v2419.py
+      - name: Upload new JPG, source photographs, full prior history and manifests
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2418d-alpha-clean-final
-          path: production-v2418d/
+          name: shopee-v2419-independent-photo-candidates
+          path: production-v2419/
           retention-days: 90
           if-no-files-found: warn
-      - name: Save final corrected production review branch
+      - name: Persist nonpublic immutable version without changing approved 55 URLs
         if: success()
         run: |
-          cp -a production-v2418d /tmp/shopee-v2418d-final
-          git worktree add --detach /tmp/shopee-v2418d-wt HEAD
-          cd /tmp/shopee-v2418d-wt
-          git switch --orphan production-assets-v2418d-alpha-clean
+          cp -a production-v2419 /tmp/shopee-v2419-preserved
+          git worktree add --detach /tmp/shopee-v2419-wt HEAD
+          cd /tmp/shopee-v2419-wt
+          git switch --orphan production-assets-v2419-photo-qa
           git rm -rf --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
-          cp -a /tmp/shopee-v2418d-final/. .
+          cp -a /tmp/shopee-v2419-preserved/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Preserve v2418d alpha-safe genuine product image with all previous assets"
-          git push origin HEAD:refs/heads/production-assets-v2418d-alpha-clean
+          git commit -m "Preserve v2419 independent sourced photo candidates and exact prior 160 originals"
+          git push origin HEAD:refs/heads/production-assets-v2419-photo-qa
