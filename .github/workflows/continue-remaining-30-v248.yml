@@ -36,7 +36,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2413-curated-production
+          name: shopee-v2413-curated-no-duplicates
           path: production-v2413/
           retention-days: 90
           if-no-files-found: warn
@@ -46,7 +46,7 @@ jobs:
           cp -a production-v2413 /tmp/production-v2413-checkpoint
           git worktree add --detach /tmp/v2413-asset-worktree HEAD
           cd /tmp/v2413-asset-worktree
-          git switch --orphan production-assets-v2413
+          git switch --orphan production-assets-v2413-curated
           git rm -r --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
           cp -a /tmp/production-v2413-checkpoint/. .
@@ -54,4 +54,4 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git commit -m "Preserve v2413 new informational and sourced photo JPGs"
-          git push origin HEAD:refs/heads/production-assets-v2413
+          git push origin HEAD:refs/heads/production-assets-v2413-curated
