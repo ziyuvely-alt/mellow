@@ -1,0 +1,23 @@
+name: Plugin6 BBIA batch22 remaining 18 official alternatives
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch22.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install dependencies
+        run: python3 -m pip install Pillow requests beautifulsoup4
+      - name: Collect last 18 underfilled families official alternatives
+        run: python3 scripts/plugin6_bbia_batch22.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch22-official-alternative-photos
+          path: plugin6-bbia-batch22-thai/
+          if-no-files-found: warn
