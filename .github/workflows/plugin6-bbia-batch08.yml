@@ -1,0 +1,23 @@
+name: Plugin6 BBIA Batch08 three families official shade photos
+on:
+  push:
+    branches: [plugin6-source-smoketest-20261102]
+    paths: ['.github/workflows/plugin6-bbia-batch08.yml']
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install image and HTML dependencies
+        run: python3 -m pip install requests beautifulsoup4 Pillow
+      - name: Gather shade photos
+        run: python3 scripts/plugin6_batch08_three_families.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-bbia-batch08-official-candidates
+          path: plugin6-bbia-batch08-source/
+          if-no-files-found: warn
