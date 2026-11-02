@@ -1,0 +1,144 @@
+{
+  "version": "2.4.18",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "input": {
+    "run_id": 41468514253,
+    "artifact_id": 13152848784,
+    "branch": "production-assets-v2417-photo-curation",
+    "preserved_old_jpg": 160,
+    "project_cumulative_jpg_prior": 199,
+    "publicly_approved_family_count": 11,
+    "verified_public_url_count": 55
+  },
+  "executed": [
+    {
+      "phase": "v2418",
+      "run_id": 41470849589,
+      "artifact_id": 13154149719,
+      "branch": "production-assets-v2418-B12",
+      "branch_sha": "c838909a9a84f5bbd9aaba76a338fe541d36508b",
+      "new_versioned_jpg": 5
+    },
+    {
+      "phase": "v2418b",
+      "run_id": 41471508436,
+      "artifact_id": 13155740476,
+      "branch": "production-assets-v2418b-clean",
+      "branch_sha": "62d3b789a208f086905247eae4295aaa1a06affc",
+      "new_jpg": 3,
+      "issue": "One 300ml source was promotional advert, superseded"
+    },
+    {
+      "phase": "v2418c",
+      "run_id": 41471935576,
+      "artifact_id": 13155052712,
+      "branch": "production-assets-v2418c-final",
+      "branch_sha": "eca0f126159f9478c74a798ba43d69294a3e194b",
+      "new_jpg": 1,
+      "issue": "Official 300ml PNG alpha converted to black background, superseded"
+    },
+    {
+      "phase": "v2418d",
+      "run_id": 41472344728,
+      "artifact_id": 13155587743,
+      "branch": "production-assets-v2418d-alpha-clean",
+      "branch_sha": "889e4d4a9d9e2208baacb165d31ebf81d830c835",
+      "new_jpg": 1,
+      "conclusion": "success",
+      "actual_correction": "Correctly alpha-composite exact official product PNG on light background"
+    }
+  ],
+  "final": {
+    "actual_new_source_photos_in_active_replacement_frames": 5,
+    "active_versioned_replacement_frames": 5,
+    "source_jpg_preserved_sha_identical": 160,
+    "prior_version_photos_kept_for_traceability": true,
+    "qa_candidate_B12_families": 12,
+    "qa_candidate_jpg_count": 60,
+    "improved_families": 5,
+    "unchanged_justified_B_families": 7,
+    "sale_ready_completed": 0,
+    "ready_except_logo": 0,
+    "final_qa_approved": 0,
+    "original_mk_logo_binary_recovered": false,
+    "actual_logo_applied": 0,
+    "official_option_charts_complete": 0,
+    "substantive_duplicate_pairs_confirmed_fixed": 0,
+    "perceptual_similarity_alerts_dhash_hamming_le6": 3,
+    "new_public_urls": 0,
+    "original_public_urls_preserved": 55
+  },
+  "modified_family_details": [
+    {
+      "id": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "source_type": "Brand official",
+      "source_url": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+      "result": "Official product photo replaced legacy MK-poster screen"
+    },
+    {
+      "id": "pending-15",
+      "product": "Dr.G Green Mild Up Sun+ 50ml 2022",
+      "source_type": "Musinsa seller",
+      "source_url": "https://image.msscdn.net/thumbnails/images/prd_img/20230828/3505223/detail_3505223_16932037977475_big.jpg?w=1200",
+      "result": "Product and genuine cream-texture photo integrated into B12 review set; 2022 stock edition pending"
+    },
+    {
+      "id": "pending-18",
+      "product": "Dr.G Brightening Up Sun+ 50ml",
+      "source_type": "SSG retailer",
+      "source_url": "https://sitem.ssgcdn.com/22/72/80/item/1000522807222_i1_1200.jpg",
+      "result": "Product standalone photo replaced prior embedded branding poster"
+    },
+    {
+      "id": "pending-21",
+      "product": "Goodal Green Tangerine Vita C Dark Spot Eye Cream 25AD 30ml",
+      "source_type": "Coupang seller",
+      "source_url": "https://image.coupangcdn.com/image/vendor_inventory/20f5/008034caf02a6153d28358f99a4d400b0a3ffa1447bde37651e353d12feb.jpg",
+      "result": "Standalone box+tube new candidate; verify actual 25AD packaging; avoid gift sets"
+    },
+    {
+      "id": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300ml",
+      "source_type": "Brand official",
+      "source_url": "https://m.obge.co.kr/web/product/medium/202603/e039688781d45789b70ee436c13cf0f6.png",
+      "result": "Replaced model advertising photo and fixed alpha transparency background; exact original 300ml packaging retained"
+    }
+  ],
+  "dhash_le6_alerts": [
+    {
+      "family": "pending-16",
+      "reason": "Existing cream scenes may repeat"
+    },
+    {
+      "family": "pending-18",
+      "reason": "Two typographic information panels visually similar, though details differ"
+    },
+    {
+      "family": "pending-28",
+      "reason": "Pad scenes visually close"
+    }
+  ],
+  "other_B_families_unchanged": [
+    "pending-16",
+    "pending-24",
+    "pending-25",
+    "pending-27",
+    "pending-28",
+    "pending-29",
+    "pending-30"
+  ],
+  "C_shade_chart_awaiting": 8,
+  "D_original_package_insufficient": 10,
+  "logo_status": "LOGO_BINARY_ACCESS_BLOCKED; original maker plugin binary unavailable, no artificial replacements",
+  "approval_gates": [
+    "Verify actual seller Korean package and revision",
+    "Check commercial rights to reuse third-party product photographs",
+    "True MK logo PNG recover, compare approved artwork and apply",
+    "Peripera and cushion Global SKU option-to-official swatch verification",
+    "Independent manual visual QA for all frames and cutouts",
+    "Resolve remaining 3 near-duplicate candidates"
+  ],
+  "notes": "Historical new JPG versions across four runs = 10; only 5 replacement frame positions are currently active. No claim of 10 independently usable replacements."
+}
