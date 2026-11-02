@@ -1,0 +1,13 @@
+{
+  "version": "2.4.20",
+  "candidate_public_paths": 55,
+  "candidate_families": 11,
+  "http_downloaded": 55,
+  "sha_matches_live_repo": 55,
+  "missing_http": 0,
+  "language_qa_pass": 0,
+  "language_qa_pending": 55,
+  "new_en_public_jpg": 0,
+  "originals_modified": 0,
+  "note": "55 paths are a candidate mapping reconstructed from 11 preexisting public five-frame families. Exact historical 55 URL list remains unproven; downloadable does not mean QA passed."
+}
