@@ -21,3 +21,5 @@ jobs:
           name: plugin6-bbia-batch08-official-candidates
           path: plugin6-bbia-batch08-source/
           if-no-files-found: warn
+
+# Retry with corrected option parser.
