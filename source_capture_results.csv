@@ -3,22 +3,81 @@ pending-12,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO0011423
 pending-12,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114236/500/500/0000388106.jpg,NEAR_DUPLICATE_SOURCE,visual hash
 pending-12,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390486.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236;source_sha256=4166c45da556d4a73657b7c6eaad29f1b0ab1f8cdf7b2b7a327aff29b91f3e8a
 pending-12,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390485.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236;source_sha256=f9e33b456bc59162ed465a4189493462e02329004cee6b79f5980ba7c373537d
-pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388107.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236;source_sha256=3a83b2d8de6a48fb03443bb047e76216edaa9226905a55761c041bb58d7414de
-pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388108.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236;source_sha256=430b85d428a2b381692b4075a7d930c6b190144228c56f9d424d25ded36ff837
-pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/0000388158.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237;source_sha256=8808fed47c23f054b5dcc8a548293f9b575283b4b2f1d81b7f65b9c291706cd8
-pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/500/500/0000388158.jpg,NEAR_DUPLICATE_SOURCE,visual hash
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388107.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388108.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388109.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388110.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388111.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388112.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388113.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388114.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388115.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388116.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388117.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388118.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://tr.line.me/tag.gif?c_t=lap&t_id=5dd79240-eebb-4afc-a0e2-0b404cf6f3fa&e=pv&noscript=1,IMAGE_FAILED,UNSUPPORTED_FORMAT
+pending-12,https://www.misshajp.com/img/usr/common/header/MISSHA_2503.png,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-12,https://www.misshajp.com/img/usr/common/header/Apieu.png,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-12,https://www.misshajp.com/img/usr/common/header/CHOGONGjIN_2503.png,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-01.jpg,NEAR_DUPLICATE_SOURCE,visual hash
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-02.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-03.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-04.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-05.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057-06.jpg,NEAR_DUPLICATE_SOURCE,visual hash
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104031/ms104031-06.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104056/ms104056-01.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104031/ms104031-01.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/SET---Q1459---/SET---Q1459---_03.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057_lp_01.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-12,https://www.misshajp.com/photo/goodsimg/MS104057/ms104057_lp_02.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/0000388158.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/500/500/0000388158.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
 pending-13,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390488.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237;source_sha256=4d228780ef6ca21295a4dbbd1ff571d9d83da54dca7550d3315410cc2c4f6d5c
 pending-13,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390487.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237;source_sha256=ac47ea3f8fde6091ea8509f4e17118e6aeea27989f54d30194af169780ce1430
-pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/06/03/BO00110144/0000386670.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237;source_sha256=b41b09676fd542d015ad015a1792c48db0d35850cbb33487b7df5490906ccc2e
-pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389036.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237;source_sha256=f23bd51b212e9b69207ec2c94b5f89170d2dfb7c9f6658f678db1cbb6e2c8d96
+pending-13,https://static.ableshop.kr/ext/images/goods/top/26/04/06/03/BO00110144/0000386670.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389036.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388136.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388138.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388140.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388139.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388141.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388142.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388143.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389037.jpg,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388145.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-13,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388146.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
 pending-14,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114238/0000388182.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238;source_sha256=9d197a03300bc4ad15837499ebdac3ce869bae70242345ec3a635f87acc4d6f0
 pending-14,https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114238/500/500/0000388182.jpg,NEAR_DUPLICATE_SOURCE,visual hash
 pending-14,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390490.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238;source_sha256=5c660ccf24ce31eabcb429cd534d6ec664393dd938ab00dc024116b878722659
 pending-14,https://static.ableshop.kr/ext/images/goods/add/26/06/09/05/500/500/0000390489.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238;source_sha256=7f391f26af48dbc38f8dd7db693212ef90ca9cd8e4fd23dfcf58e7c827795554
-pending-14,https://static.ableshop.kr/ext/images/goods/top/24/08/06/11/BO00112434/0000349675.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238;source_sha256=817714cf27504c2e46dcb434e9945d5ae00683df085aca2ff415c19f217be8e5
-pending-14,https://static.ableshop.kr/ext/images/goods/top/24/08/06/12/BO00112427/0000349794.jpg,SOURCE_BYTES_CAPTURED,page=https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238;source_sha256=30e49a7812b939d4dc71ecd9c0a84b8bdff613510f5f4b155ba6d02adb0189f2
+pending-14,https://static.ableshop.kr/ext/images/goods/top/24/08/06/11/BO00112434/0000349675.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/top/24/08/06/12/BO00112427/0000349794.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388163.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388161.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388162.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388164.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388165.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388166.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388167.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388168.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389030.jpg,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-14,https://static.ableshop.kr/ext/images/goods/editor/26/4/27/15/0000388170.jpg,VISUAL_TRIAGE_REJECT,not exact standalone product imagery
 pending-17,https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000180138,PAGE_FAILED,403 Client Error: Forbidden for url: https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000180138
 pending-17,https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000692141706,PAGE_FAILED,403 Client Error: Forbidden for url: https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000692141706
-pending-20,https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566,PAGE_FAILED,403 Client Error: Forbidden for url: https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566
+pending-17,https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013806ko.jpg?l=ko,SOURCE_BYTES_CAPTURED,verified_retailer_product_page=oliveyoung_A000000180138;source_sha256=5b400cae46a167d757faa87ac4b5a8a571ba02fc3b37c117fd7dc6b371698a56
+pending-17,https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013808ko.jpg?l=ko,SOURCE_BYTES_CAPTURED,verified_retailer_product_page=oliveyoung_A000000180138;source_sha256=1354c0fcba9a8bcbfa9dc44df2c163d7dcfa8554f610ae85af173b1043c7b45b
+pending-17,https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013807ko.jpg?l=ko,SOURCE_BYTES_CAPTURED,verified_retailer_product_page=oliveyoung_A000000180138;source_sha256=5ea61e16436d8f7246079ec32436e4e7ee2bb9a53586449d95723f47dd9be7d7
+pending-17,https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0018/A00000018013809ko.jpg?l=ko,NEAR_DUPLICATE_SOURCE,same photo composition
+pending-20,https://sitem.ssgcdn.com/66/25/46/item/1000706462566_i1_250.jpg,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-20,https://www.facebook.com/tr?id=1668002603429849&ev=PageView&noscript=1,IMAGE_FAILED,cannot identify image file <_io.BytesIO object at 0x7fb8d17a16c0>
+pending-20,https://sui.ssgcdn.com/ui/ssg/img/common/notice/bg_benefitnotice.png,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-20,https://sitem.ssgcdn.com/66/25/46/item/1000706462566_i1_1200.jpg,SOURCE_BYTES_CAPTURED,page=https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566;source_sha256=8536a4dd0b8b5aaebf4c29d52db37913bcd3ad0ae0b9f6451addd28ff673c278
+pending-20,https://sitem.ssgcdn.com/66/25/46/item/1000706462566_i1_500.jpg,NEAR_DUPLICATE_SOURCE,visual hash
+pending-20,https://sui.ssgcdn.com/ui/ssg/img/product/v2/cdtl_img_store_badge_v2.jpg,IMAGE_FAILED,NOT_PRODUCT_FRAME_DIMENSIONS
+pending-20,https://sui.ssgcdn.com/ui/ssg/img/common/card/card_bi08.svg,IMAGE_FAILED,cannot identify image file <_io.BytesIO object at 0x7fb8d17a16c0>
+pending-20,https://sui.ssgcdn.com/ui/ssg/img/common/card/card_bi76.svg,IMAGE_FAILED,cannot identify image file <_io.BytesIO object at 0x7fb8d17a16c0>
+pending-20,https://sui.ssgcdn.com/ui/ssg/img/common/card/card_bi75.svg,IMAGE_FAILED,cannot identify image file <_io.BytesIO object at 0x7fb8d17a16c0>
+pending-20,https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566,IMAGE_FAILED,403 Client Error: Forbidden for url: https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566
 pending-21,https://www.oliveyoung.co.kr/store/search/getSearchMain.do?query=구달%20청귤%20비타C%20잡티케어%20아이크림,PAGE_FAILED,403 Client Error: Forbidden for url: https://www.oliveyoung.co.kr/store/search/getSearchMain.do?query=%EA%B5%AC%EB%8B%AC%20%EC%B2%AD%EA%B7%A4%20%EB%B9
 pending-26,,HOLD,145ml versus 150ml packaging conflict; no auto-image production

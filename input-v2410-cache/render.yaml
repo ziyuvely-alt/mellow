@@ -1,7 +1,0 @@
-services:
-  - type: web
-    name: mellow-bbia-images
-    runtime: static
-    buildCommand: echo 'Using prebuilt image assets'
-    staticPublishPath: public
-    autoDeployTrigger: commit
