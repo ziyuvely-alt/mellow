@@ -1,16 +1,16 @@
-name: Shopee v2416c official 145ml information continuation
+name: Shopee v2416d all-family visual QA and distinct-role shortlists
 on:
   workflow_dispatch:
   push:
     branches: [main]
     paths:
       - '.github/workflows/continue-remaining-30-v248.yml'
-      - 'scripts/continue_remaining_30_v2416c.py'
+      - 'scripts/continue_remaining_30_v2416d.py'
 permissions:
   contents: write
   actions: read
 jobs:
-  production:
+  visual-proof:
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
@@ -20,38 +20,38 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.11'
-      - name: Install image dependencies
+      - name: Install JPEG/visual processing and fonts
         run: |
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install Pillow
-      - name: Restore existing 158 JPEGs unchanged
+      - name: Restore latest 160 finished/draft source JPEGs
         run: |
-          mkdir -p input-v2416
-          git fetch origin production-assets-v2416
-          git archive FETCH_HEAD | tar -xf - -C input-v2416
-      - name: Produce two evidence-only information frames
-        run: python scripts/continue_remaining_30_v2416c.py
-      - name: Save JPEGs and SHA256 as artifact
+          mkdir -p input-v2416c
+          git fetch origin production-assets-v2416c
+          git archive FETCH_HEAD | tar -xf - -C input-v2416c
+      - name: Create real contact sheets and frame curation across 30 families
+        run: python scripts/continue_remaining_30_v2416d.py
+      - name: Upload visual evidence, copy-preserved curated JPGs and SHA256
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: shopee-v2416c-145ml-info-continuation
-          path: production-v2416-continuation/
+          name: shopee-v2416d-visual-qa-proof
+          path: production-v2416d/
           retention-days: 90
           if-no-files-found: warn
-      - name: Preserve separately from public approved images
+      - name: Persist visual evidence to nonpublic production branch
         if: success()
         run: |
-          cp -a production-v2416-continuation /tmp/v2416c-assets
-          git worktree add --detach /tmp/v2416c-wt HEAD
-          cd /tmp/v2416c-wt
-          git switch --orphan production-assets-v2416c
-          git rm -r --cached . >/dev/null 2>&1 || true
+          cp -a production-v2416d /tmp/shopee-v2416d-assets
+          git worktree add --detach /tmp/shopee-v2416d-work HEAD
+          cd /tmp/shopee-v2416d-work
+          git switch --orphan production-assets-v2416d-visual-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
           find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
-          cp -a /tmp/v2416c-assets/. .
+          cp -a /tmp/shopee-v2416d-assets/. .
           git add -A
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git commit -m "Preserve all 158 prior JPG and two new Pixelpure information panels"
-          git push origin HEAD:refs/heads/production-assets-v2416c
+          git commit -m "Save v2416d visual proof, real-source shortlist and QA records"
+          git push origin HEAD:refs/heads/production-assets-v2416d-visual-qa
