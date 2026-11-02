@@ -25,11 +25,11 @@ jobs:
           sudo apt-get update -qq
           sudo apt-get install -y fonts-noto-cjk
           python -m pip install Pillow
-      - name: Restore existing curated production v2413
+      - name: Restore existing curated production v2414
         run: |
-          mkdir -p input-v2413
-          git fetch origin production-assets-v2413-curated
-          git archive FETCH_HEAD | tar -xf - -C input-v2413
+          mkdir -p input-v2414
+          git fetch origin production-assets-v2414
+          git archive FETCH_HEAD | tar -xf - -C input-v2414
       - name: Continue all 30 families and audit SHA and visual repetitions
         run: python scripts/continue_remaining_30_v2414b.py
       - name: Preserve JPGs SHA and per-family checkpoint as artifact
