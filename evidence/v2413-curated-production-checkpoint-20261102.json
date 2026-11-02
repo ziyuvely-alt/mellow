@@ -1,0 +1,85 @@
+{
+  "version": "2.4.13",
+  "date": "2026-11-02",
+  "baseline": {
+    "public_families": 11,
+    "public_verified_urls": 55,
+    "previous_archived_jpg": 116,
+    "previous_global_cumulative_jpg": 153,
+    "previous_archived_family_count_with_files": 28
+  },
+  "run": {
+    "id": 41376717218,
+    "commit": "57ca67c84345c1c9a865560e5bd856c9bf085e5d",
+    "artifact_id": 13111566514,
+    "artifact_name": "shopee-v2413-curated-no-duplicates",
+    "branch": "production-assets-v2413-curated",
+    "branch_commit": "084986da6b9a1e91d95472d187f12b9769bcb513",
+    "status": "success"
+  },
+  "results": {
+    "new_unique_jpg": 17,
+    "previous_archived_reused_jpg": 116,
+    "archive_jpg": 133,
+    "archive_unique_sha256": 133,
+    "archive_technically_valid": 133,
+    "previous_116_sha256_unchanged": 116,
+    "global_cumulative_jpg": 170,
+    "changed_families": 7,
+    "newly_sourced_family": "pending-21",
+    "families_with_5plus_physical_images": 20,
+    "families_partial_under_5": 9,
+    "families_without_any_image": 1,
+    "production_complete_qa_pending": 0,
+    "official_shade_chart_completed": 0,
+    "sales_qa_approved": 0,
+    "new_public_urls": 0
+  },
+  "new_frames": {
+    "pending-05": 2,
+    "pending-06": 2,
+    "pending-07": 2,
+    "pending-10": 3,
+    "pending-17": 2,
+    "pending-21": 5,
+    "pending-23": 1
+  },
+  "source_evidence": {
+    "pending-21": [
+      {
+        "url": "https://img.hwahae.co.kr/products/2124760/2124760_20260305113114.jpg",
+        "type": "single-product-photo-candidate"
+      },
+      {
+        "url": "https://use-image.oliveyoung.com/images/prd/8800290365917/thumbnail/77556415-6b2b-4ef0-9fda-a6466b27255b.png?AR=0&QT=85&RS=1000X1000&SF=webp",
+        "type": "single-product-photo-candidate"
+      },
+      {
+        "url": "https://store.zigzag.kr/catalog/products/109259739",
+        "type": "25AD 30ml product details"
+      },
+      {
+        "url": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+        "type": "25AD 30ml specification"
+      }
+    ]
+  },
+  "holds": [
+    {
+      "id": "pending-26",
+      "reason": "PIXEL PURE cleanser official 145ml versus candidate photo 150ml mismatch; do not release"
+    },
+    {
+      "id": "pending-21",
+      "reason": "Package edition and commercial reuse rights not independently cleared; photos saved as candidates"
+    }
+  ],
+  "quality_notes": [
+    "17 new image designs have distinct documented roles but not all match final 5/6-frame sets",
+    "Original MK logo binary not available in Actions environment; not substituted",
+    "Official color charts still pending actual seller SKU options and shades",
+    "15g or gift set physical contents may vary; no stock-specific kit approval",
+    "No changes to public/images or existing 55 verified URLs"
+  ],
+  "obsolete_run": "41376578397 produced 11 duplicate information frames that were explicitly excluded and not counted; curated run is authoritative"
+}
