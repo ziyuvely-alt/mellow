@@ -21,3 +21,5 @@ jobs:
           name: plugin6-bbia-batch11-official-option-sources
           path: plugin6-bbia-batch11-official/
           if-no-files-found: warn
+
+# Retry after catalog-link parser repair.
