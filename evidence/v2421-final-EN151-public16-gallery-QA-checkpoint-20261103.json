@@ -1,0 +1,121 @@
+{
+  "version": "2.4.21",
+  "date": "2026-11-03",
+  "repository": "ziyuvely-alt/mellow",
+  "baseline": {
+    "source_checkpoint": "evidence/v2420-public55-and-en64-production-checkpoint-20261103.json",
+    "public_original_candidate_urls": 55,
+    "public_source_archive_exact_matches": 55,
+    "public_source_historical_exact_list_matched": false,
+    "existing_complete_families": 11,
+    "pending_families": 30
+  },
+  "actions": {
+    "copy_64_run": {
+      "run_id": 41486519514,
+      "artifact_id": 13162496965,
+      "branch": "production-assets-v2421-customer-en-copy",
+      "commit": "ee61ef80f2e2ad9c215f091f3b0408500e5c1454",
+      "result": "success"
+    },
+    "peripera_fix_run": {
+      "run_id": 41487257696,
+      "artifact_id": 13162457732,
+      "branch": "production-assets-v2421b-customer-final",
+      "commit": "a0abb0dfc2e204b4bb2b8d8d22b4161cd2f8bf22",
+      "result": "success"
+    },
+    "official_image_gallery_run": {
+      "run_id": 41487586891,
+      "artifact_id": 13161454658,
+      "branch": "production-assets-v2421-official-photo-options",
+      "result": "success"
+    },
+    "photo_87_run": {
+      "run_id": 41488447493,
+      "artifact_id": 13162449979,
+      "branch": "production-assets-v2421c-photo-en",
+      "commit": "2e5842d8d997fa7fab0a3bc2e7f24af46c13c767",
+      "result": "success"
+    }
+  },
+  "validated": {
+    "source_215_jpg_sha_unchanged": 215,
+    "public_55_sha_unchanged": 55,
+    "baseline_pending_original_jpg": 160,
+    "en_info_jpg_customer_refined": 64,
+    "internal_info_footer_labels_removed": 128,
+    "unsafe_info_main_field_replaced": 25,
+    "peripera_repeat_caption_corrected": 1,
+    "source_photo_jpg_visually_contact_screened": 96,
+    "source_photo_korean_outside_footer_corrected_jpg": 87,
+    "source_photo_already_english_reused_jpg": 4,
+    "source_photo_unsafe_HERO_hold_jpg": 5,
+    "total_active_en_revision_jpg": 151,
+    "combined_active_product_review_jpg": 160,
+    "public_16_visual_revisions_flagged": 16,
+    "public_16_live_frames_replaced": 0,
+    "public_39_source_unverified_closed": 0,
+    "official_gallery_image_attempts": 10,
+    "wrong_product_gallery_photos_rejected": 6,
+    "similar_exact_product_gallery_candidates_on_hold": 3,
+    "distinct_Clio_gallery_candidate_on_hold": 1,
+    "MK_original_png_binary_recovered": false,
+    "official_shade_charts_complete": 0,
+    "ready_except_logo": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "new_public_urls": 0,
+    "existing_public_urls_unchanged": 55,
+    "main_git_diff_public_files_changed": 0
+  },
+  "safety_gates": {
+    "source_photo_inner_packaging_print_never_modified": true,
+    "actual_MK_logo_bin_unavailable": "LOGO_BINARY_ACCESS_BLOCKED",
+    "official_sha_option_chart_unverified": true,
+    "no_public_or_auto_Shopee_replacement": true,
+    "public_55_exact_historical_list": "RECONSTRUCTED_PUBLIC_BASELINE; true historical file-of-record not located",
+    "original_gallery_rights_clearance": false,
+    "final_customer_English_claim": "151 customer-facing EN drafts technically rendered; package/shade/logo/commercial image rights final QA still pending"
+  },
+  "gallery_manual_qa": [
+    {
+      "family": "CLIO mini",
+      "status": "DISTINCT_OFFICIAL_PHOTO_QA_PENDING",
+      "count": 1,
+      "reason": "Official mini compact angle appears independent; Korean inventory edition and reuse rights not fully verified"
+    },
+    {
+      "family": "LAMELIN biotox cream",
+      "status": "SIMILAR_SOURCE_HOLD",
+      "count": 1,
+      "reason": "Correct cream with same practical photo angle"
+    },
+    {
+      "family": "LAMELIN biotox mask pack",
+      "status": "SIMILAR_SOURCE_HOLD",
+      "count": 1,
+      "reason": "Correct mask pack and box, photo essentially already represented"
+    },
+    {
+      "family": "LAMELIN needle shot hair serum",
+      "status": "SIMILAR_SOURCE_HOLD",
+      "count": 1,
+      "reason": "Correct gold bottle and box, photo close to published frame"
+    },
+    {
+      "family": "Wrong-product images in above manufacturer gallery",
+      "status": "WRONG_PRODUCT_REJECTED",
+      "count": 6,
+      "reason": "Gallery includes silver serum, eye product or cream jar where matched product differs"
+    }
+  ],
+  "remaining": [
+    "5 original HERO candidates with Korean in non-flat background need manual photo-safe correction, especially pending-01 unverified shade content",
+    "Public 16 product-photo repeats require truly different original detail photos, not background swaps",
+    "39 public source/license/edition items remain unverified",
+    "Actual original MK logo binary (not just visible embedded printed logo) has not been recovered",
+    "Global SKU and official shade evidence must match before color-chart approval",
+    "Customer EN drafts remain pending final product/photo and shop QA"
+  ]
+}
