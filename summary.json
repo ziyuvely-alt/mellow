@@ -1,0 +1,21 @@
+{
+  "version": "2.4.21",
+  "prior_public_original_jpg_preserved": 55,
+  "prior_pending_original_jpg_preserved": 160,
+  "customer_facing_en_jpg_edited": 64,
+  "customer_copy_internal_footer_labels_removed": 128,
+  "unsafe_main_copy_fields_replaced": 25,
+  "en_copy_hold": 0,
+  "public_16_original_qa_flagged": 16,
+  "public_new_visual_replacements_approved": 0,
+  "public_exact_url_list_historical_verified": false,
+  "public_39_unverified_source_closed": 0,
+  "source_photo_96_unmodified": 96,
+  "source_photo_96_visual_qa_final_pass": 0,
+  "en_master_complete_families": 0,
+  "final_qa_approved": 0,
+  "actual_original_mk_logo_recovered": false,
+  "official_color_chart_complete": 0,
+  "public_urls_untouched": 55,
+  "note": "Pixel-level edits remove only editorial/internal copy from v2420 INFO drafts; independent original product photos and public originals are immutable. No fabricated logo or unlicensed picture substitution."
+}
