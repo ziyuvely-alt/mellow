@@ -1,0 +1,27 @@
+name: Shopee v2470 collect Pixelpure Aura Serum 50ml source photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2470-pixelpure-serum-source.yml'
+      - 'scripts/v2470_pixelpure_aura_serum_gallery.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2470_pixelpure_aura_serum_gallery.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2470-pixelpure-aura-50ml-genuine-source-QA-HOLD
+          path: v2470-pixelpure-serum-50ml-gallery/
+          retention-days: 90
+          if-no-files-found: error
