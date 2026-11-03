@@ -1,0 +1,28 @@
+name: Shopee v2483 MISSHA PDRN 30ml Serum and 70ml Cream source-photo QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2483-missha-pdrn-two-source.yml'
+      - 'scripts/v2483_missha_pdrn_serum_cream_source.py'
+permissions:
+  contents: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Stage actual 30ml serum and 70ml cream photos separately with rights held
+        run: python scripts/v2483_missha_pdrn_serum_cream_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2483-MISSHA-two-real-product-photo-galleries-QA-HOLD
+          path: v2483-missha-pdrn-two-real-product-galleries/
+          retention-days: 90
+          if-no-files-found: error
