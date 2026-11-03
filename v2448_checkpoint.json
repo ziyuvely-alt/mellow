@@ -1,0 +1,167 @@
+{
+  "version": "2.4.48",
+  "previous": "production-assets-v2447b-eight-main-image-MK-QA",
+  "new_factual_detail_JPG_count": 7,
+  "groups": 7,
+  "previous_eight_main_JPG_regenerated": 0,
+  "pending03_MISSHA_unverified_swatch_cropped": false,
+  "new_color_swatches": 0,
+  "original_531_source_JPGs_modified": 0,
+  "older_55_public_URLs_modified": 0,
+  "FINAL_SALES_APPROVED": 0,
+  "all_photographic_pixels_from_existing_JPGs": true,
+  "new_frame_results": [
+    {
+      "group_id": "pending-04",
+      "source": "146-QA-hold-candidate-images/pending-04/02_02_02_INV_02_35438b61d8_EN_V2421C.jpg",
+      "source_sha256": "8a09b7a6c499ced6ee4e9bc7a720bbce3d8e31b34d68091a72ab6ebd0a6791d9",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-04/pending-04_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "2c497da28c7c8a8014ca3d00ebd93348630512c9d89b00f662a4d2387b11f2b3",
+      "crop_xyxy": [
+        255,
+        245,
+        865,
+        705
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Edition and shade source pending"
+    },
+    {
+      "group_id": "pending-11",
+      "source": "146-QA-hold-candidate-images/pending-11/02_02_02_INV_02_329c223adf_EN_V2421C.jpg",
+      "source_sha256": "14a9484afba91b1bd2cad537a2849f69a8a7103bff34cb701a65c5dc606ef7fd",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-11/pending-11_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "a8e9f6c0db6d53b81051cec687c96114af41c3f00341719e3b194830d082dfe0",
+      "crop_xyxy": [
+        278,
+        245,
+        883,
+        707
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Exact photographed package generation pending"
+    },
+    {
+      "group_id": "pending-15",
+      "source": "146-QA-hold-candidate-images/pending-15/02_02_02_INV_02_7f3ea992bc_EN_V2421C.jpg",
+      "source_sha256": "3b838caa2d123476e222cff8c6e86444778558950a83e9070d09125bdce256ed",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-15/pending-15_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "fa449eed65d752cacb6953c890f70e63bcfbe0ba3700bd22d5335c7963ef51e0",
+      "crop_xyxy": [
+        264,
+        320,
+        850,
+        704
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Source photo usage permission pending"
+    },
+    {
+      "group_id": "pending-25",
+      "source": "146-QA-hold-candidate-images/pending-25/02_slot-02-bioheal-prizcell-name-V2445.jpg",
+      "source_sha256": "9bdefb40404a503024e8bfba5fdf8efbb35567445d82188e3d0cc296cddca8ba",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-25/pending-25_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "af556daf39722bd1cdbeb3f42e1ca599259ca907bf3d9ccc2c8f8bbd2caf2118",
+      "crop_xyxy": [
+        324,
+        268,
+        736,
+        710
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Original MK logo excluded by crop; photo reuse pending"
+    },
+    {
+      "group_id": "pending-28",
+      "source": "146-QA-hold-candidate-images/pending-28/02_02_02_INV_02_6d891af057_EN_V2421C.jpg",
+      "source_sha256": "d570e6a9d934218f35d6e1257ecb74643b22b2639cca3bc78bb08b195c542b3e",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-28/pending-28_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "27cd5e352650241d7ec6ef2d2c0311168039d6b71f3b2448f636636d3fdd5805",
+      "crop_xyxy": [
+        263,
+        255,
+        809,
+        739
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Photo reuse pending"
+    },
+    {
+      "group_id": "pending-29",
+      "source": "146-QA-hold-candidate-images/pending-29/02_02_02_INV_02_1a858dfc39_EN_V2421C.jpg",
+      "source_sha256": "8c9eef513167da5361c2cea9ece8d3085019fc54d934f6823e06b75869396ee9",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-29/pending-29_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "a4adab2289be058c71e1659a28fcd5d601bfa69d0f7a5ee483495845432dc5a0",
+      "crop_xyxy": [
+        310,
+        305,
+        810,
+        710
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Photo reuse pending"
+    },
+    {
+      "group_id": "pending-30",
+      "source": "146-QA-hold-candidate-images/pending-30/02_02_02_INV_02_4d41995fb2_EN_V2421C.jpg",
+      "source_sha256": "2598dfe13706d000b27da7e20395d5499cf8392fd1245c986d82abf596c79d68",
+      "new_JPG": "new-source-backed-detail-JPGs/pending-30/pending-30_genuine-photo-detail-noMK_V2448.jpg",
+      "new_sha256": "9666de3b82069d096d686770a47ff22270246efe86f1417c2485ee5765114bb0",
+      "crop_xyxy": [
+        263,
+        267,
+        844,
+        677
+      ],
+      "reuse": "Original photographic pixels are cropped/rescaled, not synthesized",
+      "MK_logo_source_region_excluded": true,
+      "post_render_manual_visual_QA": "PENDING",
+      "official_source_edition_verified": false,
+      "photo_license_verified": false,
+      "physical_stock_verified": false,
+      "sales_approved": false,
+      "remaining": "Photo reuse pending"
+    }
+  ],
+  "next": [
+    "Visually open seven new JPGs, reject any accidental crop of wrong edition/photo",
+    "Compare every candidate against four exact known MK watermark controls, don't call them approved",
+    "Continue another batch only if verified source photo is available; don't duplicate images"
+  ]
+}
