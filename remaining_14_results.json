@@ -1,0 +1,352 @@
+[
+  {
+    "group_id": "pending-17",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-17_actual_source_review_QA_v2429c.jpg",
+    "sha256": "440125a5eb444d132099a8c7b84682a6cd0071ff26b250b80c5a5114d783bec5",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-17/INFO_03_V2413.jpg",
+        "sha256": "c30fa6319fa4c747b7f4d671df208a18a99d709a6a1e1ecb2dfa23104e4be487"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-17/INFO_05_V2413.jpg",
+        "sha256": "70452cfa05af8ce81b0e929f90fbc8117ebedc50c5536ede748a73dd26b9594a"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-17/SOURCE_1354c0fcba9a.jpg",
+        "sha256": "db4cfe0f117e9cb40b6eca4b7a39fdce9c59213a5df3c2b945d6d9aa55c398b8"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-18",
+    "existing_JPG_sources": 8,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-18_actual_source_review_QA_v2429c.jpg",
+    "sha256": "251400d2a894dc16a45833d7b8c99d7f60ab93e6eb1955efaa28f957ec0d4788",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-18/INFO_03_OFFICIAL_V2412.jpg",
+        "sha256": "e219e8c233968ff14d3b1d3753dd6c6de9198757fe38b8feea421892725f9b85"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-18/INFO_04_OFFICIAL_V2412.jpg",
+        "sha256": "65660ff964d1614513bfef0bff210468e46ef88b1b809bf161eb278ceea14cc1"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-18/INFO_05_OFFICIAL_V2412.jpg",
+        "sha256": "8332745ccb64ac614c4f4f29f17a6d442e3e2e2b6a7e2192aa835f636271d140"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-19",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-19_actual_source_review_QA_v2429c.jpg",
+    "sha256": "c3cae7bcaba06e500c1576c9d96ab480977453afa711b5ffa596bf46c1765f51",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-19/01_HERO_CANDIDATE.jpg",
+        "sha256": "2635df2b5d24245b2c363255e26cba7a7407f79a06548da2f15c5f48b2921f21"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-19/INFO_FUNCTION_01_V2414B.jpg",
+        "sha256": "2c7ae4aa9874dd3f96a1ba62769bb483278be9b38726ab98d90556d27a1e5fcf"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-19/INFO_HOW_TO_01_V2414.jpg",
+        "sha256": "a5508c0eec5f44a68234f8e52438672f5a0945b48ee872e3afab714bc55048da"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-20",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-20_actual_source_review_QA_v2429c.jpg",
+    "sha256": "76e11b19e49fa59da1f92e92e7f1fcdf40ff160967017051078457c1d9538281",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-20/INFO_02_V2412B.jpg",
+        "sha256": "0c9d4caf4fcf1820aa11360b8fb5a7adab8fe908d4ccab61a4e0ad244c23b031"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-20/INFO_03_V2412B.jpg",
+        "sha256": "d78663295735e6bf9cd429851f3d3dd2d6930916ea49817a5ff0853f2c25eb76"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-20/INFO_04_V2412B.jpg",
+        "sha256": "7c4f5781f049f5e3df4d9b21fc0dc809cd7c6ef9269ae5838c3a721e332072a7"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-21",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-21_actual_source_review_QA_v2429c.jpg",
+    "sha256": "15763ce79bedb260ec1e3187600a9e761b3152990b054d6b57a7e2a5e81ce3e9",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-21/INFO_03_V2413.jpg",
+        "sha256": "3f7a3114df0e526b09f138aff880d2c701e62a25ea15f7cbaa1970b3ccc9dc93"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-21/INFO_04_V2413.jpg",
+        "sha256": "37ec58f5f53797494a87b7927899b2755cb73abde913a76f5016a4b7f0359c17"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-21/INFO_05_V2413.jpg",
+        "sha256": "d2eb1660ccd19d0a9f260030bd45f191fb289e9c1970d264535ffc10b186f815"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-22",
+    "existing_JPG_sources": 8,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-22_actual_source_review_QA_v2429c.jpg",
+    "sha256": "23529d0f4274861135d924416a719267a5c9b80241a31bea4e24f11f8f3c9022",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-22/INFO_03_OFFICIAL_V2412.jpg",
+        "sha256": "d0c232dc396054a184eae206ad668ba9ea2daf059c39f1cab8fc5224e4a09a9e"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-22/INFO_04_OFFICIAL_V2412.jpg",
+        "sha256": "60b19340766aade199074356c905591a61827b00d7c0f545343e928a0dba0f96"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-22/INFO_05_OFFICIAL_V2412.jpg",
+        "sha256": "bcbbd516d8e4efb16490d0275555408509544198e129d17fe33e78ad578aa48e"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-23",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-23_actual_source_review_QA_v2429c.jpg",
+    "sha256": "ea951df6bb064e5d4503dae23d3f3c39f8b0d5f75bece845cfe587dfab37c3ba",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-23/01_HERO_CANDIDATE.jpg",
+        "sha256": "7b578ce3ea1fd28ef3301366b589b0a285dee20e7482171bae9b0fa95b706e12"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-23/INFO_05_V2413.jpg",
+        "sha256": "007daa7c4331eec5dd841db20ab5dc76ac4c34cdda6968b680bd4bb6dbc74dec"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-23/INFO_IDENTITY_01_V2414.jpg",
+        "sha256": "03be5f0ef4b68aef77a711ff5e232424b723e71cec8c8bb1241382c0f6b65d87"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-24",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-24_actual_source_review_QA_v2429c.jpg",
+    "sha256": "2fef8935eea53b72c1ade1ca9c8e271d8c37e31e6229c32fc782e3ba367881ae",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-24/INFO_VOLUME_01_V2414.jpg",
+        "sha256": "14740b092b3f2b1324fc42ade75b9a320775c07689623adb08cb63b099af4bb5"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-24/INV_01_216ad6670f.jpg",
+        "sha256": "68e7b30212e6fa9d696056ae850add885809619c15e9043e51c1aa2d4478df76"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-24/INV_02_2bec7c259a.jpg",
+        "sha256": "a8b3d7779bbe3b90786f14ff0c8f039a7afbf0f01fc435637527121d67d2780f"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-25",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-25_actual_source_review_QA_v2429c.jpg",
+    "sha256": "15561899ec2cc6963d7c8b0fb703f78aa83393681331b9b85b5b62b064356b36",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_01_1bd6f7ce25.jpg",
+        "sha256": "143a55449d633c06ad1c11304d0bca150b5249f30c759d10a7e8dcb3d532ddac"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_02_8056a2f613.jpg",
+        "sha256": "ec63757cf0b38df7d52dc4cf996bedb7cf714b2e14f5c5eace3f7946d93194d4"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_03_a7c25f91d5.jpg",
+        "sha256": "8d1aa42897724d348783dd066da69255590563495e8b6a5ed72e4a6b1188f690"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-26",
+    "existing_JPG_sources": 3,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-26_actual_source_review_QA_v2429c.jpg",
+    "sha256": "70488d5b252757c67865a82135a8d87755fb0e8779a957694071747a28c03cd7",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-26/PHOTO_OFFICIAL_145ML_V2416.jpg",
+        "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-26/PIXELPURE_INFO_02_V2416C.jpg",
+        "sha256": "e3899656cf6cb22a75b4d488306fecb525bf5730bf07cf1d1f2aeac96ba4bb26"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-26/PIXELPURE_INFO_03_V2416C.jpg",
+        "sha256": "c81faaad021d96c23e4bcad01fc9352ef6f90e65a7bf9e925ecb84ed281cd3ed"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-27",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-27_actual_source_review_QA_v2429c.jpg",
+    "sha256": "daf8fdaeabdb68a8c5ff0a39687c71c3716b8d1888a1bbe994eacd0e825d917c",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-27/INV_01_1f25c5d0f4.jpg",
+        "sha256": "d28bf2d4d4639a0e13f2b6ff41dd1c0dd082d3e593c462f5c3cae0c2a60254a7"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-27/INV_02_4b4942e542.jpg",
+        "sha256": "fbdf5f811654146ceb6c9c24d8cd5213b17e71d44ebc726047aa22b01016d165"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-27/INV_03_7a9cbf05cb.jpg",
+        "sha256": "369fe60efbaadcf9fb3136eb4c430884d9d91477a888b741314b274fbd82005c"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-28",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-28_actual_source_review_QA_v2429c.jpg",
+    "sha256": "e49fc478ed8aa5c528091613a352ed91cc753a6bf187bb246bea55450aa12a92",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-28/INV_01_5a12115d60.jpg",
+        "sha256": "123c10237060c3cf04f575af2250972dfced804bc5d7d04801906f719f6c57e0"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-28/INV_02_6d891af057.jpg",
+        "sha256": "00fa9d4f8990d9997b8f4387ebba8a33329599e6001e1fd103d3abedc150b0cd"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-28/INV_03_7280158c0e.jpg",
+        "sha256": "a45a350f482a74dce91c96eb1c712dafd58d1e87c0d8b82074b9e5b1402810e3"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-29",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-29_actual_source_review_QA_v2429c.jpg",
+    "sha256": "8aeef761ca84a0aba29d3389c74f8576fee60ee47e058ec580c8bc2dcbfdea82",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-29/INV_01_023f07baae.jpg",
+        "sha256": "6e1e90f76452edb97e21c73616a8541830e6dab188064b5ba1a103c789f81464"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-29/INV_02_1a858dfc39.jpg",
+        "sha256": "1a356812bfddb1bce9efeb998367a9da9311eddf8e4c9e5c219f21f2ce7bbb90"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-29/INV_03_2ebc3d949d.jpg",
+        "sha256": "6693547557ec3728ad03cd72956435b4e4669d5199b413395cdd205bd58107c5"
+      }
+    ]
+  },
+  {
+    "group_id": "pending-30",
+    "existing_JPG_sources": 5,
+    "state": "VISUAL_QA",
+    "QA_file": "pending-30_actual_source_review_QA_v2429c.jpg",
+    "sha256": "a81aa35f0ae23ee2e0c2116133ed890ff4a38b3bcb85ba89804c9c053e8de31a",
+    "blockers": [
+      "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+      "RIGHTS_NOT_VERIFIED"
+    ],
+    "source_SHA256": [
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-30/INV_01_449aa19f31.jpg",
+        "sha256": "ec45bc4c6c81b54dbeb60c3f5eeaf5506fe10ec56b41247b51427409c26b8480"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-30/INV_02_4d41995fb2.jpg",
+        "sha256": "139fddfed86d3ac4d5d647fd9c9bfcb124d0b54f7b2ddc88a1b0dda2ebce5599"
+      },
+      {
+        "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-30/INV_03_a2a1622ea7.jpg",
+        "sha256": "abf9131896fddf6f1f2cc48b51ec9a55e954235bddc9f3b40ffd0a92bc88f2f8"
+      }
+    ]
+  }
+]

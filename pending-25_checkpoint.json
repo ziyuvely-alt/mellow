@@ -1,0 +1,25 @@
+{
+  "group_id": "pending-25",
+  "existing_JPG_sources": 5,
+  "state": "VISUAL_QA",
+  "QA_file": "pending-25_actual_source_review_QA_v2429c.jpg",
+  "sha256": "15561899ec2cc6963d7c8b0fb703f78aa83393681331b9b85b5b62b064356b36",
+  "blockers": [
+    "EXACT_PRODUCT_EDITION_NOT_VERIFIED",
+    "RIGHTS_NOT_VERIFIED"
+  ],
+  "source_SHA256": [
+    {
+      "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_01_1bd6f7ce25.jpg",
+      "sha256": "143a55449d633c06ad1c11304d0bca150b5249f30c759d10a7e8dcb3d532ddac"
+    },
+    {
+      "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_02_8056a2f613.jpg",
+      "sha256": "ec63757cf0b38df7d52dc4cf996bedb7cf714b2e14f5c5eace3f7946d93194d4"
+    },
+    {
+      "path": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/originals-immutable/preserved-pending-originals/pending-25/INV_03_a7c25f91d5.jpg",
+      "sha256": "8d1aa42897724d348783dd066da69255590563495e8b6a5ed72e4a6b1188f690"
+    }
+  ]
+}
