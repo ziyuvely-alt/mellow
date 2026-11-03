@@ -1,0 +1,23 @@
+{
+  "version": "v2528",
+  "date": "2026-11-04",
+  "total_review_JPGs": 155,
+  "original_154_images_byte_identical": true,
+  "new_image": "review-JPG-by-family/pending-02/06-original-21-23-shades-watermarked-QA.jpg",
+  "new_sha256": "bd2cf9cd687a32136ade63b30e74553bfa44a57f517b96de836de4288b0375a4",
+  "source_photo": "https://bizweb.dktcdn.net/100/443/867/products/cushion-duong-am-missha-magic-cushion-moist-up-spf50-plus-pa-plus-plus-plus.png?v=1701087892520",
+  "source_sha256": "b02107a23bccf3e1b3130ace63f3640da43ece586633b71160e3a6540ef6da2f",
+  "photo_source_watermark_preserved": true,
+  "source_image_shades": [
+    "#21",
+    "#23"
+  ],
+  "exact_stock_package_edition_verified": false,
+  "commercial_photo_usage_rights_verified": false,
+  "product_original_MK_logo_applied": false,
+  "sales_ready": false,
+  "previous_55_verified_public_URLs_unchanged": true,
+  "new_public_URLs": 0,
+  "spreadsheet_created_or_shared": false,
+  "reason_for_hold": "Sagi-watermarked retailer photo is an authentic QA reference, not licensed merchant artwork."
+}
