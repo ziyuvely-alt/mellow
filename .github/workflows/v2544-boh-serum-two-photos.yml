@@ -1,0 +1,53 @@
+name: Shopee v2544 BIOHEAL BOH 30ml two genuine product-photo upgrades
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2544-boh-serum-two-photos.yml'
+      - 'scripts/v2544_boh_30ml_serum_two_real_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  only-two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore OBgE Double Essence corrected 156 previous QA JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41714856203 -n shopee-v2543-156-JPG-two-OBgE-double-essence-real-photo-QA -D v2544-base-156
+      - name: Replace exactly two BOH 30ml repetitive cards, keep 154 JPEGs immutable
+        run: |
+          python scripts/v2544_boh_30ml_serum_two_real_photos.py
+          test "$(find v2544-156-boh-prizcell-serum-photo-upgrade/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2544-156-JPG-two-BOH-NAD-30ml-real-photo-QA-only
+          path: v2544-156-boh-prizcell-serum-photo-upgrade/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve strictly QA-only results without altering public URLs or merchant sheet
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2544-156-boh-prizcell-serum-photo-upgrade /tmp/v2544-art
+          git worktree add --detach /tmp/v2544-wt HEAD
+          cd /tmp/v2544-wt
+          git switch --orphan production-assets-v2544-156-BOH-NAD-serum-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2544-art/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPGs with two real BIOHEAL BOH NAD red serum photographic frames'
+          git push origin HEAD:refs/heads/production-assets-v2544-156-BOH-NAD-serum-real-QA
