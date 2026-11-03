@@ -1,0 +1,330 @@
+{
+  "version": "2.4.58b",
+  "source": "production-assets-v2427b-obge-shade-clean/immutable-v2426b/C8_45_options_v2426_verified_status.csv",
+  "checked_unchanged_option_rows": 45,
+  "groups": 8,
+  "families": {
+    "pending-01": {
+      "product": "MISSHA Magic Cushion Cover Lasting",
+      "options": [
+        {
+          "option": "25",
+          "status": "OFFICIAL_SHADE_PHOTO_PENDING"
+        },
+        {
+          "option": "27",
+          "status": "OFFICIAL_SHADE_PHOTO_PENDING"
+        },
+        {
+          "option": "21",
+          "status": "EXCLUDE_21_FROM_COVER_LASTING_PENDING_EXPLICIT_APPROVAL"
+        },
+        {
+          "option": "23",
+          "status": "OFFICIAL_SHADE_PHOTO_PENDING"
+        }
+      ],
+      "excel_rows": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    "pending-02": {
+      "product": "MISSHA Magic Cushion Moist Up",
+      "options": [
+        {
+          "option": "21",
+          "status": "MOIST_UP_21_NOT_AUTOMATICALLY_EXCLUDED"
+        },
+        {
+          "option": "23",
+          "status": "OFFICIAL_SHADE_PHOTO_PENDING"
+        }
+      ],
+      "excel_rows": [
+        12,
+        13
+      ]
+    },
+    "pending-04": {
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+      "options": [
+        {
+          "option": "21N Linen",
+          "status": "CLIO_MINI_3_SHADES_CONFIRMED"
+        },
+        {
+          "option": "23N Ginger",
+          "status": "CLIO_MINI_3_SHADES_CONFIRMED"
+        },
+        {
+          "option": "21C Lingerie",
+          "status": "CLIO_MINI_3_SHADES_CONFIRMED"
+        }
+      ],
+      "excel_rows": [
+        16,
+        17,
+        18
+      ]
+    },
+    "pending-05": {
+      "product": "CLIO Kill Cover Founwear Cushion Special Set",
+      "options": [
+        {
+          "option": "19N Porcelain",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "21N Linen",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "23N Ginger",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "19C Light",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "21C Lingerie",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        }
+      ],
+      "excel_rows": [
+        22,
+        23,
+        24,
+        25,
+        26
+      ]
+    },
+    "pending-06": {
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion Special Set",
+      "options": [
+        {
+          "option": "19N Porcelain",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "19C Light",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "23N Ginger",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "21N Linen",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "21C Lingerie",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        }
+      ],
+      "excel_rows": [
+        27,
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    "pending-07": {
+      "product": "CLIO Kill Cover Mesh Blur Cushion Special Set",
+      "options": [
+        {
+          "option": "19C Light",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "19N Porcelain",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        },
+        {
+          "option": "21N Linen",
+          "status": "CLIO_SHADE_NAME_VERIFIED_KIT_EDITION_HOLD"
+        }
+      ],
+      "excel_rows": [
+        32,
+        33,
+        34
+      ]
+    },
+    "pending-08": {
+      "product": "peripera Mood Glowy Tint (26AD) 4g",
+      "options": [
+        {
+          "option": "01",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "02",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "03",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "04",
+          "status": "NOT_IN_VERIFIED_26AD_RETAILER_LIST"
+        },
+        {
+          "option": "05",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "06",
+          "status": "NOT_IN_VERIFIED_26AD_RETAILER_LIST"
+        },
+        {
+          "option": "07",
+          "status": "NOT_IN_VERIFIED_26AD_RETAILER_LIST"
+        },
+        {
+          "option": "08",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "09",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "10",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "11",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "12",
+          "status": "NAMESPELLING_CONFLICT_12"
+        },
+        {
+          "option": "13",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "14",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "15",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "16",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "17",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "18",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "19",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        },
+        {
+          "option": "20",
+          "status": "NAME_MATCH_NEW_26AD_NOT_PREVIOUS_GENERATION_PROOF"
+        }
+      ],
+      "excel_rows": [
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51,
+        52,
+        53,
+        54
+      ]
+    },
+    "pending-10": {
+      "product": "OBgE Perfect Homme Cushion 15g",
+      "options": [
+        {
+          "option": "1 Ivory",
+          "status": "OBGE_OFFICIAL_3_SHADES_CONFIRMED"
+        },
+        {
+          "option": "2 Beige",
+          "status": "OBGE_OFFICIAL_3_SHADES_CONFIRMED"
+        },
+        {
+          "option": "3 Sand",
+          "status": "OBGE_OFFICIAL_3_SHADES_CONFIRMED"
+        }
+      ],
+      "excel_rows": [
+        58,
+        59,
+        60
+      ]
+    }
+  },
+  "critical_holds": [
+    {
+      "group": "pending-01",
+      "option": "21",
+      "reason": "Cover Lasting 21 excluded from shade chart only, original SKU unchanged"
+    },
+    {
+      "group": "pending-02",
+      "option": "21",
+      "reason": "Moist Up 21 not automatically excluded"
+    },
+    {
+      "group": "pending-08",
+      "options": [
+        "04",
+        "06",
+        "07"
+      ],
+      "reason": "Not listed in inspected 26AD retailer option choices; never invent images or colors"
+    },
+    {
+      "group": "pending-08",
+      "option": "12",
+      "reason": "Exact Korean color name spelling conflict remains"
+    },
+    {
+      "group": "pending-10",
+      "reason": "Source original calls product Perfect Homme, while photo project refers to Perfect Cover; exact physical package edition verification required"
+    }
+  ],
+  "source_links": [
+    "https://emart.ssg.com/item/itemView.ssg?itemId=1000801054539&salestrNo=6005&siteNo=6001",
+    "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+    "https://www.ssg.com/item/itemView.ssg?itemId=1000520975568"
+  ],
+  "verified_swatch_options": 0,
+  "licensed_photo_option_rows": 0,
+  "source_spreadsheet_mutated": false,
+  "spreadsheet_shared": false,
+  "new_shade_photos_generated": 0,
+  "sales_release_approved": false
+}
