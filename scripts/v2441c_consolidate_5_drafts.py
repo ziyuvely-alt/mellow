@@ -9,7 +9,7 @@ OUT=Path("v2441c-output");OUT.mkdir(exist_ok=True)
 entries=[]
 branches=[
  ("v2441-source","v2441_checkpoint.json","edits","updated_path","updated_sha256"),
- ("v2441b-source","v2441b_checkpoint.json","results","file","sha256")]
+ ("v2441b-source","v2441b_checkpoint.json","results","file","sha256")
 ]
 seen=set()
 for branch,manifest,key,filename,hashfield in branches:
