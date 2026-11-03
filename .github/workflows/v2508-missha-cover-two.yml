@@ -1,0 +1,49 @@
+name: Shopee v2508 MISSHA cover lasting 4 shade names and puff guide JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2508-missha-cover-two.yml'
+      - 'scripts/v2508_missha_cover_last_four_shade_two_frames.py'
+permissions:
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Make only 2 missing factual JPG files
+        run: |
+          python scripts/v2508_missha_cover_last_four_shade_two_frames.py
+          test -s v2508-missha-cover-only-two/05-4-shade-name-guide.jpg
+          test -s v2508-missha-cover-only-two/06-puff-application-guide.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2508-MISSHA-cover-lasting-two-factual-JPG
+          path: v2508-missha-cover-only-two/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve review assets outside public and sheet
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2508-missha-cover-only-two /tmp/v2508-out
+          git worktree add --detach /tmp/v2508-wt HEAD
+          cd /tmp/v2508-wt
+          git switch --orphan production-assets-v2508-missha-cover-two
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2508-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve two real JPG verified-facts guides for MISSHA Cover Lasting shades and use'
+          git push origin HEAD:refs/heads/production-assets-v2508-missha-cover-two
