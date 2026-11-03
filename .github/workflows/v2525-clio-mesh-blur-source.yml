@@ -1,0 +1,28 @@
+name: Shopee v2525 capture exact CLIO Mesh Blur source swatches
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2525-clio-mesh-blur-source.yml'
+      - 'scripts/v2525_clio_mesh_blur_exact_three_swatches_source.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Collect original physical swatches without fabrication
+        run: python scripts/v2525_clio_mesh_blur_exact_three_swatches_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2525-clio-mesh-blur-true-5shade-source-for-3stock-QA
+          path: v2525-clio-mesh-blur-source-evidence/
+          retention-days: 90
+          if-no-files-found: error
