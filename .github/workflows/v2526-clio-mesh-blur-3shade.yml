@@ -1,0 +1,57 @@
+name: Shopee v2526 add original CLIO Mesh Blur 3-stock shade photo
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2526-clio-mesh-blur-3shade.yml'
+      - 'scripts/v2526_append_clio_mesh_blur_three_actual_swatches.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  exact-one:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover all previous 153 JPEG bytes unchanged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41704748041 -n shopee-v2524-153-JPG-CLIO-Mesh-Glow-5real-shades-QA -D v2526-base-153
+      - name: Recover actual CLIO Mesh Blur applied five-shade photography
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41705031949 -n shopee-v2525-clio-mesh-blur-true-5shade-source-for-3stock-QA -D v2526-original-photo
+      - name: Extract three genuine stock swatches, require 154 JPGs and immutable original 153
+        run: |
+          python scripts/v2526_append_clio_mesh_blur_three_actual_swatches.py
+          test "$(find v2526-154-clio-mesh-blur-real-three-shades/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 154
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2526-154-JPG-real-CLIO-Mesh-Blur-three-shades-QA
+          path: v2526-154-clio-mesh-blur-real-three-shades/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Archive in isolated QA branch, no public URL or workbook changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2526-154-clio-mesh-blur-real-three-shades /tmp/v2526-assets
+          git worktree add --detach /tmp/v2526-wt HEAD
+          cd /tmp/v2526-wt
+          git switch --orphan production-assets-v2526-154-real-CLIO-shades-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2526-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 154 review JPGs with exact 19C 19N 21N Mesh Blur photo swatches'
+          git push origin HEAD:refs/heads/production-assets-v2526-154-real-CLIO-shades-QA
