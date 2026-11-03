@@ -1,0 +1,129 @@
+{
+  "version": "2.4.28",
+  "timestamp_utc": "2026-11-03T08:45:51.621653+00:00",
+  "baseline_branch": "production-assets-v2427b-obge-shade-clean",
+  "baseline_commit": "102ef1854c9d6c299ee8d20a505d4b7fe01f6ae3",
+  "baseline_source_jpg_count": 531,
+  "baseline_source_jpg_sha_unchanged": true,
+  "legacy_519_hash_preservation": "CHECKPOINT_ONLY_NOT_INDEPENDENT_519_AUDIT",
+  "legacy_55_public_urls": "NO_PUBLIC_FILE_WRITE; LIVE_HTTP_NOT_RECHECKED",
+  "obge_english_4_reused": 4,
+  "obge_shade_clean_1_reused": true,
+  "new_customer_ready_image_count": 0,
+  "new_qa_contact_sheets": 2,
+  "obge_white_rectangle": "CUTOUT_SOURCE_REQUIRED",
+  "obge_KR_renewed_options": "1 Ivory / 2 Beige / 3 Sand (official domestic listing)",
+  "obge_HK_against_KR_renewed_generation": "GENERATION_MISMATCH_REVIEW_REQUIRED",
+  "clio_5g_official_product_listing": "VERIFIED; EXACT_SWATCH_SOURCE_GENERATION_UNVERIFIED",
+  "commercial_image_reuse_verified": 0,
+  "stock_package_verified": 0,
+  "MK_original_binary_verified": false,
+  "C8_group_count": 8,
+  "C8_option_count": 45,
+  "peripera_26AD_conflict_resolved": false,
+  "missha_cover_21_excluded_from_shade_chart": true,
+  "READY_EXCEPT_LOGO": 0,
+  "FINAL_QA_APPROVED": 0,
+  "customer_sales_released": false,
+  "checks": {
+    "obge_en": [
+      {
+        "path": "new-EN-info-four/pending-10/INFO_03_V2413_EN_V2421_V2427.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 53797,
+        "sha256": "527cf2421959107647847748a9b6cf68fafbf9e75dfe86fa61ba49aec9516398",
+        "spec_ok": true
+      },
+      {
+        "path": "new-EN-info-four/pending-10/INFO_04_V2413_EN_V2421_V2427.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 61929,
+        "sha256": "7b0b4190652e98616f5b5458cf59de84cd215ce2060f1070f3508f57056133f3",
+        "spec_ok": true
+      },
+      {
+        "path": "new-EN-info-four/pending-10/INFO_05_V2413_EN_V2421_V2427.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 48814,
+        "sha256": "e62262e797e3fc3002005d741ee53ef7ff3b346fac469d01523c5834a418e6f0",
+        "spec_ok": true
+      },
+      {
+        "path": "new-EN-info-four/pending-10/INFO_SCOPE_01_V2414_EN_V2421_V2427.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 64106,
+        "sha256": "1e6b125e42de2034fe31cf35f256f6713059a356f258e7d95bb5bf4b03289dbc",
+        "spec_ok": true
+      }
+    ],
+    "obge_shade": [
+      {
+        "path": "OBGE_3shade_clean_QA_V2427b.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 76568,
+        "sha256": "5a8a1d45bd5f53391222afcf6693cb90b492dfac52dc18b5d299099e2c6f72d4",
+        "spec_ok": true
+      }
+    ],
+    "clio_shade": [
+      {
+        "path": "immutable-v2426b/CLIO_Mini_3shade_actual_source_QA_CLEAN_V2426b.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 74503,
+        "sha256": "0f86e1d6af9d104cc15fadc28c25fe03e9dd3d5d74af03aac625c5cd605521aa",
+        "spec_ok": true
+      }
+    ],
+    "obge_photo": [
+      {
+        "path": "OBGE_product_photo_white_background_REJECTED_FOR_FINAL_QA.jpg",
+        "width": 1080,
+        "height": 1080,
+        "format": "JPEG",
+        "mode": "RGB",
+        "bytes": 56735,
+        "sha256": "69e61adbc200335d2c1b33abebaa6123334066b718480fccfa8a09898c666e5e",
+        "spec_ok": true
+      }
+    ]
+  },
+  "contact_sheets": {
+    "OBGE_EN4": {
+      "width": 1160,
+      "height": 910,
+      "format": "JPEG",
+      "mode": "RGB",
+      "bytes": 57385,
+      "sha256": "74999848be45e0d65349c6d0aeb5ba20b15de0e1b4b77350bd5b1088e145f88c",
+      "spec_ok": false
+    },
+    "OBGE_vs_CLIO": {
+      "width": 1160,
+      "height": 500,
+      "format": "JPEG",
+      "mode": "RGB",
+      "bytes": 46233,
+      "sha256": "91c310b6331002b100991c380ca953913bde2b6b99ee7f855f89dd5fe6998013",
+      "spec_ok": false
+    }
+  },
+  "public_image_path_mutation": 0
+}
