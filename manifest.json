@@ -1,0 +1,28 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-18",
+  "source_run_id": 41687077182,
+  "modified_only_two_existing_draft_frames": true,
+  "prior_original_files_unchanged": true,
+  "files": [
+    {
+      "file": "03-exact-single-tube-photo.jpg",
+      "sha256": "a2565dc161aacbf4566623fb19a84de72a5e287fb5b6b4cd02cf53d009acc153",
+      "bytes": 86359,
+      "fixed": "Removed internal QA/status footer only",
+      "status": "VISUAL_QA_PENDING"
+    },
+    {
+      "file": "04-bottle-and-box-source.jpg",
+      "sha256": "c2db67b6de40cd70fec4305d649681bf075f0782958a0233d7049fc187e4ca6a",
+      "bytes": 113034,
+      "fixed": "Removed internal QA/status footer only",
+      "status": "VISUAL_QA_PENDING"
+    }
+  ],
+  "other_drafts_unchanged": true,
+  "original_MK_logo_missing": true,
+  "commercial_rights_and_stock_QA_pending": true,
+  "new_public_URLs": 0,
+  "excel_shared": false
+}
