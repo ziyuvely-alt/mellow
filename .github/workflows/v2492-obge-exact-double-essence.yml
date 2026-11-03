@@ -1,0 +1,27 @@
+name: Shopee v2492 exact OBgE Double Essence official-media source recovery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2492-obge-exact-double-essence.yml'
+      - 'scripts/v2492_obge_hk_exact_double_essence_gallery.py'
+permissions:
+  contents: read
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2492_obge_hk_exact_double_essence_gallery.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2492-obge-double-essence-official-true-gallery-QA-HOLD
+          path: v2492-obge-double-essence-exact-gallery/
+          retention-days: 90
+          if-no-files-found: error
