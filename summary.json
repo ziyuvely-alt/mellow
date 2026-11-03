@@ -1,0 +1,29 @@
+{
+  "version": "2.4.26",
+  "all_C8_working_SKU_option_rows_checked": 45,
+  "C8_target_families": 8,
+  "peripera_26AD_vs_previous_generation_resolved": false,
+  "peripera_current_26AD_number_name_matches": 16,
+  "peripera_missing_latest_retailer_numbers": [
+    "004",
+    "006",
+    "007"
+  ],
+  "peripera_spelling_hold_012": true,
+  "missha_cover_lasting_21_excluded_from_new_chart_pending_confirmation": true,
+  "missha_moist_up_21_not_excluded": true,
+  "clio_mini_3_shades_match": true,
+  "obge_cushion_3_shades_match": true,
+  "new_actual_source_swatches_chart_qa_jpg": 1,
+  "official_final_approved_chart_jpg": 0,
+  "preserved_previous_jpg_bytes": 516,
+  "existing_public_urls_unchanged": 55,
+  "rights_request_created_not_sent": true,
+  "commercial_reuse_verified": 0,
+  "inventory_package_verified": 0,
+  "original_MK_png_recovered": false,
+  "READY_EXCEPT_LOGO": 0,
+  "PRODUCTION_COMPLETE_QA_PENDING": 0,
+  "FINAL_QA_APPROVED": 0,
+  "note": "Official-origin-looking CLIO Color Library image is reseller-hosted; actual swatches are cropped not hallucinated. Not publishable without brand origin, license, stock and MK logo gates."
+}
