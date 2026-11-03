@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-21",
+  "source_run_v2458": 41676483713,
+  "new_run_v2505": 41694470423,
+  "new_artifact_id": 13259725780,
+  "verified_visual_review": "Compared v2458 all 6 pending-21 JPG candidate scene content with the newly collected v2504 source photographs. Standalone yellow eye cream tube and yellow tube-with-texture scene already existed in previous actual JPGs.",
+  "previous_total_candidate_JPGs": 6,
+  "duplicate_scene_candidates": [
+    "03-real-30ml-eye-cream-front.jpg",
+    "04-real-tube-and-texture.jpg"
+  ],
+  "additional_facts_card": "05-30ml-product-facts.jpg overlaps with an existing 30mL net-content card",
+  "net_new_distinct_five_frame_content_count": 0,
+  "new_JPGs_created_but_not_promoted_to_final": 3,
+  "action": "QUARANTINE_v2505_FOR_DUPLICATE_SCENES; retain earlier actual JPGs; do not restart pending-21 from scratch",
+  "unchanged_public_URLs": 55,
+  "spreadsheet_shared": false,
+  "rights_and_edition_not_verified": true
+}
