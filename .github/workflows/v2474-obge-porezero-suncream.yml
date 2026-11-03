@@ -1,0 +1,28 @@
+name: Shopee v2474 collect OBgE Pore Zero Sun Cream 50ml official photo sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2474-obge-porezero-suncream.yml'
+      - 'scripts/v2474_obge_porezero_suncream_50ml_source.py'
+permissions:
+  contents: read
+jobs:
+  source-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Exact sun cream page only, never sun stick or different pack
+        run: python scripts/v2474_obge_porezero_suncream_50ml_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2474-obge-porezero-suncream-50ml-source-QA-HOLD
+          path: v2474-obge-porezero-suncream-50ml-gallery/
+          retention-days: 90
+          if-no-files-found: error
