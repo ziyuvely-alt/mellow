@@ -1,0 +1,53 @@
+name: Shopee v2538 one official MISSHA Peel Shot 25 wash-off usage JPG correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2538-missha-peelshot-one-use.yml'
+      - 'scripts/v2538_missha_peelshot_replace_one_netcontent_with_washoff.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-customer-use-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore previously preserved 156 QA JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41712326538 -n shopee-v2537-156-jpg-missha-70ml-cream-one-photo-QA-only -D v2538-base
+      - name: Render only verified MISSHA wash-off guide and verify 155 source photos unchanged
+        run: |
+          python scripts/v2538_missha_peelshot_replace_one_netcontent_with_washoff.py
+          test "$(find v2538-156-missha-peelshot-washoff-corrected/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2538-156-real-JPGs-MISSHA-peelshot-official-use-QA
+          path: v2538-156-missha-peelshot-washoff-corrected/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve in isolated non-public image QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2538-156-missha-peelshot-washoff-corrected /tmp/v2538-out
+          git worktree add --detach /tmp/v2538-wt HEAD
+          cd /tmp/v2538-wt
+          git switch --orphan production-assets-v2538-156-missha-peelshot-use-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2538-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve official MISSHA Peel Shot 25 wash-off instructions in QA review JPG set'
+          git push origin HEAD:refs/heads/production-assets-v2538-156-missha-peelshot-use-QA
