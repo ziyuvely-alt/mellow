@@ -1,0 +1,27 @@
+name: Shopee v2490 OBgE Double Essence 50plus50 official source photo QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2490-obge-double-essence-source.yml'
+      - 'scripts/v2490_obge_double_essence_50plus50_source.py'
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2490_obge_double_essence_50plus50_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2490-OBgE-double-essence-50plus50-source-QA-HOLD
+          path: v2490-obge-double-essence-100ml-evidence/
+          retention-days: 90
+          if-no-files-found: error
