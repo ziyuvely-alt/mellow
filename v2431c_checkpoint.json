@@ -1,0 +1,36 @@
+{
+  "version": "2.4.31c",
+  "customer_info_jpg_modified": 2,
+  "product_photo_replaced": 0,
+  "candidate_official_swatches": 0,
+  "sale_approved": 0,
+  "published_urls_changed": 0,
+  "original_unchanged": true,
+  "evidence": [
+    "https://www.hwahae.com/en/products/goodal-Green-Tangerine-Vita-C-Serum-Mist/2013152",
+    "https://lewkin.com/ko-kr/products/green-tangerine-vita-c-serum-mist-100ml"
+  ],
+  "edits": [
+    {
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_02_V2412B_EN_V2421.jpg",
+      "source_sha256": "167b3521032deb683fdd291f5a1a3368845269b65cd55a14f584264e389e1587",
+      "output": "sales-image-drafts/pending-20/INFO_02_V2412B_EN_V2421_V2431c.jpg",
+      "sha256": "f897793baa6997f6bd1e0373f0f5aebac963e6adde6e940e7f2699d8999ba6da",
+      "revision": "unverified_25AD_removed",
+      "stage": "SALES_IMAGE_DRAFT",
+      "rights_verified": false,
+      "visual_qa": "PENDING"
+    },
+    {
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_03_V2412B_EN_V2421.jpg",
+      "source_sha256": "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28",
+      "output": "sales-image-drafts/pending-20/INFO_03_V2412B_EN_V2421_V2431c.jpg",
+      "sha256": "cc7d6ba4cf3e952db23022078d06a937c67d25b0fcdad355d14bcdbe5e87d59e",
+      "revision": "repetitive_howto_fixed",
+      "stage": "SALES_IMAGE_DRAFT",
+      "rights_verified": false,
+      "visual_qa": "PENDING"
+    }
+  ],
+  "next": "Get exact current retail packaging and rights; do not promote QA draft without evidence"
+}
