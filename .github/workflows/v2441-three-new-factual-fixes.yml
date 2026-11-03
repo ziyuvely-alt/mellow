@@ -1,0 +1,51 @@
+name: Shopee v2441 three fresh factual customer JPG repairs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2441-three-new-factual-fixes.yml'
+      - 'scripts/v2441_three_unedited_copy_corrections.py'
+permissions:
+  contents: write
+jobs:
+  customer-jpg-revisions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Fetch immutable actual customer images
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Actually modify three previously untouched JPG frames
+        run: python scripts/v2441_three_unedited_copy_corrections.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2441-three-real-customer-JPG-corrections
+          path: v2441-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save new isolated branch without touching published assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2441-output /tmp/v2441-results
+          git worktree add --detach /tmp/v2441-wt HEAD
+          cd /tmp/v2441-wt
+          git switch --orphan production-assets-v2441-three-factual-frame-fixes
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2441-results/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three new actual JPG copy corrections and independent evidence holds'
+          git push origin HEAD:refs/heads/production-assets-v2441-three-factual-frame-fixes
