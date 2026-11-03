@@ -1,0 +1,54 @@
+name: Shopee v2455b consolidate 38 real customer JPG drafts and source color evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2455b-38-actual-JPGs.yml'
+      - 'scripts/v2455b_38_source_JPG_and_color_evidence.py'
+permissions:
+  contents: write
+jobs:
+  byte-reconcile-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore previous immutable 36 JPG and two new brand sourced facts
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2454b prior-v2455
+          git fetch origin production-assets-v2454b-36-photo-and-fact-JPG-drafts production-assets-v2455-two-obge-official-source-facts
+          git archive origin/production-assets-v2454b-36-photo-and-fact-JPG-drafts | tar -xf - -C prior-v2454b
+          git archive origin/production-assets-v2455-two-obge-official-source-facts | tar -xf - -C prior-v2455
+      - name: Verify each SHA of 38 existing JPGs and preserve precise source holds
+        run: python scripts/v2455b_38_source_JPG_and_color_evidence.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2455b-38-actual-customer-JPGs-source-evidence
+          path: v2455b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Archive new checkpoint only, no prior file or public URL changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2455b-output /tmp/v2455b-results
+          git worktree add --detach /tmp/v2455b-wt HEAD
+          cd /tmp/v2455b-wt
+          git switch --orphan production-assets-v2455b-38-JPGs-official-shade-evidence
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2455b-results/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Save 38 exact JPEGs plus provenance holds on Peripera color set and MISSHA 21 exclusion'
+          git push origin HEAD:refs/heads/production-assets-v2455b-38-JPGs-official-shade-evidence
