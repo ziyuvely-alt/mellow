@@ -1,0 +1,53 @@
+name: Shopee v2547 two genuine Pixelpure 50ml Aqua Cream photos in QA corpus
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2547-pixelpure-cream-two-real.yml'
+      - 'scripts/v2547_pixelpure_aqua_cream_two_real_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  two-real-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore v2546 156 JPEGs with pad photo corrections
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715570273 -n shopee-v2546-156-JPG-PixelPure-Pads-two-authentic-photo-QA -D v2547-base-156
+      - name: Replace only two true 50ml jar photos and verify remaining 154 byte hashes
+        run: |
+          python scripts/v2547_pixelpure_aqua_cream_two_real_photos.py
+          test "$(find v2547-156-pixelpure-cream-real-scenes/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2547-156-JPG-PixelPure-Aqua-Cream-two-real-scenes-QA
+          path: v2547-156-pixelpure-cream-real-scenes/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve QA image corpus without changing old public URLs or workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2547-156-pixelpure-cream-real-scenes /tmp/v2547-save
+          git worktree add --detach /tmp/v2547-wt HEAD
+          cd /tmp/v2547-wt
+          git switch --orphan production-assets-v2547-156-Pixelpure-cream-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2547-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPGs with genuine 50ml Pixelpure Aqua Cream jar and real cream texture'
+          git push origin HEAD:refs/heads/production-assets-v2547-156-Pixelpure-cream-real-QA
