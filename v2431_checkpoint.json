@@ -1,0 +1,72 @@
+{
+  "version": "2.4.31",
+  "latest_prior_checkpoint": "v2.4.30d",
+  "actual_new_JPG": 2,
+  "retail_layout_drafts": 1,
+  "shade_reference_QA_drafts": 1,
+  "actual_photo_replacement_count": 1,
+  "shades_removed_from_current_qa_draft": [
+    21
+  ],
+  "source_preservation": 531,
+  "source_hash_changed": 0,
+  "published_URL_changed": 0,
+  "customer_images_published": 0,
+  "new_official_verified_shade_chart": 0,
+  "FINAL_QA_APPROVED": 0,
+  "photo_permissions_verified": 0,
+  "MK_original_binary_verified": false,
+  "findings": [
+    {
+      "group": "pending-27",
+      "old": "immutable-v2426b/originals-v2425-unchanged/eight-single-updated-five-frame-QA/pending-27/01_INV_01_1f25c5d0f4_EN_V2421C.jpg",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/new-independent-photo-candidates/pending-27/PRODUCT_PHOTO_01_V2424.jpg",
+      "old_sha256": "b905465e48378aebe8527d2a6f7d4a9def8af11e37d81f4c7442bb5ba668d6ff",
+      "source_sha256": "d5e32733ba8fa99647cd1a23d69445462f42e537ba169ec0d27d6d7e7b9d599b",
+      "output": {
+        "path": "sales-image-drafts/pending-27/01_correct_200ml_bottle_V2431.jpg",
+        "sha256": "521c273dc1b726678806f993105e2679d348ed8c3d457d9e8f532c35eba566b6",
+        "bytes": 68029,
+        "dimensions": [
+          1080,
+          1080
+        ]
+      },
+      "status": "SALES_IMAGE_DRAFT",
+      "blocking": [
+        "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+        "MK_ORIGINAL_LOGO_REQUIRED",
+        "STOCK_PACKAGE_CROSSCHECK_REQUIRED"
+      ],
+      "evidence": "Manufacturer official listing confirms 200mL; source from preserved authentic photo; 300mL erroneous old frame removed from this draft"
+    },
+    {
+      "group": "pending-01",
+      "old": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-01/01_HERO_EN_V2422.jpg",
+      "old_sha256": "7c9eec838edeb83daa4ea7eab4edd28846296fc46a68965c6f03c556908ad8b0",
+      "output": {
+        "path": "shade-source-drafts/pending-01/MISSHA_Cover_23_25_27_sourcecrop_QA_V2431.jpg",
+        "sha256": "79877afdb8ec6daf8defd5184e3a567da71b1f502642f831335aadb9645eabb2",
+        "bytes": 94607,
+        "dimensions": [
+          1080,
+          1080
+        ]
+      },
+      "status": "SOURCE_QA_HOLD",
+      "blocking": [
+        "SOURCE_PROVENANCE_REQUIRED",
+        "GENERATION_MATCH_REQUIRED",
+        "COMMERCIAL_REUSE_PERMISSION_REQUIRED"
+      ],
+      "evidence": "Actual existing shade photograph cropped to exclude forbidden No.21. The original swatch photo has not independently passed official provenance check; not approved for sale"
+    }
+  ],
+  "next_recovery": [
+    "pending-27 compare source 200mL photo with actual stock photo and rights",
+    "pending-01 obtain official 23/25/27 Cover Lasting swatches, replace hold draft",
+    "pending-10 approved original cutout",
+    "pending-12/13/14/17/19/23 pending verified cutout source",
+    "continue remaining frames visual QA"
+  ]
+}
