@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-20",
+  "previous_source_run": 41690495044,
+  "revision_reason": "Correct misattributed source and remove unsupported extra instruction",
+  "verified_retailer_source": "https://www.yesstyle.com/en/goodal-green-tangerine-vita-c-serum-mist-100ml/info.html/pid.1136600635",
+  "new_single_JPG": "05-usage-verified-source-corrected.jpg",
+  "bytes": 90637,
+  "sha256": "0e6f1db6b7e4df1d9915fe19cefb32915bea6dfb017031a87c7a525b7d007135",
+  "prior_product_photo_JPGs_overwritten": 0,
+  "stock_25AD_packaging_verified": false,
+  "MK_original_logo_applied": false,
+  "sales_final_QA_approved": false,
+  "new_public_URLs": 0,
+  "xlsx_shared": false
+}
