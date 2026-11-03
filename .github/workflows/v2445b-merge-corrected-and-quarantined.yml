@@ -1,0 +1,54 @@
+name: Shopee v2445b full 150 JPG disposition with 4 corrected captions
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2445b-merge-corrected-and-quarantined.yml'
+      - 'scripts/v2445b_merge_corrected_bioheal_and_quarantine.py'
+permissions:
+  contents: write
+jobs:
+  merge-without-rerender:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore latest QA pools and four successful prior changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2444 prior-v2445
+          git fetch origin production-assets-v2444-reviewed-146-and-quarantine-4 production-assets-v2445-four-bioheal-caption-corrections
+          git archive origin/production-assets-v2444-reviewed-146-and-quarantine-4 | tar -xf - -C prior-v2444
+          git archive origin/production-assets-v2445-four-bioheal-caption-corrections | tar -xf - -C prior-v2445
+      - name: Verify and merge exact JPG bytes by family with known defects held
+        run: python scripts/v2445b_merge_corrected_bioheal_and_quarantine.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2445b-146-current-candidates-4-quarantined
+          path: v2445b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve new resumption checkpoint branch without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2445b-output /tmp/v2445b-result
+          git worktree add --detach /tmp/v2445b-wt HEAD
+          cd /tmp/v2445b-wt
+          git switch --orphan production-assets-v2445b-corrected-QA-hold-146
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2445b-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 146 new QA hold JPG pool after exact four BIOHEAL caption fixes, quarantine four MK images'
+          git push origin HEAD:refs/heads/production-assets-v2445b-corrected-QA-hold-146
