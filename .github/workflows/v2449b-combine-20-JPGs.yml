@@ -1,0 +1,54 @@
+name: Shopee v2449b consolidate 20 verified photo JPG candidates, no spreadsheets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2449b-combine-20-JPGs.yml'
+      - 'scripts/v2449b_combine_20_unchanged_JPGs.py'
+permissions:
+  contents: write
+jobs:
+  verify-20-and-archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing JPG assets, never recreate them
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2448b prior-v2449
+          git fetch origin production-assets-v2448b-15-photo-candidate-checkpoint production-assets-v2449-five-new-photo-details
+          git archive origin/production-assets-v2448b-15-photo-candidate-checkpoint | tar -xf - -C prior-v2448b
+          git archive origin/production-assets-v2449-five-new-photo-details | tar -xf - -C prior-v2449
+      - name: SHA-verify and package 20 source-backed JPGs
+        run: python scripts/v2449b_combine_20_unchanged_JPGs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2449b-20-photo-JPG-drafts-no-sheets
+          path: v2449b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve own branch without publishing image or workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2449b-output /tmp/v2449b-artifacts
+          git worktree add --detach /tmp/v2449b-wt HEAD
+          cd /tmp/v2449b-wt
+          git switch --orphan production-assets-v2449b-20-actual-photo-candidates
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2449b-artifacts/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 20 authentic-source customer JPG drafts and independent user permission holds'
+          git push origin HEAD:refs/heads/production-assets-v2449b-20-actual-photo-candidates
