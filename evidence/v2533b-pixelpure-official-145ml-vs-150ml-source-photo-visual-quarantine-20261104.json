@@ -1,0 +1,55 @@
+{
+  "version": "v2533b",
+  "date": "2026-11-04",
+  "family": "pending-26",
+  "product": "PIXEL PURE Gentle Gel to Foam Cleanser",
+  "catalog_claimed_capacity": "145 mL",
+  "verified_official_page": "https://www.pixelpure.com/product/detail.html?product_no=21",
+  "source_run_id": 41710591522,
+  "source_artifact_id": 13266663017,
+  "actual_images_visually_inspected": 5,
+  "accepted_sources": [
+    {
+      "name": "official-product-image-01.jpg",
+      "sha256": "6bcb50db894591dd724125629308de7907b427021fef2edcc67f8debecc505cd",
+      "photographed_capacity": "145 ml / 4.90 fl. oz.",
+      "visual_label_verified": true,
+      "commercial_photo_use_rights_verified": false,
+      "status": "KEEP_REAL_145ML_ORIGINAL_FOR_QA_ONLY"
+    }
+  ],
+  "quarantined_sources": [
+    {
+      "name": "official-product-image-02.jpg",
+      "sha256": "915cf0476cc9952d04af9b8eff0c46169eb4c207a274116c6c72eb1bbfc3ea0d",
+      "actual_printed_capacity": "150 ml / 5.07 fl. oz.",
+      "reason": "WRONG_STOCK_CAPACITY"
+    },
+    {
+      "name": "official-product-image-03.jpg",
+      "sha256": "07c4121b016578b4981085364ec649d049dc0d18d1102c1583f240a9cb17c15b",
+      "actual_printed_capacity": "150 ml / 5.07 fl. oz.",
+      "reason": "WRONG_STOCK_CAPACITY"
+    },
+    {
+      "name": "official-product-image-04.jpg",
+      "sha256": "e308d286ae3f4b49029cfeb18c817c330c37acb8e88c26ac265c5e92df9af190",
+      "actual_printed_capacity": "150 ml / 5.07 fl. oz.",
+      "reason": "WRONG_STOCK_CAPACITY"
+    },
+    {
+      "name": "official-product-image-05.jpg",
+      "sha256": "7e79fb3edbe6a0a42ff7cf19067c59ab4aa0c1360289a56ef2feb23670d789a1",
+      "reason": "ACCESSORY_SHOPPING_BAG_NOT_PRODUCT"
+    }
+  ],
+  "prior_156_jpgs_unchanged": true,
+  "source_145ml_photo_distinct_from_current_retail_frame": "NOT_VERIFIED_NEVER_DUPLICATE_IN_FINAL_SET",
+  "approved_new_retail_jpg_count": 0,
+  "commercial_rights": "HOLD",
+  "stock_physical_edition": "HOLD",
+  "mk_logo_original": "HOLD",
+  "public_url_changes": 0,
+  "excel_spreadsheet_created_or_shared": false,
+  "conclusion": "BRAND_OFFICIAL_PAGE_CONTAINS_MIXED_145ML_150ML_GALLERY_PHOTOS; DO_NOT TRUST PAGE_TITLE_FOR_IMAGE_CAPACITY"
+}
