@@ -1,0 +1,23 @@
+{
+  "version": "v2538",
+  "date": "2026-11-04",
+  "family": "pending-12",
+  "product": "MISSHA PDRN NAD+ Renew Peel Shot 25 15 mL",
+  "replaced_slot": 5,
+  "prior_sha256": "f5e78672c17f881392786e463c3740dbdcb8310d3b9ba73acd31631cd29b12da",
+  "new_file": "review-JPG-by-family/pending-12/05-v2538-official-washoff-usage.jpg",
+  "new_sha256": "2b732d7b8c95ddd1648e2555139ecb0f208f30f7590e41c02aef32623c208068",
+  "official_ingredients": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+  "washoff_directions": "https://www.misshajp.com/shop/g/gMS104057/",
+  "weekly_application_source": "https://www.cosme.net/variations/1259156/",
+  "original_155_JPGs_byte_identical": true,
+  "actual_review_JPG_count": 156,
+  "source_photo_recreated": false,
+  "MK_original_logo_applied": false,
+  "commercial_photo_rights_checked": false,
+  "actual_inventory_package_QA": false,
+  "final_sales_release": false,
+  "prior_55_verified_urls_unchanged": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
