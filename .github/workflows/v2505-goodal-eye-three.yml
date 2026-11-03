@@ -1,0 +1,56 @@
+name: Shopee v2505 Goodal 25AD 30ml eye cream three genuine JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2505-goodal-eye-three.yml'
+      - 'scripts/v2505_goodal_25ad_eye_three_real_JPG.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  compose-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore real eye cream source photos only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41693239543 -n shopee-v2504-goodal-25ad-30ml-eye-cream-real-source-QA -D v2504-goodal-eye-originals
+      - name: Produce three new separate customer review JPGs
+        run: python scripts/v2505_goodal_25ad_eye_three_real_JPG.py
+      - name: Check three tangible JPGs exist
+        run: |
+          test -s v2505-goodal-eye-three-JPG-review/03-real-30ml-eye-cream-front.jpg
+          test -s v2505-goodal-eye-three-JPG-review/04-real-tube-and-texture.jpg
+          test -s v2505-goodal-eye-three-JPG-review/05-30ml-product-facts.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2505-goodal-eye-three-real-JPG-QA-HOLD
+          path: v2505-goodal-eye-three-JPG-review/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve only review output isolated from public URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2505-goodal-eye-three-JPG-review /tmp/v2505-jpgs
+          git worktree add --detach /tmp/v2505-worktree HEAD
+          cd /tmp/v2505-worktree
+          git switch --orphan production-assets-v2505-goodal-eye-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2505-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three authentic Goodal eye cream draft JPEGs for exact 25AD stock QA'
+          git push origin HEAD:refs/heads/production-assets-v2505-goodal-eye-three
