@@ -1,0 +1,28 @@
+name: Shopee v2498 MISSHA M Perfect Cover BB old vs PRO source QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2498-missha-bb-edition-qa.yml'
+      - 'scripts/v2498_missha_bb_old_vs_pro_source.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Capture exact brand photos without cross-edition publishing
+        run: python scripts/v2498_missha_bb_old_vs_pro_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2498-missha-BB-edition-photo-QA-HOLD
+          path: v2498-missha-mperfect-source-qa/
+          retention-days: 90
+          if-no-files-found: error
