@@ -1,0 +1,41 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "new_jpg": [
+    {
+      "filename": "04-mini-3-shade-name-guide.jpg",
+      "sha256": "3fcc2e12221c5e9de919af691826c3e1213aca0745fe851f4a0e30e842e62f9c",
+      "bytes": 99743,
+      "size": [
+        1080,
+        1080
+      ],
+      "type": "informational draft only"
+    },
+    {
+      "filename": "05-mini-cushion-puff-use-guide.jpg",
+      "sha256": "678834d328a7fa341375f1130e398494339537b2b2c87e4880d193471a397198",
+      "bytes": 93157,
+      "size": [
+        1080,
+        1080
+      ],
+      "type": "informational draft only"
+    }
+  ],
+  "verified_option_names": [
+    "21C Lingerie",
+    "21N Linen",
+    "23N Ginger"
+  ],
+  "option_basis": "https://m.gsshop.com/prd/prd.gs?prdid=1100834213",
+  "usage_basis": "https://www.yesstyle.com/en/clio-kill-cover-mesh-glow-essential-cushion-mini-3-colors-21c-lingerie/info.html/pid.1136795277",
+  "source_photos_reused": 0,
+  "artificial_shade_pixels_created": false,
+  "official_shade_swatch_verified": false,
+  "physical_stock_generation_matched": false,
+  "original_MK_logo_applied": false,
+  "published": false,
+  "workbook_shared": false
+}
