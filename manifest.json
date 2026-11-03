@@ -1,0 +1,39 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-28",
+  "existing_photo_frames_preserved": 2,
+  "new_info_jpg_count": 3,
+  "new_image_files": [
+    {
+      "file": "03-how-to-check-instructions.jpg",
+      "bytes": 105511,
+      "sha256": "e4db5fab1182fe2e3af8db4c9b3debe94e125d1e283567386baf8b31f446a57e",
+      "format": "JPEG",
+      "size": "1080x1080",
+      "status": "NEW_JPG_PREPARED_FINAL_VISUAL_QA_HOLD"
+    },
+    {
+      "file": "04-product-format.jpg",
+      "bytes": 83550,
+      "sha256": "7dce4a78ab79e570016fb8737ead28978c39e20e7d30bad83d91f8d248e55d4a",
+      "format": "JPEG",
+      "size": "1080x1080",
+      "status": "NEW_JPG_PREPARED_FINAL_VISUAL_QA_HOLD"
+    },
+    {
+      "file": "05-pack-check.jpg",
+      "bytes": 109627,
+      "sha256": "88b55f82fc4636f9b9feef5780a97a7671757a213a7b73583891443f3a4d56f2",
+      "format": "JPEG",
+      "size": "1080x1080",
+      "status": "NEW_JPG_PREPARED_FINAL_VISUAL_QA_HOLD"
+    }
+  ],
+  "reference_product_page": "https://pixelpure.com/product/detail.html?product_no=23",
+  "net_content_basis": "Seller stock record for 210mL; brand official listing confirms 70 pads",
+  "commercial_photo_rights_pending": true,
+  "original_MK_logo_binary_pending": true,
+  "published_new_url": 0,
+  "full_family_qa_approved": false,
+  "do_not_merge_excel": true
+}
