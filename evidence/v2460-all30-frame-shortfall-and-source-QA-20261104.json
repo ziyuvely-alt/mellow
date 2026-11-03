@@ -1,0 +1,263 @@
+{
+  "date": "2026-11-04",
+  "source_zip_artifact_id": 13250023302,
+  "source_run_id": 41676483713,
+  "qa_scope": "114 eligible customer JPG candidate files + 2 separately withheld unsupported-claim JPGs = 116 physical JPGs",
+  "families": [
+    {
+      "family": "pending-01",
+      "existing_candidate_jpg": 4,
+      "required_minimum": 6,
+      "frame_count_shortfall": 2,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-02",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 6,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-03",
+      "existing_candidate_jpg": 1,
+      "required_minimum": 5,
+      "frame_count_shortfall": 4,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-04",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 6,
+      "frame_count_shortfall": 4,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-05",
+      "existing_candidate_jpg": 5,
+      "required_minimum": 6,
+      "frame_count_shortfall": 1,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-06",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 6,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-07",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 6,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-08",
+      "existing_candidate_jpg": 4,
+      "required_minimum": 6,
+      "frame_count_shortfall": 2,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-09",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-10",
+      "existing_candidate_jpg": 5,
+      "required_minimum": 6,
+      "frame_count_shortfall": 1,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-11",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-12",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-13",
+      "existing_candidate_jpg": 5,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-14",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-15",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-16",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-17",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-18",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-19",
+      "existing_candidate_jpg": 4,
+      "required_minimum": 5,
+      "frame_count_shortfall": 1,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-20",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-21",
+      "existing_candidate_jpg": 6,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-22",
+      "existing_candidate_jpg": 5,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-23",
+      "existing_candidate_jpg": 4,
+      "required_minimum": 5,
+      "frame_count_shortfall": 1,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-24",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-25",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-26",
+      "existing_candidate_jpg": 5,
+      "required_minimum": 5,
+      "frame_count_shortfall": 0,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Complete source rights, edition, visual, and MK-logo QA; for optioned goods verify authentic shade chart"
+    },
+    {
+      "family": "pending-27",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-28",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-29",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    },
+    {
+      "family": "pending-30",
+      "existing_candidate_jpg": 2,
+      "required_minimum": 5,
+      "frame_count_shortfall": 3,
+      "quality": "NOT_PUBLIC_READY",
+      "next_action": "Acquire unique exact-product photo and missing distinct info frame; preserve existing approved candidates"
+    }
+  ],
+  "metrics": {
+    "pending_families": 30,
+    "active_candidate_jpg": 114,
+    "withheld_claim_jpg": 2,
+    "families_below_five_candidates": 17,
+    "explicit_five_or_six_candidate_groups": 13,
+    "complete_for_sales_release": 0
+  },
+  "notes": [
+    "Physical JPG counts are NOT frame uniqueness or final approval",
+    "No previously published 55 URL entry changed",
+    "Peripera 26AD and OBgE 13g/15g editions remain evidence-sensitive",
+    "Newest v2459 2 repaired JPGs are separate and not merged into this v2458-origin 114 count"
+  ],
+  "excel_shared": false
+}
