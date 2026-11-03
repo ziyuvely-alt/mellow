@@ -1,0 +1,82 @@
+{
+  "version": "2.4.32c",
+  "base": "v2.4.31d",
+  "date": "2026-11-03",
+  "actions": [
+    {
+      "run_id": 41644810671,
+      "artifact_id": 13234751965,
+      "branch": "production-assets-v2432-goodal-real-photo-clean",
+      "commit": "35efd85f23e7927bedb3360d6d50023448ba0655",
+      "conclusion": "success"
+    },
+    {
+      "run_id": 41645063492,
+      "artifact_id": 13234702572,
+      "branch": "production-assets-v2432b-missha-three-photo-drafts",
+      "commit": "4c5c39d9c734e8394055131895939157e45dc36d",
+      "conclusion": "success"
+    }
+  ],
+  "actual_new_jpgs": [
+    {
+      "family": "pending-20",
+      "source": "genuine goodal Serum Mist 100mL source photograph",
+      "kind": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2432-goodal-real-photo-clean/sales-image-drafts/pending-20/goodal_serum_mist_100ml_no_retailer_badge_V2432.jpg",
+      "sha256": "24ef8f46284082f2a6023fccdac26397524393d29eeaf84ea5cc2c2578226f78",
+      "change": "actual central crop excludes CLIO retailer badge without altering original product pixels"
+    },
+    {
+      "family": "pending-12",
+      "kind": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2432b-missha-three-photo-drafts/sales-image-drafts/pending-12/pending-12_source_photo_white_field_V2432b.jpg",
+      "change": "real 15mL MISSHA Peel Shot source re-layout on white field, no inpaint"
+    },
+    {
+      "family": "pending-13",
+      "kind": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2432b-missha-three-photo-drafts/sales-image-drafts/pending-13/pending-13_source_photo_white_field_V2432b.jpg",
+      "change": "real 30mL MISSHA Repair Serum source re-layout on white field, no inpaint"
+    },
+    {
+      "family": "pending-14",
+      "kind": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2432b-missha-three-photo-drafts/sales-image-drafts/pending-14/pending-14_source_photo_white_field_V2432b.jpg",
+      "change": "real 70mL MISSHA Repair Cream source re-layout on white field, no inpaint"
+    }
+  ],
+  "counts": {
+    "new_JPGs": 4,
+    "groups_changed": 4,
+    "actual_source_photo_safe_relayouts": 4,
+    "new_verified_color_charts": 0,
+    "FINAL_QA_APPROVED": 0,
+    "ready_except_logo": 0,
+    "rights_verified": 0,
+    "original_531_JPG_rewritten": 0,
+    "published_55_URLs_overwritten": 0,
+    "live_URL_http_check": false
+  },
+  "visual_qa": {
+    "four_drafts_opened": true,
+    "major_text_crop_or_overlap_detected": false,
+    "original_photo_background_cutout_performed": false,
+    "commercial_approval": false
+  },
+  "holds": {
+    "pending20": "photo reuse and stock package permission",
+    "pending12": "photo rights and stock package evidence",
+    "pending13": "photo rights and stock package evidence; source is existing close-up",
+    "pending14": "photo rights and stock package evidence; source includes magnifier"
+  },
+  "next_resume": [
+    "pending-17 Dr.G Brightening Up Sun exact source crop without clipping labels",
+    "pending-19 goodal Vita C Cream exact source photo white rectangle",
+    "pending-23 OBgE Pore Zero sun correct brand-origin imagery",
+    "pending-10 OBgE cushion: approved transparent original, not generated alpha",
+    "C8 45 options exact generation official color references; 21 cover shade exclusion retained",
+    "Pending 30 families complete per-frame visual QA, source permissions, actual MK logo original binary"
+  ],
+  "notes": "Draft JPGs are on GitHub branches; if repo public, they are publicly accessible as files although not published to Shopee. No external messages sent."
+}
