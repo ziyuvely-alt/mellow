@@ -1,0 +1,38 @@
+{
+  "version": "2.4.41b",
+  "new_customer_jpg": 2,
+  "groups": 2,
+  "earlier_success_recreated": 0,
+  "original_source_changed": 0,
+  "public_url_changed": 0,
+  "final_approved": 0,
+  "results": [
+    {
+      "group_id": "pending-13",
+      "source": "pending-13/INFO_03_V2412B_EN_V2421.jpg",
+      "source_sha": "4301067d1d80386e858b19f1345444aad905c04c79d61446817bfa30a27605a8",
+      "file": "sales-image-drafts/pending-13/pending-13_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "reason": "Existing ornamental arc intersects net content card",
+      "state": "SALES_IMAGE_DRAFT",
+      "rights_hold": true,
+      "stock_version_hold": true
+    },
+    {
+      "group_id": "pending-19",
+      "source": "pending-19/INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+      "source_sha": "107fa7a49e2b17ddb0e8cff5d7de9d8692591d71eb67df5ef998ef2ee7ccb6d8",
+      "file": "sales-image-drafts/pending-19/pending-19_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "5443bd4cbc1c8f83d274763cba330d8d3cdf17773c09ae644e7810f7f44f8e30",
+      "reason": "Existing unsupported 25AD generation label removed; retained pre-existing product function claim",
+      "state": "SALES_IMAGE_DRAFT",
+      "rights_hold": true,
+      "stock_version_hold": true
+    }
+  ],
+  "remaining": [
+    "Official SKU and photograph proof required before publication",
+    "Continue other unreviewed groups",
+    "Check output visual quality and preserve rejected versions separately"
+  ]
+}
