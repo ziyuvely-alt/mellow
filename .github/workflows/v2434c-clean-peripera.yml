@@ -1,0 +1,49 @@
+name: Shopee v2434c clean Peripera info panel after visual QA rejection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2434c-clean-peripera.yml'
+      - 'scripts/v2434c_peripera_clean_panel.py'
+permissions:
+  contents: write
+jobs:
+  clean-peripera:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: |
+          mkdir baseline-v2434
+          git fetch origin production-assets-v2434-obge-peripera-drafts
+          git archive origin/production-assets-v2434-obge-peripera-drafts | tar -xf - -C baseline-v2434
+      - run: python scripts/v2434c_peripera_clean_panel.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2434c-clean-peripera-info-final-QA-draft
+          path: v2434c-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate branch without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2434c-output /tmp/v2434c
+          git worktree add --detach /tmp/v2434c-wt HEAD
+          cd /tmp/v2434c-wt
+          git switch --orphan production-assets-v2434c-peripera-clean-panel
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2434c/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve coherent and manually checked Peripera English information panel'
+          git push origin HEAD:refs/heads/production-assets-v2434c-peripera-clean-panel
