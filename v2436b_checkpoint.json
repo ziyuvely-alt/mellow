@@ -1,0 +1,18 @@
+{
+  "version": "2.4.36b",
+  "group": "pending-28",
+  "new_actual_revised_JPG": 1,
+  "supersedes": "production-assets-v2436-three-source-photo-drafts/sales-image-drafts/pending-28/pending-28_genuine-photo_no-MK_V2436.jpg",
+  "reason": "Prior texture-only enlarged draft was not sufficiently product-identifying",
+  "replacement_source": "INV_03_7280158c0e_EN_V2421C.jpg",
+  "source_sha256": "a92bea78d2f72f88b2f147af43c1e689f461347daa27487583abc4b499489f1c",
+  "replacement_file": "sales-image-drafts/pending-28/PIXELPURE_full_jar_replacement_V2436b.jpg",
+  "replacement_sha256": "a60c65b571a480f14106a9245dc892be6486d7a5a4371a7c108409487beb9012",
+  "source_real_photo_unchanged": true,
+  "MK_badge_excluded_by_crop": true,
+  "sales_approval": false,
+  "rights_verified": false,
+  "stock_verified": false,
+  "public_urls_overwritten": 0,
+  "next": "Visually inspect exact new image, leave rights and packaging holds"
+}
