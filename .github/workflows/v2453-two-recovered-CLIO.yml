@@ -1,0 +1,52 @@
+name: Shopee v2453 recover two real CLIO photos and reject false OBgE source
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2453-two-recovered-CLIO.yml'
+      - 'scripts/v2453_replace_only_two_clio_and_quarantine_obge.py'
+permissions:
+  contents: write
+jobs:
+  two-actual-photo-recoveries:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore immutable actual source photographs for two CLIO products
+        shell: bash
+        run: |
+          mkdir prior-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C prior-v2427b
+      - name: Generate exactly two corrected real-photo detail JPGs and source quarantine proof
+        run: python scripts/v2453_replace_only_two_clio_and_quarantine_obge.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2453-two-CLIO-real-photo-fixes-and-wrong-OBgE-proof
+          path: v2453-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate new outputs, don't mutate prior sources or public images
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2453-output /tmp/v2453-results
+          git worktree add --detach /tmp/v2453-wt HEAD
+          cd /tmp/v2453-wt
+          git switch --orphan production-assets-v2453-two-CLIO-repaired-plus-obge-reject
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2453-results/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve two corrected source photo CLIO JPG drafts and wrong-product OBgE quarantine proof'
+          git push origin HEAD:refs/heads/production-assets-v2453-two-CLIO-repaired-plus-obge-reject
