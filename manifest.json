@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-25",
+  "name": "BIOHEAL BOH NAD PRIZCELL Glow Boost Cream 50ml",
+  "new_jpg": [
+    {
+      "filename": "03-original-open-jar-texture.jpg",
+      "source": "original-04.jpg",
+      "role": "REAL_OPEN_JAR_TEXTURE",
+      "bytes": 254262,
+      "sha256": "195bfb97c49e10fa116cfa1076143b03333d48319fbc9608c2638bc9a68034a8",
+      "jpg_1080_square": true,
+      "status": "EXACT_PHOTO_QA_HOLD"
+    },
+    {
+      "filename": "04-original-closeup-jar.jpg",
+      "source": "original-05.jpg",
+      "role": "REAL_JAR_CLOSEUP",
+      "bytes": 212874,
+      "sha256": "af89897320cc207368fb27ce94a10b45c7032bc8bd3ab1c3472ab4f0071862fa",
+      "jpg_1080_square": true,
+      "status": "EXACT_PHOTO_QA_HOLD"
+    },
+    {
+      "filename": "05-original-single-product.jpg",
+      "source": "original-06.jpg",
+      "role": "REAL_STANDALONE_JAR",
+      "bytes": 111502,
+      "sha256": "9df395a29af20ca986709dc736afd61a00855a9308a18b1e03ee92a85ce0bbc3",
+      "jpg_1080_square": true,
+      "status": "EXACT_PHOTO_QA_HOLD"
+    }
+  ],
+  "source_run_id": 41686243752,
+  "source_artifact_id": 13254318742,
+  "existing_older_frames_modified": 0,
+  "marketing_banners_excluded": [
+    "original-01.jpg",
+    "original-02.jpg"
+  ],
+  "model_photo_excluded": [
+    "original-03.jpg"
+  ],
+  "photo_rights_approved": false,
+  "original_MK_logo_applied": false,
+  "stock_edition_verified": false,
+  "released": false,
+  "new_verified_public_url": 0,
+  "excel_created_or_shared": false
+}
