@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-29",
+  "prior_jpg_reused_untouched": 2,
+  "new_jpg": [
+    {
+      "file": "03-real-cream-jar-photo.jpg",
+      "origin": "original-02.jpg",
+      "sha256": "1f6b59dda9c267cdfe75acb1881b9065d75adcc776a4aaa349a3176de685610d",
+      "bytes": 96974,
+      "status": "LOCAL_JPG_READY_FINAL_QA_HOLD"
+    },
+    {
+      "file": "04-real-open-jar-photo.jpg",
+      "origin": "original-04.jpg",
+      "sha256": "cf0a61efa9b2db8977d09de0fcef8aeb13267901714d545047869ff1c111c46e",
+      "bytes": 92990,
+      "status": "LOCAL_JPG_READY_FINAL_QA_HOLD"
+    },
+    {
+      "file": "05-product-format-50ml.jpg",
+      "origin": "Official 50ml jar product page factual description",
+      "sha256": "0396a24bfdc1f0a7ab9dc0c4b9dfd8887639fe99bdfcf680eac54d3c45b369a1",
+      "bytes": 84021,
+      "status": "LOCAL_JPG_READY_FINAL_QA_HOLD"
+    }
+  ],
+  "official_page": "https://www.pixelpure.com/product/detail.html?product_no=26",
+  "official_source_artifact": 13253792183,
+  "no_unverified_ingredients_or_clinical_claims": true,
+  "actual_original_MK_logo": false,
+  "commercial_photo_reuse_rights_checked": false,
+  "stock_edition_QA_passed": false,
+  "published_new_urls": 0,
+  "excel_shared": false
+}
