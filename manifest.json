@@ -1,0 +1,60 @@
+{
+  "version": "v2521",
+  "date": "2026-11-04",
+  "source": "v2520 saved QA corpus",
+  "total_valid_JPG": 150,
+  "unchanged_JPG_byte_identical": 145,
+  "actual_source_photo_replacements": 5,
+  "replacements": [
+    {
+      "family": "pending-19",
+      "slot": 1,
+      "prior_sha256": "5443bd4cbc1c8f83d274763cba330d8d3cdf17773c09ae644e7810f7f44f8e30",
+      "new_sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+      "photo_source": "source_alpha/source-alpha-original.webp",
+      "bytes": 84275
+    },
+    {
+      "family": "pending-20",
+      "slot": 2,
+      "prior_sha256": "167b3521032deb683fdd291f5a1a3368845269b65cd55a14f584264e389e1587",
+      "new_sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+      "photo_source": "source_mist/25ad-straight-product.jpg",
+      "bytes": 55913
+    },
+    {
+      "family": "pending-20",
+      "slot": 4,
+      "prior_sha256": "aaf40c112c96116c49ba54e6edc5691f5d533526e39cdb84a8232a77cbe3331a",
+      "new_sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+      "photo_source": "source_mist/25ad-angled-product.jpg",
+      "bytes": 103332
+    },
+    {
+      "family": "pending-23",
+      "slot": 1,
+      "prior_sha256": "153fd86fdcba72506a8a6a71a6798716a078c858ed4557b3225bca5db3013baa",
+      "new_sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+      "photo_source": "source_pore/soonsu-mint-cube.webp",
+      "bytes": 124885
+    },
+    {
+      "family": "pending-23",
+      "slot": 3,
+      "prior_sha256": "f3545da3391f76ca586a62426a7f7ddac386b31d1734cdebc1e207990e06d329",
+      "new_sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+      "photo_source": "source_pore/dodoskin-product-texture.webp",
+      "bytes": 122133
+    }
+  ],
+  "all_30_families_five_images": true,
+  "all_JPG_1080x1080_under_2mb": true,
+  "new_public_URLs": 0,
+  "legacy_55_URLs_untouched": true,
+  "excel_shared": false,
+  "final_sales_QA_approved": false,
+  "original_MK_logo_missing": true,
+  "photo_rights_unverified": true,
+  "physical_owned_stock_edition_unverified": true,
+  "note": "A 30x5 technical QA corpus, NOT a full sales-ready 30-family release. External-source photos are preserved for visual proof only."
+}
