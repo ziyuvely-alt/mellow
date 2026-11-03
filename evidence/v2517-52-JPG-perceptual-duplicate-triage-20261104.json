@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "version": "v2517",
+  "run_id": 41699188955,
+  "artifact_id": 13262561739,
+  "families_audited": 17,
+  "image_count": 52,
+  "near_pair_count": 2,
+  "manifest_issues": 0,
+  "comparisons": [
+    {
+      "family": "pending-03",
+      "left": "production-assets-v2513-missha-bb-legible/04-stock-shade-names-legible.jpg",
+      "right": "production-assets-v2512-missha-bb-stock-info/04-stock-3-shade-name-guide.jpg",
+      "dhash_distance": 6,
+      "decision": "KEEP_V2513_CORRECTED_CARD_AS_LATEST; v2512 card has broken Korean glyphs; no auto-delete of history"
+    },
+    {
+      "family": "pending-21",
+      "left": "production-assets-v2505-goodal-eye-three/03-real-30ml-eye-cream-front.jpg",
+      "right": "production-assets-v2505-goodal-eye-three/04-real-tube-and-texture.jpg",
+      "dhash_distance": 5,
+      "decision": "QUARANTINED_AS_DUPLICATE_SCENE_CANDIDATES_BY_PREVIOUS_VISUAL_REVIEW; retain original bytes, do not count as distinct final frames"
+    }
+  ],
+  "auto_deleted_files": 0,
+  "public_urls_changed": 0,
+  "excel_shared": false,
+  "final_sales_QA": false,
+  "limitations": "dHash near-duplicate is triage, not a substitute for exact stock/rights/brand logo/official color chart approval"
+}
