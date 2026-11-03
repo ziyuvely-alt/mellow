@@ -1,0 +1,54 @@
+name: Shopee v2444 quarantine exact image defects and reuse prior corrected photo
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2444-quarantine-existing-defects.yml'
+      - 'scripts/v2444_reuse_and_quarantine_defects.py'
+permissions:
+  contents: write
+jobs:
+  isolate-known-defects:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore old 150 customer JPG candidates and earlier corrected exact asset
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2443b prior-v2430c
+          git fetch origin production-assets-v2443b-30family-150-JPG-review production-assets-v2430c-three-copy-revisions
+          git archive origin/production-assets-v2443b-30family-150-JPG-review | tar -xf - -C prior-v2443b
+          git archive origin/production-assets-v2430c-three-copy-revisions | tar -xf - -C prior-v2430c
+      - name: Hash-verify 150 JPGs, quarantine visual defects and reuse corrected earlier asset
+        run: python scripts/v2444_reuse_and_quarantine_defects.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2444-146-review-4-quarantine-and-corrected-photo
+          path: v2444-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve quarantine and candidate archives; no existing live photo changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2444-output /tmp/v2444-copy
+          git worktree add --detach /tmp/v2444-wt HEAD
+          cd /tmp/v2444-wt
+          git switch --orphan production-assets-v2444-reviewed-146-and-quarantine-4
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2444-copy/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve known bad MK frame quarantines, corrected BIOHEAL main and SHA audited candidate image archive'
+          git push origin HEAD:refs/heads/production-assets-v2444-reviewed-146-and-quarantine-4
