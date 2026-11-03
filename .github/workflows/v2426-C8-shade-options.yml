@@ -1,0 +1,54 @@
+name: Shopee v2426 verified options CLIO shade QA draft
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2426-C8-shade-options.yml'
+      - 'scripts/v2426_C8_actual_source_swatches_and_rights.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  evidence-verified-C8:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow and requests
+        run: python -m pip install Pillow requests
+      - name: Restore v2425 unchanged original history and private QA only
+        run: |
+          mkdir -p v2425-input
+          git fetch origin production-assets-v2425-single-approval
+          git archive origin/production-assets-v2425-single-approval | tar -xf - -C v2425-input
+      - name: Validate exact C8 45 working options and clip actual sourced CLIO shades only
+        run: python scripts/v2426_C8_actual_source_swatches_and_rights.py
+      - name: Upload swatch chart QA draft, 45 option audit and rights letter
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2426-C8-verified-options-swatch-evidence
+          path: v2426-output/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Save private QA branch without changing any public image
+        if: success()
+        run: |
+          cp -a v2426-output /tmp/v2426
+          git worktree add --detach /tmp/v2426-wt HEAD
+          cd /tmp/v2426-wt
+          git switch --orphan production-assets-v2426-C8-swatch-evidence
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2426/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve v2426 45 exact options, source-backed CLIO mini swatch QA and all prior original jpg"
+          git push origin HEAD:refs/heads/production-assets-v2426-C8-swatch-evidence
