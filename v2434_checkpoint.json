@@ -1,0 +1,72 @@
+{
+  "version": "2.4.34",
+  "actual_JPG_modified": 3,
+  "groups_modified": 2,
+  "photographic_cushion_relayout": 1,
+  "peripera_customer_copy_revisions": 2,
+  "new_official_swatch_charts": 0,
+  "final_qa_approved": 0,
+  "source_photograph_pixels_generated": false,
+  "external_approval_obtained": false,
+  "published_URL_changes": 0,
+  "edits": [
+    {
+      "group_id": "pending-10",
+      "source": "en-photo-captions/pending-10/SOURCE_01_363f13d61_EN_V2421C.jpg",
+      "source_sha": "69e61adbc200335d2c1b33abebaa6123334066b718480fccfa8a09898c666e5e",
+      "output": {
+        "file": "sales-image-drafts/pending-10/OBGE_real_cushion_white_photo_field_V2434.jpg",
+        "sha256": "a7d93d2937d8b0b68de1739c8ab354ab2ca063fd3bd6d0f399968057d2e15b98",
+        "bytes": 61880
+      },
+      "change": "Actual photographed cushion preserved, white studio image merged into white canvas, corrected Perfect Cover caption",
+      "state": "SALES_IMAGE_DRAFT",
+      "restrictions": [
+        "RENEWED_PACKAGE_VERSION_UNVERIFIED",
+        "PHOTO_RIGHTS_UNVERIFIED",
+        "MK_ORIGINAL_MISSING"
+      ],
+      "alpha_cutout": false
+    },
+    {
+      "group_id": "pending-08",
+      "source": "en-customer-drafts/pending-08/INFO_FORMULA_01_V2414_EN_V2421.jpg",
+      "source_sha": "f1a42ab800abd1533ec7c1cf4293944346d7046cc8eac8c64872917a63f0deae",
+      "output": {
+        "file": "sales-image-drafts/pending-08/INFO_FORMULA_01_V2414_EN_V2421_V2434.jpg",
+        "sha256": "bec3516379618d33076080c7095fa6b858706bdf181df0c69a6bcd48cfc4b5b1",
+        "bytes": 57693
+      },
+      "change": "remove_unverified_20_shades_repetition",
+      "state": "SALES_IMAGE_DRAFT",
+      "restrictions": [
+        "26AD_GENERATION_UNVERIFIED",
+        "EXACT_20_SHADE_SWATCHS_UNVERIFIED",
+        "PHOTO_RIGHTS_UNVERIFIED"
+      ]
+    },
+    {
+      "group_id": "pending-08",
+      "source": "en-customer-drafts/pending-08/INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+      "source_sha": "67819cab51d42625f70f0c743542579952aa208dd425542b1ee6b88f7b631498",
+      "output": {
+        "file": "sales-image-drafts/pending-08/INFO_PRODUCT_01_V2414B_EN_V2421_V2434.jpg",
+        "sha256": "ecef4994b9ce5768453bfd7d8f2e113886dfb502a38bbebc8567728945dfbb74",
+        "bytes": 49836
+      },
+      "change": "replace_repeated_01_to20_with_actual_product_info",
+      "state": "SALES_IMAGE_DRAFT",
+      "restrictions": [
+        "26AD_GENERATION_UNVERIFIED",
+        "EXACT_20_SHADE_SWATCHS_UNVERIFIED",
+        "PHOTO_RIGHTS_UNVERIFIED"
+      ]
+    }
+  ],
+  "next": [
+    "Open all 3 outputs and QA visible text, product and boundaries",
+    "Check official renewed OBgE cushion packaging against this photo",
+    "Verify Peripera original 01..20 generation and official swatches",
+    "Go next pending item rather than retry failed swatch search"
+  ]
+}
