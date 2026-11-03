@@ -1,0 +1,92 @@
+{
+  "date": "2026-11-04",
+  "families": [
+    "pending-26",
+    "pending-30"
+  ],
+  "old_existing_jpg_recreated": 0,
+  "new_files": [
+    {
+      "path": "pending-26/03-product-texture-photo.jpg",
+      "source": "original-02.jpg",
+      "role": "GENUINE_PHOTO",
+      "bytes": 297885,
+      "sha256": "2b89b661914a2b8167d2602638297ea6be8061f056b4ab4fe26fdbba3923adcb",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    },
+    {
+      "path": "pending-26/04-bottle-and-carton-photo.jpg",
+      "source": "original-03.jpg",
+      "role": "GENUINE_PHOTO",
+      "bytes": 159750,
+      "sha256": "29185d44ae9adbcaeed719ef28728ff5a423f9349d698857fd05b022c38b27dc",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    },
+    {
+      "path": "pending-26/05-bottle-angle-photo.jpg",
+      "source": "original-04.jpg",
+      "role": "GENUINE_PHOTO",
+      "bytes": 172131,
+      "sha256": "05b5b90ac2314a16a921c3fe5cfe22453b24e80c72cdb784e71da257cc6ec139",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    },
+    {
+      "path": "pending-30/03-serum-bottle-photo.jpg",
+      "source": "original-01.jpg",
+      "role": "GENUINE_PHOTO",
+      "bytes": 134293,
+      "sha256": "b563ba0d724c0fa424b08fbe30f4650382840b88f9b335dc4bf2a9519ffb1986",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    },
+    {
+      "path": "pending-30/04-serum-group-photo.jpg",
+      "source": "original-02.jpg",
+      "role": "GENUINE_PHOTO",
+      "bytes": 162470,
+      "sha256": "ab77a00abdfe4511692fd84ea2cd9a6b8f176a40ec734c3a665fa5e1c12fd2d8",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    },
+    {
+      "path": "pending-30/05-product-facts-50ml.jpg",
+      "source": "verified stock product name / volume only",
+      "role": "FACTS_ONLY",
+      "bytes": 76067,
+      "sha256": "968bbf44bb0963f52511d1c053f7ad78a80f9a1c016058d32e77adf0f8723a98",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "REVIEW_ONLY_ORIGINAL_LOGO_AND_RIGHTS_HOLD"
+    }
+  ],
+  "source_artifacts": [
+    13255125987,
+    13253692437
+  ],
+  "original_shop_MK_logo_applied": false,
+  "marketing_photo_rights_verified": false,
+  "actual_inventory_package_edition_verified": false,
+  "published_URLs_added": 0,
+  "final_QA_approved": false,
+  "excel_shared": false
+}
