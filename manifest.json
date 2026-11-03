@@ -1,0 +1,37 @@
+{
+  "version": "v2543",
+  "date": "2026-11-04",
+  "family": "pending-11",
+  "product": "OBgE All In One Double Essence 100 mL = Step 1 50 mL + Step 2 50 mL",
+  "verified_unit_source": "https://www.ssg.com/item/itemView.ssg?itemId=1000464955759",
+  "replaced_JPGs": [
+    {
+      "slot": 2,
+      "original_source": "https://soonsubeauty.com/cdn/shop/files/11314019277828210_1462891387.jpg?v=1777131344",
+      "original_source_sha256": "ca4a32b24f8f26751c4c515810b7624faf7dc939e1c0bc0be2e23db517c797b8",
+      "photo_sha256": "84b2619c0205c8130f56f2e00ff9fa5d7131a971f2ffb15f66ae43dc8b8af374",
+      "photo": "review-JPG-by-family/pending-11/02_v2543-genuine-double-essence-photo.jpg",
+      "role": "genuine white bottle with open dual nozzle, original carton and angled second bottle",
+      "old_card_sha256": "14a9484afba91b1bd2cad537a2849f69a8a7103bff34cb701a65c5dc606ef7fd"
+    },
+    {
+      "slot": 4,
+      "original_source": "https://img.joomcdn.net/6b3923d63b2395e63e15fb485f5cf2c3b3094cb1_original.jpeg",
+      "original_source_sha256": "e49ab9121ad194b928c868733a232650d297e3c8c8d61fa6d302a48baa78ec56",
+      "photo_sha256": "acfb08b21baee43f033d449d442c6565a857929f356f34a24c2b2e1a549eb10b",
+      "photo": "review-JPG-by-family/pending-11/04_v2543-genuine-double-essence-photo.jpg",
+      "role": "genuine bottle with two distinct cream textures photographed behind bottle",
+      "old_card_sha256": "af6b734b5e05ad3225a1ee7c9432a44aca710da1db5b2b0c22add015da265c04"
+    }
+  ],
+  "total_JPGs": 156,
+  "prior_154_files_byte_identical": true,
+  "full_30_family_5_or_6_JPG_count_valid": true,
+  "MK_brand_logo_original_present": false,
+  "merchant_source_photo_rights_verified": false,
+  "physical_stock_package_version_verified": false,
+  "commercial_sales_QA_approved": false,
+  "old_55_public_urls_untouched": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
