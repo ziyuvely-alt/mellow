@@ -1,0 +1,57 @@
+name: Shopee v2530 replace 3 MISSHA cover info images with genuine photos only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2530-missha-three-real-photos.yml'
+      - 'scripts/v2530_replace_three_missha_cover_info_with_real_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  photo-correct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 155 old QA JPEGs without regenerating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41705960507 -n shopee-v2528-155-real-JPG-MISSHA-MoistUp-QA-only -D v2530-base-155
+      - name: Recover three photographed pink MISSHA cover lasting packages
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41706347057 -n shopee-v2529-missha-cover-lasting-real-pack-original-photos-QA -D v2530-real-photo-sources
+      - name: Swap exactly 3 photos and assert 152 original files unchanged
+        run: |
+          python scripts/v2530_replace_three_missha_cover_info_with_real_photos.py
+          test "$(find v2530-155-photo-corrected-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 155
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2530-155-JPG-with-3-real-MISSHA-cover-photo-upgrades
+          path: v2530-155-photo-corrected-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Isolate QA preservation from existing approved public images and workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2530-155-photo-corrected-QA /tmp/v2530-output
+          git worktree add --detach /tmp/v2530-wt HEAD
+          cd /tmp/v2530-wt
+          git switch --orphan production-assets-v2530-155-real-MISSHA-cover-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2530-output/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 155 JPEG QA candidates with three authentic MISSHA Cover Lasting photo replacements'
+          git push origin HEAD:refs/heads/production-assets-v2530-155-real-MISSHA-cover-QA
