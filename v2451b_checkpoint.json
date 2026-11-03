@@ -1,0 +1,88 @@
+{
+  "version": "2.4.51b",
+  "original_run_branch": "production-assets-v2451-seven-new-photo-candidates",
+  "only_two_visually_defective_crops_repaired": 2,
+  "five_other_JPGs_reused_byte_identical": 5,
+  "new_SHA_approved_as_draft": 7,
+  "prior_25_JPGs_modified": 0,
+  "source_531_JPGs_changed": 0,
+  "published_55_URL_paths_changed": 0,
+  "MK_original_logo_generated": false,
+  "commercial_rights_verified": 0,
+  "stock_edition_verified": 0,
+  "FINAL_SALES_APPROVED": 0,
+  "NO_SPREADSHEETS_CREATED_OR_SHARED": true,
+  "files": [
+    {
+      "group_id": "pending-02",
+      "file": "seven-qa-reviewed-JPGs/pending-02/pending-02_actual-photograph-detail_V2451.jpg",
+      "SHA256": "8035d5fbcaa38aaaec7d74a49733dbe026097c1b15953a9f696785253b2a4ad3",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "EXACT original v2451 output bytes preserved, not re-created",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "file": "seven-qa-reviewed-JPGs/pending-05/pending-05_actual-photograph-detail_V2451.jpg",
+      "SHA256": "7227f859e68882b681d50b15b2ee7ae230f35086bca8bacf1afcdffef60d4fef",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "EXACT original v2451 output bytes preserved, not re-created",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "file": "seven-qa-reviewed-JPGs/pending-06/pending-06_crop_QA_revised_V2451b.jpg",
+      "SHA256": "efd279052022a2ce5c6bba4c783620649c92f62d059de4d116078bb045fa05f9",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "ONLY visually rejected crop re-framed from unchanged original photo",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "file": "seven-qa-reviewed-JPGs/pending-07/pending-07_crop_QA_revised_V2451b.jpg",
+      "SHA256": "905d098f8e6d5c83c11301cfc3766ec38be656f9c5b1c522f3135cfb9e4a28d3",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "ONLY visually rejected crop re-framed from unchanged original photo",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "file": "seven-qa-reviewed-JPGs/pending-10/pending-10_actual-photograph-detail_V2451.jpg",
+      "SHA256": "ed62cf8e54e21a866ef86674680fe805010f00f5fa0b5ca4bf7b35f1a4cdc9ca",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "EXACT original v2451 output bytes preserved, not re-created",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "file": "seven-qa-reviewed-JPGs/pending-21/pending-21_actual-photograph-detail_V2451.jpg",
+      "SHA256": "ebf27da5ce6a593d50d09ac97d6b65a02cc3bda12f1e1bb96a292b0cbd58eefb",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "EXACT original v2451 output bytes preserved, not re-created",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "file": "seven-qa-reviewed-JPGs/pending-23/pending-23_actual-photograph-detail_V2451.jpg",
+      "SHA256": "e29128645351682b7046987bc5a303d1afa1a6a63601b6047b845b0c5983e782",
+      "status": "VISUAL_DESIGN_QA_CANDIDATE",
+      "change": "EXACT original v2451 output bytes preserved, not re-created",
+      "licensed": false,
+      "edition_verified": false,
+      "final_approved": false
+    }
+  ],
+  "next": "Open the two revised crops, then integrate seven with 25 existing files without rendering prior successes"
+}
