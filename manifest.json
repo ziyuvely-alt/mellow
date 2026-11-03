@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "source_run_id": 41682388609,
+  "prior_photos_preserved": 2,
+  "new_files": [
+    {
+      "file": "03-actual-open-compact.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 95531,
+      "sha256": "742d02c802969a305facc252a37d17808165663a2e2629f2f788641899fc1170",
+      "status": "PHOTO_BACKED_DRAFT_QA_HOLD"
+    },
+    {
+      "file": "04-actual-dual-angle.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 109484,
+      "sha256": "7a76321e67f2b83ff85f5308d784cb410b2327c9e4b1c7d1986284c9d4bc714c",
+      "status": "PHOTO_BACKED_DRAFT_QA_HOLD"
+    },
+    {
+      "file": "05-stock-identification.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 72012,
+      "sha256": "659f27b889cc028c6102b7708b3af6b8f799a0487724e203fbc9bb9e1f08cb77",
+      "status": "INFO_ONLY_DRAFT_QA_HOLD"
+    }
+  ],
+  "final_product_edition_match_approved": false,
+  "source_photo_commercial_rights_approved": false,
+  "original_MK_logo_present": false,
+  "public_url_verified_added": 0,
+  "workbook_untouched": true,
+  "note": "Exact genuine images embedded unchanged, but final MK logo, photo rights and duplication review required."
+}
