@@ -31,7 +31,7 @@ jobs:
           git archive origin/production-assets-v2439b-five-real-card-fixes | tar -xf - -C v2439b-source
           git archive origin/production-assets-v2440-three-card-repairs | tar -xf - -C v2440-source
       - name: Byte compare every actual revised JPG and audit all 531 original JPG
-        run: python scripts/v2440e_combine_12_verified_edits_and_recheck_531.py
+        run: python scripts/v2440e_corrected_12_edits_and_hashes.py
       - uses: actions/upload-artifact@v4
         with:
           name: shopee-v2440e-12-real-JPGs-30family-verified-index
