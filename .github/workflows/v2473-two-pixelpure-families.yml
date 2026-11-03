@@ -1,0 +1,55 @@
+name: Shopee v2473 produce six original-photo JPGs for two Pixelpure families
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2473-two-pixelpure-families.yml'
+      - 'scripts/v2473_two_pixelpure_family_six_new_frames.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  make-six:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover 145ml cleanser source from previous validated artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41684226922 -n shopee-v2472-pixelpure-145ml-cleanser-authentic-source-QA-HOLD -D inputs/pending-26
+      - name: Recover 50ml aura serum source, preserving original bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41684138825 -n shopee-v2470-pixelpure-aura-50ml-genuine-source-QA-HOLD -D inputs/pending-30
+      - name: Render distinct new photo/photo/info frames only
+        run: python scripts/v2473_two_pixelpure_family_six_new_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2473-two-pixelpure-family-six-JPG-review-only
+          path: v2473-pixelpure-two-family-new-six/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve unapproved drafts only on isolated branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2473-pixelpure-two-family-new-six /tmp/v2473-assets
+          git worktree add --detach /tmp/v2473-wt HEAD
+          cd /tmp/v2473-wt
+          git switch --orphan production-assets-v2473-pixelpure-two-family-six
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2473-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 6 genuinely photo-backed Pixelpure cleanser and serum review JPGs'
+          git push origin HEAD:refs/heads/production-assets-v2473-pixelpure-two-family-six
