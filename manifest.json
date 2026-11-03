@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50mL",
+  "existing_two_real_photo_candidates_untouched": true,
+  "new_JPGs": [
+    {
+      "file": "03-verified-50ml-spf-pa-facts.jpg",
+      "role": "Exact SPF50+ PA+++ and net content; not Moisture Sun",
+      "bytes": 96193,
+      "sha256": "ab0e8a85c9d504d43ed6b1ee9818e1628735c5c7cf878ca3565507ae8fe2a7ab",
+      "size": [
+        1080,
+        1080
+      ],
+      "sales_approved": false
+    },
+    {
+      "file": "04-sunscreen-application-facts.jpg",
+      "role": "Verified SSG 50ml usage instructions only",
+      "bytes": 101800,
+      "sha256": "cac320c9358f3583367e6270a0948d677cb8c1c3b78ea16d9f43500fb361b5e4",
+      "size": [
+        1080,
+        1080
+      ],
+      "sales_approved": false
+    },
+    {
+      "file": "05-single-tube-product-identity.jpg",
+      "role": "Single product / pack identity; no gift set assumption",
+      "bytes": 91926,
+      "sha256": "7f673da70efa7bd01a34950af488a0b16d540595a31abaa21ef938af7dfa2b0b",
+      "size": [
+        1080,
+        1080
+      ],
+      "sales_approved": false
+    }
+  ],
+  "official_retail_source": "https://www.ssg.com/item/itemView.ssg?itemId=1000522807222",
+  "verified_spf_pa": "SPF50+ PA+++",
+  "other_edition_mixed": false,
+  "physical_stock_generation_match_confirmed": false,
+  "brand_original_MK_logo_applied": false,
+  "public_sale_approval": false,
+  "new_public_urls": 0,
+  "spreadsheet_shared": false
+}
