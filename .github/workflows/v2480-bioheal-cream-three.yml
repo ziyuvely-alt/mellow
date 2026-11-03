@@ -1,0 +1,51 @@
+name: Shopee v2480 produce BIOHEAL NAD Cream 50ml 3 genuine JPG drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2480-bioheal-cream-three.yml'
+      - 'scripts/v2480_bioheal_cream_3_exact_photos.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing exact product official retailer source bytes without reselection
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41686243752 -n shopee-v2479-bioheal-cream-50ml-real-source-QA-HOLD -D v2479-bioheal-nad-cream-source
+      - name: Create 3 real-photo JPEGs only
+        run: python scripts/v2480_bioheal_cream_3_exact_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2480-bioheal-nad-cream-three-photo-JPG-QA-HOLD
+          path: v2480-bioheal-nad-cream-three-photos/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Isolated preservation branch, no public images or Excel changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2480-bioheal-nad-cream-three-photos /tmp/v2480-jpgs
+          git worktree add --detach /tmp/v2480-wt HEAD
+          cd /tmp/v2480-wt
+          git switch --orphan production-assets-v2480-bioheal-cream-3
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2480-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 3 authentic BIOHEAL BOH 50ml cream JPEGs for rights and original logo QA'
+          git push origin HEAD:refs/heads/production-assets-v2480-bioheal-cream-3
