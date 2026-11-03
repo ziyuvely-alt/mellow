@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-23",
+  "run_id": 41684766295,
+  "artifact_id": 13254897243,
+  "actual_images_downloaded": 12,
+  "exact_product_candidates": [
+    "original-01.png"
+  ],
+  "excluded_as_other_SKU": [
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png",
+    "original-09.png",
+    "original-10.png",
+    "original-11.png",
+    "original-12.png"
+  ],
+  "reason": "Manufacturer HTML's recommended item thumbnails were mixed into raw image search. Frame 01 visually depicts exact PORE ZERO OIL CONTROL SUN CREAM tube; the other 11 depict cushion, sun stick, concealer, other creams and unrelated packaged items.",
+  "state": "EXACT_PRODUCT_ONE_IMAGE_ONLY_OTHER_11_REJECTED",
+  "official_photo_rights_verified": false,
+  "stock_package_verified": false,
+  "published": false,
+  "excel_shared": false,
+  "next_action": "Acquire independently two genuine exact-product photo scenes and compare real tube print/version before composing. Never use other 11 photographed SKUs."
+}
