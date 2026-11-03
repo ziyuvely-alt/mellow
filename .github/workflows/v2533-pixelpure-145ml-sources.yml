@@ -1,0 +1,28 @@
+name: Shopee v2533 source exact Pixelpure 145ml cleanser official images
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2533-pixelpure-145ml-sources.yml'
+      - 'scripts/v2533_pixelpure_145ml_true_brand_photo_sources.py'
+permissions:
+  contents: read
+jobs:
+  source-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow beautifulsoup4
+      - name: Capture the actual official 145ml cleanser gallery without other product versions
+        run: python scripts/v2533_pixelpure_145ml_true_brand_photo_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2533-pixelpure-145ml-official-exact-gallery-QA-only
+          path: v2533-pixelpure-cleanser-official145-source/
+          retention-days: 90
+          if-no-files-found: error
