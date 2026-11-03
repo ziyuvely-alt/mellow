@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "workflow_run_id": 41681422730,
+  "artifact_id": 13253360352,
+  "verified_image_files": [
+    {
+      "family": "pending-07",
+      "name": "CLIO Kill Cover Mesh Blur Cushion",
+      "file": "clio-mesh-blur-5-shades.jpg",
+      "size": [
+        1200,
+        1200
+      ],
+      "sha256": "39c71f3afed8b7f591648528b1dd344ec00cd6ee3170db3053ceb1fa3a43caed",
+      "visible": "True compact photo, labels 19C Light, 19N Porcelain, 21C Lingerie, 21N Linen, 23N Ginger visible under five swatches",
+      "seller_options": [
+        "19C Light",
+        "19N Porcelain",
+        "21N Linen"
+      ],
+      "seller_options_visible": true,
+      "rights_verified": false,
+      "stock_package_edition_verified": false,
+      "status": "SOURCE_PHOTO_VALID_QA_HOLD"
+    },
+    {
+      "family": "pending-10",
+      "name": "OBgE Perfect Homme Cushion",
+      "file": "obge-homme-3shades-old-candidate.jpg",
+      "size": [
+        1000,
+        1000
+      ],
+      "sha256": "4d2d9e80ab1b4e6562921294461658225ee8acf2874bc9c9c921f78bb4c9dfb6",
+      "visible": "Three Japanese-labeled skin swatches 1 Ivory/2 Beige/3 Sand",
+      "seller_edition": "15g",
+      "source_likely_edition": "13g",
+      "status": "REJECT_FOR_THIS_STOCK_WRONG_EDITION"
+    }
+  ],
+  "result": {
+    "new_reference_images_downloaded": 2,
+    "newly_approved_shade_panels": 0,
+    "excel_shared": false,
+    "public_urls_created": 0
+  },
+  "notes": [
+    "Do not reuse third-party image commercially absent permissions",
+    "Never treat shared color names as proof edition match",
+    "Existing public 55 URLs remain unchanged"
+  ]
+}
