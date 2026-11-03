@@ -1,0 +1,33 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-10",
+  "seller_stock_listing": "OBgE Perfect Homme Cushion 15g, 1 Ivory / 2 Beige / 3 Sand",
+  "current_official_reference": {
+    "url": "https://obge.co.kr/product/detail.html?product_no=10",
+    "identity": "OBgE Perfect Cover Cushion",
+    "volume": "15g",
+    "spf": "SPF50+ PA++++",
+    "verification": "Current official product reference only; verify label/packaging against actual owned inventory"
+  },
+  "legacy_market_reference": {
+    "url": "https://www.rian-shop.com/items/86113659",
+    "identity": "OBgE Perfect Homme Cushion",
+    "retailer_reported_volume": "13g",
+    "spf": "SPF50+ PA+++",
+    "shade_selection": [
+      "1 Ivory",
+      "2 Beige",
+      "3 Sand"
+    ],
+    "image_url": "https://baseec-img-mng.akamaized.net/images/item/origin/1c8934ffbb8f36ddc491f541817199bb.jpg?imformat=generic"
+  },
+  "outcome": "REJECT_CROSS_EDITION_IMAGE_SUBSTITUTION_UNTIL_PHYSICAL_STOCK_VERIFIED",
+  "notes": [
+    "Even though both images show three similarly named shades, the package edition, volume and SPF ratings differ",
+    "Do not apply Japanese retailer color chart as exact verification for new 15g stock",
+    "No color chips, colors or swatches synthesized",
+    "Commercial image usage rights not verified"
+  ],
+  "public_urls_added": 0,
+  "excel_shared": false
+}
