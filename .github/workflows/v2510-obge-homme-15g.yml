@@ -1,0 +1,28 @@
+name: Shopee v2510 OBgE Homme Cushion true 15g original photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2510-obge-homme-15g.yml'
+      - 'scripts/v2510_obge_exact_homme_15g_sources.py'
+permissions:
+  contents: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Get ONLY original exact 15g Homme Cushion source photos
+        run: python scripts/v2510_obge_exact_homme_15g_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2510-OBgE-Perfect-Homme-15g-real-originals-QA-HOLD
+          path: v2510-obge-perfect-homme-15g-originals/
+          if-no-files-found: error
+          retention-days: 90
