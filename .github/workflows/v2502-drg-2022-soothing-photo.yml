@@ -1,0 +1,27 @@
+name: Shopee v2502 DrG 2022 Red Blemish 70ml old package source QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2502-drg-2022-soothing-photo.yml'
+      - 'scripts/v2502_drg_old_soothing_cream_70ml_source.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2502_drg_old_soothing_cream_70ml_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2502-drg-2022-clear-soothing-70ml-old-photo-QA
+          path: v2502-drg-2022-soothing-cream-qa/
+          retention-days: 90
+          if-no-files-found: error
