@@ -1,0 +1,47 @@
+{
+  "version": "2.4.54",
+  "source": "OBgE brand-owned official Korean 300mL product page, public FAQ",
+  "official_urls": [
+    "https://www.obge.co.kr/product/detail.html?cate_no=43&display_group=1&product_no=1251",
+    "https://obge.co.kr/product/detail.html?cate_no=1&display_group=14&product_no=1251"
+  ],
+  "sku": "OBgE Max Waterful Sun Cream 300mL",
+  "verified_facts": [
+    "300mL",
+    "face and body use",
+    "water-drop texture",
+    "reapply during the day"
+  ],
+  "new_customer_info_JPG": 2,
+  "new_or_fabricated_product_photos": 0,
+  "new_official_swatches": 0,
+  "commercial_image_rights_verified": 0,
+  "correct_original_300ml_pump_photo_available_for_publication": false,
+  "wrong_category_beige_cushion_source_still_quarantined": true,
+  "old_34_source_photo_review_JPGs_regenerated": 0,
+  "original_531_JPGs_unchanged": true,
+  "published_55_URL_paths_changed": 0,
+  "no_spreadsheets_created_or_shared": true,
+  "FINAL_SALES_APPROVED": false,
+  "files": [
+    {
+      "file": "pending-22-official-facts-source-only/01_FACE_AND_BODY_300ML_V2454.jpg",
+      "sha256": "8970f8941773fa1ebf3401a2de8a8cef4334ac1329f791ea7e59e32f2ea5baea",
+      "status": "FACTS_SOURCE_CHECKED_DRAFT",
+      "commercial_photo_assets_used": false,
+      "licensable_generated_brand_artwork": false,
+      "real_product_photo_included": false,
+      "final_sales_approval": false
+    },
+    {
+      "file": "pending-22-official-facts-source-only/02_DAILY_REAPPLICATION_V2454.jpg",
+      "sha256": "c778b6729bd55b8040a93ad1a1c2a3df2542e44a23ed0835acb182b784ac3b44",
+      "status": "FACTS_SOURCE_CHECKED_DRAFT",
+      "commercial_photo_assets_used": false,
+      "licensable_generated_brand_artwork": false,
+      "real_product_photo_included": false,
+      "final_sales_approval": false
+    }
+  ],
+  "next": "Open two JPGs and verify text and source; actual pump package photo still requires authorized source, current exact model and stock QA"
+}
