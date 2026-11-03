@@ -1,0 +1,30 @@
+name: Shopee v2516 verify actual archived JPG bytes across review branches
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2516-preserved-branch-jpg-audit.yml'
+      - 'scripts/v2516_audit_preserved_review_branches.py'
+permissions:
+  contents: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Read real JPEGs from preserved branches; validate format, dimensions, bytes and duplicate hashes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/v2516_audit_preserved_review_branches.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2516-physical-jpg-review-branch-audit-JSON-only
+          path: v2516-branch-image-audit/audit.json
+          retention-days: 90
+          if-no-files-found: error
