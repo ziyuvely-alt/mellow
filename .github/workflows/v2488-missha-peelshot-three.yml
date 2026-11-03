@@ -1,0 +1,51 @@
+name: Shopee v2488 MISSHA PDRN Peel Shot 25 15ml three genuine photo JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2488-missha-peelshot-three.yml'
+      - 'scripts/v2488_missha_peelshot_three_exact_photo_JPG.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing genuine MISSHA 15ml source photos unchanged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41688077234 -n shopee-v2487-MISSHA-PDRN-PeelShot15ml-actual-photo-reference -D v2487-missha-pdrn-peelshot-15-official-evidence
+      - name: Create three new 1080px JPGs from exact three photographs
+        run: python scripts/v2488_missha_peelshot_three_exact_photo_JPG.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2488-MISSHA-PDRN-PeelShot15ml-three-real-JPG
+          path: v2488-missha-peelshot-15-three-JPG/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve in separate non-public production QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2488-missha-peelshot-15-three-JPG /tmp/v2488-jpgs
+          git worktree add --detach /tmp/v2488-wt HEAD
+          cd /tmp/v2488-wt
+          git switch --orphan production-assets-v2488-missha-peelshot-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2488-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three actual 15ml Peel Shot photos pending original owner MK logo and rights QA'
+          git push origin HEAD:refs/heads/production-assets-v2488-missha-peelshot-three
