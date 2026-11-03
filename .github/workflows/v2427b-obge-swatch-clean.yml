@@ -1,0 +1,48 @@
+name: Shopee v2427b OBgE real swatch clean-label correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2427b-obge-swatch-clean.yml'
+      - 'scripts/v2427b_obge_real_swatches_clean.py'
+permissions:
+  contents: write
+jobs:
+  swatch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore exact prior v2427 production candidate and original photos
+        run: |
+          mkdir v2427-source
+          git fetch origin production-assets-v2427-obge-en-shade-qa
+          git archive origin/production-assets-v2427-obge-en-shade-qa | tar -xf - -C v2427-source
+      - name: Correct only OBgE authentic three shade photograph crop
+        run: python scripts/v2427b_obge_real_swatches_clean.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2427b-obge-EN4-and-3shade-clean
+          path: v2427b-output/
+          retention-days: 90
+      - name: Versioned private QA preservation
+        run: |
+          cp -a v2427b-output /tmp/v2427b
+          git worktree add --detach /tmp/v2427b-wt HEAD
+          cd /tmp/v2427b-wt
+          git switch --orphan production-assets-v2427b-obge-shade-clean
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2427b/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve v2427b clean original OBgE three swatches and previously verified four EN info JPGs'
+          git push origin HEAD:refs/heads/production-assets-v2427b-obge-shade-clean
