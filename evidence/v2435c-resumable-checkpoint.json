@@ -1,0 +1,77 @@
+{
+  "version": "2.4.35c",
+  "previous": "production-assets-v2434d-consolidated-checkpoint",
+  "actions": [
+    {
+      "run_id": 41648177462,
+      "artifact_id": 13236041806,
+      "branch": "production-assets-v2435-peripera-caption-corrected",
+      "status": "success"
+    },
+    {
+      "run_id": 41648437229,
+      "artifact_id": 13237025345,
+      "branch": "production-assets-v2435b-pixelpure-whole-bottle",
+      "status": "success"
+    }
+  ],
+  "real_drafts": [
+    {
+      "group": "pending-08",
+      "file": "production-assets-v2435-peripera-caption-corrected/sales-image-drafts/pending-08/01_peripera_selected_shades_no_20claim_V2435.jpg",
+      "sha256": "13c3f76ab1baece7f3dfa4a4aea4d32dd83487b1863eee75e450ba5ec54a2b28",
+      "reason": "Partial 8-shade photographed collage no longer falsely claims 20 shades",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-30",
+      "file": "production-assets-v2435b-pixelpure-whole-bottle/sales-image-drafts/pending-30/PIXELPURE_Aura_Radiance_50ml_full_bottle_V2435b.jpg",
+      "sha256": "912823f8993fe10e345b7c91549e50aea57f1c61e03d647cddf2eacd1c961d2f",
+      "reason": "Exact original 50mL full bottle photo replaces visually cropped photo; MK watermark excluded through crop",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    }
+  ],
+  "source_evidence": [
+    {
+      "item": "Peripera 26AD 012",
+      "finding": "개강여신 on currently-listed 26AD option; NOT older generation match",
+      "url": "https://www.gsshop.com/prd/prd.gs?prdid=1106843033"
+    },
+    {
+      "item": "Peripera 26AD 004/006/007",
+      "finding": "not found on inspected current 26AD option menu; not proof discontinued",
+      "url": "https://www.gsshop.com/prd/prd.gs?prdid=1106843033"
+    },
+    {
+      "item": "OBgE renewed cushion",
+      "finding": "15g, options 1 Ivory / 2 Beige / 3 Sand; exact existing photo generation still unproven",
+      "url": "https://www.obge.co.kr/product/detail.html?product_no=10"
+    }
+  ],
+  "counts": {
+    "total_groups": 41,
+    "prior_completed": 11,
+    "pending": 30,
+    "C8_Sku_rows_preserved": 45,
+    "new_revised_JPG": 2,
+    "group_edits": 2,
+    "official_verified_shade_charts": 0,
+    "FINAL_QA_APPROVED": 0,
+    "commercial_photo_permissions_confirmed": 0,
+    "stock_package_confirmed": 0,
+    "MK_original_verified": false,
+    "existing_public_image_paths_overwritten": 0,
+    "original_JPG_overwritten": 0,
+    "public_55_URL_live_checked": false
+  },
+  "next": [
+    "pending-08 official old-generation 01-20 and 12 mismatch; 04 06 07 verify; never mix 26AD",
+    "pending-01 MISSHA 21 excluded, need official 23/25/27 swatch matching edition",
+    "pending-10 OBgE cushion packaging generation/real photo/right permission",
+    "pending-30 rights + actual stock package before final approval",
+    "Resume other 30-group individual real customer JPG QA rather than contact sheets"
+  ],
+  "notes": "No Shopee public upload. GitHub repo might be public, so draft branch should not be described as access-private."
+}
