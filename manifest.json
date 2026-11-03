@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-15",
+  "product": "Dr.G Green Mild Up Sun Plus 50ml (2022-era stock)",
+  "existing_photo_JPGs_untouched": 2,
+  "new_review_JPGs": [
+    {
+      "file": "03-mineral-sun-care-facts.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 87771,
+      "sha256": "565249ecd164ae53616b180265ccba8a99a0a1fdbc918ee12869a1563a0a3750",
+      "role": "Exact documented SPF and 50mL format",
+      "status": "DRAFT_JPG_ORIGINAL_LOGO_AND_STOCK_QA_HOLD"
+    },
+    {
+      "file": "04-zinc-oxide-factual-ingredient.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 76019,
+      "sha256": "d7cf9b9d7408b43918ff2f50b765d03c07180772a4c8e668f53282f8df1ce3d6",
+      "role": "Documented 2021 zinc oxide presence only, physical 2022 stock check pending",
+      "status": "DRAFT_JPG_ORIGINAL_LOGO_AND_STOCK_QA_HOLD"
+    },
+    {
+      "file": "05-sunscreen-usage-guide.jpg",
+      "size": [
+        1080,
+        1080
+      ],
+      "bytes": 89119,
+      "sha256": "78c9d1b7738ed1d43a6e3332b5330ff0ade0788cb2b22dc845e145ab1f4f7cc1",
+      "role": "Retailer-listed use instructions; no invented efficacy claims",
+      "status": "DRAFT_JPG_ORIGINAL_LOGO_AND_STOCK_QA_HOLD"
+    }
+  ],
+  "sources": [
+    "https://themonodist.com/dr-g-green-mild-up-sun-spf50-pa/",
+    "https://m.funchreward.com/product/zoom.html?product_no=174"
+  ],
+  "real_2022_stock_edition_confirmed": false,
+  "original_MellowKR_MK_logo_applied": false,
+  "sales_release_approved": false,
+  "new_public_urls": 0,
+  "old_55_public_urls_unchanged": true,
+  "excel_shared": false
+}
