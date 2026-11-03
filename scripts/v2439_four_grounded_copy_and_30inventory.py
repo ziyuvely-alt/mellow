@@ -80,7 +80,7 @@ for gid in ids:
                    "official_stock_and_rights_approved":False,
                    "new_edit_file":next((x["edited_jpg"] for x in reviews if x["group_id"]==gid),None)})
 # previously reported 531 JPGs were across entire archive, not just this narrowly selected preserved-v2422 folder.
-total_jpg_archive=list(ROOT.rglob("*.jpg"))
+total_jpg_archive=list(Path("baseline-v2427b").rglob("*.jpg"))
 assert len(total_jpg_archive)>=531,len(total_jpg_archive)
 assert before_hash=={str(p.relative_to(ROOT)):sha(p) for p in allsource}
 (O:=OUT/"source_inventory_30groups.json").write_text(json.dumps(inventory,ensure_ascii=False,indent=2))
