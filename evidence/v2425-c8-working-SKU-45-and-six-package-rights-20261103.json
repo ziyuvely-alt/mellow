@@ -1,0 +1,87 @@
+{
+  "version": "2.4.25",
+  "date": "2026-11-03",
+  "repository": "ziyuvely-alt/mellow",
+  "source": {
+    "run_id": 41562957107,
+    "artifact_id": 13197112282,
+    "branch": "production-assets-v2424b-single-photo-qa",
+    "commit": "c73e26391469c00fa2ed074ea1df86283262d261"
+  },
+  "latest": {
+    "run_id": 41568132088,
+    "artifact_id": 13199893159,
+    "branch": "production-assets-v2425-single-approval",
+    "commit": "55fb290a2bcc66602f38e594a891357fe7f21e85",
+    "status": "SUCCESS"
+  },
+  "assets": {
+    "prior_371_jpg_immutable_sha_pass": 371,
+    "prior_2_v2423_jpg_immutable_sha_pass": 2,
+    "prior_public55_immutable_sha_pass": 55,
+    "original_11_families_untouched": true,
+    "new_jpg_pixelpure_cream_official_catalognaming": 5,
+    "new_jpg_pictures_packaging_pixels_unmodified": true,
+    "updated_eight_single_5frame_candidate_sets": 8,
+    "unapproved_public_URLs_created": 0
+  },
+  "A_eight_single_approval": {
+    "reviewed": 8,
+    "official_product_and_packaging_visual_match": [
+      "pending-09",
+      "pending-22",
+      "pending-27",
+      "pending-28",
+      "pending-29",
+      "pending-30"
+    ],
+    "official_package_verified_count": 6,
+    "inventory_package_verified": 0,
+    "commercial_reuse_verified": 0,
+    "obge_reuse_rights_note": "Brand official website agreement Article 22 prohibits commercial duplication and usage without prior authorization; require explicit written permission.",
+    "obge_rights_url": "https://www.obge.co.kr/member/agreement.html",
+    "pixelpure_catalog_page": "https://pixelpure.com/product/detail.html?product_no=26",
+    "pixelpure_official_storefront_name": "픽셀퓨어 아쿠아 수딩 크림 50ml",
+    "pixelpure_package_printing": "RADIANCE AQUA SOOTHING CREAM",
+    "different_official_display_v_package_text_is_real": true,
+    "bioheal_package_verification_hold": [
+      "pending-24",
+      "pending-25"
+    ],
+    "all_inventory_evidence_required": true,
+    "all_rights_unverified": true
+  },
+  "B_C8_option_audit": {
+    "working_source_file": "Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx",
+    "source_sheet": "Template",
+    "source_rows_total": 45,
+    "families_count": 8,
+    "peripera_raw_options": "001-020",
+    "peripera_conflict": "Workbook product name has 26AD while user's currently allowed 01-20 is older collection; cannot use official chart until exact generation matched",
+    "missha_cover_21_conflict": "Working spreadsheet includes #21 while earlier instruction excluded it; do not mark confirmed for shade chart",
+    "official_shade_images_verified": 0,
+    "shade_charts_jpg_created": 0
+  },
+  "C_MK_logo": {
+    "original_relative": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "size_metadata_bytes": 280031,
+    "plugin_creator_get_plugin_files_confirms_name_size": true,
+    "binary_access_via_text_tool": false,
+    "signed_archive_previous_dns_failed": true,
+    "current_repeated_signed_download": false,
+    "verified_original_PNG_binary": false,
+    "logo_fake_generated": false
+  },
+  "status": {
+    "READY_EXCEPT_LOGO": 0,
+    "PRODUCTION_COMPLETE_QA_PENDING": 0,
+    "FINAL_QA_APPROVED": 0
+  },
+  "next": [
+    "Request brand/distributor commercial image use, alteration and global Shopee reseller rights specifically for OBgE and other 6 products",
+    "Validate exact current inventory packaging from supplier dispatch or user's actual batch",
+    "Reconcile C-grade 45 working SKU rows vs current 01-20 Peripera collection and MISSHA 21; obtain shade photos with rights",
+    "Resolve original 280031-byte MK PNG via accessible binary source; no placeholder",
+    "Use only private revised JPG versions until all release gates pass"
+  ]
+}
