@@ -1,0 +1,92 @@
+{
+  "version": "2.4.26b",
+  "date": "2026-11-03",
+  "repository": "ziyuvely-alt/mellow",
+  "source": {
+    "last_run_id": 41568132088,
+    "last_artifact_id": 13199893159,
+    "branch": "production-assets-v2425-single-approval",
+    "commit": "55fb290a2bcc66602f38e594a891357fe7f21e85"
+  },
+  "execution": [
+    {
+      "run_id": 41570972329,
+      "artifact_id": 13201198318,
+      "branch": "production-assets-v2426-C8-swatch-evidence",
+      "status": "success"
+    },
+    {
+      "run_id": 41571492599,
+      "artifact_id": 13201750875,
+      "branch": "production-assets-v2426b-clean-clio",
+      "commit": "2c9ea5858fb761c4867fd63794ba0be569cad094",
+      "status": "success"
+    }
+  ],
+  "C8": {
+    "working_source": "Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx",
+    "sheet": "Template",
+    "authentic_options_recovered": 45,
+    "groups": 8,
+    "product_counts": {
+      "pending-01": 4,
+      "pending-02": 2,
+      "pending-04": 3,
+      "pending-05": 5,
+      "pending-06": 5,
+      "pending-07": 3,
+      "pending-08": 20,
+      "pending-10": 3
+    },
+    "peripera": "26AD working SKU option number/name matched in contemporary GS SHOP for 16; 004/006/007 missing in current catalog evidence; 012 Korean spelling discrepancy; existing older 01-20 product generation still unverified",
+    "peripera_sales_restricted_01_to_20": true,
+    "missha_cover_21": "EXCLUDED from future shade chart pending resolution, prior user directive; do not change underlying Global SKU workbook",
+    "missha_moist_up_21": "kept separate; not auto-excluded",
+    "clio_mini_3": "official CLIO mini 5g options 21C/21N/23N matched actual workbook (clubclio and GS SHOP)",
+    "obge_cushion_3": "official OBgE current options 1 ivory/2 beige/3 sand matched actual workbook; renewed packaging can vary",
+    "shade_jpg_real_swatches_draft": 1,
+    "shade_jpg_precise_visual_cleanup": 1,
+    "full_official_customer_approved_shade_jpg": 0,
+    "source_of_clio_swatch": "CLIO Color Library graphic mirrored on retailer rackhams.com; actual swatch photo pixels, no generated colors",
+    "clio_swatch_licensing": "UNVERIFIED",
+    "clio_swatch_stock_generation": "UNVERIFIED",
+    "corrected_version": "CLIO_Mini_3shade_actual_source_QA_CLEAN_V2426b.jpg"
+  },
+  "single_eight": {
+    "official_package_photo_previous_match": 6,
+    "inventory_package_verified": 0,
+    "commercial_use_rights_verified": 0,
+    "obge_permission_letter": "Prepared at v2426-output/OBgE_image_commercial_permission_request_NOT_SENT.txt",
+    "obge_email": "export@adaptkorea.com",
+    "obge_agreement": "https://www.obge.co.kr/member/agreement.html",
+    "obge_permission_sent": false
+  },
+  "MK": {
+    "original_binary_verified": false,
+    "plugin_source_metadata_name": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "metadata_size_bytes": 280031,
+    "github_main_original_mk_png_exists": false,
+    "status": "LOGO_BINARY_ACCESS_BLOCKED"
+  },
+  "preservation": {
+    "old_371_original_versions_still_immutable": true,
+    "prior_2_jpg_revisions_still_immutable": true,
+    "reconstructed_published_55_urls_preserved": true,
+    "public_files_changed": 0,
+    "no_sales_public_release": true,
+    "no_auto_shopee_image_replacement": true
+  },
+  "completion": {
+    "READY_EXCEPT_LOGO": 0,
+    "PRODUCTION_COMPLETE_QA_PENDING": 0,
+    "FINAL_QA_APPROVED": 0
+  },
+  "next": [
+    "Get manufacturer brand photo ownership and explicit commercial reuse clearance for CLIO mini (not just 3rd-party mirror)",
+    "Get actual inventory edition evidence and cross-check package 21C/21N/23N",
+    "Resolve Peripera 26AD old-vs-new + 004/006/007 + 012 spelling; do not fabricate color",
+    "Resolve MISSHA Cover Lasting exclusion shade 21 separately from Moist Up 21",
+    "Recover true MK original binary via supported source, never fabricate",
+    "Obtain commercial rights for OBgE and other brand photos before approving sales"
+  ]
+}
