@@ -1,0 +1,29 @@
+{
+  "group_id": "pending-02",
+  "name": "MISSHA Magic Cushion Moist Up",
+  "expected_skus": 2,
+  "actual_skus": 2,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "21 separately review"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-02_real_source_contact_QA_V2429.jpg",
+      "sha256": "d23c0d40991b820c1aceb5a68aa6addadf20dbc933cf9f7fdd0d30c642e66509",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 89720,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}

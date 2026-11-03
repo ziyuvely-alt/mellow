@@ -1,0 +1,34 @@
+{
+  "group_id": "pending-07",
+  "name": "CLIO Mesh Blur Special Set",
+  "expected_skus": 3,
+  "actual_skus": 3,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [
+    {
+      "url": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+      "evidence": "Official mesh blur kit listed; color-photo option evidence unresolved"
+    }
+  ],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "kit and edition check needed"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-07_real_source_contact_QA_V2429.jpg",
+      "sha256": "697bf0a1e07a05108d765c749021995cdb103d00a73cca260871b8c1b1c1c129",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 100429,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}

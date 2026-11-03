@@ -1,0 +1,34 @@
+{
+  "group_id": "pending-06",
+  "name": "CLIO Mesh Glow Essential Special Set",
+  "expected_skus": 5,
+  "actual_skus": 5,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [
+    {
+      "url": "https://clubclio.co.kr/shop/goodsView/6182",
+      "evidence": "Official mesh glow essential kit listed; 15g*2 combinations; precise shade photo not established"
+    }
+  ],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "kit and edition check needed"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-06_real_source_contact_QA_V2429.jpg",
+      "sha256": "3cafd5913092a329042b463fe84f08e27bd1e0c3f4aeac80d31c00b09c1fecec",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 108078,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}

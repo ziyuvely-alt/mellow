@@ -1,0 +1,94 @@
+{
+  "version": "2.4.29",
+  "timestamp_utc": "2026-11-03T08:55:14.766415+00:00",
+  "source_v2428": "production-assets-v2428-multifamily-qa",
+  "source_v2427b": "production-assets-v2427b-obge-shade-clean",
+  "C6_groups_attempted": 6,
+  "C6_groups_source_photo_QA_completed": 6,
+  "new_shade_JPG": 0,
+  "new_JPG_total": 6,
+  "new_customer_ready_JPG": 0,
+  "grade_BD_photo_groups_queued": 8,
+  "30_group_ids_recovered": 30,
+  "30_group_ids_not_found": 0,
+  "global_sku_records_preserved": 45,
+  "source_JPG_preserved": 531,
+  "source_JPG_sha_unchanged": true,
+  "live_urls_mutated": 0,
+  "live_urls_network_verified": false,
+  "peripera_generation_resolved": false,
+  "missha_cover_21_excluded_from_chart": true,
+  "commercial_image_license_verified": 0,
+  "MK_original_binary_recovered": false,
+  "FINAL_QA_APPROVED": 0,
+  "READY_EXCEPT_LOGO": 0,
+  "created_QA_files": [
+    {
+      "path": "v2429-output/pending-01_real_source_contact_QA_V2429.jpg",
+      "sha256": "9718ace3e438752b230ce758bcabf96ed278fd878b9ab92a3af718753b342040",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 97373,
+      "jpg_spec_ok": true
+    },
+    {
+      "path": "v2429-output/pending-02_real_source_contact_QA_V2429.jpg",
+      "sha256": "d23c0d40991b820c1aceb5a68aa6addadf20dbc933cf9f7fdd0d30c642e66509",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 89720,
+      "jpg_spec_ok": true
+    },
+    {
+      "path": "v2429-output/pending-05_real_source_contact_QA_V2429.jpg",
+      "sha256": "9fa843fd06e277f35c96bd4b2aee2f6e1946467e68c9c00050261df899fcf936",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 101297,
+      "jpg_spec_ok": true
+    },
+    {
+      "path": "v2429-output/pending-06_real_source_contact_QA_V2429.jpg",
+      "sha256": "3cafd5913092a329042b463fe84f08e27bd1e0c3f4aeac80d31c00b09c1fecec",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 108078,
+      "jpg_spec_ok": true
+    },
+    {
+      "path": "v2429-output/pending-07_real_source_contact_QA_V2429.jpg",
+      "sha256": "697bf0a1e07a05108d765c749021995cdb103d00a73cca260871b8c1b1c1c129",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 100429,
+      "jpg_spec_ok": true
+    },
+    {
+      "path": "v2429-output/pending-08_real_source_contact_QA_V2429.jpg",
+      "sha256": "42586f53a7a44d637492e9fbd6719054e4b8212b649f8f452d618e113e20b832",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 100101,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_restart": "pending-01 official color photo evidence, then pending-02, pending-05/06/07, pending-08; source-verified options only; next unknown grade photo queue"
+}

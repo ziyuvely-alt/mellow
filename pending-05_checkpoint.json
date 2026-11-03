@@ -1,0 +1,34 @@
+{
+  "group_id": "pending-05",
+  "name": "CLIO Kill Cover Founwear Special Set",
+  "expected_skus": 5,
+  "actual_skus": 5,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [
+    {
+      "url": "https://clubclio.co.kr/shop/goodsView/0000006670",
+      "evidence": "Official page lists 19C/19N/21C/21N/23N and newer options; kit-generation correspondence not established"
+    }
+  ],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "kit and edition check needed"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-05_real_source_contact_QA_V2429.jpg",
+      "sha256": "9fa843fd06e277f35c96bd4b2aee2f6e1946467e68c9c00050261df899fcf936",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 101297,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}

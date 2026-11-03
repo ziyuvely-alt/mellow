@@ -1,0 +1,29 @@
+{
+  "group_id": "pending-01",
+  "name": "MISSHA Magic Cushion Cover Lasting",
+  "expected_skus": 4,
+  "actual_skus": 4,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "21 excluded from swatch; keep original SKU"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-01_real_source_contact_QA_V2429.jpg",
+      "sha256": "9718ace3e438752b230ce758bcabf96ed278fd878b9ab92a3af718753b342040",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 97373,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}

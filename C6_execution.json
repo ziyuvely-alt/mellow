@@ -1,0 +1,191 @@
+[
+  {
+    "group_id": "pending-01",
+    "name": "MISSHA Magic Cushion Cover Lasting",
+    "expected_skus": 4,
+    "actual_skus": 4,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "21 excluded from swatch; keep original SKU"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-01_real_source_contact_QA_V2429.jpg",
+        "sha256": "9718ace3e438752b230ce758bcabf96ed278fd878b9ab92a3af718753b342040",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 97373,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  },
+  {
+    "group_id": "pending-02",
+    "name": "MISSHA Magic Cushion Moist Up",
+    "expected_skus": 2,
+    "actual_skus": 2,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "21 separately review"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-02_real_source_contact_QA_V2429.jpg",
+        "sha256": "d23c0d40991b820c1aceb5a68aa6addadf20dbc933cf9f7fdd0d30c642e66509",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 89720,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  },
+  {
+    "group_id": "pending-05",
+    "name": "CLIO Kill Cover Founwear Special Set",
+    "expected_skus": 5,
+    "actual_skus": 5,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [
+      {
+        "url": "https://clubclio.co.kr/shop/goodsView/0000006670",
+        "evidence": "Official page lists 19C/19N/21C/21N/23N and newer options; kit-generation correspondence not established"
+      }
+    ],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "kit and edition check needed"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-05_real_source_contact_QA_V2429.jpg",
+        "sha256": "9fa843fd06e277f35c96bd4b2aee2f6e1946467e68c9c00050261df899fcf936",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 101297,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  },
+  {
+    "group_id": "pending-06",
+    "name": "CLIO Mesh Glow Essential Special Set",
+    "expected_skus": 5,
+    "actual_skus": 5,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [
+      {
+        "url": "https://clubclio.co.kr/shop/goodsView/6182",
+        "evidence": "Official mesh glow essential kit listed; 15g*2 combinations; precise shade photo not established"
+      }
+    ],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "kit and edition check needed"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-06_real_source_contact_QA_V2429.jpg",
+        "sha256": "3cafd5913092a329042b463fe84f08e27bd1e0c3f4aeac80d31c00b09c1fecec",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 108078,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  },
+  {
+    "group_id": "pending-07",
+    "name": "CLIO Mesh Blur Special Set",
+    "expected_skus": 3,
+    "actual_skus": 3,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [
+      {
+        "url": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+        "evidence": "Official mesh blur kit listed; color-photo option evidence unresolved"
+      }
+    ],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "kit and edition check needed"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-07_real_source_contact_QA_V2429.jpg",
+        "sha256": "697bf0a1e07a05108d765c749021995cdb103d00a73cca260871b8c1b1c1c129",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 100429,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  },
+  {
+    "group_id": "pending-08",
+    "name": "Peripera Mood Glowy Tint",
+    "expected_skus": 20,
+    "actual_skus": 20,
+    "initial_state": "QUEUED",
+    "current_state": "SOURCE_QA_HOLD",
+    "official_evidence": [],
+    "blockers": [
+      "SHADE_EVIDENCE_REQUIRED",
+      "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+      "26AD vs original 01-20 unresolved; 04/06/07,12 conflict"
+    ],
+    "qa_jpg": [
+      {
+        "path": "v2429-output/pending-08_real_source_contact_QA_V2429.jpg",
+        "sha256": "42586f53a7a44d637492e9fbd6719054e4b8212b649f8f452d618e113e20b832",
+        "format": "JPEG",
+        "pixels": [
+          1080,
+          1080
+        ],
+        "bytes": 100101,
+        "jpg_spec_ok": true
+      }
+    ],
+    "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+    "existing_jpg_found": 10
+  }
+]

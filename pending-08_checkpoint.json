@@ -1,0 +1,29 @@
+{
+  "group_id": "pending-08",
+  "name": "Peripera Mood Glowy Tint",
+  "expected_skus": 20,
+  "actual_skus": 20,
+  "initial_state": "QUEUED",
+  "current_state": "SOURCE_QA_HOLD",
+  "official_evidence": [],
+  "blockers": [
+    "SHADE_EVIDENCE_REQUIRED",
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "26AD vs original 01-20 unresolved; 04/06/07,12 conflict"
+  ],
+  "qa_jpg": [
+    {
+      "path": "v2429-output/pending-08_real_source_contact_QA_V2429.jpg",
+      "sha256": "42586f53a7a44d637492e9fbd6719054e4b8212b649f8f452d618e113e20b832",
+      "format": "JPEG",
+      "pixels": [
+        1080,
+        1080
+      ],
+      "bytes": 100101,
+      "jpg_spec_ok": true
+    }
+  ],
+  "next_action": "Verify exact official swatch photograph and generation/edition; do not make customer 6th shade JPG from approximations",
+  "existing_jpg_found": 10
+}
