@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50ml",
+  "source_v2514_artifact": 13262705215,
+  "replaced_only": "05-single-tube-product-identity.jpg",
+  "reason": "05 duplicated the same net-content and product-identity facts as 03",
+  "new_jpg": "05-tone-up-sebum-finish.jpg",
+  "sha256": "d85821075f8fcc9cc9197662b0ef340f018688e2826cdf29bf201954e0b144af",
+  "bytes": 96825,
+  "factual_brand_source": "https://www.dr-g.com/our-products/brightening-up-sun",
+  "unchanged_03_04": true,
+  "previous_product_photographs_unchanged": true,
+  "no_unverified_clinical_metrics": true,
+  "original_MK_logo_missing": true,
+  "rights_and_stock_edition_pending": true,
+  "public_urls_added": 0,
+  "excel_shared": false,
+  "sales_final_qa": false
+}
