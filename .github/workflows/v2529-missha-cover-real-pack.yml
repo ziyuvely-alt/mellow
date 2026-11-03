@@ -1,0 +1,27 @@
+name: Shopee v2529 source genuine pink MISSHA Cover Lasting 15g compact photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2529-missha-cover-real-pack.yml'
+      - 'scripts/v2529_missha_cover_15g_actual_pack_photo_sources.py'
+permissions:
+  contents: read
+jobs:
+  photograph:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2529_missha_cover_15g_actual_pack_photo_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2529-missha-cover-lasting-real-pack-original-photos-QA
+          path: v2529-missha-cover-physical-source/
+          retention-days: 90
+          if-no-files-found: error
