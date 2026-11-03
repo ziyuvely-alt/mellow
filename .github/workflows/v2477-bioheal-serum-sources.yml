@@ -1,0 +1,27 @@
+name: Shopee v2477 BIOHEAL BOH NAD Prizcell 30ml original photo evidence
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2477-bioheal-serum-sources.yml'
+      - 'scripts/v2477_bioheal_serum_source.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2477_bioheal_serum_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2477-bioheal-nad-serum-original-photos-QA
+          path: v2477-bioheal-serum-source/
+          retention-days: 90
+          if-no-files-found: error
