@@ -1,0 +1,58 @@
+{
+  "version": "2.4.33b",
+  "baseline": "production-assets-v2432c-consolidated-progress",
+  "run": {
+    "id": 41645926169,
+    "conclusion": "success",
+    "artifact": 13234888293,
+    "branch": "production-assets-v2433-three-photo-layouts",
+    "commit": "02cf76bacf86164304d0796d8f153c2f4408fcaf"
+  },
+  "actual_new_jpg": 3,
+  "group_results": [
+    {
+      "group_id": "pending-17",
+      "name": "Dr.G Brightening Up Moisture Sun 50mL",
+      "draft": "sales-image-drafts/pending-17/pending-17_real_product_photo_white_layout_V2433.jpg",
+      "SHA256": "6791115ca1a13d242bab707ee76845fcb1b8e8dfb73ff01e0be6f58a70056729",
+      "visual_check": "customer copy visible, product full and no clipped text",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-19",
+      "name": "goodal Green Tangerine Vita C Cream Alpha 50mL",
+      "draft": "sales-image-drafts/pending-19/pending-19_real_product_photo_white_layout_V2433.jpg",
+      "SHA256": "be3af75aa66bf3c7f8bd40afa18dae0be8ca69cd000aeaec4f6d66fe28957573",
+      "visual_check": "jar packaging retained, no crop of letters",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-23",
+      "name": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+      "draft": "sales-image-drafts/pending-23/pending-23_real_product_photo_white_layout_V2433.jpg",
+      "SHA256": "75b2b381edb52faf5071a4853c2e0a5592b9b03b36533e9fa2a2592d96a5ead4",
+      "visual_check": "tube original photo retained, white studio field used",
+      "status": "SALES_IMAGE_DRAFT"
+    }
+  ],
+  "checks": {
+    "photo_pixels_synthetically_generated": false,
+    "manual_visual_check_per_latest_draft": 3,
+    "image_dimensions": "1080x1080",
+    "file_size_each": "< 2MB",
+    "original_photo_preserved": true,
+    "public_URL_paths_changed": 0,
+    "legacy_55_URL_live_verified": false,
+    "FINAL_QA_APPROVED": 0,
+    "rights_verified": 0,
+    "MK_original_png_verified": false
+  },
+  "next_resume": [
+    "pending-10 OBgE Cushion true transparent official image and package match",
+    "pending-01 MISSHA Cover Lasting shade 21 exclusion official provenance",
+    "pending-08 Peripera 01-20 26AD official shade generation mismatch",
+    "pending-17/19/23 packaging rights and actual physical stock verification",
+    "remaining family full 5 or 6 frame visual QA without creating repeat contact sheets"
+  ],
+  "caution": "Source images exist in GitHub and may be public. SALES_IMAGE_DRAFT is not FINAL_QA_APPROVED. No messages to brands or external publication."
+}
