@@ -1,0 +1,66 @@
+{
+  "version": "2.4.38c",
+  "previous": "production-assets-v2437d-consolidated-checkpoint",
+  "runs": [
+    {
+      "id": 41650829542,
+      "artifact": 13238115261,
+      "branch": "production-assets-v2438-two-card-layout-fixes",
+      "commit": "e76dc270893335078ef13194b5d9ea93af96953d",
+      "conclusion": "success"
+    },
+    {
+      "id": 41651025437,
+      "artifact": 13237142574,
+      "branch": "production-assets-v2438b-clean-two-card-drafts",
+      "commit": "c0fa0f71234db6af6e618015bbf120f54cb9ff3f",
+      "conclusion": "success"
+    }
+  ],
+  "latest_images": [
+    {
+      "group": "pending-02",
+      "product": "MISSHA Magic Cushion Moist Up",
+      "file": "production-assets-v2438b-clean-two-card-drafts/sales-image-drafts/pending-02/pending-02_clean_card_no_outer_arc_V2438b.jpg",
+      "sha256": "9fd7859e8c36b027c2eb00956243450946b151f515a88ce0c5c8924cef4af83b",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_review": "Passed card geometry, readable copy, no outside arc",
+      "final_qa_approved": false
+    },
+    {
+      "group": "pending-21",
+      "product": "goodal eye-care source frame",
+      "file": "production-assets-v2438b-clean-two-card-drafts/sales-image-drafts/pending-21/pending-21_clean_card_no_outer_arc_V2438b.jpg",
+      "sha256": "59ff7a4feda156dd1d6b2ceb08a0bec96056d8415ce1c99afd5287d226c68bfe",
+      "state": "SOURCE_QA_HOLD",
+      "visual_review": "Passed card geometry, readable copy, no outside arc; precise product association unverified",
+      "final_qa_approved": false
+    }
+  ],
+  "superseded": [
+    "production-assets-v2438-two-card-layout-fixes/sales-image-drafts/pending-02/pending-02_clean_legible_card_V2438.jpg",
+    "production-assets-v2438-two-card-layout-fixes/sales-image-drafts/pending-21/pending-21_clean_legible_card_V2438.jpg"
+  ],
+  "counts": {
+    "actual_new_jpg_versions": 4,
+    "current_valid_design_jpg": 2,
+    "groups_modified": 2,
+    "groups_source_review_this_execution": 12,
+    "product_image_photographs_modified": 0,
+    "original_JPG_overwritten": 0,
+    "published_URL_paths_changed": 0,
+    "live_verification_55_URLs": false,
+    "FINAL_QA_APPROVED": 0,
+    "license_verified": 0,
+    "stock_package_verified": 0,
+    "MK_original_binary_verified": false
+  },
+  "next_resume": [
+    "Identify pending-21 exact goodal eye-care SKU before commercial release; leave source hold until matching official packaging",
+    "Pending-02 shade 21 option/edition and all exact official swatches; do not mix with Cover Lasting 21 exclusion",
+    "Continue product family individual frame audit, focusing factual inaccuracies and failed source image matches, not QA sheets",
+    "Preserve 11 completed groups and 55 URLs, refrain from publication without rights and packaging proof",
+    "C8 exact edition official shade charts for MISSHA CLIO Peripera OBgE"
+  ],
+  "notes": "Images are GitHub draft assets and may be publicly accessible based on repository visibility. No brand inquiry or live Shopee deployment undertaken."
+}
