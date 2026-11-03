@@ -1,0 +1,53 @@
+name: Shopee v2431 verified 200ml photo revision and MISSHA shade 21 exclusion
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2431-targeted-real-photo-fixes.yml'
+      - 'scripts/v2431_targeted_photo_and_21_exclusion.py'
+permissions:
+  contents: write
+jobs:
+  actual-sales-image-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install imaging dependency
+        run: python -m pip install Pillow
+      - name: Recover exact immutable actual photographed JPEGs
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Generate actual replacement and precise non-fabricated shade crop
+        run: python scripts/v2431_targeted_photo_and_21_exclusion.py
+      - name: Save actual JPG evidence artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2431-real-200ml-photo-and-no21-qa
+          path: v2431-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve draft branch, never publish or overwrite
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2431-output /tmp/v2431-saved
+          git worktree add --detach /tmp/v2431-wt HEAD
+          cd /tmp/v2431-wt
+          git switch --orphan production-assets-v2431-targeted-source-repairs
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2431-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve actual pixelpure 200ml replacement and MISSHA no21 evidence crop; QA hold'
+          git push origin HEAD:refs/heads/production-assets-v2431-targeted-source-repairs
