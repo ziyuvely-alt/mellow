@@ -1,0 +1,66 @@
+{
+  "version": "2.4.45",
+  "source": "production-assets-v2444-reviewed-146-and-quarantine-4",
+  "product": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50 mL",
+  "earlier_corrected_slot1_reused": true,
+  "previous_17_completed_JPGs_rerendered": false,
+  "new_actual_text_corrections": 4,
+  "latest_total_corrected_pending25_frames": 5,
+  "new_product_pixels_generated": false,
+  "original_historical_JPG_overwritten": 0,
+  "prior_55_live_URLs_modified": 0,
+  "sales_release_approved": false,
+  "MK_badge_rights": "UNVERIFIED",
+  "physical_stock_package": "UNVERIFIED",
+  "new_frames": [
+    {
+      "slot": 2,
+      "previous_original_file": "reusable-customer-JPG-candidates/pending-25/02_02_INV_02_8056a2f613_EN_V2421C.jpg",
+      "previous_sha256": "194dfe1c6d8f468038f38655602b8b9cdbb56a62a91ffc23c4f42324d2addd03",
+      "new_corrected_jpg": "corrected-customer-jpg/pending-25/slot-02-bioheal-prizcell-name-V2445.jpg",
+      "new_sha256": "9bdefb40404a503024e8bfba5fdf8efbb35567445d82188e3d0cc296cddca8ba",
+      "corrected_exact_text": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50 mL",
+      "visible_qa": "REVIEW_AFTER_OUTPUT",
+      "unverified_MK_logo": "REMAINS_PRESENT",
+      "commercial_photo_use": "NOT_AUTHORIZED_BY_THIS_EDIT",
+      "sale_release_approved": false
+    },
+    {
+      "slot": 3,
+      "previous_original_file": "reusable-customer-JPG-candidates/pending-25/03_03_INV_03_a7c25f91d5_EN_V2421C.jpg",
+      "previous_sha256": "09293028c8081e33792fd5c00e4d90ec2040132bd60976a88f3d9ea5c47f3749",
+      "new_corrected_jpg": "corrected-customer-jpg/pending-25/slot-03-bioheal-prizcell-name-V2445.jpg",
+      "new_sha256": "97e14a1cefada135a9c10d16fe7b7c619ee698c27170510cf735e2c657480a3c",
+      "corrected_exact_text": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50 mL",
+      "visible_qa": "REVIEW_AFTER_OUTPUT",
+      "unverified_MK_logo": "REMAINS_PRESENT",
+      "commercial_photo_use": "NOT_AUTHORIZED_BY_THIS_EDIT",
+      "sale_release_approved": false
+    },
+    {
+      "slot": 4,
+      "previous_original_file": "reusable-customer-JPG-candidates/pending-25/04_04_INV_04_c73f315531_EN_V2421C.jpg",
+      "previous_sha256": "a8ab39fa974c7a35d090d5fee2bd2cfbc6cf4341e3b3e461716b8ed50364159e",
+      "new_corrected_jpg": "corrected-customer-jpg/pending-25/slot-04-bioheal-prizcell-name-V2445.jpg",
+      "new_sha256": "28922129612d2962bf13f4e8f043b53a5d572ef8fcc09bc02ef9bb5512e26372",
+      "corrected_exact_text": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50 mL",
+      "visible_qa": "REVIEW_AFTER_OUTPUT",
+      "unverified_MK_logo": "REMAINS_PRESENT",
+      "commercial_photo_use": "NOT_AUTHORIZED_BY_THIS_EDIT",
+      "sale_release_approved": false
+    },
+    {
+      "slot": 5,
+      "previous_original_file": "reusable-customer-JPG-candidates/pending-25/05_05_INV_05_f8ca8d48f2_EN_V2421C.jpg",
+      "previous_sha256": "911eb6db224f7447465a234669c6f06602d593187f98e023d3347e5d6980d090",
+      "new_corrected_jpg": "corrected-customer-jpg/pending-25/slot-05-bioheal-prizcell-name-V2445.jpg",
+      "new_sha256": "4b49a08ad611f108c0ac07cc9cc9dfae29d0dbb0059d6aa2a73def83b2f91b61",
+      "corrected_exact_text": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50 mL",
+      "visible_qa": "REVIEW_AFTER_OUTPUT",
+      "unverified_MK_logo": "REMAINS_PRESENT",
+      "commercial_photo_use": "NOT_AUTHORIZED_BY_THIS_EDIT",
+      "sale_release_approved": false
+    }
+  ],
+  "next": "Inspect all 4 JPEGs visually and use corrected exact JPG bytes to replace four older misspelled candidate captions; keep rights hold"
+}
