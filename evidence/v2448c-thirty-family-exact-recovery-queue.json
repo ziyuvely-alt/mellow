@@ -1,0 +1,390 @@
+{
+  "version": "2.4.48c",
+  "source_candidate_branch": "production-assets-v2446b-logo-64-quarantine-86-hold",
+  "recovery_branch": "production-assets-v2448b-15-photo-candidate-checkpoint",
+  "totals": {
+    "product_families": 30,
+    "historic_candidate_JPGs": 150,
+    "historic_template_logo_quarantined": 64,
+    "historic_rights_held_remaining": 86,
+    "new_real_photographic_candidate_JPGs": 15,
+    "total_unapproved_candidates_after_recovery": 101,
+    "original_source_images_regenerated": 0,
+    "previously_empty_groups_recovered_with_at_least_one_photo": 8,
+    "groups_still_zero_candidates": [],
+    "groups_with_at_least_five_candidates": 16,
+    "new_official_shade_charts_approved": 0,
+    "full_finished_product_families_approved": 0,
+    "previous_public_55_urls_modified": 0
+  },
+  "group_status": [
+    {
+      "group_id": "pending-01",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-02",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-03",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 1,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-03/photo_main__pending-03_authentic-photo_no-MK_V2447.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-04",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-04/photo_main__pending-04_authentic-photo_no-MK_V2447.jpg",
+        "15-real-photo-review-candidates/pending-04/photo_detail__pending-04_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-05",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-06",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-07",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-08",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-09",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-10",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-11",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-11/photo_main__pending-11_previous_success_byteidentical_V2447.jpg",
+        "15-real-photo-review-candidates/pending-11/photo_detail__pending-11_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-12",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-13",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-14",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-15",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-15/photo_main__pending-15_previous_success_byteidentical_V2447.jpg",
+        "15-real-photo-review-candidates/pending-15/photo_detail__pending-15_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-16",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-17",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-18",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-19",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-20",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-21",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-22",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-23",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-24",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-25",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-25/photo_main__pending-25_authentic-photo_no-MK_V2447.jpg",
+        "15-real-photo-review-candidates/pending-25/photo_detail__pending-25_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-26",
+      "old_unapproved_candidates": 5,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 5,
+      "existing_MK_quarantine": 0,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-27",
+      "old_unapproved_candidates": 1,
+      "new_nonMK_pattern_photographic_candidates": 0,
+      "candidate_count_after_recovery": 1,
+      "existing_MK_quarantine": 4,
+      "new_candidate_refs": [],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-28",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-28/photo_main__pending-28_previous_success_byteidentical_V2447.jpg",
+        "15-real-photo-review-candidates/pending-28/photo_detail__pending-28_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-29",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-29/photo_main__pending-29_previous_success_byteidentical_V2447.jpg",
+        "15-real-photo-review-candidates/pending-29/photo_detail__pending-29_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    },
+    {
+      "group_id": "pending-30",
+      "old_unapproved_candidates": 0,
+      "new_nonMK_pattern_photographic_candidates": 2,
+      "candidate_count_after_recovery": 2,
+      "existing_MK_quarantine": 5,
+      "new_candidate_refs": [
+        "15-real-photo-review-candidates/pending-30/photo_main__pending-30_previous_success_byteidentical_V2447.jpg",
+        "15-real-photo-review-candidates/pending-30/photo_detail__pending-30_genuine-photo-detail-noMK_V2448.jpg"
+      ],
+      "sales_approved": false,
+      "photo_license_verified": false,
+      "full_5frame_QA_complete": false
+    }
+  ],
+  "notes": [
+    "101 candidates are not a 101-image sales-ready bundle: all source photo rights, product edition and full visual QA are pending",
+    "64 historical frames remain isolated and were not modified",
+    "Eight once-empty groups have one or two real photographic candidates, not complete 5-frame sets",
+    "MISSHA BB Cream unverified shade frame 2 intentionally not used",
+    "Authentic MK original PNG has not been located; no substitute or new seal created",
+    "No physical stock generation confirmation or brand photo reuse permission granted"
+  ],
+  "next_queue": [
+    "Specific old candidate photo content and provenance review for 86 retained frames",
+    "Recover exact official/shade chart for C8 options, excluding prohibited Cover Lasting 21",
+    "Request or locate authentic user-owned MK PNG file and photo rights",
+    "Continue real product photo restoration for groups with insufficient source frames without duplicating"
+  ],
+  "created_at_note": "Status snapshot based on succeeded GitHub runs 41661627679,41662117128,41662435730,41663126457,41663478013"
+}
