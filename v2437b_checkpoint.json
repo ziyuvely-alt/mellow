@@ -1,0 +1,53 @@
+{
+  "version": "2.4.37b",
+  "created_real_draft_JPG": 3,
+  "families": 3,
+  "source_photo_generations": 0,
+  "original_photos_changed": 0,
+  "public_URL_changes": 0,
+  "official_shade_charts_new": 0,
+  "FINAL_QA_APPROVED": 0,
+  "outputs": [
+    {
+      "group_id": "pending-15",
+      "source": "pending-15/INV_03_8d52f556bc_EN_V2421C.jpg",
+      "source_sha256": "1563a981a5bb66cd84b76420191c6da1c5fc89eddbf9425a9d629e091e848231",
+      "new_jpg": "sales-image-drafts/pending-15/pending-15_actual_photo_copy_revised_V2437b.jpg",
+      "new_sha256": "3b37a21099a36a1e674298346a894d5ddf9f636e2964ddcbd0de7b27e19c3188",
+      "reason": "Whole photographed tube, no MK mark, stock edition not verified",
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-18",
+      "source": "pending-18/INV_04_e3df9b823a_EN_V2421C.jpg",
+      "source_sha256": "dbadf5d7154492491d7fa6fdeac6215dabbd93b37bad53a64729f9016b04a4bb",
+      "new_jpg": "sales-image-drafts/pending-18/pending-18_actual_photo_copy_revised_V2437b.jpg",
+      "new_sha256": "cbabc7dac7da1b41e87fd6434b3328ec7ca658f870cd03651a953c2661348453",
+      "reason": "Remove unverified official model photo claim; existing application photo retained",
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-11",
+      "source": "pending-11/INV_04_a0c9d28d19_EN_V2421C.jpg",
+      "source_sha256": "af6b734b5e05ad3225a1ee7c9432a44aca710da1db5b2b0c22add015da265c04",
+      "new_jpg": "sales-image-drafts/pending-11/pending-11_actual_photo_copy_revised_V2437b.jpg",
+      "new_sha256": "9b3eb1cc332cd30f9acc975e450bea15669b659acc2ed12544b8160bd9f44661",
+      "reason": "Remove unverified official texture photograph claim; existing texture photograph retained",
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    }
+  ],
+  "next": [
+    "Open all three actual JPGs and reject bad crops",
+    "Do not claim official source or rights without written proof",
+    "Carry latest v2437 and v2437b revisions into consolidated checkpoint"
+  ]
+}
