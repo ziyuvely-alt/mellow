@@ -1,0 +1,34 @@
+{
+  "date": "2026-11-04",
+  "checks": [
+    {
+      "family": "pending-10",
+      "run": 41696701185,
+      "artifact": 13261112317,
+      "branch": "production-assets-v2511-obge-homme-15g-corrected",
+      "count": 5,
+      "all_sha256_match_actual_downloaded_bytes": true,
+      "all_jpg_1080x1080": true,
+      "all_below_2mb": true,
+      "visual_qa": "Dark brown square Perfect Homme 15g compact in frames 01-03, actual photographed 3-shade chart in 04, correct SPF50+ PA+++ facts in 05",
+      "status": "QA_HOLD_COMMERCIAL_RIGHTS_AND_PHYSICAL_PACK_VERSION"
+    },
+    {
+      "family": "pending-03",
+      "run": 41696980583,
+      "artifact": 13261081756,
+      "branch": "production-assets-v2512-missha-bb-stock-info",
+      "count": 2,
+      "all_sha256_match_actual_downloaded_bytes": true,
+      "all_jpg_1080x1080": true,
+      "all_below_2mb": true,
+      "visual_qa": "Card 04 has unreadable Hangul due missing font, v2513 exact one-card repair dispatched; card 05 visually acceptable",
+      "status": "04_REJECT_BAD_GLYPHS_05_RETAIN"
+    }
+  ],
+  "previous_public_55_untouched": true,
+  "new_verified_public_urls": 0,
+  "no_excel_shared": true,
+  "new_swatch_pixels_synthesized": 0,
+  "next": "Use v2513 repaired 04; keep the good 05. Do not promote any images until MK original, rights and stock version validated."
+}
