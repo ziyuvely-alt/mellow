@@ -32,7 +32,7 @@ jobs:
           git archive origin/production-assets-v2431b-200ml-layout-clean | tar -xf - -C prior-v2431b
           git archive origin/production-assets-v2435-peripera-caption-corrected | tar -xf - -C prior-v2435
       - name: Copy and SHA-verify 30 family candidate sets, generate package
-        run: python scripts/v2442b_assemble_real_30family_sets.py
+        run: python scripts/v2442b_safety_filter_30family_sets.py
       - uses: actions/upload-artifact@v4
         with:
           name: shopee-v2442b-30group-actual-JPG-candidate-sets
