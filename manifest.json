@@ -1,0 +1,36 @@
+{
+  "version": "v2547",
+  "date": "2026-11-04",
+  "family": "pending-29",
+  "product": "PIXELPURE Radiance Aqua Soothing Cream 50ml",
+  "exact_real_photo_replacements": [
+    {
+      "slot": 2,
+      "old_sha256": "8c9eef513167da5361c2cea9ece8d3085019fc54d934f6823e06b75869396ee9",
+      "new_sha256": "6a196923971d08efa98653e712abdcb4187c45458d1c8c82ce915ac439b14b59",
+      "source_sha256": "66865bc396681f4abc030bea386c291b7b0743a0a9bea3d678086cb59e4ac874",
+      "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/f8d51ba2fbbf7cb558808d00a2f1317a.jpg",
+      "role": "manufacturer original closed pink 50ml jar over white cream",
+      "new_file": "review-JPG-by-family/pending-29/02_v2547-real-50ml-cream-photo.jpg"
+    },
+    {
+      "slot": 4,
+      "old_sha256": "f042395f4606c0ec6d3911310680333e7bce151a740448eb9f554da49ed799ab",
+      "new_sha256": "e95fdc937b6a8c75d6e94d0bd345509a23e70324662b399c22381c3c849f6467",
+      "source_sha256": "0b2cbd03a361c420a199e924ffece4ffa266d8e739882ebf5fe8d3280c4b6e19",
+      "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/5695cce612cdac532a1aedacb62b3581.jpg",
+      "role": "manufacturer original 50ml pink open jar and genuine cream swirl",
+      "new_file": "review-JPG-by-family/pending-29/04_v2547-real-50ml-cream-photo.jpg"
+    }
+  ],
+  "actual_JPG_count": 156,
+  "prior_154_source_jpgs_unchanged": true,
+  "official_product": "https://eng.pixelpure.com/product/detail.html?product_no=26",
+  "manufacturer_photo_rights_approved_for_commercial_use": false,
+  "real_owned_stock_package_identical_confirmed": false,
+  "original_MK_logo_applied": false,
+  "sales_final_QA": false,
+  "prior_verified_55_public_urls_untouched": true,
+  "new_public_URLs": 0,
+  "excel_created_or_shared": false
+}
