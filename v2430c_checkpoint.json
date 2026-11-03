@@ -1,0 +1,45 @@
+{
+  "version": "2.4.30c",
+  "customer_JPG_revisions": 3,
+  "groups_modified": 3,
+  "source_jpg_files_changed": 0,
+  "published_public_URLs_changed": 0,
+  "new_shade_chart": 0,
+  "final_qa_approved": 0,
+  "photo_rights_verified": 0,
+  "flagged_mismatch": {
+    "pending-27": "Image product print 300 ml but listing caption 200 ml: hold until correct official SKU photo"
+  },
+  "edits": [
+    {
+      "group_id": "pending-24",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-24/INV_01_216ad6670f_EN_V2421C.jpg",
+      "output": "sales-image-drafts/pending-24/pending-24_official_name_corrected_v2430c.jpg",
+      "sha256": "c44c2ff72deb99d786bfea954267840b49b22f99fd5b28ac6b44d7af129a0a9b",
+      "revision_type": "EN_COPY_REVISION",
+      "issue": "Visible product package spelling is NAD-PRIZCELL; lower customer caption misspelled as Preezcel",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_QA": "PENDING_AFTER_EDIT"
+    },
+    {
+      "group_id": "pending-25",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_01_1bd6f7ce25_EN_V2421C.jpg",
+      "output": "sales-image-drafts/pending-25/pending-25_official_name_corrected_v2430c.jpg",
+      "sha256": "ae3841b4a15dd2da526fd5150442072729a73d9069bc5c456a8296f865055437",
+      "revision_type": "EN_COPY_REVISION",
+      "issue": "Visible product package spelling is NAD-PRIZCELL; lower customer caption misspelled as Preezcel",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_QA": "PENDING_AFTER_EDIT"
+    },
+    {
+      "group_id": "pending-26",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-26/PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+      "output": "sales-image-drafts/pending-26/pending-26_repeated_copy_removed_v2430c.jpg",
+      "sha256": "6c88dada8ab9d099c15dc7b4b8775298dd5e49889ac03953dc1ee6a94b5ae693",
+      "revision_type": "EN_COPY_REVISION",
+      "issue": "Duplicate product name on NET CONTENT information card",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_QA": "PENDING_AFTER_EDIT"
+    }
+  ]
+}
