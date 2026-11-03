@@ -1,0 +1,46 @@
+name: Shopee v2454 OBgE 300ml source-backed English fact JPG cards
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2454-obge-300ml-official-facts.yml'
+      - 'scripts/v2454_obge_official_factual_300ml_cards.py'
+permissions:
+  contents: write
+jobs:
+  truthful-facts-no-fake-bottle:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Render only the two brand-source factual cards without any photo claims
+        run: python scripts/v2454_obge_official_factual_300ml_cards.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2454-two-OBgE-300ml-fact-cards-no-fake-bottle-no-sheets
+          path: v2454-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Persist isolated draft fact cards, not commercial approved photos
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2454-output /tmp/v2454-facts
+          git worktree add --detach /tmp/v2454-wt HEAD
+          cd /tmp/v2454-wt
+          git switch --orphan production-assets-v2454-obge-300ml-official-facts-only
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2454-facts/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive two truthful 300mL OBgE factual English info JPGs without invented commercial product photos'
+          git push origin HEAD:refs/heads/production-assets-v2454-obge-300ml-official-facts-only
