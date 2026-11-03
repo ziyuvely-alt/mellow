@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
     paths:
-      - '.github/workflows/v2440e-consolidate-12-drafts.yml'
+      - '.github/workflows/v2440e-consolidate-12-corrected.yml'
       - 'scripts/v2440e_corrected_12_edits_and_hashes.py'
 permissions:
   contents: write
