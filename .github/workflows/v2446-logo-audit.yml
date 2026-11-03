@@ -1,0 +1,52 @@
+name: Shopee v2446 visual MK watermark audit of 146 actual JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2446-logo-audit.yml'
+      - 'scripts/v2446_146frame_logo_visual_detection.py'
+permissions:
+  contents: write
+jobs:
+  classify-photo-watermark:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install opencv-python-headless numpy
+      - name: Restore existing 150 asset bytes without editing any JPEG
+        shell: bash
+        run: |
+          mkdir prior-v2445b
+          git fetch origin production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: Verify SHA and perform evidence-based watermark risk detection
+        run: python scripts/v2446_146frame_logo_visual_detection.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2446-150frame-MK-visual-QA-audit
+          path: v2446-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve new QA evidence branch only
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2446-output /tmp/v2446-result
+          git worktree add --detach /tmp/v2446-wt HEAD
+          cd /tmp/v2446-wt
+          git switch --orphan production-assets-v2446-all-150-logo-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2446-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve source-hashed 150-frame watermark visual risk classifications; no sales approval'
+          git push origin HEAD:refs/heads/production-assets-v2446-all-150-logo-QA
