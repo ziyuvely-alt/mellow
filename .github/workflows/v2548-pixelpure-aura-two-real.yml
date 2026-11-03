@@ -1,0 +1,53 @@
+name: Shopee v2548 Pixelpure Aura Serum 50ml two genuine photographs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2548-pixelpure-aura-two-real.yml'
+      - 'scripts/v2548_pixelpure_aura_serum_50ml_two_real_scenes.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  exact-two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore corrected v2547 156 QA JPEGs without regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715760519 -n shopee-v2547-156-JPG-PixelPure-Aqua-Cream-two-real-scenes-QA -D v2548-base-156
+      - name: Replace two true 50ml Aura Radiance Serum photos only, keep 154 old bytes
+        run: |
+          python scripts/v2548_pixelpure_aura_serum_50ml_two_real_scenes.py
+          test "$(find v2548-pixelpure-aura-serum-2real-scenes/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA
+          path: v2548-pixelpure-aura-serum-2real-scenes/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Archive QA artifacts separately, no public URLs or user spreadsheets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2548-pixelpure-aura-serum-2real-scenes /tmp/v2548-out
+          git worktree add --detach /tmp/v2548-wt HEAD
+          cd /tmp/v2548-wt
+          git switch --orphan production-assets-v2548-156-Pixelpure-Aura-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2548-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPEGs with two genuine 50ml Pixelpure Aura Radiance Serum photographs'
+          git push origin HEAD:refs/heads/production-assets-v2548-156-Pixelpure-Aura-real-QA
