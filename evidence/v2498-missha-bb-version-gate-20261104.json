@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream",
+  "job_run_id": 41690878694,
+  "artifact_id": 13257047804,
+  "actual_product_photo_bytes": 0,
+  "source_attempts": [
+    {
+      "url": "https://missha.com/en/m/makeup/product_detail?prdmCd=1086",
+      "status": "HTML actual exact name absent for script parser, product appears in public indexed page"
+    },
+    {
+      "url": "https://www.missha.co.kr/product/detail.html?product_no=2129",
+      "status": "SSL hostname mismatch"
+    }
+  ],
+  "verified_edition_event": {
+    "date": "2026-05-04",
+    "official_url": "https://m.missha.co.kr/bbs/board.php?bo_table=news&wr_id=390",
+    "statement": "Brand announced BB Cream PRO renewal, older packaging photos cannot be equated with PRO release"
+  },
+  "old_inventory_package_evidence": "NOT PRESENT",
+  "next_action": "Recover owned SKU Korean package generation photo or an exact old-stock manufacturer product photo; do not reuse US OTC packaging variant without proof of exact SKU",
+  "commercial_photo_rights_verified": false,
+  "photos_approved": 0,
+  "public_urls_changed": 0,
+  "excel_shared": false
+}
