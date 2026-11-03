@@ -1,0 +1,58 @@
+{
+  "created_utc": "2026-11-04",
+  "purpose": "Targeted corrections and one missing option-name frame",
+  "source": {
+    "drg": "previous v2506 accepted technical JPG, exclusion of unverified 2021 zinc ingredient",
+    "clio": "Official CLIO-managed SSG Founwear 2x15g listing and GS shop 5 shades"
+  },
+  "new_files": [
+    {
+      "family": "pending-15",
+      "file": "pending-15/03-mineral-facts-clean.jpg",
+      "sha256": "6cef803baf3c2c4734c38d406c15cf8927aa873700244c51a13083f387f90d2d",
+      "bytes": 85588,
+      "pixels": [
+        1080,
+        1080
+      ],
+      "role": "Factual SPF and 50mL information; only footer corrected",
+      "public": false
+    },
+    {
+      "family": "pending-15",
+      "file": "pending-15/05-usage-clean.jpg",
+      "sha256": "bbad458c1d32303e94ba17cb6e73c8d772686e6c7e144b05799abf2de02052c6",
+      "bytes": 90697,
+      "pixels": [
+        1080,
+        1080
+      ],
+      "role": "Customer-oriented factual application card, no internal QA footer",
+      "public": false
+    },
+    {
+      "family": "pending-05",
+      "file": "pending-05/06-verified-five-shade-name-guide.jpg",
+      "sha256": "387d3667e730152d34283aabc59dc7c1fe32a65b35bd657c23a9005c2b8fdbfe",
+      "bytes": 86529,
+      "pixels": [
+        1080,
+        1080
+      ],
+      "role": "Text-only authentic five option name guide, not an official swatch image",
+      "public": false
+    }
+  ],
+  "not_recreated": [
+    "pending-15 original 2 real product photos",
+    "pending-15 04-zinc-oxide card remains QA hold",
+    "pending-05 prior 5 JPGs"
+  ],
+  "no_fabricated_shade_swatches": true,
+  "official_licensed_photo_missing": true,
+  "original_MK_logo_missing": true,
+  "physical_inventory_edition_verified": false,
+  "sales_ready": false,
+  "public_55_urls_unchanged": true,
+  "spreadsheet_shared": false
+}
