@@ -1,0 +1,61 @@
+{
+  "version": "2.4.27b",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "source": {
+    "run": 41571492599,
+    "artifact": 13201750875,
+    "branch": "production-assets-v2426b-clean-clio",
+    "commit": "2c9ea5858fb761c4867fd63794ba0be569cad094"
+  },
+  "runs": [
+    {
+      "run": 41585504421,
+      "artifact": 13207278931,
+      "branch": "production-assets-v2427-obge-en-shade-qa",
+      "commit": "488d63add1800f41299d1562bd1e9c562c1d2c08",
+      "status": "success"
+    },
+    {
+      "run": 41585874728,
+      "artifact": 13207903624,
+      "branch": "production-assets-v2427b-obge-shade-clean",
+      "commit": "102ef1854c9d6c299ee8d20a505d4b7fe01f6ae3",
+      "status": "success"
+    }
+  ],
+  "results": {
+    "obge_information_english_actual_modified_jpg": 4,
+    "obge_3shade_genuine_photo_chart_actual_jpg": 1,
+    "obge_3shade_first_version_extra_cleanup": 1,
+    "active_5_new_version_jpg": 5,
+    "obge_photo_white_rect_final_fix": false,
+    "obge_source_product_image_retained": true,
+    "obge_content_15g_SPF50PA4_officially_verified": true,
+    "obge_Ivory_Beige_Sand_official_renewed_option_list_verified": true,
+    "obge_3shade_chart_source": "OBgE HK regional brand product listing genuine photo image",
+    "obge_3shade_regional_license_verified": false,
+    "obge_3shade_renewed_stock_version_match": false,
+    "clio_mini_3shade_v2426b_preserved": true,
+    "clio_mini_exact_stock_generation_verified": false,
+    "C8_45_working_SKU_rows_preserved": true,
+    "peripera_26AD_generation_resolved": false,
+    "missha_cover_21_old_exclusion_applied": true,
+    "single_eight_official_package_photo_prior_verified": 6,
+    "single_eight_stock_package_verified": 0,
+    "commercial_photo_rights_final_verified": 0,
+    "original_MK_png_binary_recovered": false,
+    "original_JPG_519_sha_unmodified": true,
+    "public_URLs_55_untouched": true,
+    "READY_EXCEPT_LOGO": 0,
+    "FINAL_QA_APPROVED": 0
+  },
+  "remaining": [
+    "Correct or replace OBgE source photo with white rectangle using legitimate transparency/approved source; do not synthesize contour",
+    "Regional HK genuine shade photo provenance against domestic newly renewed cushion remains unresolved",
+    "Commercial photo reuse rights unverified",
+    "Original MK logo binary unverified; no fabricated replacement",
+    "C8 Peripera generation and MISSHA Cover Lasting shade21 not resolved",
+    "Continue independent 30-family QA queue; no publish"
+  ]
+}
