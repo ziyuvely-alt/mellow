@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-09",
+  "previous_v2464_repaired_not_overwritten": true,
+  "new_replacement_files": [
+    {
+      "file": "03-open-compact-fullbleed-repair.jpg",
+      "source": "brand-global-open-compact.png",
+      "bytes": 123452,
+      "sha256": "22e4443ca53dc728205534d3339868d045de50cd3b83c029ed12840e8d3a0d1b",
+      "status": "FULL_BLEED_PHOTO_REPAIR_REVIEW_REQUIRED"
+    },
+    {
+      "file": "04-multi-angle-fullbleed-repair.jpg",
+      "source": "retailer-dual-angle.jpg",
+      "bytes": 127216,
+      "sha256": "c629c568dc0f15df92ede0ab89d5c3cf53e31adce9dc0789b0ceff1bd7b5fbe0",
+      "status": "FULL_BLEED_PHOTO_REPAIR_REVIEW_REQUIRED"
+    },
+    {
+      "file": "05-product-facts-clean-repair.jpg",
+      "source": "seller stock record",
+      "bytes": 64708,
+      "sha256": "9bdb80286d659008f66637fd984681887a174a49afbe1ba2b29e2948ca1f5060",
+      "status": "FULL_BLEED_PHOTO_REPAIR_REVIEW_REQUIRED"
+    }
+  ],
+  "source_artifact_run": 41682388609,
+  "photo_pixels_real": true,
+  "product_geometry_unchanged": true,
+  "official_MK_logo_missing": true,
+  "license_and_inventory_final_QA_pending": true,
+  "published": false,
+  "excel_unchanged": true
+}
