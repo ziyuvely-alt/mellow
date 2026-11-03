@@ -1,0 +1,50 @@
+name: Shopee v2514 DrG Brightening Up Sun Plus three factual JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2514-drg-brightening-three.yml'
+      - 'scripts/v2514_drg_brightening_sun_plus_three_facts.py'
+permissions:
+  contents: write
+jobs:
+  render-only-missing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Generate new 03 to 05 JPG only
+        run: |
+          python scripts/v2514_drg_brightening_sun_plus_three_facts.py
+          test -s v2514-drg-brightening-sun-plus-three/03-verified-50ml-spf-pa-facts.jpg
+          test -s v2514-drg-brightening-sun-plus-three/04-sunscreen-application-facts.jpg
+          test -s v2514-drg-brightening-sun-plus-three/05-single-tube-product-identity.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2514-drg-brightening-up-three-facts-qa-only
+          path: v2514-drg-brightening-sun-plus-three/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve without overwriting previous assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2514-drg-brightening-sun-plus-three /tmp/v2514-out
+          git worktree add --detach /tmp/v2514-wt HEAD
+          cd /tmp/v2514-wt
+          git switch --orphan production-assets-v2514-drg-brightening-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2514-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three distinct DrG Brightening Up Sun+ 50ml factual JPG drafts'
+          git push origin HEAD:refs/heads/production-assets-v2514-drg-brightening-three
