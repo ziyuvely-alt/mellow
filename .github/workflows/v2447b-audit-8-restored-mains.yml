@@ -1,0 +1,54 @@
+name: Shopee v2447b actual eight restored photo MK badge QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2447b-audit-8-restored-mains.yml'
+      - 'scripts/v2447b_validate_8_restored_logo_free_mains.py'
+permissions:
+  contents: write
+jobs:
+  confirm-eight-restored-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install opencv-python-headless numpy
+      - name: Restore the 8 exact previously created images and original known-badge controls
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2447 prior-v2445b
+          git fetch origin production-assets-v2447-eight-real-source-mains production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2447-eight-real-source-mains | tar -xf - -C prior-v2447
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: Compare actual existing photo JPEG source bytes against known MK logo image templates
+        run: python scripts/v2447b_validate_8_restored_logo_free_mains.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2447b-eight-restored-main-JPG-MK-QA
+          path: v2447b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve risk evidence without modifying previous images
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2447b-output /tmp/v2447b-result
+          git worktree add --detach /tmp/v2447b-wt HEAD
+          cd /tmp/v2447b-wt
+          git switch --orphan production-assets-v2447b-eight-main-image-MK-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2447b-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Persist objective MK badge absence check for 8 historical actual-photo candidates, rights still held'
+          git push origin HEAD:refs/heads/production-assets-v2447b-eight-main-image-MK-QA
