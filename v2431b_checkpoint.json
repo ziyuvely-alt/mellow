@@ -1,0 +1,14 @@
+{
+  "version": "2.4.31b",
+  "corrected_jpg": 1,
+  "source_real_200ml_photo_sha256": "d5e32733ba8fa99647cd1a23d69445462f42e537ba169ec0d27d6d7e7b9d599b",
+  "output_sha256": "fe33d51aad43332684c8c3d06d1deef34941eb8f0c015e0c39e082e84134fecb",
+  "new_active_photo": "sales-image-drafts/pending-27/01_correct_200ml_bottle_layout_fixed_V2431b.jpg",
+  "old_layout_2431_image_superseded": true,
+  "photo_print_unchanged": true,
+  "white_square": "white studio background blended with white field, no cutout performed",
+  "rights_verified": false,
+  "stock_verified": false,
+  "final_qa_approved": false,
+  "public_urls_changed": 0
+}
