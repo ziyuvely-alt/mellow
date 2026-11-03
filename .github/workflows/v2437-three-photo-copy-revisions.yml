@@ -1,0 +1,51 @@
+name: Shopee v2437 three source-photo customer JPG revisions
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2437-three-photo-copy-revisions.yml'
+      - 'scripts/v2437_three_photo_copy_revisions.py'
+permissions:
+  contents: write
+jobs:
+  render-and-check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore immutable real source photos
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Revise three real customer JPEGs
+        run: python scripts/v2437_three_photo_copy_revisions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2437-three-customer-source-photo-drafts
+          path: v2437-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve all candidates in isolated branch, not Shopee publication
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2437-output /tmp/v2437-save
+          git worktree add --detach /tmp/v2437-wt HEAD
+          cd /tmp/v2437-wt
+          git switch --orphan production-assets-v2437-three-photo-revisions
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2437-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store v2437 authentic source-photo JPG drafts; source and sales approvals pending'
+          git push origin HEAD:refs/heads/production-assets-v2437-three-photo-revisions
