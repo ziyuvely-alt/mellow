@@ -1,0 +1,60 @@
+{
+  "version": "2.4.33",
+  "actual_new_modified_product_JPGs": 3,
+  "groups_modified": 3,
+  "source_pixels_generated": false,
+  "original_image_changed": 0,
+  "published_URL_changed": 0,
+  "rights_verified": 0,
+  "FINAL_QA_APPROVED": 0,
+  "results": [
+    {
+      "group_id": "pending-17",
+      "original": "en-photo-captions/pending-17/SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+      "original_SHA256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+      "new_image": "sales-image-drafts/pending-17/pending-17_real_product_photo_white_layout_V2433.jpg",
+      "output_SHA256": "6791115ca1a13d242bab707ee76845fcb1b8e8dfb73ff01e0be6f58a70056729",
+      "bytes": 69147,
+      "status": "SALES_IMAGE_DRAFT",
+      "pixel_source": "actual photographed existing JPG crop only",
+      "alpha_cutout": false,
+      "rights_verified": false,
+      "stock_package_verified": false,
+      "layout_QA_pending": true
+    },
+    {
+      "group_id": "pending-19",
+      "original": "en-hero-fixed/pending-19/01_HERO_EN_V2422.jpg",
+      "original_SHA256": "af4257f2db119190b720db57a4f479b7bc04a90514b6cb4ea6037360c8cb2953",
+      "new_image": "sales-image-drafts/pending-19/pending-19_real_product_photo_white_layout_V2433.jpg",
+      "output_SHA256": "be3af75aa66bf3c7f8bd40afa18dae0be8ca69cd000aeaec4f6d66fe28957573",
+      "bytes": 73018,
+      "status": "SALES_IMAGE_DRAFT",
+      "pixel_source": "actual photographed existing JPG crop only",
+      "alpha_cutout": false,
+      "rights_verified": false,
+      "stock_package_verified": false,
+      "layout_QA_pending": true
+    },
+    {
+      "group_id": "pending-23",
+      "original": "en-hero-fixed/pending-23/01_HERO_EN_V2422.jpg",
+      "original_SHA256": "b7ecef534dd7c02d9cf8ec23a7cc55a9f4e9a1f18ba3932509bcd5c773cb3c7c",
+      "new_image": "sales-image-drafts/pending-23/pending-23_real_product_photo_white_layout_V2433.jpg",
+      "output_SHA256": "75b2b381edb52faf5071a4853c2e0a5592b9b03b36533e9fa2a2592d96a5ead4",
+      "bytes": 56103,
+      "status": "SALES_IMAGE_DRAFT",
+      "pixel_source": "actual photographed existing JPG crop only",
+      "alpha_cutout": false,
+      "rights_verified": false,
+      "stock_package_verified": false,
+      "layout_QA_pending": true
+    }
+  ],
+  "next_restart": [
+    "visually inspect each of the 3 exported JPGs before promotion",
+    "if any product crop broken, reject only that draft and preserve original",
+    "continue white-inset source fix on next families",
+    "source and commercial-rights checks separate from draft creation"
+  ]
+}
