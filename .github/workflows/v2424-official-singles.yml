@@ -1,0 +1,54 @@
+name: Shopee v2424 single-product official gallery verification
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2424-official-singles.yml'
+      - 'scripts/v2424_8_single_official_gallery.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  authentic-single:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PIL requests and HTML parser
+        run: python -m pip install Pillow requests beautifulsoup4
+      - name: Restore v2423 authentic assets
+        run: |
+          mkdir -p input-v2423
+          git fetch origin production-assets-v2423-single-qa
+          git archive origin/production-assets-v2423-single-qa | tar -xf - -C input-v2423
+      - name: Check exact eight official product pages and generate independent new photo JPG
+        run: python scripts/v2424_8_single_official_gallery.py
+      - name: Upload photo candidates and exact original data
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2424-eight-single-official-photos
+          path: production-v2424-official-singles/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Preserve candidates in separate nonpublic QA branch
+        if: success()
+        run: |
+          cp -a production-v2424-official-singles /tmp/v2424-official
+          git worktree add --detach /tmp/v2424-wt HEAD
+          cd /tmp/v2424-wt
+          git switch --orphan production-assets-v2424-eight-official-singles
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2424-official/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Preserve v2424 exact product source-photo candidate assets and old originals"
+          git push origin HEAD:refs/heads/production-assets-v2424-eight-official-singles
