@@ -1,0 +1,62 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-13",
+  "product": "MISSHA PDRN NAD Firming Repair Serum 30ml",
+  "existing_frames_modified": 0,
+  "files": [
+    {
+      "file": "03-real-dropper-serum.jpg",
+      "source": "original-04.jpg",
+      "role": "AUTHENTIC_SINGLE_PRODUCT_PHOTO",
+      "bytes": 194009,
+      "sha256": "85285be0a2a0ff96d439c692c7317541b696484b0709efe78b3a36af1465d5da",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_CANDIDATE_FINAL_QA_HOLD"
+    },
+    {
+      "file": "04-real-bottle-capsules.jpg",
+      "source": "original-05.jpg",
+      "role": "AUTHENTIC_SINGLE_PRODUCT_PHOTO",
+      "bytes": 135678,
+      "sha256": "fddd8228dec1e13d03d1c6b7b4bd207637a724626a2a5f510a85956e77338b15",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_CANDIDATE_FINAL_QA_HOLD"
+    },
+    {
+      "file": "05-serum-pack-details.jpg",
+      "source": "verified 30ml serum packaging details",
+      "role": "FACT_ONLY",
+      "bytes": 91056,
+      "sha256": "f5032095dbc0e5c86493c1c51f346f65884aec5c4d7963fb97a3b35a692016c5",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_CANDIDATE_FINAL_QA_HOLD"
+    }
+  ],
+  "source_run_id": 41687211248,
+  "source_artifact_id": 13256310428,
+  "source_reject": [
+    "original-01.jpg multiproduct",
+    "original-02.jpg unrelated app popup",
+    "original-03.jpg multiproduct duplicate",
+    "original-06.jpg vitamin C unrelated bottle",
+    "original-07.jpg model/marketing image",
+    "original-08.jpg marketing claims"
+  ],
+  "final_QA_pending": [
+    "source commercial rights",
+    "actual owner MK logo",
+    "physical stock edition",
+    "different product photo scenes verification"
+  ],
+  "new_public_urls": 0,
+  "excel_shared": false
+}
