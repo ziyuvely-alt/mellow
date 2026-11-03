@@ -1,0 +1,46 @@
+{
+  "version": "v2530",
+  "date": "2026-11-04",
+  "target_family": "pending-01",
+  "original_QA_total": 155,
+  "new_QA_total": 155,
+  "unchanged_JPG_byte_identical": 152,
+  "genuine_photographic_replacements": [
+    {
+      "slot": 1,
+      "new": "review-JPG-by-family/pending-01/01_v2530-real-MISSHA-cover-lasting-photo.jpg",
+      "original_source": "N21-pink-box-and-compact.jpg",
+      "original_source_sha256": "ce123eb796d93bcfc441789189a72f7a0b497605bbeab180fbdf9360448319a8",
+      "new_sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+      "previous_info_sha256": "64fff2ac31833c6c1c5d3cd385658a18241355a251aec4d9150c8a3e95435a1f",
+      "role": "N21 original pastel compact and carton"
+    },
+    {
+      "slot": 2,
+      "new": "review-JPG-by-family/pending-01/02_v2530-real-MISSHA-cover-lasting-photo.jpg",
+      "original_source": "N23-pink-box-and-compact.webp",
+      "original_source_sha256": "e0e63ac515fcb04f5d0a951fb06f4f2f7dd75243dadee420edbff78757d1e3ba",
+      "new_sha256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5",
+      "previous_info_sha256": "027c9797c59048a3a7df9b78502a31059aa9412223696d1301e123c377ab1f32",
+      "role": "N23 original pastel compact and carton"
+    },
+    {
+      "slot": 4,
+      "new": "review-JPG-by-family/pending-01/04_v2530-real-MISSHA-cover-lasting-photo.jpg",
+      "original_source": "N21-N23-open-puffs-packages.jpg",
+      "original_source_sha256": "5eb8097f6bbc936dfa27d67a376ac455ed779b89e6ef871f9f6394edcc6cb512",
+      "new_sha256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83",
+      "previous_info_sha256": "f40b4c5ff7b1c9e907d96fd5fcddab739dd01fb9256ceb368bbc340d7405f08e",
+      "role": "Actual open cushion showing puff and cases"
+    }
+  ],
+  "real_photo_shots_different": 3,
+  "all_30_family_counts_retained": true,
+  "old_55_published_URLs_unchanged": true,
+  "commercial_photo_reuse_rights_verified": false,
+  "owner_stock_pack_edition_verified": false,
+  "original_MK_logo_available": false,
+  "final_sale_approval": false,
+  "public_urls_added": 0,
+  "excel_created_or_shared": false
+}
