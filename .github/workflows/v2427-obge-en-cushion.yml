@@ -1,0 +1,54 @@
+name: Shopee v2427 OBgE cushion four EN corrections and authentic 3 shades
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2427-obge-en-cushion.yml'
+      - 'scripts/v2427_obge_en_and_regional_shades.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  obge-en:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install PDF-free image tools
+        run: python -m pip install Pillow requests
+      - name: Restore v2426b original 55 public and 30-family source photos and swatch draft
+        run: |
+          mkdir v2426-source
+          git fetch origin production-assets-v2426b-clean-clio
+          git archive origin/production-assets-v2426b-clean-clio | tar -xf - -C v2426-source
+      - name: Edit exactly four OBgE information JPGs; use genuine three-shade photographed source only
+        run: python scripts/v2427_obge_en_and_regional_shades.py
+      - name: Archive revised JPG, comparisons and immutable history
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2427-obge-four-EN-and-real-shade-source-QA
+          path: v2427-output/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Preserve new private draft branch only, never modify public or shop listings
+        if: success()
+        run: |
+          cp -a v2427-output /tmp/v2427-preserved
+          git worktree add --detach /tmp/v2427-wt HEAD
+          cd /tmp/v2427-wt
+          git switch --orphan production-assets-v2427-obge-en-shade-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2427-preserved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve targeted OBgE 4 English cushions and real regional 3 shades QA, source JPG immutable'
+          git push origin HEAD:refs/heads/production-assets-v2427-obge-en-shade-qa
