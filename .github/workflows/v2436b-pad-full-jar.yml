@@ -1,0 +1,51 @@
+name: Shopee v2436b Pixelpure pad full-jar photographic correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2436b-pad-full-jar.yml'
+      - 'scripts/v2436b_pixelpure_pad_full_jar.py'
+permissions:
+  contents: write
+jobs:
+  revise-pad:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing source JPEG
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Correct photographed pad jar hero
+        run: python scripts/v2436b_pixelpure_pad_full_jar.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2436b-pixelpure-real-full-jar-retouch
+          path: v2436b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve non-published JPG in independent branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2436b-output /tmp/v2436b-assets
+          git worktree add --detach /tmp/v2436b-wt HEAD
+          cd /tmp/v2436b-wt
+          git switch --orphan production-assets-v2436b-pixelpure-full-jar
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2436b-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve source-authentic Pixelpure pad full-jar photo replacing rejected texture draft'
+          git push origin HEAD:refs/heads/production-assets-v2436b-pixelpure-full-jar
