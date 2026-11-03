@@ -1,0 +1,30 @@
+{
+  "version": "2.4.38b",
+  "revision_count": 2,
+  "accepted_provisionally_after_visual_QA": 0,
+  "source_files_changed": 0,
+  "public_image_paths_changed": 0,
+  "FINAL_QA_APPROVED": 0,
+  "entries": [
+    {
+      "group_id": "pending-02",
+      "original": "baseline-v2438/sales-image-drafts/pending-02/pending-02_clean_legible_card_V2438.jpg",
+      "original_sha256": "78b25e0c523fc8c69eb9966a9ca4ab4b3bb5854272b88242c4153378ea4b024f",
+      "output": "sales-image-drafts/pending-02/pending-02_clean_card_no_outer_arc_V2438b.jpg",
+      "sha256": "9fd7859e8c36b027c2eb00956243450946b151f515a88ce0c5c8924cef4af83b",
+      "change": "remove residual circle pixels outside card only",
+      "state": "SALES_IMAGE_DRAFT",
+      "rights_hold": true
+    },
+    {
+      "group_id": "pending-21",
+      "original": "baseline-v2438/sales-image-drafts/pending-21/pending-21_clean_legible_card_V2438.jpg",
+      "original_sha256": "474d7df779854a3587241cbcea201dae784c61c5fa4d299cf0b3a8d6de8edb99",
+      "output": "sales-image-drafts/pending-21/pending-21_clean_card_no_outer_arc_V2438b.jpg",
+      "sha256": "59ff7a4feda156dd1d6b2ceb08a0bec96056d8415ce1c99afd5287d226c68bfe",
+      "change": "remove residual circle pixels outside card only",
+      "state": "SALES_IMAGE_DRAFT",
+      "rights_hold": true
+    }
+  ]
+}
