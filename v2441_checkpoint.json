@@ -1,0 +1,61 @@
+{
+  "version": "2.4.41",
+  "baseline": "production-assets-v2440e-12-drafts-consolidated",
+  "actually_modified_customer_JPG": 3,
+  "new_distinct_group_count": 3,
+  "historical_originals_mutated": 0,
+  "published_55_URL_changes": 0,
+  "new_official_swatches": 0,
+  "FINAL_QA_APPROVED": 0,
+  "edits": [
+    {
+      "group_id": "pending-24",
+      "source_path": "pending-24/INFO_VOLUME_01_V2414_EN_V2421.jpg",
+      "source_sha256": "3c292095cc735943564e9ac34b67e32e96175f59ce29258fc8bbb4bf71e93a71",
+      "updated_path": "sales-image-drafts/pending-24/pending-24_factual_copy_revision_V2441.jpg",
+      "updated_sha256": "7da04b597222c28ac7f2ede51f8f17f87563c99fdd6586a613d1a6a4128db14f",
+      "reason": "Source caption omits PRIZCELL element in product line; earlier true packaging text confirmed",
+      "status": "SALES_IMAGE_DRAFT",
+      "external_photo_rights": "UNVERIFIED",
+      "physical_stock_generation": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-18",
+      "source_path": "pending-18/INFO_05_OFFICIAL_V2412_EN_V2421.jpg",
+      "source_sha256": "03684a83d6e7be167e8aaa462f35fa2e496bdf2146b2ce961982245e99f810d4",
+      "updated_path": "sales-image-drafts/pending-18/pending-18_factual_copy_revision_V2441.jpg",
+      "updated_sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c",
+      "reason": "Original ornament circle overlaps net-content card",
+      "status": "SALES_IMAGE_DRAFT",
+      "external_photo_rights": "UNVERIFIED",
+      "physical_stock_generation": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-22",
+      "source_path": "pending-22/INFO_03_OFFICIAL_V2412_EN_V2421.jpg",
+      "source_sha256": "963ce2b3cfc4c7965cda990e6f48083048afa05afaa854c913894192600b5385",
+      "updated_path": "sales-image-drafts/pending-22/pending-22_factual_copy_revision_V2441.jpg",
+      "updated_sha256": "d7aa6d5332a18c52126eca33966c967b44b150a5eeb2d6ca316604d6d7ca5388",
+      "reason": "Remove subjective Generous 300mL size; preserve factual existing face/body claim",
+      "status": "SALES_IMAGE_DRAFT",
+      "external_photo_rights": "UNVERIFIED",
+      "physical_stock_generation": "UNVERIFIED",
+      "visual_QA": "PENDING"
+    }
+  ],
+  "holds": [
+    {
+      "group": "pending-22",
+      "item": "INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "reason": "Panthenol/Ectoin/hyaluronic derivatives ingredient claims not verified against exact 300mL INCI; keep on hold"
+    }
+  ],
+  "next": [
+    "Open and visually inspect all three new JPGs",
+    "If a draft is defective, reject that draft only and preserve other groups",
+    "Continue incomplete 30-family per-frame QA",
+    "Rights and actual stock/package remain independent holds"
+  ]
+}
