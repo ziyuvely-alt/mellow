@@ -1,0 +1,52 @@
+name: Shopee v2441c preserve five additional actual JPG edits
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2441c-consolidate-five.yml'
+      - 'scripts/v2441c_consolidate_5_drafts.py'
+permissions:
+  contents: write
+jobs:
+  archive-five:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore only five new edited files; do not rerun prior v2440e
+        run: |
+          mkdir v2441-source v2441b-source
+          git fetch origin production-assets-v2441-three-factual-frame-fixes production-assets-v2441b-two-extra-fixes
+          git archive origin/production-assets-v2441-three-factual-frame-fixes | tar -xf - -C v2441-source
+          git archive origin/production-assets-v2441b-two-extra-fixes | tar -xf - -C v2441b-source
+      - name: Validate real JPG bytes and create ZIP
+        run: python scripts/v2441c_consolidate_5_drafts.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2441c-five-new-original-edit-JPGs
+          path: v2441c-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save isolated new branch and sha checked archive
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2441c-output /tmp/v2441c-qa
+          git worktree add --detach /tmp/v2441c-wt HEAD
+          cd /tmp/v2441c-wt
+          git switch --orphan production-assets-v2441c-five-new-drafts
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2441c-qa/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive five new distinct customer JPG changes and independent rights holds'
+          git push origin HEAD:refs/heads/production-assets-v2441c-five-new-drafts
