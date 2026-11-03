@@ -1,0 +1,217 @@
+{
+  "version": "2.4.30d",
+  "date": "2026-11-03",
+  "base_source": "production-assets-v2429c-remaining14-qa",
+  "scope": {
+    "groups": 30,
+    "actual_customer_JPG_decoded_by_action": 156,
+    "representative_images_opened_visually": 30,
+    "all_156_manual_review": false,
+    "underlying_original_JPG_count": 531
+  },
+  "runs": [
+    {
+      "run_id": 41641667514,
+      "artifact_id": 13233242200,
+      "branch": "production-assets-v2430-real-frame-qa",
+      "revision_file_count": 1
+    },
+    {
+      "run_id": 41642196201,
+      "artifact_id": 13233930339,
+      "branch": "production-assets-v2430b-two-frame-revisions",
+      "revision_file_count": 2
+    },
+    {
+      "run_id": 41642661336,
+      "artifact_id": 13233103400,
+      "branch": "production-assets-v2430c-three-copy-revisions",
+      "revision_file_count": 3
+    }
+  ],
+  "latest_active_revised_jpg": [
+    "production-assets-v2430b-two-frame-revisions/actual-sales-drafts/pending-10/OBGE_photo_caption_name_corrected_V2430b.jpg",
+    "production-assets-v2430b-two-frame-revisions/actual-sales-drafts/pending-10/OBGE_INFO_05_copy_deduplicated_V2430b.jpg",
+    "production-assets-v2430c-three-copy-revisions/sales-image-drafts/pending-24/pending-24_official_name_corrected_v2430c.jpg",
+    "production-assets-v2430c-three-copy-revisions/sales-image-drafts/pending-25/pending-25_official_name_corrected_v2430c.jpg",
+    "production-assets-v2430c-three-copy-revisions/sales-image-drafts/pending-26/pending-26_repeated_copy_removed_v2430c.jpg"
+  ],
+  "superseded_intermediate": "production-assets-v2430-real-frame-qa/actual-sales-drafts/pending-10/OBGE_INFO_05_EN_copy_revised_V2430.jpg",
+  "metrics": {
+    "JPG_revisions_versions": 6,
+    "latest_distinct_sales_draft_JPG": 5,
+    "distinct_groups_with_revisions": 4,
+    "photo_replacements": 0,
+    "cutout_fixes": 0,
+    "english_copy_revisions_current": 5,
+    "new_official_shade_charts": 0,
+    "visually_passed_complete_sets": 0,
+    "final_qa_approved_groups": 0,
+    "ready_except_logo": 0,
+    "public_image_paths_mutated": 0,
+    "live_URL_checks_performed": 0,
+    "source_531_unchanged_per_v2430": true
+  },
+  "group_findings": [
+    {
+      "group_id": "pending-01",
+      "state": "SHADE_CHART_REQUIRED",
+      "visible_first_frame_evidence": "Cover Lasting hero includes excluded shade 21; do not use as final listing shade guide"
+    },
+    {
+      "group_id": "pending-02",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "Moist Up photo visible; exact current stock package and shade chart not proven"
+    },
+    {
+      "group_id": "pending-03",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "MISSHA BB Cream 23 and 25 packaging source visible; MK graphic appears and needs original verification"
+    },
+    {
+      "group_id": "pending-04",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "CLIO mini frame contains MK logo graphic but original logo binary remains unverified"
+    },
+    {
+      "group_id": "pending-05",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "CLIO Founwear original set photo visible; exact kit generation unverified"
+    },
+    {
+      "group_id": "pending-06",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "CLIO Mesh Glow Essential photographed promotional package Korean print remains, preserve original packaging text"
+    },
+    {
+      "group_id": "pending-07",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "CLIO Mesh Blur kit pack Korean print is actual package; edition confirmation required"
+    },
+    {
+      "group_id": "pending-08",
+      "state": "SHADE_CHART_REQUIRED",
+      "visible_first_frame_evidence": "Peripera HERO shows subset shades but caption claims range 01-20; generation mismatch remains"
+    },
+    {
+      "group_id": "pending-09",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "OBgE Oil Control Finisher photo with model and MK graphic; reuse rights unverified"
+    },
+    {
+      "group_id": "pending-10",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "OBgE cushion white inset remains; two retouched captions/info images in v2430b, pending authorization"
+    },
+    {
+      "group_id": "pending-11",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "OBgE Double Essence source photo exists; MK graphic and rights unresolved"
+    },
+    {
+      "group_id": "pending-12",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "MISSHA Peel Shot photo remains white rectangular inset on beige layout"
+    },
+    {
+      "group_id": "pending-13",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "MISSHA serum photo white rectangular inset retained"
+    },
+    {
+      "group_id": "pending-14",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "MISSHA cream photo white rectangular inset retained"
+    },
+    {
+      "group_id": "pending-15",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "Dr.G Green Mild Up Sun product photo intact; MK source not proven"
+    },
+    {
+      "group_id": "pending-16",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "Dr.G Red Blemish photo intact; MK source not proven"
+    },
+    {
+      "group_id": "pending-17",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "Dr.G Brightening Sun photo sits on large white rectangular inset"
+    },
+    {
+      "group_id": "pending-18",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "Dr.G Brightening Up Sun in-hand photo visible; exact packaging verification pending"
+    },
+    {
+      "group_id": "pending-19",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "goodal Vita C Cream has large white rectangular photo inset"
+    },
+    {
+      "group_id": "pending-20",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "goodal Serum Mist image includes retailer Korean official store badge; original unaltered, permission unresolved"
+    },
+    {
+      "group_id": "pending-21",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "Existing generic eye-care info only, requires exact product pairing"
+    },
+    {
+      "group_id": "pending-22",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "OBgE 300ml source photo appears soft/blurred, source package verification unresolved"
+    },
+    {
+      "group_id": "pending-23",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "visible_first_frame_evidence": "OBgE Pore Zero Sun image has white rectangular inset"
+    },
+    {
+      "group_id": "pending-24",
+      "state": "SALES_IMAGE_DRAFT",
+      "visible_first_frame_evidence": "BIOHEAL BOH 30ml NAD-PRIZCELL spelling corrected in v2430c; MK and rights pending"
+    },
+    {
+      "group_id": "pending-25",
+      "state": "SALES_IMAGE_DRAFT",
+      "visible_first_frame_evidence": "BIOHEAL BOH 50ml NAD-PRIZCELL spelling corrected in v2430c; MK and rights pending"
+    },
+    {
+      "group_id": "pending-26",
+      "state": "SALES_IMAGE_DRAFT",
+      "visible_first_frame_evidence": "PIXEL PURE Gel-to-Foam cleanser redundant English text removed in v2430c; rights pending"
+    },
+    {
+      "group_id": "pending-27",
+      "state": "PRODUCT_MISMATCH",
+      "visible_first_frame_evidence": "PIXEL PURE toner photo visibly indicates 300ml while listing caption specifies 200ml; photo replacement required"
+    },
+    {
+      "group_id": "pending-28",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "PIXEL PURE Glow Pad source photo visual exists; brand image rights unverified"
+    },
+    {
+      "group_id": "pending-29",
+      "state": "RIGHTS_HOLD",
+      "visible_first_frame_evidence": "PIXEL PURE Soothing Cream 50ml photo exists; MK original rights unverified"
+    },
+    {
+      "group_id": "pending-30",
+      "state": "SOURCE_QA_HOLD",
+      "visible_first_frame_evidence": "PIXEL PURE Aura Serum photo top visibly cropped within composition; original product shot verification needed"
+    }
+  ],
+  "next_resume": [
+    "pending-27 official 200ml product photo replacement or SKU mismatch correction",
+    "pending-01 remove shade21 from Cover Lasting chart using verified source only",
+    "pending-10 approved white-background alpha photo or safe mask",
+    "pending-12/13/14/17/19/23 safe original cutout source retrieval",
+    "C8 exact edition official shade and licensing verification",
+    "Verify full 5-6 individual frames per group, not just representative first frame",
+    "Recover actual MK logo binary and verify brand photo rights before final release"
+  ],
+  "integrity": "All revised JPGs reside in separate versions; published original files and 55 URL paths are not overwritten."
+}
