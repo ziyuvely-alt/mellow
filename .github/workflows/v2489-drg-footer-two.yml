@@ -1,0 +1,50 @@
+name: Shopee v2489 targeted 2 DrG copy footer repairs only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2489-drg-footer-two.yml'
+      - 'scripts/v2489_drg_two_footer_copy_repairs.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore two previous Dr.G draft JPGs without regenerating photos
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41687077182 -n shopee-v2482-drG-sunplus-three-JPGs-QA-HOLD -D v2482-drg-brightening-sun-three-JPG
+      - run: python scripts/v2489_drg_two_footer_copy_repairs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2489-drG-two-footer-text-corrections
+          path: v2489-drg-two-footer-repairs/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Persist fixed QA drafts in isolated immutable branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2489-drg-two-footer-repairs /tmp/v2489-jpgs
+          git worktree add --detach /tmp/v2489-wt HEAD
+          cd /tmp/v2489-wt
+          git switch --orphan production-assets-v2489-drg-two-footer-repairs
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2489-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Fix only two internal QA footers on DrG draft JPGs, keep prior customer photos'
+          git push origin HEAD:refs/heads/production-assets-v2489-drg-two-footer-repairs
