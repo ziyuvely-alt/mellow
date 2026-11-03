@@ -1,0 +1,26 @@
+{
+  "version": "v2537",
+  "date": "2026-11-04",
+  "family": "pending-14",
+  "product": "MISSHA Camellia PDRN NAD+ Firming Repair Cream 70 mL",
+  "replaced_slot": 1,
+  "prior_info_sha256": "6ab80a587197e2375dbe9221d668d6b323938691f1d6c66775bc96475328bf4b",
+  "photo": "review-JPG-by-family/pending-14/01-v2537-actual-MISSHA-firming-repair-cream-vases.jpg",
+  "photo_sha256": "fffc0ceb749877a95a0407b15725bd654ed1f65046c2ab6d6d263ae45b404c84",
+  "original_photo_url": "https://lacosmetique.com.au/cdn/shop/files/pdrn-nad-firming-repair-cream-70ml-1187963.jpg?v=1782718570&width=1000",
+  "source_file_sha256": "a55c465550aad8e49aba21ef8215fd4f71e221b846473375a8bd1a75a11fe495",
+  "source_photo_dimensions": [
+    1000,
+    1000
+  ],
+  "previous_files_unchanged": 155,
+  "total_actual_JPGs": 156,
+  "families": 30,
+  "photo_visual_licensing_unverified": true,
+  "physical_owned_stock_package_unverified": true,
+  "MK_logo_original_missing": true,
+  "retail_sales_QA": false,
+  "existing_public_55_urls_untouched": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
