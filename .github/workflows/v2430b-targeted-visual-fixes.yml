@@ -1,0 +1,52 @@
+name: Shopee v2430b observed visual defects two precise JPG fixes
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2430b-targeted-visual-fixes.yml'
+      - 'scripts/v2430b_visual_findings_and_targeted_edits.py'
+permissions:
+  contents: write
+jobs:
+  targeted-edit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Fetch unchanged original assets and first v2430 real draft
+        run: |
+          mkdir v2427b-source v2430-source
+          git fetch origin production-assets-v2427b-obge-shade-clean production-assets-v2430-real-frame-qa
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+          git archive origin/production-assets-v2430-real-frame-qa | tar -xf - -C v2430-source
+      - name: Execute two exact source-caption and copy revisions
+        run: python scripts/v2430b_visual_findings_and_targeted_edits.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2430b-two-targeted-customer-JPG-drafts
+          path: v2430b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate immutable QA branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2430b-output /tmp/v2430b-saved
+          git worktree add --detach /tmp/v2430b-wt HEAD
+          cd /tmp/v2430b-wt
+          git switch --orphan production-assets-v2430b-two-frame-revisions
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2430b-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve two real observed-caption revisions, source unchanged, QA hold'
+          git push origin HEAD:refs/heads/production-assets-v2430b-two-frame-revisions
