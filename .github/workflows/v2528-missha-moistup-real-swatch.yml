@@ -1,0 +1,57 @@
+name: Shopee v2528 append genuine MISSHA Moist Up 21 23 swatch as QA only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2528-missha-moistup-real-swatch.yml'
+      - 'scripts/v2528_append_missha_moistup_21_23_real_swatch_QA.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  append-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover 154 original review JPEGs unchanged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41705375285 -n shopee-v2526-154-JPG-real-CLIO-Mesh-Blur-three-shades-QA -D v2528-baseline-154
+      - name: Recover already captured actual MISSHA Moist Up photo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41705572573 -n shopee-v2527-MISSHA-MoistUp-21-23-actual-shade-photo-sources -D v2528-original-missha
+      - name: Append only 1 genuine swatch JPG and verify old 154 are identical
+        run: |
+          python scripts/v2528_append_missha_moistup_21_23_real_swatch_QA.py
+          test "$(find v2528-155-real-missha-moistup-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 155
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2528-155-real-JPG-MISSHA-MoistUp-QA-only
+          path: v2528-155-real-missha-moistup-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save QA assets separate from 55 existing public URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2528-155-real-missha-moistup-QA /tmp/v2528-assets
+          git worktree add --detach /tmp/v2528-wt HEAD
+          cd /tmp/v2528-wt
+          git switch --orphan production-assets-v2528-155-real-MISSHA-moistup-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2528-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 155 QA JPEGs with original MISSHA 21 23 swatches, commercial use held'
+          git push origin HEAD:refs/heads/production-assets-v2528-155-real-MISSHA-moistup-QA
