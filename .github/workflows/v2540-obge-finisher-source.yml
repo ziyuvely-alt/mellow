@@ -1,0 +1,27 @@
+name: Shopee v2540 capture true OBgE Oil Control Finisher 5g gallery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2540-obge-finisher-source.yml'
+      - 'scripts/v2540_obge_finisher_5g_real_gallery_source.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2540_obge_finisher_5g_real_gallery_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2540-obge-5g-finisher-official-actual-gallery-QA
+          path: v2540-obge-finisher-real-official-photos/
+          retention-days: 90
+          if-no-files-found: error
