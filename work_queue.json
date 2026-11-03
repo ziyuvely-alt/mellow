@@ -1,0 +1,195 @@
+{
+  "expected_incomplete": 30,
+  "recovered_unique_ids": 30,
+  "unresolved_ids_count": 0,
+  "queue": [
+    {
+      "group_id": "pending-01",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-02",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-03",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-04",
+      "state": "QUEUED",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-05",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-06",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-07",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-08",
+      "state": "SOURCE_QA_HOLD",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-09",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-10",
+      "state": "QUEUED",
+      "known_grade": "C",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-11",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-12",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-13",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-14",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-15",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-16",
+      "state": "VISUAL_QA",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path",
+      "grade": "UNCLASSIFIED"
+    },
+    {
+      "group_id": "pending-17",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-18",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-19",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-20",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-21",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-22",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-23",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-24",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-25",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-26",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-27",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-28",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-29",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    },
+    {
+      "group_id": "pending-30",
+      "state": "QUEUED",
+      "known_grade": "UNKNOWN",
+      "source": "existing GitHub pending-id path"
+    }
+  ]
+}

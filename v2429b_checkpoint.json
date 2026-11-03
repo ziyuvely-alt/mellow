@@ -1,0 +1,14 @@
+{
+  "version": "2.4.29b",
+  "processed_additional_existing_photo_groups": 8,
+  "new_QA_JPG_count": 8,
+  "new_official_swatch_JPG": 0,
+  "baseline_source_JPG_count": 531,
+  "C6_prior_QA_JPG_preserved": 6,
+  "workqueue_recovered": 30,
+  "public_files_written": 0,
+  "sales_approval": 0,
+  "rights_verified": 0,
+  "pending_previous_C6": true,
+  "next_restart": "Verify original documented C8 shade photos, seek original exact-generation source; then remaining pending-17..30"
+}

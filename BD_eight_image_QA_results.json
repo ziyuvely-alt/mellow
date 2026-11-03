@@ -1,0 +1,74 @@
+[
+  {
+    "group_id": "pending-03",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-03_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "3085ab09aa2cff2e1e97f79347561dd66a958f9cba2596f5e02df841f9cb2719",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-09",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-09_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "3dd01b95af6932aa3abcc63f99127d81e488f727e9ab86b7b24bac4faa1a29ae",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-11",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-11_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "af32dc503136be761e146c394598b2fbb5ae745de31f87a8b552044cdeb749b9",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-12",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-12_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "6744dd36a7f1cdd464e5483ae0c109c3145dc1bc7703a418560eb71c240470b1",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-13",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-13_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "0b33789a041f077821ffdb6a867e686af7f6d678161dbae96bcf903316f9e9d6",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-14",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-14_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "824bd815de702fd891fcad275a5834b58420e0b32a4aab5fce0d134fa81d19d6",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-15",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-15_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "35f1b6b5e752c7dd96fbbbe27c63453b98c6c4934fb75c833e2be123618fcc15",
+    "source_files_verified": 2,
+    "sale_approved": false
+  },
+  {
+    "group_id": "pending-16",
+    "state": "VISUAL_QA",
+    "grade": "UNCLASSIFIED",
+    "qa_jpg": "pending-16_real_existing_photo_QA_V2429b.jpg",
+    "sha256": "600d82f70af18d64dfd647e6b0d086a56cd07084c756e5f6cd0120745c6ba16d",
+    "source_files_verified": 2,
+    "sale_approved": false
+  }
+]
