@@ -1,0 +1,51 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-27",
+  "product": "PIXEL PURE Soothing Ampoule Toner 200 mL",
+  "existing_2_frames_untouched": true,
+  "new_original_photographic_frames": 3,
+  "files": [
+    {
+      "file": "03-pouring-liquid-original-photo.jpg",
+      "source_file": "original-02.png",
+      "bytes": 197694,
+      "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "SOURCE_PHOTO_RENDERED_QA_HOLD"
+    },
+    {
+      "file": "04-bottle-angles-original-photo.jpg",
+      "source_file": "original-03.jpg",
+      "bytes": 105036,
+      "sha256": "d487730f1c6415b80c0cf94675841138869c1df5b9bdeffcd75e5f1995bdc70d",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "SOURCE_PHOTO_RENDERED_QA_HOLD"
+    },
+    {
+      "file": "05-package-original-photo.jpg",
+      "source_file": "original-05.jpg",
+      "bytes": 177863,
+      "sha256": "8b7af15399f24abc987fa4c143628bda4cdd8aa7b48ac63a74b2b591accd8008",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "SOURCE_PHOTO_RENDERED_QA_HOLD"
+    }
+  ],
+  "source_run": 41682843250,
+  "source_artifact": 13254420828,
+  "package_edition_physical_stock_approved": false,
+  "photo_reuse_rights_verified": false,
+  "actual_MK_original_logo_applied": false,
+  "published": false,
+  "new_public_urls": 0,
+  "spreadsheet_shared": false,
+  "note": "Source scenes are official product page images, not edited or fabricated product photographs; final visual/logo/rights and overlap QA required."
+}
