@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-22",
+  "name": "OBgE Max Waterful Sunscreen",
+  "source_inventory_index": 58,
+  "manufacturer_official_product_page": "https://obge.co.kr/product/detail.html?cate_no=1&display_group=14&product_no=1251",
+  "official_product_volume": "300 mL",
+  "official_volume_evidence": "Official OBgE product information explicitly states 용량 300 mL / 10.14 fl.oz.",
+  "stock_row_volume_explicit": false,
+  "conclusion": "CATALOG_VOLUME_VERIFIED_STOCK_EDITION_QA_PENDING",
+  "allowed_next_step": "Use 300mL as official catalogue candidate only; require real stock SKU/package check before editing or publishing photo.",
+  "photo_commercial_rights_verified": false,
+  "photo_pixels_downloaded": false,
+  "public_url_count_added": 0,
+  "spreadsheet_unchanged": true
+}
