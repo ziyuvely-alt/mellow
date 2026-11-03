@@ -1,0 +1,55 @@
+name: Shopee v2448b verify 15 real photographed product customer JPG candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2448b-verify-15-JPG.yml'
+      - 'scripts/v2448b_package_15_actual_photographs.py'
+permissions:
+  contents: write
+jobs:
+  cross-check-15:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Restore exact 8 prior main files, 7 new details, 4 known logo controls
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2447 prior-v2448 prior-v2445b
+          git fetch origin production-assets-v2447-eight-real-source-mains production-assets-v2448-seven-photo-details production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2447-eight-real-source-mains | tar -xf - -C prior-v2447
+          git archive origin/production-assets-v2448-seven-photo-details | tar -xf - -C prior-v2448
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: Validate exact bytes of 15 actual photo JPGs and MK-positive reference
+        run: python scripts/v2448b_package_15_actual_photographs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2448b-15-actual-photo-JPGs-and-MK-QA
+          path: v2448b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated source JPG candidate archive, no live URLs changed
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2448b-output /tmp/v2448b-results
+          git worktree add --detach /tmp/v2448b-wt HEAD
+          cd /tmp/v2448b-wt
+          git switch --orphan production-assets-v2448b-15-photo-candidate-checkpoint
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2448b-results/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 15 actual source-backed product and detail JPGs with objective MK logo and SHA verification'
+          git push origin HEAD:refs/heads/production-assets-v2448b-15-photo-candidate-checkpoint
