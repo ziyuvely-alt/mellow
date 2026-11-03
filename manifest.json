@@ -1,0 +1,23 @@
+{
+  "date": "2026-11-04",
+  "version": "v2536",
+  "family": "pending-13",
+  "product": "MISSHA Camellia PDRN NAD+ Firming Repair Serum 30mL",
+  "replaced_slot": 4,
+  "previous_duplicate": "4301067d1d80386e858b19f1345444aad905c04c79d61446817bfa30a27605a8",
+  "new_photo": "review-JPG-by-family/pending-13/04-v2536-true-missha-pdrn-serum-laboratory-photo.jpg",
+  "new_sha256": "ad1f5d5463903b997e1ec870199e6780f4284b0fe23b73977b11c859cd521a5f",
+  "original_photo_url": "https://lacosmetique.com.au/cdn/shop/files/AdelineProductListing_35.png?v=1779428609&width=1500",
+  "original_photo_sha256": "ce983ceb01360f82b31bf112a430eed170e787a6e762b32537b4f34f5b715969",
+  "prior_156_total_retained": 156,
+  "old_files_byte_identical": 155,
+  "replacements": 1,
+  "total_qa_JPGs": 156,
+  "commercial_photo_rights": false,
+  "stock_packaging_edition_match": false,
+  "mk_original_logo_applied": false,
+  "sale_final_QA": false,
+  "existing_55_public_urls_unchanged": true,
+  "new_public_url_count": 0,
+  "excel_created_or_shared": false
+}
