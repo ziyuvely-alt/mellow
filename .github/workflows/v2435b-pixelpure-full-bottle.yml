@@ -1,0 +1,51 @@
+name: Shopee v2435b Pixelpure original full-bottle hero repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2435b-pixelpure-full-bottle.yml'
+      - 'scripts/v2435b_pixelpure_full_bottle_hero.py'
+permissions:
+  contents: write
+jobs:
+  hero-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover exact immutable JPG source
+        run: |
+          mkdir v2427b-source
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+      - name: Make source-backed full-bottle retail JPG draft
+        run: python scripts/v2435b_pixelpure_full_bottle_hero.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2435b-pixelpure-full-bottle-revised-JPG
+          path: v2435b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save separate draft branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2435b-output /tmp/v2435b-assets
+          git worktree add --detach /tmp/v2435b-wt HEAD
+          cd /tmp/v2435b-wt
+          git switch --orphan production-assets-v2435b-pixelpure-whole-bottle
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2435b-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve source-authentic full bottle customer JPG, rights QA hold'
+          git push origin HEAD:refs/heads/production-assets-v2435b-pixelpure-whole-bottle
