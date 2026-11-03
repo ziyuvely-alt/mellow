@@ -1,0 +1,905 @@
+{
+  "version": "2.4.57b",
+  "previous": "production-assets-v2457-86-source-image-qa",
+  "historical_source_archive": "production-assets-v2446b-logo-64-quarantine-86-hold",
+  "JPGs_sha256_and_1080x1080_verified": 86,
+  "older_redundant_content_frames_isolated": 7,
+  "retained_not_approved_JPG": 79,
+  "nine_perceptual_candidate_pairs_directly_visually_reviewed": true,
+  "non_duplicate_pairs_retained": [
+    {
+      "group": "pending-08",
+      "slots": [
+        4,
+        5
+      ],
+      "reason": "Shade range and net content convey distinct facts; shade range itself remains generation QA hold"
+    },
+    {
+      "group": "pending-20",
+      "slots": [
+        3,
+        5
+      ],
+      "reason": "How-to-use instructions and NIACINAMIDE card are distinct; ingredient claim itself still source-verification hold"
+    }
+  ],
+  "identity_warning": {
+    "group": "pending-21",
+    "slot": 4,
+    "interpretation": "Low edge count caused by wide clean white background and small yellow real product tube, not proof of blur",
+    "QA": "PHOTO_VISIBLE_BUT_EDITION_AND_REUSE_RIGHTS_UNVERIFIED"
+  },
+  "no_old_531_JPG_mutations": true,
+  "no_55_public_URL_changes": true,
+  "new_JPG_rendered": 0,
+  "new_approved_5_or_6_frame_sets": 0,
+  "XLSX_or_spreadsheets_created_or_shared": false,
+  "files": [
+    {
+      "group_id": "pending-01",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-01/01_01_01_01_01_v2439b-source__pending-01_original_text_clean_card_V2439b.jpg",
+      "sha256": "64fff2ac31833c6c1c5d3cd385658a18241355a251aec4d9150c8a3e95435a1f",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-01",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-01/02_02_02_02_02_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+      "sha256": "027c9797c59048a3a7df9b78502a31059aa9412223696d1301e123c377ab1f32",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-01",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-01/03_03_03_03_03_INFO_FEATURE_02_V2414B_EN_V2421.jpg",
+      "sha256": "8ce88d1feab760979b5ec8ace8ae6789bd79b7a316f1aca92a9d565392a460e2",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-01",
+      "slot": 4,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-01/04_04_04_04_04_INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+      "sha256": "f40b4c5ff7b1c9e907d96fd5fcddab739dd01fb9256ceb368bbc340d7405f08e",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Magic Cushion edition card as corrected slot 1, but old ornamental circle overlaps headline",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-01",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-01/05_05_05_05_05_INFO_SUN_01_V2414B_EN_V2421.jpg",
+      "sha256": "b0717e7c9e558825f9612603df78ad0ffe1ee95abab05daef7a279db371a7fa9",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-02/01_01_01_01_01_v2440-source__pending-02_observed_card_collision_repair_V2440.jpg",
+      "sha256": "10c845fbf8a80700ea1e8c3b79882eba9da9f964eaa984a9f744e2ea7378ec5e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-02/02_02_02_02_02_SOURCE_01_640302217_EN_V2421C.jpg",
+      "sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-02/03_03_03_03_03_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+      "sha256": "3d4a52f9190a0e4bb7c07275c1bf41efb40d57429d8faea8431d8ae151365a4e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-02/04_04_04_04_04_INFO_HOWTO_02_V2414B_EN_V2421.jpg",
+      "sha256": "3551b56b37d708ac28d44eb77ed19dfab9ce00a5743c1ed71e4019d1b63a7e78",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-02/05_05_05_05_05_INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+      "sha256": "f8c4196842c77b068b643bf317a14cb77d173a53a570520ff170eb5dad02c3cb",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-05/01_01_01_01_01_v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg",
+      "sha256": "1b7da7961aacd75608ab156c9f2a993daa29f00a6bcd9794bccc0a733894ebe4",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-05/02_02_02_02_02_v2440-source__pending-05_observed_card_collision_repair_V2440.jpg",
+      "sha256": "0c9dcfa3a8fe3dba514a1b6ce81ffeca3666d37ef32b5934359f81827399ad6e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-05/03_03_03_03_03_SOURCE_01_041b164bb_EN_V2421C.jpg",
+      "sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-05/04_04_04_04_04_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "1036a55d049d503627fd5669c13668835ecbe279123ace79b7e5ea071dae0fd9",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "slot": 5,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-05/05_05_05_05_05_INFO_05_V2413_EN_V2421.jpg",
+      "sha256": "32c22da3a0b0039d5796729eb51fbce966d5fed4b278979e2bf9fa131afa439b",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Generic CLIO cushion card superseded by more exact MAIN + REFILL / Founwear slot 1",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-06/01_01_01_01_01_v2439b-source__pending-06_original_text_clean_card_V2439b.jpg",
+      "sha256": "7c440a9a2bf91a7f7d159079a34b9fc798751ddc20a44d03d0fffbad28cd5d12",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-06/02_02_02_02_02_SOURCE_01_8053457df_EN_V2421C.jpg",
+      "sha256": "fe7c095d772c15949c48d8b26cec6f7c2a8553da02801366b4f5444302f50bec",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-06/03_03_03_03_03_SOURCE_02_8efe54403_EN_V2421C.jpg",
+      "sha256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-06/04_04_04_04_04_SOURCE_03_4bd36df9a_EN_V2421C.jpg",
+      "sha256": "372fdd78226ae1b69ffc14621d28bf70dd3e696f21c9a2179952d923eaa9cd25",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-06/05_05_05_05_05_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "9a2c607ba1c113a1f22f2d4e457c5cf5cf479b405d287388fe1d0c35eb4dd1de",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-07/01_01_01_01_01_v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg",
+      "sha256": "a781fa2249476c598f793cfde0970aecb8440e0680648c7429e8cfb7d871720e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-07/02_02_02_02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+      "sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-07/03_03_03_03_03_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "d53b78025bb9862a50e15e7ecdc68438a2ff1990e8e1fb2b02743576768b61d5",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-07/04_04_04_04_04_INFO_05_V2413_EN_V2421.jpg",
+      "sha256": "c39650a4af7a7373f8c16fabddf331aab02422c37ac706e447d246072d42c36b",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-07/05_05_05_05_05_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+      "sha256": "b8420caee18eaad5baa4bd8f915086b611ed042f1f38c8dccbc47e0f6ea55d19",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-08",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-08/01_01_01_01_01_01_peripera_selected_shades_no_20claim_V2435.jpg",
+      "sha256": "13c3f76ab1baece7f3dfa4a4aea4d32dd83487b1863eee75e450ba5ec54a2b28",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-08",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-08/02_02_02_02_02_INFO_FORMULA_01_V2414_EN_V2421.jpg",
+      "sha256": "f1a42ab800abd1533ec7c1cf4293944346d7046cc8eac8c64872917a63f0deae",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-08",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-08/03_03_03_03_03_INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+      "sha256": "67819cab51d42625f70f0c743542579952aa208dd425542b1ee6b88f7b631498",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-08",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-08/04_04_04_04_04_INFO_SCOPE_05_V2415_EN_V2421.jpg",
+      "sha256": "4621585f821110607a931de6d2528e6825a7072516a6d381201e110f1140c896",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-08",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-08/05_05_05_05_05_INFO_VOLUME_02_V2414_EN_V2421.jpg",
+      "sha256": "638d19efc47da5ec34f1dd0c25923cf1a1e727242e5ec4a822032ad1a4e91c36",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-09",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-09/01_01_01_01_01_v2439b-source__pending-09_original_text_clean_card_V2439b.jpg",
+      "sha256": "37e89ce87c3fabee25f5190a07b9d6abe0980fcfc6ca941f1a53a8d5fd5d1c62",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-10/01_01_01_01_01_v2440-source__pending-10_observed_card_collision_repair_V2440.jpg",
+      "sha256": "3bf8e1239b0818b0672ffa562da6f94e8bf36a9e5d15116401b9cc4b25e47c84",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-10/02_02_02_02_02_SOURCE_01_363f13d61_EN_V2421C.jpg",
+      "sha256": "69e61adbc200335d2c1b33abebaa6123334066b718480fccfa8a09898c666e5e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-10/03_03_03_03_03_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "c4969dde5264d65cf0a16eb90a93b5fdb256bf11d4cc93415018b386c5c9d2ac",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-10/04_04_04_04_04_INFO_04_V2413_EN_V2421.jpg",
+      "sha256": "d8ffe33827dcea6090399d01974306900785ae9adb459517d051b887c059b4d7",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "slot": 5,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-10/05_05_05_05_05_INFO_05_V2413_EN_V2421.jpg",
+      "sha256": "5a19d009bed2baecc9a6977ca7ba5ef9849600af529720b858a9f81732a635b4",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Perfect Cover Cushion 15 g contents as corrected slot 1; old circle overlaps central card",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-12/01_01_01_01_01_SOURCE_4166c45da556_EN_V2421C.jpg",
+      "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-12/02_02_02_02_02_SOURCE_aeee02ac48ee_EN_V2421C.jpg",
+      "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-12/03_03_03_03_03_SOURCE_f9e33b456bc5_EN_V2421C.jpg",
+      "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-12/04_04_04_04_04_INFO_04_V2412B_EN_V2421.jpg",
+      "sha256": "ebd10ecfd32955fbb769dfd30b2a01b52ddbcac20a4aae0f88bac13325cd90c0",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-12/05_05_05_05_05_INFO_05_V2412B_EN_V2421.jpg",
+      "sha256": "f5e78672c17f881392786e463c3740dbdcb8310d3b9ba73acd31631cd29b12da",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-13/01_01_01_01_01_pending-13_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-13/02_02_02_02_02_SOURCE_4d228780ef6c_EN_V2421C.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-13/03_03_03_03_03_SOURCE_ac47ea3f8fde_EN_V2421C.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "slot": 4,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-13/04_04_04_04_04_INFO_03_V2412B_EN_V2421.jpg",
+      "sha256": "4301067d1d80386e858b19f1345444aad905c04c79d61446817bfa30a27605a8",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Firming Repair Serum 30 mL card as corrected slot 1; old circle overlaps 30 mL title",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-13/05_05_05_05_05_INFO_04_V2412B_EN_V2421.jpg",
+      "sha256": "75f6ec1493fa6904722fa62b60c88d88ab2f8bddc400210c0e1e91eed683cc1d",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-14/01_01_01_01_01_v2439b-source__pending-14_original_text_clean_card_V2439b.jpg",
+      "sha256": "6ab80a587197e2375dbe9221d668d6b323938691f1d6c66775bc96475328bf4b",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-14/02_02_02_02_02_SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+      "sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-14/03_03_03_03_03_SOURCE_7f391f26af48_EN_V2421C.jpg",
+      "sha256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-14/04_04_04_04_04_SOURCE_9d197a03300b_EN_V2421C.jpg",
+      "sha256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-14/05_05_05_05_05_INFO_04_V2412B_EN_V2421.jpg",
+      "sha256": "51647f24f13ba8313a22da0e897bad2d78e1c0c86902aa3cf65c38c7635e24de",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-16",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-16/05_05_05_05_05_INFO_05_OFFICIAL_V2412_EN_V2421.jpg",
+      "sha256": "e1ea58421ec9c758813afccf7d5bceefa7fc0c7b1c0fa34683374834c85415a8",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-17/01_01_01_01_01_v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg",
+      "sha256": "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-17/02_02_02_02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+      "sha256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-17/03_03_03_03_03_SOURCE_5b400cae46a1_EN_V2421C.jpg",
+      "sha256": "4c3f3cc405831e8f93c7736cc74f27e060d142c1ad5f8ebfa9f6c081e78d053c",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-17/04_04_04_04_04_SOURCE_5ea61e16436d_EN_V2421C.jpg",
+      "sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-17/05_05_05_05_05_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "5068b8651f1658351a182a6a8af7debf5c882a267a56fac0fadb1895c267a3d8",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-18",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-18/01_01_01_01_01_pending-18_factual_copy_revision_V2441.jpg",
+      "sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-19/01_01_01_01_01_pending-19_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "5443bd4cbc1c8f83d274763cba330d8d3cdf17773c09ae644e7810f7f44f8e30",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-19/02_02_02_02_02_v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg",
+      "sha256": "ccddd757abd6da10e822b36a924df4734287cd55808ee01467f88450ca8d8e9d",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "slot": 3,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-19/03_03_03_03_03_INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+      "sha256": "107fa7a49e2b17ddb0e8cff5d7de9d8692591d71eb67df5ef998ef2ee7ccb6d8",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Goodal dual-function info as corrected slot 1, contains unverified 25AD generation phrase",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-19/04_04_04_04_04_INFO_HOW_TO_01_V2414_EN_V2421.jpg",
+      "sha256": "67c3837e0afb554154b69f031f37fb45ef8ca18d6f527ea53b053f61f9e86d37",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-19/05_05_05_05_05_INFO_INGREDIENT_02_V2414_EN_V2421.jpg",
+      "sha256": "51e8aa8c2416fd645be38ab89435db28a62d9ce9b7e7ad65f57677a70c432232",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-20/01_01_01_01_01_SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+      "sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-20/02_02_02_02_02_INFO_02_V2412B_EN_V2421.jpg",
+      "sha256": "167b3521032deb683fdd291f5a1a3368845269b65cd55a14f584264e389e1587",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-20/03_03_03_03_03_INFO_03_V2412B_EN_V2421.jpg",
+      "sha256": "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-20/04_04_04_04_04_INFO_04_V2412B_EN_V2421.jpg",
+      "sha256": "aaf40c112c96116c49ba54e6edc5691f5d533526e39cdb84a8232a77cbe3331a",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-20/05_05_05_05_05_INFO_05_V2412B_EN_V2421.jpg",
+      "sha256": "27e9caa93c3ccd8b2ef78991abfb09c9edcc8067386d07bdcfe1afb161afb3a5",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-21/01_01_01_01_01_INFO_03_V2413_EN_V2421.jpg",
+      "sha256": "338f2e8d61993b562d0332165e7c006945d5ed36cf98045ce30809dec23a0316",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-21/02_02_02_02_02_INFO_04_V2413_EN_V2421.jpg",
+      "sha256": "cfcdbdc8bc8c038cc6c13f4c07906d8f687364d950453dd5b8c9779337f137fe",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-21/03_03_03_03_03_INFO_05_V2413_EN_V2421.jpg",
+      "sha256": "7c8da6e356387e283b0aa754d540d9206ca4c584cfa6d565248064f36467f831",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-21/04_04_04_04_04_PHOTO_01_V2413.jpg",
+      "sha256": "e2d99386499ebc713892605d88f2832698327119b18d7e869dd36fdf91129c01",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-21/05_05_05_05_05_PHOTO_02_V2413.jpg",
+      "sha256": "eafd111003590ab7984009bcade53a83e37ab43cc4dc5aff231c9588ca328a18",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-22",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-22/01_01_01_01_01_pending-22_factual_copy_revision_V2441.jpg",
+      "sha256": "d7aa6d5332a18c52126eca33966c967b44b150a5eeb2d6ca316604d6d7ca5388",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-23/01_01_01_01_01_v2439b-source__pending-23_original_text_clean_card_V2439b.jpg",
+      "sha256": "153fd86fdcba72506a8a6a71a6798716a078c858ed4557b3225bca5db3013baa",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-23/02_02_02_02_02_INFO_05_V2413_EN_V2421.jpg",
+      "sha256": "14076333cd8ab319d995e92c449f988b3866ca4fc1028d0f810b3c24f1657731",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "slot": 3,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-23/03_03_03_03_03_INFO_IDENTITY_01_V2414_EN_V2421.jpg",
+      "sha256": "f3545da3391f76ca586a62426a7f7ddac386b31d1734cdebc1e207990e06d329",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Pore Zero features as slot 1 with redundant original circle; corrected clean card preferred",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "slot": 4,
+      "new_copy_file": "07-content-duplicate-older-version-HOLD/pending-23/04_04_04_04_04_INFO_VOLUME_02_V2414_EN_V2421.jpg",
+      "sha256": "4057e1c95bb537aa8c0bd256bc2a33caefbb21815ac4e78012539e9587957e35",
+      "disposition": "OLDER_REDUNDANT_FRAME_QUARANTINE",
+      "reason": "Same Pore Zero 50 mL content as slot 2 in different layout, adds no new distinct customer facts",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-23/05_05_05_05_05_01_HERO_EN_V2422.jpg",
+      "sha256": "b7ecef534dd7c02d9cf8ec23a7cc55a9f4e9a1f18ba3932509bcd5c773cb3c7c",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-24",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-24/01_01_01_01_01_pending-24_factual_copy_revision_V2441.jpg",
+      "sha256": "7da04b597222c28ac7f2ede51f8f17f87563c99fdd6586a613d1a6a4128db14f",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-26/01_01_01_01_01_PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+      "sha256": "bc633c1e747cb5bd8da44b1e3f21c2439a2b79288d79be185f9a6f4539b4172c",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "slot": 2,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-26/02_02_02_02_02_PIXELPURE_INFO_03_V2416C_EN_V2421.jpg",
+      "sha256": "5ae5442a6edfbbeee45cc7ae36e0432d3f73aaf0e424bdd03d5f95fa90ab82d3",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "slot": 3,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-26/03_03_03_03_03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+      "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "slot": 4,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-26/04_04_04_04_04_PIXELPURE_Gentle_Gel_145ml_HOW_TO_USE_V2443.jpg",
+      "sha256": "d8a40ca129718b493b9d05dda66e00c4ad63692e4e8724459b58d9eb094c71a0",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "slot": 5,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-26/05_05_05_05_05_PIXELPURE_Gentle_Gel_145ml_KEY_INGREDIENTS_V2443.jpg",
+      "sha256": "ece666962584934dd1e2177636f3a9eab49d2d310b181bf55f1802c08e3d12ba",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    },
+    {
+      "group_id": "pending-27",
+      "slot": 1,
+      "new_copy_file": "79-retained-rights-and-content-QA-HOLD/pending-27/01_01_01_01_01_01_correct_200ml_bottle_layout_fixed_V2431b.jpg",
+      "sha256": "fe33d51aad43332684c8c3d06d1deef34941eb8f0c015e0c39e082e84134fecb",
+      "disposition": "RETAIN_AS_UNAPPROVED_CANDIDATE",
+      "reason": "No redundant composition confirmed; commercial rights, exact package and independent visual QA still pending",
+      "commercial_rights_verified": false,
+      "sale_approved": false
+    }
+  ],
+  "next": [
+    "Retain exact bytes, do not recreate seven redundant cards",
+    "Find distinct real photo or source-backed factual content for low-card-count groups rather than padding with repeated 5-card art",
+    "Official same-edition color sources, physical stock and photo rights still required before publication"
+  ]
+}
