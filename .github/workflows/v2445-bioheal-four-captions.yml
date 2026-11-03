@@ -1,0 +1,53 @@
+name: Shopee v2445 correct four BIOHEAL authentic source caption typos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2445-bioheal-four-captions.yml'
+      - 'scripts/v2445_bioheal_four_caption_correct.py'
+permissions:
+  contents: write
+jobs:
+  fix-four:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve 4 existing incorrect-caption JPGs and checksum manifest
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2444
+          git fetch origin production-assets-v2444-reviewed-146-and-quarantine-4
+          git archive origin/production-assets-v2444-reviewed-146-and-quarantine-4 | tar -xf - -C prior-v2444
+      - name: Fix only 4 actual existing caption regions, no product pixel replacement
+        run: python scripts/v2445_bioheal_four_caption_correct.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2445-four-actual-bioheal-caption-corrected-JPGs
+          path: v2445-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve independent branch; no public URL or historical source write
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2445-output /tmp/v2445-result
+          git worktree add --detach /tmp/v2445-wt HEAD
+          cd /tmp/v2445-wt
+          git switch --orphan production-assets-v2445-four-bioheal-caption-corrections
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2445-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve four authentic BIOHEAL photographs with corrected exact NAD-PRIZCELL text; rights QA hold'
+          git push origin HEAD:refs/heads/production-assets-v2445-four-bioheal-caption-corrections
