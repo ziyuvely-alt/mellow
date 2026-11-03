@@ -1,0 +1,110 @@
+{
+  "version": "2.4.49",
+  "previous_checkpoint": "production-assets-v2448b-15-photo-candidate-checkpoint",
+  "new_real_photo_detail_JPG": 5,
+  "new_groups": 5,
+  "prior_15_JPGs_unchanged": true,
+  "pending22_blurry_photo": "HELD_NO_RETOUCH",
+  "old_531_JPGs_overwritten": 0,
+  "published_55_URLs_modified": 0,
+  "official_shade_charts_approved": 0,
+  "FINAL_SALES_APPROVED": 0,
+  "files": [
+    {
+      "group_id": "pending-09",
+      "source_file": "146-QA-hold-candidate-images/pending-09/02_02_02_INV_01_452fadf13c_EN_V2421C.jpg",
+      "source_sha256": "258f7f36f5a3a95234f6e7e1b260345aa1aefb731328b0a6db3e210d62a0a2a7",
+      "output": "new-photo-detail-JPGs/pending-09/pending-09_original-photo-detail_V2449.jpg",
+      "output_sha256": "15da01d32aa7b6eefe8bd9f462960fe78ab78ad6d409b3657fb191dd6fc4f597",
+      "crop_xyxy": [
+        212,
+        299,
+        638,
+        627
+      ],
+      "risk": "Model-image commercial permission unverified",
+      "new_fake_product_pixels": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights_verified": false,
+      "stock_package_verified": false,
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-16",
+      "source_file": "146-QA-hold-candidate-images/pending-16/02_02_02_INV_02_17c12aad66_EN_V2421C.jpg",
+      "source_sha256": "3b9978475bc580041e96101a639ae65d05cd0aa37f2753e16dd60cc2c16b72a5",
+      "output": "new-photo-detail-JPGs/pending-16/pending-16_original-photo-detail_V2449.jpg",
+      "output_sha256": "d6bd7a2a64dc8e0db4778261bf25e7fe58cce29665c702d6a57a1a727d0caca1",
+      "crop_xyxy": [
+        339,
+        290,
+        731,
+        667
+      ],
+      "risk": "Model-image commercial permission unverified",
+      "new_fake_product_pixels": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights_verified": false,
+      "stock_package_verified": false,
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-18",
+      "source_file": "146-QA-hold-candidate-images/pending-18/02_02_02_INV_01_254aee0e0f_EN_V2421C.jpg",
+      "source_sha256": "d0f45c3a371f33cd2c9c04ba6d3bf2a34d593344fc406496b679fc907415ef91",
+      "output": "new-photo-detail-JPGs/pending-18/pending-18_original-photo-detail_V2449.jpg",
+      "output_sha256": "23c5b456286c1757928e1a7649884f7fd228ff862996e66e5cd4df94f91afd64",
+      "crop_xyxy": [
+        275,
+        290,
+        807,
+        695
+      ],
+      "risk": "Exact original package generation unverified",
+      "new_fake_product_pixels": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights_verified": false,
+      "stock_package_verified": false,
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-24",
+      "source_file": "146-QA-hold-candidate-images/pending-24/02_02_02_INV_01_216ad6670f_EN_V2421C.jpg",
+      "source_sha256": "fc44461c1b601aa53a03bfc156d24ebdb1c7722971f6f42dfe5037d5beaed6e4",
+      "output": "new-photo-detail-JPGs/pending-24/pending-24_original-photo-detail_V2449.jpg",
+      "output_sha256": "0e09e880342c2b1bd8908d319bcd35b69f782ea4ca055a8ab1733f5aee1cc422",
+      "crop_xyxy": [
+        374,
+        278,
+        707,
+        712
+      ],
+      "risk": "Real source package photo permission unverified",
+      "new_fake_product_pixels": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights_verified": false,
+      "stock_package_verified": false,
+      "visual_QA": "PENDING"
+    },
+    {
+      "group_id": "pending-27",
+      "source_file": "quarantine-verified-MK-badges/pending-27/02_02_02_INV_02_4b4942e542_EN_V2421C.jpg",
+      "source_sha256": "0ba78c937994e3c360df39ef7f8edeba40033cd4ce22fab753d7fbff278853e5",
+      "output": "new-photo-detail-JPGs/pending-27/pending-27_original-photo-detail_V2449.jpg",
+      "output_sha256": "1c607a15950ec31f06de6c199f0f2f95995db385600a036002e5ccfb8a0907a9",
+      "crop_xyxy": [
+        224,
+        276,
+        875,
+        715
+      ],
+      "risk": "Volume and formula of exact photographed edition unverified",
+      "new_fake_product_pixels": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights_verified": false,
+      "stock_package_verified": false,
+      "visual_QA": "PENDING"
+    }
+  ],
+  "next": "Directly inspect five rendered JPGs and exclude any unsuitable crop; further product-shade and commercial rights QA"
+}
