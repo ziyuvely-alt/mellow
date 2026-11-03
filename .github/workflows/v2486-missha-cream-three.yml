@@ -1,0 +1,51 @@
+name: Shopee v2486 MISSHA PDRN Cream 70ml three authentic photo JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2486-missha-cream-three.yml'
+      - 'scripts/v2486_missha_pdrn_cream_70_three_photos.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse original MISSHA 70ml cream photo artifact only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41687671016 -n shopee-v2485-MISSHA-NAD-70ml-cream-official-photo-evidence -D v2485-missha-pdrn-cream-official-evidence
+      - name: Create three photo JPGs without redoing old frames
+        run: python scripts/v2486_missha_pdrn_cream_70_three_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2486-MISSHA-PDRN-cream-70-three-JPG-QA-HOLD
+          path: v2486-missha-cream-70-three-JPG/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve 3 source-backed JPGs on isolated non-public branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2486-missha-cream-70-three-JPG /tmp/v2486-jpgs
+          git worktree add --detach /tmp/v2486-wt HEAD
+          cd /tmp/v2486-wt
+          git switch --orphan production-assets-v2486-missha-cream-70-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2486-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three authentic MISSHA 70ml cream JPGs, original logo and source rights QA pending'
+          git push origin HEAD:refs/heads/production-assets-v2486-missha-cream-70-three
