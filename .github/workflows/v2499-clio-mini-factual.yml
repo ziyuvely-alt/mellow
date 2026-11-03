@@ -1,0 +1,48 @@
+name: Shopee v2499 CLIO mini 5g two verified non-swatch info JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2499-clio-mini-factual.yml'
+      - 'scripts/v2499_clio_mini_two_factual_JPG.py'
+permissions:
+  contents: write
+jobs:
+  render-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2499_clio_mini_two_factual_JPG.py
+      - name: Require actual JPG files
+        run: |
+          test -s v2499-clio-mesh-glow-mini-fact-frames/04-mini-3-shade-name-guide.jpg
+          test -s v2499-clio-mesh-glow-mini-fact-frames/05-mini-cushion-puff-use-guide.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2499-clio-mini-2-non-swatch-factual-JPG-QA-HOLD
+          path: v2499-clio-mesh-glow-mini-fact-frames/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Store isolated review files only
+        run: |
+          set -euo pipefail
+          cp -a v2499-clio-mesh-glow-mini-fact-frames /tmp/v2499-assets
+          git worktree add --detach /tmp/v2499-wt HEAD
+          cd /tmp/v2499-wt
+          git switch --orphan production-assets-v2499-clio-mini-factual
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2499-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve two genuine-option informational CLIO Mini JPG drafts with no fictitious swatches'
+          git push origin HEAD:refs/heads/production-assets-v2499-clio-mini-factual
