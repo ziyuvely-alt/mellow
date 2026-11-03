@@ -1,0 +1,51 @@
+name: Shopee v2439 four customer copy corrections and 30-group source JPG audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2439-four-edit-full-audit.yml'
+      - 'scripts/v2439_four_grounded_copy_and_30inventory.py'
+permissions:
+  contents: write
+jobs:
+  four-edits-and-inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore exact historical approved checkpoint assets
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Correct four observed customer-facing JPG defects and inventory all 30 families
+        run: python scripts/v2439_four_grounded_copy_and_30inventory.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2439-four-real-JPG-and-30group-verified-source-index
+          path: v2439-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve independent candidate evidence branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2439-output /tmp/v2439-results
+          git worktree add --detach /tmp/v2439-wt HEAD
+          cd /tmp/v2439-wt
+          git switch --orphan production-assets-v2439-four-edits-30group-audit
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2439-results/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve four real customer JPG edits and full 30 group source hash audit; no publication'
+          git push origin HEAD:refs/heads/production-assets-v2439-four-edits-30group-audit
