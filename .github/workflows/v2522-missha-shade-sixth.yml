@@ -1,0 +1,57 @@
+name: Shopee v2522 add true MISSHA four-shade photographic chart 6th JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2522-missha-shade-sixth.yml'
+      - 'scripts/v2522_append_missha_real_four_shade_chart.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-shade-chart:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing v2521 150 JPGs byte-identically
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41702929113 -n shopee-v2521-150-JPG-five-photo-corrections-30family-QA-only -D v2522-inputs
+      - name: Restore already captured genuine four-shade chart source, no color fabrication
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41695995685 -n shopee-v2509-missha-cover-four-shades-real-reference-QA -D v2522-inputs/real-source
+      - name: Append EXACT one photographic source and verify 150 untouched
+        run: |
+          python scripts/v2522_append_missha_real_four_shade_chart.py
+          test "$(find v2522-151-physical-JPG-review/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 151
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2522-151-JPG-MISSHA-real-shade-photo-QA-only
+          path: v2522-151-physical-JPG-review/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated QA branch, never change the 55 public URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2522-151-physical-JPG-review /tmp/v2522-out
+          git worktree add --detach /tmp/v2522-wt HEAD
+          cd /tmp/v2522-wt
+          git switch --orphan production-assets-v2522-151-missha-shade-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2522-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve true four-shade MISSHA photo reference as sixth review frame; other 150 unchanged'
+          git push origin HEAD:refs/heads/production-assets-v2522-151-missha-shade-QA
