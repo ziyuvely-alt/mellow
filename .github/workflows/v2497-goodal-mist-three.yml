@@ -1,0 +1,54 @@
+name: Shopee v2497 make Goodal 25AD mist 3 exact-image JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2497-goodal-mist-three.yml'
+      - 'scripts/v2497_goodal_25ad_mist_three_real_frames.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  compose-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore original Goodal 25AD bottle photos already downloaded
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41690163576 -n shopee-v2496-goodal-25AD-two-real-photo-sources-QA -D v2496-goodal-mist-25ad-source-photos
+      - run: python scripts/v2497_goodal_25ad_mist_three_real_frames.py
+      - name: Assert three real JPG files, no metadata-only success
+        run: |
+          test -s v2497-goodal-25ad-mist-three-JPGs/03-25ad-front-bottle.jpg
+          test -s v2497-goodal-25ad-mist-three-JPGs/04-25ad-bottle-angle.jpg
+          test -s v2497-goodal-25ad-mist-three-JPGs/05-verified-usage-instructions.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2497-goodal-mist-3-real-JPG-QA-HOLD
+          path: v2497-goodal-25ad-mist-three-JPGs/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve in isolated non-public-release branch
+        shell: bash
+        run: |
+          cp -a v2497-goodal-25ad-mist-three-JPGs /tmp/v2497-out
+          git worktree add --detach /tmp/v2497-wt HEAD
+          cd /tmp/v2497-wt
+          git switch --orphan production-assets-v2497-goodal-25ad-mist
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2497-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve Goodal 25AD mist three real photo/factual JPG drafts'
+          git push origin HEAD:refs/heads/production-assets-v2497-goodal-25ad-mist
