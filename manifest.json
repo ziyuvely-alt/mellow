@@ -1,0 +1,50 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream",
+  "stock_options_verified": [
+    {
+      "shade": "21",
+      "kr": "화사한베이지"
+    },
+    {
+      "shade": "23",
+      "kr": "자연스러운베이지"
+    },
+    {
+      "shade": "25",
+      "kr": "웜베이지"
+    }
+  ],
+  "basis": "evidence/inventory-30-family-crosswalk-20261104.json, stock rows 8, 9, 10",
+  "new_jpgs": [
+    {
+      "filename": "04-stock-3-shade-name-guide.jpg",
+      "bytes": 90095,
+      "sha256": "c7f10c1b0fa28ac6793efb54f99a43d07a8fbf49bcd3760a6b5480bcd33e0128",
+      "size": [
+        1080,
+        1080
+      ],
+      "content_kind": "Verified 3 selected inventory options, no color swatches"
+    },
+    {
+      "filename": "05-legacy-stock-package-check.jpg",
+      "bytes": 93196,
+      "sha256": "a818340c1c3110b88010c7c8ef9262f3e2b9c1f2654b7243b3e47c066ac59fe4",
+      "size": [
+        1080,
+        1080
+      ],
+      "content_kind": "Customer product/edition identification information, not packaging photo"
+    }
+  ],
+  "old_product_JPGs_recreated": 0,
+  "no_fabricated_shade_pixels": true,
+  "old_stock_edition_photo_verified": false,
+  "2026_PRO_product_photo_substituted": false,
+  "original_MK_logo_applied": false,
+  "final_sales_QA": "HOLD",
+  "new_public_urls": 0,
+  "excel_shared": false
+}
