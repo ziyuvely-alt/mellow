@@ -1,0 +1,50 @@
+name: Shopee v2467 targeted OBgE 5g photo layout repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2467-obge-three-photo-repairs.yml'
+      - 'scripts/v2467_obge_three_visual_repairs.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse original source bytes from successful v2463
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41682388609 -n shopee-v2463-obge-real-photo-angles-NOT-PUBLISHED -D v2463-obge-oil-control-real-photo
+      - run: python scripts/v2467_obge_three_visual_repairs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2467-obge-three-visual-photo-layout-repairs
+          path: v2467-obge-finisher-photo-layout-repair/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separately, never publish or overwrite
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2467-obge-finisher-photo-layout-repair /tmp/v2467-jpgs
+          git worktree add --detach /tmp/v2467-wt HEAD
+          cd /tmp/v2467-wt
+          git switch --orphan production-assets-v2467-obge-photo-layout-repair
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2467-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store OBgE original photo full-bleed retail draft repair for source rights QA'
+          git push origin HEAD:refs/heads/production-assets-v2467-obge-photo-layout-repair
