@@ -1,0 +1,54 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-21",
+  "product": "Goodal Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+  "source_run": 41693239543,
+  "source_artifact_id": 13257049730,
+  "original_photo_files": [
+    "single-yellow-tube.jpg",
+    "cream-texture-tube.jpg"
+  ],
+  "previous_customer_JPGs_recreated": 0,
+  "new_JPGs": [
+    {
+      "file": "03-real-30ml-eye-cream-front.jpg",
+      "bytes": 60704,
+      "sha256": "86f122fd10a6a42531b0c96dfda82ace2d86d3cadf6c1d9f5c6cabe813a9aed0",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "role": "Real front-facing tube photograph",
+      "status": "REVIEW_ONLY_FINAL_STOCK_AND_PHOTO_RIGHTS_QA_HOLD"
+    },
+    {
+      "file": "04-real-tube-and-texture.jpg",
+      "bytes": 72995,
+      "sha256": "537b73b847ca946d3fd0cfa1af017bfb829c385a81121d63ddb22cb5649a0653",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "role": "Real source photo with cream texture",
+      "status": "REVIEW_ONLY_FINAL_STOCK_AND_PHOTO_RIGHTS_QA_HOLD"
+    },
+    {
+      "file": "05-30ml-product-facts.jpg",
+      "bytes": 81122,
+      "sha256": "0c11452d28204a66822e5a76c9ed3d596007ac0921d7d6dbf465fcd339c35837",
+      "resolution": [
+        1080,
+        1080
+      ],
+      "role": "Factual tube/30ml format",
+      "status": "REVIEW_ONLY_FINAL_STOCK_AND_PHOTO_RIGHTS_QA_HOLD"
+    }
+  ],
+  "exact_25AD_stock_packaging_confirmed": false,
+  "external_photo_commercial_rights_verified": false,
+  "original_MellowKR_MK_logo_applied": false,
+  "shade_fabrication": false,
+  "sales_QA_approved": false,
+  "new_public_urls": 0,
+  "excel_shared": false
+}
