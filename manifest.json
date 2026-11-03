@@ -1,0 +1,52 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-16",
+  "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL 2022-era",
+  "source_run": 41692792277,
+  "source_photo_file": "tenbyten-old-jar-carton.jpg",
+  "source_reference": "https://www.10x10.co.kr/shopping/category_prd.asp?itemid=4488766",
+  "directions_reference": "https://www.elandmall.co.kr/i/item?itemNo=2201189584",
+  "reused_old_preexisting_jpgs": 0,
+  "new_JPGs": [
+    {
+      "filename": "03-original-old-jar-carton.jpg",
+      "bytes": 136140,
+      "sha256": "e25a72949481b2e50750c1b29cfd3b57d88774e5e2f06bad76b46a991e0901ff",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "role": "Original old packaging photograph",
+      "status": "CUSTOMER_DRAFT_NOT_PUBLISHED"
+    },
+    {
+      "filename": "04-product-format-70ml.jpg",
+      "bytes": 74374,
+      "sha256": "c0de67916f2a03760ebdea64126fea061bd77ae2cdf7f7c7e2f611e0815e8efb",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "role": "Factual net content, jar format; no formula or clinical claims",
+      "status": "CUSTOMER_DRAFT_NOT_PUBLISHED"
+    },
+    {
+      "filename": "05-basic-use-guide.jpg",
+      "bytes": 82350,
+      "sha256": "386243904ddf355a724913be437c6f764ff31a7a67c1095640c19ed37c3bed7b",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "role": "Use steps grounded in old product retailer directions",
+      "status": "CUSTOMER_DRAFT_NOT_PUBLISHED"
+    }
+  ],
+  "not_using_modern_EX_images": true,
+  "physically_verified_old_stock_package": false,
+  "photograph_commercial_rights_verified": false,
+  "original_MK_logo_available": false,
+  "final_customer_QA_approved": false,
+  "new_public_urls": 0,
+  "xls_or_sheets_shared": false
+}
