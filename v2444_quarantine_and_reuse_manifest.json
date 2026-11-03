@@ -1,0 +1,2117 @@
+{
+  "version": "2.4.44",
+  "predecessor": "production-assets-v2443b-30family-150-JPG-review",
+  "source_corrected_photo_branch": "production-assets-v2430c-three-copy-revisions",
+  "product_families_reviewed_by_manifest": 30,
+  "prior_total_JPGs_byte_verified": 150,
+  "known_visual_defects_quarantined": 4,
+  "candidate_JPGs_not_yet_commercial_approved": 146,
+  "old_corrected_JPG_reused_without_rerender": 1,
+  "new_generated_JPGs": 0,
+  "known_prior_17_actual_edited_customer_JPGs_reproduced": 0,
+  "original_531_JPGs_modified": 0,
+  "old_55_public_URLs_mutated": 0,
+  "manual_visual_review_all_150_completed": false,
+  "new_official_swatch_charts": 0,
+  "final_sale_approved_sets": 0,
+  "quarantine_reason_matrix": [
+    {
+      "group_id": "pending-27",
+      "slots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "defect": "MK original logo not verified, images show placeholder badge",
+      "product_packaging": "200mL bottle photos visible, no 300mL bottle present after prior filter"
+    },
+    {
+      "group_id": "pending-25",
+      "slots": [
+        1
+      ],
+      "defect": "Historical hero misspells NAD-PRIZCELL as NAD Preezcel",
+      "resolution": "Reused visually opened corrected v2430c JPEG, but it still has an unverified MK graphic and needs rights QA"
+    }
+  ],
+  "remaining_unknowns": [
+    "MK logo rights and authenticity on many historical frames (only 4 specific pending27 frames quarantined by direct visual observation)",
+    "Peripera and cushion same-generation official color/swatches",
+    "Exact physical stock package and commercial photo rights for all 30 groups",
+    "Complete manual visual QA across the entire 150-frame candidate pool",
+    "No authorization for publishing to Shopee or changing prior 55 public URLs"
+  ],
+  "families": [
+    {
+      "group_id": "pending-01",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-01/01_01_v2439b-source__pending-01_original_text_clean_card_V2439b.jpg",
+          "sha256": "64fff2ac31833c6c1c5d3cd385658a18241355a251aec4d9150c8a3e95435a1f",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-01/02_02_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+          "sha256": "027c9797c59048a3a7df9b78502a31059aa9412223696d1301e123c377ab1f32",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-01/03_03_INFO_FEATURE_02_V2414B_EN_V2421.jpg",
+          "sha256": "8ce88d1feab760979b5ec8ace8ae6789bd79b7a316f1aca92a9d565392a460e2",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-01/04_04_INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+          "sha256": "f40b4c5ff7b1c9e907d96fd5fcddab739dd01fb9256ceb368bbc340d7405f08e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-01/05_05_INFO_SUN_01_V2414B_EN_V2421.jpg",
+          "sha256": "b0717e7c9e558825f9612603df78ad0ffe1ee95abab05daef7a279db371a7fa9",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-02",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-02/01_01_v2440-source__pending-02_observed_card_collision_repair_V2440.jpg",
+          "sha256": "10c845fbf8a80700ea1e8c3b79882eba9da9f964eaa984a9f744e2ea7378ec5e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-02/02_02_SOURCE_01_640302217_EN_V2421C.jpg",
+          "sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-02/03_03_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+          "sha256": "3d4a52f9190a0e4bb7c07275c1bf41efb40d57429d8faea8431d8ae151365a4e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-02/04_04_INFO_HOWTO_02_V2414B_EN_V2421.jpg",
+          "sha256": "3551b56b37d708ac28d44eb77ed19dfab9ce00a5743c1ed71e4019d1b63a7e78",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-02/05_05_INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+          "sha256": "f8c4196842c77b068b643bf317a14cb77d173a53a570520ff170eb5dad02c3cb",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-03",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-03/01_01_INV_01_105c62ce61_EN_V2421C.jpg",
+          "sha256": "08175289baf68e010ddd02f6529540c993a5dbd604d405577e47e8a07b0fe485",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-03/02_02_INV_02_2c2d4f7430_EN_V2421C.jpg",
+          "sha256": "69c672e18369d0a0eb340aba5801d4d9d2267a866429d4fe36a2a56314070cbf",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-03/03_03_INV_03_37b096423c_EN_V2421C.jpg",
+          "sha256": "7dcd882b02baafce53f62f058e1fb2e914e3615fd79033bf71fbd98172e54314",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-03/04_04_INV_04_6ee100c2c2_EN_V2421C.jpg",
+          "sha256": "3d9270f44cedeafc17b76de5ec2adf17a0785d2e1b11cfc339264c9cfa73cd4c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-03/05_05_INV_05_f32faba0cf_EN_V2421C.jpg",
+          "sha256": "36d995efef3079f0c8a0bf8ff0b0a3a3e8c71cc4aac4139ab1ac555f53363389",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-04",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-04/01_01_INV_01_3194e3273f_EN_V2421C.jpg",
+          "sha256": "e64a48d46e484ff7ead326382b8ee59bc755334c4eb306cb451dc7579125a0a5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-04/02_02_INV_02_35438b61d8_EN_V2421C.jpg",
+          "sha256": "8a09b7a6c499ced6ee4e9bc7a720bbce3d8e31b34d68091a72ab6ebd0a6791d9",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-04/03_03_INV_03_a9f4d2660e_EN_V2421C.jpg",
+          "sha256": "319ea656259e8e5e3754ee1194a0fff05ed4933d142e1d3108f6c669101d5551",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-04/04_04_INV_04_ba44dd5e61_EN_V2421C.jpg",
+          "sha256": "287986a3c9eacdfb72dca415f545340e3e9956a1f8676db60d41f970b8152ea0",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-04/05_05_INV_05_d41b9b1ed2_EN_V2421C.jpg",
+          "sha256": "f619d84aeb61bdf2d89983a691b7d9a93d4159f5284f671ae32d9e58849e1c47",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-05",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-05/01_01_v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "1b7da7961aacd75608ab156c9f2a993daa29f00a6bcd9794bccc0a733894ebe4",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-05/02_02_v2440-source__pending-05_observed_card_collision_repair_V2440.jpg",
+          "sha256": "0c9dcfa3a8fe3dba514a1b6ce81ffeca3666d37ef32b5934359f81827399ad6e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-05/03_03_SOURCE_01_041b164bb_EN_V2421C.jpg",
+          "sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-05/04_04_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "1036a55d049d503627fd5669c13668835ecbe279123ace79b7e5ea071dae0fd9",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-05/05_05_INFO_05_V2413_EN_V2421.jpg",
+          "sha256": "32c22da3a0b0039d5796729eb51fbce966d5fed4b278979e2bf9fa131afa439b",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-06",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-06/01_01_v2439b-source__pending-06_original_text_clean_card_V2439b.jpg",
+          "sha256": "7c440a9a2bf91a7f7d159079a34b9fc798751ddc20a44d03d0fffbad28cd5d12",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-06/02_02_SOURCE_01_8053457df_EN_V2421C.jpg",
+          "sha256": "fe7c095d772c15949c48d8b26cec6f7c2a8553da02801366b4f5444302f50bec",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-06/03_03_SOURCE_02_8efe54403_EN_V2421C.jpg",
+          "sha256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-06/04_04_SOURCE_03_4bd36df9a_EN_V2421C.jpg",
+          "sha256": "372fdd78226ae1b69ffc14621d28bf70dd3e696f21c9a2179952d923eaa9cd25",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-06/05_05_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "9a2c607ba1c113a1f22f2d4e457c5cf5cf479b405d287388fe1d0c35eb4dd1de",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-07",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-07/01_01_v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "a781fa2249476c598f793cfde0970aecb8440e0680648c7429e8cfb7d871720e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-07/02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+          "sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-07/03_03_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "d53b78025bb9862a50e15e7ecdc68438a2ff1990e8e1fb2b02743576768b61d5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-07/04_04_INFO_05_V2413_EN_V2421.jpg",
+          "sha256": "c39650a4af7a7373f8c16fabddf331aab02422c37ac706e447d246072d42c36b",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-07/05_05_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+          "sha256": "b8420caee18eaad5baa4bd8f915086b611ed042f1f38c8dccbc47e0f6ea55d19",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-08",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-08/01_01_01_peripera_selected_shades_no_20claim_V2435.jpg",
+          "sha256": "13c3f76ab1baece7f3dfa4a4aea4d32dd83487b1863eee75e450ba5ec54a2b28",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-08/02_02_INFO_FORMULA_01_V2414_EN_V2421.jpg",
+          "sha256": "f1a42ab800abd1533ec7c1cf4293944346d7046cc8eac8c64872917a63f0deae",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-08/03_03_INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+          "sha256": "67819cab51d42625f70f0c743542579952aa208dd425542b1ee6b88f7b631498",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-08/04_04_INFO_SCOPE_05_V2415_EN_V2421.jpg",
+          "sha256": "4621585f821110607a931de6d2528e6825a7072516a6d381201e110f1140c896",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-08/05_05_INFO_VOLUME_02_V2414_EN_V2421.jpg",
+          "sha256": "638d19efc47da5ec34f1dd0c25923cf1a1e727242e5ec4a822032ad1a4e91c36",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-09",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-09/01_01_v2439b-source__pending-09_original_text_clean_card_V2439b.jpg",
+          "sha256": "37e89ce87c3fabee25f5190a07b9d6abe0980fcfc6ca941f1a53a8d5fd5d1c62",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-09/02_02_INV_01_452fadf13c_EN_V2421C.jpg",
+          "sha256": "258f7f36f5a3a95234f6e7e1b260345aa1aefb731328b0a6db3e210d62a0a2a7",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-09/03_03_INV_02_02a7beb90a_EN_V2421C.jpg",
+          "sha256": "e6ceb2658cc8bd252f48b8c4f6f2b30676411d85f4dc9f17cf83a9bebe0e6a86",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-09/04_04_INV_03_1859a75292_EN_V2421C.jpg",
+          "sha256": "70106b90c27763da7dd424e2a34fe42d0a94fbb53c1a8ddcb641a803e1702563",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-09/05_05_INV_04_1a9728cbc3_EN_V2421C.jpg",
+          "sha256": "df46e79bd2316dbd51f6f57f81e479846d3d0cb0776ae5871b77137e02d8859c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-10",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-10/01_01_v2440-source__pending-10_observed_card_collision_repair_V2440.jpg",
+          "sha256": "3bf8e1239b0818b0672ffa562da6f94e8bf36a9e5d15116401b9cc4b25e47c84",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-10/02_02_SOURCE_01_363f13d61_EN_V2421C.jpg",
+          "sha256": "69e61adbc200335d2c1b33abebaa6123334066b718480fccfa8a09898c666e5e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-10/03_03_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "c4969dde5264d65cf0a16eb90a93b5fdb256bf11d4cc93415018b386c5c9d2ac",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-10/04_04_INFO_04_V2413_EN_V2421.jpg",
+          "sha256": "d8ffe33827dcea6090399d01974306900785ae9adb459517d051b887c059b4d7",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-10/05_05_INFO_05_V2413_EN_V2421.jpg",
+          "sha256": "5a19d009bed2baecc9a6977ca7ba5ef9849600af529720b858a9f81732a635b4",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-11",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-11/01_01_INV_01_044a1cd940_EN_V2421C.jpg",
+          "sha256": "ad54148d6562745b36300c4e50462605765efac49100be7f735baaebcf153da1",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-11/02_02_INV_02_329c223adf_EN_V2421C.jpg",
+          "sha256": "14a9484afba91b1bd2cad537a2849f69a8a7103bff34cb701a65c5dc606ef7fd",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-11/03_03_INV_03_8a47d85c96_EN_V2421C.jpg",
+          "sha256": "5e393de541df74dfc8576ee3419c9e3f94eb668c72d41612db2330fa152dc7f5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-11/04_04_INV_04_a0c9d28d19_EN_V2421C.jpg",
+          "sha256": "af6b734b5e05ad3225a1ee7c9432a44aca710da1db5b2b0c22add015da265c04",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-11/05_05_INV_05_d67d748088_EN_V2421C.jpg",
+          "sha256": "71a68eef72f860c43c8e6ad15d894367ccdbd130b2ab549fec563094b86e60a5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-12",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-12/01_01_SOURCE_4166c45da556_EN_V2421C.jpg",
+          "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-12/02_02_SOURCE_aeee02ac48ee_EN_V2421C.jpg",
+          "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-12/03_03_SOURCE_f9e33b456bc5_EN_V2421C.jpg",
+          "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-12/04_04_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "ebd10ecfd32955fbb769dfd30b2a01b52ddbcac20a4aae0f88bac13325cd90c0",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-12/05_05_INFO_05_V2412B_EN_V2421.jpg",
+          "sha256": "f5e78672c17f881392786e463c3740dbdcb8310d3b9ba73acd31631cd29b12da",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-13",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-13/01_01_pending-13_second_frame_fact_repair_V2441b.jpg",
+          "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-13/02_02_SOURCE_4d228780ef6c_EN_V2421C.jpg",
+          "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-13/03_03_SOURCE_ac47ea3f8fde_EN_V2421C.jpg",
+          "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-13/04_04_INFO_03_V2412B_EN_V2421.jpg",
+          "sha256": "4301067d1d80386e858b19f1345444aad905c04c79d61446817bfa30a27605a8",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-13/05_05_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "75f6ec1493fa6904722fa62b60c88d88ab2f8bddc400210c0e1e91eed683cc1d",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-14",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-14/01_01_v2439b-source__pending-14_original_text_clean_card_V2439b.jpg",
+          "sha256": "6ab80a587197e2375dbe9221d668d6b323938691f1d6c66775bc96475328bf4b",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-14/02_02_SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+          "sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-14/03_03_SOURCE_7f391f26af48_EN_V2421C.jpg",
+          "sha256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-14/04_04_SOURCE_9d197a03300b_EN_V2421C.jpg",
+          "sha256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-14/05_05_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "51647f24f13ba8313a22da0e897bad2d78e1c0c86902aa3cf65c38c7635e24de",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-15",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-15/01_01_INV_01_6b3a4a3666_EN_V2421C.jpg",
+          "sha256": "70d4b189f0e8b9f47e2de48a65de05ab9b565114e83238422dbb90932a19ca90",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-15/02_02_INV_02_7f3ea992bc_EN_V2421C.jpg",
+          "sha256": "3b838caa2d123476e222cff8c6e86444778558950a83e9070d09125bdce256ed",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-15/03_03_INV_03_8d52f556bc_EN_V2421C.jpg",
+          "sha256": "1563a981a5bb66cd84b76420191c6da1c5fc89eddbf9425a9d629e091e848231",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-15/04_04_INV_04_b1503b4a4b_EN_V2421C.jpg",
+          "sha256": "92ebda952f11009d42109bef8cdbce6830552e9c748509b94b895681abddf605",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-15/05_05_INV_05_cb19b69c09_EN_V2421C.jpg",
+          "sha256": "fc34ab5ae5447010ce1dcbf156ac98d9a0a83e0a912459e02c01568c6e6859a4",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-16",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-16/01_01_INV_01_0a62a56a4b_EN_V2421C.jpg",
+          "sha256": "f004d1571555a6ddd441cb1f2b5a8ef55579461a50ac66d2ccc3cdf9e97a1a11",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-16/02_02_INV_02_17c12aad66_EN_V2421C.jpg",
+          "sha256": "3b9978475bc580041e96101a639ae65d05cd0aa37f2753e16dd60cc2c16b72a5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-16/03_03_INV_03_3ff07100b8_EN_V2421C.jpg",
+          "sha256": "30d5a72ea4ce791dc51a529dab99e6c91cee4f32f85ebc1ae73dc7195280c51e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-16/04_04_INV_04_a68f9b0956_EN_V2421C.jpg",
+          "sha256": "66839654b8ca412377d79a02a216ad0fe8720089777587b62c164e0bb9d829d8",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-16/05_05_INFO_05_OFFICIAL_V2412_EN_V2421.jpg",
+          "sha256": "e1ea58421ec9c758813afccf7d5bceefa7fc0c7b1c0fa34683374834c85415a8",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-17",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-17/01_01_v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-17/02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+          "sha256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-17/03_03_SOURCE_5b400cae46a1_EN_V2421C.jpg",
+          "sha256": "4c3f3cc405831e8f93c7736cc74f27e060d142c1ad5f8ebfa9f6c081e78d053c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-17/04_04_SOURCE_5ea61e16436d_EN_V2421C.jpg",
+          "sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-17/05_05_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "5068b8651f1658351a182a6a8af7debf5c882a267a56fac0fadb1895c267a3d8",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-18",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-18/01_01_pending-18_factual_copy_revision_V2441.jpg",
+          "sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-18/02_02_INV_01_254aee0e0f_EN_V2421C.jpg",
+          "sha256": "d0f45c3a371f33cd2c9c04ba6d3bf2a34d593344fc406496b679fc907415ef91",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-18/03_03_INV_02_66493f8937_EN_V2421C.jpg",
+          "sha256": "d8479e3e84cb9bd4503720504dc0620f89fe40b8ab95ef8bf736fa40f3f93e39",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-18/04_04_INV_03_e2cd09a3ab_EN_V2421C.jpg",
+          "sha256": "62bf590f61b515ebe1e9cd30b03a35ffb437e2d6f6ba8f0e203ef3bf62d86529",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-18/05_05_INV_04_e3df9b823a_EN_V2421C.jpg",
+          "sha256": "dbadf5d7154492491d7fa6fdeac6215dabbd93b37bad53a64729f9016b04a4bb",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-19",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-19/01_01_pending-19_second_frame_fact_repair_V2441b.jpg",
+          "sha256": "5443bd4cbc1c8f83d274763cba330d8d3cdf17773c09ae644e7810f7f44f8e30",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-19/02_02_v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "ccddd757abd6da10e822b36a924df4734287cd55808ee01467f88450ca8d8e9d",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-19/03_03_INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+          "sha256": "107fa7a49e2b17ddb0e8cff5d7de9d8692591d71eb67df5ef998ef2ee7ccb6d8",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-19/04_04_INFO_HOW_TO_01_V2414_EN_V2421.jpg",
+          "sha256": "67c3837e0afb554154b69f031f37fb45ef8ca18d6f527ea53b053f61f9e86d37",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-19/05_05_INFO_INGREDIENT_02_V2414_EN_V2421.jpg",
+          "sha256": "51e8aa8c2416fd645be38ab89435db28a62d9ce9b7e7ad65f57677a70c432232",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-20",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-20/01_01_SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+          "sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-20/02_02_INFO_02_V2412B_EN_V2421.jpg",
+          "sha256": "167b3521032deb683fdd291f5a1a3368845269b65cd55a14f584264e389e1587",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-20/03_03_INFO_03_V2412B_EN_V2421.jpg",
+          "sha256": "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-20/04_04_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "aaf40c112c96116c49ba54e6edc5691f5d533526e39cdb84a8232a77cbe3331a",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-20/05_05_INFO_05_V2412B_EN_V2421.jpg",
+          "sha256": "27e9caa93c3ccd8b2ef78991abfb09c9edcc8067386d07bdcfe1afb161afb3a5",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-21",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-21/01_01_INFO_03_V2413_EN_V2421.jpg",
+          "sha256": "338f2e8d61993b562d0332165e7c006945d5ed36cf98045ce30809dec23a0316",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-21/02_02_INFO_04_V2413_EN_V2421.jpg",
+          "sha256": "cfcdbdc8bc8c038cc6c13f4c07906d8f687364d950453dd5b8c9779337f137fe",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-21/03_03_INFO_05_V2413_EN_V2421.jpg",
+          "sha256": "7c8da6e356387e283b0aa754d540d9206ca4c584cfa6d565248064f36467f831",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-21/04_04_PHOTO_01_V2413.jpg",
+          "sha256": "e2d99386499ebc713892605d88f2832698327119b18d7e869dd36fdf91129c01",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-21/05_05_PHOTO_02_V2413.jpg",
+          "sha256": "eafd111003590ab7984009bcade53a83e37ab43cc4dc5aff231c9588ca328a18",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-22",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-22/01_01_pending-22_factual_copy_revision_V2441.jpg",
+          "sha256": "d7aa6d5332a18c52126eca33966c967b44b150a5eeb2d6ca316604d6d7ca5388",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-22/02_02_INV_02_0ab7541042_EN_V2421C.jpg",
+          "sha256": "a79455408c44e6b7dedb06ff3482e35b0e42ba3001e69fe29df35030af0c3503",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-22/03_03_INV_03_688df5a1bc_EN_V2421C.jpg",
+          "sha256": "1bc8b359b03b10cc4acc18826a47262c67c4e54f81d47184b6e682ccb79ba6ce",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-22/04_04_INV_04_702c1a4d5c_EN_V2421C.jpg",
+          "sha256": "7a1892be4229be7b14eb2c647f448710e260965b2881e4ef24a20fb450280dd3",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-22/05_05_INV_05_8629d1d381_EN_V2421C.jpg",
+          "sha256": "7e539d64150ad1d748b19ab4e4aaa9db9c8809b2ac945edaec9df3863e7debdc",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-23",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-23/01_01_v2439b-source__pending-23_original_text_clean_card_V2439b.jpg",
+          "sha256": "153fd86fdcba72506a8a6a71a6798716a078c858ed4557b3225bca5db3013baa",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-23/02_02_INFO_05_V2413_EN_V2421.jpg",
+          "sha256": "14076333cd8ab319d995e92c449f988b3866ca4fc1028d0f810b3c24f1657731",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-23/03_03_INFO_IDENTITY_01_V2414_EN_V2421.jpg",
+          "sha256": "f3545da3391f76ca586a62426a7f7ddac386b31d1734cdebc1e207990e06d329",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-23/04_04_INFO_VOLUME_02_V2414_EN_V2421.jpg",
+          "sha256": "4057e1c95bb537aa8c0bd256bc2a33caefbb21815ac4e78012539e9587957e35",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-23/05_05_01_HERO_EN_V2422.jpg",
+          "sha256": "b7ecef534dd7c02d9cf8ec23a7cc55a9f4e9a1f18ba3932509bcd5c773cb3c7c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-24",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-24/01_01_pending-24_factual_copy_revision_V2441.jpg",
+          "sha256": "7da04b597222c28ac7f2ede51f8f17f87563c99fdd6586a613d1a6a4128db14f",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-24/02_02_INV_01_216ad6670f_EN_V2421C.jpg",
+          "sha256": "fc44461c1b601aa53a03bfc156d24ebdb1c7722971f6f42dfe5037d5beaed6e4",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-24/03_03_INV_02_2bec7c259a_EN_V2421C.jpg",
+          "sha256": "2beff65732f8a4ecc51f046998b0e0bbf25eefc57734102fa241a44e9006de63",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-24/04_04_INV_03_6fcbb77da6_EN_V2421C.jpg",
+          "sha256": "a0a24258943d50b70908ac051c93924bc80750ecd3b2903e6865ad007e432619",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-24/05_05_INV_04_aa73fbe6f9_EN_V2421C.jpg",
+          "sha256": "3cb95eb8118ba446dad82e56b76512abb271a15be2725cbcbe2a616f5aae3003",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-25",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-25/01_pending-25_official_name_corrected_v2430c.jpg",
+          "sha256": "ae3841b4a15dd2da526fd5150442072729a73d9069bc5c456a8296f865055437",
+          "change": "reused existing v2430c corrected main",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-25/02_02_INV_02_8056a2f613_EN_V2421C.jpg",
+          "sha256": "194dfe1c6d8f468038f38655602b8b9cdbb56a62a91ffc23c4f42324d2addd03",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-25/03_03_INV_03_a7c25f91d5_EN_V2421C.jpg",
+          "sha256": "09293028c8081e33792fd5c00e4d90ec2040132bd60976a88f3d9ea5c47f3749",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-25/04_04_INV_04_c73f315531_EN_V2421C.jpg",
+          "sha256": "a8ab39fa974c7a35d090d5fee2bd2cfbc6cf4341e3b3e461716b8ed50364159e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-25/05_05_INV_05_f8ca8d48f2_EN_V2421C.jpg",
+          "sha256": "911eb6db224f7447465a234669c6f06602d593187f98e023d3347e5d6980d090",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-26",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-26/01_01_PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+          "sha256": "bc633c1e747cb5bd8da44b1e3f21c2439a2b79288d79be185f9a6f4539b4172c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-26/02_02_PIXELPURE_INFO_03_V2416C_EN_V2421.jpg",
+          "sha256": "5ae5442a6edfbbeee45cc7ae36e0432d3f73aaf0e424bdd03d5f95fa90ab82d3",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-26/03_03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+          "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-26/04_04_PIXELPURE_Gentle_Gel_145ml_HOW_TO_USE_V2443.jpg",
+          "sha256": "d8a40ca129718b493b9d05dda66e00c4ad63692e4e8724459b58d9eb094c71a0",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-26/05_05_PIXELPURE_Gentle_Gel_145ml_KEY_INGREDIENTS_V2443.jpg",
+          "sha256": "ece666962584934dd1e2177636f3a9eab49d2d310b181bf55f1802c08e3d12ba",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-27",
+      "candidate_frames_not_known_defective": 1,
+      "known_defective_frames_quarantined": 4,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-27/01_01_01_correct_200ml_bottle_layout_fixed_V2431b.jpg",
+          "sha256": "fe33d51aad43332684c8c3d06d1deef34941eb8f0c015e0c39e082e84134fecb",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "quarantine-known-visual-defects/pending-27/02_02_INV_02_4b4942e542_EN_V2421C.jpg",
+          "sha256": "0ba78c937994e3c360df39ef7f8edeba40033cd4ce22fab753d7fbff278853e5",
+          "change": "byte-identical preserved historical source",
+          "classification": "QUARANTINE_VISUAL_DEFECT",
+          "grounded_reason": "Visually verified unauthenticated MK logo seal on this exact original 200mL photo frame; not usable until licensed original logo/source repair",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "quarantine-known-visual-defects/pending-27/03_03_INV_03_7a9cbf05cb_EN_V2421C.jpg",
+          "sha256": "f366102c78df36a019cb16cfe729adbc5aaadbc3360b8e6e144e2348ee149afe",
+          "change": "byte-identical preserved historical source",
+          "classification": "QUARANTINE_VISUAL_DEFECT",
+          "grounded_reason": "Visually verified unauthenticated MK logo seal on this exact original 200mL photo frame; not usable until licensed original logo/source repair",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "quarantine-known-visual-defects/pending-27/04_04_INV_04_c04468ff58_EN_V2421C.jpg",
+          "sha256": "761a20c48980c9a8fb79d69ab8e7d0030b55ce4914ae3c52538851035fe09643",
+          "change": "byte-identical preserved historical source",
+          "classification": "QUARANTINE_VISUAL_DEFECT",
+          "grounded_reason": "Visually verified unauthenticated MK logo seal on this exact original 200mL photo frame; not usable until licensed original logo/source repair",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "quarantine-known-visual-defects/pending-27/05_05_INV_05_d3b8460b70_EN_V2421C.jpg",
+          "sha256": "04c8e1387a6f3ecdf3f13447d2ff0b7fca2cc2739dda205fa5f4a7ada7de0478",
+          "change": "byte-identical preserved historical source",
+          "classification": "QUARANTINE_VISUAL_DEFECT",
+          "grounded_reason": "Visually verified unauthenticated MK logo seal on this exact original 200mL photo frame; not usable until licensed original logo/source repair",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-28",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-28/01_01_INV_01_5a12115d60_EN_V2421C.jpg",
+          "sha256": "cca13642cd84f8f8dbfaf82568327bd469cc9b79d9987c4dce75f9c1a63a4bc7",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-28/02_02_INV_02_6d891af057_EN_V2421C.jpg",
+          "sha256": "d570e6a9d934218f35d6e1257ecb74643b22b2639cca3bc78bb08b195c542b3e",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-28/03_03_INV_03_7280158c0e_EN_V2421C.jpg",
+          "sha256": "a92bea78d2f72f88b2f147af43c1e689f461347daa27487583abc4b499489f1c",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-28/04_04_INV_04_b5da42cbe3_EN_V2421C.jpg",
+          "sha256": "6f3de54695624544c557c41de9fe38c45704da508920cbbc50d51aa808261348",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-28/05_05_INV_05_e921abb23e_EN_V2421C.jpg",
+          "sha256": "1e26cf1644e317db07075c42a89eec8c1230b2271b758133f8179b566f6a4d29",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-29",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-29/01_01_INV_01_023f07baae_EN_V2421C.jpg",
+          "sha256": "f8ee6aaa818bdf40b3b96e9dbae7617c4a443047914fb58a2da562c170e1d1ad",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-29/02_02_INV_02_1a858dfc39_EN_V2421C.jpg",
+          "sha256": "8c9eef513167da5361c2cea9ece8d3085019fc54d934f6823e06b75869396ee9",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-29/03_03_INV_03_2ebc3d949d_EN_V2421C.jpg",
+          "sha256": "0b339964a32cd8d07dafa15556737289197db0f06bbb5a0e13d5f83bbbc369e2",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-29/04_04_INV_04_70399a8937_EN_V2421C.jpg",
+          "sha256": "f042395f4606c0ec6d3911310680333e7bce151a740448eb9f554da49ed799ab",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-29/05_05_INV_05_ee51bf59e7_EN_V2421C.jpg",
+          "sha256": "189c680af1f081f6ac7b85360f5bc52500f135d618f7eea5dbb8e127f8086328",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    },
+    {
+      "group_id": "pending-30",
+      "candidate_frames_not_known_defective": 5,
+      "known_defective_frames_quarantined": 0,
+      "finished_five_frame_sale_set": false,
+      "release_permission": false,
+      "frames": [
+        {
+          "slot": 1,
+          "file": "reusable-customer-JPG-candidates/pending-30/01_01_INV_01_449aa19f31_EN_V2421C.jpg",
+          "sha256": "b6f5eb7ef53dd0b613aaeff87c5f55c3580301c412fe7cb72bbeb308b9817dca",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "reusable-customer-JPG-candidates/pending-30/02_02_INV_02_4d41995fb2_EN_V2421C.jpg",
+          "sha256": "2598dfe13706d000b27da7e20395d5499cf8392fd1245c986d82abf596c79d68",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "reusable-customer-JPG-candidates/pending-30/03_03_INV_03_a2a1622ea7_EN_V2421C.jpg",
+          "sha256": "99be0b234843a3fa71cd14affe55a175603dc42afc87abc97af9664963fc36f6",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "reusable-customer-JPG-candidates/pending-30/04_04_INV_04_a4f3f56578_EN_V2421C.jpg",
+          "sha256": "b6b3f2efacdad1a5f5c1df06322f64590c8f4446f32e23341cd0ae17bf31b21a",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "reusable-customer-JPG-candidates/pending-30/05_05_INV_05_ab82a2d14b_EN_V2421C.jpg",
+          "sha256": "c092a93c1a0c89e36e6b7f672a0cd481d399ba8ee5ce2f7eb47abb55ac59d3e1",
+          "change": "byte-identical preserved historical source",
+          "classification": "CANDIDATE_RIGHTS_QA_HOLD",
+          "grounded_reason": "Source or prior successfully corrected JPG retained verbatim; NOT independently commercial-approved",
+          "photo_reuse_rights": false,
+          "stock_generation_match": false,
+          "full_manual_visual_QA_complete": false,
+          "sale_release_approved": false
+        }
+      ]
+    }
+  ]
+}
