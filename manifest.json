@@ -1,0 +1,61 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-12",
+  "product": "MISSHA PDRN NAD Renew Peel Shot 25 15mL",
+  "three_new_JPG_files": [
+    {
+      "file": "03-real-liquid-dropper-scene.jpg",
+      "original_source": "original-01.jpg",
+      "role": "GENUINE_15ML_PRODUCT_LIQUID_SCENE",
+      "sha256": "961cb4eeab6be5850d7eb1e8fb8221ecaf881876c0a8080430eb2042e94f86c9",
+      "bytes": 165798,
+      "format": "JPEG",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_BYTES_READY_FINAL_QA_HOLD"
+    },
+    {
+      "file": "04-real-product-around-droppers.jpg",
+      "original_source": "original-04.jpg",
+      "role": "GENUINE_15ML_PRODUCT_WITH_DROPPERS",
+      "sha256": "7ba5ed63fef7d5a03eccb31ae9da67f687d202538bde45e1b44237d3ac3db7cc",
+      "bytes": 151324,
+      "format": "JPEG",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_BYTES_READY_FINAL_QA_HOLD"
+    },
+    {
+      "file": "05-real-standalone-15ml-shot.jpg",
+      "original_source": "original-05.jpg",
+      "role": "GENUINE_15ML_STANDALONE_PRODUCT",
+      "sha256": "ab30fce5cecd9424c9e88993b1aadcd503a5288e93614d1c863c07785623892d",
+      "bytes": 95292,
+      "format": "JPEG",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "status": "PHOTO_BYTES_READY_FINAL_QA_HOLD"
+    }
+  ],
+  "source_run_id": 41688077234,
+  "source_artifact_id": 13256570685,
+  "rejected_originals": [
+    "original-02.jpg popup",
+    "original-03.jpg duplicate of 01",
+    "original-06.jpg model/advertising",
+    "original-07.jpg Korean claim-based infographic",
+    "original-08.jpg Korean marketing detail"
+  ],
+  "existing_customer_JPGs_untouched": true,
+  "final_stock_edition_checked": false,
+  "commercial_rights_verified": false,
+  "original_MK_logo_applied": false,
+  "new_public_URLs": 0,
+  "excel_shared": false
+}
