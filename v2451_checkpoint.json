@@ -1,0 +1,161 @@
+{
+  "version": "2.4.51",
+  "prior_verified_25_images": "production-assets-v2450b-25-image-candidate-checkpoint",
+  "actual_new_customer_detail_JPGs": 7,
+  "newly_covered_families": 7,
+  "previous_25_JPGs_regenerated": 0,
+  "previously_untouched_source_JPGs_modified": 0,
+  "previous_public_55_URL_paths_modified": 0,
+  "model_lookalikes_generated": 0,
+  "color_swatches_generated": 0,
+  "new_final_sale_approved_sets": 0,
+  "no_spreadsheets_shared": true,
+  "results": [
+    {
+      "group_id": "pending-02",
+      "input_image": "146-QA-hold-candidate-images/pending-02/02_02_02_SOURCE_01_640302217_EN_V2421C.jpg",
+      "input_SHA256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+      "photo_crop": [
+        146,
+        70,
+        932,
+        831
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-02/pending-02_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "8035d5fbcaa38aaaec7d74a49733dbe026097c1b15953a9f696785253b2a4ad3",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Exact shade stock and package generation unverified"
+    },
+    {
+      "group_id": "pending-05",
+      "input_image": "146-QA-hold-candidate-images/pending-05/03_03_03_SOURCE_01_041b164bb_EN_V2421C.jpg",
+      "input_SHA256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+      "photo_crop": [
+        152,
+        91,
+        907,
+        832
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-05/pending-05_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "7227f859e68882b681d50b15b2ee7ae230f35086bca8bacf1afcdffef60d4fef",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Special set contents and exact shade edition unverified"
+    },
+    {
+      "group_id": "pending-06",
+      "input_image": "146-QA-hold-candidate-images/pending-06/02_02_02_SOURCE_01_8053457df_EN_V2421C.jpg",
+      "input_SHA256": "fe7c095d772c15949c48d8b26cec6f7c2a8553da02801366b4f5444302f50bec",
+      "photo_crop": [
+        457,
+        242,
+        743,
+        745
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-06/pending-06_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "f47e8d494e740e19959c2f79a06316f7917604256bd2fd9bf84a76048137ae1e",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Special bundle GIFT claims excluded; shade/edition and reseller photo rights unverified"
+    },
+    {
+      "group_id": "pending-07",
+      "input_image": "146-QA-hold-candidate-images/pending-07/02_02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+      "input_SHA256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+      "photo_crop": [
+        185,
+        438,
+        648,
+        760
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-07/pending-07_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "129ea447f3bab96e4be8c690e67121f233fe07bbd117c02e6bbc8f05f76d8b58",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Gift package/edition not confirmed; only product section cropped"
+    },
+    {
+      "group_id": "pending-10",
+      "input_image": "146-QA-hold-candidate-images/pending-10/02_02_02_SOURCE_01_363f13d61_EN_V2421C.jpg",
+      "input_SHA256": "69e61adbc200335d2c1b33abebaa6123334066b718480fccfa8a09898c666e5e",
+      "photo_crop": [
+        300,
+        258,
+        758,
+        662
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-10/pending-10_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "ed62cf8e54e21a866ef86674680fe805010f00f5fa0b5ca4bf7b35f1a4cdc9ca",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Real package source may be older generation; official shades 1/2/3 unverified"
+    },
+    {
+      "group_id": "pending-21",
+      "input_image": "146-QA-hold-candidate-images/pending-21/04_04_04_PHOTO_01_V2413.jpg",
+      "input_SHA256": "e2d99386499ebc713892605d88f2832698327119b18d7e869dd36fdf91129c01",
+      "photo_crop": [
+        390,
+        67,
+        698,
+        816
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-21/pending-21_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "ebf27da5ce6a593d50d09ac97d6b65a02cc3bda12f1e1bb96a292b0cbd58eefb",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Exact eye cream generation and 25AD correspondence unverified"
+    },
+    {
+      "group_id": "pending-23",
+      "input_image": "146-QA-hold-candidate-images/pending-23/05_05_05_01_HERO_EN_V2422.jpg",
+      "input_SHA256": "b7ecef534dd7c02d9cf8ec23a7cc55a9f4e9a1f18ba3932509bcd5c773cb3c7c",
+      "photo_crop": [
+        346,
+        158,
+        720,
+        817
+      ],
+      "output": "new-real-photo-detail-JPGs/pending-23/pending-23_actual-photograph-detail_V2451.jpg",
+      "output_SHA256": "e29128645351682b7046987bc5a303d1afa1a6a63601b6047b845b0c5983e782",
+      "photos_synthetically_generated": false,
+      "post_render_visual_QA": "PENDING",
+      "product_generation": "PENDING",
+      "photo_commercial_reuse_rights": "PENDING",
+      "MK_authentic_logo": "NOT_APPLIED",
+      "sale_approved": false,
+      "hold_reason": "Tube package generation and commercial source photo rights unverified"
+    }
+  ],
+  "next": [
+    "Open all seven actual JPGs directly; reject blurred, mismatched or distorted crops",
+    "Check logo against known MK controls, do not infer commercial rights",
+    "Maintain 25 prior successful images byte-identically and handle remaining absent families",
+    "Verify official exact product-generation shade charts before publishing"
+  ]
+}
