@@ -1,0 +1,53 @@
+name: Shopee v2511 replace incorrect OBgE Homme photo family by exact 15g draft
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2511-obge-homme-exact-15g.yml'
+      - 'scripts/v2511_obge_homme_exact_15g_replacement_five.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  repair-five:
+    runs-on: ubuntu-latest
+    timeout-minutes: 19
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore authenticated OBgE Perfect Homme 15g product photo sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41696226787 -n shopee-v2510-OBgE-Perfect-Homme-15g-real-originals-QA-HOLD -D v2510-sources
+      - name: Generate exactly five candidate frames from true 15g edition
+        run: |
+          python scripts/v2511_obge_homme_exact_15g_replacement_five.py
+          test "$(find v2511-obge-homme-15g-corrected-five -maxdepth 1 -name '*.jpg' | wc -l)" -eq 5
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2511-OBgE-Homme-15g-five-correct-photo-JPG-QA-HOLD
+          path: v2511-obge-homme-15g-corrected-five/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save separately, never alter 55 public URLs or user workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2511-obge-homme-15g-corrected-five /tmp/v2511-files
+          git worktree add --detach /tmp/v2511-wt HEAD
+          cd /tmp/v2511-wt
+          git switch --orphan production-assets-v2511-obge-homme-15g-corrected
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2511-files/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve true dark square 15g OBgE Perfect Homme Cushion five candidate JPGs'
+          git push origin HEAD:refs/heads/production-assets-v2511-obge-homme-15g-corrected
