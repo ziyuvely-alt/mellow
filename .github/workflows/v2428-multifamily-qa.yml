@@ -1,0 +1,53 @@
+name: Shopee v2428 eight-group non-destructive JPG QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2428-multifamily-qa.yml'
+      - 'scripts/v2428_multifamily_qa.py'
+permissions:
+  contents: write
+jobs:
+  verify-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image QA dependencies
+        run: python -m pip install Pillow
+      - name: Recover exact immutable v2427b checkpoint
+        run: |
+          mkdir -p v2427b-source
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+      - name: Run v2428 actual JPG QA and 8-group queue
+        run: python scripts/v2428_multifamily_qa.py
+      - name: Upload actual v2428 evidence and QA images
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2428-multifamily-image-QA
+          path: v2428-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save immutable new evidence branch without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2428-output /tmp/v2428-result
+          git worktree add --detach /tmp/v2428-wt HEAD
+          cd /tmp/v2428-wt
+          git switch --orphan production-assets-v2428-multifamily-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2428-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve v2428 multi-family factual JPG QA and source SHA manifest; no sales release'
+          git push origin HEAD:refs/heads/production-assets-v2428-multifamily-qa
