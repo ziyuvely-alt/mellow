@@ -1,0 +1,28 @@
+name: Shopee v2461 stage CLIO Blur and OBgE Homme exact photo references
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2461-two-photo-refs.yml'
+      - 'scripts/v2461_two_independent_shade_source_captures.py'
+permissions:
+  contents: read
+jobs:
+  source-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Collect exact product photos and flag OBgE generation mismatch
+        run: python scripts/v2461_two_independent_shade_source_captures.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2461-exact-shade-photos-licence-edition-HOLD
+          path: v2461-real-option-evidence/
+          if-no-files-found: error
+          retention-days: 90
