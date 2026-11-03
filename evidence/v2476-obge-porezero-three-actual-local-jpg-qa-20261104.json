@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-23",
+  "product": "OBgE Pore Zero Oil Control Sun Cream 50ml",
+  "original_source_artifact": 13253648536,
+  "source_candidates": [
+    {
+      "source": "soonsu-mint-cube.webp",
+      "verified_identity": "white and mint Pore-Zero Oil Control Sun Cream tube",
+      "rights": "unverified"
+    },
+    {
+      "source": "dodoskin-product-texture.webp",
+      "verified_identity": "white and mint Pore-Zero Oil Control Sun Cream tubes and visible cream texture",
+      "rights": "unverified"
+    }
+  ],
+  "local_draft_files": [
+    {
+      "name": "06-actual-mint-hero.jpg",
+      "bytes": 123129,
+      "sha256": "ff8c3b1f97aaa6f3d4f2d1b0768d2f07a4c98bce538b502609254ac86117aec5"
+    },
+    {
+      "name": "07-actual-cream-texture.jpg",
+      "bytes": 116628,
+      "sha256": "0ecfbdc61b25ef127ee587ccdaf1abe237e612af924789c797bfb119051ed139"
+    },
+    {
+      "name": "08-factual-product-check.jpg",
+      "bytes": 100337,
+      "sha256": "3400577e961eaeae7fa1ea7fffd0c0fc029ebf9574457e9e9de63f4b27d7d786"
+    }
+  ],
+  "originals_unchanged": true,
+  "new_jpg_created_in_current_container": 3,
+  "full_image_qa_approved": false,
+  "hold_reasons": [
+    "Original MK logo unavailable",
+    "Commercial photo reuse rights not verified",
+    "Exact physical stock package edition not compared",
+    "Frame positions must be compared to previous images to avoid duplicates"
+  ],
+  "previous_public_urls_untouched": 55,
+  "new_public_urls": 0,
+  "excel_shared": false
+}
