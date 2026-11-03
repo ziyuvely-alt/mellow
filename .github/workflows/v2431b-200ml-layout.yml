@@ -1,0 +1,51 @@
+name: Shopee v2431b actual 200ml photo layout repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2431b-200ml-layout.yml'
+      - 'scripts/v2431b_fix_200ml_layout.py'
+permissions:
+  contents: write
+jobs:
+  layout-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore immutable real photo
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Fix layout without altering photograph or original files
+        run: python scripts/v2431b_fix_200ml_layout.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2431b-corrected-200ml-photo-layout
+          path: v2431b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve draft separately, no public asset publish
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2431b-output /tmp/v2431b-save
+          git worktree add --detach /tmp/v2431b-wt HEAD
+          cd /tmp/v2431b-wt
+          git switch --orphan production-assets-v2431b-200ml-layout-clean
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2431b-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store corrected 200mL source-backed retail draft without overflow'
+          git push origin HEAD:refs/heads/production-assets-v2431b-200ml-layout-clean
