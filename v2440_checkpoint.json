@@ -1,0 +1,52 @@
+{
+  "version": "2.4.40",
+  "edited_jpg": 3,
+  "edited_groups": 3,
+  "source_jpg_overwrites": 0,
+  "published_image_url_changes": 0,
+  "new_official_swatch_charts": 0,
+  "sales_approved": 0,
+  "edits": [
+    {
+      "group": "pending-02",
+      "original": "pending-02/INFO_SUN_01_V2414B_EN_V2421.jpg",
+      "original_sha256": "6bfb6978c217d185f17116566e2858769f69706bd905b5cb3a33aa13a8b404f2",
+      "updated": "sales-image-drafts/pending-02/pending-02_observed_card_collision_repair_V2440.jpg",
+      "updated_sha256": "10c845fbf8a80700ea1e8c3b79882eba9da9f964eaa984a9f744e2ea7378ec5e",
+      "issue": "ornamental circle intersects PA+++ headline",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_review": "PENDING",
+      "rights": "HOLD",
+      "physical_stock": "HOLD"
+    },
+    {
+      "group": "pending-05",
+      "original": "pending-05/INFO_PACKAGE_01_V2414_EN_V2421.jpg",
+      "original_sha256": "d5f35785a7fea0cc232ccd7af18880ca08c77d3d83bf1b5c51d9f56923d589eb",
+      "updated": "sales-image-drafts/pending-05/pending-05_observed_card_collision_repair_V2440.jpg",
+      "updated_sha256": "0c9dcfa3a8fe3dba514a1b6ce81ffeca3666d37ef32b5934359f81827399ad6e",
+      "issue": "ornamental circle intersects long Founwear headline; lower copy too generic",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_review": "PENDING",
+      "rights": "HOLD",
+      "physical_stock": "HOLD"
+    },
+    {
+      "group": "pending-10",
+      "original": "pending-10/INFO_05_V2413_EN_V2421.jpg",
+      "original_sha256": "5a19d009bed2baecc9a6977ca7ba5ef9849600af529720b858a9f81732a635b4",
+      "updated": "sales-image-drafts/pending-10/pending-10_observed_card_collision_repair_V2440.jpg",
+      "updated_sha256": "3bf8e1239b0818b0672ffa562da6f94e8bf36a9e5d15116401b9cc4b25e47c84",
+      "issue": "ornament intersects information panel; retain correct product caption",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_review": "PENDING",
+      "rights": "HOLD",
+      "physical_stock": "HOLD"
+    }
+  ],
+  "next": [
+    "Manually visually inspect all 3 new JPG for border/text defects",
+    "Verify exact stock package and commercial rights",
+    "Continue preserving pending-12 INCI unverified instead of rewriting ingredient claim"
+  ]
+}
