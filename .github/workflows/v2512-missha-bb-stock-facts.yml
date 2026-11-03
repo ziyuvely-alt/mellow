@@ -1,0 +1,49 @@
+name: Shopee v2512 MISSHA BB legacy stock two factual photo-free JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2512-missha-bb-stock-facts.yml'
+      - 'scripts/v2512_missha_old_bb_two_stock_info.py'
+permissions:
+  contents: write
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Only two new stock facts JPG, no unverified package photo
+        run: |
+          python scripts/v2512_missha_old_bb_two_stock_info.py
+          test -s v2512-missha-m-perfect-bb-two-factual/04-stock-3-shade-name-guide.jpg
+          test -s v2512-missha-m-perfect-bb-two-factual/05-legacy-stock-package-check.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2512-missha-legacy-BB-two-stock-fact-JPG-QA-HOLD
+          path: v2512-missha-m-perfect-bb-two-factual/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate assets only
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2512-missha-m-perfect-bb-two-factual /tmp/v2512-out
+          git worktree add --detach /tmp/v2512-wt HEAD
+          cd /tmp/v2512-wt
+          git switch --orphan production-assets-v2512-missha-bb-stock-info
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2512-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve exact owned shade facts for legacy MISSHA BB, photo and logo QA pending'
+          git push origin HEAD:refs/heads/production-assets-v2512-missha-bb-stock-info
