@@ -1,0 +1,667 @@
+{
+  "version": "2.4.40d",
+  "baseline": "production-assets-v2438c-consolidated-checkpoint",
+  "source_batches": [
+    "production-assets-v2439-four-edits-30group-audit",
+    "production-assets-v2439b-five-real-card-fixes",
+    "production-assets-v2440-three-card-repairs"
+  ],
+  "run_ids": [
+    41653189335,
+    41653531478,
+    41654177516
+  ],
+  "artifact_ids": [
+    13237522920,
+    13238042991,
+    13237799199
+  ],
+  "customer_jpg_latest_edits_copied_exactly": 12,
+  "distinct_groups_with_edits": 11,
+  "all_30_groups_historical_JPG_inventory": "included",
+  "original_JPG_count_SHA256_reverified": 531,
+  "historical_source_or_QA_images_not_1080x1080": 15,
+  "historical_source_nonspec_images_not_sales_assets": true,
+  "altered_historical_JPG": 0,
+  "modified_existing_public_image_paths": 0,
+  "published_URLs_retested_over_HTTP": false,
+  "official_shade_charts_new": 0,
+  "FINAL_QA_APPROVED_new": 0,
+  "all_30_groups_full_visual_QA_complete": false,
+  "original_MK_logo_binary_recovered": false,
+  "stock_package_verified": 0,
+  "commercial_photo_reuse_rights_verified": 0,
+  "latest_real_customer_JPG_drafts": [
+    {
+      "group_id": "pending-05",
+      "source_batch": "v2439-source",
+      "immutable_sha256": "1b7da7961aacd75608ab156c9f2a993daa29f00a6bcd9794bccc0a733894ebe4",
+      "path": "new-customer-JPG-drafts/pending-05/v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg",
+      "size": 54268,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-07",
+      "source_batch": "v2439-source",
+      "immutable_sha256": "a781fa2249476c598f793cfde0970aecb8440e0680648c7429e8cfb7d871720e",
+      "path": "new-customer-JPG-drafts/pending-07/v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg",
+      "size": 58564,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-17",
+      "source_batch": "v2439-source",
+      "immutable_sha256": "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796",
+      "path": "new-customer-JPG-drafts/pending-17/v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg",
+      "size": 47190,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-19",
+      "source_batch": "v2439-source",
+      "immutable_sha256": "ccddd757abd6da10e822b36a924df4734287cd55808ee01467f88450ca8d8e9d",
+      "path": "new-customer-JPG-drafts/pending-19/v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg",
+      "size": 52525,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-01",
+      "source_batch": "v2439b-source",
+      "immutable_sha256": "64fff2ac31833c6c1c5d3cd385658a18241355a251aec4d9150c8a3e95435a1f",
+      "path": "new-customer-JPG-drafts/pending-01/v2439b-source__pending-01_original_text_clean_card_V2439b.jpg",
+      "size": 62108,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-06",
+      "source_batch": "v2439b-source",
+      "immutable_sha256": "7c440a9a2bf91a7f7d159079a34b9fc798751ddc20a44d03d0fffbad28cd5d12",
+      "path": "new-customer-JPG-drafts/pending-06/v2439b-source__pending-06_original_text_clean_card_V2439b.jpg",
+      "size": 56532,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-09",
+      "source_batch": "v2439b-source",
+      "immutable_sha256": "37e89ce87c3fabee25f5190a07b9d6abe0980fcfc6ca941f1a53a8d5fd5d1c62",
+      "path": "new-customer-JPG-drafts/pending-09/v2439b-source__pending-09_original_text_clean_card_V2439b.jpg",
+      "size": 45448,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-14",
+      "source_batch": "v2439b-source",
+      "immutable_sha256": "6ab80a587197e2375dbe9221d668d6b323938691f1d6c66775bc96475328bf4b",
+      "path": "new-customer-JPG-drafts/pending-14/v2439b-source__pending-14_original_text_clean_card_V2439b.jpg",
+      "size": 45510,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-23",
+      "source_batch": "v2439b-source",
+      "immutable_sha256": "153fd86fdcba72506a8a6a71a6798716a078c858ed4557b3225bca5db3013baa",
+      "path": "new-customer-JPG-drafts/pending-23/v2439b-source__pending-23_original_text_clean_card_V2439b.jpg",
+      "size": 55917,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-02",
+      "source_batch": "v2440-source",
+      "immutable_sha256": "10c845fbf8a80700ea1e8c3b79882eba9da9f964eaa984a9f744e2ea7378ec5e",
+      "path": "new-customer-JPG-drafts/pending-02/v2440-source__pending-02_observed_card_collision_repair_V2440.jpg",
+      "size": 57091,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-05",
+      "source_batch": "v2440-source",
+      "immutable_sha256": "0c9dcfa3a8fe3dba514a1b6ce81ffeca3666d37ef32b5934359f81827399ad6e",
+      "path": "new-customer-JPG-drafts/pending-05/v2440-source__pending-05_observed_card_collision_repair_V2440.jpg",
+      "size": 65603,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    },
+    {
+      "group_id": "pending-10",
+      "source_batch": "v2440-source",
+      "immutable_sha256": "3bf8e1239b0818b0672ffa562da6f94e8bf36a9e5d15116401b9cc4b25e47c84",
+      "path": "new-customer-JPG-drafts/pending-10/v2440-source__pending-10_observed_card_collision_repair_V2440.jpg",
+      "size": 48135,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_design_checked": true,
+      "commercial_reuse_permission": "NOT_VERIFIED",
+      "product_stock_package": "NOT_VERIFIED",
+      "official_shade_match": "NOT_CONFIRMED_WHERE_REQUIRED"
+    }
+  ],
+  "historical_nonspec_source_files": [
+    {
+      "group_id": "pending-09",
+      "source": "immutable-v2426b/originals-v2425-unchanged/before-after-authentic-photos/pending-09/01_comparison.jpg",
+      "dimensions": [
+        1080,
+        585
+      ]
+    },
+    {
+      "group_id": "pending-09",
+      "source": "immutable-v2426b/originals-v2425-unchanged/before-after-authentic-photos/pending-09/02_comparison.jpg",
+      "dimensions": [
+        1080,
+        585
+      ]
+    },
+    {
+      "group_id": "pending-10",
+      "source": "before-after-four/pending-10/INFO_03_V2413_EN_V2421.jpg",
+      "dimensions": [
+        1080,
+        565
+      ]
+    },
+    {
+      "group_id": "pending-10",
+      "source": "before-after-four/pending-10/INFO_04_V2413_EN_V2421.jpg",
+      "dimensions": [
+        1080,
+        565
+      ]
+    },
+    {
+      "group_id": "pending-10",
+      "source": "before-after-four/pending-10/INFO_05_V2413_EN_V2421.jpg",
+      "dimensions": [
+        1080,
+        565
+      ]
+    },
+    {
+      "group_id": "pending-10",
+      "source": "before-after-four/pending-10/INFO_SCOPE_01_V2414_EN_V2421.jpg",
+      "dimensions": [
+        1080,
+        565
+      ]
+    },
+    {
+      "group_id": "pending-22",
+      "source": "immutable-v2426b/originals-v2425-unchanged/before-after-authentic-photos/pending-22/01_comparison.jpg",
+      "dimensions": [
+        1080,
+        585
+      ]
+    },
+    {
+      "group_id": "pending-27",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-27/c34406f23ac521d585f.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "group_id": "pending-28",
+      "source": "immutable-v2426b/originals-v2425-unchanged/before-after-authentic-photos/pending-28/03_comparison.jpg",
+      "dimensions": [
+        1080,
+        585
+      ]
+    },
+    {
+      "group_id": "pending-28",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-28/0462495f3721b557556.jpg",
+      "dimensions": [
+        2371,
+        3554
+      ]
+    },
+    {
+      "group_id": "pending-28",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-28/37e09d62a94a2b06dfe.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "group_id": "pending-29",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-29/6ed87c404f138922fba.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "group_id": "pending-29",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-29/98fedf3f723b1e70ed4.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    },
+    {
+      "group_id": "pending-30",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-30/ba939cf54e644a224cf.jpg",
+      "dimensions": [
+        600,
+        600
+      ]
+    },
+    {
+      "group_id": "pending-30",
+      "source": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/authentic-photo-originals/pending-30/d44b5579e7bf4a24450.jpg",
+      "dimensions": [
+        1000,
+        1000
+      ]
+    }
+  ],
+  "families": [
+    {
+      "group_id": "pending-01",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-01/v2439b-source__pending-01_original_text_clean_card_V2439b.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-02",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-02/v2440-source__pending-02_observed_card_collision_repair_V2440.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-03",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-04",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-05",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 2,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-05/v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg",
+        "new-customer-JPG-drafts/pending-05/v2440-source__pending-05_observed_card_collision_repair_V2440.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-06",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-06/v2439b-source__pending-06_original_text_clean_card_V2439b.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-07",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-07/v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-08",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-09",
+      "historical_JPG_count": 35,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-09/v2439b-source__pending-09_original_text_clean_card_V2439b.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-10",
+      "historical_JPG_count": 18,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-10/v2440-source__pending-10_observed_card_collision_repair_V2440.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": true
+    },
+    {
+      "group_id": "pending-11",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-12",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-13",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-14",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-14/v2439b-source__pending-14_original_text_clean_card_V2439b.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-15",
+      "historical_JPG_count": 16,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-16",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-17",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-17/v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-18",
+      "historical_JPG_count": 16,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-19",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-19/v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-20",
+      "historical_JPG_count": 10,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-21",
+      "historical_JPG_count": 8,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-22",
+      "historical_JPG_count": 34,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-23",
+      "historical_JPG_count": 9,
+      "fresh_edited_frames": 1,
+      "fresh_edited_paths": [
+        "new-customer-JPG-drafts/pending-23/v2439b-source__pending-23_original_text_clean_card_V2439b.jpg"
+      ],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-24",
+      "historical_JPG_count": 25,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-25",
+      "historical_JPG_count": 25,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-26",
+      "historical_JPG_count": 5,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-27",
+      "historical_JPG_count": 28,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-28",
+      "historical_JPG_count": 30,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-29",
+      "historical_JPG_count": 31,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    },
+    {
+      "group_id": "pending-30",
+      "historical_JPG_count": 29,
+      "fresh_edited_frames": 0,
+      "fresh_edited_paths": [],
+      "5_or_6_frame_manual_complete_visual_QA": false,
+      "group_final_sale_approval": false,
+      "source_rights_hold": true,
+      "stock_package_check_hold": true,
+      "exact_generation_shade_chart_hold": false
+    }
+  ],
+  "remaining_priority": [
+    "pending-01 Cover Lasting: exclude No.21 and verify official 23/25/27 same generation shade source",
+    "pending-08 Peripera: 01..20 generation exact 04/06/07 and 12 naming, do not mix 26AD",
+    "pending-10 OBgE Cushion: officially authorized real transparent photo + current 1 Ivory/2 Beige/3 Sand package",
+    "pending-21 goodal eye-care exact physical product identity, source ingredients",
+    "Additional active 5/6 image frames manual per-frame QA beyond partial reviewed subset",
+    "Reacquire original MK logo PNG bytes; verify each commercial photo's usage permission and stock packaging",
+    "Do not upload drafts to Shopee or change prior 55 URLs until approvals complete"
+  ],
+  "notice": "GitHub branches are not access-private if repository public; no external messages or Shopee publishing occurred"
+}
