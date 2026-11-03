@@ -1,0 +1,53 @@
+{
+  "version": "2.4.55",
+  "brand_product": "OBgE MAX Waterful Sun Cream 300 mL",
+  "official_source": "https://www.obge.co.kr/product/detail.html?cate_no=43&display_group=1&product_no=1251",
+  "official_page_product_no": 1251,
+  "verified_ingredients": [
+    "Panthenol",
+    "Ectoin",
+    "Sodium Hyaluronate",
+    "Hyaluronic Acid",
+    "Hydrolyzed Hyaluronic Acid",
+    "Potassium Hyaluronate"
+  ],
+  "verified_function_text": [
+    "UV protection",
+    "Helps improve the appearance of wrinkles"
+  ],
+  "new_distinct_customer_fact_JPG": 2,
+  "previous_v2454_2_fact_JPGs_reproduced": 0,
+  "previous_v2454b_36_success_JPGs_reproduced": 0,
+  "invented_product_pixels": 0,
+  "new_swatches": 0,
+  "new_unlicensed_MK_logo": 0,
+  "old_published_55_URL_changes": 0,
+  "old_531_original_photo_changes": 0,
+  "commercial_photo_rights_verified": false,
+  "stock_package_generation_verified": false,
+  "FINAL_SALES_APPROVED": false,
+  "no_XLSX_or_Google_Sheets_created_or_shared": true,
+  "new_files": [
+    {
+      "file": "pending-22-new-official-source-fact-JPGs/03_OBGE_300ml_official_ingredients_V2455.jpg",
+      "sha256": "1a2b0dd9f371051fdfa63107dab4ae94b4585606b07f1719146fa1991deb649f",
+      "status": "BRAND_OFFICIAL_TEXT_FACTS_VERIFIED",
+      "photo_licensing": "NO_BRAND_PRODUCT_PHOTO_USED",
+      "exact_stock_package": "NOT_VERIFIED",
+      "final_sale_approved": false
+    },
+    {
+      "file": "pending-22-new-official-source-fact-JPGs/04_OBGE_300ml_official_function_V2455.jpg",
+      "sha256": "651288326368943b6281bd350626842b473f63d05bed21385eebbac105379a05",
+      "status": "BRAND_OFFICIAL_TEXT_FACTS_VERIFIED",
+      "photo_licensing": "NO_BRAND_PRODUCT_PHOTO_USED",
+      "exact_stock_package": "NOT_VERIFIED",
+      "final_sale_approved": false
+    }
+  ],
+  "next": [
+    "Visually inspect the two new files and reject layout defects",
+    "Reuse exactly earlier successful 36 JPEG bytes and only append these 2 distinct fact-card JPEGs",
+    "Continue true-product photo and shade generation review for pending-01, pending-08 and pending-22"
+  ]
+}
