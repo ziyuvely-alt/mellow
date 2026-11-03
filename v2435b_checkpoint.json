@@ -1,0 +1,19 @@
+{
+  "version": "2.4.35b",
+  "group": "pending-30",
+  "actual_product_photo_frame_modified": 1,
+  "source": "INV_03_a2a1622ea7_EN_V2421C.jpg",
+  "source_sha256": "99be0b234843a3fa71cd14affe55a175603dc42afc87abc97af9664963fc36f6",
+  "superseded_frame": "INV_01_449aa19f31_EN_V2421C.jpg",
+  "new_file": "sales-image-drafts/pending-30/PIXELPURE_Aura_Radiance_50ml_full_bottle_V2435b.jpg",
+  "new_sha256": "912823f8993fe10e345b7c91549e50aea57f1c61e03d647cddf2eacd1c961d2f",
+  "product_pictured": "PIXELPURE Aura Radiance Serum 50mL, original photographed packaging",
+  "photo_source_pixels_generated": false,
+  "MK_badge_omitted_by_cropping": true,
+  "brand_photo_rights_verified": false,
+  "stock_package_verified": false,
+  "visual_QA_after_edit": "PENDING",
+  "FINAL_QA_APPROVED": false,
+  "public_URL_changed": 0,
+  "original_photos_overwritten": 0
+}
