@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting 15g",
+  "new_files": [
+    {
+      "filename": "05-4-shade-name-guide.jpg",
+      "bytes": 100765,
+      "sha256": "a3405abc3dfe9a34cd7533dc426349af7755c454a018d314ab7e6a584b04c646",
+      "size": [
+        1080,
+        1080
+      ],
+      "role": "Authentic 21/23/25/27 names only; NOT a photographic shade chart",
+      "sales_approved": false
+    },
+    {
+      "filename": "06-puff-application-guide.jpg",
+      "bytes": 102475,
+      "sha256": "92891537beab5b8a5c2474febac001a332531b64683177f8ef73b1138c81ee0e",
+      "size": [
+        1080,
+        1080
+      ],
+      "role": "Basic use guide from Korean seller product instructions",
+      "sales_approved": false
+    }
+  ],
+  "previous_product_photo_JPGs_untouched": 4,
+  "shade_options": [
+    "21 Light Beige",
+    "23 Natural Beige",
+    "25 Warm Beige",
+    "27 Honey Beige"
+  ],
+  "shade_name_reference": "https://www.watsons.ae/products/missha-magic-cushion-cover-lasting-foundation-15g",
+  "usage_reference": "https://m.cos-up.com/product/missha-%EB%AF%B8%EC%83%A4-%EB%A7%A4%EC%A7%81-%EC%BF%A0%EC%85%98-%EC%BB%A4%EB%B2%84-%EB%9E%98%EC%8A%A4%ED%8C%85-spf50-pa/1263/",
+  "fabricated_shade_colors": false,
+  "official_photographic_shade_chart_approved": false,
+  "actual_owned_stock_edition_confirmed": false,
+  "original_MellowKR_MK_logo_applied": false,
+  "public_url_new_count": 0,
+  "excel_shared": false,
+  "full_sales_QA": "HOLD"
+}
