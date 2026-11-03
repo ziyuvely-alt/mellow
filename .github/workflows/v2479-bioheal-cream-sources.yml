@@ -1,0 +1,27 @@
+name: Shopee v2479 BIOHEAL NAD Glow Boost Cream 50ml exact source acquisition
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2479-bioheal-cream-sources.yml'
+      - 'scripts/v2479_bioheal_nad_boost_cream_source.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2479_bioheal_nad_boost_cream_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2479-bioheal-cream-50ml-real-source-QA-HOLD
+          path: v2479-bioheal-nad-cream-source/
+          retention-days: 90
+          if-no-files-found: error
