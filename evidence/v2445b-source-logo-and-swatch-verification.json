@@ -1,0 +1,87 @@
+{
+  "version": "2.4.45b-evidence-addendum",
+  "latest_success_run": 41660487626,
+  "image_state": {
+    "source_images_reconciled": 150,
+    "known_MK_logo_defects_quarantined": 4,
+    "QA_hold_candidate_JPGs": 146,
+    "pending25_caption_repairs_reused": 4,
+    "final_sales_approved": 0
+  },
+  "original_MK_logo_search": {
+    "expected": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "searched_refs": [
+      "main",
+      "production-assets-v2427b-obge-shade-clean",
+      "production-assets-v2445b-corrected-QA-hold-146"
+    ],
+    "found_in_searched_refs": false,
+    "scope_limitation": "Other historical branches or user asset storage not exhaustively searched; original reference image permission not verified",
+    "action": "Do not synthesize an alternative or treat placeholder MK seals as brand-licensed"
+  },
+  "CLIO_mini_swatch_evidence": {
+    "sku": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+    "options": [
+      "21C Lingerie",
+      "21N Linen",
+      "23N Ginger"
+    ],
+    "source_provenance_file": "production-assets-v2427b-obge-shade-clean/immutable-v2426b/clio_mini_swatch_provenance.json",
+    "source_type": "CLIO chart reproduced by an external retailer",
+    "same_generation_exact_package": "NOT_VERIFIED",
+    "brand_origin_directly_verified": false,
+    "commercial_reuse_permission_verified": false,
+    "release_status": "SWATCH_DRAFT_QA_HOLD"
+  },
+  "visual_verified_this_turn": [
+    {
+      "product_group": "pending-27",
+      "slots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "issue": "Unverified MK seal in all four 200mL toner historical photo frames",
+      "action": "Quarantined in v2444 and kept isolated in v2445b"
+    },
+    {
+      "product_group": "pending-25",
+      "slots": [
+        2,
+        3,
+        4,
+        5
+      ],
+      "issue": "Misspelled Preezcel in lower customer image caption",
+      "action": "Corrected actual four JPGs, visually reopened each, source product pixels preserved"
+    },
+    {
+      "product_group": "pending-25",
+      "slot": 1,
+      "issue": "Earlier old caption typo",
+      "action": "Reused corrected v2430c image without regeneration"
+    },
+    {
+      "product_group": "pending-21",
+      "slots": [
+        4,
+        5
+      ],
+      "issue": "Original Goodal eye cream 30mL photographs show intact yellow product tube, precise edition and commercial reuse not approved",
+      "action": "Keep source QA hold"
+    }
+  ],
+  "next_action_order": [
+    "Recover licensed authentic MK logo binary",
+    "Verify product/edition-specific licensed original imagery and rights before publishing",
+    "Validate same-generation official swatch for CLIO MISSHA Peripera and OBgE",
+    "Finish direct visual review of uninspected images across all 30 groups; do not infer QA from file count"
+  ],
+  "constraints": {
+    "public_55_URL_paths_changed": 0,
+    "original_531_JPGs_rewritten": 0,
+    "brand_communication_sent": false,
+    "Shopee_upload_performed": false
+  }
+}
