@@ -1,0 +1,90 @@
+{
+  "version": "2.4.41c",
+  "prior_immutable_checkpoint": "production-assets-v2440e-12-drafts-consolidated",
+  "prior_12_customer_JPG_recreated": false,
+  "new_real_JPGs": 5,
+  "new_groups": 5,
+  "groups": [
+    "pending-13",
+    "pending-18",
+    "pending-19",
+    "pending-22",
+    "pending-24"
+  ],
+  "new_customer_jpg": [
+    {
+      "group_id": "pending-24",
+      "file": "new-only-5-JPGs/pending-24/pending-24_factual_copy_revision_V2441.jpg",
+      "sha256": "7da04b597222c28ac7f2ede51f8f17f87563c99fdd6586a613d1a6a4128db14f",
+      "state": "SALES_IMAGE_DRAFT",
+      "individual_visual_design_review": "PASS",
+      "exact_stock_package_verification": "PENDING",
+      "commercial_photo_rights": "PENDING"
+    },
+    {
+      "group_id": "pending-18",
+      "file": "new-only-5-JPGs/pending-18/pending-18_factual_copy_revision_V2441.jpg",
+      "sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c",
+      "state": "SALES_IMAGE_DRAFT",
+      "individual_visual_design_review": "PASS",
+      "exact_stock_package_verification": "PENDING",
+      "commercial_photo_rights": "PENDING"
+    },
+    {
+      "group_id": "pending-22",
+      "file": "new-only-5-JPGs/pending-22/pending-22_factual_copy_revision_V2441.jpg",
+      "sha256": "d7aa6d5332a18c52126eca33966c967b44b150a5eeb2d6ca316604d6d7ca5388",
+      "state": "SALES_IMAGE_DRAFT",
+      "individual_visual_design_review": "PASS",
+      "exact_stock_package_verification": "PENDING",
+      "commercial_photo_rights": "PENDING"
+    },
+    {
+      "group_id": "pending-13",
+      "file": "new-only-5-JPGs/pending-13/pending-13_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "state": "SALES_IMAGE_DRAFT",
+      "individual_visual_design_review": "PASS",
+      "exact_stock_package_verification": "PENDING",
+      "commercial_photo_rights": "PENDING"
+    },
+    {
+      "group_id": "pending-19",
+      "file": "new-only-5-JPGs/pending-19/pending-19_second_frame_fact_repair_V2441b.jpg",
+      "sha256": "5443bd4cbc1c8f83d274763cba330d8d3cdf17773c09ae644e7810f7f44f8e30",
+      "state": "SALES_IMAGE_DRAFT",
+      "individual_visual_design_review": "PASS",
+      "exact_stock_package_verification": "PENDING",
+      "commercial_photo_rights": "PENDING"
+    }
+  ],
+  "original_source_JPG_overwrites": 0,
+  "public_URL_changes": 0,
+  "published_55_URL_HTTP_check": false,
+  "photo_permission_granted": 0,
+  "stock_package_checked": 0,
+  "FINAL_QA_APPROVED": 0,
+  "independent_holds": [
+    {
+      "group": "pending-22",
+      "source": "INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "reason": "Unverified Panthenol Ectoin hyaluronic acid derivatives ingredient source; not re-created or approved"
+    },
+    {
+      "group": "pending-19",
+      "source": "INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+      "reason": "Dual brightening + wrinkle care claim inherited from existing source pending official Korean package verification"
+    },
+    {
+      "group": "pending-24",
+      "reason": "NAD-PRIZCELL spelling visually matches recorded previous actual package, but commercial rights and stock still not proved"
+    }
+  ],
+  "next_resume": [
+    "Continue actual customer frame checks for unreviewed images beyond current 5",
+    "Prioritize product and edition mismatch rather than decorative edits",
+    "Verify C8 official shade chart generation and actual brand original usage permissions",
+    "Keep past 11 approved public groups and 55 URLs immutable"
+  ],
+  "caution": "Public GitHub branch images are not confidential; no Shopee publishing"
+}
