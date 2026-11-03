@@ -1,0 +1,61 @@
+{
+  "version": "2.4.32b",
+  "actual_customer_JPG_drafts": 3,
+  "product_photo_replacement": 0,
+  "background_revision_by_white_field": 3,
+  "alpha_cutout": 0,
+  "photo_fabrication": 0,
+  "published_URL_mutations": 0,
+  "FINAL_QA_APPROVED": 0,
+  "output": [
+    {
+      "group_id": "pending-12",
+      "original_sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+      "draft_sha256": "079450645a3948bc9be601530daa5a08cc018e677404bb85839d2610898a3f7f",
+      "original": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-12/SOURCE_4166c45da556_EN_V2421C.jpg",
+      "output": "sales-image-drafts/pending-12/pending-12_source_photo_white_field_V2432b.jpg",
+      "size_bytes": 88036,
+      "exact_photo_pixels_copied": true,
+      "cutout_performed": false,
+      "new_status": "SALES_IMAGE_DRAFT",
+      "blocks": [
+        "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+        "STOCK_PACKAGE_VERSION_UNVERIFIED",
+        "MK_LOGO_ORIGINAL_REQUIRED"
+      ]
+    },
+    {
+      "group_id": "pending-13",
+      "original_sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "draft_sha256": "56afbef3a876fb75158ecca11d7353a5173d0c9fd156639b821578dd2b53feb5",
+      "original": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-13/SOURCE_4d228780ef6c_EN_V2421C.jpg",
+      "output": "sales-image-drafts/pending-13/pending-13_source_photo_white_field_V2432b.jpg",
+      "size_bytes": 100013,
+      "exact_photo_pixels_copied": true,
+      "cutout_performed": false,
+      "new_status": "SALES_IMAGE_DRAFT",
+      "blocks": [
+        "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+        "STOCK_PACKAGE_VERSION_UNVERIFIED",
+        "MK_LOGO_ORIGINAL_REQUIRED"
+      ]
+    },
+    {
+      "group_id": "pending-14",
+      "original_sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+      "draft_sha256": "2b37e905ec8b934a33551c50f17824ae1aab9d5b7e0e603a5799ef7e3595ffb9",
+      "original": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-14/SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+      "output": "sales-image-drafts/pending-14/pending-14_source_photo_white_field_V2432b.jpg",
+      "size_bytes": 86701,
+      "exact_photo_pixels_copied": true,
+      "cutout_performed": false,
+      "new_status": "SALES_IMAGE_DRAFT",
+      "blocks": [
+        "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+        "STOCK_PACKAGE_VERSION_UNVERIFIED",
+        "MK_LOGO_ORIGINAL_REQUIRED"
+      ]
+    }
+  ],
+  "next": "QA visual check all 3 latest JPGs, verify stock+photo permissions; continue other families"
+}
