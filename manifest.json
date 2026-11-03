@@ -1,0 +1,78 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-10",
+  "target": "OBgE Perfect Homme Cushion 15g",
+  "source_artifact": 13261430991,
+  "source_run": 41696226787,
+  "new_jpgs": [
+    {
+      "filename": "01-original-open-compact.jpg",
+      "source": "15g-source-01.jpg",
+      "role": "Authentic 15g rectangular case with puff",
+      "sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+      "bytes": 122382,
+      "pixels": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "filename": "02-original-product-and-texture.jpg",
+      "source": "15g-source-03.jpg",
+      "role": "Authentic original compact with foundation texture",
+      "sha256": "bbe37fea266311c7f9430c1fafa52072e162d5013990786ee5ea379408ce4158",
+      "bytes": 204036,
+      "pixels": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "filename": "03-original-model-with-cushion.jpg",
+      "source": "15g-source-02.jpg",
+      "role": "Authentic actual-model product photography, commercial rights pending",
+      "sha256": "f34cf57adbc2702099a0714e4c493ddf3d16243ae2d357de1b020aa9c3c784e9",
+      "bytes": 229449,
+      "pixels": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "filename": "04-original-3shade-chart.jpg",
+      "source": "15g-source-05.jpg",
+      "role": "Unmodified retailer photographed 3-shade chart; rights/edition hold",
+      "sha256": "b35f8eeaf264a5062600b9db4cc8b22c396653d9fd629dd4c327f8fa86be80bd",
+      "bytes": 96112,
+      "pixels": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "filename": "05-15g-verified-product-facts.jpg",
+      "source": "verified retailer 15g specifications",
+      "role": "15g and PA+++ not old erroneous PA++++",
+      "sha256": "fc39a4bb00a6b92985f736b6dffce5a0ef48c8fd1356da2e94adfeddf53dd236",
+      "bytes": 71451,
+      "pixels": [
+        1080,
+        1080
+      ]
+    }
+  ],
+  "old_5_jpgs": "QUARANTINE WRONG_BEIGE_ROUND_PERFECT_COVER_CUSHION",
+  "old_55_public_urls_unchanged": true,
+  "shades": [
+    "#1 Ivory",
+    "#2 Beige",
+    "#3 Sand"
+  ],
+  "edition_evidence": "https://cn.hd-dfs.com/shop/gd/dtl/goos.do?onlnGoosCd=56716260000401",
+  "rights_verified": false,
+  "physical_stock_packaging_verified": false,
+  "original_MK_logo_applied": false,
+  "sales_approved": false,
+  "public_url_added": 0,
+  "excel_shared": false
+}
