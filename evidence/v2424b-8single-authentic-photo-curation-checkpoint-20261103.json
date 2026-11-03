@@ -1,0 +1,127 @@
+{
+  "version": "2.4.24b",
+  "date": "2026-11-03",
+  "repo": "ziyuvely-alt/mellow",
+  "source_checkpoint": {
+    "source_run_id": 41493050496,
+    "source_artifact_id": 13165660833,
+    "source_branch": "production-assets-v2423-single-qa",
+    "source_commit": "d0648d3bf3ba18ba67b612fe07ac00b2eee13bfb",
+    "source_original_jpg_count": 371,
+    "source_extra_jpg_count": 2
+  },
+  "execution": [
+    {
+      "run_id": 41562572401,
+      "artifact_id": 13197751222,
+      "branch": "production-assets-v2424-eight-official-singles",
+      "commit": "96a6f4aad3c1f81ef9ff4c771fedd4aef135c656",
+      "result": "success"
+    },
+    {
+      "run_id": 41562957107,
+      "artifact_id": 13197112282,
+      "branch": "production-assets-v2424b-single-photo-qa",
+      "commit": "c73e26391469c00fa2ed074ea1df86283262d261",
+      "result": "success"
+    }
+  ],
+  "validated": {
+    "official_pages_checked": 8,
+    "official_title_verified": 6,
+    "retailer_page_title_blocked": 2,
+    "downloaded_visual_independent_photo_jpg": 12,
+    "visual_source_contact_checked": true,
+    "wrong_product_candidates_rejected": 1,
+    "actual_correct_product_photo_frames_replaced_in_review_sets": 4,
+    "updated_five_frame_review_sets": 8,
+    "active_review_jpg": 40,
+    "original371_jpg_preserved": true,
+    "existing_v2423_revisions_2_preserved": true,
+    "commercial_reuse_verified": 0,
+    "inventory_package_verified": 0,
+    "original_mk_logo_png_recovered": false,
+    "official_color_chart_completed": 0,
+    "ready_except_logo": 0,
+    "production_complete_qa_pending": 0,
+    "final_qa_approved": 0,
+    "existing_public_urls_unchanged": 55,
+    "public_files_modified": 0
+  },
+  "frame_edits": [
+    {
+      "id": "pending-09",
+      "slot": 1,
+      "change": "model scene replaced by actual open OBgE Oil Control Finisher 5g product compact",
+      "source": "https://m.obge.co.kr/product/detail.html?cate_no=1&display_group=7&product_no=1096"
+    },
+    {
+      "id": "pending-09",
+      "slot": 2,
+      "change": "model scene replaced by actual OBgE Finisher closed compact",
+      "source": "https://m.obge.co.kr/product/detail.html?cate_no=1&display_group=7&product_no=1096"
+    },
+    {
+      "id": "pending-22",
+      "slot": 1,
+      "change": "existing soft-focus bottle image replaced by official pump bottle photograph of OBgE 300ml sunscreen",
+      "source": "https://m.obge.co.kr/product/detail.html?cate_no=1&display_group=7&product_no=1251"
+    },
+    {
+      "id": "pending-28",
+      "slot": 3,
+      "change": "existing serum pad jar photo replaced by official product with open jar and pads",
+      "source": "https://www.pixelpure.com/product/detail.html?product_no=23"
+    }
+  ],
+  "rejected": [
+    {
+      "family": "pending-22",
+      "photo": "PRODUCT_PHOTO_02_V2424.jpg",
+      "why": "Actually OBgE Oil Control Finisher compact, not Max Waterful Sun Cream 300ml"
+    }
+  ],
+  "product_gates": [
+    {
+      "id": "pending-09",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    },
+    {
+      "id": "pending-22",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    },
+    {
+      "id": "pending-24",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD",
+      "note": "OliveYoung site anti-bot prevented exact page/gallery verification"
+    },
+    {
+      "id": "pending-25",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD",
+      "note": "OliveYoung site anti-bot prevented exact page/gallery verification"
+    },
+    {
+      "id": "pending-27",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    },
+    {
+      "id": "pending-28",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    },
+    {
+      "id": "pending-29",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    },
+    {
+      "id": "pending-30",
+      "state": "FIVE_FRAME_DRAFT_SOURCE_QA_HOLD"
+    }
+  ],
+  "next": [
+    "Assess alternative official stock-photo angles and commercial usage rights to approve image replacements",
+    "Obtain physical inventory or invoice-confirmed package version for 8 single SKUs",
+    "Retrieve actual MK logo binary through supported file source",
+    "Match C8 Global SKU options to official shade photographs; Peripera shades only 01-20",
+    "Keep approved 11 families and 55 URLs unchanged"
+  ]
+}
