@@ -1,0 +1,31 @@
+{
+  "version": "2.4.32",
+  "group_id": "pending-20",
+  "real_JPG_edited": 1,
+  "removed_retailer_badge_by_source_crop": true,
+  "original_brand_photo_pixels_preserved_in_crop": true,
+  "actual_product_packaging_fabricated": false,
+  "original_source_sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+  "output_file": "sales-image-drafts/pending-20/goodal_serum_mist_100ml_no_retailer_badge_V2432.jpg",
+  "output_sha256": "24ef8f46284082f2a6023fccdac26397524393d29eeaf84ea5cc2c2578226f78",
+  "output_bytes": 52394,
+  "output_dimensions": [
+    1080,
+    1080
+  ],
+  "status": "SALES_IMAGE_DRAFT",
+  "blockers": [
+    "COMMERCIAL_REUSE_PERMISSION_REQUIRED",
+    "STOCK_PACKAGING_VERIFICATION_REQUIRED",
+    "MK_ORIGINAL_LOGO_REQUIRED"
+  ],
+  "final_QA_approved": false,
+  "public_urls_changed": 0,
+  "source_jpg_changed": 0,
+  "verified_brand_listing": "https://clubclio.co.kr/shop/goodsList/121731002000000",
+  "next": [
+    "Review final JPG visually for cropped product / read small text",
+    "Check exact current packaging and rights",
+    "Continue safe real photo revisions on other product families without invented swatches"
+  ]
+}
