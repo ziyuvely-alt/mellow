@@ -1,0 +1,51 @@
+name: Shopee v2484 MISSHA PDRN Serum 30ml three exact product JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2484-missha-serum-three.yml'
+      - 'scripts/v2484_missha_serum_three_exact_source_drafts.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover existing exact product source photos once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41687211248 -n shopee-v2483-MISSHA-two-real-product-photo-galleries-QA-HOLD -D v2483-missha-pdrn-two-real-product-galleries
+      - name: Create three NEW photos and fact-only card
+        run: python scripts/v2484_missha_serum_three_exact_source_drafts.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2484-missha-PDRN-serum-three-JPG-QA-HOLD
+          path: v2484-missha-serum-three-new-JPG/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve without publishing any image or spreadsheet
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2484-missha-serum-three-new-JPG /tmp/v2484-jpgs
+          git worktree add --detach /tmp/v2484-wt HEAD
+          cd /tmp/v2484-wt
+          git switch --orphan production-assets-v2484-missha-serum-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2484-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 3 real-product MISSHA serum 30ml JPG drafts pending original logo and commercial rights'
+          git push origin HEAD:refs/heads/production-assets-v2484-missha-serum-three
