@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-18",
+  "existing_old_frames_recreated": 0,
+  "new_jpg": [
+    {
+      "filename": "03-exact-single-tube-photo.jpg",
+      "source": "single tube 750px source",
+      "bytes": 91403,
+      "sha256": "13de0cdd3deff03e4926fb77cf1a590aeb6ef400bb87e027c3e7379a6a03e5a4",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "JPG_CREATED_FINAL_STOCK_AND_RIGHTS_QA_HOLD"
+    },
+    {
+      "filename": "04-bottle-and-box-source.jpg",
+      "source": "tube+box 400px source",
+      "bytes": 116202,
+      "sha256": "90e00f4d9a0c2de9aeacc2e35fe968ae255bf0aadae720a4e40332a0ef82cebc",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "JPG_CREATED_FINAL_STOCK_AND_RIGHTS_QA_HOLD"
+    },
+    {
+      "filename": "05-no-claims-product-information.jpg",
+      "source": "official Dr.G product name and net content",
+      "bytes": 78507,
+      "sha256": "f641113dbfcd95a25381b1d4edd90fe31b60aba325a4fe5fb93eae81ef0328ab",
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "JPG_CREATED_FINAL_STOCK_AND_RIGHTS_QA_HOLD"
+    }
+  ],
+  "source_run_id": 41686720559,
+  "source_artifact_id": 13254249352,
+  "needs_higher_resolution_package_photo": true,
+  "commercial_rights_verified": false,
+  "actual_MK_logo_applied": false,
+  "actual_stock_edition_matched": false,
+  "published": false,
+  "new_public_urls": 0,
+  "excel_shared": false
+}
