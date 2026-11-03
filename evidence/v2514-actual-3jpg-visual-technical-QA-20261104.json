@@ -1,0 +1,43 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50ml",
+  "workflow_run_id": 41697835429,
+  "artifact_id": 13262705215,
+  "branch": "production-assets-v2514-drg-brightening-three",
+  "actual_jpg_inspected": 3,
+  "actual_contact_visual_result": "All three render English legibly, consistent orange-cream visual language, no fake product photos",
+  "technical": {
+    "dimensions": "1080x1080",
+    "format": "JPEG",
+    "max_size_bytes": 101800,
+    "all_below_2mb": true,
+    "actual_files_verified": true
+  },
+  "frames": [
+    {
+      "file": "03-verified-50ml-spf-pa-facts.jpg",
+      "sha256": "ab0e8a85c9d504d43ed6b1ee9818e1628735c5c7cf878ca3565507ae8fe2a7ab"
+    },
+    {
+      "file": "04-sunscreen-application-facts.jpg",
+      "sha256": "cac320c9358f3583367e6270a0948d677cb8c1c3b78ea16d9f43500fb361b5e4"
+    },
+    {
+      "file": "05-single-tube-product-identity.jpg",
+      "sha256": "7f673da70efa7bd01a34950af488a0b16d540595a31abaa21ef938af7dfa2b0b"
+    }
+  ],
+  "factual_verified_source": "https://www.ssg.com/item/itemView.ssg?itemId=1000522807222",
+  "verified_spf_pa": "SPF50+ PA+++",
+  "status": "THREE_JPG_TECHNICAL_AND_LAYOUT_QA_PASSED_FINAL_FIVE_FRAME_HOLD",
+  "holds": [
+    "Frame 03 and 05 partially overlap in product identity messaging",
+    "Original photos 01 and 02 not combined with these in full five-frame visual contact",
+    "Original MellowKR MK logo not available",
+    "Stock physical package edition not verified"
+  ],
+  "previous_55_public_urls_unchanged": true,
+  "new_verified_urls": 0,
+  "excel_shared": false
+}
