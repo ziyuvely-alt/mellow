@@ -1,0 +1,27 @@
+name: Shopee v2465 source PIXEL PURE 200mL toner official gallery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2465-pixelpure-toner-gallery.yml'
+      - 'scripts/v2465_pixelpure_toner_official_gallery_capture.py'
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2465_pixelpure_toner_official_gallery_capture.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2465-pixelpure-toner-official-photo-QA-HOLD
+          path: v2465-pixelpure-toner-official-gallery/
+          retention-days: 90
+          if-no-files-found: error
