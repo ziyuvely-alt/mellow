@@ -1,0 +1,44 @@
+{
+  "version": "v2545",
+  "date": "2026-11-04",
+  "family": "pending-25",
+  "product": "BIOHEAL BOH NAD Prizcell Glow Boost Cream 50mL",
+  "physical_photo_replacements": [
+    {
+      "slot": 2,
+      "photo": "review-JPG-by-family/pending-25/02_v2545-real-BOH-NAD-cream-50ml.jpg",
+      "source": "https://www.ballagrio.com/cdn/shop/files/bio-heal-boh-nad-prizcell-glow-boost-cream-50ml-01.jpg?v=1770186496",
+      "photographic_reason": "50ml closed glossy red jar with visible 50 mL Net 1.69 fl oz label",
+      "source_sha256": "a9f3025186d54cce137c2a8443249451bd3016937852c03b2c51a7266a79d875",
+      "old_sha256": "194dfe1c6d8f468038f38655602b8b9cdbb56a62a91ffc23c4f42324d2addd03",
+      "new_sha256": "ce3e9ac5b2715cbb797c119959dd6e443b1ac45d52229d773682e8234239d712",
+      "dimensions": [
+        800,
+        800
+      ]
+    },
+    {
+      "slot": 4,
+      "photo": "review-JPG-by-family/pending-25/04_v2545-real-BOH-NAD-cream-50ml.jpg",
+      "source": "https://cdn-image.oliveyoung.com/prdtImg/1102/114fd45d-4bd5-4eff-a2c5-bffda0349688.jpg?AR=0&QT=80&RS=1500x1500&SF=webp",
+      "photographic_reason": "original open cream jar and true cream swirl, 50 ml edition",
+      "source_sha256": "b41eb8f8c523d7474ec393699eb34f648ed5051cabbdc5c9d1ec84ca6475644f",
+      "old_sha256": "a8ab39fa974c7a35d090d5fee2bd2cfbc6cf4341e3b3e461716b8ed50364159e",
+      "new_sha256": "328a1046c09aeb060ea867f14f8c9b0593d468e10dcd6f99b2188378b64f07c6",
+      "dimensions": [
+        1500,
+        1500
+      ]
+    }
+  ],
+  "total_review_JPGs": 156,
+  "old_154_file_bytes_identical": true,
+  "30ml_product_photo_substituted": false,
+  "commercial_photo_reuse_rights_verified": false,
+  "physical_owned_stock_50ml_edition_confirmed": false,
+  "original_MK_logo_applied": false,
+  "full_sales_QA_approved": false,
+  "existing_published_55_URLs_unchanged": true,
+  "new_verified_public_URLs": 0,
+  "excel_created_or_shared": false
+}
