@@ -1,0 +1,20 @@
+{
+  "obge": {
+    "email": "export@adaptkorea.com",
+    "source": "https://www.obge.co.kr/shopinfo/company.html",
+    "agreement": "https://www.obge.co.kr/member/agreement.html",
+    "status": "DRAFT_NOT_SENT"
+  },
+  "clio": {
+    "status": "BRAND_USAGE_LICENSE_NOT_VERIFIED"
+  },
+  "peripera": {
+    "status": "BRAND_USAGE_LICENSE_NOT_VERIFIED"
+  },
+  "missha": {
+    "status": "BRAND_USAGE_LICENSE_NOT_VERIFIED"
+  },
+  "pixelpure": {
+    "status": "BRAND_USAGE_LICENSE_NOT_VERIFIED"
+  }
+}
