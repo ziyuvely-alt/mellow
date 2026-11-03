@@ -1,0 +1,53 @@
+name: Shopee v2541 replace two OBgE finisher information cards with true photographs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2541-obge-finisher-2-photos.yml'
+      - 'scripts/v2541_obge_finisher_two_photos_in_156.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  two-photo-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse 156 actual QA JPEGs, no image regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41713694031 -n shopee-v2539-156-JPG-Peripera20-official-option-names-QA -D v2541-base-156
+      - name: Replace only OBgE finisher slots 02 and 04 with genuine physical photos
+        run: |
+          python scripts/v2541_obge_finisher_two_photos_in_156.py
+          test "$(find v2541-obge-finisher-2real-photo-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2541-156-JPG-two-OBgE-finisher-real-photo-QA
+          path: v2541-obge-finisher-2real-photo-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated non-public QA assets without changing seller Excel
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2541-obge-finisher-2real-photo-QA /tmp/v2541-assets
+          git worktree add --detach /tmp/v2541-wt HEAD
+          cd /tmp/v2541-wt
+          git switch --orphan production-assets-v2541-156-OBgE-finisher-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2541-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPGs with two distinct authentic OBgE 5g finisher photographs'
+          git push origin HEAD:refs/heads/production-assets-v2541-156-OBgE-finisher-real-QA
