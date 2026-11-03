@@ -1,0 +1,55 @@
+name: Shopee v2425 approval evidence + genuine catalog correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2425-approval-gates.yml'
+      - 'scripts/v2425_fix_pixelpure_catalog_and_reconcile_C8.py'
+      - 'evidence/v2425-C8-working-SKU-45-options.tsv'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  verify-and-correct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Restore latest eight-family v2424b production assets
+        run: |
+          mkdir -p input-v2424b
+          git fetch origin production-assets-v2424b-single-photo-qa
+          git archive origin/production-assets-v2424b-single-photo-qa | tar -xf - -C input-v2424b
+      - name: Correct confirmed PIXELPURE catalog copy, audit C8 SKU actual options
+        run: python scripts/v2425_fix_pixelpure_catalog_and_reconcile_C8.py
+      - name: Upload actual five revised jpg and source QA evidence
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2425-catalog-and-approval-gates
+          path: production-v2425-verification-and-copy/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Save new private version branch, no approved public changes
+        if: success()
+        run: |
+          cp -a production-v2425-verification-and-copy /tmp/v2425-assets
+          git worktree add --detach /tmp/v2425-wt HEAD
+          cd /tmp/v2425-wt
+          git switch --orphan production-assets-v2425-single-approval
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2425-assets/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Save v2425 5 corrected customer catalog JPG, 6 official package checks, 45 real C8 SKU options, unchanged source"
+          git push origin HEAD:refs/heads/production-assets-v2425-single-approval
