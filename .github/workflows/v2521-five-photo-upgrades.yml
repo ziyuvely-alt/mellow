@@ -1,0 +1,65 @@
+name: Shopee v2521 replace 5 redundant info cards with genuine existing photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2521-five-photo-upgrades.yml'
+      - 'scripts/v2521_replace_five_redundant_info_cards_with_real_product_photo.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  targeted-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover v2520 150 preserved QA JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41701668862 -n shopee-v2520-all30-150-real-JPG-QA-only-no-XLSX -D v2521-inputs
+      - name: Recover exact Goodal cream original bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41689994770 -n shopee-v2494b-goodal-alpha-one-real-JPG -D v2521-inputs/source_alpha
+      - name: Recover exact Goodal mist photographic angles
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41690163576 -n shopee-v2496-goodal-25AD-two-real-photo-sources-QA -D v2521-inputs/source_mist
+      - name: Recover exact OBgE 50ml suncream photographic angles
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41685138837 -n shopee-v2475-obge-porezero-two-exact-photo-scene-candidates -D v2521-inputs/source_pore
+      - name: Apply exactly 5 targeted photo substitutions and assert all 145 original copies preserved
+        run: |
+          python scripts/v2521_replace_five_redundant_info_cards_with_real_product_photo.py
+          test "$(find v2521-five-photo-upgrades/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 150
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2521-150-JPG-five-photo-corrections-30family-QA-only
+          path: v2521-five-photo-upgrades/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve QA assets in new isolated branch, never overwrite public images
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2521-five-photo-upgrades /tmp/v2521-assets
+          git worktree add --detach /tmp/v2521-wt HEAD
+          cd /tmp/v2521-wt
+          git switch --orphan production-assets-v2521-photo-heavy-150-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2521-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 150 QA JPEG candidates with only 5 real photographic content upgrades'
+          git push origin HEAD:refs/heads/production-assets-v2521-photo-heavy-150-QA
