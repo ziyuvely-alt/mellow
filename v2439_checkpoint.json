@@ -1,0 +1,78 @@
+{
+  "version": "2.4.39",
+  "baseline": "production-assets-v2438c-consolidated-checkpoint",
+  "groups_in_source_inventory": 30,
+  "historical_source_JPG_checked": 531,
+  "groups_with_no_source_JPG": [],
+  "new_real_customer_JPG_drafts": 4,
+  "groups_with_new_edits": 4,
+  "photos_fabricated": 0,
+  "official_color_charts_new": 0,
+  "rights_confirmed": 0,
+  "complete_sets_approved": 0,
+  "FINAL_QA_APPROVED": 0,
+  "published_55_URLs_changed": 0,
+  "historical_JPG_sha256_unchanged": true,
+  "manual_full_visual_QA_completed": false,
+  "edits": [
+    {
+      "group_id": "pending-05",
+      "previous": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-05/INFO_05_V2413_EN_V2421.jpg",
+      "previous_sha256": "32c22da3a0b0039d5796729eb51fbce966d5fed4b278979e2bf9fa131afa439b",
+      "edited_jpg": "sales-image-drafts/pending-05/pending-05_fact_copy_and_card_revised_V2439.jpg",
+      "edited_sha256": "1b7da7961aacd75608ab156c9f2a993daa29f00a6bcd9794bccc0a733894ebe4",
+      "cause": "Original image says generic CLIO Kill Cover cushion twice instead of exact Founwear product",
+      "reference": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+      "status": "SALES_IMAGE_DRAFT",
+      "after_render_visual_review": "PENDING",
+      "photo_reuse_authorization": "UNVERIFIED",
+      "physical_stock": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-07",
+      "previous": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-07/INFO_05_V2413_EN_V2421.jpg",
+      "previous_sha256": "c39650a4af7a7373f8c16fabddf331aab02422c37ac706e447d246072d42c36b",
+      "edited_jpg": "sales-image-drafts/pending-07/pending-07_fact_copy_and_card_revised_V2439.jpg",
+      "edited_sha256": "a781fa2249476c598f793cfde0970aecb8440e0680648c7429e8cfb7d871720e",
+      "cause": "Original 15 g cushion heading overlaps decorative ring; remove ring and preserve original product info",
+      "reference": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+      "status": "SALES_IMAGE_DRAFT",
+      "after_render_visual_review": "PENDING",
+      "photo_reuse_authorization": "UNVERIFIED",
+      "physical_stock": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-17",
+      "previous": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-17/INFO_05_V2413_EN_V2421.jpg",
+      "previous_sha256": "d6a01723beadd9f7bfaf3f2a8082bdaffbd06dfa068d3611240a5fdc414d5431",
+      "edited_jpg": "sales-image-drafts/pending-17/pending-17_fact_copy_and_card_revised_V2439.jpg",
+      "edited_sha256": "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796",
+      "cause": "Original contains twice the same product name, wasting customer information space",
+      "reference": null,
+      "status": "SALES_IMAGE_DRAFT",
+      "after_render_visual_review": "PENDING",
+      "photo_reuse_authorization": "UNVERIFIED",
+      "physical_stock": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-19",
+      "previous": "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-19/INFO_VOLUME_03_V2414_EN_V2421.jpg",
+      "previous_sha256": "d6558e4ba63f801169dd731d5f5395ad1fbbc18faad6e20c41c4626623f28470",
+      "edited_jpg": "sales-image-drafts/pending-19/pending-19_fact_copy_and_card_revised_V2439.jpg",
+      "edited_sha256": "ccddd757abd6da10e822b36a924df4734287cd55808ee01467f88450ca8d8e9d",
+      "cause": "Unverified 25AD generation claim in original, removed without asserting a different edition",
+      "reference": null,
+      "status": "SALES_IMAGE_DRAFT",
+      "after_render_visual_review": "PENDING",
+      "photo_reuse_authorization": "UNVERIFIED",
+      "physical_stock": "UNVERIFIED"
+    }
+  ],
+  "next": [
+    "Open each of four actual edits and reject geometry/text defects",
+    "Verify exact pending-19 25AD generation externally, keep removed until proven",
+    "Verify exact pending-05 Founwear kit generation and original shade photos",
+    "Continue remaining 30-group individual source-frame QA without repeat contact sheets",
+    "Recover MK PNG binary and photo reuse rights, never publish drafts before permission"
+  ]
+}
