@@ -1,0 +1,33 @@
+name: Shopee v2549 full actual 156 JPG visual board and duplicate quality audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2549-full-jpg-visual-audit.yml'
+      - 'scripts/v2549_full_156_JPG_visual_contacts_and_near_duplicates.py'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  physical-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore latest source-backed 156 JPEG review assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2549-input-156
+      - name: Check all actual file bytes, dimensions and perceptual near-duplicate pairs
+        run: python scripts/v2549_full_156_JPG_visual_contacts_and_near_duplicates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2549-156-jpg-30family-full-contactboards-qa-JSON-no-XLSX
+          path: v2549-30family-all156-visual-review/
+          retention-days: 90
+          if-no-files-found: error
