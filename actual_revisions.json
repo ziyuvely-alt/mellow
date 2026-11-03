@@ -1,0 +1,15 @@
+[
+  {
+    "group_id": "pending-10",
+    "source": "new-EN-info-four/pending-10/INFO_05_V2413_EN_V2421_V2427.jpg",
+    "output": "actual-sales-drafts/pending-10/OBGE_INFO_05_EN_copy_revised_V2430.jpg",
+    "source_sha": "e62262e797e3fc3002005d741ee53ef7ff3b346fac469d01523c5834a418e6f0",
+    "output_sha": "0ae6014161bdfc5ad7ab1251c84d8642cfaf3856a91ebb4c1db667422ffe46be",
+    "revision_type": "EN_COPY_REVISION",
+    "copy": "NET WEIGHT / 15 g / Choose 1 Ivory / 2 Beige / 3 Sand",
+    "status": "SALES_IMAGE_DRAFT",
+    "rights": "HOLD",
+    "visual_QA": "NOT_ATTESTED",
+    "why": "Replace redundant generic net-content copy with verified three official options; actual photographed image outside text panel untouched"
+  }
+]

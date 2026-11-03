@@ -1,0 +1,540 @@
+[
+  {
+    "group_id": "pending-01",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-01/01_HERO_EN_V2422.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-01/INFO_DETAIL_01_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-01/INFO_FEATURE_02_V2414B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-01/INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-01/INFO_SUN_01_V2414B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-02",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-02/SOURCE_01_640302217_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-02/INFO_DETAIL_01_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-02/INFO_HOWTO_02_V2414B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-02/INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-02/INFO_SUN_01_V2414B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-03",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-03/INV_01_105c62ce61_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-03/INV_02_2c2d4f7430_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-03/INV_03_37b096423c_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-03/INV_04_6ee100c2c2_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-03/INV_05_f32faba0cf_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-04",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-04/INV_01_3194e3273f_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-04/INV_02_35438b61d8_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-04/INV_03_a9f4d2660e_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-04/INV_04_ba44dd5e61_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-04/INV_05_d41b9b1ed2_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-05",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-05/SOURCE_01_041b164bb_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-05/INFO_03_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-05/INFO_05_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-05/INFO_HOWTO_01_V2414B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-05/INFO_PACKAGE_01_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-06",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-06/SOURCE_01_8053457df_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-06/SOURCE_02_8efe54403_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-06/SOURCE_03_4bd36df9a_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-06/INFO_03_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-06/INFO_05_V2413_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-07",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-07/01_HERO_EN_V2422.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-07/SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-07/INFO_03_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-07/INFO_05_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-07/INFO_DETAIL_01_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-08",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-08/01_HERO_EN_V2422.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-08/INFO_FORMULA_01_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-08/INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-08/INFO_SCOPE_05_V2415_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-08/INFO_VOLUME_02_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-09",
+    "frames_checked": 8,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_01_452fadf13c_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_02_02a7beb90a_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_03_1859a75292_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_04_1a9728cbc3_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_05_121547b5c9_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-09/INFO_03_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-09/INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-09/INFO_05_OFFICIAL_V2412_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-10",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-10/SOURCE_01_363f13d61_EN_V2421C.jpg",
+      "new-EN-info-four/pending-10/INFO_03_V2413_EN_V2421_V2427.jpg",
+      "new-EN-info-four/pending-10/INFO_04_V2413_EN_V2421_V2427.jpg",
+      "new-EN-info-four/pending-10/INFO_05_V2413_EN_V2421_V2427.jpg",
+      "new-EN-info-four/pending-10/INFO_SCOPE_01_V2414_EN_V2421_V2427.jpg"
+    ],
+    "safe_revisions": [
+      {
+        "group_id": "pending-10",
+        "source": "new-EN-info-four/pending-10/INFO_05_V2413_EN_V2421_V2427.jpg",
+        "output": "actual-sales-drafts/pending-10/OBGE_INFO_05_EN_copy_revised_V2430.jpg",
+        "source_sha": "e62262e797e3fc3002005d741ee53ef7ff3b346fac469d01523c5834a418e6f0",
+        "output_sha": "0ae6014161bdfc5ad7ab1251c84d8642cfaf3856a91ebb4c1db667422ffe46be",
+        "revision_type": "EN_COPY_REVISION",
+        "copy": "NET WEIGHT / 15 g / Choose 1 Ivory / 2 Beige / 3 Sand",
+        "status": "SALES_IMAGE_DRAFT",
+        "rights": "HOLD",
+        "visual_QA": "NOT_ATTESTED",
+        "why": "Replace redundant generic net-content copy with verified three official options; actual photographed image outside text panel untouched"
+      }
+    ],
+    "blocks": [
+      "OFFICIAL_SHADE_SOURCE_AND_RIGHTS_REQUIRED",
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-11",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_01_044a1cd940_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_02_329c223adf_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_03_8a47d85c96_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_04_a0c9d28d19_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_05_d67d748088_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-12",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-12/SOURCE_4166c45da556_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-12/SOURCE_aeee02ac48ee_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-12/SOURCE_f9e33b456bc5_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-12/INFO_04_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-12/INFO_05_V2412B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-13",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-13/SOURCE_4d228780ef6c_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-13/SOURCE_ac47ea3f8fde_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-13/INFO_03_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-13/INFO_04_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-13/INFO_05_V2412B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-14",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-14/SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-14/SOURCE_7f391f26af48_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-14/SOURCE_9d197a03300b_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-14/INFO_04_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-14/INFO_05_V2412B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-15",
+    "frames_checked": 8,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-15/INV_01_6b3a4a3666_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-15/INV_02_7f3ea992bc_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-15/INV_03_8d52f556bc_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-15/INV_04_b1503b4a4b_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-15/INV_05_cb19b69c09_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-15/INFO_03_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-15/INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-15/INFO_05_OFFICIAL_V2412_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-16",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-16/INV_01_0a62a56a4b_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-16/INV_02_17c12aad66_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-16/INV_03_3ff07100b8_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-16/INV_04_a68f9b0956_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-16/INFO_05_OFFICIAL_V2412_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-17",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-17/SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-17/SOURCE_5b400cae46a1_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-17/SOURCE_5ea61e16436d_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-17/INFO_03_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-17/INFO_05_V2413_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-18",
+    "frames_checked": 8,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_01_254aee0e0f_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_02_66493f8937_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_03_e2cd09a3ab_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_04_e3df9b823a_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_05_ee8907f6a4_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-18/INFO_03_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-18/INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-18/INFO_05_OFFICIAL_V2412_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-19",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-19/01_HERO_EN_V2422.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-19/INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-19/INFO_HOW_TO_01_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-19/INFO_INGREDIENT_02_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-19/INFO_VOLUME_03_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-20",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-20/SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_02_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_03_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_04_V2412B_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-20/INFO_05_V2412B_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-21",
+    "frames_checked": 3,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-21/INFO_03_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-21/INFO_04_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-21/INFO_05_V2413_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-22",
+    "frames_checked": 8,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-22/INV_02_0ab7541042_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-22/INV_03_688df5a1bc_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-22/INV_04_702c1a4d5c_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-22/INV_05_8629d1d381_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-22/SOURCE_01_aed157d7d_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-22/INFO_03_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-22/INFO_04_OFFICIAL_V2412_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-22/INFO_05_OFFICIAL_V2412_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-23",
+    "frames_checked": 4,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-hero-fixed/pending-23/01_HERO_EN_V2422.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-23/INFO_05_V2413_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-23/INFO_IDENTITY_01_V2414_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-23/INFO_VOLUME_02_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-24",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-24/INV_01_216ad6670f_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-24/INV_02_2bec7c259a_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-24/INV_03_6fcbb77da6_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-24/INV_04_aa73fbe6f9_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-24/INFO_VOLUME_01_V2414_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-25",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_01_1bd6f7ce25_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_02_8056a2f613_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_03_a7c25f91d5_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_04_c73f315531_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-25/INV_05_f8ca8d48f2_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-26",
+    "frames_checked": 2,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-26/PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-customer-drafts/pending-26/PIXELPURE_INFO_03_V2416C_EN_V2421.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-27",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-27/INV_01_1f25c5d0f4_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-27/INV_02_4b4942e542_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-27/INV_03_7a9cbf05cb_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-27/INV_04_c04468ff58_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-27/INV_05_d3b8460b70_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-28",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-28/INV_01_5a12115d60_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-28/INV_02_6d891af057_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-28/INV_03_7280158c0e_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-28/INV_04_b5da42cbe3_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-28/INV_05_e921abb23e_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-29",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-29/INV_01_023f07baae_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-29/INV_02_1a858dfc39_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-29/INV_03_2ebc3d949d_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-29/INV_04_70399a8937_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-29/INV_05_ee51bf59e7_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  },
+  {
+    "group_id": "pending-30",
+    "frames_checked": 5,
+    "target_count": "5_OR_6_DEPENDS_OPTION",
+    "status": "VISUAL_QA",
+    "actual_frame_paths": [
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-30/INV_01_449aa19f31_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-30/INV_02_4d41995fb2_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-30/INV_03_a2a1622ea7_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-30/INV_04_a4f3f56578_EN_V2421C.jpg",
+      "immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-30/INV_05_ab82a2d14b_EN_V2421C.jpg"
+    ],
+    "safe_revisions": [],
+    "blocks": [
+      "VISUAL_REVIEW_NOT_ATTESTED"
+    ]
+  }
+]

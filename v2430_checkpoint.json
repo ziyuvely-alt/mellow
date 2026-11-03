@@ -1,0 +1,21 @@
+{
+  "version": "2.4.30",
+  "groups_examined": 30,
+  "active_JPG_frames_inspected": 156,
+  "existing_source_JPG_count": 531,
+  "source_hashes_unchanged": true,
+  "new_customer_facing_draft_JPG_modified": 1,
+  "EN_copy_revisions": 1,
+  "photo_replacements": 0,
+  "cutout_revisions": 0,
+  "new_official_shade_charts": 0,
+  "FINAL_QA_APPROVED": 0,
+  "VISUAL_QA_PASSED": 0,
+  "sales_image_draft_groups": 1,
+  "suspected_white_inset_frames": 0,
+  "rights_verified": 0,
+  "logo_binary_verified": false,
+  "public_file_mutations": 0,
+  "public_URLs_55_externally_retested": false,
+  "next": "Inspect v2430 real edited INFO05 and run human visual QA; verify official photo for other frames. Resume source verification across remaining 29 groups"
+}
