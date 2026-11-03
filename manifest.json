@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-27",
+  "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+  "source_asset": "original-08.jpg",
+  "source_from_official_page": "https://www.pixelpure.com/product/detail.html?product_no=24",
+  "source_actions_run_id": 41682843250,
+  "source_artifact_id": 13254420828,
+  "source_pixels_purely_photographic": true,
+  "crop_coordinates": [
+    39,
+    281,
+    822,
+    1064
+  ],
+  "exact_source_image_dimensions": [
+    860,
+    1087
+  ],
+  "removed_ad_claim_headline": true,
+  "original_photography_not_fabricated": true,
+  "new_JPG": "05-real-bottle-held-over-water-200ml.jpg",
+  "sha256": "87716e1d8f81c54610c9c05ffabf552dc0f1b79ec2aac71e21fecdcf0298c091",
+  "bytes": 310741,
+  "resolution": [
+    1080,
+    1080
+  ],
+  "previous_4_customer_frames_unchanged": true,
+  "full_5_frame_composition_visual_review_pending": true,
+  "original_MK_logo_applied": false,
+  "photo_commercial_reuse_rights_confirmed": false,
+  "physical_owned_stock_edition_checked": false,
+  "published_public_url": false,
+  "excel_spreadsheet_shared": false
+}
