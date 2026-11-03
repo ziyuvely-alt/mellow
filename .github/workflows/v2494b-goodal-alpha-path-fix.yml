@@ -1,0 +1,46 @@
+name: Shopee v2494b targeted Goodal Alpha path fix only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2494b-goodal-alpha-path-fix.yml'
+      - 'scripts/v2494b_goodal_alpha_single_path_fix.py'
+permissions:
+  contents: write
+jobs:
+  fix-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2494b_goodal_alpha_single_path_fix.py
+      - name: Ensure actual JPG exists (manifest-only cannot be treated as success)
+        run: test -s v2494b-goodal-cream-alpha-photo/03-real-alpha-jar-hero.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2494b-goodal-alpha-one-real-JPG
+          path: v2494b-goodal-cream-alpha-photo/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve if real JPG was made
+        shell: bash
+        run: |
+          cp -a v2494b-goodal-cream-alpha-photo /tmp/v2494b-output
+          git worktree add --detach /tmp/v2494b-wt HEAD
+          cd /tmp/v2494b-wt
+          git switch --orphan production-assets-v2494b-goodal-alpha-corrected
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2494b-output/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve first genuine Goodal Alpha photo JPG after path fix'
+          git push origin HEAD:refs/heads/production-assets-v2494b-goodal-alpha-corrected
