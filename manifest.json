@@ -1,0 +1,22 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-19",
+  "exact_product": "Goodal Green Tangerine Vita-C Dark Spot Care Cream Alpha 50ml",
+  "stock_edition": "25AD (not visually proven)",
+  "product_source": "Olive Young US",
+  "source_url": "https://use-image.oliveyoung.com/images/prd/8800290367942/thumbnail/6035c2d6-31dd-47b1-92cb-4c0c2b24bc6b.jpg?AR=0&QT=85&RS=1000X1000&SF=webp",
+  "source_status": "ACTUAL_ORIGINAL_PHOTO_AND_JPG_BYTES_STAGED_QA_HOLD",
+  "new_jpg": 1,
+  "final_license_verified": false,
+  "source_stock_version_verified": false,
+  "public_urls_added": 0,
+  "prior_v2459_info_card_preserved": true,
+  "source_sha256": "d4f9e4273fdc09490f7fda64c3fc2c14e06b67ce5cb318caf78cc19d09ab9579",
+  "output_filename": "03-real-alpha-jar-hero.jpg",
+  "output_sha256": "88e42ef35b4cedf7d8136ddc23d9d773f772df666591aa6737cda6759e886e3e",
+  "output_bytes": 88897,
+  "source_dimensions": [
+    1000,
+    1000
+  ]
+}
