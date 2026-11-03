@@ -1,0 +1,27 @@
+name: Shopee v2496 Goodal 25AD Mist two exact photo sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2496-goodal-25ad-photos.yml'
+      - 'scripts/v2496_goodal_25ad_two_authentic_photos.py'
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2496_goodal_25ad_two_authentic_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2496-goodal-25AD-two-real-photo-sources-QA
+          path: v2496-goodal-mist-25ad-source-photos/
+          retention-days: 90
+          if-no-files-found: error
