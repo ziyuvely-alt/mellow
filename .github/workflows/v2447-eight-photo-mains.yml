@@ -1,0 +1,58 @@
+name: Shopee v2447 restore eight real-logo-free photographic main drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2447-eight-photo-mains.yml'
+      - 'scripts/v2447_restore_eight_real_product_mains.py'
+permissions:
+  contents: write
+jobs:
+  eight-source-backed-photo-mains:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore actual prior images from successful archives, with no rerender of earlier 5
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2445b prior-v2437 prior-v2437b prior-v2436b prior-v2436 prior-v2435b
+          git fetch origin production-assets-v2445b-corrected-QA-hold-146 production-assets-v2437-three-photo-revisions production-assets-v2437b-three-more-photo-revisions production-assets-v2436b-pixelpure-full-jar production-assets-v2436-three-source-photo-drafts production-assets-v2435b-pixelpure-whole-bottle
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+          git archive origin/production-assets-v2437-three-photo-revisions | tar -xf - -C prior-v2437
+          git archive origin/production-assets-v2437b-three-more-photo-revisions | tar -xf - -C prior-v2437b
+          git archive origin/production-assets-v2436b-pixelpure-full-jar | tar -xf - -C prior-v2436b
+          git archive origin/production-assets-v2436-three-source-photo-drafts | tar -xf - -C prior-v2436
+          git archive origin/production-assets-v2435b-pixelpure-whole-bottle | tar -xf - -C prior-v2435b
+      - name: Preserve exact product photo pixels in 3 novel drafts; copy 5 prior successes
+        run: python scripts/v2447_restore_eight_real_product_mains.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2447-eight-real-product-photo-main-drafts
+          path: v2447-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve candidate main JPGs in new versioned branch, no public image overwrites
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2447-output /tmp/v2447-saved
+          git worktree add --detach /tmp/v2447-wt HEAD
+          cd /tmp/v2447-wt
+          git switch --orphan production-assets-v2447-eight-real-source-mains
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2447-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve eight real photographic main candidates with no synthetic MK badge; all commercial rights held'
+          git push origin HEAD:refs/heads/production-assets-v2447-eight-real-source-mains
