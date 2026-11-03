@@ -1,0 +1,27 @@
+name: Shopee v2475 OBgE Pore Zero 50ml independent photo source QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2475-obge-porezero-two-scene-qa.yml'
+      - 'scripts/v2475_obge_porezero_two_exact_product_scenes.py'
+permissions:
+  contents: read
+jobs:
+  acquire:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2475_obge_porezero_two_exact_product_scenes.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2475-obge-porezero-two-exact-photo-scene-candidates
+          path: v2475-obge-porezero-real-views/
+          retention-days: 90
+          if-no-files-found: error
