@@ -1,0 +1,52 @@
+name: Shopee v2430 real thirty-family customer JPG audit and targeted EN revision
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2430-real-frames.yml'
+      - 'scripts/v2430_actual_frames.py'
+permissions:
+  contents: write
+jobs:
+  real-frames:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Restore archived actual source JPG and 30-family checkpoint
+        run: |
+          mkdir v2427b-source v2429c-source
+          git fetch origin production-assets-v2427b-obge-shade-clean production-assets-v2429c-remaining14-qa
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+          git archive origin/production-assets-v2429c-remaining14-qa | tar -xf - -C v2429c-source
+      - name: Actually inspect active customer frames and modify only grounded copy
+        run: python scripts/v2430_actual_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2430-real-JPG-audit-and-targeted-revision
+          path: v2430-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save private draft and checkpoints without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2430-output /tmp/v2430-saved
+          git worktree add --detach /tmp/v2430-wt HEAD
+          cd /tmp/v2430-wt
+          git switch --orphan production-assets-v2430-real-frame-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2430-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve v2430 actual customer JPG inspection, targeted retouch and resumable 30-family checkpoints'
+          git push origin HEAD:refs/heads/production-assets-v2430-real-frame-qa
