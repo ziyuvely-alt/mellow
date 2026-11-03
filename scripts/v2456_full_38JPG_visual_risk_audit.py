@@ -30,7 +30,7 @@ for x in positive:
 def logo_score(im):
  roi=cv2.cvtColor(im[675:895,760:996],cv2.COLOR_BGR2GRAY)
  return max(float(cv2.minMaxLoc(cv2.matchTemplate(roi,t,cv2.TM_CCOEFF_NORMED))[1]) for t in templates)
-positive_scores=[logo_score(read(CTRL[x["file"])) for x in positive]
+positive_scores=[logo_score(read(CTRL/x["file"])) for x in positive]
 assert min(positive_scores)>0.99,positive_scores
 def phash(image):
  gray=cv2.cvtColor(image,cv2.COLOR_BGR2GRAY)
