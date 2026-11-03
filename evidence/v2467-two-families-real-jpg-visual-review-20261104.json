@@ -1,0 +1,58 @@
+{
+  "date": "2026-11-04",
+  "scope": "Two successful 3-JPG family repair batches, manually opened contact sheets",
+  "runs": [
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200ml",
+      "run_id": 41683221491,
+      "artifact_id": 13252884663,
+      "branch": "production-assets-v2466-pixelpure-toner-three",
+      "new_jpg": 3,
+      "sha256": [
+        "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+        "d487730f1c6415b80c0cf94675841138869c1df5b9bdeffcd75e5f1995bdc70d",
+        "8b7af15399f24abc987fa4c143628bda4cdd8aa7b48ac63a74b2b591accd8008"
+      ],
+      "visual_result": "THREE_DISTINCT_AUTHENTIC_SCENES",
+      "issues": [
+        "Some transparent caption bands obscure portions of original packshot / background",
+        "Full five-frame set not re-reviewed with older two",
+        "Original owner MK logo missing; commercial reuse rights pending"
+      ],
+      "next_action": "Create optional source-preserving revised caption positions after package safe margins checked; don't rework already sound separate source photos",
+      "customer_release": false
+    },
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "run_id": 41683360181,
+      "artifact_id": 13254431176,
+      "branch": "production-assets-v2467-obge-photo-layout-repair",
+      "new_jpg": 3,
+      "sha256": [
+        "22e4443ca53dc728205534d3339868d045de50cd3b83c029ed12840e8d3a0d1b",
+        "c629c568dc0f15df92ede0ab89d5c3cf53e31adce9dc0789b0ceff1bd7b5fbe0",
+        "9bdb80286d659008f66637fd984681887a174a49af"
+      ],
+      "visual_result": "RECTANGULAR_SOURCE_PASTE_REMOVED",
+      "issues": [
+        "Frame 03 has some top-left text on bright white background but clean and readable",
+        "Frame 04 rectangular caption band does not cover actual package",
+        "Frame 05 information is exact factual but visually simpler; MK logo absent",
+        "Whole five-frame sequence with prior two remains unapproved"
+      ],
+      "next_action": "Cross-check full 5-frame source photos and user-supplied original logo before final publication",
+      "customer_release": false
+    }
+  ],
+  "technical_checks": {
+    "each_image_is_jpg": true,
+    "each_is_1080_square": true,
+    "each_under_2000000_bytes": true,
+    "sha256_from_actual_downloaded_bytes": true
+  },
+  "previous_urls_unchanged": 55,
+  "new_verified_urls": 0,
+  "original_excel_touched": false
+}
