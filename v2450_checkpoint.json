@@ -1,0 +1,84 @@
+{
+  "version": "2.4.50",
+  "prior_success": "production-assets-v2449b-20-actual-photo-candidates",
+  "new_product_photo_detail_JPGs": 4,
+  "new_generation_copy_correction_JPGs": 1,
+  "new_distinct_group_count": 5,
+  "previous_20_JPGs_regenerated": 0,
+  "old_531_original_photo_overwrites": 0,
+  "published_55_URLs_modified": 0,
+  "no_spreadsheets_created_or_shared": true,
+  "new_final_sales_approvals": 0,
+  "items": [
+    {
+      "group_id": "pending-12",
+      "new_file": "v2450-five-new-JPGs/pending-12/pending-12_customer_photo_or_info_V2450.jpg",
+      "new_sha256": "db79238b6d5c6b576ff017cd6b78d6e879886f04ae4b497321287156f5adcacd",
+      "source_sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+      "source_path": "146-QA-hold-candidate-images/pending-12/02_02_02_SOURCE_aeee02ac48ee_EN_V2421C.jpg",
+      "issue": "Directly inspected real product photography, photo rights and exact edition pending",
+      "new_product_pixels_fabricated": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "NOT_VERIFIED",
+      "stock_package_generation": "NOT_VERIFIED",
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "new_file": "v2450-five-new-JPGs/pending-13/pending-13_customer_photo_or_info_V2450.jpg",
+      "new_sha256": "abd7d9c210a5bb727d8d36c01354614b200350adf3beac3c085f3e3d984ffb12",
+      "source_sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "source_path": "146-QA-hold-candidate-images/pending-13/02_02_02_SOURCE_4d228780ef6c_EN_V2421C.jpg",
+      "issue": "Directly inspected real product photography, photo rights and exact edition pending",
+      "new_product_pixels_fabricated": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "NOT_VERIFIED",
+      "stock_package_generation": "NOT_VERIFIED",
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "new_file": "v2450-five-new-JPGs/pending-14/pending-14_customer_photo_or_info_V2450.jpg",
+      "new_sha256": "a0b69dc6766d89f40c7a402bf0ca2c17aafaf9b506360dc5941a50750469cdf1",
+      "source_sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+      "source_path": "146-QA-hold-candidate-images/pending-14/02_02_02_SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+      "issue": "Directly inspected real product photography, photo rights and exact edition pending",
+      "new_product_pixels_fabricated": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "NOT_VERIFIED",
+      "stock_package_generation": "NOT_VERIFIED",
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "new_file": "v2450-five-new-JPGs/pending-17/pending-17_customer_photo_or_info_V2450.jpg",
+      "new_sha256": "65dfc0b72680c0a93c2409cdc0f6a543f5a129132f1b9cd303cf8fad68e41b67",
+      "source_sha256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+      "source_path": "146-QA-hold-candidate-images/pending-17/02_02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+      "issue": "Directly inspected real product photography, photo rights and exact edition pending",
+      "new_product_pixels_fabricated": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "NOT_VERIFIED",
+      "stock_package_generation": "NOT_VERIFIED",
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "new_file": "v2450-five-new-JPGs/pending-20/pending-20_unverified_generation_removed_V2450.jpg",
+      "new_sha256": "caf99801a1e79fb4b3424475eeda60fa465e0ea1e0926d99bf652aedb62fbd6d",
+      "source_sha256": "167b3521032deb683fdd291f5a1a3368845269b65cd55a14f584264e389e1587",
+      "source_path": "146-QA-hold-candidate-images/pending-20/02_02_02_INFO_02_V2412B_EN_V2421.jpg",
+      "issue": "Removed unsourced 25AD generation assertion from older existing customer information image",
+      "new_product_pixels_fabricated": false,
+      "status": "SALES_IMAGE_DRAFT",
+      "commercial_photo_rights": "NOT_VERIFIED",
+      "stock_package_generation": "NOT_VERIFIED",
+      "final_sale_approved": false
+    }
+  ],
+  "next": [
+    "Open and manually inspect all five new real JPGs",
+    "Confirm exact product editions and licensed photo reuse; no Shopee publishing",
+    "Continue independent 30-family per-frame QA"
+  ]
+}
