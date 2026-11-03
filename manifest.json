@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-04",
+  "source_original_run": 41691203770,
+  "prior_v2500_attempt": "REJECTED_VISUAL_QA_PATCH_INTERSECTS_SHADE_LABELS",
+  "corrected_single_JPG": "04-mini-shades-factual-corrected.jpg",
+  "sha256": "4f60ff37338f498905e320505f7356ef23bc1995216d0e9f208f20a4f8810aca",
+  "bytes": 76327,
+  "other_completed_jpgs_recreated": 0,
+  "actual_color_swatches_synthesized": false,
+  "mk_logo_missing": true,
+  "original_shade_photo_missing": true,
+  "published": false,
+  "excel_shared": false
+}
