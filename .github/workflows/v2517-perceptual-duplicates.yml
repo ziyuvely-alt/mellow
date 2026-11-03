@@ -1,0 +1,30 @@
+name: Shopee v2517 inspect perceptually similar JPGs in review-only assets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2517-perceptual-duplicates.yml'
+      - 'scripts/v2517_perceptual_duplicate_review_jpgs.py'
+permissions:
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compare true JPEG image pixels without modifying or deleting sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python scripts/v2517_perceptual_duplicate_review_jpgs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2517-visual-similarity-JPG-audit-JSON-only
+          path: v2517-perceptual-near-duplicate-QA/manifest.json
+          retention-days: 90
+          if-no-files-found: error
