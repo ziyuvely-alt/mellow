@@ -1,0 +1,53 @@
+name: Shopee v2457 86 remaining customer JPG source quality audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2457-86-remaining-source-QA.yml'
+      - 'scripts/v2457_audit_86_other_unapproved_sources.py'
+permissions:
+  contents: write
+jobs:
+  audit-source-86:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install opencv-python-headless numpy
+      - name: Restore 86 remaining existing source JPGs, do not regenerate
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2446b
+          git fetch origin production-assets-v2446b-logo-64-quarantine-86-hold
+          git archive origin/production-assets-v2446b-logo-64-quarantine-86-hold | tar -xf - -C prior-v2446b
+      - name: SHA-check and scan remaining 86 customer JPGs only
+        run: python scripts/v2457_audit_86_other_unapproved_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2457-86-older-source-JPG-visual-triage
+          path: v2457-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve independent QA evidence with no photo or public URL changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2457-output /tmp/v2457-evidence
+          git worktree add --detach /tmp/v2457-wt HEAD
+          cd /tmp/v2457-wt
+          git switch --orphan production-assets-v2457-86-source-image-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2457-evidence/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 86 other photo-source QA results; no sale approval, no spreadsheet'
+          git push origin HEAD:refs/heads/production-assets-v2457-86-source-image-qa
