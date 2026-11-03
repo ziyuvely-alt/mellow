@@ -1,0 +1,55 @@
+name: Shopee v2520 add one real toner fifth image and audit 30x5
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2520-30family-150-exact.yml'
+      - 'scripts/v2520_add_sole_toner_photo_to_149_jpgs.py'
+permissions:
+  contents: write
+jobs:
+  incremental-150:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover saved 149 approved-for-QA bytes, no regeneration
+        shell: bash
+        run: |
+          git fetch origin production-assets-v2518-149-recovered-30family-qa:refs/remotes/origin/production-assets-v2518-149-recovered-30family-qa
+          git fetch origin production-assets-v2519-pixelpure-toner-fifth-photo:refs/remotes/origin/production-assets-v2519-pixelpure-toner-fifth-photo
+          git worktree add --detach /tmp/v2520-baseline origin/production-assets-v2518-149-recovered-30family-qa
+          git worktree add --detach /tmp/v2520-new-real-photo origin/production-assets-v2519-pixelpure-toner-fifth-photo
+      - name: Add exactly one fifth toner photo and verify 149 unchanged + 30x5
+        run: |
+          python scripts/v2520_add_sole_toner_photo_to_149_jpgs.py
+          test "$(find v2520-30family-150-physical-JPG-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 150
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2520-all30-150-real-JPG-QA-only-no-XLSX
+          path: v2520-30family-150-physical-JPG-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve immutable 149 plus one, never publicize images
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2520-30family-150-physical-JPG-QA /tmp/v2520-asset
+          git worktree add --detach /tmp/v2520-wt HEAD
+          cd /tmp/v2520-wt
+          git switch --orphan production-assets-v2520-all30-150-JPG-QA-only
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2520-asset/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 150 true review JPEGs with original 149 byte-identical across 30 families'
+          git push origin HEAD:refs/heads/production-assets-v2520-all30-150-JPG-QA-only
