@@ -1,0 +1,109 @@
+{
+  "version": "2.4.31d",
+  "previous": "production-assets-v2430d-consolidated-sales-drafts",
+  "project": {
+    "total_groups": 41,
+    "published_groups": 11,
+    "pending_groups": 30,
+    "working_C8_options": 45
+  },
+  "runs": [
+    {
+      "run_id": 41643549885,
+      "status": "success",
+      "artifact_id": 13233474415,
+      "branch": "production-assets-v2431-targeted-source-repairs",
+      "commit": "edbbc915bc005ed7a3aad8862a6504fbd9017789"
+    },
+    {
+      "run_id": 41643744716,
+      "status": "success",
+      "artifact_id": 13234520955,
+      "branch": "production-assets-v2431b-200ml-layout-clean",
+      "commit": "38dcaa16fcf77ea94600707605718a2979859bc8"
+    },
+    {
+      "run_id": 41644028238,
+      "status": "success",
+      "artifact_id": 13234706082,
+      "branch": "production-assets-v2431c-goodal-two-copy-fixes",
+      "commit": "728a4ecc6266733f00b1a9b7bbb2dce76f78997a"
+    }
+  ],
+  "newly_current_active_JPG": [
+    {
+      "group": "pending-27",
+      "type": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2431b-200ml-layout-clean/sales-image-drafts/pending-27/01_correct_200ml_bottle_layout_fixed_V2431b.jpg",
+      "sha256": "fe33d51aad43332684c8c3d06d1deef34941eb8f0c015e0c39e082e84134fecb",
+      "real_photo": "200mL printed actual original"
+    },
+    {
+      "group": "pending-20",
+      "type": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2431c-goodal-two-copy-fixes/sales-image-drafts/pending-20/INFO_02_V2412B_EN_V2421_V2431c.jpg"
+    },
+    {
+      "group": "pending-20",
+      "type": "SALES_IMAGE_DRAFT",
+      "path": "production-assets-v2431c-goodal-two-copy-fixes/sales-image-drafts/pending-20/INFO_03_V2412B_EN_V2421_V2431c.jpg"
+    }
+  ],
+  "unapproved_shade_candidate": {
+    "group": "pending-01",
+    "path": "production-assets-v2431-targeted-source-repairs/shade-source-drafts/pending-01/MISSHA_Cover_23_25_27_sourcecrop_QA_V2431.jpg",
+    "excluded_21": true,
+    "official_origin_verified": false,
+    "retail_approved": false
+  },
+  "superseded_bad_layout": "production-assets-v2431-targeted-source-repairs/sales-image-drafts/pending-27/01_correct_200ml_bottle_V2431.jpg",
+  "current_result": {
+    "new_jpg_version_files": 4,
+    "current_new_candidate_images": 3,
+    "official_shade_qa_candidate": 1,
+    "customer_original_photos_modified": 0,
+    "baseline_531_sha_changed": 0,
+    "live_public_urls_overwritten": 0,
+    "live_55_url_http_rechecked": false,
+    "final_qa_approved": 0,
+    "ready_except_logo": 0,
+    "rights_verified": 0
+  },
+  "issues": [
+    {
+      "group": "pending-27",
+      "state": "RIGHTS_HOLD",
+      "reason": "200ml source verified, stock package and commercial reuse license not checked; first frame image repaired"
+    },
+    {
+      "group": "pending-01",
+      "state": "SHADE_EVIDENCE_REQUIRED",
+      "reason": "21 excluded in new QA crop; provenance and product generation of original shades unverified"
+    },
+    {
+      "group": "pending-20",
+      "state": "RIGHTS_HOLD",
+      "reason": "customer info copy fixed; existing source photo includes retailer 'CLIO official store' graphic and should not be used without replacement/permission"
+    },
+    {
+      "group": "pending-10",
+      "state": "CUTOUT_REVISION_REQUIRED",
+      "reason": "white rectangle and commercial reuse permission unresolved"
+    },
+    {
+      "group": "pending-24/25/26",
+      "state": "SALES_IMAGE_DRAFT",
+      "reason": "prior corrected copy versions remain preserved under v2430c; no repeat edits"
+    }
+  ],
+  "next_resume": [
+    "pending-20 replace existing retailer badge source photo with exact brand official photograph without fake packaging",
+    "pending-01 official Cover Lasting 23/25/27 color source and permissions",
+    "pending-10 approved transparent photo source, no contour damage",
+    "pending-12/13/14/17/19/23 safe source photos for removing rectangular panels",
+    "verify 156 real customer frames manually in batches and original MK logo binary",
+    "do not publish unless rights and stock package proof complete"
+  ],
+  "no_external_brand_messages_sent": true,
+  "note": "GitHub repository may be public. 'Private QA draft' means not published into Shopee listing, not inaccessible to public."
+}
