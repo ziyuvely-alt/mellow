@@ -1,0 +1,37 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-11",
+  "product": "OBgE All-in-One Double Essence 50ml + 50ml",
+  "prior_run": 41688655026,
+  "prior_artifact": 13256606734,
+  "visually_checked_originals": 8,
+  "correct_exact_product": [
+    "original-01.png"
+  ],
+  "wrong_sku": [
+    "original-02.png",
+    "original-03.png",
+    "original-04.png",
+    "original-05.png",
+    "original-06.png",
+    "original-07.png",
+    "original-08.png"
+  ],
+  "wrong_sku_notes": {
+    "original-02.png": "OBgE cushion compact",
+    "original-03.png": "Pore Zero sun stick",
+    "original-04.png": "OBgE beige cylindrical non-double essence",
+    "original-05.png": "ACTIVE sweat-proof sun stick",
+    "original-06.png": "MAX Waterful Sun Cream pump",
+    "original-07.png": "different dark tube product",
+    "original-08.png": "Pore Zero mousse clay pack"
+  },
+  "held": 7,
+  "exact_original_usable_for_visual_source_QA": 1,
+  "no_approved_new_JPG": 0,
+  "existing_completed_assets_untouched": true,
+  "public_55_untouched": true,
+  "excel_shared": false,
+  "next_source_page": "https://obge.hk/en/products/all-in-one-double-essence",
+  "next_action": "Scrape only exact Shopify product media gallery; exclude related products and compare variant single vs 1+1 packaging"
+}
