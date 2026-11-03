@@ -1,0 +1,53 @@
+name: Shopee v2543 OBgE Double Essence replace 2 info with real 100ml photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2543-obge-double-essence-two-real.yml'
+      - 'scripts/v2543_obge_double_essence_two_genuine_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  replace-only-two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover prior verified QA corpus with OBgE finisher fixes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41714274533 -n shopee-v2541-156-JPG-two-OBgE-finisher-real-photo-QA -D v2543-base-156
+      - name: Make only two distinct genuine OBgE double essence product photographs
+        run: |
+          python scripts/v2543_obge_double_essence_two_genuine_photos.py
+          test "$(find v2543-156-obge-double-essence-real-photo-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2543-156-JPG-two-OBgE-double-essence-real-photo-QA
+          path: v2543-156-obge-double-essence-real-photo-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve QA-only photos separately from published URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2543-156-obge-double-essence-real-photo-QA /tmp/v2543-save
+          git worktree add --detach /tmp/v2543-wt HEAD
+          cd /tmp/v2543-wt
+          git switch --orphan production-assets-v2543-156-OBgE-double-essence-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2543-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA photos with two authentic OBgE Double Essence 100ml scenes'
+          git push origin HEAD:refs/heads/production-assets-v2543-156-OBgE-double-essence-real-QA
