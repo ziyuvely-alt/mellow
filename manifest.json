@@ -1,0 +1,36 @@
+{
+  "version": "v2548",
+  "date": "2026-11-04",
+  "family": "pending-30",
+  "product": "PIXELPURE Aura Radiance Serum 50ml",
+  "new_original_real_photo_changes": [
+    {
+      "slot": 2,
+      "path": "review-JPG-by-family/pending-30/02_v2548-real-aura-radiance-serum-50ml.jpg",
+      "source": "https://web.tradekorea.com/product/857/2334857/pixelpure_aura_radiance_serum_%28Skin_Care%29_3.jpg",
+      "scene": "authentic 50ml pink pump bottle with dispensed gel and glass drops",
+      "old_sha256": "2598dfe13706d000b27da7e20395d5499cf8392fd1245c986d82abf596c79d68",
+      "new_sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+      "original_sha256": "e7b9276d309344b0d220d146d9fe57c27e44b785e51928e433908a3a53dfaafd"
+    },
+    {
+      "slot": 4,
+      "path": "review-JPG-by-family/pending-30/04_v2548-real-aura-radiance-serum-50ml.jpg",
+      "source": "https://web.tradekorea.com/product/858/2334858/pixelpure_aura_radiance_serum_%28Skin_Care%29_4.jpg",
+      "scene": "two real 50ml Aura Radiance Serum pink pump bottles at distinct angles",
+      "old_sha256": "b6b3f2efacdad1a5f5c1df06322f64590c8f4446f32e23341cd0ae17bf31b21a",
+      "new_sha256": "a3daa58026d914bcd0d2fb67ca74ff38000d8b07ef89ceb386ebb54d9341d996",
+      "original_sha256": "3c2dc0b00e609be0250c25c8878b565df65b48b70f0bee5495f554d762771613"
+    }
+  ],
+  "total_QA_JPGs": 156,
+  "old_other_154_JPGs_byte_identical": true,
+  "exact_volume_product_source": "https://www.pixelpure.com/product/detail.html?product_no=25",
+  "photo_merchant_rights_verified": false,
+  "seller_owned_stock_edition_QA": false,
+  "original_MK_logo_applied": false,
+  "all_sales_QA_passed": false,
+  "previous_55_urls_preserved": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
