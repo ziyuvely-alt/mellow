@@ -1,0 +1,53 @@
+name: Shopee v2537 MISSHA PDRN 70ml cream one photo correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2537-missha-cream-one-real-photo.yml'
+      - 'scripts/v2537_missha_70ml_cream_one_real_photo_swap.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover preserved 156 review JPEGs without new generation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41711798260 -n shopee-v2536-156-JPG-one-true-MISSHA-serum-photo-correction-QA -D v2537-input-156
+      - name: Change precisely one duplicate info card into authentic 70ml cream photograph
+        run: |
+          python scripts/v2537_missha_70ml_cream_one_real_photo_swap.py
+          test "$(find v2537-156-missha-cream-photo-correction/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2537-156-jpg-missha-70ml-cream-one-photo-QA-only
+          path: v2537-156-missha-cream-photo-correction/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Store isolated QA branch, no public URL replacement or spreadsheet release
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2537-156-missha-cream-photo-correction /tmp/v2537-corpus
+          git worktree add --detach /tmp/v2537-wt HEAD
+          cd /tmp/v2537-wt
+          git switch --orphan production-assets-v2537-156-MISSHA-cream-real-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2537-corpus/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPEGs with one genuine MISSHA PDRN 70ml cream photo correction'
+          git push origin HEAD:refs/heads/production-assets-v2537-156-MISSHA-cream-real-QA
