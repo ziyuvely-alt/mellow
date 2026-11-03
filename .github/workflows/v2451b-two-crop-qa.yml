@@ -1,0 +1,53 @@
+name: Shopee v2451b repair only two visually failed CLIO crops
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2451b-two-crop-qa.yml'
+      - 'scripts/v2451b_only_two_failed_crops.py'
+permissions:
+  contents: write
+jobs:
+  fix-only-two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover prior seven JPGs and genuine source JPGs
+        shell: bash
+        run: |
+          mkdir prior-v2451 prior-v2445b
+          git fetch origin production-assets-v2451-seven-new-photo-candidates production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2451-seven-new-photo-candidates | tar -xf - -C prior-v2451
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: QA-fix only two crops without repeating five previously successful JPGs
+        run: python scripts/v2451b_only_two_failed_crops.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2451b-seven-photo-JPGs-two-crops-QA-fixed
+          path: v2451b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated draft JPGs and exact checksum checkpoint
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2451b-output /tmp/v2451b-revised
+          git worktree add --detach /tmp/v2451b-wt HEAD
+          cd /tmp/v2451b-wt
+          git switch --orphan production-assets-v2451b-seven-photo-QA-revised
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2451b-revised/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve only two visual-crop repairs and five unchanged genuine source JPGs'
+          git push origin HEAD:refs/heads/production-assets-v2451b-seven-photo-QA-revised
