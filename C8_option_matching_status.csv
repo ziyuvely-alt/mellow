@@ -1,0 +1,46 @@
+﻿family_id,source_workbook,source_sheet,excel_row,product,raw_option,normalized_option,status,official_swatch_proof
+pending-01,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,8,MISSHA Magic Cushion Cover Lasting,25,25,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-01,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,9,MISSHA Magic Cushion Cover Lasting,27,27,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-01,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,10,MISSHA Magic Cushion Cover Lasting,21,21,INCLUSION_CONFLICT_21,NOT_VERIFIED
+pending-01,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,11,MISSHA Magic Cushion Cover Lasting,23,23,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-02,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,12,MISSHA Magic Cushion Moist Up,21,21,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-02,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,13,MISSHA Magic Cushion Moist Up,23,23,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-04,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,16,CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g,21N Linen,21N Linen,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-04,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,17,CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g,23N Ginger,23N Ginger,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-04,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,18,CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g,21C Lingerie,21C Lingerie,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-05,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,22,CLIO Kill Cover Founwear Cushion Special Set,19N Porcelain,19N Porcelain,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-05,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,23,CLIO Kill Cover Founwear Cushion Special Set,21N Linen,21N Linen,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-05,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,24,CLIO Kill Cover Founwear Cushion Special Set,23N Ginger,23N Ginger,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-05,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,25,CLIO Kill Cover Founwear Cushion Special Set,19C Light,19C Light,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-05,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,26,CLIO Kill Cover Founwear Cushion Special Set,21C Lingerie,21C Lingerie,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-06,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,27,CLIO Kill Cover Mesh Glow Essential Cushion Special Set,19N Porcelain,19N Porcelain,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-06,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,28,CLIO Kill Cover Mesh Glow Essential Cushion Special Set,19C Light,19C Light,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-06,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,29,CLIO Kill Cover Mesh Glow Essential Cushion Special Set,23N Ginger,23N Ginger,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-06,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,30,CLIO Kill Cover Mesh Glow Essential Cushion Special Set,21N Linen,21N Linen,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-06,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,31,CLIO Kill Cover Mesh Glow Essential Cushion Special Set,21C Lingerie,21C Lingerie,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-07,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,32,CLIO Kill Cover Mesh Blur Cushion Special Set,19C Light,19C Light,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-07,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,33,CLIO Kill Cover Mesh Blur Cushion Special Set,19N Porcelain,19N Porcelain,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-07,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,34,CLIO Kill Cover Mesh Blur Cushion Special Set,21N Linen,21N Linen,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,35,peripera Mood Glowy Tint (26AD) 4g,001,01,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,36,peripera Mood Glowy Tint (26AD) 4g,002,02,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,37,peripera Mood Glowy Tint (26AD) 4g,003,03,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,38,peripera Mood Glowy Tint (26AD) 4g,004,04,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,39,peripera Mood Glowy Tint (26AD) 4g,005,05,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,40,peripera Mood Glowy Tint (26AD) 4g,006,06,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,41,peripera Mood Glowy Tint (26AD) 4g,007,07,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,42,peripera Mood Glowy Tint (26AD) 4g,008,08,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,43,peripera Mood Glowy Tint (26AD) 4g,009,09,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,44,peripera Mood Glowy Tint (26AD) 4g,010,10,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,45,peripera Mood Glowy Tint (26AD) 4g,011,11,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,46,peripera Mood Glowy Tint (26AD) 4g,012,12,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,47,peripera Mood Glowy Tint (26AD) 4g,013,13,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,48,peripera Mood Glowy Tint (26AD) 4g,014,14,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,49,peripera Mood Glowy Tint (26AD) 4g,015,15,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,50,peripera Mood Glowy Tint (26AD) 4g,016,16,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,51,peripera Mood Glowy Tint (26AD) 4g,017,17,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,52,peripera Mood Glowy Tint (26AD) 4g,018,18,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,53,peripera Mood Glowy Tint (26AD) 4g,019,19,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-08,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,54,peripera Mood Glowy Tint (26AD) 4g,020,20,VERSION_CONFLICT_26AD,NOT_VERIFIED
+pending-10,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,58,OBgE Perfect Homme Cushion 15g,1 Ivory,1 Ivory,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-10,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,59,OBgE Perfect Homme Cushion 15g,2 Beige,2 Beige,WORKING_SHEET_ONLY,NOT_VERIFIED
+pending-10,Shopee_Owned_makeup_58SKU_WORKING_20261029.xlsx,Template,60,OBgE Perfect Homme Cushion 15g,3 Sand,3 Sand,WORKING_SHEET_ONLY,NOT_VERIFIED

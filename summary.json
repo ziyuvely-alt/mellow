@@ -1,0 +1,23 @@
+{
+  "version": "2.4.25",
+  "source_original_prior_371_jpg_sha_preserved": 371,
+  "prior_2_edits_exact_preserved": 2,
+  "original_public_jpg_sha_preserved": 55,
+  "previous_eight_five_frame_sets_preserved": 8,
+  "existing_public_url_changes": 0,
+  "corrected_customer_catalognaming_jpg": 5,
+  "product_photo_or_package_pixels_modified": 0,
+  "official_packages_matched_to_official_product_photo": 6,
+  "inventory_package_verified": 0,
+  "commercial_reuse_verified": 0,
+  "obge_rights_requires_prior_permission": 2,
+  "C8_actual_working_SKU_option_rows_recovered": 45,
+  "C8_peripera_26AD_source_conflict_options": 20,
+  "C8_missha_cover_21_inclusion_conflicts": 1,
+  "C8_shade_chart_verified": 0,
+  "logo_binary_recovered": false,
+  "READY_EXCEPT_LOGO": 0,
+  "PRODUCTION_COMPLETE_QA_PENDING": 0,
+  "FINAL_QA_APPROVED": 0,
+  "note": "One concrete retail naming mismatch corrected across five draft JPEG captions with actual product pixels preserved; never claim marketing photo rights or actual inventory verification."
+}
