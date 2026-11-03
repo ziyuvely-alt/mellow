@@ -1,0 +1,53 @@
+name: Shopee v2524 append authentic CLIO Mesh Glow Essential 5shade reference
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2524-clio-mesh-glow-five-shade.yml'
+      - 'scripts/v2524_append_exact_mesh_glow_five_source_swatches.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  source-and-append:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 152 earlier genuine review JPEG bytes, no regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41704269916 -n shopee-v2523-152-authentic-JPG-MISSHA-CLIO-shades-review-only -D v2524-base-152
+      - name: Download and append real CLIO 5shade photographic source
+        run: |
+          python scripts/v2524_append_exact_mesh_glow_five_source_swatches.py
+          test "$(find v2524-153-actual-CLIO-five-shade-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 153
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2524-153-JPG-CLIO-Mesh-Glow-5real-shades-QA
+          path: v2524-153-actual-CLIO-five-shade-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save QA-only corpus in isolated branch, no public images or spreadsheets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2524-153-actual-CLIO-five-shade-QA /tmp/v2524-files
+          git worktree add --detach /tmp/v2524-wt HEAD
+          cd /tmp/v2524-wt
+          git switch --orphan production-assets-v2524-153-real-shade-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2524-files/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 153 QA JPEGs including genuine 5shade CLIO Mesh Glow cushion reference'
+          git push origin HEAD:refs/heads/production-assets-v2524-153-real-shade-qa
