@@ -1,0 +1,51 @@
+name: Shopee v2435 Peripera actual hero caption correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2435-peripera-hero.yml'
+      - 'scripts/v2435_peripera_hero_no_20claim.py'
+permissions:
+  contents: write
+jobs:
+  peripera-hero:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore the exact preserved source
+        run: |
+          mkdir v2427b-source
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+      - name: Make actual revised Peripera image
+        run: python scripts/v2435_peripera_hero_no_20claim.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2435-peripera-hero-corrected-draft
+          path: v2435-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve in isolated branch; never publish or overwrite existing JPGs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2435-output /tmp/v2435-assets
+          git worktree add --detach /tmp/v2435-wt HEAD
+          cd /tmp/v2435-wt
+          git switch --orphan production-assets-v2435-peripera-caption-corrected
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2435-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve Peripera real-shade photo caption correction, pending provenance'
+          git push origin HEAD:refs/heads/production-assets-v2435-peripera-caption-corrected
