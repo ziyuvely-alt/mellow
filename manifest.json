@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-03",
+  "reason": "DejaVu Sans lacks Korean glyphs; first v2512 card rendered tofu rectangles",
+  "repaired_file": "04-stock-shade-names-legible.jpg",
+  "bytes": 90583,
+  "sha256": "f0b5c078b6882909ccf13e1ea966311ae156ae41ed340c965fe7ea63fb954846",
+  "previous_photo_JPGs_untouched": true,
+  "v2512_second_info_card_untouched": true,
+  "colors_fabricated": false,
+  "stock_edition_photo_confirmed": false,
+  "MK_original_logo_present": false,
+  "final_sales_QA": "HOLD",
+  "public_URLs_added": 0,
+  "excel_shared": false
+}
