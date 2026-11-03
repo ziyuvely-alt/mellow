@@ -1,0 +1,57 @@
+name: Shopee v2532 append true CLIO Founwear five-shade source to corrected 155 JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2532-clio-founwear-five-source.yml'
+      - 'scripts/v2532_append_clio_founwear_five_real_face_swatches.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-addition:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore corrected full v2530b 155-image QA corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41707196801 -n shopee-v2530-155-JPG-with-3-real-MISSHA-cover-photo-upgrades -D v2532-base-155
+      - name: Restore authentic CLIO five-shade face source, no color invention
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41707037373 -n shopee-v2531-clio-founwear-5-real-shades-photo-QA-hold -D v2532-clio-original
+      - name: Append one actual five-shade JPEG and verify 155 old JPEG bytes
+        run: |
+          python scripts/v2532_append_clio_founwear_five_real_face_swatches.py
+          test "$(find v2532-156-with-clio-founwear-5shade/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2532-156-JPG-Founwear-genuine-5shade-QA-only
+          path: v2532-156-with-clio-founwear-5shade/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve review-only 156 originals, no merchant/public release
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2532-156-with-clio-founwear-5shade /tmp/v2532-out
+          git worktree add --detach /tmp/v2532-wt HEAD
+          cd /tmp/v2532-wt
+          git switch --orphan production-assets-v2532-156-CLIO-Founwear-QA-only
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2532-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve QA 156 genuine JPG including real CLIO Founwear five-shade photograph'
+          git push origin HEAD:refs/heads/production-assets-v2532-156-CLIO-Founwear-QA-only
