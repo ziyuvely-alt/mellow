@@ -1,0 +1,51 @@
+name: Shopee v2443 PIXELPURE 145ml verified two fact cards plus 3 authentic JPGs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2443-pixelpure-145ml-complete-five.yml'
+      - 'scripts/v2443_pixelpure_verified_145ml_two_cards.py'
+permissions:
+  contents: write
+jobs:
+  accurate-source-set:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing three photographs/info frames without regenerating
+        run: |
+          mkdir prior-v2442b
+          git fetch origin production-assets-v2442b-thirty-safety-filtered-sets
+          git archive origin/production-assets-v2442b-thirty-safety-filtered-sets | tar -xf - -C prior-v2442b
+      - name: Create two verified fact cards and assemble five-frame QA candidate
+        run: python scripts/v2443_pixelpure_verified_145ml_two_cards.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2443-pixelpure-145ml-five-frame-product-candidate
+          path: v2443-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate branch, no Shopee or published URL modification
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2443-output /tmp/v2443-checked
+          git worktree add --detach /tmp/v2443-wt HEAD
+          cd /tmp/v2443-wt
+          git switch --orphan production-assets-v2443-pixelpure-five-145ml
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2443-checked/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve five genuine 145ml product review JPGs and verified use/INCI info with rights hold'
+          git push origin HEAD:refs/heads/production-assets-v2443-pixelpure-five-145ml
