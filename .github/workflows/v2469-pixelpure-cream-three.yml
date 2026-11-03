@@ -1,0 +1,50 @@
+name: Shopee v2469 build Pixelpure Aqua Cream 3 authentic photo/info JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2469-pixelpure-cream-three.yml'
+      - 'scripts/v2469_pixelpure_aqua_three_factual_frames.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover exact official 50ml cream photos from existing successful artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41683761892 -n shopee-v2468-pixelpure-aqua-cream-50ml-authentic-source-QA-HOLD -D v2468-pixelpure-cream-50ml-gallery
+      - run: python scripts/v2469_pixelpure_aqua_three_factual_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2469-aqua-cream-three-new-JPG-unapproved-no-XLSX
+          path: v2469-pixelpure-cream-three-new-JPG/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve 3 real JPGs on separate non-public branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2469-pixelpure-cream-three-new-JPG /tmp/v2469-out
+          git worktree add --detach /tmp/v2469-wt HEAD
+          cd /tmp/v2469-wt
+          git switch --orphan production-assets-v2469-pixelpure-cream-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2469-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve genuine Pixelpure Aqua Soothing Cream 3 draft JPEGs with QA holds'
+          git push origin HEAD:refs/heads/production-assets-v2469-pixelpure-cream-three
