@@ -1,0 +1,15 @@
+{
+  "version": "2.4.34b",
+  "actual_visual_error_corrected": 1,
+  "original_v2434_modified": false,
+  "source_sha": "bec3516379618d33076080c7095fa6b858706bdf181df0c69a6bcd48cfc4b5b1",
+  "output": "sales-image-drafts/pending-08/INFO_FORMULA_01_ornament_repaired_V2434b.jpg",
+  "output_sha": "9bf7372da389e0db20bc2c640d349233cd93eadc9c358ad84afec329c943089c",
+  "new_unique_active_JPG": 1,
+  "supersedes": "production-assets-v2434-obge-peripera-drafts/sales-image-drafts/pending-08/INFO_FORMULA_01_V2414_EN_V2421_V2434.jpg",
+  "status": "SALES_IMAGE_DRAFT",
+  "rights_verified": false,
+  "final_qa_approved": false,
+  "public_URL_changes": 0,
+  "note": "Ornamental circle restored on original flat-colored panel; no source photograph edited."
+}
