@@ -1,0 +1,28 @@
+name: Shopee v2531 original five-shade CLIO Founwear cushion photos QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2531-clio-founwear-5shade-photos.yml'
+      - 'scripts/v2531_clio_founwear_five_actual_photos_qa.py'
+permissions:
+  contents: read
+jobs:
+  genuine-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Acquire true 5-shade forearm and cheek photographs
+        run: python scripts/v2531_clio_founwear_five_actual_photos_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2531-clio-founwear-5-real-shades-photo-QA-hold
+          path: v2531-clio-founwear-five-shade-actual/
+          if-no-files-found: error
+          retention-days: 90
