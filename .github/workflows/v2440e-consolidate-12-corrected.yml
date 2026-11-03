@@ -1,0 +1,56 @@
+name: Shopee v2440e consolidate 12 actual JPG edits and verify 531 historical original SHA256
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2440e-consolidate-12-drafts.yml'
+      - 'scripts/v2440e_corrected_12_edits_and_hashes.py'
+permissions:
+  contents: write
+jobs:
+  integrity-merge:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover exact 531 original archive and three new batch archives
+        shell: bash
+        run: |
+          set -euo pipefail
+          git fetch origin production-assets-v2427b-obge-shade-clean production-assets-v2439-four-edits-30group-audit production-assets-v2439b-five-real-card-fixes production-assets-v2440-three-card-repairs
+          mkdir -p baseline-v2427b v2439-source v2439b-source v2440-source
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+          git archive origin/production-assets-v2439-four-edits-30group-audit | tar -xf - -C v2439-source
+          git archive origin/production-assets-v2439b-five-real-card-fixes | tar -xf - -C v2439b-source
+          git archive origin/production-assets-v2440-three-card-repairs | tar -xf - -C v2440-source
+      - name: Byte compare every actual revised JPG and audit all 531 original JPG
+        run: python scripts/v2440e_combine_12_verified_edits_and_recheck_531.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2440e-12-real-JPGs-30family-verified-index
+          path: v2440e-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve SHA-verified new assets without modifying published assets
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2440e-output /tmp/v2440e-saved
+          git worktree add --detach /tmp/v2440e-wt HEAD
+          cd /tmp/v2440e-wt
+          git switch --orphan production-assets-v2440e-corrected-consolidated-12-drafts
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2440e-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 12 unique edited JPG files, 531 source checksum proof and explicit remaining 30-family QA queue'
+          git push origin HEAD:refs/heads/production-assets-v2440e-12-drafts-consolidated
