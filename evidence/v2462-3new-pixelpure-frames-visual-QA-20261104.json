@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-28",
+  "run_id": 41681990729,
+  "artifact_id": 13253665694,
+  "branch": "production-assets-v2462-pixelpure-three-info",
+  "new_files": [
+    {
+      "file": "03-how-to-check-instructions.jpg",
+      "sha256": "e4db5fab1182fe2e3af8db4c9b3debe94e125d1e283567386baf8b31f446a57e",
+      "bytes": 105511
+    },
+    {
+      "file": "04-product-format.jpg",
+      "sha256": "7dce4a78ab79e570016fb8737ead28978c39e20e7d30bad83d91f8d248e55d4a",
+      "bytes": 83550
+    },
+    {
+      "file": "05-pack-check.jpg",
+      "sha256": "88b55f82fc4636f9b9feef5780a97a7671757a213a7b73583891443f3a4d56f2",
+      "bytes": 109627
+    }
+  ],
+  "actual_binary_hash_checked": 3,
+  "dimensions_checked": "1080x1080 each",
+  "visual_inspection": {
+    "typo_detected": false,
+    "layout_content_distinct": true,
+    "notes": [
+      "Information cards 04 and 05 overlap on 70 pads / 210 mL and need stronger unique information before customer release",
+      "Photo frames 01 and 02 have not been visually merged into 5-frame final contact sheet in this execution",
+      "Actual original MellowKR MK logo not available in JPGs",
+      "Instruction text intentionally avoids specific claims not verified by official directions"
+    ],
+    "final_sales_QA": "HOLD",
+    "new_public_urls": 0
+  },
+  "existing_photo_files_untouched": true,
+  "spreadsheet_unchanged": true
+}
