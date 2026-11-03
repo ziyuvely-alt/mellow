@@ -1,0 +1,46 @@
+name: Shopee v2455 exact OBgE 300mL official ingredients and function facts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2455-obge-verified-facts.yml'
+      - 'scripts/v2455_obge_300ml_ingredients_and_functions.py'
+permissions:
+  contents: write
+jobs:
+  official-brand-sourced-fact-jpg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Produce two actual verified English ingredient/function JPG cards
+        run: python scripts/v2455_obge_300ml_ingredients_and_functions.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2455-two-source-verified-OBgE-300ml-fact-JPGs
+          path: v2455-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve two new files with source evidence, no spreadsheet or source overwrites
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2455-output /tmp/v2455-confirmed
+          git worktree add --detach /tmp/v2455-wt HEAD
+          cd /tmp/v2455-wt
+          git switch --orphan production-assets-v2455-two-obge-official-source-facts
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2455-confirmed/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 2 new accurate brand-source OBgE 300mL ingredient/benefit JPGs; no product photo rights claims'
+          git push origin HEAD:refs/heads/production-assets-v2455-two-obge-official-source-facts
