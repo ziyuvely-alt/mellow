@@ -1,0 +1,27 @@
+name: Shopee v2488 DrG moisture sunscreen six exact direct photo sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2488-drg-moisture-direct.yml'
+      - 'scripts/v2488_drg_moisture_direct_sources.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2488_drg_moisture_direct_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2488-DrG-Moisture-Sun-50ml-real-photo-sources-QA-HOLD
+          path: v2488-drg-moisture-exact-photos/
+          retention-days: 90
+          if-no-files-found: error
