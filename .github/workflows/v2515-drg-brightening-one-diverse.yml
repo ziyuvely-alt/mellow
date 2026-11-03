@@ -1,0 +1,47 @@
+name: Shopee v2515 one DrG Brightening Sun+ overlapping frame fix
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2515-drg-brightening-one-diverse.yml'
+      - 'scripts/v2515_drg_brightening_single_diverse_card.py'
+permissions:
+  contents: write
+jobs:
+  one-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: |
+          python scripts/v2515_drg_brightening_single_diverse_card.py
+          test -s v2515-drg-brightening-one-distinct-repair/05-tone-up-sebum-finish.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2515-drg-brightening-only-one-diverse-JPG
+          path: v2515-drg-brightening-one-distinct-repair/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve only corrected one-frame JPG
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2515-drg-brightening-one-distinct-repair /tmp/v2515-p
+          git worktree add --detach /tmp/v2515-wt HEAD
+          cd /tmp/v2515-wt
+          git switch --orphan production-assets-v2515-drg-brightening-one
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2515-p/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve sole DrG Brightening Up Sun+ 05 factual diversity correction for QA'
+          git push origin HEAD:refs/heads/production-assets-v2515-drg-brightening-one
