@@ -1,0 +1,29 @@
+{
+  "date": "2026-11-04",
+  "version": "v2522",
+  "retained_150_original_files_byte_identical": true,
+  "new_JPGs_created": 1,
+  "total_JPG_candidates": 151,
+  "added_family": "pending-01",
+  "added_slot": 6,
+  "new_file": "review-JPG-by-family/pending-01/06-real-source-21-23-25-27-shades.jpg",
+  "new_SHA256": "ed94f7f6bcfef9c9488ca163b7d80bd480a13c487997ec5475cf911ae5e67827",
+  "original_source_SHA256": "15c301737806ac730287125558ad54d7d979a27be022fd3e88bbb21fb819f45f",
+  "shade_options": [
+    "21",
+    "23",
+    "25",
+    "27"
+  ],
+  "shade_original": "https://cosmic.net.ua/image/cache/catalog/0011/000000000051-800x800.jpg",
+  "color_generation_or_artificial_swatch_pixels": false,
+  "official_brand_approval": false,
+  "stock_edition_matched": false,
+  "commercial_photo_rights_verified": false,
+  "MK_original_logo_present": false,
+  "sale_approval": false,
+  "verified_55_URLs_unchanged": true,
+  "new_public_URLs": 0,
+  "excel_created_or_shared": false,
+  "critical_note": "Photographic shade chart staged solely for QA. Do not publish before source license and stock edition crosscheck."
+}
