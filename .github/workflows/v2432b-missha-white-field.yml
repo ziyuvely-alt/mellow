@@ -1,0 +1,51 @@
+name: Shopee v2432b three MISSHA real-photo white-field drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2432b-missha-white-field.yml'
+      - 'scripts/v2432b_three_missha_white_field.py'
+permissions:
+  contents: write
+jobs:
+  missha-real-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve immutable source JPG
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - name: Produce three actual sales-layout draft JPGs
+        run: python scripts/v2432b_three_missha_white_field.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2432b-three-missha-real-photo-layout-drafts
+          path: v2432b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve new branch, no public URL edits
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2432b-output /tmp/v2432b-saved
+          git worktree add --detach /tmp/v2432b-wt HEAD
+          cd /tmp/v2432b-wt
+          git switch --orphan production-assets-v2432b-missha-three-photo-drafts
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2432b-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three genuine MISSHA photographic source layouts, QA hold'
+          git push origin HEAD:refs/heads/production-assets-v2432b-missha-three-photo-drafts
