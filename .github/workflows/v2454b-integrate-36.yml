@@ -1,0 +1,54 @@
+name: Shopee v2454b preserve 36 source-backed JPGs, no spreadsheets
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2454b-integrate-36.yml'
+      - 'scripts/v2454b_integrate_36_no_rerender.py'
+permissions:
+  contents: write
+jobs:
+  integrate-no-recreation:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore exact earlier success frames from preserved branches
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2453b prior-v2454
+          git fetch origin production-assets-v2453b-34-photo-JPG-27families production-assets-v2454-obge-300ml-official-facts-only
+          git archive origin/production-assets-v2453b-34-photo-JPG-27families | tar -xf - -C prior-v2453b
+          git archive origin/production-assets-v2454-obge-300ml-official-facts-only | tar -xf - -C prior-v2454
+      - name: Exact byte and JPG specifications verify all 36 files without rerender
+        run: python scripts/v2454b_integrate_36_no_rerender.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2454b-36-accurate-JPG-candidates-with-QA-holds
+          path: v2454b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated new archive without live URL writes or spreadsheet
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2454b-output /tmp/v2454b-archive
+          git worktree add --detach /tmp/v2454b-wt HEAD
+          cd /tmp/v2454b-wt
+          git switch --orphan production-assets-v2454b-36-photo-and-fact-JPG-drafts
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2454b-archive/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 36 original JPG photo and factual text candidates with strict product, rights and shade QA holds'
+          git push origin HEAD:refs/heads/production-assets-v2454b-36-photo-and-fact-JPG-drafts
