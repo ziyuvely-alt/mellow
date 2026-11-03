@@ -1,0 +1,15 @@
+{
+  "version": "2.4.34c",
+  "superseded": [
+    "v2434 INFO_FORMULA",
+    "v2434b ornament revision"
+  ],
+  "new_customer_copy_revision": 1,
+  "output": "sales-image-drafts/pending-08/INFO_FORMULA_01_clean_panel_V2434c.jpg",
+  "sha256": "90ec9596374ab62176eedd0cd59a5387e2e765fb4c62e1a56c6e52eb3491c10f",
+  "size": 58435,
+  "style": "plain rounded panel; no circle or background rectangle artifacts",
+  "source_images_modified": 0,
+  "final_approval": false,
+  "public_URLs_changed": 0
+}
