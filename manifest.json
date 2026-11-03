@@ -1,0 +1,49 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-20",
+  "source_run": 41690163576,
+  "source_artifact": 13255563047,
+  "previous_JPG_recreated": 0,
+  "new_JPG_files": [
+    {
+      "filename": "03-25ad-front-bottle.jpg",
+      "source": "25ad-straight-product.jpg",
+      "sha256": "5a65a89b8621f0297316859f3bf0b85a189dd8a2862ef7e1ad43e1236ff95c2d",
+      "bytes": 64613,
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "Genuine-photo-draft / commercial rights & seller stock pending"
+    },
+    {
+      "filename": "04-25ad-bottle-angle.jpg",
+      "source": "25ad-angled-product.jpg",
+      "sha256": "a17c0ae94ec29fe36b0bcb4aebb009acfde8c3d7378753b1c13d8d584ee9fea8",
+      "bytes": 113342,
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "Genuine-photo-draft / commercial rights & seller stock pending"
+    },
+    {
+      "filename": "05-verified-usage-instructions.jpg",
+      "source": "Clio direct SSG seller listing 25AD use directions",
+      "sha256": "47dc52defbfeeea019563844757a2069af230d0cca2ae7ccf1e75d0ed020af99",
+      "bytes": 98530,
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "Genuine-photo-draft / commercial rights & seller stock pending"
+    }
+  ],
+  "exact_25AD_image_label_checked": true,
+  "physical_owned_stock_package_checked": false,
+  "licensed_image_use_verified": false,
+  "MK_original_logo_applied": false,
+  "final_sales_QA": false,
+  "new_public_URLs": 0,
+  "excel_shared": false
+}
