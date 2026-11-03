@@ -1,0 +1,31 @@
+{
+  "source_run": 41676483713,
+  "changes": [
+    {
+      "filename": "pending-08-shade-option-check-corrected.jpg",
+      "sha256": "21dea5add57818185c18dd383d6ac8d47ecdd186babc5dd539737b2590ae791a",
+      "bytes": 127981,
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "FINAL_QA_HOLD_STOCK_AND_ORIGINAL_MK",
+      "public": false
+    },
+    {
+      "filename": "pending-19-package-check-corrected.jpg",
+      "sha256": "f9a61a526cafc63edb98b09338fcc6703e7923be0e066f71a7d3513f93a34250",
+      "bytes": 111922,
+      "size": [
+        1080,
+        1080
+      ],
+      "status": "FINAL_QA_HOLD_STOCK_AND_ORIGINAL_MK",
+      "public": false
+    }
+  ],
+  "previous_jpg_overwritten": 0,
+  "prior_public_55_untouched": true,
+  "new_url_verified": 0,
+  "excel_shared": false
+}
