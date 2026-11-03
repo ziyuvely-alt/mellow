@@ -1,0 +1,45 @@
+name: Shopee v2462 build missing Pixel Pure Serum Pad 3 info JPG frames
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2462-pixelpure-3-info-frames.yml'
+      - 'scripts/v2462_pending28_create_three_info_frames.py'
+permissions:
+  contents: write
+jobs:
+  create-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2462_pending28_create_three_info_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2462-pixelpure-3-new-JPG-QA-HOLD-no-spreadsheet
+          path: v2462-pending28-new-three/
+          if-no-files-found: error
+          retention-days: 90
+      - name: Isolated preservation branch (NOT public images)
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2462-pending28-new-three /tmp/v2462-jpgs
+          git worktree add --detach /tmp/v2462-wt HEAD
+          cd /tmp/v2462-wt
+          git switch --orphan production-assets-v2462-pixelpure-three-info
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2462-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve Pixelpure Glow pad 3 newly created information frames, final QA pending'
+          git push origin HEAD:refs/heads/production-assets-v2462-pixelpure-three-info
