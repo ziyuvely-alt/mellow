@@ -1,0 +1,28 @@
+name: Shopee v2535 exact MISSHA 30mL PDRN serum three original photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2535-missha-pdrn-serum-real-photo.yml'
+      - 'scripts/v2535_missha_30ml_serum_genuine_photos.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Capture exact 30ml dropper photos only
+        run: python scripts/v2535_missha_30ml_serum_genuine_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2535-missha-PDRN-NAD-30ml-three-real-photo-originals-QA
+          path: v2535-missha-30ml-serum-real-photo-sources/
+          retention-days: 90
+          if-no-files-found: error
