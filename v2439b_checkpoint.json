@@ -1,0 +1,77 @@
+{
+  "version": "2.4.39b",
+  "new_actual_JPG_edits": 5,
+  "groups_modified": 5,
+  "prior_customer_images_changed": 0,
+  "new_color_swatches": 0,
+  "public_55_urls_changed": 0,
+  "photo_rights_verified": 0,
+  "FINAL_QA_APPROVED": 0,
+  "results": [
+    {
+      "group_id": "pending-01",
+      "source": "pending-01/INFO_PACKAGE_02_V2414_EN_V2421.jpg",
+      "original_sha256": "f40b4c5ff7b1c9e907d96fd5fcddab739dd01fb9256ceb368bbc340d7405f08e",
+      "output": "sales-image-drafts/pending-01/pending-01_original_text_clean_card_V2439b.jpg",
+      "new_sha256": "64fff2ac31833c6c1c5d3cd385658a18241355a251aec4d9150c8a3e95435a1f",
+      "revision": "Removed visible circle overlap from information card, retained factual original text",
+      "status": "SALES_IMAGE_DRAFT",
+      "sales_release_allowed": false,
+      "external_commercial_rights_verified": false,
+      "physical_stock_version_verified": false
+    },
+    {
+      "group_id": "pending-06",
+      "source": "pending-06/INFO_03_V2413_EN_V2421.jpg",
+      "original_sha256": "9a2c607ba1c113a1f22f2d4e457c5cf5cf479b405d287388fe1d0c35eb4dd1de",
+      "output": "sales-image-drafts/pending-06/pending-06_original_text_clean_card_V2439b.jpg",
+      "new_sha256": "7c440a9a2bf91a7f7d159079a34b9fc798751ddc20a44d03d0fffbad28cd5d12",
+      "revision": "Removed visible circle overlap from information card, retained factual original text",
+      "status": "SALES_IMAGE_DRAFT",
+      "sales_release_allowed": false,
+      "external_commercial_rights_verified": false,
+      "physical_stock_version_verified": false
+    },
+    {
+      "group_id": "pending-09",
+      "source": "pending-09/INFO_05_OFFICIAL_V2412_EN_V2421.jpg",
+      "original_sha256": "6595dc6672ae530307b75dba9e1e065a6a91d2ce913825c953c1a03592f5a05d",
+      "output": "sales-image-drafts/pending-09/pending-09_original_text_clean_card_V2439b.jpg",
+      "new_sha256": "37e89ce87c3fabee25f5190a07b9d6abe0980fcfc6ca941f1a53a8d5fd5d1c62",
+      "revision": "Removed visible circle overlap from information card, retained factual original text",
+      "status": "SALES_IMAGE_DRAFT",
+      "sales_release_allowed": false,
+      "external_commercial_rights_verified": false,
+      "physical_stock_version_verified": false
+    },
+    {
+      "group_id": "pending-14",
+      "source": "pending-14/INFO_05_V2412B_EN_V2421.jpg",
+      "original_sha256": "6954d94234595ae326e2960a5f04f3bcfbcdda1b7c84fcf94fba2196c9293fad",
+      "output": "sales-image-drafts/pending-14/pending-14_original_text_clean_card_V2439b.jpg",
+      "new_sha256": "6ab80a587197e2375dbe9221d668d6b323938691f1d6c66775bc96475328bf4b",
+      "revision": "Removed visible circle overlap from information card, retained factual original text",
+      "status": "SALES_IMAGE_DRAFT",
+      "sales_release_allowed": false,
+      "external_commercial_rights_verified": false,
+      "physical_stock_version_verified": false
+    },
+    {
+      "group_id": "pending-23",
+      "source": "pending-23/INFO_IDENTITY_01_V2414_EN_V2421.jpg",
+      "original_sha256": "f3545da3391f76ca586a62426a7f7ddac386b31d1734cdebc1e207990e06d329",
+      "output": "sales-image-drafts/pending-23/pending-23_original_text_clean_card_V2439b.jpg",
+      "new_sha256": "153fd86fdcba72506a8a6a71a6798716a078c858ed4557b3225bca5db3013baa",
+      "revision": "Removed visible circle overlap from information card, retained factual original text",
+      "status": "SALES_IMAGE_DRAFT",
+      "sales_release_allowed": false,
+      "external_commercial_rights_verified": false,
+      "physical_stock_version_verified": false
+    }
+  ],
+  "next": [
+    "Open each new JPG directly; reject any residual ring or text crop",
+    "Keep 30 family queue and full real image SHA from v2439",
+    "Resolve 8-group exact edition swatches and commercial reuse rights before final approval"
+  ]
+}
