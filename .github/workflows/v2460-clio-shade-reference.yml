@@ -1,0 +1,29 @@
+name: Shopee v2460 collect CLIO 5-shade image evidence only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2460-clio-shade-reference.yml'
+      - 'scripts/v2460_stage_clio_five_shade_references.py'
+permissions:
+  contents: read
+jobs:
+  stage-original-chart-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Download real photos from known exact product pages without bypassing access controls
+        run: python scripts/v2460_stage_clio_five_shade_references.py
+      - name: Keep third-party image evidence only in workflow artifact (not public seller site)
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2460-clio-five-shades-sources-QA-HOLD
+          path: v2460-clio-actual-swatch-evidence/
+          retention-days: 90
+          if-no-files-found: error
