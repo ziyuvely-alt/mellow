@@ -1,0 +1,51 @@
+name: Shopee v2482 create DrG Sun Plus 50ml three new customer JPG drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2482-drg-sunplus-three.yml'
+      - 'scripts/v2482_drg_sunplus_three_new_info_photo.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore genuine product images from existing source artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41686720559 -n shopee-v2481-drG-brightening-sun50-authentic-photo-qa-hold -D v2481-drg-brightening-up-sun-50-source
+      - name: Create three missing JPGs without altering older frames
+        run: python scripts/v2482_drg_sunplus_three_new_info_photo.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2482-drG-sunplus-three-JPGs-QA-HOLD
+          path: v2482-drg-brightening-sun-three-JPG/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve non-public image drafts in isolated versioned branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2482-drg-brightening-sun-three-JPG /tmp/v2482-images
+          git worktree add --detach /tmp/v2482-wt HEAD
+          cd /tmp/v2482-wt
+          git switch --orphan production-assets-v2482-drg-sunplus-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2482-images/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three new DrG Sun Plus JPG drafts with source QA holds'
+          git push origin HEAD:refs/heads/production-assets-v2482-drg-sunplus-three
