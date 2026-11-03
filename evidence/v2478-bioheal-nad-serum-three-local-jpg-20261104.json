@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-04",
+  "source_run_id": 41685777128,
+  "source_artifact_id": 13254083615,
+  "product_family": "pending-24",
+  "exact_product": "BIOHEAL BOH NAD PRIZCELL Glow Power Serum 30mL",
+  "six_real_sources_downloaded": 6,
+  "rejected_promotional_bundle_photos": [
+    "photo-01.jpg",
+    "photo-05.jpg"
+  ],
+  "local_review_jpg": [
+    {
+      "name": "03-authentic-single-bottle.jpg",
+      "sha256": "1f8261b2f3fa23834815b41c46136c636dbb2ff1e475e5230f5111b689f27444",
+      "bytes": 73170
+    },
+    {
+      "name": "04-authentic-open-dropper.jpg",
+      "sha256": "be59f2cf37e7a2c8273c939bf128ce2d2d3fcf689c733832c58e70ac196f9344",
+      "bytes": 286299
+    },
+    {
+      "name": "05-authentic-serum-texture.jpg",
+      "sha256": "5d5091d22bdca1be75b19e5754a9933af2d46c9597961ac508f72d6b698b2905",
+      "bytes": 246479
+    }
+  ],
+  "existing_two_images_not_recreated": true,
+  "technical_checks": "All JPG 1080x1080 under 2MB, actual file bytes verified",
+  "visual_QA": "Three different genuine source photographs. Editorial copy on the latter two remains originally embedded and is not final seller-approved.",
+  "status": "LOCAL_DRAFT_QA_HOLD",
+  "commercial_photo_rights_verified": false,
+  "actual_MK_logo_present": false,
+  "original_public_urls_changed": 0,
+  "new_verified_public_urls": 0,
+  "spreadsheets_unchanged": true
+}
