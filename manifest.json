@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-11",
+  "source_run_id": 41688655026,
+  "source_artifact_id": 13256606734,
+  "source_correct_photo": "pending-11/original-01.png",
+  "wrong_product_photo_files_excluded": 7,
+  "new_JPG_files": [
+    {
+      "file": "03-official-single-product-photo.jpg",
+      "sha256": "c672c95c9d4e8c374b26196e7c2fa34b20ab8d148250461d9923ff704c8d2eaf",
+      "bytes": 55346,
+      "status": "AUTHENTIC_PRODUCT_PHOTO_QA_HOLD"
+    },
+    {
+      "file": "04-two-phase-net-content.jpg",
+      "sha256": "0ba6cdff05a89991dbafdd778331cc2826bf36a32683f9914db8fb445518fc2f",
+      "bytes": 72674,
+      "status": "FACT_SOURCE_VERIFIED_PACKAGING_QA_HOLD"
+    },
+    {
+      "file": "05-seller-usage-information.jpg",
+      "sha256": "9f0494f7d4621d114db3d557f23934b12774cb5fb6827782e3b0eb75f97d39c5",
+      "bytes": 76332,
+      "status": "OFFICIAL_RETAILER_USAGE_FACT_QA_HOLD"
+    }
+  ],
+  "prior_two_candidate_images_untouched": true,
+  "new_photo_scenes": 1,
+  "new_factual_information_cards": 2,
+  "final_five_frame_sales_QA": false,
+  "reason_for_hold": [
+    "Real MK logo bytes not available",
+    "Official photograph commercial use rights not verified",
+    "User-owned inventory physical package and 1+1 presentation not crosschecked",
+    "2 information frames and 1 source photo do not yet establish distinct full family scene diversity"
+  ],
+  "published_url_added": 0,
+  "workbook_shared": false
+}
