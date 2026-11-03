@@ -1,0 +1,62 @@
+{
+  "version": "2.4.53",
+  "prior_checkpoint": "production-assets-v2452-32-source-JPGs-five-groups-hold",
+  "replaced_only_two_previously_rejected_CLIO_detail_JPG": 2,
+  "previous_32_reviewable_JPGs_regenerated": 0,
+  "original_531_JPGs_modified": 0,
+  "prior_published_55_URLs_modified": 0,
+  "new_swatch_charts_generated": 0,
+  "commercial_image_permissions_verified": 0,
+  "FINAL_SALES_APPROVED": 0,
+  "NO_SPREADSHEETS_SHARED": true,
+  "new_photo_crops": [
+    {
+      "group_id": "pending-06",
+      "actual_JPG": "new-CLIO-real-product-photo-JPGs/pending-06/pending-06_genuine_photo_quality_replacement_V2453.jpg",
+      "SHA256": "ed59c6f389d670204dc6930584a1c1da85ed3a244241c1f7350740a2419ed681",
+      "photo_source": "prior-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-06/SOURCE_02_8efe54403_EN_V2421C.jpg",
+      "source_SHA256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88",
+      "source_crop_xyxy": [
+        197,
+        78,
+        856,
+        829
+      ],
+      "artificial_product_pixels": false,
+      "source_rights_verified": false,
+      "stock_shade_generation_verified": false,
+      "visual_QA": "PENDING_DIRECT_IMAGE_INSPECTION",
+      "final_sale_approved": false,
+      "hold": "Exact special-set package and shade generation unverified"
+    },
+    {
+      "group_id": "pending-07",
+      "actual_JPG": "new-CLIO-real-product-photo-JPGs/pending-07/pending-07_genuine_photo_quality_replacement_V2453.jpg",
+      "SHA256": "9ae71b48bf6f12c9a6815aa73b31f8d472bfa04ac8b15840bc0c7ce00fb6c7ac",
+      "photo_source": "prior-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-07/SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+      "source_SHA256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+      "source_crop_xyxy": [
+        170,
+        266,
+        641,
+        750
+      ],
+      "artificial_product_pixels": false,
+      "source_rights_verified": false,
+      "stock_shade_generation_verified": false,
+      "visual_QA": "PENDING_DIRECT_IMAGE_INSPECTION",
+      "final_sale_approved": false,
+      "hold": "Special bundle contents and all shade versions unverified"
+    }
+  ],
+  "wrong_product_photo_quarantine": {
+    "group_id": "pending-22",
+    "source": "prior-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/new-independent-photo-candidates/pending-22/PRODUCT_PHOTO_02_V2424.jpg",
+    "SHA256": "6c67ffa70926a9713e5d28a200925a20cbfc8ae679ec4b9471330c51bb85e6be",
+    "visually_observed": "Source shows OBgE square beige cushion case, not MAX Waterful Sun Cream 300mL pump bottle",
+    "reason": "Wrong product category; do not label this a sunscreen photograph",
+    "status": "PERMANENT_REJECT_WRONG_PRODUCT"
+  },
+  "other_pending22_candidate_photo_01": "HOLD_SRC_PROVENANCE_NOT_VERIFIED",
+  "next": "Visually inspect both new CLIO crops; use exact image bytes if acceptable; preserve source and rights holds"
+}
