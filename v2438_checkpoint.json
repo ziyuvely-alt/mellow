@@ -1,0 +1,41 @@
+{
+  "version": "2.4.38",
+  "actual_modified_JPG_count": 2,
+  "groups_modified": 2,
+  "new_original_photograph": 0,
+  "commercial_rights_verified": 0,
+  "FINAL_QA_APPROVED": 0,
+  "original_source_files_changed": 0,
+  "published_URLs_modified": 0,
+  "results": [
+    {
+      "group_id": "pending-02",
+      "source": "pending-02/INFO_HOWTO_02_V2414B_EN_V2421.jpg",
+      "source_sha256": "3551b56b37d708ac28d44eb77ed19dfab9ce00a5743c1ed71e4019d1b63a7e78",
+      "new_file": "sales-image-drafts/pending-02/pending-02_clean_legible_card_V2438.jpg",
+      "new_sha256": "78b25e0c523fc8c69eb9966a9ca4ab4b3bb5854272b88242c4153378ea4b024f",
+      "corrected": "ornament overlapped heading; rebuilt same flat card with readable text",
+      "status": "SALES_IMAGE_DRAFT",
+      "rights_verified": false,
+      "actual_stock_verified": false,
+      "visual_QA_after_output": "PENDING"
+    },
+    {
+      "group_id": "pending-21",
+      "source": "pending-21/INFO_03_V2413_EN_V2421.jpg",
+      "source_sha256": "338f2e8d61993b562d0332165e7c006945d5ed36cf98045ce30809dec23a0316",
+      "new_file": "sales-image-drafts/pending-21/pending-21_clean_legible_card_V2438.jpg",
+      "new_sha256": "474d7df779854a3587241cbcea201dae784c61c5fa4d299cf0b3a8d6de8edb99",
+      "corrected": "ornament overlapped heading; rebuilt same flat card with readable text",
+      "status": "SALES_IMAGE_DRAFT",
+      "rights_verified": false,
+      "actual_stock_verified": false,
+      "visual_QA_after_output": "PENDING"
+    }
+  ],
+  "next": [
+    "Visually open both edited customer JPGs; reject if any color/shape mismatch",
+    "Check pending-21 exact eye-cream pairing; no final approval before source identity",
+    "Continue uninspected customer frames and C8 official swatches without repetition"
+  ]
+}
