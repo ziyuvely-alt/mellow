@@ -1,0 +1,59 @@
+{
+  "family": "pending-14",
+  "date": "2026-11-04",
+  "product": "MISSHA PDRN NAD FIRMING REPAIR CREAM 70 mL",
+  "source_artifact_id": 13255154228,
+  "source_run_id": 41687671016,
+  "new_jpg": [
+    {
+      "file": "03-real-cream-pack-and-texture.jpg",
+      "source": "original-01.jpg",
+      "role": "GENUINE_CREAM_JAR_LAB_SCENE",
+      "bytes": 195072,
+      "sha256": "e8d0cfc475779cbbf4c7fca778d7a57ac82fee675bc3127009aeb57113c1b884",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "state": "NEW_AUTHENTIC_PHOTO_DRAFT_FINAL_QA_HOLD"
+    },
+    {
+      "file": "04-open-jar-texture.jpg",
+      "source": "original-04.jpg",
+      "role": "GENUINE_OPEN_CREAM_JAR",
+      "bytes": 158366,
+      "sha256": "19df770130704ff3339faedc8deefafd2403f41c831e37cdbf4ccc1ed4b2a629",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "state": "NEW_AUTHENTIC_PHOTO_DRAFT_FINAL_QA_HOLD"
+    },
+    {
+      "file": "05-standalone-jar.jpg",
+      "source": "original-05.jpg",
+      "role": "GENUINE_STANDALONE_JAR",
+      "bytes": 109395,
+      "sha256": "8eb53bf05c404304552e98049a7c813705d44ad9383b1e01cb33f10b6fdc5b86",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "state": "NEW_AUTHENTIC_PHOTO_DRAFT_FINAL_QA_HOLD"
+    }
+  ],
+  "excluded_images": [
+    "original-02.jpg app popup",
+    "original-03.jpg repeat of original-01",
+    "original-06.jpg other Artemisia line",
+    "original-07.jpg other Artemisia line",
+    "original-08.jpg model/marketing poster"
+  ],
+  "old_images_unchanged": true,
+  "original_owner_MK_logo_present": false,
+  "photo_commercial_rights_verified": false,
+  "inventory_packaging_version_verified": false,
+  "published": false,
+  "verified_new_public_urls": 0,
+  "excel_shared": false
+}
