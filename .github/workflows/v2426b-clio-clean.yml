@@ -1,0 +1,45 @@
+name: Shopee v2426b CLIO three shades clean actual crop
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2426b-clio-clean.yml'
+      - 'scripts/v2426b_clio_crop_fix.py'
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: |
+          mkdir v2426-input
+          git fetch origin production-assets-v2426-C8-swatch-evidence
+          git archive origin/production-assets-v2426-C8-swatch-evidence | tar -xf - -C v2426-input
+      - run: python scripts/v2426b_clio_crop_fix.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2426b-clean-clio-3-shade
+          path: v2426b-output/
+          retention-days: 90
+      - name: Preserve private version
+        run: |
+          cp -a v2426b-output /tmp/v2426b
+          git worktree add --detach /tmp/v2426b-wt HEAD
+          cd /tmp/v2426b-wt
+          git switch --orphan production-assets-v2426b-clean-clio
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2426b/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve CLIO source-shade clean crop and all previous photo originals'
+          git push origin HEAD:refs/heads/production-assets-v2426b-clean-clio
