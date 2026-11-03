@@ -1,0 +1,98 @@
+{
+  "version": "2.4.34d",
+  "baseline": "production-assets-v2433b-consolidated-checkpoint",
+  "latest_actions": [
+    {
+      "run_id": 41646437302,
+      "artifact_id": 13233889181,
+      "branch": "production-assets-v2434-obge-peripera-drafts",
+      "commit": "746259aab7be1a81bbef3fa6d7d540e8f92f4463",
+      "conclusion": "success"
+    },
+    {
+      "run_id": 41646627093,
+      "artifact_id": 13234173239,
+      "branch": "production-assets-v2434b-peripera-ornament-clean",
+      "conclusion": "success but output visually rejected"
+    },
+    {
+      "run_id": 41646811112,
+      "artifact_id": 13236111123,
+      "branch": "production-assets-v2434c-peripera-clean-panel",
+      "commit": "9511a83395755844dc47587627e0c9c285f3dadf",
+      "conclusion": "success"
+    }
+  ],
+  "new_valid_latest_drafts": [
+    {
+      "group": "pending-10",
+      "file": "production-assets-v2434-obge-peripera-drafts/sales-image-drafts/pending-10/OBGE_real_cushion_white_photo_field_V2434.jpg",
+      "state": "SALES_IMAGE_DRAFT",
+      "notes": "Source photograph retained, white studio field; new caption Perfect Cover Cushion 15g; package generation/permissions unverified"
+    },
+    {
+      "group": "pending-08",
+      "file": "production-assets-v2434-obge-peripera-drafts/sales-image-drafts/pending-08/INFO_PRODUCT_01_V2414B_EN_V2421_V2434.jpg",
+      "state": "SALES_IMAGE_DRAFT",
+      "notes": "4g factual item content, no 26AD or shade chart claims"
+    },
+    {
+      "group": "pending-08",
+      "file": "production-assets-v2434c-peripera-clean-panel/sales-image-drafts/pending-08/INFO_FORMULA_01_clean_panel_V2434c.jpg",
+      "sha256": "90ec9596374ab62176eedd0cd59a5387e2e765fb4c62e1a56c6e52eb3491c10f",
+      "state": "SALES_IMAGE_DRAFT",
+      "notes": "Replaced visually rejected ornamental design with clean panel"
+    }
+  ],
+  "superseded_do_not_use": [
+    "production-assets-v2434-obge-peripera-drafts/sales-image-drafts/pending-08/INFO_FORMULA_01_V2414_EN_V2421_V2434.jpg",
+    "production-assets-v2434b-peripera-ornament-clean/sales-image-drafts/pending-08/INFO_FORMULA_01_ornament_repaired_V2434b.jpg"
+  ],
+  "progress": {
+    "actual_revision_version_count": 4,
+    "latest_current_JPG_count": 3,
+    "product_groups_edited": 2,
+    "complete_six_frame_sets_approved": 0,
+    "official_shade_charts_new": 0,
+    "original_531_JPG_overwritten": 0,
+    "known_public_55_urls_overwritten": 0,
+    "public_urls_http_checked": false,
+    "MK_logo_original_binary_found": false,
+    "photo_reuse_permissions_verified": 0,
+    "stock_packaging_verified": 0
+  },
+  "official_source": {
+    "obge_cushion_renewed_15g_1_2_3": "https://www.obge.co.kr/product/%ED%9A%8C%EC%9B%90-%EC%A0%84%EC%9A%A9-%ED%8D%BC%ED%8E%99%ED%8A%B8-%EC%98%B4%EB%AF%80-%EC%BF%A0%EC%85%98-22900%EC%9B%90/1079/",
+    "peripera_official_store": "https://clubclio.co.kr/event/eventDetail/736"
+  },
+  "holds": [
+    {
+      "group": "pending-10",
+      "state": "CUTOUT_SOURCE_REQUIRED",
+      "reason": "White-field composition not validated genuine transparent source, packaging generation and commercial rights remain unknown"
+    },
+    {
+      "group": "pending-08",
+      "state": "SHADE_EVIDENCE_REQUIRED",
+      "reason": "01-20 original generation, 04/06/07 and 12 conflict, 26AD separation not independently cleared"
+    },
+    {
+      "group": "pending-01",
+      "state": "SHADE_EVIDENCE_REQUIRED",
+      "reason": "Do not restore Cover Lasting 21; existing 23/25/27 swatch crop not officially sourced"
+    },
+    {
+      "group": "other_pending",
+      "state": "RIGHTS_HOLD",
+      "reason": "Stock physical package and reuse permissions remain"
+    }
+  ],
+  "next_resume": [
+    "Verify exact source original 01-20 Peripera shade chart and 26AD generation",
+    "Verify current OBgE renewed 1/2/3 official cushion photo with exact existing displayed package",
+    "Continue C8 source verification then resume independent unfinished customer frame QA",
+    "Restore true MK logo source, never derive from watermark",
+    "Do not publish until usage rights and stock photos confirmed"
+  ],
+  "note": "These GitHub branches may be publicly accessible. No Shopee publication or external brand communication was performed."
+}
