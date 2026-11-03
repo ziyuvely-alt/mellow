@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-17",
+  "existing_JPG_overwritten": 0,
+  "new_JPG_files": [
+    {
+      "file": "03-texture-genuine-scene.jpg",
+      "source": "oliveyoung-08ko.jpg.jpg",
+      "sha256": "cd0ded73b6619b3c8a024d91c4a8b149fcb13024f470826f6d0e8171a58479e1",
+      "bytes": 114112,
+      "resolution": [
+        1080,
+        1080
+      ],
+      "status": "DRAFT_JPG_EXACT_PRODUCT_PHOTO_RIGHTS_LOGO_QA_PENDING"
+    },
+    {
+      "file": "04-hand-use-genuine-scene.jpg",
+      "source": "dodoskin-forearm.jpg",
+      "sha256": "33ebc65188271322b1d804b67697fd241c114cb32525fa89f0b32a452111f8ec",
+      "bytes": 237102,
+      "resolution": [
+        1080,
+        1080
+      ],
+      "status": "DRAFT_JPG_EXACT_PRODUCT_PHOTO_RIGHTS_LOGO_QA_PENDING"
+    },
+    {
+      "file": "05-factual-single-product.jpg",
+      "source": "Official Dr.G / Olive Young 50 mL product identity",
+      "sha256": "27dd15e82758674f2dbfa85078d547f81177ddb0a9e902be9c391fc348eb5b51",
+      "bytes": 76127,
+      "resolution": [
+        1080,
+        1080
+      ],
+      "status": "DRAFT_JPG_EXACT_PRODUCT_PHOTO_RIGHTS_LOGO_QA_PENDING"
+    }
+  ],
+  "original_2023_stock_package_match_confirmed": false,
+  "exact_original_MK_logo_applied": false,
+  "third_party_photo_rights_verified": false,
+  "public_url_added": 0,
+  "release_QA": "HOLD",
+  "no_workbook_share": true,
+  "notes": "Exact product source visuals only. Older two frames remain untouched. Full five-frame visual QA still required."
+}
