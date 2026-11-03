@@ -1,0 +1,54 @@
+name: Shopee v2453b preserve 34 actual product photo JPG candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2453b-34-source-JPGs.yml'
+      - 'scripts/v2453b_preserve_34_photo_candidates.py'
+permissions:
+  contents: write
+jobs:
+  verify-and-archive-34:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 32 previously completed JPGs plus only two new corrected source images
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2452 prior-v2453
+          git fetch origin production-assets-v2452-32-source-JPGs-five-groups-hold production-assets-v2453-two-CLIO-repaired-plus-obge-reject
+          git archive origin/production-assets-v2452-32-source-JPGs-five-groups-hold | tar -xf - -C prior-v2452
+          git archive origin/production-assets-v2453-two-CLIO-repaired-plus-obge-reject | tar -xf - -C prior-v2453
+      - name: Exact SHA verification of 34 JPGs and source holds
+        run: python scripts/v2453b_preserve_34_photo_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2453b-34-actual-product-JPGs-3-family-holds-no-sheets
+          path: v2453b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve isolated version and do not publish or modify old URLs
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2453b-output /tmp/v2453b-files
+          git worktree add --detach /tmp/v2453b-wt HEAD
+          cd /tmp/v2453b-wt
+          git switch --orphan production-assets-v2453b-34-photo-JPG-27families
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2453b-files/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Archive 34 byte-verified real product JPG drafts across 27 groups; exclude 3 unresolved product groups'
+          git push origin HEAD:refs/heads/production-assets-v2453b-34-photo-JPG-27families
