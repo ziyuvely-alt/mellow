@@ -1,0 +1,50 @@
+name: Shopee v2437c OBgE exact-photo seal fragment correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2437c-obge-fragment.yml'
+      - 'scripts/v2437c_obge_texture_badge_fragment_fix.py'
+permissions:
+  contents: write
+jobs:
+  actual-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore original photo archive
+        run: |
+          mkdir baseline-v2427b
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C baseline-v2427b
+      - run: python scripts/v2437c_obge_texture_badge_fragment_fix.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2437c-obge-texture-logo-fragment-removed
+          path: v2437c-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve independent retail candidate without publishing
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2437c-output /tmp/v2437c-save
+          git worktree add --detach /tmp/v2437c-wt HEAD
+          cd /tmp/v2437c-wt
+          git switch --orphan production-assets-v2437c-obge-texture-clean
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2437c-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store corrected OBgE texture image with residual MK fragment excluded'
+          git push origin HEAD:refs/heads/production-assets-v2437c-obge-texture-clean
