@@ -57,4 +57,4 @@ report={"version":"2.4.30b","actual_image_edits_in_this_batch":2,"actual_edits_t
  "white_rectangle_resolved":False,"source_jpg_modified":0,"public_urls_mutated":0,
  "edits":done,"observed_image_findings":findings,"next":"Inspect 22 remaining family representative customer frames, then prioritize safe copy fixes; ensure official shade evidence and rights before promotion"}
 (O/"v2430b_checkpoint.json").write_text(json.dumps(report,ensure_ascii=False,indent=2))
-print(json.dumps({k:v for k,v in report.items() if k not in ("edits","observed_image_findings")},flush=True))
+print(json.dumps({k:v for k,v in report.items() if k not in ("edits","observed_image_findings")}),flush=True)
