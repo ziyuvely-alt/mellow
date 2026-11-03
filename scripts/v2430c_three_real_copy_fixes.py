@@ -24,9 +24,11 @@ for gid,source_name,label in [
   im=img.convert("RGB");d=ImageDraw.Draw(im)
   bg=im.getpixel((92,944))
   d.rectangle((65,865,1010,950),fill=bg)
-  width=d.textbbox((0,0),label,font=font(33,True))[2]
-  assert width<980, width
-  d.text((70,882),label,font=font(33,True),fill=(45,65,53))
+  size=33
+  while size>=23 and d.textbbox((0,0),label,font=font(size,True))[2]>930:
+   size-=1
+  assert d.textbbox((0,0),label,font=font(size,True))[2]<=930
+  d.text((70,882),label,font=font(size,True),fill=(45,65,53))
   out=OUT/"sales-image-drafts"/gid/(gid+"_official_name_corrected_v2430c.jpg")
   out.parent.mkdir(parents=True,exist_ok=True)
   im.save(out,"JPEG",quality=94,optimize=True)
