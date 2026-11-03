@@ -1,0 +1,104 @@
+{
+  "version": "2.4.37d",
+  "base_checkpoint": "production-assets-v2436c-consolidated-checkpoint",
+  "GitHub_runs": [
+    {
+      "run_id": 41649784473,
+      "artifact_id": 13237152381,
+      "branch": "production-assets-v2437-three-photo-revisions",
+      "commit": "f579d7c7ef7fc1e8439a2591d96cab63406b0d29",
+      "conclusion": "success"
+    },
+    {
+      "run_id": 41650015268,
+      "artifact_id": 13237286006,
+      "branch": "production-assets-v2437b-three-more-photo-revisions",
+      "commit": "2bb75f03acce1cbd9c5ac2849c9d70ec09fecafb",
+      "conclusion": "success"
+    },
+    {
+      "run_id": 41650205363,
+      "artifact_id": 13235804523,
+      "branch": "production-assets-v2437c-obge-texture-clean",
+      "commit": "012b28b396667b65909ceb3067e19b477992d31c",
+      "conclusion": "success"
+    }
+  ],
+  "latest_valid_JPG": [
+    {
+      "group": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "file": "production-assets-v2437-three-photo-revisions/sales-image-drafts/pending-09/pending-09_real_photo_copy_revision_V2437.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-11",
+      "product": "OBgE All In One Double Essence 50mL+50mL",
+      "file": "production-assets-v2437-three-photo-revisions/sales-image-drafts/pending-11/pending-11_real_photo_copy_revision_V2437.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-18",
+      "product": "Dr.G Brightening Up Sun Plus 50mL real texture",
+      "file": "production-assets-v2437-three-photo-revisions/sales-image-drafts/pending-18/pending-18_real_photo_copy_revision_V2437.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-15",
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "file": "production-assets-v2437b-three-more-photo-revisions/sales-image-drafts/pending-15/pending-15_actual_photo_copy_revised_V2437b.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-18",
+      "product": "Dr.G Brightening Up Sun Plus 50mL model application",
+      "file": "production-assets-v2437b-three-more-photo-revisions/sales-image-drafts/pending-18/pending-18_actual_photo_copy_revised_V2437b.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    },
+    {
+      "group": "pending-11",
+      "product": "OBgE All In One Double Essence texture",
+      "file": "production-assets-v2437c-obge-texture-clean/sales-image-drafts/pending-11/OBGE_texture_no_logo_fragment_V2437c.jpg",
+      "sha256": "07dc7e0fa7a83b9230827e5873c0035ce3751b0d817c2392cda836050e27a545",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_checked": true
+    }
+  ],
+  "superseded_rejected": [
+    "production-assets-v2437b-three-more-photo-revisions/sales-image-drafts/pending-11/pending-11_actual_photo_copy_revised_V2437b.jpg"
+  ],
+  "progress": {
+    "original_unsold_groups": 30,
+    "inspected_more_actual_frames": 14,
+    "created_JPG_versions": 7,
+    "active_JPG_after_rejection": 6,
+    "groups_with_updated_JPG": 4,
+    "new_verified_official_swatch_chart": 0,
+    "final_QA_approved_groups": 0,
+    "RIGHTS_HOLD": 4,
+    "source_original_rewritten": 0,
+    "published_JPG_overwrites": 0,
+    "public_55_urls_live_http_checked": false,
+    "original_MK_logo_binary_obtained": false
+  },
+  "quality_notes": [
+    "All six current output JPGs actually opened and reviewed as rendered images in this turn",
+    "No unauthorized logo printed in new revised frames; photographed product lettering unaltered",
+    "Photo edges kept, no artificial alpha cutout, verified 1080x1080 JPEG below 2MB in GitHub Actions",
+    "Commercial rights and physical stock/package version not verified; no sales publication"
+  ],
+  "next_resume": [
+    "Continue remaining individual 5/6 frame visual QA beyond pending-09/11/15/18",
+    "Reconcile C8 original Peripera 01-20 vs 26AD official generation and color chart source",
+    "MISSHA Cover Lasting 21 remains excluded; official swatch 23/25/27 provenance missing",
+    "OBgE Cushion 1 Ivory/2 Beige/3 Sand same generation packaging evidence and commercial cutout permissions",
+    "Recover authentic MK PNG binary without inventing substitute",
+    "Create final 5/6-image product sets only after photo rights stock package checks; preserve previous 11 completed groups and 55 URLs"
+  ],
+  "note": "Files stored on GitHub may be accessible to others if the repository is public. DRAFT does not imply commercial reuse approval."
+}
