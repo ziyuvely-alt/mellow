@@ -1,0 +1,56 @@
+name: Shopee v2452 one actual Goodal product JPG and 32 verified retained photo drafts
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2452-32-source-verified-JPG.yml'
+      - 'scripts/v2452_goodal_jar_plus_32_exact_JPGs.py'
+permissions:
+  contents: write
+jobs:
+  resume-without-rerender:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore prior image binaries only, never rerender them
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2450b prior-v2451b prior-v2443 prior-v2427b
+          git fetch origin production-assets-v2450b-25-image-candidate-checkpoint production-assets-v2451b-seven-photo-QA-revised production-assets-v2443-pixelpure-five-145ml production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2450b-25-image-candidate-checkpoint | tar -xf - -C prior-v2450b
+          git archive origin/production-assets-v2451b-seven-photo-QA-revised | tar -xf - -C prior-v2451b
+          git archive origin/production-assets-v2443-pixelpure-five-145ml | tar -xf - -C prior-v2443
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C prior-v2427b
+      - name: Actually build Goodal source photo and verify SHA of 32 candidates
+        run: python scripts/v2452_goodal_jar_plus_32_exact_JPGs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2452-32-actual-JPG-candidates-2-layout-holds-no-sheets
+          path: v2452-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save new candidate branch with explicit non-approval and no source mutation
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2452-output /tmp/v2452-proof
+          git worktree add --detach /tmp/v2452-wt HEAD
+          cd /tmp/v2452-wt
+          git switch --orphan production-assets-v2452-32-source-JPGs-five-groups-hold
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2452-proof/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 32 authentic-image JPG review candidates, 2 rejected layouts and 5 precise family holds'
+          git push origin HEAD:refs/heads/production-assets-v2452-32-source-JPGs-five-groups-hold
