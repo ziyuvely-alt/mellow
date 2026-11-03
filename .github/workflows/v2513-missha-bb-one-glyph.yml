@@ -1,0 +1,52 @@
+name: Shopee v2513 MISSHA BB only broken glyph card repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2513-missha-bb-one-glyph.yml'
+      - 'scripts/v2513_missha_bb_one_glyph_repair.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  one-card-repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover original two JPGs; only shade card will be modified
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41696980583 -n shopee-v2512-missha-legacy-BB-two-stock-fact-JPG-QA-HOLD -D source-v2512
+      - run: |
+          python scripts/v2513_missha_bb_one_glyph_repair.py
+          test -s v2513-missha-bb-one-glyph-correction/04-stock-shade-names-legible.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2513-missha-bb-legible-shade-names-one-JPG
+          path: v2513-missha-bb-one-glyph-correction/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve review-only corrected JPG independently
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2513-missha-bb-one-glyph-correction /tmp/v2513-corrected
+          git worktree add --detach /tmp/v2513-wt HEAD
+          cd /tmp/v2513-wt
+          git switch --orphan production-assets-v2513-missha-bb-legible
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2513-corrected/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve legible MISSHA BB 21 23 25 name card, no package photo substitution'
+          git push origin HEAD:refs/heads/production-assets-v2513-missha-bb-legible
