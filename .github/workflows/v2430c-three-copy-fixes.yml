@@ -1,0 +1,51 @@
+name: Shopee v2430c three observed customer JPG copy repairs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2430c-three-copy-fixes.yml'
+      - 'scripts/v2430c_three_real_copy_fixes.py'
+permissions:
+  contents: write
+jobs:
+  grounded-copy-fixes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover immutable original customer JPGs
+        run: |
+          mkdir v2427b-source
+          git fetch origin production-assets-v2427b-obge-shade-clean
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+      - name: Apply three copy-only frame revisions
+        run: python scripts/v2430c_three_real_copy_fixes.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2430c-three-customer-copy-drafts
+          path: v2430c-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve non-public sales drafts as fresh branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2430c-output /tmp/v2430c-saved
+          git worktree add --detach /tmp/v2430c-wt HEAD
+          cd /tmp/v2430c-wt
+          git switch --orphan production-assets-v2430c-three-copy-revisions
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2430c-saved/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve three customer draft caption fixes without public release'
+          git push origin HEAD:refs/heads/production-assets-v2430c-three-copy-revisions
