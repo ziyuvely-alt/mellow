@@ -1,0 +1,54 @@
+{
+  "version": "v2526",
+  "date": "2026-11-04",
+  "previous_153_JPG_byte_identical": true,
+  "new_source_file_sha256": "f26b55356ce2443bdf4f48139160445b0c7706fe4abe65a97f46ed54041bee92",
+  "new_JPG": "review-JPG-by-family/pending-07/06-original-CLIO-mesh-blur-three-stock-shades.jpg",
+  "new_JPG_sha256": "2b7377473aea5d4b7333fadce66f12eecc065dff7eb6be35248beef66f4cc9fe",
+  "new_JPG_bytes": 95875,
+  "total_QA_jpg": 154,
+  "families": 30,
+  "shade_option_names": [
+    "19C Light",
+    "19N Porcelain",
+    "21N Linen"
+  ],
+  "photo_source": "https://www.shegoestoseoul.com/image/catalog/PRODUCT/2025/clio/killcover-mesh-blur-cushion/clio-kill-cover-mesh-blur-cushion-23.jpg",
+  "crop_bounds": [
+    {
+      "shade": "19C",
+      "box": [
+        74,
+        158,
+        228,
+        559
+      ]
+    },
+    {
+      "shade": "19N",
+      "box": [
+        235,
+        158,
+        391,
+        559
+      ]
+    },
+    {
+      "shade": "21N",
+      "box": [
+        538,
+        158,
+        696,
+        559
+      ]
+    }
+  ],
+  "no_artificial_shade_or_packaging_pixels": true,
+  "old_55_published_URLs_unchanged": true,
+  "commercial_photo_rights_verified": false,
+  "physical_owned_stock_packaging_matched": false,
+  "MK_logo_applied": false,
+  "final_sales_approval": false,
+  "new_public_URLs": 0,
+  "excel_created_or_shared": false
+}
