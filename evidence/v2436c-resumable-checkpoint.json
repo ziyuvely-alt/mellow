@@ -1,0 +1,96 @@
+{
+  "version": "2.4.36c",
+  "baseline": "production-assets-v2435c-consolidated-checkpoint",
+  "runs": [
+    {
+      "run_id": 41649080737,
+      "artifact_id": 13236026944,
+      "branch": "production-assets-v2436-three-source-photo-drafts",
+      "commit": "ba8566918ab9cdd155636a4f08f6df07c4f9fb6b",
+      "result": "success"
+    },
+    {
+      "run_id": 41649305312,
+      "artifact_id": 13236238152,
+      "branch": "production-assets-v2436b-pixelpure-full-jar",
+      "commit": "d1526d3a1e423cf9a70c149518f0c49820894589",
+      "result": "success"
+    }
+  ],
+  "current_new_actual_JPGs": [
+    {
+      "group": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70 mL",
+      "file": "production-assets-v2436-three-source-photo-drafts/sales-image-drafts/pending-16/pending-16_genuine-photo_no-MK_V2436.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_inspection": "Opened. Actual cream jar photo present; no printed label invention; rights and stock unverified"
+    },
+    {
+      "group": "pending-29",
+      "product": "PIXELPURE Radiance Aqua Soothing Cream 50 mL",
+      "file": "production-assets-v2436-three-source-photo-drafts/sales-image-drafts/pending-29/pending-29_genuine-photo_no-MK_V2436.jpg",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_inspection": "Opened. Whole pink jar with authentic branding; no new MK graphic; rights and stock unverified"
+    },
+    {
+      "group": "pending-28",
+      "product": "PIXELPURE Glow Cleansing Serum Pad 210 mL/70 Pads",
+      "file": "production-assets-v2436b-pixelpure-full-jar/sales-image-drafts/pending-28/PIXELPURE_full_jar_replacement_V2436b.jpg",
+      "sha256": "a60c65b571a480f14106a9245dc892be6486d7a5a4371a7c108409487beb9012",
+      "status": "SALES_IMAGE_DRAFT",
+      "visual_inspection": "Opened. Full product jar clearly identifiable; text visible and not cut; rights and stock unverified"
+    }
+  ],
+  "rejected": [
+    "production-assets-v2436-three-source-photo-drafts/sales-image-drafts/pending-28/pending-28_genuine-photo_no-MK_V2436.jpg"
+  ],
+  "summary": {
+    "groups_inspected_original_image": 7,
+    "new_JPG_versions": 4,
+    "unique_latest_accepted_drafts": 3,
+    "distinct_groups_modified": 3,
+    "final_QA_approved": 0,
+    "new_official_swatch_charts": 0,
+    "source_photos_modified": 0,
+    "public_image_paths_overwritten": 0,
+    "live_access_to_55_urls_checked": false,
+    "commercial_photo_rights_confirmed": 0,
+    "physical_stock_packages_verified": 0,
+    "actual_MK_original_binary_found": false
+  },
+  "blockers": [
+    {
+      "group": "pending-16",
+      "reason": "source photo rights + exact stock product version"
+    },
+    {
+      "group": "pending-28",
+      "reason": "source photo reuse rights + actual stock packaging"
+    },
+    {
+      "group": "pending-29",
+      "reason": "source photo rights + exact stock version"
+    },
+    {
+      "group": "pending-01",
+      "reason": "MISSHA Cover Lasting shade 21 exclusion, official 23/25/27 source pending"
+    },
+    {
+      "group": "pending-08",
+      "reason": "Peripera original 01..20 and 26AD-generation official swatches unresolved"
+    },
+    {
+      "group": "pending-10",
+      "reason": "OBgE renewed cushion packaging and commercial cutout source unresolved"
+    }
+  ],
+  "next": [
+    "Continue 5/6 frame visual QA on pending-09/11/15/18 and remaining not fully visually inspected customer frames",
+    "Prioritize actual safe text/photo revisions rather than QA contact sheets",
+    "Official current generation swatch provenance for C8; do not fabricate/approximate",
+    "Seek original MK PNG binary without creating replacement",
+    "Separate external rights/physical stock from design drafts. No automatic Shopee publication"
+  ],
+  "no_external_brand_messages": true,
+  "notes": "No old published JPG or URL path overwrite. Repository may be public, so GitHub QA branches are not access-private."
+}
