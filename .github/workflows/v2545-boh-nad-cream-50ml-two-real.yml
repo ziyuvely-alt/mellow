@@ -1,0 +1,53 @@
+name: Shopee v2545 BOH NAD Glow Boost Cream 50ml two real jar photographs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2545-boh-nad-cream-50ml-two-real.yml'
+      - 'scripts/v2545_boh_nad_50ml_cream_two_real_scenes.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  two-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore BOH NAD Serum corrected v2544 156 genuine QA JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715102552 -n shopee-v2544-156-JPG-two-BOH-NAD-30ml-real-photo-QA-only -D v2545-input-156
+      - name: Replace only two BOH NAD cream 50ml photos, keep all other 154 same
+        run: |
+          python scripts/v2545_boh_nad_50ml_cream_two_real_scenes.py
+          test "$(find v2545-156-boh-nad-cream-two-real-scenes/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2545-156-JPG-2real-BOH-50ml-cream-photos-QA
+          path: v2545-156-boh-nad-cream-two-real-scenes/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve QA image corpus without changing 55 public URLs or Excel
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2545-156-boh-nad-cream-two-real-scenes /tmp/v2545-save
+          git worktree add --detach /tmp/v2545-wt HEAD
+          cd /tmp/v2545-wt
+          git switch --orphan production-assets-v2545-156-BOH-NAD-cream-50ml-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2545-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPGs replacing only two BOH NAD Glow Boost Cream 50ml scenes'
+          git push origin HEAD:refs/heads/production-assets-v2545-156-BOH-NAD-cream-50ml-QA
