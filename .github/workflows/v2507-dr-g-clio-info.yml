@@ -1,0 +1,50 @@
+name: Shopee v2507 DrG customer copy and CLIO 5 shade-name JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2507-dr-g-clio-info.yml'
+      - 'scripts/v2507_drg_clean_and_clio_five_shade_names.py'
+permissions:
+  contents: write
+jobs:
+  create-corrected:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Render only targeted images and verify real JPG bytes
+        run: |
+          python scripts/v2507_drg_clean_and_clio_five_shade_names.py
+          test -s v2507-corrected-info-only/pending-15/03-mineral-facts-clean.jpg
+          test -s v2507-corrected-info-only/pending-15/05-usage-clean.jpg
+          test -s v2507-corrected-info-only/pending-05/06-verified-five-shade-name-guide.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2507-drg-copy-and-clio-five-shade-names-JPG
+          path: v2507-corrected-info-only/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve as isolated QA branch, never public or workbook
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2507-corrected-info-only /tmp/v2507-assets
+          git worktree add --detach /tmp/v2507-wt HEAD
+          cd /tmp/v2507-wt
+          git switch --orphan production-assets-v2507-drg-clio-info-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2507-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve targeted DrG customer copy and CLIO five option name review JPGs'
+          git push origin HEAD:refs/heads/production-assets-v2507-drg-clio-info-QA
