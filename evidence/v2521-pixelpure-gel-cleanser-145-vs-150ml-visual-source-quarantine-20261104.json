@@ -1,0 +1,20 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-26",
+  "target_stock": "PIXEL PURE Gentle Gel to Foam Cleanser 145 mL",
+  "quarantined_action_run_id": 41684640359,
+  "quarantined_artifact_id": 13254112775,
+  "quarantine_three_JPGs": [
+    "pending-26/03-product-texture-photo.jpg",
+    "pending-26/04-bottle-and-carton-photo.jpg",
+    "pending-26/05-bottle-angle-photo.jpg"
+  ],
+  "actual_visual_evidence": "Source carton photo explicitly says 150 mL; scene props appear to be the 150 mL packaging, despite the 145 mL footer added by previous image generator. Do not pass product-generation or volume QA based on footer text.",
+  "previous_145ml_source_verified": "v2520/review-JPG-by-family/pending-26/03_03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+  "previous_exact_product_label": "145 ml / 4.90 fl. oz. visible on actual tube",
+  "action": "REJECT_v2473_pending26_three_JPGs_FROM_FUTURE_ASSEMBLIES; KEEP_145ML_APPROVED_SOURCE_CANDIDATE; no image deletion",
+  "current_150_jpg_corpus_updated": false,
+  "public_55_urls_unchanged": true,
+  "no_excel_or_spreadsheet_shared": true,
+  "commercial_source_photo_rights_pending": true
+}
