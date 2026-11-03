@@ -1,0 +1,27 @@
+name: Shopee v2504 Goodal 25AD Eye Cream exact source capture
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2504-goodal-25ad-eye-cream.yml'
+      - 'scripts/v2504_goodal_25ad_eye_cream_photo_source.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2504_goodal_25ad_eye_cream_photo_source.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2504-goodal-25ad-30ml-eye-cream-real-source-QA
+          path: v2504-goodal-25ad-eye-cream-sources/
+          retention-days: 90
+          if-no-files-found: error
