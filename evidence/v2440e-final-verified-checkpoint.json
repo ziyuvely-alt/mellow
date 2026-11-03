@@ -1,0 +1,163 @@
+{
+  "version": "2.4.40e",
+  "source_pipeline": "v2.4.38c → v2.4.39 → v2.4.39b → v2.4.40 → corrected v2.4.40e archive",
+  "runs": [
+    {
+      "run_id": 41653189335,
+      "artifact_id": 13237522920,
+      "result": "success",
+      "new_customer_JPGs": 4
+    },
+    {
+      "run_id": 41653531478,
+      "artifact_id": 13238042991,
+      "result": "success",
+      "new_customer_JPGs": 5
+    },
+    {
+      "run_id": 41654177516,
+      "artifact_id": 13237799199,
+      "result": "success",
+      "new_customer_JPGs": 3
+    },
+    {
+      "run_id": 41654528312,
+      "result": "success",
+      "note": "superseded aggregate: group-count code inaccurately reported 30"
+    },
+    {
+      "run_id": 41654776522,
+      "result": "failure",
+      "note": "fixed workflow script path and restarted"
+    },
+    {
+      "run_id": 41654897806,
+      "artifact_id": 13239755715,
+      "result": "success",
+      "note": "corrected consolidation with independently reverified 531 original JPEG hashes"
+    }
+  ],
+  "confirmed": {
+    "overall_SKU": 82,
+    "overall_product_groups": 41,
+    "preexisting_public_product_groups": 11,
+    "unfinished_product_groups": 30,
+    "source_JPG_binary_hashes_reverified": 531,
+    "source_JPG_missing": 0,
+    "historical_non1080_images": 15,
+    "historical_non1080_image_scope": "original source photos and before-after QA comparisons, not current newly edited sales drafts",
+    "actual_new_draft_JPGs": 12,
+    "distinct_product_groups_with_new_drafts": 11,
+    "all_12_JPGs_1080x1080_under_2MB_and_byte_rechecked": true,
+    "actual_original_JPG_overwrites": 0,
+    "published_image_files_overwritten": 0,
+    "public_55_URLs_HTTP_reverified": false,
+    "original_55_public_URL_path_mutations": 0,
+    "new_official_shade_charts": 0,
+    "final_complete_sales_sets_approved": 0,
+    "new_commercial_photo_reuse_permissions_verified": 0,
+    "new_physical_stock_packaging_versions_verified": 0,
+    "original_MK_logo_binary_found": false
+  },
+  "assets": {
+    "branch": "production-assets-v2440e-12-drafts-consolidated",
+    "zip": "v2440e-12-actual-modified-JPGs.zip",
+    "manifest": "v2440e-resumable-checkpoint.json",
+    "new_jpg_directory": "new-customer-JPG-drafts",
+    "source_inventory_with_all_30_groups": "v2439-source/source_inventory_30groups.json (available in v2439 branch and inside v2440e manifest)"
+  },
+  "new_edits": [
+    {
+      "group_id": "pending-01",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-02",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-05",
+      "type": "2 independent product info corrections",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-06",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-07",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-09",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-10",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-14",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-17",
+      "type": "repeated copy removal",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-19",
+      "type": "unverified 25AD wording removed",
+      "status": "SALES_IMAGE_DRAFT"
+    },
+    {
+      "group_id": "pending-23",
+      "type": "ornament/text card",
+      "status": "SALES_IMAGE_DRAFT"
+    }
+  ],
+  "hard_holds": [
+    {
+      "dependency": "Peripera 01-20 original product generation and 26AD distinction",
+      "state": "SOURCE_QA_HOLD"
+    },
+    {
+      "dependency": "MISSHA Cover Lasting 23/25/27 official swatches, excluded 21",
+      "state": "SHADE_CHART_PENDING"
+    },
+    {
+      "dependency": "OBgE renewed cushion packaging match 1 Ivory 2 Beige 3 Sand and photo rights",
+      "state": "SOURCE_QA_HOLD"
+    },
+    {
+      "dependency": "goodal pending-21 exact eye-care stock package and ingredients",
+      "state": "SOURCE_QA_HOLD"
+    },
+    {
+      "dependency": "all 30 groups complete individual 5/6-image visual review",
+      "state": "VISUAL_QA_INCOMPLETE"
+    },
+    {
+      "dependency": "commercial reuse permission for third-party/brand photos",
+      "state": "RIGHTS_HOLD"
+    },
+    {
+      "dependency": "physical stock packaging and original MK PNG binary",
+      "state": "INVENTORY_HOLD"
+    }
+  ],
+  "next_safe_resume": [
+    "Reuse only 12 active new JPGs from current archive plus earlier accepted drafts; do not regenerate them",
+    "Verify remaining individual frames of each 30 group and exact official source and rights",
+    "Independent groups can continue until evidentiary/rights/physical stock dependencies are exhausted",
+    "No external brand messages or live Shopee upload without approval"
+  ],
+  "disclosure": "GitHub draft archive may be publicly accessible depending on repository visibility. Zero final product approvals is intentional, not an omitted status."
+}
