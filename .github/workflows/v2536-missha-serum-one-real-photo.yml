@@ -1,0 +1,57 @@
+name: Shopee v2536 replace one duplicated MISSHA 30ml serum info JPG with genuine photo
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2536-missha-serum-one-real-photo.yml'
+      - 'scripts/v2536_missha_pdrn_serum_one_real_photo_repair.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-photo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 review images exactly as archived
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41707657432 -n shopee-v2532-156-JPG-Founwear-genuine-5shade-QA-only -D v2536-existing-156
+      - name: Recover real previously captured MISSHA 30ml serum laboratory photograph
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41711517055 -n shopee-v2535-missha-PDRN-NAD-30ml-three-real-photo-originals-QA -D v2536-source-originals
+      - name: Replace exactly one frame, require 155 source JPG byte hashes unchanged
+        run: |
+          python scripts/v2536_missha_pdrn_serum_one_real_photo_repair.py
+          test "$(find v2536-156-missha-30ml-serum-one-photo-repair/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2536-156-JPG-one-true-MISSHA-serum-photo-correction-QA
+          path: v2536-156-missha-30ml-serum-one-photo-repair/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save isolated QA-only 156 assets, never change already public URLs or Excel
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2536-156-missha-30ml-serum-one-photo-repair /tmp/v2536-files
+          git worktree add --detach /tmp/v2536-wt HEAD
+          cd /tmp/v2536-wt
+          git switch --orphan production-assets-v2536-156-missha-serum-real-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2536-files/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 review JPG with one authentic MISSHA serum image replacing duplicate info'
+          git push origin HEAD:refs/heads/production-assets-v2536-156-missha-serum-real-qa
