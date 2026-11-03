@@ -1,0 +1,51 @@
+name: Shopee v2466 add three Pixel Pure toner real-photo frames
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2466-pixelpure-toner-three.yml'
+      - 'scripts/v2466_pixelpure_toner_three_official_photo_frames.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover existing official gallery files unchanged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41682843250 -n shopee-v2465-pixelpure-toner-official-photo-QA-HOLD -D v2465-pixelpure-toner-official-gallery
+      - name: Make three NEW photo-backed 1080px JPGs only
+        run: python scripts/v2466_pixelpure_toner_three_official_photo_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2466-pixelpure-toner-3-photo-JPG-QA-HOLD
+          path: v2466-pixelpure-toner-three-real-photo-drafts/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve drafts on distinct non-publication branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2466-pixelpure-toner-three-real-photo-drafts /tmp/v2466-jpgs
+          git worktree add --detach /tmp/v2466-wt HEAD
+          cd /tmp/v2466-wt
+          git switch --orphan production-assets-v2466-pixelpure-toner-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2466-jpgs/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve Pixelpure toner three genuine-photo draft JPEGs, not published'
+          git push origin HEAD:refs/heads/production-assets-v2466-pixelpure-toner-three
