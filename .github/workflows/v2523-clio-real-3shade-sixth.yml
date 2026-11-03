@@ -1,0 +1,59 @@
+name: Shopee v2523 append CLIO Mini genuine 3shade as sixth review JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2523-clio-real-3shade-sixth.yml'
+      - 'scripts/v2523_append_clio_real_3shade_to_151.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  append-one:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore all 151 review JPGs without changing their bytes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41703682979 -n shopee-v2522-151-JPG-MISSHA-real-shade-photo-QA-only -D v2523-existing-151
+      - name: Restore genuine three-shade source pixels from archived source QA
+        shell: bash
+        run: |
+          git fetch origin production-assets-v2426b-clean-clio:refs/remotes/origin/production-assets-v2426b-clean-clio
+          mkdir -p v2523-real-clio-swatch
+          git show origin/production-assets-v2426b-clean-clio:CLIO_Mini_3shade_actual_source_QA_CLEAN_V2426b.jpg > v2523-real-clio-swatch/CLIO_Mini_3shade_actual_source_QA_CLEAN_V2426b.jpg
+      - name: Append 1 real shade chart; verify 151 original JPGs unchanged
+        run: |
+          python scripts/v2523_append_clio_real_3shade_to_151.py
+          test "$(find v2523-152-real-shade-JPG-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 152
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2523-152-authentic-JPG-MISSHA-CLIO-shades-review-only
+          path: v2523-152-real-shade-JPG-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save entire QA corpus separately from published URL paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2523-152-real-shade-JPG-QA /tmp/v2523-assets
+          git worktree add --detach /tmp/v2523-wt HEAD
+          cd /tmp/v2523-wt
+          git switch --orphan production-assets-v2523-152-real-shades-30family-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2523-assets/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve QA-only 152 genuine JPEGs including CLIO true three-shade swatch'
+          git push origin HEAD:refs/heads/production-assets-v2523-152-real-shades-30family-QA
