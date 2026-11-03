@@ -1,0 +1,53 @@
+name: Shopee v2546 Pixelpure 210ml 70pad two real photo improvements
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2546-pixelpure-pads-two-real.yml'
+      - 'scripts/v2546_pixelpure_210ml_70pads_two_real_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  two-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve 156 QA images after BOH 50ml Cream correction
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715374178 -n shopee-v2545-156-JPG-2real-BOH-50ml-cream-photos-QA -D v2546-input-156
+      - name: Swap only two real 210ml 70-pad jar photographs and verify the other 154 files
+        run: |
+          python scripts/v2546_pixelpure_210ml_70pads_two_real_photos.py
+          test "$(find v2546-156-pixelpure-pads-actual-real-scenes/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2546-156-JPG-PixelPure-Pads-two-authentic-photo-QA
+          path: v2546-156-pixelpure-pads-actual-real-scenes/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Save all QA JPEGs in isolated archive, preserve public URLs and no Excel
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2546-156-pixelpure-pads-actual-real-scenes /tmp/v2546-save
+          git worktree add --detach /tmp/v2546-wt HEAD
+          cd /tmp/v2546-wt
+          git switch --orphan production-assets-v2546-156-Pixelpure-pads-photo-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2546-save/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 156 QA JPGs with two genuine 210ml 70pad Pixelpure pad product photos'
+          git push origin HEAD:refs/heads/production-assets-v2546-156-Pixelpure-pads-photo-QA
