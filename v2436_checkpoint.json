@@ -1,0 +1,61 @@
+{
+  "version": "2.4.36",
+  "processed_groups": 3,
+  "actual_customer_JPG_drafts": 3,
+  "original_source_changed": 0,
+  "published_urls_overwritten": 0,
+  "official_swatch_charts": 0,
+  "FINAL_QA_APPROVED": 0,
+  "outputs": [
+    {
+      "group_id": "pending-16",
+      "original": "pending-16/INV_01_0a62a56a4b_EN_V2421C.jpg",
+      "original_sha256": "f004d1571555a6ddd441cb1f2b5a8ef55579461a50ac66d2ccc3cdf9e97a1a11",
+      "output": "sales-image-drafts/pending-16/pending-16_genuine-photo_no-MK_V2436.jpg",
+      "output_sha256": "c97bbbf4ccf92f8a69547dac19c90aa703489f991b19f910dea6af33ac5e8fb1",
+      "size": 101116,
+      "photo_content": "Open-jar original product photograph",
+      "original_photo_preserved": true,
+      "MK_logo_badge_excluded": true,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa": "REQUIRES_AFTER_EXPORT",
+      "rights": "UNVERIFIED",
+      "stock_packaging": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-28",
+      "original": "pending-28/INV_01_5a12115d60_EN_V2421C.jpg",
+      "original_sha256": "cca13642cd84f8f8dbfaf82568327bd469cc9b79d9987c4dce75f9c1a63a4bc7",
+      "output": "sales-image-drafts/pending-28/pending-28_genuine-photo_no-MK_V2436.jpg",
+      "output_sha256": "c7bebc83edac11840d2bbe97e455715079192d0fada150c669c51fbb0e6d1a0d",
+      "size": 74315,
+      "photo_content": "Serum-soaked pads, original photographed texture",
+      "original_photo_preserved": true,
+      "MK_logo_badge_excluded": true,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa": "REQUIRES_AFTER_EXPORT",
+      "rights": "UNVERIFIED",
+      "stock_packaging": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-29",
+      "original": "pending-29/INV_01_023f07baae_EN_V2421C.jpg",
+      "original_sha256": "f8ee6aaa818bdf40b3b96e9dbae7617c4a443047914fb58a2da562c170e1d1ad",
+      "output": "sales-image-drafts/pending-29/pending-29_genuine-photo_no-MK_V2436.jpg",
+      "output_sha256": "a6397fcb78277f509a2734066fca2b1251f37e16409d88c26c9b4ebef690637b",
+      "size": 87312,
+      "photo_content": "Whole jar original photograph",
+      "original_photo_preserved": true,
+      "MK_logo_badge_excluded": true,
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa": "REQUIRES_AFTER_EXPORT",
+      "rights": "UNVERIFIED",
+      "stock_packaging": "UNVERIFIED"
+    }
+  ],
+  "next": [
+    "Visually inspect all 3 newest JPGs and reject any crop clipping",
+    "Verify product generation/current stock packaging and photo reuse rights",
+    "Resume unrelated remaining family frames and official C8 swatch verification"
+  ]
+}
