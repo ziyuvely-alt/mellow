@@ -1,0 +1,32 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-08",
+  "name": "Peripera Mood Glowy Tint",
+  "inventory_edition": "26AD",
+  "inventory_shades": "001-020 inclusive",
+  "seller_selected_chart_scope": "01-20 only",
+  "previous_project_instruction": "Never include shade 21-25; legacy instruction also excludes 26AD edition",
+  "retailer_evidence": [
+    {
+      "url": "https://m.shilladfs.com/estore/kr/ko/p/5878635",
+      "finding": "26AD 001 딸기기니 is a real retailer SKU"
+    },
+    {
+      "url": "https://m.gsshop.com/prd/prd.gs?bnclick=main-r70_rbst70_LowestCateBestItems&iid=YErsZo4XXU7AA&mseq=421819-2&prdid=1106843033&rank=2&sectSeq=1719616",
+      "finding": "26AD retail selection includes 001,002,003,005,008..020 and later shades; does NOT independently verify exact inventory 004/006/007"
+    },
+    {
+      "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000801054539&salestrNo=6005&siteNo=6001",
+      "finding": "Current retailer lists many 26AD colors including 001-020 selectively"
+    }
+  ],
+  "label_conflict": {
+    "inventory_014": "로지워시",
+    "retailer_014": "로지위시"
+  },
+  "result": "EXISTENCE_OF_26AD_CONFIRMED_BUT_INVENTORY_VS_PROJECT_EDITION_POLICY_CONFLICT",
+  "next_action": "Keep existing 01-20 seller selection immutable, require original shade chart matching actual purchased 26AD and verify 004/006/007/014; do not substitute charts for 21-30 or invent color chips.",
+  "final_photo_approved": false,
+  "public_url_added": 0,
+  "spreadsheet_shared": false
+}
