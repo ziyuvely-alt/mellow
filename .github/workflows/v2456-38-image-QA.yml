@@ -1,0 +1,54 @@
+name: Shopee v2456 38 JPG visual logo, blur and duplicate QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2456-38-image-QA.yml'
+      - 'scripts/v2456_full_38JPG_visual_risk_audit.py'
+permissions:
+  contents: write
+jobs:
+  audit-38-existing-images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install opencv-python-headless numpy
+      - name: Restore previously verified images and real positive MK pattern reference
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2455b prior-v2445b
+          git fetch origin production-assets-v2455b-38-JPGs-official-shade-evidence production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2455b-38-JPGs-official-shade-evidence | tar -xf - -C prior-v2455b
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: Direct full-image CV2 scan all 38 JPEGs (no image rerender or XLSX)
+        run: python scripts/v2456_full_38JPG_visual_risk_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2456-38-real-JPG-visual-quality-and-logo-QA
+          path: v2456-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve QA risk manifest without touching photo JPEG sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2456-output /tmp/v2456-evidence
+          git worktree add --detach /tmp/v2456-wt HEAD
+          cd /tmp/v2456-wt
+          git switch --orphan production-assets-v2456-38-visual-quality-audit
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2456-evidence/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store full 38-image individual visual risk audit, no photo changes and no sale approvals'
+          git push origin HEAD:refs/heads/production-assets-v2456-38-visual-quality-audit
