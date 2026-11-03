@@ -1,0 +1,45 @@
+name: Shopee v2494 Goodal Cream Alpha exact product photo hero JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2494-goodal-cream-alpha.yml'
+      - 'scripts/v2494_goodal_25ad_alpha_photo_hero.py'
+permissions:
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2494_goodal_25ad_alpha_photo_hero.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2494-goodal-alpha-original-plus-one-JPG-QA-HOLD
+          path: v2494-goodal-cream-alpha-photo/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve new draft on isolated branch without Shopee release
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2494-goodal-cream-alpha-photo /tmp/v2494-output
+          git worktree add --detach /tmp/v2494-wt HEAD
+          cd /tmp/v2494-wt
+          git switch --orphan production-assets-v2494-goodal-cream-alpha
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2494-output/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve exact product Goodal Alpha source and one honest hero JPEG draft'
+          git push origin HEAD:refs/heads/production-assets-v2494-goodal-cream-alpha
