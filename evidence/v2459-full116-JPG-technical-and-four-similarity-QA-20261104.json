@@ -1,0 +1,47 @@
+{
+  "date": "2026-11-04",
+  "source_run": 41676483713,
+  "source_artifact_id": 13250023302,
+  "technical_validation": {
+    "image_files": 116,
+    "decoded_jpeg": 116,
+    "dimensions_1080x1080": 116,
+    "under_2000000_bytes": 116,
+    "failed": 0
+  },
+  "visual_collision_review": {
+    "candidate_pairs": 4,
+    "notes": "Small dHash distance is a screen, not proof of identical content; four pairs require checking independent consumer value.",
+    "families": [
+      {
+        "id": "pending-06",
+        "issue": "Two CLIO Mesh Glow cushion feature cards share nearly identical MESH GLOW copy",
+        "review": "Hold one for scene-diverse replacement; five-frame set remains unapproved."
+      },
+      {
+        "id": "pending-20",
+        "issue": "Two Goodal Serum Mist 100mL information cards use nearly identical quantity panel",
+        "review": "Retain original files but withhold one from final five-frame pack until different content exists."
+      },
+      {
+        "id": "pending-21",
+        "issue": "Two Goodal Eye Cream product-angle photos have similar composition",
+        "review": "Visually they show same tube with different texture arrangement; not exact duplicates, source and edition QA outstanding."
+      },
+      {
+        "id": "pending-29",
+        "issue": "Two Pixel Pure Radiance Aqua Cream jar photographs appear visually similar",
+        "review": "Two different original product views, same product/packaging family, retain pending stock/rights QA."
+      }
+    ]
+  },
+  "current_v2459_git_run": 41680390905,
+  "attempted_repair_for": [
+    "pending-08 unsupported shade scope",
+    "pending-19 unsupported dual-functional claim"
+  ],
+  "repair_status": "GITHUB_ACTIONS_RUNNING_NOT_YET_VERIFIED",
+  "existing_public_55_untouched": true,
+  "spreadsheet_not_shared": true,
+  "full_sales_QA_completed": false
+}
