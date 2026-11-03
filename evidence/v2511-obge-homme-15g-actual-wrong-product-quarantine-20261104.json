@@ -1,0 +1,40 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-10",
+  "old_source_run": 41676483713,
+  "old_img_count": 5,
+  "old_actual_visual_inspection": "Old five JPG show beige round 'Perfect Cover Cushion' product including round lid and PA++++; despite the text 'Perfect Homme Cushion 15g' they are wrong physical product for dark-square 15g Homme Cushion",
+  "mismatch": {
+    "old_product_geometry": "beige rounded lid compact",
+    "correct_product_geometry": "dark brown squared slim case with black puff",
+    "old_card_uv": "SPF50+ PA++++",
+    "verified_15g_homme_uv": "SPF50+ PA+++"
+  },
+  "verified_sources": [
+    {
+      "url": "https://cn.hd-dfs.com/shop/gd/dtl/goos.do?onlnGoosCd=56716260000401",
+      "fact": "15g and No1 Ivory official duty free listing"
+    },
+    {
+      "url": "https://josephbeauty.com/products/obge-perfect-homme-cushion-spf50-pa-15g-3colors",
+      "fact": "15g, three colors, PA+++"
+    },
+    {
+      "url": "https://soonsubeauty.com/products/obge-perfect-homme-cushion-15g",
+      "fact": "15g, No1/2/3 options and exact dark square source photos"
+    }
+  ],
+  "verified_source_artifact": 13261430991,
+  "source_photos_checked": 5,
+  "valid_four_distinct_scenes": "dark-square open case, model holding product, dark-square compact cream shade art, 3-shade actual reference",
+  "old_5_action": "QUARANTINE_NOT_PUBLISHED_NOT_DELETED",
+  "replacement_run": 41696701185,
+  "new_public_urls": 0,
+  "sheet_shared": false,
+  "hold": [
+    "commercial photo reuse rights",
+    "actual 15g owned stock packaging check",
+    "official original MK brand logo",
+    "full set duplicate/legibility QA"
+  ]
+}
