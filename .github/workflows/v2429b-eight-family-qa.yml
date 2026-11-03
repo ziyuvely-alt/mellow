@@ -1,0 +1,52 @@
+name: Shopee v2429b additional eight-family real-photo QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2429b-eight-family-qa.yml'
+      - 'scripts/v2429b_existing_photo_8groups.py'
+permissions:
+  contents: write
+jobs:
+  eight-family:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore existing source and C6 checkpoints without modifying assets
+        run: |
+          mkdir v2427b-source v2429-source
+          git fetch origin production-assets-v2427b-obge-shade-clean production-assets-v2429-C6-family-batch
+          git archive origin/production-assets-v2427b-obge-shade-clean | tar -xf - -C v2427b-source
+          git archive origin/production-assets-v2429-C6-family-batch | tar -xf - -C v2429-source
+      - name: Generate 8 image-source contact sheets and checkpoint
+        run: python scripts/v2429b_existing_photo_8groups.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2429b-eight-family-existing-photo-QA
+          path: v2429b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve independent new branch
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2429b-output /tmp/v2429b-evidence
+          git worktree add --detach /tmp/v2429b-wt HEAD
+          cd /tmp/v2429b-wt
+          git switch --orphan production-assets-v2429b-eight-family-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2429b-evidence/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store eight independently checked existing-photo QA JPGs and 30-group queue'
+          git push origin HEAD:refs/heads/production-assets-v2429b-eight-family-qa
