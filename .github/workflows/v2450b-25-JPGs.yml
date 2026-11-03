@@ -1,0 +1,55 @@
+name: Shopee v2450b 25 existing exact photo JPG integrity and MK audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2450b-25-JPGs.yml'
+      - 'scripts/v2450b_integrate_verify_25_jpg.py'
+permissions:
+  contents: write
+jobs:
+  merge-25-without-rerender:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Restore prior 20 + five new JPEGs and positive control logo sources
+        shell: bash
+        run: |
+          set -euo pipefail
+          mkdir prior-v2449b prior-v2450 prior-v2445b
+          git fetch origin production-assets-v2449b-20-actual-photo-candidates production-assets-v2450-five-fresh-customer-JPGs production-assets-v2445b-corrected-QA-hold-146
+          git archive origin/production-assets-v2449b-20-actual-photo-candidates | tar -xf - -C prior-v2449b
+          git archive origin/production-assets-v2450-five-fresh-customer-JPGs | tar -xf - -C prior-v2450
+          git archive origin/production-assets-v2445b-corrected-QA-hold-146 | tar -xf - -C prior-v2445b
+      - name: SHA verify, check visual MK badge against controls and preserve all 25 JPGs
+        run: python scripts/v2450b_integrate_verify_25_jpg.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2450b-25-real-source-JPGs-rights-QA-no-sheets
+          path: v2450b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Publish only isolated branch candidate JPGs, not public live URL paths
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2450b-output /tmp/v2450b-artifacts
+          git worktree add --detach /tmp/v2450b-wt HEAD
+          cd /tmp/v2450b-wt
+          git switch --orphan production-assets-v2450b-25-image-candidate-checkpoint
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2450b-artifacts/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve 25 photo-backed JPGs under rights and stock holds, no spreadsheets shared'
+          git push origin HEAD:refs/heads/production-assets-v2450b-25-image-candidate-checkpoint
