@@ -1,0 +1,62 @@
+{
+  "version": "2.4.43",
+  "source": "production-assets-v2442b-thirty-safety-filtered-sets",
+  "product": "PIXELPURE Gentle Gel to Foam Cleanser 145mL",
+  "source_info": {
+    "brand_official": "https://pixelpure.com/product/detail.html?product_no=21",
+    "korean_duty_free_full_inci_and_usage": "https://m.shilladfs.com/estore/kr/ko/p/5885757",
+    "usage_verified": "Apply onto wet face, massage gently, rinse with lukewarm water",
+    "ingredient_names_verified": [
+      "Panthenol",
+      "Allantoin"
+    ]
+  },
+  "existing_3_original_jpg_unchanged": true,
+  "new_copy_only_jpg": 2,
+  "five_candidate_set_assembled": true,
+  "new_photographic_pixels_generated": false,
+  "exact_packaging_reuse_permission": "UNVERIFIED",
+  "verified_Korean_145mL_product_identity": true,
+  "physical_stock_generation_verified": false,
+  "complete_5frame_manual_sales_QA": false,
+  "final_QA_approved": false,
+  "new_source_photo_or_package_generated": false,
+  "public_55_urls_overwritten": 0,
+  "frames": [
+    {
+      "role": "historical_en-customer-drafts",
+      "path": "pending-26-review-five-JPGs/01_PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+      "sha256": "bc633c1e747cb5bd8da44b1e3f21c2439a2b79288d79be185f9a6f4539b4172c",
+      "rights": "PENDING"
+    },
+    {
+      "role": "historical_en-customer-drafts",
+      "path": "pending-26-review-five-JPGs/02_PIXELPURE_INFO_03_V2416C_EN_V2421.jpg",
+      "sha256": "5ae5442a6edfbbeee45cc7ae36e0432d3f73aaf0e424bdd03d5f95fa90ab82d3",
+      "rights": "PENDING"
+    },
+    {
+      "role": "historical_original_source_fallback_NOT_EN_verified",
+      "path": "pending-26-review-five-JPGs/03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+      "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+      "rights": "PENDING"
+    },
+    {
+      "role": "verified_instructions_copy",
+      "path": "pending-26-review-five-JPGs/04_PIXELPURE_Gentle_Gel_145ml_HOW_TO_USE_V2443.jpg",
+      "sha256": "d8a40ca129718b493b9d05dda66e00c4ad63692e4e8724459b58d9eb094c71a0",
+      "rights": "PENDING"
+    },
+    {
+      "role": "verified_ingredients_copy",
+      "path": "pending-26-review-five-JPGs/05_PIXELPURE_Gentle_Gel_145ml_KEY_INGREDIENTS_V2443.jpg",
+      "sha256": "ece666962584934dd1e2177636f3a9eab49d2d310b181bf55f1802c08e3d12ba",
+      "rights": "PENDING"
+    }
+  ],
+  "next": [
+    "Manually visually inspect both newly generated copy JPGs",
+    "Confirm brand photo usage rights and physical stock package before Shopee publication",
+    "If approved, insert this exact new pending-26 5-frame candidate into v2442b 30-family pack without re-rendering 29 other families"
+  ]
+}
