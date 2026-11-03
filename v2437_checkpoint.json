@@ -1,0 +1,53 @@
+{
+  "version": "2.4.37",
+  "actual_customer_JPG_created": 3,
+  "groups_revised": 3,
+  "original_photographs_modified": 0,
+  "synthetic_shade_or_product_pixels": 0,
+  "published_URL_mutations": 0,
+  "verified_licensing": 0,
+  "final_QA_approved": 0,
+  "latest_drafts": [
+    {
+      "group_id": "pending-09",
+      "source": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-09/INV_03_1859a75292_EN_V2421C.jpg",
+      "source_sha256": "70106b90c27763da7dd424e2a34fe42d0a94fbb53c1a8ddcb641a803e1702563",
+      "output": "sales-image-drafts/pending-09/pending-09_real_photo_copy_revision_V2437.jpg",
+      "new_sha256": "84839aee189797bf9e5a9e2a6011cd206de9461057fd07d84701cfb667566792",
+      "reason": "Real compact case and puff, removes existing unauthenticated MK illustration",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa_after_export": "PENDING",
+      "photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-11",
+      "source": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-11/INV_03_8a47d85c96_EN_V2421C.jpg",
+      "source_sha256": "5e393de541df74dfc8576ee3419c9e3f94eb668c72d41612db2330fa152dc7f5",
+      "output": "sales-image-drafts/pending-11/pending-11_real_photo_copy_revision_V2437.jpg",
+      "new_sha256": "6f1cf53bf873134881538328e38334b4e19b0370f094f8daaa12c75eff8d9e4f",
+      "reason": "Real double-chamber bottle, removes existing unauthenticated MK illustration",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa_after_export": "PENDING",
+      "photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED"
+    },
+    {
+      "group_id": "pending-18",
+      "source": "baseline-v2427b/immutable-v2426b/originals-v2425-unchanged/prior-immutable/immutable-prev/preserved-v2422/en-photo-captions/pending-18/INV_02_66493f8937_EN_V2421C.jpg",
+      "source_sha256": "d8479e3e84cb9bd4503720504dc0620f89fe40b8ab95ef8bf736fa40f3f93e39",
+      "output": "sales-image-drafts/pending-18/pending-18_real_photo_copy_revision_V2437.jpg",
+      "new_sha256": "5efa69fba9e8d9714fdca198fdd6d6fa757fef6e0504fb4e95f279c529243708",
+      "reason": "Removes misleading 'Official cream texture photo'; only describes real product texture photo",
+      "state": "SALES_IMAGE_DRAFT",
+      "visual_qa_after_export": "PENDING",
+      "photo_rights": "UNVERIFIED",
+      "stock_package": "UNVERIFIED"
+    }
+  ],
+  "next": [
+    "Open and visually verify all three new JPGs; reject clipping and poor presentation",
+    "Continue exact-source photos across other pending product groups",
+    "Check photo commercial reuse and physical stock packaging before approval"
+  ]
+}
