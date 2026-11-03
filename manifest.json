@@ -1,0 +1,45 @@
+{
+  "version": "v2541",
+  "date": "2026-11-04",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "new_genuine_photo_replacements": [
+    {
+      "slot": 2,
+      "photo": "review-JPG-by-family/pending-09/02_v2541-official-open-finisher.jpg",
+      "old_sha256": "258f7f36f5a3a95234f6e7e1b260345aa1aefb731328b0a6db3e210d62a0a2a7",
+      "new_sha256": "7d11be3d700956f889d64d723077e5229811130f1d4dad5d07abe31f93776680",
+      "src_sha256": "b50ae98106014dda57659e758312712a2b65ae980501fc7875912012c4bfa8a9",
+      "src_size": [
+        997,
+        997
+      ],
+      "src_url": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+      "role": "Genuine 5g open beige finisher compact with OBgE puff"
+    },
+    {
+      "slot": 4,
+      "photo": "review-JPG-by-family/pending-09/04_v2541-real-product-floating-case.jpg",
+      "old_sha256": "70106b90c27763da7dd424e2a34fe42d0a94fbb53c1a8ddcb641a803e1702563",
+      "new_sha256": "2f9fbbbca9a1203c5f4be29b72e492fe9999cf750e3a01ef390dd598d7d393a2",
+      "src_sha256": "2076713fdc4e29ef0615d6411290b28ee8450e146866fc16b66c30e30414670b",
+      "src_size": [
+        800,
+        800
+      ],
+      "src_url": "https://www.ballagrio.com/cdn/shop/files/obge-oil-control-finisher-5g-06.jpg?v=1777873278",
+      "role": "Distinct photograph of original 5g separated finisher case and puff"
+    }
+  ],
+  "old_other_154_JPGs_byte_identical": true,
+  "total_qa_JPGs": 156,
+  "all_30_families_retained": true,
+  "no_synthetic_product_or_shade_images": true,
+  "commercial_photo_rights_approved": false,
+  "actual_owned_stock_edition_confirmed": false,
+  "original_MK_logo_applied": false,
+  "final_sale_QA": false,
+  "prior_verified_public_55_urls_preserved": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
