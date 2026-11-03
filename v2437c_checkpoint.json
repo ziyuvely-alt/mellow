@@ -1,0 +1,14 @@
+{
+  "version": "2.4.37c",
+  "new_actual_modified_jpg": 1,
+  "previous_rejected": "production-assets-v2437b-three-more-photo-revisions/sales-image-drafts/pending-11/pending-11_actual_photo_copy_revised_V2437b.jpg",
+  "reason": "Visible MK fragment remains at bottom right of rejected image",
+  "new_file": "sales-image-drafts/pending-11/OBGE_texture_no_logo_fragment_V2437c.jpg",
+  "source_sha256": "af6b734b5e05ad3225a1ee7c9432a44aca710da1db5b2b0c22add015da265c04",
+  "output_sha256": "07dc7e0fa7a83b9230827e5873c0035ce3751b0d817c2392cda836050e27a545",
+  "source_photo_unchanged": true,
+  "retail_status": "SALES_IMAGE_DRAFT",
+  "commercial_reuse_rights_verified": false,
+  "FINAL_QA_APPROVED": 0,
+  "published_URLs_changed": 0
+}
