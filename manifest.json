@@ -1,0 +1,28 @@
+{
+  "version": "v2532",
+  "date": "2026-11-04",
+  "new_image": "review-JPG-by-family/pending-05/06-authentic-CLIO-founwear-five-face-swatches.jpg",
+  "source_run": 41707037373,
+  "source_photo": "https://cdn.shopify.com/s/files/1/0668/0022/2505/files/Photoroom_20250416_121449.png?crop=center&height=1024&v=1744795011&width=960",
+  "source_SHA256": "8cd6b2e0003d571c5a8a2b0e429bb2e1cdca2d968d8ab38ee688cb6883c0554f",
+  "JPG_SHA256": "9854f08c15b1a7d9514f1fdf2860277927f578b27510097e44b386c80aee356c",
+  "real_five_options": [
+    "19C Light",
+    "19N Porcelain",
+    "21C Lingerie",
+    "21N Linen",
+    "23N Ginger"
+  ],
+  "prior_155_files_byte_identical": true,
+  "total_QA_JPGs": 156,
+  "30_families": true,
+  "photographic_pixels_unmodified": true,
+  "fake_shades_generated": false,
+  "photo_commercial_rights_approved": false,
+  "inventory_package_generation_verified": false,
+  "MK_logo_original_applied": false,
+  "public_release_approved": false,
+  "existing_public_URLs_unchanged": 55,
+  "new_public_URLs": 0,
+  "xlsx_shared": false
+}
