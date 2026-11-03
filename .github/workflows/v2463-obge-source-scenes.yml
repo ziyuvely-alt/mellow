@@ -1,0 +1,27 @@
+name: Shopee v2463 OBgE Oil Control Finisher source scene capture
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2463-obge-source-scenes.yml'
+      - 'scripts/v2463_obge_finisher_three_real_source_views.py'
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2463_obge_finisher_three_real_source_views.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2463-obge-real-photo-angles-NOT-PUBLISHED
+          path: v2463-obge-oil-control-real-photo/
+          if-no-files-found: error
+          retention-days: 90
