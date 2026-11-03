@@ -1,0 +1,31 @@
+{
+  "date": "2026-11-04",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "action_run": 41691203770,
+  "artifact_id": 13255918676,
+  "branch": "production-assets-v2499-clio-mini-factual",
+  "actual_downloaded_jpg_count": 2,
+  "visual_review": "Two rendered 1080px information drafts for exact mini options; no synthetic swatch image.",
+  "actual_jpgs": [
+    {
+      "file": "04-mini-3-shade-name-guide.jpg",
+      "bytes": 99743,
+      "sha256": "3fcc2e12221c5e9de919af691826c3e1213aca0745fe851f4a0e30e842e62f9c"
+    },
+    {
+      "file": "05-mini-cushion-puff-use-guide.jpg",
+      "bytes": 93157,
+      "sha256": "678834d328a7fa341375f1130e398494339537b2b2c87e4880d193471a397198"
+    }
+  ],
+  "resolution": "1080 x 1080",
+  "new_public_urls": 0,
+  "prior_approved_images_modified": 0,
+  "release_hold": [
+    "Original MellowKR MK logo unavailable",
+    "Official shade photograph and exact inventory package generation not authenticated",
+    "Potential overlap with previously drafted information cards must be checked"
+  ],
+  "xlsx_shared": false
+}
