@@ -1,0 +1,404 @@
+{
+  "version": "2.4.55b",
+  "sources": [
+    "production-assets-v2454b-36-photo-and-fact-JPG-drafts",
+    "production-assets-v2455-two-obge-official-source-facts"
+  ],
+  "prior_36_JPGs_byte_preserved": true,
+  "new_2_verified_facts_byte_preserved": true,
+  "all_JPG_source_SHA256_validated": 38,
+  "product_groups_with_any_photo_or_fact": 28,
+  "without_suitable_actual_product_photo": [
+    "pending-01",
+    "pending-08",
+    "pending-22"
+  ],
+  "prior_531_source_JPGs_modified": 0,
+  "existing_published_55_URLs_modified": 0,
+  "official_shade_charts_approved": 0,
+  "commercial_photo_rights_verified": 0,
+  "fully_approved_five_or_six_frame_sale_sets": 0,
+  "all_previous_hard_holds_retain": true,
+  "XLSX_files_created_or_shared": false,
+  "new_source_conflict_evidence": {
+    "peripera": {
+      "product": "Mood Glowy Tint 4 g",
+      "scope_requested": "01 through 20 only; 21+ and 26AD new edition excluded from current list",
+      "current_brand_operated_retailer_reference": "https://m.gsshop.com/prd/prd.gs?ispre=Y&mseq=444059&prdid=1106843033&rank=10",
+      "retailer_operator": "CLIO-operated official shop per retailer page",
+      "listing_mentions_01_20_but_04_06_07_option_sources_not_confirmed": true,
+      "current_listing_includes_21_plus": true,
+      "no_04_06_07_official_same_generation_swatch_verification": true,
+      "commercial_content_reuse_warning_on_source": true,
+      "visual_swatch_chart_license_granted": false,
+      "action": "Do not fabricate 04/06/07 or relabel 26AD; keep all uncertain options on hold"
+    },
+    "missha_cover_lasting": {
+      "product": "MISSHA Magic Cushion Cover Lasting",
+      "user_excluded_shade_21_in_current_shade_chart": true,
+      "archived_hero_contains_shade_21": true,
+      "archived_hero_permanently_excluded_from_sale_draft": true,
+      "source": "https://m.cos-up.com/product/missha-%EB%AF%B8%EC%83%A4-%EB%A7%A4%EC%A7%81-%EC%BF%A0%EC%85%98-%EC%BB%A4%EB%B2%84-%EB%9E%98%EC%8A%A4%ED%8C%85-spf50-pa/1263/",
+      "seller_source_shades_21_23_only": "Not evidence for 25/27 in same package generation",
+      "shade_23_25_27_same_generation_officially_verified": false,
+      "action": "Hold until exact official stock edition and 23/25/27 proven; do not reinsert 21"
+    },
+    "obge_300ml": {
+      "official_source": "https://www.obge.co.kr/product/detail.html?cate_no=43&display_group=1&product_no=1251",
+      "exact_ingredient_verification": "Panthenol Ectoin Sodium Hyaluronate Hyaluronic Acid and derivatives",
+      "legitimate_jpg_frames": "4 fact-only cards saved; no real 300mL source bottle approved",
+      "wrong_photo": "Historical PRODUCT_PHOTO_02 is a cosmetic cushion, rejected",
+      "photo_rights": false,
+      "real_bottle_generation_validated": false
+    }
+  },
+  "files": [
+    {
+      "group_id": "pending-03",
+      "file": "all-38-verified-JPG-drafts/pending-03/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-03_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "3ae6aac52c5638f750f2b9e13ae3cd62e6faf3edcda97e45172ba99dd6950c09",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-04",
+      "file": "all-38-verified-JPG-drafts/pending-04/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-04_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "5626ccbab54b8e561c8e952618d74dbe1b9719ab934b853506ec446a10ff9f56",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-25",
+      "file": "all-38-verified-JPG-drafts/pending-25/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-25_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "64ca56adfc52eabaca3f5d75e241eb39a633ba9a4213288334866ef2a71d0ca1",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-11",
+      "file": "all-38-verified-JPG-drafts/pending-11/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-11_previous_success_byteidentical_V2447.jpg",
+      "sha256": "6f1cf53bf873134881538328e38334b4e19b0370f094f8daaa12c75eff8d9e4f",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-15",
+      "file": "all-38-verified-JPG-drafts/pending-15/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-15_previous_success_byteidentical_V2447.jpg",
+      "sha256": "3b37a21099a36a1e674298346a894d5ddf9f636e2964ddcbd0de7b27e19c3188",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-28",
+      "file": "all-38-verified-JPG-drafts/pending-28/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-28_previous_success_byteidentical_V2447.jpg",
+      "sha256": "a60c65b571a480f14106a9245dc892be6486d7a5a4371a7c108409487beb9012",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-29",
+      "file": "all-38-verified-JPG-drafts/pending-29/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-29_previous_success_byteidentical_V2447.jpg",
+      "sha256": "a6397fcb78277f509a2734066fca2b1251f37e16409d88c26c9b4ebef690637b",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-30",
+      "file": "all-38-verified-JPG-drafts/pending-30/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_main__pending-30_previous_success_byteidentical_V2447.jpg",
+      "sha256": "912823f8993fe10e345b7c91549e50aea57f1c61e03d647cddf2eacd1c961d2f",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-04",
+      "file": "all-38-verified-JPG-drafts/pending-04/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-04_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "2c497da28c7c8a8014ca3d00ebd93348630512c9d89b00f662a4d2387b11f2b3",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-11",
+      "file": "all-38-verified-JPG-drafts/pending-11/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-11_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "a8e9f6c0db6d53b81051cec687c96114af41c3f00341719e3b194830d082dfe0",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-15",
+      "file": "all-38-verified-JPG-drafts/pending-15/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-15_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "fa449eed65d752cacb6953c890f70e63bcfbe0ba3700bd22d5335c7963ef51e0",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-25",
+      "file": "all-38-verified-JPG-drafts/pending-25/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-25_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "af556daf39722bd1cdbeb3f42e1ca599259ca907bf3d9ccc2c8f8bbd2caf2118",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-28",
+      "file": "all-38-verified-JPG-drafts/pending-28/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-28_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "27cd5e352650241d7ec6ef2d2c0311168039d6b71f3b2448f636636d3fdd5805",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-29",
+      "file": "all-38-verified-JPG-drafts/pending-29/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-29_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "a4adab2289be058c71e1659a28fcd5d601bfa69d0f7a5ee483495845432dc5a0",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-30",
+      "file": "all-38-verified-JPG-drafts/pending-30/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2448b_prior_success__photo_detail__pending-30_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "9666de3b82069d096d686770a47ff22270246efe86f1417c2485ee5765114bb0",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-09",
+      "file": "all-38-verified-JPG-drafts/pending-09/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2449_new_detail__pending-09_original-photo-detail_V2449.jpg",
+      "sha256": "15da01d32aa7b6eefe8bd9f462960fe78ab78ad6d409b3657fb191dd6fc4f597",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-16",
+      "file": "all-38-verified-JPG-drafts/pending-16/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2449_new_detail__pending-16_original-photo-detail_V2449.jpg",
+      "sha256": "d6bd7a2a64dc8e0db4778261bf25e7fe58cce29665c702d6a57a1a727d0caca1",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-18",
+      "file": "all-38-verified-JPG-drafts/pending-18/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2449_new_detail__pending-18_original-photo-detail_V2449.jpg",
+      "sha256": "23c5b456286c1757928e1a7649884f7fd228ff862996e66e5cd4df94f91afd64",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-24",
+      "file": "all-38-verified-JPG-drafts/pending-24/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2449_new_detail__pending-24_original-photo-detail_V2449.jpg",
+      "sha256": "0e09e880342c2b1bd8908d319bcd35b69f782ea4ca055a8ab1733f5aee1cc422",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-27",
+      "file": "all-38-verified-JPG-drafts/pending-27/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__prior_v2449b__v2449_new_detail__pending-27_original-photo-detail_V2449.jpg",
+      "sha256": "1c607a15950ec31f06de6c199f0f2f95995db385600a036002e5ccfb8a0907a9",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-12",
+      "file": "all-38-verified-JPG-drafts/pending-12/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__new_v2450__pending-12_customer_photo_or_info_V2450.jpg",
+      "sha256": "db79238b6d5c6b576ff017cd6b78d6e879886f04ae4b497321287156f5adcacd",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-13",
+      "file": "all-38-verified-JPG-drafts/pending-13/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__new_v2450__pending-13_customer_photo_or_info_V2450.jpg",
+      "sha256": "abd7d9c210a5bb727d8d36c01354614b200350adf3beac3c085f3e3d984ffb12",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-14",
+      "file": "all-38-verified-JPG-drafts/pending-14/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__new_v2450__pending-14_customer_photo_or_info_V2450.jpg",
+      "sha256": "a0b69dc6766d89f40c7a402bf0ca2c17aafaf9b506360dc5941a50750469cdf1",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-17",
+      "file": "all-38-verified-JPG-drafts/pending-17/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__new_v2450__pending-17_customer_photo_or_info_V2450.jpg",
+      "sha256": "65dfc0b72680c0a93c2409cdc0f6a543f5a129132f1b9cd303cf8fad68e41b67",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-20",
+      "file": "all-38-verified-JPG-drafts/pending-20/byte-identical-v2454b__v2452-reuse__v2450b-byte-identical__new_v2450__pending-20_unverified_generation_removed_V2450.jpg",
+      "sha256": "caf99801a1e79fb4b3424475eeda60fa465e0ea1e0926d99bf652aedb62fbd6d",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-02",
+      "file": "all-38-verified-JPG-drafts/pending-02/byte-identical-v2454b__v2452-reuse__v2451b-byte-identical__pending-02_actual-photograph-detail_V2451.jpg",
+      "sha256": "8035d5fbcaa38aaaec7d74a49733dbe026097c1b15953a9f696785253b2a4ad3",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-05",
+      "file": "all-38-verified-JPG-drafts/pending-05/byte-identical-v2454b__v2452-reuse__v2451b-byte-identical__pending-05_actual-photograph-detail_V2451.jpg",
+      "sha256": "7227f859e68882b681d50b15b2ee7ae230f35086bca8bacf1afcdffef60d4fef",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-10",
+      "file": "all-38-verified-JPG-drafts/pending-10/byte-identical-v2454b__v2452-reuse__v2451b-byte-identical__pending-10_actual-photograph-detail_V2451.jpg",
+      "sha256": "ed62cf8e54e21a866ef86674680fe805010f00f5fa0b5ca4bf7b35f1a4cdc9ca",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-21",
+      "file": "all-38-verified-JPG-drafts/pending-21/byte-identical-v2454b__v2452-reuse__v2451b-byte-identical__pending-21_actual-photograph-detail_V2451.jpg",
+      "sha256": "ebf27da5ce6a593d50d09ac97d6b65a02cc3bda12f1e1bb96a292b0cbd58eefb",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-23",
+      "file": "all-38-verified-JPG-drafts/pending-23/byte-identical-v2454b__v2452-reuse__v2451b-byte-identical__pending-23_actual-photograph-detail_V2451.jpg",
+      "sha256": "e29128645351682b7046987bc5a303d1afa1a6a63601b6047b845b0c5983e782",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-26",
+      "file": "all-38-verified-JPG-drafts/pending-26/byte-identical-v2454b__v2452-reuse__v2443-reused-original-photo__03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+      "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-19",
+      "file": "all-38-verified-JPG-drafts/pending-19/byte-identical-v2454b__v2452-reuse__v2452-genuine-photo-crop-only__pending-19_goodal_actual_jar_detail_V2452.jpg",
+      "sha256": "67f4d601921a4762661c2830162c46ccc29ffdbf79f2ca57d9dde19839550bc9",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-06",
+      "file": "all-38-verified-JPG-drafts/pending-06/byte-identical-v2454b__v2453-quality-fixed__pending-06_genuine_photo_quality_replacement_V2453.jpg",
+      "sha256": "ed59c6f389d670204dc6930584a1c1da85ed3a244241c1f7350740a2419ed681",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-07",
+      "file": "all-38-verified-JPG-drafts/pending-07/byte-identical-v2454b__v2453-quality-fixed__pending-07_genuine_photo_quality_replacement_V2453.jpg",
+      "sha256": "9ae71b48bf6f12c9a6815aa73b31f8d472bfa04ac8b15840bc0c7ce00fb6c7ac",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-22",
+      "file": "all-38-verified-JPG-drafts/pending-22/byte-identical-v2454b__01_FACE_AND_BODY_300ML_V2454.jpg",
+      "sha256": "8970f8941773fa1ebf3401a2de8a8cef4334ac1329f791ea7e59e32f2ea5baea",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-22",
+      "file": "all-38-verified-JPG-drafts/pending-22/byte-identical-v2454b__02_DAILY_REAPPLICATION_V2454.jpg",
+      "sha256": "c778b6729bd55b8040a93ad1a1c2a3df2542e44a23ed0835acb182b784ac3b44",
+      "origin": "byte-identical-v2454b",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-22",
+      "file": "all-38-verified-JPG-drafts/pending-22/byte-identical-v2455__03_OBGE_300ml_official_ingredients_V2455.jpg",
+      "sha256": "1a2b0dd9f371051fdfa63107dab4ae94b4585606b07f1719146fa1991deb649f",
+      "origin": "byte-identical-v2455",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    },
+    {
+      "group_id": "pending-22",
+      "file": "all-38-verified-JPG-drafts/pending-22/byte-identical-v2455__04_OBGE_300ml_official_function_V2455.jpg",
+      "sha256": "651288326368943b6281bd350626842b473f63d05bed21385eebbac105379a05",
+      "origin": "byte-identical-v2455",
+      "commercial_photo_rights_verified": false,
+      "actual_physical_stock_generation_verified": false,
+      "full_sales_QA_approved": false
+    }
+  ],
+  "next": [
+    "Use genuine licensed same-edition official product photography for pending-01, pending-08, pending-22",
+    "Verify exact 04/06/07 peripera source before any customer chart; no retailer art reuse without license",
+    "Complete each 5 or 6 image family's commercial rights, stock/edition and manual visual QA"
+  ]
+}
