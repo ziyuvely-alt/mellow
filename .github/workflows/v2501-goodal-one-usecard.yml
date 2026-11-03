@@ -1,0 +1,47 @@
+name: Shopee v2501 Goodal 25AD Mist one usage card correction
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2501-goodal-one-usecard.yml'
+      - 'scripts/v2501_goodal_mist_single_usage_fix.py'
+permissions:
+  contents: write
+jobs:
+  render-and-preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Correct only one info JPG; no previously finished photo recreation
+        run: python scripts/v2501_goodal_mist_single_usage_fix.py
+      - run: test -s v2501-goodal-mist-single-factual-fix/05-usage-verified-source-corrected.jpg
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2501-goodal-25ad-one-verified-usage-JPG
+          path: v2501-goodal-mist-single-factual-fix/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve review JPG only, never publish publicly
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2501-goodal-mist-single-factual-fix /tmp/v2501-output
+          git worktree add --detach /tmp/v2501-wt HEAD
+          cd /tmp/v2501-wt
+          git switch --orphan production-assets-v2501-goodal-one-usage-fix
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2501-output/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve corrected one-frame Goodal serum mist 25AD usage facts; commercial QA on hold'
+          git push origin HEAD:refs/heads/production-assets-v2501-goodal-one-usage-fix
