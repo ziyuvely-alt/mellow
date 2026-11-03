@@ -1,0 +1,30 @@
+{
+  "date": "2026-11-04",
+  "family_id": "pending-04",
+  "source_run": 41691203770,
+  "source_JPGs_untouched": true,
+  "exact_fixes": [
+    "Removed inferred warm/cool/neutral skin-tone marketing descriptions",
+    "Replaced internal evidence disclaimer with customer shade-selection instruction",
+    "Replaced internal QA footer on puff card"
+  ],
+  "new_replacement_jpgs": [
+    {
+      "file": "04-mini-3-shade-names-corrected.jpg",
+      "sha256": "f5637db288f32eadb8c0725aae08cf6afb5ccebaf744244b68c2a7d106b39a3d",
+      "bytes": 95748
+    },
+    {
+      "file": "05-mini-puff-directions-footer-corrected.jpg",
+      "sha256": "e5df9988b55bd30690ecd96064bb7745dadf5459ed7ed4f37397f3d9c1b0bb20",
+      "bytes": 91867
+    }
+  ],
+  "fabricated_swatch_pixels": false,
+  "official_photo_shade_chart_verified": false,
+  "original_MK_logo_applied": false,
+  "stock_generation_verified": false,
+  "public_URLs_added": 0,
+  "xlsx_shared": false,
+  "sales_final_QA": "HOLD"
+}
