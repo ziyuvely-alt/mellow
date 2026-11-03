@@ -1,0 +1,212 @@
+{
+  "version": "2.4.49b",
+  "source_branches": [
+    "production-assets-v2448b-15-photo-candidate-checkpoint",
+    "production-assets-v2449-five-new-photo-details"
+  ],
+  "prior_exact_images_reused": 15,
+  "new_actual_photo_detail_frames": 5,
+  "unique_JPGs_reverified": 20,
+  "distinct_product_families": 13,
+  "new_product_photo_pixels_synthesized": false,
+  "model_likeness_candidiates_held": 2,
+  "all_source_JPGs_sha256_preserved": true,
+  "all_20_images_1080x1080_under_2MB": true,
+  "prior_64_logo_quarantined_images_preserved": true,
+  "prior_86_image_candidates_preserved": true,
+  "prior_public_55_URL_paths_changed": 0,
+  "commercial_photo_permission_verified": 0,
+  "physical_stock_package_verified": 0,
+  "FINAL_SALES_APPROVED": 0,
+  "new_official_shade_charts": 0,
+  "NO_SPREADSHEET_SHARED": true,
+  "files": [
+    {
+      "group_id": "pending-03",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-03/v2448b_prior_success__photo_main__pending-03_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "3ae6aac52c5638f750f2b9e13ae3cd62e6faf3edcda97e45172ba99dd6950c09",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-04",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-04/v2448b_prior_success__photo_main__pending-04_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "5626ccbab54b8e561c8e952618d74dbe1b9719ab934b853506ec446a10ff9f56",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-25",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-25/v2448b_prior_success__photo_main__pending-25_authentic-photo_no-MK_V2447.jpg",
+      "sha256": "64ca56adfc52eabaca3f5d75e241eb39a633ba9a4213288334866ef2a71d0ca1",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-11",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-11/v2448b_prior_success__photo_main__pending-11_previous_success_byteidentical_V2447.jpg",
+      "sha256": "6f1cf53bf873134881538328e38334b4e19b0370f094f8daaa12c75eff8d9e4f",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-15",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-15/v2448b_prior_success__photo_main__pending-15_previous_success_byteidentical_V2447.jpg",
+      "sha256": "3b37a21099a36a1e674298346a894d5ddf9f636e2964ddcbd0de7b27e19c3188",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-28",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-28/v2448b_prior_success__photo_main__pending-28_previous_success_byteidentical_V2447.jpg",
+      "sha256": "a60c65b571a480f14106a9245dc892be6486d7a5a4371a7c108409487beb9012",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-29",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-29/v2448b_prior_success__photo_main__pending-29_previous_success_byteidentical_V2447.jpg",
+      "sha256": "a6397fcb78277f509a2734066fca2b1251f37e16409d88c26c9b4ebef690637b",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-30",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-30/v2448b_prior_success__photo_main__pending-30_previous_success_byteidentical_V2447.jpg",
+      "sha256": "912823f8993fe10e345b7c91549e50aea57f1c61e03d647cddf2eacd1c961d2f",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-04",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-04/v2448b_prior_success__photo_detail__pending-04_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "2c497da28c7c8a8014ca3d00ebd93348630512c9d89b00f662a4d2387b11f2b3",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-11",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-11/v2448b_prior_success__photo_detail__pending-11_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "a8e9f6c0db6d53b81051cec687c96114af41c3f00341719e3b194830d082dfe0",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-15",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-15/v2448b_prior_success__photo_detail__pending-15_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "fa449eed65d752cacb6953c890f70e63bcfbe0ba3700bd22d5335c7963ef51e0",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-25",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-25/v2448b_prior_success__photo_detail__pending-25_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "af556daf39722bd1cdbeb3f42e1ca599259ca907bf3d9ccc2c8f8bbd2caf2118",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-28",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-28/v2448b_prior_success__photo_detail__pending-28_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "27cd5e352650241d7ec6ef2d2c0311168039d6b71f3b2448f636636d3fdd5805",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-29",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-29/v2448b_prior_success__photo_detail__pending-29_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "a4adab2289be058c71e1659a28fcd5d601bfa69d0f7a5ee483495845432dc5a0",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-30",
+      "source_batch": "v2448b_prior_success",
+      "file": "unapproved-real-photo-candidates/pending-30/v2448b_prior_success__photo_detail__pending-30_genuine-photo-detail-noMK_V2448.jpg",
+      "sha256": "9666de3b82069d096d686770a47ff22270246efe86f1417c2485ee5765114bb0",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-09",
+      "source_batch": "v2449_new_detail",
+      "file": "separately-held-likeness/pending-09/v2449_new_detail__pending-09_original-photo-detail_V2449.jpg",
+      "sha256": "15da01d32aa7b6eefe8bd9f462960fe78ab78ad6d409b3657fb191dd6fc4f597",
+      "status": "LIKELINESS_PERMISSION_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-16",
+      "source_batch": "v2449_new_detail",
+      "file": "separately-held-likeness/pending-16/v2449_new_detail__pending-16_original-photo-detail_V2449.jpg",
+      "sha256": "d6bd7a2a64dc8e0db4778261bf25e7fe58cce29665c702d6a57a1a727d0caca1",
+      "status": "LIKELINESS_PERMISSION_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-18",
+      "source_batch": "v2449_new_detail",
+      "file": "unapproved-real-photo-candidates/pending-18/v2449_new_detail__pending-18_original-photo-detail_V2449.jpg",
+      "sha256": "23c5b456286c1757928e1a7649884f7fd228ff862996e66e5cd4df94f91afd64",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-24",
+      "source_batch": "v2449_new_detail",
+      "file": "unapproved-real-photo-candidates/pending-24/v2449_new_detail__pending-24_original-photo-detail_V2449.jpg",
+      "sha256": "0e09e880342c2b1bd8908d319bcd35b69f782ea4ca055a8ab1733f5aee1cc422",
+      "status": "SOURCE_EDITION_AND_COMMERCIAL_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    },
+    {
+      "group_id": "pending-27",
+      "source_batch": "v2449_new_detail",
+      "file": "unapproved-real-photo-candidates/pending-27/v2449_new_detail__pending-27_original-photo-detail_V2449.jpg",
+      "sha256": "1c607a15950ec31f06de6c199f0f2f95995db385600a036002e5ccfb8a0907a9",
+      "status": "200ML_EXACT_GENERATION_AND_PHOTO_RIGHTS_HOLD",
+      "full_set_complete": false,
+      "final_sale_approved": false
+    }
+  ],
+  "next_actions": [
+    "Inspect verified source photo assets for additional distinct frames without reproducing already edited 20",
+    "Confirm 200mL exact PIXELPURE toner package and photo rights",
+    "Commercial permission checks for model-likeness images in pending-09 and pending-16",
+    "Continue 30-group manual individual-image QA and official exact color-generation source verification"
+  ],
+  "notice": "20 photo-based candidates remain draft images, not an approved product-image upload set"
+}
