@@ -1,0 +1,28 @@
+name: Shopee v2487 DrG Moisture Sun 50ml 2023 exact source collection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2487-drg-moisture-sun.yml'
+      - 'scripts/v2487_drg_moisture_sun_2023_source_qa.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Collect real exact 50ml product source without variants
+        run: python scripts/v2487_drg_moisture_sun_2023_source_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2487-DrG-Moisture-Sun-2023-reference-QA-only
+          path: v2480-dr-g-moisture-sun-50ml-source/
+          retention-days: 90
+          if-no-files-found: error
