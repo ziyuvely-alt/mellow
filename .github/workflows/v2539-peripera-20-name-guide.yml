@@ -1,0 +1,53 @@
+name: Shopee v2539 Peripera 26AD one exact 20-English-shade-name JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2539-peripera-20-name-guide.yml'
+      - 'scripts/v2539_peripera_exact_20_english_shade_names.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  one-option-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore all 156 JPGs with new MISSHA wash-off card
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41713277670 -n shopee-v2538-156-real-JPGs-MISSHA-peelshot-official-use-QA -D v2539-input-156
+      - name: Correct only Peripera 20 English shade names, keep 155 unchanged
+        run: |
+          python scripts/v2539_peripera_exact_20_english_shade_names.py
+          test "$(find v2539-156-peripera-20shade-names-QA/review-JPG-by-family -name '*.jpg' | wc -l)" -eq 156
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2539-156-JPG-Peripera20-official-option-names-QA
+          path: v2539-156-peripera-20shade-names-QA/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve separate review branch, without Excel or 55 public URL changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2539-156-peripera-20shade-names-QA /tmp/v2539-files
+          git worktree add --detach /tmp/v2539-wt HEAD
+          cd /tmp/v2539-wt
+          git switch --orphan production-assets-v2539-156-peripera-exact-options-QA
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2539-files/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve Peripera 26AD 20 authentic English shade option names without invented colors'
+          git push origin HEAD:refs/heads/production-assets-v2539-156-peripera-exact-options-QA
