@@ -1,0 +1,27 @@
+name: Shopee v2472 collect Pixelpure 145ml Cleanser official photo sources
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2472-pixelpure-cleanser-source.yml'
+      - 'scripts/v2472_pixelpure_cleanser_145ml_gallery.py'
+permissions:
+  contents: read
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - run: python scripts/v2472_pixelpure_cleanser_145ml_gallery.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2472-pixelpure-145ml-cleanser-authentic-source-QA-HOLD
+          path: v2472-pixelpure-cleanser-145ml-gallery/
+          retention-days: 90
+          if-no-files-found: error
