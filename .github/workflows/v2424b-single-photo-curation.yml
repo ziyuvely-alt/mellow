@@ -1,0 +1,55 @@
+name: Shopee v2424b four manufacturer real-photo curated revisions
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2424b-single-photo-curation.yml'
+      - 'scripts/v2424b_curate_actual_four_photos.py'
+permissions:
+  contents: write
+  actions: read
+jobs:
+  four-real-photo-fixes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 35
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image QA tools
+        run: python -m pip install Pillow
+      - name: Retrieve exact v2423 8 sets and v2424 authentic manufacturer photos
+        run: |
+          mkdir -p input-v2423 input-v2424-official
+          git fetch origin production-assets-v2423-single-qa production-assets-v2424-eight-official-singles
+          git archive origin/production-assets-v2423-single-qa | tar -xf - -C input-v2423
+          git archive origin/production-assets-v2424-eight-official-singles | tar -xf - -C input-v2424-official
+      - name: Save only 4 authentic photo revisions, reject wrong OBgE photo
+        run: python scripts/v2424b_curate_actual_four_photos.py
+      - name: Upload proof of before-after edits and immutable original materials
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2424b-four-correct-photo-revisions
+          path: production-v2424b-curated-eight/
+          retention-days: 90
+          if-no-files-found: warn
+      - name: Commit separate QA branch without updating 55 public URLs
+        if: success()
+        run: |
+          cp -a production-v2424b-curated-eight /tmp/v2424b-production
+          git worktree add --detach /tmp/v2424b-wt HEAD
+          cd /tmp/v2424b-wt
+          git switch --orphan production-assets-v2424b-single-photo-qa
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2424b-production/. .
+          git add -A
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "Persist v2424b 4 verified correct-product photo revisions and unchanged source records"
+          git push origin HEAD:refs/heads/production-assets-v2424b-single-photo-qa
