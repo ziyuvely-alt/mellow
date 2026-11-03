@@ -1,0 +1,51 @@
+name: Shopee v2493 exact-photo OBgE Double Essence 3 partial JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2493-obge-double-essence-three.yml'
+      - 'scripts/v2493_obge_double_essence_partial_photo_facts.py'
+permissions:
+  actions: read
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore authentic source from v2490 (not related OBgE SKUs)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41688655026 -n shopee-v2490-OBgE-double-essence-50plus50-source-QA-HOLD -D v2490-original
+      - name: Create three factual and source-photo partial JPGs
+        run: python scripts/v2493_obge_double_essence_partial_photo_facts.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2493-obge-double-essence-three-real-JPG-QA-HOLD
+          path: v2493-obge-double-essence-three-partial/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Isolated preservation, no public URL or spreadsheet changes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2493-obge-double-essence-three-partial /tmp/v2493-out
+          git worktree add --detach /tmp/v2493-wt HEAD
+          cd /tmp/v2493-wt
+          git switch --orphan production-assets-v2493-obge-double-essence-three
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2493-out/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Store 3 source-led OBgE Double Essence factual JPG candidates, QA pending'
+          git push origin HEAD:refs/heads/production-assets-v2493-obge-double-essence-three
