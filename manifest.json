@@ -1,0 +1,112 @@
+{
+  "version": "v2539",
+  "date": "2026-11-04",
+  "family": "pending-08",
+  "product": "Peripera Mood Glowy Tint 26AD selected 01-20 / 4g",
+  "new_image": "review-JPG-by-family/pending-08/05-v2539-20-English-shade-names.jpg",
+  "sha256": "ec5d6b2aa97bab15b75185d726ba6015a8cb8b88f4b36bdf810e9b0052ccbb7a",
+  "superseded_05_sha256": "638d19efc47da5ec34f1dd0c25923cf1a1e727242e5ec4a822032ad1a4e91c36",
+  "shades": [
+    {
+      "number": "01",
+      "english_name": "Tiny Strawberry"
+    },
+    {
+      "number": "02",
+      "english_name": "Coral Chemistry"
+    },
+    {
+      "number": "03",
+      "english_name": "Juicy Peach"
+    },
+    {
+      "number": "04",
+      "english_name": "Anyway Peach"
+    },
+    {
+      "number": "05",
+      "english_name": "Baby Fairy"
+    },
+    {
+      "number": "06",
+      "english_name": "Pink Youth"
+    },
+    {
+      "number": "07",
+      "english_name": "Plum Fizz"
+    },
+    {
+      "number": "08",
+      "english_name": "Joking Pink"
+    },
+    {
+      "number": "09",
+      "english_name": "Rose In Mind"
+    },
+    {
+      "number": "10",
+      "english_name": "Bare Pink"
+    },
+    {
+      "number": "11",
+      "english_name": "Visual Pink"
+    },
+    {
+      "number": "12",
+      "english_name": "Campus Queen"
+    },
+    {
+      "number": "13",
+      "english_name": "Mood Queen"
+    },
+    {
+      "number": "14",
+      "english_name": "Rosy Wish"
+    },
+    {
+      "number": "15",
+      "english_name": "My Pick Rose"
+    },
+    {
+      "number": "16",
+      "english_name": "Rose-Pick"
+    },
+    {
+      "number": "17",
+      "english_name": "Blush Fig"
+    },
+    {
+      "number": "18",
+      "english_name": "Coral Influencer"
+    },
+    {
+      "number": "19",
+      "english_name": "Cherry So What"
+    },
+    {
+      "number": "20",
+      "english_name": "Brown Yakgwa"
+    }
+  ],
+  "naming_source": "https://www.youtube.com/watch?v=2M3eJESkSac",
+  "crosscheck_source": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+  "verified_reconciliations": {
+    "04": "Anyway Peach",
+    "06": "Pink Youth",
+    "07": "Plum Fizz",
+    "14": "Rosy Wish"
+  },
+  "official_brand_photo_colors_verified": false,
+  "shade_colors_generated": false,
+  "extra_21_to_30_shades_included": false,
+  "seller_stock_26AD_packaging_edition_final_QA": false,
+  "original_photo_recreated": false,
+  "other_155_JPGs_byte_identical": true,
+  "total_QA_JPG": 156,
+  "MK_logo_applied": false,
+  "commercial_rights_verified": false,
+  "sale_ready": false,
+  "public_55_URLs_unchanged": true,
+  "new_public_urls": 0,
+  "excel_created_or_shared": false
+}
