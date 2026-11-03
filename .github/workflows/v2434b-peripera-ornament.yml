@@ -1,0 +1,51 @@
+name: Shopee v2434b correct Peripera ornament in retail JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2434b-peripera-ornament.yml'
+      - 'scripts/v2434b_peripera_ornament_repair.py'
+permissions:
+  contents: write
+jobs:
+  correct-jpg:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover prior latest only
+        run: |
+          mkdir baseline-v2434
+          git fetch origin production-assets-v2434-obge-peripera-drafts
+          git archive origin/production-assets-v2434-obge-peripera-drafts | tar -xf - -C baseline-v2434
+      - name: Repair exactly the ornament of visibly imperfect draft
+        run: python scripts/v2434b_peripera_ornament_repair.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2434b-peripera-ornament-fixed
+          path: v2434b-output/
+          retention-days: 90
+          if-no-files-found: error
+      - name: Preserve fresh branch with no public-image writes
+        shell: bash
+        run: |
+          set -euo pipefail
+          cp -a v2434b-output /tmp/v2434b-result
+          git worktree add --detach /tmp/v2434b-wt HEAD
+          cd /tmp/v2434b-wt
+          git switch --orphan production-assets-v2434b-peripera-ornament-clean
+          git rm -rf --cached . >/dev/null 2>&1 || true
+          find . -mindepth 1 -maxdepth 1 ! -name .git -exec rm -rf -- {} +
+          cp -a /tmp/v2434b-result/. .
+          git add -A
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'Preserve visibly repaired Peripera information image with coherent ornament'
+          git push origin HEAD:refs/heads/production-assets-v2434b-peripera-ornament-clean
