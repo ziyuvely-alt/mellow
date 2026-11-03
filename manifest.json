@@ -1,0 +1,44 @@
+{
+  "version": "v2544",
+  "date": "2026-11-04",
+  "family": "pending-24",
+  "product": "BIOHEAL BOH NAD Prizcell Glow Power Serum 30 mL",
+  "replacements": [
+    {
+      "slot": 2,
+      "role": "actual red 30ml serum bottle with metallic pump and light beam",
+      "old_sha256": "fc44461c1b601aa53a03bfc156d24ebdb1c7722971f6f42dfe5037d5beaed6e4",
+      "new_sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+      "source_url": "https://cdn-image.oliveyoung.com/prdtImg/1275/5ff8068f-c931-425a-9d1a-caf95b958352.jpg?AR=0&QT=80&RS=1500x1500",
+      "source_sha256": "62f06923d30f2712b124f3db83caa92df8c236d60c343a1a32c60003c5af1726",
+      "source_size": [
+        1500,
+        1500
+      ],
+      "path": "review-JPG-by-family/pending-24/02_v2544-real-NAD-prizcell-serum-30ml.jpg"
+    },
+    {
+      "slot": 4,
+      "role": "actual 30ml red serum bottle and dropper photographed under red lighting",
+      "old_sha256": "a0a24258943d50b70908ac051c93924bc80750ecd3b2903e6865ad007e432619",
+      "new_sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+      "source_url": "https://kbeautystore.com/cdn/shop/files/9739cac1-9666-4e32-b14f-5c460c77110a_jpg.webp?v=1770815145&width=1200",
+      "source_sha256": "f6320ba0f56b9ede5c2eac1ac66b8a1715d59752015c7ccec1d6464fa7034f63",
+      "source_size": [
+        1200,
+        1200
+      ],
+      "path": "review-JPG-by-family/pending-24/04_v2544-real-NAD-prizcell-serum-30ml.jpg"
+    }
+  ],
+  "all_actual_qa_jpgs": 156,
+  "previous_154_byte_identical": true,
+  "source_product_volume_match": true,
+  "commercial_photo_rights_checked": false,
+  "seller_owned_stock_packaging_verified": false,
+  "MK_original_logo_applied": false,
+  "sales_final_QA_approved": false,
+  "old_verified_55_public_URLs_unchanged": true,
+  "new_public_URLs": 0,
+  "excel_created_or_shared": false
+}
