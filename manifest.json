@@ -1,0 +1,37 @@
+{
+  "version": "v2546",
+  "date": "2026-11-04",
+  "family": "pending-28",
+  "product": "PIXELPURE Glow Cleansing Serum Pad 210mL / 70 pads",
+  "replaced_JPGs": [
+    {
+      "slot": 2,
+      "path": "review-JPG-by-family/pending-28/02_v2546-real-210ml-pads-photo.jpg",
+      "source": "https://web.tradekorea.com/product/872/2334872/pixelpure_Glow_Cleansing_Serum_Pad_210ml___70_pads%28skin_care%29_2.jpg",
+      "scene": "correct 210ml 70pads open pink jar with real tweezers lifting one pad",
+      "original_sha256": "e76d7719809e19c3246d16dc7453ec159fd4782b38560438015e71f4b667b7c9",
+      "new_sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+      "prior_sha256": "d570e6a9d934218f35d6e1257ecb74643b22b2639cca3bc78bb08b195c542b3e"
+    },
+    {
+      "slot": 4,
+      "path": "review-JPG-by-family/pending-28/04_v2546-real-210ml-pads-photo.jpg",
+      "source": "https://web.tradekorea.com/product/874/2334874/pixelpure_Glow_Cleansing_Serum_Pad_210ml___70_pads%28skin_care%29_4.jpg",
+      "scene": "correct 210ml 70pads pink tub with lid open and real cream-colored pads",
+      "original_sha256": "6670a787343a162af8e1f4e2efeb9c435041fe3879ebb06baa9006871ee4b891",
+      "new_sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+      "prior_sha256": "6f3de54695624544c557c41de9fe38c45704da508920cbbc50d51aa808261348"
+    }
+  ],
+  "qa_JPG_count": 156,
+  "other_154_original_files_byte_identical": true,
+  "size_and_pad_count_on_source_photos": "210 mL / 70 pads",
+  "official_product_confirmation": "https://pixelpure.com/product/detail.html?product_no=23",
+  "source_photo_commercial_reuse_permission": false,
+  "actual_owned_stock_packaging_match": false,
+  "original_MK_logo_applied": false,
+  "retail_sales_final_QA_approved": false,
+  "previous_55_public_URLs_untouched": true,
+  "new_public_URLs": 0,
+  "xlsx_created_or_shared": false
+}
