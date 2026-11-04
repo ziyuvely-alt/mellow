@@ -1,0 +1,31 @@
+name: Shopee v2663 actual 14 images visual proof contact sheet
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2663-visual-proof.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  visualize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Make contact sheet using verified permanent QA-only branch
+        run: |
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/qa-v2663 qa-assets/v2662-immutable-14-candidates
+          cp scripts/v2663_visual_proof.py /tmp/qa-v2663/
+          cd /tmp/qa-v2663
+          python v2663_visual_proof.py
+          git add qa-review/v2663-visual-proof
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'QA v2663 actual 14 JPEG visual contact sheet non-retail'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
