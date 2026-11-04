@@ -1,0 +1,32 @@
+name: Shopee v2670b OBgE 300mL official alternative photo source size fix
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2670b-obge-source-size-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  replace-one:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Selectively replace only OBgE frame 02 after official photo validation
+        run: |
+          test -f scripts/v2670_obge_one_official_photo_repair.py
+          cp scripts/v2670_obge_one_official_photo_repair.py /tmp/v2670b_repair.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2670b-working qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2670b-working
+          python /tmp/v2670b_repair.py
+          git add qa-review/v2670-obge-300ml-distinct-official-photo-qa
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2670 official alternate beige photo 02 and 4 preserved original QA JPGs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
