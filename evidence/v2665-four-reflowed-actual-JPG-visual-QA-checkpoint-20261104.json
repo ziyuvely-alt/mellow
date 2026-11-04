@@ -1,0 +1,61 @@
+{
+  "version": "v2665",
+  "date": "2026-11-04",
+  "baseline": "v2664",
+  "executed": {
+    "generation_run": 41829242447,
+    "archive_run": 41829345787,
+    "both_completed_success": true,
+    "generated_new_QA_JPG": 4,
+    "dimensions": "1080x1080",
+    "all_under_2MB": true,
+    "actual_eyes_on_contact_sheet_review": "PASS_TEXT_NOT_TRUNCATED",
+    "corrected": [
+      {
+        "family": "pending-02",
+        "slot": 5,
+        "content": "MISSHA MAGIC CUSHION MOIST UP / cushion compact",
+        "status": "COPY_LAYOUT_FIXED_QA_ONLY"
+      },
+      {
+        "family": "pending-08",
+        "slot": 3,
+        "content": "PERIPERA MOOD GLOWY TINT / 4 g",
+        "status": "COPY_LAYOUT_FIXED_QA_ONLY_EDITION_HOLD"
+      },
+      {
+        "family": "pending-21",
+        "slot": 3,
+        "content": "GOODAL GREEN TANGERINE VITA C EYE CREAM / 30 mL",
+        "status": "COPY_LAYOUT_FIXED_QA_ONLY"
+      },
+      {
+        "family": "pending-26",
+        "slot": 4,
+        "content": "PIXEL PURE GENTLE GEL TO FOAM CLEANSER / 145 mL",
+        "status": "COPY_LAYOUT_FIXED_QA_ONLY_STOCK_HOLD"
+      }
+    ]
+  },
+  "persistent_storage": {
+    "branch": "qa-assets/v2662-immutable-14-candidates",
+    "path": "qa-review/v2665-4-clean-copy-cards",
+    "proof": "qa-review/v2665-4-clean-copy-cards/v2665-four-cards-visual-contact.jpg",
+    "previous_14_QA_JPGs_untouched": true
+  },
+  "currently_unresolved_visual_rejects": [
+    "pending-05 source stock kit exact variant and licensed actual product photo",
+    "pending-07 Mesh Blur source stock kit and product photo",
+    "pending-15 Dr.G exact uncut product photo and unverified MK logo",
+    "pending-22 OBgE product-focus and full photo",
+    "pending-28 PIXEL PURE text and unsupported MK logo source"
+  ],
+  "further_release_gates": "Four new typographic cards are technical QA only, and MUST NOT substitute for visually photo-rich finished customer listing. Verify exact inventory, v2647 latest files, photo licenses, user-approved MK brand mark and human QA.",
+  "protected": {
+    "approved_existing_families": 11,
+    "existing_public_55_urls_unchanged": true,
+    "final_xlsx_not_shared": true,
+    "new_images_published": 0
+  },
+  "next": "Stop all blind image crop operations. For remaining 5 rejected photo-led cards obtain licensed same-SKU true item scenes and rebuild photo-first; for four typographic cards add actual verified product photos after rights and exact stock checks."
+}
