@@ -1,0 +1,65 @@
+{
+  "checkpoint": "v288",
+  "parent": "v286",
+  "date": "2026-11-05",
+  "family": {
+    "goodsNo": "200",
+    "product": "BBIA Last Powder Lipstick"
+  },
+  "execution": {
+    "v287_source_audit": {
+      "run_id": 41857949870,
+      "artifact_id": 13338861616,
+      "originals_saved": 4,
+      "original_indices": [
+        0,
+        1,
+        2,
+        3
+      ]
+    },
+    "v288_local": {
+      "new_jpg": 3,
+      "reused_previous_v286_exact_bytes": 2,
+      "creative_roles": 5,
+      "files": [
+        "BBIA_200_LINEUP_v286_QA_PENDING.jpg",
+        "BBIA_200_TEXTURE_v286_QA_PENDING.jpg",
+        "BBIA_200_03_PRODUCT_CLOSEUP_v288_QA_PENDING.jpg",
+        "BBIA_200_04_LIP_FINISH_v288_QA_PENDING.jpg",
+        "BBIA_200_05_ARM_SWATCHES_v288_QA_PENDING.jpg"
+      ],
+      "zip_sha256": "a79da819b1579fc01ed6f0ee749b946bca03cb579608ca7516071f1eb73a6b10",
+      "zip_bytes": 641766,
+      "zip_crc": "PASS",
+      "local_zip": "/mnt/data/bbia_v288/BBIA_v288_FIVE_ROLES_QA_PENDING.zip",
+      "contact": "/mnt/data/bbia_v288/BBIA_v288_FIVE_ROLE_CONTACT.jpg",
+      "script": "/mnt/data/bbia_v288_build.py",
+      "new_shas": [
+        "540192b327f207f28c799d99fd3cc9051e01bff8d2226ca611c5734c324a5a13",
+        "7e54e87fc5077b358ca8245579723bb452ebec1b18253abe37371e9ef13741f5",
+        "b5e4a6e14fd4e9e1993cb3a3fe3ca8d1b9ca267f00e6a473f1e85f4809c9d513"
+      ]
+    }
+  },
+  "qa": {
+    "dimensions": "All 5 are 1080x1080 JPG under 2MB",
+    "visual_contact_opened": true,
+    "real_product_photography": true,
+    "korean_in_photo_crops": "No Korean in new 3 crops",
+    "same_scene_duplication": false,
+    "sales_approved": false,
+    "hold_reasons": [
+      "Specific shade assignments and options not verified for lip/arm swatches",
+      "Photographs retain rectangular backgrounds, not a true isolated alpha cutout",
+      "Hero presentation remains QA pending and not publication-ready"
+    ]
+  },
+  "preservation": {
+    "existing_published_images_changed": 0,
+    "verified_55_urls_changed": false,
+    "v286_originals_modified": false,
+    "final_excel_not_shared": true
+  },
+  "next": "Do not repeat v288 source slots 0-3 or re-render these 5 JPGs. Continue another incomplete family from official source. Label v288 only five-role-candidates, not final."
+}
