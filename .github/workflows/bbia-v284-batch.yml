@@ -1,0 +1,21 @@
+name: BBIA v284 eight source photos for blocked families
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v284_blocked_family_source_review.py, .github/workflows/bbia-v284-batch.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Verify unused original image sources once for four held families
+        run: python scripts/bbia_v284_blocked_family_source_review.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v284-eight-originals-and-proof-contact
+          path: /tmp/bbia-v284
+          retention-days: 30
