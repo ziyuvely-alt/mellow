@@ -1,0 +1,35 @@
+name: Shopee v2730 three genuine source cutout defect fixes
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2730-selected-3-cutout-photo-edge-fixes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Three source-specific original-photo improvements only
+        env:
+          U2NET_HOME: /tmp/isnet-model-weights
+        run: |
+          python -m py_compile scripts/v2730_fix_three_severely_clipped_cutouts.py
+          cp scripts/v2730_fix_three_severely_clipped_cutouts.py /tmp/v2730.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2730-review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2730-review
+          test ! -e qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections
+          python /tmp/v2730.py
+          git add qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2730 three source-specific real product cutout corrections, never overwrite approved 55 urls'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
