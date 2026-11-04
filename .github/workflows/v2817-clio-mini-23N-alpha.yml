@@ -1,0 +1,33 @@
+name: Shopee v2817 CLIO 23N single compact transparent QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2817-clio-mini-23N-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Segment CLIO exact 5g 23N compact already saved on QA branch
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2817_clio_mini_23N_single_alpha.py /tmp/v2817.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2817-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2817-qa
+          python /tmp/v2817.py
+          git add qa-review/v2817-clio-mini-23N-one-alpha-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2817 real alpha mask for original mini 23N 5g photo, QA only'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
