@@ -1,0 +1,140 @@
+{
+  "version": "v2689",
+  "baseline": "v2687",
+  "total_products_checked": 2,
+  "product_photo_families_upgraded": 2,
+  "new_sale_approved": 0,
+  "existing_11_families_untouched": true,
+  "existing_55_public_urls_untouched": true,
+  "photo_license_explicitly_verified": false,
+  "owned_stock_exact_edition_verified": false,
+  "latest_v2647_binary_compared": false,
+  "prior_v2680_qa_JPGs_unchanged": true,
+  "no_xlsx_shared": true,
+  "products": [
+    {
+      "family": "pending-26",
+      "official_page": "https://pixelpure.com/product/detail.html?product_no=21",
+      "sale_approved": false,
+      "status": "NEW_FIVE_JPG_QA_REVISION_BUILT_NOT_RETAIL",
+      "source_urls_considered": [
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20250812/67c18e9b6fb0f4a45308a82f7f01e136.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20250430/b1178014b2de6490f9bd7fe8f54eae84.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/b19c4a5952beaeba4745773a0269f634.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/27390e1786472d40051e63f39de44f7d.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/2d66cc50e62710aa09604c4832815b44.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20250511/bc57ec43f9deca9b0874525b867d1df9.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20250812/c469840993db1a249aaac69b76539e02.jpg"
+      ],
+      "four_prior_frames_modified": 0,
+      "new_photo_slot": 5,
+      "official_page_title": "Pixelpure | 젠틀 젤투폼 클렌저",
+      "prior_four_frames_preserved_exact": true,
+      "original_info_frame_replaced": 5,
+      "selected_official_photo_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20250812/67c18e9b6fb0f4a45308a82f7f01e136.jpg",
+      "distinct_phash_distance_existing": [
+        24,
+        32
+      ],
+      "files": [
+        {
+          "slot": 1,
+          "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+          "file": "01-unmodified-real-source-slot03-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 2,
+          "sha256": "35f1b42c4496b20a02cdb582545dfd7e97d0299657b1edf1a738ae2d73f49994",
+          "file": "02-unmodified-real-source-slot05-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 3,
+          "sha256": "79e002ae8c15dd5d3f0673a615091dc2a7f0b71f77bd43f252a47c9f68c742a3",
+          "file": "03-v2665-text-repair-reused-byte-identical-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 4,
+          "sha256": "ada1ca84ceb34f076afe3fb3aec6f76cbb27cd71a35cc0922b7eeadf5d983d17",
+          "file": "04-net-content-factual-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 5,
+          "sha256": "4f46c3e8cfde51a47089dc64c77bd88658a26493c15f6d89a8801f1e6651c361",
+          "file": "05-official-product-photo-new-QA-ONLY.jpg",
+          "unchanged": false,
+          "official_image_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20250812/67c18e9b6fb0f4a45308a82f7f01e136.jpg",
+          "official_input_dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "family": "pending-28",
+      "official_page": "https://pixelpure.com/product/detail.html?product_no=23",
+      "sale_approved": false,
+      "status": "NEW_FIVE_JPG_QA_REVISION_BUILT_NOT_RETAIL",
+      "source_urls_considered": [
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/cd300dad59dad9b249baf6ac3ae9769c.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20250731/96b765ab1193b262b85a9dc02d8e3e45.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fa5cc4a7096bac6f3363ca231904e337.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fe20631aba57f30f9bde781df44544e6.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/2d35bdd572a05b454479e9e128384571.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20250511/bc57ec43f9deca9b0874525b867d1df9.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20261101/2b2d74e6ac5522f273238b811b841376.jpg"
+      ],
+      "four_prior_frames_modified": 0,
+      "new_photo_slot": 5,
+      "official_page_title": "Pixelpure | 글로우 클렌징 세럼 패드",
+      "prior_four_frames_preserved_exact": true,
+      "original_info_frame_replaced": 5,
+      "selected_official_photo_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/cd300dad59dad9b249baf6ac3ae9769c.jpg",
+      "distinct_phash_distance_existing": [
+        31,
+        37
+      ],
+      "files": [
+        {
+          "slot": 1,
+          "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "file": "01-actual-product-source-photo-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 2,
+          "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "file": "02-actual-product-source-photo-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 3,
+          "sha256": "5d819190bcef7f13b33e0e667b9cd903f3b87ac726f93e5aa10a10b278c35492",
+          "file": "03-factual-info-card-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 4,
+          "sha256": "351c2e8dbf66231403f705ff6ff7b7c8bbbcd5a1979fc979d8072fe6d08c5622",
+          "file": "04-factual-info-card-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 5,
+          "sha256": "febecab1fba96f5a518e3ae8b8962d62c4db1c30644e4ea49b41d815d68817ab",
+          "file": "05-official-product-photo-new-QA-ONLY.jpg",
+          "unchanged": false,
+          "official_image_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/cd300dad59dad9b249baf6ac3ae9769c.jpg",
+          "official_input_dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ]
+    }
+  ]
+}
