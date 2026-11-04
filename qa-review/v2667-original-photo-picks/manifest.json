@@ -1,0 +1,59 @@
+{
+  "version": "v2667",
+  "family_count": 5,
+  "original_jpg_copied": 5,
+  "new_sales_artwork": 0,
+  "source_version": "v2593 historical; v2647 not verified",
+  "source_photos": [
+    {
+      "family": "pending-05",
+      "slot": 3,
+      "original_filename": "03_03_SOURCE_01_041b164bb_EN_V2421C.jpg",
+      "copied_file": "pending-05-source-slot03-QA-ONLY.jpg",
+      "sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+      "image_bytes": 171551,
+      "retail_status": "HOLD_REAL_PRODUCT_IDENTITY_RIGHTS_LATEST_V2647"
+    },
+    {
+      "family": "pending-07",
+      "slot": 2,
+      "original_filename": "02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+      "copied_file": "pending-07-source-slot02-QA-ONLY.jpg",
+      "sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+      "image_bytes": 112669,
+      "retail_status": "HOLD_REAL_PRODUCT_IDENTITY_RIGHTS_LATEST_V2647"
+    },
+    {
+      "family": "pending-15",
+      "slot": 5,
+      "original_filename": "05_v2560-REVIEW-ONLY.jpg",
+      "copied_file": "pending-15-source-slot05-QA-ONLY.jpg",
+      "sha256": "d2dca307b98bff0b404f6544de700c441157f02462923e81c22df22ca0f5dfe0",
+      "image_bytes": 99819,
+      "retail_status": "HOLD_REAL_PRODUCT_IDENTITY_RIGHTS_LATEST_V2647"
+    },
+    {
+      "family": "pending-22",
+      "slot": 4,
+      "original_filename": "04_v2593_QA_ONLY_v2585.jpg",
+      "copied_file": "pending-22-source-slot04-QA-ONLY.jpg",
+      "sha256": "f0cdf6d5b35a9c7977fee488c6175e6e5ec02dc1acdbb89da2bc449a05a9168d",
+      "image_bytes": 53168,
+      "retail_status": "HOLD_REAL_PRODUCT_IDENTITY_RIGHTS_LATEST_V2647"
+    },
+    {
+      "family": "pending-28",
+      "slot": 2,
+      "original_filename": "02_v2546-real-210ml-pads-photo.jpg",
+      "copied_file": "pending-28-source-slot02-QA-ONLY.jpg",
+      "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+      "image_bytes": 114431,
+      "retail_status": "HOLD_REAL_PRODUCT_IDENTITY_RIGHTS_LATEST_V2647"
+    }
+  ],
+  "photo_rights_verified": false,
+  "real_stock_edition_verified": false,
+  "existing_11_approved_unchanged": true,
+  "existing_55_URLs_unchanged": true,
+  "no_xlsx": true
+}
