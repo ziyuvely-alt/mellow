@@ -1,0 +1,67 @@
+{
+  "schema": "bbia-ch2-option-and-expiry-gates-v1",
+  "date": "2026-11-04",
+  "branch": "bbia-ch2-qa-20261104",
+  "source": "evidence/bbia-image-review-input.json",
+  "audited_families": 49,
+  "audited_options": 325,
+  "option_gaps": [
+    {
+      "id": "1000000120",
+      "name": "오 글로우 쿠션 미니",
+      "issue": "three option number fields blank although variant labels contain 17/21/23",
+      "proposed_parse_only": [
+        {
+          "number": "17",
+          "name": "미니 17호 페어"
+        },
+        {
+          "number": "21",
+          "name": "미니 21호 라이트"
+        },
+        {
+          "number": "23",
+          "name": "미니 23호 내추럴"
+        }
+      ],
+      "status": "NORMALIZATION_PROPOSAL_NOT_SOURCE_MUTATION"
+    },
+    {
+      "id": "1000000124",
+      "name": "오 글로우 쿠션 리필",
+      "issue": "three option number fields blank",
+      "official_product_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124",
+      "proposed_parse_only": [
+        {
+          "number": "17",
+          "name": "리필 17호 페어"
+        },
+        {
+          "number": "21",
+          "name": "리필 21호 라이트"
+        },
+        {
+          "number": "23",
+          "name": "리필 23호 내추럴"
+        }
+      ],
+      "status": "SOURCE_LABEL_CONFIRMED"
+    }
+  ],
+  "expiry_warning": {
+    "id": "1000000124",
+    "name": "오 글로우 쿠션 리필",
+    "official_product_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124",
+    "official_page_notice": "near-expiry stock, exchange/refund restriction notice",
+    "dates_by_variant": {
+      "17": "2027-04",
+      "21": "2027-04",
+      "23": "2027-05"
+    },
+    "rule": "Do not market as regular full shelf-life stock or hide expiry warning. Confirm actual purchased inventory expiry before sale.",
+    "status": "HOLD_COMPLIANCE_CONTENT_QA"
+  },
+  "source_download_status": "CONTAINER_CONNECTION_FAILED_TO_CDN; VISUALLY_VERIFIED_WEB_IMAGES_ONLY",
+  "completed_jpg_this_run": 0,
+  "do_not_rebuild_approved": true
+}
