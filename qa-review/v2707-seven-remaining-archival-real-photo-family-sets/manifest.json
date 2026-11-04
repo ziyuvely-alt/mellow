@@ -1,0 +1,326 @@
+{
+  "version": "v2707",
+  "baseline": "v2706",
+  "source_archive_commit": "b2b883b86f3e80b7723ccf39b3766dfe6f483da9",
+  "new_distinct_historical_product_families_staged": 7,
+  "exact_original_JPG_assets_staged": 35,
+  "original_JPG_bytes_reencoded": 0,
+  "existing_11_sale_approved_untouched": true,
+  "existing_55_verified_public_urls_untouched": true,
+  "existing_QA_drafts_all_unchanged": true,
+  "new_sales_approved": 0,
+  "source_photo_commercial_rights_verified": false,
+  "owned_stock_exact_generation_verified": false,
+  "original_round_MK_logo_verified": false,
+  "final_xlsx_shared": false,
+  "families": [
+    {
+      "family": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "a68f9b0956a1edf56a0e0af100323d8f5868672c645cff4052b8b2b35a4f16ad",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/a68f9b0956a1_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "17c12aad66a7696de5ca859f0bd2e71c68ce24e554e6f1e776b012c076bd9145",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/17c12aad66a7_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "3ff07100b8f5ca4ebdbd9d3d8fa2f687ff583818edbd87d39d14b3952eeecc0d",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/3ff07100b8f5_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "3f4aa0b81985760ca95a7391bb7443d732e834194c228b2fbc75feb91106c8b2",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/3f4aa0b81985_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "0a62a56a4b28805c4576dccaede5da93bea8ac3d074cbc27e32c882d6c3b7e48",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/0a62a56a4b28_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "8629d1d381fa4e83af5bec4ba2c1e43edbef32c18b28fa6c9518e05c744ff79d",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/obge-max300ml/8629d1d381fa_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "0ab7541042297bab7944d9e6eb125fd6778662560391ed172027837861084558",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/obge-max300ml/0ab754104229_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "b63c11734890e4b313142f5c3bd60a8d17acaa1af7a9a9b538585c06cc289223",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/obge-max300ml/b63c11734890_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "688df5a1bc5f3f31332744ebfca4c92f9de6c3ab9db0116f28974296e20c82a0",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/obge-max300ml/688df5a1bc5f_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "702c1a4d5ca3dbc72750729390321a873945436766367deb838c1be57fb50392",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/obge-max300ml/702c1a4d5ca3_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-24",
+      "product": "BIOHEAL BOH NAD Glow Power Serum 30mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "5a8626eb9583f0ced9a09dbede3ac08d6fb450e8a9c573b82fc41ba70e609be4",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-power-serum-30ml/5a8626eb9583_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "2bec7c259afe9b81ec786660cf5210097951d57e7f9ea0c4532e3c9e50142b51",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-power-serum-30ml/2bec7c259afe_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "216ad6670f6c9d6a890192dd3961e3cef9d830a8f743ad00b9434c41404d4f94",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-power-serum-30ml/216ad6670f6c_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "6fcbb77da683940871a609e819765adf8a3c94a3c73c42b9271b4a421ac20a61",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-power-serum-30ml/6fcbb77da683_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "aa73fbe6f904f8ca5f9cb2f1b77360988a3eea002cdd055a2c3e99ba073bfd21",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-power-serum-30ml/aa73fbe6f904_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-25",
+      "product": "BIOHEAL BOH NAD Glow Boost Cream 50mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "1bd6f7ce257639056cf4c4791184a5260013d670580c0b4369e0c208e780b907",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-boost-cream-50ml/1bd6f7ce2576_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "8056a2f6135e73785947e96715f25b40d23fb9f71de2c45c62b5dcb9c681e737",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-boost-cream-50ml/8056a2f6135e_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "c73f31553185c383998c1631027efd6cf4ff217c8e4abbb7d75ae18aba62366f",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-boost-cream-50ml/c73f31553185_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "a7c25f91d5b733b2ec32f24d171aad1687d708bd6654a83d57365f735a893aad",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-boost-cream-50ml/a7c25f91d5b7_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "f8ca8d48f2a7e258e72d0004ea8f1fb1a3eaaaa4503c44c669b9b108ecfeb71e",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/bioheal-boh-nad-glow-boost-cream-50ml/f8ca8d48f2a7_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "c04468ff58651298f0244f0bba9b14381840591354c201e898ff387a55ff4ee2",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-toner200ml/c04468ff5865_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "7a9cbf05cb5a199665978dba75df4e3845ba9df801e72842dedb47ff66b35d68",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-toner200ml/7a9cbf05cb5a_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "4b4942e54268a5ddd3faa0d1938af115e514f5842712693d9106ccd5dc39b054",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-toner200ml/4b4942e54268_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "d3b8460b703b46f98ae76ad782557152b0713eac0e1482821f8165c662310f64",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-toner200ml/d3b8460b703b_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "1f25c5d0f4a050d8a900ab04ab8cd523b8f4ee6a810f9a621b9348e4362dc490",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-toner200ml/1f25c5d0f4a0_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 70ea/210mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "6d891af057125a0e3842e301b145e259cc940f62b2565770a8a7479cb2041186",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-pad210ml/6d891af05712_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "7280158c0eebec73dc6fd7517ee04ad7d53e7a01c8b6ac1e73e9a19d7081d135",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-pad210ml/7280158c0eeb_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "5a12115d604b22c10a73699aac12b4c870d177252a06371fa775dd778c0f3afd",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-pad210ml/5a12115d604b_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "b5da42cbe32e9e3f9734fd95f0f052a0896c790dc3115a933125fb7ca222eae9",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-pad210ml/b5da42cbe32e_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "e921abb23e1720894e09cc4514d0aa073e15880d110e2b2fab81a28565bbcb51",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-pad210ml/e921abb23e17_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "photo_JPGs": 5,
+      "unverified_MK_badge_in_older_art": "POSSIBLE_HOLD",
+      "commercial_release": "HOLD_PENDING_STOCK_EDITION_LICENSE_LOGO",
+      "frames": [
+        {
+          "frame": 1,
+          "sha256": "a2a1622ea795cf2c898e609e14a3837978fc871d8d545cae3e12d72d40f4a1e7",
+          "filename": "01-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-serum50ml/a2a1622ea795_01.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 2,
+          "sha256": "ab82a2d14b3de7dd6b082f84c3e657fece9401e798589ae143ee2299941a9474",
+          "filename": "02-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-serum50ml/ab82a2d14b3d_02.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 3,
+          "sha256": "a4f3f56578ddc4299805ced09ebee9b82f2c6dbc02a0edcdf9d5676a2c083b57",
+          "filename": "03-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-serum50ml/a4f3f56578dd_03.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 4,
+          "sha256": "4d41995fb29c5770f478412cdb47b4564b45c645fce35eebf7a96e7ad9f57eb7",
+          "filename": "04-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-serum50ml/4d41995fb29c_04.jpg",
+          "bytes_identical_to_archive": true
+        },
+        {
+          "frame": 5,
+          "sha256": "449aa19f312bfde421ecc17dbb106ea71805f6922e4a1dd2dd41ca512f6b674a",
+          "filename": "05-authentic-old-product-image-unchanged-QA.jpg",
+          "source_path": "old_assets/public/owned86/20261029/pixelpure-serum50ml/449aa19f312b_05.jpg",
+          "bytes_identical_to_archive": true
+        }
+      ]
+    }
+  ]
+}
