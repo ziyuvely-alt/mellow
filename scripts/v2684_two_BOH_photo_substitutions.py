@@ -5,7 +5,7 @@ from PIL import Image,ImageOps,ImageDraw,ImageFont
 import hashlib,json,shutil,base64
 ROOT=Path("historical/review-JPG-by-family")
 PREV=Path("qa-review/v2680-six-brand-five-JPG-photo-led-batch")
-OUT=Path("qa-review/v2684-two-BOH-photo-detail-substitutions")
+OUT=Path("qa-review/v2684b-BOH-cream-only-distinct-photo")
 assert PREV.exists() and not OUT.exists()
 OUT.mkdir(parents=True)
 def sha(p):return hashlib.sha256(p.read_bytes()).hexdigest()
@@ -13,7 +13,6 @@ def dhash(im):
  p=list(ImageOps.grayscale(im.resize((9,8),Image.Resampling.LANCZOS)).getdata())
  return sum(1<<(y*8+x) for y in range(8) for x in range(8) if p[y*9+x]>p[y*9+x+1])
 cases=[
- ("pending-24",5,5,"Glow Power Serum 30mL", "Photo contains printed Slow Aging/NAD marketing labels: unverified"),
  ("pending-25",5,5,"Glow Boost Cream 50mL", "Photo contains printed Korean glow/anti-aging claim badges: unverified")
 ]
 allrows=[]
@@ -65,13 +64,13 @@ preview=OUT/"v2684-two-BOH-photo-upgrades-review.jpg"
 board.save(preview,quality=84,optimize=True)
 (OUT/"v2684-photo-review.b64.txt").write_text(base64.b64encode(preview.read_bytes()).decode())
 data=dict(version="v2684",base="v2683",new_retail_approved=0,
- affected_QA_families=2,physical_JPG_files=10,existing_QA_image_bytes_preserved=8,
- historically_sourced_photos_added_without_reencode=2,photographic_rights_verified=False,
+ affected_QA_families=len(allrows),physical_JPG_files=5*len(allrows),existing_QA_image_bytes_preserved=4*len(allrows),
+ historically_sourced_photos_added_without_reencode=len(allrows),photographic_rights_verified=False,
  source_product_claims_verified=False,physical_stock_edition_verified=False,
  latest_v2647_binary_compared=False,brand_original_MK_verified=False,
  existing_11_approved_families_modified=False,existing_55_public_URLs_modified=False,
  final_spreadsheet_shared=False,results=allrows)
 (OUT/"manifest.json").write_text(json.dumps(data,ensure_ascii=False,indent=2)+"\n")
-print(json.dumps({"photo_upgrade_families":2,"reused_photo_files":2,
- "preserved_prior_frames":8,"perceptual_min_differences":[r["min_internal_photo_difference"] for r in allrows],
+print(json.dumps({"photo_upgrade_families":len(allrows),"reused_photo_files":len(allrows),
+ "preserved_prior_frames":4*len(allrows),"perceptual_min_differences":[r["min_internal_photo_difference"] for r in allrows],
  "retail_approved":0}))
