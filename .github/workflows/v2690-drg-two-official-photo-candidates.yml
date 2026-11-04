@@ -1,0 +1,32 @@
+name: Shopee v2690 genuine Dr.G official product photo candidate batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2690-drg-two-official-photo-candidates.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Check two first-party DrG 50mL product galleries and stage safe candidates
+        run: |
+          python -m py_compile scripts/v2690_drg_official_photo_candidates.py
+          cp scripts/v2690_drg_official_photo_candidates.py /tmp/v2690.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2690 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2690
+          python /tmp/v2690.py
+          git add qa-review/v2690-drg-two-official-photo-source-led-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2690 first-party DrG photo candidate extraction, review only no public image changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
