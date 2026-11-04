@@ -1,0 +1,102 @@
+{
+  "version": "v2760",
+  "baseline": "v2759",
+  "family": "pending-08",
+  "target_shades": [
+    "18",
+    "19"
+  ],
+  "source_mode": "two independent alternate old-edition full product photos, never reprocess v2753 cutouts",
+  "new_original_source_photo_cutout_pairs": 2,
+  "previous_18_successfully_staged_shades_untouched": true,
+  "prior_v2759_alpha_edge_holds_untouched": true,
+  "old_11_approved_families_untouched": true,
+  "public_55_verified_urls_untouched": true,
+  "original_MK_logo_authenticated": false,
+  "commercial_photo_rights_verified": false,
+  "actual_owned_stock_edition_confirmed": false,
+  "retail_approved_new": 0,
+  "final_XLSX_shared": false,
+  "items": [
+    {
+      "shade": "18",
+      "product": "PERIPERA Ink Mood Glowy Tint old Honey K-Ookie 4g",
+      "shade_name": "Nude Area",
+      "source_attempts": [
+        {
+          "page": "https://www.jeevee.com/products/peripera-ink-mood-glowy-tint-honey-k-ookie-collection-18-nude-area-94090",
+          "url": "https://stod.jeevee.com/whetstone-products/jeevee_erp/2025-08-10/ec/ec459f1d94eddbb45424608c75bf2eb824c42462",
+          "result": "SUCCESS_IMAGE_AND_MASK"
+        }
+      ],
+      "status": "NEW_SOURCE_TRUE_ALPHA_RENDERED_NEEDS_VISUAL_QA",
+      "old_clipped_photo_source_preserved": true,
+      "actual_stock_edition_verified": false,
+      "photo_reuse_permission_verified": false,
+      "retail_approved": false,
+      "source_page": "https://www.jeevee.com/products/peripera-ink-mood-glowy-tint-honey-k-ookie-collection-18-nude-area-94090",
+      "source_url": "https://stod.jeevee.com/whetstone-products/jeevee_erp/2025-08-10/ec/ec459f1d94eddbb45424608c75bf2eb824c42462",
+      "raw_source_image": "shade-18/18-alternate-actual-photograph.jpg",
+      "new_true_alpha_png": "shade-18/18-new-source-true-alpha-QA.png",
+      "new_1080JPG": "shade-18/18-new-actual-photo-cutout-1080-QA.jpg",
+      "sha_png": "3e079be3cd5c4670f575220007e5eab1063d6981a970d2e315e0f36122bd0860",
+      "sha_jpg": "df570eba2df027b05b8bb38348a4ba1e6378660e8bbc2b2760cf0d6e6c00484f",
+      "mask_coverage": 0.3716,
+      "original_dimensions": [
+        1024,
+        1024
+      ],
+      "alpha_four_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "decorative_color_swatch_may_be_included": true,
+      "source_photo_bytes_sha256": "f4e8a58bac5eb629fe5ad9143d8f58368838b8a10042f34cc8c6bb3a88875123"
+    },
+    {
+      "shade": "19",
+      "product": "PERIPERA Ink Mood Glowy Tint old Honey K-Ookie 4g",
+      "shade_name": "Mauve Chaos",
+      "source_attempts": [
+        {
+          "page": "https://www.alpsus.com/products/peripera-ink-mood-glowy-tint-19-mauve-chaos",
+          "url": "https://www.alpsus.com/cdn/shop/files/InkMoodGlowyTint019MauveChaos1_1200x1200.jpg?v=1748705496",
+          "result": "SKIP_FAILED_OR_AMBIGUOUS",
+          "error": "cannot identify image file <_io.BytesIO object at 0x7f0214df5f30>"
+        },
+        {
+          "page": "https://shopee.vn/Son-tint-b%C3%B3ng-Peripera-Ink-Mood-Glowy-Tint-4g-i.12964260.21117409525",
+          "url": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpfey50338zy87",
+          "result": "SUCCESS_IMAGE_AND_MASK"
+        }
+      ],
+      "status": "NEW_SOURCE_TRUE_ALPHA_RENDERED_NEEDS_VISUAL_QA",
+      "old_clipped_photo_source_preserved": true,
+      "actual_stock_edition_verified": false,
+      "photo_reuse_permission_verified": false,
+      "retail_approved": false,
+      "source_page": "https://shopee.vn/Son-tint-b%C3%B3ng-Peripera-Ink-Mood-Glowy-Tint-4g-i.12964260.21117409525",
+      "source_url": "https://down-vn.img.susercontent.com/file/vn-11134207-7r98o-lpfey50338zy87",
+      "raw_source_image": "shade-19/19-alternate-actual-photograph.jpg",
+      "new_true_alpha_png": "shade-19/19-new-source-true-alpha-QA.png",
+      "new_1080JPG": "shade-19/19-new-actual-photo-cutout-1080-QA.jpg",
+      "sha_png": "31ed6ffa265003812f5f9f5a85a335116d5215ff14c7f701f252be9f8f34c99c",
+      "sha_jpg": "e8e740fdca0845af326c5b60368dc2dd59430028be18faaa8a2d0b606eb93c10",
+      "mask_coverage": 0.3084,
+      "original_dimensions": [
+        800,
+        800
+      ],
+      "alpha_four_corners": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "decorative_color_swatch_may_be_included": true,
+      "source_photo_bytes_sha256": "3a5e773b5da6117c5c3909ae697a9d22c2e6a2153aa9f8b3590340fea680b4c8"
+    }
+  ]
+}
