@@ -1,0 +1,97 @@
+{
+  "version": "v2784",
+  "date": "2026-11-05",
+  "base": "v2782",
+  "project": "Shopee stock image 82SKU 41 families",
+  "successful_actual_runs": [
+    {
+      "version": "v2783",
+      "github_actions_run": 41911242175,
+      "result": "success",
+      "family": "pending-19",
+      "product": "GOODAL Vita C Dark Spot Care Cream Alpha",
+      "brand_specific_gallery_media_downloaded": 8,
+      "qa_folder": "qa-review/v2783-goodal-cream-alpha-official-distinct-photo-sources"
+    },
+    {
+      "version": "v2784",
+      "github_actions_run": 41911536722,
+      "result": "success",
+      "family": "pending-19",
+      "actual_distinct_photographic_source_JPGs_curated": 3,
+      "original_photo_files_SHA_preserved": 3,
+      "qa_folder": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA",
+      "selected_gallery_slots": [
+        1,
+        2,
+        7
+      ],
+      "rejected_slots": [
+        3,
+        4,
+        5,
+        6,
+        8
+      ]
+    }
+  ],
+  "source_gallery": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-cream-advanced-ver",
+  "QA_visual_checks": {
+    "official_gallery_photo1": "Yellow Alpha 50mL jar product against cream texture background, photo, reference only",
+    "official_gallery_photo2": "Open cream jar and closed jar views, NOT a two-unit bundle; artwork includes marketing claim, reference only",
+    "official_gallery_photo7": "Authentic finger/hand product cream texture photo, image includes unapproved marketing claims; reference only",
+    "rejected_non_independent": [
+      "03 scientific graphic with efficacy claim",
+      "04 numerical photo efficacy claim",
+      "05 before-after face photos",
+      "06 ingredient/info card",
+      "08 multi-product routine could imply bundle"
+    ]
+  },
+  "new_5_independent_photographic_sales_set_completed": false,
+  "photo_rights_verified": false,
+  "real_inventory_packaging_edition_verified": false,
+  "original_MK_logo_verified": false,
+  "pending_12": {
+    "official_spec": "15mL",
+    "official_korean_url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+    "official_japanese_url": "https://www.missha.co.jp/%E6%9C%AA%E6%9D%A5%E3%82%92%E8%A6%8B%E6%8D%AE%E3%81%88%E3%80%81%E5%81%A5%E3%82%84%E3%81%8B%E3%81%AA%E7%BE%8E%E8%82%8C%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E3%80%82%E3%80%8Cpdrn%C2%B9-nad%C2%B2/",
+    "historical_inventory_value": "15g",
+    "editing_actual_inventory_without_owner_label": false,
+    "release": "HOLD_UNTIL_REAL_STOCK_LABEL_CONFIRMED"
+  },
+  "pending_04": {
+    "official_product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini",
+    "official_product_url": "https://clubclio.co.kr/shop/goodsView/0000006954",
+    "official_mini_capacity": "5g",
+    "mini_color_options_marketing_guide": [
+      "21C",
+      "21N",
+      "23N"
+    ],
+    "corroboration": "https://m.gsshop.com/prd/prd.gs?prdid=1100834213",
+    "conflicting_older_overseas_shade_names": [
+      "#2 Lingerie",
+      "#3 Linen",
+      "#4 Ginger"
+    ],
+    "result": "Shade and edition photo must be matched to actual owned inventory before publishing; full-sized 15g refill/gift image excluded"
+  },
+  "status": {
+    "total_families": 41,
+    "commercial_approved_existing_families": 11,
+    "latest_fiveframe_QA_families_from_v2782": 23,
+    "pending_excluded_families_from_v2782": 7,
+    "newly_retail_approved_families": 0,
+    "existing_55_public_URLs_mutated": 0,
+    "prior_qa_JPGs_regenerated": 0,
+    "final_excel_shared": false
+  },
+  "next_nonduplicate_work": [
+    "GOODAL pending-19: verify physical inventory 50mL Alpha package matches new official photos and acquire photo reuse permission; do not present marketing claims as verified",
+    "MISSHA pending-12: verify owner's inventory packaging net contents 15mL vs legacy 15g without overwriting source Excel",
+    "CLIO pending-04: confirm physical 5g mini shade/edition 21C/21N/23N not old overseas naming or full-size kit",
+    "Other pending CLIO families 05/06/07 and PERIPERA 08 remain source/photo edition holds",
+    "Do not repeat prior v2772-v2784 QA product photo sets or modify prior 55 URLs"
+  ]
+}
