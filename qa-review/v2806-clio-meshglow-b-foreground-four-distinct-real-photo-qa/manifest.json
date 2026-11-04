@@ -1,0 +1,83 @@
+{
+  "version": "v2806",
+  "previous_v2805_untouched": true,
+  "base_qa": "v2797",
+  "selected_alpha_variant": "v2799 B stronger lower-left reflection reduction",
+  "family": "pending-06",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+  "actual_five_physical_JPGs_saved": true,
+  "alpha_png_present": true,
+  "original_v2797_four_JPGs_SHA_preserved_exactly": true,
+  "new_cutouts_regenerated": 0,
+  "real_product_pixel_inventions": 0,
+  "QA_visual_decision": "PREFERRED_B_PHOTO_FOREGROUND_FOR_INTERNAL_QA_NOT_RETAIL",
+  "selection_basis": "Source, A and B candidate side by side in v2799 proof; B retains transparent compact right edge and removes excess lower-left floor reflection",
+  "five_shade_photo_is_official_reference_not_user_stock_proof": true,
+  "owned_21C_or_19C_19N_21N_23N_variants_verified": false,
+  "single_item_vs_set_refill_unit_verified": false,
+  "photo_redistribution_rights_verified": false,
+  "original_approved_MK_logo_verified": false,
+  "customer_retail_approved": false,
+  "approved_11_product_families_unchanged": true,
+  "prior_55_verified_public_URLs_unchanged": true,
+  "previous_v2797_and_v2799_original_JPGs_untouched": true,
+  "final_XLSX_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-selected-B-verified-lower-left-reflection-clean-product-QA.jpg",
+      "role": "B variant of existing true alpha compact source, selected after source/A/B visual inspection",
+      "source": "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/01-B-stronger-lower-left-reflection-1080-QA.jpg",
+      "sha256": "09dbfe247b48b50af88f40681ab8edae15032c95648dd278782b76a7f16dea7e",
+      "bytes": 138584,
+      "exact_bytes_preserved": true,
+      "source_gallery_index": 3
+    },
+    {
+      "slot": 2,
+      "file": "02-source-official-photo-sha-preserved-QA.jpg",
+      "role": "compact/puff closeup; original v2797 SHA preserved",
+      "source": "qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa/02-distinct-official-06-photo-SOURCE-QA.jpg",
+      "sha256": "eb0ea0881191077e3ea3a0940e4d7c164e28a27f568311386ffea41d2865327e",
+      "bytes": 140849,
+      "exact_bytes_preserved": true,
+      "source_gallery_index": 6
+    },
+    {
+      "slot": 3,
+      "file": "03-source-official-photo-sha-preserved-QA.jpg",
+      "role": "mesh cushion demonstration; original v2797 SHA preserved",
+      "source": "qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa/03-distinct-official-08-photo-SOURCE-QA.jpg",
+      "sha256": "4db4450280fc7d6f3b2c95ebcbee706191373d88f181be4c16c9a04522e18b0e",
+      "bytes": 147913,
+      "exact_bytes_preserved": true,
+      "source_gallery_index": 8
+    },
+    {
+      "slot": 4,
+      "file": "04-source-official-photo-sha-preserved-QA.jpg",
+      "role": "makeup application scene; original v2797 SHA preserved",
+      "source": "qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa/04-distinct-official-10-photo-SOURCE-QA.jpg",
+      "sha256": "a1e34ec348ab2e97c9d0bfbd52ed2f13227fc0d1d7701a6a7857abbe48270d02",
+      "bytes": 183136,
+      "exact_bytes_preserved": true,
+      "source_gallery_index": 10
+    },
+    {
+      "slot": 5,
+      "file": "05-source-official-photo-sha-preserved-QA.jpg",
+      "role": "five-shade arm swatch; original v2797 SHA preserved",
+      "source": "qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa/05-distinct-official-12-photo-SOURCE-QA.jpg",
+      "sha256": "8b182fd39337a67c2cdefa1bf86922268050a250be41010454e0e4c8cbf37be6",
+      "bytes": 164736,
+      "exact_bytes_preserved": true,
+      "source_gallery_index": 12
+    }
+  ],
+  "next_sales_QA": [
+    "Confirm purchased stock variant and whether set/refill contents match",
+    "Do not show all five official swatches as stock availability",
+    "Secure licensed image use and original round MK logo before any storefront publish",
+    "Check 1080px single frame edge on real device"
+  ]
+}
