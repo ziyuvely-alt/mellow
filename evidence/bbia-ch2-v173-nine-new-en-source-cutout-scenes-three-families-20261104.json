@@ -1,0 +1,72 @@
+{
+  "schema": "bbia_ch2_v173_new_photographic_scenes",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v172b: 6 new source-cutout EN JPEG, 5 QA_PENDING / 1 low-res HOLD",
+  "new_images": 9,
+  "groups": [
+    {
+      "goodsNo": "1000000247",
+      "official_product": "BBIA Eye & Cheek Primer Balm",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000247",
+      "new_english_JPG": 2,
+      "roles": [
+        "Hero",
+        "Pot Detail"
+      ],
+      "blockers": [
+        "photo-4.png and photo-5.png invalid/truncated source PNG, skipped"
+      ]
+    },
+    {
+      "goodsNo": "1000000251",
+      "official_product": "BBIA Chaltteok Rubycell Puff 1P",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000251",
+      "new_english_JPG": 3,
+      "roles": [
+        "Hero 1 piece",
+        "Puff View",
+        "Strap Profile"
+      ],
+      "corrective_repair": "Only frame 03 recropped to remove inherited Korean source-caption; previous 8 JPGs preserved"
+    },
+    {
+      "goodsNo": "1000000221",
+      "official_product": "BBIA Chaltteok Blush",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000221",
+      "new_english_JPG": 4,
+      "roles": [
+        "Product Hero",
+        "Compact Detail",
+        "Photographed Powder Reference",
+        "Campaign Makeup Look"
+      ],
+      "variant_gate": "Model/powder source photo exact shade not established"
+    }
+  ],
+  "archive": "/mnt/data/bbia_work/BBIA_v173_9_NEW_EN_3_FAMILIES_QA_PENDING.zip",
+  "contact": "/mnt/data/bbia_work/BBIA_v173_NINE_NEW_EN_3_FAMILY_CONTACT.jpg",
+  "reproduction_scripts": [
+    "v173_three_family_photos.py",
+    "v173_fix_one_frame.py"
+  ],
+  "manifest": "QA_MANIFEST_v173.json (embedded in archive)",
+  "source_asset": "BBIA_Cutout_Progress_20261030.zip",
+  "technical_validation": {
+    "total_JPG": 9,
+    "valid_JPG": 9,
+    "dimensions": "1080x1080",
+    "all_under_2mb": true,
+    "unique_sha256": 9,
+    "zip_crc_passed": true
+  },
+  "source_photo_approval": "PENDING_ORIGINAL_PIXEL_AND_VARIANT_PROOF",
+  "sale_approved": 0,
+  "localizations": 0,
+  "original_files_untouched": [
+    "v147 125 archived jpg",
+    "v150-v172b images and zip archives",
+    "55 verified public URLs",
+    "previously held frames"
+  ],
+  "next": "Skip all nine v173 files on next run. For primer balm replace 2 broken original PNG with known good verified authentic source; do not silently reuse wrong colors. For Rubycell Puff 1P preserve puff-only label, no compact or blush included. For Chaltteok Blush confirm exact official shade before associating model photo. Continue new unworked goodsNo with intact cutouts. Do not release Excel before overall completion."
+}
