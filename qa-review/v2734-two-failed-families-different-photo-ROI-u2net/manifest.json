@@ -1,0 +1,85 @@
+{
+  "version": "v2734",
+  "baseline": "v2733",
+  "attempted_failed_families_with_new_methods": 2,
+  "actual_new_png_JPG_pairs": 2,
+  "original_source_photos_changed": 0,
+  "previously_approved_product_groups_modified": 0,
+  "published_55_image_URLs_modified": 0,
+  "retail_approved": 0,
+  "genuine_source_photo_rights_unverified": true,
+  "actual_owned_stock_item_versions_unverified": true,
+  "original_MK_logo_unavailable": true,
+  "never_retry_identical_failed_sources": true,
+  "no_final_excel_shared": true,
+  "rows": [
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+      "source_file": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/01-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "9ce3cb50a1c7dbdac8e3d550a8b762785f96c48cb4fc42ade6d54e087e005120",
+      "source_crop": [
+        465,
+        195,
+        925,
+        953
+      ],
+      "model": "u2net",
+      "improvement_method": "PRECISION_TUBE_ROI_DIFFERENT_MODEL_U2NET",
+      "status": "ACTUAL_ALPHA_JPG_PNG_SAVED_VISUAL_QA_REQUIRED",
+      "retail_approved": false,
+      "coverage": 0.1126,
+      "mask_bbox": [
+        192,
+        70,
+        316,
+        544
+      ],
+      "crop_boundary_mask_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "png": "pending-21/01-real-source-foreground-cutout-u2net-QA.png",
+      "jpg": "pending-21/01-real-original-photo-cutout-1080-QA.jpg",
+      "png_sha256": "cfdc4e2da1e9fe23328a5e91c1b8219009e6520ad10d7701296eac97c919dfdf",
+      "jpg_sha256": "63110fcea68d7952e6e5226be6d758d9494f30b43ab7dcffe06ac295525d78fb",
+      "flag": null
+    },
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "source_file": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/03-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "1a9728cbc343ffe6b43eb8261b95dffd3a683de141d3b6d07c881282bdb15870",
+      "source_crop": [
+        160,
+        305,
+        948,
+        899
+      ],
+      "model": "u2net",
+      "improvement_method": "DIFFERENT_SOURCE_SLOT03_COMPACT_OPEN_DIFFERENT_MODEL_U2NET",
+      "status": "ACTUAL_ALPHA_JPG_PNG_SAVED_VISUAL_QA_REQUIRED",
+      "retail_approved": false,
+      "coverage": 0.5596,
+      "mask_bbox": [
+        22,
+        22,
+        737,
+        451
+      ],
+      "crop_boundary_mask_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "png": "pending-09/01-real-source-foreground-cutout-u2net-QA.png",
+      "jpg": "pending-09/01-real-original-photo-cutout-1080-QA.jpg",
+      "png_sha256": "854396babeb60ace05fd6e2f16d3e4564712c9154d7b239c611541234e987b2c",
+      "jpg_sha256": "91b1681decd9f710436a7fe47da96279627d71e15cf23c1d8f24266a8c669dca",
+      "flag": null
+    }
+  ]
+}
