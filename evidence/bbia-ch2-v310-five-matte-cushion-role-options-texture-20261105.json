@@ -1,0 +1,52 @@
+{
+  "checkpoint": "v310",
+  "date": "2026-11-05",
+  "parent": "v309",
+  "goodsNo": "1000000178",
+  "product": "오 매트 쿠션 본품",
+  "execution": {
+    "previous_existing_JPG_reused_byte_identical": 4,
+    "new_source_backed_JPG_already_generated": 1,
+    "new_qa_JPG": "BBIA_1000000178_05_SHADE_NAMES_TEXTURE_v310_QA_PENDING.jpg",
+    "source": "BBIA_1000000178_SOURCE_3_v298.jpg",
+    "source_crop_xyxy": [
+      115,
+      525,
+      610,
+      1060
+    ],
+    "new_JPG_sha256": "d8c9335f934136f9d453e2db9da1e45c55dbc0b8c3873ddc33509158eaee8070",
+    "verified_option_names": [
+      "17 Fair",
+      "21 Light",
+      "23 Natural"
+    ],
+    "specific_color_per_option_mapping_verified": false,
+    "manifest_path": "/mnt/data/bbia_v310/BBIA_v310_MANIFEST.json",
+    "zip": "/mnt/data/bbia_v310/BBIA_v310_FIVE_CUSHION_ROLES_QA_PENDING.zip",
+    "zip_sha256": "0ecb809e4cb47dddd5bef01dbe881da2f6326fb834c18fd8cf98eff5f8406e91",
+    "contact": "/mnt/data/bbia_v310/BBIA_v310_FIVE_CUSHION_ROLES_CONTACT.jpg",
+    "actual_zip_CRC": "PASS",
+    "five_JPG_SHA_sourced_verified": true
+  },
+  "quality_gates": {
+    "new_JPG_count": 1,
+    "existing_images_modified": 0,
+    "roles_represented": 5,
+    "real_transparent_cutout_verified": false,
+    "final_commercial_shade_QA_passed": false,
+    "photo_background_rectangles_visible": true,
+    "product_name_english_in_prior_HERO": "OH MATTE CUSHION, requires marketing nomenclature verification against official EAU MATTE",
+    "sales_approved": 0
+  },
+  "preservation": {
+    "existing_55_urls_unchanged": true,
+    "prior_JPG_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not recreate v310 5-image QA suite.",
+    "Deduplicate by image subject, not just byte hash; move to other underfilled goodsNo.",
+    "Do not publish v310 until option color mapping, cutout, english product nomenclature and commercial QA approved."
+  ]
+}
