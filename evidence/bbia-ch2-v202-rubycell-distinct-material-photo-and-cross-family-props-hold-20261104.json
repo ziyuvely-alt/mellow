@@ -1,0 +1,35 @@
+{
+  "date": "2026-11-04",
+  "version": "v202",
+  "previous_checkpoint": "v201 Lip Oil Balm two new EN frames retained",
+  "new_actual_image": "BBIA_v202_RUBYCELL_PUFF_MATERIAL_EN_QA_PENDING.jpg",
+  "new_actual_jpg_count": 1,
+  "new_image_source": "batch/1000000251/photo-5.png",
+  "product": "BBIA Chaltteok Rubycell Puff 1P",
+  "goodsNo": "1000000251",
+  "prior_v173_3_jpgs_unchanged": true,
+  "now_distinct_candidates": 4,
+  "source_photo_qa": "Source PNG cropped to exclude Korean copy; image shows actual BBIA white puff and beige underside; current official listing photo/size not independently rechecked.",
+  "output_zip": "BBIA_v202_RUBYCELL_1_NEW_EN_AND_CROSS_PRODUCT_QA.zip",
+  "manifest": "BBIA_v202_RUBYCELL_QA_MANIFEST.json",
+  "technical": "1080x1080 JPEG 124387 bytes, decode and ZIP CRC pass; source and output SHA256 recorded in local manifest",
+  "incorrect_product_specific_evidence_holds": [
+    {
+      "path": "batch/1000000251/photo-3.png",
+      "reason": "Photograph primarily features Chaltteok Blush compact with puff; not a 1P puff package proof."
+    },
+    {
+      "path": "batch/1000000221/photo-5.png",
+      "reason": "Photograph primarily features white BBIA puff; not a Chaltteok Blush shade proof."
+    },
+    {
+      "path": "batch/1000000247/photo-3.png",
+      "reason": "Korean notice copy is not independent cosmetic product photo."
+    }
+  ],
+  "approved_sales": 0,
+  "translations_created": 0,
+  "existing_files_and_55_public_urls_untouched": true,
+  "no_excel_shared": true,
+  "next": "Do not remake v202. Need an independent fifth genuine Rubycell puff photo role. Validate currently available official product photo and quantity, and retain cross-family mixed styling photos as HOLD, not product package proof. Continue other eligible families without fabricating additional roles."
+}
