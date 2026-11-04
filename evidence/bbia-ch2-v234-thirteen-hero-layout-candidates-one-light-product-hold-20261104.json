@@ -1,0 +1,42 @@
+{
+  "checkpoint": "v234",
+  "date": "2026-11-04",
+  "parent": "v233",
+  "source": "v231 retained 14 image candidates",
+  "execution": {
+    "v232_reviewed": 14,
+    "v233_layout_candidates_created": 14,
+    "v234_retained_without_regeneration": 13,
+    "v234_held": 1,
+    "technical_valid_jpg": 13,
+    "zip_crc_pass": true,
+    "zip_name": "BBIA_v234_THIRTEEN_RELAYOUT_QA_PENDING.zip",
+    "zip_bytes": 668239,
+    "zip_sha256": "387f98bd9bfee899df0c131ae7ae12adb9ddd05e6c2bae3d88ba70e1836199d4",
+    "container_path": "/mnt/data/bbia_v234/BBIA_v234_THIRTEEN_RELAYOUT_QA_PENDING.zip",
+    "contact_path": "/mnt/data/bbia_v233/BBIA_v233_14_CONTACT.jpg"
+  },
+  "quality": {
+    "passed_for_further_review": "13 layout candidates have better product prominence than v231 in visual contact review, but retain QA_PENDING until exact product/package and shade authenticities checked",
+    "rejected_goodsNo": "1000000251",
+    "reason": "near-white Rubycell puff lost in automated foreground crop; keep original v231 JPG; no replay of failed method",
+    "remaining_issues": [
+      "No true alpha cutout verified: softened source backgrounds are not equivalent to verified segmentation",
+      "Under-eye pencil and slim eyeliner remain visually small due to slender product silhouette",
+      "Original photo shade and packaging exactness not fully authenticated"
+    ]
+  },
+  "preservation": {
+    "v231_originals_unchanged": true,
+    "approved_public_images_unchanged": true,
+    "approved_55_urls_unchanged": true,
+    "final_spreadsheet_shared": false,
+    "sales_approved": 0
+  },
+  "next": [
+    "Reconcile 13 with historical 48 family selected five-role sets before calling any product complete",
+    "Perform official-photo identity and per-option swatch QA in batches",
+    "Hold goodsNo 1000000251 until real high-contrast verified isolated source or correct foreground extraction is available",
+    "Do not regenerate v233/v234 accepted binaries; reuse ZIP and hashes"
+  ]
+}
