@@ -1,0 +1,32 @@
+name: Shopee v2654 independent QA gate for 12 new authentic image candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2654_verify_12_new_candidates.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Download only 12 new candidate images and manifest
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41824399357 -n shopee-v2653-27-family-no-repeat-visual-qa-no-XLSX -D source/v2653
+      - name: Independent image integrity and SKU hold verification
+        run: python scripts/v2654_verify_12_new_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2654-12-new-candidate-technical-QA-no-XLSX
+          path: v2654-qa-gated-candidates/
+          retention-days: 90
+          if-no-files-found: error
