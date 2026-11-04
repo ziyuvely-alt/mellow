@@ -1,0 +1,33 @@
+name: Shopee v2797 CLIO Mesh Glow 5 distinct official photo scenes plus real alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2797-clio-distinct-five-official-scenes-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy 'rembg[cpu]==2.0.67'
+      - name: Reuse five already validated 1200px official scene sources; alpha-mask only one authentic 21C photo
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2797_clio_meshglow_five_distinct_official_scenes.py /tmp/v2797.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2797-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2797-qa
+          python /tmp/v2797.py
+          git add qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2797 5 authentic different scenes from global CLIO official gallery and one new real-alpha hero QA proof'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
