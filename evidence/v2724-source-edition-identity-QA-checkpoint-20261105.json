@@ -1,0 +1,16 @@
+{
+  "version": "v2724",
+  "date": "2026-11-05",
+  "qa_path": "qa-review/v2724-peripera-edition-and-missha-serum-source-precision/manifest.json",
+  "photo_cutout_newly_created": false,
+  "changed_existing_art": false,
+  "peripera_26AD_001_020_complete_photo_chart_verified": false,
+  "peripera_004_006_007_edition_blocked": true,
+  "peripera_014_corrected_name_only": "로지위시",
+  "serum_pending13_primary_photo": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+  "serum_photo_30ml_identity_checked": true,
+  "approved_new_sale_groups": 0,
+  "approved_11_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "final_xlsx_not_shared": true
+}
