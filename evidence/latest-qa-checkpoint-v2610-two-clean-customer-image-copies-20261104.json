@@ -1,0 +1,56 @@
+{
+  "version": "v2610",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "latest_deliverable": {
+    "local_zip": "/mnt/data/Shopee_v2610_156JPG_2customer_copy_fixes_QA_ONLY.zip",
+    "base_version": "v2609",
+    "product_families": 30,
+    "jpg_count": 156,
+    "changed": 2,
+    "source_byte_identical": 154,
+    "comparison": "/mnt/data/v2610_156_qa/two_customer_copy_fixes_before_after.jpg"
+  },
+  "actual_changed": [
+    {
+      "family": "pending-10",
+      "product": "OBgE Perfect Homme Cushion 15g",
+      "slot": 5,
+      "removed_internal_text": "Confirm the edition and shade on the purchased package.",
+      "new_sha256": "ec9d3f6b1812a153252863288e40b0823cffd2bd5e61f9aa28fef407abcad96f"
+    },
+    {
+      "family": "pending-19",
+      "product": "GOODAL Vita-C Cream Alpha 50mL",
+      "slot": 1,
+      "removed_internal_text": "Actual product jar photo",
+      "replacement": "NET CONTENT | 50 mL",
+      "new_sha256": "03a554699b7a0588e715262ba07c2ce4b0eccc79bf17cfd142c7ba0906486eb4"
+    }
+  ],
+  "preceding_accepted_qa_revisions": [
+    "v2608 CLIO pending-07 slots 03 and 05 actual purple mesh blur product photo candidates",
+    "v2609 PIXEL PURE 145ml pending-26 slot 05 removed Korean certification seals; original bottle remains intact"
+  ],
+  "critical_new_release_hold": {
+    "family": "pending-05",
+    "product": "CLIO Kill Cover Founwear Cushion Set 15g + 15g refill",
+    "status": "HOLD_PHYSICAL_STOCK_EDITION_CHECK",
+    "reason": "Existing slot03 product photo explicitly bears THE ORIGINAL. Retailer catalogs distinguish Kill Cover Founwear Cushion Set from The Original. Verify user's physically owned stock generation before commercial publication; do not silently substitute or imply same generation.",
+    "sources": [
+      "https://dermalabseoul.com/products/clio-kill-cover-founwear-cushion-set-15g-15grefill-5colors",
+      "https://www.yesstyle.com/en/clio-kill-cover-founwear-cushion-set-5-colors-19c-light/info.html/pid.1136342494",
+      "https://www.kurlyglobal.com/en/products/m00000288008"
+    ],
+    "image_replaced": false
+  },
+  "preservation": {
+    "existing_11_approved_families_unchanged": true,
+    "verified_55_public_urls_changed": 0,
+    "original_MK_logo_not_substituted": true,
+    "xlsx_created_or_shared": false,
+    "all_pending_release_approved": false,
+    "external_photo_rights_unverified": true
+  },
+  "next": "Continue from v2610 local zip, never repeat v2608/v2609/v2610. Check confirmed Founwear stock generation and copyright/MK brand original before commercial publication. Isolate and correct only verified source mismatches."
+}
