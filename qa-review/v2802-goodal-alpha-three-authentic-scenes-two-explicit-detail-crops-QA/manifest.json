@@ -1,0 +1,139 @@
+{
+  "version": "v2802",
+  "baseline": "v2801",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "five_physical_1080_JPG_files_saved": 5,
+  "independent_authentic_photo_sources": 3,
+  "additional_detail_crops_not_independent_photos": 2,
+  "all_unique_sha256": true,
+  "claim": "Five visual angles produced without inventing pixels; not five independent photographic source scenes",
+  "original_all_three_photos_sha_preserved": true,
+  "original_sources_reencoded": 0,
+  "brand_promotional_caption_verification": "HOLD_VISUAL_QA",
+  "current_owner_physical_stock_generation_verified": false,
+  "commercial_photo_redistribution_rights_verified": false,
+  "original_authenticated_MK_logo_available": false,
+  "new_retail_approval": 0,
+  "prior_11_approved_product_families_unchanged": true,
+  "prior_55_public_urls_unchanged": true,
+  "previous_QA_assets_unchanged": true,
+  "final_excel_or_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "JPG": "01-GOODAL-Alpha-real-photo-QA.jpg",
+      "JPG_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "JPG_bytes": 83045,
+      "photograph_role": "single 50mL jar photo, byte unchanged",
+      "authentic_official_source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+      "source_sha256_preserved": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "native_1080_photographic_pixels_preserved_unmodified": true,
+      "is_derived_closeup_not_independent_photograph": false,
+      "source_region": null,
+      "actual_cropped_photo_resolution": [
+        1080,
+        1080
+      ],
+      "new_product_pixels_fabricated": false,
+      "retail_approved": false,
+      "marketing_claim_cropped_region_requires_visual_review": true
+    },
+    {
+      "slot": 2,
+      "JPG": "02-GOODAL-Alpha-real-photo-QA.jpg",
+      "JPG_sha256": "f7619fe93009cc4398f9cd1b1ce20449a4e5d67cdbc40b5cf553d7791a9eaaf1",
+      "JPG_bytes": 165009,
+      "photograph_role": "open jar with cream from official second photo",
+      "authentic_official_source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_sha256_preserved": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "native_1080_photographic_pixels_preserved_unmodified": false,
+      "is_derived_closeup_not_independent_photograph": true,
+      "source_region": [
+        290,
+        340,
+        1065,
+        921
+      ],
+      "actual_cropped_photo_resolution": [
+        775,
+        581
+      ],
+      "new_product_pixels_fabricated": false,
+      "retail_approved": false,
+      "marketing_claim_cropped_region_requires_visual_review": true
+    },
+    {
+      "slot": 3,
+      "JPG": "03-GOODAL-Alpha-real-photo-QA.jpg",
+      "JPG_sha256": "d8a6bad1079d2266967e52ba810427b09717f0fa65374486ca0007c677b2deef",
+      "JPG_bytes": 156014,
+      "photograph_role": "real cream texture on hand",
+      "authentic_official_source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/03-original-PHOTOGRAPHIC_HAND_TEXTURE-QA.jpg",
+      "source_sha256_preserved": "351984d89e0bf23d7cc411d73fa479ae46c20428cd3cb42f3eb9b625554ce17a",
+      "native_1080_photographic_pixels_preserved_unmodified": false,
+      "is_derived_closeup_not_independent_photograph": true,
+      "source_region": [
+        8,
+        280,
+        1073,
+        850
+      ],
+      "actual_cropped_photo_resolution": [
+        1065,
+        570
+      ],
+      "new_product_pixels_fabricated": false,
+      "retail_approved": false,
+      "marketing_claim_cropped_region_requires_visual_review": true
+    },
+    {
+      "slot": 4,
+      "JPG": "04-GOODAL-Alpha-real-photo-QA.jpg",
+      "JPG_sha256": "133e2d946e7118dfaac86776f4dfa004d99ec67bcfa113b0cdfb4bfc8f12b972",
+      "JPG_bytes": 122651,
+      "photograph_role": "actual jar branding and creamy texture close-up",
+      "authentic_official_source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+      "source_sha256_preserved": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "native_1080_photographic_pixels_preserved_unmodified": false,
+      "is_derived_closeup_not_independent_photograph": true,
+      "source_region": [
+        168,
+        288,
+        956,
+        891
+      ],
+      "actual_cropped_photo_resolution": [
+        788,
+        603
+      ],
+      "new_product_pixels_fabricated": false,
+      "retail_approved": false,
+      "marketing_claim_cropped_region_requires_visual_review": true
+    },
+    {
+      "slot": 5,
+      "JPG": "05-GOODAL-Alpha-real-photo-QA.jpg",
+      "JPG_sha256": "70425ec3a8943cacd2edc862568996ee418f9d7d771bee25397881e32dbcbf3e",
+      "JPG_bytes": 154289,
+      "photograph_role": "authentic open-jar capsule/cream texture macro",
+      "authentic_official_source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_sha256_preserved": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "native_1080_photographic_pixels_preserved_unmodified": false,
+      "is_derived_closeup_not_independent_photograph": true,
+      "source_region": [
+        550,
+        512,
+        1054,
+        950
+      ],
+      "actual_cropped_photo_resolution": [
+        504,
+        438
+      ],
+      "new_product_pixels_fabricated": false,
+      "retail_approved": false,
+      "marketing_claim_cropped_region_requires_visual_review": true
+    }
+  ]
+}
