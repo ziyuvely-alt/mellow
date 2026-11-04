@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-04",
+  "version": "v199",
+  "prior": "v198 two new Eau Matte Cushion English JPGs, preserved unchanged",
+  "new_work": {
+    "product": "BBIA Eau Finger Puff 2pcs",
+    "goodsNo": "1000000127",
+    "new_candidate_images": 2,
+    "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+    "source_members": [
+      "batch/1000000127/photo-3.png",
+      "batch/1000000127/photo-5.png"
+    ],
+    "roles": [
+      "independent puff product styling photo with cushion compact excluded from contents",
+      "original material strap and mesh macro closeup"
+    ],
+    "previous_v155_preserved": true,
+    "outputs": [
+      "BBIA_v199_EAU_FINGER_PUFF_2_NEW_SOURCE_PHOTO_EN_QA_PENDING.zip",
+      "BBIA_v199_EAU_FINGER_PUFF_TWO_DISTINCT_SCENES_CONTACT.jpg",
+      "v199_finger_puff_replacement.py",
+      "v199_finger_puff_EN/QA_MANIFEST_v199.json"
+    ],
+    "qa": "2 JPG 1080x1080 each less than 2MB, independently decoded, actual contact preview inspected, source and generated SHA-256 in manifest, ZIP CRC passed; current official image/packaging/option still QA_PENDING",
+    "sale_approved": 0
+  },
+  "readonly_backcatalog_zip_audit": {
+    "output": "BBIA_v199_READONLY_ARCHIVE_AUDIT_CORRECTED.json",
+    "archives_scanned": 68,
+    "archives_technically_valid": 68,
+    "technically_invalid": 0,
+    "delivery_jpgs_scanned": 403,
+    "qa_preview_jpgs_excluded": 4,
+    "correction": "Earlier v198 audit falsely classified four multi-image contact preview JPGs in QA/ folders as invalid sale JPG size. With preview excluded from production photo spec test, none of the 68 ZIPs show technical errors. This is not evidence of sales readiness."
+  },
+  "immutable": [
+    "v147 original 125 images",
+    "v150-v198 image outputs, holds",
+    "55 known published URLs",
+    "GitHub main"
+  ],
+  "spreadsheet_shared": false,
+  "next": "Do not regenerate v199 2 candidate images; verify present official 2-piece package/puff photos before any final sale approval. Prioritize visibly distinct missing scenes from other families. Need separate aesthetic/source/color QA; no inference from zip technical validity."
+}
