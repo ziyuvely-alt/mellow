@@ -1,0 +1,73 @@
+{
+  "version": "v2742",
+  "baseline": "v2741",
+  "family": "pending-09",
+  "actual_real_photo_cutouts_saved": 2,
+  "original_source_JPG_unchanged": true,
+  "other_v2741_recommendation_images_used": false,
+  "approved_product_images_modified": 0,
+  "public_55_urls_modified": 0,
+  "photo_redistribution_permission_verified": false,
+  "actual_owned_stock_EAN_verified": false,
+  "original_MK_logo_authenticated": false,
+  "new_retail_approved": 0,
+  "final_excel_shared": false,
+  "candidates": [
+    {
+      "method": "chromatic_contour",
+      "source_photo": "qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA/01-MANUFACTURER-real-source-1080-QA.jpg",
+      "source_sha256": "662bc28fc5b820b2109c3a41a804c84644391ec5ef356760a1e11dd70f3d8cf4",
+      "native_manufacturer_photo_px": [
+        997,
+        997
+      ],
+      "source_bbox_original1080": [
+        217,
+        107,
+        607,
+        867
+      ],
+      "actual_product_crop_source_px_approx": [
+        560,
+        800
+      ],
+      "mask_area": 526241,
+      "mask_geometry_pass": true,
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_SOURCE_PHOTO_CANDIDATE_REQUIRES_VISUAL_QA",
+      "png": "chromatic_contour/01-real-native-source-compact-transparent-QA.png",
+      "jpg": "chromatic_contour/01-manufacturer-compact-only-1080-QA.jpg",
+      "jpg_sha256": "4df542b7bec677d786aaae0fd9acc8070e4cb1960281001c8240d00385c2d637",
+      "png_sha256": "c94141a6ceab7d943f713f49376e3bf192504a178d1d436bc0cd3305978778d6",
+      "JPG_bytes": 113725
+    },
+    {
+      "method": "grabcut_seeded",
+      "source_photo": "qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA/01-MANUFACTURER-real-source-1080-QA.jpg",
+      "source_sha256": "662bc28fc5b820b2109c3a41a804c84644391ec5ef356760a1e11dd70f3d8cf4",
+      "native_manufacturer_photo_px": [
+        997,
+        997
+      ],
+      "source_bbox_original1080": [
+        207,
+        117,
+        607,
+        847
+      ],
+      "actual_product_crop_source_px_approx": [
+        560,
+        782
+      ],
+      "mask_area": 500077,
+      "mask_geometry_pass": true,
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_SOURCE_PHOTO_CANDIDATE_REQUIRES_VISUAL_QA",
+      "png": "grabcut_seeded/01-real-native-source-compact-transparent-QA.png",
+      "jpg": "grabcut_seeded/01-manufacturer-compact-only-1080-QA.jpg",
+      "jpg_sha256": "f6b938054e4ccd57f63db7839138a14af627302a99e6b28bde951fba71efd067",
+      "png_sha256": "06adc88906965236a50c780af0d76adf8162dbc21e3270d1fb0d681dff2504b7",
+      "JPG_bytes": 116937
+    }
+  ]
+}
