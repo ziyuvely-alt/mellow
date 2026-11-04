@@ -1,0 +1,62 @@
+{
+  "schema": "bbia_ch2_v208_incremental_photo_scenes",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v207 two Last Auto Eyebrow Pencil English photo candidates, preserved",
+  "created_jpg_count": 2,
+  "images": [
+    {
+      "goodsNo": "1000000108",
+      "product": "BBIA Last Auto Eyebrow Pencil",
+      "role": "two visually independent eye/pencil application steps, combined into one 1080x1080 composition",
+      "source_archive_member": "batch/1000000108/photo-5.png",
+      "source_crops": [
+        [
+          48,
+          16,
+          328,
+          249
+        ],
+        [
+          48,
+          278,
+          328,
+          510
+        ]
+      ],
+      "current_en_qa": "QA_PENDING"
+    },
+    {
+      "goodsNo": "207",
+      "product": "BBIA Never Die Brush Eyeliner",
+      "role": "actual blue brush tip studio product photograph, no shade name",
+      "source_archive_member": "batch/207/photo-3.png",
+      "source_crop": [
+        44,
+        0,
+        558,
+        502
+      ],
+      "current_en_qa": "QA_PENDING"
+    }
+  ],
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "artifacts": {
+    "zip": "BBIA_v208_TWO_NEW_DISTINCT_EN_SCENES_QA_PENDING.zip",
+    "contact": "BBIA_v208_TWO_NEW_SCENES_CONTACT.jpg",
+    "local_manifest": "v208_two_product_EN/QA_MANIFEST_v208.json",
+    "script": "v208_two_scene_production.py"
+  },
+  "technical_qa": "Both newly authored JPG files 1080x1080 and <2MB (135435 bytes, 97648 bytes). JPGs successfully decoded and ZIP.testzip passed. Source and output SHA256 per frame recorded in local manifest. Contact sheet visually reviewed.",
+  "workflow_improvements": "Avoided redundant duplicate-studio photo and skipped Korean captions from source images; did not retry absent verified_sources directory twice. Reused existing archived batch photos and previous scripts as reference.",
+  "source_and_sales_limits": "Photos are archived historic pictures, not independently matched against current official page and exact option. No EN final approval or localizations; cannot claim 5-frame approval.",
+  "product_role_counts_note": "Eyebrow previously four draft roles across v178 and v207; new instructional image may form fifth distinct draft role but sale approval remains zero. Never Die Brush Eyeliner previously v179+v200 drafts, added one distinct studio source role.",
+  "preserved": [
+    "all previous v147-v207 generated assets and holds",
+    "55 published source URLs",
+    "GitHub main branch"
+  ],
+  "sale_approved": 0,
+  "localizations_created": 0,
+  "spreadsheet_shared": false,
+  "next": "Do not recreate v208 two images. Independently verify current product packaging/shades and review existing five scene roles; keep erroneous mixed-product photos held. Reconcile full 48-family project master when available, rather than infer two missing products."
+}
