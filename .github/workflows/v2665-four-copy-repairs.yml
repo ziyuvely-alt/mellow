@@ -1,0 +1,27 @@
+name: Shopee v2665 four genuinely reflowed info cards QA only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2665-four-copy-repairs.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Produce four non-cropped informational QA candidates
+        run: python scripts/v2665_four_copy_repairs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2665-four-reflowed-cards-visual-QA-no-XLSX
+          path: v2665-four-clean-copy-qa-only/
+          retention-days: 90
+          if-no-files-found: error
