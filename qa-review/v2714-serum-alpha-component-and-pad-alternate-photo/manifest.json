@@ -1,0 +1,52 @@
+{
+  "version": "v2714",
+  "baseline": "v2713",
+  "recovery_attempts": 2,
+  "real_alpha_cutouts_rendered": 2,
+  "sales_approved": 0,
+  "external_photo_rights_unverified": true,
+  "owned_stock_exact_edition_unverified": true,
+  "original_MK_logo_unavailable": true,
+  "original_files_unchanged": true,
+  "retail_11_product_families_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "no_final_spreadsheet_shared": true,
+  "products": [
+    {
+      "family": "pending-24",
+      "operation": "remove-detached-auxiliary-alpha-component",
+      "source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-truly-transparent-product-QA.png",
+      "source_sha256": "2cf1b44b6d7386bdd8153709d13949423f1cbdb7962742dc2bade03429455869",
+      "status": "REAL_ALPHA_CLEANUP_RENDERED_VISUAL_QA_PENDING",
+      "main_area": 76639,
+      "removed_small_islands_area": 5812,
+      "removed_ratio": 0.0758,
+      "png": "pending-24/01-cleaned-real-alpha-isolated-serum-QA.png",
+      "jpg": "pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+      "jpg_sha256": "5cb1850f773c7edd801e160ec1387e90001d2a0739e6f1035db62246431574fb"
+    },
+    {
+      "family": "pending-28",
+      "operation": "alternate-source-isnet-real-product-pad-photo",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/02-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "7280158c0eebec73dc6fd7517ee04ad7d53e7a01c8b6ac1e73e9a19d7081d135",
+      "status": "ALTERNATE_PRODUCT_PHOTO_SEGMENTED_VISUAL_QA_PENDING",
+      "crop": [
+        170,
+        200,
+        928,
+        963
+      ],
+      "mask_alpha_coverage": 0.5228,
+      "bbox": [
+        88,
+        119,
+        656,
+        704
+      ],
+      "png": "pending-28/02-alternate-real-source-transparent-product-QA.png",
+      "jpg": "pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+      "jpg_sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1"
+    }
+  ]
+}
