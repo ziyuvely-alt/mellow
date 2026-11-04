@@ -1,0 +1,32 @@
+name: Shopee v2758 process all 20 Peripera alpha quality gates without abort on 18
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2758-peripera-alpha-20-no-abort-edge-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Audit all 20 existing alpha PNG JPG shade results, quarantine edge-touch instead of aborting
+        run: |
+          cp scripts/v2758_peripera_edge_holds_full_20_qa.py /tmp/v2758.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2758 qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2758/qa-review/v2758-peripera-all20-existing-cutout-file-and-edition-audit
+          cd /tmp/v2758
+          python /tmp/v2758.py
+          git add qa-review/v2758-peripera-all20-existing-cutout-file-and-edition-audit
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2758 audit all 20 legacy Peripera cutouts with nonblocking edge failure quarantine'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
