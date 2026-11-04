@@ -1,0 +1,32 @@
+name: Shopee v2739 render three already-approved-source contour SVGs to alpha PNG and JPG
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2739-three-archived-contour-png-jpg.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rasterize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install 'Pillow>=10,<12' 'CairoSVG>=2.7,<3'
+      - name: Reuse 3 archived transparent SVG photo cutouts, never re-source or re-segment
+        run: |
+          cp scripts/v2739_render_three_existing_svg_contours.py /tmp/v2739.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2739-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2739-qa
+          test ! -e qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA
+          python /tmp/v2739.py
+          git add qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2739 create actual transparent PNG and white JPG from 3 existing source-photo contour SVGs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
