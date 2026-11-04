@@ -1,0 +1,33 @@
+name: Shopee v2590 Goodal mist 100ml factual QA card only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2590_goodal_mist_100ml_fact_only_QA.py'
+      - '.github/workflows/v2590-goodal-mist-facts.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  make-one-factual-image:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse existing candidate corpus, never replace existing images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2590-base
+      - name: Render one accurate 100ml facts image from unchanged inventory
+        run: python scripts/v2590_goodal_mist_100ml_fact_only_QA.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2590-GOODAL-100ml-facts-1real-JPG-QA-no-XLSX
+          path: v2590-goodal-mist-100ml-factual-image-QA/
+          retention-days: 90
+          if-no-files-found: error
