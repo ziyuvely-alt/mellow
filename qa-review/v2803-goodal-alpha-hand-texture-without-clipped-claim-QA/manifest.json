@@ -1,0 +1,73 @@
+{
+  "version": "v2803",
+  "baseline": "v2802",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "actual_five_JPGs_saved": 5,
+  "exact_previous_frames_preserved": 4,
+  "fixed_slot": 3,
+  "reason": "v2802 frame03 cropped the phrase 'yet Gentle' from a marketing headline",
+  "source_photo": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/03-original-PHOTOGRAPHIC_HAND_TEXTURE-QA.jpg",
+  "original_source_sha256": "351984d89e0bf23d7cc411d73fa479ae46c20428cd3cb42f3eb9b625554ce17a",
+  "selected_crop_original_xyxy": [
+    285,
+    415,
+    1065,
+    820
+  ],
+  "crop_excludes_top_heading": true,
+  "crop_excludes_bottom_marketing_paragraph": true,
+  "actual_photo_scene": "human fingers with real cream texture",
+  "new_photo_pixels_fabricated": false,
+  "original_photographic_JPGs_modified": false,
+  "previous_v2802_five_frame_set_untouched": true,
+  "commercial_photo_redistribution_permission_verified": false,
+  "actual_owned_stock_50mL_edition_verified": false,
+  "approved_original_MK_logo_available": false,
+  "new_retail_sale_approvals": 0,
+  "previous_11_approved_families_unchanged": true,
+  "previous_55_public_URLs_unchanged": true,
+  "final_XLSX_or_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "bytes": 83045,
+      "status": "BYTE_FOR_BYTE_PRESERVED_FROM_V2802",
+      "retail_approved": false
+    },
+    {
+      "slot": 2,
+      "file": "02-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "f7619fe93009cc4398f9cd1b1ce20449a4e5d67cdbc40b5cf553d7791a9eaaf1",
+      "bytes": 165009,
+      "status": "BYTE_FOR_BYTE_PRESERVED_FROM_V2802",
+      "retail_approved": false
+    },
+    {
+      "slot": 3,
+      "file": "03-GOODAL-Alpha-real-hand-cream-no-claim-QA.jpg",
+      "sha256": "3a703b86f0d51c1b53166c9c1348585e84fa9e27eb0ea6411a1b9e092907b8f5",
+      "bytes": 150722,
+      "status": "NEW_CROP_OF_AUTHENTIC_HAND_PHOTO_WITHOUT_TEXT",
+      "retail_approved": false
+    },
+    {
+      "slot": 4,
+      "file": "04-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "133e2d946e7118dfaac86776f4dfa004d99ec67bcfa113b0cdfb4bfc8f12b972",
+      "bytes": 122651,
+      "status": "BYTE_FOR_BYTE_PRESERVED_FROM_V2802",
+      "retail_approved": false
+    },
+    {
+      "slot": 5,
+      "file": "05-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "70425ec3a8943cacd2edc862568996ee418f9d7d771bee25397881e32dbcbf3e",
+      "bytes": 154289,
+      "status": "BYTE_FOR_BYTE_PRESERVED_FROM_V2802",
+      "retail_approved": false
+    }
+  ]
+}
