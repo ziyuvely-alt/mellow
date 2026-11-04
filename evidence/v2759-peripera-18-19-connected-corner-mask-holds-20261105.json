@@ -1,0 +1,58 @@
+{
+  "version": "v2759",
+  "date": "2026-11-05",
+  "family": "pending-08",
+  "validated_runs": [
+    {
+      "version": "v2758",
+      "id": 41894120592,
+      "conclusion": "success"
+    },
+    {
+      "version": "v2759",
+      "id": 41894487394,
+      "conclusion": "success"
+    }
+  ],
+  "technical_quality_v2758": {
+    "original_peripera_shades_01to20_PNGs_and_JPGs_present": 20,
+    "alpha_corner_and_1080_JPG_pass": 18,
+    "alpha_corner_hold_shades": [
+      "18",
+      "19"
+    ],
+    "duplicate_SHA256_JPG_count": 0
+  },
+  "corrective_v2759": {
+    "18": {
+      "corner_component_area": 112785,
+      "main_component_area": 112785,
+      "status": "HOLD_CONNECTED_TO_PRODUCT"
+    },
+    "19": {
+      "corner_component_area": 114618,
+      "main_component_area": 114618,
+      "status": "HOLD_CONNECTED_TO_PRODUCT"
+    },
+    "attempted_shades": [
+      "18",
+      "19"
+    ],
+    "actual_original_alpha_files_edited": 0,
+    "new_corrected_PNG_JPG_pairs": 0,
+    "reason": "Bottom-left alpha=254 is connected to the principal product+swatch foreground component for each shade. Largest component is itself the corner-connected component; simple island removal would cut genuine product.",
+    "disposition": "No guessed mask surgery. Keep v2753 original 18/19 and flag QA HOLD until separately photographed exact old-edition alternatives."
+  },
+  "next_v2760_run": 41894843734,
+  "source_18_page": "https://www.jeevee.com/products/peripera-ink-mood-glowy-tint-honey-k-ookie-collection-18-nude-area-94090",
+  "source_19_page": "https://www.alpsus.com/products/peripera-ink-mood-glowy-tint-19-mauve-chaos",
+  "other_18_images_unchanged": true,
+  "previous_approved_11_families_unchanged": true,
+  "old_verified_55_public_urls_unchanged": true,
+  "original_MK_logo_unverified": true,
+  "photo_commercial_redistribution_unverified": true,
+  "exact_owned_old_edition_stock_unverified": true,
+  "newly_sale_approved": 0,
+  "final_spreadsheet_shared": false,
+  "next": "Verify actual saved v2760 alternate photos and mask if successful, visually inspect, otherwise retain both QA HOLD and process other items."
+}
