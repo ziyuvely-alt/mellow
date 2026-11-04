@@ -1,0 +1,160 @@
+{
+  "version": "v2671",
+  "family_count": 5,
+  "image_files_inspected": 25,
+  "families": [
+    {
+      "family": "pending-16",
+      "source_images": [
+        {
+          "slot": 1,
+          "file": "01_01_INV_01_0a62a56a4b_EN_V2421C.jpg",
+          "sha256": "f004d1571555a6ddd441cb1f2b5a8ef55579461a50ac66d2ccc3cdf9e97a1a11"
+        },
+        {
+          "slot": 2,
+          "file": "02_02_INV_02_17c12aad66_EN_V2421C.jpg",
+          "sha256": "3b9978475bc580041e96101a639ae65d05cd0aa37f2753e16dd60cc2c16b72a5"
+        },
+        {
+          "slot": 3,
+          "file": "03_03_INV_03_3ff07100b8_EN_V2421C.jpg",
+          "sha256": "30d5a72ea4ce791dc51a529dab99e6c91cee4f32f85ebc1ae73dc7195280c51e"
+        },
+        {
+          "slot": 4,
+          "file": "04_v2593_QA_ONLY_v2582.jpg",
+          "sha256": "8b9be399746b720df41f487ea68f6270ebc77d7193dba9248c3110dfb8968320"
+        },
+        {
+          "slot": 5,
+          "file": "05_05_INFO_05_OFFICIAL_V2412_EN_V2421.jpg",
+          "sha256": "e1ea58421ec9c758813afccf7d5bceefa7fc0c7b1c0fa34683374834c85415a8"
+        }
+      ]
+    },
+    {
+      "family": "pending-17",
+      "source_images": [
+        {
+          "slot": 1,
+          "file": "01_01_v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796"
+        },
+        {
+          "slot": 2,
+          "file": "02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+          "sha256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090"
+        },
+        {
+          "slot": 3,
+          "file": "03_v2593_QA_ONLY_v2588.jpg",
+          "sha256": "f8d852281445b6c832a6fe875f17078622de14ccf2fef0cb88b822e58ba114eb"
+        },
+        {
+          "slot": 4,
+          "file": "04_04_SOURCE_5ea61e16436d_EN_V2421C.jpg",
+          "sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302"
+        },
+        {
+          "slot": 5,
+          "file": "05_v2593_QA_ONLY_v2588.jpg",
+          "sha256": "89c5a2d1102b0adf5cb612a4af88950e4e8942ba5e3d919f9cae711a742a1fa5"
+        }
+      ]
+    },
+    {
+      "family": "pending-18",
+      "source_images": [
+        {
+          "slot": 1,
+          "file": "01_01_pending-18_factual_copy_revision_V2441.jpg",
+          "sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c"
+        },
+        {
+          "slot": 2,
+          "file": "02_02_INV_01_254aee0e0f_EN_V2421C.jpg",
+          "sha256": "d0f45c3a371f33cd2c9c04ba6d3bf2a34d593344fc406496b679fc907415ef91"
+        },
+        {
+          "slot": 3,
+          "file": "03_03_INV_02_66493f8937_EN_V2421C.jpg",
+          "sha256": "d8479e3e84cb9bd4503720504dc0620f89fe40b8ab95ef8bf736fa40f3f93e39"
+        },
+        {
+          "slot": 4,
+          "file": "04_04_INV_03_e2cd09a3ab_EN_V2421C.jpg",
+          "sha256": "62bf590f61b515ebe1e9cd30b03a35ffb437e2d6f6ba8f0e203ef3bf62d86529"
+        },
+        {
+          "slot": 5,
+          "file": "05_SOURCE_QA_2515-drg-brightening-one_05-tone-up-sebum-finish.jpg",
+          "sha256": "d85821075f8fcc9cc9197662b0ef340f018688e2826cdf29bf201954e0b144af"
+        }
+      ]
+    },
+    {
+      "family": "pending-19",
+      "source_images": [
+        {
+          "slot": 1,
+          "file": "01_v2521-genuine-product-photo.jpg",
+          "sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3"
+        },
+        {
+          "slot": 2,
+          "file": "02_02_v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg",
+          "sha256": "ccddd757abd6da10e822b36a924df4734287cd55808ee01467f88450ca8d8e9d"
+        },
+        {
+          "slot": 3,
+          "file": "03_03_INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+          "sha256": "107fa7a49e2b17ddb0e8cff5d7de9d8692591d71eb67df5ef998ef2ee7ccb6d8"
+        },
+        {
+          "slot": 4,
+          "file": "04_04_INFO_HOW_TO_01_V2414_EN_V2421.jpg",
+          "sha256": "67c3837e0afb554154b69f031f37fb45ef8ca18d6f527ea53b053f61f9e86d37"
+        },
+        {
+          "slot": 5,
+          "file": "05_v2560-REVIEW-ONLY.jpg",
+          "sha256": "5607a5e6251c58315e9d4881684c3ed27314dc38ae26450a29dd79c4778126c7"
+        }
+      ]
+    },
+    {
+      "family": "pending-20",
+      "source_images": [
+        {
+          "slot": 1,
+          "file": "01_01_SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+          "sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e"
+        },
+        {
+          "slot": 2,
+          "file": "02_v2521-genuine-product-photo.jpg",
+          "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd"
+        },
+        {
+          "slot": 3,
+          "file": "03_03_INFO_03_V2412B_EN_V2421.jpg",
+          "sha256": "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28"
+        },
+        {
+          "slot": 4,
+          "file": "04_v2521-genuine-product-photo.jpg",
+          "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4"
+        },
+        {
+          "slot": 5,
+          "file": "05_v2593_QA_ONLY_v2592_NOT_v2590.jpg",
+          "sha256": "bb97654af24b4fe1323f57c956a012e766db7e67ad3ca80490c3127d92ca98ad"
+        }
+      ]
+    }
+  ],
+  "source": "historical v2593, not latest v2647",
+  "approval_status": "SOURCE_SCENE_REVIEW_ONLY",
+  "original_source_bytes_changed": 0
+}
