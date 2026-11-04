@@ -1,0 +1,37 @@
+name: Shopee v2597 rebuild definitive 156 physical JPG review snapshot with 19 QA overlays
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2597_assemble_full_latest_156_from_two_drg.py'
+      - '.github/workflows/v2597-latest-156-JPG.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  preserve-and-append-two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve latest already completed 156 JPG QA corpus once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/latest
+      - name: Retrieve only two actually selected DrG 50ml JPEG delta candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765754599 -n shopee-v2596-two-DrG-SunPLUS-50ml-JPG-delta-only-no-XLSX -D source/new
+      - name: Assemble 156 JPG with 154 SHA-identical sources and two new scenes
+        run: python scripts/v2597_assemble_full_latest_156_from_two_drg.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX
+          path: v2597-latest-156-JPG-19QA-deltas/
+          retention-days: 90
+          if-no-files-found: error
