@@ -1,0 +1,57 @@
+{
+  "version": "v2604",
+  "date": "2026-11-04",
+  "repository": "ziyuvely-alt/mellow",
+  "baseline": {
+    "version": "v2597",
+    "run_id": 41765900358,
+    "artifacts": "shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX",
+    "full_jpg": 156,
+    "families": 30
+  },
+  "new_result": {
+    "candidate_zip_name": "Shopee_v2604_156JPG_2MISSHA_corrections_QA_ONLY.zip",
+    "zip_available_in_current_conversation": true,
+    "images_full": 156,
+    "image_replacements": 2,
+    "unchanged_sha_verified": 154,
+    "source": "corrected MISSHA M Perfect Cover BB Cream stock-option list",
+    "family": "pending-03",
+    "corrected_slots": [
+      1,
+      2
+    ],
+    "shades": [
+      "21호 화사한베이지",
+      "23호 자연스러운베이지",
+      "25호 웜베이지"
+    ],
+    "new_commercial_sales_approvals": 0
+  },
+  "holds": [
+    {
+      "family": "pending-03",
+      "note": "Photo collage includes packages 21 and 23 only; shade25 appears as inventory-verified text, not claimed photographic shade proof"
+    },
+    {
+      "family": "pending-22",
+      "slot": 4,
+      "note": "v2602 cutout background repair still shows unnatural dark contour halo; do NOT promote; retain existing black-background candidate until accurate true product silhouette can be obtained."
+    },
+    {
+      "topic": "genuine MK logo",
+      "note": "Plugin has 280031-byte PNG but currently inaccessible as local image byte stream"
+    },
+    {
+      "topic": "photographic rights and physical stock",
+      "note": "Not independently cleared. No public publish."
+    }
+  ],
+  "immutable": {
+    "published_11_families_unchanged": true,
+    "verified_55_urls_unchanged": true,
+    "source_v2597_jpgs_unchanged": true,
+    "excel_created_or_shared": false
+  },
+  "next": "Start from v2604 complete corpus and preserve 2 corrected BB option scenes; prioritize obtaining true #25 physical product image or exact 300ml genuine white-background image without artificial edge halo. Do not rerun previous invalid automatic segmentation or older version QA."
+}
