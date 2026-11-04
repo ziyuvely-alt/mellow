@@ -1,0 +1,427 @@
+{
+  "version": "v2752",
+  "source_product_page": "https://wcosmetics.com.au/products/peripera-ink-mood-glowy-tint",
+  "source_class": "THIRD_PARTY_LEGACY_VARIANT_CATALOG",
+  "legacy_item": "PERIPERA Ink Mood Glowy Tint older line (not 26AD Mood Glowy Tint)",
+  "selected_shades": "01..20 only",
+  "exclude_26AD_and_21_plus": true,
+  "retail_authorization": false,
+  "item_inventory_generation_verified": false,
+  "original_MK_logo_verified": false,
+  "photo_republication_license_verified": false,
+  "approved_11_product_families_untouched": true,
+  "public_55_verified_urls_untouched": true,
+  "no_final_spreadsheet_shared": true,
+  "records": [
+    {
+      "shade": "01",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "01 Best Beige Menu",
+      "variant_id": "42932526645397",
+      "sku": "8809828414226",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/16679656121319.png?v=1756449232",
+      "image_file": "01-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "source_sha256": "ec19adfed5378267f68bd25e33294d56eee7e754d6d712e88fe8c239a485d8c8",
+      "qa_JPG_sha256": "7cb4df5f11465a8dd209f83d5ab44c031434eaa4c27948884e77cc61c174709f",
+      "qa_JPG_bytes": 73740
+    },
+    {
+      "shade": "02",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "02 Coral Influencer",
+      "variant_id": "42932526678165",
+      "sku": "8809828414233",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/16679656448483.png?v=1756449232",
+      "image_file": "02-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "source_sha256": "5009e83467cd7a5c16b4f66cc5d9155062767632a0a30021c14e30d2b101dc87",
+      "qa_JPG_sha256": "a7965e6ef84a7f255b66f14c542ae702474bbd0e021f42dcde7d355eb1e69869",
+      "qa_JPG_bytes": 72827
+    },
+    {
+      "shade": "03",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "03 Rose In Mind",
+      "variant_id": "42932526710933",
+      "sku": "8809828414240",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/16679657472241.png?v=1756449233",
+      "image_file": "03-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        800,
+        800
+      ],
+      "source_sha256": "5ac8227612ad91b0bda72b7c8d0b0194b803f386d56ab9e581051a9d40bad0ea",
+      "qa_JPG_sha256": "c2c4cef7415717d7ea78ead7896bf85f642b4082da2defe57b92698d1b3ba501",
+      "qa_JPG_bytes": 76400
+    },
+    {
+      "shade": "04",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "04 Pink Youth",
+      "variant_id": "42932526743701",
+      "sku": "8809828414257",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/04.png?v=1756449233",
+      "image_file": "04-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "6c63286b3642da8dfe13be731ec038966b169e3e181087bb3483d91c8e15a74a",
+      "qa_JPG_sha256": "63ec8660c70cb256f36cce8be2eeebe5a80646e0c4c5e0c5527db8fe095394cf",
+      "qa_JPG_bytes": 63634
+    },
+    {
+      "shade": "05",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "05 Cherry So What",
+      "variant_id": "42932526776469",
+      "sku": "8809828414264",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/05.png?v=1756449233",
+      "image_file": "05-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "741721a7307937423b05c57798d180679f6618bed66b86b613f59c179e04c314",
+      "qa_JPG_sha256": "7f26d6a6791720e0e2f9728f1382b6d28b3ff3bbe0ceeb60c18de1262224fe21",
+      "qa_JPG_bytes": 80963
+    },
+    {
+      "shade": "06",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "06 Plum Update",
+      "variant_id": "42932526809237",
+      "sku": "8809828414271",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/06.png?v=1756449233",
+      "image_file": "06-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "48d029a32056cb2e8ad9f514e4869c161c547d1bebaaa634ed474e1a1e69f7de",
+      "qa_JPG_sha256": "528dd971b6c3c5372d87872d9b92100d6a344ebd018f5f43b946a75b34fea4da",
+      "qa_JPG_bytes": 68700
+    },
+    {
+      "shade": "07",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "07 I'm Pinkest CHOIGOSIM Ver",
+      "variant_id": "43158484123797",
+      "sku": "8809862282607",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_1673890337631.png?v=1756449233",
+      "image_file": "07-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "ce1c99461c17e3d0588effd220bbeeeb086324bf8918aa7a3e37c7d426d3dc68",
+      "qa_JPG_sha256": "76a05e54b1b70e4ace0df87599147074e01e3b3d6b8a16f96e9464d821904976",
+      "qa_JPG_bytes": 77070
+    },
+    {
+      "shade": "08",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "08 Pink Do It CHOIGOSIM Ver",
+      "variant_id": "43158484156565",
+      "sku": "8809862282614",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16738903493653.png?v=1756449233",
+      "image_file": "08-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "9a32299cd9943fb9e54519e90231d7a5026e24e932b45707644d7213fe90a71f",
+      "qa_JPG_sha256": "77236089a38e7694338967c3d2b70795768896edbeaa15e267d91f6625877615",
+      "qa_JPG_bytes": 84452
+    },
+    {
+      "shade": "09",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "09 Nude to Heart",
+      "variant_id": "43158484189333",
+      "sku": "8809862286247",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16738905224853.png?v=1756449233",
+      "image_file": "09-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "38fdec64b65fffb54c1aae97b474844ecb61c8dc93c6971f23f342b7f9256b16",
+      "qa_JPG_sha256": "203c1661a299b230a0286336e362b6afdacd3bb86e7cea7b59b42bc49afea493",
+      "qa_JPG_bytes": 69035
+    },
+    {
+      "shade": "10",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "10 Captivating Pink",
+      "variant_id": "43158484222101",
+      "sku": "8809862286254",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16738905304040.png?v=1756449233",
+      "image_file": "10-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "0ca4cb2536efbf3b91b36afb94c9651c9d5e87b376d0a29d82a078b4ed337e71",
+      "qa_JPG_sha256": "2fc5825ab40638c71cf1ecfd32f0d074233c603c70def193a6e4ffd8a6c7f24f",
+      "qa_JPG_bytes": 59357
+    },
+    {
+      "shade": "11",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "11 Brown Heaven",
+      "variant_id": "43158484254869",
+      "sku": "8809862286261",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16738905393538.png?v=1756449233",
+      "image_file": "11-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "7198051e8c2dec3c72cef763827a2dde250970b1b8839bab30000b5cb3d8d4ab",
+      "qa_JPG_sha256": "2a3c3a792dc49e22a2d5aee1686da492ffdda068288e8990c111076c4b5be2ba",
+      "qa_JPG_bytes": 69666
+    },
+    {
+      "shade": "12",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "12 Warm-Gorithm (Peritage)",
+      "variant_id": "43453554491541",
+      "sku": "8809900986047",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16849695224586.png?v=1756449233",
+      "image_file": "12-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        889,
+        466
+      ],
+      "source_sha256": "9ad9b87609208a287192a7a504c59d3bd3ea70cc310afb551097837a0983aa57",
+      "qa_JPG_sha256": "533db203ee1f656954a07dee15a596ca7a1c0bd85510600b2cd1cd6c6532e2ce",
+      "qa_JPG_bytes": 102568
+    },
+    {
+      "shade": "13",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "13 Berry Pretty (Peritage)",
+      "variant_id": "43453554524309",
+      "sku": "8809900986054",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16849695423445.png?v=1756449234",
+      "image_file": "13-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        888,
+        449
+      ],
+      "source_sha256": "3f106f7977febcafb3d6525738f701d43fe8c31d3cbf02fac7579400678c8fd1",
+      "qa_JPG_sha256": "b094d8cd8adfece66e7b688fbbd242802dd85c367f363449657dbfb06a056352",
+      "qa_JPG_bytes": 109847
+    },
+    {
+      "shade": "14",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "14 Follow Rose (Peritage)",
+      "variant_id": "43453554557077",
+      "sku": "8809900986061",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/products/WXWorkCapture_16849695613302.png?v=1756449234",
+      "image_file": "14-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        889,
+        472
+      ],
+      "source_sha256": "8566f117ef80ead70f8b968f027d99edc72a2fa90a79c6e28f042cd181e8e510",
+      "qa_JPG_sha256": "116e0209220c72025dd5732169ba932c6fa6475797d570b6001f5f1c4bd1245a",
+      "qa_JPG_bytes": 106494
+    },
+    {
+      "shade": "15",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "15 Mellow Melon (Maltese Ver)",
+      "variant_id": "43542682697877",
+      "sku": "8809900989505",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/e0a009a9-bb3f-45b7-8501-6320c39e61f3.jpg?v=1756449234",
+      "image_file": "15-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "source_sha256": "0944cf60e5045d5c2719e40321935a6ff8b9ba0a049dbe04286f73edf2c2b52b",
+      "qa_JPG_sha256": "40072ba5a970b7d9889da5c19b25797fbd4b55eb38bd10cb146b4698f71892bc",
+      "qa_JPG_bytes": 52287
+    },
+    {
+      "shade": "16",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "16 Cerise Pink (Maltese Ver)",
+      "variant_id": "43542682730645",
+      "sku": "8809900989512",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/ec780c0a-4d22-4f90-ad35-c5fade8db243.jpg?v=1756449234",
+      "image_file": "16-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "source_sha256": "dd697e9d551027ad5b32d08f9c40391b74e07e279f784d159717ecde3d379a8f",
+      "qa_JPG_sha256": "fcbdcc44bffdfbfe36a4d4cdbcea1461adcbe04b1dd1996c80f3015fd4b566ee",
+      "qa_JPG_bytes": 53014
+    },
+    {
+      "shade": "17",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "17 Puppy Berry (Maltese Ver)",
+      "variant_id": "43542682763413",
+      "sku": "8809900989529",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/54374b3e-72d3-4aba-a9fa-17da66cab7d4.jpg?v=1756449234",
+      "image_file": "17-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "source_sha256": "ba5f4ca68c7ff002aed879744eb3345a8345bc30f6843b7d86b9d7462eea1840",
+      "qa_JPG_sha256": "7446efc8e46249f2b8aef3e29d4bb21ca9f2655abd954b9bf299d68cbae75ee3",
+      "qa_JPG_bytes": 52401
+    },
+    {
+      "shade": "18",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "18 Nude Area (Honey K-Ookie)",
+      "variant_id": "43894152986773",
+      "sku": "8809937590330",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/WXWorkCapture_17013262124365.png?v=1756449234",
+      "image_file": "18-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "173fe72ae5924762e5c2c42e2b7f2438ef6dba66a461363d0fe93c52cb2e2a9f",
+      "qa_JPG_sha256": "1a95e4521adb9259ea4d8bb74449542fabaf12703d714dbc1c2efd41325f889a",
+      "qa_JPG_bytes": 131560
+    },
+    {
+      "shade": "19",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "19 Mauve Chaos (Honey K-Ookie)",
+      "variant_id": "43894153019541",
+      "sku": "8809937590347",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/WXWorkCapture_17013262355534.png?v=1756449234",
+      "image_file": "19-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "8dd60344f08186f93aa9476412bc87b3e1933b3b57379b8bbcb18a2ce4713085",
+      "qa_JPG_sha256": "6293b3d125e8fde9312f1215dd67c38fb6ae568993466b28b9f82460cf9895dc",
+      "qa_JPG_bytes": 129772
+    },
+    {
+      "shade": "20",
+      "merchant_variant_count": 1,
+      "source_present": true,
+      "exact_variant_photo_linked": true,
+      "status": "EXACT_VARIANT_LINKED_PHOTO_NEEDS_PACKAGING_QA",
+      "retail_approved": false,
+      "merchant_name": "20 Brown Yakgwa (Honey K-Ookie)",
+      "variant_id": "43894153052309",
+      "sku": "8809937590354",
+      "variant_photo_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/WXWorkCapture_17013262654561.png?v=1756449234",
+      "image_file": "20-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_dimensions": [
+        1000,
+        1000
+      ],
+      "source_sha256": "c39c8369cdf1b4ce2f0ebefe6faee3852e27d07c4dbc1b1e3714472c7b950f35",
+      "qa_JPG_sha256": "26df32b5ae57921d05603d0a7bf90a71d222375c878992ab6cd4228b134fbb64",
+      "qa_JPG_bytes": 131879
+    }
+  ],
+  "shopify_catalog_product_title": "Peripera Ink Mood Glowy Tint",
+  "catalog_numbered_variants_01to20": 20,
+  "same_number_duplicate_variant_options": {},
+  "same_photo_hash_across_different_shades": [],
+  "physical_variant_source_JPGs": 20,
+  "unique_variant_source_JPGs": 20,
+  "old_owned_stock_specific_variant_photos_verified": false,
+  "real_color_swatches_generated": 0,
+  "retail_newly_approved": 0,
+  "official_brand_gallery_verified": false
+}
