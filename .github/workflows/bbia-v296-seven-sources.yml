@@ -1,0 +1,20 @@
+name: BBIA v296 seven untouched source scenes
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v296_unseen_brow_shadow_sources.py, .github/workflows/bbia-v296-seven-sources.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v296_unseen_brow_shadow_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v296-seven-unseen-originals
+          path: /tmp/bbia-v296
+          retention-days: 30
