@@ -1,0 +1,35 @@
+name: Shopee v2719 correct flat-folder four real-source product alpha candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2719-flat-folder-alpha-path-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install actual image foreground segmentation
+        run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Correct only actual source-folder resolution for pending13 and run all four original cutouts
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2719_fix_family_vs_flat_QA_photo_path.py
+          cp scripts/v2719_fix_family_vs_flat_QA_photo_path.py /tmp/v2719.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2719-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2719-qa
+          python /tmp/v2719.py
+          git add qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2719 four distinct CLIO MISSHA real-alpha QA cutout candidates, correct flat serum folder'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
