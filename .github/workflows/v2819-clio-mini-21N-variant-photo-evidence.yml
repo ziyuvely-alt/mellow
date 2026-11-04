@@ -1,0 +1,28 @@
+name: Shopee v2819 CLIO mini 21N variant-specific images no 23N replacement
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2819-clio-mini-21N-variant-photo-evidence.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install Pillow requests
+      - name: Probe two exact Original Mini 5g product variant galleries and stage only actual 21N-linked photos
+        run: |
+          python scripts/v2819_clio_21N_shade_specific_source_check.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2819-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2819-qa
+          cp -a /home/runner/work/mellow/mellow/qa-review/v2819-clio-original-mini-5g-21N-exact-variant-photo-evidence qa-review/
+          git add qa-review/v2819-clio-original-mini-5g-21N-exact-variant-photo-evidence
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2819 CLIO mini 21N variant link evidence, no false 23N photos'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
