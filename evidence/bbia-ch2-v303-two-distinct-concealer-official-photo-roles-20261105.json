@@ -1,0 +1,82 @@
+{
+  "checkpoint": "v303",
+  "parent": "v302",
+  "date": "2026-11-05",
+  "execution": {
+    "source_run_id": 41864085398,
+    "source_artifact_id": 13340189396,
+    "originals_received": 9,
+    "originals_re_downloaded_in_this_checkpoint": 0,
+    "created_new_images": 2,
+    "product_id": "1000000125",
+    "product": "BBIA EAU Stay Concealer",
+    "roles": [
+      {
+        "name": "PRODUCT COLLECTION",
+        "file": "BBIA_1000000125_PRODUCT_COLLECTION_v303_QA_PENDING.jpg",
+        "source": "BBIA_1000000125_SOURCE_5_v302.jpg",
+        "crop": [
+          0,
+          3000,
+          1000,
+          3800
+        ]
+      },
+      {
+        "name": "MODEL CAMPAIGN APPLICATION",
+        "file": "BBIA_1000000125_APPLICATION_LOOK_v303_QA_PENDING.jpg",
+        "source": "BBIA_1000000125_SOURCE_4_v302.jpg",
+        "crop": [
+          0,
+          1500,
+          1000,
+          2800
+        ]
+      }
+    ],
+    "local_files": {
+      "contact": "/mnt/data/bbia_v303/BBIA_v303_TWO_DISTINCT_CONCEALER_ROLES_CONTACT.jpg",
+      "zip": "/mnt/data/bbia_v303/BBIA_v303_TWO_CONCEALER_ROLES_QA_PENDING.zip",
+      "manifest": "/mnt/data/bbia_v303/BBIA_v303_MANIFEST.json"
+    },
+    "zip_sha256": "2b12f2de3143ec4cd61ae432e2bb9f351d51daa0ba4ac4ef5e045984fee76ffd",
+    "zip_crc": "PASS"
+  },
+  "manual_visual_qa": {
+    "opened_actual_contact": true,
+    "real_photo": true,
+    "no_embedded_korean_in_chosen_crops": true,
+    "photographic_inset_rectangles_visible": true,
+    "model_photo_has_original_small_english_inset": true,
+    "sales_approved": 0,
+    "shades_verified": false,
+    "transparent_cutout_verified": false
+  },
+  "hold": [
+    {
+      "goodsNo": "1000000187",
+      "source_index": 4,
+      "status": "HOLD_PARTIAL_MINI_BOTTLE",
+      "reason": "Product top is cropped in real source and does not meet sales-photo QA"
+    },
+    {
+      "goodsNo": "1000000216",
+      "source_index": 5,
+      "status": "HOLD_DUPLICATE_ROLE",
+      "reason": "Woman holding eyeliner already produced as v294 genuine-photo role"
+    },
+    {
+      "goodsNo": "1000000125",
+      "source_index": 6,
+      "status": "HOLD_KOREAN_SPECS_ONLY",
+      "reason": "Specification table not photo role"
+    }
+  ],
+  "preservation": {
+    "public_verified_55_urls_unchanged": true,
+    "older_approved_images_changed": false,
+    "v294_images_changed": false,
+    "final_xlsx_shared": false
+  },
+  "next": "Continue distinct, unused photo role sources; do not redo v303 two JPGs. Commercial asset QA and cutout remain gates."
+}
