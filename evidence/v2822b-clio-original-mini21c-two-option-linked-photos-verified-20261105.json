@@ -1,0 +1,46 @@
+{
+  "version": "v2822b",
+  "date": "2026-11-05",
+  "baseline": "v2821",
+  "github_action_run_id": 41934685735,
+  "github_action_conclusion": "success",
+  "failed_run_not_repeated": 41934455811,
+  "failure_cause": "Proof path variable was defined only in no-photo branch; when photos existed, NameError was raised before artifacts could persist",
+  "corrective_action": "Patch path scope and use append-only new QA folder; no regeneration of 21N or 23N approved photo records",
+  "qa_folder": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof",
+  "family": "pending-05",
+  "exact_variant": "21C Lingerie",
+  "size": "5g",
+  "independent_21C_variant_merchants": [
+    {
+      "merchant": "DODOSKIN",
+      "variant_id": "44831593070748",
+      "image_visual": "BEIGE_ONLY_COLOR_SWATCH",
+      "role": "SHADE_REFERENCE_ONLY"
+    },
+    {
+      "merchant": "Lila Beauty",
+      "variant_id": "42057464741950",
+      "image_visual": "EXACT_21C_COMPACT_AND_PUFF_PLUS_SWATCH",
+      "role": "PRODUCT_HERO_REAL_SOURCE_CANDIDATE"
+    }
+  ],
+  "original_korean_official_7108_available": [
+    "21N",
+    "23N"
+  ],
+  "exact_user_owned_21C_confirmed": false,
+  "explicit_21C_photo_candidates_saved": 2,
+  "original_21N_and_23N_photos_unchanged": true,
+  "commercial_reuse_rights_confirmed": false,
+  "original_MK_logo_approved": false,
+  "new_sale_approved": false,
+  "next_v2823_run_id": 41934837231,
+  "next_task": "Physically segment actual compact and puff from exact Lila 21C variant; visually review for cut edges and remove color background; do not rename 21N/23N",
+  "safeguards": {
+    "published_11_families_untouched": true,
+    "public_55_urls_untouched": true,
+    "existing_QA_21N_23N_artifacts_untouched": true,
+    "final_xlsx_shared": false
+  }
+}
