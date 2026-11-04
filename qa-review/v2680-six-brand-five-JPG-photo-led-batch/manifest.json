@@ -1,0 +1,314 @@
+{
+  "version": "v2680",
+  "baseline": "v2678",
+  "new_five_JPG_QA_draft_families": 6,
+  "total_JPG_count": 30,
+  "original_real_JPGs_preserved": 15,
+  "new_fact_only_JPGs": 15,
+  "new_retailable_approvals": 0,
+  "source_historical_not_v2647": true,
+  "commercial_photo_rights_verified": false,
+  "actual_stock_edition_verified": false,
+  "previously_approved_11_unchanged": true,
+  "verified_public_55_urls_unchanged": true,
+  "final_spreadsheet_not_shared": true,
+  "families": [
+    {
+      "family": "pending-23",
+      "brand": "OBgE",
+      "product": "PORE ZERO OIL CONTROL SUN CREAM",
+      "volume": "50 mL",
+      "real_source_unmodified": 3,
+      "new_factual_JPG": 2,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot01-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "source_slot": 1,
+          "bytes": 124885
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot03-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "source_slot": 3,
+          "bytes": 122133
+        },
+        {
+          "frame": 3,
+          "file": "03-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "source_slot": 4,
+          "bytes": 74592
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "2039732e623ef8b7052857dd95502628242152cb246b4e3368f259220d6f7e5d",
+          "bytes": 71681
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "99d27fd547ce9a222d0b8f3c4800fba6c13fdb8b13c50139c5864996c471ec9b",
+          "bytes": 56865
+        }
+      ]
+    },
+    {
+      "family": "pending-24",
+      "brand": "BIOHEAL BOH",
+      "product": "NAD-PRIZCELL GLOW POWER SERUM",
+      "volume": "30 mL",
+      "real_source_unmodified": 3,
+      "new_factual_JPG": 2,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+          "source_slot": 2,
+          "bytes": 175959
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+          "source_slot": 4,
+          "bytes": 201351
+        },
+        {
+          "frame": 3,
+          "file": "03-actual-source-slot05-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "803fdc88c7a58f2ba54c94fdb5e3e02053969d978d4c9d34f19960fffe218688",
+          "source_slot": 5,
+          "bytes": 288786
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "608a20168a4789c45386cbecf38f4e756c9acb9357ee5bb4e127608d4ae232c3",
+          "bytes": 77103
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "f49d06020bc3494b84d335a930ccaeb6fc72a8b5850f5a348f68d68bf6ef3b05",
+          "bytes": 62164
+        }
+      ]
+    },
+    {
+      "family": "pending-25",
+      "brand": "BIOHEAL BOH",
+      "product": "NAD-PRIZCELL GLOW BOOST CREAM",
+      "volume": "50 mL",
+      "real_source_unmodified": 2,
+      "new_factual_JPG": 3,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "ce3e9ac5b2715cbb797c119959dd6e443b1ac45d52229d773682e8234239d712",
+          "source_slot": 2,
+          "bytes": 159816
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "328a1046c09aeb060ea867f14f8c9b0593d468e10dcd6f99b2188378b64f07c6",
+          "source_slot": 4,
+          "bytes": 178157
+        },
+        {
+          "frame": 3,
+          "file": "03-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "df3074aa74c918b3ed1d97dae7f7d669cd71f6a2ddb8b596c508ad42640dfac4",
+          "bytes": 77189
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "afd174291a99489d3ec0b4a535fe70fb131e0891df632594b27b76a90139fd34",
+          "bytes": 62493
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-product-details-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "b389a3f435e721c76c7f64ab35cb821c4971dd692afd9c7e605cbfd0a794b450",
+          "bytes": 74426
+        }
+      ]
+    },
+    {
+      "family": "pending-27",
+      "brand": "PIXEL PURE",
+      "product": "SOOTHING AMPOULE TONER",
+      "volume": "200 mL",
+      "real_source_unmodified": 3,
+      "new_factual_JPG": 2,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "source_slot": 2,
+          "bytes": 197694
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot03-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "d487730f1c6415b80c0cf94675841138869c1df5b9bdeffcd75e5f1995bdc70d",
+          "source_slot": 3,
+          "bytes": 105036
+        },
+        {
+          "frame": 3,
+          "file": "03-actual-source-slot05-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "87716e1d8f81c54610c9c05ffabf552dc0f1b79ec2aac71e21fecdcf0298c091",
+          "source_slot": 5,
+          "bytes": 310741
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "dbb7a42d101dcfaff3b35a4e33d04ccd08b352d74160a09f123ca0687ed96183",
+          "bytes": 67735
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "61f36391ed1228a37cac12142a0a4daba89da2d48e38fee43eed22224fe56681",
+          "bytes": 60581
+        }
+      ]
+    },
+    {
+      "family": "pending-29",
+      "brand": "PIXEL PURE",
+      "product": "RADIANCE AQUA SOOTHING CREAM",
+      "volume": "50 mL",
+      "real_source_unmodified": 2,
+      "new_factual_JPG": 3,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "6a196923971d08efa98653e712abdcb4187c45458d1c8c82ce915ac439b14b59",
+          "source_slot": 2,
+          "bytes": 103861
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "e95fdc937b6a8c75d6e94d0bd345509a23e70324662b399c22381c3c849f6467",
+          "source_slot": 4,
+          "bytes": 173578
+        },
+        {
+          "frame": 3,
+          "file": "03-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "4ea2378e282ca76a728067acc043f9ebe251ad1664ca9f0c2f0d380f5d8eecb8",
+          "bytes": 73929
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "0570607ae6907d08e08d28aed7f5b81e1d9a0f86af8e3cdf4ae32b025a24e759",
+          "bytes": 58814
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-product-details-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "f160ef1d245456f3ca572d9573f27712ecf562a530f22d7e05b24cb4ecbe73b9",
+          "bytes": 71134
+        }
+      ]
+    },
+    {
+      "family": "pending-30",
+      "brand": "PIXEL PURE",
+      "product": "AURA RADIANCE SERUM",
+      "volume": "50 mL",
+      "real_source_unmodified": 2,
+      "new_factual_JPG": 3,
+      "frame_count": 5,
+      "image_status": "QA_ONLY_NEEDS_REAL_STOCK_LICENSE_V2647_FINAL_REVIEW",
+      "frames": [
+        {
+          "frame": 1,
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "source_slot": 2,
+          "bytes": 146178
+        },
+        {
+          "frame": 2,
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "type": "ORIGINAL_REAL_JPG_EXACT_BYTES",
+          "sha256": "a3daa58026d914bcd0d2fb67ca74ff38000d8b07ef89ceb386ebb54d9341d996",
+          "source_slot": 4,
+          "bytes": 89746
+        },
+        {
+          "frame": 3,
+          "file": "03-fact-only-product-information-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "126ee23e06808538b85235952a48b32bee9dd0b5cd7db4e499653468c20b07ff",
+          "bytes": 65582
+        },
+        {
+          "frame": 4,
+          "file": "04-fact-only-net-content-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "559a7a3cce9e0d10561407ecec55b7f6cfbcc2304c8a2004c6517a37e085442a",
+          "bytes": 58841
+        },
+        {
+          "frame": 5,
+          "file": "05-fact-only-product-details-QA.jpg",
+          "type": "NEW_FACTS_ONLY_INFO_FRAME",
+          "sha256": "83d341c67d34f551a2584b51ee7d4b3e4ac2c764b31081d29e6b25db3f33dfcc",
+          "bytes": 62783
+        }
+      ]
+    }
+  ]
+}
