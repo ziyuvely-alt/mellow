@@ -1,0 +1,32 @@
+name: Shopee v2768 native pixel edge verification on four MISSHA existing shades
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2768-missha-four-shades-native-edge-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Create true native-pixel original alpha edge details from four previous sha-immutable PNGs
+        run: |
+          cp scripts/v2768_missha_four_shades_native_edge_QA.py /tmp/v2768.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2768-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2768-qa
+          test ! -e qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection
+          python /tmp/v2768.py
+          git add qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2768 true 1:1 edge check on existing four MISSHA shade masks, no cutout regeneration'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
