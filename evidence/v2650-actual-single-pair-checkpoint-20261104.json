@@ -1,0 +1,68 @@
+{
+  "version": "v2650",
+  "date": "2026-11-04",
+  "baseline": "v2649",
+  "workflow_run_id": 41822808648,
+  "workflow_result": "success",
+  "proof_artifact_id": 13317591495,
+  "proof_url": "https://github.com/ziyuvely-alt/mellow/actions/runs/41822808648/artifacts/13317591495",
+  "audit_scope": "Only one flagged image pair of archived v2593, not v2647 canonical archive",
+  "pair": {
+    "family": "pending-05",
+    "product": "CLIO Kill Cover Founwear Cushion promotional set",
+    "slots": [
+      1,
+      5
+    ],
+    "dhash_distance": 5,
+    "mean_rgb_pixel_difference_thumbnail": 4.296,
+    "source_verified": "historical actual JPEG both in recovered Actions artifact",
+    "manual_visual_approval": false
+  },
+  "state": "HOLD_DUPLICATE_VISUAL_AND_EDITION",
+  "completed": [
+    "v2649 report reused (no 156-rescan)",
+    "historical image binaries restored from existing Actions artifact",
+    "01 vs 05 contact sheet built and uploaded to GitHub Actions as artifact",
+    "quantitative near-duplicate confirmation logged"
+  ],
+  "pending": [
+    "Check latest v2647 version of frames 01/05 before proposed replacement",
+    "Check actual cushion edition/stock packaging and permission to reuse photographs",
+    "Human visual review of side-by-side photo contact sheet"
+  ],
+  "locked": [
+    "11 previously approved families",
+    "55 publicly verified URLs",
+    "Existing 156 JPG v2647 QA archive not available to this execution; never overwrite",
+    "No final XLSX until project complete"
+  ],
+  "next_priority": [
+    {
+      "item": "pending-05 frames 01 and 05",
+      "next": "Check latest v2647 original first; then replace only the redundant frame using distinct genuine licensed stock photo"
+    },
+    {
+      "item": "pending-06 CLIO Mesh Glow promo",
+      "next": "Stock kit/edition rights gate"
+    },
+    {
+      "item": "pending-07 CLIO Mesh Blur promo",
+      "next": "Frame 01/04 similarity gate and exact box"
+    },
+    {
+      "item": "pending-08 Peripera tint",
+      "next": "Exact inventory 26AD shade chart license and generation gate"
+    },
+    {
+      "item": "pending-12 MISSHA Peel Shot",
+      "next": "15G inventory versus 15mL actual stock label"
+    },
+    {
+      "item": "pending-26 PIXEL PURE cleanser",
+      "next": "145mL photographed original, exclude all 150mL sources"
+    }
+  ],
+  "spreadsheet_shared": false,
+  "retail_images_published": 0
+}
