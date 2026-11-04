@@ -1,0 +1,44 @@
+{
+  "date": "2026-11-04",
+  "project": "BBIA Chapter 2",
+  "latest_checkpoint": "v193",
+  "from": "v191 source-pixel SHA audit; v192 mini collection source-format hold preserved",
+  "v192": {
+    "output": "BBIA_v192_REPLACEMENT_HERO_AND_QA_GATES.zip",
+    "product": "L'Eau Tint Mini",
+    "goodsNo": "1000000187",
+    "status": "HOLD_PRODUCT_FORMAT_PROOF",
+    "detail": "One separate EN collection-photo candidate created from archived 650x650 source photo. Exact mini pack and shade identity cannot be established; no release approval."
+  },
+  "v193": {
+    "product": "BBIA Eau Cushion Puff 2P",
+    "goodsNo": "1000000126",
+    "official_product_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000126",
+    "new_jpgs": 2,
+    "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+    "source_files": [
+      "batch/1000000126/photo-3.png",
+      "batch/1000000126/photo-5.png"
+    ],
+    "output_zip": "BBIA_v193_CUSHION_PUFF_2_NEW_SOURCE_PHOTO_EN_QA_PENDING.zip",
+    "preview": "BBIA_v193_CUSHION_PUFF_TWO_DISTINCT_PHOTOS_CONTACT.jpg",
+    "manifest": "BBIA_v193_MANIFEST.json",
+    "script": "v193_cushion_puff_source_photo_repair.py",
+    "purpose": [
+      "puff application scene, no false before-after claims",
+      "actual fabric strap macro with source captions excluded"
+    ],
+    "file_gate": "2 actual JPG 1080x1080 < 2MB; SHA256 source and output recorded; ZIP CRC pass",
+    "sales_approval": "QA_PENDING: current original source pixel/page identity and final editorial approval still unverified",
+    "previous_product_v161_five_assets_unchanged": true
+  },
+  "immutable": [
+    "v147 125 archived JPG",
+    "v150-v192 original work and holds",
+    "55 live published image URLs",
+    "main branch"
+  ],
+  "approved_sales_count_this_run": 0,
+  "excel_shared": false,
+  "next": "Never recreate v192 or v193. Seek product-specific current original photo proof before release; if blocked work a distinct incomplete family rather than recycling photo crops. Do not count two v193 replacement candidates as additional five-frame completion."
+}
