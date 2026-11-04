@@ -1,0 +1,37 @@
+name: Shopee v2579 select true distinct OBgE PoreZero 50ml photographs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2579_obge_porezero_3source_distinctness_select.py'
+      - '.github/workflows/v2579-obge-distinct-photo-selector.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  choose-genuine-distinct-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse existing PoreZero photo sources
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41761951264 -n shopee-v2578-two-true-OBGE-PoreZero-50ml-photo-sources-QA-no-XLSX -D v2579-v2578
+      - name: Reuse old five product scenes untouched
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2579-base
+      - name: Try third verified retailer shot and select distinct scenes
+        run: python scripts/v2579_obge_porezero_3source_distinctness_select.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2579-OBGE-PoreZero-actual-distinct-source-select-QA-no-XLSX
+          path: v2579-selected-distinct-obge-porezero-50ml/
+          retention-days: 90
+          if-no-files-found: error
