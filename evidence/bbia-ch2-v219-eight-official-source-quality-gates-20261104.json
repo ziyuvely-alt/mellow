@@ -1,0 +1,71 @@
+{
+  "checkpoint": "v219",
+  "date": "2026-11-04",
+  "parent": "v218",
+  "repo": "ziyuvely-alt/mellow",
+  "branch": "bbia-ch2-qa-20261104",
+  "run_id": 41825712717,
+  "artifact_id": 13319431461,
+  "workflow_conclusion": "success",
+  "actual_downloaded_official_photos": 8,
+  "download_errors": 0,
+  "official_refill_hero_dimensions": [
+    500,
+    500
+  ],
+  "shared_detail_source_dimensions": [
+    [
+      1000,
+      4179
+    ],
+    [
+      1000,
+      3645
+    ],
+    [
+      1000,
+      2422
+    ],
+    [
+      1000,
+      2940
+    ],
+    [
+      1000,
+      3689
+    ],
+    [
+      1000,
+      4860
+    ],
+    [
+      1000,
+      4988
+    ]
+  ],
+  "high_resolution_refill_only_hero_available": false,
+  "visual_review": "Manual contact sheet review: confirmed only refill_hero shows isolated refill insert; detail_06/09/10 show parent compact or generic design, others campaign/texture. No authorized exact variant swatch source among these.",
+  "source_contact_artifact": "BBIA_v219_OFFICIAL_SOURCE_CONTACT.jpg",
+  "source_manifest": "BBIA_v219_OFFICIAL_SOURCE_AUDIT.json",
+  "source_pages": [
+    "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124"
+  ],
+  "holds": [
+    {
+      "goodsNo": "1000000124",
+      "reason": "Official isolated refill hero is native 500px and has low product fill; the 1000px detail strips are not isolated refill packshots",
+      "status": "REFILL_HERO_HIRES_PENDING"
+    }
+  ],
+  "new_sales_jpg": 0,
+  "new_sales_approved": 0,
+  "old_jpg_modified": false,
+  "public_55_urls_modified": false,
+  "spreadsheet_shared": false,
+  "next": [
+    "Retain v217 candidate in HOLD and do not unreasonably upscale official 500px ref",
+    "Find isolated packaging evidence for other pending product IDs 200 and 206",
+    "Source detailed official option swatches for 200 / 206 independently; do not infer identity from generic hero",
+    "Once better isolated official product photo verified, produce targeted candidate only and perform visual QA before release"
+  ]
+}
