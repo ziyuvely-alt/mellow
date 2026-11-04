@@ -1,0 +1,51 @@
+{
+  "version": "v2770",
+  "previous": "v2769",
+  "family": "pending-21",
+  "source_photo": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/goodal-eyecream-30ml-single-original-independent-source.png",
+  "source_dimensions": [
+    1000,
+    1000
+  ],
+  "transparent_png": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/pending-21/01-genuine-single-30mL-tube-transparent-QA.png",
+  "square_JPG": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/pending-21/01-true-alpha-single-eyecream-1080-QA.jpg",
+  "previous_product_file_sha256_unchanged": true,
+  "source_rgb_equals_actual_opaque_cutout_rgb": true,
+  "max_RGB_channel_difference_for_foreground": 0,
+  "foreground_same_rgb_fraction": 1.0,
+  "alpha_bbox": [
+    11,
+    9,
+    259,
+    895
+  ],
+  "cap_coverage": {
+    "opaque_pixels": 36781,
+    "rows_with_at_least_20_opaque_pixels": 258
+  },
+  "native_1_to_1_cap_proof_saved": true,
+  "visually_reviewed_cap_and_full_product": "READY_FOR_FURTHER_QA",
+  "release_decision": "HOLD_UNVERIFIED_PHOTO_LICENSE_AND_STOCK_25AD_PACKAGE",
+  "commercial_photo_reuse_rights_verified": false,
+  "physical_inventory_edition_verified": false,
+  "authenticated_MK_original_logo_found": false,
+  "original_11_commercially_approved_product_families_unchanged": true,
+  "original_55_verified_public_image_URLs_unchanged": true,
+  "prior_QA_asset_JPGs_or_PNGs_changed": 0,
+  "new_retail_approvals": 0,
+  "final_excel_or_spreadsheet_shared": false,
+  "source_RGB_provenance_sectors": {
+    "upper_tube": {
+      "opaque_pixels": 60645,
+      "rows_with_at_least_20_opaque_pixels": 279
+    },
+    "middle_tube": {
+      "opaque_pixels": 61526,
+      "rows_with_at_least_20_opaque_pixels": 345
+    },
+    "bottom_silver_cap": {
+      "opaque_pixels": 36781,
+      "rows_with_at_least_20_opaque_pixels": 258
+    }
+  }
+}
