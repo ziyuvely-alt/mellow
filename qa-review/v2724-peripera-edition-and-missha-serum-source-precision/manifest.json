@@ -1,0 +1,82 @@
+{
+  "version": "v2724",
+  "date": "2026-11-05",
+  "baseline": "v2723",
+  "type": "OPTION_GENERATION_AND_SOURCE_IDENTITY_QA",
+  "product_families": [
+    {
+      "id": "pending-08",
+      "product": "PERIPERA Mood Glowy Tint 4g",
+      "inventory_claimed_generation": "26AD",
+      "inventory_shades": "001 to 020",
+      "do_not_automatically_rewrite_existing_selected_variants": true,
+      "proof_from_korean_26AD_listings": [
+        {
+          "url": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+          "finding": "2026 Korean 26AD page lists 001,002,003,005,008 to 020 selectively; 004,006,007 absent from shown selectable options, so a complete current 26AD 001-020 photo chart is not proved."
+        },
+        {
+          "url": "https://emart.ssg.com/item/itemView.ssg?itemId=1000801054539&salestrNo=6005&siteNo=6001",
+          "finding": "26AD retailer option list contains 001/002/003/005/008..020 but not 004/006/007."
+        }
+      ],
+      "overseas_20_shade_chart_reference": {
+        "url": "https://wcosmetics.com.au/products/peripera-mood-glowy-tint",
+        "chart_url": "https://wcosmetics.com.au/cdn/shop/files/2ca643c9-d315-4d63-9f0b-2e5d2e22d566_2a6906df-3278-427e-a43f-706128e40126.png?v=1776740581&width=1946",
+        "verification": "REJECT_AS_PROOF_OF_EXACT_CURRENT_26AD_001_020",
+        "reason": "Overseas diagram includes 04,06,07; current Korean 26AD retailer selector omits these. It may refer to another release, stock geography, or color generation. Do not associate image swatches with user inventory without exact code/barcode comparison."
+      },
+      "prior_004_006_007_name_evidence": "qa-review/evidence/v2569-peripera-004-006-007-014-naming-verified-20261104.json",
+      "corrected_014_name": "로지위시 / ROSY WISH",
+      "inventory_original_014_name_preserved": "로지워시",
+      "no_custom_color_chips": true,
+      "source_image_publishing_status": "HOLD_EDITION_AND_LICENSE",
+      "unblocked_stage": "TEXT_ONLY_REFERENCE_QA",
+      "remaining_requirements": [
+        "Original source photo of actual stocked 26AD packaging and barcode",
+        "Manufacturer-grade per-variant shade photographs corresponding to owned inventory",
+        "Commercial reproduction permission"
+      ]
+    },
+    {
+      "id": "pending-13",
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "original_v2719_failure": "Fact-only frame chosen, not photo",
+      "primary_photo": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+      "primary_photo_visual_review": "One full 30mL bottle with clear dropper closure and decorative transparent red bubble. Favor extracting only single bottle and reject if bubble remains as background.",
+      "secondary_photo": "qa-review/v2696-missha-serum-official-gallery-proof/source-03-REVIEW-ONLY.jpg",
+      "secondary_photo_visual_review": "Open 30mL product and pipette; use only as separate detailed information frame, not a sealed packshot.",
+      "excluded_media": [
+        "source-01",
+        "source-02",
+        "source-05",
+        "source-07",
+        "source-08",
+        "source-09",
+        "source-10",
+        "source-11",
+        "source-12"
+      ],
+      "excluded_reason": "Unrelated cosmetic gift bundles, mere text cards, models/multiple bottles and copy panels are not pure 30mL single-product heroes",
+      "independent_specs": "https://catalog.11st.co.kr/pc/507035514",
+      "specs_verified": {
+        "capacity": "30ml",
+        "item_package": "single bottle",
+        "packaging": "dropper"
+      },
+      "expected_next_source_use": "Actual alpha cutout from source04, with no packaging reconstruction",
+      "qa_status": "SOURCE_PHOTO_VISUALLY_SELECTED_ALPHA_OUTPUT_NOT_YET_GENERATED",
+      "full_commercial_license_verified": false,
+      "actual_stock_edition_matched": false
+    }
+  ],
+  "protected": {
+    "approved_11_product_families": true,
+    "verified_55_public_urls": true,
+    "original_32_alpha_png_jpg_pairs": true,
+    "prior_incomplete_QA_preserved": true,
+    "final_excel_shared": false
+  },
+  "new_sales_approvals": 0,
+  "notes": "This evidence is a tangible source and generation review, not a claim that new foreground JPGs have been produced."
+}
