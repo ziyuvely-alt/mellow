@@ -1,0 +1,32 @@
+name: Shopee v2814 five real-photo GOODAL renewal tube QA frames with honest 2-source manifest
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2814-goodal-renewal-five-photo-first-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  arrange:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Assemble unchanged true-alpha plus authentic distinct tube-and-cream photo crops
+        run: |
+          cp scripts/v2814_goodal_renewal_fiveframe_from_real_source.py /tmp/v2814.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2814-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2814-qa/qa-review/v2814-goodal-25ad-renewal-tube-five-photo-first-JPG-QA
+          cd /tmp/v2814-qa
+          python /tmp/v2814.py
+          git add qa-review/v2814-goodal-25ad-renewal-tube-five-photo-first-JPG-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2814 five honest GOODAL renewal tube photo-first QA frames, two genuine source photos, no prior rerender'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
