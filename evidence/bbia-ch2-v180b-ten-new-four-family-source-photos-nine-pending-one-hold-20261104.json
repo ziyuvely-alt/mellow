@@ -1,0 +1,67 @@
+{
+  "schema": "bbia_ch2_v180b_incremental_candidates",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v179b Last Blush 2 new EN JPG, and v179 6 new EN JPG",
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "new_jpg_created": 10,
+  "new_jpg_pending": 9,
+  "new_jpg_held": 1,
+  "product_groups": [
+    {
+      "goodsNo": "228",
+      "product": "BBIA Lip Oil Balm",
+      "new": 2,
+      "qa_pending": 2,
+      "hold": 0
+    },
+    {
+      "goodsNo": "234",
+      "product": "BBIA Ready To Wear Eye Palette",
+      "new": 3,
+      "qa_pending": 2,
+      "hold": 1,
+      "hold_reason": "two photographed palette + powder source scenes too similar"
+    },
+    {
+      "goodsNo": "1000000122",
+      "product": "BBIA Eau Glow Cushion FULL SIZE 15g (not mini/refill)",
+      "new": 3,
+      "qa_pending": 3,
+      "hold": 0
+    },
+    {
+      "goodsNo": "206",
+      "product": "BBIA Last Auto Gel Eyeliner",
+      "new": 2,
+      "qa_pending": 2,
+      "hold": 0
+    }
+  ],
+  "outputs": {
+    "archive": "/mnt/data/bbia_work/BBIA_v180b_9_ACTIVE_1_SIMILARITY_HOLD_EN_QA.zip",
+    "contact": "/mnt/data/bbia_work/BBIA_v180_TEN_EN_FOUR_FAMILY_CONTACT.jpg",
+    "source_manifest": "QA/MANIFEST_v180b.json",
+    "script": "v180_produce.py"
+  },
+  "technical": {
+    "jpg_1080x1080": 10,
+    "each_under_2mb": true,
+    "zip_crc_pass": true
+  },
+  "quality_flags": [
+    "All 10 artwork candidates still use simple photo frame layouts; NOT approved premium editorial final.",
+    "Source JPGs use archived product photo PNG bytes. Exact official original-photo match not independently verified.",
+    "Three crop flaws corrected during draft development; historical assets preserved.",
+    "Hold one duplicate-angle palette swatch/photo variant; exact product option shade accuracy not asserted.",
+    "No 5-frame complete family produced in this batch."
+  ],
+  "sale_approved": 0,
+  "localizations": 0,
+  "protected": [
+    "v147 source 125 JPG and all v150-v179b outputs",
+    "55 published URL assets",
+    "prior holds including 24 historical"
+  ],
+  "next": "Do not recreate v180b 10. Next job should improve only scene failures with independent authentic original source photograph and material design upgrade, not further cookie-cutter template frames. Check exact official product photo and option lineage before EN approval. Move to source-ready unrelated family if blocked.",
+  "excel_shared": false
+}
