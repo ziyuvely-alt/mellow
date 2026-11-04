@@ -1,0 +1,42 @@
+{
+  "version": "v2636",
+  "date": "2026-11-04",
+  "baseline": "v2635",
+  "local_archive": "/mnt/data/Shopee_v2636_156JPG_PIXELPURE_two_photo_focus_QA_ONLY.zip",
+  "total_jpg": 156,
+  "modified_jpg": 2,
+  "unmodified_jpg_sha256_identical": 154,
+  "verified_zip_integrity": true,
+  "edits": [
+    {
+      "family": "pending-28",
+      "slot": 3,
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 210 mL 70 pads",
+      "old_filename": "03_03_INV_03_7280158c0e_EN_V2421C.jpg",
+      "new_filename": "03_v2636_actual_photo_focus_no_provisional_logo_QA.jpg",
+      "old_sha256": "a92bea78d2f72f88b2f147af43c1e689f461347daa27487583abc4b499489f1c",
+      "new_sha256": "73fe6f8d213a1d1503ad365cfa2c5a760a000e161a437880eb00c8b27527ed5a",
+      "reason": "Full-frame photo-focused crop eliminates large square graphic and temporary unsupported MK logo, preserves actual jar printing and 210mL / 70pads"
+    },
+    {
+      "family": "pending-29",
+      "slot": 5,
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50 mL",
+      "old_filename": "05_05_INV_05_ee51bf59e7_EN_V2421C.jpg",
+      "new_filename": "05_v2636_actual_photo_focus_no_provisional_logo_QA.jpg",
+      "old_sha256": "189c680af1f081f6ac7b85360f5bc52500f135d618f7eea5dbb8e127f8086328",
+      "new_sha256": "3b6d4d5f6cc4889209f5f076d13488fdd89b478e099a5791c06f20977d2521de",
+      "reason": "Full-frame original jar product photograph enlarged; obsolete photo card and provisional MK excluded"
+    }
+  ],
+  "dimensions": "1080x1080",
+  "jpeg_under_2MB": true,
+  "photo_usage_license_verified": false,
+  "exact_stock_edition_verified": false,
+  "original_MK_logo_verified": false,
+  "commercial_image_approved": false,
+  "existing_11_approved_product_families_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "final_xlsx_shared": false,
+  "next": "Continue from v2636 full QA ZIP, do not redo these 2 photo-first replacements. Pending-30 slot03 front serum photo inside square card appears small but upscaling existing crop would degrade detail; hold rather than make blurry substitution. Find actual higher resolution original if proceeding. All 30 families remain review-only pending rights and MK."
+}
