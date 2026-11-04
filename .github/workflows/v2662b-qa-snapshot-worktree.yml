@@ -1,0 +1,38 @@
+name: Shopee v2662b isolated worktree 14 candidate retention
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2662b-qa-snapshot-worktree.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  save:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recover original bytes from v2656 artifact
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41825277732 -n shopee-v2656-immutable-14-real-photo-QA-JPG-with-hash-manifest-no-XLSX -D source/v2656
+      - name: Stage exactly 14 hash-matching images
+        run: python scripts/v2662_prepare_qa_snapshot.py
+      - name: Write using isolated worktree, without checking out over staging folder
+        run: |
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2662-qa-worktree qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2662-qa-worktree/qa-review/v2662-14-candidate-snapshot
+          mkdir -p /tmp/v2662-qa-worktree/qa-review
+          cp -a qa-review/v2662-14-candidate-snapshot /tmp/v2662-qa-worktree/qa-review/
+          cd /tmp/v2662-qa-worktree
+          git add qa-review/v2662-14-candidate-snapshot
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'Preserve 14 existing QA JPG candidates immutably on isolated branch'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
