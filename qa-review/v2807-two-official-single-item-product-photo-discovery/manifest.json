@@ -1,0 +1,177 @@
+{
+  "version": "v2807",
+  "baseline": "v2806",
+  "targets": 2,
+  "saved_actual_firstparty_JPG_references": 9,
+  "goodal_25AD_sku_edition_proven": false,
+  "obge_korean_official_5g_capacity_reference": "https://www.obge.co.kr/product/detail.html?product_no=1096",
+  "photo_redistribution_permission_verified": false,
+  "source_gallery_product_photos_only_until_visual_QA": true,
+  "original_11_approved_families_untouched": true,
+  "original_55_public_urls_untouched": true,
+  "previous_QA_assets_untouched": true,
+  "new_retail_approvals": 0,
+  "final_spreadsheet_shared": false,
+  "cases": [
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher",
+      "official_page": "https://obgeglobal.com/products/oil-control-finisher",
+      "source_type": "FIRST_PARTY_OFFICIAL_PRODUCT_GALLERY",
+      "source_edition_verified_for_owned_inventory": false,
+      "photo_commercial_reuse_license_verified": false,
+      "retail_approved": false,
+      "photos": [
+        {
+          "file": "pending-09/01-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/83.png?v=1776049524",
+          "native_dimensions": [
+            997,
+            997
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "9c719a0038430eb827b440efd82ca607171e1d1f98f7d7d63b8c68a48a3fea53",
+          "bytes": 91908,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/02-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/7.jpg?v=1776049836",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "6e5e2e70beb1e17131d10cb39e04526c4a9cde4b3d2c2893e432bd54711a42a5",
+          "bytes": 227473,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/03-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/1_0569c85f-7213-43c4-857b-f6016d4cda56.jpg?v=1776049836",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "291e4116c8660ab669641e5fb37bef9e57cecd0ac8bbd08db16ef7e84231ffb9",
+          "bytes": 296062,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/04-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/2.jpg?v=1776056317",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "a3c5f4cd301b92a0feb2d07e3cd31fe78efbdddbd57a9613ac65753bad328682",
+          "bytes": 160411,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/05-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/4.jpg?v=1776056317",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "93366a7062f95f627cb068b4808522ca46f300edef57da8f666cd86fdc3ea2fb",
+          "bytes": 186030,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/06-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/3_121c655f-374e-4d6d-9f02-1ca22eb18f0f.jpg?v=1776056317",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "e6a04cfa783d50c3f97a1456ba191f1d7ea0f46fc709897b05906b85b77e8cb0",
+          "bytes": 205810,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/07-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/61ALCDNBPbL._SL1342.jpg?v=1782190464",
+          "native_dimensions": [
+            1342,
+            1342
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "616e0b4dfe0f20bff7a933ce7abe6b626d0ea45d6dccc7fb420170ef45e9a61a",
+          "bytes": 168839,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/08-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/5_64307ae7-7dd2-443c-ae09-b991c0830fe2.jpg?v=1776056317",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "9c2b6301169c6993ce0d78c809f96d06d72580750b3ce9bea85761ea2c1434d8",
+          "bytes": 210544,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        },
+        {
+          "file": "pending-09/09-firstparty-real-item-gallery-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/6.jpg?v=1776056317",
+          "native_dimensions": [
+            1800,
+            1800
+          ],
+          "actual_encoded_1080_reference": true,
+          "sha256": "0f4ad2820d10e05fbef61327bdb260cec70ef3c7e38f2e2ae69120710c1ff0b8",
+          "bytes": 189825,
+          "commercial_use_allowed": false,
+          "exact_stock_edition_proven": false
+        }
+      ],
+      "status": "GALLERY_PHOTOS_SAVED_VISUAL_QA_REQUIRED",
+      "source_title": "Oil Control Finisher",
+      "variant_list": [
+        {
+          "title": "Default Title",
+          "sku": "O-OCF-FBM"
+        }
+      ],
+      "total_source_image_links": 9,
+      "sample_urls": [
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/83.png?v=1776049524",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/7.jpg?v=1776049836",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/1_0569c85f-7213-43c4-857b-f6016d4cda56.jpg?v=1776049836",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/2.jpg?v=1776056317",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/4.jpg?v=1776056317",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/3_121c655f-374e-4d6d-9f02-1ca22eb18f0f.jpg?v=1776056317",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/61ALCDNBPbL._SL1342.jpg?v=1782190464",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/5_64307ae7-7dd2-443c-ae09-b991c0830fe2.jpg?v=1776056317",
+        "https://cdn.shopify.com/s/files/1/0921/7664/6430/files/6.jpg?v=1776056317"
+      ]
+    },
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vitamin C Dark Circle Eye Cream",
+      "official_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream",
+      "source_type": "FIRST_PARTY_OFFICIAL_PRODUCT_GALLERY",
+      "source_edition_verified_for_owned_inventory": false,
+      "photo_commercial_reuse_license_verified": false,
+      "retail_approved": false,
+      "photos": [],
+      "status": "HOLD_OFFICIAL_PAGE_FETCH_OR_IDENTITY",
+      "error": "404 Client Error: Not Found for url: https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream"
+    }
+  ]
+}
