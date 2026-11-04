@@ -1,0 +1,60 @@
+{
+  "checkpoint": "v273",
+  "date": "2026-11-04",
+  "parent": "v272",
+  "source_artifact_id": 13331548320,
+  "execution": "Existing local JPEGs, contact and ZIP discovered and verified without regenerating",
+  "source_photos_reused": 3,
+  "new_detail_qa_jpg": 3,
+  "files": [
+    {
+      "goodsNo": "1000000187",
+      "file": "BBIA_1000000187_OFFICIAL_DETAIL_v273_QA_PENDING.jpg",
+      "bytes": 136715,
+      "sha256": "8b7fba8e97396349219403d0b445db61afa7de21429bd66bc50a0b4ccd55eb4b",
+      "role": "bottle and applicator details"
+    },
+    {
+      "goodsNo": "1000000120",
+      "file": "BBIA_1000000120_OFFICIAL_DETAIL_v273_QA_PENDING.jpg",
+      "bytes": 115516,
+      "sha256": "57b13ad7fd00242e0e8636dde98885fa358473b4d2fe8817aed948abee722e36",
+      "role": "standard 15g vs mini 4g comparison"
+    },
+    {
+      "goodsNo": "1000000208",
+      "file": "BBIA_1000000208_OFFICIAL_DETAIL_v273_QA_PENDING.jpg",
+      "bytes": 118794,
+      "sha256": "928b9b4c3d62a112cd09ebc05c498ac0118e6198beb9f76657da643d9633cc42",
+      "role": "bottle applicator texture"
+    }
+  ],
+  "visual_qa": {
+    "real_contact_opened": true,
+    "contains_korean": false,
+    "source_product_identity": "Mini-focused source photos, standard-size package intentionally present only in comparison frame",
+    "remaining_issues": [
+      "Inset photos still rectangular; not true alpha segmentation",
+      "Product appearance not exact shade option mapping",
+      "Not sales-approved or final localization"
+    ],
+    "status": "THREE_NEW_DISTINCT_DETAIL_ROLES_QA_PENDING"
+  },
+  "artifacts": {
+    "contact": "/mnt/data/bbia_v273/BBIA_v273_THREE_DISTINCT_MINI_DETAILS_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v273/BBIA_v273_THREE_MINI_DETAIL_QA_PENDING.zip",
+    "manifest": "/mnt/data/bbia_v273/BBIA_v273_MANIFEST.json"
+  },
+  "preserve": {
+    "v271_original_hero_untouched": true,
+    "v272_originals_untouched": true,
+    "published_jpg_untouched": true,
+    "verified_55_urls_untouched": true,
+    "final_xlsx_shared": false
+  },
+  "next": [
+    "Inspect existing alternate manufacturer detail source #2 for three mini product lines, without reworking these 3 new JPEGs",
+    "Only create new creative role if it is genuinely distinct, text-clean, and source supported",
+    "Continue remaining incomplete product family if alternate source unfit"
+  ]
+}
