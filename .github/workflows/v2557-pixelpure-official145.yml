@@ -1,0 +1,37 @@
+name: Shopee v2557 verified exact 145ml Pixelpure image only no 150ml
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2557_pixelpure_official_145_only.py'
+      - '.github/workflows/v2557-pixelpure-official145.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  photo-safe-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 existing QA images unchanged
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2557-base156
+      - name: Restore original brand gallery images for SHA protected 145ml only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41710591522 -n shopee-v2533-pixelpure-145ml-official-exact-gallery-QA-only -D v2557-source-145
+      - name: Render one actual 145ml photo candidate and compare against other five
+        run: python scripts/v2557_pixelpure_official_145_only.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2557-pixelpure-pending26-official145-only-photo-QA-no-XLSX
+          path: v2557-pixelpure-exact145-candidate-QA/
+          retention-days: 90
+          if-no-files-found: error
