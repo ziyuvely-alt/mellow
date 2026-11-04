@@ -1,0 +1,56 @@
+{
+  "schema": "bbia_ch2_v214_incremental_release_gates",
+  "date": "2026-11-04",
+  "base_checkpoint": "v213",
+  "repo": "ziyuvely-alt/mellow",
+  "branch": "bbia-ch2-qa-20261104",
+  "verified_against_branch_tree": "07cc166ce9666f6e2c174f567e68d1439a7928c7",
+  "checks": {
+    "206_last_auto_gel_eyeliner": {
+      "existing_public_jpg_count": 6,
+      "public_paths": [
+        "public/images/206/01.jpg",
+        "public/images/206/02.jpg",
+        "public/images/206/03.jpg",
+        "public/images/206/04.jpg",
+        "public/images/206/05.jpg",
+        "public/images/206/06.jpg"
+      ],
+      "v213_added_candidates": 1,
+      "action": "KEEP_PUBLISHED_IMMUTABLE; v213 is QA_PENDING not an automatic seventh sales image; independently match product edition and exact variant before any promotion",
+      "status": "PHOTO_VARIANT_VERIFICATION_PENDING"
+    },
+    "200_last_powder_lipstick": {
+      "existing_public_jpg_count": 0,
+      "v213_added_candidates": 2,
+      "action": "DO_NOT_PUBLISH; source texture and studio photos are editorial only until packaging and option identity checked",
+      "status": "SOURCE_IDENTITY_PENDING"
+    },
+    "1000000122_eau_glow_cushion_fullsize": {
+      "existing_public_jpg_count": 6,
+      "shared_source_duplicate_with": "1000000124 refill",
+      "action": "KEEP_PUBLISHED_IMMUTABLE; quarantine historical shared source images as package/contents proof",
+      "status": "PACKAGE_SPECIFIC_PROOF_HOLD"
+    },
+    "1000000124_eau_glow_cushion_refill": {
+      "existing_public_jpg_count": 0,
+      "shared_source_duplicate_with": "1000000122 fullsize",
+      "action": "DO_NOT_PROMOTE_SHARED_CREATIVE_AS_REFILL_HERO",
+      "status": "REFILL_PHOTO_REQUIRED"
+    },
+    "1000000108_last_auto_eyebrow": {
+      "v207_candidates": 2,
+      "v208_candidates": 1,
+      "action": "REUSE_EXISTING_5_DISTINCT_DRAFT_ROLES; check current packaging/option and composition before approval; no regeneration",
+      "status": "FINAL_VISUAL_AND_VARIANT_QA_PENDING"
+    }
+  },
+  "policy": {
+    "sales_approved_by_this_checkpoint": 0,
+    "new_jpg_generated": 0,
+    "preexisting_assets_modified": false,
+    "approved_55_urls_modified": false,
+    "excel_shared": false,
+    "next_run": "Use exact SKU-specific authenticated product photo; fail only ambiguous variants and continue next family. Never count archived hashes as final scene approvals."
+  }
+}
