@@ -1,0 +1,36 @@
+{
+  "version": "v2594",
+  "date": "2026-11-04",
+  "family": "pending-12",
+  "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+  "original_inventory_option": "15G",
+  "inventory_display_family": "15ml",
+  "canonical_public_product_volume": "15 mL",
+  "canonical_unit": "mL",
+  "verification_status": "BRAND_OFFICIAL_PRODUCT_VOLUME_CONFIRMED",
+  "sources": [
+    {
+      "type": "brand-KR-official",
+      "url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+      "evidence": "용량/중량 15ml"
+    },
+    {
+      "type": "brand-JP-official",
+      "url": "https://www.misshajp.com/shop/g/gMS104057/",
+      "evidence": "内容量 15ml"
+    },
+    {
+      "type": "brand-owned-company-announcement",
+      "url": "https://able-cnc.com/bbs/board.php?bo_table=news&wr_id=384",
+      "evidence": "PDRN NAD+ product line"
+    }
+  ],
+  "inventory_file_changed": false,
+  "existing_image_files_changed": 0,
+  "public_55_urls_changed": 0,
+  "source_option_15G_is_not_verified_package_weight": true,
+  "product_photo_rights_confirmed": false,
+  "physical_stock_label_compared": false,
+  "product_release_policy": "HOLD_STOCK_LABEL_CROSSCHECK; future public product copy should read 15 mL only after seller confirms physical stock product identity",
+  "excel_created_or_shared": false
+}
