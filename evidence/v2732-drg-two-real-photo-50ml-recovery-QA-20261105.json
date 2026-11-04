@@ -1,0 +1,36 @@
+{
+  "version": "v2732",
+  "date": "2026-11-05",
+  "previous_successful": "v2731",
+  "successful_actions_run": 41875905542,
+  "isolated_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "output_dir": "qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts",
+  "actual_outputs": [
+    {
+      "family": "pending-15",
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "real_alpha_png": true,
+      "real_1080jpg": true,
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-15/01-historical-real-art-photo-unchanged-QA.jpg",
+      "visual_decision": "QA_CANDIDATE_UPPER_AND_LOWER_CAP_PRESERVED",
+      "note": "Front tube with green strip and lower cap present; no apparent masking residue in preview."
+    },
+    {
+      "family": "pending-17",
+      "product": "Dr.G Brightening Up Moisture Sun 50mL",
+      "real_alpha_png": true,
+      "real_1080jpg": true,
+      "source": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+      "visual_decision": "QA_HOLD_UPPER_RIM_EDGE_CONTACT",
+      "note": "Complete lower cap. Alpha mask touches top of y180 source crop across 43.09% of pixels. Increase source top y55 in v2733 without redoing pending15."
+    }
+  ],
+  "image_rights_proven": false,
+  "owned_stock_exact_edition_proven": false,
+  "original_MK_logo_authenticated": false,
+  "new_retail_approved": 0,
+  "old_11_sales_approved_groups_untouched": true,
+  "published_55_urls_untouched": true,
+  "final_xlsx_or_spreadsheet_shared": false,
+  "next": "v2733 single-family top rim correction submitted GitHub run 41876519151. Keep all prior source JPGs and v2732 real alpha outputs immutable."
+}
