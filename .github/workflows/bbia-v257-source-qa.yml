@@ -1,0 +1,22 @@
+name: BBIA v257 three untouched source role inspection
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v257_three_untouched_source_qa.py
+      - .github/workflows/bbia-v257-source-qa.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v257_three_untouched_source_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v257-three-original-detail-source-inspection
+          path: /tmp/bbia-v257
+          retention-days: 30
