@@ -1,0 +1,32 @@
+name: Shopee v2762 consolidate 20 original Peripera variants and one MISSHA hero upgrade
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2762-20shade-plus-missha-serum-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compose saved exact original JPG/PNG candidates without rerendering
+        run: |
+          cp scripts/v2762_compose20_peripera_plus5_missha_qa.py /tmp/v2762.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2762-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2762-qa
+          test ! -e qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade
+          python /tmp/v2762.py
+          git add qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2762 assemble 20 immutable PERIPERA old-variant PNG/JPG option QA pairs and improve one MISSHA 30mL serum hero'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
