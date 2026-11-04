@@ -1,0 +1,63 @@
+{
+  "schema": "bbia_ch2_v191_incremental_production",
+  "date": "2026-11-04",
+  "previous": "v190 three published QA_PENDING draft JPGs, left unchanged",
+  "new_jpgs": 3,
+  "products": [
+    {
+      "goodsNo": "172",
+      "family": "BBIA Never Die Mascara full size",
+      "scenes": [
+        "Applicator product detail",
+        "Brush reference close-up"
+      ],
+      "photo": "verified_sources/catalog/172/03.jpg",
+      "crop_regions": [
+        [
+          150,
+          845,
+          965,
+          1760
+        ],
+        [
+          80,
+          3090,
+          980,
+          3710
+        ]
+      ]
+    },
+    {
+      "goodsNo": "1000000120",
+      "family": "BBIA Eau Glow Cushion MINI source catalog",
+      "scene": "campaign photo reference only, not mini packaging/shade",
+      "photo": "verified_sources/catalog/1000000120/03.jpg",
+      "crop_region": [
+        100,
+        605,
+        925,
+        1370
+      ]
+    }
+  ],
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "verification": "All historical source JPEG SHA256 match same-goodsNo archived official-photo URL ledger. This does not prove current official photo identity or exact SKU/variant. Source pixels not synthetically altered.",
+  "outputs": [
+    "BBIA_v191_3_NEW_ARCHIVAL_SOURCE_EN_QA_PENDING.zip",
+    "BBIA_v191_THREE_DISTINCT_VERIFIED_SOURCE_SCENES_CONTACT.jpg",
+    "BBIA_v191_SOURCE_SCENE_MANIFEST.json",
+    "v191_new_source_scenes.py"
+  ],
+  "technical": "3 JPEG 1080x1080 each <2MB, saved with source/output SHA256, valid ZIP CRC; contact manually visually reviewed",
+  "held_unusable_sources": [
+    "1000000135/04.jpg excessively long shade swatch without exact shade proof",
+    "1000000216/10.jpg compliance document only",
+    "172/11.jpg compliance table only",
+    "207/08.jpg unrelated compact displayed in same photo"
+  ],
+  "sale_approved": 0,
+  "translations": 0,
+  "prior_deliverables_or_live_urls_changed": false,
+  "no_excel_shared": true,
+  "next": "Do not recreate v191 3 images. Complete independent current official product/image photo and exact option checking. Use approved product-only source and correct layout for other missing family frames; leave unusable catalog images held."
+}
