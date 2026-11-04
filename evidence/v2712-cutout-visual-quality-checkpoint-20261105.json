@@ -1,0 +1,67 @@
+{
+  "version": "v2712-visual-QA",
+  "date": "2026-11-05",
+  "project": "Shopee stock existing-image cutout enhancement",
+  "last_successful_action_run_id": 41856969534,
+  "actual_completed": {
+    "initial_v2711_run": 41856478452,
+    "v2711_products": [
+      "pending-04",
+      "pending-26",
+      "pending-25",
+      "pending-22"
+    ],
+    "v2711_actual_transparent_png_and_JPGs": 4,
+    "v2712_second_model_success_count": 3,
+    "v2712_products": [
+      "pending-04",
+      "pending-25",
+      "pending-22"
+    ],
+    "source_images_redone": 0,
+    "original_55_urls_modified": 0
+  },
+  "visual_decisions": [
+    {
+      "family": "pending-04",
+      "product": "CLIO Mini Cushion 5g",
+      "source": "v2712",
+      "decision": "HOLD_RESIDUAL_BACKGROUND",
+      "reason": "Compact and inner cushion geometry improved but pale wave-like background remnants visible below and around compact; do not call clean cutout; do not attempt a third model without better source."
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gel-to-Foam Cleanser 145mL",
+      "source": "v2711",
+      "decision": "QA_CANDIDATE",
+      "reason": "Bottle body legible and isolated, cap has grey remnant/soft edge to check at final resolution; no original product photo modification."
+    },
+    {
+      "family": "pending-25",
+      "product": "BIOHEAL BOH Glow Boost Cream 50mL",
+      "source": "v2712",
+      "decision": "QA_CANDIDATE",
+      "reason": "Red jar top and white BOH bottom visibly retained; prior model had cut off white base."
+    },
+    {
+      "family": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300mL",
+      "source": "v2712",
+      "decision": "QA_CANDIDATE",
+      "reason": "Pump head and lower grey bottle base retained; source material label/generation must be confirmed before publication."
+    }
+  ],
+  "pre_sales_holds": [
+    "Commercial photograph redistribution permission remains unverified",
+    "Actual owned stock edition and product specs are not independently cross-verified",
+    "Original approved round MK logo remains unavailable",
+    "QA cutout model result and sales-ready are different"
+  ],
+  "protected": {
+    "prior_11_approved_product_families": true,
+    "public_55_image_urls": true,
+    "prior_original_80_JPGs": true,
+    "no_final_XLSX": true
+  },
+  "next_task": "v2713 batch segmentation of six fresh unprocessed product families is submitted in GitHub run 41857465684; examine actual contact sheets and separate acceptable vs invalid masks, no storefront release."
+}
