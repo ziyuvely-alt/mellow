@@ -1,0 +1,24 @@
+{
+  "version": "v2731",
+  "date": "2026-11-05",
+  "baseline": "v2730",
+  "actual_successful_workflow_run": 41874891161,
+  "qa_folder": "qa-review/v2731-drG-brightening-sun-plus-detached-text-alpha-repair",
+  "family": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50mL",
+  "technical_results": {
+    "corrected_transparent_png": "01-real-DrG-source-alpha-detached-letters-only-fixed-QA.png",
+    "corrected_JPG_1080": "01-real-DrG-no-floating-letters-1080-QA.jpg",
+    "physically_saved": 2,
+    "detached_alpha_pixels_removed": 5283,
+    "percent_previous_visible_area_removed": 2.568,
+    "source_RGB_pixels_changed": 0
+  },
+  "visual_verified": "Detached ghost string rightening s above tube eliminated, tube full outline and orange-white bottom cap preserved",
+  "sale_release": "HOLD_LICENSE_MK_ORIGINAL_AND_EXACT_OWNED_STOCK_VERSION",
+  "prior_11_published_family_assets_unchanged": true,
+  "old_55_published_image_urls_unchanged": true,
+  "prior_approved_files_preserved": true,
+  "no_final_excel_or_spreadsheet_shared": true,
+  "next_workflow": "v2732 two DrG 50mL new source-led cap crop candidates; do not redo v2731"
+}
