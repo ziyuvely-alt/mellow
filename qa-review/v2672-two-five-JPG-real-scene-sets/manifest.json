@@ -1,0 +1,43 @@
+{
+  "version": "v2672",
+  "baseline": "v2671",
+  "new_family_5JPG_QA_sets": 2,
+  "physical_existing_JPG_preserved_without_reencoding": 10,
+  "source": "v2593 historical; currently accessible latest v2647 absent",
+  "rows": [
+    {
+      "family": "pending-17",
+      "product": "Dr.G Brightening Up Moisture Sun 50mL",
+      "actual_existing_jpg_frames": 5,
+      "shas": [
+        "0e1ead85a09dd7be68cdf8043c4a5764fcb2894fa8afd8fa7a00ba3da888b796",
+        "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+        "f8d852281445b6c832a6fe875f17078622de14ccf2fef0cb88b822e58ba114eb",
+        "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+        "89c5a2d1102b0adf5cb612a4af88950e4e8942ba5e3d919f9cae711a742a1fa5"
+      ],
+      "minimal_internal_dhash_distance": 14,
+      "packaging_match_verified": false,
+      "sale_release": "HOLD_PHOTO_LICENSE_STOCK_V2647_AND_FINAL_HUMAN_QA"
+    },
+    {
+      "family": "pending-20",
+      "product": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+      "actual_existing_jpg_frames": 5,
+      "shas": [
+        "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+        "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+        "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28",
+        "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+        "bb97654af24b4fe1323f57c956a012e766db7e67ad3ca80490c3127d92ca98ad"
+      ],
+      "minimal_internal_dhash_distance": 30,
+      "packaging_match_verified": false,
+      "sale_release": "HOLD_PHOTO_LICENSE_STOCK_V2647_AND_FINAL_HUMAN_QA"
+    }
+  ],
+  "new_sale_approved_families": 0,
+  "prior_11_approved_unchanged": true,
+  "old_55_public_urls_unchanged": true,
+  "no_final_excel": true
+}
