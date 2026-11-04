@@ -1,0 +1,53 @@
+{
+  "version": "v2668",
+  "product": "PIXEL PURE Glow Cleansing Serum Pad 210 mL / 70 Pads",
+  "family": "pending-28",
+  "five_image_draft_complete": true,
+  "sales_ready": false,
+  "actual_source_photo_unmodified": 2,
+  "new_distinct_factual_frames": 3,
+  "unverified_MK_logo_added": false,
+  "status": "QA_ONLY_PENDING_STOCK_IDENTITY_PHOTO_LICENSE_LATEST_V2647_AND_HUMAN_FINAL_QA",
+  "frames": [
+    {
+      "frame": 1,
+      "source_original": "qa-review/v2667-original-photo-picks/original-photo-picks/pending-28-source-slot02-QA-ONLY.jpg",
+      "file": "01-actual-product-source-photo-QA.jpg",
+      "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+      "bytes": 114431,
+      "kind": "ACTUAL_PRODUCT_PHOTO_UNMODIFIED"
+    },
+    {
+      "frame": 2,
+      "source_original": "source/historical/review-JPG-by-family/pending-28/04_v2546-real-210ml-pads-photo.jpg",
+      "file": "02-actual-product-source-photo-QA.jpg",
+      "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+      "bytes": 144068,
+      "kind": "ACTUAL_PRODUCT_PHOTO_UNMODIFIED"
+    },
+    {
+      "frame": 3,
+      "file": "03-factual-info-card-QA.jpg",
+      "sha256": "5d819190bcef7f13b33e0e667b9cd903f3b87ac726f93e5aa10a10b278c35492",
+      "bytes": 70284,
+      "kind": "FACT_ONLY_INFO_CARD_NEW"
+    },
+    {
+      "frame": 4,
+      "file": "04-factual-info-card-QA.jpg",
+      "sha256": "351c2e8dbf66231403f705ff6ff7b7c8bbbcd5a1979fc979d8072fe6d08c5622",
+      "bytes": 74919,
+      "kind": "FACT_ONLY_INFO_CARD_NEW"
+    },
+    {
+      "frame": 5,
+      "file": "05-factual-info-card-QA.jpg",
+      "sha256": "68e227b9e72d69464e1b6ccc55d88f03e68eb3cd8b9f97a3968861164ba1c21f",
+      "bytes": 80656,
+      "kind": "FACT_ONLY_INFO_CARD_NEW"
+    }
+  ],
+  "legacy_11_approved_groups_untouched": true,
+  "public_55_urls_unchanged": true,
+  "final_xlsx_shared": false
+}
