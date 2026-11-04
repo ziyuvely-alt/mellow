@@ -1,0 +1,80 @@
+{
+  "version": "v2768",
+  "date": "2026-11-05",
+  "baseline": "v2767",
+  "workflow_run_id": 41901425979,
+  "source_QA_branch": "qa-assets/v2662-immutable-14-candidates",
+  "qa_folder": "qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection",
+  "actual_native_source_edge_crops_saved": 16,
+  "original_photo_files_mutated": 0,
+  "examined_real_alpha_product_variants": [
+    "21",
+    "23",
+    "25",
+    "27"
+  ],
+  "source_shade_states": [
+    {
+      "shade": "21",
+      "native_edge_QA": "CONDITIONAL_PASS",
+      "observed": "Compact upper/left/right/bottom edges continuous with actual photo pixels, pale lid retained; lower real dark lip visible, no obvious background rectangle",
+      "blockers": [
+        "Historic N21 owned stock variant eligibility conflict",
+        "Exact packaging generation and rights unverified"
+      ]
+    },
+    {
+      "shade": "23",
+      "native_edge_QA": "CONDITIONAL_PASS",
+      "observed": "Circular pink compact with smooth, visually continuous boundary and natural lid rim; differs from N21 photo and should never be relabelled",
+      "blockers": [
+        "Exact stock generation",
+        "Commercial photo permission"
+      ]
+    },
+    {
+      "shade": "25",
+      "native_edge_QA": "EDGE_REFERENCE_PASS_WITH_HARDWARE_MANUAL_CHECK",
+      "observed": "Pink lid and underlying silver interior/cushion parts visible at lower/right native edges, no flat white rectangle apparent; complex open compact geometry needs full original comparison",
+      "blockers": [
+        "Full-size source hardware-vs-segmentation assessment",
+        "Commercial use rights and stock generation"
+      ]
+    },
+    {
+      "shade": "27",
+      "native_edge_QA": "EDGE_REFERENCE_PASS_WITH_HARDWARE_MANUAL_CHECK",
+      "observed": "Open compact source: lid left/top smooth, silver interior ring beneath lid; detail crop shows no large rectangular false matte; full open-case identity remains important",
+      "blockers": [
+        "Full-size official photo generation match",
+        "Commercial photo rights"
+      ]
+    }
+  ],
+  "technical_flags": {
+    "four_corner_alpha_all_zero_for_each": true,
+    "source_pngs_tightly_cropped_to_alpha_bounds": true,
+    "bounding_box_touches_mask_dimensions_on_four": true,
+    "interpretation": "Tight cropping is expected because earlier segmentations trim to foreground bbox. Do not call it clipping from bbox alone.",
+    "overview_is_scaled_and_not_native_1to1": true,
+    "native_edge_contact_saved_at_1to1_source_pixels": true
+  },
+  "no_repeat": {
+    "v2747_to_v2751_shade_source_images_all_reused": true,
+    "v2766_photo_groups_supplement_only": true,
+    "no_new_product_segmentation_on_21_23_25_27": true,
+    "new_user_retail_approval_count": 0
+  },
+  "previous_completed_11_retail_families_preserved": true,
+  "prior_public_55_URLs_preserved": true,
+  "commercial_photo_license_not_verified": true,
+  "physical_owned_inventory_edition_not_verified": true,
+  "approved_MK_logo_not_found": true,
+  "final_XLSX_not_shared": true,
+  "next_priority": [
+    "Use 4 existing independent compact shade assets; produce no repeated shade photo generation.",
+    "Verify the exact Korean stock editions/shade capacities and copyright rights before any retail publish.",
+    "For GOODAL eyecream pending-21, reject v2764 dangling dark line and v2765 unsafe mask crop; find a truly clean alternate photo source instead.",
+    "PERIPERA 20 legacy old-edition images stay segregated from 26AD and five visual-hold shades."
+  ]
+}
