@@ -1,0 +1,50 @@
+{
+  "version": "v2717",
+  "date": "2026-11-05",
+  "baseline": "v2716",
+  "successful_run": 41859660629,
+  "qa_folder": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates",
+  "new_product_families_attempted": 4,
+  "physically_rendered_real_alpha_PNG_JPG_pairs": 4,
+  "visual_outcomes": [
+    {
+      "family": "pending-01",
+      "product": "MISSHA Magic Cushion Cover Lasting",
+      "decision": "REJECT_PARTIALLY_CLIPPED_COMPACT",
+      "reason": "Image segmentation omitted left half of compact and reference box; cropped source product cannot qualify as an intact product image."
+    },
+    {
+      "family": "pending-10",
+      "product": "OBgE Perfect Homme Cushion",
+      "decision": "QA_CANDIDATE_HOLD_STOCK_WEIGHT",
+      "reason": "Compact, puff and opened case intact in transparent image; source photo states 15g whereas user stock may be 13g, no release until verified."
+    },
+    {
+      "family": "pending-14",
+      "product": "MISSHA PDRN Firming Repair Cream 70mL",
+      "decision": "QA_CANDIDATE",
+      "reason": "70mL jar and white lid preserved in clean foreground. Actual owned stock label, photo rights and launch version still held."
+    },
+    {
+      "family": "pending-06",
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+      "decision": "REJECT_SINGLE_ITEM_MISREPRESENTATION",
+      "reason": "Official source is explicitly an Essential Cushion Set with multiple compact views and color blobs, cannot treat as a single individual product hero."
+    }
+  ],
+  "true_retail_approved": 0,
+  "original_photo_JPGs_unchanged": true,
+  "original_11_published_approved_families_unchanged": true,
+  "original_55_public_URLs_unchanged": true,
+  "original_MK_logo_authenticated": false,
+  "commercial_photo_reuse_rights_verified": false,
+  "exact_owned_stock_edition_verified": false,
+  "final_XLSX_not_shared": true,
+  "do_not_repeat": [
+    "Do not retry pending01 clipping using same original composition",
+    "Do not use pending06 set/photo as standalone SKU",
+    "Keep pending10 candidate but hold if 13g/15g mismatch",
+    "Keep pending14 70mL candidate pending license and exact stock"
+  ],
+  "next": "v2718 four previously untreated CLIO/MISSHA candidates in run 41860120876; validate actual rendered images before assigning QA candidate"
+}
