@@ -1,0 +1,102 @@
+{
+  "version": "v2722-preflight",
+  "date": "2026-11-05",
+  "based_on_last_completed_checkpoint": "v2721",
+  "planned_run_id": 41864037154,
+  "observed_job_state": "queued",
+  "important": "Do not claim 30-family physical re-verification complete until v2722 GitHub Actions run succeeds",
+  "intent": "Append-only source-linked inventory for 30 distinct pending product families, machine-verify alpha PNG/1080 JPG files, SHA-256 and <2MB, no image regeneration",
+  "previously_verified_success": {
+    "v2720_run_id": 41861146012,
+    "v2721_folder": "qa-review/v2721-three-drg-goodal-alpha-photo-QA",
+    "v2721_rendered_saved_pairs": 3,
+    "v2721_visual_candidates": [
+      "pending-17",
+      "pending-19",
+      "pending-20"
+    ]
+  },
+  "never_retry_same_source": [
+    {
+      "family": "pending-01",
+      "reason": "compact clipped"
+    },
+    {
+      "family": "pending-04",
+      "reason": "background remnants persist in second-model mini cutout"
+    },
+    {
+      "family": "pending-05",
+      "reason": "set components in miniature cushion photograph"
+    },
+    {
+      "family": "pending-06",
+      "reason": "not standalone cushion, multiple compact kit scene"
+    },
+    {
+      "family": "pending-07",
+      "reason": "GIFT promotional components"
+    },
+    {
+      "family": "pending-09",
+      "reason": "brown rectangular background retained"
+    },
+    {
+      "family": "pending-13",
+      "reason": "slot01 is information card, not serum photo"
+    },
+    {
+      "family": "pending-21",
+      "reason": "thin/clipped 30mL eye cream tube despite alternate source"
+    }
+  ],
+  "high_priority_stock_and_option_holds": [
+    {
+      "family": "pending-02",
+      "reason": "MISSHA Moist Up 21/23 owned packaging generation unconfirmed"
+    },
+    {
+      "family": "pending-03",
+      "reason": "Old Korean gold-pump shade23/25 not current redesigned US BB tube"
+    },
+    {
+      "family": "pending-08",
+      "reason": "PERIPERA 01-20 shades, 26AD generation and 004 naming need official source"
+    },
+    {
+      "family": "pending-10",
+      "reason": "OBGE cushion source 15g vs possible owned 13g"
+    },
+    {
+      "family": "pending-12",
+      "reason": "MISSHA PDRN Renew Peel Shot photo 15mL vs inventory 15g"
+    },
+    {
+      "family": "pending-23",
+      "reason": "OBGE Pore Zero 50mL tube lower edge QA"
+    },
+    {
+      "family": "pending-26",
+      "reason": "PIXEL PURE Cleanser 145mL exact item, never substitute 150mL"
+    }
+  ],
+  "prior_photo_cutouts_to_preserve": [
+    "v2712 BIOHEAL BOH Cream, OBGE 300mL",
+    "v2714 BOH serum cleanup, PIXEL PURE cleansing pad alternate",
+    "v2715 BB cream, OBGE double essence, Dr.G 2 sunscreens",
+    "v2717 OBGE Homme Cushion and MISSHA PDRN Cream",
+    "v2720 OBGE Pore Zero and MISSHA Moist Up",
+    "v2721 Dr.G Moisture Sun, GOODAL Mist, GOODAL Cream Alpha"
+  ],
+  "state": {
+    "retail_approved_families_unchanged": 11,
+    "total_families": 41,
+    "pending_families": 30,
+    "previous_55_published_urls_untouched": true,
+    "original_photos_or_approved_art_edited": false,
+    "original_authentic_round_MK_logo_missing": true,
+    "stock_packaging_and_photo_license_unverified": true,
+    "final_excel_or_spreadsheet_not_shared": true
+  },
+  "next_after_v2722_success": "Inspect manifest.json actual physical verified pair counts, mark nonrepeat source identities; prioritize genuinely distinct exact-item photographs for blocked families, not more duplicate scene renders"
+}
