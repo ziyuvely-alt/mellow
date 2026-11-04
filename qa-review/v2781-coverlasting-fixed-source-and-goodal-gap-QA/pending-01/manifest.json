@@ -1,0 +1,74 @@
+{
+  "version": "v2781",
+  "date": "2026-11-05",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "previous_issue": "Earlier alpha from source slot01 clipped compact; corrected in v2764, must not repeat invalid prior alpha.",
+  "actual_five_photo_QA_set_saved": true,
+  "photographic_hero_edition": "#23 from identified product photo with carton, not multi-color option proof",
+  "missing_product_option_proof": [
+    "21",
+    "25",
+    "27"
+  ],
+  "stock_version_match_unverified": true,
+  "historical_frames_2_to_5_may_be_unverified_old_MK_or_edition": true,
+  "photo_redistribution_rights_verified": false,
+  "new_commercially_approved_images": 0,
+  "new_public_URLs_created": 0,
+  "prior_11_approved_groups_safe": true,
+  "previous_55_verified_URLs_safe": true,
+  "final_excel_not_shared": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/01-real-corrected-23-cushion-hero-QA.jpg",
+      "source_path": "qa-review/v2764-two-new-original-source-real-alpha-QA/pending-01/01-clean-real-object-1080-JPG-QA.jpg",
+      "role": "single #23 compact+carton item photo, previous corrected true alpha",
+      "source_blob_sha1": "df41d058df91fe3c3bb2b047b32653bd76fb7349",
+      "bytes": 100615,
+      "reused_without_reencoding": true,
+      "retail_status": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/02-source-product-scene-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/01-prior-original-byte-identical-QA.jpg",
+      "role": "old source photo01, exact shade and stock edition not verified",
+      "source_blob_sha1": "0dc9a3cb583c914c6721a667e4c768ba367de53f",
+      "bytes": 90290,
+      "reused_without_reencoding": true,
+      "retail_status": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/03-source-product-scene-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/04-prior-original-byte-identical-QA.jpg",
+      "role": "old photographic scene04, product configuration source requires validation",
+      "source_blob_sha1": "5b0fc30b3717e1087daac4bde3e236ef3504e5ca",
+      "bytes": 213061,
+      "reused_without_reencoding": true,
+      "retail_status": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/04-source-product-scene-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/05-prior-original-byte-identical-QA.jpg",
+      "role": "old photographic scene05, additional shade/packaging reference only",
+      "source_blob_sha1": "4fbb5c0506718d4ab4b9bd69c0757e34be16d2e7",
+      "bytes": 73479,
+      "reused_without_reencoding": true,
+      "retail_status": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/05-source-product-scene-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/03-factual-detail-new-QA.jpg",
+      "role": "existing factual net-content and product details only",
+      "source_blob_sha1": "78524f18577814b968549975e01c31d34d56cd31",
+      "bytes": 95952,
+      "reused_without_reencoding": true,
+      "retail_status": "HOLD"
+    }
+  ]
+}

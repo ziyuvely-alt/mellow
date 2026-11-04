@@ -1,0 +1,16 @@
+{
+  "version": "v2781",
+  "date": "2026-11-05",
+  "baseline": "v2780",
+  "actual_one_new_curated_fiveJPG_QA_group": "pending-01",
+  "actual_JPG_blobs_staged": 5,
+  "one_additional_truthful_source_gap_audited": "pending-19",
+  "all_JPG_sha_original_unchanged": true,
+  "number_of_product_photos_newly_rendered": 0,
+  "retail_approved_new": 0,
+  "previous_approved_11_product_families_unchanged": true,
+  "prior_public_55_URLs_unchanged": true,
+  "exact_inventory_and_photo_rights_unverified": true,
+  "old_unverified_MK_logo_not_added_to_new_assets": true,
+  "final_excel_shared": false
+}

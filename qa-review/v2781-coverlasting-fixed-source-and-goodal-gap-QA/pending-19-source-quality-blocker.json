@@ -1,0 +1,33 @@
+{
+  "version": "v2781",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "source_ground_truth": [
+    {
+      "path": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/pending-19/01-original-product-contour-white-1080-QA.jpg",
+      "sha": "471c633ed6e1852aec83f6cc62601a86dd640a8c",
+      "bytes": 64028
+    },
+    {
+      "path": "qa-review/v2673-two-new-product-five-JPG-sets/pending-19/01-original-source-slot01-UNMODIFIED-QA.jpg",
+      "sha": "49710d04814b43e40692dd5bcbd4b5a61d04d1ef",
+      "bytes": 84275
+    },
+    {
+      "path": "qa-review/v2673-two-new-product-five-JPG-sets/pending-19/02-original-source-slot05-UNMODIFIED-QA.jpg",
+      "sha": "554ece2c0f9f9c1c040d2f22658ae11a6bac9e62",
+      "bytes": 68136
+    }
+  ],
+  "corrected_photo_audit": "New single cream jar genuine cutout exists, but old source slot05 is a text-heavy routine graphic with an inset jar, not an independent product photo. Do not label it a fresh photographic view.",
+  "image_status": "PHOTO_DIVERSITY_HOLD_UNTIL_GENUINE_PRODUCT_DETAIL_SOURCE_FOUND",
+  "can_use_existing_hero_for_QA": true,
+  "verified_distinct_jar_product_photos_count": "INSUFFICIENT_FOR_FIVE_INDEPENDENT_PHOTOS",
+  "legacy_card_count_at_least": 3,
+  "no_fabricated_texture_or_use_scene": true,
+  "do_not_repeat_old_alpha": true,
+  "photo_license_and_exact_stock_version_verified": false,
+  "approved_for_sale": false,
+  "next": "Obtain additional genuine 50mL source cream pot/texture/use photography with commercial reuse rights. Only then assemble photo-first distinct five-frame sales candidate.",
+  "final_spreadsheet_shared": false
+}
