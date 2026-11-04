@@ -1,0 +1,32 @@
+name: Shopee v2702 exact MISSHA M Perfect Cover BB 50ml official photo-source QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2702-missha-perfect-cover-bb-real-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Preserve exact M Perfect Cover BB 50ml real product source photos only
+        run: |
+          python scripts/v2702_missha_M_perfect_BB_source.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2702-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2702-qa/qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof
+          cp -a qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof /tmp/v2702-qa/qa-review/
+          cd /tmp/v2702-qa
+          git add qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2702 genuine MISSHA M Perfect Cover 50ml official gallery photo candidates'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
