@@ -1,0 +1,63 @@
+{
+  "version": "v2773",
+  "date": "2026-11-05",
+  "baseline": "v2772",
+  "actual_completed": {
+    "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+    "qa_commit": "b499f315ecf0dc708696a855a7e117cb5752911d",
+    "qa_folder": "qa-review/v2772-goodal-obge-five-frame-photo-QA",
+    "actual_stored_product_families": 2,
+    "actual_jpg_files": 10,
+    "same_blob_sha_for_each_source_file": true,
+    "sha_based_unchanged_original_copies": 10,
+    "all_jpg_files_under_2MB": true,
+    "new_image_generation_or_regeneration": 0,
+    "source_hero_photos_opened_at_full_1080": true,
+    "source_gallery_contact_sheet_previously_visually_inspected": true
+  },
+  "product_QA": [
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+      "source": "v2769, v2770, v2771",
+      "frame_01": "QA_HERO_VISUAL_PASS_PRODUCT_WHOLE: yellow tube and silver cap preserved, source authenticity checked previously",
+      "frames_02_to_05": "PHOTO_SCENES_REUSED_QA_HOLD: existing closeup, application, nozzle, texture scenes with historical MK badge",
+      "retail_release": "HOLD_LICENSE_STOCK_VERSION_MK_ORIGINAL",
+      "next": "Verify user owned 25AD 30mL package against the photograph, obtain photo/model commercial rights and authenticated MK artwork, replace legacy badge only with authorized original"
+    },
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "source": "v2743",
+      "frame_01": "QA_HERO_VISUAL_PASS_PRODUCT_WHOLE: real single compact opened with puff; distinct beige product edges and white background",
+      "frames_02_to_05": "PHOTO_SCENES_REUSED_QA_HOLD: compact use/interior/angle model photos contain historical unverified MK badge",
+      "retail_release": "HOLD_LICENSE_STOCK_VERSION_MK_ORIGINAL",
+      "next": "Confirm exact 5g owned SKU and commercial photo rights, obtain authenticated logo and verify four older frames' marketing claims"
+    }
+  ],
+  "original_logo_recovery": {
+    "previous_GitHub_search": "NOT_FOUND",
+    "user_library_search": "NOT_FOUND",
+    "Google_Drive_search_queries": [
+      "mellowkr-mk-original",
+      "MK 로고",
+      "MellowKR"
+    ],
+    "Google_Drive_image_original_found": false,
+    "do_not_synthesize_logo": true
+  },
+  "release_gates": {
+    "new_commercial_sale_approvals": 0,
+    "previous_sale_approved_product_families": 11,
+    "previous_55_verified_image_URLs_unchanged": true,
+    "archived_80_original_JPGs_unchanged": true,
+    "v2769_goodal_alpha_source_unchanged": true,
+    "v2743_obge_alpha_source_unchanged": true,
+    "final_excel_or_spreadsheet_shared": false
+  },
+  "next_queue": [
+    "For two new 5-frame groups, crop/replace old fictitious MK icon only after original approved brand artwork becomes available; retain QA originals",
+    "Validate 5g OBgE and 25AD 30mL GOODAL exact user-owned stock edition and photo rights; do not auto-publish",
+    "Continue other 30 pending families only using exact source photos, never regenerate approved 11 families or replace 55 public URLs"
+  ]
+}
