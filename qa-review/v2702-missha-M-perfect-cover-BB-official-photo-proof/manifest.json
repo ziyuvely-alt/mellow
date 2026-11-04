@@ -1,0 +1,174 @@
+{
+  "version": "v2702",
+  "family": "pending-03",
+  "page": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new",
+  "product": "MISSHA M Perfect Cover BB Cream SPF42 PA+++ 50ml",
+  "source_image_candidates": [
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red13.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_02.jpg?v=1785165851",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/US__PDP___BB__50ml_19.gif?v=1785165876",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/US__PDP___BB__50ml_31.jpg?v=1785165875",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_03.jpg?v=1785165857",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_09.jpg?v=1785165855",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_05.jpg?v=1785165857",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_04.jpg?v=1785165858",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_06.jpg?v=1785165858",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_08..png?v=1785165859",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_07.jpg?v=1785165860",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red21.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red23.png?v=1785175964",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red25.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red27.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red29.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red31.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red33.png?v=1785175963",
+    "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red45.png?v=1785175963"
+  ],
+  "real_photo_files": [
+    {
+      "file": "01-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/Red13.png?v=1785175963",
+      "sha256": "67b5ddcaa3ca8afe15a1c0ad7e217991f2da13760df2bc2e8606cb53af64ddda",
+      "source_px": [
+        1200,
+        1200
+      ]
+    },
+    {
+      "file": "02-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_02.jpg?v=1785165851",
+      "sha256": "ce2328d01cf034a4f4805bc1bf690707b0fe578cdbdcef7c08ee25be2992f0a2",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "03-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/US__PDP___BB__50ml_19.gif?v=1785165876",
+      "sha256": "873fdefe2e083b765a6880bf8051a9fe3b78c8afbd33c0fdd6d8d00e9cc0177d",
+      "source_px": [
+        750,
+        462
+      ]
+    },
+    {
+      "file": "04-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/US__PDP___BB__50ml_31.jpg?v=1785165875",
+      "sha256": "71061c497bc32fa81332b4241900087086064c2cd8a441037161f339af7de0e4",
+      "source_px": [
+        750,
+        860
+      ]
+    },
+    {
+      "file": "05-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_03.jpg?v=1785165857",
+      "sha256": "7ffba74f7d047c0949da3ca08891c61a952900bb7ef7e51a57fa517a44112ed2",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "06-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_09.jpg?v=1785165855",
+      "sha256": "476d81979e9624b8957f057526ca84fa10fd3c4baeeaa34c9d53624a56930689",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "07-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_05.jpg?v=1785165857",
+      "sha256": "969f34780ba7234ddf622bb32b3662b6c6348889401a257608f10b7dcbf2859f",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "08-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_04.jpg?v=1785165858",
+      "sha256": "a1f6186341d764b038ed2f18bd9a04a85fb9d73b048ce4e67592b4e3a5e7f9c4",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "09-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_06.jpg?v=1785165858",
+      "sha256": "d118e8901a3e718a171a60faf20bc96137b1abb52d410c78c8d1a85eb6ff2999",
+      "source_px": [
+        1080,
+        1080
+      ]
+    },
+    {
+      "file": "10-MISSHA-US-actual-source-reference.jpg",
+      "url": "https://cdn.shopify.com/s/files/1/0526/9559/7243/files/MS100573___M_BB__50ml_08..png?v=1785165859",
+      "sha256": "ac652709e5537567c266d514bb0255538e813f678af35f34bcf56d99d2891fe1",
+      "source_px": [
+        1200,
+        1200
+      ]
+    }
+  ],
+  "retail_approved": false,
+  "old_11_approved_untouched": true,
+  "old_55_public_urls_untouched": true,
+  "prior_pending03_QA_set_untouched": true,
+  "final_xlsx_shared": false,
+  "product_title": "M Perfect Cover BB Cream SPF 42 PA+++(50ml)",
+  "variants": [
+    {
+      "name": "#13 Bright Beige",
+      "sku": "MSMS1056AA",
+      "id": 41098658054331
+    },
+    {
+      "name": "#21 Light Beige",
+      "sku": "MSMS1056AB",
+      "id": 41098657956027
+    },
+    {
+      "name": "#23 Natural Beige",
+      "sku": "MSMS1056AC",
+      "id": 41098657988795
+    },
+    {
+      "name": "#25 Warm Beige",
+      "sku": "MSMS1056AD",
+      "id": 41098658185403
+    },
+    {
+      "name": "#27 Honey Beige",
+      "sku": "MSMS1056AE",
+      "id": 41098658119867
+    },
+    {
+      "name": "#29 Caramel Beige",
+      "sku": "MSMS1056AF",
+      "id": 41098658152635
+    },
+    {
+      "name": "#31 Golden Beige",
+      "sku": "MSMS1056AG",
+      "id": 41098658021563
+    },
+    {
+      "name": "#33 Tan",
+      "sku": "MSMS1056AH",
+      "id": 47830083371195
+    },
+    {
+      "name": "#45 Deep Mocha",
+      "sku": "MSMS1056AI",
+      "id": 47830084714683
+    }
+  ],
+  "source_shades_21_23_25_mentioned": true,
+  "status": "SOURCE_REFERENCES_NEED_PHYSICAL_EDITION_AND_SHADE_VISUAL_QA"
+}
