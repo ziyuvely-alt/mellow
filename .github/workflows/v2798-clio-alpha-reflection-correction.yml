@@ -1,0 +1,32 @@
+name: Shopee v2798 refine CLIO Mesh Glow alpha floor reflection only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2798-clio-alpha-reflection-correction.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Refine existing alpha without regenerating or editing originals
+        run: |
+          cp scripts/v2798_clio_lower_reflection_alpha_only.py /tmp/v2798.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2798-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2798-qa/qa-review/v2798-clio-meshglow-alpha-floor-reflection-precision-correction
+          cd /tmp/v2798-qa
+          python /tmp/v2798.py
+          git add qa-review/v2798-clio-meshglow-alpha-floor-reflection-precision-correction
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2798 refine reflection tail in existing exact CLIO alpha, previous five authentic photos unchanged'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
