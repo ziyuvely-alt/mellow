@@ -1,0 +1,41 @@
+{
+  "version": "v2727",
+  "date": "2026-11-05",
+  "baseline": "v2726",
+  "success_run": 41869816257,
+  "qa_dir": "qa-review/v2727-missha-serum-only-bubble-alpha-cleanup-QA",
+  "actual_output": {
+    "family": "pending-13",
+    "new_transparent_png": "01-real-alpha-serum-no-floating-bubbles-QA.png",
+    "new_1080_jpg": "01-real-serum-1080-QA-bubbles-removed.jpg",
+    "jpeg_bytes": 94163,
+    "source_png_sha_preserved": true,
+    "mask_removed_fraction": 0.01881,
+    "actual_comparison_image_opened": true,
+    "quality_decision": "HOLD_RESIDUAL_RED_DECORATIVE_BUBBLE_NEAR_CAP",
+    "source_bottle_RGB_not_recolored": true,
+    "no_further_retry_same_source_required": true,
+    "underlying_source_04_single_bottle_true": true
+  },
+  "next_action": "Source 03 has a genuinely different opened bottle and pipette photograph; produce separate real alpha detail frame, no repeated cropping of source04.",
+  "original_MK_logo": {
+    "discovery": "PRIVATE_OWNED_PLUGIN_PKG",
+    "plugin_id": "plugins_6ae087bd15e08191a877fe8830c65d9b",
+    "exact_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "binary_bytes": 280031,
+    "binary_verified_in_owner_plugin_metadata": true,
+    "extracted_into_qa_runtime": false,
+    "reason": "owner plugin archive binary download unavailable through current connector/container bridging; never fake/logo replace"
+  },
+  "publisher_gates": {
+    "photo_use_permission_verified": false,
+    "inventory_stock_edition_verified": false,
+    "sales_release_new": 0
+  },
+  "protections": {
+    "published_families_untouched": 11,
+    "public_55_image_urls_untouched": true,
+    "old_original_photo_JPGs_untouched": true,
+    "final_spreadsheet_shared": false
+  }
+}
