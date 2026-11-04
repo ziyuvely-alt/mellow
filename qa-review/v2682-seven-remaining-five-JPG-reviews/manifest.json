@@ -1,0 +1,348 @@
+{
+  "version": "v2682",
+  "base_checkpoint": "v2681",
+  "new_5_JPG_QA_sets": 7,
+  "physical_JPGs": 35,
+  "source_images_byte_preserved": 11,
+  "v2665_existing_card_reused": 1,
+  "new_fact_only_frames": 23,
+  "not_staged": {
+    "family": "pending-08",
+    "reason": "26AD generation and option 004 official shade naming conflict; no exact verifiable product photograph"
+  },
+  "retail_approved": 0,
+  "commercial_photo_licenses_verified": false,
+  "latest_v2647_binary_compared": false,
+  "physical_stock_options_verified": false,
+  "old_11_approved_groups_changed": false,
+  "old_55_public_urls_changed": false,
+  "final_xlsx_shared": false,
+  "rows": [
+    {
+      "family": "pending-02",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "OWNED_CUSHION_SHADE_AND_PACKAGING_EDITION",
+      "real_photo_count": 1,
+      "legacy_text_repair_reused": true,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 2,
+          "file": "01-existing-actual-frame02-UNMODIFIED-QA.jpg",
+          "sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 63058
+        },
+        {
+          "frame": 2,
+          "file": "02-previous-v2665-text-repair-UNMODIFIED-QA.jpg",
+          "sha256": "afbc7790501b5de3ab3fd4060f50decc5fd75aceee7ba9b61130a7d266d062f1",
+          "kind": "PRIOR_V2665_COPY_REPAIR_UNCHANGED",
+          "bytes": 78636
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-information-QA.jpg",
+          "sha256": "150d76c4396b77089993ef65f9b82cd9785328195ebb8a62b5dd97eb9b5a1c8b",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 66596
+        },
+        {
+          "frame": 4,
+          "file": "04-new-product-details-QA.jpg",
+          "sha256": "120290357d40b863156c0115264b542b72165465572ad282fd5584f18455bc98",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 63747
+        },
+        {
+          "frame": 5,
+          "file": "05-new-net-content-QA.jpg",
+          "sha256": "7def313a154d79212e8506fb9f9d7c8a8f23c26e6038980804891510320e69d4",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 56728
+        }
+      ]
+    },
+    {
+      "family": "pending-03",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "SHADE_21_23_25_VS_OLD_23_25_AND_MK_ISSUE",
+      "real_photo_count": 1,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 3,
+          "file": "01-existing-actual-frame03-UNMODIFIED-QA.jpg",
+          "sha256": "e251dbf727d8d585cf70e31cc5825659e06e4d5371ecb44a7ec6e8cb9ca05f33",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 178595
+        },
+        {
+          "frame": 2,
+          "file": "02-new-product-information-QA.jpg",
+          "sha256": "5af18b2166c60c83eab9577538cc71cee4962db67245a636418f266f12d425e3",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 68012
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-details-QA.jpg",
+          "sha256": "b9c1c98ac6a5558ef09cec48cec39fcc31825382b785429709680d97d14843f1",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 65169
+        },
+        {
+          "frame": 4,
+          "file": "04-new-net-content-QA.jpg",
+          "sha256": "6a472f2661d5dfdbf72c517931837cadcd0bce93f3a68db3ef22350209ca4411",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 57509
+        },
+        {
+          "frame": 5,
+          "file": "05-new-product-guide-QA.jpg",
+          "sha256": "8a46066eb454d0c8b8c07b4b3db0653dbeeaf773bc387152cc7a13a73b4e52a1",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 74557
+        }
+      ]
+    },
+    {
+      "family": "pending-04",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "MINI_21C_21N_23N_SHADE_CHART_PROOF_MK_LOGO",
+      "real_photo_count": 3,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 1,
+          "file": "01-existing-actual-frame01-UNMODIFIED-QA.jpg",
+          "sha256": "e64a48d46e484ff7ead326382b8ee59bc755334c4eb306cb451dc7579125a0a5",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 93028
+        },
+        {
+          "frame": 2,
+          "original_slot": 2,
+          "file": "02-existing-actual-frame02-UNMODIFIED-QA.jpg",
+          "sha256": "8a09b7a6c499ced6ee4e9bc7a720bbce3d8e31b34d68091a72ab6ebd0a6791d9",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 117727
+        },
+        {
+          "frame": 3,
+          "original_slot": 3,
+          "file": "03-existing-actual-frame03-UNMODIFIED-QA.jpg",
+          "sha256": "319ea656259e8e5e3754ee1194a0fff05ed4933d142e1d3108f6c669101d5551",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 92931
+        },
+        {
+          "frame": 4,
+          "file": "04-new-product-information-QA.jpg",
+          "sha256": "eaa963934465658321a18d64666d185263e84d8ff2e054347cc6d9ee31d07e26",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 64109
+        },
+        {
+          "frame": 5,
+          "file": "05-new-product-details-QA.jpg",
+          "sha256": "5e2ab19eaa9208a7e4ea7fa4e034b4763eaf3dce4d1f4c54ae9b23d5cac5bee1",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 61215
+        }
+      ]
+    },
+    {
+      "family": "pending-05",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "EXACT_KIT_EDITION_MAIN_REFILL_AND_COMPOSITION",
+      "real_photo_count": 1,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 3,
+          "file": "01-existing-actual-frame03-UNMODIFIED-QA.jpg",
+          "sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 171551
+        },
+        {
+          "frame": 2,
+          "file": "02-new-product-information-QA.jpg",
+          "sha256": "a13757cd56c8818b12de12382121b571b8d2aced5132a63f95c740eafdf6f956",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 68218
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-details-QA.jpg",
+          "sha256": "f85d7118e61b7b8bdf8fd29faf93ccdf32297122a85f439d6d1f6721efbd1e29",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 65433
+        },
+        {
+          "frame": 4,
+          "file": "04-new-net-content-QA.jpg",
+          "sha256": "78b9c2e17adb9938857638ed08a1f677d3651538ad8c92e823dea772b3025aa0",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 53799
+        },
+        {
+          "frame": 5,
+          "file": "05-new-product-guide-QA.jpg",
+          "sha256": "59df74c71c0f5b443b3b8c3e1db678733d4595eca4eec7cbfb9af9f5323b2b74",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 70855
+        }
+      ]
+    },
+    {
+      "family": "pending-07",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "EXACT_PACKAGE_CONTENTS_VS_PROMOTIONAL_GIFTS",
+      "real_photo_count": 1,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 2,
+          "file": "01-existing-actual-frame02-UNMODIFIED-QA.jpg",
+          "sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 112669
+        },
+        {
+          "frame": 2,
+          "file": "02-new-product-information-QA.jpg",
+          "sha256": "b3e5c8375c418a1aa79b694a7cc2f412e1a2fb61d47b5118b8739ff5e0b766df",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 67570
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-details-QA.jpg",
+          "sha256": "e0bac979a62abe05a456e0dd070fb3f28aaef184b60ecb320fca50ad4ecab974",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 64743
+        },
+        {
+          "frame": 4,
+          "file": "04-new-net-content-QA.jpg",
+          "sha256": "552a2376c32faf43d3e49495f3b3b154f124c4a5ff16e929b876f24125230097",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 54333
+        },
+        {
+          "frame": 5,
+          "file": "05-new-product-guide-QA.jpg",
+          "sha256": "bd2531ffc7be54ca6e2c9ee3cd8d35312fd1362aadcb8b0f94f4d49ca252ca80",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 71390
+        }
+      ]
+    },
+    {
+      "family": "pending-15",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "UNVERIFIED_VISIBLE_MK_MARK_AND_EXACT_STOCK_GENERATION",
+      "real_photo_count": 2,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 3,
+          "file": "01-existing-actual-frame03-UNMODIFIED-QA.jpg",
+          "sha256": "1563a981a5bb66cd84b76420191c6da1c5fc89eddbf9425a9d629e091e848231",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 88973
+        },
+        {
+          "frame": 2,
+          "original_slot": 5,
+          "file": "02-existing-actual-frame05-UNMODIFIED-QA.jpg",
+          "sha256": "d2dca307b98bff0b404f6544de700c441157f02462923e81c22df22ca0f5dfe0",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 99819
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-information-QA.jpg",
+          "sha256": "607c4a3da2a7435f4af2b63238f76bc249ba5755e971f2010f6bd7b69edc3ebb",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 61815
+        },
+        {
+          "frame": 4,
+          "file": "04-new-product-details-QA.jpg",
+          "sha256": "1a19afdf19a1874303232f97f6f8b0adf42ddea49aed7fb4aed6933a75879732",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 59085
+        },
+        {
+          "frame": 5,
+          "file": "05-new-net-content-QA.jpg",
+          "sha256": "66690d3f05c4ddb7e6accba38d1a704d1e05b3f8c834a8d371a2f4712834dbdf",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 42857
+        }
+      ]
+    },
+    {
+      "family": "pending-18",
+      "status": "FIVE_JPG_QA_DRAFT_ONLY",
+      "release_hold": "UNVERIFIED_VISIBLE_MK_MARK_AND_EXACT_STOCK_GENERATION",
+      "real_photo_count": 2,
+      "legacy_text_repair_reused": false,
+      "original_kit_color_source_claims_approved": false,
+      "frames": [
+        {
+          "frame": 1,
+          "original_slot": 2,
+          "file": "01-existing-actual-frame02-UNMODIFIED-QA.jpg",
+          "sha256": "d0f45c3a371f33cd2c9c04ba6d3bf2a34d593344fc406496b679fc907415ef91",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 94131
+        },
+        {
+          "frame": 2,
+          "original_slot": 4,
+          "file": "02-existing-actual-frame04-UNMODIFIED-QA.jpg",
+          "sha256": "62bf590f61b515ebe1e9cd30b03a35ffb437e2d6f6ba8f0e203ef3bf62d86529",
+          "kind": "HISTORICAL_ACTUAL_SOURCE_UNCHANGED",
+          "bytes": 83411
+        },
+        {
+          "frame": 3,
+          "file": "03-new-product-information-QA.jpg",
+          "sha256": "3bb8fef37cf755a53281d1c6163e83d49feb0cb0a48261bb5638139f7d562419",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 64061
+        },
+        {
+          "frame": 4,
+          "file": "04-new-product-details-QA.jpg",
+          "sha256": "0aa83206eb63c67cbf5baa9844863f532e1d43dfb31c2f2f2ba735e5736b1707",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 61130
+        },
+        {
+          "frame": 5,
+          "file": "05-new-net-content-QA.jpg",
+          "sha256": "4c8c799f06e2ea6cc6c10ca41e0f169d3f55b35a39a5657f92b5a7090965d2f5",
+          "kind": "NEW_FACT_ONLY_INFORMATION_CARD",
+          "bytes": 43535
+        }
+      ]
+    }
+  ]
+}
