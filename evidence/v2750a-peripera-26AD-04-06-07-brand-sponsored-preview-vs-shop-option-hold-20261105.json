@@ -1,0 +1,60 @@
+{
+  "version": "v2750a",
+  "date": "2026-11-05",
+  "family": "pending-08",
+  "purpose": "Resolve whether missing 04/06/07 are absent from 26AD line or merely absent from one merchant selection, while keeping old-stock options protected",
+  "baseline": "v2736-peripera-26ad-official-edition-crosswalk-20261105",
+  "new_external_evidence": [
+    {
+      "source": "Peripera-sponsored creator Minsco, 2026-01-22 video preview of renewed Mood Glowy Tint",
+      "url": "https://www.youtube.com/watch?v=2M3eJESkSac",
+      "published": "2026-01-22",
+      "context": "Video explicitly says sponsored by PERIPERA and launched February 1, 2026; provides labeled new-collection color demonstration",
+      "shade_specific_timestamps": [
+        {
+          "shade": "04",
+          "label": "Anyway, peach",
+          "timestamp": "08:41"
+        },
+        {
+          "shade": "06",
+          "label": "Pink youth",
+          "timestamp": "09:22"
+        },
+        {
+          "shade": "07",
+          "label": "Plum fizz",
+          "timestamp": "09:48"
+        }
+      ],
+      "caveat": "Creator preview is not brand's controlled SKU catalogue or proof of user's legacy 01-20 stock or photo publication license"
+    },
+    {
+      "source": "Club Clio-operated GS SHOP online listing as of recent public crawl",
+      "url": "https://www.gsshop.com/prd/prd.gs?prdid=1106843033",
+      "context": "The visible 26AD selector enumerates 17 shades inside 01..20 and omits 04,06,07",
+      "caveat": "Listing omission must not be treated as proof the shades do not exist; some variants may be delisted or unavailable"
+    }
+  ],
+  "corrected_prior_interpretation": {
+    "previous_unsupported_idea": "26AD new line has no 04, 06 or 07",
+    "now_supported": "Single GS SHOP assortment lacks 04, 06, 07 while PERIPERA-sponsored January 2026 preview explicitly demonstrates those three numbered shades",
+    "catalog_status": "CONFLICT_MERCHANT_AVAILABILITY_NOT_PRODUCT_DISCONTINUATION",
+    "legacy_older_01_to_20_mapping_still_unverified": true
+  },
+  "critical_non_substitution": [
+    "Never use new 26AD color swatches for owned pre-26AD stock by shade number alone",
+    "Never map 26AD shade 04 (Anyway, peach) to prior older 04 (Pink Youth), labels are generation-dependent",
+    "Likewise 26AD 06 Pink youth and 07 Plum fizz are distinct from older lines",
+    "Never rewrite any user-supplied legacy stock label such as 14 로지워시 to 26AD 로지위시 without actual packaging",
+    "Do not create color chips by interpolation or copying third-party video frames without permission"
+  ],
+  "current_product_status": "HOLD_USER_LEGACY_STOCK_EDITION_PHOTO_CHART",
+  "actual_legacy_01_to_20_complete_photo_verified": false,
+  "real_image_created_in_this_evidence_step": false,
+  "newly_retail_approved": 0,
+  "previous_11_approved_product_families_untouched": true,
+  "previous_55_public_urls_untouched": true,
+  "final_XLSX_shared": false,
+  "next": "Request/locate genuine manufacturer legacy-edition 01..20 poster or physical owned stock high-quality photos, distinguish by package year before commercial image creation"
+}
