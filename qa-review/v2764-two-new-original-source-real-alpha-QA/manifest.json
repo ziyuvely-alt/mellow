@@ -1,0 +1,70 @@
+{
+  "version": "v2764",
+  "baseline": "v2763",
+  "new_unapproved_families_attempted": 2,
+  "actual_alpha_PNG_JPG_pairs_saved": 2,
+  "old_source_photos_reencoded": 0,
+  "prior_QA_media_modified": false,
+  "original_11_approved_retail_families_unchanged": true,
+  "original_55_published_URLs_unchanged": true,
+  "no_new_product_pixels_or_logo_generated": true,
+  "commercial_rights_confirmed": false,
+  "actual_stock_generation_confirmed": false,
+  "authentic_round_MK_logo_found": false,
+  "retail_approved": 0,
+  "final_XLSX_shared": false,
+  "attempts": [
+    {
+      "family": "pending-01",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/02-prior-original-byte-identical-QA.jpg",
+      "source_sha256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5",
+      "source_crop_xyxy": [
+        25,
+        32,
+        1050,
+        1000
+      ],
+      "previous_failure_avoided": "Use existing #23 box+closed compact scene; old frame01 clipped the compact",
+      "remainder_hold": "Only #23; shades 21/25/27 and stock generation must be independently confirmed",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "mask_coverage": 0.4942,
+      "bbox": [
+        15,
+        353,
+        1015,
+        968
+      ],
+      "png": "pending-01/01-true-transparent-original-photo-QA.png",
+      "jpg": "pending-01/01-clean-real-object-1080-JPG-QA.jpg",
+      "jpg_sha256": "fe5b37270e9d5674414fddb2a872575a460c862bc5518dd1e0eb0c2e4d1a8b82",
+      "source_unchanged": true
+    },
+    {
+      "family": "pending-21",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/01-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "9ce3cb50a1c7dbdac8e3d550a8b762785f96c48cb4fc42ade6d54e087e005120",
+      "source_crop_xyxy": [
+        560,
+        225,
+        944,
+        925
+      ],
+      "previous_failure_avoided": "Crop actual full yellow tube from original frame01, not failed truncated slot02",
+      "remainder_hold": "25AD tube packaging and volume must match owned stock, not a gift or different edition",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "mask_coverage": 0.1227,
+      "bbox": [
+        97,
+        39,
+        222,
+        511
+      ],
+      "png": "pending-21/01-true-transparent-original-photo-QA.png",
+      "jpg": "pending-21/01-clean-real-object-1080-JPG-QA.jpg",
+      "jpg_sha256": "b46e8610c9a78c1326aaac4391253dd4d1296b2fcb5fa5b608d1b1c21a21f05e",
+      "source_unchanged": true
+    }
+  ]
+}
