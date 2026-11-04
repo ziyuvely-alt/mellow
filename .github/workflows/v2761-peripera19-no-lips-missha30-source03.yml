@@ -1,0 +1,33 @@
+name: Shopee v2761 exactly two composition fixes from archived real photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2761-peripera19-no-lips-missha30-source03.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  correct-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Two actual source-photo composition improvements, no original files mutated
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2761_two_exact_photo_composition_fixes.py /tmp/v2761.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2761qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2761qa
+          python /tmp/v2761.py
+          git add qa-review/v2761-peripera19-no-lip-panel-and-missha30ml-source03-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2761 only shade19 remove title and lip panel and MISSHA serum switch from decorative circle to source03 photo'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
