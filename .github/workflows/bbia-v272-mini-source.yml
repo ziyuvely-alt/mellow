@@ -1,0 +1,20 @@
+name: BBIA v272 mini high-resolution detail source archive
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v272_three_mini_source_archive.py, .github/workflows/bbia-v272-mini-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v272_three_mini_source_archive.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v272-three-raw-detail-sources
+          path: /tmp/bbia-v272
+          retention-days: 30
