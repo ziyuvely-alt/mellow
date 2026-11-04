@@ -1,0 +1,43 @@
+{
+  "schema": "bbia_ch2_v190_incremental_en_production",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v189 four English photographed images preserved byte-for-byte",
+  "new_en_jpg_count": 3,
+  "products": [
+    {
+      "goodsNo": "1000000056",
+      "name": "Never Die Mascara Slim",
+      "new_en_frame": "product close-up",
+      "archived_source": "verified_sources/catalog/1000000056/09.jpg",
+      "photo_current_approval": "PENDING"
+    },
+    {
+      "goodsNo": "1000000166",
+      "name": "Over Glaze regular",
+      "new_en_frame": "studio product photograph",
+      "archived_source": "verified_sources/catalog/1000000166/04.jpg",
+      "regional_volume": "Korean official 5g vs historic official image 4.5g. No volume text shown.",
+      "photo_current_approval": "PENDING"
+    },
+    {
+      "goodsNo": "1000000120",
+      "name": "Eau Glow Cushion Mini",
+      "new_en_frame": "mini 4g vs full size 15g comparison, full-size not included",
+      "archived_source": "verified_sources/catalog/1000000120/02.jpg",
+      "photo_current_approval": "PENDING"
+    }
+  ],
+  "source_match": "Three original archived JPEG byte SHA256 values match historical official URL ledger for same goodsNo. No independently verified current webpage/option photo match.",
+  "source_zip": "BBIA_Cutout_Progress_20261030.zip",
+  "artifact_zip": "BBIA_v190_THREE_NEW_EN_SOURCE_MATCHED_QA_PENDING.zip",
+  "contact": "BBIA_v190_THREE_DISTINCT_HISTORICAL_PHOTO_CONTACT.jpg",
+  "manifest": "BBIA_v190_MANIFEST.json",
+  "reproduction_script": "v190_source_verified_three.py",
+  "technical": "3 JPEG 1080x1080 each <2MB; ZIP CRC passed; actually viewed contact",
+  "sales_approved": 0,
+  "translations_created": 0,
+  "prior_assets_modified": false,
+  "previous_55_public_urls_modified": false,
+  "no_excel_shared": true,
+  "next": "Do not recreate v190 3 frames. Obtain contemporaneous official photo/product/variant source approval before publication. Preserve quantity conflict in Over Glaze; use family-specific official source photo for mini. Continue with currently unworked items or validated distinct source-ledger images; never call historic URL SHA match current sale approval."
+}
