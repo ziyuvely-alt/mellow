@@ -1,0 +1,248 @@
+{
+  "version": "v2793",
+  "baseline": "v2792",
+  "target_new_families": 3,
+  "product_pages_probed": 4,
+  "new_deduplicated_official_reference_JPGs_saved": 8,
+  "photo_rights_proven": false,
+  "exact_physical_stock_edition_proven": false,
+  "new_retail_approvals": 0,
+  "existing_11_approved_groups_untouched": true,
+  "existing_55_public_image_urls_untouched": true,
+  "all_previous_original_QA_JPGs_untouched": true,
+  "no_final_spreadsheet_shared": true,
+  "products": [
+    {
+      "family": "pending-05",
+      "label": "CLIO Kill Cover Founwear Cushion Mini 5g",
+      "candidates": [
+        5750,
+        7108
+      ],
+      "must_include_any": [
+        "미니",
+        "mini"
+      ],
+      "hold": "Physical user-owned mini edition The New vs The Original or Sanrio unverified; 5g never replace with full-size 15g",
+      "official_pages": [
+        {
+          "product_id": 5750,
+          "url": "https://clubclio.co.kr/shop/goodsView/5750",
+          "matched_exact_page": true,
+          "photos_downloaded": 2,
+          "http_status": 200,
+          "title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+          "matching_headings": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "has_main_refill_set_words": true,
+          "says_5g_near_visible_text": true
+        },
+        {
+          "product_id": 7108,
+          "url": "https://clubclio.co.kr/shop/goodsView/7108",
+          "matched_exact_page": true,
+          "photos_downloaded": 2,
+          "http_status": 200,
+          "title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+          "matching_headings": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "has_main_refill_set_words": true,
+          "says_5g_near_visible_text": true
+        }
+      ],
+      "source_photo_candidates": [
+        {
+          "product_id": 5750,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/57/50/m.gif",
+          "source_hash": "318eb2c47a3ea23ce7dea86a9ace906c48be7b5c10427f6bdc98f57fb987fde3",
+          "native_dimensions": [
+            502,
+            502
+          ],
+          "file": "pending-05/01-official-5750-m-gif-REFERENCE.jpg",
+          "jpg_hash": "865b78ddd4eaddd24f927da48dc55b8142ca35f57beb702b24a4b25cf681c3b5",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        },
+        {
+          "product_id": 5750,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/57/50/b.gif",
+          "source_hash": "3526e2d8bedc3ac3795aa3e797fc836541eec09fbcc0e44b5a09b01f97819f85",
+          "native_dimensions": [
+            600,
+            600
+          ],
+          "file": "pending-05/02-official-5750-b-gif-REFERENCE.jpg",
+          "jpg_hash": "4a799728296b8af791dcc3f54cf689e9052cdb9e4f699f18dbcc595b9536dfe4",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        },
+        {
+          "product_id": 7108,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/71/08/m.gif",
+          "source_hash": "f332745a9d443249a57cf3f1203eb677be867a334a65db278df37f490fbbb3af",
+          "native_dimensions": [
+            502,
+            502
+          ],
+          "file": "pending-05/03-official-7108-m-gif-REFERENCE.jpg",
+          "jpg_hash": "8a995ee92aec1cbcc85f802f1e1ace77321680c6dc7c3d4ddcad21f2bee6e675",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        },
+        {
+          "product_id": 7108,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/71/08/b.gif",
+          "source_hash": "4062f215364875b2f4d145e70f02c3a9eb1576f6f38efedeaa16ead0610f0a70",
+          "native_dimensions": [
+            600,
+            600
+          ],
+          "file": "pending-05/04-official-7108-b-gif-REFERENCE.jpg",
+          "jpg_hash": "9d6d273daf8db752638cb2d059b25ed26071990296de0766199d24771d862fc9",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "status": "OFFICIAL_PHOTO_REFERENCES_SAVED_HOLD_EDITION",
+      "retail_approved": false,
+      "release_blocker": "MINI_CASE_EDITION_5G_NOT_YET_MATCHED_TO_USER_STOCK"
+    },
+    {
+      "family": "pending-06",
+      "label": "CLIO Kill Cover Mesh Glow Essential Cushion single compact",
+      "candidates": [
+        6182
+      ],
+      "must_include_any": [
+        "메쉬 글로우 에센셜"
+      ],
+      "hold": "Current 6182 official page is a promotional set with main 15g + refill and maybe extra gift; not proof of standalone SKU",
+      "official_pages": [
+        {
+          "product_id": 6182,
+          "url": "https://clubclio.co.kr/shop/goodsView/6182",
+          "matched_exact_page": true,
+          "photos_downloaded": 2,
+          "http_status": 200,
+          "title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+          "matching_headings": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "has_main_refill_set_words": true,
+          "says_5g_near_visible_text": true
+        }
+      ],
+      "source_photo_candidates": [
+        {
+          "product_id": 6182,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/82/m.gif",
+          "source_hash": "bc63c0d6c44243b6658486927eac83299627920cfde063d8ca3a395b9885aaa2",
+          "native_dimensions": [
+            502,
+            502
+          ],
+          "file": "pending-06/01-official-6182-m-gif-REFERENCE.jpg",
+          "jpg_hash": "5024b2cd396482077ec7be856192977a97c79649633123d1fcb6a8f0fc8acea7",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        },
+        {
+          "product_id": 6182,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/82/b.gif",
+          "source_hash": "94233f1f6fd1adfd5332992693b458cdc7ca067a7a5eaac391616fb89f120af3",
+          "native_dimensions": [
+            600,
+            600
+          ],
+          "file": "pending-06/02-official-6182-b-gif-REFERENCE.jpg",
+          "jpg_hash": "37051ba47fb1053b17ec0d453c5de1b6caad94384ac482128bb226807458d1ae",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "status": "OFFICIAL_PHOTO_REFERENCES_SAVED_HOLD_EDITION",
+      "retail_approved": false,
+      "release_blocker": "OFFICIAL_CURRENT_LISTING_BUNDLE_MAIN_PLUS_REFILL_NOT_SINGLE_STOCK"
+    },
+    {
+      "family": "pending-07",
+      "label": "CLIO Kill Cover Mesh Blur Cushion single compact",
+      "candidates": [
+        6455
+      ],
+      "must_include_any": [
+        "메쉬 블러"
+      ],
+      "hold": "Current 6455 official listing is set main + refill; not proof that user sells whole set",
+      "official_pages": [
+        {
+          "product_id": 6455,
+          "url": "https://clubclio.co.kr/shop/goodsView/6455",
+          "matched_exact_page": true,
+          "photos_downloaded": 2,
+          "http_status": 200,
+          "title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+          "matching_headings": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "has_main_refill_set_words": true,
+          "says_5g_near_visible_text": true
+        }
+      ],
+      "source_photo_candidates": [
+        {
+          "product_id": 6455,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/64/55/m.gif",
+          "source_hash": "249d5229ee81452226955b0c8988963564561ea8496139f2fc7802c209d54298",
+          "native_dimensions": [
+            502,
+            502
+          ],
+          "file": "pending-07/01-official-6455-m-gif-REFERENCE.jpg",
+          "jpg_hash": "5f7f5fc8caac73b277b22211ab259ff99dee76677a153b1c75c96460e9033728",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        },
+        {
+          "product_id": 6455,
+          "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/64/55/b.gif",
+          "source_hash": "75a9eb9ed27108a430ca7f11d525fcd70b3b55bc1770456e60cdf5073bf49bd5",
+          "native_dimensions": [
+            600,
+            600
+          ],
+          "file": "pending-07/02-official-6455-b-gif-REFERENCE.jpg",
+          "jpg_hash": "0f7048370490ee184bcc6423a8d54babc67569a56b0f07e1e24c2f6863208e29",
+          "commercial_rights_verified": false,
+          "physical_stock_photo_edition_verified": false,
+          "single_cushion_vs_set_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "status": "OFFICIAL_PHOTO_REFERENCES_SAVED_HOLD_EDITION",
+      "retail_approved": false,
+      "release_blocker": "OFFICIAL_CURRENT_LISTING_BUNDLE_MAIN_PLUS_REFILL_NOT_SINGLE_STOCK"
+    }
+  ]
+}
