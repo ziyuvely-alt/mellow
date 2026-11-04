@@ -1,0 +1,24 @@
+name: Shopee v2573 customer facing image copy preflight for eight proposals
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2573_customer_image_literal_copy_QA.py'
+      - '.github/workflows/v2573-image-copy-preflight.yml'
+permissions:
+  contents: read
+jobs:
+  scan-candidate-rendered-text:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect text rendering recipes and block internal QA copy
+        run: python scripts/v2573_customer_image_literal_copy_QA.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2573-eight-candidate-image-copy-release-blockers-no-XLSX
+          path: v2573-copy-release-gates/
+          retention-days: 90
+          if-no-files-found: error
