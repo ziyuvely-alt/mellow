@@ -1,0 +1,32 @@
+name: Shopee v2709 CLIO mini and PixelPure real photo detail repair
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2709-two-family-photographic-detail-repair.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Derive genuine photo-only detail slots from existing 1080 JPGs, preserve originals
+        run: |
+          python -m py_compile scripts/v2709_fix_three_duplicate_photo_slots.py
+          cp scripts/v2709_fix_three_duplicate_photo_slots.py /tmp/v2709.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2709-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2709-qa
+          python /tmp/v2709.py
+          git add qa-review/v2709-clio-mini-and-pixelpure-detail-corrections
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2709 real photo detail views replace 3 repeated slots in 2 isolated QA sets; no approved image mutation'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
