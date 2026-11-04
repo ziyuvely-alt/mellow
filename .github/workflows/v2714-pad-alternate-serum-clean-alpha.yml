@@ -1,0 +1,35 @@
+name: Shopee v2714 pad alternate source and serum alpha debris correction
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2714-pad-alternate-serum-clean-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image tools and real alpha segmentation
+        run: python -m pip install Pillow numpy opencv-python-headless 'rembg[cpu]==2.0.67'
+      - name: Derive fixes from untouched earlier photos, isolate new QA transparencies
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2714_fix_serum_island_and_pad_source.py
+          cp scripts/v2714_fix_serum_island_and_pad_source.py /tmp/v2714.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2714-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2714-qa
+          python /tmp/v2714.py
+          git add qa-review/v2714-serum-alpha-component-and-pad-alternate-photo
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2714 clean detached serum alpha island and use alternate pad frame02, QA only'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
