@@ -1,0 +1,39 @@
+name: Shopee v2668 Pixel Pure pad complete five-frame photo-first QA draft
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2668-pixelpure-five-frame-draft.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  build-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve exact historic 156 JPG snapshot only for one authentic PixelPure photo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/historical
+      - name: Build five-frame real-photo draft once on isolated QA branch
+        run: |
+          test -f scripts/v2668_pixelpure_5frames.py
+          cp scripts/v2668_pixelpure_5frames.py /tmp/v2668_pixelpure_5frames.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2668-working qa-assets/v2662-immutable-14-candidates
+          mkdir -p /tmp/v2668-working/source/historical/review-JPG-by-family/pending-28
+          cp source/historical/review-JPG-by-family/pending-28/04*.jpg /tmp/v2668-working/source/historical/review-JPG-by-family/pending-28/
+          cd /tmp/v2668-working
+          python /tmp/v2668_pixelpure_5frames.py
+          git add qa-review/v2668-pixelpure-5card-actual-draft
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2668 PixelPure 210ml 70pads five unique QA frames: 2 true photos + 3 accurate infocards'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
