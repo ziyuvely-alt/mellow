@@ -1,0 +1,52 @@
+{
+  "version": "v2738b",
+  "date": "2026-11-05",
+  "project": "Shopee 82 SKUs/41 product families photo-first approval QA",
+  "latest_main_image_script_commit": "20b85d754fd01bfd04f04086e8fc30589c8cbc13",
+  "last_approval_count": 11,
+  "last_approved_image_URLs_count": 55,
+  "actual_completed_work": {
+    "fallback_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+    "latest_qa_commit": "40ee32258c47cc69e6ff809d78eec414c1115df3",
+    "source_pixel_transparent_SVGs_saved_and_git_tree_verified": 3,
+    "source_families": [
+      "pending-09",
+      "pending-19",
+      "pending-23"
+    ],
+    "actual_saved_files": [
+      "qa-review/v2738a-direct-contour-svg-fallback/pending-09-exact-source-photo-transparent-clip-QA.svg",
+      "qa-review/v2738a-direct-contour-svg-fallback/pending-19-exact-source-photo-transparent-clip-QA.svg",
+      "qa-review/v2738b-porezero-clean-source-alternate-svg-cutout/pending-23-real-50mL-alternate-source-contour-QA.svg"
+    ],
+    "source_image_bytes_reused_unaltered": true,
+    "original_photos_not_overwritten": true,
+    "brand_logo_not_fabricated": true,
+    "product_pixels_not_fabricated": true
+  },
+  "improved_source_selection": {
+    "pending-09": "Isolate genuine single 5g closed OBgE compact from already archived source slot05; reject beige inset background rather than using entire frame",
+    "pending-19": "Isolate genuine 50mL GOODAL jar and lid from archived source slot01 and exclude cream texture spill backdrop",
+    "pending-23": "Replace ice-obstructed slot01 source with intact slot04 original 50mL product photo and apply transparent shape mask"
+  },
+  "not_completed": {
+    "original_v2738_pillow_workflow_run": 41879146502,
+    "original_v2738_pillow_workflow_state": "queued",
+    "new_1080_JPG_or_PNG_rasterized_from_SVGs": false,
+    "retail_sale_approvals": 0,
+    "exact_visual_1_to_1_edge_proof": false,
+    "license_confirmation": false,
+    "original_authentic_MK_logo_recovered": false,
+    "inventory_edition_validation": false
+  },
+  "pending_next_task": [
+    "Convert 3 self-contained SVG contour masks to 1080x1080 transparent PNG and JPG in one batch after an actual runner becomes available",
+    "Directly inspect mask edges at pixel resolution and reject any clipped product",
+    "Verify product capacity and owned physical stock identity before sale approval",
+    "Never rerun v2738/2738a/2738b source archive collection; all are preserved",
+    "Do not modify 11 previously approved product families or 55 URLs"
+  ],
+  "existing_11_approved_families_preserved": true,
+  "existing_verified_55_public_urls_preserved": true,
+  "final_excel_or_sheet_shared": false
+}
