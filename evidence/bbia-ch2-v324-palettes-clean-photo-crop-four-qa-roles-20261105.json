@@ -1,0 +1,65 @@
+{
+  "checkpoint": "v324",
+  "parent": "v323",
+  "date": "2026-11-05",
+  "source_run_id": 41882157256,
+  "source_artifact_id": 13348758698,
+  "production": {
+    "one_new_corrected_JPG": "BBIA_1000000151_02_03_SWATCH_PHOTOS_NO_KOREAN_v324_QA_PENDING.jpg",
+    "sha256": "c57b7264fbf70cdaee3a07b6c3cf04c915ae2cc7206d3343b89b6e24140e46ea",
+    "source_crops": [
+      {
+        "variant": "02 WISH LIST",
+        "original": "BBIA_1000000151_OFFICIAL_SOURCE_3_v322.jpg",
+        "xyxy": [
+          95,
+          2390,
+          905,
+          2640
+        ]
+      },
+      {
+        "variant": "03 BUCKET LIST",
+        "original": "BBIA_1000000151_OFFICIAL_SOURCE_4_v322.jpg",
+        "xyxy": [
+          95,
+          2390,
+          905,
+          2640
+        ]
+      }
+    ],
+    "three_reused_previous_JPG_byte_unchanged": true,
+    "exact_4_JPG_role_bundle": "/mnt/data/bbia_v324/BBIA_v324_FOUR_REAL_PHOTO_ROLES_QA_PENDING.zip",
+    "bundle_sha256": "b242c4efd2bb5e47cbf669352d99957216c0cf6e9fdd568abaa06221a30f9a97",
+    "contact": "/mnt/data/bbia_v324/BBIA_v324_FOUR_ROLES_CONTACT.jpg",
+    "before_after_comparison": "/mnt/data/bbia_v324/BBIA_v324_PALETTE_TEXT_REMOVAL_COMPARE.jpg",
+    "zip_crc_verified": true,
+    "all_1080x1080_JPG_under_2mb": true,
+    "four_unique_sha256": true
+  },
+  "visual_qa": {
+    "opened_actual_contact": true,
+    "source_embedded_korean_in_new_swatches": false,
+    "source_photographic_colors_not_modified_except_resampling": true,
+    "only_exact_palette_variants_02_and_03_identified": true,
+    "individual_pan_names_not_mapped": true,
+    "brand_licensing_and_full_sales_QA_pending": true,
+    "sales_approved": 0
+  },
+  "holds": [
+    {
+      "goodsNo": "1000000151",
+      "filename": "BBIA_1000000151_02_03_ARM_SWATCH_COMPARISON_v323_QA_PENDING.jpg",
+      "status": "HOLD_KOREAN_SOURCE_CAPTIONS",
+      "reason": "Old swatch crop included Korean pan names; do not distribute as final sale image"
+    }
+  ],
+  "preservation": {
+    "prior_v323_original_files_changed": false,
+    "prior_public_JPG_changed": false,
+    "verified_55_urls_changed": false,
+    "final_excel_shared": false
+  },
+  "next": "Do not re-render v324 source crops. Focus on other incomplete creative roles and final true-alpha/option QA; skip known Korean marketing regions."
+}
