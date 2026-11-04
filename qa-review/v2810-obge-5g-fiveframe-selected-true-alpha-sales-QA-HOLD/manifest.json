@@ -1,0 +1,60 @@
+{
+  "version": "v2810",
+  "baseline": "v2809",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "actual_five_JPGs_saved": 5,
+  "actual_selected_true_alpha_PNG_preserved": true,
+  "four_official_brand_source_JPGs_exact_SHA_preserved": true,
+  "no_source_product_rendered_or_invented": true,
+  "photo_rights_verified": false,
+  "user_owned_5g_edition_verified": false,
+  "original_MK_logo_verified": false,
+  "new_retail_approval": 0,
+  "old_11_sale_approved_groups_unchanged": true,
+  "old_55_public_image_URLs_unchanged": true,
+  "previous_qa_photo_assets_unchanged": true,
+  "final_XLSX_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-selected-clean-OBgE-5g-real-alpha-hero-QA.jpg",
+      "source": "qa-review/v2809-obge-finisher-genuine-product-left-swipe-alpha-correction/01-OBgE-5g-clean-compact-hero-1080-QA.jpg",
+      "sha256": "6f770fbf1f2e6cab1a3826fef9e1f383c8dae9f32901b8ff25211a23a4267404",
+      "bytes": 139535,
+      "source_bytes_unchanged": true
+    },
+    {
+      "slot": 2,
+      "file": "02-original-brand-gallery-unchanged-QA.jpg",
+      "source": "qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA/02-actual-brand-gallery-04-QA.jpg",
+      "sha256": "a3c5f4cd301b92a0feb2d07e3cd31fe78efbdddbd57a9613ac65753bad328682",
+      "bytes": 160411,
+      "source_bytes_unchanged": true
+    },
+    {
+      "slot": 3,
+      "file": "03-original-brand-gallery-unchanged-QA.jpg",
+      "source": "qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA/03-actual-brand-gallery-07-QA.jpg",
+      "sha256": "616e0b4dfe0f20bff7a933ce7abe6b626d0ea45d6dccc7fb420170ef45e9a61a",
+      "bytes": 168839,
+      "source_bytes_unchanged": true
+    },
+    {
+      "slot": 4,
+      "file": "04-original-brand-gallery-unchanged-QA.jpg",
+      "source": "qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA/04-actual-brand-gallery-08-QA.jpg",
+      "sha256": "9c2b6301169c6993ce0d78c809f96d06d72580750b3ce9bea85761ea2c1434d8",
+      "bytes": 210544,
+      "source_bytes_unchanged": true
+    },
+    {
+      "slot": 5,
+      "file": "05-original-brand-gallery-unchanged-QA.jpg",
+      "source": "qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA/05-actual-brand-gallery-09-QA.jpg",
+      "sha256": "0f4ad2820d10e05fbef61327bdb260cec70ef3c7e38f2e2ae69120710c1ff0b8",
+      "bytes": 189825,
+      "source_bytes_unchanged": true
+    }
+  ]
+}
