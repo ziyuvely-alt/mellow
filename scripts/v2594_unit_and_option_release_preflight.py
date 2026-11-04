@@ -52,22 +52,14 @@ report={"version":"v2594","families_in_inventory":30,"families_with_comparable_q
 "public_55_URLs_changed":0,"xlsx_created_or_shared":False,
 "sales_approval_granted":False,"known_consistent_product_quantity_groups":confirmed,
 "noncomparable_families":ignored}
-(OUT/"unit-and-identity-release-holds.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"
-")
-(OUT/"safe-copy-rules.md").write_text("# Unit and identity release gates
-
-"
-+"MISSHA PDRN NAD+ Renew Peel Shot 25: BRAND VERIFIED 15 mL; inventory option 15G must not be copied into selling image. Physical stock label still unverified.
-
-"
-+"PERIPERA Mood Glowy Tint: use 014 Rosy Wish / 로지위시 as candidate option copy. Do not invent color chips.
-
-"
-+"OBgE Max Waterful: SPF50+ PA++++ option text is a specification, not a variant.
-
-"
-+"All 30 pending families remain without commercial photo rights, actual stock edition, MK original and final visual release approval.
-")
+(OUT/"unit-and-identity-release-holds.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
+(OUT/"safe-copy-rules.md").write_text(
+    "# Unit and identity release gates\n\n"
+    "MISSHA PDRN NAD+ Renew Peel Shot 25: brand verified 15 mL; inventory 15G is a conflict pending physical stock check.\n\n"
+    "PERIPERA Mood Glowy Tint: shade 014 Rosy Wish / 로지위시 is a corrected candidate label. Do not invent swatches.\n\n"
+    "OBgE Max Waterful: SPF50+ PA++++ option is specification, not a selectable shade.\n\n"
+    "No pending product has photo-rights, stock-edition, MK-logo and final visual approval.\n"
+)
 print(json.dumps({"inventory_families":30,"comparable_quantities":scanned,
 "unit_mismatches":len(hold),"mismatch_family":"pending-12",
 "source_files_mutated":0,"spreadsheet_shared":False}))
