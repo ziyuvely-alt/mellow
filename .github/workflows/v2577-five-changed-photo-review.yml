@@ -1,0 +1,37 @@
+name: Shopee v2577 five changed-family photo review boards only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2577_five_changed_family_visual_review_boards.py'
+      - '.github/workflows/v2577-five-changed-photo-review.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  five-change-only-gallery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse previous image checkpoint without redrawing actual product scenes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2577-base
+      - name: Restore only five corrected QA JPGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41761227478 -n shopee-v2576-five-customer-copy-JPG-deltas-156frame-QA-no-XLSX -D v2577-delta
+      - name: Render only five affected full-family visual review boards
+        run: python scripts/v2577_five_changed_family_visual_review_boards.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2577-five-changed-family-image-QA-contact-sheets-no-XLSX
+          path: v2577-five-change-only-visual-review/
+          retention-days: 90
+          if-no-files-found: error
