@@ -1,0 +1,42 @@
+{
+  "checkpoint": "v246",
+  "date": "2026-11-04",
+  "parent": "v245",
+  "execution": "LOCAL_CONTAINER_REUSED_EXISTING_V245_BINARY",
+  "source_zip": "/mnt/data/bbia_v245_three_candidates.zip",
+  "script": "/mnt/data/bbia_v246_three_photo_roles.py",
+  "output_zip": "/mnt/data/bbia_v246/BBIA_v246_THREE_PHOTO_ROLES_QA_PENDING.zip",
+  "contact": "/mnt/data/bbia_v246/BBIA_v246_THREE_PHOTO_ROLES_CONTACT.jpg",
+  "new_jpg_count": 3,
+  "outputs": [
+    {
+      "goodsNo": "1000000151",
+      "variant": "04",
+      "role": "GLowing Drawing palette photographed detail",
+      "status": "PHOTO_MATERIAL_ONLY_QA"
+    },
+    {
+      "goodsNo": "1000000151",
+      "variant": "05",
+      "role": "Blooming Drawing palette photographed detail",
+      "status": "PHOTO_MATERIAL_ONLY_QA"
+    },
+    {
+      "goodsNo": "207",
+      "role": "Never Die Brush Eyeliner brush tip photo detail",
+      "status": "PHOTO_MATERIAL_ONLY_QA"
+    }
+  ],
+  "source_crop_policy": "Only source pixels from already manufactured v245 JPGs; no model/swatches invented, no publish",
+  "manual_qa": "No Korean captions inside selected photo crops. Result still has small source-photo size and visible photographic rectangular field. Do not claim true alpha cutout.",
+  "holds": [
+    "1000000125 EAU Stay Concealer v245 Korean still embedded; hold instead of repeating clean crop",
+    "Palette shade labels sourced from original pictured creative, not independently option-verified"
+  ],
+  "preservation": {
+    "old_source_assets_untouched": true,
+    "public_55_urls_untouched": true,
+    "no_spreadsheet_shared": true,
+    "sales_approved": 0
+  }
+}
