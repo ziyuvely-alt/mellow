@@ -1,0 +1,101 @@
+{
+  "version": "v2710",
+  "base": "v2709",
+  "corrected_product_families": 2,
+  "changed_text_area_only_JPGs": 2,
+  "exact_byte_preserved_other_JPGs": 8,
+  "recovered_source_photographs_recreated": 0,
+  "new_fabricated_swatches_or_logos": 0,
+  "new_retail_approvals": 0,
+  "retail_release": "HOLD_MK_BADGE_RIGHTS_AND_STOCK_EDITION",
+  "old_55_public_URLs_untouched": true,
+  "original_11_approved_families_untouched": true,
+  "prior_v2709_photo_JPGs_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "families": [
+    {
+      "family": "pending-04",
+      "JPG_count": 5,
+      "corrected_only_slot": 4,
+      "four_prior_JPGs_preserved_exact_bytes": true,
+      "photo_content_not_redrawn": true,
+      "retail_approved": false,
+      "files": [
+        {
+          "slot": 1,
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db"
+        },
+        {
+          "slot": 2,
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "ba44dd5e61f361eb1901a8396c0884eb97f52966df092f77aa28da7ae5e612f4"
+        },
+        {
+          "slot": 3,
+          "file": "03-real-source-detail-no-unverified-logo-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "e8d74ca170c5938a9d9ad7e18c5bee61f38c7061493cf1f030d7bc00ee9f79cf"
+        },
+        {
+          "slot": 4,
+          "file": "04-copy-accuracy-corrected-product-photo-QA.jpg",
+          "status": "TEXT_ONLY_CORRECTION_ABOVE_UNCHANGED_PHOTO_REGION",
+          "sha256": "5a301d63f7849ead1249bf0bd9b6e094997942aa4ab1f739cf11c9f7632ef647",
+          "prior_sha256": "84d219965e5b129bb22a3dfcae10516e1d1b3f31db26423c8049145169955144",
+          "operation": "Replace misleading INSIDE THE COMPACT with COMPACT DETAILS"
+        },
+        {
+          "slot": 5,
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "a9f4d2660ec2ff79dce3ea40ed3eb4e8086d4918a73190fff6b12db84e0b37da"
+        }
+      ]
+    },
+    {
+      "family": "pending-26",
+      "JPG_count": 5,
+      "corrected_only_slot": 5,
+      "four_prior_JPGs_preserved_exact_bytes": true,
+      "photo_content_not_redrawn": true,
+      "retail_approved": false,
+      "files": [
+        {
+          "slot": 1,
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578"
+        },
+        {
+          "slot": 2,
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1"
+        },
+        {
+          "slot": 3,
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e"
+        },
+        {
+          "slot": 4,
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "status": "UNMODIFIED_PRIOR_JPG",
+          "sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678"
+        },
+        {
+          "slot": 5,
+          "file": "05-copy-accuracy-corrected-product-photo-QA.jpg",
+          "status": "TEXT_ONLY_CORRECTION_ABOVE_UNCHANGED_PHOTO_REGION",
+          "sha256": "0b175805624376a3473deee99c6792bc7deb44e8c2e04888ed2dabe815e94fe4",
+          "prior_sha256": "63983908c79721b655c864cc4b966465d5fa6158bfb1eda2f23ec5a47b5b8826",
+          "operation": "Replace truncated brand PIXEL with PIXEL PURE"
+        }
+      ]
+    }
+  ]
+}
