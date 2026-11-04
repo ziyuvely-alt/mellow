@@ -1,0 +1,9 @@
+{
+  "version": "v2663",
+  "source": "v2662 immutable 14 JPEG branch",
+  "jpg_image_count": 14,
+  "proof_sha256": "1cecb74c5fd27003535a3ec66f8921a837196454208500679fa731f69f382457",
+  "proof_bytes": 100544,
+  "no_originals_modified": true,
+  "approval_status": "VISUAL_REVIEW_REQUIRED"
+}
