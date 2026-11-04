@@ -1,0 +1,43 @@
+{
+  "version": "v2823",
+  "date": "2026-11-05",
+  "latest_successful_run": 41934837231,
+  "successful_prior_source_run": 41934685735,
+  "branch": "qa-assets/v2662-immutable-14-candidates",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "processed_option": "21C Lingerie",
+  "qa_asset": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA",
+  "actual_produced": {
+    "original_source": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/02-21C-Lila-Beauty-exact-variant-QA.jpg",
+    "new_alpha_png": "01-original-21C-mini5g-compact-puff-alpha-QA.png",
+    "new_1080_jpg": "01-real-21C-mini5g-1080-hero-QA.jpg",
+    "alpha_coverage": 0.6379,
+    "alpha_source_bbox": [
+      27,
+      0,
+      875,
+      561
+    ],
+    "visual_QA": "PRODUCT_AND_PUFF_VISIBLE; QA_HOLD_IMAGE_TOUCHES_UPPER_SOURCE_CROP_EDGE",
+    "removed_21C_peach_background_swatch": true,
+    "source_other_shades_photo_mislabelled": false
+  },
+  "variant_linked_swatch_reference": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/01-21C-DODOSKIN-exact-variant-QA.jpg",
+  "retained_origins": [
+    "v2818 23N five-source photo QA",
+    "v2821 independent 21N photo alpha"
+  ],
+  "old_11_sale_approved_groups_unchanged": true,
+  "previous_55_public_urls_unchanged": true,
+  "new_sale_approvals": 0,
+  "photo_reuse_rights_verified": false,
+  "exact_owned_stock_21C_edition_verified": false,
+  "approved_round_MK_logo_verified": false,
+  "final_XLSX_shared": false,
+  "next_action": {
+    "version": "v2824",
+    "run_id": 41935232775,
+    "scope": "three-shade exact original photo integrity and cropping risk review; no retake"
+  }
+}
