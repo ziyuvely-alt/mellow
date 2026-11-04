@@ -1,0 +1,48 @@
+{
+  "version": "v2699",
+  "baseline": "v2698",
+  "retail_approval": false,
+  "goodal": {
+    "source": "https://product-image.kurly.com/product/image/8880a713-9c74-484c-adfd-846bce7e1d3a.jpg",
+    "expected": "GOODAL Green Tangerine Vita C Dark Spot Eye Cream 30mL",
+    "status": "SINGLE_TUBE_CROP_VISUAL_QA_PENDING",
+    "source_pixels": [
+      1010,
+      472
+    ],
+    "crop_original_pixels": [
+      505,
+      7,
+      808,
+      465
+    ],
+    "cropped_single_photo": "GOODAL-30mL-single-upright-original-photo-crop-QA.jpg",
+    "photo_sha256": "bdde93c597a25c7b8dfbe650a58727d77af0c853bfd99a143a923f56e9126101",
+    "product_ref_in_prior_single_product_listing": "https://www.kurly.com/goods/1001465618"
+  },
+  "obge": {
+    "page": "https://obge.co.kr/product/오일-컨트롤-피니셔/1206",
+    "expected": "OBgE Oil Control Finisher 5g",
+    "status": "OFFICIAL_DOMAIN_PHOTO_CANDIDATES_STAGED_VISUAL_QA_PENDING",
+    "source_url_candidates": [
+      {
+        "url": "https://obge.co.kr/web/product/medium/202603/0925f60163fc509a4152513115461c67.png",
+        "role": "raw_catalog"
+      }
+    ],
+    "photos": [
+      {
+        "file": "OBGE-source-candidate-01-QA.jpg",
+        "url": "https://obge.co.kr/web/product/medium/202603/0925f60163fc509a4152513115461c67.png",
+        "source_pixels": [
+          870,
+          1005
+        ],
+        "sha256": "3bc25931133b609b6f144793c911c10969709d2f12bbf5bd4a398da31c1bb2bf"
+      }
+    ]
+  },
+  "existing_11_approved_families_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "final_xlsx_shared": false
+}
