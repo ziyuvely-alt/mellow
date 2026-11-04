@@ -1,0 +1,118 @@
+{
+  "version": "v2794",
+  "baseline": "v2793",
+  "families_searched": 3,
+  "page_count": 4,
+  "new_original_high_resolution_photo_files": 0,
+  "never_reuse_v2793_502_600_catalog_thumb": true,
+  "no_previous_QA_JPGs_changed": true,
+  "previous_11_approved_families_untouched": true,
+  "verified_55_public_urls_untouched": true,
+  "original_MK_logo_not_proven": true,
+  "commercial_photo_licensing_unverified": true,
+  "stock_package_edition_unverified": true,
+  "new_retail_approvals": 0,
+  "final_spreadsheet_not_shared": true,
+  "products": [
+    {
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Mini",
+      "pages": [
+        {
+          "id": 5750,
+          "url": "https://clubclio.co.kr/shop/goodsView/5750",
+          "status": "NO_NEW_HIGH_RES_PHOTOS_RETRIEVED",
+          "candidates": 0,
+          "downloaded": 0,
+          "full_page_target_word_present": true,
+          "product_heading_candidates": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "bundle_cues_present": true,
+          "detail_regions_found": 0,
+          "discovered_unique_candidate_urls": 0,
+          "sample_candidate_urls": []
+        },
+        {
+          "id": 7108,
+          "url": "https://clubclio.co.kr/shop/goodsView/7108",
+          "status": "NO_NEW_HIGH_RES_PHOTOS_RETRIEVED",
+          "candidates": 0,
+          "downloaded": 0,
+          "full_page_target_word_present": true,
+          "product_heading_candidates": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "bundle_cues_present": true,
+          "detail_regions_found": 0,
+          "discovered_unique_candidate_urls": 0,
+          "sample_candidate_urls": []
+        }
+      ],
+      "high_resolution_originals": [],
+      "identity_hold": "5750/7108 image includes full-size and mini case; owned stock mini edition/5g unclear",
+      "commercial_use_license_verified": false,
+      "owned_stock_generation_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_NO_NEW_HIGH_RES_ITEM_PHOTOS"
+    },
+    {
+      "family": "pending-06",
+      "product": "CLIO Mesh Glow Essential Cushion",
+      "pages": [
+        {
+          "id": 6182,
+          "url": "https://clubclio.co.kr/shop/goodsView/6182",
+          "status": "NO_NEW_HIGH_RES_PHOTOS_RETRIEVED",
+          "candidates": 0,
+          "downloaded": 0,
+          "full_page_target_word_present": true,
+          "product_heading_candidates": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "bundle_cues_present": true,
+          "detail_regions_found": 0,
+          "discovered_unique_candidate_urls": 0,
+          "sample_candidate_urls": []
+        }
+      ],
+      "high_resolution_originals": [],
+      "identity_hold": "6182 is a main+refill set listing; individual 15g product to be confirmed",
+      "commercial_use_license_verified": false,
+      "owned_stock_generation_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_NO_NEW_HIGH_RES_ITEM_PHOTOS"
+    },
+    {
+      "family": "pending-07",
+      "product": "CLIO Mesh Blur Cushion",
+      "pages": [
+        {
+          "id": 6455,
+          "url": "https://clubclio.co.kr/shop/goodsView/6455",
+          "status": "NO_NEW_HIGH_RES_PHOTOS_RETRIEVED",
+          "candidates": 0,
+          "downloaded": 0,
+          "full_page_target_word_present": true,
+          "product_heading_candidates": [
+            "제목",
+            "챗봇 개선을 위해 고객님의 소중한 의견을 남겨주세요!"
+          ],
+          "bundle_cues_present": true,
+          "detail_regions_found": 0,
+          "discovered_unique_candidate_urls": 0,
+          "sample_candidate_urls": []
+        }
+      ],
+      "high_resolution_originals": [],
+      "identity_hold": "6455 is a set listing; single vs refill and shade not proven",
+      "commercial_use_license_verified": false,
+      "owned_stock_generation_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_NO_NEW_HIGH_RES_ITEM_PHOTOS"
+    }
+  ]
+}
