@@ -1,0 +1,64 @@
+{
+  "version": "v2647",
+  "date": "2026-11-04",
+  "baseline": "v2646",
+  "local_zip": "/mnt/data/Shopee_v2647_156JPG_4_distinct_real_detail_QA_ONLY.zip",
+  "comparison": "/mnt/data/v2647_detail_QA/four_real_detail_before_after.jpg",
+  "manifest": "/mnt/data/v2647_detail_QA/manifest.json",
+  "total_families": 30,
+  "total_jpg": 156,
+  "changed": 4,
+  "unchanged_SHA256": 152,
+  "edits": [
+    {
+      "family": "pending-07",
+      "slot": 3,
+      "product": "CLIO Mesh Blur Cushion",
+      "action": "Crop existing cushion and puff product photography into texture/detail composition"
+    },
+    {
+      "family": "pending-09",
+      "slot": 2,
+      "product": "OBgE Oil Control Finisher 5g",
+      "action": "Crop product image into clear puff/compact detail"
+    },
+    {
+      "family": "pending-27",
+      "slot": 5,
+      "product": "PIXEL PURE Soothing Ampule Toner 200mL",
+      "action": "Crop product label/hand-held bottle source into detail frame; corrected label clipping during review"
+    },
+    {
+      "family": "pending-28",
+      "slot": 2,
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 70 pads",
+      "action": "Focus on genuine pad surface/texture from existing stock photography"
+    }
+  ],
+  "verified": {
+    "all_156_jpg_1080_square": true,
+    "all_under_2mb": true,
+    "archive_integrity": true,
+    "changed_four_only": true,
+    "unchanged_152_sha_identity": true,
+    "photo_before_after_manual_review": true
+  },
+  "excluded": [
+    "CLIO Founwear edition unverified; no changes",
+    "No brand new artwork or fabricated shade chips",
+    "No provisional MK logo added"
+  ],
+  "preserved": {
+    "legacy_11_approved_families": true,
+    "verified_public_55_urls": true,
+    "prior_v2646_archive": true,
+    "no_final_spreadsheet_shared": true
+  },
+  "release_gates": [
+    "commercial photo usage rights",
+    "actual stock edition",
+    "authentic original MK logo",
+    "human final sales QA"
+  ],
+  "next": "Resume v2647 156 JPG QA archive. Do not redo pending07 slot03, pending09 slot02, pending27 slot05, pending28 slot02; focus on real release blockers and verified packaging. No final Excel."
+}
