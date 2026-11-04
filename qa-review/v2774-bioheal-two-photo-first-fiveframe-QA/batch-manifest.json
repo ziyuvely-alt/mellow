@@ -1,0 +1,27 @@
+{
+  "version": "v2774",
+  "date": "2026-11-05",
+  "baseline": "v2773",
+  "groups": [
+    {
+      "family": "pending-24",
+      "frames": 5,
+      "hero_sha": "ae8cc119085e8986a68dc70a2afdfba21d91309c"
+    },
+    {
+      "family": "pending-25",
+      "frames": 5,
+      "hero_sha": "83d7865fa32ec49baecd57fb1261aad67eccffed"
+    }
+  ],
+  "total_QA_JPGs_staged": 10,
+  "old_JPG_blobs_reused_byte_identically": 10,
+  "new_renders": 0,
+  "sale_approved_new": 0,
+  "legacy_badge_approval": false,
+  "commercial_photo_permissions": false,
+  "stock_generation_verified": false,
+  "previous_11_approved_product_groups_safe": true,
+  "verified_55_public_urls_safe": true,
+  "no_final_excel_or_spreadsheet_shared": true
+}

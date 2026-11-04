@@ -1,0 +1,67 @@
+{
+  "version": "v2774",
+  "family": "pending-25",
+  "product": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50mL",
+  "qa_5_photos_staged": true,
+  "hero_replaces_unverified_legacy_photo_with_previous_genuine_alpha": true,
+  "commercial_photo_redistribution_rights_verified": false,
+  "exact_owned_stock_edition_verified": false,
+  "authentic_MK_original_verified": false,
+  "legacy_frames_2_to_5_old_badge_unverified": true,
+  "retail_approved": false,
+  "public_URLs_published": 0,
+  "preserve_previous_55_URLs": true,
+  "final_XLSX_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+      "source": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "sha": "83d7865fa32ec49baecd57fb1261aad67eccffed",
+      "bytes": 197314,
+      "source_bytes_unchanged": true,
+      "scene": "real red jar alpha with bottom white base retained v2712",
+      "retail_approved": false
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/02-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/02-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "4dba2738c90f8db206a8e1fc06916dce1e990324",
+      "bytes": 203475,
+      "source_bytes_unchanged": true,
+      "scene": "open jar and cream close-up",
+      "retail_approved": false
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/03-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/03-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "6cc810608ca73bd1c17089c0e09295a8b4df4e37",
+      "bytes": 148823,
+      "source_bytes_unchanged": true,
+      "scene": "original cream texture photograph",
+      "retail_approved": false
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/04-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/04-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "cd62bed7d9b0b0f51b5b07026050e1f510286d82",
+      "bytes": 207100,
+      "source_bytes_unchanged": true,
+      "scene": "cream use/model photograph",
+      "retail_approved": false
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/05-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/05-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "9ec6c182aa1ca90401220f3c3e6399be0a7e4282",
+      "bytes": 198297,
+      "source_bytes_unchanged": true,
+      "scene": "original 50mL jar/size reference",
+      "retail_approved": false
+    }
+  ]
+}

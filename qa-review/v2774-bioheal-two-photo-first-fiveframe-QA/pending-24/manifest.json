@@ -1,0 +1,67 @@
+{
+  "version": "v2774",
+  "family": "pending-24",
+  "product": "BIOHEAL BOH NAD-PRIZCELL Glow Power Serum 30mL",
+  "qa_5_photos_staged": true,
+  "hero_replaces_unverified_legacy_photo_with_previous_genuine_alpha": true,
+  "commercial_photo_redistribution_rights_verified": false,
+  "exact_owned_stock_edition_verified": false,
+  "authentic_MK_original_verified": false,
+  "legacy_frames_2_to_5_old_badge_unverified": true,
+  "retail_approved": false,
+  "public_URLs_published": 0,
+  "preserve_previous_55_URLs": true,
+  "final_XLSX_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+      "source": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+      "sha": "ae8cc119085e8986a68dc70a2afdfba21d91309c",
+      "bytes": 107819,
+      "source_bytes_unchanged": true,
+      "scene": "real original single 30mL serum alpha from v2714",
+      "retail_approved": false
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/02-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/02-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "fd4bdf4357a8d67e6e2d788e43a256a9bb3af349",
+      "bytes": 191990,
+      "source_bytes_unchanged": true,
+      "scene": "archived product detail close-up",
+      "retail_approved": false
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/03-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/03-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "6e44cab5817beb57950feb201f283e73dd291b1e",
+      "bytes": 156413,
+      "source_bytes_unchanged": true,
+      "scene": "original package photo",
+      "retail_approved": false
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/04-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/04-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "23e8e5b3f1bd61c817b6984f3f70a09d96309457",
+      "bytes": 182670,
+      "source_bytes_unchanged": true,
+      "scene": "bottle-detail photograph",
+      "retail_approved": false
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/05-archived-source-scene-QA.jpg",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/05-authentic-old-product-image-unchanged-QA.jpg",
+      "sha": "44bf79a457389d038adbb336a84672f5d052c85a",
+      "bytes": 167613,
+      "source_bytes_unchanged": true,
+      "scene": "original 30mL packshot and size reference",
+      "retail_approved": false
+    }
+  ]
+}
