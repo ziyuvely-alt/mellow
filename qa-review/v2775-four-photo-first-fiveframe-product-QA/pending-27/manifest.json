@@ -1,0 +1,71 @@
+{
+  "version": "v2775",
+  "family": "pending-27",
+  "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+  "source_hero_native_image_check": "200mL pink bottle tilted photographed cutout, cap and base remain",
+  "qa_five_scene_count": 5,
+  "physical_jpgs_staged": 5,
+  "existing_source_jpgs_rerendered": 0,
+  "previously_approved_files_edited": false,
+  "prior_public_55_URLs_unchanged": true,
+  "hero_cutout_previous_QA": "VISUAL_CANDIDATE_ONLY",
+  "old_frame_logo_status": "UNVERIFIED_MK_BADGE_02_TO_05",
+  "image_redistribution_and_model_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_MK_round_logo_verified": false,
+  "new_sale_approval": false,
+  "final_XLSX_shared": false,
+  "status": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH",
+  "photos": [
+    {
+      "slot": 1,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/01-real-product-cutout-hero-QA.jpg",
+      "source_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-product-only-1080white-hero-QA.jpg",
+      "git_blob_sha1": "5232e1241aef13b91e79a9a63c160456854cea42",
+      "file_bytes": 69734,
+      "byte_identical_to_source": true,
+      "scene": "200mL bottle cutout hero",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 2,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/02-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/02-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "c8667553370af563486263c514ca7b19cf867f09",
+      "file_bytes": 143906,
+      "byte_identical_to_source": true,
+      "scene": "original real bottle design",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 3,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/03-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/03-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "64a767bed3a1fa941a9b87c0606fe832cb852ab3",
+      "file_bytes": 203754,
+      "byte_identical_to_source": true,
+      "scene": "liquid pour/texture closeup",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 4,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/04-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/04-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "18222983ed3817048d689d04a2e43cc53e5e0aeb",
+      "file_bytes": 246338,
+      "byte_identical_to_source": true,
+      "scene": "hand holding bottle",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 5,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/05-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/05-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "06460d01e608e040262be77fac059dccd734b55b",
+      "file_bytes": 164959,
+      "byte_identical_to_source": true,
+      "scene": "original bottle/texture scene",
+      "retail_approval": "HOLD"
+    }
+  ]
+}

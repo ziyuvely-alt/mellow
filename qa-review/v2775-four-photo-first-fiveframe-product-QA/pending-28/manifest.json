@@ -1,0 +1,71 @@
+{
+  "version": "v2775",
+  "family": "pending-28",
+  "product": "PIXEL PURE Glow Cleansing Serum Pad 70ea / 210mL",
+  "source_hero_native_image_check": "210mL 70-pads pink jar with white lid clear, alpha lower edge final QA pending",
+  "qa_five_scene_count": 5,
+  "physical_jpgs_staged": 5,
+  "existing_source_jpgs_rerendered": 0,
+  "previously_approved_files_edited": false,
+  "prior_public_55_URLs_unchanged": true,
+  "hero_cutout_previous_QA": "VISUAL_CANDIDATE_ONLY",
+  "old_frame_logo_status": "UNVERIFIED_MK_BADGE_02_TO_05",
+  "image_redistribution_and_model_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_MK_round_logo_verified": false,
+  "new_sale_approval": false,
+  "final_XLSX_shared": false,
+  "status": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH",
+  "photos": [
+    {
+      "slot": 1,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+      "source_path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+      "git_blob_sha1": "adb4f874d83d322a848fe2a704305dc4fe4ed8b4",
+      "file_bytes": 131499,
+      "byte_identical_to_source": true,
+      "scene": "210mL 70-pads pink tub cutout hero",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 2,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/02-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/02-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "a426b18bd0e5ff0546875a1ea9d73715a388d081",
+      "file_bytes": 181690,
+      "byte_identical_to_source": true,
+      "scene": "original alternate product jar closeup",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 3,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/03-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/03-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "b6ca7bcb6f346697ddfc6daf9d388a3e39339289",
+      "file_bytes": 145097,
+      "byte_identical_to_source": true,
+      "scene": "real wet pad texture",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 4,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/04-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/04-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "f02c010fac1b17e89dc76dc8cd24a49ebf1ebe84",
+      "file_bytes": 153952,
+      "byte_identical_to_source": true,
+      "scene": "real cotton pad detail",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 5,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/05-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/05-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "aaffd711b23304ef834cef07e6f49d4a05919730",
+      "file_bytes": 176937,
+      "byte_identical_to_source": true,
+      "scene": "jar and pad application closeup",
+      "retail_approval": "HOLD"
+    }
+  ]
+}

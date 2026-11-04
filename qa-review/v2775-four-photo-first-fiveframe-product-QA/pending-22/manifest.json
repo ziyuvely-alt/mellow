@@ -1,0 +1,71 @@
+{
+  "version": "v2775",
+  "family": "pending-22",
+  "product": "OBgE Max Waterful Sun Cream 300mL",
+  "source_hero_native_image_check": "300mL pump bottle top/bottom preserved, exact formula and package needs stock QA",
+  "qa_five_scene_count": 5,
+  "physical_jpgs_staged": 5,
+  "existing_source_jpgs_rerendered": 0,
+  "previously_approved_files_edited": false,
+  "prior_public_55_URLs_unchanged": true,
+  "hero_cutout_previous_QA": "VISUAL_CANDIDATE_ONLY",
+  "old_frame_logo_status": "UNVERIFIED_MK_BADGE_02_TO_05",
+  "image_redistribution_and_model_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_MK_round_logo_verified": false,
+  "new_sale_approval": false,
+  "final_XLSX_shared": false,
+  "status": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH",
+  "photos": [
+    {
+      "slot": 1,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/01-real-product-cutout-hero-QA.jpg",
+      "source_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "git_blob_sha1": "5e62f28ded111bc01a49ff13ee91b186b7b2787d",
+      "file_bytes": 67072,
+      "byte_identical_to_source": true,
+      "scene": "300mL pump bottle cutout hero",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 2,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/02-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/02-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "56e7931ab3901814e831aa83371af3a5fab19686",
+      "file_bytes": 162731,
+      "byte_identical_to_source": true,
+      "scene": "original pump bottle label close-up",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 3,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/03-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/03-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "127fb02a869228d1f5cec0945d6e3c60e8021d3c",
+      "file_bytes": 203327,
+      "byte_identical_to_source": true,
+      "scene": "dispensing product",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 4,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/04-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/04-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "7873a413bce619e3f8ff583b7ea79a3dd7c2bc9f",
+      "file_bytes": 180421,
+      "byte_identical_to_source": true,
+      "scene": "arm texture",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 5,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/05-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/05-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "b5e395f5243adae50163b344a80c9ea8790d7334",
+      "file_bytes": 186394,
+      "byte_identical_to_source": true,
+      "scene": "original 300mL bottle angle detail",
+      "retail_approval": "HOLD"
+    }
+  ]
+}

@@ -1,0 +1,48 @@
+{
+  "version": "v2775",
+  "date": "2026-11-05",
+  "source": "v2774",
+  "added_four_photo_first_5frame_QA_families": 4,
+  "physical_source_jpgs_staged": 20,
+  "newly_generated_product_photographs": 0,
+  "each_jpg_under_2MB": true,
+  "all_source_bytes_reused_exactly": true,
+  "existing_approved_11_families_preserved": true,
+  "previous_verified_public_55_urls_preserved": true,
+  "original_logo_verified": false,
+  "photo_commercial_rights_verified": false,
+  "exact_stock_version_verified": false,
+  "new_sale_approved_families": 0,
+  "final_spreadsheet_shared": false,
+  "groups": [
+    {
+      "family": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+      "frames": 5,
+      "hero_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-product-only-1080white-hero-QA.jpg"
+    },
+    {
+      "family": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300mL",
+      "frames": 5,
+      "hero_source": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg"
+    },
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "frames": 5,
+      "hero_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-product-only-1080white-hero-QA.jpg"
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 70ea / 210mL",
+      "frames": 5,
+      "hero_source": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg"
+    }
+  ],
+  "notes": [
+    "Existing older frames 02..05 contain historically unverified MK graphic, remain QA only",
+    "No duplicate image re-rendering. Blob refs copied exactly without modifying original photo",
+    "Final full-res product scene quality and package must be validated before release"
+  ]
+}

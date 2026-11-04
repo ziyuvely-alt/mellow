@@ -1,0 +1,71 @@
+{
+  "version": "v2775",
+  "family": "pending-16",
+  "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+  "source_hero_native_image_check": "White jar/cap and 70mL label intact on native product-only cutout",
+  "qa_five_scene_count": 5,
+  "physical_jpgs_staged": 5,
+  "existing_source_jpgs_rerendered": 0,
+  "previously_approved_files_edited": false,
+  "prior_public_55_URLs_unchanged": true,
+  "hero_cutout_previous_QA": "VISUAL_CANDIDATE_ONLY",
+  "old_frame_logo_status": "UNVERIFIED_MK_BADGE_02_TO_05",
+  "image_redistribution_and_model_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_MK_round_logo_verified": false,
+  "new_sale_approval": false,
+  "final_XLSX_shared": false,
+  "status": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH",
+  "photos": [
+    {
+      "slot": 1,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/01-real-product-cutout-hero-QA.jpg",
+      "source_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-product-only-1080white-hero-QA.jpg",
+      "git_blob_sha1": "a1989c3ad45f969636e2e6cb2c6d1b00c5a4b52a",
+      "file_bytes": 107785,
+      "byte_identical_to_source": true,
+      "scene": "single 70mL jar cutout hero",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 2,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/02-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-16/02-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "8f234ccb4493a6d539a0a6f5dabfc3f6d73cb77d",
+      "file_bytes": 89605,
+      "byte_identical_to_source": true,
+      "scene": "older real jar in hand",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 3,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/03-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-16/03-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "0c59cc8dd42a965798135156a090ae7c6f6ddb97",
+      "file_bytes": 94270,
+      "byte_identical_to_source": true,
+      "scene": "original open jar with cream texture",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 4,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/04-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-16/04-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "140f2133629278065966537a9745946c4afedc98",
+      "file_bytes": 96295,
+      "byte_identical_to_source": true,
+      "scene": "original jar open and surface",
+      "retail_approval": "HOLD"
+    },
+    {
+      "slot": 5,
+      "destination": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/05-source-photo-story-QA.jpg",
+      "source_path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-16/05-authentic-old-product-image-unchanged-QA.jpg",
+      "git_blob_sha1": "a1bdd6e3fecc97781f5e55101344bfb992bb3818",
+      "file_bytes": 92779,
+      "byte_identical_to_source": true,
+      "scene": "original open jar detail",
+      "retail_approval": "HOLD"
+    }
+  ]
+}
