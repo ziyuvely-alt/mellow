@@ -1,0 +1,76 @@
+{
+  "version": "v2687",
+  "family": "pending-08",
+  "product": "PERIPERA Mood Glowy Tint 4g, shade numbers 01-20",
+  "real_JPGs_in_one_reference_set": 6,
+  "prior_historical_JPGs_unchanged": 5,
+  "prior_v2686_name_index_JPG_unchanged": 1,
+  "generated_product_images": 0,
+  "generated_color_chips": 0,
+  "commercial_release_approved": false,
+  "photo_exact_26AD_edition_verified": false,
+  "historical_5_images_still_reference_only": true,
+  "visual_reference_6_for_names_only": true,
+  "known_exclusive_04_06_07_not_excluded": true,
+  "known_literal_shade_17_question_mark_not_typo": true,
+  "awaiting": [
+    "owned physical edition proof",
+    "official actual full shade swatches",
+    "commercial photo-use rights",
+    "final commercial visual QA"
+  ],
+  "prior_29_QA_product_families_unchanged": true,
+  "prior_11_published_families_untouched": true,
+  "prior_55_public_image_URLs_untouched": true,
+  "no_final_spreadsheet_shared": true,
+  "frames": [
+    {
+      "slot": 1,
+      "source": "qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD/01_01_01_peripera_selected_shades_no_20claim_V2435.jpg",
+      "file": "01-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+      "sha256": "13c3f76ab1baece7f3dfa4a4aea4d32dd83487b1863eee75e450ba5ec54a2b28",
+      "kind": "historical unverified edition JPG",
+      "sale_ready": false
+    },
+    {
+      "slot": 2,
+      "source": "qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD/02_02_INFO_FORMULA_01_V2414_EN_V2421.jpg",
+      "file": "02-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+      "sha256": "f1a42ab800abd1533ec7c1cf4293944346d7046cc8eac8c64872917a63f0deae",
+      "kind": "historical unverified edition JPG",
+      "sale_ready": false
+    },
+    {
+      "slot": 3,
+      "source": "qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD/03_03_INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+      "file": "03-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+      "sha256": "67819cab51d42625f70f0c743542579952aa208dd425542b1ee6b88f7b631498",
+      "kind": "historical unverified edition JPG",
+      "sale_ready": false
+    },
+    {
+      "slot": 4,
+      "source": "qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD/04_04_INFO_SCOPE_05_V2415_EN_V2421.jpg",
+      "file": "04-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+      "sha256": "4621585f821110607a931de6d2528e6825a7072516a6d381201e110f1140c896",
+      "kind": "historical unverified edition JPG",
+      "sale_ready": false
+    },
+    {
+      "slot": 5,
+      "source": "qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD/05-v2539-20-English-shade-names.jpg",
+      "file": "05-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+      "sha256": "ec5d6b2aa97bab15b75185d726ba6015a8cb8b88f4b36bdf810e9b0052ccbb7a",
+      "kind": "historical unverified edition JPG",
+      "sale_ready": false
+    },
+    {
+      "slot": 6,
+      "source": "qa-review/v2686-peripera-20-verified-name-index/v2686-20-shade-names-no-swatches-QA.jpg",
+      "file": "06-20-shade-name-reference-only-no-swatches.jpg",
+      "sha256": "a3c9d5a88dd62df44fa87f4b0e48fc2e8f3b1cfc2baaaaee7d33e9609da7748b",
+      "kind": "previously verified 20-shade NAME reference with no fake chips",
+      "sale_ready": false
+    }
+  ]
+}
