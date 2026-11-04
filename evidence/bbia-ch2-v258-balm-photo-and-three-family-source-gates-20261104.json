@@ -1,0 +1,117 @@
+{
+  "checkpoint": "v258",
+  "date": "2026-11-04",
+  "parent": "v253 / v255 source review",
+  "repo": "ziyuvely-alt/mellow",
+  "branch": "bbia-ch2-qa-20261104",
+  "completed_work": {
+    "v256": {
+      "product": "BBIA Lip Oil Balm",
+      "goodsNo": "228",
+      "new_candidate_count": 1,
+      "file": "BBIA_228_Balm_Packaging_Detail_v256_QA_PENDING.jpg",
+      "bytes": 85938,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "sha256": "6eb220e7c1ff26fc7f4676b884806041390a34434a152b4deb7747a81929bd0e",
+      "input": "existing v255 image only, no source redownload",
+      "output_zip": "/mnt/data/bbia_v256/BBIA_v256_Balm_QA_PENDING.zip",
+      "visual_inspected": true,
+      "visual_findings": "Embedded Korean caption excluded. Packaging photo remains partially cropped at bottom and softly matted, not precise alpha cutout. Retain as detail-role QA candidate only."
+    },
+    "v257": {
+      "run_id": 41840764187,
+      "artifact_id": 13329230659,
+      "conclusion": "success",
+      "family_ids": [
+        "1000000118",
+        "1000000128",
+        "1000000179"
+      ],
+      "source_requested": 9,
+      "source_verified": 9,
+      "source_contact": "BBIA_v257_THREE_FAMILY_SOURCE_CONTACT.jpg",
+      "source_dimensions": [
+        [
+          1000,
+          3693
+        ],
+        [
+          1000,
+          3564
+        ],
+        [
+          1000,
+          4428
+        ],
+        [
+          1000,
+          3783
+        ],
+        [
+          1000,
+          3435
+        ],
+        [
+          1000,
+          4411
+        ],
+        [
+          1000,
+          2554
+        ],
+        [
+          1000,
+          4894
+        ],
+        [
+          1000,
+          3203
+        ]
+      ],
+      "new_product_jpg": 0
+    }
+  },
+  "qa_gates": [
+    {
+      "goodsNo": "1000000118",
+      "product": "Essential Eye Palette",
+      "status": "SOURCE_READY_CROP_SELECTION_PENDING",
+      "reason": "Top 3 official detail photos contain real product palette images mixed with Korean feature/shade labels and model photo; need source-crop-level review before production"
+    },
+    {
+      "goodsNo": "1000000128",
+      "product": "Over Glaze Stick",
+      "status": "HOLD_SPECIAL_EDITION_AND_PROMO_COPY",
+      "reason": "Official detail shows Taro edition campaign and Korean labels; do not represent all current options or create variant proof"
+    },
+    {
+      "goodsNo": "1000000179",
+      "product": "Eau Matte Cushion Refill",
+      "status": "HOLD_FULL_CASE_VS_REFILL",
+      "reason": "Detail source includes full-size compact case and marketing materials, does not independently prove bare refill packaging"
+    },
+    {
+      "goodsNo": "238",
+      "product": "Ready To Wear Eye Shadow",
+      "status": "HOLD_v255_KOREAN_AD_COPY",
+      "reason": "Already generated but source photo shows Korean sales copy, do not repeat"
+    }
+  ],
+  "preservation": {
+    "preexisting_sale_approved_images_changed": false,
+    "verified_55_public_urls_changed": false,
+    "all_v255_originals_modified": false,
+    "sale_approved_new": 0,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not re-render v256: use its immutable hash and artifact",
+    "Use different product-only original image crop for 1000000118; do not assume all Korean copy can be removed",
+    "For 1000000179 verify refill-only real packaging photography before publishing; never reuse compact hero",
+    "For 1000000128 confirm standard versus special edition before using Taro-themed pictures",
+    "Continue other untouched families if reference blocked"
+  ]
+}
