@@ -1,0 +1,39 @@
+{
+  "version": "v2631",
+  "date": "2026-11-04",
+  "source_baseline": "v2630",
+  "latest_qa_zip": "/mnt/data/Shopee_v2631_156JPG_MISSHA_three_photo_first_no_square_frames_QA_ONLY.zip",
+  "comparison_preview": "/mnt/data/v2631_three_MISSHA_photo_first_preview.jpg",
+  "script": "/mnt/data/v2631_photo_first_reframe.py",
+  "total_JPG": 156,
+  "modified_JPG": 3,
+  "original_SHA256_identical_JPG": 153,
+  "edits": [
+    {
+      "family": "pending-12",
+      "slot": 2,
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25 15 mL",
+      "change": "Existing genuine product photo enlarged, original square framed beige template removed; minimal white full bleed and correct 15ml footer"
+    },
+    {
+      "family": "pending-13",
+      "slot": 2,
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30 mL",
+      "change": "Original actual serum photo and dropper enlarged, white full-bleed photo layout, corrected sparse 30ml footer"
+    },
+    {
+      "family": "pending-14",
+      "slot": 3,
+      "product": "MISSHA PDRN NAD+ Firming Repair Cream 70 mL",
+      "change": "Original genuine cream jar scene enlarged, removed large beige square card frame, 70mL footer"
+    }
+  ],
+  "previous_approved_11_product_families_unchanged": true,
+  "existing_55_public_URLs_modified": 0,
+  "final_xlsx_created_or_shared": false,
+  "photo_commercial_reuse_rights_verified": false,
+  "physical_owned_stock_version_verified": false,
+  "original_round_MK_brand_logo_applied": false,
+  "human_final_sales_approval": false,
+  "next": "Continue from v2631 archive; do not rerender these three layout improvements or already approved family URL paths. Further QA should use authentic product photo and avoid stock/edition mismatches. Commercial rights, MK logo and final approval still HOLD."
+}
