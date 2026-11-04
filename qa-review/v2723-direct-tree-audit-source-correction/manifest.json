@@ -1,0 +1,613 @@
+{
+  "version": "v2723",
+  "date": "2026-11-05",
+  "baseline": "v2722",
+  "method": "DIRECT_GITHUB_GIT_TREE_WITHOUT_QUEUED_ACTIONS",
+  "git_tree_sha": "15decc978f36f026bec0a5843c36ee5896c897ce",
+  "git_tree_truncated": false,
+  "total_pending_families": 30,
+  "original_qa_technical_pairs_from_v2722": 32,
+  "physically_cross_checked_png_jpg_pairs": 32,
+  "families_with_valid_pairs": 28,
+  "no_file_size_violations_for_verified_jpg": true,
+  "previous_v2722_action_run_id": 41864037154,
+  "qa_status_counts": {
+    "REJECT": 7,
+    "HOLD_STOCK": 3,
+    "QA_CANDIDATE": 18,
+    "SOURCE_BLOCKED": 2
+  },
+  "stored_review_pairs": [
+    {
+      "family": "pending-01",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "png_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-01/01-actual-product-alpha-cutout-QA.png",
+          "png_blob_git_sha1": "bdd34125090d9482eb3a2b7bc2d7d9c5e6ecb7da",
+          "png_bytes": 108375,
+          "jpg_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-01/01-product-real-cutout-1080-JPG-QA.jpg",
+          "jpg_blob_git_sha1": "76ef31b3fc94d28cd35478928575faccacaedede",
+          "jpg_bytes": 57309
+        }
+      ],
+      "visual_blocker": "compact partially clipped; source artwork wrong for intact single-product hero"
+    },
+    {
+      "family": "pending-02",
+      "review_status": "HOLD_STOCK",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+          "png_path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-02/01-real-transparent-product-QA.png",
+          "png_blob_git_sha1": "c7553405965b9a350fd74398b663cb69c27ea759",
+          "png_bytes": 233293,
+          "jpg_path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-02/01-real-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "5de6adda59477e948b1151211ea774b8fa2a38d4",
+          "jpg_bytes": 83686
+        }
+      ],
+      "visual_blocker": "compact plus box; product/shade package stock match not verified"
+    },
+    {
+      "family": "pending-03",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "png_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-alpha-product-only-QA.png",
+          "png_blob_git_sha1": "822ccf464aa66379df38502c42000ccc686c324c",
+          "png_bytes": 282711,
+          "jpg_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "e609fa5b411e1d05dbc6081d55342730b6aff8d0",
+          "jpg_bytes": 115656
+        }
+      ],
+      "visual_blocker": "old-era gold-pump BB cream shade 23; verify exact inventory edition"
+    },
+    {
+      "family": "pending-04",
+      "review_status": "REJECT",
+      "pair_count": 2,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2711-real-segmentation-four-source-product-heroes",
+          "png_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-04/01-real-alpha-segmented-product-QA.png",
+          "png_blob_git_sha1": "6e7a3e83ad58f02982776eb38fbd52a42d0f3821",
+          "png_bytes": 174385,
+          "jpg_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-04/01-background-removed-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "c2dc17841546dd65f2ba002202e26b533fa05731",
+          "jpg_bytes": 93369
+        },
+        {
+          "qa_folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "png_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-04/01-actual-alpha-cutout-high-res-QA.png",
+          "png_blob_git_sha1": "b3b379854845d91819883db31ad681f19eeb48ba",
+          "png_bytes": 381556,
+          "jpg_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-04/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "jpg_blob_git_sha1": "caeccc37a4950cf522fe3f2ab3bd3a5de37a7368",
+          "jpg_bytes": 113140
+        }
+      ],
+      "visual_blocker": "second-model CLIO mini retained nonproduct background; do not retry same frame"
+    },
+    {
+      "family": "pending-05",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "png_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-05/01-actual-transparent-product-foreground-QA.png",
+          "png_blob_git_sha1": "b8ac9d5fbc09eadbf04dfcde6df028f3178086f8",
+          "png_bytes": 621338,
+          "jpg_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-05/01-actual-product-cutout-square-1080-QA.jpg",
+          "jpg_blob_git_sha1": "86c3a8118efafbf709f8a1d1e785dc65675bd4bf",
+          "jpg_bytes": 172876
+        }
+      ],
+      "visual_blocker": "CLIO Founwear mini photograph depicts multiple set components"
+    },
+    {
+      "family": "pending-06",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "png_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-06/01-actual-product-alpha-cutout-QA.png",
+          "png_blob_git_sha1": "b92c3c84c556b1944dfaaa8db70089e96e083a42",
+          "png_bytes": 340252,
+          "jpg_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-06/01-product-real-cutout-1080-JPG-QA.jpg",
+          "jpg_blob_git_sha1": "15b3340615543f99352e635016697da61f7ee926",
+          "jpg_bytes": 99284
+        }
+      ],
+      "visual_blocker": "CLIO Mesh Glow Essential source is kit/multiple compact artwork"
+    },
+    {
+      "family": "pending-07",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "png_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-07/01-actual-transparent-product-foreground-QA.png",
+          "png_blob_git_sha1": "2330cfb2de7d7cd8f441cfb3c26f58f209b23d9b",
+          "png_bytes": 393181,
+          "jpg_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-07/01-actual-product-cutout-square-1080-QA.jpg",
+          "jpg_blob_git_sha1": "bc79e9567e23f7ca524693c5e73f06d4d6b3c36a",
+          "jpg_bytes": 131760
+        }
+      ],
+      "visual_blocker": "CLIO Mesh Blur photograph includes GIFT and extra components"
+    },
+    {
+      "family": "pending-08",
+      "review_status": "SOURCE_BLOCKED",
+      "pair_count": 0,
+      "stored_pairs": [],
+      "visual_blocker": "PERIPERA 01-20 official shade/26AD identity and 004 conflict; no authentic cutout staged"
+    },
+    {
+      "family": "pending-09",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+          "png_path": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/pending-09/05-actual-transparent-single-product-QA.png",
+          "png_blob_git_sha1": "7f4c66abff603026d1915e0dd91413f7197c0157",
+          "png_bytes": 181950,
+          "jpg_path": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/pending-09/05-segmented-product-white-1080-QA.jpg",
+          "jpg_blob_git_sha1": "d67c4d685e5abdfaa512aa06a7b7f0b06beb57e5",
+          "jpg_bytes": 88266
+        }
+      ],
+      "visual_blocker": "OBGE finisher previous alpha retains brown rectangular background"
+    },
+    {
+      "family": "pending-10",
+      "review_status": "HOLD_STOCK",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "png_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-10/01-actual-product-alpha-cutout-QA.png",
+          "png_blob_git_sha1": "44af6bbfc087cc291e77e515e052362f61d4a8a7",
+          "png_bytes": 438023,
+          "jpg_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-10/01-product-real-cutout-1080-JPG-QA.jpg",
+          "jpg_blob_git_sha1": "2c978ea8e95d2cfb2a19fe8be067075eca87d5d2",
+          "jpg_bytes": 146565
+        }
+      ],
+      "visual_blocker": "OBGE Perfect Homme Cushion source says 15g vs possibly owned 13g"
+    },
+    {
+      "family": "pending-11",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "png_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-alpha-product-only-QA.png",
+          "png_blob_git_sha1": "7330bba535b61a371053fd53f0fd04944067126e",
+          "png_bytes": 84564,
+          "jpg_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "7688eafe1bbd075f7909cd57d660225dbf2a4093",
+          "jpg_bytes": 61512
+        }
+      ],
+      "visual_blocker": "OBGE double-chamber bottle; do not describe as 2 separate products"
+    },
+    {
+      "family": "pending-12",
+      "review_status": "HOLD_STOCK",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "png_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-12/01-actual-transparent-product-foreground-QA.png",
+          "png_blob_git_sha1": "8f9b36d42608f8829f8d82e275bbf96cc7aae725",
+          "png_bytes": 287669,
+          "jpg_path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-12/01-actual-product-cutout-square-1080-QA.jpg",
+          "jpg_blob_git_sha1": "8ca92081ffa1157c766e88724f70947b40e50c30",
+          "jpg_bytes": 109764
+        }
+      ],
+      "visual_blocker": "MISSHA Renew Peel Shot photographed 15mL vs inventory 15g"
+    },
+    {
+      "family": "pending-13",
+      "review_status": "SOURCE_BLOCKED",
+      "pair_count": 0,
+      "stored_pairs": [],
+      "visual_blocker": "MISSHA serum slot01 is a fact card, not a product photograph; use already valid v2697 photo set"
+    },
+    {
+      "family": "pending-14",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "png_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-actual-product-alpha-cutout-QA.png",
+          "png_blob_git_sha1": "89a801b16e32e44391215f573142cd8ad13a07b7",
+          "png_bytes": 120870,
+          "jpg_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+          "jpg_blob_git_sha1": "013fe71e963c74612763f85d1a2e56cc3f60600e",
+          "jpg_bytes": 129900
+        }
+      ],
+      "visual_blocker": "MISSHA PDRN cream original jar/lid intact; verify 70mL not foreign 70g"
+    },
+    {
+      "family": "pending-15",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "png_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-alpha-product-only-QA.png",
+          "png_blob_git_sha1": "bf2e9181c3c1ec1145a1206c3f340593163e8e96",
+          "png_bytes": 165491,
+          "jpg_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "3da3b9403edbc845448f859cb0657a6062d44cf4",
+          "jpg_bytes": 71089
+        }
+      ],
+      "visual_blocker": "Dr.G Green Mild Up Sun tube intact"
+    },
+    {
+      "family": "pending-16",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "png_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-truly-transparent-product-QA.png",
+          "png_blob_git_sha1": "60adde87a978c65b9e0c3057d7a3cf92aba246bf",
+          "png_bytes": 198453,
+          "jpg_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-product-only-1080white-hero-QA.jpg",
+          "jpg_blob_git_sha1": "a1989c3ad45f969636e2e6cb2c6d1b00c5a4b52a",
+          "jpg_bytes": 107785
+        }
+      ],
+      "visual_blocker": "Dr.G R.E.D Blemish cream jar intact"
+    },
+    {
+      "family": "pending-17",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "png_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-17/01-real-transparent-product-QA.png",
+          "png_blob_git_sha1": "392b41e7ae12e15f12bfa967470b61dc880ea8fc",
+          "png_bytes": 483336,
+          "jpg_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-17/01-real-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "fc9c9d893567101539152126fd9560dbc1560319",
+          "jpg_bytes": 103889
+        }
+      ],
+      "visual_blocker": "Dr.G Brightening Up Moisture Sun tube intact"
+    },
+    {
+      "family": "pending-18",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "png_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-alpha-product-only-QA.png",
+          "png_blob_git_sha1": "d4e4c4c16a86ee0a346e696e844996543a8487f1",
+          "png_bytes": 157925,
+          "jpg_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "fe4ff6174cd580d5f602b5f2f724d4d3b9e69d82",
+          "jpg_bytes": 72241
+        }
+      ],
+      "visual_blocker": "Dr.G Brightening Up Sun Plus tube intact"
+    },
+    {
+      "family": "pending-19",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "png_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-19/01-real-transparent-product-QA.png",
+          "png_blob_git_sha1": "a749d426f8d9b7e4f8faa0eaed7ac4e59259cb6b",
+          "png_bytes": 280594,
+          "jpg_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-19/01-real-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "263da3b72d61455919f6ebb813342870173390d5",
+          "jpg_bytes": 106596
+        }
+      ],
+      "visual_blocker": "GOODAL Vita C Cream Alpha jar intact"
+    },
+    {
+      "family": "pending-20",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "png_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-transparent-product-QA.png",
+          "png_blob_git_sha1": "241d24ac7e66a403c773d4a2997208a5951843f2",
+          "png_bytes": 114498,
+          "jpg_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "d558ea986543c44ea2d26eaa85fc84398b887480",
+          "jpg_bytes": 61644
+        }
+      ],
+      "visual_blocker": "GOODAL Serum Mist 100mL pump and bottle intact"
+    },
+    {
+      "family": "pending-21",
+      "review_status": "REJECT",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+          "png_path": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/pending-21/02-actual-transparent-single-product-QA.png",
+          "png_blob_git_sha1": "f14994819ad43cf4eaec96b54b26b16c0e1f4000",
+          "png_bytes": 220672,
+          "jpg_path": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/pending-21/02-segmented-product-white-1080-QA.jpg",
+          "jpg_blob_git_sha1": "0e70255f71e770b2c7184e6749118a3bea3da980",
+          "jpg_bytes": 121753
+        }
+      ],
+      "visual_blocker": "GOODAL 30mL eye tube alternate source clipped; cannot reconstruct"
+    },
+    {
+      "family": "pending-22",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 2,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2711-real-segmentation-four-source-product-heroes",
+          "png_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-22/01-real-alpha-segmented-product-QA.png",
+          "png_blob_git_sha1": "f10ff393bcab66a6d274bc7a3b3c2c0998ae536b",
+          "png_bytes": 99056,
+          "jpg_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-22/01-background-removed-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "c85baddb46b8ae7d3304a2b6c177863a1e4dcb8c",
+          "jpg_bytes": 70316
+        },
+        {
+          "qa_folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "png_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-actual-alpha-cutout-high-res-QA.png",
+          "png_blob_git_sha1": "09957af7cf5e827adcb66413834d7f5cf74eb407",
+          "png_bytes": 139783,
+          "jpg_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "jpg_blob_git_sha1": "5e62f28ded111bc01a49ff13ee91b186b7b2787d",
+          "jpg_bytes": 67072
+        }
+      ],
+      "visual_blocker": "OBGE Max Waterful 300mL pump and base retained in second model"
+    },
+    {
+      "family": "pending-23",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+          "png_path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-transparent-product-QA.png",
+          "png_blob_git_sha1": "2533420d353a0f4e395c314ca60623fcf3acd98c",
+          "png_bytes": 191397,
+          "jpg_path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "9d11e330a0d5e8d26bf9286662694555f6d98fa8",
+          "jpg_bytes": 72611
+        }
+      ],
+      "visual_blocker": "OBGE Pore Zero 50mL cutout largely clean; bottom edge needs 1:1 check"
+    },
+    {
+      "family": "pending-24",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 2,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "png_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-truly-transparent-product-QA.png",
+          "png_blob_git_sha1": "39247af2c94e8e94d57203b2779d4059b2e1cc59",
+          "png_bytes": 203542,
+          "jpg_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-product-only-1080white-hero-QA.jpg",
+          "jpg_blob_git_sha1": "d0e82d41560f8f7f85f4ddaeb21ec91d9eb887c9",
+          "jpg_bytes": 107768
+        },
+        {
+          "qa_folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+          "png_path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-cleaned-real-alpha-isolated-serum-QA.png",
+          "png_blob_git_sha1": "234f1a4d800d84a01d48fbb4e1f9ebc31392bf91",
+          "png_bytes": 172702,
+          "jpg_path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+          "jpg_blob_git_sha1": "ae8cc119085e8986a68dc70a2afdfba21d91309c",
+          "jpg_bytes": 107819
+        }
+      ],
+      "visual_blocker": "BIOHEAL BOH serum detached alpha blob fixed in v2714; edges need 1:1 check"
+    },
+    {
+      "family": "pending-25",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 2,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2711-real-segmentation-four-source-product-heroes",
+          "png_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-real-alpha-segmented-product-QA.png",
+          "png_blob_git_sha1": "8cec60a252c80ef47faef18d784deec6c8a9f1e0",
+          "png_bytes": 425729,
+          "jpg_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-background-removed-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "62210d454396a9528659ea4fd3b34752eca8bc73",
+          "jpg_bytes": 202484
+        },
+        {
+          "qa_folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "png_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-actual-alpha-cutout-high-res-QA.png",
+          "png_blob_git_sha1": "a97a20ed0d72cbfb41117c187ba4eea195c677e7",
+          "png_bytes": 476498,
+          "jpg_path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "jpg_blob_git_sha1": "83d7865fa32ec49baecd57fb1261aad67eccffed",
+          "jpg_bytes": 197314
+        }
+      ],
+      "visual_blocker": "BIOHEAL BOH cream base retained in v2712"
+    },
+    {
+      "family": "pending-26",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2711-real-segmentation-four-source-product-heroes",
+          "png_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-26/01-real-alpha-segmented-product-QA.png",
+          "png_blob_git_sha1": "70705f1d484bb3baaae9ece2657cd474dc443d24",
+          "png_bytes": 86331,
+          "jpg_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-26/01-background-removed-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "ef239f652c6b5c618951ccc72882f43dd0dc91cc",
+          "jpg_bytes": 72655
+        }
+      ],
+      "visual_blocker": "PIXEL PURE Gel-to-Foam 145mL body intact in v2711"
+    },
+    {
+      "family": "pending-27",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "png_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-truly-transparent-product-QA.png",
+          "png_blob_git_sha1": "ac125e27ccef28f8e5b104419f43f087bdfb2bf9",
+          "png_bytes": 146451,
+          "jpg_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-product-only-1080white-hero-QA.jpg",
+          "jpg_blob_git_sha1": "5232e1241aef13b91e79a9a63c160456854cea42",
+          "jpg_bytes": 69734
+        }
+      ],
+      "visual_blocker": "PIXEL PURE toner 200mL intact"
+    },
+    {
+      "family": "pending-28",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+          "png_path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-source-transparent-product-QA.png",
+          "png_blob_git_sha1": "77e522da977f52eead5165b899ef6315db58bfb3",
+          "png_bytes": 314401,
+          "jpg_path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+          "jpg_blob_git_sha1": "adb4f874d83d322a848fe2a704305dc4fe4ed8b4",
+          "jpg_bytes": 131499
+        }
+      ],
+      "visual_blocker": "PIXEL PURE pads 70ea alternate source fixed in v2714; bottom needs check"
+    },
+    {
+      "family": "pending-29",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "png_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-truly-transparent-product-QA.png",
+          "png_blob_git_sha1": "fa7d164bd9d1321852b248d62479a3f0acf41bfa",
+          "png_bytes": 319007,
+          "jpg_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+          "jpg_blob_git_sha1": "518a8d6da06891cbb9b267ac82881a0c1cf381e5",
+          "jpg_bytes": 113161
+        }
+      ],
+      "visual_blocker": "PIXEL PURE cream 50mL intact"
+    },
+    {
+      "family": "pending-30",
+      "review_status": "QA_CANDIDATE",
+      "pair_count": 1,
+      "stored_pairs": [
+        {
+          "qa_folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "png_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-truly-transparent-product-QA.png",
+          "png_blob_git_sha1": "121e0280566767b18cd15bed5a5d8dc25304329d",
+          "png_bytes": 109540,
+          "jpg_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+          "jpg_blob_git_sha1": "e58ca78b7e76e43349c9303fa9deee23a0de2740",
+          "jpg_bytes": 67492
+        }
+      ],
+      "visual_blocker": "PIXEL PURE serum 50mL intact"
+    }
+  ],
+  "source_remediation": [
+    {
+      "family": "pending-13",
+      "current_status": "SOURCE_IDENTIFIED_FOR_NEW_CUTOUT_QA_NOT_PRODUCED",
+      "original_failure": "v2719 selected slot01 information card, not photo",
+      "approved_source_selector_for_next_attempt": {
+        "role": "primary",
+        "path": "qa-review/v2696-missha-serum-official-gallery-proof/source-03-REVIEW-ONLY.jpg",
+        "git_blob_sha1": "b4861f5f325408697204705375f7b5d0ef5c5443",
+        "bytes": 117709
+      },
+      "backup_same_sku_product_photo": {
+        "role": "alternate",
+        "path": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+        "git_blob_sha1": "03d1dafe1201692cece8f3ff0338ce190ae1949b",
+        "bytes": 70303
+      },
+      "lifestyle_reference_not_to_feed_whole_person_to_cutout": {
+        "role": "lifestyle_reference",
+        "path": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/04-official-30mL-serum-model-holding-single-product-QA.jpg",
+        "git_blob_sha1": "b0423c602bf269768b8dd436d8b8dbc76ee03e9b",
+        "bytes": 87486
+      },
+      "why": "v2696 official Korean 30mL serum gallery has product-only photo scenes 03/04. Avoid original 01 fact card and old multiple-product gift scene.",
+      "new_alpha_png_generated": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-08",
+      "current_status": "HOLD_26AD_EDITION_SCOPE_CONFLICT",
+      "reference_photo_not_for_sale": {
+        "role": "peripera_unverified_reference",
+        "path": "qa-review/v2687-peripera-six-frame-reference-QA-NOT-FOR-UPLOAD/01-HISTORICAL-edition-unverified-NOT-FOR-UPLOAD.jpg",
+        "git_blob_sha1": "31cce83a9516d47a2b195ec0c3ef93e9e9d0bb3f",
+        "bytes": 143439
+      },
+      "shade_scope": "001..020 only",
+      "shade_014_candidate_corrected_name": "로지위시",
+      "preserve_actual_inventory_label": "로지워시",
+      "missing_proof": "Licensed official full 26AD 001-020 shade chart and exact physical edition; legacy policy excludes 26AD",
+      "no_fabricated_swatch": true,
+      "retail_approved": false
+    }
+  ],
+  "commercial_release_gate": {
+    "original_MK_logo_proven": false,
+    "photo_redistribution_rights_proven": false,
+    "physical_stock_edition_proven": false,
+    "newly_approved_family_count": 0,
+    "previous_approved_family_count": 11,
+    "previous_approved_urls_kept": 55
+  },
+  "next_only": [
+    "pending-13: alpha from previously archived single bottle original source 03, preview and reject if clipping",
+    "pending-08: evidence for true 26AD palette; no swatch interpolation",
+    "18 image QA candidates: full-size edge/packaging verification and photo rights",
+    "7 rejected: different source only; do not rerun previous bad frame",
+    "3 stock-hold: precise packaging and capacity confirmation"
+  ],
+  "immutable_assets": [
+    "11 approved product families",
+    "55 verified public URLs",
+    "v2711-v2722 previous PNG/JPG QA media"
+  ],
+  "final_spreadsheet_shared": false
+}
