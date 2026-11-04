@@ -1,0 +1,28 @@
+name: Shopee v2615 genuine BIOHEAL BOH 30ml serum solo photograph QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2615_boh_serum_solo_sources.py'
+      - '.github/workflows/v2615-BOH-serum-solo-photo.yml'
+permissions:
+  contents: read
+jobs:
+  genuine-exact-serum-photographs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Obtain two real 30 mL serum standalone photo scenes without redrawing product
+        run: python scripts/v2615_boh_serum_solo_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2615-BOH-30ml-two-genuine-solo-photo-sources-review-no-XLSX
+          path: v2615-boh-30ml-solo-product-sources-QA/
+          retention-days: 90
+          if-no-files-found: error
