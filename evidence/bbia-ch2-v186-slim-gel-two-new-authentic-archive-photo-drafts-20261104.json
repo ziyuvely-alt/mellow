@@ -1,0 +1,33 @@
+{
+  "schema": "bbia_ch2_v186_actual_increment",
+  "date": "2026-11-04",
+  "previous_success": "v185: source integrity assessment + L'Eau Tint Mini photo reference",
+  "product": {
+    "name": "BBIA Last Auto Gel Eyeliner Slim",
+    "goodsNo": "1000000110",
+    "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000110"
+  },
+  "created_en_jpgs": 2,
+  "original_source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "reused_source_assets": [
+    "batch/1000000110/hero-cutout.png",
+    "batch/1000000110/photo-4.png"
+  ],
+  "output_zip": "BBIA_v186_LAST_AUTO_GEL_SLIM_2_NEW_EN_QA_PENDING.zip",
+  "contact": "BBIA_v186_LAST_AUTO_GEL_SLIM_2_CONTACT.jpg",
+  "reproduction_script": "v186_gel_slim_actual_photo.py",
+  "manifest": "QA/QA_MANIFEST_v186.json",
+  "technical_checks": "both 1080x1080 JPEG each under 2MB, both decoded, ZIP CRC pass",
+  "selective_qa_improvement": "First candidate hero product too small: enlarged the existing actual source cutout without regenerating object; removed technical provenance terms from visual captions; final image reviewed in contact sheet.",
+  "quality_status": "EN_QA_PENDING; not yet premium editorial approval; exact photo correspondence to current official page not independently verified",
+  "size_gate": "Source 132x650 original narrow product photographed asset, applied at modest proportional enlargement. Source photo 650x650 model image retained without hue alteration.",
+  "held_sources": "photo-2 and photo-3 are corrupt historical assets (v185 inventory), and photo-5 repeats photo-4 model with residual source text; no attempt to regenerate.",
+  "sale_approved": 0,
+  "translated": 0,
+  "originals_unchanged": [
+    "v147 125 original JPGs",
+    "all v150-v185 previous images and holds",
+    "55 published URLs"
+  ],
+  "next": "Do not remake these two drafts. Missing three independent product-family roles require verified authentic photo sources; if unavailable move to another family. Preserve old archived assets and no Excel until whole project completed."
+}
