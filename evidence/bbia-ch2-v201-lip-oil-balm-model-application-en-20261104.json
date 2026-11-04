@@ -1,0 +1,54 @@
+{
+  "checkpoint": "v201",
+  "date": "2026-11-04",
+  "previous": "v200 Downy Cheek 1 JPG plus Never Die Brush Eyeliner 2 JPG, preserved",
+  "product": "BBIA Lip Oil Balm",
+  "goodsNo": "228",
+  "new_en_jpg": 2,
+  "previous_roles": "v180 product photo and balm surface photo (2) unchanged",
+  "new_roles": [
+    {
+      "file": "01_LIP_OIL_BALM_MODEL_CAMPAIGN_EN_QA_PENDING.jpg",
+      "source": "batch/228/photo-4.png",
+      "crop": [
+        0,
+        42,
+        392,
+        510
+      ],
+      "role": "separate historical beauty portrait, not exact shade proof"
+    },
+    {
+      "file": "02_LIP_OIL_BALM_APPLICATION_DETAIL_EN_QA_PENDING.jpg",
+      "source": "batch/228/photo-5.png",
+      "crop": [
+        41,
+        0,
+        758,
+        250
+      ],
+      "role": "archived balm texture and product application close-up"
+    }
+  ],
+  "artifacts": {
+    "zip": "BBIA_v201_LIP_OIL_BALM_TWO_NEW_EN_SCENES_QA_PENDING.zip",
+    "contact": "BBIA_v201_LIP_OIL_BALM_TWO_NEW_SCENES_CONTACT.jpg",
+    "manifest": "BBIA_v201_LIP_OIL_BALM_MANIFEST.json",
+    "script": "v201_lip_oil_balm_missing_scenes.py"
+  },
+  "technical": "Both 1080x1080 JPEG under 2MB, source and output SHA256 saved, ZIP CRC pass, contact visually inspected",
+  "current_official_source_photo_match": "UNVERIFIED",
+  "sale_approved": 0,
+  "translations": 0,
+  "quality_note": "Historic model portrait photograph has no product visible and is a campaign reference only. Archived source of finger application used without claim of contents or benefits. Product current packaging and variant must be independently authenticated.",
+  "new_count_total_roles_for_family": 4,
+  "remaining_roles": "One genuinely distinct fifth role pending verified authentic source. No repeated model photo should be counted twice.",
+  "immutable": [
+    "v147 original recovered files",
+    "all v150-v200 existing photos and holds",
+    "55 public URLs",
+    "GitHub main"
+  ],
+  "no_excel_shared": true,
+  "next": "Do not regenerate v201 two photos. Move to other incomplete family if independent fifth photo unavailable. Perform current official source/option verification before final sale approval."
+}
