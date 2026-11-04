@@ -1,0 +1,39 @@
+{
+  "version": "v2716",
+  "date": "2026-11-05",
+  "baseline": "v2715",
+  "successful_workflow_run": 41859046332,
+  "qa_folder": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha",
+  "outcomes": [
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "source_slot": 5,
+      "technical_alpha_png_saved": true,
+      "technical_1080_JPG_saved": true,
+      "visual_QA": "REJECT_BROWN_RECTANGULAR_BACKGROUND_RETAINED",
+      "reason": "Neural mask selected the original rectangular image panel as foreground rather than isolating the object; not a valid clean cutout."
+    },
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+      "source_slot": 2,
+      "technical_alpha_png_saved": true,
+      "technical_1080_JPG_saved": true,
+      "visual_QA": "REJECT_TUBE_CLIPPED",
+      "reason": "Source slot02 was only a close-up of the tube, so missing full product geometry cannot be reconstructed through segmentation."
+    }
+  ],
+  "decision": "Do not repeat either image and segmentation approach; proceed to other not-yet-attempted families",
+  "preserved": {
+    "prior_photo_sources_sha_unchanged": true,
+    "published_11_approved_families_unchanged": true,
+    "published_55_urls_unchanged": true,
+    "final_XLSX_not_shared": true
+  },
+  "new_sale_approvals": 0,
+  "original_MK_logo_authenticated": false,
+  "commercial_photo_use_rights_confirmed": false,
+  "exact_owned_stock_generation_confirmed": false,
+  "next_workflow": "v2717 queued/in progress run 41859660629, pending-01 pending-10 pending-14 pending-06"
+}
