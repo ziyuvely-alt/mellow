@@ -1,0 +1,108 @@
+{
+  "version": "v2719",
+  "baseline": "v2717",
+  "new_families_attempted": 4,
+  "actual_photo_alpha_PNG_JPG_pairs_saved": 3,
+  "new_retail_approvals": 0,
+  "photo_redistribution_permission_proven": false,
+  "owned_stock_variants_verified": false,
+  "original_approved_MK_logo_verified": false,
+  "prior_11_approved_families_modified": false,
+  "prior_55_published_URLs_changed": false,
+  "prior_saved_original_photo_JPGs_mutated": 0,
+  "no_final_excel_shared": true,
+  "products": [
+    {
+      "family": "pending-05",
+      "product": "Kill Cover Founwear Cushion Mini",
+      "source": "qa-review/v2682-seven-remaining-five-JPG-reviews/pending-05/01-existing-actual-frame03-UNMODIFIED-QA.jpg",
+      "source_sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+      "crop": [
+        142,
+        159,
+        938,
+        963
+      ],
+      "stock_hold": "Confirm exactly mini SKU; do not include refill or gift from kit",
+      "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+      "retail_approved": false,
+      "alpha_coverage": 0.4258,
+      "bbox": [
+        18,
+        0,
+        754,
+        681
+      ],
+      "transparent_png": "pending-05/01-actual-transparent-product-foreground-QA.png",
+      "jpg": "pending-05/01-actual-product-cutout-square-1080-QA.jpg",
+      "jpg_sha256": "cf60b2a833777798539b9a34c23825073efd6f752b8ff8cb104971f6129e4624"
+    },
+    {
+      "family": "pending-07",
+      "product": "Kill Cover Mesh Blur Cushion",
+      "source": "qa-review/v2682-seven-remaining-five-JPG-reviews/pending-07/01-existing-actual-frame02-UNMODIFIED-QA.jpg",
+      "source_sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+      "crop": [
+        154,
+        159,
+        936,
+        966
+      ],
+      "stock_hold": "Full-size vs promotional gift / shade and edition unverified",
+      "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+      "retail_approved": false,
+      "alpha_coverage": 0.3709,
+      "bbox": [
+        40,
+        91,
+        732,
+        583
+      ],
+      "transparent_png": "pending-07/01-actual-transparent-product-foreground-QA.png",
+      "jpg": "pending-07/01-actual-product-cutout-square-1080-QA.jpg",
+      "jpg_sha256": "da210c9933c66e55da3abb2a82e1bf2a74eb186a6b46cc132a0b25325b31f223"
+    },
+    {
+      "family": "pending-12",
+      "product": "PDRN NAD+ Renew Peel Shot 25",
+      "source": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/01-existing-original-slot01-unchanged-QA.jpg",
+      "source_sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+      "crop": [
+        156,
+        160,
+        929,
+        959
+      ],
+      "stock_hold": "Actual photographed 15mL vs inventory historical 15g mismatch, never publish without resolution",
+      "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+      "retail_approved": false,
+      "alpha_coverage": 0.1193,
+      "bbox": [
+        132,
+        16,
+        637,
+        524
+      ],
+      "transparent_png": "pending-12/01-actual-transparent-product-foreground-QA.png",
+      "jpg": "pending-12/01-actual-product-cutout-square-1080-QA.jpg",
+      "jpg_sha256": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1"
+    },
+    {
+      "family": "pending-13",
+      "product": "PDRN Firming Repair Serum 30mL",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/01-original-byte-preserved-QA.jpg",
+      "source_sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "crop": [
+        178,
+        146,
+        926,
+        963
+      ],
+      "stock_hold": "Exact stock generation and same 30mL single item must be proven",
+      "status": "HOLD_BAD_SEGMENTATION",
+      "retail_approved": false,
+      "error_type": "ValueError",
+      "error": "Not plausible product mask: cover=0.0175, box=(176, 57, 572, 545)"
+    }
+  ]
+}
