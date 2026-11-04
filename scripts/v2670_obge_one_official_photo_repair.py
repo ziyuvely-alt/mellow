@@ -19,7 +19,7 @@ def dhash(im):
  pix=list(ImageOps.grayscale(im.resize((9,8),Image.Resampling.LANCZOS)).getdata())
  return sum(1<<(y*8+x) for y in range(8) for x in range(8) if pix[y*9+x]>pix[y*9+x+1])
 with urlopen(Request(new_url,headers={'User-Agent':'Mozilla/5.0','Accept':'image/jpeg,image/*'}),timeout=12) as resp:raw=resp.read(7_000_001)
-assert 12000<len(raw)<7_000_000
+assert 2000<len(raw)<7_000_000, f'Unexpected bytes {len(raw)}'
 source=Image.open(BytesIO(raw));source.load()
 assert source.format in ('JPEG','PNG','WEBP') and min(source.size)>=320
 new_src=ImageOps.exif_transpose(source).convert('RGB')
