@@ -1,0 +1,70 @@
+{
+  "version": "v2800",
+  "baseline": "v2799",
+  "cases": [
+    {
+      "family": "pending-05",
+      "name": "CLIO Founwear Cushion Mini 5g",
+      "matching_official_handles": [],
+      "native_new_photos": [],
+      "official_shopping_page_id_verified": false,
+      "stock_unit_and_edition_verified": false,
+      "photo_commercial_rights_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_NO_EXACT_GLOBAL_PRODUCT"
+    },
+    {
+      "family": "pending-07",
+      "name": "CLIO Mesh Blur Cushion",
+      "matching_official_handles": [],
+      "native_new_photos": [],
+      "official_shopping_page_id_verified": false,
+      "stock_unit_and_edition_verified": false,
+      "photo_commercial_rights_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_NO_EXACT_GLOBAL_PRODUCT"
+    }
+  ],
+  "official_search_requests": [
+    {
+      "url": "https://clubclio.shop/search/suggest.json?q=Founwear+Mini&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "status": 200,
+      "product_titles": []
+    },
+    {
+      "url": "https://clubclio.shop/search/suggest.json?q=Founwear+Cushion+Mini&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "status": 200,
+      "product_titles": [
+        "[CLIO] Kill Cover Mesh Glow Essential Cushion Foundation"
+      ]
+    },
+    {
+      "url": "https://clubclio.shop/search/suggest.json?q=Mesh+Blur+Cushion&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "status": 200,
+      "product_titles": [
+        "[CLIO] Kill Cover Mesh Glow Essential Cushion Foundation",
+        "[CLIO] Essential Lip & Cheek Blush Tap"
+      ]
+    },
+    {
+      "url": "https://clubclio.shop/search/suggest.json?q=Mesh+Blur&resources%5Btype%5D=product&resources%5Blimit%5D=10",
+      "status": 200,
+      "product_titles": [
+        "[CLIO] Kill Cover Mesh Glow Essential Cushion Foundation",
+        "[CLIO] Kill Lash Superproof Mascara",
+        "[CLIO] Essential Lip & Cheek Blush Tap"
+      ]
+    },
+    {
+      "url": "https://clubclio.shop/products.json?limit=250&page=1",
+      "status": 200,
+      "returned_count": 32
+    }
+  ],
+  "new_native_photo_assets": 0,
+  "previous_11_approved_families_untouched": true,
+  "previous_55_public_urls_unchanged": true,
+  "existing_QA_photos_unchanged": true,
+  "new_retail_approvals": 0,
+  "final_excel_shared": false
+}
