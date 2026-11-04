@@ -1,0 +1,18 @@
+{
+  "checkpoint": "v326",
+  "parent": "v325",
+  "goodsNo": "1000000056",
+  "actual_output": {
+    "alpha_png": "BBIA_1000000056_SLIM_BRUSH_TRUE_ALPHA_v326_QA_PENDING.png",
+    "alpha_sha256": "7b69fae05c8ab2fd3b236ebfc8b0b998494d552db17155a6d05d6dc8938ea60c",
+    "new_jpg": "BBIA_1000000056_02_BRUSH_FIBER_ALPHA_v326_QA_PENDING.jpg",
+    "new_jpg_sha256": "23495282bc3803c2c2ed4883b84e18749260d767f9762f24958546784594c2a1",
+    "zip": "/mnt/data/bbia_v326/BBIA_v326_SLIM_BRUSH_ALPHA_QA_PENDING.zip",
+    "zip_sha256": "3e649f0a5b10ff21cf975fd91299aa33ef9d2d66d44449bb32ef54b5be2e554e",
+    "contact": "/mnt/data/bbia_v326/BBIA_v326_SLIM_BRUSH_DUAL_BACKGROUND_EDGE_QA.jpg",
+    "zip_crc": "PASS"
+  },
+  "photo_quality": "Thin bristle light fringe on dark background; hold sales approval, original v325 JPG unchanged",
+  "existing_55_urls_unchanged": true,
+  "final_excel_shared": false
+}
