@@ -1,0 +1,52 @@
+{
+  "version": "v2697",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+  "actual_product_jpgs": 5,
+  "prior_JPG_files_preserved_sha_identical": 4,
+  "frame04_old_multiple_products_removed": true,
+  "frame04_replaced_with_official_same_serum_model_scene": true,
+  "unrelated_Vitamin_C_gift_photo_explicitly_rejected": true,
+  "old_29_other_QA_product_sets_untouched": true,
+  "final_retail_approved": false,
+  "photo_publication_permission_verified": false,
+  "owned_stock_generation_verified": false,
+  "v2647_full_archive_compared": false,
+  "previous_approved_11_families_untouched": true,
+  "published_55_urls_untouched": true,
+  "final_excel_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-original-byte-preserved-QA.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "preserved": true
+    },
+    {
+      "slot": 2,
+      "file": "02-original-byte-preserved-QA.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "preserved": true
+    },
+    {
+      "slot": 3,
+      "file": "03-original-byte-preserved-QA.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "preserved": true
+    },
+    {
+      "slot": 4,
+      "file": "04-official-30mL-serum-model-holding-single-product-QA.jpg",
+      "sha256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+      "preserved": false,
+      "official_source": "https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389036.jpg",
+      "source_review": "v2696 media06, model applies/holds only same serum; no gift or variant bottles"
+    },
+    {
+      "slot": 5,
+      "file": "05-net-content-factual-only-QA.jpg",
+      "sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "preserved": true
+    }
+  ]
+}
