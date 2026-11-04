@@ -1,0 +1,43 @@
+{
+  "version": "v2760",
+  "date": "2026-11-05",
+  "family": "pending-08",
+  "verified_run": 41894843734,
+  "action_conclusion": "success",
+  "qa_folder": "qa-review/v2760-peripera-18-19-alternate-actual-photo-alpha",
+  "observed": {
+    "shade18": {
+      "name": "Nude Area",
+      "new_exact_shade_source": "Jeevee 1024x1024 existing K-ookie old edition picture",
+      "actual_new_technical_png_jpg_pair": true,
+      "visual_status": "PHOTO_DETAIL_QA_CANDIDATE_HOLD_DECORATIVE_SWATCH",
+      "note": "Real bottle and detached applicator intact; circular color illustration remains behind. Do not claim single bare product cutout or sale-ready."
+    },
+    "shade19": {
+      "name": "Mauve Chaos",
+      "alternate_source": "Shopee Vietnam 800x800 exact shade label",
+      "first_alpsus_attempt": "Image response not parseable. Do not retry identical CDN route.",
+      "actual_new_technical_png_jpg_pair": true,
+      "visual_status": "REJECT_FOR_SINGLE_ITEM_HERO_HAS_LIP_AND_TITLE",
+      "note": "Original 800x800 photo contains RHS English heading and lip-swatch; mask preserved it. Never publish as product-only hero."
+    },
+    "input_source_sha_preserved": true,
+    "original_v2753_shades_01to20_unchanged": true,
+    "v2758_18_shade_PNG_JPG_technical_pass": 18,
+    "v2759_no_dangerous_product_pixel_deletion": true
+  },
+  "next": {
+    "v2761_run": 41895612450,
+    "deliverable": "Only two improved source photo compositions: #19 actual left item panel without lip/title; MISSHA PDRN serum 30mL old source03 without decorative circle. If model fails, quarantine and do not regenerate earlier success outputs."
+  },
+  "protected": {
+    "approved_11_families": 11,
+    "approved_public_55_urls": 55,
+    "assets_reencoded": 0,
+    "new_sale_approved": 0,
+    "final_XLSX_shared": false
+  },
+  "new_photo_rights_verified": false,
+  "owned_stock_generations_verified": false,
+  "original_MK_logo_authenticity_verified": false
+}
