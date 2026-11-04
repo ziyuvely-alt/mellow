@@ -1,0 +1,103 @@
+{
+  "version": "v2745",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream",
+  "verified_reference_25AD_30mL": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+  "shilla_reference_number": "구청귤비타C아이크림 (25AD)",
+  "shilla_SKU": "669210000423",
+  "official_CLIO_page": "https://clubclio.co.kr/shop/goodsView/0000006606",
+  "archived_failure_source_images_used": false,
+  "source_photos": [
+    {
+      "source": "clio_official_two_tubes_identity_only",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/66/06/basic.gif?v=1773620319",
+      "single_product_photo": false,
+      "source_native_px": [
+        572,
+        572
+      ],
+      "file": "clio_official_two_tubes_identity_only-reference-1080-QA.jpg",
+      "native_sha256": "21a9c50d8f19d238997e13e9dc2c550e825f32d17ba2c8d943d271d851e18a12",
+      "jpg_sha256": "25bdb1b03baf34589ee5cd3e7e1d5366a19f4d7659315d380ad9ccaecd8b37c3",
+      "JPG_bytes": 166907,
+      "status": "SOURCE_REFERENCE_STAGED"
+    },
+    {
+      "source": "sungsinsa_single_tube_product",
+      "url": "https://sungsinsa.com/cdn/shop/files/sgms1j3k.png?v=1776305758&width=1100",
+      "single_product_photo": true,
+      "source_native_px": [
+        1080,
+        1080
+      ],
+      "file": "sungsinsa_single_tube_product-reference-1080-QA.jpg",
+      "native_sha256": "eecd3ea07437583bcc63bd1bff479a0a4945d762c4c05d1afe517b849b294b68",
+      "jpg_sha256": "88c0ae60b506002766ca9e30f000c0438dbc9ce6cd342a91f0d2f4648ac775aa",
+      "JPG_bytes": 86681,
+      "status": "SOURCE_REFERENCE_STAGED"
+    },
+    {
+      "source": "hwahae_single_tube_product",
+      "url": "https://img.hwahae.co.kr/products/2124760/2124760_20260305113114.jpg",
+      "single_product_photo": true,
+      "source_native_px": [
+        720,
+        720
+      ],
+      "file": "hwahae_single_tube_product-reference-1080-QA.jpg",
+      "native_sha256": "c8244911818705c1a7f9d0c265fa2c224ec296522fe07e09ca1f29bf4482e5dc",
+      "jpg_sha256": "e4ee93841ed9113f5592ba702cb515c36741070d95cc15606031edc586cf1db0",
+      "JPG_bytes": 48186,
+      "status": "SOURCE_REFERENCE_STAGED"
+    }
+  ],
+  "product_cutouts": [
+    {
+      "source": "sungsinsa_single_tube_product",
+      "original_native_px": [
+        1080,
+        1080
+      ],
+      "png": "sungsinsa_single_tube_product/01-true-transparent-eyecream-30mL-QA.png",
+      "jpg": "sungsinsa_single_tube_product/01-eyecream-full-tube-real-photo-1080-QA.jpg",
+      "mask_bbox": [
+        403,
+        66,
+        662,
+        989
+      ],
+      "mask_coverage": 0.1418,
+      "product_version": "25AD to be compared against user stock in hand",
+      "status": "TRUE_SINGLE_TUBE_PHOTO_ALPHA_NEEDS_VISUAL_QA",
+      "photo_commercial_rights_verified": false
+    },
+    {
+      "source": "hwahae_single_tube_product",
+      "original_native_px": [
+        720,
+        720
+      ],
+      "png": "hwahae_single_tube_product/01-true-transparent-eyecream-30mL-QA.png",
+      "jpg": "hwahae_single_tube_product/01-eyecream-full-tube-real-photo-1080-QA.jpg",
+      "mask_bbox": [
+        404,
+        25,
+        676,
+        1055
+      ],
+      "mask_coverage": 0.1362,
+      "product_version": "25AD to be compared against user stock in hand",
+      "status": "TRUE_SINGLE_TUBE_PHOTO_ALPHA_NEEDS_VISUAL_QA",
+      "photo_commercial_rights_verified": false
+    }
+  ],
+  "original_MK_logo_authenticated": false,
+  "copyright_reuse_rights_verified": false,
+  "user_owned_stock_edition_verified": false,
+  "new_sale_approved": false,
+  "approved_11_product_families_unchanged": true,
+  "verified_public_55_image_URLs_unchanged": true,
+  "final_XLSX_shared": false,
+  "physically_rendered_new_alpha_PNG_JPG_pairs": 2,
+  "status": "FULL_SOURCE_AND_ALPHA_QA_REVIEW_PENDING"
+}
