@@ -1,0 +1,32 @@
+name: Shopee v2748 MISSHA source-N21 compact round transparency, options HOLD
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2748-missha-N21-actual-compact-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shape:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Isolate actual source01 N21 compact only, preserve N23 output and approved URLs
+        run: |
+          cp scripts/v2748_missha_cover21_source01_round_compact.py /tmp/v2748.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2748-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2748-qa/qa-review/v2748-missha-coverlasting-21-source01-round-compact-only
+          cd /tmp/v2748-qa
+          python /tmp/v2748.py
+          git add qa-review/v2748-missha-coverlasting-21-source01-round-compact-only
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2748 real source01 N21 distinct circular compact transparent QA, hold option eligibility'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
