@@ -1,0 +1,37 @@
+name: Shopee v2592 remove internal stock review text from Goodal factual JPG
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2592_clean_goodal_customer_facing_footer.py'
+      - '.github/workflows/v2592-goodal-footer-correction.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  correct-one-goodal-footer:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve only earlier Goodal fact JPG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764148539 -n shopee-v2590-GOODAL-100ml-facts-1real-JPG-QA-no-XLSX -D v2592-facts
+      - name: Retrieve existing 17 candidate change checkpoint without rebuilding
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764248547 -n shopee-v2591-seventeen-photo-QA-delta-metadata-and-new-Goodal-JPG-no-XLSX -D v2592-checkpoint
+      - name: Remove only internal customer-visible QA footer wording
+        run: python scripts/v2592_clean_goodal_customer_facing_footer.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2592-goodal-100ml-clean-footer-17QA-checkpoint-no-XLSX
+          path: v2592-goodal-customer-facing-copy-cleanup/
+          retention-days: 90
+          if-no-files-found: error
