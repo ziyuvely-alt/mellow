@@ -1,0 +1,42 @@
+{
+  "version": "v2739",
+  "baseline": "v2738b",
+  "successfully_rasterized_existing_svg_contours": 1,
+  "genuine_1080_transparent_PNGs": 1,
+  "shopee_1080_JPGs_under_2mb": 1,
+  "prior_source_SVGs_original_JPGs_modified": 0,
+  "human_edge_review_complete": false,
+  "new_retail_approved": 0,
+  "source_image_redistribution_permission_verified": false,
+  "owned_inventory_editions_verified": false,
+  "original_MK_logo_verified": false,
+  "previous_11_published_groups_unchanged": true,
+  "previous_55_public_urls_unchanged": true,
+  "final_excel_or_spreadsheet_shared": false,
+  "products": [
+    {
+      "family": "pending-23",
+      "product": "OBgE Pore Zero Sun Cream 50mL",
+      "source_svg": "qa-review/v2738b-porezero-clean-source-alternate-svg-cutout/pending-23-real-50mL-alternate-source-contour-QA.svg",
+      "source_svg_sha256": "41bfd8f0e72f7929a6b46ecb653c2a86120b8541a9eea35a5148c977622b00f6",
+      "actual_original_jpeg_embedded_sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+      "png": "pending-23/01-authentic-source-contour-transparent-1080-QA.png",
+      "jpg": "pending-23/01-original-product-contour-white-1080-QA.jpg",
+      "png_sha256": "0ebe79a080f9da7c0f9137b2e31ed60f17333fe1f0e1ba995acaf0da23867120",
+      "jpg_sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+      "png_bytes": 173373,
+      "jpg_bytes": 57774,
+      "solid_alpha_coverage": 0.2288,
+      "semitransparent_pixels": 1568,
+      "alpha_bbox": [
+        347,
+        147,
+        738,
+        930
+      ],
+      "technical_file_QA": "PASS",
+      "human_silhouette_QA": "UNREVIEWED",
+      "commercial_release": "HOLD_ORIGINAL_MK_LOGO_RIGHTS_STOCK_VERSION"
+    }
+  ]
+}
