@@ -1,0 +1,25 @@
+name: Shopee v2594 thirty-family product unit and option identity hold audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2594_unit_and_option_release_preflight.py'
+      - 'evidence/v2594-missha-pdrn-renew-peel-shot25-official-15ml-versus-stock-15G-20261104.json'
+      - '.github/workflows/v2594-stock-unit-identity.yml'
+permissions:
+  contents: read
+jobs:
+  inventory-unit-crosswalk:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify all product unit options, exact official MISSHA 15 mL, and shade metadata
+        run: python scripts/v2594_unit_and_option_release_preflight.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2594-thirty-family-stock-unit-and-option-gates-no-XLSX
+          path: v2594-30family-unit-identity-and-options-qa/
+          retention-days: 90
+          if-no-files-found: error
