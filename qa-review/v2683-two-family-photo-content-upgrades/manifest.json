@@ -1,0 +1,41 @@
+{
+  "version": "v2683",
+  "baseline": "v2680",
+  "new_photo_assets_created": 0,
+  "actual_source_photos_byte_preserved": 2,
+  "replaced_weak_info_frames": 2,
+  "source_frames_kept_unchanged": 8,
+  "family_count": 2,
+  "JPG_count": 10,
+  "families": [
+    {
+      "family": "pending-23",
+      "photo_source_slot": 5,
+      "replaced_info_frame": 5,
+      "new_photo_hash": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+      "new_photo_vs_remaining_min_dhash": 20,
+      "prior_four_frames_sha_identical": true,
+      "source_is_historical_edition_not_latest": true,
+      "status": "QA_UPGRADED_NOT_RETAIL_APPROVED",
+      "reason": "Original product pair photo replaces generic NET CONTENT placeholder"
+    },
+    {
+      "family": "pending-27",
+      "photo_source_slot": 4,
+      "replaced_info_frame": 5,
+      "new_photo_hash": "8b7af15399f24abc987fa4c143628bda4cdd8aa7b48ac63a74b2b591accd8008",
+      "new_photo_vs_remaining_min_dhash": 22,
+      "prior_four_frames_sha_identical": true,
+      "source_is_historical_edition_not_latest": true,
+      "status": "QA_UPGRADED_NOT_RETAIL_APPROVED",
+      "reason": "Actual product+packaging photo replaces generic NET CONTENT placeholder"
+    }
+  ],
+  "photo_rights_verified": false,
+  "owned_stock_package_verified": false,
+  "latest_v2647_compared": false,
+  "retail_approved_new_families": 0,
+  "existing_11_approved_groups_unchanged": true,
+  "existing_55_public_URLs_unchanged": true,
+  "final_excel_not_shared": true
+}
