@@ -1,0 +1,33 @@
+name: Shopee v2686 correct 26AD false unavailable shades and make verified-name JPG
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2686-peripera-20-corrected-shade-names.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install image and Korean font dependencies
+        run: sudo apt-get update -qq && sudo apt-get install -y fonts-noto-cjk >/dev/null && python -m pip install Pillow
+      - name: Render 20 correctly verified shade names, preserve past references
+        run: |
+          python scripts/v2686_peripera_verify_twenty_names.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2686-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2686-qa/qa-review/v2686-peripera-20-verified-name-index
+          cp -a qa-review/v2686-peripera-20-verified-name-index /tmp/v2686-qa/qa-review/
+          cd /tmp/v2686-qa
+          git add qa-review/v2686-peripera-20-verified-name-index
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2686 fix Peripera 04 06 07 exclusive false exclusions, preserve 20 verified shade names'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
