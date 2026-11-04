@@ -1,0 +1,37 @@
+name: Shopee v2676 MISSHA PDRN serum authentic five-JPG QA draft
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2676-missha-serum-fiveframe.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Download 156 historic genuine source images once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Preserve four photos, replace only one unverified-ingredient info card
+        run: |
+          python scripts/v2676_missha_serum_fiveframe.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2676-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2676-qa/qa-review/v2676-missha-pdrn-serum-fiveframe-qa
+          cp -a qa-review/v2676-missha-pdrn-serum-fiveframe-qa /tmp/v2676-qa/qa-review/
+          cd /tmp/v2676-qa
+          git add qa-review/v2676-missha-pdrn-serum-fiveframe-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2676 MISSHA PDRN serum genuine 4 source frames plus safe factual replacement QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
