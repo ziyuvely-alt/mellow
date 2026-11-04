@@ -1,0 +1,64 @@
+{
+  "version": "v2744",
+  "baseline": "v2743",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+  "official_source_gallery": "v2696",
+  "photo_source_slot": 4,
+  "actual_source": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+  "actual_source_sha256": "703c7d4e3d883364813e09087dfbf9ad08f5c4a422dd8b86b17036be6abf03ff",
+  "source_crop_xyxy": [
+    235,
+    80,
+    804,
+    990
+  ],
+  "new_PNG_JPG_pairs": 2,
+  "never_used_wrong_fact_card": true,
+  "never_used_wrong_vitamin_C_product": true,
+  "never_used_multiple_product_set_pictures": true,
+  "commercial_photo_reuse_permission_verified": false,
+  "physical_owned_stock_generation_verified": false,
+  "original_MK_logo_verified": false,
+  "previous_11_approved_product_families_untouched": true,
+  "previous_55_public_urls_unchanged": true,
+  "all_previous_source_photos_unchanged": true,
+  "new_retail_approval": false,
+  "final_xlsx_shared": false,
+  "candidates": [
+    {
+      "method": "isnet_30mL_serum",
+      "status": "PHYSICAL_ALPHA_PNG_JPG_RENDERED_VISUAL_QA_PENDING",
+      "mask_fraction": 0.3666,
+      "bbox": [
+        154,
+        72,
+        461,
+        865
+      ],
+      "png": "isnet_30mL_serum/01-real-serum-bottle-alpha-QA.png",
+      "jpg": "isnet_30mL_serum/01-real-serum-bottle-1080-white-QA.jpg",
+      "png_sha256": "6eea34e5a5d60dd097d21994190161aaccf3cc8e4faf9fe539dfa138f1f8bf15",
+      "jpg_sha256": "5b9d3fd86170db38cc234a319acaaec1456b55819ff8ca05c68a0b7de7e3f596",
+      "jpg_bytes": 88635,
+      "source_pixels_reused_without_synthesis": true
+    },
+    {
+      "method": "seeded_grabcut_30mL_serum",
+      "status": "PHYSICAL_ALPHA_PNG_JPG_RENDERED_VISUAL_QA_PENDING",
+      "mask_fraction": 0.3236,
+      "bbox": [
+        153,
+        230,
+        448,
+        865
+      ],
+      "png": "seeded_grabcut_30mL_serum/01-real-serum-bottle-alpha-QA.png",
+      "jpg": "seeded_grabcut_30mL_serum/01-real-serum-bottle-1080-white-QA.jpg",
+      "png_sha256": "0a0934a1d67dc24f0bed6e1458446e5e1d919c2d6ffa95bb78e45c90ae36e742",
+      "jpg_sha256": "d5efb1066cc38430cf5365ba0227872c91d5e57061448d568861a009b9e2e790",
+      "jpg_bytes": 104521,
+      "source_pixels_reused_without_synthesis": true
+    }
+  ]
+}
