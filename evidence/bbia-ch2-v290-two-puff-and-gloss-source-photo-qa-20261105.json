@@ -1,0 +1,94 @@
+{
+  "checkpoint": "v290",
+  "date": "2026-11-05",
+  "parent": "v289",
+  "source_execution": {
+    "github_run_id": 41858621307,
+    "artifact_id": 13338428165,
+    "source_files_inspected": 7,
+    "downloaded": 7
+  },
+  "new_work": {
+    "new_jpg": 2,
+    "format": "1080x1080 JPG under 2MB",
+    "source_files_reused": [
+      "BBIA_1000000251_ORIGINAL_SOURCE_0_v289.jpg",
+      "BBIA_1000000166_ORIGINAL_SOURCE_1_v289.jpg"
+    ],
+    "output_files": [
+      {
+        "goodsNo": "1000000251",
+        "name": "BBIA_1000000251_DETAIL_v290_QA_PENDING.jpg",
+        "role": "real photographed white Rubycell puff",
+        "bytes": 103218,
+        "sha256": "37e8e316ed478c100209b5bc7dbd74bf80c8073558992648d74b040eb06d3ee0",
+        "source_crop": [
+          75,
+          700,
+          910,
+          1450
+        ],
+        "status": "SOURCE_PHOTO_QA_PENDING"
+      },
+      {
+        "goodsNo": "1000000166",
+        "name": "BBIA_1000000166_DETAIL_v290_QA_PENDING.jpg",
+        "role": "two genuine gloss lip photos without shade assignment",
+        "bytes": 91841,
+        "sha256": "f4319677b7e66d47270e766c55d88ea0d64d0b7e34150c800545430cf9f6070f",
+        "source_crop": [
+          60,
+          375,
+          925,
+          650
+        ],
+        "status": "SOURCE_PHOTO_QA_PENDING"
+      }
+    ],
+    "zip": "/mnt/data/bbia_v290/BBIA_v290_TWO_NEW_DETAILS_QA_PENDING.zip",
+    "zip_sha256": "a83df4b6090351fbcee0d3005babf91323a96baa835c206820dc41471feebb87",
+    "zip_crc": "pass",
+    "contact": "/mnt/data/bbia_v290/BBIA_v290_TWO_DETAIL_CONTACT.jpg",
+    "actual_contact_opened": true
+  },
+  "holds": [
+    {
+      "goodsNo": "1000000142",
+      "source_indices": [
+        2,
+        3
+      ],
+      "reason": "Korean product specifications and terms; no independent usable product photo"
+    },
+    {
+      "goodsNo": "1000000251",
+      "source_indices": [
+        2,
+        3
+      ],
+      "reason": "Korean legal and specification text only"
+    },
+    {
+      "goodsNo": "1000000166",
+      "source_index": 1,
+      "notes": "Only photographed finish crop is retained as one QA role; source's remaining labeled color-chart content cannot be converted to independent shade-options without official option verification"
+    }
+  ],
+  "quality_gates": {
+    "true_alpha_cutout": "not verified",
+    "specific_shade_mapping": "not verified",
+    "new_text": "English only; manufacturer NEW badges remain in source lip photographs",
+    "sales_approved": 0
+  },
+  "preservation": {
+    "previous_verified_55_urls_modified": false,
+    "public_images_modified": false,
+    "v288_5_role_set_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not regenerate v290 2 JPGs; use exact SHA",
+    "Proceed to other incomplete goodsNo distinct source photo roles, not repeated official ads",
+    "Batch sales-quality QA and true cutout after source-photo role coverage"
+  ]
+}
