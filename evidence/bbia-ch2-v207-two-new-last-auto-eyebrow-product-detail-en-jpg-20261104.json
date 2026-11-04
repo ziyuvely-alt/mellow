@@ -1,0 +1,41 @@
+{
+  "checkpoint": "v207",
+  "date": "2026-11-04",
+  "previous_success": "v206 read-only 46-family archive inventory and product mismatch holds; all original outputs retained",
+  "new_family": "BBIA Last Auto Eyebrow Pencil",
+  "goodsNo": "1000000108",
+  "new_jpg_count": 2,
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "new_frames": [
+    {
+      "source": "batch/1000000108/photo-2.png",
+      "role": "genuine multi-pencil studio group photo, no shade naming"
+    },
+    {
+      "source": "batch/1000000108/photo-4.png",
+      "crop": [
+        0,
+        150,
+        671,
+        650
+      ],
+      "role": "pencil tip and brush photo, original Korean header cropped out"
+    }
+  ],
+  "new_outputs": [
+    "BBIA_v207_EYEBROW_2_NEW_DISTINCT_EN_QA_PENDING.zip",
+    "BBIA_v207_EYEBROW_TWO_NEW_EN_CONTACT.jpg",
+    "v207_eyebrow_EN/QA_MANIFEST_v207.json",
+    "v207_eyebrow_two_photos.py"
+  ],
+  "qa": "2 real 1080x1080 JPEG <2MB, actual preview inspected, source/output SHA256 saved in manifest, ZIP CRC valid. Removed internal QA footers from newly produced designs only; no older JPG rewritten.",
+  "prior_roles": "v178 2 other product scenes retained",
+  "now_roles": "4 distinct photographed English scene candidates in total, NOT 4 sale-approved frames",
+  "remaining": "fifth unique role needs verified authentic photo; latest official product image and per-option identity unverified",
+  "new_sales_approval": 0,
+  "translations": 0,
+  "previous_results_modified": false,
+  "existing_55_public_urls_modified": false,
+  "excel_shared": false,
+  "next": "Do not recreate v207 two images. Continue other unfinished product families and real-photo quality/source checks. Do not count historical archives or QA_PENDING as released image. Reconcile remaining 2 missing families of 48 against project master if available."
+}
