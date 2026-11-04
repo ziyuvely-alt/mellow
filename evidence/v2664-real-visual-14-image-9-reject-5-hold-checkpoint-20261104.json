@@ -1,0 +1,87 @@
+{
+  "version": "v2664",
+  "date": "2026-11-04",
+  "base": "v2662",
+  "produced_visual_artifacts": {
+    "run": 41828572832,
+    "status": "success",
+    "original_images": 14,
+    "contact_sheet_path": "qa-review/v2663-visual-proof/v2663-all14-contact-sheet.jpg",
+    "branch": "qa-assets/v2662-immutable-14-candidates"
+  },
+  "actual_visual_inspection": {
+    "evidence": "evidence/v2663-actual-14-photo-visual-qa-hold-and-reject-20261104.json",
+    "rejected": 9,
+    "held": 5,
+    "approved": 0,
+    "rejected_families": [
+      "pending-02",
+      "pending-05",
+      "pending-07",
+      "pending-08",
+      "pending-15",
+      "pending-21",
+      "pending-22",
+      "pending-26",
+      "pending-28"
+    ],
+    "held_families": [
+      "pending-04",
+      "pending-16",
+      "pending-17",
+      "pending-18",
+      "pending-29"
+    ]
+  },
+  "automated_release_gate": {
+    "run": 41828854681,
+    "status": "completed_success",
+    "artifact_id": 13322285291,
+    "tests": "14 image QA records reviewed: 9 REJECT + 5 HOLD; 0 customer approved"
+  },
+  "urgent_repair_order": [
+    {
+      "family": "pending-05",
+      "task": "Restore complete MAIN + REFILL copy without cropping, using distinct exact stock scene instead of zooming old card"
+    },
+    {
+      "family": "pending-07",
+      "task": "Replace cropped 15 g CUSHION header with correct generation/stock-verified composition"
+    },
+    {
+      "family": "pending-02",
+      "task": "Replace cropped MAGIC CUSHION title; exact product edition and rights check"
+    },
+    {
+      "family": "pending-08",
+      "task": "Fix clipped title only when 26AD name/chart source is verified"
+    },
+    {
+      "family": "pending-26",
+      "task": "Repair GENTLE CLEANSER text and verify printed 145 mL genuine product, quarantine 150 mL"
+    },
+    {
+      "family": "pending-28",
+      "task": "Repair left-truncated customer copy and remove unverified MK mark only after valid master is obtained"
+    },
+    {
+      "family": "pending-21",
+      "task": "Repair 30 mL card Eye Cream description cropping using original legitimate product information"
+    },
+    {
+      "family": "pending-22",
+      "task": "Replace partially clipped product focus/footer with exact full item photograph"
+    },
+    {
+      "family": "pending-15",
+      "task": "Recompose full DrG product with validated genuine brand mark, no provisional MK"
+    }
+  ],
+  "retained": {
+    "approved_families": 11,
+    "published_urls": 55,
+    "original_candidate_jpg_bytes_mutated": 0,
+    "final_spreadsheet_shared": false
+  },
+  "next": "Do not resume crop zoom-from-existing-copy method. Build distinct sale-frame composition from verified exact-product licensed photo; verify full text fitting and brand source before release. The latest v2647 archive and original MK logo remain external blockers."
+}
