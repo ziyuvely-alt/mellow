@@ -1,0 +1,88 @@
+{
+  "version": "v2670",
+  "date": "2026-11-04",
+  "baseline": "v2666",
+  "project": {
+    "total_SKU": 82,
+    "total_families": 41,
+    "legacy_sale_approved_families": 11,
+    "remaining_sale_release_families": 30,
+    "verified_existing_public_urls": 55
+  },
+  "actual_achievements": [
+    {
+      "version": "v2667",
+      "run": 41831044087,
+      "operation": "Selected 5 authentic historical source images from 5 failed families; physically previewed all five"
+    },
+    {
+      "version": "v2668",
+      "run": 41831783501,
+      "operation": "Completed PixelPure Glow Cleansing Serum Pad 210mL 70pads 5 distinct QA frames (2 genuine existing photos+3 factual info JPGs)",
+      "path": "qa-review/v2668-pixelpure-5card-actual-draft",
+      "status": "FULL_5_FRAME_DRAFT_QA_ONLY"
+    },
+    {
+      "version": "v2669",
+      "run": 41832315646,
+      "operation": "Created OBgE 300mL initial 5-frame draft; detected duplicate photographic scene",
+      "status": "SUPERSEDED_BY_V2670"
+    },
+    {
+      "version": "v2670",
+      "failed_run": 41832581252,
+      "corrected_run": 41832817362,
+      "operation": "Replaced OBgE frame02 only with different official beige-background 300mL bottle, SHA-preserved other four originals",
+      "dhash_first_photo_vs_second": 23,
+      "path": "qa-review/v2670-obge-300ml-distinct-official-photo-qa",
+      "status": "FULL_5_FRAME_DRAFT_QA_ONLY"
+    }
+  ],
+  "photo_source_details": {
+    "obge_alternate": "https://m.obge.co.kr/web/product/big/202512/a539d1b39803753e1b2da68db3f586d2.jpg",
+    "note": "Official photo exact 300mL product; commercial republication rights not determined"
+  },
+  "actual_visual_review": "Viewed both completed 5-frame contact sheets; five files each are 1080x1080 JPEG under 2MB. Visible new information text is not clipped. Drafts contain limited information-card storytelling; further commercial quality/design review required.",
+  "rejected_generated_assets": "An unrelated six-item synthetic catalog collage was not accepted or uploaded because it mismatched actual inventory; no use in store.",
+  "sale_releases": {
+    "new_approved_families": 0,
+    "existing_approved_families": 11,
+    "existing_55_public_urls_modified": 0
+  },
+  "work_remaining": [
+    {
+      "family": "pending-05",
+      "state": "HOLD_ACTUAL_PROMOTIONAL_BOX_EDITION",
+      "next": "Need same-owned CLIO The Original kit and photo usage proof"
+    },
+    {
+      "family": "pending-07",
+      "state": "HOLD_PROMOTIONAL_PACKAGE_CONTENTS",
+      "next": "Different bonus/gift box generation; do not misrepresent"
+    },
+    {
+      "family": "pending-15",
+      "state": "HOLD_GENUINE_DR_G_SOLO_PHOTO",
+      "next": "Selected photo was how-to, unverified MK logo"
+    },
+    {
+      "family": "pending-28",
+      "state": "FIVE_JPG_QA_DRAFT_COMPLETE",
+      "next": "Source rights, physical stock version, latest v2647 comparison and final content/design QA"
+    },
+    {
+      "family": "pending-22",
+      "state": "FIVE_JPG_QA_DRAFT_COMPLETE",
+      "next": "Source rights, physical stock version, latest v2647 comparison and final content/design QA"
+    }
+  ],
+  "archive_branch": "qa-assets/v2662-immutable-14-candidates",
+  "do_not_repeat": [
+    "Do not regenerate v2668 five photos or v2670 five photos",
+    "Do not retry fixed v2670 official size threshold issue",
+    "Do not create synthetic inaccurate product collages",
+    "Do not count QA draft as sale approved"
+  ],
+  "public_approved_unchanged": true,
+  "spreadsheet_not_shared": true
+}
