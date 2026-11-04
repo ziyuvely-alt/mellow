@@ -1,0 +1,25 @@
+name: Shopee v2570 verified peripera 20 option label reference only
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2570_peripera_names_source_20preflight.py'
+      - 'evidence/v2569-peripera-004-006-007-014-naming-verified-20261104.json'
+      - '.github/workflows/v2570-peripera-20-option-names.yml'
+permissions:
+  contents: read
+jobs:
+  validate-source-option-labels:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Compare existing inventory options to four retailer-validated names
+        run: python scripts/v2570_peripera_names_source_20preflight.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2570-peripera-20-source-backed-labels-reference-no-XLSX
+          path: v2570-peripera-option-preflight/
+          retention-days: 90
+          if-no-files-found: error
