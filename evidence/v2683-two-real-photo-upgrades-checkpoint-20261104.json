@@ -1,0 +1,65 @@
+{
+  "version": "v2683",
+  "date": "2026-11-04",
+  "baseline": "v2682",
+  "repo": "ziyuvely-alt/mellow",
+  "actual_execution": {
+    "run_id": 41838780559,
+    "result": "success",
+    "new_sales_ready_images": 0,
+    "families_with_photographic_quality_upgrades": 2,
+    "existing_images_reencoded": 0,
+    "actual_new_product_photos_copied_byte_exact": 2,
+    "prior_8_JPG_bytes_unchanged": true,
+    "count_JPGs_in_new_QA_folder": 10,
+    "files_saved_to": "qa-review/v2683-two-family-photo-content-upgrades"
+  },
+  "verified_product_upgrades": [
+    {
+      "family": "pending-23",
+      "product": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+      "replaced_frame": 5,
+      "source_photo_slot": 5,
+      "perceptual_difference_to_remaining_frames": 20,
+      "before": "Three product photos, 2 generic information cards",
+      "after": "Four product photos, 1 factual information card",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "replaced_frame": 5,
+      "source_photo_slot": 4,
+      "perceptual_difference_to_remaining_frames": 22,
+      "before": "Three product photos, 2 generic information cards",
+      "after": "Four product photos, 1 factual information card",
+      "retail_approved": false
+    }
+  ],
+  "image_visual_review": "Opened v2683 10-JPG contact sheet; entire new product images are visible. No new unsupported marketing text or logo inserted.",
+  "duplicate_work_prevented": [
+    "Do not repeat photo source checks or repackage these 2 sources",
+    "Do not recreate v2680 original two family sets: they remain immutable",
+    "Do not alter 11 approved family images"
+  ],
+  "remaining_blockers": [
+    "Exact held stock edition remains unverified for sales approval",
+    "Source photograph redistribution permission not verified",
+    "Latest v2647 binary unavailable for version cross-comparison",
+    "Original MK artwork not available; prior MK variants must remain unapproved",
+    "Some other pending sets have one actual photo and four generic cards; avoid claiming they are sales-ready",
+    "Peripera pending-08 official 26AD shade identity remains unresolved"
+  ],
+  "current_project": {
+    "existing_approved_product_families": 11,
+    "total_inventory_product_families": 41,
+    "pending_family_QA_five_frame_sets_present": 29,
+    "unstaged_pending": [
+      "pending-08"
+    ],
+    "public_55_URLs_changed": 0,
+    "new_sale_approved": 0,
+    "final_xlsx_shared": false
+  },
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates"
+}
