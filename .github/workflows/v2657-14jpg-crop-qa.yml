@@ -1,0 +1,32 @@
+name: Shopee v2657 14 preserved JPG crop and rectangular-border review
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2657_14jpg_visual_composition_QA.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  review:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Download preserved candidate image bytes only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41825277732 -n shopee-v2656-immutable-14-real-photo-QA-JPG-with-hash-manifest-no-XLSX -D source/v2656
+      - name: Run framed crop risk QA and export two actual contact sheets
+        run: python scripts/v2657_14jpg_visual_composition_QA.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2657-14-real-JPG-visual-crop-QA-contact-sheets-no-XLSX
+          path: v2657-visual-composition-QA/
+          retention-days: 90
+          if-no-files-found: error
