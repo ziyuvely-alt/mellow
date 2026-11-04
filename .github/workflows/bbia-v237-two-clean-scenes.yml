@@ -1,0 +1,26 @@
+name: BBIA v237 salvage two actual product-photo regions
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v237_two_clean_product_scenes.py, .github/workflows/bbia-v237-two-clean-scenes.yml]
+  workflow_dispatch:
+permissions: {contents: read, actions: read}
+jobs:
+  salvage:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: bbia-v236-four-distinct-photo-detail-scenes-qa
+          run-id: 41833510779
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/bbia-v236
+      - run: python -m pip install pillow==11.3.0
+      - name: Recover only isolated lower photographic portions and quarantine testimonial
+        run: python scripts/bbia_v237_two_clean_product_scenes.py --src /tmp/bbia-v236 --out /tmp/bbia-v237
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v237-two-photo-salvage-and-qa
+          path: /tmp/bbia-v237
+          retention-days: 30
