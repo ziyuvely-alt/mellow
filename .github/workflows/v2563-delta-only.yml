@@ -1,0 +1,37 @@
+name: Shopee v2563 efficient single-pass 2-image incremental QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2563_single_pass_delta_qa.py'
+      - '.github/workflows/v2563-delta-only.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  incremental-quality-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse the latest 156 JPG isolated QA base without regenerating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2563-base
+      - name: Reuse just 2 already generated image candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41754215345 -n shopee-v2562-MISSHA-CLIO-slot05-pair-new-QA-JPG-no-XLSX -D v2563-two-candidates
+      - name: Audit 156 once; generate only 2 image deltas
+        run: python scripts/v2563_single_pass_delta_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2563-two-JPG-delta-only-and-30family-QA-no-XLSX
+          path: v2563-delta-only-QA/
+          retention-days: 90
+          if-no-files-found: error
