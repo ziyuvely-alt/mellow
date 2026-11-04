@@ -13,10 +13,10 @@ def font(size,bold=False):
     name="DejaVuSans-Bold.ttf" if bold else "DejaVuSans.ttf"
     return ImageFont.truetype("/usr/share/fonts/truetype/dejavu/"+name,size)
 def fetch(args):
-    sku,title,index,rect=args
+    sku,title,index,rect,role=args
     master={str(a["product_id"]):a for a in json.loads(Path("evidence/bbia-image-review-input.json").read_text())["families"]}
     url=master[sku]["detail_references"][index]
-    item={"goodsNo":sku,"product":title,"source_url":url,"source_rect":list(rect)}
+    item={"goodsNo":sku,"product":title,"source_url":url,"source_rect":list(rect),"role":role}
     try:
         with urlopen(Request(url,headers={"User-Agent":"Mozilla/5.0"}),timeout=22) as r: data=r.read(12_000_000)
         img=Image.open(io.BytesIO(data)).convert("RGB")
