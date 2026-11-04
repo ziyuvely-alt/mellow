@@ -1,0 +1,112 @@
+{
+  "version": "v2681",
+  "baseline": "v2680",
+  "new_fiveframe_QA_sets": 2,
+  "existing_historical_source_jpg_byte_preserved": 4,
+  "existing_v2665_text_repair_jpg_byte_preserved": 2,
+  "newly_generated_factual_info_JPGs": 4,
+  "total_physical_JPGs": 10,
+  "sales_approved": 0,
+  "legacy_11_approved_untouched": true,
+  "public_55_URLs_untouched": true,
+  "exact_stock_edition_verified": false,
+  "commercial_rights_confirmed": false,
+  "latest_v2647_compared": false,
+  "final_spreadsheet_shared": false,
+  "families": [
+    {
+      "family": "pending-21",
+      "jpg_count": 5,
+      "real_source_count": 2,
+      "v2665_reused_text_count": 1,
+      "factual_info_new": 2,
+      "approval": "HOLD_PHOTO_RIGHTS_STOCK_EDITION_AND_EYE_CREAM_LABEL",
+      "frames": [
+        {
+          "frame": 1,
+          "type": "EXACT_SOURCE_PHOTO",
+          "file": "01-unmodified-real-source-slot04-QA.jpg",
+          "sha256": "e2d99386499ebc713892605d88f2832698327119b18d7e869dd36fdf91129c01",
+          "source_slot": 4,
+          "bytes": 34162
+        },
+        {
+          "frame": 2,
+          "type": "EXACT_SOURCE_PHOTO",
+          "file": "02-unmodified-real-source-slot05-QA.jpg",
+          "sha256": "3c005538519820bcacac46a21a7513f3d9e812a0c90f70307c7864e023f52631",
+          "source_slot": 5,
+          "bytes": 115652
+        },
+        {
+          "frame": 3,
+          "type": "EXACT_V2665_APPROVED_TEXT_REPAIR_REUSED",
+          "file": "03-v2665-text-repair-reused-byte-identical-QA.jpg",
+          "sha256": "10ff4556942c2666a86a0ece3054523f107241de8709904b8b0e874e44afe609",
+          "bytes": 80089
+        },
+        {
+          "frame": 4,
+          "type": "NEW_FACTUAL_INFO",
+          "file": "04-net-content-factual-QA.jpg",
+          "sha256": "5461276c8b862476f40aa307346bc5e3db4c2f100507bf5dcfcacae0e85492f9",
+          "bytes": 63145
+        },
+        {
+          "frame": 5,
+          "type": "NEW_FACTUAL_INFO",
+          "file": "05-product-information-factual-QA.jpg",
+          "sha256": "4fb18734d5c7bd4e2783d5a5f2affab0392506295e64e590f3c2b153ff7b90fe",
+          "bytes": 77260
+        }
+      ]
+    },
+    {
+      "family": "pending-26",
+      "jpg_count": 5,
+      "real_source_count": 2,
+      "v2665_reused_text_count": 1,
+      "factual_info_new": 2,
+      "approval": "HOLD_PHOTO_145ML_INVENTORY_CONFIRMATION_NOT_150ML_AND_RIGHTS",
+      "frames": [
+        {
+          "frame": 1,
+          "type": "EXACT_SOURCE_PHOTO",
+          "file": "01-unmodified-real-source-slot03-QA.jpg",
+          "sha256": "53b04b3a1b84f55c6073aeb1ae258b4538600d2506b327ab26c2fe8995654012",
+          "source_slot": 3,
+          "bytes": 66621
+        },
+        {
+          "frame": 2,
+          "type": "EXACT_SOURCE_PHOTO",
+          "file": "02-unmodified-real-source-slot05-QA.jpg",
+          "sha256": "35f1b42c4496b20a02cdb582545dfd7e97d0299657b1edf1a738ae2d73f49994",
+          "source_slot": 5,
+          "bytes": 86868
+        },
+        {
+          "frame": 3,
+          "type": "EXACT_V2665_APPROVED_TEXT_REPAIR_REUSED",
+          "file": "03-v2665-text-repair-reused-byte-identical-QA.jpg",
+          "sha256": "79e002ae8c15dd5d3f0673a615091dc2a7f0b71f77bd43f252a47c9f68c742a3",
+          "bytes": 72685
+        },
+        {
+          "frame": 4,
+          "type": "NEW_FACTUAL_INFO",
+          "file": "04-net-content-factual-QA.jpg",
+          "sha256": "ada1ca84ceb34f076afe3fb3aec6f76cbb27cd71a35cc0922b7eeadf5d983d17",
+          "bytes": 60900
+        },
+        {
+          "frame": 5,
+          "type": "NEW_FACTUAL_INFO",
+          "file": "05-product-information-factual-QA.jpg",
+          "sha256": "3664fb4ea0ec122367c3524fbf78da3e40e29c101f2c04b52fdb7ce3c5e87521",
+          "bytes": 70776
+        }
+      ]
+    }
+  ]
+}
