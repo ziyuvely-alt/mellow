@@ -1,0 +1,59 @@
+{
+  "version": "v2660",
+  "date": "2026-11-04",
+  "baseline": "v2657",
+  "source_checkpoints": [
+    "v2658",
+    "v2659"
+  ],
+  "official_claims_verified": [
+    {
+      "family": "pending-12",
+      "claim": "MISSHA PDRN Renew Peel Shot 25 = 15 mL (official)",
+      "stock_match": "PENDING"
+    },
+    {
+      "family": "pending-26",
+      "claim": "PIXEL PURE Gentle Gel to Foam Cleanser = 145 mL (official)",
+      "stock_match": "PENDING"
+    },
+    {
+      "family": "pending-05",
+      "claim": "CLIO Founwear cushion = main + refill, edition dependent",
+      "stock_match": "PENDING"
+    },
+    {
+      "family": "pending-06",
+      "claim": "CLIO Mesh Glow Essential standard promotional kit = main + refill",
+      "stock_match": "PENDING"
+    },
+    {
+      "family": "pending-07",
+      "claim": "CLIO Mesh Blur standard kit = main + refill",
+      "stock_match": "PENDING"
+    },
+    {
+      "family": "pending-08",
+      "claim": "Peripera option 004 name differs across source generations; keep exact 26AD chart locked",
+      "stock_match": "PENDING"
+    }
+  ],
+  "execution": {
+    "test_run": 41827027377,
+    "status": "success",
+    "artifact_id": 13320165674,
+    "release_guard_tests_passed": 6,
+    "test_cases": 6,
+    "additional_jpg_created": 0,
+    "retail_images_approved": 0
+  },
+  "actual_progress": "Six persistent product-name/package claim safety gates and official-source evidence added to repo; guarded unsafe captions from approval without stock and edition checks",
+  "preserved": {
+    "approved_families": 11,
+    "public_urls": 55,
+    "candidate_14_jpg_archived": true,
+    "existing_images_mutated": false,
+    "final_xlsx_shared": false
+  },
+  "next": "Prioritize actual stock carton/edition validation, commercial photo rights and latest v2647 image binary. Do not repeat historical near-duplicate scans, candidate regeneration or release-gate tests unless input changes."
+}
