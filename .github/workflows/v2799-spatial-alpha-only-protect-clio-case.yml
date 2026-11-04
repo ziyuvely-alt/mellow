@@ -1,0 +1,32 @@
+name: Shopee v2799 protect right edge in CLIO Mesh Glow real-alpha reflection revision
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2799-spatial-alpha-only-protect-clio-case.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  refine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Only lower-left reflection alpha changes, no image regeneration or other product mutation
+        run: |
+          cp scripts/v2799_clio_protected_right_edge_spatial_alpha.py /tmp/v2799.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2799 qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2799/qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA
+          cd /tmp/v2799
+          python /tmp/v2799.py
+          git add qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2799 spatial alpha-only reflection alternatives preserving original full CLIO product right edge'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
