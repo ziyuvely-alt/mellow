@@ -1,0 +1,70 @@
+{
+  "version": "v2700",
+  "baseline": "v2699",
+  "family": "pending-02",
+  "product": "MISSHA Magic Cushion Moist Up 21/23",
+  "regional_source_page": "https://www.misshame.com/products/m-magic-cushion-moisture-spf50-pa",
+  "photos": [
+    {
+      "file": "01-Missha-regional-real-photo-reference.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_1.jpg?v=1774633361",
+      "source_px": [
+        3000,
+        3000
+      ],
+      "sha256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42"
+    },
+    {
+      "file": "02-Missha-regional-real-photo-reference.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_2.jpg?v=1774633361",
+      "source_px": [
+        3000,
+        3000
+      ],
+      "sha256": "b00a890e76a5e901c82472bb0e8425609c97bf10ea94af3f7b1ce635701f1fac"
+    },
+    {
+      "file": "03-Missha-regional-real-photo-reference.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_3.jpg?v=1774633360",
+      "source_px": [
+        3000,
+        3000
+      ],
+      "sha256": "1a81493b28a0863416c4afe7ccd62e1c2befb0aac016c27d07c416c628ddbf60"
+    },
+    {
+      "file": "04-Missha-regional-real-photo-reference.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_4.jpg?v=1774633360",
+      "source_px": [
+        3000,
+        3000
+      ],
+      "sha256": "2c3c956e67c4082e391520feb401bc0e414c8cfc09569b331f0845610de2cf99"
+    }
+  ],
+  "candidate_photo_links": [
+    "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_1.jpg?v=1774633361",
+    "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_2.jpg?v=1774633361",
+    "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_3.jpg?v=1774633360",
+    "https://cdn.shopify.com/s/files/1/1668/4975/files/8809581449275_4.jpg?v=1774633360"
+  ],
+  "region_edition_vs_korean_stock_verified": false,
+  "photo_commercial_use_permission_verified": false,
+  "retail_approved": false,
+  "prior_5_JPG_QA_set_untouched": true,
+  "11_approved_families_untouched": true,
+  "public_55_URLs_untouched": true,
+  "final_xlsx_shared": false,
+  "regional_product_title": "MISSHA MAGIC CUSHION MOIST UP SPF50+PA+++",
+  "variants": [
+    {
+      "title": "NO.21",
+      "sku": "I5496"
+    },
+    {
+      "title": "NO.23",
+      "sku": "I5497"
+    }
+  ],
+  "status": "REGIONAL_SOURCE_PHOTO_CANDIDATES_PENDING_GENERATION_CHECK"
+}
