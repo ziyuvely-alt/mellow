@@ -1,0 +1,153 @@
+{
+  "version": "v2828",
+  "baseline": "v2827",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear The Original Mini Cushion 5g",
+  "variants": [
+    {
+      "shade": "21C",
+      "shade_label": "21C Lingerie",
+      "actual_1080_JPG_count": 5,
+      "distinct_frame_source_SHA_count": 5,
+      "one_independent_shade_linked_hero": true,
+      "four_shared_product_reference_scenes": true,
+      "status": "FIVE_PHOTO_QA_SET_STAGED_STOCK_LICENSE_HOLD",
+      "frames": [
+        {
+          "slot": 1,
+          "file": "21C/01-EXACT-21C-REAL-ALPHA-HERO-QA.jpg",
+          "sha256": "99c7142e18577374b1741b4085076bc3f2cc77c0705d2f749220da82b7382897",
+          "bytes": 188808,
+          "source_file": "qa-review/v2825-clio-mini-5g-21C-21N-uncropped-top-edge-repair/21C/01-corrected-full-lid-1080-JPG-QA.jpg",
+          "source_sha256": "99c7142e18577374b1741b4085076bc3f2cc77c0705d2f749220da82b7382897",
+          "photo_source_role": "EXACT_SHADE_HERO",
+          "factual_note": "Physical photo linked to 21C Lingerie",
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "21C/02-EXACT-MINI-COMPACT-OPEN-COMMON-NO-SHADE-QA.jpg",
+          "sha256": "5780fae2662013f1e67ffbe78ce7d49e06d58f75f7c4e0fe4b8d40eedd50c132",
+          "bytes": 73595,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/01-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "5780fae2662013f1e67ffbe78ce7d49e06d58f75f7c4e0fe4b8d40eedd50c132",
+          "photo_source_role": "COMMON_PRODUCT_STRUCTURE",
+          "factual_note": "Single open mini compact; no shade assignment",
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "21C/03-THREE-SHADE-COMPARISON-21C-21N-23N-QA.jpg",
+          "sha256": "3d45281956637d55a24a4137a46f9c03fc1e7bbdad04c2c5d3dec1cdb6b86c1d",
+          "bytes": 164439,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/03-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "3d45281956637d55a24a4137a46f9c03fc1e7bbdad04c2c5d3dec1cdb6b86c1d",
+          "photo_source_role": "THREE_SHADE_REFERENCE",
+          "factual_note": "21C, 21N and 23N comparison together, not one shade",
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "21C/04-HANDHELD-MINI-SIZE-COMPARISON-COMMON-QA.jpg",
+          "sha256": "12636c6257d903f762ede9ccb7991c6b61d113fd92b4bcbe65c52506fbfeb77b",
+          "bytes": 123587,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/05-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "12636c6257d903f762ede9ccb7991c6b61d113fd92b4bcbe65c52506fbfeb77b",
+          "photo_source_role": "COMMON_SIZE_CONTEXT",
+          "factual_note": "Hand holding mini beside larger compact; NOT bundle contents",
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "21C/05-MINI-VERSUS-ORIGINAL-SIZE-DETAIL-COMMON-QA.jpg",
+          "sha256": "875fe114d98d6e3bfcace7e62929b9ba87e0e12382426a31d033485a1a71c552",
+          "bytes": 116857,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/06-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "875fe114d98d6e3bfcace7e62929b9ba87e0e12382426a31d033485a1a71c552",
+          "photo_source_role": "COMMON_SIZE_COMPARISON",
+          "factual_note": "Shows mini beside full-size, do not imply both are shipped",
+          "retail_approved": false
+        }
+      ]
+    },
+    {
+      "shade": "21N",
+      "shade_label": "21N Linen",
+      "actual_1080_JPG_count": 5,
+      "distinct_frame_source_SHA_count": 5,
+      "one_independent_shade_linked_hero": true,
+      "four_shared_product_reference_scenes": true,
+      "status": "FIVE_PHOTO_QA_SET_STAGED_STOCK_LICENSE_HOLD",
+      "frames": [
+        {
+          "slot": 1,
+          "file": "21N/01-EXACT-21N-REAL-ALPHA-HERO-QA.jpg",
+          "sha256": "99218bbb0e936fe72bc4611fd0d475620d478cd3c2914216a4297924d3f45107",
+          "bytes": 163990,
+          "source_file": "qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA/01-21N-real-photo-full-lid-no-peach-halo-1080-QA.jpg",
+          "source_sha256": "99218bbb0e936fe72bc4611fd0d475620d478cd3c2914216a4297924d3f45107",
+          "photo_source_role": "EXACT_SHADE_HERO",
+          "factual_note": "Physical photo linked to 21N Linen",
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "file": "21N/02-EXACT-MINI-COMPACT-OPEN-COMMON-NO-SHADE-QA.jpg",
+          "sha256": "5780fae2662013f1e67ffbe78ce7d49e06d58f75f7c4e0fe4b8d40eedd50c132",
+          "bytes": 73595,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/01-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "5780fae2662013f1e67ffbe78ce7d49e06d58f75f7c4e0fe4b8d40eedd50c132",
+          "photo_source_role": "COMMON_PRODUCT_STRUCTURE",
+          "factual_note": "Single open mini compact; no shade assignment",
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "file": "21N/03-THREE-SHADE-COMPARISON-21C-21N-23N-QA.jpg",
+          "sha256": "3d45281956637d55a24a4137a46f9c03fc1e7bbdad04c2c5d3dec1cdb6b86c1d",
+          "bytes": 164439,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/03-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "3d45281956637d55a24a4137a46f9c03fc1e7bbdad04c2c5d3dec1cdb6b86c1d",
+          "photo_source_role": "THREE_SHADE_REFERENCE",
+          "factual_note": "21C, 21N and 23N comparison together, not one shade",
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "file": "21N/04-HANDHELD-MINI-SIZE-COMPARISON-COMMON-QA.jpg",
+          "sha256": "12636c6257d903f762ede9ccb7991c6b61d113fd92b4bcbe65c52506fbfeb77b",
+          "bytes": 123587,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/05-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "12636c6257d903f762ede9ccb7991c6b61d113fd92b4bcbe65c52506fbfeb77b",
+          "photo_source_role": "COMMON_SIZE_CONTEXT",
+          "factual_note": "Hand holding mini beside larger compact; NOT bundle contents",
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "file": "21N/05-MINI-VERSUS-ORIGINAL-SIZE-DETAIL-COMMON-QA.jpg",
+          "sha256": "875fe114d98d6e3bfcace7e62929b9ba87e0e12382426a31d033485a1a71c552",
+          "bytes": 116857,
+          "source_file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/06-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+          "source_sha256": "875fe114d98d6e3bfcace7e62929b9ba87e0e12382426a31d033485a1a71c552",
+          "photo_source_role": "COMMON_SIZE_COMPARISON",
+          "factual_note": "Shows mini beside full-size, do not imply both are shipped",
+          "retail_approved": false
+        }
+      ]
+    }
+  ],
+  "total_qa_jpg_copies": 10,
+  "distinct_shade_specific_hero_for_each_variant": true,
+  "common_photos_reused_with_explicit_no_shade_metadata": true,
+  "all_source_photograph_files_unchanged": true,
+  "original_23N_existing_five_photo_gallery_unchanged": true,
+  "existing_21C_21N_source_cutouts_unchanged": true,
+  "old_11_approved_families_untouched": true,
+  "old_55_published_urls_unchanged": true,
+  "all_photo_redistribution_rights_verified": false,
+  "stock_shade_and_genuine_package_verified": false,
+  "original_MK_logo_authenticated": false,
+  "new_retail_sale_approvals": 0,
+  "final_XLSX_shared": false
+}
