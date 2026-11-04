@@ -1,0 +1,40 @@
+{
+  "version": "v2755",
+  "family": "pending-08",
+  "target_legacy_shade": "12",
+  "legacy_exact_name": "Warm-gorithm",
+  "existing_v2753_17_alpha_pairs_unchanged": true,
+  "existing_v2754_13_14_sources_and_alpha_unchanged": true,
+  "first_404_source_not_retried": true,
+  "output": "ONE_NEW_AUTHENTIC_12_ALPHA_QA_PENDING_VISUAL",
+  "retail_approved": false,
+  "attempts": [
+    {
+      "label": "Ktown4u original #12",
+      "source_page": "https://www.ktown4u.com/iteminfo?eve_no=10399856&goods_no=96117&grp_no=10399985",
+      "source_url": "https://www.ktown4u.com/goods_files/SH0164/goods_images/000097/GD00096117.default.6.png",
+      "downloaded": true,
+      "dimensions": [
+        600,
+        600
+      ],
+      "source_sha256": "abc1ffa3cec0f07a3267bbc678904ab30402edefa004e84230f3f278604f4684",
+      "QA_copy": "12-source-ktown4u.jpg",
+      "alpha_rendered": true,
+      "mask_coverage": 0.2124,
+      "alpha_png": "12-Warm-gorithm-real-old-product-alpha-QA.png",
+      "1080_jpg": "12-Warm-gorithm-true-alpha-1080-JPG-QA.jpg",
+      "1080_jpg_sha256": "1a8c7b7b21f56fee6b38501127c9ec2b8f8f98dcc20ff3dbc1cb6a1662959411"
+    }
+  ],
+  "source_used": "Ktown4u original #12",
+  "alpha_png": "12-Warm-gorithm-real-old-product-alpha-QA.png",
+  "1080_jpg": "12-Warm-gorithm-true-alpha-1080-JPG-QA.jpg",
+  "old_11_published_families_untouched": true,
+  "verified_55_public_URLs_untouched": true,
+  "no_original_source_image_mutation": true,
+  "new_retail_approved": 0,
+  "commercial_redistribution_rights_verified": false,
+  "owned_stock_packaging_verified": false,
+  "no_final_XLSX_shared": true
+}
