@@ -1,0 +1,87 @@
+{
+  "version": "v2765",
+  "baseline": "v2764",
+  "cleaned_image_saved": false,
+  "previous_img_data_unchanged": true,
+  "prior_11_retail_approved_groups_modified": false,
+  "prior_55_verified_public_URLs_modified": false,
+  "photo_rights_verified": false,
+  "actual_stock_generation_verified": false,
+  "original_round_MK_logo_verified": false,
+  "new_retail_sale_approved": 0,
+  "final_excel_shared": false,
+  "case": {
+    "version": "v2765",
+    "family": "pending-21",
+    "source_png": "qa-review/v2764-two-new-original-source-real-alpha-QA/pending-21/01-true-transparent-original-photo-QA.png",
+    "source_png_sha256": "18440bd09685ee7ed95fe8d175c7c13b479673882f88537ed3495731ad60aee6",
+    "width": 125,
+    "height": 472,
+    "body_median_alpha_width": 79,
+    "tail_width_threshold": 18,
+    "detected_tail_start": 470,
+    "tail_last": 470,
+    "detected_tail_length": 1,
+    "sampled_tail_row_widths": [
+      {
+        "row": 306,
+        "width": 77
+      },
+      {
+        "row": 318,
+        "width": 77
+      },
+      {
+        "row": 330,
+        "width": 77
+      },
+      {
+        "row": 342,
+        "width": 77
+      },
+      {
+        "row": 354,
+        "width": 77
+      },
+      {
+        "row": 366,
+        "width": 71
+      },
+      {
+        "row": 378,
+        "width": 6
+      },
+      {
+        "row": 390,
+        "width": 6
+      },
+      {
+        "row": 402,
+        "width": 6
+      },
+      {
+        "row": 414,
+        "width": 6
+      },
+      {
+        "row": 426,
+        "width": 6
+      },
+      {
+        "row": 438,
+        "width": 6
+      },
+      {
+        "row": 450,
+        "width": 6
+      },
+      {
+        "row": 462,
+        "width": 6
+      }
+    ],
+    "status": "HOLD_UNSAFE_REMOVAL",
+    "retail_approved": false,
+    "reason": "(470, 1)"
+  }
+}
