@@ -1,0 +1,61 @@
+{
+  "version": "v2605",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_baseline": {
+    "version": "v2604",
+    "artifact_zip": "Shopee_v2604_156JPG_2MISSHA_corrections_QA_ONLY.zip",
+    "product_families": 30,
+    "review_jpg_count": 156,
+    "preexisting_11_published_groups": 11,
+    "public_verified_urls": 55
+  },
+  "actual_produced_files": {
+    "latest_156_jpg_archive": "v2605_156JPG_clean_OBGE_plus_MISSHA25_reference_QA_ONLY.zip",
+    "location": "current conversation /mnt/data",
+    "before_after": "v2605_latest_qa/before_after_obge_300ml_QA.jpg",
+    "jpg_count": 156,
+    "changed_existing_jpg": 1,
+    "previous_155_jpg_sha_identical": true
+  },
+  "actual_photo_fix": {
+    "family": "pending-22",
+    "slot": 4,
+    "product": "OBgE Max Waterful Sun Cream 300ml",
+    "source": "brand official white background source",
+    "source_page": "https://m.obge.co.kr/product/대용량가성비-맥스-워터풀-선크림-300ml/1251/",
+    "source_img": "https://m.obge.co.kr/web/product/small/202603/95c2bcbeb8bf7bfa5b3d3b055e3a87d9.png",
+    "previous_black_background_sha256": "f0cdf6d5b35a9c7977fee488c6175e6e5ec02dc1acdbb89da2bc449a05a9168d",
+    "actual_new_photo_sha256": "0a50665010812df521823a00ae2cedb60d09a0d379d7290de2d6fb0f1f3e0f5c",
+    "source_dimensions": [
+      750,
+      750
+    ],
+    "candidate_dimensions": [
+      1080,
+      1080
+    ],
+    "new_photo_is_actual_brand_original_not_ai_generated": true,
+    "commercial_rights_or_stock_edition_confirmed": false
+  },
+  "additional_ref_only": {
+    "family": "pending-03",
+    "shade": "No.25 Warm Beige",
+    "source_page": "https://www.kindlife.in/m-perfect-cover-bb-cream-spf42-pa-no.25-warm-beige-50ml/",
+    "exact_photo_sha256": "9433826209d6d7af7785bd20a01a70dc7b1b0d64d319500b192e8f9132fa383e",
+    "inside_customer_156": false,
+    "photo_has_red_tube_and_NO25_label": true,
+    "photo_rights_confirmed": false,
+    "stock_size_and_edition_compared": false
+  },
+  "locked": {
+    "previous_155_sha_unchanged": true,
+    "original_55_urls_changed": 0,
+    "original_published_11_families_unchanged": true,
+    "xlsx_created_or_shared": false,
+    "commercial_photo_rights_verified": false,
+    "original_MK_logo_applied": false,
+    "final_sales_approved": false
+  },
+  "next": "Continue from v2605 archive. Do not redo v2602 false cutout. Verify genuine MK logo source and photo usage rights, exact owned stock packaging. Any further external reference remains QA-only until checked."
+}
