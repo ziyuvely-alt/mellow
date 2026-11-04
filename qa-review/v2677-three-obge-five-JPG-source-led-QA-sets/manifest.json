@@ -1,0 +1,159 @@
+{
+  "version": "v2677",
+  "baseline": "v2676",
+  "families": [
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher",
+      "total_files": 5,
+      "prior_real_photos_preserved": 2,
+      "original_info_frames_created": 3,
+      "release_status": "HOLD_STOCK_VARIANT_AND_PHOTO_RIGHTS",
+      "frames": [
+        {
+          "frame": 1,
+          "source_slot": 2,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "01-original-slot02-byte-preserved-QA.jpg",
+          "sha256": "7d11be3d700956f889d64d723077e5229811130f1d4dad5d07abe31f93776680",
+          "bytes": 108809
+        },
+        {
+          "frame": 2,
+          "source_slot": 4,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "02-original-slot04-byte-preserved-QA.jpg",
+          "sha256": "2f9fbbbca9a1203c5f4be29b72e492fe9999cf750e3a01ef390dd598d7d393a2",
+          "bytes": 107669
+        },
+        {
+          "frame": 3,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "03-product-details-QA.jpg",
+          "sha256": "9e1897a57590a290cd0f5a5603e7e8f4b806d6b69aa22db6b25b89f7dfb189f1",
+          "bytes": 69238
+        },
+        {
+          "frame": 4,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "04-net-content-QA.jpg",
+          "sha256": "1f20016ee77913130faa993db2ece282e4f97efece40953c04c85f0747925aa5",
+          "bytes": 65110
+        },
+        {
+          "frame": 5,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "05-product-guide-QA.jpg",
+          "sha256": "c693a4738840c56ae6d14a48b8343ba375a311192bcd1fc603bf94aa4524bafe",
+          "bytes": 82592
+        }
+      ]
+    },
+    {
+      "family": "pending-10",
+      "product": "OBgE Perfect Homme Cushion",
+      "total_files": 5,
+      "prior_real_photos_preserved": 3,
+      "original_info_frames_created": 2,
+      "release_status": "HOLD_13G_VS_15G_REAL_STOCK_AND_SHADE_VERSION",
+      "frames": [
+        {
+          "frame": 1,
+          "source_slot": 1,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "01-original-slot01-byte-preserved-QA.jpg",
+          "sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+          "bytes": 122382
+        },
+        {
+          "frame": 2,
+          "source_slot": 2,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "02-original-slot02-byte-preserved-QA.jpg",
+          "sha256": "bbe37fea266311c7f9430c1fafa52072e162d5013990786ee5ea379408ce4158",
+          "bytes": 204036
+        },
+        {
+          "frame": 3,
+          "source_slot": 3,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "03-original-slot03-byte-preserved-QA.jpg",
+          "sha256": "f34cf57adbc2702099a0714e4c493ddf3d16243ae2d357de1b020aa9c3c784e9",
+          "bytes": 229449
+        },
+        {
+          "frame": 4,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "04-product-information-QA.jpg",
+          "sha256": "b7dd84bf9aa66e154441524796f33a0eb899a850106b0570fef46c9d8a4db0ca",
+          "bytes": 73477
+        },
+        {
+          "frame": 5,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "05-select-shade-QA.jpg",
+          "sha256": "cd7704ed8f9d0c7d447102a3df7a16c5235c92105c0c4b464dc445c3aee8d058",
+          "bytes": 72448
+        }
+      ]
+    },
+    {
+      "family": "pending-11",
+      "product": "OBgE All In One Double Essence",
+      "total_files": 5,
+      "prior_real_photos_preserved": 2,
+      "original_info_frames_created": 3,
+      "release_status": "HOLD_ONE_BOTTLE_VS_TWO_UNIT_SET_AND_PHOTO_RIGHTS",
+      "frames": [
+        {
+          "frame": 1,
+          "source_slot": 2,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "01-original-slot02-byte-preserved-QA.jpg",
+          "sha256": "84b2619c0205c8130f56f2e00ff9fa5d7131a971f2ffb15f66ae43dc8b8af374",
+          "bytes": 137308
+        },
+        {
+          "frame": 2,
+          "source_slot": 4,
+          "type": "EXACT_PRIOR_REAL_PHOTO",
+          "file": "02-original-slot04-byte-preserved-QA.jpg",
+          "sha256": "acfb08b21baee43f033d449d442c6565a857929f356f34a24c2b2e1a549eb10b",
+          "bytes": 70920
+        },
+        {
+          "frame": 3,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "03-product-details-QA.jpg",
+          "sha256": "ffa60a877ce3d2633f5b1eba08a280e11e4ca5a088032d2e3c5a71d393be8c07",
+          "bytes": 71120
+        },
+        {
+          "frame": 4,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "04-formula-information-QA.jpg",
+          "sha256": "497f53868917f4f51e44ad3c78676a1f0d3c8db5ebc02527ace3a4449efffccc",
+          "bytes": 73874
+        },
+        {
+          "frame": 5,
+          "type": "FACT_ONLY_CUSTOM_QA_FRAME",
+          "file": "05-product-guide-QA.jpg",
+          "sha256": "cdee19c85f0e2ba24cbfb8b1a6303661f51cd300366af28cb2b3eab9bb4013f5",
+          "bytes": 81852
+        }
+      ]
+    }
+  ],
+  "total_5JPG_QA_families": 3,
+  "physical_JPGs": 15,
+  "prior_real_photos_preserved": 7,
+  "new_factual_JPGs": 8,
+  "retail_approved": 0,
+  "latest_v2647_actual_photo_archive_verified": false,
+  "source_photo_commercial_rights_confirmed": false,
+  "stock_generation_and_exact_box_content_verified": false,
+  "old_55_public_urls_mutated": false,
+  "old_11_approved_families_mutated": false,
+  "final_spreadsheet_shared": false
+}
