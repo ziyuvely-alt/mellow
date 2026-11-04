@@ -1,0 +1,517 @@
+{
+  "schema": "bbia_chapter2_source_audit_v1",
+  "date": "2026-11-04",
+  "source": "evidence/bbia-image-review-input.json",
+  "scope": "49 source candidate families, not 1515 completed JPG visual audit",
+  "summary": {
+    "families": 49,
+    "options": 325,
+    "official_photo_candidate_families": 44,
+    "missing_photo_families": 5,
+    "cross_product_photo_reference_families": 2,
+    "final_approved_from_this_source": 0
+  },
+  "rules": [
+    "Do not publish candidate URLs as approved output",
+    "Do not replace already approved images",
+    "Do not invent shades/swatches",
+    "Exclude MX",
+    "Verify actual JPG 1080x1080 under 2MB and branded logo before final approval"
+  ],
+  "rows": [
+    {
+      "product_id": "1000000227",
+      "family": "누디 립 펜슬",
+      "options_count": 7,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000216",
+      "family": "누디 슬림 아이라이너",
+      "options_count": 9,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000239",
+      "family": "럭키 샤인 틴트",
+      "options_count": 10,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000247",
+      "family": "아이&치크 프라이머 밤",
+      "options_count": 7,
+      "official_photo_present": true,
+      "detail_reference_count": 6,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000244",
+      "family": "애교살 펜슬",
+      "options_count": 7,
+      "official_photo_present": true,
+      "detail_reference_count": 5,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000184",
+      "family": "오 파우더 팩트",
+      "options_count": 4,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000221",
+      "family": "찰떡 블러쉬",
+      "options_count": 8,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000135",
+      "family": "라스트 벨벳 틴트",
+      "options_count": 32,
+      "official_photo_present": true,
+      "detail_reference_count": 4,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "206",
+      "family": "라스트 오토 젤 아이라이너",
+      "options_count": 26,
+      "official_photo_present": false,
+      "detail_reference_count": 0,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "SOURCE_RECOVERY"
+    },
+    {
+      "product_id": "1000000110",
+      "family": "라스트 오토 젤 아이라이너 슬림",
+      "options_count": 5,
+      "official_photo_present": false,
+      "detail_reference_count": 0,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "SOURCE_RECOVERY"
+    },
+    {
+      "product_id": "1000000134",
+      "family": "라스트 윤곽 스틱",
+      "options_count": 2,
+      "official_photo_present": false,
+      "detail_reference_count": 0,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "SOURCE_RECOVERY"
+    },
+    {
+      "product_id": "239",
+      "family": "레디 투 웨어 다우니 치크",
+      "options_count": 14,
+      "official_photo_present": false,
+      "detail_reference_count": 0,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "SOURCE_RECOVERY"
+    },
+    {
+      "product_id": "1000000223",
+      "family": "립 오일 에센스",
+      "options_count": 2,
+      "official_photo_present": true,
+      "detail_reference_count": 6,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000122",
+      "family": "오 글로우 쿠션 본품",
+      "options_count": 3,
+      "official_photo_present": false,
+      "detail_reference_count": 0,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "SOURCE_RECOVERY"
+    },
+    {
+      "product_id": "1000000179",
+      "family": "오 매트 쿠션 리필",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000178",
+      "family": "오 매트 쿠션 본품",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [
+        "1000000179"
+      ],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_PRODUCT_VS_REFILL_PHOTOS"
+    },
+    {
+      "product_id": "1000000125",
+      "family": "오 스테이 컨실러",
+      "options_count": 6,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000166",
+      "family": "오버 글레이즈",
+      "options_count": 25,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000128",
+      "family": "오버 글레이즈 스틱",
+      "options_count": 10,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000163",
+      "family": "[정규 미니 여부 검증 필요] 글로우 틴트 미니",
+      "options_count": 9,
+      "official_photo_present": true,
+      "detail_reference_count": 5,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000186",
+      "family": "[정규 미니 여부 검증 필요] 라스트 벨벳 틴트 미니",
+      "options_count": 11,
+      "official_photo_present": true,
+      "detail_reference_count": 6,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000209",
+      "family": "[정규 미니 여부 검증 필요] 레디 투 웨어 아이 팔레트 미니",
+      "options_count": 2,
+      "official_photo_present": true,
+      "detail_reference_count": 5,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000187",
+      "family": "[정규 미니 여부 검증 필요] 로 틴트 미니",
+      "options_count": 9,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000120",
+      "family": "[정규 미니 여부 검증 필요] 오 글로우 쿠션 미니",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000208",
+      "family": "[정규 미니 여부 검증 필요] 오버 글레이즈 미니",
+      "options_count": 4,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000136",
+      "family": "글로우 틴트",
+      "options_count": 21,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "172",
+      "family": "네버 다이 마스카라",
+      "options_count": 2,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000056",
+      "family": "네버 다이 마스카라 슬림",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "207",
+      "family": "네버 다이 아이라이너",
+      "options_count": 2,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "188",
+      "family": "라스트 블러쉬",
+      "options_count": 15,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000151",
+      "family": "라스트 아이 팔레트",
+      "options_count": 5,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "205",
+      "family": "라스트 아이 프라이머",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000108",
+      "family": "라스트 오토 아이브로우 펜슬",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 6,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000057",
+      "family": "라스트 컨투어 펜 아이라이너",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 3,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "200",
+      "family": "라스트 파우더 립스틱",
+      "options_count": 7,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "173",
+      "family": "라스트 펜 아이라이너",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "238",
+      "family": "레디 투 웨어 아이 섀도우",
+      "options_count": 4,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "234",
+      "family": "레디 투 웨어 아이 팔레트",
+      "options_count": 10,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000074",
+      "family": "레디 투 웨어 워터 립스틱",
+      "options_count": 5,
+      "official_photo_present": true,
+      "detail_reference_count": 5,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000113",
+      "family": "로 틴트",
+      "options_count": 9,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "228",
+      "family": "립 오일 밤",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 5,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000118",
+      "family": "에센셜 아이 팔레트",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000124",
+      "family": "오 글로우 쿠션 리필",
+      "options_count": 3,
+      "official_photo_present": true,
+      "detail_reference_count": 7,
+      "shared_reference_with": [
+        "1000000120"
+      ],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_PRODUCT_VS_REFILL_PHOTOS"
+    },
+    {
+      "product_id": "1000000185",
+      "family": "오 매트 쿠션 퍼프 2P",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000126",
+      "family": "오 쿠션 퍼프 2P",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000200",
+      "family": "오 파우더 팩트 퍼프 2P",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000142",
+      "family": "오 퍼펙트 브러쉬",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 4,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000127",
+      "family": "오 핑거 퍼프 2P",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 2,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    },
+    {
+      "product_id": "1000000251",
+      "family": "찰떡 루비셀 퍼프 1P",
+      "options_count": 1,
+      "official_photo_present": true,
+      "detail_reference_count": 4,
+      "shared_reference_with": [],
+      "qa_status": "NOT_APPROVED_SOURCE_CANDIDATES_ONLY",
+      "next_action": "VERIFY_REAL_IMAGE_AND_DESIGN"
+    }
+  ]
+}
