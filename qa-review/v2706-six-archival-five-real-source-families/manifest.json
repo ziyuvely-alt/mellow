@@ -1,0 +1,283 @@
+{
+  "version": "v2706",
+  "baseline": "v2705",
+  "source_commit": "b2b883b86f3e80b7723ccf39b3766dfe6f483da9",
+  "six_real_archive_photo_groups": 6,
+  "original_photo_JPGs_byte_preserved": 30,
+  "reencoded_existing_JPGs": 0,
+  "additional_product_image_rendered": 0,
+  "prior_11_approved_product_families_untouched": true,
+  "existing_55_public_urls_untouched": true,
+  "prior_saved_qa_artifacts_untouched": true,
+  "source_license_proven": false,
+  "original_MK_badge_verified": false,
+  "owned_stock_edition_verified": false,
+  "new_retail_approved": 0,
+  "final_xlsx_shared": false,
+  "families": [
+    {
+      "family": "pending-04",
+      "product": "CLIO Mesh Glow Essential Mini 5g",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/clio-mesh-glow-essential-cushion-mini/3194e3273f64_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db",
+          "saved_sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/clio-mesh-glow-essential-cushion-mini/ba44dd5e61f3_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "ba44dd5e61f361eb1901a8396c0884eb97f52966df092f77aa28da7ae5e612f4",
+          "saved_sha256": "ba44dd5e61f361eb1901a8396c0884eb97f52966df092f77aa28da7ae5e612f4"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/clio-mesh-glow-essential-cushion-mini/35438b61d80d_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "35438b61d80dabe2b78ae6682fd1a9202db7799e6cb18b12f9ea3b595108fabc",
+          "saved_sha256": "35438b61d80dabe2b78ae6682fd1a9202db7799e6cb18b12f9ea3b595108fabc"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/clio-mesh-glow-essential-cushion-mini/ff8f0343d268_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "ff8f0343d268222b42d87c8c1553fc50f4c0ba1a1a6edfc2fc3d55f100c1df41",
+          "saved_sha256": "ff8f0343d268222b42d87c8c1553fc50f4c0ba1a1a6edfc2fc3d55f100c1df41"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/clio-mesh-glow-essential-cushion-mini/a9f4d2660ec2_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "a9f4d2660ec2ff79dce3ea40ed3eb4e8086d4918a73190fff6b12db84e0b37da",
+          "saved_sha256": "a9f4d2660ec2ff79dce3ea40ed3eb4e8086d4918a73190fff6b12db84e0b37da"
+        }
+      ]
+    },
+    {
+      "family": "pending-11",
+      "product": "OBgE Double Essence 50mL 2-formula",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/obge-double-essence50x2/8a47d85c9650_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "8a47d85c96501812c7b07854f0f2d1c9d12c4207db47c023f3ce182c0f313b01",
+          "saved_sha256": "8a47d85c96501812c7b07854f0f2d1c9d12c4207db47c023f3ce182c0f313b01"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/obge-double-essence50x2/044a1cd940aa_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "044a1cd940aab144bff2a6a349552dc3f89f057b9315c2838a80fe7426ce5d1d",
+          "saved_sha256": "044a1cd940aab144bff2a6a349552dc3f89f057b9315c2838a80fe7426ce5d1d"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/obge-double-essence50x2/d67d74808833_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "d67d74808833ca31fb3a15787011c04c8dc271f1e8b63cfc750413bf404cc0f2",
+          "saved_sha256": "d67d74808833ca31fb3a15787011c04c8dc271f1e8b63cfc750413bf404cc0f2"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/obge-double-essence50x2/a0c9d28d1915_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "a0c9d28d19159e9771e18d1f54d746e78b58a651411ec7436aa9a0cb4e5d7bf1",
+          "saved_sha256": "a0c9d28d19159e9771e18d1f54d746e78b58a651411ec7436aa9a0cb4e5d7bf1"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/obge-double-essence50x2/329c223adfbb_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "329c223adfbb8f0585232224f2bb86d1c2808b3f252ce33a002ba2b42fa06e69",
+          "saved_sha256": "329c223adfbb8f0585232224f2bb86d1c2808b3f252ce33a002ba2b42fa06e69"
+        }
+      ]
+    },
+    {
+      "family": "pending-15",
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/drg-green-mild-up-sun-plus-50ml/cb19b69c09a0_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "cb19b69c09a00b2235ce16eef0650c33086862c5837b1715229d33b7fb26f4b7",
+          "saved_sha256": "cb19b69c09a00b2235ce16eef0650c33086862c5837b1715229d33b7fb26f4b7"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/drg-green-mild-up-sun-plus-50ml/6b3a4a3666fc_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "6b3a4a3666fc5667efa24145fb9e1f6166042106241c2db0dd7d9b94d9f52afc",
+          "saved_sha256": "6b3a4a3666fc5667efa24145fb9e1f6166042106241c2db0dd7d9b94d9f52afc"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/drg-green-mild-up-sun-plus-50ml/8d52f556bce5_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "8d52f556bce540fa149a4430b87ec1fcc317434f2a7426f677524544adf1eacd",
+          "saved_sha256": "8d52f556bce540fa149a4430b87ec1fcc317434f2a7426f677524544adf1eacd"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/drg-green-mild-up-sun-plus-50ml/7f3ea992bc3a_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "7f3ea992bc3af9dc36396faaa8e8103bdca250ba26db754f2b1b954882d7f46d",
+          "saved_sha256": "7f3ea992bc3af9dc36396faaa8e8103bdca250ba26db754f2b1b954882d7f46d"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/drg-green-mild-up-sun-plus-50ml/b1503b4a4be8_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "b1503b4a4be8d174d64d07e903a637c3659be58d4112adbbd9a90e3ab0d23887",
+          "saved_sha256": "b1503b4a4be8d174d64d07e903a637c3659be58d4112adbbd9a90e3ab0d23887"
+        }
+      ]
+    },
+    {
+      "family": "pending-18",
+      "product": "Dr.G Brightening Up Sun Plus 50mL",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/drg-brightening-up-sun-plus-50ml/e2cd09a3abe3_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "e2cd09a3abe36246e4cab7e5b1c2389e57c402941abf2dd3ba242e5a0024c158",
+          "saved_sha256": "e2cd09a3abe36246e4cab7e5b1c2389e57c402941abf2dd3ba242e5a0024c158"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/drg-brightening-up-sun-plus-50ml/254aee0e0f1a_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "254aee0e0f1ac1cf5d842f4bad2d487b88ba5b84f721c8642c2cf88eb3b8ea6d",
+          "saved_sha256": "254aee0e0f1ac1cf5d842f4bad2d487b88ba5b84f721c8642c2cf88eb3b8ea6d"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/drg-brightening-up-sun-plus-50ml/ee8907f6a49b_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "ee8907f6a49b324517e1ff3f51e81ce27c5b12df0e0b05fcd025f9b07c3ce894",
+          "saved_sha256": "ee8907f6a49b324517e1ff3f51e81ce27c5b12df0e0b05fcd025f9b07c3ce894"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/drg-brightening-up-sun-plus-50ml/e3df9b823a53_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "e3df9b823a530665ebf154a2b57dcdda33c3cc7fb2e05a5fa41e2f2ba90f1fb0",
+          "saved_sha256": "e3df9b823a530665ebf154a2b57dcdda33c3cc7fb2e05a5fa41e2f2ba90f1fb0"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/drg-brightening-up-sun-plus-50ml/66493f893756_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "66493f8937561e8392af96a1f86f23087c956c2cb396da6fd935e6b20f20797a",
+          "saved_sha256": "66493f8937561e8392af96a1f86f23087c956c2cb396da6fd935e6b20f20797a"
+        }
+      ]
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gel to Foam Cleanser 145mL",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/pixelpure-gentle-gel-to-foam-cleanser-145ml/64f60881132c_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578",
+          "saved_sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/pixelpure-gentle-gel-to-foam-cleanser-145ml/1ce4ebb33f34_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1",
+          "saved_sha256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/pixelpure-gentle-gel-to-foam-cleanser-145ml/eca7c7d3a1de_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e",
+          "saved_sha256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/pixelpure-gentle-gel-to-foam-cleanser-145ml/8f23914b0431_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678",
+          "saved_sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/pixelpure-gentle-gel-to-foam-cleanser-145ml/aa0d92f86a2d_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "aa0d92f86a2df1c971fcb315cb35e588f315feaa7df9fa08c79337cc8e754b29",
+          "saved_sha256": "aa0d92f86a2df1c971fcb315cb35e588f315feaa7df9fa08c79337cc8e754b29"
+        }
+      ]
+    },
+    {
+      "family": "pending-29",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "original_JPGs": 5,
+      "original_source_bytes_unchanged": true,
+      "retail_approval": "HOLD_MK_BADGE_STOCK_EDITIONS_RIGHTS_VISUAL",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/pixelpure-radiance-aqua-soothing-cream-50ml/70399a8937cf_01.jpg",
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "70399a8937cfd2830a55e664b0b64cc9d3e80d2e49b1aa88db7f5f8ebc688854",
+          "saved_sha256": "70399a8937cfd2830a55e664b0b64cc9d3e80d2e49b1aa88db7f5f8ebc688854"
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/pixelpure-radiance-aqua-soothing-cream-50ml/2ebc3d949d36_02.jpg",
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "2ebc3d949d3696e3670680144cbc199e0c6317524064e04ed726695ddf82d90a",
+          "saved_sha256": "2ebc3d949d3696e3670680144cbc199e0c6317524064e04ed726695ddf82d90a"
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/pixelpure-radiance-aqua-soothing-cream-50ml/1a858dfc396e_03.jpg",
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "1a858dfc396e7404bf84a45dcab87530209e9d37252e0dc7f99b57d65911f644",
+          "saved_sha256": "1a858dfc396e7404bf84a45dcab87530209e9d37252e0dc7f99b57d65911f644"
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/pixelpure-radiance-aqua-soothing-cream-50ml/ee51bf59e74e_04.jpg",
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "ee51bf59e74e98724c0929566bf71dc7b58cf810901cb3d18dff879229def803",
+          "saved_sha256": "ee51bf59e74e98724c0929566bf71dc7b58cf810901cb3d18dff879229def803"
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/pixelpure-radiance-aqua-soothing-cream-50ml/023f07baae12_05.jpg",
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "source_sha256": "023f07baae12443e0201f02017daef73403d5672d99b16386118313323a77f26",
+          "saved_sha256": "023f07baae12443e0201f02017daef73403d5672d99b16386118313323a77f26"
+        }
+      ]
+    }
+  ]
+}
