@@ -1,0 +1,83 @@
+{
+  "checkpoint": "v227",
+  "date": "2026-11-04",
+  "parent": "v226",
+  "branch": "bbia-ch2-qa-20261104",
+  "execution": {
+    "run_id": 41829708805,
+    "job_id": 126573426001,
+    "conclusion": "success",
+    "artifact_id": 13322946087,
+    "artifact_name": "bbia-v227-frame04-smooth-background-qa-pending"
+  },
+  "actual_image": {
+    "product": "BBIA Last Auto Gel Eyeliner",
+    "goodsNo": "206",
+    "frame": "04",
+    "new_file": "BBIA_206_04_SHADE_LABELS_v227_QA_PENDING.jpg",
+    "bytes": 208228,
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "sha256": "e951566e0e7709dbb489566d60ffa00dde703978e6d8fd9498e05a082b65e70f",
+    "changed_caption_regions": [
+      [
+        91,
+        794,
+        321,
+        840
+      ],
+      [
+        558,
+        794,
+        823,
+        843
+      ]
+    ]
+  },
+  "manual_visual_qa": {
+    "before_after_opened": true,
+    "shade_20": "Mauve Burn legible",
+    "shade_27": "Mocha Burn legible",
+    "previous_hard_rectangle": "less obvious",
+    "remaining_issue": "Visible pink blurred patch persists near shade 27 lower eye photograph and label. Source photos still square rectangular inserts. Hold final sales approval.",
+    "status": "QA_PENDING_DESIGN_HOLD"
+  },
+  "reused_unchanged": {
+    "frame06_v226_artifact_id": 13321142179,
+    "frame03_v223_artifact_id": 13321695431,
+    "published_six_206_jpg": true,
+    "verified_55_urls": true
+  },
+  "remaining": [
+    {
+      "item": "206 frame04",
+      "status": "DESIGN_HOLD",
+      "reason": "visible blur/photograph rectangle; do not repeat inpainting blindly",
+      "next_action": "find clean verified photo composition/crop or use a consistent clean caption redesign on a new version"
+    },
+    {
+      "item": "206 frame06",
+      "status": "SOURCE_QA_PENDING",
+      "reason": "26 shade eye photographs not independently authenticated; retain v226 text correction"
+    },
+    {
+      "item": "200 Last Powder Lipstick",
+      "status": "OLD_ARTIFACT_NOT_LOCATED",
+      "reason": "v213 JPG archived in prior working container; cannot justify regeneration",
+      "next_action": "recover earlier production ZIP or official photo alternatives for next distinct slot"
+    },
+    {
+      "item": "1000000124 refill hero",
+      "status": "LOW_NATIVE_RES_HOLD",
+      "reason": "official isolated photo only 500px"
+    }
+  ],
+  "changes": {
+    "new_image_candidates": 1,
+    "production_public_files_changed": 0,
+    "sale_approved": 0,
+    "final_excel_shared": false
+  }
+}
