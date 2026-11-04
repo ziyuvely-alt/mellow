@@ -1,0 +1,67 @@
+{
+  "schema": "bbia_ch2_v188_historical_source_verified_english_compositions",
+  "date": "2026-11-04",
+  "previous_success": "v187b five new historical original-photo EN draft JPGs",
+  "new_jpg_count": 3,
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "source_gate": "3 / 3 archived original JPEG bytes match exactly the SHA256 recorded in historical verified_sources/catalog/goodsNo/ledger.json; current official website photo/version not independently reconfirmed",
+  "images": [
+    {
+      "goodsNo": "1000000227",
+      "product": "Nudy Lip Pencil",
+      "source": "verified_sources/catalog/1000000227/05.jpg",
+      "crop": [
+        0,
+        600,
+        1000,
+        1550
+      ],
+      "style": "editorial split portrait",
+      "status": "QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000125",
+      "product": "Eau Stay Concealer",
+      "source": "verified_sources/catalog/1000000125/04.jpg",
+      "crop": [
+        100,
+        1030,
+        900,
+        2100
+      ],
+      "style": "large beauty portrait",
+      "status": "QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000122",
+      "product": "Eau Glow Cushion Full Size",
+      "source": "verified_sources/catalog/1000000122/06.jpg",
+      "crop": [
+        0,
+        950,
+        1000,
+        1580
+      ],
+      "style": "studio product close-up",
+      "status": "QA_PENDING"
+    }
+  ],
+  "created_files": [
+    "BBIA_v188_3_NEW_ARCHIVED_OFFICIAL_SOURCE_EN_QA_PENDING.zip",
+    "BBIA_v188_THREE_SOURCE_VERIFIED_EDITORIAL_CONTACT.jpg",
+    "v188_source_verified_editorial.py"
+  ],
+  "manifest": "QA_MANIFEST_v188.json; includes source and output sha256, original URL and exact crop coordinates",
+  "technical": "3 JPG files 1080x1080 under 2 MB, 3 different photo sources, ZIP CRC passes; original pixels preserved without synthetic retouching or shade recoloring",
+  "visual_review": "Actual 3-image contact reviewed: readable typography, large portrait/detail photos, no cropped original Korean advertising captions in chosen regions. No claim of shade exactness, no sales approval.",
+  "approved_count": 0,
+  "translation_count": 0,
+  "immutable": [
+    "v147 original 125 recovered JPG",
+    "all v150-v187b earlier image deliverables",
+    "previous held files",
+    "55 published URL resources",
+    "GitHub main untouched"
+  ],
+  "next": "Skip these three v188 images and their SHA checks in next pass. Use cached verified_sources JPG + ledger index to prioritize source-traceable, visually clean, distinct photos. Independently check latest official product/option authenticity before any EN sales approval. Do not pad each family with recycled model photographs. Continue remaining families from latest successful v188 checkpoint; no spreadsheet before project completes."
+}
