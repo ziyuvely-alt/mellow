@@ -1,0 +1,33 @@
+{
+  "checkpoint": "v306",
+  "date": "2026-11-05",
+  "parent": "v305",
+  "actual_execution": {
+    "type": "LOCAL_MANUAL_VISUAL_ROLE_DEDUP_AUDIT",
+    "family_count": 4,
+    "existing_candidates_rendered_in_contact": 17,
+    "contact": "/mnt/data/bbia_v306/BBIA_v306_FOUR_FAMILY_EXACT_CANDIDATE_AUDIT.jpg",
+    "manifest": "/mnt/data/bbia_v306/BBIA_v306_SOURCE_QA_MANIFEST.json",
+    "new_jpg": 0
+  },
+  "distinct_role_count_by_family": {
+    "1000000178": 4,
+    "1000000216": 3,
+    "1000000239": 3,
+    "1000000244": 3
+  },
+  "manual_qa_findings": [
+    "Earlier official-photo QA candidate in each of four families depicts essentially same hero packshot with different layout: do not count as a distinct selling photo role",
+    "1000000178 four credible different roles: hero, compact closeup, puff application, opened compact",
+    "1000000216 three roles: hero, verified eye looks, model holding eyeliner",
+    "1000000244 three roles: hero, product pencils, rounded tip detail (last crop small)",
+    "1000000239 three roles: hero, bottle detail, model holding tint"
+  ],
+  "status": "CANDIDATE_ROLES_DEDUPLICATED_NOT_SALES_APPROVED",
+  "preservation": {
+    "all_existing_jpg_untouched": true,
+    "verified_55_urls_untouched": true,
+    "no_excel_shared": true
+  },
+  "next": "Inspect genuinely unused Lucky Shine Tint official detail sources indices 5 and 6 and add new role only if authentic nonduplicate clean photo; avoid reprocessing previous hero copies."
+}
