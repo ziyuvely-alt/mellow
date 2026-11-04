@@ -1,0 +1,70 @@
+{
+  "checkpoint": "v269",
+  "date": "2026-11-04",
+  "parent": "v268",
+  "source_artifact": {
+    "run_id": 41845529397,
+    "artifact_id": 13329869384
+  },
+  "actual_creation": {
+    "source_files_reused": [
+      "1000000163_ORIGINAL_MINI_DETAIL.jpg",
+      "1000000186_ORIGINAL_MINI_DETAIL.jpg"
+    ],
+    "new_qa_jpg": 2,
+    "existing_files_regenerated": 0,
+    "files": [
+      {
+        "goodsNo": "1000000163",
+        "filename": "BBIA_1000000163_MINI_DETAIL_v269_QA_PENDING.jpg",
+        "crop": [
+          0,
+          1990,
+          1000,
+          2720
+        ],
+        "bytes": 100173,
+        "sha256": "cf0d3aa7a125597803c78cf315468f13b9fe58996047cdec13a6c10a858fdc99",
+        "role": "mini bottle collection"
+      },
+      {
+        "goodsNo": "1000000186",
+        "filename": "BBIA_1000000186_MINI_DETAIL_v269_QA_PENDING.jpg",
+        "crop": [
+          0,
+          405,
+          1000,
+          1320
+        ],
+        "bytes": 137200,
+        "role": "mini bottle and tip",
+        "sha256": "46ed5dddc895b6579325057faee438400f588c498945a40d20b166b31cd770e6"
+      }
+    ],
+    "contact": "/mnt/data/bbia_v269/BBIA_v269_TWO_MINI_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v269/BBIA_v269_TWO_MINI_DETAIL_QA_PENDING.zip",
+    "zip_crc": "PASS"
+  },
+  "visual_qa": {
+    "opened_contact": true,
+    "korean_copy": "NO_KOREAN_INSIDE_SELECTED_CROPS",
+    "product_identity": "Both show products from mini-specific official source; separate option shades still unverified",
+    "crop_quality": "Full applicator and bottle visible after one targeted correction to 1000000186",
+    "alpha_cutout": "NOT_VERIFIED; rectangular source photo inset still exists",
+    "status": "PHOTO_DETAIL_QA_PENDING_NO_SALES_APPROVAL"
+  },
+  "hold": {
+    "goodsNo": "1000000209",
+    "reason": "mini eye palette hero source unresolved; do not mislabel regular size"
+  },
+  "preservation": {
+    "published_files_changed": false,
+    "verified_55_urls_changed": false,
+    "prior_v268_files_changed": false,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Continue remaining mini product families 1000000187,1000000120,1000000208 in batch; verify mini vs full size packaging before image generation",
+    "Do not recreate v269 accepted QA source photos"
+  ]
+}
