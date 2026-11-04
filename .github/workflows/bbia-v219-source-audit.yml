@@ -1,0 +1,22 @@
+name: BBIA v219 official refill source quality audit
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v219_source_audit.py, .github/workflows/bbia-v219-source-audit.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Collect and score official photos read-only
+        run: python scripts/bbia_v219_source_audit.py --out /tmp/bbia-v219
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bbia-v219-official-source-photo-quality-review
+          path: /tmp/bbia-v219
+          if-no-files-found: warn
+          retention-days: 30
