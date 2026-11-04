@@ -1,0 +1,45 @@
+name: Shopee v2574 five actual customer-facing footer image corrections
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2574_five_customer_safe_footer_jpgs.py'
+      - '.github/workflows/v2574-five-footer-fixes.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  patch-only-five-footer-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse staged Goodal original candidate without regenerating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41751173910 -n shopee-v2552-goodal-21-slot05-distinct-real-photo-QA-no-XLSX -D input-goodal
+      - name: Reuse staged DrG original candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752270122 -n shopee-v2555-DrG-pending16-old-70ml-package-photo-QA-no-XLSX -D input-drg
+      - name: Reuse staged Pixelpure exact 145ml candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752643604 -n shopee-v2557-pixelpure-pending26-official145-only-photo-QA-no-XLSX -D input-pixelpure
+      - name: Reuse previously produced MISSHA CLIO candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41754215345 -n shopee-v2562-MISSHA-CLIO-slot05-pair-new-QA-JPG-no-XLSX -D input-missha-clio
+      - name: Render only 5 corrected real-JPG footer images and prove upper content preserved
+        run: python scripts/v2574_five_customer_safe_footer_jpgs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2574-five-real-JPG-customer-safe-footer-QA-no-XLSX
+          path: v2574-five-footer-corrections/
+          retention-days: 90
+          if-no-files-found: error
