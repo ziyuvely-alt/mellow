@@ -1,0 +1,36 @@
+{
+  "schema": "bbia_ch2_v187b_two_additional_historically_official_pixel_source_en",
+  "date": "2026-11-04",
+  "from": "v187 3 other distinct archived official source images, all preserved",
+  "new_JPGs": 2,
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "records": [
+    {
+      "goodsNo": "1000000056",
+      "name": "BBIA Never Die Mascara Slim",
+      "source": "verified_sources/catalog/1000000056/09.jpg",
+      "note": "Actual historic source contains preexisting product tagline text; do not claim complete localization since photograph embedded words are intact."
+    },
+    {
+      "goodsNo": "234",
+      "name": "BBIA Ready To Wear Eye Palette",
+      "source": "verified_sources/catalog/234/00.jpg",
+      "note": "Historical official URL product model portrait, product/option alignment current-day still pending"
+    }
+  ],
+  "proof": "Both source original JPG SHA256 matched historical ledger named same goodsNo and source image URL; no proof of current official photo/version or exact shade; original source image pixels untouched.",
+  "output": "BBIA_v187b_2_ADDITIONAL_HISTORICAL_ORIGINALS_EN_QA_PENDING.zip",
+  "preview": "BBIA_v187b_TWO_ARCHIVED_OFFICIAL_PHOTO_CONTACT.jpg",
+  "script": "v187b_additional_provenance.py",
+  "technical": "2 new JPEG images 1080x1080 <2MB and valid ZIP; hashes in QA manifest",
+  "total_new_this_turn": 5,
+  "approved_for_sale": 0,
+  "translations": 0,
+  "preserve": [
+    "v147 125 originals",
+    "v150-v186 candidate assets and prior holds",
+    "55 public URLs",
+    "GitHub main branch"
+  ],
+  "next": "Do not recreate v187/v187b five images. Use historical official-photo SHA ledger proof for source traceability, then check current packaging and option identity and premium final design before any EN approval. Preserve previously selected source references and distinguish photo-authentication from sales readiness."
+}
