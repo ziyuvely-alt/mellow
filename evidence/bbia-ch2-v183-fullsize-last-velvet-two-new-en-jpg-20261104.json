@@ -1,0 +1,64 @@
+{
+  "schema": "bbia_ch2_v183_last_velvet_regular",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v182 Last Velvet Tint Mini 3 NEW EN drafts retained",
+  "distinct_family": {
+    "goodsNo": "1000000135",
+    "name": "BBIA Last Velvet Tint FULL SIZE",
+    "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000135",
+    "official_size": "5g",
+    "different_from": "1000000186 Last Velvet Tint Mini 3.2g"
+  },
+  "real_new_jpgs": 2,
+  "active_qa_pending": 2,
+  "files": {
+    "archive": "BBIA_v183_LAST_VELVET_5G_2_NEW_EN_QA_PENDING.zip",
+    "contact": "BBIA_v183_LAST_VELVET_5G_TWO_EN_CONTACT.jpg",
+    "repro_scripts": [
+      "v183_last_velvet_regular.py",
+      "v183_fix_studio_only.py"
+    ],
+    "manifest": "QA/QA_MANIFEST_v183.json"
+  },
+  "sources": [
+    {
+      "archived_source": "batch/1000000135/hero-cutout.png",
+      "role": "01 real bottle full size hero",
+      "qa": "QA_PENDING"
+    },
+    {
+      "archived_source": "batch/1000000135/photo-2.png",
+      "role": "02 photographed studio product detail",
+      "qa": "QA_PENDING"
+    }
+  ],
+  "excluded": [
+    "photo-3.png Korean embedded swatch text; exact shade not verified",
+    "photo-4.png campaign model and accessory; shade/product relation not established",
+    "photo-5.png Korean promotional text and model; cannot ensure current options"
+  ],
+  "technical": {
+    "dimensions": "1080x1080",
+    "jpeg_under_two_megabytes": true,
+    "files_checked": 2,
+    "zip_crc_valid": true,
+    "source_photo_sha256_stored": true
+  },
+  "selective_fix": "Second new studio image had lettering overlapped by circular photo. Fixed only second image, first JPG binary was not rewritten; final contact visually inspected.",
+  "official_source_status": "Official product page confirms goodsNo and 5g; local archived source photography includes original reference URLs and historical SHA but source HTTP was not rechecked; exact current original photo pixel and shade validation remain PENDING.",
+  "sales_approved": 0,
+  "localizations_created": 0,
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "protected_assets": [
+    "v147 original 125 images",
+    "v150-v182 new candidate JPGs",
+    "all preexisting source and image ZIPs",
+    "55 verified public URLs"
+  ],
+  "next_steps": [
+    "Do not regenerate v183 two frames; retrieve original official source image pixels and validate before sale.",
+    "Do not invent a shade or treat campaign model as exact variant.",
+    "Continue other incomplete families when source photos are available; previous v158 Essential Eye Palette originals already photographed and should not be redundantly recreated."
+  ],
+  "excel_shared": false
+}
