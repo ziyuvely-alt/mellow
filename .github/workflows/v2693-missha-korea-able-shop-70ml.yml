@@ -1,0 +1,32 @@
+name: Shopee v2693 official AbleShop MISSHA cream photo 70ml strict batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2693-missha-korea-able-shop-70ml.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  product:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Source same Korean 70mL item only; preserve prior exact JPGs
+        run: |
+          python -m py_compile scripts/v2693_missha_ableshop_official_70ml.py
+          cp scripts/v2693_missha_ableshop_official_70ml.py /tmp/v2693.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2693-assets qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2693-assets
+          python /tmp/v2693.py
+          git add qa-review/v2693-missha-pdrn-70ml-official-source-candidate
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2693 isolate first-party Korean AbleShop 70ml photo source with stock edition hold'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
