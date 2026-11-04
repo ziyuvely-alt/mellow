@@ -1,0 +1,30 @@
+{
+  "version": "v2772",
+  "date": "2026-11-05",
+  "baseline": "v2771",
+  "existing_approved_families": 11,
+  "existing_verified_public_urls": 55,
+  "previous_assets_unchanged": true,
+  "actual_new_5JPG_QA_groups": 2,
+  "exact_original_JPG_blobs_reused": 10,
+  "newly_generated_product_renderings": 0,
+  "hero_frame_prior_quality_verified": true,
+  "legacy_additional_frames_prior_sales_approved": false,
+  "new_retail_approvals": 0,
+  "exact_inventory_physical_generation_verified": false,
+  "original_round_MK_logo_verified": false,
+  "photo_reuse_or_model_rights_verified": false,
+  "final_excel_not_shared": true,
+  "source_groups": [
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+      "files": 5
+    },
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "files": 5
+    }
+  ]
+}

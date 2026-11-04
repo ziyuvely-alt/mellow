@@ -1,0 +1,72 @@
+{
+  "version": "v2772",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+  "source_identity": "v2771 public 25AD 30mL catalog identity checked; actual owned inventory not confirmed",
+  "qa_frame_count": 5,
+  "source_blobs_copied_exactly": 5,
+  "rendered_new_product_pixels": 0,
+  "existing_approved_media_changed": false,
+  "hero_previous_native_edge_QA_pass": true,
+  "frames_2_to_5_unverified_old_MK_badge": true,
+  "photo_license_verified": false,
+  "owned_stock_variant_verified": false,
+  "original_authentic_MK_logo_verified": false,
+  "status": "STAGED_FIVE_JPGS_QA_NOT_RETAIL_APPROVED",
+  "retail_approved": false,
+  "new_public_URLs": 0,
+  "final_XLSX_shared": false,
+  "follow_up": "Replace unverified legacy MK art only after authenticated logo; check stock packaging and photo/model commercial reuse rights; full native visual QA pending",
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/01-real-alpha-single-tube-hero-QA.jpg",
+      "source": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/pending-21/01-true-alpha-single-eyecream-1080-QA.jpg",
+      "source_git_blob_sha1": "09f78554da34d13e1d775d0595f4c95850bb3c9b",
+      "source_bytes": 71091,
+      "exact_original_JPG_bytes": true,
+      "scene": "real single 30mL tube, native cap QA v2770",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/02-legacy-packaging-closeup-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/02-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "e6ac5dd1f3d38c0efa4f2b104e7ea6ab0fab06cb",
+      "source_bytes": 108830,
+      "exact_original_JPG_bytes": true,
+      "scene": "tube label closeup",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/03-legacy-eye-area-application-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/03-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "c25acf5b18736f17eab35876d69e8fed89ead117",
+      "source_bytes": 145552,
+      "exact_original_JPG_bytes": true,
+      "scene": "eye-area use",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/04-legacy-nozzle-cream-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/04-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "fecde886b9b3f76dce0314b5756b9e01ed1f1a93",
+      "source_bytes": 134011,
+      "exact_original_JPG_bytes": true,
+      "scene": "nozzle and texture closeup",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/05-legacy-cream-texture-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/05-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "11b0f0b6beb40bce391aa904e4239c6e07c91e85",
+      "source_bytes": 124322,
+      "exact_original_JPG_bytes": true,
+      "scene": "texture swatch scene",
+      "commercial_use": "HOLD"
+    }
+  ]
+}

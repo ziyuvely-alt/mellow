@@ -1,0 +1,72 @@
+{
+  "version": "v2772",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "source_identity": "v2743 official 5g single compact alpha QA verified; owned inventory exact lot not confirmed",
+  "qa_frame_count": 5,
+  "source_blobs_copied_exactly": 5,
+  "rendered_new_product_pixels": 0,
+  "existing_approved_media_changed": false,
+  "hero_previous_native_edge_QA_pass": true,
+  "frames_2_to_5_unverified_old_MK_badge": true,
+  "photo_license_verified": false,
+  "owned_stock_variant_verified": false,
+  "original_authentic_MK_logo_verified": false,
+  "status": "STAGED_FIVE_JPGS_QA_NOT_RETAIL_APPROVED",
+  "retail_approved": false,
+  "new_public_URLs": 0,
+  "final_XLSX_shared": false,
+  "follow_up": "Replace unverified legacy MK art only after authenticated logo; check stock packaging and photo/model commercial reuse rights; full native visual QA pending",
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/01-real-alpha-5g-single-compact-hero-QA.jpg",
+      "source": "qa-review/v2743-obge-finisher-official-5g-only-precision-contour-matte/01-official-product-5g-white-1080-JPG-QA.jpg",
+      "source_git_blob_sha1": "9c4f7e232b3cd4c33b4c342d631b99f132368cc3",
+      "source_bytes": 133884,
+      "exact_original_JPG_bytes": true,
+      "scene": "actual compact alpha product hero",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/02-legacy-compact-model-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/02-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "0814d09b8bcbafcdf8d070808bc417c46702a162",
+      "source_bytes": 95695,
+      "exact_original_JPG_bytes": true,
+      "scene": "model holding compact",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/03-legacy-inside-compact-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/03-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "bed1a44300c212799e1f18f0cdf84e0df347abb4",
+      "source_bytes": 89784,
+      "exact_original_JPG_bytes": true,
+      "scene": "compact interior details",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/04-legacy-puff-usage-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/04-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "0ce1001e30354edc51c3cee23476dec10f64c205",
+      "source_bytes": 105474,
+      "exact_original_JPG_bytes": true,
+      "scene": "puff application",
+      "commercial_use": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/05-legacy-single-compact-angle-REFERENCE.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/05-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha1": "e5d4be633715238920fc7a96895ce1e4ab5faf90",
+      "source_bytes": 79648,
+      "exact_original_JPG_bytes": true,
+      "scene": "closed single compact angle",
+      "commercial_use": "HOLD"
+    }
+  ]
+}
