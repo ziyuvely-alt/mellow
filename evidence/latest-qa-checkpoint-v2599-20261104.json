@@ -1,0 +1,66 @@
+{
+  "checkpoint": "v2599",
+  "date": "2026-11-04",
+  "latest_verified_full_qa_corpus": {
+    "version": "v2597",
+    "run_id": 41765900358,
+    "artifact": "shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX",
+    "families": 30,
+    "jpg_count": 156,
+    "changed_since_original": 19
+  },
+  "new_isolated_candidate": {
+    "version": "v2599",
+    "run_id": 41766677519,
+    "artifact": "shopee-v2599-OBGE-Finisher-5g-single-item-information-QA-no-XLSX",
+    "family": "pending-09",
+    "candidate_slot": 5,
+    "new_jpgs": 1,
+    "product": "OBgE Oil Control Finisher 5g",
+    "same_family_near_duplicate_alerts": 0,
+    "source_photograph_used": false,
+    "accepted_into_main_156": false,
+    "commercially_published": false
+  },
+  "related_verified_option_gate": {
+    "version": "v2594",
+    "run_id": 41765217096,
+    "stock_unit_conflict": "pending-12 15G vs brand official 15 mL; original stock file preserved",
+    "peripera_shade_014": "로지위시"
+  },
+  "intentionally_not_reused": {
+    "version": "v2598",
+    "run_id": 41766214533,
+    "reason": "Source pending-09 slot05 was a different existing JPG than the editing script expected. Failed safely. The previous 156 retained."
+  },
+  "blocked_items": [
+    {
+      "topic": "original_mk_logo_binary",
+      "state": "HOLD",
+      "detail": "Private plugin contains references/mellowkr-brand/mellowkr-mk-original.png 280031 bytes. Plugin archive metadata and signed download URL found, but binary unavailable through accessible runtime. Do not substitute fabricated logo."
+    },
+    {
+      "topic": "external_product_photo_rights",
+      "state": "HOLD",
+      "detail": "No seller commercial reuse permission established."
+    },
+    {
+      "topic": "actual_owned_stock_edition",
+      "state": "HOLD",
+      "detail": "Product packaging and versions not physically signed off."
+    },
+    {
+      "topic": "human_product_visual_qc",
+      "state": "HOLD",
+      "detail": "Commercial photo/claim/scenes not approved by human review."
+    }
+  ],
+  "immutable_results": {
+    "previous_published_product_families": 11,
+    "previous_verified_public_urls": 55,
+    "urls_changed": 0,
+    "xlsx_shared": false,
+    "unapproved_product_publish_count": 0
+  },
+  "next_action": "Reuse v2597 156 existing JPGs and v2599 pending09 slot05 isolated info candidate; review actual source photos, MK authentic logo, and rights first; never use failed v2598 artifact."
+}
