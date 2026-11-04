@@ -1,0 +1,41 @@
+name: Shopee v2582 eleven actual photo QA deltas with two BOH SKUs
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2582_merge_four_bioheal_original_photo_delta.py'
+      - '.github/workflows/v2582-eleven-photo-deltas.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  merge-four-new-bioheal-with-seven-preserved:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse original 156 QA image candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2582-base
+      - name: Reuse latest seven-image delta without redraw
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762272630 -n shopee-v2580-7-real-photo-delta-156-corpus-QA-no-XLSX -D v2582-seven
+      - name: Reuse four newly collected BIOHEAL BOH source photograph QA candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762504079 -n shopee-v2581-two-BIOHEAL-BOH-skus-real-photo-QA-no-XLSX -D v2582-boh
+      - name: Prepare only eleven changed JPGs with original 145 immutable
+        run: python scripts/v2582_merge_four_bioheal_original_photo_delta.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2582-eleven-real-JPG-source-QA-delta-no-XLSX
+          path: v2582-11-change-photo-QA-delta/
+          retention-days: 90
+          if-no-files-found: error
