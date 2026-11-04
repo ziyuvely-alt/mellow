@@ -1,0 +1,72 @@
+{
+  "version": "v2673",
+  "date": "2026-11-04",
+  "baseline": "v2672",
+  "execution": {
+    "run_id": 41834422635,
+    "conclusion": "success",
+    "branch": "qa-assets/v2662-immutable-14-candidates",
+    "path": "qa-review/v2673-two-new-product-five-JPG-sets",
+    "generated_JPG_files": 10,
+    "physical_source_JPGs_reused_without_modification": 4,
+    "new_factual_info_JPGs": 6
+  },
+  "families": [
+    {
+      "family": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70 mL",
+      "JPGs": 5,
+      "source_slots": [
+        4,
+        5
+      ],
+      "status": "FIVE_FRAME_QA_ONLY_NOT_SALE_READY"
+    },
+    {
+      "family": "pending-19",
+      "product": "GOODAL Green Tangerine Vita C Cream Alpha 50 mL",
+      "JPGs": 5,
+      "source_slots": [
+        1,
+        5
+      ],
+      "status": "FIVE_FRAME_QA_ONLY_NOT_SALE_READY"
+    }
+  ],
+  "actual_visual_review": {
+    "status": "CONTACT_SHEET_OPENED_AND_INSPECTED",
+    "new_text_not_clipped": true,
+    "quality_note": "Each family has one large product photograph, one prior guide image and 3 deliberately conservative fact-only cards. Distinct but not yet attractive enough to call sales-ready. Check claims and source rights."
+  },
+  "all_prior_five_frame_QA_sets": [
+    "pending-28 v2668",
+    "pending-22 v2670",
+    "pending-17 v2672",
+    "pending-20 v2672",
+    "pending-16 v2673",
+    "pending-19 v2673"
+  ],
+  "released": {
+    "approved_old_family_count": 11,
+    "new_sales_approved": 0,
+    "old_verified_55_URLs_changed": 0
+  },
+  "remaining_hold": [
+    "Licensing of source photos",
+    "Confirm actual stock generation/edition and product capacity",
+    "Latest physical v2647 archive not currently available for precise comparison",
+    "Source original MK logo absent; do not fabricate",
+    "Newly produced 3 fact-only cards per family need visual commercial design revision for good customer quality"
+  ],
+  "do_not_redo": [
+    "Do not recreate pending-16 and pending-19 5-card draft",
+    "Do not rerun 25-source-preview v2671",
+    "Do not repackage v2672 two existing five-JPG sets",
+    "Do not count QA drafts as final approval"
+  ],
+  "protect": {
+    "approved_11_families_preserved": true,
+    "all_55_urls_unchanged": true,
+    "no_final_xlsx_shared": true
+  }
+}
