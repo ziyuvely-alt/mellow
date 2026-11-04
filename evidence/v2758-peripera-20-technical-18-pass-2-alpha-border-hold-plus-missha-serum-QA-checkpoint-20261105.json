@@ -1,0 +1,66 @@
+{
+  "version": "v2758",
+  "date": "2026-11-05",
+  "baseline": "v2755",
+  "runs": {
+    "v2756": {
+      "id": 41893485921,
+      "conclusion": "success"
+    },
+    "v2757": {
+      "id": 41893823700,
+      "conclusion": "failed",
+      "why": "assert aborted on shade18 corner mask alpha 254 at x0,ymax"
+    },
+    "v2758": {
+      "id": 41894120592,
+      "conclusion": "success"
+    },
+    "v2759": {
+      "id": 41894487394,
+      "conclusion": "submitted"
+    }
+  },
+  "peripera_01to20": {
+    "originally_saved_real_alpha_png_pairs": 20,
+    "original_1080_jpg_pairs": 20,
+    "validated_shade_png_boundaries_and_jpg_size_pass": 18,
+    "border_alpha_held": [
+      "18",
+      "19"
+    ],
+    "exact_duplicate_JPG_hash_pairs": 0,
+    "all_photo_assets_retained_unchanged": true,
+    "rerender_01to17_or20_prohibited": true,
+    "machine_pass_is_not_visual_retail_approval": true,
+    "fixed_batch_behavior": "Do not abort on first shade failure; log per-option issue and continue.",
+    "next_action": "v2759 inspect disconnected mask boundary contamination for 18/19 and remove only if small detached island; if integrated hold, use different verified scene."
+  },
+  "missha_pdrn_serum_30ml": {
+    "family": "pending-13",
+    "v2756_qa_folder": "qa-review/v2756-missha-pdrn-serum-one-bottle-real-alpha",
+    "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+    "actual_transparent_png": true,
+    "actual_1080_jpg": true,
+    "jpg_bytes": 126541,
+    "product_main_bottle_intact": true,
+    "visual_qa": "HOLD_BACKGROUND_DECORATIVE_CIRCLE_REMAINS_AFTER_ALPHA",
+    "technical_alpha_status": "valid PNG/JPG; not pure single product cutout",
+    "original_sources_unchanged": true,
+    "next_action": "Use isolated same 30mL product exact original photo with no decorative circle OR truly remove decorative circle without clipping bottle, QA only."
+  },
+  "release_criteria": {
+    "previous_11_approved_families_intact": true,
+    "public_55_approved_urls_intact": true,
+    "authentic_original_MK_logo_unverified": true,
+    "actual_owned_stock_generation_not_confirmed": true,
+    "photo_commercial_rights_unverified": true,
+    "newly_approved_for_sale": 0,
+    "final_spreadsheet_shared": false
+  },
+  "no_repeat": [
+    "Never redo 18 mask-pass Peripera options",
+    "Do not use v2697/old fact-card as serum source",
+    "Do not count alpha image production as retail approval"
+  ]
+}
