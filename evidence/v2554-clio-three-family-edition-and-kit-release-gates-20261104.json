@@ -1,0 +1,86 @@
+{
+  "version": "v2554",
+  "date": "2026-11-04",
+  "purpose": "Exact edition/kit safeguards for CLIO families following physical 18-JPG v2553 audit",
+  "source_v2553_run": 41751641536,
+  "independent_sources": [
+    {
+      "url": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+      "type": "official_clubclio_catalog",
+      "observation": "Official product category lists three distinct cushion promo sets and additional gift-bundle versions; gift promotions must not be conflated with inventory."
+    },
+    {
+      "url": "https://global.oliveyoung.com/product/detail?prdtNo=GA250228712",
+      "type": "third_party_retail_option_list",
+      "observation": "Mesh Glow lists five shade options with refill, and a separate [SET] 19C with 5 puffs; do not falsely imply extra puffs for other options."
+    },
+    {
+      "url": "https://www.yesstyle.com/en/clio-set-base-de-maquillaje-kill-cover-mesh-glow-essential-cushion/info.html/pid.1133919457",
+      "type": "third_party_set_reference",
+      "observation": "Describes base Mesh Glow 15g cushion and 15g refill, five options."
+    }
+  ],
+  "families": [
+    {
+      "id": "pending-06",
+      "sku": "CLIO Kill Cover Mesh Glow Essential Cushion promotion",
+      "inventory_shades": [
+        "19N",
+        "19C",
+        "21N",
+        "21C",
+        "23N"
+      ],
+      "safe_content": "Base compact plus refill, pending exact stock carton check",
+      "hold": [
+        "Retailer-specific puff bonus cannot be assumed",
+        "Confirm actual stock set and generation",
+        "Photograph rights",
+        "Frame 01 and 05 visually repetitive"
+      ]
+    },
+    {
+      "id": "pending-07",
+      "sku": "CLIO Kill Cover Mesh Blur Cushion 15g x2 promotion",
+      "inventory_shades": [
+        "19C",
+        "19N",
+        "21N"
+      ],
+      "safe_content": "Mesh Blur only, not Mesh Glow",
+      "hold": [
+        "Confirm owned-stock box and item set",
+        "Prior unrelated marketing sources prohibited",
+        "Photograph rights",
+        "Frame 01 and 04 visually repetitive"
+      ]
+    },
+    {
+      "id": "pending-05",
+      "sku": "CLIO Kill Cover Founwear Cushion promotional set",
+      "inventory_shades": [
+        "19N",
+        "19C",
+        "21N",
+        "21C",
+        "23N"
+      ],
+      "safe_content": "Founwear only; no cross-generation substitution",
+      "hold": [
+        "Gift puffs and other bonus configurations not presumed",
+        "Physical-stock edition check",
+        "Photo rights",
+        "Frame 01 and 05 visually repetitive"
+      ]
+    }
+  ],
+  "production_rules": {
+    "original_156_jpg_modified": false,
+    "original_55_public_urls_modified": false,
+    "commercial_release_approved": false,
+    "excel_created_or_shared": false,
+    "verified_copyright_permissions": false,
+    "candidates_safe_to_publish": 0
+  },
+  "next_batch": "Inspect other pending families for verified distinct genuine source photographic replacements; skip blocked CLIO variants rather than silently approving."
+}
