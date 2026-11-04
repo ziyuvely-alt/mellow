@@ -1,0 +1,31 @@
+{
+  "schema": "bbia_ch2_v162c_five_en_purpose_closeout",
+  "date": "2026-11-04",
+  "family": "BBIA Ready To Wear Eye Shadow",
+  "previous": "v161: Eau Perfect Brush + Eau Cushion Puff 4 JPG created",
+  "source_archive": "v147 original JPG immutable",
+  "this_execution": {
+    "new_JPG_created": 3,
+    "new_active_JPG": 2,
+    "new_JPG_held": 1,
+    "previous_reused_JPG_unchanged": 3,
+    "final_active_five_scene_candidates": 5,
+    "reason_for_hold": "v162 scene05 duplicated same campaign photo as scene01. Replaced it with factual 3g/how-to page using small actual compact photo; original held JPEG preserved.",
+    "output_zip": "BBIA_v162c_READY_TO_WEAR_FIVE_PURPOSE_EN_QA_PENDING.zip",
+    "preview": "BBIA_v162c_READY_TO_WEAR_FIVE_PURPOSE_CONTACT.jpg"
+  },
+  "content_fact_verification": {
+    "official_product": "BBIA Ready To Wear Eye Shadow",
+    "official_goodsNo": "238",
+    "official_volume": "3g",
+    "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=238",
+    "application_source": "https://jolse.com/product/bbia-ready-to-wear-eye-shadow-3g/64171/category/2785/display/1/"
+  },
+  "technical_quality": "all 6 JPEG (5 active, 1 held) 1080x1080, less than 2MB, ZIP CRC passed",
+  "source_photo_exactness": "UNVERIFIED",
+  "sale_approved": 0,
+  "localizations": 0,
+  "current_status": "5 EN role candidate JPGs QA_PENDING; exact official photo/variant signoff not complete; 1 duplicated photo candidate held",
+  "preserve": "v147 125 original JPG, v150-v161 outputs, prior v162b source holds, existing 55 public URLs, historic 1515 count",
+  "next": "Skip v162c files in next creation pass, focus new family where 5 truly diverse official source photos available. Do not repeat official photo retrieval via failed container DNS."
+}
