@@ -1,0 +1,37 @@
+name: Shopee v2681 two 5-JPG Goodal PixelPure source-and-repair reuse sets
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2681-two-reuse-product-fiveframe.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve existing historical photo source for only two products
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Assemble two true 5-JPG QA sets reusing v2665 text corrections
+        run: |
+          cp scripts/v2681_two_source_plus_v2665_reuse.py /tmp/v2681.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2681-worktree qa-assets/v2662-immutable-14-candidates
+          ln -s "$GITHUB_WORKSPACE/historical" /tmp/v2681-worktree/historical
+          cd /tmp/v2681-worktree
+          python /tmp/v2681.py
+          git add qa-review/v2681-two-eyecleanser-five-frame-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2681 save Goodal eye and PixelPure cleanser 5-frame QA sets reusing originals'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
