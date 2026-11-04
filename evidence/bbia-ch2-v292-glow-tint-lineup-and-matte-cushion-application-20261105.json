@@ -1,0 +1,83 @@
+{
+  "checkpoint": "v292",
+  "parent": "v291",
+  "date": "2026-11-05",
+  "source": {
+    "run_id": 41859471186,
+    "artifact_id": 13338673188,
+    "downloaded_source_count": 6,
+    "source_zip": "bbia_v291_six_originals.zip"
+  },
+  "actual_output": {
+    "new_jpg": 2,
+    "script": "/mnt/data/bbia_v292/build.py",
+    "contact": "/mnt/data/bbia_v292/BBIA_v292_TWO_DISTINCT_ROLE_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v292/BBIA_v292_TWO_NEW_PHOTO_ROLES_QA_PENDING.zip",
+    "zip_sha256": "1088a39ba78a83ced162ee43004d84e3808ec1f56bc6fe123d01e780240797d5",
+    "zip_bytes": 232669,
+    "crc_pass": true,
+    "files": [
+      {
+        "goodsNo": "1000000136",
+        "file": "BBIA_1000000136_GLOW_TINT_LINEUP_v292_QA_PENDING.jpg",
+        "source": "BBIA_1000000136_OFFICIAL_UNUSED_6_v291.jpg",
+        "rect": [
+          0,
+          0,
+          1000,
+          1360
+        ],
+        "bytes": 111293,
+        "sha256": "ee417cd262951d4bd57a471ffa5e7990f59fc829aa07cdbb05bd3366ee51e906",
+        "role": "Original photographed product lineup"
+      },
+      {
+        "goodsNo": "1000000178",
+        "file": "BBIA_1000000178_PUFF_APPLICATION_v292_QA_PENDING.jpg",
+        "source": "BBIA_1000000178_OFFICIAL_UNUSED_6_v291.jpg",
+        "rect": [
+          75,
+          3200,
+          925,
+          3650
+        ],
+        "bytes": 148173,
+        "sha256": "eef62766ed903242b005de417e7ef6bca07d29815702b8ae3852f254333bd49a",
+        "role": "Two authentic face/puff application photographs"
+      }
+    ]
+  },
+  "quality": {
+    "opened_actual_contact": true,
+    "jpg_1080x1080": true,
+    "jpg_under_2mb": true,
+    "embedded_korean_in_selected_crops": false,
+    "sales_approved": 0,
+    "issues": [
+      "Source photographs remain rectangular, not alpha-isolated cutouts",
+      "Product and shade option generation not verified at individual level",
+      "Not approved for sales publication"
+    ]
+  },
+  "holds": [
+    {
+      "goodsNo": "1000000221",
+      "source_indices": [
+        5,
+        6
+      ],
+      "reason": "Silicone puff text and Korean banners, no separate clean source role; do not repeat these indices"
+    }
+  ],
+  "preservation": {
+    "existing_public_images_modified": false,
+    "existing_verified_55_urls_modified": false,
+    "v288_and_v290_existing_jpg_untouched": true,
+    "final_spreadsheet_shared": false
+  },
+  "next": [
+    "Reuse v292 two binary hashes; do not rerender",
+    "Continue next family with distinct source photograph and validate raw image before composition",
+    "Prioritize true transparent cutouts and option QA only after verified image role coverage"
+  ]
+}
