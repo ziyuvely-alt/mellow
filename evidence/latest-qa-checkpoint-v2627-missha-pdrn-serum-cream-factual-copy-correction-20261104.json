@@ -1,0 +1,42 @@
+{
+  "version": "v2627",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "previous_success": "v2626",
+  "source_archive": "Shopee_v2626_156JPG_PIXELPURE_2_captions_corrected_QA_ONLY.zip",
+  "latest_local_archive": "/mnt/data/Shopee_v2627_156JPG_MISSHA_PDRN_two_verified_product_details_QA_ONLY.zip",
+  "comparison": "/mnt/data/v2627_missha_pdrn_two_factual_frames_QA/v2627_before_after.jpg",
+  "product_families": 30,
+  "total_jpg": 156,
+  "actual_modifications": 2,
+  "untouched_sha256_identical_jpg": 154,
+  "modifications": [
+    {
+      "family": "pending-13",
+      "slot": 5,
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30 mL",
+      "old_issue": "KEY INGREDIENTS / PANTHENOL followed by Niacinamide is listed, contradictory unsupported content",
+      "new_copy": "PRODUCT DETAILS / FIRMING REPAIR SERUM / 30 mL | DROPPER BOTTLE",
+      "old_sha256": "0",
+      "new_sha256": "0"
+    },
+    {
+      "family": "pending-14",
+      "slot": 5,
+      "product": "MISSHA PDRN NAD+ Firming Repair Cream 70 mL",
+      "old_issue": "KEY INGREDIENTS / PDRN NAD+ followed by Niacinamide is listed, ambiguous/unverified claim",
+      "new_copy": "PRODUCT DETAILS / FIRMING REPAIR CREAM / 70 mL | CREAM JAR",
+      "old_sha256": "0",
+      "new_sha256": "0"
+    }
+  ],
+  "image_technical_checks": "Full zip 156 JPGs, only pending-13/05 and pending-14/05 changed; upper branded area difference JPEG recompression only",
+  "previous_approved_11_families_untouched": true,
+  "existing_55_verified_public_urls_changed": 0,
+  "final_xlsx_or_google_sheet_created_or_shared": false,
+  "photo_commercial_rights_verified": false,
+  "actual_physical_stock_edition_verified": false,
+  "original_MK_logo_binary_recovered": false,
+  "final_sales_image_approved": false,
+  "next": "Resume from v2627 local 156 JPG archive; do not rerun pending13/14 slot05, nor pending27 2/3/4, pending29 slot03 or pending30 slot05. Require verified original MK logo and rights before commercial release."
+}
