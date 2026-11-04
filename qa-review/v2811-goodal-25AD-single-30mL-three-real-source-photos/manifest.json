@@ -1,0 +1,80 @@
+{
+  "version": "v2811",
+  "baseline": "v2810",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+  "separate_single_30mL_evidence": [
+    {
+      "name": "The Shilla Duty Free",
+      "page": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+      "sku": "669210000423",
+      "edition": "25AD",
+      "single_unit": true,
+      "size": "30mL"
+    },
+    {
+      "name": "Ktown4u",
+      "page": "https://kr.ktown4u.com/iteminfo?goods_no=148768",
+      "good_no": 148768,
+      "single_unit_listing": true,
+      "size": "30mL",
+      "exact_25AD_packaging_in_images_verified": false
+    }
+  ],
+  "prior_official_brand_bundle": {
+    "page": "https://clubclio.co.kr/shop/goodsView/6606",
+    "unit": "30mL + 30mL",
+    "not_equivalent_to_single_unit": true
+  },
+  "newly_saved_photographic_references": 3,
+  "retail_approval": false,
+  "actual_owned_inventory_edition_confirmed": false,
+  "photo_republication_rights_verified": false,
+  "prior_BAD_clipped_tube_image_reused": false,
+  "unverified_MK_logo_added": false,
+  "previously_approved_11_families_untouched": true,
+  "existing_55_published_URLs_untouched": true,
+  "previous_QA_artifacts_untouched": true,
+  "final_excel_shared": false,
+  "photos": [
+    {
+      "slot": 1,
+      "source_url": "https://media.ktown4u.com/products/resize/thumbnail/2025/12/22/a6wykq.jpeg",
+      "status": "SINGLE_ITEM_RETAIL_LISTING_PHOTO_REFERENCE_SAVED",
+      "source_dimensions": [
+        600,
+        600
+      ],
+      "original_file": "01-original-retailer-reference.jpg",
+      "original_sha256": "e8966d294534512f762a9380498b115cf0c258a707a081b9b1a051edb1161b98",
+      "qa_1080_jpg": "01-30mL-single-listing-scene-REVIEW-ONLY.jpg",
+      "qa_sha256": "8950a1b9fc48a495b98b5e35ef7934da0af39689413aa250be7dd91a2e3f7140"
+    },
+    {
+      "slot": 2,
+      "source_url": "https://media.ktown4u.com/products/resize/thumbnail/2025/12/22/tyUqvT.jpeg",
+      "status": "SINGLE_ITEM_RETAIL_LISTING_PHOTO_REFERENCE_SAVED",
+      "source_dimensions": [
+        600,
+        600
+      ],
+      "original_file": "02-original-retailer-reference.jpg",
+      "original_sha256": "16111a6d535654cec3da7c2a6dc61ea09ca823e7240de057b8a935895dc9bd38",
+      "qa_1080_jpg": "02-30mL-single-listing-scene-REVIEW-ONLY.jpg",
+      "qa_sha256": "7a7d987d02f7885dc52596850f4c5f9ea2bb540b8fad218ed68fd3f1cd6cb968"
+    },
+    {
+      "slot": 3,
+      "source_url": "https://media.ktown4u.com/products/resize/thumbnail/2025/10/14/oJXK8h.jpg",
+      "status": "SINGLE_ITEM_RETAIL_LISTING_PHOTO_REFERENCE_SAVED",
+      "source_dimensions": [
+        600,
+        600
+      ],
+      "original_file": "03-original-retailer-reference.jpg",
+      "original_sha256": "ea3ac480ca399b52a8406a38353d5071cbb45251565fb28e4191a859b9afb922",
+      "qa_1080_jpg": "03-30mL-single-listing-scene-REVIEW-ONLY.jpg",
+      "qa_sha256": "039a6894297e23349cb06fe2db0a1df29fafd48d60465c0cf26545c397e71bfc"
+    }
+  ]
+}
