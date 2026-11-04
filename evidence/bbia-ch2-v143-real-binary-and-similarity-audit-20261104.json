@@ -1,0 +1,74 @@
+{
+  "schema": "bbia_chapter2_v143_actual_binary_visual_triage",
+  "date": "2026-11-04",
+  "source_archives": [
+    "BBIA_v135_QualityGate_ReviewOnly.zip",
+    "BBIA_v136_RepairAndRiskGate_QA_PENDING.zip",
+    "BBIA_v140_PowderPuffClaimRepair_QA_PENDING.zip",
+    "BBIA_v142_3SupersededRetired_14Held_QA.zip"
+  ],
+  "scope": "v142 latest roster actual JPG content presence + pHash similarity on v135 review binaries",
+  "counts": {
+    "review_pending": 111,
+    "review_pending_actual_binary_found": 109,
+    "actual_technical_jpg_pass": 109,
+    "missing_review_binary": 2,
+    "hold": 14,
+    "hold_binaries_in_accessible_archives": 0,
+    "superseded": 5,
+    "superseded_binary_found": 1,
+    "v135_images_computed_similarity": 107,
+    "perceptual_near_duplicate_pairs_threshold_7": 15
+  },
+  "missing_binary_names": [
+    "03_HEART_EMBOSSED_PAN_DETAIL_EN_QA_PENDING.jpg",
+    "03_BRAND_PALETTE_10PAN_EN_QA_PENDING.jpg"
+  ],
+  "near_duplicate_pairs_for_human_review": [
+    {
+      "a": "V24_BLOCKBUSTER_CLASSIC",
+      "b": "V21_DOCUMENTARY_CLASSIC",
+      "hamming": 2
+    },
+    {
+      "a": "V40_SUMMER_ROSE",
+      "b": "V12_KIND_BOSS",
+      "hamming": 3
+    },
+    {
+      "a": "YOUR_PEACH_LOVELY_LOOK",
+      "b": "YOUR_PEACH_SMOKY_LOOK",
+      "hamming": 3
+    },
+    {
+      "a": "YOUR_MAUVE_LOVELY_LOOK",
+      "b": "YOUR_MAUVE_SMOKY_LOOK",
+      "hamming": 4
+    },
+    {
+      "a": "ORIGINAL_MASCARA_APPLICATION",
+      "b": "MINI_MASCARA_APPLICATION",
+      "hamming": 7
+    }
+  ],
+  "blocked_groups": {
+    "product_photo_shade_source": 14,
+    "unavailable_pending_binary": 2,
+    "visual_duplicate_review": 15
+  },
+  "production_rules": [
+    "Keep all v142 holds; do not approve based on file dimensions.",
+    "The 15 pHash candidate pairs may be intentional similar compositions, not proven duplicates; distinguish by exact SKU shade and crop.",
+    "Chapter2 current editorial requirement: include shop name Mellow KR; the circular MK emblem is OPTIONAL. Never block just for lack of emblem.",
+    "Never translate product package printing; translate layout text. MX excluded.",
+    "Do not modify 1515 counted draft files or existing 55 deployed URLs without explicit QA approval.",
+    "No spreadsheets shared until all tasks complete."
+  ],
+  "production_status": "QA_PENDING_NO_FINAL_SALES_APPROVAL",
+  "next_actions": [
+    "recover missing 2 JPG binary files from earlier source ZIPs",
+    "recover 14 held images from older versions to review and repair only flagged frames",
+    "validate exact source and shade names for 15 similarity pairs",
+    "then perform full five-scene EN QA, subsequent localization"
+  ]
+}
