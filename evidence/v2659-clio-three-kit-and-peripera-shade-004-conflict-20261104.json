@@ -1,0 +1,72 @@
+{
+  "version": "v2659",
+  "date": "2026-11-04",
+  "baseline": "v2658",
+  "source": "official CLUBCLIO present catalog and dated prior inventory option evidence",
+  "official_url": "https://clubclio.co.kr/shop/goodsList/120701000000000",
+  "findings": [
+    {
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion",
+      "official_type": "Base kit main product+refill",
+      "competing_official_items": [
+        "Founwear Cushion The Original kit",
+        "Founwear Cushion + extra refill + bonus puffs + shopping bag set"
+      ],
+      "safe_action": "Use only exact-owned-set packaging; do not infer standalone gift puffs"
+    },
+    {
+      "family": "pending-06",
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+      "official_type": "Main product+refill",
+      "competing_official_items": [
+        "Mesh Glow + additional refill + bonus puffs set",
+        "Mesh Glow + mini cushion set"
+      ],
+      "safe_action": "Do not add third refill, mini cushion or free puffs unless physical stock contents match"
+    },
+    {
+      "family": "pending-07",
+      "product": "CLIO Kill Cover Mesh Blur Cushion",
+      "official_type": "Main product+refill",
+      "inventory_claim": "15g x2",
+      "source_evidence": "Official catalog separately lists Mesh Blur kit [본품+리필]",
+      "safe_action": "Check actual owned stock cartons and capacity for each item before claiming 15g x2"
+    },
+    {
+      "family": "pending-08",
+      "product": "PERIPERA Mood Glowy Tint",
+      "inventory_scope": "001-020",
+      "issue": "Conflicting generation/option mapping",
+      "existing_archive_evidence": "v2569 retail option reference maps 004 저쩔복숭아, 006 갓기천사",
+      "official_listing_observation": "Official sales event page labels 004 갓기천사; do not assume this is same edition or item as archived stock",
+      "official_event_url": "https://clubclio.co.kr/event/eventDetail/721",
+      "safe_action": "HOLD_ALL_OFFICIAL_SHADE_CHART_MERGE_UNTIL_EXACT_26AD_ITEM_AND_EDITION_CONFIRMED"
+    }
+  ],
+  "preserved": {
+    "published_55_urls_untouched": true,
+    "approved_11_families_untouched": true,
+    "v2656_14_JPGs_untouched": true,
+    "final_excel_not_shared": true
+  },
+  "state_updates": [
+    {
+      "family": "pending-05",
+      "state": "HOLD_REAL_STOCK_KIT_AND_COPY_VERSION"
+    },
+    {
+      "family": "pending-06",
+      "state": "HOLD_GIFT_KIT_CONFUSION_UNTIL_PHYSICAL_SET_CHECK"
+    },
+    {
+      "family": "pending-07",
+      "state": "HOLD_15G_X2_CAPACITY_AND_EDITION"
+    },
+    {
+      "family": "pending-08",
+      "state": "HOLD_SHADE_004_CROSS_EDITION_CONFLICT"
+    }
+  ],
+  "next": "Use exact owned-stock color/edition rather than official current catalog to validate older inventory; quarantine mismatch without deleting previous image QA, proceed to other families."
+}
