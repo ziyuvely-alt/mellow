@@ -1,0 +1,28 @@
+name: Shopee v2617 exact Goodal 30ml two product source photos
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2617_goodal_eye30ml_two_source_refs.py'
+      - '.github/workflows/v2617-goodal-eye-photos.yml'
+permissions:
+  contents: read
+jobs:
+  retrieve-real-goodal-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Obtain two exact 30 mL eye cream photograph references
+        run: python scripts/v2617_goodal_eye30ml_two_source_refs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2617-goodal-eye30ml-two-actual-photo-source-qa-no-XLSX
+          path: v2617-goodal-30ml-texture-real-photo-reference/
+          retention-days: 90
+          if-no-files-found: error
