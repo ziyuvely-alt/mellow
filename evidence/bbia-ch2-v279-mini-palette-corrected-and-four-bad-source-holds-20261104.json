@@ -1,0 +1,54 @@
+{
+  "checkpoint": "v279",
+  "date": "2026-11-04",
+  "parent": "v278",
+  "actual_work": [
+    {
+      "kind": "NEW_JPG",
+      "goodsNo": "1000000209",
+      "file": "BBIA_1000000209_SIX_PAN_FULL_COMPACT_v278_QA_PENDING.jpg",
+      "source": "Existing vetted palette crop B",
+      "result": "Palette fully visible, no pink clipping; QA_PENDING, not shade verified"
+    },
+    {
+      "kind": "REUSE_UNCHANGED",
+      "goodsNo": "1000000108",
+      "file": "BBIA_1000000108_DETAIL_ROLE_v277_QA_PENDING.jpg"
+    },
+    {
+      "kind": "REUSE_UNCHANGED",
+      "goodsNo": "188",
+      "file": "BBIA_188_DETAIL_ROLE_v277_QA_PENDING.jpg"
+    },
+    {
+      "kind": "BATCH_SOURCE_HOLD",
+      "inspected_originals": 4,
+      "goodsNo": [
+        "188",
+        "1000000209"
+      ],
+      "result": "Korean promotional swatch/metadata photos, not independent sale image roles"
+    }
+  ],
+  "actual_local_outputs": {
+    "zip": "/mnt/data/bbia_v278/BBIA_v278_THREE_ROLES_QA_PENDING.zip",
+    "zip_sha256": "ed7b8cb75f1ec782e4228f2d6b9270c4d14a88cfa5c0b40c7819c646d768f611",
+    "contact": "/mnt/data/bbia_v278/BBIA_v278_THREE_ROLE_CONTACT.jpg",
+    "source_hold_contact": "/mnt/data/bbia_v279/BBIA_v279_FOUR_ALT_SOURCES_16_BANDS.jpg",
+    "source_hold_manifest": "/mnt/data/bbia_v279/BBIA_v279_HOLD_MANIFEST.json"
+  },
+  "status": {
+    "188": "RETAIN_v277_PHOTO_SHADE_QA_PENDING",
+    "1000000108": "RETAIN_v277_PHOTO_SHADE_QA_PENDING",
+    "1000000209": "ONE_NEW_PHOTO_ROLE_QA_PENDING_EXACT_MINI_VARIANT_HOLD",
+    "future_source_188_4_5": "DO_NOT_RETRY_MARKETING_AND_SWATCH_LABELS",
+    "future_source_1000000209_3_4": "DO_NOT_RETRY_LABEL_AND_SPEC_PAGES"
+  },
+  "preserve": {
+    "prior_approved_jpg_untouched": true,
+    "existing_55_urls_untouched": true,
+    "full_excel_not_shared": true,
+    "approved_sales_new": 0
+  },
+  "next": "Batch next genuinely incomplete goodsNo with verified product-only sources; preserve v278 ZIP and rejected source ledger."
+}
