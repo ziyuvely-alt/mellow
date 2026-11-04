@@ -1,0 +1,40 @@
+{
+  "version": "v2743",
+  "baseline": "v2742",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "method": "single-compact-manual-source-contour",
+  "manufacturer_photo_source": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+  "official_original_native_px": [
+    997,
+    997
+  ],
+  "qa_input_source": "qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA/01-MANUFACTURER-real-source-1080-QA.jpg",
+  "qa_input_sha256": "662bc28fc5b820b2109c3a41a804c84644391ec5ef356760a1e11dd70f3d8cf4",
+  "no_original_product_photo_pixel_reconstruction": true,
+  "old_v2742_two_failed_mask_JPGs_untouched": true,
+  "source_actual_product_mask_bbox": [
+    310,
+    187,
+    774,
+    858
+  ],
+  "original_product_pixel_area_estimate": [
+    428,
+    619
+  ],
+  "genuine_alpha_PNG": "01-official-product-5g-precision-transparent-QA.png",
+  "1080_JPG": "01-official-product-5g-white-1080-JPG-QA.jpg",
+  "png_sha256": "f1dbf0817c6de8fa69ebdefc62773da0830c082403288b019efe1eb77de4732f",
+  "jpg_sha256": "cc7faf1718ac4c605a4fa4f146772dc3eceb264331cc2a99ba4c8bf230f0c3d1",
+  "JPG_bytes": 133884,
+  "technical_image_check": "PASS",
+  "human_visual_product_border_check": "NOT_YET",
+  "commercial_photo_reuse_rights_verified": false,
+  "actual_owned_stock_EAN_and_5g_packaging_verified": false,
+  "original_round_MK_logo_verified": false,
+  "new_retail_sale_approval": false,
+  "old_11_retail_approved_groups_unchanged": true,
+  "old_55_published_URLs_unchanged": true,
+  "final_XLSX_shared": false
+}
