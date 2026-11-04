@@ -1,0 +1,46 @@
+{
+  "version": "v2623",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source": "v2621 156-JPG review-only ZIP",
+  "output": {
+    "zip": "/mnt/data/Shopee_v2623_156JPG_MISSHA_MoistUp_no_watermark_QA_ONLY.zip",
+    "review_family_count": 30,
+    "jpg_count": 156,
+    "changed_since_v2621": 2,
+    "unchanged_SHA256_verified": 154
+  },
+  "actual_edits": [
+    {
+      "family": "pending-01",
+      "slot": 4,
+      "product": "MISSHA Magic Cushion Cover Lasting",
+      "action": "Crop original photo to prioritize actual product boxes No21 and No23 and reduce store shelves. Stock options No21/No23/No25/No27 listed in footer, photographed shades No21/No23 only.",
+      "technical_QA": true
+    },
+    {
+      "family": "pending-02",
+      "slot": 6,
+      "product": "MISSHA Magic Cushion Moist Up",
+      "action": "Replace Sagi-watermarked third-party swatch with original unwatermarked product photo reused from same-family slot02 plus verified No21/No23 option codes. No invented swatch colors, no watermarks removed.",
+      "sha256": "3ac52dca36d5b50b40dde3b56189c6834e61a625694a53b0c4ee73a3fcd38b3a",
+      "technical_QA": true
+    }
+  ],
+  "preserved": {
+    "source_v2621_bytes_untouched": true,
+    "other_154_image_hashes_identical": true,
+    "published_11_finished_families_untouched": true,
+    "verified_public_55_URLs_unchanged": true,
+    "previously_approved_images_recreated": 0,
+    "final_xlsx_or_sheet_shared": false
+  },
+  "quarantined": {
+    "third_party_Sagi_shade_swatches": "Original copyrighted watermarked shade reference not published or retouched; actual edition-matched 21/23 swatch evidence still needed",
+    "photo_reuse_rights": "not verified",
+    "owned_stock_package_generation": "not physically signed off",
+    "original_MK_brand_logo": "not recovered",
+    "commercial_publication": "HOLD"
+  },
+  "next": "Resume from v2623 archive. Preserve 154 existing JPGs and two targeted MISSHA edits. Prioritize independent licensed exact-edition photos, authenticated stock and original MK logo. No public export or XLSX before all approvals."
+}
