@@ -1,0 +1,33 @@
+name: Shopee v2599 independent OBgE Finisher 5g info card
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2599_obge_single_item_standalone_factual_image.py'
+      - '.github/workflows/v2599-obge-single-item-review.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  standalone-qa-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve existing 156 photos for comparison only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765900358 -n shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX -D source
+      - name: Create isolated no-photo customer information candidate
+        run: python scripts/v2599_obge_single_item_standalone_factual_image.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2599-OBGE-Finisher-5g-single-item-information-QA-no-XLSX
+          path: v2599-obge-5g-single-item-info-QA/
+          retention-days: 90
+          if-no-files-found: error
