@@ -1,0 +1,164 @@
+{
+  "version": "v2705",
+  "baseline": "v2704",
+  "source_archive_commit": "b2b883b86f3e80b7723ccf39b3766dfe6f483da9",
+  "families": [
+    {
+      "family": "pending-03",
+      "product": "MISSHA M Perfect Cover BB Cream | gold pump old generation",
+      "actual_JPGs": 5,
+      "all_original_source_bytes_preserved": true,
+      "retail_approval": "HOLD_PHOTO_LICENSE_STOCK_GEN_MK_QA",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/missha-m-perfect-cover-bb-cream/6171e0644a92_01.jpg",
+          "file": "01-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "6171e0644a92784718fb1aa6f5dc5528c3203213418479820fa172a38a8a7414",
+          "saved_sha256": "6171e0644a92784718fb1aa6f5dc5528c3203213418479820fa172a38a8a7414",
+          "size_bytes": 114996
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/missha-m-perfect-cover-bb-cream/37b096423ce3_02.jpg",
+          "file": "02-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "37b096423ce36a10341c7235f447711fe16a7cf12027bb3c48b7b6e7a574eb92",
+          "saved_sha256": "37b096423ce36a10341c7235f447711fe16a7cf12027bb3c48b7b6e7a574eb92",
+          "size_bytes": 111412
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/missha-m-perfect-cover-bb-cream/6ee100c2c295_03.jpg",
+          "file": "03-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "6ee100c2c295d2a61c934df96532da19c4bfa45fc6a216878ec2351d966a8829",
+          "saved_sha256": "6ee100c2c295d2a61c934df96532da19c4bfa45fc6a216878ec2351d966a8829",
+          "size_bytes": 128993
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/missha-m-perfect-cover-bb-cream/f32faba0cfd4_04.jpg",
+          "file": "04-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "f32faba0cfd4149b0921f55a0e7afce6da9e7cb94bd28a64b3ec90559a2cee1e",
+          "saved_sha256": "f32faba0cfd4149b0921f55a0e7afce6da9e7cb94bd28a64b3ec90559a2cee1e",
+          "size_bytes": 137533
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/missha-m-perfect-cover-bb-cream/2c2d4f743062_05.jpg",
+          "file": "05-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "2c2d4f7430622239932993217aac54a8a687a71168a06d0c408d6d71736b694c",
+          "saved_sha256": "2c2d4f7430622239932993217aac54a8a687a71168a06d0c408d6d71736b694c",
+          "size_bytes": 101822
+        }
+      ]
+    },
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "actual_JPGs": 5,
+      "all_original_source_bytes_preserved": true,
+      "retail_approval": "HOLD_PHOTO_LICENSE_STOCK_GEN_MK_QA",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/obge-oil-control-finisher-5g/bc5e24bbd939_01.jpg",
+          "file": "01-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "1859a7529289cc2ab1562e6fd0cfb08c43c9112e05e9fb216da3218081b45c5f",
+          "saved_sha256": "1859a7529289cc2ab1562e6fd0cfb08c43c9112e05e9fb216da3218081b45c5f",
+          "size_bytes": 101428
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/obge-oil-control-finisher-5g/0814d09b8bcb_02.jpg",
+          "file": "02-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "452fadf13c2c56a02d0c6a904da83b6ea4deb1fe5b997de8a59df4cf2386eb0b",
+          "saved_sha256": "452fadf13c2c56a02d0c6a904da83b6ea4deb1fe5b997de8a59df4cf2386eb0b",
+          "size_bytes": 95695
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/obge-oil-control-finisher-5g/bed1a44300c2_03.jpg",
+          "file": "03-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "1a9728cbc343ffe6b43eb8261b95dffd3a683de141d3b6d07c881282bdb15870",
+          "saved_sha256": "1a9728cbc343ffe6b43eb8261b95dffd3a683de141d3b6d07c881282bdb15870",
+          "size_bytes": 89784
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/obge-oil-control-finisher-5g/0ce1001e3035_04.jpg",
+          "file": "04-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "02a7beb90a2a9391a6ce4da1362029ebbc148e68a31be4e344b20928535cef89",
+          "saved_sha256": "02a7beb90a2a9391a6ce4da1362029ebbc148e68a31be4e344b20928535cef89",
+          "size_bytes": 105474
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/obge-oil-control-finisher-5g/e5d4be633715_05.jpg",
+          "file": "05-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "121547b5c9775971ed9a1fba02a9a5059a85fea0c5216ff728038c290c352677",
+          "saved_sha256": "121547b5c9775971ed9a1fba02a9a5059a85fea0c5216ff728038c290c352677",
+          "size_bytes": 79648
+        }
+      ]
+    },
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30ml",
+      "actual_JPGs": 5,
+      "all_original_source_bytes_preserved": true,
+      "retail_approval": "HOLD_PHOTO_LICENSE_STOCK_GEN_MK_QA",
+      "frames": [
+        {
+          "frame": 1,
+          "source": "old_assets/public/owned86/20261029/goodal-green-tangerine-eye-cream-30ml/9ce3cb50a1c7_01.jpg",
+          "file": "01-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "9ce3cb50a1c7dbdac8e3d550a8b762785f96c48cb4fc42ade6d54e087e005120",
+          "saved_sha256": "9ce3cb50a1c7dbdac8e3d550a8b762785f96c48cb4fc42ade6d54e087e005120",
+          "size_bytes": 84922
+        },
+        {
+          "frame": 2,
+          "source": "old_assets/public/owned86/20261029/goodal-green-tangerine-eye-cream-30ml/12cebea05d52_02.jpg",
+          "file": "02-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "12cebea05d52a9b79c3d4b27f444cfcf0c8fa1c346fd0cb844fe5f3735ef2823",
+          "saved_sha256": "12cebea05d52a9b79c3d4b27f444cfcf0c8fa1c346fd0cb844fe5f3735ef2823",
+          "size_bytes": 108830
+        },
+        {
+          "frame": 3,
+          "source": "old_assets/public/owned86/20261029/goodal-green-tangerine-eye-cream-30ml/2604ec12bbab_03.jpg",
+          "file": "03-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "2604ec12bbab7158c9fdbd5a7fb8dd91ab3d17fc44658c946112a7a36a6465b1",
+          "saved_sha256": "2604ec12bbab7158c9fdbd5a7fb8dd91ab3d17fc44658c946112a7a36a6465b1",
+          "size_bytes": 145552
+        },
+        {
+          "frame": 4,
+          "source": "old_assets/public/owned86/20261029/goodal-green-tangerine-eye-cream-30ml/72f53d6f255c_04.jpg",
+          "file": "04-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "72f53d6f255c109de47bf774c14a765764b16ca78c196b1aa575c5a6ebc7e94e",
+          "saved_sha256": "72f53d6f255c109de47bf774c14a765764b16ca78c196b1aa575c5a6ebc7e94e",
+          "size_bytes": 134011
+        },
+        {
+          "frame": 5,
+          "source": "old_assets/public/owned86/20261029/goodal-green-tangerine-eye-cream-30ml/abd123cbc74a_05.jpg",
+          "file": "05-original-source-sha-unchanged-QA.jpg",
+          "source_sha256": "abd123cbc74a1a56cdb51fc23f427a3cb98029a95decff38a928f001834b1703",
+          "saved_sha256": "abd123cbc74a1a56cdb51fc23f427a3cb98029a95decff38a928f001834b1703",
+          "size_bytes": 124322
+        }
+      ]
+    }
+  ],
+  "archived_JPGs_recovered": 15,
+  "legacy_JPGs_reencoded": 0,
+  "old_QA_sets_preserved": true,
+  "existing_11_approved_unchanged": true,
+  "existing_55_public_URLs_unchanged": true,
+  "commercial_photo_rights_proven": false,
+  "exact_owned_stock_version_proven": false,
+  "original_round_MK_logo_validated": false,
+  "new_retail_approved": 0,
+  "final_XLSX_shared": false
+}
