@@ -1,0 +1,44 @@
+{
+  "schema": "bbia_ch2_v194_lucky_shine_new_four_scene_checkpoint",
+  "date": "2026-11-04",
+  "previous": "v193 two Eau Cushion Puff EN reference candidates; v192 L'Eau Tint Mini source format hold. All preserved.",
+  "family": "BBIA Lucky Shine Tint",
+  "goodsNo": "1000000239",
+  "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000239",
+  "source": "BBIA_Cutout_Progress_20261030.zip",
+  "new_frames": [
+    [
+      "01_LUCKY_SHINE_HERO_EN_QA_PENDING.jpg",
+      "batch/1000000239/hero-cutout.png",
+      "isolated archived bottle"
+    ],
+    [
+      "02_LUCKY_SHINE_BOTTLE_STUDIO_EN_QA_PENDING.jpg",
+      "batch/1000000239/photo-2.png",
+      "two product bottles styled in pink"
+    ],
+    [
+      "03_LUCKY_SHINE_CAMPAIGN_PORTRAIT_EN_QA_PENDING.jpg",
+      "batch/1000000239/photo-4.png",
+      "campaign portrait holding bottle"
+    ],
+    [
+      "04_LUCKY_SHINE_SECOND_LOOK_EN_QA_PENDING.jpg",
+      "batch/1000000239/photo-5.png",
+      "distinct campaign look"
+    ]
+  ],
+  "deliverables": [
+    "BBIA_v194_LUCKY_SHINE_4_DISTINCT_EN_QA_PENDING.zip",
+    "BBIA_v194_LUCKY_SHINE_FOUR_NEW_EN_CONTACT.jpg",
+    "BBIA_v194_LUCKY_SHINE_QA_MANIFEST.json",
+    "v194_lucky_shine_four.py"
+  ],
+  "verification": "4 new JPG files are 1080x1080 and each under 2 MB. Source/output hashes saved in ZIP manifest. ZIP testzip passed. Contact visually reviewed. Official site lists goodsNo 1000000239 but saved archived PNG exact current official photo pixel match has not been independently verified.",
+  "excluded": "photo-3.png before-after text and swatches missing authenticated shade mapping. Do not fabricate text, option shades, benefits or 5th scene merely to satisfy count.",
+  "completion_status": "4 new English scene candidates, fifth distinctive official source / shade chart pending, zero sales approval, no translations",
+  "assets_unchanged": "all v147-v193 images, holds, verified 55 public URLs, GitHub main untouched",
+  "sales_approved": 0,
+  "excel_shared": false,
+  "next": "Do not regenerate v194 four photos. Before selling verify current official source photographs and specific shade/packaging. Then assess fifth genuinely distinct information scene only with authenticated evidence. Move to another unfinished family if blocked."
+}
