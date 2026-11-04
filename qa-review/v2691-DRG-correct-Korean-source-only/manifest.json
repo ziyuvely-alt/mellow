@@ -1,0 +1,38 @@
+{
+  "version": "v2691",
+  "baseline": "v2690",
+  "wrong_previous_red_blemish_candidate_excluded": true,
+  "wrong_v2690_new_overseas_package_edition_not_automatically_accepted": true,
+  "target_families": 2,
+  "actual_exact_product_photo_candidates": 0,
+  "families": [
+    {
+      "family": "pending-15",
+      "single_item_page": "https://www.dr-g.co.kr/item/9637",
+      "status": "HOLD_PAGE_OR_ITEM_IDENTITY_VALIDATION",
+      "wrong_red_blemish_candidate_from_v2690_rejected": true,
+      "candidate_images": [],
+      "retail_approved": false,
+      "error_type": "ConnectionError",
+      "error_message": "HTTPSConnectionPool(host='www.dr-g.co.kr', port=443): Max retries exceeded with url: /item/9637 (Caused by NameResolutionError(\"HTTPSConnection(host='www.dr-g.co.kr', port=443): Failed to resolve 'www.dr-g.co.kr' ([Errno"
+    },
+    {
+      "family": "pending-18",
+      "single_item_page": "https://www.dr-g.co.kr/item/9638",
+      "status": "HOLD_PAGE_OR_ITEM_IDENTITY_VALIDATION",
+      "wrong_red_blemish_candidate_from_v2690_rejected": true,
+      "candidate_images": [],
+      "retail_approved": false,
+      "error_type": "ConnectionError",
+      "error_message": "HTTPSConnectionPool(host='www.dr-g.co.kr', port=443): Max retries exceeded with url: /item/9638 (Caused by NameResolutionError(\"HTTPSConnection(host='www.dr-g.co.kr', port=443): Failed to resolve 'www.dr-g.co.kr' ([Errno"
+    }
+  ],
+  "brand_logo_original_verified": false,
+  "photo_publication_rights_verified": false,
+  "physical_stock_package_generation_verified": false,
+  "new_customer_sale_approved": 0,
+  "existing_11_sale_approved_unchanged": true,
+  "published_55_urls_unchanged": true,
+  "other_30_product_QA_families_untouched": true,
+  "final_xlsx_shared": false
+}
