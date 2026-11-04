@@ -1,0 +1,72 @@
+{
+  "version": "v2784",
+  "baseline": "v2783",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "brand_verified_product_gallery": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-cream-advanced-ver",
+  "previous_qa_blocker": "Only a real single cream hero and mostly generic routine/fact cards; no genuine distinct texture/use source",
+  "newly_curated_actual_distinct_source_JPGs": 3,
+  "new_photo_pixels_generated": 0,
+  "source_bytes_unchanged_sha_identical": true,
+  "source_gallery_images_rejected": {
+    "3": "Diagram and strong marketing claim: not an independent new product photograph",
+    "4": "Numerical efficacy claims on skin: require approved clinical source and promotion authorization",
+    "5": "Before/after human photographs: not appropriate as a product detail hero without rights/claims",
+    "6": "Text ingredient information card: not a new genuine product photo",
+    "8": "Multi-product daily routine: could misrepresent single 50mL jar as bundled products"
+  },
+  "curated_photos": [
+    {
+      "slot": 1,
+      "official_gallery_index": 1,
+      "role": "PHOTOGRAPHIC_JAR_HERO",
+      "visual_qa_description": "real single Alpha cream jar with product formulation as background",
+      "file": "01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "original_photo_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "brand_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/1_83005dbd-050d-4026-887e-95132d160429.jpg?v=1772777724",
+      "actual_product_edition_50ml_confirmed_against_user_inventory": false,
+      "commercial_rights_verified": false,
+      "approved_for_retail": false
+    },
+    {
+      "slot": 2,
+      "official_gallery_index": 2,
+      "role": "PHOTOGRAPHIC_OPEN_JAR_AND_CREAM",
+      "visual_qa_description": "two open and closed views of same Alpha jar, marketing overlay; NOT a two-pack",
+      "file": "02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "original_photo_sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "brand_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/2_d5a44fc5-ef3a-4f38-a569-24dd62525257.jpg?v=1772777724",
+      "actual_product_edition_50ml_confirmed_against_user_inventory": false,
+      "commercial_rights_verified": false,
+      "approved_for_retail": false
+    },
+    {
+      "slot": 3,
+      "official_gallery_index": 7,
+      "role": "PHOTOGRAPHIC_HAND_TEXTURE",
+      "visual_qa_description": "cream capsule texture being applied on actual hand, marketing claim caption to review",
+      "file": "03-original-PHOTOGRAPHIC_HAND_TEXTURE-QA.jpg",
+      "sha256": "351984d89e0bf23d7cc411d73fa479ae46c20428cd3cb42f3eb9b625554ce17a",
+      "original_photo_sha256": "351984d89e0bf23d7cc411d73fa479ae46c20428cd3cb42f3eb9b625554ce17a",
+      "brand_source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/7_0c33a317-b397-4bbc-b58d-4260362f1f52.jpg?v=1772777724",
+      "actual_product_edition_50ml_confirmed_against_user_inventory": false,
+      "commercial_rights_verified": false,
+      "approved_for_retail": false
+    }
+  ],
+  "total_customer_ready_five_photo_set_complete": false,
+  "open_issues": [
+    "Brand-owned gallery is not proof of commercial photo redistribution license",
+    "Actual user's physical stock 50mL package generation not independently verified",
+    "Original approved MK logo unavailable",
+    "Marketing overlay claims not approved for reuse",
+    "Full premium 5-distinct-scene final commercial QA not completed"
+  ],
+  "new_retail_approvals": 0,
+  "approved_11_product_families_unchanged": true,
+  "published_55_public_URLs_unchanged": true,
+  "prior_archived_original_JPGs_unchanged": true,
+  "final_spreadsheet_shared": false
+}
