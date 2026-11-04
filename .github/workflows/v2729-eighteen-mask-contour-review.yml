@@ -1,0 +1,32 @@
+name: Shopee v2729 18 candidate alpha contour QA (no product rerenders)
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2729-eighteen-mask-contour-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: New contour analysis of eighteen existing alpha PNGs, no regeneration
+        run: |
+          cp scripts/v2729_eighteen_cutout_contour_QA.py /tmp/v2729.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2729 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2729
+          test ! -e qa-review/v2729-eighteen-accepted-masks-foreground-integrity-QA
+          python /tmp/v2729.py
+          git add qa-review/v2729-eighteen-accepted-masks-foreground-integrity-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2729 18 original alpha contour QA with three contact proofs, preserve all retail URLs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
