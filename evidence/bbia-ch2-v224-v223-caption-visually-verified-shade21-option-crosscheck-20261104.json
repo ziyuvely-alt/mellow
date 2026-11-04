@@ -1,0 +1,55 @@
+{
+  "checkpoint": "v224",
+  "date": "2026-11-04",
+  "parent": "v223",
+  "actual_artifact": {
+    "run_id": 41828166388,
+    "artifact_id": 13321695431,
+    "name": "BBIA_206_03_EN_NO_KOREAN_v223_QA_PENDING.jpg",
+    "dimensions": [
+      1080,
+      1080
+    ],
+    "bytes": 136123,
+    "sha256": "da13461cba3b29d78dc3fffbf7619925a1c034f99e9b8601bdadcc34131a2957",
+    "visual_qa": "Actual before-after image inspected: residual Korean at bottom removed; English caption readable; photograph and MK branding retained; square photographic inset still visible",
+    "sales_approval": "HOLD_NO_CUTOUT"
+  },
+  "shade_name_reconciliation": {
+    "goodsNo": "206",
+    "original_conflict": "Official expiry notice 21 핑크쿼츠 contradicts catalog 21 뮤트 브라운",
+    "product_option_crosscheck": [
+      {
+        "number": "17",
+        "label_ko": "핑크쿼츠",
+        "label_en": "Pink Quartz",
+        "source": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000162672"
+      },
+      {
+        "number": "21",
+        "label_ko": "뮤트 브라운",
+        "label_en": "Mute Brown",
+        "source": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000162672"
+      }
+    ],
+    "second_sources": [
+      "https://www.coupang.com/vp/products/8898856104",
+      "https://item.gmarket.co.kr/Item?goodsCode=4454518682"
+    ],
+    "decision": "COLOR_NAME_MAPPING_PROVISIONALLY_CONFIRMED_BY_MULTIPLE_RETAILERS; official expiry notice likely inconsistent but exact stock/expiry details not validated. Do not infer product swatch pigment values from option names.",
+    "shade21_expiry": "HOLD",
+    "frame06": "Reconcile against the full 26-name list and authentic swatches before approval"
+  },
+  "preservation": {
+    "public_files_changed": false,
+    "verified_55_urls_changed": false,
+    "source_assets_recreated": false,
+    "final_spreadsheet_shared": false,
+    "new_sales_approved": 0
+  },
+  "next": [
+    "Review 206 frame04 and frame06 exact names against live option list. Keep 03 new QA draft until remove square photo field if clean verified cutout source available.",
+    "Locate historical v213 lipstick candidate artifact by known filename in local archive; do not rerender if unreachable.",
+    "Continue other pending families rather than looping same caption fix."
+  ]
+}
