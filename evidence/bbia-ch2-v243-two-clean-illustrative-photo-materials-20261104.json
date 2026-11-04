@@ -1,0 +1,27 @@
+{
+  "checkpoint": "v243",
+  "parent": "v242",
+  "date": "2026-11-04",
+  "actual_files": [
+    "BBIA_1000000136_CLEAN_TEXTURE_v243_QA_PENDING.jpg",
+    "BBIA_1000000216_CLEAN_EYE_LOOKS_v243_QA_PENDING.jpg"
+  ],
+  "actual_outputs": {
+    "source_archive": "/mnt/data/bbia_v242_four_detail_scenes.zip",
+    "local_contact": "/mnt/data/bbia_v243/BBIA_v243_CLEAN_TWO_CONTACT.jpg",
+    "local_zip": "/mnt/data/bbia_v243/BBIA_v243_CLEAN_TWO_DETAILS_QA_PENDING.zip",
+    "source_script": "/mnt/data/bbia_v243_make_clean.py"
+  },
+  "visual_qa": {
+    "glow_tint": "Three photographed texture strokes retained without Korean text. Illustrative reference only, exact shade mapping not verified.",
+    "nudy_slim_eyeliner": "Four real eye photos retained without embedded Korean; crop is application reference, not independent variant proof."
+  },
+  "status": "PHOTO_MATERIALS_READY_NOT_SALES_APPROVED",
+  "preservation": {
+    "original_v242_4_jpg_unchanged": true,
+    "older_approved_public_files_unchanged": true,
+    "verified_55_urls_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": "Continue unused distinct product families, do not re-edit the same two photo materials."
+}
