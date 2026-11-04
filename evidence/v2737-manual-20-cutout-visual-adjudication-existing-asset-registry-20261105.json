@@ -1,0 +1,250 @@
+{
+  "version": "v2737",
+  "date": "2026-11-05",
+  "basis": "Manual source-photo overlay and checkerboard QA, with full resolution still required for sales approval",
+  "source_ref_sha": "dba1fc7b8eedaedb53b3e44dbb744bfc2445635a",
+  "previous_completed_baselines": [
+    "v2729",
+    "v2730",
+    "v2731",
+    "v2732",
+    "v2733",
+    "v2734",
+    "v2736"
+  ],
+  "inspected_old_18_count": 18,
+  "selected": [
+    {
+      "family": "pending-03",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "Gold-pump BB shade 23 clean isolated original",
+      "selected_existing_JPG": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+      "github_blob_sha": "e609fa5b411e1d05dbc6081d55342730b6aff8d0",
+      "jpg_bytes": 115656,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-11",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "OBgE double essence one bottle full silhouette, rectangular heuristic false positive",
+      "selected_existing_JPG": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+      "github_blob_sha": "7688eafe1bbd075f7909cd57d660225dbf2a4093",
+      "jpg_bytes": 61512,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-14",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "MISSHA PDRN 70mL jar silhouette intact",
+      "selected_existing_JPG": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+      "github_blob_sha": "013fe71e963c74612763f85d1a2e56cc3f60600e",
+      "jpg_bytes": 129900,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-15",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "Dr.G Green Mild Up Sun 50mL cap intact new source",
+      "selected_existing_JPG": "qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts/pending-15/01-real-photographed-product-1080-JPG-QA.jpg",
+      "github_blob_sha": "7c3d681f7b211e8eecd5cfa782c9d5af3a9f12f0",
+      "jpg_bytes": 75846,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-16",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "Dr.G R.E.D cream jar/lid intact, heuristic false positive",
+      "selected_existing_JPG": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-product-only-1080white-hero-QA.jpg",
+      "github_blob_sha": "a1989c3ad45f969636e2e6cb2c6d1b00c5a4b52a",
+      "jpg_bytes": 107785,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-17",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "Dr.G Moisture Sun 50mL full sealed rim restored, no boundary contact",
+      "selected_existing_JPG": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/pending-17/01-real-photographed-product-1080-JPG-QA.jpg",
+      "github_blob_sha": "ea0b8b51f0ee944f29b4435a5c0701104195ae6c",
+      "jpg_bytes": 90007,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-18",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "Detached floating source text removed in revision; cap bottom retained",
+      "selected_existing_JPG": "qa-review/v2731-drG-brightening-sun-plus-detached-text-alpha-repair/01-real-DrG-no-floating-letters-1080-QA.jpg",
+      "github_blob_sha": "07fd08e8e3b25035bce4317bda523807f683fe0f",
+      "jpg_bytes": 74803,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-19",
+      "photo_qa_status": "DETAIL_ONLY_NEEDS_JAR_HERO",
+      "reason": "GOODAL cream Alpha + cream swatch topping, factual/detail scene rather than isolated single jar packshot",
+      "selected_existing_JPG": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-19/01-real-product-hero-1080-QA.jpg",
+      "github_blob_sha": "263da3b72d61455919f6ebb813342870173390d5",
+      "jpg_bytes": 106596,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-20",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "GOODAL serum mist 100mL upright complete pump and bottle",
+      "selected_existing_JPG": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+      "github_blob_sha": "d558ea986543c44ea2d26eaa85fc84398b887480",
+      "jpg_bytes": 61644,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-22",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "OBgE 300mL MAX Waterful pump and base retained",
+      "selected_existing_JPG": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "github_blob_sha": "5e62f28ded111bc01a49ff13ee91b186b7b2787d",
+      "jpg_bytes": 67072,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-23",
+      "photo_qa_status": "REWORK_CAP_MATTE",
+      "reason": "OBgE Pore Zero 50mL teal lower cap has surrounding teal residue/ice/reflection",
+      "selected_existing_JPG": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-23/01-recovered-source-product-1080-hero-QA.jpg",
+      "github_blob_sha": "dca5ecc13d765e2c1ee7dcc8299f1c040fb3937b",
+      "jpg_bytes": 79680,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-24",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "BIOHEAL BOH serum detached bottom island removed in version",
+      "selected_existing_JPG": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+      "github_blob_sha": "ae8cc119085e8986a68dc70a2afdfba21d91309c",
+      "jpg_bytes": 107819,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-25",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "BIOHEAL BOH 50mL cream jar and lower white base visible",
+      "selected_existing_JPG": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "github_blob_sha": "83d7865fa32ec49baecd57fb1261aad67eccffed",
+      "jpg_bytes": 197314,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-26",
+      "photo_qa_status": "SHAPE_QA_ACCEPT_WITH_EDGE_REVIEW",
+      "reason": "PIXEL PURE 145mL bottle upright, narrow top fringe needs full-size QA",
+      "selected_existing_JPG": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-26/01-recovered-source-product-1080-hero-QA.jpg",
+      "github_blob_sha": "7d405b3a5ad8820470f36e9d2769699284c7dec5",
+      "jpg_bytes": 72871,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-27",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "PIXEL PURE pink toner 200mL bottle and cap retained",
+      "selected_existing_JPG": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-product-only-1080white-hero-QA.jpg",
+      "github_blob_sha": "5232e1241aef13b91e79a9a63c160456854cea42",
+      "jpg_bytes": 69734,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-28",
+      "photo_qa_status": "SHAPE_QA_ACCEPT_WITH_EDGE_REVIEW",
+      "reason": "PIXEL PURE 70-pad pink tub cap and bottom retained in alternate photo",
+      "selected_existing_JPG": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+      "github_blob_sha": "adb4f874d83d322a848fe2a704305dc4fe4ed8b4",
+      "jpg_bytes": 131499,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-29",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "PIXEL PURE soothing cream 50mL complete jar and lid",
+      "selected_existing_JPG": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+      "github_blob_sha": "518a8d6da06891cbb9b267ac82881a0c1cf381e5",
+      "jpg_bytes": 113161,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-30",
+      "photo_qa_status": "SHAPE_QA_ACCEPT",
+      "reason": "PIXEL PURE radiance serum 50mL complete bottle and cap",
+      "selected_existing_JPG": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+      "github_blob_sha": "e58ca78b7e76e43349c9303fa9deee23a0de2740",
+      "jpg_bytes": 67492,
+      "visual_review": "Original v2729 all-18 checkerboard plus revised v2730-v2734 side-by-side originals inspected",
+      "retail_release": "HOLD"
+    }
+  ],
+  "latest_failed_two": [
+    {
+      "family": "pending-09",
+      "photo_qa_status": "REJECT_BEIGE_INSET_BACKGROUND",
+      "reason": "Second-model source still contains beige rectangular photo backdrop surrounding compact, not a genuine stand-alone cutout.",
+      "selected_existing_JPG": "qa-review/v2734-two-failed-families-different-photo-ROI-u2net/pending-09/01-real-original-photo-cutout-1080-QA.jpg",
+      "github_blob_sha": "7b169f626b7385d339a50bcd85bdafb93687e872",
+      "jpg_bytes": 92850,
+      "retail_release": "HOLD"
+    },
+    {
+      "family": "pending-21",
+      "photo_qa_status": "SHAPE_QA_ACCEPT_STOCK_25AD_HOLD",
+      "reason": "Alternate GOODAL 30mL eye cream yellow tube and silver end intact, but 25AD stock generation unconfirmed.",
+      "selected_existing_JPG": "qa-review/v2734-two-failed-families-different-photo-ROI-u2net/pending-21/01-real-original-photo-cutout-1080-QA.jpg",
+      "github_blob_sha": "f5604d25479f91aab8c84bb95d77009ec5550765",
+      "jpg_bytes": 70415,
+      "retail_release": "HOLD"
+    }
+  ],
+  "physical_JPG_blob_links_verified": 20,
+  "qa_summary": {
+    "standalone_shape_valid_or_edge_pending": 17,
+    "detail_only": [
+      "pending-19"
+    ],
+    "still_contains_source_background": [
+      "pending-09",
+      "pending-23"
+    ],
+    "wrong_version_or_kit_pending": [
+      "pending-01",
+      "pending-05",
+      "pending-06",
+      "pending-07",
+      "pending-10",
+      "pending-12"
+    ],
+    "new_retail_approved": 0
+  },
+  "future_exact_steps": [
+    "Obtain clean source/foreground for pending-09. Do not repeat v2716 or v2734 masked inset source.",
+    "Create product-only GOODAL cream Alpha 50mL hero separately; keep existing cream+texture image as detail frame.",
+    "Retouch only residual teal backdrop outside OBgE Pore Zero 50mL cap without trimming authentic cap pixels; rerender from validated existing photo with visual QA before approving.",
+    "Physical stock edition+commercial rights+authentic round MK original validation mandatory before sale.",
+    "Do not regenerate 16 shape QA candidates; reuse existing PNG/JPG SHA-stable outputs."
+  ],
+  "prior_11_approved_families_unchanged": true,
+  "prior_55_verified_public_urls_unchanged": true,
+  "original_JPGs_unchanged": true,
+  "actual_product_image_files_recreated": 0,
+  "final_excel_or_spreadsheet_shared": false
+}
