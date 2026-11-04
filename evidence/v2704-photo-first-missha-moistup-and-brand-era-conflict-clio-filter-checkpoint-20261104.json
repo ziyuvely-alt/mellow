@@ -1,0 +1,104 @@
+{
+  "version": "v2704",
+  "date": "2026-11-04",
+  "baseline": "v2697",
+  "repo": "ziyuvely-alt/mellow",
+  "latest_successful_jobs": [
+    {
+      "version": "v2701",
+      "run_id": 41851483519,
+      "result": "success",
+      "family": "pending-02",
+      "product": "MISSHA Magic Cushion Moist Up",
+      "qa_path": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA",
+      "real_product_photos_before": 1,
+      "real_product_photos_after": 5,
+      "prior_historical_real_image_exact_bytes_preserved": 1,
+      "regional_four_real_JPGs_exact_bytes_preserved": 4,
+      "newly_approved_sale_images": 0,
+      "holds": [
+        "Korean owned stock generation/21-23 shade variant consistency",
+        "copyright permission for regional media"
+      ]
+    },
+    {
+      "version": "v2702",
+      "run_id": 41851760763,
+      "result": "success",
+      "family": "pending-03",
+      "product": "MISSHA M Perfect Cover BB Cream 50mL",
+      "photo_candidates_captured": 10,
+      "current_US_official_21_23_25_options_verified": true,
+      "qa_path": "qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof",
+      "sales_image_photo_adopted": 0,
+      "issue": "Current US M Perfect Cover changed from Korean old gold pump to new red squeeze tube; don't substitute"
+    },
+    {
+      "version": "v2703",
+      "run_id": 41852000868,
+      "result": "success",
+      "family": "pending-03",
+      "issue": "Old vs redesigned packaging conflict physical JPG proof",
+      "qa_path": "qa-review/v2703-MISSHA-BB-old-vs-new-package-identity-hold",
+      "original_old_shade_photos_preserved": true,
+      "proof_JPGs": 3,
+      "sales_image_photo_adopted": 0
+    },
+    {
+      "version": "v2704",
+      "run_id": 41852347321,
+      "result": "success",
+      "family": "pending-04",
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+      "source_page": "https://clubclio.co.kr/shop/goodsView/0000006954",
+      "qa_path": "qa-review/v2704-clio-meshglow-mini-5g-genuine-source",
+      "source_candidates_downloaded": 12,
+      "correct_same_product_count": 1,
+      "rejected_other_product_and_promo_count": 11,
+      "only_correct_same_product_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+      "same_product_view_in_previous_QA": true,
+      "new_photo_to_adopt": 0,
+      "protection": "Do not use related-product images returned by broad img selectors; product IDs must match /69/54, not arbitrary mall thumbnail"
+    }
+  ],
+  "important_automated_quality_improvement": {
+    "old_code_problem": "CLIO first-party product page's img tags contain recommendations and many unrelated products. Domain allowlisting alone DOES NOT prove product identity.",
+    "fix": "CLIO image URLs must match exact product ID 0000006954 in the image asset path and be visually confirmed; reject all other products.",
+    "known_rejected_official_thumbnail_ids": [
+      4563,
+      6141,
+      6670,
+      2795,
+      6126,
+      7078,
+      5767,
+      7841,
+      7839,
+      6248,
+      7865
+    ],
+    "avoid_research_repeat": true
+  },
+  "status": {
+    "total_product_families": 41,
+    "existing_approved_product_families": 11,
+    "other_product_families_with_QA_material": 30,
+    "new_retail_approvals_in_execution": 0,
+    "original_MK_brand_logo_file_verified": false,
+    "original_latest_v2647_full_photo_archive_verified": false,
+    "all_photo_commercial_reuse_permissions_verified": false,
+    "final_XLSX_shared": false
+  },
+  "preserved": {
+    "approved_11_photo_families": true,
+    "existing_55_public_urls": true,
+    "previous_QA_artifacts_no_overwrite": true
+  },
+  "next": [
+    "Do not regenerate v2701 MISSHA Moist Up actual 5JPG QA family",
+    "Do not use v2702 current redesigned US BB cream tube with pending-03 gold pump old stock",
+    "Do not use v2704 related product photos (11 unrelated)",
+    "When verifying CLIO other SKUs use exact goodsView identity and image original ID path, not only domain",
+    "Focus on true stock/edition matches and permission gates; do not declare final retail approvals until documented"
+  ]
+}
