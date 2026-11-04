@@ -1,0 +1,23 @@
+name: Shopee v2660 release identity and copy safety gate tests
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2660_release_copy_gate.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify release guard cases without altering images
+        run: python scripts/v2660_release_copy_gate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2660-six-family-release-gates-no-images-no-XLSX
+          path: v2660-release-copy-guard/
+          retention-days: 90
+          if-no-files-found: error
