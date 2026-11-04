@@ -1,0 +1,84 @@
+{
+  "version": "v2672",
+  "date": "2026-11-04",
+  "base": "v2670",
+  "project": {
+    "total_SKU": 82,
+    "total_families": 41,
+    "published_approved": 11,
+    "pending_for_retail_release": 30,
+    "existing_public_urls": 55
+  },
+  "executed": [
+    {
+      "version": "v2671",
+      "github_run": 41833625970,
+      "status": "success",
+      "action": "Reviewed real historical JPEGs across pending-16 through pending-20, total 25 frames, using one photo sheet"
+    },
+    {
+      "version": "v2672",
+      "github_run": 41833833705,
+      "status": "success",
+      "action": "Copied without re-encoding 5 unique JPEGs each for pending-17 and pending-20 into isolated QA branch",
+      "families": [
+        {
+          "family": "pending-17",
+          "product": "Dr.G Brightening Up Moisture Sun 50mL",
+          "jpeg_frames": 5,
+          "min_internal_dhash": 14,
+          "approval": "QA_ONLY"
+        },
+        {
+          "family": "pending-20",
+          "product": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+          "jpeg_frames": 5,
+          "min_internal_dhash": 30,
+          "approval": "QA_ONLY"
+        }
+      ]
+    }
+  ],
+  "incremental_since_v2670": {
+    "new_five_image_review_sets": 2,
+    "source_images_sha_verified": 10,
+    "regenerated_images": 0,
+    "new_sales_approved_families": 0
+  },
+  "accessible_QA_branch": "qa-assets/v2662-immutable-14-candidates",
+  "QA_directory": "qa-review/v2672-two-five-JPG-real-scene-sets",
+  "current_complete_five_frame_draft_families": [
+    "pending-28 v2668",
+    "pending-22 v2670",
+    "pending-17 v2672",
+    "pending-20 v2672"
+  ],
+  "known_holds": [
+    {
+      "family": "pending-16",
+      "why": "Current original set includes unverified MK logo and heterogeneous packaging scenes"
+    },
+    {
+      "family": "pending-18",
+      "why": "At least three original frames display unverified MK mark and unsupported benefit copy; do not reuse without review"
+    },
+    {
+      "family": "pending-19",
+      "why": "One source photo only, several pre-existing product benefit claims may be edition-dependent"
+    },
+    {
+      "family": "pending-17",
+      "why": "Original framed photos and current packaging need stock and image licensing confirmation"
+    },
+    {
+      "family": "pending-20",
+      "why": "Actual 100mL product edition and commercial image license still unverified"
+    }
+  ],
+  "unchanged": {
+    "approved_11": true,
+    "public_urls_55": true,
+    "final_xlsx_not_shared": true
+  },
+  "next": "Do not rebuild v2672 files. Prioritize commercial rights/real stock evidence and latest physical v2647 source before release; for other products choose photo-first candidates without false MK logos. Count only genuinely approved retail families as published complete."
+}
