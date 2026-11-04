@@ -1,0 +1,33 @@
+name: Shopee v2561 two remaining real JPG similarity pairs evidence review
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2561_last_two_image_pair_review.py'
+      - '.github/workflows/v2561-last-two-image-pairs.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  inspect-two-pairs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse saved 156 JPG isolated review corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2561-v2560-input
+      - name: Physically compare remaining two product-specific similar pairs
+        run: python scripts/v2561_last_two_image_pair_review.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2561-two-remaining-JPG-pairs-real-image-QA-no-XLSX
+          path: v2561-two-remaining-pair-proof/
+          retention-days: 90
+          if-no-files-found: error
