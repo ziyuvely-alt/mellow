@@ -1,0 +1,83 @@
+{
+  "version": "v2641",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_version": "v2640",
+  "latest_archive": "/mnt/data/Shopee_v2641_156JPG_5_verified_product_hero_QA_ONLY.zip",
+  "source_archive": "/mnt/data/Shopee_v2640_156JPG_2_photo_hero_corrections_QA_ONLY.zip",
+  "candidate_contact": "/mnt/data/v2641_8_product_hero_candidates_QA/all-eight-review.jpg",
+  "counts": {
+    "families_total": 41,
+    "approved_legacy_families": 11,
+    "unpublished_review_families": 30,
+    "review_JPG": 156,
+    "changed_photos": 5,
+    "unchanged_SHA256_verified": 151
+  },
+  "modified_slots": [
+    {
+      "family": "pending-13",
+      "slot": 1,
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "source_photo_slot": 3
+    },
+    {
+      "family": "pending-17",
+      "slot": 1,
+      "product": "Dr.G Brightening Up Moisture Sun 50mL",
+      "source_photo_slot": 3
+    },
+    {
+      "family": "pending-18",
+      "slot": 1,
+      "product": "Dr.G Brightening Up SUN PLUS 50mL",
+      "source_photo_slot": 3
+    },
+    {
+      "family": "pending-22",
+      "slot": 1,
+      "product": "OBgE MAX Waterful Sun Cream 300mL",
+      "source_photo_slot": 4
+    },
+    {
+      "family": "pending-24",
+      "slot": 1,
+      "product": "BIOHEAL BOH NAD PRIZCELL Glow Power Serum 30mL",
+      "source_photo_slot": 3
+    }
+  ],
+  "rejected_not_applied": [
+    {
+      "family": "pending-02",
+      "reason": "large photo square framing remains"
+    },
+    {
+      "family": "pending-06",
+      "reason": "existing photographed square composition not improved sufficiently"
+    },
+    {
+      "family": "pending-21",
+      "reason": "eye cream product is too small, internal source caption still visible"
+    }
+  ],
+  "technical_checks": {
+    "zip_integrity": "PASS",
+    "all_JPG_1080_square": "PASS",
+    "all_under_2mb": "PASS",
+    "changed_exactly_five": "PASS",
+    "previous_151_hash_identity": "PASS"
+  },
+  "immutable": {
+    "approved_11_published_families_modified": 0,
+    "verified_public_55_URLs_modified": 0,
+    "existing_v2640_not_overwritten": true,
+    "final_excel_spreadsheet_shared": false
+  },
+  "release_holds": {
+    "original_photo_commercial_usage_rights_verified": false,
+    "actual_owned_stock_generation_verified": false,
+    "original_round_MK_logo_binary_verified": false,
+    "final_sales_quality_approval": false
+  },
+  "next": "Continue from v2641 ZIP. Do not regenerate five corrected main shots. Rejected pending02/06/21 photos remain unchanged, use distinct high-res correct-package photos if available. The remaining critical work is clearing license/stock edition/MK original release gates; do not claim the 30 QA families have been approved."
+}
