@@ -1,0 +1,74 @@
+{
+  "version": "v2685",
+  "date": "2026-11-04",
+  "baseline": "v2684b",
+  "actual_successful_run": 41840895645,
+  "audited_family": "pending-08",
+  "product": "PERIPERA Mood Glowy Tint 26AD / historical 001-020 4g inventory",
+  "historical_source_JPG_reference_files_preserved": 5,
+  "historical_JPG_storage": "qa-assets/v2662-immutable-14-candidates:qa-review/v2685-peripera-edition-and-shade-quarantine/HISTORICAL_REFERENCE_NOT_FOR_UPLOAD",
+  "audit_storage": "qa-assets/v2662-immutable-14-candidates:qa-review/v2685-peripera-edition-and-shade-quarantine/v2685-option-edition-evidence.json",
+  "source_evidence": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+  "retailer_options_currently_shown": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30
+  ],
+  "historical_001_to_020_missing_from_that_retailer": [
+    4,
+    6,
+    7
+  ],
+  "catalog_number_only_present_count": 17,
+  "exact_stock_edition_shade_mappings_approved": 0,
+  "image_quality_and_approval": {
+    "previous_pending_fiveframe_QA_sets": 29,
+    "pending_08_product_photo_fiveframe_draft_ready": false,
+    "pending_08_old_reference_JPGs_as_retail_ready": false,
+    "retail_release_approved_total": 11,
+    "retail_newly_approved": 0,
+    "existing_public_55_URLs_modified": 0
+  },
+  "blockers": [
+    "Historical 001-020 option to exact 26AD edition mapping unresolved",
+    "004,006,007 absent from examined current 26AD seller selector",
+    "Historical color chart and 26AD color generation cannot be mixed",
+    "Owned physical stock barcode/edition evidence absent",
+    "Original latest v2647 binary and original MK logo not recovered",
+    "Historic product images photo licensing and commercial approval not independently verified"
+  ],
+  "next_work": [
+    "Continue real-photo quality improvements on the 29 previous staged QA sets, not generic info cards",
+    "For pending-08, seek genuine exact owned stock edition and product/option photos, avoid generated swatches",
+    "If new evidence arrives, update only verified shade IDs and ensure older 5 source JPGs remain quarantined",
+    "Do not rerun v2685 options comparison without changed source data"
+  ],
+  "preserved": {
+    "prior_11_approved_family_images": true,
+    "public_55_image_URLs": true,
+    "approved_master_asset_mutated": false,
+    "final_excel_or_spreadsheet_shared": false
+  }
+}
