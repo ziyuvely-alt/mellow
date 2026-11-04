@@ -1,0 +1,800 @@
+{
+  "version": "v2729",
+  "baseline": "v2728 latest completed workflow; v2723 stored 32 pair audit",
+  "operation": "NEW_COMPONENT_AND_EDGE_ALPHA_ANALYSIS_FROM_18_EXISTING_PNGS",
+  "distinct_product_families_analyzed": 18,
+  "original_PNG_or_JPG_files_modified": 0,
+  "new_product_images_generated": 0,
+  "checkerboard_QA_contact_sheets": 3,
+  "warning_families": [
+    "pending-11",
+    "pending-14",
+    "pending-15",
+    "pending-16",
+    "pending-17",
+    "pending-18",
+    "pending-20",
+    "pending-23",
+    "pending-24",
+    "pending-25",
+    "pending-26",
+    "pending-27",
+    "pending-28",
+    "pending-29",
+    "pending-30"
+  ],
+  "quiet_mask_families": [
+    "pending-03",
+    "pending-19",
+    "pending-22"
+  ],
+  "visually_false_positive_possible": true,
+  "manual_review_still_needed": true,
+  "missing_original_authenticated_MK_logo_in_runtime": true,
+  "commercial_licensing_and_real_stock_editions_still_unverified": true,
+  "previous_approved_11_families_modified": false,
+  "previous_55_public_URLs_modified": false,
+  "new_retail_approved_count": 0,
+  "do_not_repeat": {
+    "pending_13_older_source03_photo": "Already used in v2697 frame02; v2728 rembg clipped; DO NOT replicate original scene.",
+    "preserve_older_photo_sets": true
+  },
+  "final_excel_or_sheets_shared": false,
+  "results": [
+    {
+      "family": "pending-03",
+      "png_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-alpha-product-only-QA.png",
+      "png_sha256": "ad96d326b91a82a75427fb88f3703e984c6690236b41b3aac00e08f7cda3f292",
+      "jpg_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+      "jpg_sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+      "foreground_dimensions": [
+        261,
+        667
+      ],
+      "foreground_fraction": 0.6878,
+      "opaque_fraction": 0.6655,
+      "semi_transparent_fraction": 0.0382,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 119730,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 119730,
+          "bbox": [
+            3,
+            2,
+            255,
+            663
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [],
+      "technical_category": "MASK_STRUCTURE_NO_MAJOR_FLAG",
+      "human_visual_qa_from_prior": "old-era gold-pump BB cream shade 23; verify exact inventory edition",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-11",
+      "png_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-alpha-product-only-QA.png",
+      "png_sha256": "dba6d66b2973c3863c0b570302987a540308cf5b0b5f0f35b2a657c9009599a9",
+      "jpg_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+      "jpg_sha256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37",
+      "foreground_dimensions": [
+        223,
+        646
+      ],
+      "foreground_fraction": 0.9006,
+      "opaque_fraction": 0.8847,
+      "semi_transparent_fraction": 0.0271,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 129744,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 129744,
+          "bbox": [
+            3,
+            4,
+            217,
+            641
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "OBGE double-chamber bottle; do not describe as 2 separate products",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-14",
+      "png_file": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-actual-product-alpha-cutout-QA.png",
+      "png_sha256": "cad43d667893e695f925a1dfe0523939d8f8d8ce5625a38a7c5092961d6491e1",
+      "jpg_file": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+      "jpg_sha256": "1fa717a5584709d12a338eb7d812ca6ffdd15e639bc27303349bdaa190935a3a",
+      "foreground_dimensions": [
+        341,
+        290
+      ],
+      "foreground_fraction": 0.8918,
+      "opaque_fraction": 0.8638,
+      "semi_transparent_fraction": 0.0543,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 88192,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 88192,
+          "bbox": [
+            3,
+            2,
+            334,
+            285
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "MISSHA PDRN cream original jar/lid intact; verify 70mL not foreign 70g",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-15",
+      "png_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-alpha-product-only-QA.png",
+      "png_sha256": "7d00ff450d5808db225d396866db50b38e1e7a2630b50aee754d0a4697fdc3ad",
+      "jpg_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+      "jpg_sha256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4",
+      "foreground_dimensions": [
+        340,
+        670
+      ],
+      "foreground_fraction": 0.8238,
+      "opaque_fraction": 0.8072,
+      "semi_transparent_fraction": 0.0345,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 187652,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 187652,
+          "bbox": [
+            4,
+            7,
+            332,
+            663
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.4853,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "Dr.G Green Mild Up Sun tube intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-16",
+      "png_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-truly-transparent-product-QA.png",
+      "png_sha256": "edd9db3ab1bf180d7b45d500d426a0514f7d1990aa4df8241458daf7f55ac4a7",
+      "jpg_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-16/01-product-only-1080white-hero-QA.jpg",
+      "jpg_sha256": "dd374607261d8d6ba4918d56bdee9ff923d0d0d024ee716e564bee73c383fcaa",
+      "foreground_dimensions": [
+        560,
+        580
+      ],
+      "foreground_fraction": 0.9419,
+      "opaque_fraction": 0.9359,
+      "semi_transparent_fraction": 0.0139,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 305916,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 305916,
+          "bbox": [
+            3,
+            7,
+            554,
+            570
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "Dr.G R.E.D Blemish cream jar intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-17",
+      "png_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-17/01-real-transparent-product-QA.png",
+      "png_sha256": "4ef98b6d321b80d91ebc62a11c5be3a639fe3bdb0e390398d03ff29f510ad265",
+      "jpg_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-17/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "c9c45a4b580c924c3e6b6fbaae00f69847f74913483fd7f5b02401a80ab7662f",
+      "foreground_dimensions": [
+        672,
+        856
+      ],
+      "foreground_fraction": 0.5918,
+      "opaque_fraction": 0.5861,
+      "semi_transparent_fraction": 0.011,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 340429,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 340429,
+          "bbox": [
+            3,
+            0,
+            665,
+            856
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.6265,
+        "bottom": 0.5372,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "Dr.G Brightening Up Moisture Sun tube intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-18",
+      "png_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-alpha-product-only-QA.png",
+      "png_sha256": "a6f97e9da37670c9a04be5c4a82301101f1d0bde487ac5e4a7332034f52dce3b",
+      "jpg_file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+      "jpg_sha256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a",
+      "foreground_dimensions": [
+        348,
+        688
+      ],
+      "foreground_fraction": 0.8119,
+      "opaque_fraction": 0.8003,
+      "semi_transparent_fraction": 0.0274,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 194397,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 194397,
+          "bbox": [
+            3,
+            7,
+            341,
+            681
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.727,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW",
+        "LIKELY_BACKGROUND_PANEL_RETAINED"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "Dr.G Brightening Up Sun Plus tube intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-19",
+      "png_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-19/01-real-transparent-product-QA.png",
+      "png_sha256": "432393afb877080a263b683e9e5a488c8121f3ca6df8a3059a9f6a3c4abc5fd3",
+      "jpg_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-19/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "1253e088d5f95ffeda557d666fcf75419f1dce8c1f41092921a098d0ae705b53",
+      "foreground_dimensions": [
+        617,
+        659
+      ],
+      "foreground_fraction": 0.7576,
+      "opaque_fraction": 0.7449,
+      "semi_transparent_fraction": 0.0248,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 308043,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 308043,
+          "bbox": [
+            3,
+            3,
+            610,
+            653
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [],
+      "technical_category": "MASK_STRUCTURE_NO_MAJOR_FLAG",
+      "human_visual_qa_from_prior": "GOODAL Vita C Cream Alpha jar intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-20",
+      "png_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-transparent-product-QA.png",
+      "png_sha256": "e7f1a1288957374a17e388a0ec1e0fc2115ba3f57b37321c194cb2f0e8e1894e",
+      "jpg_file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+      "foreground_dimensions": [
+        180,
+        756
+      ],
+      "foreground_fraction": 0.9174,
+      "opaque_fraction": 0.8289,
+      "semi_transparent_fraction": 0.1188,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 124840,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 124840,
+          "bbox": [
+            3,
+            4,
+            173,
+            748
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "GOODAL Serum Mist 100mL pump and bottle intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-22",
+      "png_file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-actual-alpha-cutout-high-res-QA.png",
+      "png_sha256": "9dd38739a27ed4e2bc0bbdb420a5b71615d3ea8a817e3c1b9e8ce9bcaacd99ca",
+      "jpg_file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "jpg_sha256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958",
+      "foreground_dimensions": [
+        302,
+        652
+      ],
+      "foreground_fraction": 0.8356,
+      "opaque_fraction": 0.7975,
+      "semi_transparent_fraction": 0.0597,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 164530,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 164530,
+          "bbox": [
+            3,
+            2,
+            295,
+            647
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [],
+      "technical_category": "MASK_STRUCTURE_NO_MAJOR_FLAG",
+      "human_visual_qa_from_prior": "OBGE Max Waterful 300mL pump and base retained in second model",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-23",
+      "png_file": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-transparent-product-QA.png",
+      "png_sha256": "829aa071f454699526577506e35ff793b1fb40f59322601dc5d60b4a3295c044",
+      "jpg_file": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "c6d0174cd5d09d43bc7671657719188c3c81cf4b4b6e1a1d8f64a243357a3d5a",
+      "foreground_dimensions": [
+        424,
+        809
+      ],
+      "foreground_fraction": 0.8567,
+      "opaque_fraction": 0.8481,
+      "semi_transparent_fraction": 0.0164,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 293854,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 293854,
+          "bbox": [
+            2,
+            0,
+            418,
+            809
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.9858,
+        "bottom": 0.7689,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW",
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME",
+        "LIKELY_BACKGROUND_PANEL_RETAINED"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "OBGE Pore Zero 50mL cutout largely clean; bottom edge needs 1:1 check",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-24",
+      "png_file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-cleaned-real-alpha-isolated-serum-QA.png",
+      "png_sha256": "081322f5611fa0cada55768c46ae0c875a0db9babbad83f42cbd2e31442a863a",
+      "jpg_file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+      "jpg_sha256": "5cb1850f773c7edd801e160ec1387e90001d2a0739e6f1035db62246431574fb",
+      "foreground_dimensions": [
+        166,
+        563
+      ],
+      "foreground_fraction": 0.816,
+      "opaque_fraction": 0.7847,
+      "semi_transparent_fraction": 0.0353,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 76259,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 76259,
+          "bbox": [
+            0,
+            1,
+            166,
+            561
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.5311,
+        "right": 0.5275
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "BIOHEAL BOH serum detached alpha blob fixed in v2714; edges need 1:1 check",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-25",
+      "png_file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-actual-alpha-cutout-high-res-QA.png",
+      "png_sha256": "0e3468283d19573fc142d30365b4a8664dce7ab2cb06e4c625c05c8b0a2d2a44",
+      "jpg_file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "jpg_sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+      "foreground_dimensions": [
+        606,
+        637
+      ],
+      "foreground_fraction": 0.9401,
+      "opaque_fraction": 0.9313,
+      "semi_transparent_fraction": 0.0149,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 362896,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 362896,
+          "bbox": [
+            3,
+            2,
+            599,
+            630
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "BIOHEAL BOH cream base retained in v2712",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-26",
+      "png_file": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-26/01-real-alpha-segmented-product-QA.png",
+      "png_sha256": "caff796dc460cf44fbaaa3ddb053a2ea51c414554560a09947c98176453816b8",
+      "jpg_file": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-26/01-background-removed-hero-1080-QA.jpg",
+      "jpg_sha256": "ca6628be4f901dd3f14a6c1a5b7027579e526a8e839b9f0a42fed064d0dc88dd",
+      "foreground_dimensions": [
+        210,
+        561
+      ],
+      "foreground_fraction": 0.8682,
+      "opaque_fraction": 0.7175,
+      "semi_transparent_fraction": 0.1744,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 102281,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 102281,
+          "bbox": [
+            2,
+            6,
+            206,
+            555
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.981,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW",
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME",
+        "LIKELY_BACKGROUND_PANEL_RETAINED"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "PIXEL PURE Gel-to-Foam 145mL body intact in v2711",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-27",
+      "png_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-truly-transparent-product-QA.png",
+      "png_sha256": "0c143ebfbbc923ed5f7292dedaf700c354b55c639caa284436579487e47f405f",
+      "jpg_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-product-only-1080white-hero-QA.jpg",
+      "jpg_sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+      "foreground_dimensions": [
+        396,
+        669
+      ],
+      "foreground_fraction": 0.4708,
+      "opaque_fraction": 0.4606,
+      "semi_transparent_fraction": 0.0156,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 124731,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 124731,
+          "bbox": [
+            2,
+            3,
+            391,
+            666
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.3737,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "BROAD_MASK_TOUCHES_OUTPUT_EDGE_REVIEW"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "PIXEL PURE toner 200mL intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-28",
+      "png_file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-source-transparent-product-QA.png",
+      "png_sha256": "7a605b2ce638e121fffbe0dcd7a99c782213d0ea743f0a0434d5a94d3b545d52",
+      "jpg_file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+      "jpg_sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+      "foreground_dimensions": [
+        568,
+        585
+      ],
+      "foreground_fraction": 0.91,
+      "opaque_fraction": 0.89,
+      "semi_transparent_fraction": 0.0293,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 302351,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 3,
+          "area": 302351,
+          "bbox": [
+            2,
+            3,
+            563,
+            579
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "PIXEL PURE pads 70ea alternate source fixed in v2714; bottom needs check",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-29",
+      "png_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-truly-transparent-product-QA.png",
+      "png_sha256": "1444cab6fa8b5033e64c6bfe6e3a682ff1f8761c86a7d6eca5fea875ed9398ea",
+      "jpg_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+      "jpg_sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+      "foreground_dimensions": [
+        681,
+        624
+      ],
+      "foreground_fraction": 0.8998,
+      "opaque_fraction": 0.8814,
+      "semi_transparent_fraction": 0.0263,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 382363,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 382363,
+          "bbox": [
+            3,
+            4,
+            674,
+            617
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "PIXEL PURE cream 50mL intact",
+      "retail_approved": false
+    },
+    {
+      "family": "pending-30",
+      "png_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-truly-transparent-product-QA.png",
+      "png_sha256": "ce13da325bf4da285fbe2371511d9427d17872eb58d80281686449b60ee71db8",
+      "jpg_file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+      "jpg_sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+      "foreground_dimensions": [
+        220,
+        662
+      ],
+      "foreground_fraction": 0.8775,
+      "opaque_fraction": 0.8572,
+      "semi_transparent_fraction": 0.0339,
+      "component_count_area_ge_40": 1,
+      "main_component_area": 127806,
+      "secondary_components_area": 0,
+      "secondary_components_ratio": 0.0,
+      "top_three_components": [
+        {
+          "id": 1,
+          "area": 127806,
+          "bbox": [
+            3,
+            5,
+            213,
+            654
+          ]
+        }
+      ],
+      "alpha_edge_contact": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warnings": [
+        "MASK_TOO_RECTANGULAR_OR_FILLING_FRAME"
+      ],
+      "technical_category": "MASK_STRUCTURE_REVIEW_REQUIRED",
+      "human_visual_qa_from_prior": "PIXEL PURE serum 50mL intact",
+      "retail_approved": false
+    }
+  ]
+}
