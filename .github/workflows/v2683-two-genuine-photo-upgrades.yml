@@ -1,0 +1,37 @@
+name: Shopee v2683 swap two weak info frames for genuine distinct product photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2683-two-genuine-photo-upgrades.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Get source JPEGs to replace only two original weak information cards
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Upgrade photo diversity in two existing QA families, preserve eight original frames
+        run: |
+          cp scripts/v2683_two_real_photo_upgrades.py /tmp/v2683.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2683-qa qa-assets/v2662-immutable-14-candidates
+          ln -s "$GITHUB_WORKSPACE/historical" /tmp/v2683-qa/historical
+          cd /tmp/v2683-qa
+          python /tmp/v2683.py
+          git add qa-review/v2683-two-family-photo-content-upgrades
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2683 replace two generic cards with genuine distinct source photos, preserve prior 8 frames'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
