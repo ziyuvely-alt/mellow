@@ -1,0 +1,55 @@
+{
+  "version": "v2669",
+  "family": "pending-22",
+  "product": "OBgE Max Waterful Sun Cream 300 mL",
+  "status": "FIVE_FRAME_QA_DRAFT_NOT_RETAIL_APPROVED",
+  "source_photo_count": 2,
+  "official_second_photo_size": [
+    870,
+    1005
+  ],
+  "photo_usage_rights_confirmed": false,
+  "stock_edition_confirmed": false,
+  "latest_v2647_compared": false,
+  "frames": [
+    {
+      "frame": 1,
+      "file": "01-genuine-300ml-bottle-scene-QA.jpg",
+      "sha256": "f0cdf6d5b35a9c7977fee488c6175e6e5ec02dc1acdbb89da2bc449a05a9168d",
+      "kind": "UNCHANGED_REAL_EXISTING_PHOTO",
+      "bytes": 53168
+    },
+    {
+      "frame": 2,
+      "file": "02-official-product-photo-contained-QA.jpg",
+      "sha256": "83e83d281bf1fdc24024e1480a87f9467a259932623472d4efae6da5aa189480",
+      "kind": "OFFICIAL_RETRIEVED_IMAGE_CONTAINED_NO_CROP",
+      "official_source_url": "https://m.obge.co.kr/web/product/medium/202603/e039688781d45789b70ee436c13cf0f6.png",
+      "bytes": 41844
+    },
+    {
+      "frame": 3,
+      "file": "03-factual-info-qa.jpg",
+      "sha256": "a8981cf8a5e8090fd8b5ebfa02aec5d1ea017bab25ab787d5b4ec28290225b64",
+      "kind": "FACT_ONLY_INFO_NEW",
+      "bytes": 60064
+    },
+    {
+      "frame": 4,
+      "file": "04-factual-info-qa.jpg",
+      "sha256": "7b5d5b641a5ce9bad6223a91c3f0e8ff9231479047bce27a9c0d3dc030e2dcd0",
+      "kind": "FACT_ONLY_INFO_NEW",
+      "bytes": 44794
+    },
+    {
+      "frame": 5,
+      "file": "05-factual-info-qa.jpg",
+      "sha256": "add3c9fa7db7a7b967b45a45ca51d8ff8d250843fe8d98640c074b9feb1aad3d",
+      "kind": "FACT_ONLY_INFO_NEW",
+      "bytes": 67019
+    }
+  ],
+  "public_55_urls_modified": false,
+  "old_11_approved_modified": false,
+  "final_spreadsheet_shared": false
+}
