@@ -1,0 +1,34 @@
+name: Shopee v2720 exact MISSHA Moist Up and OBGE Pore Zero real alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2720-two-missha-obge-uncut-product-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cutout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Cut out two genuinely different unprocessed original photographed products
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2720_two_remaining_exact_item_cutouts.py
+          cp scripts/v2720_two_remaining_exact_item_cutouts.py /tmp/v2720.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2720 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2720
+          python /tmp/v2720.py
+          git add qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2720 source-photo cutouts for two untouched families; no release'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
