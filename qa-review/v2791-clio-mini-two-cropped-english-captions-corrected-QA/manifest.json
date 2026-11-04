@@ -1,0 +1,572 @@
+{
+  "version": "v2791",
+  "baseline": "v2789",
+  "two_changed_CLIO_JPGs": [
+    1,
+    2
+  ],
+  "eight_prior_goodal_clio_JPGs_exact_SHA_unchanged": true,
+  "new_true_product_cutouts_created": 0,
+  "only_top_caption_inpainted": true,
+  "removed_original_MK_region_was_already_excluded_v2789": true,
+  "retail_ready_verified": false,
+  "PHOTO_LICENSE_AND_EXACT_STOCK_MK_LOGO_PENDING": true,
+  "approved_old_11_families_unchanged": true,
+  "verified_55_public_image_urls_unchanged": true,
+  "previous_QA_and_source_photo_bytes_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "family_results": [
+    {
+      "family": "pending-19",
+      "five_1080JPGs_present": true,
+      "frames": [
+        {
+          "slot": 1,
+          "filename": "01-existing-authentic-isolated-product-hero-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-19/01-existing-authentic-isolated-product-hero-QA.jpg",
+          "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 64028
+        },
+        {
+          "slot": 2,
+          "filename": "02-official-real-jar-cream-background-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-19/02-official-real-jar-cream-background-QA.jpg",
+          "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 83045
+        },
+        {
+          "slot": 3,
+          "filename": "03-official-open-closed-jar-photo-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-19/03-official-open-closed-jar-photo-QA.jpg",
+          "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 192391
+        },
+        {
+          "slot": 4,
+          "filename": "04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-19/04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+          "sha256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 174982
+        },
+        {
+          "slot": 5,
+          "filename": "05-real-cream-formula-closeup-without-ad-copy-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-19/05-real-cream-formula-closeup-without-ad-copy-QA.jpg",
+          "sha256": "ed7be360ebbc6184f7a258c2173c86c303c1ba3570741ef131c54944c209b997",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 53171
+        }
+      ]
+    },
+    {
+      "family": "pending-04",
+      "five_1080JPGs_present": true,
+      "frames": [
+        {
+          "slot": 1,
+          "filename": "01-english-caption-removed-only-in-upper-margin-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-04/01-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "source_sha256": "088873046764bf2011138e91c87fd784fb0aa2e2ac0c6d5672bb61a40939cdf0",
+          "sha256": "24df063483488bef0ec995da20935b75e6b4351096b7b52f1a4dc11c58491831",
+          "changes": "DARK_ENGLISH_TEXT_ONLY_INPAINT_UPPER_MARGIN",
+          "caption_mask_pixels": 6921,
+          "caption_connected_components": 31,
+          "component_boxes": [
+            [
+              127,
+              120,
+              10,
+              20,
+              87
+            ],
+            [
+              291,
+              120,
+              15,
+              20,
+              147
+            ],
+            [
+              318,
+              120,
+              10,
+              20,
+              75
+            ],
+            [
+              368,
+              120,
+              10,
+              20,
+              87
+            ],
+            [
+              447,
+              120,
+              3,
+              20,
+              60
+            ],
+            [
+              12,
+              123,
+              14,
+              17,
+              93
+            ],
+            [
+              29,
+              123,
+              15,
+              17,
+              128
+            ],
+            [
+              47,
+              123,
+              24,
+              17,
+              185
+            ],
+            [
+              76,
+              123,
+              15,
+              23,
+              152
+            ],
+            [
+              94,
+              123,
+              14,
+              17,
+              135
+            ],
+            [
+              112,
+              123,
+              13,
+              17,
+              89
+            ],
+            [
+              149,
+              123,
+              12,
+              17,
+              86
+            ],
+            [
+              165,
+              123,
+              14,
+              17,
+              135
+            ],
+            [
+              183,
+              123,
+              12,
+              17,
+              104
+            ],
+            [
+              198,
+              123,
+              15,
+              17,
+              136
+            ],
+            [
+              234,
+              123,
+              13,
+              17,
+              109
+            ],
+            [
+              273,
+              123,
+              15,
+              17,
+              142
+            ],
+            [
+              329,
+              123,
+              15,
+              17,
+              127
+            ],
+            [
+              348,
+              123,
+              10,
+              17,
+              72
+            ],
+            [
+              381,
+              123,
+              10,
+              17,
+              68
+            ],
+            [
+              392,
+              123,
+              14,
+              17,
+              129
+            ],
+            [
+              427,
+              123,
+              16,
+              17,
+              141
+            ],
+            [
+              251,
+              124,
+              3,
+              16,
+              48
+            ],
+            [
+              257,
+              124,
+              14,
+              16,
+              108
+            ],
+            [
+              410,
+              124,
+              15,
+              16,
+              95
+            ],
+            [
+              0,
+              137,
+              1,
+              3,
+              3
+            ],
+            [
+              217,
+              136,
+              4,
+              8,
+              24
+            ],
+            [
+              368,
+              258,
+              2,
+              3,
+              5
+            ],
+            [
+              387,
+              263,
+              23,
+              9,
+              105
+            ],
+            [
+              422,
+              271,
+              15,
+              5,
+              58
+            ],
+            [
+              761,
+              296,
+              20,
+              14,
+              103
+            ]
+          ],
+          "other_JPEG_files_unchanged": true,
+          "actual_product_pixels_not_drawn": true,
+          "photo_rights_verified": false,
+          "stock_shade_generation_verified": false,
+          "bytes": 108924
+        },
+        {
+          "slot": 2,
+          "filename": "02-english-caption-removed-only-in-upper-margin-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-04/02-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "source_sha256": "42d82ece35407c9d1a8cd83cddb4d38291b040b4b792b91779673e890bba32fe",
+          "sha256": "ee4a276523db79e581a467dca06a03a6289927dcdfb21c877fdfdc7920a04af0",
+          "changes": "DARK_ENGLISH_TEXT_ONLY_INPAINT_UPPER_MARGIN",
+          "caption_mask_pixels": 6593,
+          "caption_connected_components": 31,
+          "component_boxes": [
+            [
+              2,
+              120,
+              14,
+              19,
+              124
+            ],
+            [
+              233,
+              120,
+              10,
+              19,
+              96
+            ],
+            [
+              279,
+              120,
+              15,
+              19,
+              124
+            ],
+            [
+              19,
+              122,
+              16,
+              17,
+              133
+            ],
+            [
+              48,
+              122,
+              24,
+              17,
+              182
+            ],
+            [
+              76,
+              122,
+              3,
+              17,
+              49
+            ],
+            [
+              84,
+              122,
+              14,
+              17,
+              118
+            ],
+            [
+              103,
+              122,
+              3,
+              17,
+              49
+            ],
+            [
+              119,
+              122,
+              13,
+              17,
+              92
+            ],
+            [
+              135,
+              122,
+              15,
+              17,
+              123
+            ],
+            [
+              154,
+              122,
+              23,
+              17,
+              178
+            ],
+            [
+              182,
+              122,
+              15,
+              23,
+              163
+            ],
+            [
+              200,
+              122,
+              14,
+              17,
+              144
+            ],
+            [
+              217,
+              122,
+              14,
+              17,
+              94
+            ],
+            [
+              263,
+              122,
+              13,
+              17,
+              112
+            ],
+            [
+              297,
+              122,
+              15,
+              17,
+              127
+            ],
+            [
+              315,
+              122,
+              21,
+              17,
+              174
+            ],
+            [
+              340,
+              122,
+              13,
+              17,
+              110
+            ],
+            [
+              366,
+              122,
+              15,
+              17,
+              130
+            ],
+            [
+              385,
+              122,
+              15,
+              23,
+              156
+            ],
+            [
+              403,
+              122,
+              15,
+              17,
+              130
+            ],
+            [
+              422,
+              122,
+              14,
+              17,
+              114
+            ],
+            [
+              246,
+              135,
+              4,
+              7,
+              20
+            ],
+            [
+              678,
+              251,
+              9,
+              10,
+              52
+            ],
+            [
+              508,
+              275,
+              1,
+              2,
+              2
+            ],
+            [
+              537,
+              276,
+              1,
+              2,
+              2
+            ],
+            [
+              238,
+              286,
+              10,
+              8,
+              25
+            ],
+            [
+              463,
+              286,
+              2,
+              2,
+              3
+            ],
+            [
+              245,
+              295,
+              2,
+              2,
+              2
+            ],
+            [
+              226,
+              302,
+              12,
+              8,
+              38
+            ],
+            [
+              239,
+              305,
+              2,
+              2,
+              2
+            ]
+          ],
+          "other_JPEG_files_unchanged": true,
+          "actual_product_pixels_not_drawn": true,
+          "photo_rights_verified": false,
+          "stock_shade_generation_verified": false,
+          "bytes": 178754
+        },
+        {
+          "slot": 3,
+          "filename": "03-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-04/03-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "sha256": "305136d555ec13213606b1b02080b80d50dba1c355327e4aab306d733561a40c",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 181803
+        },
+        {
+          "slot": 4,
+          "filename": "04-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-04/04-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "sha256": "98010380aece3003b2b81968919a2cd7fe457a2732a7da622886f68ea106f073",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 100996
+        },
+        {
+          "slot": 5,
+          "filename": "05-official-mini-5g-handheld-600native-on-1080-QA.jpg",
+          "source": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/pending-04/05-official-mini-5g-handheld-600native-on-1080-QA.jpg",
+          "sha256": "e51e541e156c239936f98214ff30dc75681e24e1bbd89f6253bf41fa4c767697",
+          "changes": "PRESERVED_SOURCE_BYTES",
+          "identical_prior_SHA256": true,
+          "bytes": 104103
+        }
+      ]
+    }
+  ]
+}
