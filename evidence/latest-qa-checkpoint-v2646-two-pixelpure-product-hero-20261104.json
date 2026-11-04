@@ -1,0 +1,50 @@
+{
+  "version": "v2646",
+  "date": "2026-11-04",
+  "source_version": "v2645",
+  "qa_archive": "/mnt/data/Shopee_v2646_156JPG_two_pixelpure_clean_hero_QA_ONLY.zip",
+  "manifest": "/mnt/data/v2646_clean_hero_QA/manifest.json",
+  "review_families": 30,
+  "jpg_total": 156,
+  "changed_images": 2,
+  "unchanged_sha256": 154,
+  "changes": [
+    {
+      "family": "pending-29",
+      "slot": 1,
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "reused_existing_photo_slot": 4,
+      "change": "Replaced logo-heavy framed miniature product hero with full product photographed cream texture, no temporary MK logo",
+      "preview": "/mnt/data/v2646_clean_hero_QA/pending-29_before_after.jpg"
+    },
+    {
+      "family": "pending-30",
+      "slot": 1,
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "reused_existing_photo_slot": 2,
+      "change": "Replaced logo-heavy framed miniature with actual serum pump and reflection composition, no provisional badge",
+      "preview": "/mnt/data/v2646_clean_hero_QA/pending-30_before_after.jpg"
+    }
+  ],
+  "tests": {
+    "zip_integrity": "PASS",
+    "jpg_count": 156,
+    "all_jpg_1080_square": true,
+    "all_under_2MB": true,
+    "only_two_changed_sha": true,
+    "visually_reviewed_both": true
+  },
+  "preserve": {
+    "published_families_11_untouched": true,
+    "published_urls_55_untouched": true,
+    "previous_zip_not_overwritten": true,
+    "final_xlsx_not_shared": true
+  },
+  "holds": [
+    "Third-party photo commercial use license not verified",
+    "Owned stock exact package edition not verified",
+    "Original genuine MK logo still unavailable",
+    "Human final release approval pending"
+  ],
+  "next": "Continue from v2646 ZIP, do not redo pending-29 or pending-30 slot01. CLIO pending05 Founwear edition mismatch HOLD, pending04 mini cushion shade origin not confirmed; do not invent shade chips. Prioritize license and stock edition verification, not text-only redundant passes."
+}
