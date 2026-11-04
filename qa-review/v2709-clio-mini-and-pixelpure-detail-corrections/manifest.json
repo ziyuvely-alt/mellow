@@ -1,0 +1,176 @@
+{
+  "version": "v2709",
+  "baseline": "v2708",
+  "product_families_updated": 2,
+  "new_detail_photograph_frames": 3,
+  "existing_QA_photos_SHA_preserved": 7,
+  "source_photos_reencoded_or_mutated": 0,
+  "new_generated_product_objects": 0,
+  "new_generated_brand_logos": 0,
+  "source_corner_logo_region_excluded_from_derived_crops": true,
+  "commercial_approved": 0,
+  "photo_rights_verified": false,
+  "owned_stock_generation_verified": false,
+  "prior_11_sale_approved_families_unchanged": true,
+  "prior_55_public_URLs_unchanged": true,
+  "previous_v2706_asset_sets_untouched": true,
+  "final_XLSX_shared": false,
+  "families": [
+    {
+      "family": "pending-04",
+      "product": "CLIO Mesh Glow Essential Mini Cushion 5g",
+      "JPG_count": 5,
+      "preserved_exact": 3,
+      "new_real_photo_detail_crops": 2,
+      "hold_reasons": [
+        "Only genuine mini 5g artwork is allowed, not the 15g set",
+        "Shade 21C/21N/23N label and stock edition need confirmation",
+        "Original source corner MK art not authenticated",
+        "Commercial source photo reuse permission not verified"
+      ],
+      "status": "DRAFT_VISUAL_QA_NOT_RETAIL_APPROVED",
+      "files": [
+        {
+          "slot": 1,
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/01-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db",
+          "source_sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 166778
+        },
+        {
+          "slot": 2,
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/02-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "ba44dd5e61f361eb1901a8396c0884eb97f52966df092f77aa28da7ae5e612f4",
+          "source_sha256": "ba44dd5e61f361eb1901a8396c0884eb97f52966df092f77aa28da7ae5e612f4",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 228699
+        },
+        {
+          "slot": 3,
+          "file": "03-real-source-detail-no-unverified-logo-QA.jpg",
+          "role": "NEW_DETAIL_CROP_FROM_EXISTING_REAL_PHOTO",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/03-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "e8d74ca170c5938a9d9ad7e18c5bee61f38c7061493cf1f030d7bc00ee9f79cf",
+          "source_sha256": "35438b61d80dabe2b78ae6682fd1a9202db7799e6cb18b12f9ea3b595108fabc",
+          "crop_source_xyxy": [
+            295,
+            324,
+            875,
+            855
+          ],
+          "exact_product_photo_pixels_used": true,
+          "source_badge_area_excluded": true,
+          "not_true_background_removal": true,
+          "bytes": 164212
+        },
+        {
+          "slot": 4,
+          "file": "04-real-source-detail-no-unverified-logo-QA.jpg",
+          "role": "NEW_DETAIL_CROP_FROM_EXISTING_REAL_PHOTO",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/04-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "84d219965e5b129bb22a3dfcae10516e1d1b3f31db26423c8049145169955144",
+          "source_sha256": "ff8f0343d268222b42d87c8c1553fc50f4c0ba1a1a6edfc2fc3d55f100c1df41",
+          "crop_source_xyxy": [
+            280,
+            307,
+            865,
+            840
+          ],
+          "exact_product_photo_pixels_used": true,
+          "source_badge_area_excluded": true,
+          "not_true_background_removal": true,
+          "bytes": 106599
+        },
+        {
+          "slot": 5,
+          "file": "05-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/05-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "a9f4d2660ec2ff79dce3ea40ed3eb4e8086d4918a73190fff6b12db84e0b37da",
+          "source_sha256": "a9f4d2660ec2ff79dce3ea40ed3eb4e8086d4918a73190fff6b12db84e0b37da",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 161591
+        }
+      ]
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+      "JPG_count": 5,
+      "preserved_exact": 4,
+      "new_real_photo_detail_crops": 1,
+      "hold_reasons": [
+        "Do not substitute a 150mL package image",
+        "Genuine product packaging and photo redistribution rights not verified",
+        "Original source corner MK art not authenticated",
+        "Commercial source photo reuse permission not verified"
+      ],
+      "status": "DRAFT_VISUAL_QA_NOT_RETAIL_APPROVED",
+      "files": [
+        {
+          "slot": 1,
+          "file": "01-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/01-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578",
+          "source_sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 145064
+        },
+        {
+          "slot": 2,
+          "file": "02-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/02-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1",
+          "source_sha256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 187258
+        },
+        {
+          "slot": 3,
+          "file": "03-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/03-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e",
+          "source_sha256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 189507
+        },
+        {
+          "slot": 4,
+          "file": "04-historical-real-art-photo-unchanged-QA.jpg",
+          "role": "PRESERVED_OLD_REAL_SCENE",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/04-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678",
+          "source_sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678",
+          "pixel_origin": "UNCHANGED_SOURCE_BYTES",
+          "bytes": 155807
+        },
+        {
+          "slot": 5,
+          "file": "05-real-source-detail-no-unverified-logo-QA.jpg",
+          "role": "NEW_DETAIL_CROP_FROM_EXISTING_REAL_PHOTO",
+          "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/05-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "63983908c79721b655c864cc4b966465d5fa6158bfb1eda2f23ec5a47b5b8826",
+          "source_sha256": "aa0d92f86a2df1c971fcb315cb35e588f315feaa7df9fa08c79337cc8e754b29",
+          "crop_source_xyxy": [
+            315,
+            223,
+            815,
+            854
+          ],
+          "exact_product_photo_pixels_used": true,
+          "source_badge_area_excluded": true,
+          "not_true_background_removal": true,
+          "bytes": 91506
+        }
+      ]
+    }
+  ]
+}
