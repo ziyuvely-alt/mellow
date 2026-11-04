@@ -1,0 +1,52 @@
+{
+  "version": "v2629",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source": "v2628",
+  "zip": "Shopee_v2629_156JPG_OBGE_300ml_2_customer_copy_fixes_QA_ONLY.zip",
+  "review_image_count": 156,
+  "changed_count": 2,
+  "identical_image_hashes": 154,
+  "edited": [
+    {
+      "family": "pending-22",
+      "slot": 2,
+      "product": "OBgE Max Waterful Sun Cream 300 mL",
+      "old": "The original pump-bottle design",
+      "new": "300 mL PUMP BOTTLE"
+    },
+    {
+      "family": "pending-22",
+      "slot": 3,
+      "product": "OBgE Max Waterful Sun Cream 300 mL",
+      "old": "Official application photograph",
+      "new": "SUN CREAM TEXTURE"
+    }
+  ],
+  "copy_edit_scope": "Top subtitle line, no product photo reconstruction",
+  "technical_verification": {
+    "size": "1080x1080",
+    "max_filesize_bytes": 2000000,
+    "all_156_jpg_verified": true,
+    "unchanged_sha_count": 154,
+    "photo_area_mean_pixel_error_per_channel": [
+      0.1228,
+      0.1264
+    ]
+  },
+  "comparison": "v2629_obge_300ml_copy_QA/before_after_2_obge_caption_fixes.jpg",
+  "preserved": {
+    "approved_product_families": 11,
+    "published_existing_urls": 55,
+    "published_urls_changed": 0,
+    "previous_v2628_zip_unchanged": true,
+    "final_xlsx_created_or_shared": false
+  },
+  "blocking": {
+    "photo_commercial_rights_cleared": false,
+    "original_mellowkr_MK_logo_confirmed": false,
+    "owned_stock_exact_packaging_verified": false,
+    "final_sales_release": false
+  },
+  "next": "Continue from local v2629 156-JPG QA ZIP; never repeat pending-22 slots02 and03 subtitle corrections. Prioritize product photos with traceable usage permission, authentic MK logo and actual stocked edition before commercial publication. Do not regenerate approved public images."
+}
