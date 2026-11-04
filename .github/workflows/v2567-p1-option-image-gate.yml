@@ -1,0 +1,33 @@
+name: Shopee v2567 five P1 option-photo exact inventory batch gate
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2567_p1_five_option_product_verification.py'
+      - '.github/workflows/v2567-p1-option-image-gate.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  five-option-family-QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reuse release gate data
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41755214185 -n shopee-v2565-30family-issue-specific-release-gates-queue-no-XLSX -D v2567-gates
+      - name: Reuse original 156 QA candidate images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2567-original
+      - name: Check five family options and 29 existing JPG hashes in one step
+        run: python scripts/v2567_p1_five_option_product_verification.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2567-p1-five-family-29JPG-exact-option-verification-no-XLSX
+          path: v2567-p1-five-family-option-validation/
+          retention-days: 90
+          if-no-files-found: error
