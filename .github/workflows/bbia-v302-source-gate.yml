@@ -1,0 +1,20 @@
+name: BBIA v302 nine unused photo sources
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v302_nine_unused_sources.py, .github/workflows/bbia-v302-source-gate.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v302_nine_unused_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v302-nine-unused-official-photo-sources
+          path: /tmp/bbia-v302
+          retention-days: 30
