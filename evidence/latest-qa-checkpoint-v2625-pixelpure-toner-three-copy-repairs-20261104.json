@@ -1,0 +1,55 @@
+{
+  "version": "v2625",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_version": "v2623",
+  "product_families": 30,
+  "deliverable": {
+    "zip_filename": "Shopee_v2625_156JPG_PIXELPURE_3_customer_copy_fixes_QA_ONLY.zip",
+    "local_location": "/mnt/data/Shopee_v2625_156JPG_PIXELPURE_3_customer_copy_fixes_QA_ONLY.zip",
+    "image_count": 156,
+    "changed_since_v2623": 3,
+    "unchanged_sha256_verified": 153,
+    "comparison_02_04": "/mnt/data/v2624_pixelpure_toner_customer_copy_QA/before_after_pending27_customer_copy.jpg",
+    "comparison_03": "/mnt/data/v2624_pixelpure_toner_customer_copy_QA/before_after_pending27_slot03.jpg"
+  },
+  "actual_changes": [
+    {
+      "family": "pending-27",
+      "slot": 2,
+      "product": "PIXEL PURE Soothing Ampule Toner 200mL",
+      "removed": "Original product texture scene | 200 mL",
+      "new": "SOOTHING AMPULE TONER | 200 mL"
+    },
+    {
+      "family": "pending-27",
+      "slot": 3,
+      "product": "PIXEL PURE Soothing Ampule Toner 200mL",
+      "removed": "Original bottle photography | 200 mL",
+      "new": "SOOTHING AMPULE TONER | 200 mL",
+      "photo_region_mae_0_255": 0.0795
+    },
+    {
+      "family": "pending-27",
+      "slot": 4,
+      "product": "PIXEL PURE Soothing Ampule Toner 200mL",
+      "removed": "Official bottle and package photo | 200 mL",
+      "new_title": "BOTTLE & CARTON",
+      "new": "SOOTHING AMPULE TONER | 200 mL"
+    }
+  ],
+  "preservation": {
+    "existing_11_finished_product_families_unchanged": true,
+    "existing_55_public_urls_unchanged": true,
+    "original_v2623_zip_preserved": true,
+    "source_153_other_JPG_hash_identical": true,
+    "no_final_spreadsheet_shared": true
+  },
+  "holds": {
+    "photo_commercial_usage_rights_verified": false,
+    "actual_stock_physical_edition_verified": false,
+    "original_MK_logo_applied": false,
+    "final_approval": false
+  },
+  "next": "Resume from v2625, never reapply three corrected PIXEL PURE Toner captions. Continue true image quality fixes supported by exact SKU inventory and original photographs only. Do not publish or share final XLSX before full approval."
+}
