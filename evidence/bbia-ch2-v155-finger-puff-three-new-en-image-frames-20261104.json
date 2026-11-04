@@ -1,0 +1,43 @@
+{
+  "schema": "bbia_ch2_v155_en_working_set",
+  "date": "2026-11-04",
+  "plugin_version": "0.8.5",
+  "family": "BBIA Eau Finger Puff 2P",
+  "official_product_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000127",
+  "official_product_code": "1000000127",
+  "official_2p_verified": true,
+  "files": {
+    "working_zip": "BBIA_v155_FINGER_PUFF_5_EN_SCENES_QA_PENDING.zip",
+    "contact": "BBIA_v155_FINGER_PUFF_5_EN_CONTACT.jpg",
+    "manifest": "BBIA_v155_FINGER_PUFF_MANIFEST.json"
+  },
+  "reused_old_jpg": 2,
+  "new_created_jpg": 3,
+  "total_jpg": 5,
+  "technical": {
+    "dimensions": "1080x1080",
+    "less_than_two_megabytes": true,
+    "zip_crc_passed": true
+  },
+  "review": {
+    "art_direction": "NEEDS_ADDITIONAL_DISTINCT_OFFICIAL_PHOTOGRAPHY",
+    "source_photo_authenticity": "UNVERIFIED_EXACT_ORIGINAL",
+    "source_repetition_issue": "All 5 scenes reuse crops of one previously rendered 137_0ea photo. Although design framing differs, the imagery is repetitive and not an approved diverse five-frame merchandising set.",
+    "sale_approved": false,
+    "translation_approved": false
+  },
+  "blocked": [
+    "official exact source image pixels unavailable from previous cached assets",
+    "network cannot retrieve new official photo bytes from container; DNS failure, do not repeatedly retry"
+  ],
+  "preserved": [
+    "v147 125 original JPG",
+    "v150 4 edited JPG",
+    "v151 5 edited JPG",
+    "v152 5 edited JPG",
+    "v153 mascara EN set",
+    "v154 powder pact puff EN set",
+    "55 existing URLs"
+  ],
+  "next_step": "Do not repeat visual or technical QA on v155 frames. Seek genuinely distinct official BBIA product photos or advance to different source-ready product family. Refuse to mark merchandise approved based solely on layout or correct JPG encoding."
+}
