@@ -1,0 +1,33 @@
+name: Shopee v2585 exact 300ml OBgE official product photo QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2585_obge_300ml_official_original_product_photo.py'
+      - '.github/workflows/v2585-obge-300ml-real-photo.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  original-photo-reference:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse existing 156 QA images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2585-base
+      - name: Fetch official exact 300 mL product image and compare only relevant 5 JPGs
+        run: python scripts/v2585_obge_300ml_official_original_product_photo.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2585-OBGE-300ml-official-real-photo-QA-no-XLSX
+          path: v2585-obge-waterful-300ml-original-photo-QA/
+          retention-days: 90
+          if-no-files-found: error
