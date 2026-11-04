@@ -1,0 +1,33 @@
+name: Shopee v2808 OBgE 5g photo-first five frames and actual single compact alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2808-obge5g-photo-first-five-true-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Reuse five original brand gallery frames and attempt real product-only alpha segmentation
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2808_obge_five_brand_scenes_true_alpha.py /tmp/v2808.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2808-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2808-qa
+          python /tmp/v2808.py
+          git add qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2808 OBgE 5g five actual official photo scenes with original SHA + distinct real alpha QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
