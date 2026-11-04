@@ -1,0 +1,160 @@
+{
+  "version": "v2826",
+  "baseline": "v2825",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "variants": [
+    "21C Lingerie",
+    "21N Linen",
+    "23N Ginger"
+  ],
+  "supplier_gallery_coverage": [
+    {
+      "merchant": "DODOSKIN",
+      "endpoint": "https://www.dodoskin.com/products/clio-kill-cover-founwear-cushion-the-original-mini-5g-3-colors.js",
+      "status": "SAVED_SHARED_PHOTO_CANDIDATES",
+      "gallery_candidates": 7,
+      "source_title": "CLIO Kill Cover Founwear Cushion The Original Mini 5g 3 colors",
+      "exact_variants": [
+        "21C Lingerie",
+        "21N Linen",
+        "23N Ginger"
+      ]
+    },
+    {
+      "merchant": "Lila Beauty",
+      "endpoint": "https://lilabeauty.com.au/products/mini-kill-cover-founwear-cushion-the-original-5g.js",
+      "status": "SAVED_SHARED_PHOTO_CANDIDATES",
+      "gallery_candidates": 1,
+      "source_title": "Mini Kill Cover Founwear Cushion The Original 5g",
+      "exact_variants": [
+        "21C Lingerie",
+        "21N Linen",
+        "23N Ginger"
+      ]
+    }
+  ],
+  "downloaded_shared_reference_JPGs": [
+    {
+      "merchant": "DODOSKIN",
+      "file": "01-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-1.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "5780fae2662013f1e67ffbe78ce7d49e06d58f75f7c4e0fe4b8d40eedd50c132",
+      "jpg_bytes": 73595,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "02-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-3.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "a596b6cbffbf821afea4968ff1123a970d813789cfa9a58cbbc8fbc39a468e30",
+      "jpg_bytes": 112366,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "03-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-7.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "3d45281956637d55a24a4137a46f9c03fc1e7bbdad04c2c5d3dec1cdb6b86c1d",
+      "jpg_bytes": 164439,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "04-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-2.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "05bc83a8bca4200dee942f1812ee5965ba1d674c99eefbdb5fce2a2b7a21b2d1",
+      "jpg_bytes": 102623,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "05-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-5.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "12636c6257d903f762ede9ccb7991c6b61d113fd92b4bcbe65c52506fbfeb77b",
+      "jpg_bytes": 123587,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "06-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-4.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "875fe114d98d6e3bfcace7e62929b9ba87e0e12382426a31d033485a1a71c552",
+      "jpg_bytes": 116857,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "DODOSKIN",
+      "file": "07-COMMON-NOT-SHADE-DODOSKIN-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIOKillCoverFounwearCushionTheOriginalMini5g3colors-6.jpg?v=1741846648",
+      "source_native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "90723a5da8c1a35d3f8891bb7ac2674a622c83396e68abe0df308bbb0a48bde5",
+      "jpg_bytes": 160511,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    },
+    {
+      "merchant": "Lila Beauty",
+      "file": "08-COMMON-NOT-SHADE-Lila-Beauty-QA.jpg",
+      "source_url": "https://cdn.shopify.com/s/files/1/0071/4653/7026/files/buy-clio-mini-kill-cover-founwear-cushion-the-original-5g-at-lila-beauty-korean-and-japanese-beauty-skin-care-5252633.jpg?v=1784411712",
+      "source_native_dimensions": [
+        879,
+        879
+      ],
+      "sha256": "4036e0e85cabb6ac6ffc5601baacd92d53ed2d3549f2fd172ce0151cec7c42f2",
+      "jpg_bytes": 101407,
+      "shade_assignment": "NONE_SHARED_PRODUCT_GALLERY",
+      "scene_visual_QA": "NOT_INSPECTED",
+      "sales_approved": false
+    }
+  ],
+  "never_associate_shared_images_with_shade_without_proof": true,
+  "original_21C_21N_23N_sources_unchanged": true,
+  "old_11_approved_groups_unchanged": true,
+  "old_55_urls_unchanged": true,
+  "source_photo_rights_confirmed": false,
+  "owned_stock_variant_and_package_confirmed": false,
+  "new_sale_approvals": 0,
+  "final_XLSX_shared": false,
+  "shared_gallery_photos_archived": 8,
+  "next_action": "Visually inspect each image and reject exact shade-specific scenes that cannot be tied to 21C or 21N. Do not turn generic photos into 21C/21N variant slots."
+}
