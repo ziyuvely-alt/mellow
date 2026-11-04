@@ -1,0 +1,46 @@
+{
+  "version": "v2738",
+  "baseline": "v2737",
+  "batch": "two previously failed physical photos, novel contour-based method",
+  "actual_new_true_alpha_PNG_JPG_pairs": 2,
+  "products": [
+    {
+      "family": "pending-09",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/05-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "121547b5c9775971ed9a1fba02a9a5059a85fea0c5216ff728038c290c352677",
+      "mask_method": "compact_contour",
+      "photo_pixels_reconstructed": 0,
+      "source_badge_MK_not_in_mask": true,
+      "result_JPG": "pending-09/01-real-object-only-1080-JPG-QA.jpg",
+      "result_PNG": "pending-09/01-real-archived-object-contour-transparent-QA.png",
+      "result_sha256": "933e420c8b520cd7261e32f641ac27ec423b320fabf098fa46ef816baa72ebef",
+      "png_sha256": "e395571bd389a018ff4a84179a040d84e48494b7676509aea2058cbed43aed61",
+      "alpha_coverage_of_cropped_bbox": 0.864,
+      "status": "REAL_CONTOUR_PNG_JPG_STAGED_FOR_VISUAL_QA",
+      "sellable_image": "HOLD_PENDING_VISUAL_LICENSE_EXACT_STOCK"
+    },
+    {
+      "family": "pending-19",
+      "source": "qa-review/v2673-two-new-product-five-JPG-sets/pending-19/01-original-source-slot01-UNMODIFIED-QA.jpg",
+      "source_sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+      "mask_method": "jar_contour",
+      "photo_pixels_reconstructed": 0,
+      "source_badge_MK_not_in_mask": true,
+      "result_JPG": "pending-19/01-real-object-only-1080-JPG-QA.jpg",
+      "result_PNG": "pending-19/01-real-archived-object-contour-transparent-QA.png",
+      "result_sha256": "dee9ca162b65c5dcabde2345d95a528d151a13d9c9c41cb844759f62276e490f",
+      "png_sha256": "2d000c02b26abc9d18cbe4519377f6809e8ad9c07adca76c1ff2b9383ee73852",
+      "alpha_coverage_of_cropped_bbox": 0.948,
+      "status": "REAL_CONTOUR_PNG_JPG_STAGED_FOR_VISUAL_QA",
+      "sellable_image": "HOLD_PENDING_VISUAL_LICENSE_EXACT_STOCK"
+    }
+  ],
+  "unchanged_prior_source_photos": true,
+  "official_MK_logo_proven": false,
+  "photography_reuse_rights_proven": false,
+  "real_owned_stock_edition_proven": false,
+  "new_sale_approvals": 0,
+  "original_published_11_families_unchanged": true,
+  "original_published_55_URLs_unchanged": true,
+  "final_spreadsheet_shared": false
+}
