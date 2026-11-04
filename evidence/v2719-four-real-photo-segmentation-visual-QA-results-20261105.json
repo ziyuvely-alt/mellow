@@ -1,0 +1,64 @@
+{
+  "version": "v2719",
+  "date": "2026-11-05",
+  "baseline": "v2717",
+  "successful_action_run": 41860554752,
+  "previous_v2718_failed_run": 41860120876,
+  "root_cause_v2718": "pending-13 source JPG is in a flat QA folder, not pending-13 subfolder; corrected discovery and used v2697 flat source in v2719",
+  "qa_asset_folder": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+  "actual_results": [
+    {
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion Mini",
+      "physical_png_jpg_saved": true,
+      "visual": "HOLD_MULTIPLE_SET_CONTENT",
+      "why": "Original explicitly says Cushion Set with multiple compacts/puffs; not a verified individual mini unit."
+    },
+    {
+      "family": "pending-07",
+      "product": "CLIO Kill Cover Mesh Blur Cushion",
+      "physical_png_jpg_saved": true,
+      "visual": "HOLD_GIFT_PACKAGE_MULTI_UNIT",
+      "why": "Source includes box with GIFT labeling and other components; do not represent as standalone."
+    },
+    {
+      "family": "pending-12",
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "physical_png_jpg_saved": true,
+      "visual": "HOLD_15ML_VS_15G_CONFLICT",
+      "why": "Visually clean source composition, but original photo reads 15mL and historic stock spec records 15g."
+    },
+    {
+      "family": "pending-13",
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "physical_png_jpg_saved": false,
+      "visual": "HOLD_SOURCE_IMAGE_WAS_FACT_CARD",
+      "why": "Flat v2697 source slot01 is a net content information card, not product photo; never segment an info card."
+    }
+  ],
+  "true_png_JPG_pairs_saved": 3,
+  "retail_sale_approved": 0,
+  "no_fabricated_logo_or_shade_chips": true,
+  "original_photo_files_modified": false,
+  "approved_11_sale_product_families_untouched": true,
+  "existing_55_public_image_urls_untouched": true,
+  "final_XLSX_or_sheets_shared": false,
+  "original_MK_logo_authenticated": false,
+  "photo_commercial_rights_verified": false,
+  "exact_owned_stock_edition_confirmed": false,
+  "next_workflow": {
+    "version": "v2720",
+    "run_id": 41861146012,
+    "scope": [
+      "pending-02",
+      "pending-23"
+    ],
+    "processing": "unattempted original source exact item foregrounds"
+  },
+  "no_repeat": [
+    "Do not rerun v2718 failed script without flat-folder fix",
+    "Do not use v2719 CLIO set assets as standalone merchandise",
+    "Do not retry pending13 info card as alpha source",
+    "Do not assume 15mL and 15g equivalent for pending12"
+  ]
+}
