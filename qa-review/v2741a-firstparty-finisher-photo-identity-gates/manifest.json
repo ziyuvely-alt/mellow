@@ -1,0 +1,123 @@
+{
+  "version": "v2741a",
+  "date": "2026-11-05",
+  "source": "v2741 visually inspected official manufacturer 8-frame contact",
+  "exact_product_count": 1,
+  "rejected_or_detail_only_count": 7,
+  "native_product_source_px": [
+    997,
+    997
+  ],
+  "family": "pending-09",
+  "source_JPGs_unchanged": true,
+  "published_55_URLs_unchanged": true,
+  "original_MK_logo_verified": false,
+  "retail_approved": false,
+  "frames": [
+    {
+      "index": 1,
+      "jpg_file": "01-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+      "source_native_px": [
+        997,
+        997
+      ],
+      "original_sha256": "b50ae98106014dda57659e758312712a2b65ae980501fc7875912012c4bfa8a9",
+      "decision": "EXACT_PRODUCT_ONLY_SOURCE_QA",
+      "why": "EXACT_SINGLE_PRODUCT_5G_REFERENCE: one open OBgE Oil Control Finisher compact, white cream smear behind must be excluded in hero mask",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 2,
+      "jpg_file": "02-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/NEW_obge_logo_Logo_1.png?v=1739847965",
+      "source_native_px": [
+        2237,
+        1096
+      ],
+      "original_sha256": "697e8a8675f3aad720b6da35f84c8c5b0d4a12a7f24b7db7d9b2a5b3dd67bbd8",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "REJECT_LOGO_ONLY: brand wordmark not a product",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 3,
+      "jpg_file": "03-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/OB_set_thumb_06.jpg?v=1759279881",
+      "source_native_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "2f5d731cdca5077ee865192512a1bf878b949c977655dbb120205d87d0bdbd11",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "REJECT_WRONG_PRODUCT_BUNDLE: Pore Zero sunscreen+toner set",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 4,
+      "jpg_file": "04-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/sun_stick_updated.jpg?v=1758088824",
+      "source_native_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "b402c2264ef95bbaea639dcbc085f7e6b8485bdbfc1dbb54187b720a7d89807f",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "REJECT_WRONG_PRODUCT: Oil Control Sun Stick duo",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 5,
+      "jpg_file": "05-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/OB_set_thumb_04.png?v=1753772149",
+      "source_native_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "717b3d0cf665a5219bcba47ec55ad3aa954984943ad4ed1cc32cb6850186fc55",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "REJECT_WRONG_PRODUCT: Mood Change Lip Balm duo",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 6,
+      "jpg_file": "06-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/7.jpg?v=1776049836",
+      "source_native_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "3084699895ef767420a5ba636dfe80e8536a9d6504e0f1ae8bfd8c1891cea9f0",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "DETAIL_ONLY_BEFORE_AFTER: skin examples, not product packshot; avoid using unlicensed faces",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 7,
+      "jpg_file": "07-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/1_0569c85f-7213-43c4-857b-f6016d4cda56.jpg?v=1776049836",
+      "source_native_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "19f4600d5d2eeaa0cb8f3e26c4670a454081b237bde76ab61557b6c928be8e96",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "DETAIL_ONLY_SKIN_CLOSEUPS: not actual product packshot",
+      "photo_commercial_reuse_rights_verified": false
+    },
+    {
+      "index": 8,
+      "jpg_file": "08-MANUFACTURER-real-source-1080-QA.jpg",
+      "original_url": "https://obgeglobal.com/cdn/shop/files/preview_images/df4d8c33bf0846f799d23ed08803c448.thumbnail.0000000000.jpg?v=1776056283",
+      "source_native_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "aa49b2b4046fdc633a4ffe023011bb004e5934c300b6a8a217ea62bf7d0ff383",
+      "decision": "DO_NOT_USE_FOR_5G_PRODUCT_HERO",
+      "why": "DETAIL_ONLY_BEFORE_AFTER_MODEL: not actual product packshot; no commercial reuse permission",
+      "photo_commercial_reuse_rights_verified": false
+    }
+  ],
+  "followup": "v2742 two foreground extraction techniques on image 01 only. Avoid manufacturer general-header/logo and unrelated merchandising thumbnails."
+}
