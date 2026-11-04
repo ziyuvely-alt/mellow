@@ -1,0 +1,41 @@
+name: Shopee v2580 7-file delta QA checkpoint from verified original scenes
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2580_seven_image_delta_checkpoint_30families.py'
+      - '.github/workflows/v2580-seven-photo-QA-delta.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  seven-image-only-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore untouched 156 original review JPGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2580-baseline
+      - name: Reuse existing five actual corrected JPEG files
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41761227478 -n shopee-v2576-five-customer-copy-JPG-deltas-156frame-QA-no-XLSX -D v2580-five
+      - name: Reuse two actual genuinely distinct OBgE 50ml scene JPGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762139786 -n shopee-v2579-OBGE-PoreZero-actual-distinct-source-select-QA-no-XLSX -D v2580-two
+      - name: Assemble 7 corrected candidate JPG deltas and verify all 156 once
+        run: python scripts/v2580_seven_image_delta_checkpoint_30families.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2580-7-real-photo-delta-156-corpus-QA-no-XLSX
+          path: v2580-seven-image-reusable-QA-deltas/
+          retention-days: 90
+          if-no-files-found: error
