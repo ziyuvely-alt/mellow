@@ -1,0 +1,24 @@
+name: Shopee v2572 Peripera 26AD edition vs 026 shade preflight
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2572_peripera_26ad_vs_026_semantic_reconciliation.py'
+      - '.github/workflows/v2572-peripera-edition.yml'
+permissions:
+  contents: read
+jobs:
+  separate-edition-and-shade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate 20 existing shades against 2026-sponsored lineup
+        run: python scripts/v2572_peripera_26ad_vs_026_semantic_reconciliation.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2572-peripera-26AD-edition-vs-026-shade-scope-no-XLSX
+          path: v2572-peripera-edition-semantic-preflight/
+          retention-days: 90
+          if-no-files-found: error
