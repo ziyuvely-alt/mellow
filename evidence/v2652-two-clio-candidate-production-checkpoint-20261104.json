@@ -1,0 +1,68 @@
+{
+  "version": "v2652",
+  "date": "2026-11-04",
+  "baseline": "v2650",
+  "status": "ACTUAL_GITHUB_ACTIONS_VERIFIED",
+  "repository": "ziyuvely-alt/mellow",
+  "runs": [
+    {
+      "version": "v2651",
+      "id": 41823617648,
+      "artifact_id": 13317149868,
+      "status": "success",
+      "family": "pending-05",
+      "new_qa_candidate": 1,
+      "old_distance": 5,
+      "new_distance": 27,
+      "new_jpg_bytes": 82708,
+      "kind": "authentic historical photo crop only"
+    },
+    {
+      "version": "v2652",
+      "id": 41823767454,
+      "artifact_id": 13317959465,
+      "status": "success",
+      "families": [
+        {
+          "family": "pending-06",
+          "old_pair": [
+            1,
+            5
+          ],
+          "historical_distance": 23,
+          "additional_candidate": 0,
+          "reason": "Pair sufficiently distinct, avoid unnecessary crop"
+        },
+        {
+          "family": "pending-07",
+          "old_pair": [
+            1,
+            4
+          ],
+          "historical_distance": 6,
+          "additional_candidate": 1,
+          "new_distance": 32,
+          "kind": "authentic historical photo crop only"
+        }
+      ]
+    }
+  ],
+  "completed": [
+    "v2651 CLIO pending05 slot05 isolated QA candidate actual JPEG and contact sheet",
+    "v2652 batch checked two further CLIO families without rerunning entire 156-image audit",
+    "v2652 CLIO pending07 slot04 isolated QA candidate and contact sheet",
+    "v2652 pending06 excluded from unnecessary modifications"
+  ],
+  "no_new_public_assets": true,
+  "approved_11_families_untouched": true,
+  "verified_55_urls_untouched": true,
+  "final_xlsx_shared": false,
+  "pending": [
+    "Do not promote historical v2593 QA candidate as replacement for latest v2647",
+    "Compare with exact latest current frame if archive becomes available",
+    "Confirm physical-stock packaging/edition and commercial photo rights",
+    "Human visual review of newly cropped product area, avoid blank or cut labels",
+    "Pending05 01/05 source duplicate and pending07 01/04 source duplicate remain retail HOLD"
+  ],
+  "next": "Seek canonical v2647 actual image binary before any replacement, then further distinct-source photography for other eligible SKU families; no redundant repeat of completed slot candidate crops."
+}
