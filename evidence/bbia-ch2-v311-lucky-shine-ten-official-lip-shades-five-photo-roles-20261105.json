@@ -1,0 +1,62 @@
+{
+  "checkpoint": "v311",
+  "parent": "v310",
+  "date": "2026-11-05",
+  "goodsNo": "1000000239",
+  "product": "BBIA Lucky Shine Tint",
+  "execution": {
+    "new_jpg": 2,
+    "prior_jpg_reused_exact_bytes": 4,
+    "distinct_creative_roles": 5,
+    "jpg_pages": 6,
+    "source_file": "BBIA_1000000239_SOURCE_3_v293.jpg",
+    "official_lip_photos_verified": "01-10 order confirmed visually against English and Korean labels in original manufacturer image",
+    "english_shade_names": [
+      "01 LUCKY NUDE",
+      "02 LUCKY PINK",
+      "03 LUCKY PEACH",
+      "04 LUCKY MAUVE",
+      "05 LUCKY PLUM",
+      "06 LUCKY ROSY",
+      "07 LUCKY NUTS",
+      "08 LUCKY FIG",
+      "09 LUCKY BREEZE",
+      "10 LUCKY BLOOM"
+    ],
+    "new_jpgs": [
+      "BBIA_1000000239_05_LIP_SHADE_GUIDE_PART1_v311_QA_PENDING.jpg",
+      "BBIA_1000000239_05_LIP_SHADE_GUIDE_PART2_v311_QA_PENDING.jpg"
+    ],
+    "zip": "/mnt/data/bbia_v311_final/BBIA_v311_LUCKY_SHINE_FIVE_ROLES_SIX_JPG_QA_PENDING.zip",
+    "zip_sha256": "15228d7d137b84559afde4396b598c69d4a0688ca362525dfbe8f3ea7ad6fa44",
+    "contact": "/mnt/data/bbia_v311_final/BBIA_v311_SIX_PAGES_FIVE_ROLES_CONTACT.jpg",
+    "manifest": "/mnt/data/bbia_v311_final/BBIA_v311_MANIFEST.json",
+    "script": "/mnt/data/bbia_v311/compose_v311.py"
+  },
+  "verification": {
+    "all_six_jpg_1080x1080_under_2mb": true,
+    "six_unique_sha256": true,
+    "zip_crc_pass": true,
+    "source_lip_photo_color_reconstruction": false,
+    "embedded_korean_excluded": true,
+    "shade_name_numbers_matched_to_source": true,
+    "manual_visual_contact_opened": true,
+    "final_sales_approved": false
+  },
+  "quality_holds": [
+    "Main hero/packshot true alpha cutout not verified",
+    "Commercial use rights of source campaign/model imagery not independently verified",
+    "Color appearance can vary by display and independent shipping-variant/photo QA still pending"
+  ],
+  "preservation": {
+    "existing_4_jpg_bytes_unchanged": true,
+    "approved_55_public_urls_changed": false,
+    "existing_public_jpg_changed": false,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not regenerate these 6 JPG pages; use exact zip SHA.",
+    "Perform cross-family sales QA for v304, v305, v310, v311 and isolate blockers without republishing.",
+    "Only finalize once source rights, individual shade identity, English names and proper cutout verified."
+  ]
+}
