@@ -1,4 +1,4 @@
-name: Shopee v2739 render three already-approved-source contour SVGs to alpha PNG and JPG
+name: Shopee v2739 render only new Pore Zero 50ml archived contour SVG to PNG JPG
 on:
   push:
     branches: [main]
@@ -25,8 +25,8 @@ jobs:
           git fetch origin qa-assets/v2662-immutable-14-candidates
           git worktree add /tmp/v2739-qa qa-assets/v2662-immutable-14-candidates
           cd /tmp/v2739-qa
-          test ! -e qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA
+          test ! -e qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA
           python /tmp/v2739.py
-          git add qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA
-          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2739 create actual transparent PNG and white JPG from 3 existing source-photo contour SVGs'
+          git add qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2739 render only pending23 Pore Zero PNG JPG from existing source SVG; reuse completed pending09 and pending19'
           git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
