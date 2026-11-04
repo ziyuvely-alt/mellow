@@ -1,0 +1,32 @@
+{
+  "checkpoint": "v198",
+  "date": "2026-11-04",
+  "product": "BBIA Eau Matte Cushion FULL SIZE",
+  "goodsNo": "1000000178",
+  "previous_checkpoint": "v197 Last Velvet Tint fullsize one new model image",
+  "new_en_jpgs": 2,
+  "roles": [
+    "different angle open compact product photograph",
+    "eye area cushion puff application reference"
+  ],
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "source_members": [
+    "batch/1000000178/photo-3.png",
+    "batch/1000000178/photo-5.png"
+  ],
+  "files": [
+    "BBIA_v198_MATTE_CUSHION_2_NEW_EN_QA_PENDING.zip",
+    "BBIA_v198_MATTE_CUSHION_TWO_DISTINCT_SCENES_CONTACT.jpg",
+    "BBIA_v198_MATTE_CUSHION_SOURCE_MANIFEST.json",
+    "v198_matte_two_distinct.py"
+  ],
+  "technical": "Each new JPEG 1080x1080 under 2 MB, SHA256 of raw/source photos and output JPEGs written in local manifest, ZIP CRC valid, both images visually inspected.",
+  "source_photo_qa": "Photo-5 cropped to omit original Korean efficacy claim. Historical archived source files do not prove latest official current product photo/option exact match.",
+  "remaining": "Exact current official package/photo/option independent review and release authorization",
+  "sales_approved": 0,
+  "translations_created": 0,
+  "previous_images_modified": false,
+  "previous_55_published_urls_modified": false,
+  "spreadsheet_shared": false,
+  "next": "Do not recreate v198 two images. Check current official photo and variant identity. Use distinct source-ledger-backed photo assets for unfilled roles in other families, not repeated photographs to pad five-count. Keep shade-specific holds."
+}
