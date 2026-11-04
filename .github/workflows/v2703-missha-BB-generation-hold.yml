@@ -1,0 +1,31 @@
+name: Shopee v2703 preserve MISSHA old new BB cream package collision proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2703-missha-BB-generation-hold.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Store old and new official product packaging evidence, no sales gallery modifications
+        run: |
+          cp scripts/v2703_missha_old_new_package_conflict.py /tmp/v2703.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2703-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2703-qa
+          python /tmp/v2703.py
+          git add qa-review/v2703-MISSHA-BB-old-vs-new-package-identity-hold
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2703 hold old Korean vs redesigned current US MISSHA BB cream tube mismatch'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
