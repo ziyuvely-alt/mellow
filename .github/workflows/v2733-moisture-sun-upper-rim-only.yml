@@ -1,0 +1,35 @@
+name: Shopee v2733 DrG Moisture 50mL restore upper sealed rim
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2733-moisture-sun-upper-rim-only.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy 'rembg[cpu]==2.0.67'
+      - name: Reframe only source 04 rim with y55 crop, never repeat completed 50mL Green Mild Up
+        env:
+          U2NET_HOME: /tmp/isnet-models
+        run: |
+          python -m py_compile scripts/v2733_moisture_sun_restore_upper_rim.py
+          cp scripts/v2733_moisture_sun_restore_upper_rim.py /tmp/v2733.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2733-review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2733-review
+          test ! -e qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA
+          python /tmp/v2733.py
+          git add qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2733 DrG Moisture Sun 50mL isolated top rim repair preserving earlier completed product sources'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
