@@ -1,0 +1,32 @@
+name: Shopee v2666 source-photo scenes of five rejected product families
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2666-five-original-scene-review.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  visual:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 historical review photographs without editing
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/older
+      - name: Render five source families for actual visual triage
+        run: python scripts/v2666_five_original_scene_review.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2666-five-family-real-original-scenes-QA-no-XLSX
+          path: v2666-five-photo-scene-visual-QA/
+          retention-days: 90
+          if-no-files-found: error
