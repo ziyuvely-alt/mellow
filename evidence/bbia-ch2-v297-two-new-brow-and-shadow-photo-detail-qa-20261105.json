@@ -1,0 +1,88 @@
+{
+  "checkpoint": "v297",
+  "date": "2026-11-05",
+  "parent": "v296",
+  "prior_repo_branch": "bbia-ch2-qa-20261104",
+  "source_execution": {
+    "run_id": 41862294539,
+    "artifact_id": 13341255489,
+    "source_attempts": 7,
+    "saved_source_images": 7,
+    "source_zip": "/mnt/data/bbia_v296_seven_origins.zip"
+  },
+  "outputs": {
+    "new_qa_jpg_count": 2,
+    "source_binary_reused": true,
+    "reused_published_images_modified": 0,
+    "files": [
+      {
+        "goodsNo": "1000000108",
+        "filename": "BBIA_1000000108_DISTINCT_DETAIL_v297_QA_PENDING.jpg",
+        "source_detail_index": 2,
+        "role": "Actual BBIA brow pencil tips and spoolie",
+        "source_crop": [
+          0,
+          1450,
+          1000,
+          2320
+        ],
+        "bytes": 140500,
+        "sha256": "3c17555d0bd4b78e9f90749008e134b8e8297c7f43a03766a4bdce55ba54dda1"
+      },
+      {
+        "goodsNo": "238",
+        "filename": "BBIA_238_DISTINCT_DETAIL_v297_QA_PENDING.jpg",
+        "source_detail_index": 3,
+        "role": "Model holding genuine shadow compact",
+        "source_crop": [
+          80,
+          160,
+          930,
+          790
+        ],
+        "bytes": 185335,
+        "sha256": "65bf72f6c7b99328088973e0db701ec9021c512a7203280b73d682a69e5fa6cc"
+      }
+    ],
+    "zip": "/mnt/data/bbia_v297/BBIA_v297_TWO_NEW_DETAILS_QA_PENDING.zip",
+    "zip_sha256": "dca2ff021cdcdc172f32a2ffa8230804df59a8e4827c9e6c51b2f5ae5658afdd",
+    "zip_crc": "PASS",
+    "contact": "/mnt/data/bbia_v297/BBIA_v297_TWO_NEW_DETAILS_CONTACT.jpg"
+  },
+  "visual_QA": {
+    "opened_actual_contact": true,
+    "product_identity": "Both show authentic BBIA products copied from official image source.",
+    "korean_in_selected_photo": "None visible",
+    "partial_english_source_copy": "Photo source 238 has truncated curved English lettering along right edge; should be excluded or cleaned before sales.",
+    "rectangular_source_photo": "still present, not transparent isolated cutout",
+    "exact_option_mapping": "not verified",
+    "sales_approved": 0
+  },
+  "holds": [
+    {
+      "goodsNo": "1000000108",
+      "source_index": 1,
+      "reason": "Korean-only product marketing banner with no product photography"
+    },
+    {
+      "goodsNo": "238",
+      "source_indices": [
+        4,
+        5,
+        6
+      ],
+      "reason": "Korean shade labels, model marketing and eye looks; no exact shade/option approval"
+    }
+  ],
+  "preservation": {
+    "existing_public_jpg_unchanged": true,
+    "verified_55_public_urls_unchanged": true,
+    "preexisting_qa_jpg_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not rerender these two v297 drafts or source slots in next run",
+    "If candidate 238 is promoted beyond QA, remove clipped English source lettering using a crop of the genuine photo only; no synthetic swatches",
+    "Prioritize missing product roles in other goodsNo, and batch real alpha isolation and option shade QA across all products"
+  ]
+}
