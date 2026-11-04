@@ -1,0 +1,32 @@
+name: Shopee v2763 separate 20 Peripera image options by actual pictured packaging
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2763-peripera20-package-appearance-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Regroup source-identical old Peripera JPG PNG images without modifying any original file
+        run: |
+          cp scripts/v2763_split_peripera20_packaging_appearance.py /tmp/v2763.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2763-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2763-qa
+          test ! -e qa-review/v2763-peripera20-separated-package-appearance-QA
+          python /tmp/v2763.py
+          git add qa-review/v2763-peripera20-separated-package-appearance-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2763 group 20 exact byte-preserved Peripera shade photos into 5 visually distinct packaging families for QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
