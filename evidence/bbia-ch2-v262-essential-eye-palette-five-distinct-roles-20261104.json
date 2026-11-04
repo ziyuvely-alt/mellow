@@ -1,0 +1,54 @@
+{
+  "checkpoint": "v262",
+  "date": "2026-11-04",
+  "parent": "v261",
+  "goodsNo": "1000000118",
+  "product": "BBIA Essential Eye Palette",
+  "execution": "Local actual-source photo compositing; reused v261 3 JPG bytes unchanged",
+  "source": "BBIA_1000000118_SOURCE_DETAIL_3.jpg",
+  "new_jpg": 2,
+  "reused_previous_jpg": 3,
+  "distinct_role_jpg_total": 5,
+  "new_roles": [
+    {
+      "file": "BBIA_1000000118_04_TEXTURE_MACROS_EN_v262_QA_PENDING.jpg",
+      "role": "Matte / matte pearl / glitter photographed source texture comparisons"
+    },
+    {
+      "file": "BBIA_1000000118_05_PALETTE_IN_HAND_EN_v262_QA_PENDING.jpg",
+      "role": "Model holding palette, authentic source photograph"
+    }
+  ],
+  "files": [
+    "BBIA_1000000118_01_COLOR_STORIES_EN_v261_QA_PENDING.jpg",
+    "BBIA_1000000118_02_OPEN_PALETTE_EN_v261_QA_PENDING.jpg",
+    "BBIA_1000000118_03_COMPACT_DESIGN_EN_v260_QA_PENDING.jpg",
+    "BBIA_1000000118_04_TEXTURE_MACROS_EN_v262_QA_PENDING.jpg",
+    "BBIA_1000000118_05_PALETTE_IN_HAND_EN_v262_QA_PENDING.jpg"
+  ],
+  "actual_local_artifacts": {
+    "manifest": "/mnt/data/bbia_v262/BBIA_v262_MANIFEST.json",
+    "contact": "/mnt/data/bbia_v262/BBIA_v262_FIVE_ROLES_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v262/BBIA_v262_FIVE_ROLE_QA_PENDING.zip",
+    "script": "/mnt/data/bbia_v262_make_two.py"
+  },
+  "QA": {
+    "size": "5 of 5 JPG 1080x1080 under 2MB",
+    "sha": "5 distinct SHA256 digests",
+    "zip_crc": "pass",
+    "visual_inspection": "Actual 5-role contact opened and checked: 3 product photos, 1 texture triptych, 1 model palette photo; no newly invented option swatches or Korean captions",
+    "approval": "FIVE_DISTINCT_ROLES_PREPARED_QA_PENDING_NOT_SALES_APPROVED",
+    "remaining": [
+      "Exact option shade/variant identity",
+      "Not true-alpha cutout verified",
+      "Commercial-use source rights and final publication QA"
+    ]
+  },
+  "preservation": {
+    "v261_images_modified": false,
+    "existing_55_urls_modified": false,
+    "existing_public_jpg_modified": false,
+    "final_xlsx_shared": false
+  },
+  "next": "Move on to other incomplete families; do not duplicate 1000000118 scenes until batch final QA."
+}
