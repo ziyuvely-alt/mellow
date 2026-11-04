@@ -1,0 +1,73 @@
+{
+  "version": "v2825",
+  "baseline": "v2824",
+  "variants_attempted": 2,
+  "physically_saved_new_cutout_pairs": 2,
+  "source_existing_originals_unchanged": true,
+  "existing_21C_21N_23N_QA_artifacts_unchanged": true,
+  "published_11_groups_unchanged": true,
+  "published_55_urls_unchanged": true,
+  "photo_redistribution_permissions_verified": false,
+  "stock_editions_verified": false,
+  "original_round_MK_logo_verified": false,
+  "new_retail_approved": 0,
+  "final_xlsx_shared": false,
+  "variants": [
+    {
+      "shade": "21C Lingerie",
+      "source_photo": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/02-21C-Lila-Beauty-exact-variant-QA.jpg",
+      "source_sha256": "9a7589bc20b54c4a37ceb222198803712ad88900918a4517fa7dcb7c44a35097",
+      "previous_cutout": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/01-real-21C-mini5g-1080-hero-QA.jpg",
+      "previous_sha256": "275698ae7d28ec8bdc34322f304bc800ede98c0389c1edfe73722cab8fe7a693",
+      "new_source_crop_xyxy": [
+        130,
+        135,
+        1075,
+        1067
+      ],
+      "retail_approved": false,
+      "source_photo_unchanged": true,
+      "status": "FULL_LID_ALPHA_STAGED_DIRECT_VISUAL_QA_REQUIRED",
+      "mask_coverage": 0.5023,
+      "alpha_bbox": [
+        67,
+        144,
+        915,
+        792
+      ],
+      "kept_components": 1,
+      "transparent_png": "21C/01-full-lid-real-compact-alpha-QA.png",
+      "jpg": "21C/01-corrected-full-lid-1080-JPG-QA.jpg",
+      "jpg_sha256": "99c7142e18577374b1741b4085076bc3f2cc77c0705d2f749220da82b7382897",
+      "jpg_bytes": 188808
+    },
+    {
+      "shade": "21N Linen",
+      "source_photo": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/01-21N-variant-linked-Lila-5g-QA.jpg",
+      "source_sha256": "35abe0bf54c4ef31d365f5a8b4c8b6e0625d681b0a38c94e0efd14cbde75e3ce",
+      "previous_cutout": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/01-real-21N-mini5g-1080-hero-QA.jpg",
+      "previous_sha256": "75a8243ee67f321f8ad27e07cc807634b2fe8cdb3868f6d35702687f7efeea05",
+      "new_source_crop_xyxy": [
+        130,
+        135,
+        1075,
+        1067
+      ],
+      "retail_approved": false,
+      "source_photo_unchanged": true,
+      "status": "FULL_LID_ALPHA_STAGED_DIRECT_VISUAL_QA_REQUIRED",
+      "mask_coverage": 0.473,
+      "alpha_bbox": [
+        0,
+        177,
+        928,
+        805
+      ],
+      "kept_components": 1,
+      "transparent_png": "21N/01-full-lid-real-compact-alpha-QA.png",
+      "jpg": "21N/01-corrected-full-lid-1080-JPG-QA.jpg",
+      "jpg_sha256": "adff99fb73fb79eaa37b2a1bd4eef0ea6e93c2fc08929cdc2094fbb4d390c0fd",
+      "jpg_bytes": 165774
+    }
+  ]
+}
