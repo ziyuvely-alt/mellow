@@ -1,0 +1,35 @@
+name: Shopee v2717 four new authentic source cushion-and-cream alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2717-four-new-cushion-cream-cutouts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cutout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real segmentation runtime
+        run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Segment only four previously untouched product families in old preserved QA archive
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2717_four_fresh_product_cutouts.py
+          cp scripts/v2717_four_fresh_product_cutouts.py /tmp/v2717.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2717-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2717-qa
+          python /tmp/v2717.py
+          git add qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2717 four additional actual photo alpha candidates, preserve 55 URLs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
