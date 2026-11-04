@@ -32,7 +32,7 @@ jobs:
           GH_TOKEN: ${{ github.token }}
         run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2584-source
       - name: Expose five relevant existing photos without copying other source images
-        run: ln -s ../v2584-source/review-JPG-by-family/pending-11 v2584-base
+        run: mkdir -p v2584-base/review-JPG-by-family && ln -s ../../v2584-source/review-JPG-by-family/pending-11 v2584-base/review-JPG-by-family/pending-11
       - name: Append exact one new JPG and preserve earlier eleven SHA identities
         run: python scripts/v2584_append_obge_one_to_11_delta_manifest.py
       - uses: actions/upload-artifact@v4
