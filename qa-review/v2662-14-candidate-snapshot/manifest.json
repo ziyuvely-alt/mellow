@@ -1,0 +1,98 @@
+{
+  "version": "v2662",
+  "purpose": "persistent 14 prior QA candidate JPG snapshot",
+  "original_source_artifact": "v2656",
+  "source_is_historical": true,
+  "latest_v2647": false,
+  "images": [
+    {
+      "filename": "v2651_pending-05_pending-05-slot05-distinct-product-detail-CANDIDATE-QA-ONLY.jpg",
+      "family": "pending-05",
+      "sha256": "c308cb3117f55788ace49dbf2c94caf302401d80d4c2bdd37af002b08f01e512",
+      "bytes": 82708
+    },
+    {
+      "filename": "v2652_pending-07_pending-07-slot04-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-07",
+      "sha256": "99cc830dc243688a56ba83bd1fea54d9dfcc9393582f534c3663a23df4cfcef8",
+      "bytes": 83281
+    },
+    {
+      "filename": "v2653_pending-16_pending-16-slot03-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-16",
+      "sha256": "d54ddee5028e8860aa611187e56f413c6b6f42c40ffea78a4a9ec1c2b86c5519",
+      "bytes": 104624
+    },
+    {
+      "filename": "v2653_pending-17_pending-17-slot04-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-17",
+      "sha256": "98798c36d7ec290fac81b5e7c6bba7140800cd0289130218b2c99d98aa718c2f",
+      "bytes": 96986
+    },
+    {
+      "filename": "v2653_pending-08_pending-08-slot03-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-08",
+      "sha256": "d6a8a0cf3c3a2439a93e1f9a8c3b5b2e5d14bd60423f5ab1b4755b2af8d1f260",
+      "bytes": 84690
+    },
+    {
+      "filename": "v2653_pending-02_pending-02-slot05-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-02",
+      "sha256": "09d7e4ff8fc053fd2a4a897d0f9ba4c6a1c28527f0b8f68e7f8df7de373483a6",
+      "bytes": 86658
+    },
+    {
+      "filename": "v2653_pending-15_pending-15-slot04-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-15",
+      "sha256": "e490248dcd54d47f6687b265334681ccda51eacdce5735ed3e0fa90443d0ba28",
+      "bytes": 78580
+    },
+    {
+      "filename": "v2653_pending-04_pending-04-slot05-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-04",
+      "sha256": "1ff503b2aa3c89b7328bb08bcaef42e254cc2aa53962d2ce14771c234053d72f",
+      "bytes": 92110
+    },
+    {
+      "filename": "v2653_pending-28_pending-28-slot05-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-28",
+      "sha256": "494fc3d0c229afc51afb286fa77ca0c2d98a14f7dbff19d25c985e9789514145",
+      "bytes": 95403
+    },
+    {
+      "filename": "v2653_pending-18_pending-18-slot04-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-18",
+      "sha256": "c201adb414dcd34308a611b443b65a1c84a8d3d5eb88e7dc2264da6856a7ba6e",
+      "bytes": 94702
+    },
+    {
+      "filename": "v2653_pending-21_pending-21-slot03-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-21",
+      "sha256": "b51a56031a2722e1eca21ff0da72f79677607fa64023ebc6173a479e595e89a7",
+      "bytes": 82124
+    },
+    {
+      "filename": "v2653_pending-29_pending-29-slot05-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-29",
+      "sha256": "9a7807af3a1f97534abe92d88d0dba4334cc911b86c909aec447484a7072577e",
+      "bytes": 160858
+    },
+    {
+      "filename": "v2653_pending-22_pending-22-slot03-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-22",
+      "sha256": "699ff5e761ddd6fb292e240ef600444e282307ec4536965edac81655ce6ab17e",
+      "bytes": 102939
+    },
+    {
+      "filename": "v2653_pending-26_pending-26-slot04-original-photo-crop-QA-ONLY.jpg",
+      "family": "pending-26",
+      "sha256": "f2099e69bcedeb7e98cf87284c2e477e56f0f210cad7388842dbe042f8b09e97",
+      "bytes": 81744
+    }
+  ],
+  "retail_approved": 0,
+  "copyright_licensing_verified": false,
+  "physical_stock_edition_verified": false,
+  "no_public_paths_affected": true,
+  "no_xlsx_shared": true
+}
