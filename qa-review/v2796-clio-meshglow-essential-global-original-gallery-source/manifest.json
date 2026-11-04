@@ -1,0 +1,265 @@
+{
+  "version": "v2796",
+  "baseline": "v2795",
+  "target_family": "pending-06",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+  "source_product_url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill",
+  "product_identity_from_firstparty_json": {
+    "url": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill.js",
+    "title": "[CLIO] Kill Cover Mesh Glow Essential Cushion Foundation",
+    "handle": "clio-kill-cover-mesh-glow-cushion-set-refill",
+    "body_snippet": "",
+    "variants": [
+      {
+        "title": "19C Light",
+        "sku": "12240021",
+        "available": true,
+        "grams": null,
+        "option1": "19C Light"
+      },
+      {
+        "title": "19N PORECELAIN",
+        "sku": "12240031",
+        "available": true,
+        "grams": null,
+        "option1": "19N PORECELAIN"
+      },
+      {
+        "title": "21C LINGERIE",
+        "sku": "12240041",
+        "available": true,
+        "grams": null,
+        "option1": "21C LINGERIE"
+      },
+      {
+        "title": "21N LINEN",
+        "sku": null,
+        "available": true,
+        "grams": null,
+        "option1": "21N LINEN"
+      },
+      {
+        "title": "23N GINGER",
+        "sku": null,
+        "available": true,
+        "grams": null,
+        "option1": "23N GINGER"
+      }
+    ],
+    "source_json_sha256": "7aa64c4a5aa26e54eb98b7ce5822db814e39bb352848866da3db640db6e9d5fa"
+  },
+  "new_official_gallery_highres_reference_images": 12,
+  "old_502_600px_catalog_thumbnail_downloads_repeated": 0,
+  "photo_records": [
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_19C.jpg?v=1792129433",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "3b8b08b37980390d6eea6345394a2e67921b5d861a415ea721ffeecc748e9bb3",
+      "native_file": "01-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "01-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "c13d957e7d35f70bac9aab56a2cabb2fd8a67b899a1d7e1f874b50c934e970f2",
+      "QA_file_bytes": 89005,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_19N.jpg?v=1792129436",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "6364233b8294d0af2477270182dd43276a8afa40a5fcecb93ce97b892a7e7e37",
+      "native_file": "02-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "02-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "3d3fcb4e9bbfb6bcf84d52bb74b12c3c5dfb4c31bb04ff2650b36383315c52f9",
+      "QA_file_bytes": 89261,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_21C.jpg?v=1792129445",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "b27af4bf7c16152b3a58ab7f90498f777f86bfe64eff78d2992ef38dda3982ea",
+      "native_file": "03-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "03-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "b7f63a00ebfe1d4669519f831fda0c63ca0e4a6c7009c8f88f16ac22d651a1bb",
+      "QA_file_bytes": 89641,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_21N.jpg?v=1792129447",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "764e3e4174ec82cb497f1f49b3a52eb54f45896bce53e1cf491175864ac763d5",
+      "native_file": "04-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "04-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "f47e3d0281293a94e4c28db130b294c98411b48368fa316b4e0c97ca1487dd72",
+      "QA_file_bytes": 90260,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_23N.jpg?v=1792129449",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "c8ce009480abe2ad0231c2bf97a97e79faf430feaea1ed86b2c2e8f5ae690a53",
+      "native_file": "05-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "05-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "2d7c0d427ae4d23b75d0c029acedf4d0b249fd86affe200c73a15e8d9556637e",
+      "QA_file_bytes": 91457,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW2.jpg?v=1792129658",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "5146c71a562a6fff77da42ff067434ef56765227d917bb934b9b357117c8aad7",
+      "native_file": "06-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "06-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "eb0ea0881191077e3ea3a0940e4d7c164e28a27f568311386ffea41d2865327e",
+      "QA_file_bytes": 140849,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW3.jpg?v=1792129661",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "ca0c52b99b4079df242cd5b3c0cf070f89c3c24b26ed3c9b74c4494a9a07ccf9",
+      "native_file": "07-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "07-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "0db2179502faf5253ed6d9669c221cf86bbade0146d980ba578b3f4e8fc13249",
+      "QA_file_bytes": 172459,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW4.jpg?v=1792129664",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "fd490363c7b927d7d3d623a8501ea98b7855aaa7d5468a646b98d294088e566c",
+      "native_file": "08-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "08-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "4db4450280fc7d6f3b2c95ebcbee706191373d88f181be4c16c9a04522e18b0e",
+      "QA_file_bytes": 147913,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW5.jpg?v=1792129667",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "52435162983f1e584cf6742a332669d9012dfbdce8c058a6b4fcf83fac6b789b",
+      "native_file": "09-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "09-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "996c0ba4035b6219715adeb5928e49115d264bf0f5e40ff6f8825a336124edf8",
+      "QA_file_bytes": 112035,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW6.jpg?v=1792129670",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "6f4f80eb09fed132432e949c99ddc6feaeea31f57027050e25246178a4f1dfbf",
+      "native_file": "10-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "10-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "a1e34ec348ab2e97c9d0bfbd52ed2f13227fc0d1d7701a6a7857abbe48270d02",
+      "QA_file_bytes": 183136,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW7.jpg?v=1792129674",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "ddfa94eea0dcff4b380edae4d0c99f1c8931402b2f8aa4a1ab873cd6db44c55e",
+      "native_file": "11-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "11-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "c11c868dfffd1193ffd43028dcce5f1781a7f04ff9831a1b596a99f53ae1ca21",
+      "QA_file_bytes": 158689,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    },
+    {
+      "source_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/GLOW8.jpg?v=1792129683",
+      "source_alt": "",
+      "source_native_dimensions": [
+        1200,
+        1200
+      ],
+      "original_source_sha256": "28f3b7f7032ea5ccc8e45a8d1d6711c5eb8a1ef520ef0fa08ef7a9d57048ebf6",
+      "native_file": "12-official-global-gallery-NATIVE-original.jpg",
+      "QA_1080_JPG": "12-source-photo-1080-only-QA.jpg",
+      "QA_SHA256": "8b182fd39337a67c2cdefa1bf86922268050a250be41010454e0e4c8cbf37be6",
+      "QA_file_bytes": 164736,
+      "stock_variant_confirmed": false,
+      "standalone_photo_confirmed": false,
+      "photo_rights_for_redistribution_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "release_status": "HOLD_ORIGINAL_PHOTO_RIGHTS_OWNED_STOCK_AND_BUNDLE_CONTENT",
+  "old_approved_11_groups_modified": false,
+  "old_55_public_URLs_modified": false,
+  "previous_QA_files_modified": false,
+  "new_retail_approvals": 0,
+  "final_excel_or_sheets_shared": false
+}
