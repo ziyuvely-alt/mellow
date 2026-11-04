@@ -1,0 +1,78 @@
+{
+  "version": "v2688",
+  "date": "2026-11-04",
+  "baseline": "v2687",
+  "execution": {
+    "run": 41844137080,
+    "conclusion": "success",
+    "photo_upgraded_product_families": 2,
+    "actual_10_JPG_QA_files_saved": true,
+    "official_source_photo_images_added": 2,
+    "previous_JPG_frames_hash_preserved": 8,
+    "reworked_generic_information_frame_slot": 5,
+    "regenerated_previous_product_photos": 0
+  },
+  "changes": [
+    {
+      "family": "pending-29",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "official_product_page": "https://pixelpure.com/product/detail.html?product_no=26",
+      "source_photo": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+      "existing_source_photo_dhash_distances": [
+        30,
+        41
+      ],
+      "photo_count_before": 2,
+      "photo_count_after": 3,
+      "status": "PHOTO_DIVERSITY_IMPROVED_QA_HOLD"
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "official_product_page": "https://pixelpure.com/product/detail.html?product_no=25",
+      "source_photo": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20260213/cb64cbbdf40f0af35ec162dda1bd13bb.jpg",
+      "existing_source_photo_dhash_distances": [
+        35,
+        37
+      ],
+      "photo_count_before": 2,
+      "photo_count_after": 3,
+      "status": "PHOTO_DIVERSITY_IMPROVED_QA_HOLD"
+    }
+  ],
+  "verification": {
+    "product_name_and_50ml_source": "Official pixelpure.com product pages",
+    "image_source_download_valid": true,
+    "JPG_1080x1080": true,
+    "each_JPG_below_2mb": true,
+    "human_contact_sheet_opened": true,
+    "official_source_image_contains_certification_stamp": true,
+    "stamp_claims_independently_verified": false,
+    "photos_permission_for_retail_distribution_verified": false,
+    "owned_stock_edition_verified": false,
+    "actual_latest_v2647_full_archive_compared": false
+  },
+  "qa_asset_branch": "qa-assets/v2662-immutable-14-candidates",
+  "qa_folder": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades",
+  "unchanged": {
+    "original_v2680_JPGs": true,
+    "published_11_approved_families": true,
+    "published_55_verified_URLs": true,
+    "other_28_pending_product_QA_sets": true,
+    "peripera_v2687_reference_set": true
+  },
+  "current_project": {
+    "total_families": 41,
+    "approved_sale_families": 11,
+    "pending_families_with_QA_material": 30,
+    "new_final_sale_approved_this_execution": 0,
+    "final_xlsx_shared": false
+  },
+  "next": [
+    "Do not remake v2688 frames or re-fetch same source URLs",
+    "Verify photo commercial-use permission and certification badges before retail approval",
+    "Compare actual owned stock label/package with official 50mL photos and newest v2647 reference",
+    "Prioritize other low-photo-density families with exact same-SKU official source imagery, not sparse text cards",
+    "Never modify old 55 verified URLs unless separate approval and successful full visual QA"
+  ]
+}
