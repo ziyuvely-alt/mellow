@@ -1,0 +1,35 @@
+name: Shopee v2801 MISSHA 30mL serum one-bottle true alpha and five QA photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2801-missha-real-serum-bottle-source-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy 'rembg[cpu]==2.0.67'
+      - name: Use official single-product bottle source; do not reuse failed fact card; keep original 4 frames
+        env:
+          U2NET_HOME: /tmp/isnet-models
+        run: |
+          python -m py_compile scripts/v2801_missha_pdrn_serum_actual_product_alpha.py
+          cp scripts/v2801_missha_pdrn_serum_actual_product_alpha.py /tmp/v2801.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2801-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2801-qa/qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA
+          cd /tmp/v2801-qa
+          python /tmp/v2801.py
+          git add qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2801 true MISSHA PDRN serum single-bottle real-photo alpha, five frame QA, preserve 55 approved URLs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
