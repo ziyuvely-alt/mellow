@@ -1,0 +1,55 @@
+{
+  "schema": "bbia_ch2_v159_multi_family_partial",
+  "date": "2026-11-04",
+  "checkpoint": "v158 essential eye palette 5 EN candidate JPGs",
+  "new_frames_total": 5,
+  "technical_output": {
+    "jpegs": "five newly exported JPGs, each 1080 square and under 2MB",
+    "zip_crc": "both v159 ZIPs passed",
+    "photo_source": "only authenticated bytes from prior v147 REVIEW_PENDING archive, not official-original independently authenticated"
+  },
+  "groups": [
+    {
+      "name": "BBIA Over Glaze Mini",
+      "official_reference": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000208",
+      "new_en_frames": 3,
+      "zip": "BBIA_v159_OVER_GLAZE_MINI_3_EN_QA_PENDING.zip",
+      "contact": "BBIA_v159_OVER_GLAZE_MINI_3_FRAME_CONTACT.jpg",
+      "status": "PARTIAL_EN_QA_PENDING",
+      "missing": [
+        "verified usage frame",
+        "exact verified options/contents frame"
+      ],
+      "excluded_wrong_product_sources": [
+        "104_3e140f5f00e8 photographed Ready To Wear Eye Shadow model",
+        "104_a77daa858800 photographed eye look",
+        "105_735e4d7ce4ba lip Gloss Tint Mini vintage bottle",
+        "105_5875a64a1ede lip Gloss Tint Mini rosy bottle"
+      ]
+    },
+    {
+      "name": "BBIA Ready To Wear Eye Shadow",
+      "new_en_frames": 2,
+      "previous_en_frame_preserved": "READY_TO_WEAR_EYE_SHADOW_EN_TEXTURE_v150_QA_PENDING.jpg",
+      "zip": "BBIA_v159_READY_TO_WEAR_2_EN_QA_PENDING.zip",
+      "contact": "BBIA_v159_READY_TO_WEAR_2_EN_CONTACT.jpg",
+      "status": "PARTIAL_EN_QA_PENDING",
+      "missing": [
+        "verified product benefits/usage scene",
+        "exact official shades or contents scene"
+      ],
+      "repair": "After visual review only the model/compact scene was recropped to eliminate inherited source text; eye look JPG unchanged"
+    }
+  ],
+  "sales_approved": 0,
+  "localized_images": 0,
+  "source_approval": "PENDING",
+  "quality_note": "These are candidate art-direction compositions from already available photos. Exact original-source provenance and source-specific shade remain unverified; no final sale approval.",
+  "originals_preserved": [
+    "v147 125 JPG originals",
+    "v150-v158 JPG candidates and associated ZIPs",
+    "55 published URLs",
+    "prior 24 hold records"
+  ],
+  "next": "Do not recreate v159 five outputs. Seek independent official product pixel/photo + option proof for these two families. If absent, move to different product family with adequate distinct official photography. Avoid cross-product filler images."
+}
