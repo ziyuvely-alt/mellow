@@ -1,0 +1,33 @@
+name: Shopee v2667b persist five genuine source scenes for image review
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2667b-save-source-scenes.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  persist:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Reuse existing five source JPEGs and preview from run 41831044087
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41831044087 -n shopee-v2667-five-actual-original-photos-and-visual-proof-QA-no-XLSX -D /tmp/v2667
+      - name: Save isolated QA source scenes without changing approved images
+        run: |
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2667-archive qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2667-archive/qa-review/v2667-original-photo-picks
+          mkdir -p /tmp/v2667-archive/qa-review/v2667-original-photo-picks
+          cp -a /tmp/v2667/. /tmp/v2667-archive/qa-review/v2667-original-photo-picks/
+          cd /tmp/v2667-archive
+          git add qa-review/v2667-original-photo-picks
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'Archive five authentic historical scene photos for QA, no retail'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
