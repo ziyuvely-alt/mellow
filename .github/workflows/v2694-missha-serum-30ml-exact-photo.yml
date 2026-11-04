@@ -1,0 +1,32 @@
+name: Shopee v2694 MISSHA 30mL PDRN serum isolate photo 04
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2694-missha-serum-30ml-exact-photo.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  replace:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Replace only potentially misleading multi-product serum source, conditional same-SKU photo
+        run: |
+          python -m py_compile scripts/v2694_missha_30ml_serum_photo_repair.py
+          cp scripts/v2694_missha_30ml_serum_photo_repair.py /tmp/v2694.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2694 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2694
+          python /tmp/v2694.py
+          git add qa-review/v2694-missha-pdrn-30ml-official-source-candidate
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2694 exact Korean 30ml serum official photo QA, no other products or published changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
