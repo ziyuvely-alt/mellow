@@ -1,0 +1,25 @@
+{
+  "checkpoint": "v320",
+  "date": "2026-11-05",
+  "parent": "v319",
+  "actual_execution": "Verified already existing local source JPG and transparent PNG bytes. Bundled 3 JPG+3 PNG without regenerating",
+  "manifest": "/mnt/data/bbia_v320/BBIA_v320_QA_MANIFEST.json",
+  "verified_hero_count": 3,
+  "verified_transparent_source_count": 3,
+  "zip": "/mnt/data/bbia_v320/BBIA_v320_THREE_HERO_ALPHA_SOURCE_PRESERVED_QA_PENDING.zip",
+  "zip_sha256": "af66bc863fc4aea3577019d4b4ab293a95658d18948e9dbfa78eb43e8f8854c6",
+  "zip_crc": "PASS",
+  "goodsNo": [
+    "1000000223",
+    "1000000239",
+    "1000000178"
+  ],
+  "commercial_gates": [
+    "Shade/photo linkage",
+    "Brand asset license/official MK branding",
+    "Photo-edge and final sale QA"
+  ],
+  "sales_approved": 0,
+  "previous_55_public_urls_unchanged": true,
+  "final_excel_shared": false
+}
