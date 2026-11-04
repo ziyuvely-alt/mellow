@@ -1,0 +1,33 @@
+{
+  "checkpoint": "v313",
+  "date": "2026-11-05",
+  "parent": "v312",
+  "execution": {
+    "goodsNo": "1000000178",
+    "name": "BBIA EAU MATTE CUSHION",
+    "error": "Legacy v233 original header OH MATTE CUSHION",
+    "actual_fix": "Corrected only the English product label while original product pixels were retained unchanged; original v310 archive untouched",
+    "original_hero_sha256": "25a67875d53016e74c3ea8b9ad1c42fca51813c6f59e38033e1c7dd13a5c0061",
+    "corrected_hero_sha256": "a04e63dc2e1ee1818f9c317f0d3da26e4ec98273154c62f3c0acb3b5221a9d4c",
+    "new_candidate": "/mnt/data/bbia_v312/BBIA_1000000178_HERO_TITLE_EAU_MATTE_v313_QA_PENDING.jpg",
+    "reused_existing_jpg_byte_identical": 4,
+    "new_qa_zip": "/mnt/data/bbia_v312/BBIA_v313_EAU_MATTE_CUSHION_FIVE_JPG_QA_PENDING.zip",
+    "zip_sha256": "92466d6b72288423cab0bebddef78ed2288b6dd0a38c5802ff17a9fb1e39f86f",
+    "zip_crc_pass": true,
+    "visual_compared_old_new": true,
+    "comparison": "/mnt/data/bbia_v312/BBIA_v313_EAU_MATTE_TEXT_CORRECTION_COMPARE.jpg",
+    "original_product_photo_pixel_edits": false
+  },
+  "quality": {
+    "all5_jpgs_valid": true,
+    "shade_option_mapping_verified": false,
+    "true_alpha_cutout_verified": false,
+    "sales_approved": false
+  },
+  "preservation": {
+    "old_v310_archive_and_all_5_jpg_untouched": true,
+    "public_55_urls_untouched": true,
+    "final_excel_shared": false
+  },
+  "next": "Do not patch v310. Use v313 corrected hero candidate for future formal QA; verify option color mapping, cutout and commercial rights before sales approval."
+}
