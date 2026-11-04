@@ -1,0 +1,33 @@
+name: Shopee v2556 pending15 genuine photo-based how-to card QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2556_drg_green_mild_photo_application.py'
+      - '.github/workflows/v2556-drg-green-mild-image.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  one-frame-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore all existing images without changing source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2556-base
+      - name: Produce exact image re-layout with factual instructions and diversity tests
+        run: python scripts/v2556_drg_green_mild_photo_application.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2556-pending15-green-mild-new-photo-application-JPG-QA-no-XLSX
+          path: v2556-drg-green-mild-app-photo-candidate/
+          retention-days: 90
+          if-no-files-found: error
