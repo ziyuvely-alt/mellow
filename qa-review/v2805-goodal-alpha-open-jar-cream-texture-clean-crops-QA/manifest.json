@@ -1,0 +1,81 @@
+{
+  "version": "v2805",
+  "baseline": "v2804",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "five_1080_JPGs_saved": 5,
+  "two_new_actual_source_photo_crops": 2,
+  "prior_three_JPGs_SHA_preserved_exactly": true,
+  "new_original_photographs_added": 0,
+  "original_brand_source_photo_reencoded_or_modified": false,
+  "no_fake_product_pixels": true,
+  "marketing_claims_not_repeated": true,
+  "commercial_image_redistribution_rights_verified": false,
+  "owned_stock_edition_verified": false,
+  "approved_MK_logo_verified": false,
+  "new_customer_sale_approved": 0,
+  "prior_11_approved_product_families_modified": false,
+  "prior_55_published_public_URLs_modified": false,
+  "final_XLSX_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "filename": "01-GOODAL-Alpha-real-photo-QA.jpg",
+      "origin": "qa-review/v2804-goodal-alpha-open-jar-no-clipped-marketing-copy-QA/01-GOODAL-Alpha-real-photo-QA.jpg",
+      "role": "PRESERVED_UNCHANGED",
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "bytes": 83045
+    },
+    {
+      "slot": 2,
+      "filename": "02-genuine-source-detail-no-truncated-copy-QA.jpg",
+      "origin": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "crop_original_xyxy": [
+        588,
+        433,
+        1040,
+        913
+      ],
+      "role": "REVISED_REAL_PHOTO_DETAIL_CROP",
+      "description": "Open cream jar and golden encapsulated cream, no clipped promotional headline",
+      "not_independent_scene": true,
+      "sha256": "8de6185b2bc764cde8eddf090981a497ac8515b9f6ff441370e3a73b3c04e168",
+      "bytes": 154252
+    },
+    {
+      "slot": 3,
+      "filename": "03-GOODAL-Alpha-real-hand-cream-no-claim-QA.jpg",
+      "origin": "qa-review/v2804-goodal-alpha-open-jar-no-clipped-marketing-copy-QA/03-GOODAL-Alpha-real-hand-cream-no-claim-QA.jpg",
+      "role": "PRESERVED_UNCHANGED",
+      "sha256": "3a703b86f0d51c1b53166c9c1348585e84fa9e27eb0ea6411a1b9e092907b8f5",
+      "bytes": 150722
+    },
+    {
+      "slot": 4,
+      "filename": "04-GOODAL-Alpha-real-photo-QA.jpg",
+      "origin": "qa-review/v2804-goodal-alpha-open-jar-no-clipped-marketing-copy-QA/04-GOODAL-Alpha-real-photo-QA.jpg",
+      "role": "PRESERVED_UNCHANGED",
+      "sha256": "133e2d946e7118dfaac86776f4dfa004d99ec67bcfa113b0cdfb4bfc8f12b972",
+      "bytes": 122651
+    },
+    {
+      "slot": 5,
+      "filename": "05-genuine-source-detail-no-truncated-copy-QA.jpg",
+      "origin": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "crop_original_xyxy": [
+        703,
+        426,
+        1037,
+        765
+      ],
+      "role": "REVISED_REAL_PHOTO_DETAIL_CROP",
+      "description": "Real cream and golden bead macro, not an independent fourth/fifth photograph",
+      "not_independent_scene": true,
+      "sha256": "2b4abfa234c54dafc376c6c00d83f7ee94b0881ed77cd63fc23ca3df085ba72c",
+      "bytes": 105657
+    }
+  ],
+  "human_fullsize_visual_QA_required": true
+}
