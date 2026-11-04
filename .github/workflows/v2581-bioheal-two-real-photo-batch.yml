@@ -1,0 +1,33 @@
+name: Shopee v2581 two BIOHEAL BOH product photo batches
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2581_two_boh_exact_sku_photo_source_batch.py'
+      - '.github/workflows/v2581-bioheal-two-real-photo-batch.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  two-sku-real-source-recovery:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore only latest existing QA images, never regenerate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2581-original
+      - name: Gather four authentic retailer product images from two product family pages
+        run: python scripts/v2581_two_boh_exact_sku_photo_source_batch.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2581-two-BIOHEAL-BOH-skus-real-photo-QA-no-XLSX
+          path: v2581-bioheal-two-products-four-real-source-images/
+          retention-days: 90
+          if-no-files-found: error
