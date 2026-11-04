@@ -1,0 +1,475 @@
+{
+  "version": "v2762",
+  "baseline": "v2761",
+  "product_families": [
+    "pending-08",
+    "pending-13"
+  ],
+  "legacy_PERIPERA_variant_JPG_and_alpha_pairs_integrated": 20,
+  "legacy_variant_exact_source_bytes_reused": 20,
+  "photo_option_26AD_interpolation_performed": false,
+  "shade_option_range": "01-20 only; do NOT add 21-26",
+  "peripera_photo_source_holds": [
+    "12",
+    "13",
+    "14",
+    "18",
+    "19"
+  ],
+  "missha_serum_new_5frame_QA_set": true,
+  "missha_serum_only_one_slot_changed": 2,
+  "missha_serum_four_original_JPGs_preserved": true,
+  "newly_rendered_product_pixel_count": 0,
+  "licensed_commercial_photo_rights_confirmed": false,
+  "actual_stock_edition_matching_proven": false,
+  "original_MK_round_logo_verified": false,
+  "new_retail_approvals": 0,
+  "original_11_published_families_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "prior_v2761_assets_modified": false,
+  "final_spreadsheet_shared": false,
+  "peripera_variants": [
+    {
+      "shade_number": "01",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/01-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/01-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        630,
+        712
+      ],
+      "png_sha256": "539e94ecb55afc25b9ebb5cf2744f8e78bc79232d77ca298f5ce7e82213fc032",
+      "jpg_sha256": "ae13ca7c05c7174d79bca73e9ea63f0a1a62016a78b576a808eece4cb0b34ad2",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "02",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/02-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/02-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        613,
+        711
+      ],
+      "png_sha256": "446d36ebf2a0b96d52ab06db9a395d8451327df17a69e96db014f6d98ab37722",
+      "jpg_sha256": "c6f46f8e207d726b1d99b0cc15064d40ac8a9a34f0fc7c2c8c2ca320028fa89c",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "03",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/03-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/03-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        638,
+        710
+      ],
+      "png_sha256": "a2d1994e6c546c8e130401b783db84d62126a623c0c9c1f9da87413beded27f5",
+      "jpg_sha256": "1c0f5d4562da6d668e666d2037e92143b748908a83632a4ed24da45cb6964a57",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "04",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/04-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/04-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        622,
+        706
+      ],
+      "png_sha256": "b29c1e0eab30aec867eaafe384e41e041f3fa7bf039ee84dc42a72f372ccbde6",
+      "jpg_sha256": "62dcf86df6f6de864cf0fc9125d33147b5512252ea3821a6be2c4376591643b3",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "05",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/05-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/05-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        665,
+        705
+      ],
+      "png_sha256": "aaba86f8dc90ecacfe6daabd5a758b93f4ba8be6bba6fee3d879479b85bbb689",
+      "jpg_sha256": "13871398edc69358a7bc781463582174439c8f4f5cee9805f08dd9ba92ba4bb3",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "06",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/06-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/06-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        625,
+        704
+      ],
+      "png_sha256": "3edc7a087472f79c4b1e5b3cc8300fb7d176adbe32b016cf0009236c122f1e6c",
+      "jpg_sha256": "b19d94645d032f04d383d7c0777cbeb9230c26b91b1993ba3750425a3e7e0132",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "07",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/07-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/07-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        497,
+        716
+      ],
+      "png_sha256": "4a5e8e25b39c7dab0568213e5892dc82aaa9ccd41c59f8de91ea33dc04904211",
+      "jpg_sha256": "6ee42ef54c8532ff5cb257af4564a6890262e7d6c34b1121eab9580708252ea2",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "08",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/08-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/08-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        493,
+        714
+      ],
+      "png_sha256": "c73905ee224746882b7b5610a5288b12795b8e2d0d196c18c2c4276c0a26946e",
+      "jpg_sha256": "84fceec8458f433a5cc5c753547a94c118eb22f4c1ef28f4fbdd79451d722025",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "09",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/09-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/09-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        488,
+        708
+      ],
+      "png_sha256": "cbb786068c1f7098d794392d42d95490fd86d93139eeb31c365911a3ea9e8850",
+      "jpg_sha256": "c5edee0524e92a12e90eb4282392d4fb3dfff57e316ec63912a0a91d18a48ea0",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "10",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/10-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/10-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        466,
+        706
+      ],
+      "png_sha256": "dca7409d11aa18354fef850e601a8673fab0d75e0ea372d73652ef5c7eeeee29",
+      "jpg_sha256": "24502e42c90c8b539d42efbfc552ddb488569baac763616a8bf69f6b268b7cc8",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "11",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/11-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/11-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        496,
+        709
+      ],
+      "png_sha256": "dbccec9791c2656ffea5b9462f571b01f2df924445e8287fee31c3846be30224",
+      "jpg_sha256": "4804739ee0ff879e65588aebff52624a0f8a9bc3e501e685d39cc3eb47a2e8b4",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "12",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2755",
+      "png_file": "pending-08-peripera-legacy-01to20/12-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/12-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        229,
+        325
+      ],
+      "png_sha256": "f2be139de08864050243c1b3153c9cdf5a38aad7e6dd637b84587984373b569d",
+      "jpg_sha256": "1a8c7b7b21f56fee6b38501127c9ec2b8f8f98dcc20ff3dbc1cb6a1662959411",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "HOLD_VISUAL_CONTENT_OR_OPTION_ID",
+      "known_issue": "Old Peritage Warm-gorithm, require exact owned stock edition confirmation",
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "13",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2754",
+      "png_file": "pending-08-peripera-legacy-01to20/13-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/13-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        772,
+        1006
+      ],
+      "png_sha256": "812da8abf2a83ec36474da02749fbbc886a639adf08ca87e36901d75fa4a37f1",
+      "jpg_sha256": "2ccc0c92c398d12834437afa4a84998a8567778140afd828e56afa3a3fd370ca",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "HOLD_VISUAL_CONTENT_OR_OPTION_ID",
+      "known_issue": "Old Peritage Berry Pretty, ribbon variant may differ from original inventory",
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "14",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2754",
+      "png_file": "pending-08-peripera-legacy-01to20/14-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/14-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        225,
+        273
+      ],
+      "png_sha256": "e47088e5d67f561ae8155ae02d65a0ed651c1d697a46d45b01b2bc12ec63f772",
+      "jpg_sha256": "def36acc38716685d7e576cdb562bf46b072ca9ad02877842aa9ce149c0e7b44",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "HOLD_VISUAL_CONTENT_OR_OPTION_ID",
+      "known_issue": "Old Peritage Follow Rose label; actual owned 014 and 26AD names conflict",
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "15",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/15-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/15-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        355,
+        570
+      ],
+      "png_sha256": "ab565b07fddf13d92586220fba6dbc47bbd3ad426c3e414ed01b3dc8847f19cb",
+      "jpg_sha256": "71fb367e6286f0e6f1dce6762d9a2544afd6444c6843f19797f799a2f0771bfe",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "16",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/16-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/16-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        333,
+        571
+      ],
+      "png_sha256": "d44e199b81b26dc52576656c8eaf5ab7521fd01cafa5819ea3ad3cc954756932",
+      "jpg_sha256": "97d0434fb8408af4b32890ee413c3b40cbceb7f8039f76fc86bb47d18907593f",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "17",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/17-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/17-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        332,
+        570
+      ],
+      "png_sha256": "abd0c8916b0beab761126008a708b3cd01252920a61b15dcd84bfedb15e63f23",
+      "jpg_sha256": "6c578f17b7bc196273c23fa7084a3844a5c24a0b014fe98d3e3a2182048a0589",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "18",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2760",
+      "png_file": "pending-08-peripera-legacy-01to20/18-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/18-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        630,
+        870
+      ],
+      "png_sha256": "3e079be3cd5c4670f575220007e5eab1063d6981a970d2e315e0f36122bd0860",
+      "jpg_sha256": "df570eba2df027b05b8bb38348a4ba1e6378660e8bbc2b2760cf0d6e6c00484f",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "HOLD_VISUAL_CONTENT_OR_OPTION_ID",
+      "known_issue": "Nude Area: decorative lipstick swatch remains behind product. Not a bare clean packshot",
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "19",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2761",
+      "png_file": "pending-08-peripera-legacy-01to20/19-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/19-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        371,
+        533
+      ],
+      "png_sha256": "4ea3c9c14c735827cf64ef461928c4bf93e3d8be591c4322ad93dc5f6665b0b4",
+      "jpg_sha256": "92a03a4e61a5f1cc414591fed48ff04a5cee5bdc147acb487a787b18475cc3ec",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "HOLD_VISUAL_CONTENT_OR_OPTION_ID",
+      "known_issue": "Mauve Chaos: background paint swatch remains attached. Not a bare clean packshot",
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade_number": "20",
+      "product_family": "pending-08",
+      "variant_edition": "LEGACY_PRE_26AD_ONLY",
+      "source_QA_version": "v2753",
+      "png_file": "pending-08-peripera-legacy-01to20/20-legacy-source-alpha-QA.png",
+      "jpg_file": "pending-08-peripera-legacy-01to20/20-legacy-product-1080-QA.jpg",
+      "alpha_dimensions": [
+        293,
+        508
+      ],
+      "png_sha256": "a50946af4f1973562d6eadf4007c30d991c4b76b620567e0f7b701cf91fba209",
+      "jpg_sha256": "b5c85ba2da1761fd70a54b8e4e5ddd633f6815036356246da27b4b954e079d96",
+      "photo_files_exactly_preserved": true,
+      "manual_photo_qa": "QA_CANDIDATE_REQUIRES_STOCK_AND_RIGHTS_CHECK",
+      "known_issue": null,
+      "physical_stock_editions_verified": false,
+      "licensed_commercial_use_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "missha_serum_frame_sources": [
+    {
+      "slot": 1,
+      "file": "pending-13-missha-serum-30ml/01-old-source-byte-identical.jpg",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/01-original-byte-preserved-QA.jpg",
+      "source_sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "new_revision_change": false,
+      "source_bytes_identical": true
+    },
+    {
+      "slot": 2,
+      "file": "pending-13-missha-serum-30ml/02-v2761-official-single-serum-dropper-hero.jpg",
+      "source": "qa-review/v2761-peripera19-no-lip-panel-and-missha30ml-source03-qa/pending-13/serum-exact-photo-detail-1080-QA.jpg",
+      "source_sha256": "4fc9c0ad54adff8dced03d6370deb6f82fd7d2fee7c6469cf8e483894a079675",
+      "new_revision_change": true,
+      "source_bytes_identical": true
+    },
+    {
+      "slot": 3,
+      "file": "pending-13-missha-serum-30ml/03-old-source-byte-identical.jpg",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/03-original-byte-preserved-QA.jpg",
+      "source_sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "new_revision_change": false,
+      "source_bytes_identical": true
+    },
+    {
+      "slot": 4,
+      "file": "pending-13-missha-serum-30ml/04-old-source-byte-identical.jpg",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/04-official-30mL-serum-model-holding-single-product-QA.jpg",
+      "source_sha256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+      "new_revision_change": false,
+      "source_bytes_identical": true
+    },
+    {
+      "slot": 5,
+      "file": "pending-13-missha-serum-30ml/05-old-source-byte-identical.jpg",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/05-net-content-factual-only-QA.jpg",
+      "source_sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "new_revision_change": false,
+      "source_bytes_identical": true
+    }
+  ]
+}
