@@ -1,0 +1,57 @@
+{
+  "checkpoint": "v301",
+  "parent": "v298",
+  "date": "2026-11-05",
+  "source_proof": {
+    "run_id": 41863096127,
+    "artifact_id": 13341581172,
+    "official_originals_downloaded": 5
+  },
+  "new_output": {
+    "goodsNo": "1000000178",
+    "role": "authentic cushion compact open with puff",
+    "filename": "BBIA_1000000178_DISTINCT_DETAIL_v299_QA_PENDING.jpg",
+    "reused_unchanged": true,
+    "bytes": 89905,
+    "sha256": "561530f4de37ed7fbe2810c0a2818dc839b29b195bd1899777a2d45158d3a7a6",
+    "zip": "/mnt/data/bbia_v301/BBIA_v301_ONE_RETAINED_CUSHION_QA_PENDING.zip",
+    "zip_sha256": "b3a31c59433b6ba18f96c774cf304a2096958a8be347362d4fc5a1a7f2dca81b",
+    "status": "QA_PENDING_NOT_PUBLISHED"
+  },
+  "failed_and_held": [
+    {
+      "goodsNo": "1000000184",
+      "source_index": 1,
+      "rejected_draft_versions": [
+        "v299",
+        "v300"
+      ],
+      "reason": "Korean promotional claims still inside crops after two actual attempts; stop editing this source and move to another product family"
+    },
+    {
+      "goodsNo": "1000000178",
+      "source_indices": [
+        2,
+        4
+      ],
+      "reason": "Korean promotional and moisture graphics, no distinct independent product photo role"
+    },
+    {
+      "goodsNo": "1000000184",
+      "source_index": 2,
+      "reason": "Korean technical/shade content; no proof of individual option shade mapping"
+    }
+  ],
+  "sales_quality": {
+    "exact_alpha_cutout_verified": false,
+    "shade_option_verified": false,
+    "sales_approved_count": 0
+  },
+  "preservation": {
+    "prior_images_recreated": false,
+    "published_images_modified": false,
+    "verified_55_urls_modified": false,
+    "final_spreadsheet_shared": false
+  },
+  "next": "Do not repeat any v299 or v300 failed model crop. Continue another product family with product-only official image sources."
+}
