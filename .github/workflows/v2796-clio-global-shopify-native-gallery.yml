@@ -1,0 +1,32 @@
+name: Shopee v2796 actual CLIO global official gallery high-res source discovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2796-clio-global-shopify-native-gallery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  original:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: First-party source exact gallery, add only native media absent from previous QA
+        run: |
+          python scripts/v2796_clio_global_official_product_gallery.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2796-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2796-qa/qa-review/v2796-clio-meshglow-essential-global-original-gallery-source
+          cp -a qa-review/v2796-clio-meshglow-essential-global-original-gallery-source /tmp/v2796-qa/qa-review/
+          cd /tmp/v2796-qa
+          git add qa-review/v2796-clio-meshglow-essential-global-original-gallery-source
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2796 source official global product-specific high-res originals, exact CLIO cushion photo QA only'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
