@@ -1,0 +1,62 @@
+{
+  "version": "v2684",
+  "base": "v2683",
+  "new_retail_approved": 0,
+  "affected_QA_families": 1,
+  "physical_JPG_files": 5,
+  "existing_QA_image_bytes_preserved": 4,
+  "historically_sourced_photos_added_without_reencode": 1,
+  "photographic_rights_verified": false,
+  "source_product_claims_verified": false,
+  "physical_stock_edition_verified": false,
+  "latest_v2647_binary_compared": false,
+  "brand_original_MK_verified": false,
+  "existing_11_approved_families_modified": false,
+  "existing_55_public_URLs_modified": false,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-25",
+      "product": "Glow Boost Cream 50mL",
+      "changed_slot": 5,
+      "historical_photo_source_slot": 5,
+      "min_internal_photo_difference": 23,
+      "source_text_marketing_claims_unverified": "Photo contains printed Korean glow/anti-aging claim badges: unverified",
+      "unchanged_prior_images": 4,
+      "one_real_photo_added": true,
+      "sale_release": "HOLD_SOURCE_PHOTO_COMMERCIAL_RIGHTS_AND_OLD_LABEL_CLAIMS",
+      "files": [
+        {
+          "slot": 1,
+          "filename": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "ce3e9ac5b2715cbb797c119959dd6e443b1ac45d52229d773682e8234239d712",
+          "status": "PREVIOUS_QA_JPG_EXACT_BYTES"
+        },
+        {
+          "slot": 2,
+          "filename": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "sha256": "328a1046c09aeb060ea867f14f8c9b0593d468e10dcd6f99b2188378b64f07c6",
+          "status": "PREVIOUS_QA_JPG_EXACT_BYTES"
+        },
+        {
+          "slot": 3,
+          "filename": "03-fact-only-product-information-QA.jpg",
+          "sha256": "df3074aa74c918b3ed1d97dae7f7d669cd71f6a2ddb8b596c508ad42640dfac4",
+          "status": "PREVIOUS_QA_JPG_EXACT_BYTES"
+        },
+        {
+          "slot": 4,
+          "filename": "04-fact-only-net-content-QA.jpg",
+          "sha256": "afd174291a99489d3ec0b4a535fe70fb131e0891df632594b27b76a90139fd34",
+          "status": "PREVIOUS_QA_JPG_EXACT_BYTES"
+        },
+        {
+          "slot": 5,
+          "filename": "05-original-source-slot05-byte-preserved-QA.jpg",
+          "sha256": "e4fdc64930ae86d7b76018cce04b80f2a780f910a892bb2d714d702587c7adda",
+          "status": "NEW_REAL_SOURCE_PHOTO_UNCHANGED"
+        }
+      ]
+    }
+  ]
+}
