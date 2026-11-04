@@ -1,0 +1,23 @@
+{
+  "checkpoint": "v316",
+  "date": "2026-11-05",
+  "parent": "v315",
+  "execution": "Existing binary JPGs verified in mounted runtime; no regeneration on continuation",
+  "actual_jpg": 3,
+  "goodsNo": [
+    "1000000223",
+    "1000000239",
+    "1000000178"
+  ],
+  "outputs": "/mnt/data/bbia_v316/BBIA_v316_THREE_ALPHA_ISOLATED_HERO_JPG_QA_PENDING.zip",
+  "zip_sha256": "4ed30ed15e91",
+  "source": "v315 refined real-photograph alpha PNG",
+  "all_1080x1080_jpg_under_2mb": true,
+  "zip_crc": "PASS",
+  "visual_review": "See v317 dual background QA; three source-backed photos rendered without rectangular inset",
+  "published": false,
+  "new_sales_approved": 0,
+  "prior_jpgs_modified": false,
+  "verified_55_urls_modified": false,
+  "final_excel_shared": false
+}
