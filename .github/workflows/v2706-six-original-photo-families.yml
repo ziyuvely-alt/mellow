@@ -1,0 +1,37 @@
+name: Shopee v2706 six archival original-photo families QA recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2706-six-original-photo-families.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Read historic archived full product JPGs once (no source mutation)
+        run: |
+          git fetch origin b2b883b86f3e80b7723ccf39b3766dfe6f483da9
+          mkdir old_assets
+          git archive b2b883b86f3e80b7723ccf39b3766dfe6f483da9 public/owned86/20261029 | tar -x -C old_assets
+      - name: Stage only six uncopied five-source sets in an isolated QA folder
+        run: |
+          python scripts/v2706_six_original_photo_archive_families.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2706-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2706-qa/qa-review/v2706-six-archival-five-real-source-families
+          cp -a qa-review/v2706-six-archival-five-real-source-families /tmp/v2706-qa/qa-review/
+          cd /tmp/v2706-qa
+          git add qa-review/v2706-six-archival-five-real-source-families
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2706 6 archival photo-based 5-JPG QA sets with original hashes; prior sales URLs untouched'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
