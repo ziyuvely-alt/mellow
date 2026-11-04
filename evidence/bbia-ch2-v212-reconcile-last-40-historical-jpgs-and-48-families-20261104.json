@@ -1,0 +1,54 @@
+{
+  "checkpoint": "v212",
+  "date": "2026-11-04",
+  "prior": "v211b 248 mapped image occurrences, 40 unresolved, 46 goodsNo in source PLAN",
+  "actual_work": [
+    "Mapped all 40 unresolved image occurrences using corresponding ZIP embedded per-family or per-image manifest identity, not speculative regex.",
+    "Reconciled two historical product identifiers missing from cutout PLAN: Eau Perfect Brush 1000000142 from v161 and Nudy Lip Pencil 1000000227 from v188.",
+    "Produced immutable per-image source-archive, SHA256, goodsNo and method records and per-family under-five candidate byte count triage."
+  ],
+  "counts": {
+    "archived_jpg_occurrences": 288,
+    "mapped_archived_jpg_occurrences": 288,
+    "unmapped": 0,
+    "distinct_jpg_hashes": 212,
+    "source_plan_goodsNo_count": 46,
+    "additional_goodsNo_with_historical_evidence": 2,
+    "historical_goodsNo_registry_count": 48,
+    "families_with_at_least_one_archive_jpg": 48,
+    "families_with_at_least_five_unique_jpg_bytes_outside_explicit_hold": 18,
+    "families_with_fewer_than_five": 30,
+    "archived_gap_to_five_candidate_byte_count_lower_bound": 57
+  },
+  "added_families": [
+    {
+      "goodsNo": "1000000142",
+      "product": "Eau Perfect Brush",
+      "proof": "v161 manifest official listing goodsNo"
+    },
+    {
+      "goodsNo": "1000000227",
+      "product": "Nudy Lip Pencil",
+      "proof": "v188 per-image source photograph manifest"
+    }
+  ],
+  "limitations": [
+    "These are historically indexed archived candidate JPEG bytes from 72 ZIPs, not an exhaustive selected final set.",
+    "Distinct byte hashes do not establish distinct creative roles or sales readiness. Some source photos are in HOLD folders.",
+    "Do not interpret gap-to-five 57 as 57 new files required. Newer independent files may not be counted and product photo authenticity is still pending.",
+    "The external latest official listing, shade and package identity were not independently authenticated in this checkpoint."
+  ],
+  "artifacts": [
+    "BBIA_v212_48_FAMILY_MANIFEST_LINK_AND_QA_PRIORITIES.zip",
+    "BBIA_v212_RECONCILED_48_FAMILIES_40_IMAGE_MANIFEST_LINKS.json",
+    "BBIA_v212b_48_FAMILY_CANDIDATE_GAP_AND_QA_PRIORITY.json",
+    "v212_resolve_40_manifest.py",
+    "v212b_build_priority_gates.py"
+  ],
+  "new_jpg_created": 0,
+  "sale_approved": 0,
+  "previous_assets_modified": false,
+  "public_55_urls_modified": false,
+  "excel_shared": false,
+  "next": "Use exact per-image SKU linkage to review existing images and find genuinely distinct missing photographic roles; reconcile standalone newer outputs before claiming final coverage. Prioritize official packaging and variant verification and exclude cross-product source photos. Do not repeat v212 mappings."
+}
