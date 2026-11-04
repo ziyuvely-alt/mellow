@@ -1,0 +1,51 @@
+{
+  "version": "v2733",
+  "baseline": "v2732",
+  "product_families": 1,
+  "genuine_new_alpha_png_jpg_pairs": 1,
+  "actual_original_photo_bytes_changed": 0,
+  "regenerated_existing_successful_cutouts": 0,
+  "new_sales_approved": 0,
+  "old_11_approved_product_families_preserved": true,
+  "old_55_image_URLs_preserved": true,
+  "source_photos_commercial_reuse_rights_not_confirmed": true,
+  "exact_owned_stock_edition_not_proven": true,
+  "original_MK_logo_not_available": true,
+  "no_final_XLSX_shared": true,
+  "rows": [
+    {
+      "family": "pending-17",
+      "product": "Brightening Up Moisture Sun 50mL",
+      "source_JPG": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+      "source_sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+      "source_crop_xyxy": [
+        180,
+        55,
+        867,
+        1060
+      ],
+      "why_new_approach": "Extend top crop from y180 to y55 to retain full sealed upper rim in archived frame04, no new source",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_VISUAL_REVIEW",
+      "mask_alpha_coverage": 0.2467,
+      "original_roi_boundary_alpha_coverage": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "input_crop_bbox": [
+        202,
+        43,
+        519,
+        703
+      ],
+      "png": "pending-17/01-real-photographed-product-transparent-QA.png",
+      "jpg": "pending-17/01-real-photographed-product-1080-JPG-QA.jpg",
+      "png_sha256": "76d6da72b5bbdc84160794fd93093d692eba08b423bea7717ead83707326007c",
+      "jpg_sha256": "3aa5c2c6cab9983819dfc59a0c984805b3642e7ab41a7547242f220d4140596f",
+      "jpg_bytes": 90007,
+      "warning": null
+    }
+  ]
+}
