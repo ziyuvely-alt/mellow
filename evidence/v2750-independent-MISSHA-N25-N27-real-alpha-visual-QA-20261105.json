@@ -1,0 +1,53 @@
+{
+  "version": "v2750",
+  "date": "2026-11-05",
+  "family": "pending-01",
+  "baseline": "v2749",
+  "runs": {
+    "source": 41889716223,
+    "segmentation": 41890031231
+  },
+  "source_product": "MISSHA Magic Cushion Cover Lasting 15g",
+  "source_shades": [
+    "No.25",
+    "No.27"
+  ],
+  "outcome": {
+    "official_variant_photos_distinct_sha256": [
+      "16742b957e6d786f3092cc1b74febb9d383f40d1aec1c7b2ec39c078bcb66a77",
+      "6a9114e23ba1f3e32c30c1a4254d0e0fe36cf0a0d33d69d55eacdf230726e051"
+    ],
+    "new_real_transparent_PNG_JPG_pairs": 4,
+    "preferred_QA_variant_paths": [
+      {
+        "shade": "25",
+        "photo": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-product-1080-QA.jpg",
+        "alpha": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+        "visual": "CONDITIONAL_SHAPE_QA_PASS"
+      },
+      {
+        "shade": "27",
+        "photo": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-product-1080-QA.jpg",
+        "alpha": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+        "visual": "CONDITIONAL_SHAPE_QA_PASS"
+      }
+    ],
+    "rejected_alternatives": [
+      "shade-25 white_bg_contour: pale pink lid appears broken into unnatural near-white rectangular region",
+      "shade-27 white_bg_contour: pale pink lid has partial rectangle/holes"
+    ],
+    "human_contact_image_opened": true,
+    "actual_original_product_color_pixels_unchanged": true,
+    "repurpose_21_or_23_to_25_27": false
+  },
+  "sales_release": {
+    "newly_approved": 0,
+    "photo_rights_unverified": true,
+    "stock_edition_unverified": true,
+    "original_MK_logo_unverified": true,
+    "prior_11_approved_families_untouched": true,
+    "prior_55_public_urls_unchanged": true,
+    "final_XLSX_not_shared": true
+  },
+  "next": "Full-size border QA only on preferred two ISNet versions, then preserve as photo-ready QA candidates; do not regenerate white_bg_contour for these two."
+}
