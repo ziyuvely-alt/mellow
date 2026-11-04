@@ -1,0 +1,80 @@
+{
+  "version": "v2767",
+  "date": "2026-11-05",
+  "product_family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "based_on": "v2751 definitive 4-shade successful checkpoint + v2766 supplemental 21/23 photo-only grouping",
+  "prior_v2766_note": "The v2766 manifest's 0 source candidates for 25 and 27 reflects only files in THAT NEW batch and must not be construed as missing from the project. Earlier v2750/v2751 already holds both.",
+  "original_4_shade_png_jpg_pairs_verified_in_github_tree": 4,
+  "original_photo_files_recreated": 0,
+  "corrected_shade_state": [
+    {
+      "shade": "21",
+      "source_versions": "v2748",
+      "original_jpg": "qa-review/v2748-missha-coverlasting-21-source01-round-compact-only/01-missha-N21-real-compact-1080-QA.jpg",
+      "original_png": "qa-review/v2748-missha-coverlasting-21-source01-round-compact-only/01-missha-N21-actual-compact-transparent-QA.png",
+      "original_jpg_git_sha": "a3c5c96f173177452202133252e2a96647b71a8a",
+      "original_png_git_sha": "5180485c870fe306683dab1c7862b2f5ef34c1e6",
+      "jpg_bytes": 55080,
+      "png_bytes": 138240,
+      "condition": "CONDITIONAL_VISUAL_QA_AND_HISTORICAL_STOCK_OPTION_HOLD",
+      "photo_only_variant_specific": true
+    },
+    {
+      "shade": "23",
+      "source_versions": "v2747",
+      "original_jpg": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa/01-original-pink-compact-N23-1080-QA.jpg",
+      "original_png": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa/01-original-pink-compact-N23-transparent-QA.png",
+      "original_jpg_git_sha": "526fc1e442e3e3afe7b3437a82f5e82b5e7e752d",
+      "original_png_git_sha": "274c31b7dae9a52a5dbd2e1f3c06604cdf43a051",
+      "jpg_bytes": 51544,
+      "png_bytes": 109246,
+      "condition": "CONDITIONAL_VISUAL_QA_AND_STOCK_GENERATION_HOLD",
+      "photo_only_variant_specific": true
+    },
+    {
+      "shade": "25",
+      "source_versions": "v2750/v2751",
+      "original_jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-product-1080-QA.jpg",
+      "original_png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+      "original_jpg_git_sha": "fb8ab79738cee89a8a3d2e6c7d5215c911daf93d",
+      "original_png_git_sha": "1a9fca38a7c6a34abf6555c9be3814b29d2573c2",
+      "jpg_bytes": 119534,
+      "png_bytes": 397973,
+      "condition": "CONDITIONAL_ALPHA_SILHOUETTE_AND_RIGHTS_HOLD",
+      "photo_only_variant_specific": true
+    },
+    {
+      "shade": "27",
+      "source_versions": "v2750/v2751",
+      "original_jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-product-1080-QA.jpg",
+      "original_png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+      "original_jpg_git_sha": "8d2964dc877fabd21388eda533f82eaea32320b3",
+      "original_png_git_sha": "508477d6cb5eab08e65a3687b1c81d6c3bfd6b07",
+      "jpg_bytes": 122255,
+      "png_bytes": 409831,
+      "condition": "CONDITIONAL_ALPHA_SILHOUETTE_AND_RIGHTS_HOLD",
+      "photo_only_variant_specific": true
+    }
+  ],
+  "v2766_extra_source_photo_references": {
+    "N21": 1,
+    "N23": 3,
+    "mixed_21_23_isolated": true
+  },
+  "product_5_distinct_sale_frames_per_shade_completed": false,
+  "physical_stock_generation_exact_match_verified": false,
+  "original_authenticated_MK_round_logo_verified": false,
+  "commercial_redistribution_licenses_verified": false,
+  "original_11_published_families_unchanged": true,
+  "verified_55_public_image_URLs_unchanged": true,
+  "new_retail_approved": 0,
+  "final_XLSX_shared": false,
+  "do_not_repeat": [
+    "No more MISSHA 21/23/25/27 segmentation: all four already have independently sourced cutout assets.",
+    "Do not use 21/23 mixed box photo as an individual shade.",
+    "Do not recreate or overwrite approved 11-family 55 URLs.",
+    "Only check 1:1 silhouette edges and actual stock/rights before release. "
+  ],
+  "next": "Next actionable work must target truly missing 5-distinct-frame per-option photographs or unconfirmed stock rights; don't mistake reference photo candidate count for total project progress."
+}
