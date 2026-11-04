@@ -1,0 +1,50 @@
+{
+  "version": "v2821",
+  "date": "2026-11-05",
+  "baseline": "v2820",
+  "github_action_run_id": 41934171409,
+  "run_conclusion": "success",
+  "branch": "qa-assets/v2662-immutable-14-candidates",
+  "new_qa_asset": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA",
+  "product": {
+    "family": "pending-05",
+    "name": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+    "option": "21N Linen"
+  },
+  "actual_work": {
+    "reused_21N_variant_linked_Lila_original_photo": true,
+    "deleted_separate_beige_swatch_from_derived_cutout": true,
+    "actual_transparent_png_created": true,
+    "real_1080_jpg_created": true,
+    "alpha_coverage": 0.6069,
+    "visual_QA": "QA_CANDIDATE_REAL_21N_COMPACT_AND_PUFF_GEOMETRY_PRESERVED",
+    "sources_21N_23N_relabelled": false,
+    "original_21N_swatch_archived_unchanged": true,
+    "previous_23N_5JPG_set_untouched": true
+  },
+  "rights_and_sale_gates": {
+    "photo_commercial_reuse_rights_verified": false,
+    "exact_owned_stock_edition_verified": false,
+    "original_MK_logo_verified": false,
+    "retail_approved": false
+  },
+  "worldwide_variant_scope": {
+    "korean_official_7108_product_advertises": [
+      "21N",
+      "23N"
+    ],
+    "overseas_other_merchants_advertise_21C_as_third_variant": true,
+    "dont_assume_21C_in_current_korean_official_inventory": true
+  },
+  "next_execution": {
+    "version": "v2822",
+    "run_id": 41934455811,
+    "task": "DODOSKIN and Lila exact 21C Lingerie variant-linked product images, no 21N/23N substitution"
+  },
+  "protected": {
+    "old_11_approved_groups": true,
+    "old_55_public_URLs": true,
+    "previous_images_not_regenerated": true,
+    "final_XLSX_not_shared": true
+  }
+}
