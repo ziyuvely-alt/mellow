@@ -1,0 +1,44 @@
+{
+  "version": "v2633",
+  "date": "2026-11-04",
+  "source_success": "v2632",
+  "source_zip": "Shopee_v2632_156JPG_5MISSHA_photo_first_total_QA_ONLY.zip",
+  "current_zip": "Shopee_v2633_156JPG_3_photo_first_candidates_QA_ONLY.zip",
+  "current_local_path": "/mnt/data/Shopee_v2633_156JPG_3_photo_first_candidates_QA_ONLY.zip",
+  "comparison": "/mnt/data/v2633_three_photo_first_preview.jpg",
+  "real_156_jpg_verified": true,
+  "changed_jpg": 3,
+  "untouched_SHA256_identical": 153,
+  "actual_fixes": [
+    {
+      "family": "pending-12",
+      "slot": 3,
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25 15mL",
+      "change": "Original product photo enlarged by cropping inner photo in legacy beige square frame, white background and minimal proper volume footer"
+    },
+    {
+      "family": "pending-16",
+      "slot": 2,
+      "product": "Dr.G Red Blemish Clear Soothing Cream 70mL",
+      "change": "Actual product-in-hand photo enlarged to full-bleed white customer-facing image; removed surrounding nested template and provisional MK emblem"
+    },
+    {
+      "family": "pending-16",
+      "slot": 3,
+      "product": "Dr.G Red Blemish Clear Soothing Cream 70mL",
+      "change": "Actual cream open jar/texture photo enlarged and surrounding square graphic discarded; no product alteration"
+    }
+  ],
+  "previous_v2632_five_MISSHA_photo_crops_preserved": true,
+  "approved_11_families_untouched": true,
+  "public_55_URLs_modified": 0,
+  "original_MK_logo_not_fabricated": true,
+  "final_excel_or_sheets_shared": false,
+  "release_holds": [
+    "Photo-source commercial reuse rights unverified",
+    "Actual owned-stock packaging edition unverified",
+    "Original MK logo binary not recovered",
+    "Human final commercial-image QA outstanding"
+  ],
+  "next": "Resume from local v2633 ZIP. Do not repeat v2631/v2632/v2633 seven photo crops. Focus new evidenced nonduplicative photo/claim corrections and authentic MK logo acquisition; all 30 product families remain review-only."
+}
