@@ -1,0 +1,34 @@
+{
+  "schema": "bbia_ch2_v185_source_integrity_checkpoint",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v184 Last Contour Pen Eyeliner two new EN QA_PENDING",
+  "new_photo_reference": "BBIA_v185_LEAU_TINT_MINI_REAL_GROUP_PHOTO_SOURCE_REFERENCE_1080_QA_PENDING.jpg",
+  "source_id": "1000000187",
+  "source_photo_path": "batch/1000000187/photo-2.png",
+  "source_photo_size": "650x650",
+  "output_size": "1080x1080",
+  "source_origin": "archived user-owned existing product cutout ZIP; not independently proved against official original",
+  "nature": "photographic reference JPEG only, no new editorial claims, not an approved single-variant hero",
+  "new_files": [
+    "BBIA_v185_NEW_LARGE_SOURCE_PHOTO_AND_INTEGRITY_QA.zip",
+    "BBIA_v185_SOURCE_INTEGRITY_AND_NEW_PHOTO_MANIFEST.json",
+    "v185_source_integrity.py"
+  ],
+  "source_inventory": {
+    "families": 46,
+    "png_checked": 230,
+    "png_decoded": 208,
+    "png_damaged": 22,
+    "png_low_resolution_under_250px_one_axis": 36
+  },
+  "important_hold": "Eau Glow Cushion Mini goodsNo 1000000120 photo-2.png shows regular-looking open cushion; do not treat as proof of mini package until actual mini official source confirmed.",
+  "source_reference_replacement": "Previously held L'Eau Tint Mini goodsNo 1000000187 tiny 82x215 hero was not modified. Separate new group product photo can be considered for future image design, but not for exact single-shade hero.",
+  "actual_sales_approved": 0,
+  "preserved": [
+    "all original JPG, ZIP and 55 URLs",
+    "existing 24+ holds",
+    "previous v172b low resolution sample"
+  ],
+  "next": "Use 46-family source integrity results to skip 22 corrupt images before rendering. Prioritize source verification and exact mini/full-size identification for 208 valid PNG assets; do not treat technical decode as visual approval or fabricate options.",
+  "no_excel_shared": true
+}
