@@ -1,0 +1,31 @@
+{
+  "version": "v2703",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream 50mL",
+  "current_old_inventory_image_source": "v2682 pending-03 old gold-pump tube",
+  "verified_official_US_current_design_changed": true,
+  "new_current_US_box_should_replace_old_stock_gallery": false,
+  "shades_US_21_23_25_numbered_present": true,
+  "identity_status": "HOLD_OLD_VS_NEW_PACKAGE_GENERATION_NOT_PHOTO_MATCHED",
+  "retail_approved": false,
+  "copy_unchanged_SHA": [
+    {
+      "file": "01-HISTORICAL-old-gold-pump-KR-QA.jpg",
+      "sha256": "e251dbf727d8d585cf70e31cc5825659e06e4d5371ecb44a7ec6e8cb9ca05f33",
+      "source": "qa-review/v2682-seven-remaining-five-JPG-reviews/pending-03/01-existing-actual-frame03-UNMODIFIED-QA.jpg"
+    },
+    {
+      "file": "02-BRAND-UPDATE-NOTICE-REFERENCE-DO-NOT-UPLOAD.jpg",
+      "sha256": "ce2328d01cf034a4f4805bc1bf690707b0fe578cdbdcef7c08ee25be2992f0a2",
+      "source": "qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof/02-MISSHA-US-actual-source-reference.jpg"
+    },
+    {
+      "file": "03-NEW-US-pink-red-tube-REFERENCE-DO-NOT-UPLOAD.jpg",
+      "sha256": "67b5ddcaa3ca8afe15a1c0ad7e217991f2da13760df2bc2e8606cb53af64ddda",
+      "source": "qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof/01-MISSHA-US-actual-source-reference.jpg"
+    }
+  ],
+  "public_55_urls_modified": false,
+  "approved_11_product_families_unchanged": true,
+  "final_spreadsheet_shared": false
+}
