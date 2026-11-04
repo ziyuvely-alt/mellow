@@ -1,0 +1,32 @@
+name: Shopee v2815 GOODAL fix silver-cap detail only, preserve four photos byte-identical
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2815-goodal-fourth-frame-real-silver-cap-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Correct only genuine photographic source crop frame04 in isolated QA
+        run: |
+          cp scripts/v2815_goodal_frame04_keep_full_silver_cap.py /tmp/v2815.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2815-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2815-qa/qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed
+          cd /tmp/v2815-qa
+          python /tmp/v2815.py
+          git add qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2815 keep full silver tube cap in real closeup, preserve other four real JPGs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
