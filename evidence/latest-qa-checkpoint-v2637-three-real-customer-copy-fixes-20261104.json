@@ -1,0 +1,54 @@
+{
+  "version": "v2637",
+  "date": "2026-11-04",
+  "source_success": "v2636",
+  "current_archive": "/mnt/data/Shopee_v2637_156JPG_3_customer_caption_corrections_QA_ONLY.zip",
+  "comparison": "/mnt/data/v2637_three_customer_captions_before_after.jpg",
+  "manifest": "/mnt/data/v2637_156_QA/manifest.json",
+  "actual_JPG_count": 156,
+  "actual_modified": 3,
+  "untouched_SHA256_identical": 153,
+  "changed": [
+    {
+      "family": "pending-23",
+      "slot": 3,
+      "product": "OBgE Pore Zero Oil Control Sun Cream 50ml",
+      "old": "Real 50 mL tube and texture scene",
+      "new": "OIL CONTROL SUN CREAM | 50 mL"
+    },
+    {
+      "family": "pending-28",
+      "slot": 1,
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 210mL / 70 pads",
+      "old": "A close-up of the real pad texture",
+      "new": "SERUM PAD TEXTURE | 70 PADS"
+    },
+    {
+      "family": "pending-30",
+      "slot": 3,
+      "product": "PIXEL PURE Aura Radiance Serum 50ml",
+      "old": "Your selected 50 ml serum",
+      "new": "AURA RADIANCE SERUM | 50 mL"
+    }
+  ],
+  "technical_verification": {
+    "all_images_1080_square": true,
+    "all_images_under_2MB": true,
+    "all_images_JPG": true,
+    "zip_integrity_test": true,
+    "only_expected_3_changed": true
+  },
+  "preservation": {
+    "previous_approved_11_families_untouched": true,
+    "existing_55_public_urls_untouched": true,
+    "prior_153_images_byte_identical": true,
+    "final_excel_spreadsheet_shared": false
+  },
+  "holds": {
+    "exact_product_package_version": false,
+    "commercial_photo_usage_rights": false,
+    "original_MK_logo": false,
+    "final_human_sales_QA": false
+  },
+  "next": "Resume from v2637 ZIP; never repeat these three edits or prior fixes. Pending-30 slot03 tiny photograph source must not be upscaled from low-resolution crop. Focus independently verifiable commercial-safe exact SKU photos and MK logo; preserve old public URLs."
+}
