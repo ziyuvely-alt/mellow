@@ -1,0 +1,51 @@
+{
+  "version": "v2630",
+  "created_date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "baseline": "v2629",
+  "local_zip": "/mnt/data/Shopee_v2630_156JPG_two_cushion_application_guides_QA_ONLY.zip",
+  "local_manifest": "/mnt/data/v2630_two_cushion_guide_fix_QA/manifest.json",
+  "total_JPG": 156,
+  "changed_JPG": 2,
+  "untouched_sha256_identical_JPG": 154,
+  "fixes": [
+    {
+      "family": "pending-01",
+      "slot": 5,
+      "product": "MISSHA Magic Cushion Cover Lasting",
+      "old_sha256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587",
+      "new_sha256": "5d7158a7a4a119fc2ed9b39defb4251e7ef90fdd84588f8b977c7482d4b40e4e",
+      "old_customer_instruction": "03 FOLLOW LABEL",
+      "new_customer_instruction": "03 BLEND EVENLY",
+      "photo_pixels_modified": false
+    },
+    {
+      "family": "pending-06",
+      "slot": 5,
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+      "old_sha256": "c79ecc05a16a4ff73819a05267b5412514299b0b299e1c1a5075e5428490e848",
+      "new_sha256": "88d0aa732ddc134cb39e5f4503ceb32fa61ca3b90a81cd5cbeda6e0c72faa625",
+      "old_customer_instruction": "03 FOLLOW LABEL",
+      "new_customer_instruction": "03 BLEND EVENLY",
+      "photo_pixels_modified": false
+    }
+  ],
+  "technical_checks": {
+    "all_156_JPG_verified": true,
+    "all_1080_square": true,
+    "all_smaller_than_2MB": true
+  },
+  "preservation": {
+    "approved_11_families_unchanged": true,
+    "old_55_published_urls_unchanged": true,
+    "old_154_JPG_byte_identical": true,
+    "final_excel_or_spreadsheet_shared": false
+  },
+  "release_holds": {
+    "source_photo_commercial_rights_not_verified": true,
+    "real_stock_package_version_not_verified": true,
+    "original_MK_logo_not_verified": true,
+    "final_sales_approval_not_granted": true
+  },
+  "next": "Resume from v2630 ZIP; do not repeat 2 cushion step03 corrections or any v2629 fixes. Prioritize commercial source rights, exact stock edition, authentic original MK mark. Keep further changes isolated to QA, do not publish."
+}
