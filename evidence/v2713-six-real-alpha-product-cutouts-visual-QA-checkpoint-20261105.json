@@ -1,0 +1,68 @@
+{
+  "version": "v2713",
+  "date": "2026-11-05",
+  "repository": "ziyuvely-alt/mellow",
+  "last_successful_run": 41857465684,
+  "source_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "source_qa_folder": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts",
+  "actual_result": {
+    "previously_untouched_product_families_processed": 6,
+    "physically_persisted_real_alpha_png_jpg_pairs": 5,
+    "actual_visual_qa_checked": true,
+    "original_photograph_files_changed": 0,
+    "approved_public_urls_changed": 0,
+    "new_sale_approvals": 0
+  },
+  "visual_QA": [
+    {
+      "family": "pending-16",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+      "decision": "QA_CANDIDATE",
+      "why": "White jar front, bottom, lid intact. Light shadows need final commercial QA."
+    },
+    {
+      "family": "pending-24",
+      "product": "BIOHEAL BOH NAD-PRIZCELL Glow Power Serum 30mL",
+      "decision": "REJECT_DETACHED_BOTTOM_BLOB",
+      "why": "False-positive red isolated piece below serum bottle; see v2714 cleanup."
+    },
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "decision": "QA_CANDIDATE",
+      "why": "Real tilted pink toner bottle and cap preserved."
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 70 pads",
+      "decision": "REJECT_SEGMENTATION_FAILED",
+      "why": "Only a small foreground region was selected; try archived distinct slot02 in v2714."
+    },
+    {
+      "family": "pending-29",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "decision": "QA_CANDIDATE",
+      "why": "Pale jar/cap still visible, original branded packaging retained."
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "decision": "QA_CANDIDATE",
+      "why": "Tall pink bottle body/cap visually intact."
+    }
+  ],
+  "quality_rules": {
+    "automatic_alpha_coverage_is_not_final_visual_approval": true,
+    "no_unauthenticated_MK_logo_added_to_cutouts": true,
+    "no_fabricated_product_pixels_or_color_swatches": true,
+    "do_not_repeat_successful_four_cutouts": true,
+    "actual_stock_packaging_and_photo_licensing_pending": true
+  },
+  "next_action": "v2714 separate attempt on only pending-24 detached alpha island and pending-28 archive source slot02, keep other four accepted QA candidates unchanged",
+  "preserved": {
+    "original_11_published_groups": true,
+    "original_55_public_urls": true,
+    "previous_80_source_JPGs": true,
+    "final_spreadsheet_not_shared": true
+  }
+}
