@@ -1,0 +1,71 @@
+{
+  "version": "v2741-source-audit",
+  "date": "2026-11-05",
+  "baseline": {
+    "latest_completed_checkpoint": "v2740",
+    "latest_sales_approved": 11,
+    "product_families": 41,
+    "published_image_urls": 55
+  },
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "problem_confirmed": {
+    "prior_cutout_real_product_native_px": [
+      274,
+      269
+    ],
+    "prior_v2738_cutout_qa": "LOW_RESOLUTION_HOLD",
+    "previous_v2738_and_v2739_JPGs_protected": true
+  },
+  "new_external_evidence": [
+    {
+      "authority": "manufacturer_official_global_store",
+      "page": "https://obgeglobal.com/products/oil-control-finisher",
+      "exact_item_name": "Oil Control Finisher",
+      "brand": "OBgE",
+      "first_party_photo_original_candidate": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+      "same_product_image_visually_identified": true,
+      "high_native_resolution_bytes_physically_verified": false,
+      "photo_commercial_redistribution_permission_proven": false
+    },
+    {
+      "authority": "verified_retailer_global",
+      "page": "https://global.oliveyoung.com/product/detail?prdtNo=GA260136896",
+      "exact_weight": "5g",
+      "package_options": [
+        "Set",
+        "Single"
+      ],
+      "photo_identity_gating": "Single only"
+    },
+    {
+      "authority": "Shilla_dutyfree",
+      "page": "https://m.shilladfs.com/estore/kr/en/p/5936020",
+      "exact_weight": "5g",
+      "barcode_ean": "8809567709096"
+    }
+  ],
+  "execution": {
+    "code_commit": "034f5f117894e7fdf4c5bb7609fd37c77c97d403",
+    "workflow_commit": "e18422531d6ab233fa7fc597e41cb0d51cfd5572",
+    "script_path": "scripts/v2741_obge_finisher_firstparty_native_highres.py",
+    "workflow_path": ".github/workflows/v2741-obge-5g-firstparty-highres-gallery.yml",
+    "QA_output_target": "qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA",
+    "filters": [
+      "Exact official manufacturer page identity",
+      "Source native dimensions must be at least 900x900",
+      "Do not upscale old 274x269 object",
+      "No related/recommended item photos",
+      "No prior 11 approved images or 55 URL changes"
+    ],
+    "run_confirmed_complete": false,
+    "actual_new_JPGs_confirmed": false,
+    "scope": "Use only different original-quality media, not previous archived low native file"
+  },
+  "next_if_workflow_does_not_start": "Do not invent completed images. Preserve code+source evidence; proceed to an independently image-free stock identification/variant check.",
+  "brand_artwork_original_MK_logo_verified": false,
+  "photo_redistribution_rights_verified": false,
+  "actual_user_stock_matching_ean_verified": false,
+  "new_commercial_approvals": 0,
+  "final_excel_shared": false
+}
