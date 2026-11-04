@@ -1,0 +1,105 @@
+{
+  "version": "v2782",
+  "date": "2026-11-05",
+  "baseline": "v2781",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "latest_successful_QA_commit": "84a2063b8d2d95ddd9ba765e790d02ebefe3e581",
+  "verification": "Actual non-truncated GitHub Git tree; all 23 curated pending families each store 5 distinct JPEG blob SHA objects, each under 2 MB. Per-batch source SHA equality was validated in earlier turns.",
+  "total_project_families": 41,
+  "commercial_approved_families_unchanged": 11,
+  "pending_families": 30,
+  "qa_fiveframe_families_count": 23,
+  "qa_fiveframe_JPGs": 115,
+  "new_retail_approved_families": 0,
+  "qa_families_by_batch": {
+    "v2772": [
+      "pending-09",
+      "pending-21"
+    ],
+    "v2774": [
+      "pending-24",
+      "pending-25"
+    ],
+    "v2775": [
+      "pending-16",
+      "pending-22",
+      "pending-27",
+      "pending-28"
+    ],
+    "v2776": [
+      "pending-23",
+      "pending-26",
+      "pending-29",
+      "pending-30"
+    ],
+    "v2778": [
+      "pending-13"
+    ],
+    "v2779": [
+      "pending-14",
+      "pending-15",
+      "pending-17",
+      "pending-18",
+      "pending-20"
+    ],
+    "v2780": [
+      "pending-02",
+      "pending-03",
+      "pending-10",
+      "pending-11"
+    ],
+    "v2781": [
+      "pending-01"
+    ]
+  },
+  "not_yet_curated": [
+    {
+      "family": "pending-04",
+      "blocker": "CLIO mini 5g prior cutout retained wrong old MK/background; clean single mini reference required"
+    },
+    {
+      "family": "pending-05",
+      "blocker": "CLIO Founwear Mini archived source includes kit/additional components"
+    },
+    {
+      "family": "pending-06",
+      "blocker": "CLIO Mesh Glow Essential archived source includes kit/multiple cushion items"
+    },
+    {
+      "family": "pending-07",
+      "blocker": "CLIO Mesh Blur archived source contains GIFT components"
+    },
+    {
+      "family": "pending-08",
+      "blocker": "PERIPERA Tint 001..020 original shade/26AD generation conflict; no fabricated swatch"
+    },
+    {
+      "family": "pending-12",
+      "blocker": "MISSHA PDRN Renew Peel Shot 25 photographed 15mL vs historic stock listing 15g"
+    },
+    {
+      "family": "pending-19",
+      "blocker": "GOODAL Vita C Cream Alpha 50mL needs additional distinct genuine product/use photos; a routine graphic is not a new product photograph"
+    }
+  ],
+  "global_release_holds": [
+    "Commercial source photo/model redistribution permission not verified",
+    "Exact user-owned physical stock packaging/option generation not independently matched",
+    "Original authenticated MellowKR round MK logo unavailable; no false logo",
+    "Historical scenes 02-05 contain unverified MK badge/claims",
+    "Photo curation/5 files does not imply commercial quality approval"
+  ],
+  "immutable": {
+    "original_11_approved_families": true,
+    "public_55_verified_URLs": true,
+    "prior_source_JPG_bytes_untouched": true,
+    "final_spreadsheet_shared": false
+  },
+  "next_tasks": [
+    "Obtain genuine individual product scene for 4 blocked CLIO family photos, avoid repeating same failed masks",
+    "Validate official PERIPERA shade chart against owned 001-020 generation",
+    "Reconcile MISSHA 15mL and 15g packaging evidence",
+    "Acquire real additional GOODAL 50mL cream texture/use photos without inventing images",
+    "After source and rights passes, do full-quality per-frame visual QA and versioned public URLs; never overwrite approved 55"
+  ]
+}
