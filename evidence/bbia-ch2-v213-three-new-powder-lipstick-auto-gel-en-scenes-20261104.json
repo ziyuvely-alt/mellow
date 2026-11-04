@@ -1,0 +1,44 @@
+{
+  "checkpoint": "v213",
+  "date": "2026-11-04",
+  "previous": "v212 48 goodsNo linked to 288 historical JPG occurrences; 212 distinct archived JPG hashes",
+  "created_new_jpg_count": 3,
+  "products": [
+    {
+      "goodsNo": "200",
+      "name": "BBIA Last Powder Lipstick",
+      "sources": [
+        "batch/200/photo-3.png",
+        "batch/200/photo-4.png"
+      ],
+      "roles": [
+        "pigment texture reference",
+        "product-in-studio photo"
+      ],
+      "new_jpg": 2
+    },
+    {
+      "goodsNo": "206",
+      "name": "BBIA Last Auto Gel Eyeliner",
+      "source": "batch/206/photo-4.png",
+      "role": "model holding actual pencil as generic archived campaign; NOT exact variant or pigment proof",
+      "new_jpg": 1
+    }
+  ],
+  "inputs": "BBIA_Cutout_Progress_20261030.zip",
+  "artifacts": {
+    "zip": "BBIA_v213_THREE_NEW_REAL_PHOTO_EN_QA_PENDING.zip",
+    "contact": "BBIA_v213_THREE_NEW_SCENES_CONTACT.jpg",
+    "script": "v213_three_missing_scenes.py",
+    "manifest": "v213_new_EN/QA_MANIFEST_v213.json"
+  },
+  "technical_qa": "3 newly generated JPEG images 1080x1080, each under 2000000 bytes, all decoded, ZIP CRC passes; SHA256 for archived source and generated JPEG in manifest; contact sheet visually inspected.",
+  "selective_fix": "Removed legacy shade/product advertising inset at bottom of eyeliner model source by cropping archived photo-4.png before layout; only v213 new JPEG regenerated, existing v150-v212 assets untouched.",
+  "historical_photo_limit": "Current official original photo identity, package, color variant and sales suitability not independently verified. Model/photo and pigment image are scene references only, not final claims.",
+  "sales_approved_this_checkpoint": 0,
+  "translations_created": 0,
+  "previous_assets_changed": false,
+  "verified_55_urls_changed": false,
+  "excel_shared": false,
+  "next": "Do not recreate v213 three images. Match these two families to latest selected complete 5-role sets and verify current product photos/shades before sales. For other families, prioritize distinct authenticated packaging or approved swatch references; do not infer sale completion from count or byte hashes."
+}
