@@ -1,0 +1,56 @@
+{
+  "checkpoint": "v216",
+  "date": "2026-11-04",
+  "base": "v215",
+  "actual_execution": {
+    "workflow": "BBIA v216 immutable public image QA",
+    "run_id": 41823294105,
+    "job_id": 126551558559,
+    "status": "completed",
+    "conclusion": "success",
+    "head_sha": "26b9c11aa02a0c8b37881483a6807c98ee210390",
+    "run_url": "https://github.com/ziyuvely-alt/mellow/actions/runs/41823294105",
+    "artifact_id": 13317708853,
+    "artifact_name": "bbia-v216-public-qa",
+    "output": {
+      "jpg_checked": 97,
+      "families": 20,
+      "duplicate_sha_groups": 0,
+      "targets": {
+        "200": {
+          "count": 0,
+          "status": "OFFICIAL_SHADE_AND_PRODUCT_QA_HOLD"
+        },
+        "206": {
+          "count": 6,
+          "technical_issues": 0
+        },
+        "1000000122": {
+          "count": 6,
+          "technical_issues": 0
+        },
+        "1000000124": {
+          "count": 0,
+          "status": "REFILL_HERO_NOT_YET_CREATED"
+        }
+      }
+    }
+  },
+  "code_added": [
+    ".github/workflows/bbia-v216-public-qa.yml",
+    "scripts/bbia_v216_public_qa.py"
+  ],
+  "constraints": {
+    "no_preexisting_jpg_modified": true,
+    "no_verified_55_url_modified": true,
+    "no_new_product_image_generated": true,
+    "no_sales_approval_claimed": true,
+    "final_spreadsheet_not_shared": true
+  },
+  "next": [
+    "Use official refill-specific isolated hero reference; create candidate only after source bytes available and quality verified",
+    "Inspect existing active five-scene drafts for goodsNo 200 and 206; no duplicate render",
+    "Resolve shade 21 naming conflict before assigning option images",
+    "Validate visual content and captions; JPG technical pass is not sales approval"
+  ]
+}
