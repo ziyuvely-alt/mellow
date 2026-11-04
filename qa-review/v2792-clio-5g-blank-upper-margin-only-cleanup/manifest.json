@@ -1,0 +1,111 @@
+{
+  "version": "v2792",
+  "baseline": "v2791",
+  "QA_product_families": 2,
+  "total_1080_JPG_files": 10,
+  "newly_fixed_CLIO_slots": [
+    1,
+    2
+  ],
+  "other_previous_QA_frames_sha_preserved": 8,
+  "reason_previous_v2790_failed": "Inpainting modified pixels outside approved top header region; stopped and abandoned mask method",
+  "strategy": "Opaque-white replacement only for <=155px verified empty top border, original product body pixels not changed before jpeg encoding",
+  "successful_commercial_release": false,
+  "unverified_photo_rights_still_held": true,
+  "physical_owned_stock_option_generation_verified": false,
+  "genuine_original_MK_logo_available": false,
+  "existing_11_approved_families_untouched": true,
+  "existing_55_public_photo_URLs_untouched": true,
+  "older_v2789_and_v2791_JPG_sources_untouched": true,
+  "final_spreadsheet_shared": false,
+  "families": [
+    {
+      "family": "pending-19",
+      "frames": [
+        {
+          "slot": 1,
+          "file": "01-existing-authentic-isolated-product-hero-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+          "size_bytes": 64028
+        },
+        {
+          "slot": 2,
+          "file": "02-official-real-jar-cream-background-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+          "size_bytes": 83045
+        },
+        {
+          "slot": 3,
+          "file": "03-official-open-closed-jar-photo-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+          "size_bytes": 192391
+        },
+        {
+          "slot": 4,
+          "file": "04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+          "size_bytes": 174982
+        },
+        {
+          "slot": 5,
+          "file": "05-real-cream-formula-closeup-without-ad-copy-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "ed7be360ebbc6184f7a258c2173c86c303c1ba3570741ef131c54944c209b997",
+          "size_bytes": 53171
+        }
+      ]
+    },
+    {
+      "family": "pending-04",
+      "frames": [
+        {
+          "slot": 1,
+          "file": "01-clean-white-top-border-no-truncated-english-QA.jpg",
+          "change": "WHITEN_ONLY_0_TO_155_UPPER_EMPTY_BORDER",
+          "previous_sha256": "24df063483488bef0ec995da20935b75e6b4351096b7b52f1a4dc11c58491831",
+          "sha256": "9c453977e430068164e823c5cb3a09372fe37d3f400be61de9faa949c20e0057",
+          "top_margin_chromatic_fraction": 0.0,
+          "product_pixels_unchanged_prior_encoding": true,
+          "all_other_existing_source_assets_untouched": true,
+          "size_bytes": 106530
+        },
+        {
+          "slot": 2,
+          "file": "02-clean-white-top-border-no-truncated-english-QA.jpg",
+          "change": "WHITEN_ONLY_0_TO_155_UPPER_EMPTY_BORDER",
+          "previous_sha256": "ee4a276523db79e581a467dca06a03a6289927dcdfb21c877fdfdc7920a04af0",
+          "sha256": "9e15a14438da8fd03293018100cb9d6928222dc98f2cd40b119d18a99c22d16c",
+          "top_margin_chromatic_fraction": 0.0,
+          "product_pixels_unchanged_prior_encoding": true,
+          "all_other_existing_source_assets_untouched": true,
+          "size_bytes": 176551
+        },
+        {
+          "slot": 3,
+          "file": "03-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "305136d555ec13213606b1b02080b80d50dba1c355327e4aab306d733561a40c",
+          "size_bytes": 181803
+        },
+        {
+          "slot": 4,
+          "file": "04-archived-mini-photo-no-unknown-MK-reference-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "98010380aece3003b2b81968919a2cd7fe457a2732a7da622886f68ea106f073",
+          "size_bytes": 100996
+        },
+        {
+          "slot": 5,
+          "file": "05-official-mini-5g-handheld-600native-on-1080-QA.jpg",
+          "change": "PRESERVED_EXACT_SOURCE_BYTES",
+          "sha256": "e51e541e156c239936f98214ff30dc75681e24e1bbd89f6253bf41fa4c767697",
+          "size_bytes": 104103
+        }
+      ]
+    }
+  ]
+}
