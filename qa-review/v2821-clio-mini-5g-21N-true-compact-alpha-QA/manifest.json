@@ -1,0 +1,45 @@
+{
+  "version": "v2821",
+  "baseline": "v2820",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "option": "21N Linen",
+  "source_21N_photo": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/01-21N-variant-linked-Lila-5g-QA.jpg",
+  "source_sha256": "35abe0bf54c4ef31d365f5a8b4c8b6e0625d681b0a38c94e0efd14cbde75e3ce",
+  "independent_21N_swatch_reference": "qa-review/v2819-clio-original-mini-5g-21N-exact-variant-photo-evidence/01-source-linked-exact-21N-mini5g-QA.jpg",
+  "swatch_sha256": "3f28dd3c83363e59add1c05bdb83b71338cb089c41fe85852ccea6b12dc3fefe",
+  "do_not_use_23N_photo_as_21N": true,
+  "genuine_original_pixel_photo": true,
+  "new_retail_approved": false,
+  "exact_owned_stock_edition_verified": false,
+  "photo_commercial_rights_verified": false,
+  "original_MK_logo_verified": false,
+  "prior_55_public_urls_unchanged": true,
+  "previous_11_approved_product_families_unchanged": true,
+  "previous_v2818_23N_assets_unchanged": true,
+  "previous_v2819_and_v2820_21N_assets_unchanged": true,
+  "final_XLSX_shared": false,
+  "status": "REAL_21N_ALPHA_RENDERED_VISUAL_QA_PENDING",
+  "original_photo_crop_xyxy": [
+    170,
+    365,
+    1075,
+    1063
+  ],
+  "alpha_coverage": 0.6069,
+  "alpha_bbox": [
+    66,
+    0,
+    888,
+    575
+  ],
+  "main_component_sizes": [
+    385988
+  ],
+  "main_components_kept": 1,
+  "alpha_PNG": "01-original-21N-mini5g-compact-puff-alpha-QA.png",
+  "alpha_sha256": "4f21a98bb1da87e12d1258ee03edec8d8566f15a0fdf716c385164673f6f890e",
+  "hero_JPG": "01-real-21N-mini5g-1080-hero-QA.jpg",
+  "hero_sha256": "75a8243ee67f321f8ad27e07cc807634b2fe8cdb3868f6d35702687f7efeea05",
+  "hero_jpg_bytes": 172360
+}
