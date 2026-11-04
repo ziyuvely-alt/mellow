@@ -1,0 +1,48 @@
+{
+  "version": "v2687",
+  "date": "2026-11-04",
+  "baseline": "v2686",
+  "actual_successful_workflow_run": 41843063485,
+  "actual_verified_persistent_file": "qa-review/v2687-peripera-six-frame-reference-QA-NOT-FOR-UPLOAD/manifest.json",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "new_reference_set": {
+    "family": "pending-08",
+    "product": "PERIPERA Mood Glowy Tint 4 g",
+    "total_JPG": 6,
+    "photo_bytes_unchanged": 5,
+    "prior_verified_shade_name_index_bytes_unchanged": 1,
+    "new_fabricated_color_swatch_files": 0,
+    "new_retail_approved_image_files": 0,
+    "contact_sheet_visually_opened_and_verified": true,
+    "original_jpgs_marked_not_for_upload": true,
+    "exact_stock_generation_proof_still_missing": true
+  },
+  "process_fixes": [
+    "Earlier v2685 listing omission of 04/06/07 cannot be used as deletion criterion; those may be Olive Young exclusive",
+    "Literal 17 이로지무화과? question mark confirmed an actual published retailer name, not accidental punctuation",
+    "Do not confuse a 6-photo reference set with a verified sale-ready five-image gallery"
+  ],
+  "inventory_status": {
+    "total_families": 41,
+    "previously_approved_for_sale": 11,
+    "pending_QA_five_frame_drafts": 29,
+    "pending_reference_sixframe_qa_sets": 1,
+    "all_30_pending_families_have_physical_staged_QA_material": true,
+    "any_of_30_new_sale_approved": false,
+    "published_verified_55_URLs_preserved": true
+  },
+  "blockers": [
+    "Actual physical PERIPERA 26AD stock color identity, shade-linked photo source and licensing",
+    "License and exact stock edition for historical photographs",
+    "Official original MK logo not accessible for final image styling",
+    "Actual latest v2647 156JPG binary ZIP not accessible as full archive",
+    "29 other QA families need commercial-quality visual review; sparse factual cards not automatically sale-ready"
+  ],
+  "next_actions": [
+    "Avoid repeating v2687 six-photo set or 29 earlier QA family packaging",
+    "Acquire exact source-product shade photography and verify stock edition to turn pending08 from REFERENCE_ONLY into sale draft",
+    "Prioritize high-photo-density families as the first candidates for licensing and full final QA, not more generic text-card frames",
+    "Keep all legacy approved image URLs and artifacts untouched until explicit stock-level proof and approval gates are satisfied"
+  ],
+  "final_spreadsheet_shared": false
+}
