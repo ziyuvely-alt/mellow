@@ -1,0 +1,38 @@
+{
+  "schema": "bbia_ch2_v182_incremental_photo_artwork",
+  "date": "2026-11-04",
+  "previous_successful_checkpoint": "v181 five new EN JPG mascara 7g and Eau Matte Cushion full-size",
+  "family": "BBIA Last Velvet Tint Mini",
+  "goodsNo": "1000000186",
+  "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000186",
+  "verified_factual_size": "3.2g",
+  "archived_photo_source": "BBIA_Cutout_Progress_20261030.zip",
+  "new_en_jpg": 3,
+  "images": [
+    "01_MINI_HERO_v182_EN_QA_PENDING.jpg",
+    "02_CAMPAIGN_LOOK_v182_EN_QA_PENDING.jpg",
+    "03_REAL_BOTTLES_LINEUP_v182_EN_QA_PENDING.jpg"
+  ],
+  "source_photo_paths": [
+    "batch/1000000186/photo-2.png",
+    "batch/1000000186/photo-4.png",
+    "batch/1000000186/photo-5.png"
+  ],
+  "excluded_image": "photo-3.png lip swatches excluded: exact currently sold shades and photo origin not independently proven",
+  "output_files": [
+    "BBIA_v182_LAST_VELVET_MINI_3_NEW_EN_QA_PENDING.zip",
+    "BBIA_v182_VELVET_MINI_3_SCENES_CONTACT.jpg",
+    "v182_velvet_mini_produce.py"
+  ],
+  "photo_hashes_in_qa_manifest": true,
+  "technical": "3 new JPEG 1080x1080 under 2MB, ZIP CRC pass",
+  "visual": "Compared 3 actual final preview frames; corrected hero product too small by enlarging only frame01 and rerendering it; kept 02 and 03 byte-for-byte",
+  "source_photo_exactness": "Official original photo source pixels not independently verified against current online product page; inherited source URL SHA in source STATE.json; model photo not tied to exact shade",
+  "status": "EN_QA_PENDING, incomplete family 3/5 scenes",
+  "sale_approved": 0,
+  "translations": 0,
+  "previous_images_modified": false,
+  "public_55_urls_unchanged": true,
+  "excel_shared": false,
+  "next": "Do not redo v182 3 JPG. Find distinct authentic official photo for remaining 2 roles; keep unverified swatches out of listing. Progress to other unworked source-ready product groups when proof missing."
+}
