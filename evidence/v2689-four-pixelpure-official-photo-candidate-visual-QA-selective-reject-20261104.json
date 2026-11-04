@@ -1,0 +1,95 @@
+{
+  "version": "v2689",
+  "date": "2026-11-04",
+  "baseline": "v2688",
+  "source_checkpoints": [
+    "v2687",
+    "v2688"
+  ],
+  "execution_runs": [
+    {
+      "run": 41844137080,
+      "conclusion": "success",
+      "target_families": [
+        "pending-29",
+        "pending-30"
+      ],
+      "official_photos_saved": 2
+    },
+    {
+      "run": 41844744917,
+      "conclusion": "success",
+      "target_families": [
+        "pending-26",
+        "pending-28"
+      ],
+      "official_photo_candidate_files_saved": 2
+    }
+  ],
+  "real_visual_review": {
+    "opened_actual_v2688_contact": true,
+    "opened_actual_v2689_contact": true,
+    "accepted_photo_diversity_improvements": [
+      {
+        "family": "pending-29",
+        "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+        "photo_slot": 5,
+        "source": "pixelpure.com product_no=26",
+        "status": "QA_HOLD_RICHER_PHOTO"
+      },
+      {
+        "family": "pending-30",
+        "product": "PIXEL PURE Aura Radiance Serum 50mL",
+        "photo_slot": 5,
+        "source": "pixelpure.com product_no=25",
+        "status": "QA_HOLD_RICHER_PHOTO"
+      },
+      {
+        "family": "pending-28",
+        "product": "PIXEL PURE Glow Cleansing Serum Pad 70 sheets",
+        "photo_slot": 5,
+        "source": "pixelpure.com product_no=23",
+        "status": "QA_HOLD_RICHER_PHOTO"
+      }
+    ],
+    "rejected_photo_diversity_improvements": [
+      {
+        "family": "pending-26",
+        "product": "PIXEL PURE Gentle Gel to Foam Cleanser 145mL",
+        "photo_slot": 5,
+        "reason": "Official new image presents essentially same front-view bottle and certification badges as prior frame01 despite dHash distance of 24. Perceptual metric was fooled by graphics/layout. Do not use the v2689 replacement in a final retail gallery.",
+        "keep": "Unchanged earlier v2681 5-frame QA original set",
+        "status": "HOLD_GENUINELY_DIFFERENT_SOURCE_PHOTO"
+      }
+    ],
+    "automated_dhash_for_semantic_uniqueness_is_insufficient": true
+  },
+  "persisted_nonretail_artifacts": {
+    "photo_candidates_v2688": "qa-assets/v2662-immutable-14-candidates:qa-review/v2688-pixelpure-official-photo-candidate-upgrades",
+    "photo_candidates_v2689": "qa-assets/v2662-immutable-14-candidates:qa-review/v2689-pixelpure-official-photo-candidate-upgrades",
+    "selected_v2689_pending28_candidate_only": true,
+    "rejected_v2689_pending26_candidate_not_to_use": true
+  },
+  "next_work": [
+    "Do not repeat v2688 or v2689 official product photo selection",
+    "Never treat near identical front-view packshot with different badge placements as distinct retail media",
+    "For pending26, keep previous v2681 QA gallery until genuinely distinct licensed same-145mL packaging photograph is found",
+    "Confirm photographic commercial reuse permission, official seals claims, owned stock edition and v2647 latest",
+    "Move other product families forward only using genuinely different visual scenes, not generic information cards"
+  ],
+  "stats": {
+    "whole_project_families": 41,
+    "previous_approved_families": 11,
+    "pending_with_QA_material": 30,
+    "visually_useful_distinct_photo_improvements": 3,
+    "rejected_low_value_candidate": 1,
+    "photo_reuse_rights_verified": 0,
+    "new_retail_approved": 0
+  },
+  "protection": {
+    "existing_11_published_images_unchanged": true,
+    "existing_55_public_URLs_unchanged": true,
+    "prior_29_fiveframe_QA_families_not_regenerated": true,
+    "final_XLSX_not_shared": true
+  }
+}
