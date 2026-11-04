@@ -1,0 +1,48 @@
+{
+  "version": "v2738a",
+  "date": "2026-11-05",
+  "status": "TRANSPARENT_SVG_PREVIEW_CREATED_DIRECTLY_GITHUB_NO_RUNNER",
+  "baseline": "v2737",
+  "original_git_branch": "qa-assets/v2662-immutable-14-candidates",
+  "reason": "GitHub Actions v2738 continues queued; direct SVG records truthful alpha clipping without raster JPEG recompression",
+  "actual_QA_files": [
+    {
+      "family": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "source_image": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/05-original-source-sha-unchanged-QA.jpg",
+      "source_git_blob_sha": "e5d4be633715238920fc7a96895ce1e4ab5faf90",
+      "source_bytes_approximately": 79650,
+      "mask_path": "M 485 390 L 602 389 L 631 396 L 653 408 L 669 429 L 681 452 L 687 491 L 686 563 L 680 598 L 664 632 L 639 648 L 614 658 L 487 657 L 462 652 L 440 639 L 422 620 L 415 592 L 413 482 L 421 450 L 443 414 L 466 399 Z",
+      "mask_method": "single closed compact traced from top physical case excluding inset background",
+      "svg_path": "qa-review/v2738a-direct-contour-svg-fallback/pending-09-exact-source-photo-transparent-clip-QA.svg",
+      "svg_git_blob_sha": "8c08bc6ea247ddd6e1b659ff8b31b8cc774504a9",
+      "output_format": "SVG WITH AUTHENTIC SOURCE JPEG EMBEDDED AND TRANSPARENT CLIP",
+      "png_or_jpg_raster_produced": false,
+      "visual_edge_final_verified": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-19",
+      "product": "GOODAL Vita-C Dark Spot Care Cream Alpha 50mL",
+      "source_image": "qa-review/v2673-two-new-product-five-JPG-sets/pending-19/01-original-source-slot01-UNMODIFIED-QA.jpg",
+      "source_git_blob_sha": "49710d04814b43e40692dd5bcbd4b5a61d04d1ef",
+      "source_bytes_approximately": 84276,
+      "mask_path": "M 333 426 H 750 Q 789 426 789 465 V 533 Q 789 559 765 559 H 294 V 470 Q 294 426 333 426 Z M 296 553 H 784 Q 812 553 812 581 V 850 Q 812 886 775 886 H 306 Q 269 886 269 850 V 581 Q 269 553 296 553 Z",
+      "mask_method": "real yellow glass jar and mint green lid; exclude cream smear above",
+      "svg_path": "qa-review/v2738a-direct-contour-svg-fallback/pending-19-exact-source-photo-transparent-clip-QA.svg",
+      "svg_git_blob_sha": "9c9d365f8025f34168d4f763d0e9e020f1661ca9",
+      "output_format": "SVG WITH AUTHENTIC SOURCE JPEG EMBEDDED AND TRANSPARENT CLIP",
+      "png_or_jpg_raster_produced": false,
+      "visual_edge_final_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "next": "Render SVGs to 1080×1080 PNG/JPG when runner is available and manually check edge; v2738 original Pillow job also remains queued",
+  "unchanged_11_approved_families": true,
+  "unchanged_verified_public_55_urls": true,
+  "original_photos_unchanged": true,
+  "unverified_MK_logo_removed_from_visible_clip": true,
+  "commercial_rights_verified": false,
+  "physical_inventory_edition_verified": false,
+  "final_spreadsheet_shared": false
+}
