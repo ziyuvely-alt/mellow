@@ -1,0 +1,52 @@
+{
+  "checkpoint": "v319",
+  "date": "2026-11-05",
+  "parent": "v318",
+  "goodsNo": "1000000178",
+  "product": "BBIA EAU MATTE CUSHION",
+  "actual_execution": {
+    "new_alpha_png": 1,
+    "new_qa_hero_jpg": 1,
+    "inputs_reused": [
+      "/mnt/data/bbia_v315/BBIA_1000000178_ALPHA_REFINED_v315_QA_PENDING.png",
+      "/mnt/data/bbia_v318/BBIA_1000000178_CUSHION_ALPHA_EDGE_v318_QA_PENDING.png"
+    ],
+    "algorithm": "External contour Gaussian smoothing sigma7; 4× antialiased polygon raster; partially transparent RGB background de-matting against original matte tone; opaque source product RGB bit-identical, no additional GrabCut or erosion",
+    "source_sha256": "09209a54d6aa387f2e00d74fcdcdc41076d29a8b4489c64acc49ef508105b980",
+    "png": "BBIA_1000000178_CUSHION_CONTOUR_UNMIX_ALPHA_v319_QA_PENDING.png",
+    "png_sha256": "0a68fcf3c862ec04e8c4fb292c1535c4483a748dbba264a9e05f8e5aa97d396e",
+    "jpg": "BBIA_1000000178_CUSHION_HERO_SMOOTH_EDGE_v319_QA_PENDING.jpg",
+    "jpg_sha256": "fe9b078e55cee792dab0e1107efb19ec6e8ea26778347b3d68b732991b8fcb58",
+    "jpg_dimensions": [
+      1080,
+      1080
+    ],
+    "jpg_bytes": 144013,
+    "compare": "BBIA_v319_THREE_METHODS_DARK_LIGHT_QA.jpg",
+    "zip": "/mnt/data/bbia_v319/BBIA_v319_CUSHION_SMOOTH_ALPHA_QA_PENDING.zip",
+    "zip_sha256": "3493cf4c298c83f7b978f98ad05bbf27b69d90dd9b492d106e3935af79a81c2d",
+    "mask_area_change": 0.00364
+  },
+  "qa": {
+    "dark_and_light_visual_opened": true,
+    "assessment": "Noticeably smoother exterior rim and lid than v315 and v318; a small metallic edge highlight remains, possible residual halo on other backgrounds. Not final sales-grade pass.",
+    "preservation": "Source/jpg original assets unchanged",
+    "shade_mapping_verified": false,
+    "official_logo_verified": false,
+    "sales_approved": 0
+  },
+  "holds": [
+    "Do not repeat v318 identical contour erosion approach",
+    "No claim that source photograph commercial rights or exact shade identity verified"
+  ],
+  "preservation": {
+    "verified_55_urls_modified": false,
+    "published_images_modified": false,
+    "final_xlsx_shared": false
+  },
+  "next": [
+    "Review all 3 hero images as a consolidated set; reuse 2 original v316 JPGs and v319 cushion only",
+    "Separate material cutout from final sales approval; check model/photo geometry, typography and official option map",
+    "Store SHA source/outputs for reuse, no regenerative repeats"
+  ]
+}
