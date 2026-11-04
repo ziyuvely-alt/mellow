@@ -1,0 +1,101 @@
+{
+  "version": "v2785",
+  "baseline": "v2784",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "actual_five_1080_JPG_QA_frames_saved": true,
+  "separate_original_photographic_exposures": 4,
+  "new_source_jpgs_downloaded": 0,
+  "previous_existing_hero_reused": 1,
+  "additional_official_photo_frames_exact_source_bytes": 2,
+  "new_real_photo_detail_crops_not_AI_generation": 2,
+  "new_generated_product_pixels": 0,
+  "wrong_5_independent_photo_shoots_claim": false,
+  "commercially_approved": false,
+  "owned_stock_generation_verified": false,
+  "source_photo_permission_verified": false,
+  "authentic_MK_round_logo_available": false,
+  "outstanding_specific_reasons": [
+    "Frame03 source may contain official promotional copy that requires commercial claim clearance",
+    "Five distinct visual frames use four independently sourced photographs; macro detail is sourced from frame03",
+    "Actual physical user-owned 50mL Alpha packaging/edition not independently reconciled",
+    "Brand-owned gallery not proof of right to republish on Shopee",
+    "No authenticated round MellowKR MK logo available"
+  ],
+  "previous_11_commercially_approved_families_unchanged": true,
+  "previous_55_verified_public_URLs_unchanged": true,
+  "all_v2673_and_v2781_legacy_QA_files_untouched": true,
+  "original_v2784_three_photo_files_sha_untouched": true,
+  "final_excel_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-existing-authentic-isolated-product-hero-QA.jpg",
+      "role": "SOURCE_WHOLE_JAR",
+      "actual_source": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/pending-19/01-original-product-contour-white-1080-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+      "description": "old genuine isolated 50mL jar; original bytes untouched",
+      "retail_status": "HOLD",
+      "bytes": 64028
+    },
+    {
+      "slot": 2,
+      "file": "02-official-real-jar-cream-background-QA.jpg",
+      "role": "OFFICIAL_SINGLE_JAR",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "description": "new true cream jar photographed with cream texture backdrop",
+      "retail_status": "HOLD",
+      "bytes": 83045
+    },
+    {
+      "slot": 3,
+      "file": "03-official-open-closed-jar-photo-QA.jpg",
+      "role": "OFFICIAL_OPEN_JAR",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "description": "open and closed views of the same 50mL cream, not two-pack",
+      "retail_status": "HOLD",
+      "bytes": 192391
+    },
+    {
+      "slot": 4,
+      "file": "04-real-cream-on-hand-closeup-QA.jpg",
+      "role": "GENUINE_TEXTURE_ON_SKIN",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/03-original-PHOTOGRAPHIC_HAND_TEXTURE-QA.jpg",
+      "source_crop_xyxy": [
+        235,
+        370,
+        855,
+        800
+      ],
+      "same_source_bytes": false,
+      "only_real_photograph_pixels": true,
+      "sha256": "560742de8e47bb966f1bb37a40e21a20f6e421f32bc007543fea4d1547c06e12",
+      "description": "A real source-photograph cream application macro; top and bottom ad claims cropped out",
+      "retail_status": "HOLD",
+      "bytes": 162414
+    },
+    {
+      "slot": 5,
+      "file": "05-real-open-jar-cream-macro-QA.jpg",
+      "role": "GENUINE_OPEN_JAR_CREAM_MACRO",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_crop_xyxy": [
+        430,
+        340,
+        1020,
+        930
+      ],
+      "same_source_bytes": false,
+      "only_real_photograph_pixels": true,
+      "sha256": "569e933814c2cff1ff7c37292a71099cd0a5ca26934e87d75147afc70ed13651",
+      "description": "Actual open Alpha cream jar photographed texture at closer view; same original photo as frame03",
+      "retail_status": "HOLD",
+      "bytes": 182261
+    }
+  ]
+}
