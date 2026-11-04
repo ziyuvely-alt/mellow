@@ -88,7 +88,7 @@ serum_rows=[]
 for source in oldframes:
  slot=int(source.name[:2])
  chosen=SERUM_NEW if slot==2 else source
- dest=serum_folder/f"{slot:02d}-"+("v2761-official-single-serum-dropper-hero" if slot==2 else "old-source-byte-identical")+".jpg"
+ dest=serum_folder/(f"{slot:02d}-" + ("v2761-official-single-serum-dropper-hero" if slot==2 else "old-source-byte-identical") + ".jpg")
  shutil.copy2(chosen,dest)
  assert sha(chosen)==sha(dest)
  with Image.open(dest) as im:
