@@ -1,0 +1,103 @@
+{
+  "version": "v2663",
+  "date": "2026-11-04",
+  "baseline": "v2662",
+  "source_branch": "qa-assets/v2662-immutable-14-candidates",
+  "visual_proof": "qa-review/v2663-visual-proof/v2663-all14-contact-sheet.jpg",
+  "review_method": "Direct visual inspection of assembled 14-image contact sheet (not OCR; source JPGs not modified)",
+  "files": [
+    {
+      "family": "pending-05",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "Large MAIN + REFILL heading cut at right edge; surrounding copy cut"
+    },
+    {
+      "family": "pending-07",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "15 g CUSHION heading cut at right edge"
+    },
+    {
+      "family": "pending-02",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "MAGIC CUSHION text cropped on right"
+    },
+    {
+      "family": "pending-04",
+      "status": "HOLD_UNVERIFIED_SHADE_CHART_AND_EDITION",
+      "evidence": "Mini cushion three shade graphic; authentic swatch and product generation still not established"
+    },
+    {
+      "family": "pending-08",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "Peripera Mood Glowy Tint description cut on right, 26AD generation unverified"
+    },
+    {
+      "family": "pending-15",
+      "status": "REJECT_CUT_PRODUCT_AND_UNVERIFIED_MK",
+      "evidence": "Dr.G tube is heavily off-edge and visible MK mark cannot be authenticated"
+    },
+    {
+      "family": "pending-16",
+      "status": "HOLD_PRODUCT_IDENTITY_AND_LAYOUT",
+      "evidence": "Dr.G Red Blemish product panel visible, exact source and display copy need full-size examination"
+    },
+    {
+      "family": "pending-17",
+      "status": "HOLD_LICENSE_AND_STOCK_EDITION",
+      "evidence": "Dr.G Brightening Up Moisture Sun tube visible; cannot infer photo rights or owned stock"
+    },
+    {
+      "family": "pending-18",
+      "status": "HOLD_LICENSE_AND_STOCK_EDITION",
+      "evidence": "Dr.G Brightening Up Sun+ product visible, requires actual stock/source right confirmation"
+    },
+    {
+      "family": "pending-21",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "30 mL info card line Vita C Dark Spot Eye Cream clipped"
+    },
+    {
+      "family": "pending-22",
+      "status": "REJECT_PRODUCT_FOCUS_AND_COPY_CROP",
+      "evidence": "OBgE photo partially cropped, bottom product caption partially outside frame"
+    },
+    {
+      "family": "pending-26",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT",
+      "evidence": "GENTLE CLEANSER heading visibly cut; 145 mL physical stock proof missing"
+    },
+    {
+      "family": "pending-28",
+      "status": "REJECT_CROPPED_CUSTOMER_TEXT_AND_MK",
+      "evidence": "Left side copy cut and unverified MK-like mark visible near corner"
+    },
+    {
+      "family": "pending-29",
+      "status": "HOLD_UNVERIFIED_MK_AND_RIGHTS",
+      "evidence": "Visible MK-like badge not authenticated; product cream jar visible but not approved"
+    }
+  ],
+  "counts": {
+    "visually_reviewed": 14,
+    "explicit_visual_reject": 8,
+    "hold_for_proof": 6,
+    "retail_approved": 0
+  },
+  "safety": [
+    "Do not approve crop alternatives based only on dHash separation",
+    "No new crop or regeneration of already approved photos",
+    "For text-cut images prefer original distinct image or image redesign using actual source, not re-cropping the same text panel"
+  ],
+  "not_validated": [
+    "Exact photo rights",
+    "Latest v2647 binary match",
+    "Physical stock edition",
+    "Full-resolution final human QA"
+  ],
+  "protection": {
+    "old_55_urls_unchanged": true,
+    "legacy_11_families_untouched": true,
+    "original_14_QA_candidates_untouched": true,
+    "final_xlsx_shared": false
+  }
+}
