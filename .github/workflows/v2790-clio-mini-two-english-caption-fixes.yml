@@ -1,0 +1,29 @@
+name: Shopee v2790 CLIO mini two cropped caption patches, preserve 8 source JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2790-clio-mini-two-english-caption-fixes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  modify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Inpaint source English caption glyphs in only 2 existing mini photo QA frames, verify 8 JPG hashes
+        run: |
+          cp scripts/v2790_clio_two_source_caption_repairs.py /tmp/v2790.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2790-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2790-qa
+          python /tmp/v2790.py
+          git add qa-review/v2790-clio-mini-two-cropped-english-captions-corrected-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2790 repair 2 CLIO old English cropped text captions, preserve 8 existing real photo JPGs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
