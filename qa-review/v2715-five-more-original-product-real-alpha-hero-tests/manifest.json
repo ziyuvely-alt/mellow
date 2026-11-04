@@ -1,0 +1,128 @@
+{
+  "version": "v2715",
+  "baseline": "v2714",
+  "attempted_new_families": 5,
+  "successful_true_alpha_png_JPG_pairs": 4,
+  "original_JPGs_modified": 0,
+  "published_11_product_families_modified": 0,
+  "verified_public_55_urls_modified": 0,
+  "retail_approved": 0,
+  "stock_item_generation_verification": false,
+  "photo_use_rights_verified": false,
+  "original_MK_badge_verified": false,
+  "final_excel_shared": false,
+  "products": [
+    {
+      "family": "pending-03",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-03/01-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "6171e0644a92784718fb1aa6f5dc5528c3203213418479820fa172a38a8a7414",
+      "used_original_crop": [
+        235,
+        190,
+        873,
+        965
+      ],
+      "model": "isnet-general-use",
+      "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+      "retail_approved": false,
+      "alpha_coverage": 0.2421,
+      "bbox": [
+        190,
+        68,
+        451,
+        735
+      ],
+      "alpha_png": "pending-03/01-real-alpha-product-only-QA.png",
+      "square_jpg": "pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+      "square_jpg_sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976"
+    },
+    {
+      "family": "pending-11",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-11/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "8a47d85c96501812c7b07854f0f2d1c9d12c4207db47c023f3ce182c0f313b01",
+      "used_original_crop": [
+        235,
+        180,
+        857,
+        971
+      ],
+      "model": "isnet-general-use",
+      "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+      "retail_approved": false,
+      "alpha_coverage": 0.2637,
+      "bbox": [
+        193,
+        106,
+        416,
+        752
+      ],
+      "alpha_png": "pending-11/01-real-alpha-product-only-QA.png",
+      "square_jpg": "pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+      "square_jpg_sha256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37"
+    },
+    {
+      "family": "pending-15",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-15/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "cb19b69c09a00b2235ce16eef0650c33086862c5837b1715229d33b7fb26f4b7",
+      "used_original_crop": [
+        215,
+        190,
+        867,
+        957
+      ],
+      "model": "isnet-general-use",
+      "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+      "retail_approved": false,
+      "alpha_coverage": 0.3753,
+      "bbox": [
+        153,
+        97,
+        493,
+        767
+      ],
+      "alpha_png": "pending-15/01-real-alpha-product-only-QA.png",
+      "square_jpg": "pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+      "square_jpg_sha256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4"
+    },
+    {
+      "family": "pending-18",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-18/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "e2cd09a3abe36246e4cab7e5b1c2389e57c402941abf2dd3ba242e5a0024c158",
+      "used_original_crop": [
+        210,
+        190,
+        873,
+        965
+      ],
+      "model": "isnet-general-use",
+      "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+      "retail_approved": false,
+      "alpha_coverage": 0.3783,
+      "bbox": [
+        156,
+        87,
+        504,
+        775
+      ],
+      "alpha_png": "pending-18/01-real-alpha-product-only-QA.png",
+      "square_jpg": "pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+      "square_jpg_sha256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a"
+    },
+    {
+      "family": "pending-21",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/01-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "9ce3cb50a1c7dbdac8e3d550a8b762785f96c48cb4fc42ade6d54e087e005120",
+      "used_original_crop": [
+        230,
+        185,
+        867,
+        970
+      ],
+      "model": "isnet-general-use",
+      "status": "HOLD_MASK_REJECTED",
+      "retail_approved": false,
+      "exception_type": "AssertionError",
+      "error": "('pending-21', (427, 79, 552, 553))"
+    }
+  ]
+}
