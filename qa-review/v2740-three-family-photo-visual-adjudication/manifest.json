@@ -1,0 +1,94 @@
+{
+  "version": "v2740",
+  "date": "2026-11-05",
+  "basis": "v2738 2 successful original-cutout JPGs and v2739 3 rendered SVG cutouts",
+  "action_runs_verified": [
+    41879146502,
+    41881202155
+  ],
+  "previous_successful_checkpoint": "v2738b",
+  "newest_successful_real_raster_run": "v2739",
+  "new_actual_cutout_png_jpg_for_first_time": [
+    "pending-23"
+  ],
+  "existing_approved_qa_copies_reused": [
+    "pending-09",
+    "pending-19"
+  ],
+  "reencoded_prior_approved_photos": 0,
+  "retail_sales_approval_new": 0,
+  "technical_validation": {
+    "selected_png_jpg_pairs": 3,
+    "each_jpg_below_2MB": true,
+    "three_reviewed_from_contact": true,
+    "format": "1080x1080 JPG + true transparent PNG"
+  },
+  "source_integrity_verified_by_git_tree": true,
+  "original_source_jpgs_unchanged": true,
+  "published_11_groups_unchanged": true,
+  "published_55_urls_unchanged": true,
+  "photo_use_licensing_confirmed": false,
+  "original_authentic_MK_logo_confirmed": false,
+  "exact_owned_stock_editions_verified": false,
+  "items": [
+    {
+      "family": "pending-09",
+      "chosen_asset_origin": "v2738",
+      "qa_status": "HOLD_LOW_RESOLUTION",
+      "visual_reason": "제품 단품은 분리되었지만 원본 실제 제품 부분의 해상도 274x269 px로 메인 썸네일 확대 부적합",
+      "source_png": {
+        "path": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/pending-09/01-real-archived-object-contour-transparent-QA.png",
+        "blob_sha1": "4a214a8d1b203408d1dec97b3a65aedf57d1398e",
+        "bytes": 31871
+      },
+      "source_jpg": {
+        "path": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/pending-09/01-real-object-only-1080-JPG-QA.jpg",
+        "blob_sha1": "05af00435422376b73056884fe0994863371f7fd",
+        "bytes": 72266
+      },
+      "sales_approval": false
+    },
+    {
+      "family": "pending-19",
+      "chosen_asset_origin": "v2738",
+      "qa_status": "SHAPE_QA_ACCEPT_RETAIL_HOLD",
+      "visual_reason": "구달 비타C 크림 알파 용기와 민트색 뚜껑이 남고 주변 내용물 텍스처는 제외됨",
+      "source_png": {
+        "path": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/pending-19/01-real-archived-object-contour-transparent-QA.png",
+        "blob_sha1": "a72249f924f7680975b88b07ef7dcecb71a575cd",
+        "bytes": 188136
+      },
+      "source_jpg": {
+        "path": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/pending-19/01-real-object-only-1080-JPG-QA.jpg",
+        "blob_sha1": "c13698f31845d8156841c54628d95b3ad2bfff38",
+        "bytes": 128574
+      },
+      "sales_approval": false
+    },
+    {
+      "family": "pending-23",
+      "chosen_asset_origin": "v2739",
+      "qa_status": "SHAPE_QA_ACCEPT_RETAIL_HOLD",
+      "visual_reason": "오브제 포어제로 50mL 실제 튜브, 상단 밀봉부와 청록색 하단 캡의 윤곽 유지",
+      "source_png": {
+        "path": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/pending-23/01-authentic-source-contour-transparent-1080-QA.png",
+        "blob_sha1": "07828978a03f62eb8dacea4cda9e23aea5630afd",
+        "bytes": 173373
+      },
+      "source_jpg": {
+        "path": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg",
+        "blob_sha1": "25b80d5fbac31bc70744dc0497ca757ce908b657",
+        "bytes": 57774
+      },
+      "sales_approval": false
+    }
+  ],
+  "next_unfinished": [
+    "pending-09: Do not enlarge low-resolution original 274x269 product crop into blurry thumbnail; obtain higher-resolution exact 5g single-product photograph",
+    "pending-19: Same product exact edition/retail photo reuse rights, verify before final approval; do not reprocess v2738 PNG/JPG",
+    "pending-23: Verify exact 50mL owned stock and commercial rights, then use preserved v2739 PNG/JPG without re-creating",
+    "All remaining 30 families: follow v2737 visual quality registry, skip finished image families",
+    "Never change existing 11 approved product group files or 55 URLs"
+  ],
+  "final_excel_or_spreadsheet_shared": false
+}
