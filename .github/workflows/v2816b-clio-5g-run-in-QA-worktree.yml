@@ -1,0 +1,33 @@
+name: Shopee v2816b correct QA branch source location for CLIO mini 23N
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2816b-clio-5g-run-in-QA-worktree.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Source exact 23N 5g CLIO from existing QA reference branch, not main
+        run: |
+          cp scripts/v2816_clio_original_mini_23N_real_source.py /tmp/v2816-source.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2816b-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2816b-qa
+          test -d qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05
+          test ! -e qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source
+          python /tmp/v2816-source.py
+          git add qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2816b source exact CLIO mini 23N 5g Sasa gallery, fix QA working directory'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
