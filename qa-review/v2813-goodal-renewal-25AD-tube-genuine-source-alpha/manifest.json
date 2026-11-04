@@ -1,0 +1,104 @@
+{
+  "version": "v2813",
+  "baseline": "v2812",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+  "actual_new_source_photos_saved": 3,
+  "alpha_result": {
+    "status": "TRUE_TUBE_ALPHA_RENDERED_NEEDS_VISUAL_QA",
+    "from_source": "01-2026-renewal-single-tube-1080-QA.jpg",
+    "mask_coverage": 0.1295,
+    "bbox": [
+      415,
+      88,
+      660,
+      1014
+    ],
+    "single_component_ratio": 1.0,
+    "mask_geometry_pass": true,
+    "png": "01-real-2026-renewal-yellow-tube-transparent-QA.png",
+    "jpg": "01-real-2026-renewal-yellow-tube-alpha-hero-1080-QA.jpg",
+    "png_sha256": "abf534b3790d1f53ff74e345815cc3d3634912d8fef6889eb942b4e212323500",
+    "jpg_sha256": "e9e2ebc804482a8d74e60cfc25257df540960ac1a8d36219f980cc6c2905292e",
+    "jpg_bytes": 65153
+  },
+  "photo_sources": [
+    {
+      "position": 1,
+      "id": "2026-renewal-single-tube",
+      "source": "https://www.shegoestoseoul.com/image/cache/catalog/PRODUCT/2026/goodal/green-tangerine-vitac-dark-spot-care-eyecream/goodal-green-tangerine-vitac-dark-spot-care-eyecream-renewal-m1-480x480fill.jpg",
+      "source_role": "PHOTO_SOURCE_2026_RENEWAL_SINGLE_TUBE",
+      "source_product_generation": "2026_RENEWAL_TUBE_CANDIDATE",
+      "status": "SOURCE_SAVED_VISUAL_QA_PENDING",
+      "source_format": "JPEG",
+      "source_size": [
+        480,
+        480
+      ],
+      "qa_jpg": "01-2026-renewal-single-tube-1080-QA.jpg",
+      "jpg_sha256": "efafb6ad146a09afe1249ffea69749c4e4f91a0229f98258e0bce726cf657a6a"
+    },
+    {
+      "position": 2,
+      "id": "2026-hikoco-tube-photo",
+      "source": "https://hikoco.co.nz/cdn/shop/files/hikoco_Goodal_GreenTangerineVitaCDarkCircleEyeCream26_01.jpg?v=1772406150",
+      "source_role": "PHOTO_SOURCE_2026_RENEWAL_TUBE_AND_CREAM_TEXTURE",
+      "source_product_generation": "2026_RENEWAL_TUBE_CANDIDATE",
+      "status": "SOURCE_SAVED_VISUAL_QA_PENDING",
+      "source_format": "WEBP",
+      "source_size": [
+        1500,
+        1500
+      ],
+      "qa_jpg": "02-2026-hikoco-tube-photo-1080-QA.jpg",
+      "jpg_sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182"
+    },
+    {
+      "position": 3,
+      "id": "official-GS-store-25AD-tube-with-gift-ad",
+      "source": "https://asset.m-gs.kr/prod/64899358/1/550",
+      "source_role": "BRAND_OFFICIAL_STORE_PHOTO_HAS_EXTRA_GIFT_NOT_SINGLE_PHOTO",
+      "source_product_generation": "2026_RENEWAL_TUBE_CANDIDATE",
+      "status": "SOURCE_SAVED_VISUAL_QA_PENDING",
+      "source_format": "JPEG",
+      "source_size": [
+        550,
+        550
+      ],
+      "qa_jpg": "03-official-GS-store-25AD-tube-with-gift-ad-1080-QA.jpg",
+      "jpg_sha256": "8e219a44b3384e25a33f83f0ee977250eeb8ded27b6803fe724a3d2fa813e1ac"
+    }
+  ],
+  "source_validation": [
+    {
+      "name": "Shilla Duty Free",
+      "url": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+      "sku": "669210000423",
+      "net_content": "30mL",
+      "edition": "25AD",
+      "selling_unit": "single"
+    },
+    {
+      "name": "GS SHOP official CLIO store",
+      "url": "https://m.gsshop.com/prd/prd.gs?mseq=402535-4_17-175072&prdid=64899358",
+      "edition": "25AD",
+      "packaging": "yellow tube silver cap",
+      "promotional_gift_in_picture": true
+    },
+    {
+      "name": "2026 tube renewal image",
+      "url": "https://www.shegoestoseoul.com/image/cache/catalog/PRODUCT/2026/goodal/green-tangerine-vitac-dark-spot-care-eyecream/goodal-green-tangerine-vitac-dark-spot-care-eyecream-renewal-m1-480x480fill.jpg",
+      "packaging": "yellow tube silver cap",
+      "retailer_unlicensed_reference_only": true
+    }
+  ],
+  "old_PUMP_references_v2811_v2812_not_reused": true,
+  "same_exact_owned_stock_edition_verified": false,
+  "commercial_image_redistribution_rights_verified": false,
+  "original_MK_logo_authenticated": false,
+  "retail_approved": false,
+  "prior_11_approved_families_unchanged": true,
+  "previous_55_verified_public_URLs_unchanged": true,
+  "previous_QA_artifacts_untouched": true,
+  "final_excel_or_spreadsheet_shared": false
+}
