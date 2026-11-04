@@ -1,0 +1,92 @@
+{
+  "version": "v2707",
+  "prior_checkpoint": "v2704",
+  "repository": "ziyuvely-alt/mellow",
+  "date": "2026-11-05",
+  "physical_actions": [
+    {
+      "workflow_run_id": 41853474646,
+      "result": "success",
+      "qa_folder": "qa-review/v2705-three-recovered-photo-first-family-sets",
+      "family_ids": [
+        "pending-03",
+        "pending-09",
+        "pending-21"
+      ],
+      "preserved_original_JPGs": 15
+    },
+    {
+      "workflow_run_id": 41853747457,
+      "result": "success",
+      "qa_folder": "qa-review/v2706-six-archival-five-real-source-families",
+      "family_ids": [
+        "pending-04",
+        "pending-11",
+        "pending-15",
+        "pending-18",
+        "pending-26",
+        "pending-29"
+      ],
+      "preserved_original_JPGs": 30
+    },
+    {
+      "workflow_run_id": 41853992483,
+      "result": "success",
+      "qa_folder": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets",
+      "family_ids": [
+        "pending-16",
+        "pending-22",
+        "pending-24",
+        "pending-25",
+        "pending-27",
+        "pending-28",
+        "pending-30"
+      ],
+      "preserved_original_JPGs": 35
+    }
+  ],
+  "source_archive": {
+    "git_commit": "b2b883b86f3e80b7723ccf39b3766dfe6f483da9",
+    "source_path": "public/owned86/20261029/",
+    "reencoded_photo_JPGs": 0,
+    "recovered_original_JPGs": 80,
+    "newly_created_product_renderings": 0
+  },
+  "verified_QA": {
+    "contact_sheets_opened": 6,
+    "total_distinct_families_with_5_photo_JPG_archival_reference": 16,
+    "image_size": "1080x1080",
+    "each_under_two_MB": true,
+    "all_copies_SHA_unchanged": true,
+    "findings": [
+      "The old 2026-10-29 art contains an MK badge in lower-right corner; original standalone reference logo has not been verified. Do not treat badge as cleared branding.",
+      "Many photo scenes are richer than sparse generic info panels; however old assets still require commercial rights and actual inventory edition validation.",
+      "MISSHA M Perfect Cover BB Cream pending-03 uses older gold pump edition, not redesigned current US tube; do not mix.",
+      "CLIO Mesh Glow Mini pending-04 contains pink mini cushion source; verify actual shades and generation before using swatch images.",
+      "Dr.G Brightening Up Sun Plus pending-18 carries prior-variant label details; do not infer exact inventory edition.",
+      "OBgE Double Essence pending-11 appears as a single double-chamber 50mL+50mL bottle, not 2 separately delivered units.",
+      "PixelPure Gentle Gel-to-Foam pending-26 photo title says 145mL; avoid substituting 150mL label photos."
+    ]
+  },
+  "protection": {
+    "published_approved_families": 11,
+    "published_55_verified_urls_untouched": true,
+    "original_QA_29_and_Peripera_reference_untouched": true,
+    "final_XLSX_not_shared": true,
+    "approved_sales_images_this_run": 0
+  },
+  "next_work": [
+    "Do not repeat v2705-v2707 original-photo extraction; all 16 archived product photo families preserved.",
+    "Make next improvements by sourcing original MK logo from an authenticated owner or verifying logo rights; do not invent replacement.",
+    "With genuine logo and permissions, fix only approved badge region on derived sales asset copies without altering archived originals.",
+    "Verify real physical owned stock generation/variants (especially MISSHA BB redesign and CLIO mini shades) before publication.",
+    "Prioritize 5-photo candidate families for final sales QA; customer-facing approval remains separate from visual draft existence."
+  ],
+  "status": {
+    "total_families": 41,
+    "previous_sale_approved": 11,
+    "pending_with_QA_material": 30,
+    "pending_5photo_archival_recovered": 16,
+    "new_approvals": 0
+  }
+}
