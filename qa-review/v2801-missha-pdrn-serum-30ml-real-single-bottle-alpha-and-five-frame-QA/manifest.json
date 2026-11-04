@@ -1,0 +1,92 @@
+{
+  "version": "v2801",
+  "baseline": "v2800",
+  "family": "pending-13",
+  "five_real_JPG_QA_frames_saved": 5,
+  "four_previous_frame_files_preserved_SHA_identical": true,
+  "new_exact_firstparty_product_bottle_source_selected": true,
+  "prior_info_card_not_reused_as_cutout": true,
+  "actual_cutout": {
+    "family": "pending-13",
+    "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+    "firstparty_exact_source": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237",
+    "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+    "source_SHA256": "703c7d4e3d883364813e09087dfbf9ad08f5c4a422dd8b86b17036be6abf03ff",
+    "source_dimensions": [
+      1080,
+      1080
+    ],
+    "source_crop": [
+      130,
+      65,
+      853,
+      1064
+    ],
+    "model": "isnet-general-use",
+    "alpha_status": "RENDERED_TRUE_ALPHA_VISUAL_QA_PENDING",
+    "retail_approved": false,
+    "source_photo_1080_QA": "01-official-single-30mL-serum-source-only-1080-QA.jpg",
+    "source_photo_scaled_from_original": true,
+    "alpha_coverage": 0.26,
+    "bbox": [
+      258,
+      87,
+      569,
+      881
+    ],
+    "transparent_png": "01-actual-single-bottle-transparent-foreground-QA.png",
+    "alpha_1080_jpg": "01-actual-single-bottle-alpha-hero-1080-QA.jpg",
+    "alpha_1080_jpg_sha256": "4fa02bea32d78a37a4d964497b963d04a06218ec0af02fa7a72873985c8fe364",
+    "alpha_png_sha256": "e4cc7b55b2a386c427345dba571be05a3b13648a814cda023559f4dc6aac02b2"
+  },
+  "5_frame_set": [
+    {
+      "slot": 1,
+      "file": "01-final-QA-real-single-serum-photo.jpg",
+      "role": "genuine single 30mL serum main source",
+      "sha256": "4fa02bea32d78a37a4d964497b963d04a06218ec0af02fa7a72873985c8fe364",
+      "mask_source_if_available": true,
+      "previous_complete_frame_modified": false
+    },
+    {
+      "slot": 2,
+      "file": "02-original-v2697-byte-unchanged-QA.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/02-original-byte-preserved-QA.jpg",
+      "source_sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "same_exact_bytes": true
+    },
+    {
+      "slot": 3,
+      "file": "03-original-v2697-byte-unchanged-QA.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/03-original-byte-preserved-QA.jpg",
+      "source_sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "same_exact_bytes": true
+    },
+    {
+      "slot": 4,
+      "file": "04-original-v2697-byte-unchanged-QA.jpg",
+      "sha256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/04-official-30mL-serum-model-holding-single-product-QA.jpg",
+      "source_sha256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+      "same_exact_bytes": true
+    },
+    {
+      "slot": 5,
+      "file": "05-original-v2697-byte-unchanged-QA.jpg",
+      "sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/05-net-content-factual-only-QA.jpg",
+      "source_sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "same_exact_bytes": true
+    }
+  ],
+  "stock_generation_confirmed": false,
+  "image_commercial_reuse_rights_verified": false,
+  "original_round_MK_logo_verified": false,
+  "customer_facing_retail_approved": false,
+  "old_11_approved_families_untouched": true,
+  "old_55_public_URLs_untouched": true,
+  "original_v2696_v2697_files_untouched": true,
+  "final_XLSX_shared": false
+}
