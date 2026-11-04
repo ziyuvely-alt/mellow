@@ -1,0 +1,90 @@
+{
+  "version": "v2822b",
+  "baseline": "v2821",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "target_variant": "21C Lingerie",
+  "Korean_official_site_7108_advertises": [
+    "21N",
+    "23N"
+  ],
+  "Korean_firstparty_21C_available_confirmed": false,
+  "merchant_exact_variant_source_probes": [
+    {
+      "merchant": "DODOSKIN",
+      "url": "https://www.dodoskin.com/products/clio-kill-cover-founwear-cushion-the-original-mini-5g-3-colors.js",
+      "status": "STAGED_EXPLICIT_21C_VARIANT_LINKED_IMAGE",
+      "title": "CLIO Kill Cover Founwear Cushion The Original Mini 5g 3 colors",
+      "variant_total": 3,
+      "exact_21C_variant_count": 1,
+      "exact_21C_variants": [
+        {
+          "id": "44831593070748",
+          "title": "21C Lingerie"
+        }
+      ],
+      "variant_photo_links": [
+        "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIO_Kill_Cover_Founwear_Cushion_The_Original_Mini_5g_3_colors-21c.jpg?v=1741846912"
+      ]
+    },
+    {
+      "merchant": "Lila Beauty",
+      "url": "https://lilabeauty.com.au/products/mini-kill-cover-founwear-cushion-the-original-5g.js",
+      "status": "STAGED_EXPLICIT_21C_VARIANT_LINKED_IMAGE",
+      "title": "Mini Kill Cover Founwear Cushion The Original 5g",
+      "variant_total": 3,
+      "exact_21C_variant_count": 1,
+      "exact_21C_variants": [
+        {
+          "id": "42057464741950",
+          "title": "21C Lingerie"
+        }
+      ],
+      "variant_photo_links": [
+        "https://cdn.shopify.com/s/files/1/0071/4653/7026/files/buy-clio-mini-kill-cover-founwear-cushion-the-original-5g-at-lila-beauty-korean-and-japanese-beauty-skin-care-7742281.jpg?v=1784411712"
+      ]
+    }
+  ],
+  "source_image_21C_candidate_files": [
+    {
+      "file": "01-21C-DODOSKIN-exact-variant-QA.jpg",
+      "merchant": "DODOSKIN",
+      "variant_id": "44831593070748",
+      "exact_shade": "21C Lingerie",
+      "source_image_url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIO_Kill_Cover_Founwear_Cushion_The_Original_Mini_5g_3_colors-21c.jpg?v=1741846912",
+      "native_dimensions": [
+        1500,
+        1500
+      ],
+      "sha256": "419d2cd92b1e214cfe74a2d04510700867baa5f2051f3790db1771218a1bd1da",
+      "jpg_bytes": 27872,
+      "visual_single_compact_verification": "PENDING_DIRECT_QA"
+    },
+    {
+      "file": "02-21C-Lila-Beauty-exact-variant-QA.jpg",
+      "merchant": "Lila Beauty",
+      "variant_id": "42057464741950",
+      "exact_shade": "21C Lingerie",
+      "source_image_url": "https://cdn.shopify.com/s/files/1/0071/4653/7026/files/buy-clio-mini-kill-cover-founwear-cushion-the-original-5g-at-lila-beauty-korean-and-japanese-beauty-skin-care-7742281.jpg?v=1784411712",
+      "native_dimensions": [
+        1000,
+        1000
+      ],
+      "sha256": "9a7589bc20b54c4a37ceb222198803712ad88900918a4517fa7dcb7c44a35097",
+      "jpg_bytes": 164616,
+      "visual_single_compact_verification": "PENDING_DIRECT_QA"
+    }
+  ],
+  "never_use_other_shade_images": true,
+  "21N_23N_prior_files_unchanged": true,
+  "sale_approval": false,
+  "original_MK_logo_verified": false,
+  "photo_reuse_permission_verified": false,
+  "stock_21C_owner_inventory_match_verified": false,
+  "published_11_approved_families_untouched": true,
+  "published_55_urls_untouched": true,
+  "prior_QA_images_untouched": true,
+  "final_excel_shared": false,
+  "21C_variant_linked_real_photo_count": 2,
+  "next_action": "Visual inspect candidate photos: if only texture swatch, do not use as compact hero; stock 21C availability and right-to-publish remain HOLD."
+}
