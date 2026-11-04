@@ -13,29 +13,49 @@ OUT=Path("v2594-30family-unit-identity-and-options-qa")
 OUT.mkdir(exist_ok=True)
 allrows=I["pending_families"]
 assert len(allrows)==30
+def measures(s):
+ t=str(s).lower().replace(" ","")
+ found=[]
+ i=0
+ while i<len(t):
+  if not t[i].isdigit():
+   i+=1
+   continue
+  j=i
+  while j<len(t) and (t[j].isdigit() or t[j]=="+"):
+   j+=1
+  number=t[i:j]
+  if t[j:j+2]=="ml":
+   found.append((number,"ml"));i=j+2
+  elif t[j:j+1]=="g":
+   found.append((number,"g"));i=j+1
+  else:
+   i=j
+ return found
 hold=[];confirmed=[];ignored=[];scanned=0
 for item in allrows:
  family=item["family_id"]; name=item["family_name"]
- options=[x.strip() for x in item["option_values"] if str(x).strip()]
- found=re.search(r"(?<!d)(d+(?:s*+s*d+)?)(?:s*)(mL|ml|g|G)(?![A-Za-z])",name)
+ options=[str(x).strip() for x in item["option_values"] if str(x).strip()]
+ found=measures(name)
  if not found:
   ignored.append({"family":family,"reason":"NO_COMPARABLE_VOLUME_IN_FAMILY_NAME"})
   continue
- volume=re.sub(r"s+","",found.group(1));unit=found.group(2).lower()
- exact_options=[(re.sub(r"s+","",m.group(1)),m.group(2).lower(),op)
-                for op in options if (m:=re.match(r"^(d+(?:s*+s*d+)?)s*(mL|ml|g|G)(?:$|/)",op,re.I))]
+ volume,unit=found[0]
+ exact_options=[]
+ for option in options:
+  found_option=measures(option)
+  if found_option and option[0].isdigit():
+   n,u=found_option[0]
+   exact_options.append((n,u,option))
  if not exact_options:
   ignored.append({"family":family,"expected":volume+unit,"reason":"OPTIONS_ARE_SHADES_EMPTY_OR_NON_SIZE_METADATA"})
   continue
  scanned+=1
- discrepancies=[{"option":raw,"expected":volume+unit,"actual":n+u}
-                for n,u,raw in exact_options if (n,u)!=(volume,unit)]
+ discrepancies=[{"option":raw,"expected":volume+unit,"actual":n+u} for n,u,raw in exact_options if (n,u)!=(volume,unit)]
  if discrepancies:
-  hold.append({"family":family,"product":name,"discrepancies":discrepancies,
-   "status":"HOLD_INVENTORY_UNIT_CONFLICT_NO_AUTO_CORRECTION"})
+  hold.append({"family":family,"product":name,"discrepancies":discrepancies,"status":"HOLD_INVENTORY_UNIT_CONFLICT_NO_AUTO_CORRECTION"})
  else:
-  confirmed.append({"family":family,"expected":volume+unit,"option_values":options,
-   "status":"INVENTORY_INTERNAL_UNITS_AGREE_NOT_PHYSICAL_PACKAGING_PROOF"})
+  confirmed.append({"family":family,"expected":volume+unit,"option_values":options,"status":"INVENTORY_INTERNAL_UNITS_AGREE_NOT_PHYSICAL_PACKAGING_PROOF"})
 assert len(hold)==1 and hold[0]["family"]=="pending-12",hold
 assert E["canonical_public_product_volume"]=="15 mL"
 assert E["original_inventory_option"]=="15G"
