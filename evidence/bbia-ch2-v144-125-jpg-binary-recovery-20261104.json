@@ -1,0 +1,24 @@
+{
+  "schema": "bbia_ch2_v144_recovered_125_jpg_binary_qc",
+  "date": "2026-11-04",
+  "branch": "bbia-ch2-qa-20261104",
+  "archive": "BBIA_v144_125JPG_RECOVERED_QA_ONLY.zip",
+  "source": "v142 QA manifest + historical Library ZIP archives",
+  "review_pending": 111,
+  "hold": 14,
+  "total_original_hash_matched": 125,
+  "jpg_1080_and_under_2mb_pass": 125,
+  "missing": 0,
+  "sales_approved": 0,
+  "originals_modified": 0,
+  "git_main_modified": 0,
+  "publishing_blocked": true,
+  "visual_review": {
+    "held_palette_03_smoky_and_lovely": "same visual eye photo with different labels; hold until separate factual shade proof; never sell as distinct demonstrated looks",
+    "held_eyeliner_01_black_02_brown_03_choco": "same model eyes photographed for three differently titled shade variants; no per-shade proof, continue hold",
+    "held_glow_refill": "refill package and formula images conflict with full/mini imagery; review with official actual refill packaging",
+    "held_powder_collection": "sale content/contents not proven as SKU",
+    "held_syrup_lips": "name vs official shade conflicts"
+  },
+  "note": "Recovered original binary bytes and matched all 125 checksums. No images newly created, edited, approved, localized or published. Archive exists in working container only, not GitHub because binary upload not supported via current GitHub text action."
+}
