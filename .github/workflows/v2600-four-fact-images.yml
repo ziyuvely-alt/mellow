@@ -1,0 +1,33 @@
+name: Shopee v2600 four original factual JPG information candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2600_four_photo_free_factual_QA_frames.py'
+      - '.github/workflows/v2600-four-fact-images.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  four-independent-factual-cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse latest definitive 156 product photo review scenes without rebuilding
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765900358 -n shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX -D review
+      - name: Render four different original information scene candidates and compare to existing five
+        run: python scripts/v2600_four_photo_free_factual_QA_frames.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2600-four-original-differentiated-product-fact-photos-REVIEW-no-XLSX
+          path: v2600-four-original-product-info-JPG-review-only/
+          retention-days: 90
+          if-no-files-found: error
