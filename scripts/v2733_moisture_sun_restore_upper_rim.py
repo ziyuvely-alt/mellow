@@ -1,9 +1,7 @@
 #!/usr/bin/env python3
-"""v2733: Recover two verified 50mL Dr.G suncream foregrounds.
+"""v2733: Recover one 50mL Dr.G suncream top rim after v2732 alpha edge warning.
 
-pending-17 uses *different* archived scene 04, avoiding the previously clipped
-tilted scene 03. pending-15 keeps genuine scene 01 but extends ROI below old
-y=957 crop to preserve cap/base. Original bytes, 11 approved families and all
+pending-17 uses archived photo scene 04, extending source crop upward to retain sealed rim. v2732 pending-15 is already done and is not regenerated. Original bytes, 11 approved families and all
 55 URLs are immutable. Outputs are QA only, not commercial release.
 """
 from pathlib import Path
@@ -17,7 +15,7 @@ D.mkdir(parents=True)
 CASES=[
  {"family":"pending-17","brand":"Dr.G",
   "product":"Brightening Up Moisture Sun 50mL",
-  "source":"v2672-one-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+  "source":"v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
   "crop":[180,55,867,1060],"reason":"Extend top crop from y180 to y55 to retain full sealed upper rim in archived frame04, no new source"}
 ]
 FR="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
