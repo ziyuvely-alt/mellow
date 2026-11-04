@@ -1,0 +1,71 @@
+{
+  "version": "v2697",
+  "date": "2026-11-04",
+  "repo": "ziyuvely-alt/mellow",
+  "successful_runs": [
+    {
+      "run": 41848532262,
+      "version": "v2696",
+      "result": "success",
+      "downloaded_official_gallery_media": 12,
+      "visual_review": "v2696 media03/04 single bottle largely duplicates previous JPGs, media05 unrelated Vita C gift, media06 single-serum model scene identified"
+    },
+    {
+      "run": 41848832237,
+      "version": "v2697",
+      "result": "success",
+      "actual_new_fiveframe_qa_set": true,
+      "exact_photos_reused_without_regeneration": 5,
+      "changed_exactly_slot": 4,
+      "prior_source_frames_SHA_untouched": [
+        1,
+        2,
+        3,
+        5
+      ]
+    }
+  ],
+  "product": {
+    "family": "pending-13",
+    "name": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+    "new_qa_dir": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair",
+    "selected_official_source": "https://static.ableshop.kr/ext/images/goods/editor/26/5/12/14/0000389036.jpg",
+    "visual_qa": "Source product correctly depicts one model with one 30mL serum bottle. Four previous images and previously published images untouched.",
+    "unverified_items": [
+      "MELLOWKR text on frame01 is historic candidate, original MK logo remains unverified",
+      "photo commercial republication rights not verified",
+      "exact owned inventory label/package generation not independently confirmed",
+      "new images require final brand style commercial QA"
+    ],
+    "sale_release": "HOLD_RIGHTS_BRAND_ASSETS_STOCK"
+  },
+  "rejected_media": [
+    {
+      "media": 1,
+      "reason": "metadata/thumbnail duplication depicting multiple products"
+    },
+    {
+      "media": 5,
+      "reason": "unrelated MISSHA Vita C free gift photo"
+    },
+    {
+      "media": 3,
+      "reason": "solo product shot already represented in original frame02"
+    },
+    {
+      "media": 4,
+      "reason": "solo shot similar to original frame03"
+    }
+  ],
+  "other_pending_families_unchanged": true,
+  "previous_11_approved_families_untouched": true,
+  "verified_55_public_URLs_untouched": true,
+  "new_retail_approvals": 0,
+  "final_excel_shared": false,
+  "do_not_repeat": [
+    "No need to repeat v2696 12 photos gallery download",
+    "No need to regenerate v2697 5 frames",
+    "Do not reinstate v2695 multi-product image as frame04"
+  ],
+  "next": "Work on genuine-source/stock-version and commercial photo rights gates, not superficial checklist or filler cards"
+}
