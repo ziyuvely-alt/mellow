@@ -1,0 +1,74 @@
+{
+  "version": "v2658",
+  "date": "2026-11-04",
+  "baseline": "v2657",
+  "scope": "Official-product-page claim verification for three blocked image families; no image regeneration or sales publication",
+  "official_source_verified": [
+    {
+      "family": "pending-12",
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+      "official_claim": {
+        "volume": "15 mL"
+      },
+      "verified_at": "2026-11-04",
+      "page_text": "용량/구성 15ml; 상품정보제공고시 용량/중량 15ml",
+      "safe_future_label": "15 mL, only after physical stock edition crosscheck",
+      "forbidden_without_stock_proof": [
+        "15 g claim on merchandise",
+        "unverified package generation"
+      ],
+      "identity_gate": "HOLD_OWNED_STOCK_15G_VS_OFFICIAL_15ML"
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gentle Gel to Foam Cleanser",
+      "url": "https://www.pixelpure.com/product/detail.html?product_no=21",
+      "official_claim": {
+        "volume": "145 mL"
+      },
+      "verified_at": "2026-11-04",
+      "page_text": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "safe_future_label": "145 mL only with confirmed actual 145 mL packaging",
+      "forbidden_without_stock_proof": [
+        "Any 150 mL photograph",
+        "Mixed 145 mL vs 150 mL gallery photo",
+        "Other-size product SKU"
+      ],
+      "identity_gate": "HOLD_PHYSICAL_STOCK_AND_PHOTO_RIGHTS"
+    },
+    {
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion promotional set",
+      "url": "https://clubclio.co.kr/shop/goodsView/0000006670",
+      "official_claim": {
+        "standard_components": [
+          "Main cushion",
+          "Refill"
+        ]
+      },
+      "verified_at": "2026-11-04",
+      "page_text": "킬커버 파운웨어 쿠션 기획세트 [본품+리필]",
+      "safe_future_label": "Cushion + Refill only after exact existing stock kit matched",
+      "forbidden_without_stock_proof": [
+        "Assume free extra puffs",
+        "Assume optional gift",
+        "Assume another cushion generation"
+      ],
+      "identity_gate": "HOLD_OWNED_STOCK_EDITION_RIGHTS_AND_DUPLICATE_FRAME"
+    }
+  ],
+  "changes_this_execution": {
+    "official_pages_rechecked": 3,
+    "product_attribute_verifications": 3,
+    "original_image_files_modified": 0,
+    "additional_images_created": 0
+  },
+  "preserved": {
+    "existing_11_approved_families": true,
+    "published_urls_55_unchanged": true,
+    "v2656_14_candidates_unchanged": true,
+    "final_xlsx_shared": false
+  },
+  "next_action": "Use verified facts to validate candidate visual captions; inspect exact physical stock packaging and latest v2647 bytes before selective image edits. Do not scan historical image hashes again."
+}
