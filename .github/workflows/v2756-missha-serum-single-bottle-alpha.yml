@@ -1,0 +1,33 @@
+name: Shopee v2756 MISSHA serum 30mL official single bottle true alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2756-missha-serum-single-bottle-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create-new:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: From existing verified product-only official source04 generate one true alpha QA cutout
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2756_missha_serum_real_bottle_photo_alpha.py /tmp/v2756.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2756 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2756
+          python /tmp/v2756.py
+          git add qa-review/v2756-missha-pdrn-serum-one-bottle-real-alpha
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2756 real PDRN 30mL serum official single-bottle alpha QA; no published asset alterations'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
