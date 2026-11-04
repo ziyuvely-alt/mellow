@@ -1,0 +1,53 @@
+{
+  "version": "v2769",
+  "previous_success_checkpoint": "v2768",
+  "actual_original_product_photo_fetched": true,
+  "physically_rendered_true_alpha_png_jpg_pairs": 1,
+  "new_sale_retail_approvals": 0,
+  "prior_11_approved_families_unchanged": true,
+  "prior_55_public_verified_urls_unchanged": true,
+  "previous_QA_files_untouched": true,
+  "original_MK_logo_not_authenticated": true,
+  "photo_redistribution_rights_not_verified": true,
+  "owned_stock_edition_not_verified": true,
+  "final_XLSX_shared": false,
+  "item": {
+    "version": "v2769",
+    "family": "pending-21",
+    "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+    "source_url": "https://www.ballagrio.com/cdn/shop/files/A00000022977609ko.webp?v=1769576262",
+    "source_provider": "Ballagrio retailer photo (third party, use-rights not established)",
+    "replace_prior_v2764_v2765": false,
+    "old_segmentation_model_retried": false,
+    "photo_redistribution_rights_verified": false,
+    "exact_owned_stock_25AD_edition_verified": false,
+    "original_MK_logo_verified": false,
+    "retail_approved": false,
+    "status": "SINGLE_TUBE_REAL_CUTOUT_RENDERED_VISUAL_QA_REQUIRED",
+    "source_original_saved": "goodal-eyecream-30ml-single-original-independent-source.png",
+    "source_pixel_dimensions": [
+      1000,
+      1000
+    ],
+    "source_sha256": "13fbaf64ec4c639b707a25196edbf0c4b4ad6f51f4fc77aadabe4e86b3cdd5e3",
+    "real_alpha_png": "pending-21/01-genuine-single-30mL-tube-transparent-QA.png",
+    "shoppe_size_jpg": "pending-21/01-true-alpha-single-eyecream-1080-QA.jpg",
+    "source_crop_xyxy": [
+      370,
+      60,
+      640,
+      966
+    ],
+    "mask_bbox": [
+      382,
+      70,
+      246,
+      884
+    ],
+    "mask_coverage": 0.15895,
+    "png_sha256": "661e177ed885d3e88f745342014651a79da10e16acc05b26e37a9af76cc32e74",
+    "jpg_sha256": "c203a009f5cd2e7d091fd184dfc815561d325c773890a572b3f2127eeae1194f",
+    "png_bytes": 90466,
+    "jpg_bytes": 71091
+  }
+}
