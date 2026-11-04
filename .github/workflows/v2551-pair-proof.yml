@@ -1,0 +1,37 @@
+name: Shopee v2551 14 similar image pairs real JPG proof gallery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2551_actual_14pair_gallery.py'
+      - '.github/workflows/v2551-pair-proof.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  pair-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover original 156 immutable product JPGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2551-156-input
+      - name: Recover successful v2550 candidate pair list
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41750229687 -n shopee-v2550-30family-similarity-priority-no-XLSX -D v2551-triage-input
+      - name: Compare actual original images, build 14 side-by-side scene proof JPGs
+        run: python scripts/v2551_actual_14pair_gallery.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2551-14pair-actual-JPG-scene-review-no-XLSX
+          path: v2551-14pair-actual-JPG-evidence/
+          retention-days: 90
+          if-no-files-found: error
