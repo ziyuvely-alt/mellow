@@ -1,0 +1,36 @@
+name: Shopee v2745 GOODAL 25AD 30mL full-tube source and alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2745-GOODAL-25AD-full-tube-originals.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install foreground segmentation tools
+        run: python -m pip install Pillow requests 'rembg[cpu]==2.0.67'
+      - name: Save NEW authentic full-size eye tube references, not previous broken cropped JPG
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2745_goodal_25ad_new_full_tube_source.py
+          cp scripts/v2745_goodal_25ad_new_full_tube_source.py /tmp/v2745.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2745-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2745-qa/qa-review/v2745-goodal-eyecream-25ad-full-original-source-QA
+          cd /tmp/v2745-qa
+          python /tmp/v2745.py
+          git add qa-review/v2745-goodal-eyecream-25ad-full-original-source-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2745 archive only new whole-tube GOODAL 25AD 30mL photo candidate and masked QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
