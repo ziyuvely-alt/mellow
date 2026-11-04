@@ -1,0 +1,32 @@
+name: Shopee v2811 GOODAL 25AD single 30mL original photo candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2811-goodal-single-30ml-photo-candidates.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Save only retailer single 30mL reference photographs, no product generation or release
+        run: |
+          python scripts/v2811_goodal_25ad_single_30ml_three_photo_candidates.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2811-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2811-qa/qa-review/v2811-goodal-25AD-single-30mL-three-real-source-photos
+          cp -a qa-review/v2811-goodal-25AD-single-30mL-three-real-source-photos /tmp/v2811-qa/qa-review/
+          cd /tmp/v2811-qa
+          git add qa-review/v2811-goodal-25AD-single-30mL-three-real-source-photos
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2811 original single 30ml eye cream reference photos, separate from 30mlx2 bundle'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
