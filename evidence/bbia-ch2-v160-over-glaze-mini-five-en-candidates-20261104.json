@@ -1,0 +1,40 @@
+{
+  "schema": "bbia_ch2_v160_en_set",
+  "date": "2026-11-04",
+  "latest_previous_checkpoint": "v159 multi-family partial: Over Glaze Mini 3, Ready To Wear Eye Shadow 2",
+  "family": "BBIA Over Glaze Mini",
+  "official_product_reference": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000208",
+  "official_product_id": "1000000208",
+  "official_weight_g": 3.2,
+  "actual_new_images": 2,
+  "previous_v159_jpg_reused_unchanged": 3,
+  "total_english_scene_candidates": 5,
+  "output_zip": "/mnt/data/bbia_work/BBIA_v160_OVER_GLAZE_MINI_FIVE_EN_QA_PENDING.zip",
+  "output_contact": "/mnt/data/bbia_work/BBIA_v160_OVER_GLAZE_MINI_FIVE_CONTACT.jpg",
+  "manifest": "/mnt/data/bbia_work/BBIA_v160_OVER_GLAZE_MINI_MANIFEST.json",
+  "frames": [
+    "01 HERO v159 reused",
+    "02 TEXTURE v159 reused",
+    "03 MINI FORMAT v159 reused",
+    "04 WAND DETAIL v160 newly produced, first draft corrected for inherited source caption",
+    "05 3.2g PRODUCT INFORMATION v160 newly produced"
+  ],
+  "source_lineage": "Original photo pixels from previously recovered v147 archival QA_PENDING composites, exact pixel provenance not verified against official original product photograph; frame04 uses 104_ec389e; frame05 uses 104_13dff",
+  "technical": "5 1080x1080 JPEG <2,000,000 bytes; ZIP CRC verified",
+  "issues": [
+    "Only 3 prior source scenes + 2 cropped scene variants; 5 independent official photo sources not established",
+    "Exact color and variant identity not proven",
+    "No sale approval until independent original photo, color and factual visual QA"
+  ],
+  "sales_approved": 0,
+  "translations": 0,
+  "immutable": [
+    "v159 image binaries",
+    "v150-v158 previous work",
+    "v147 original recovered 125 JPGs",
+    "24 prior holds",
+    "55 public image URLs"
+  ],
+  "blocked_product": "Ready To Wear Eye Shadow still 3 EN scene candidates including v150 texture; two missing roles remain blocked for exact official source photos and variant data.",
+  "next": "Do not rerun v160 renders or attempt repeatedly blocked direct HTTP (container DNS fails). Obtain independently verified official product photo sources and edit only wrong/source-deficient frame. Move to another family with fresh real photos rather than recropping same scene indefinitely."
+}
