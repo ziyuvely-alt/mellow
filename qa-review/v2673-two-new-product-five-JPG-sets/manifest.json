@@ -1,0 +1,115 @@
+{
+  "version": "v2673",
+  "two_new_product_family_five_frame_QA_drafts": 2,
+  "previously_approved_product_families_mutated": 0,
+  "published_55_urls_mutated": 0,
+  "original_source_JPGs_regenerated": 0,
+  "new_conservative_info_card_JPGs": 6,
+  "source_JPGs_byte_preserved": 4,
+  "review_only": true,
+  "final_xlsx_shared": false,
+  "latest_v2647_binary_not_available": true,
+  "commercial_photo_rights_unverified": true,
+  "rows": [
+    {
+      "family": "pending-16",
+      "product": "R.E.D BLEMISH CLEAR SOOTHING CREAM",
+      "volume": "70 mL",
+      "source_photos_unchanged": 2,
+      "new_text_info_cards": 3,
+      "qa_frame_count": 5,
+      "sale_release": "HOLD_SOURCE_RIGHTS_STOCK_EDITIONS_LATEST_V2647_HUMAN_QA",
+      "frames": [
+        {
+          "frame": 1,
+          "kind": "REAL_EXISTING_PHOTO_OR_GUIDE_NO_REENCODE",
+          "file": "01-original-source-slot04-UNMODIFIED-QA.jpg",
+          "source_slot": 4,
+          "source_sha256": "8b9be399746b720df41f487ea68f6270ebc77d7193dba9248c3110dfb8968320",
+          "sha256": "8b9be399746b720df41f487ea68f6270ebc77d7193dba9248c3110dfb8968320",
+          "bytes": 129411
+        },
+        {
+          "frame": 2,
+          "kind": "REAL_EXISTING_PHOTO_OR_GUIDE_NO_REENCODE",
+          "file": "02-original-source-slot05-UNMODIFIED-QA.jpg",
+          "source_slot": 5,
+          "source_sha256": "e1ea58421ec9c758813afccf7d5bceefa7fc0c7b1c0fa34683374834c85415a8",
+          "sha256": "e1ea58421ec9c758813afccf7d5bceefa7fc0c7b1c0fa34683374834c85415a8",
+          "bytes": 50788
+        },
+        {
+          "frame": 3,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "03-new-identity-QA-only.jpg",
+          "sha256": "fba8d0b867f88df3eeefd5e1988d25da87e43c1606b66b735d3e7b07589b0927",
+          "bytes": 76224
+        },
+        {
+          "frame": 4,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "04-new-capacity-QA-only.jpg",
+          "sha256": "87b67223826868bef8053b1225fcac57c1e4edaa0c21c9b01253e314003b7f9e",
+          "bytes": 55912
+        },
+        {
+          "frame": 5,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "05-new-care-QA-only.jpg",
+          "sha256": "c4408f8cebe45f46ae0fb5145ce35ef5959b9d616643b02e0fdd783adb63fc2c",
+          "bytes": 76003
+        }
+      ]
+    },
+    {
+      "family": "pending-19",
+      "product": "GREEN TANGERINE VITA C CREAM ALPHA",
+      "volume": "50 mL",
+      "source_photos_unchanged": 2,
+      "new_text_info_cards": 3,
+      "qa_frame_count": 5,
+      "sale_release": "HOLD_SOURCE_RIGHTS_STOCK_EDITIONS_LATEST_V2647_HUMAN_QA",
+      "frames": [
+        {
+          "frame": 1,
+          "kind": "REAL_EXISTING_PHOTO_OR_GUIDE_NO_REENCODE",
+          "file": "01-original-source-slot01-UNMODIFIED-QA.jpg",
+          "source_slot": 1,
+          "source_sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+          "sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+          "bytes": 84275
+        },
+        {
+          "frame": 2,
+          "kind": "REAL_EXISTING_PHOTO_OR_GUIDE_NO_REENCODE",
+          "file": "02-original-source-slot05-UNMODIFIED-QA.jpg",
+          "source_slot": 5,
+          "source_sha256": "5607a5e6251c58315e9d4881684c3ed27314dc38ae26450a29dd79c4778126c7",
+          "sha256": "5607a5e6251c58315e9d4881684c3ed27314dc38ae26450a29dd79c4778126c7",
+          "bytes": 68136
+        },
+        {
+          "frame": 3,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "03-new-identity-QA-only.jpg",
+          "sha256": "ed8ff51b09641e5672878818c33451f8aca9373bca68e3177ae868610696c370",
+          "bytes": 79777
+        },
+        {
+          "frame": 4,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "04-new-capacity-QA-only.jpg",
+          "sha256": "72c675fd5fcc55cd0f2b48a4447c6f850cfe2c280359028c1568614d3073bf11",
+          "bytes": 59088
+        },
+        {
+          "frame": 5,
+          "kind": "FACTUAL_INFORMATION_CARD_NEW",
+          "file": "05-new-care-QA-only.jpg",
+          "sha256": "5644ba99082770e7ebc6fbf797e07d0cbf8a805849de11af46f153b5f18dc5d1",
+          "bytes": 78386
+        }
+      ]
+    }
+  ]
+}
