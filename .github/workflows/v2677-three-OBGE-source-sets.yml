@@ -1,0 +1,37 @@
+name: Shopee v2677 three OBgE product-family 15-JPG photo QA batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2677-three-OBGE-source-sets.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Get existing source photos without re-creating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Stage 15 original and fact-only QA photos in one batch
+        run: |
+          python scripts/v2677_three_OBGE_photo_qa_sets.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2677-qawork qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2677-qawork/qa-review/v2677-three-obge-five-JPG-source-led-QA-sets
+          cp -a qa-review/v2677-three-obge-five-JPG-source-led-QA-sets /tmp/v2677-qawork/qa-review/
+          cd /tmp/v2677-qawork
+          git add qa-review/v2677-three-obge-five-JPG-source-led-QA-sets
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2677 3 existing OBgE products 15 unique QA JPGs and original source hashes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
