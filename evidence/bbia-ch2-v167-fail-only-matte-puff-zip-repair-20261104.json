@@ -1,0 +1,30 @@
+{
+  "schema": "bbia_ch2_v167_fail_only_archive_repair",
+  "date": "2026-11-04",
+  "checkpoint_from": "v166 2 new Over Glaze Mini alternative EN QA_PENDING frames",
+  "family": "BBIA Eau Matte Cushion Puff",
+  "defect": "v157 was labeled five-frame set but ZIP shipped six JPEG: discarded 04_CHEEK plus replacement 04_PRODUCT_CONTEXT. Product context showed puff in compact; small 'for reference' text inadequate to exclude compact.",
+  "fixed_archive": "BBIA_v167_MATTE_PUFF_5_ACTIVE_2_HELD_QA_PENDING.zip",
+  "preview": "BBIA_v167_MATTE_PUFF_5_ACTIVE_CONTACT.jpg",
+  "report": "BBIA_v167_MATTE_PUFF_REPAIR_REPORT.json",
+  "scope": {
+    "new_corrective_JPG": 1,
+    "unaltered_active_JPG_reused": 4,
+    "held_originals_separated": 2,
+    "active_candidate_total": 5,
+    "zip_crc_valid": true,
+    "actual_1080_jpg_under_2MB": 7
+  },
+  "fix": "Added clearly visible COMPACT SHOWN FOR CONTEXT. NOT INCLUDED. to versioned 04 context JPG without changing photo region. Kept original v157 ZIP and both old 04 images byte-identical under HOLD_DO_NOT_PUBLISH. No fake product photography.",
+  "additional_archive_screen": "Existing v162c six-image ZIP intentionally includes five active plus one held campaign duplicate; no remediation. Only exact v157 incorrect six active archive repaired.",
+  "official_source_status": "NOT_VERIFIED against original BBIA pixels, full family remains QA_PENDING",
+  "sales_approved": 0,
+  "localizations": 0,
+  "protected": [
+    "v147 original source 125 JPG",
+    "v150-v166 prior versioned ZIPs",
+    "55 published URLs",
+    "existing 24 provenance holds"
+  ],
+  "next": "Do not redo v167. For future ZIP packager use explicit manifest-listed active file selection, never glob all JPGs. Continue other family with distinct verified original photos; preserve blocked source proof."
+}
