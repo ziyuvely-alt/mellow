@@ -1,0 +1,20 @@
+name: BBIA v287 unused lipstick source batch
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v287_lipstick_unused_photo_sources.py, .github/workflows/bbia-v287-unused-lipstick.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v287_lipstick_unused_photo_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v287-four-unused-originals-contact
+          path: /tmp/bbia-v287
+          retention-days: 30
