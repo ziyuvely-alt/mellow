@@ -1,0 +1,41 @@
+name: Shopee v2568 twenty P2 family integrity and unified 30 family gates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2568_p2_20family_and_30unified_gate.py'
+      - '.github/workflows/v2568-20P2-30all.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  one-pass-p2-plus-unified:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore v2560 original QA images once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2568-base
+      - name: Restore original per-family release queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41755214185 -n shopee-v2565-30family-issue-specific-release-gates-queue-no-XLSX -D v2568-queue
+      - name: Restore P0 actual validated results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41758784270 -n shopee-v2566-p0-five-27-image-real-SKU-and-source-admission-guards-no-XLSX -D v2568-p0
+      - name: Restore P1 actual validated results
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41758949649 -n shopee-v2567-p1-five-family-29JPG-exact-option-verification-no-XLSX -D v2568-p1
+      - name: Verify P2 remaining 100 JPG and combine all 30 release blocks
+        run: python scripts/v2568_p2_20family_and_30unified_gate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2568-20P2-100JPG-audit-plus-unified-30family-no-XLSX
+          path: v2568-batched-30-family-unified-release-QA/
+          retention-days: 90
+          if-no-files-found: error
