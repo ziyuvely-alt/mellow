@@ -1,0 +1,28 @@
+name: Shopee v2571 immutable previously published image protection
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2571_public_immutable_asset_guard.py'
+      - '.github/workflows/v2571-public-assets-immutable.yml'
+      - 'public/images/**'
+permissions:
+  contents: read
+jobs:
+  detect-unapproved-live-image-changes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify existing public image Git objects against frozen original baseline
+        run: python scripts/v2571_public_immutable_asset_guard.py
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: shopee-v2571-public-assets-immutable-protection-no-XLSX
+          path: v2571-live-asset-lock/
+          retention-days: 90
+          if-no-files-found: warn
