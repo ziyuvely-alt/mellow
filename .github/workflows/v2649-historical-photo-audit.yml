@@ -1,0 +1,32 @@
+name: Shopee v2649 156 JPG cross-family collision audit (historical baseline only)
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2649_audit_historical_156_jpg.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore immutable historical v2597 original 156 JPG archive from Actions
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/latest
+      - name: Cross-family actual-photo collision and technical audit of prior preserved corpus
+        run: python scripts/v2649_audit_historical_156_jpg.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2649-historical-156-photo-cross-family-audit-no-images-no-XLSX
+          path: v2649-historical-photo-audit/
+          retention-days: 90
+          if-no-files-found: error
