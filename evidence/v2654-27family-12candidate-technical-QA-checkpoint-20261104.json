@@ -1,0 +1,70 @@
+{
+  "version": "v2654",
+  "date": "2026-11-04",
+  "baseline": "v2652",
+  "repo": "ziyuvely-alt/mellow",
+  "result": "SUCCESS",
+  "runs": [
+    {
+      "version": "v2653",
+      "run_id": 41824399357,
+      "artifact_id": 13317854021,
+      "executed": true,
+      "status": "success",
+      "inspected_families": 27,
+      "near_pair_families": 13,
+      "actual_new_jpg_candidates": 12,
+      "candidate_families": [
+        "pending-02",
+        "pending-04",
+        "pending-08",
+        "pending-15",
+        "pending-16",
+        "pending-17",
+        "pending-18",
+        "pending-21",
+        "pending-22",
+        "pending-26",
+        "pending-28",
+        "pending-29"
+      ]
+    },
+    {
+      "version": "v2654",
+      "run_id": 41824600479,
+      "artifact_id": 13317649326,
+      "executed": true,
+      "status": "success",
+      "new_jpgs_independently_checked": 12,
+      "tech_pass": 12,
+      "sales_approved": 0
+    }
+  ],
+  "skipped_known_completed": [
+    "pending-05 v2651 slot05",
+    "pending-06 v2652 reviewed no crop needed",
+    "pending-07 v2652 slot04"
+  ],
+  "skipped_to_avoid_unneeded_edit": [
+    {
+      "family": "pending-30",
+      "reason": "historical candidate pair relates to already changed slot in later v2647"
+    }
+  ],
+  "source_image_archive": "v2593 historical GitHub Actions artifact, not current v2647",
+  "commercial_release_blockers": [
+    "Current v2647 binary unavailable: compare against latest exact frames first",
+    "Exact stock packaging/edition comparison",
+    "Photo rights for commercial use",
+    "Visual review for source cropped product/cut labels and text",
+    "Authentic original round MK logo",
+    "Human final release QA"
+  ],
+  "protected": {
+    "completed_families": 11,
+    "previously_verified_urls": 55,
+    "files_modified_in_public_images": 0,
+    "final_spreadsheet_shared": false
+  },
+  "next_work": "Do not redo 12 staged QA candidates; locate latest v2647 actual image binary or replace only provenance-proven valid latest frames. Check visual suitability of per-family crops. Prioritize external edition and commercial photo rights blockers. No more historical similarity rescans."
+}
