@@ -1,0 +1,32 @@
+{
+  "schema": "bbia_ch2_v177b_leau_tint_fullsize",
+  "date": "2026-11-04",
+  "prior_latest": "v177 6 fresh EN JPEGs from Last Eye Palette (1000000151, 5g) and Glow Tint full-size (1000000136, 3.2g) preserved",
+  "new_product": "BBIA L'Eau Tint full-size",
+  "official_code": "1000000113",
+  "official_size": "5g",
+  "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000113",
+  "new_english_jpg": 3,
+  "output_zip": "BBIA_v177b_LEAU_TINT_FULLSIZE_3_EN_QA_PENDING.zip",
+  "review_contact": "BBIA_v177b_LEAU_TINT_FULLSIZE_3_CONTACT.jpg",
+  "archive_sha256": "0c82d024de8a8bb8bf846d79b51c1d3b3752b14c8d71e2b6484480dbbaaac42f",
+  "source_zip": "BBIA_Cutout_Progress_20261030.zip",
+  "source_photos": [
+    "batch/1000000113/photo-2.png",
+    "batch/1000000113/photo-4.png",
+    "batch/1000000113/photo-5.png"
+  ],
+  "held_sources": [
+    "batch/1000000113/hero-cutout.png too low-res 108x298",
+    "batch/1000000113/photo-3.png truncated"
+  ],
+  "review": "Third frame source-embedded Korean header cropped away; previous 2 JPEG files preserved unchanged. First and second scenes share campaign model and may lack sufficient scene diversity for final merchandising. Treat as candidate images only.",
+  "technical": "3 JPEG 1080x1080 under 2MB, ZIP CRC pass",
+  "sales_approved": 0,
+  "locale_created": 0,
+  "photo_original_pixel_identity": "PENDING",
+  "reused_previous_jpg_recreated": false,
+  "all_prior_held_frames_and_55_urls_unchanged": true,
+  "notes": "Do not confuse full-size L'Eau Tint 5g with L'Eau Tint Mini 3.2g. Current 3 frames are not a complete 5-scene family.",
+  "next": "Do not redo v177/v177b. Select other unworked product with intact distinct official-source photos. If no independent image original proof, keep QA_PENDING; make no publish or translation claim. Do not share Excel."
+}
