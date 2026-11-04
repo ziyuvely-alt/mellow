@@ -1,0 +1,38 @@
+{
+  "schema": "bbia_ch2_v144_similarity_screener",
+  "date": "2026-11-04",
+  "archive_scope": "125 recovered JPGs",
+  "method": "64-bit horizontal difference perceptual hash of whole composite art",
+  "threshold": "Hamming distance <= 3",
+  "candidate_pairs": 5,
+  "examples": [
+    [
+      "Last Velvet Tint V25 Drama Classic",
+      "V24 Blockbuster Classic"
+    ],
+    [
+      "Last Velvet Tint V25 Drama Classic",
+      "V12 Kind Boss"
+    ],
+    [
+      "Last Velvet Tint V12 Kind Boss",
+      "V02 Vibrant Best"
+    ],
+    [
+      "Your Peach Lovely Look",
+      "Your Mauve Lovely Look"
+    ]
+  ],
+  "caution": "Same layout can produce low hash distance. These are manual-QA candidates only, not proven duplicated product photos.",
+  "held_photo_observations": [
+    "03 Smoky Look and Lovely Look display apparently same eye photo while claiming two looks",
+    "Last Pen Eyeliner black, brown, choco brown scenes display same eye photo and lack shade-specific photographic proof"
+  ],
+  "actions": [
+    "Retain all existing REVIEW_PENDING and HOLD statuses.",
+    "Do not apply any 'SHADE_VERIFIED' flag automatically.",
+    "Only substitute a scene with a verified official image showing its exact variant.",
+    "Keep original SHA-256 and current public URLs untouched."
+  ],
+  "final_sales_approved": 0
+}
