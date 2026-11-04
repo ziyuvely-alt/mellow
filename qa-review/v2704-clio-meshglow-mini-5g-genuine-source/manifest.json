@@ -1,0 +1,162 @@
+{
+  "version": "v2704",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "official_item_url": "https://clubclio.co.kr/shop/goodsView/0000006954",
+  "retail_approved": false,
+  "old_approved_11_families_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "existing_pending04_QA_untouched": true,
+  "photo_rights_verified": false,
+  "exact_stock_edition_verified": false,
+  "final_xlsx_shared": false,
+  "images": [
+    {
+      "file": "01-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+      "sha256": "ceafab9b7e5f92a3690d5ad12842557ca42a6f80f04c4d24db66378ae55ea5b6",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "02-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/45/63/m.gif?v=1792047709",
+      "sha256": "86c26cdfac059bd0dae09f08e153bf3246d72f8c2cab5827ff2a37f1ab9139df",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "03-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/41/m.gif?v=1793258048",
+      "sha256": "672a4a49ada0f0c23dd536fa06666bdb046eb7d4c2780442ab5ff39cdc9aa4b1",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "04-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/66/70/m.gif?v=1793578759",
+      "sha256": "02156eb978a8d8e40366e034ec1ff9cc242955245d78fcb15a84e9a44ef5e994",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "05-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/27/95/m.gif?v=1793595599",
+      "sha256": "97f99cea6620380941dbbd53925dda4ba7973e495cdd06623db103e69c5553f0",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "06-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/26/m.gif?v=1793595442",
+      "sha256": "8742a6533202652916a3273cc48a415c725906d77d019869d733c3688841e55f",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "07-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/70/78/m.gif?v=1793595625",
+      "sha256": "ac4fa8fd0cdb3e3eeaee34174bf5c5dd82067f93db3b67948eb59a19a57b6dcf",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "08-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/57/67/m.gif?v=1790142812",
+      "sha256": "c0522aa676e46dded6ff25b48d82683382cbf6e9f9b7f9d3d2fbcbc645fcfdd1",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "09-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/41/m.gif?v=1793458862",
+      "sha256": "727af3d4d7b2a433398c89083ae7bb33f8a405d300a8aa9537bc59b1e8e0e8ef",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "10-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/39/m.gif?v=1792978097",
+      "sha256": "cf15d5d3d7ca0dc1153ad886d082b301db6006cbad75c74a9068a0ee281b7644",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "11-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/62/48/m.gif?v=1789623014",
+      "sha256": "00c172dfcc2acac61a3b772a9606a8ae3f213d23cc0095b4dc108ea583992ddd",
+      "original_px": [
+        502,
+        502
+      ]
+    },
+    {
+      "file": "12-CLIO-mini-official-media-QA.jpg",
+      "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/65/m.gif?v=1793458862",
+      "sha256": "990e3102ce199244b55896b66564a24468c33be0c6f92e533f7925ae70e2895d",
+      "original_px": [
+        502,
+        502
+      ]
+    }
+  ],
+  "official_html_title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+  "candidate_urls": [
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/45/63/m.gif?v=1792047709",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/41/m.gif?v=1793258048",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/66/70/m.gif?v=1793578759",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/27/95/m.gif?v=1793595599",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/61/26/m.gif?v=1793595442",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/70/78/m.gif?v=1793595625",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/57/67/m.gif?v=1790142812",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/41/m.gif?v=1793458862",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/39/m.gif?v=1792978097",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/62/48/m.gif?v=1789623014",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/65/m.gif?v=1793458862",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/64/m.gif?v=1793322943",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/68/m.gif?v=1793345921",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/67/m.gif?v=1793323266",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/78/66/m.gif?v=1793323181",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/57/44/m.gif?v=1787555333",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/62/59/m.gif?v=1764125280",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/60/38/m.gif?v=1764125263",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/35/94/m.gif?v=1793583123",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/72/85/m.gif?v=1791267342",
+    "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/62/61/m.gif?v=1788999662",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000005041831178/m_5215a2f5515285fa16c65c62da1c4ef8.jpeg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000005039884712/m_464419b075bfeabf7545d183399d20e3.jpeg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000005039884712/m_d26abc9e462ab597a68a186f07327546.jpeg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000005007812933/m_6a5ef72d10e6e7dd8d82b473e7c4befe.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004996220692/m_e997bebf2aa8fdcd8fe84e8c27bd8741.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004970803708/m_320bccb1d4f8f50b98c24d27b17cab97.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004970803708/m_a20a9ade2d257ea17dc51124451d70b0.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004966899332/m_bc4b32612a260393e43d130aa7f389df.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004965178722/m_18f9f5138c25085accfa60ae9e656409.jpeg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_6866ff32a92be2cc2d8e2bcd6c21c3a4.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_c152f3eaa0b203c9f04a8900c945d6d8.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_3cf4e898a75435cf957646d56cab9cc0.jpg",
+    "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_4a22af34e892b6ba4b333dfeb024540e.jpg"
+  ],
+  "status": "CANDIDATES_NEED_VISUAL_PRODUCT_ONLY_QA"
+}
