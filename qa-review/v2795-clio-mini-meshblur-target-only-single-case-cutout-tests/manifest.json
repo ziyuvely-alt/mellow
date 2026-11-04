@@ -1,0 +1,65 @@
+{
+  "version": "v2795",
+  "baseline": "v2794",
+  "actual_two_product_single-case_alpha_trials": 2,
+  "actual_png_jpg_pairs_written": 1,
+  "do_not_treat_600px_as_native_1080": true,
+  "image_publish_permissions_verified": false,
+  "user_owned_single_sku_edition_confirmed": false,
+  "new_retail_approvals": 0,
+  "old_11_sale_approved_families_untouched": true,
+  "old_55_verified_public_urls_untouched": true,
+  "previous_QA_files_untouched": true,
+  "final_spreadsheet_shared": false,
+  "products": [
+    {
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Mini 5g",
+      "source_official_product_id": 7108,
+      "source_saved_path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/04-official-7108-b-gif-REFERENCE.jpg",
+      "source_sha256": "9d6d273daf8db752638cb2d059b25ed26071990296de0766199d24771d862fc9",
+      "declared_official_photo_native_resolution": "600x600",
+      "source_crop_xyxy": [
+        558,
+        410,
+        1005,
+        850
+      ],
+      "rights_verified": false,
+      "exact_owned_stock_variant_verified": false,
+      "commercial_retail_approved": false,
+      "known_blocker": "Smaller compact at right side of official multi-compact image; packaging/shade edition unverified; not true 1080 native.",
+      "status": "REAL_ALPHA_CUTOUT_STAGED_FOR_VISUAL_QA",
+      "foreground_coverage": 0.4719,
+      "foreground_bbox": [
+        42,
+        0,
+        447,
+        440
+      ],
+      "native_png": "pending-05/01-exact-cushion-compacted-alpha-QA.png",
+      "1080_jpg": "pending-05/01-sourced-single-compact-cutout-1080-QA.jpg",
+      "sha256_jpg": "69400dbdd0b1e1a0930e675c918c8a0490825c396a20403fcd084accb0fc57dd"
+    },
+    {
+      "family": "pending-07",
+      "product": "CLIO Kill Cover Mesh Blur Cushion",
+      "source_official_product_id": 6455,
+      "source_saved_path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/02-official-6455-b-gif-REFERENCE.jpg",
+      "source_sha256": "0f7048370490ee184bcc6423a8d54babc67569a56b0f07e1e24c2f6863208e29",
+      "declared_official_photo_native_resolution": "600x600",
+      "source_crop_xyxy": [
+        185,
+        196,
+        870,
+        893
+      ],
+      "rights_verified": false,
+      "exact_owned_stock_variant_verified": false,
+      "commercial_retail_approved": false,
+      "known_blocker": "Open lavender cushion and applicator in official image; set/refill remains a stock-version hold.",
+      "status": "REJECTED_MASK_OR_SHAPE",
+      "reason": "(0.7812229680905654, (0, 0, 674, 697))"
+    }
+  ]
+}
