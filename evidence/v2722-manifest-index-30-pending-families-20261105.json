@@ -1,0 +1,255 @@
+{
+  "version": "v2722-manifest-preflight",
+  "date": "2026-11-05",
+  "grounding": "ten already-archived GH QA manifest files; NOT a physical verification of every PNG/JPG",
+  "summary": {
+    "total_attempt_records": 35,
+    "distinct_families_with_attempts": 29,
+    "families_without_attempts": [
+      "pending-08"
+    ],
+    "folders": 10
+  },
+  "attempts_by_family": {
+    "pending-04": [
+      {
+        "source": "v2711-real-segmentation-four-source-product-heroes",
+        "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      },
+      {
+        "source": "v2712-3-failed-cutouts-high-quality-recovery",
+        "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-26": [
+      {
+        "source": "v2711-real-segmentation-four-source-product-heroes",
+        "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-25": [
+      {
+        "source": "v2711-real-segmentation-four-source-product-heroes",
+        "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      },
+      {
+        "source": "v2712-3-failed-cutouts-high-quality-recovery",
+        "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-22": [
+      {
+        "source": "v2711-real-segmentation-four-source-product-heroes",
+        "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      },
+      {
+        "source": "v2712-3-failed-cutouts-high-quality-recovery",
+        "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-16": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-24": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      },
+      {
+        "source": "v2714-serum-alpha-component-and-pad-alternate-photo",
+        "status": "REAL_ALPHA_CLEANUP_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-27": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-28": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "HOLD_MASK_OR_SOURCE_FAILED",
+        "has_file_links": false
+      },
+      {
+        "source": "v2714-serum-alpha-component-and-pad-alternate-photo",
+        "status": "ALTERNATE_PRODUCT_PHOTO_SEGMENTED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-29": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-30": [
+      {
+        "source": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-03": [
+      {
+        "source": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "has_file_links": true
+      }
+    ],
+    "pending-11": [
+      {
+        "source": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "has_file_links": true
+      }
+    ],
+    "pending-15": [
+      {
+        "source": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "has_file_links": true
+      }
+    ],
+    "pending-18": [
+      {
+        "source": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "has_file_links": true
+      }
+    ],
+    "pending-21": [
+      {
+        "source": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "status": "HOLD_MASK_REJECTED",
+        "has_file_links": false
+      },
+      {
+        "source": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+        "status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-09": [
+      {
+        "source": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+        "status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+        "has_file_links": true
+      }
+    ],
+    "pending-01": [
+      {
+        "source": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-10": [
+      {
+        "source": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-14": [
+      {
+        "source": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-06": [
+      {
+        "source": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-05": [
+      {
+        "source": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-07": [
+      {
+        "source": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-12": [
+      {
+        "source": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "has_file_links": true
+      }
+    ],
+    "pending-13": [
+      {
+        "source": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "status": "HOLD_BAD_SEGMENTATION",
+        "has_file_links": false
+      }
+    ],
+    "pending-02": [
+      {
+        "source": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+        "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-23": [
+      {
+        "source": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+        "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-17": [
+      {
+        "source": "v2721-three-drg-goodal-alpha-photo-QA",
+        "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-20": [
+      {
+        "source": "v2721-three-drg-goodal-alpha-photo-QA",
+        "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "has_file_links": true
+      }
+    ],
+    "pending-19": [
+      {
+        "source": "v2721-three-drg-goodal-alpha-photo-QA",
+        "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "has_file_links": true
+      }
+    ]
+  },
+  "retail_approved_new": 0,
+  "actual_full_physical_audit_run_id": 41864037154,
+  "full_audit_state": "queued",
+  "approved_11_families_unchanged": true,
+  "verified_55_URLs_unchanged": true,
+  "original_JPGs_unchanged": true,
+  "final_XLSX_shared": false
+}
