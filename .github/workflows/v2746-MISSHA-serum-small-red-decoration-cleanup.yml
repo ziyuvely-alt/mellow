@@ -1,0 +1,32 @@
+name: Shopee v2746 MISSHA 30mL retained white dropper micro alpha cleanup
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2746-MISSHA-serum-small-red-decoration-cleanup.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  isolate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Edit only tiny detached red artifact alpha on prior genuine serum bottle, do not re-segment
+        run: |
+          cp scripts/v2746_missha_serum_red_decor_alpha_only.py /tmp/v2746.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2746-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2746-qa/qa-review/v2746-missha-pdrn-serum-red-decoration-alpha-cleanup
+          cd /tmp/v2746-qa
+          python /tmp/v2746.py
+          git add qa-review/v2746-missha-pdrn-serum-red-decoration-alpha-cleanup
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2746 constrained alpha red ornament cleanup on previous intact 30mL serum bottle'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
