@@ -1,0 +1,24 @@
+name: Shopee v2575 close two non-rendered copy false positives
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2575_close_two_false_positive_dynamic_copy_flags.py'
+      - '.github/workflows/v2575-dynamic-customer-copy.yml'
+permissions:
+  contents: read
+jobs:
+  check-rendered-versus-hidden-copy:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate true customer text in two preserved candidate scripts
+        run: python scripts/v2575_close_two_false_positive_dynamic_copy_flags.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2575-two-customer-text-preflight-preserved-images-no-XLSX
+          path: v2575-remaining-two-copy-verification/
+          retention-days: 90
+          if-no-files-found: error
