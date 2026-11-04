@@ -1,0 +1,89 @@
+{
+  "schema": "bbia-ch2-source-recovery-v1",
+  "date": "2026-11-04",
+  "branch": "bbia-ch2-qa-20261104",
+  "source_candidates_recovered": 5,
+  "products": [
+    {
+      "product_id": "206",
+      "family": "라스트 오토 젤 아이라이너",
+      "source_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=206",
+      "verified_primary_image_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/206/206_magnify_078.jpg",
+      "evidence": "official linked image visually opened 2026-11-04",
+      "status": "SOURCE_RECOVERED_CANDIDATE_NOT_FINAL",
+      "note": "Official primary image visible; option shade unverified"
+    },
+    {
+      "product_id": "1000000110",
+      "family": "라스트 오토 젤 아이라이너 슬림",
+      "source_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000110",
+      "verified_primary_image_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/23/05/22/1000000110/1000000110_magnify_046.jpg",
+      "evidence": "official linked image visually opened 2026-11-04",
+      "status": "SOURCE_RECOVERED_CANDIDATE_NOT_FINAL",
+      "note": "Official primary image visible; small original visual not final sale resolution"
+    },
+    {
+      "product_id": "1000000134",
+      "family": "라스트 윤곽 스틱",
+      "source_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000134",
+      "verified_primary_image_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/05/19/1000000134/1000000134_magnify_043.jpg",
+      "evidence": "official linked image visually opened 2026-11-04",
+      "status": "SOURCE_RECOVERED_CANDIDATE_NOT_FINAL",
+      "note": "Official primary image visible; shade unverified"
+    },
+    {
+      "product_id": "239",
+      "family": "레디 투 웨어 다우니 치크",
+      "source_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=239",
+      "verified_primary_image_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/239/239_magnify_065.jpg",
+      "evidence": "official linked image visually opened 2026-11-04",
+      "status": "SOURCE_RECOVERED_CANDIDATE_NOT_FINAL",
+      "note": "Official image visible; page includes free puff promotion, do not represent gift as included automatically"
+    },
+    {
+      "product_id": "1000000122",
+      "family": "오 글로우 쿠션 본품",
+      "source_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000122",
+      "verified_primary_image_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000122/1000000122_magnify_089.jpg",
+      "evidence": "official linked image visually opened 2026-11-04",
+      "status": "SOURCE_RECOVERED_CANDIDATE_NOT_FINAL",
+      "note": "Verified white compact official main product, not mini/refill"
+    }
+  ],
+  "product_separation": [
+    {
+      "product_id": "1000000178",
+      "name": "Oh Matte Cushion Full",
+      "packaging": "dark grey case",
+      "product_only_source": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/25/05/20/1000000178/1000000178_magnify_057.jpg",
+      "shared_detail_images_with": "1000000179",
+      "rule": "keep shade-only common imagery only after review, never label refill as full product"
+    },
+    {
+      "product_id": "1000000122",
+      "name": "Oh Glow Cushion Full",
+      "packaging": "white / silver case",
+      "product_only_source": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000122/1000000122_magnify_089.jpg",
+      "rule": "never use mini (1000000120) or refill (1000000124) physical photos"
+    },
+    {
+      "product_id": "1000000120",
+      "name": "Oh Glow Cushion Mini",
+      "status": "OFFICIAL_MINI_VARIANT_LISTING_CONFIRMED_NOT_STOCK_APPROVED",
+      "rule": "mini cannot be treated as full or refill"
+    },
+    {
+      "product_id": "1000000124",
+      "name": "Oh Glow Cushion Refill",
+      "rule": "detail images reused from mini must be quarantined for identity QA"
+    }
+  ],
+  "next_gates": [
+    "download real photos and verify dimensions/file signature",
+    "official shade and edition validation",
+    "cutout composition and non-repeated 5-6 frames",
+    "English text QA then translation",
+    "1080x1080 jpg under 2MB",
+    "publish only after visual QA approval"
+  ]
+}
