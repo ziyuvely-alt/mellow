@@ -1,0 +1,64 @@
+{
+  "schema": "bbia_ch2_v145_targeted_eye_crop_review",
+  "date": "2026-11-04",
+  "source_archive": "BBIA_v144_125JPG_RECOVERED_QA_ONLY.zip",
+  "archive_integrity": {
+    "jpg_count": 125,
+    "unique_sha256": 125,
+    "review_pending": 111,
+    "hold_do_not_publish": 14,
+    "zip_crc_error": null
+  },
+  "specific_photo_review": [
+    {
+      "group": "ESSENTIAL_EYE_LOOKS",
+      "variants": [
+        "03_SMOKY_EYE_LOOK",
+        "03_LOVELY_EYE_LOOK"
+      ],
+      "pairs": 1,
+      "roi_fraction": [
+        0.07,
+        0.33,
+        0.93,
+        0.79
+      ],
+      "mean_gray_absolute_difference": 11.49,
+      "edge_jaccard": 0.2142,
+      "status": "HOLD_EXACT_SHADE_IMAGE_PROOF_REQUIRED"
+    },
+    {
+      "group": "LAST_PEN_EYE_LOOKS",
+      "variants": [
+        "03_BLACK_FIT_EYE_LOOK",
+        "05_BROWN_EYE_LOOK",
+        "06_CHOCO_BROWN_EYE_LOOK"
+      ],
+      "pairs": 3,
+      "roi_fraction": [
+        0.07,
+        0.34,
+        0.93,
+        0.77
+      ],
+      "pair_mean_gray_absolute_differences": [
+        13.78,
+        21.39,
+        17.26
+      ],
+      "pair_edge_jaccards": [
+        0.2036,
+        0.1625,
+        0.1856
+      ],
+      "status": "HOLD_EXACT_SHADE_IMAGE_PROOF_REQUIRED"
+    }
+  ],
+  "interpretation": "These are approximate spatial crop comparisons for QA triage, not conclusive image identity or shade authenticity proof. All 5 images remain held.",
+  "local_evidence_files": [
+    "BBIA_v145_SHADE_PHOTO_CROP_REVIEW.jpg",
+    "BBIA_v145_SHADE_PHOTO_CROP_COMPARISON.json",
+    "BBIA_v145_SHADE_PROOF_REVIEW_ONLY.zip"
+  ],
+  "operational_policy": "No changes to 125 source JPEGs or approved product files; no new sales approvals; no Excel shared."
+}
