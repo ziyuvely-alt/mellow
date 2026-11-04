@@ -1,0 +1,124 @@
+{
+  "version": "v2816",
+  "baseline": "v2815",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "Korean_first_party_page": "https://clubclio.co.kr/shop/goodsView/0000007108",
+  "Korean_first_party_option_labels": [
+    "21N",
+    "23N"
+  ],
+  "independent_single_23N_5g_listing": "https://www.sasa.com/products/110722304011",
+  "independent_store_23N_single": "TRUE_PER_PRODUCT_PAGE",
+  "first_party_reference_files_hash_preserved": [
+    {
+      "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/03-official-7108-m-gif-REFERENCE.jpg",
+      "sha256": "8a995ee92aec1cbcc85f802f1e1ace77321680c6dc7c3d4ddcad21f2bee6e675"
+    },
+    {
+      "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/04-official-7108-b-gif-REFERENCE.jpg",
+      "sha256": "9d6d273daf8db752638cb2d059b25ed26071990296de0766199d24771d862fc9"
+    }
+  ],
+  "fetch_evidence": [
+    {
+      "api": "https://www.sasa.com/products/110722304011.js",
+      "status": 200,
+      "title": "Clio Mini SPF50+PA+++ Kill Cover Founwear Cushion The Original  #23N 5g",
+      "count": 5
+    }
+  ],
+  "candidate_links_discovered": 5,
+  "candidate_images": [
+    {
+      "slot": 1,
+      "source_url": "https://cdn.shopify.com/s/files/1/0624/5793/8143/files/110722304011-1.jpg?v=1757398056",
+      "source_from": "shopify_exact_product_json",
+      "native_dimensions": [
+        1280,
+        1280
+      ],
+      "preview_file": "01-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "JPG_sha256": "6907ba024a090703d0f79872f4c42706944fa2e1aa2d33b4ff7704fd705acd88",
+      "JPG_bytes": 89651,
+      "single_23N_5g_listing_source": true,
+      "claim_of_photo_reuse_license": false,
+      "real_user_owned_stock_edition_proven": false,
+      "visual_single_product_approval": "PENDING_QA"
+    },
+    {
+      "slot": 2,
+      "source_url": "https://cdn.shopify.com/s/files/1/0624/5793/8143/files/110722304011-2.jpg?v=1757398056",
+      "source_from": "shopify_exact_product_json",
+      "native_dimensions": [
+        1280,
+        1280
+      ],
+      "preview_file": "02-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "JPG_sha256": "952d9809536cc033697575b2886f2d4a79b955b42b5dab695e9701a16a1ecfdb",
+      "JPG_bytes": 59848,
+      "single_23N_5g_listing_source": true,
+      "claim_of_photo_reuse_license": false,
+      "real_user_owned_stock_edition_proven": false,
+      "visual_single_product_approval": "PENDING_QA"
+    },
+    {
+      "slot": 3,
+      "source_url": "https://cdn.shopify.com/s/files/1/0624/5793/8143/files/110722304011-3.jpg?v=1757398056",
+      "source_from": "shopify_exact_product_json",
+      "native_dimensions": [
+        1280,
+        1280
+      ],
+      "preview_file": "03-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "JPG_sha256": "aec225a21d32ec6176e83c42dc8356ae01f8447dee79f0a9e4f382a5ab6134d6",
+      "JPG_bytes": 79045,
+      "single_23N_5g_listing_source": true,
+      "claim_of_photo_reuse_license": false,
+      "real_user_owned_stock_edition_proven": false,
+      "visual_single_product_approval": "PENDING_QA"
+    },
+    {
+      "slot": 4,
+      "source_url": "https://cdn.shopify.com/s/files/1/0624/5793/8143/files/110722304011-4.jpg?v=1757398056",
+      "source_from": "shopify_exact_product_json",
+      "native_dimensions": [
+        1280,
+        1280
+      ],
+      "preview_file": "04-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "JPG_sha256": "a50424e48520cf9b2dae880fc6c2a6a253ef7282a52d00a944eed27362297b8a",
+      "JPG_bytes": 80822,
+      "single_23N_5g_listing_source": true,
+      "claim_of_photo_reuse_license": false,
+      "real_user_owned_stock_edition_proven": false,
+      "visual_single_product_approval": "PENDING_QA"
+    },
+    {
+      "slot": 5,
+      "source_url": "https://cdn.shopify.com/s/files/1/0624/5793/8143/files/110722304011-5.jpg?v=1757398056",
+      "source_from": "shopify_exact_product_json",
+      "native_dimensions": [
+        1280,
+        1280
+      ],
+      "preview_file": "05-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "JPG_sha256": "de67f070bb77a0e35c59156e3c2e2685e59112fc2e117f43b3bc812ad37f8ca8",
+      "JPG_bytes": 93464,
+      "single_23N_5g_listing_source": true,
+      "claim_of_photo_reuse_license": false,
+      "real_user_owned_stock_edition_proven": false,
+      "visual_single_product_approval": "PENDING_QA"
+    }
+  ],
+  "new_distinct_real_source_photos_staged": 5,
+  "sales_approval": false,
+  "actual_owned_stock_edition_verified": false,
+  "image_commercial_reuse_rights_verified": false,
+  "original_MK_logo_verified": false,
+  "prior_11_published_families_untouched": true,
+  "prior_55_published_URLs_untouched": true,
+  "prior_QA_JPGs_untouched": true,
+  "final_excel_shared": false,
+  "state": "SOURCE_QA_STAGED_NEED_VISUAL_REVIEW"
+}
