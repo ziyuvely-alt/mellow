@@ -1,0 +1,40 @@
+{
+  "checkpoint": "v307",
+  "date": "2026-11-05",
+  "parent": "v306",
+  "goodsNo": "1000000239",
+  "source_execution": {
+    "run_id": 41867913119,
+    "artifact_id": 13342378819,
+    "attempted": 2,
+    "saved": 2,
+    "source_5": {
+      "file": "BBIA_1000000239_ORIGINAL_UNSEEN_5_v307.jpg",
+      "sha256": "13a582bc2326e80a2ca5812d69280e463a8eaf211e751c0e0f8f1ff231aa0f93",
+      "dimensions": [
+        1000,
+        2900
+      ]
+    },
+    "source_6": {
+      "file": "BBIA_1000000239_ORIGINAL_UNSEEN_6_v307.jpg",
+      "sha256": "fae51fcae2e82b18369eecacfd4592a9961b6c03d3999b8c0f936f61810f21e5",
+      "dimensions": [
+        1000,
+        2218
+      ]
+    }
+  },
+  "actual_visual_qa": {
+    "contact_opened": true,
+    "index5": "Clean photo portion near y1850..2770 shows real tint bottle, applicator and liquid droplet; usable as distinct detail-role candidate",
+    "index6": "Model portrait and Korean advertising copy without direct independent product-detail role; hold",
+    "sale_approved": 0
+  },
+  "preservation": {
+    "previous_public_jpg_modified": false,
+    "verified_55_urls_modified": false,
+    "final_excel_shared": false
+  },
+  "next": "Use index 5 clean product-only photo region once for new source-backed image candidate, never alter existing hero/model shots"
+}
