@@ -1,0 +1,243 @@
+{
+  "version": "v2685",
+  "family": "pending-08",
+  "product": "PERIPERA Mood Glowy Tint (4g)",
+  "previous_checkpoint": "v2684b",
+  "current_source_url": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+  "catalog_observed_date": "2026-11-04",
+  "retailer_page_product_label": "[NEW COLOR] 페리페라 무드 글로이 틴트 26AD",
+  "catalog_26AD_current_option_numbers": [
+    1,
+    2,
+    3,
+    5,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    24,
+    25,
+    26,
+    28,
+    29,
+    30
+  ],
+  "owned_inventory_scope": "historical 001-020, generation crossmatch NOT proven",
+  "unlisted_inventory_numbers": [
+    "004",
+    "006",
+    "007"
+  ],
+  "number_listed_in_current_retailer_count": 17,
+  "number_missing_from_current_retailer_count": 3,
+  "verified_shade_to_name_mappings": 0,
+  "old_004_conflict": "Historical inventory has old 004 names but GS SHOP current 26AD selector does not list 004. Never merge new catalog by number without exact edition proof.",
+  "old_jpgs_preserved_unchanged": 5,
+  "original_jpgs": [
+    {
+      "source_name": "01_01_01_peripera_selected_shades_no_20claim_V2435.jpg",
+      "sha256": "13c3f76ab1baece7f3dfa4a4aea4d32dd83487b1863eee75e450ba5ec54a2b28",
+      "status": "REFERENCE_ONLY_WRONG_GENERATION_POSSIBLE_DO_NOT_UPLOAD"
+    },
+    {
+      "source_name": "02_02_INFO_FORMULA_01_V2414_EN_V2421.jpg",
+      "sha256": "f1a42ab800abd1533ec7c1cf4293944346d7046cc8eac8c64872917a63f0deae",
+      "status": "REFERENCE_ONLY_WRONG_GENERATION_POSSIBLE_DO_NOT_UPLOAD"
+    },
+    {
+      "source_name": "03_03_INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+      "sha256": "67819cab51d42625f70f0c743542579952aa208dd425542b1ee6b88f7b631498",
+      "status": "REFERENCE_ONLY_WRONG_GENERATION_POSSIBLE_DO_NOT_UPLOAD"
+    },
+    {
+      "source_name": "04_04_INFO_SCOPE_05_V2415_EN_V2421.jpg",
+      "sha256": "4621585f821110607a931de6d2528e6825a7072516a6d381201e110f1140c896",
+      "status": "REFERENCE_ONLY_WRONG_GENERATION_POSSIBLE_DO_NOT_UPLOAD"
+    },
+    {
+      "source_name": "05-v2539-20-English-shade-names.jpg",
+      "sha256": "ec5d6b2aa97bab15b75185d726ba6015a8cb8b88f4b36bdf810e9b0052ccbb7a",
+      "status": "REFERENCE_ONLY_WRONG_GENERATION_POSSIBLE_DO_NOT_UPLOAD"
+    }
+  ],
+  "per_option": [
+    {
+      "inventory_option": "001",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "002",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "003",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "004",
+      "26AD_retailer_ordinal_listed": false,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NOT_LISTED_IN_26AD_RETAILER_OPTIONS"
+    },
+    {
+      "inventory_option": "005",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "006",
+      "26AD_retailer_ordinal_listed": false,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NOT_LISTED_IN_26AD_RETAILER_OPTIONS"
+    },
+    {
+      "inventory_option": "007",
+      "26AD_retailer_ordinal_listed": false,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NOT_LISTED_IN_26AD_RETAILER_OPTIONS"
+    },
+    {
+      "inventory_option": "008",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "009",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "010",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "011",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "012",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "013",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "014",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "015",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "016",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "017",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "018",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "019",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    },
+    {
+      "inventory_option": "020",
+      "26AD_retailer_ordinal_listed": true,
+      "exact_stock_name_proven": false,
+      "exact_product_generation_match_proven": false,
+      "image_color_swatch_approved": false,
+      "decision": "NUMBER_ONLY_EXISTS_NOT_SHADE_MATCH_VERIFIED"
+    }
+  ],
+  "gallery_status": "HOLD_EDITION_AND_OFFICIAL_SWATCH_MATCH",
+  "sales_ready_images": 0,
+  "current_29_fiveframe_QA_families_unchanged": true,
+  "prior_11_approved_product_families_unchanged": true,
+  "public_verified_55_urls_unchanged": true,
+  "no_final_excel_shared": true,
+  "next_action": "Check exact owned 26AD packaging/GTIN/sku and per-shade real physical stock before any color gallery or public release."
+}
