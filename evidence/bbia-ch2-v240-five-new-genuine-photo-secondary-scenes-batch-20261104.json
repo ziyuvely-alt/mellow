@@ -1,0 +1,106 @@
+{
+  "checkpoint": "v240",
+  "date": "2026-11-04",
+  "parent": "v239",
+  "source_checkpoint": "v238",
+  "execution": {
+    "source_audit_v239": {
+      "run_id": 41834530577,
+      "artifact_id": 13324697322,
+      "source_families": 5,
+      "source_dimensions": [
+        [
+          1000,
+          1878
+        ],
+        [
+          1000,
+          2554
+        ],
+        [
+          1000,
+          3715
+        ],
+        [
+          1000,
+          3548
+        ],
+        [
+          1000,
+          3436
+        ]
+      ],
+      "result": "success"
+    },
+    "new_detail_jpg_v240": {
+      "run_id": 41834851556,
+      "job_id": 126591013004,
+      "artifact_id": 13325600358,
+      "result": "success",
+      "created_jpg": 5,
+      "jpg_1080_square": true,
+      "jpg_under_2mb": true
+    }
+  },
+  "visual_qa": {
+    "actual_contact_opened": true,
+    "contact": "BBIA_v240_FIVE_DETAIL_CONTACT.jpg",
+    "by_family": [
+      {
+        "goodsNo": "1000000056",
+        "product": "Never Die Mascara Slim",
+        "role": "applicator detail",
+        "result": "RETAIN_QA_PENDING",
+        "finding": "genuine pastel-blue mascara wand and tube visible; no embedded Korean in selected crop"
+      },
+      {
+        "goodsNo": "1000000178",
+        "product": "Eau Matte Cushion",
+        "role": "compact detail",
+        "result": "RETAIN_QA_PENDING",
+        "finding": "silver/black cushion compact lid; generic shade independent"
+      },
+      {
+        "goodsNo": "1000000184",
+        "product": "Eau Powder Pact",
+        "role": "compact and powder",
+        "result": "RETAIN_QA_PENDING",
+        "finding": "multiple actual powder pacts shown; colors not evidence for individual variants"
+      },
+      {
+        "goodsNo": "1000000223",
+        "product": "Lip Oil Essence",
+        "role": "packaging lineup",
+        "result": "RETAIN_QA_PENDING",
+        "finding": "genuine tubes grouped; verify historical/current package by option before sales"
+      },
+      {
+        "goodsNo": "1000000239",
+        "product": "Lucky Shine Tint",
+        "role": "bottle detail",
+        "result": "RETAIN_QA_PENDING",
+        "finding": "pink bottle photograph, no Korean copy in crop"
+      }
+    ],
+    "limits": [
+      "Each is one candidate second role, not a complete five-role family",
+      "Product photo still inside rectangular source background rather than verified alpha cutout",
+      "Specific variants, availability and packaging version need final verification",
+      "No sale or regional translation approval"
+    ]
+  },
+  "preservation": {
+    "all_v234_13_jpg_unchanged": true,
+    "v236_v238_retained": true,
+    "approved_public_55_urls_unchanged": true,
+    "published_assets_changed": false,
+    "final_spreadsheet_shared": false,
+    "new_sales_approved": 0
+  },
+  "next": [
+    "Skip creating the same v240 five detail photo scenes; reuse artifact 13325600358",
+    "Continue unused historical source strips for 1000000135/1000000136/1000000216/1000000244 as a batch, select product-only regions",
+    "Reconcile genuinely different roles with historical v212 48-family ledger before counting completion",
+    "Do not falsely claim image five-role final approval from these single scenes"
+  ]
+}
