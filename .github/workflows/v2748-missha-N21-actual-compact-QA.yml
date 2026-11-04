@@ -30,3 +30,5 @@ jobs:
           git add qa-review/v2748-missha-coverlasting-21-source01-round-compact-only
           git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2748 real source01 N21 distinct circular compact transparent QA, hold option eligibility'
           git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
+
+# rerun v2748 after typo-only correction: x-rad/y-rad
