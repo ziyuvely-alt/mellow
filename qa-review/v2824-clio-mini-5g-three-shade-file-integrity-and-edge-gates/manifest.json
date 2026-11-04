@@ -1,0 +1,87 @@
+{
+  "version": "v2824",
+  "baseline": "v2823",
+  "pending_family": "pending-05",
+  "variants": [
+    "21C Lingerie",
+    "21N Linen",
+    "23N Ginger"
+  ],
+  "true_distinct_source_by_option_confirmed": true,
+  "three_physical_1080_JPGs_checked": 3,
+  "23N_five_JPG_photo_gallery_validated": true,
+  "21C_and_21N_remaining_distinct_gallery_scenes": 4,
+  "no_variants_relabelled": true,
+  "photo_license_and_owned_stock_edition_still_HOLD": true,
+  "new_sale_approvals": 0,
+  "approved_11_groups_modified": false,
+  "approved_55_urls_changed": false,
+  "original_image_bytes_modified": 0,
+  "final_excel_shared": false,
+  "rows": [
+    {
+      "variant": "21C Lingerie",
+      "product": "CLIO Kill Cover Founwear The Original Mini 5g",
+      "source_hero_JPG": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/01-real-21C-mini5g-1080-hero-QA.jpg",
+      "source_hero_sha256": "275698ae7d28ec8bdc34322f304bc800ede98c0389c1edfe73722cab8fe7a693",
+      "explicitly_variant_linked_original_JPG": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/02-21C-Lila-Beauty-exact-variant-QA.jpg",
+      "original_source_sha256": "9a7589bc20b54c4a37ceb222198803712ad88900918a4517fa7dcb7c44a35097",
+      "main_JPG_1080_under_2MB": true,
+      "visual_QA": "HOLD_CROP_BORDER_1_TO_1_CHECK",
+      "retail_approved": false,
+      "exact_owned_inventory_variant_verified": false,
+      "photo_reuse_license_verified": false,
+      "source_segmentation_bbox": [
+        27,
+        0,
+        875,
+        561
+      ],
+      "distinct_variant_specific_five_scene_gallery_completed": false,
+      "missing_required_distinct_scene_count": 4
+    },
+    {
+      "variant": "21N Linen",
+      "product": "CLIO Kill Cover Founwear The Original Mini 5g",
+      "source_hero_JPG": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/01-real-21N-mini5g-1080-hero-QA.jpg",
+      "source_hero_sha256": "75a8243ee67f321f8ad27e07cc807634b2fe8cdb3868f6d35702687f7efeea05",
+      "explicitly_variant_linked_original_JPG": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/01-21N-variant-linked-Lila-5g-QA.jpg",
+      "original_source_sha256": "35abe0bf54c4ef31d365f5a8b4c8b6e0625d681b0a38c94e0efd14cbde75e3ce",
+      "main_JPG_1080_under_2MB": true,
+      "visual_QA": "HOLD_CROP_BORDER_1_TO_1_CHECK",
+      "retail_approved": false,
+      "exact_owned_inventory_variant_verified": false,
+      "photo_reuse_license_verified": false,
+      "source_segmentation_bbox": [
+        66,
+        0,
+        888,
+        575
+      ],
+      "distinct_variant_specific_five_scene_gallery_completed": false,
+      "missing_required_distinct_scene_count": 4
+    },
+    {
+      "variant": "23N Ginger",
+      "product": "CLIO Kill Cover Founwear The Original Mini 5g",
+      "source_hero_JPG": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/01-NEURAL_REAL_SINGLE_CLOSED_COMPACT-QA.jpg",
+      "source_hero_sha256": "fcbe92de6336266a296d7b36b2e797d3a37adc98a7823396cae9382ccb20c234",
+      "explicitly_variant_linked_original_JPG": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/01-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "original_source_sha256": "6907ba024a090703d0f79872f4c42706944fa2e1aa2d33b4ff7704fd705acd88",
+      "main_JPG_1080_under_2MB": true,
+      "visual_QA": "QA_CANDIDATE",
+      "retail_approved": false,
+      "exact_owned_inventory_variant_verified": false,
+      "photo_reuse_license_verified": false,
+      "prior_23N_gallery_JPGs_count": 5,
+      "prior_23N_gallery_distinct_exact_SHA_count": 5,
+      "prior_23N_gallery_files": [
+        "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/01-NEURAL_REAL_SINGLE_CLOSED_COMPACT-QA.jpg",
+        "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/02-ACTUAL_SINGLE_BOX_WITH_COMPACT-QA.jpg",
+        "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/03-ACTUAL_OPEN_COMPACT_WITH_PUFF-QA.jpg",
+        "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/04-ACTUAL_CLOSED_ANGLED_COMPACT-QA.jpg",
+        "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/05-ACTUAL_OPEN_CUSHION_AND_PUFF-QA.jpg"
+      ]
+    }
+  ]
+}
