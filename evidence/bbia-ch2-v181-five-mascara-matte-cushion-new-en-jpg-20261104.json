@@ -1,0 +1,59 @@
+{
+  "schema": "bbia_ch2_v181_source_faithful_new_en_assets",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v180b: 10 newly generated English image candidates, 9 QA pending, 1 duplicate-frame held",
+  "this_execution": {
+    "new_JPG": 5,
+    "previous_assets_recreated": 0,
+    "groups": [
+      {
+        "goodsNo": "172",
+        "official_product": "BBIA Never Die Mascara full-size",
+        "official_weight": "7g",
+        "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=172",
+        "new_JPG": 2,
+        "source_frames": [
+          "hero-cutout.png",
+          "photo-2.png"
+        ],
+        "held_assets": [
+          "photo-5.png truncated"
+        ],
+        "repaired": "02 photo crop adjusted to exclude inherited NEVER DIE MASCARA embedded caption"
+      },
+      {
+        "goodsNo": "1000000178",
+        "official_product": "BBIA Eau Matte Cushion full-size",
+        "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000178",
+        "new_JPG": 3,
+        "source_frames": [
+          "hero-cutout.png",
+          "photo-2.png",
+          "photo-4.png"
+        ],
+        "repaired": "03 model photo bottom crop excludes inherited Korean shade captions",
+        "distinction": "NOT Eau Matte Cushion Puff 2P goodsNo 1000000185; NOT refill"
+      }
+    ]
+  },
+  "outputs": {
+    "zip": "BBIA_v181_5_NEW_EN_MASCARA_MATTE_CUSHION_QA_PENDING.zip",
+    "preview": "BBIA_v181_FIVE_SOURCE_FAITHFUL_CONTACT.jpg",
+    "manifest": "v181_new_EN/QA_MANIFEST_v181.json",
+    "reproduction_script": "v181_source_faithful_editorial.py"
+  },
+  "photo_provenance": "Recovered local source PNG from BBIA_Cutout_Progress_20261030.zip, original source SHA256 per file recorded in manifest. Exact official product photograph-pixel match not independently confirmed; no generated model, package or color.",
+  "technical": "All five new JPG decode 1080x1080, <2,000,000 bytes, valid ZIP CRC and individual SHA256 saved",
+  "visual_qa": "Contact sheet inspected. Embedding artifacts removed in frames 02 and 05. However layouts remain basic editorial drafts and frame 02 photograph is relatively small after removal of source text. Not premium final.",
+  "statuses": {
+    "EN_QA_PENDING": 5,
+    "SALES_APPROVED": 0,
+    "TRANSLATIONS": 0
+  },
+  "preserved": [
+    "v147 125 originals",
+    "v150-v180b previously produced JPGs and holds",
+    "55 live product URLs"
+  ],
+  "next": "Never rerender v181 five without new source evidence. Obtain independent official original source photo pixels + product/variant confirmations. Prioritize art-directed stronger framing for mascara second scene only after real source photo approval, and find distinct unworked source assets for remaining family storyboard roles. No Excel before whole project is complete."
+}
