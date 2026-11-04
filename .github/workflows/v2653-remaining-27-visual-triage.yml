@@ -1,0 +1,32 @@
+name: Shopee v2653 27 remaining family similarity triage and genuine-photo QA candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2653_remaining_27_family_triage.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse preserved original photo archive with no rebuild
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/photos
+      - name: Batch triage unprocessed 27 product families and stage only genuine-source deltas
+        run: python scripts/v2653_remaining_27_family_triage.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2653-27-family-no-repeat-visual-qa-no-XLSX
+          path: v2653-pending08-30-visual-triage/
+          retention-days: 90
+          if-no-files-found: error
