@@ -1,0 +1,23 @@
+name: BBIA v241 four-family batch source inspection
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v241_four_family_source_inspection.py
+      - .github/workflows/bbia-v241-four-family-inspection.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Verify twelve authentic detail references and contact sheet
+        run: python scripts/bbia_v241_four_family_source_inspection.py --out /tmp/bbia-v241
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v241-four-family-twelve-source-audit
+          path: /tmp/bbia-v241
+          retention-days: 30
