@@ -1,0 +1,59 @@
+{
+  "checkpoint": "v305",
+  "date": "2026-11-05",
+  "parent": "v304",
+  "goodsNo": "1000000223",
+  "product": "BBIA Lip Oil Essence",
+  "local_files": {
+    "manifest": "/mnt/data/bbia_v305/BBIA_v305_MANIFEST.json",
+    "contact": "/mnt/data/bbia_v305/BBIA_v305_FIVE_LIP_OIL_ROLES_CONTACT.jpg",
+    "archive": "/mnt/data/bbia_v305/BBIA_v305_FIVE_LIP_OIL_ROLES_QA_PENDING.zip"
+  },
+  "production": {
+    "new_jpg": 1,
+    "reused_existing_original_jpg": 4,
+    "five_photo_roles": [
+      "Single packshot",
+      "Tube lineup",
+      "Texture / source editorial closeup",
+      "Oil droplet and tube detail",
+      "Real lip finish pair"
+    ],
+    "original_source": "/mnt/data/bbia_v293_review/BBIA_1000000223_SOURCE_3_v293.jpg",
+    "new_crops": [
+      [
+        495,
+        385,
+        1000,
+        760
+      ],
+      [
+        495,
+        1460,
+        1000,
+        1830
+      ]
+    ],
+    "new_file": "BBIA_1000000223_05_LIP_FINISH_v305_QA_PENDING.jpg",
+    "sha256_new": "e0cb6429a705cf5b009d24fe793c1b58b9e11e04cc580bee2a65e3e3fe0f5bde",
+    "zip_sha256": "4528083200fa32327b85454bc31e8f500129c84b795b3b74ed7ea2e072e39b8d"
+  },
+  "verification": {
+    "actual_contact_opened": true,
+    "all_jpg_1080x1080_under_2mb": true,
+    "all_five_unique_sha": true,
+    "archive_crc_pass": true,
+    "no_manufactured_swatches": true,
+    "no_embedded_korean_in_new_lip_crop": true,
+    "shade_identity_not_verified": true,
+    "alpha_cutout_not_verified": true,
+    "not_sales_approved": true
+  },
+  "preservation": {
+    "old_four_binary_unchanged": true,
+    "existing_55_public_image_urls_untouched": true,
+    "prior_approved_images_untouched": true,
+    "final_excel_shared": false
+  },
+  "next": "Do not regenerate five lip-oil photo candidates. Continue final QA and missing creative role triage for another family. Verify exact options, alpha cutout, and commercial photo provenance prior to sale approval."
+}
