@@ -1,0 +1,236 @@
+{
+  "version": "v2752a",
+  "date": "2026-11-05",
+  "family": "pending-08",
+  "artifact": "INTERNAL_QA_VARIANT_NUMBER_COLLISION_GUARD_NOT_SALE_ASSET",
+  "source_legacy": "https://wcosmetics.com.au/products/peripera-ink-mood-glowy-tint",
+  "source_renewed": "https://m.gsshop.com/prd/prd.gs?prdid=1109098733",
+  "source_26AD_04_06_07_sponsored_preview": "https://www.youtube.com/watch?v=2M3eJESkSac",
+  "preservation": "Legacy 01-20-only scope, no changed option names on current owned inventory, no generated chips",
+  "legacy_from_merchant_not_first_party": true,
+  "brand_operated_renewed_listing": true,
+  "shade_count": 20,
+  "legacy_vs_renewed_name_collision_count": 19,
+  "caveat": "The same shade name, including Brown Yakgwa 20, does not prove same formula/package; old branded collaborations were limited editions and current availability does not establish old stock generation.",
+  "never_use_renewed_26AD_photo_with_legacy_shade_without_exact_package_proof": true,
+  "brand_photo_copy_permission_verified": false,
+  "actual_user_stock_edition_verified": false,
+  "options": [
+    {
+      "number": "01",
+      "legacy_ink_mood_name": "Best Beige Menu",
+      "renewed_26AD_name": "Tiny Strawberry",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "02",
+      "legacy_ink_mood_name": "Coral Influencer",
+      "renewed_26AD_name": "Coral Chemistry",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "03",
+      "legacy_ink_mood_name": "Rose In Mind",
+      "renewed_26AD_name": "Juicy Peach",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "04",
+      "legacy_ink_mood_name": "Pink Youth",
+      "renewed_26AD_name": "Anyway, Peach",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "05",
+      "legacy_ink_mood_name": "Cherry So What",
+      "renewed_26AD_name": "Baby Fairy",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "06",
+      "legacy_ink_mood_name": "Plum Update",
+      "renewed_26AD_name": "Pink Youth",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "07",
+      "legacy_ink_mood_name": "I'm Pinkest (CHOIGOSIM)",
+      "renewed_26AD_name": "Plum Fizz",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "08",
+      "legacy_ink_mood_name": "Pink Do It (CHOIGOSIM)",
+      "renewed_26AD_name": "Joking Pink",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "09",
+      "legacy_ink_mood_name": "Nude To Heart",
+      "renewed_26AD_name": "Rose In Mind",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "10",
+      "legacy_ink_mood_name": "Captivating Pink",
+      "renewed_26AD_name": "Bare Pink",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "11",
+      "legacy_ink_mood_name": "Brown Heaven",
+      "renewed_26AD_name": "Visual Pink",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "12",
+      "legacy_ink_mood_name": "Warm-Gorithm (Peritage)",
+      "renewed_26AD_name": "Campus Queen",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "13",
+      "legacy_ink_mood_name": "Berry Pretty (Peritage)",
+      "renewed_26AD_name": "Mood Queen",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "14",
+      "legacy_ink_mood_name": "Follow Rose (Peritage)",
+      "renewed_26AD_name": "Rosy Wish",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "15",
+      "legacy_ink_mood_name": "Mellow Melon (Maltese)",
+      "renewed_26AD_name": "My Pick Rose",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "16",
+      "legacy_ink_mood_name": "Cerise Pink (Maltese)",
+      "renewed_26AD_name": "Rose-Pick",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "17",
+      "legacy_ink_mood_name": "Puppy Berry (Maltese)",
+      "renewed_26AD_name": "Blush Fig",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "18",
+      "legacy_ink_mood_name": "Nude Area (Honey K-Ookie)",
+      "renewed_26AD_name": "Coral Influencer",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "19",
+      "legacy_ink_mood_name": "Mauve Chaos (Honey K-Ookie)",
+      "renewed_26AD_name": "Cherry So What",
+      "same_english_base_name": false,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "number": "20",
+      "legacy_ink_mood_name": "Brown Yakgwa (Honey K-Ookie)",
+      "renewed_26AD_name": "Brown Yakgwa",
+      "same_english_base_name": true,
+      "identity": "EDITION_SCOPED_SEPARATE_VARIANT",
+      "source_status": "LEGACY_MERCHANT_CATALOG_AND_RENEWED_OFFICIAL_RETAILER",
+      "licensed_images": false,
+      "owned_stock_edition_verified": false
+    }
+  ],
+  "older_stock_korean_label_special_case": {
+    "number": "14",
+    "historical_user_label": "로지워시",
+    "legacy_public_merchant_name": "Follow Rose (Peritage)",
+    "renewed_26AD_name": "로지위시",
+    "decision": "KEEP_USER_STOCK_LABEL_UNCHANGED_UNTIL_PACK_PHOTO_MATCH"
+  },
+  "public_55_image_urls_untouched": true,
+  "prior_11_approved_product_families_untouched": true,
+  "new_retail_approvals": 0,
+  "final_spreadsheet_shared": false,
+  "next": [
+    "Treat v2752 per-variant image fetch as candidate only until physical package and rights verified",
+    "Match each variant to real 01-20 owned stock using package design and product title; do not automatically inherit 26AD",
+    "Do not infer color chips from a name-only mapping"
+  ]
+}
