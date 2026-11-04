@@ -1,0 +1,49 @@
+{
+  "schema": "BBIA_Ch2_v174b",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v173 (9 new English JPGs; original files preserved)",
+  "actual_new_JPGs": 10,
+  "product_families": [
+    {
+      "goodsNo": "1000000223",
+      "product": "BBIA Lip Oil Essence",
+      "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000223",
+      "new_JPGs": 5,
+      "active_pending_frames": [
+        1,
+        4
+      ],
+      "held_frames": [
+        2,
+        3,
+        5
+      ],
+      "hold_reason": "Some source photos mix other lip products, so products/variants are not proven."
+    },
+    {
+      "goodsNo": "1000000209",
+      "product": "BBIA Ready To Wear Eye Palette Mini",
+      "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000209",
+      "official_3_2g": true,
+      "new_JPGs": 5,
+      "active_pending_frames": [
+        2,
+        3
+      ],
+      "held_frames": [
+        1,
+        4,
+        5
+      ],
+      "hold_reason": "Promotional brush composition and embedded Korean captions or shade source uncertainty."
+    }
+  ],
+  "result_archive": "BBIA_v174b_4_ACTIVE_6_SOURCE_HOLD_QA_PENDING.zip",
+  "visual_contact": "BBIA_v174_TWO_FAMILIES_10_EN_CONTACT.jpg",
+  "manifest": "BBIA_v174b_ACTIVE_HOLD_MANIFEST.json",
+  "source_zip": "BBIA_Cutout_Progress_20261030.zip",
+  "technical": "10 JPEG files, each 1080x1080 and less than 2,000,000 bytes; SHA256 of new JPGs unchanged during v174b reclassification, ZIP CRC checked",
+  "outcome": "4 EN candidate assets pending source-proof review; 6 created but held; 0 approved for sale",
+  "immutability": "Existing v147 125JPGs, v150-v173 binaries, public 55 URLs unchanged. No Excel shared.",
+  "next": "Do not regenerate any of the 10 v174 JPGs; seek exact official original photos for six holds. A source-certified large cutout for a new unworked family can be used next. Never infer promotional gift/variant from generic product photography."
+}
