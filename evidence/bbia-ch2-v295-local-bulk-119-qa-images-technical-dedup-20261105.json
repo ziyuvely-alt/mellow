@@ -1,0 +1,26 @@
+{
+  "checkpoint": "v295",
+  "parent": "v294",
+  "source": "Actual mounted /mnt/data/bbia_v* checkpoint JPG files, filename suffix QA_PENDING only",
+  "execution": {
+    "actual_file_images_inspected": 119,
+    "technical_valid_1080x1080_jpg_under_2mb": 119,
+    "unique_sha256": 110,
+    "families_with_local_qa_photo_candidate": 39,
+    "duplicate_binary_groups": 8,
+    "local_ledger": "/mnt/data/bbia_v295/BBIA_v295_FULL_CANDIDATE_LEDGER.json",
+    "local_archive": "/mnt/data/bbia_v295/BBIA_v295_QA_LEDGER_JSON.zip"
+  },
+  "limitations": [
+    "This is not complete historical master family census",
+    "A unique JPG is not necessarily a useful distinct photo role",
+    "Technically valid JPG does not mean photo identity, cutout, Korean text, license and shade are sales QA approved"
+  ],
+  "preservation": {
+    "existing_public_jpg_modified": 0,
+    "prior_55_urls_modified": 0,
+    "new_sales_approved": 0,
+    "final_excel_shared": false
+  },
+  "next": "Batch only previously unused source slots of underfilled families goodsNo 1000000108 indices 0..2 and 238 indices 3..6, skip holds and identical downloads."
+}
