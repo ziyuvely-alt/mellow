@@ -1,0 +1,60 @@
+{
+  "version": "v2819",
+  "baseline": "v2818",
+  "family": "pending-05",
+  "target_shade": "21N Linen",
+  "size": "5g",
+  "metadata_probes": [
+    {
+      "store": "Lila Beauty",
+      "shopify_product_json": "https://lilabeauty.com.au/products/mini-kill-cover-founwear-cushion-the-original-5g.js",
+      "status": "HOLD_MERCHANT_JSON_UNAVAILABLE",
+      "matched_21N_variants": [],
+      "product_title": null,
+      "error": "Product JSON is not exact CLIO Original Mini 5g: Mini Kill Cover Founwear Cushion The Original 5g"
+    },
+    {
+      "store": "DODOSKIN",
+      "shopify_product_json": "https://www.dodoskin.com/products/clio-kill-cover-founwear-cushion-the-original-mini-5g-3-colors.js",
+      "status": "VARIANT_MATCH_FOUND",
+      "matched_21N_variants": [
+        {
+          "variant_id": "44831593103516",
+          "variant_name": "21N Linen",
+          "featured_image_present": true,
+          "explicit_photo_urls": [
+            "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIO_Kill_Cover_Founwear_Cushion_The_Original_Mini_5g_3_colors-21n.jpg?v=1741846921"
+          ]
+        }
+      ],
+      "product_title": "CLIO Kill Cover Founwear Cushion The Original Mini 5g 3 colors",
+      "variant_count": 3,
+      "gallery_count": 10
+    }
+  ],
+  "option_linked_candidate_files": [
+    {
+      "merchant": "DODOSKIN",
+      "url": "https://cdn.shopify.com/s/files/1/0506/2121/8972/files/CLIO_Kill_Cover_Founwear_Cushion_The_Original_Mini_5g_3_colors-21n.jpg?v=1741846921",
+      "variant_id": "44831593103516",
+      "variant_name": "21N Linen",
+      "file": "01-source-linked-exact-21N-mini5g-QA.jpg",
+      "native_dimensions": [
+        1500,
+        1500
+      ],
+      "jpg_sha256": "3f28dd3c83363e59add1c05bdb83b71338cb089c41fe85852ccea6b12dc3fefe",
+      "qa_only": true
+    }
+  ],
+  "genuine_21N_specific_photos_saved": 1,
+  "never_substitute_23N": true,
+  "previous_23N_five_QA_JPGs_untouched": true,
+  "new_21N_images_sales_approved": false,
+  "actual_owned_21N_stock_edition_verified": false,
+  "photo_rights_verified": false,
+  "previous_11_approved_groups_untouched": true,
+  "verified_55_urls_untouched": true,
+  "final_spreadsheet_shared": false,
+  "next": "If images explicitly mapped to 21N, inspect label and product geometry. Otherwise hold, do not re-label 23N assets."
+}
