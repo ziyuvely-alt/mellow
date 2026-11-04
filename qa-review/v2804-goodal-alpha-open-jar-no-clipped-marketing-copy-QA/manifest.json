@@ -1,0 +1,71 @@
+{
+  "version": "v2804",
+  "baseline": "v2803",
+  "family": "pending-19",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "actual_five_1080_JPGs_saved": 5,
+  "single_slot_fixed": 2,
+  "previous_four_JPGs_SHA_preserved": true,
+  "issue_resolved_for_review": "Removed clipped word Results from slot 02 source crop; frame 03 remains prior corrected clean hand texture",
+  "official_product_photo_original": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+  "original_photo_sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+  "new_crop_region_xyxy": [
+    340,
+    485,
+    1065,
+    925
+  ],
+  "new_crop_is_source_photo_pixels_not_independent_4th_photo": true,
+  "marketing_copy_automatically_reused": false,
+  "other_QA_files_untouched": true,
+  "all_original_photo_sources_untouched": true,
+  "original_MK_logo_authenticated": false,
+  "photo_commercial_use_rights_verified": false,
+  "physical_stock_generation_verified": false,
+  "sale_approved": false,
+  "approved_11_families_untouched": true,
+  "published_55_URLs_untouched": true,
+  "final_excel_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "bytes": 83045,
+      "integrity": "V2803_EXACT_BYTES_PRESERVED",
+      "retail_approved": false
+    },
+    {
+      "slot": 2,
+      "file": "02-GOODAL-Alpha-open-jar-no-marketing-heading-QA.jpg",
+      "sha256": "3801fa34bd501ff3630efdd398ed4202541b3fc47e2f01222fc084ef93bc1f72",
+      "bytes": 153251,
+      "integrity": "ONE_ACTUAL_PHOTO_CROP_REPLACED_NO_CLAIM_TEXT",
+      "retail_approved": false
+    },
+    {
+      "slot": 3,
+      "file": "03-GOODAL-Alpha-real-hand-cream-no-claim-QA.jpg",
+      "sha256": "3a703b86f0d51c1b53166c9c1348585e84fa9e27eb0ea6411a1b9e092907b8f5",
+      "bytes": 150722,
+      "integrity": "V2803_EXACT_BYTES_PRESERVED",
+      "retail_approved": false
+    },
+    {
+      "slot": 4,
+      "file": "04-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "133e2d946e7118dfaac86776f4dfa004d99ec67bcfa113b0cdfb4bfc8f12b972",
+      "bytes": 122651,
+      "integrity": "V2803_EXACT_BYTES_PRESERVED",
+      "retail_approved": false
+    },
+    {
+      "slot": 5,
+      "file": "05-GOODAL-Alpha-real-photo-QA.jpg",
+      "sha256": "70425ec3a8943cacd2edc862568996ee418f9d7d771bee25397881e32dbcbf3e",
+      "bytes": 154289,
+      "integrity": "V2803_EXACT_BYTES_PRESERVED",
+      "retail_approved": false
+    }
+  ]
+}
