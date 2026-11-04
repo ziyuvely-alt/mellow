@@ -1,0 +1,67 @@
+{
+  "version": "v2780",
+  "date": "2026-11-05",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream 50mL",
+  "prior_source_JPG_files_staged": 5,
+  "status": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED",
+  "blocker": "HOLD_SHADE_23_VS_25_AND_HISTORICAL_PACKAGING",
+  "exact_stock_caution": "Hero is 23 Natural Beige; archived other scenes may show different shade 25 and product editions. Family option scope must match real stock before retail.",
+  "true_background_removed_hero_verified_prior": true,
+  "old_scenes_unverified_MK_badge": true,
+  "photo_redistribution_or_model_rights_verified": false,
+  "owned_stock_edition_proven": false,
+  "authentic_MK_logo_verified": false,
+  "new_sale_approvals": 0,
+  "published_URLs": 0,
+  "old_55_public_URLs_unchanged": true,
+  "source_pixels_regenerated": false,
+  "final_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/01-real-product-cutout-prior-QA.jpg",
+      "source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+      "source_blob_sha1": "e609fa5b411e1d05dbc6081d55342730b6aff8d0",
+      "file_size_bytes": 115656,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/02-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-03/02-original-source-sha-unchanged-QA.jpg",
+      "source_blob_sha1": "e37599473c5ec14c016ca8c908149ea987cd3b58",
+      "file_size_bytes": 111412,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/03-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-03/03-original-source-sha-unchanged-QA.jpg",
+      "source_blob_sha1": "fdbfd2569680b30cab6d0c88e84ba85ac425bc01",
+      "file_size_bytes": 128993,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/04-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-03/04-original-source-sha-unchanged-QA.jpg",
+      "source_blob_sha1": "9dedafc7c91edf951cf5b7ee8353c40f5bdbb7a0",
+      "file_size_bytes": 137533,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/05-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-03/05-original-source-sha-unchanged-QA.jpg",
+      "source_blob_sha1": "d5a14b114582081be20badaac12c626e5bced4c7",
+      "file_size_bytes": 101822,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    }
+  ]
+}

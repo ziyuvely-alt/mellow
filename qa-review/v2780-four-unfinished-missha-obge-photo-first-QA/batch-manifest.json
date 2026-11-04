@@ -1,0 +1,52 @@
+{
+  "version": "v2780",
+  "date": "2026-11-05",
+  "baseline": "v2779",
+  "families_staged": 4,
+  "source_reused_JPGs": 20,
+  "original_JPGs_modified": 0,
+  "product_image_renders": 0,
+  "approved_product_families_unchanged": 11,
+  "verified_55_public_URLs_unchanged": true,
+  "new_sale_approved_product_families": 0,
+  "commercial_photo_rights_verified": false,
+  "original_MK_logo_verified": false,
+  "exact_owned_stock_generation_verified": false,
+  "final_excel_shared": false,
+  "groups": [
+    {
+      "family": "pending-02",
+      "photo_count": 5,
+      "hold": "HOLD_REGIONAL_EDITION_AND_ACTUAL_INVENTORY",
+      "hero_source": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-02/01-real-product-hero-1080-QA.jpg"
+    },
+    {
+      "family": "pending-03",
+      "photo_count": 5,
+      "hold": "HOLD_SHADE_23_VS_25_AND_HISTORICAL_PACKAGING",
+      "hero_source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-03/01-real-cutout-white-hero-1080-QA.jpg"
+    },
+    {
+      "family": "pending-10",
+      "photo_count": 5,
+      "hold": "HOLD_13G_VS_15G_AND_UNVERIFIED_SHADE_GUIDE",
+      "hero_source": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-10/01-product-real-cutout-1080-JPG-QA.jpg"
+    },
+    {
+      "family": "pending-11",
+      "photo_count": 5,
+      "hold": "HOLD_DUAL_CHAMBER_VS_BUNDLE_EDITION",
+      "hero_source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-cutout-white-hero-1080-QA.jpg"
+    }
+  ],
+  "remaining_known_holds": [
+    "pending-01 clipped or wrong cushion generation",
+    "pending-04 CLIO mini source old badge and background residue",
+    "pending-05 CLIO Founwear mini set composition",
+    "pending-06 CLIO Mesh Glow Essential multi-item set",
+    "pending-07 CLIO Mesh Blur GIFT and extras",
+    "pending-08 Peripera 20 shade 26AD/004 identity",
+    "pending-12 MISSHA Peel Shot 15mL vs 15g",
+    "pending-19 GOODAL cream has only 2 source photo story scenes plus 3 text cards"
+  ]
+}

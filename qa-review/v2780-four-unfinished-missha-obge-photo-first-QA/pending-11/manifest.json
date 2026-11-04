@@ -1,0 +1,67 @@
+{
+  "version": "v2780",
+  "date": "2026-11-05",
+  "family": "pending-11",
+  "product": "OBgE All In One Double Essence",
+  "prior_source_JPG_files_staged": 5,
+  "status": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED",
+  "blocker": "HOLD_DUAL_CHAMBER_VS_BUNDLE_EDITION",
+  "exact_stock_caution": "One actual double-chamber bottle is the item, not a two-bottle set. Historical scenes should not imply a bundle.",
+  "true_background_removed_hero_verified_prior": true,
+  "old_scenes_unverified_MK_badge": true,
+  "photo_redistribution_or_model_rights_verified": false,
+  "owned_stock_edition_proven": false,
+  "authentic_MK_logo_verified": false,
+  "new_sale_approvals": 0,
+  "published_URLs": 0,
+  "old_55_public_URLs_unchanged": true,
+  "source_pixels_regenerated": false,
+  "final_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/01-real-product-cutout-prior-QA.jpg",
+      "source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+      "source_blob_sha1": "7688eafe1bbd075f7909cd57d660225dbf2a4093",
+      "file_size_bytes": 61512,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/02-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-11/02-historical-real-art-photo-unchanged-QA.jpg",
+      "source_blob_sha1": "fc3ba3bc5fc9717207d85ef26b6cb830e4e13d05",
+      "file_size_bytes": 188819,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/03-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-11/03-historical-real-art-photo-unchanged-QA.jpg",
+      "source_blob_sha1": "2f3922981999c76c65c213ba4c656fbe2a410a77",
+      "file_size_bytes": 162379,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/04-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-11/04-historical-real-art-photo-unchanged-QA.jpg",
+      "source_blob_sha1": "5b27724dd0740fdaf3e9ee33a84a9d8b9302020f",
+      "file_size_bytes": 176362,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/05-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-11/05-historical-real-art-photo-unchanged-QA.jpg",
+      "source_blob_sha1": "2b55a9f2f653f5b56019830483e3a0e765ee0fc5",
+      "file_size_bytes": 209506,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    }
+  ]
+}

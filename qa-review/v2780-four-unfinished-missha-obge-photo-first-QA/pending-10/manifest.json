@@ -1,0 +1,67 @@
+{
+  "version": "v2780",
+  "date": "2026-11-05",
+  "family": "pending-10",
+  "product": "OBgE Perfect Homme Cushion",
+  "prior_source_JPG_files_staged": 5,
+  "status": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED",
+  "blocker": "HOLD_13G_VS_15G_AND_UNVERIFIED_SHADE_GUIDE",
+  "exact_stock_caution": "Source photos may represent 15g package while owner may have 13g; shade information from old card not independently verified.",
+  "true_background_removed_hero_verified_prior": true,
+  "old_scenes_unverified_MK_badge": true,
+  "photo_redistribution_or_model_rights_verified": false,
+  "owned_stock_edition_proven": false,
+  "authentic_MK_logo_verified": false,
+  "new_sale_approvals": 0,
+  "published_URLs": 0,
+  "old_55_public_URLs_unchanged": true,
+  "source_pixels_regenerated": false,
+  "final_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/01-real-product-cutout-prior-QA.jpg",
+      "source": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-10/01-product-real-cutout-1080-JPG-QA.jpg",
+      "source_blob_sha1": "2c978ea8e95d2cfb2a19fe8be067075eca87d5d2",
+      "file_size_bytes": 146565,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/02-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-10/01-original-slot01-byte-preserved-QA.jpg",
+      "source_blob_sha1": "f9c956f84a253e1587736c3c4143954745af55f4",
+      "file_size_bytes": 122382,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/03-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-10/02-original-slot02-byte-preserved-QA.jpg",
+      "source_blob_sha1": "d2646193b8344a43858247b2c51088ce2f4e32a4",
+      "file_size_bytes": 204036,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/04-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-10/03-original-slot03-byte-preserved-QA.jpg",
+      "source_blob_sha1": "27b3224ed7def9d9ca2972f53542d90be269a750",
+      "file_size_bytes": 229449,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/05-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-10/05-select-shade-QA.jpg",
+      "source_blob_sha1": "97d0652db3b33505bee0474d1a480d6613f2c630",
+      "file_size_bytes": 72448,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    }
+  ]
+}

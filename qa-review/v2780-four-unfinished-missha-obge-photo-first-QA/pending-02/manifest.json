@@ -1,0 +1,67 @@
+{
+  "version": "v2780",
+  "date": "2026-11-05",
+  "family": "pending-02",
+  "product": "MISSHA Magic Cushion Moist Up",
+  "prior_source_JPG_files_staged": 5,
+  "status": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED",
+  "blocker": "HOLD_REGIONAL_EDITION_AND_ACTUAL_INVENTORY",
+  "exact_stock_caution": "White cushion open with retail carton in hero; shades and Korean vs regional generation photos cannot be assumed identical",
+  "true_background_removed_hero_verified_prior": true,
+  "old_scenes_unverified_MK_badge": true,
+  "photo_redistribution_or_model_rights_verified": false,
+  "owned_stock_edition_proven": false,
+  "authentic_MK_logo_verified": false,
+  "new_sale_approvals": 0,
+  "published_URLs": 0,
+  "old_55_public_URLs_unchanged": true,
+  "source_pixels_regenerated": false,
+  "final_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/01-real-product-cutout-prior-QA.jpg",
+      "source": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-02/01-real-product-hero-1080-QA.jpg",
+      "source_blob_sha1": "5de6adda59477e948b1151211ea774b8fa2a38d4",
+      "file_size_bytes": 83686,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/02-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/01-KR-historical-byte-preserved-QA.jpg",
+      "source_blob_sha1": "e86eb698461be309a72196ddd3a0a5775519aca8",
+      "file_size_bytes": 63058,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/03-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/02-regional-photo-01-byte-preserved-QA.jpg",
+      "source_blob_sha1": "9db2f5b63945eaa6d12d74c76e1637bf50446f25",
+      "file_size_bytes": 70952,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/04-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/03-regional-photo-02-byte-preserved-QA.jpg",
+      "source_blob_sha1": "d15f1b0e0995af389f3de4f68db93e70242d8b7a",
+      "file_size_bytes": 83936,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/05-source-archive-detail-QA.jpg",
+      "source": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/04-regional-photo-03-byte-preserved-QA.jpg",
+      "source_blob_sha1": "91d5cd493d4ebf1f0095fbd2008c7b98fe0545fb",
+      "file_size_bytes": 70310,
+      "exact_original_JPG_reused": true,
+      "sales_release": "HOLD"
+    }
+  ]
+}
