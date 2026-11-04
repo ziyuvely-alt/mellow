@@ -1,0 +1,33 @@
+name: Shopee v2559 MISSHA Moist Up and Goodal Alpha distinct photo QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2559_missha_goodal_two_composition_candidates.py'
+      - '.github/workflows/v2559-missha-goodal-proposals.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  independent-scene-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Recover 156 immutable source-review JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2559-base
+      - name: Create only two new draft product-based layouts and evaluate scene diversity
+        run: python scripts/v2559_missha_goodal_two_composition_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2559-MISSHA-Goodal-2-photo-info-candidates-no-XLSX
+          path: v2559-missha-goodal-candidate-QA/
+          retention-days: 90
+          if-no-files-found: error
