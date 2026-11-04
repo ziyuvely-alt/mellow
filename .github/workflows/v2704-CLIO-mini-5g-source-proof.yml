@@ -1,0 +1,33 @@
+name: Shopee v2704 strict official CLIO mini 5g image candidate proof
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2704-CLIO-mini-5g-source-proof.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Acquire true 5g mini CLIO official gallery, do not mix 15g kit
+        run: |
+          python -m py_compile scripts/v2704_clio_meshglow_mini_5g.py
+          python scripts/v2704_clio_meshglow_mini_5g.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2704-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2704-qa/qa-review/v2704-clio-meshglow-mini-5g-genuine-source
+          cp -a qa-review/v2704-clio-meshglow-mini-5g-genuine-source /tmp/v2704-qa/qa-review/
+          cd /tmp/v2704-qa
+          git add qa-review/v2704-clio-meshglow-mini-5g-genuine-source
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2704 original CLIO meshglow mini 5g source-only image proof no kit mixing'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
