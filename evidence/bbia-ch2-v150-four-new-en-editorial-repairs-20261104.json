@@ -1,0 +1,35 @@
+{
+  "schema": "bbia_ch2_v150_fast_closeout",
+  "date": "2026-11-04",
+  "branch": "bbia-ch2-qa-20261104",
+  "input_checkpoint": "v147 125 image QA bundle",
+  "release_pipeline": "plugin6-v0.8.5",
+  "output": "BBIA_v150_4_EN_EDITORIAL_REPAIRS_QA_PENDING.zip",
+  "produced_en_jpg": 4,
+  "source_approach": "Reuse original photo pixels from existing previous QA_PENDING JPGs; reposition/crop and recompose, no invented shade, package or model",
+  "products": [
+    "Eau Powder Pact Puff - detail",
+    "Eau Finger Puff - texture",
+    "Eau Matte Cushion Puff - two sides",
+    "Ready To Wear Eye Shadow - texture"
+  ],
+  "technical": {
+    "dimensions": "1080x1080",
+    "jpeg_under_2000000_bytes": true,
+    "files_verified": 4
+  },
+  "visual": {
+    "output_contact_sheet": "BBIA_v150_FOUR_EDITORIAL_REPAIR_CONTACT.jpg",
+    "issue_found": "eyeshadow compact bottom cropped in initial pass",
+    "action": "fixed only fourth frame, exported final candidate, manually inspected full packaging",
+    "mellow_kr_visible": true
+  },
+  "status": "EN_QA_PENDING_SOURCE_PROVENANCE",
+  "reason": "Source is inherited previous composite and is not independently reauthenticated against exact official product source; no actual colour variant proof for the eye shadow illustration",
+  "final_sales_approved": 0,
+  "translation_started": false,
+  "previous_125_modified": false,
+  "existing_55_public_urls_modified": false,
+  "previous_24_hold_unblocked": false,
+  "notes": "First four genuinely new repair renders since the prior v147 reclassification; these do not constitute full five-frame product family completion."
+}
