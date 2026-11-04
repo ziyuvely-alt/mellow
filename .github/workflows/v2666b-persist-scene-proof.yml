@@ -1,0 +1,33 @@
+name: Shopee v2666b publish isolated QA photo scene contact only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2666b-persist-scene-proof.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  save-proof:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Get exactly v2666 photo preview without regenerating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41830049503 -n shopee-v2666-five-family-real-original-scenes-QA-no-XLSX -D /tmp/v2666-scenes
+      - name: Append distinct QA-only proof to isolated branch
+        run: |
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2666-review qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2666-review/qa-review/v2666-five-original-scenes
+          mkdir -p /tmp/v2666-review/qa-review/v2666-five-original-scenes
+          cp /tmp/v2666-scenes/* /tmp/v2666-review/qa-review/v2666-five-original-scenes/
+          cd /tmp/v2666-review
+          git add qa-review/v2666-five-original-scenes
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'QA v2666 preserve original photo contact sheets for five blocked families'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
