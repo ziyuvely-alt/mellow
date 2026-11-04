@@ -1,0 +1,37 @@
+name: Shopee v2679 remaining 16 photo-family inspection in one execution
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2679-remaining16-preview.yml'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse previously validated physical JPG archive
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Build visual source indexes for remaining 16 pending families
+        run: |
+          python scripts/v2679_remaining16_photo_index.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2679-worktree qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2679-worktree/qa-review/v2679-sixteen-pending-family-source-previews
+          cp -a qa-review/v2679-sixteen-pending-family-source-previews /tmp/v2679-worktree/qa-review/
+          cd /tmp/v2679-worktree
+          git add qa-review/v2679-sixteen-pending-family-source-previews
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2679 nonmutating visual index for 16 remaining inventory families'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
