@@ -1,0 +1,29 @@
+name: Shopee v2792 CLIO top white border only fix, unchanged 8 JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2792-clio-only-upper-blank-border-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install Pillow numpy
+      - name: Update exactly CLIO frame01 and frame02 empty top border, preserve all 8 other JPG SHA
+        run: |
+          cp scripts/v2792_clio_white_top_only_two_frame_fix.py /tmp/v2792.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2792qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2792qa
+          python /tmp/v2792.py
+          git add qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2792 patch only upper white border of two CLIO mini QA photo slots and preserve other eight bytes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
