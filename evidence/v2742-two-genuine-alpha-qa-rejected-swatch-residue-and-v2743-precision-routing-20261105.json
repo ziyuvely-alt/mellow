@@ -1,0 +1,49 @@
+{
+  "version": "v2742",
+  "date": "2026-11-05",
+  "project": "Shopee inventory images 82 SKU / 41 families",
+  "prior_checkpoint": "v2741",
+  "executed_workflow_run": 41883954533,
+  "result": "success",
+  "qa_folder": "qa-review/v2742-obge-5g-source997-compact-alpha-extraction",
+  "new_original_source": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+  "source_original_native_pixels": [
+    997,
+    997
+  ],
+  "rejected_other_manufacturer_galleries": 7,
+  "source_identity_gate": "v2741a one exact 5g finisher photo only",
+  "physical_new_png_jpg_pairs": 2,
+  "visual_checks": [
+    {
+      "method": "chromatic_contour",
+      "status": "REJECT_WHITE_COSMETIC_SMEAR_REMAINS",
+      "estimated_true_product_crop_from_native_px": [
+        560,
+        800
+      ]
+    },
+    {
+      "method": "grabcut_seeded",
+      "status": "REJECT_WHITE_COSMETIC_SMEAR_REMAINS",
+      "estimated_true_product_crop_from_native_px": [
+        560,
+        782
+      ]
+    }
+  ],
+  "selected_retail_image": null,
+  "additional_work": {
+    "new_method": "v2743 manual compact silhouette, preserving real photographed pixel values",
+    "script_path": "scripts/v2743_obge_native_5g_precision_shape_matte.py",
+    "workflow_path": ".github/workflows/v2743-OBGE-5g-manual-true-object-contour.yml",
+    "registered_not_yet_verified_completed": true
+  },
+  "source_photo_redistribution_rights_verified": false,
+  "actual_owned_EAN_confirmed": false,
+  "original_authentic_MK_logo_verified": false,
+  "retail_sales_approved_new": 0,
+  "prior_11_retail_approved_product_groups_unchanged": true,
+  "prior_55_verified_public_urls_unchanged": true,
+  "final_excel_or_spreadsheet_shared": false
+}
