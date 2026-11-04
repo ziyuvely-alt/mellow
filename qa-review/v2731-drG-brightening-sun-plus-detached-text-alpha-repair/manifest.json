@@ -1,0 +1,152 @@
+{
+  "version": "v2731",
+  "baseline": "v2730",
+  "family": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50mL",
+  "source_png": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-18/01-recovered-product-foreground-alpha-QA.png",
+  "source_png_sha256": "ca3377dbdd1eee8f3075b36778bd1e42b66981e40e6b2cbdccc793d5c4084c25",
+  "prior_original_PNG_unchanged": true,
+  "prior_original_JPG_unchanged": true,
+  "prior_11_approved_groups_unchanged": true,
+  "prior_55_public_URLs_unchanged": true,
+  "commercial_photo_rights_verified": false,
+  "owned_stock_generation_verified": false,
+  "authentic_MK_logo_verified": false,
+  "retail_approved": false,
+  "final_XLSX_shared": false,
+  "method": "Existing transparency mask connected-component filtering only; original RGB pixels unchanged",
+  "components_15_pixels_or_more": [
+    {
+      "id": 12,
+      "area": 198117,
+      "bbox_xywh": [
+        249,
+        135,
+        341,
+        697
+      ]
+    },
+    {
+      "id": 11,
+      "area": 610,
+      "bbox_xywh": [
+        228,
+        11,
+        26,
+        35
+      ]
+    },
+    {
+      "id": 7,
+      "area": 607,
+      "bbox_xywh": [
+        32,
+        11,
+        26,
+        35
+      ]
+    },
+    {
+      "id": 4,
+      "area": 523,
+      "bbox_xywh": [
+        361,
+        3,
+        26,
+        34
+      ]
+    },
+    {
+      "id": 2,
+      "area": 507,
+      "bbox_xywh": [
+        66,
+        2,
+        25,
+        34
+      ]
+    },
+    {
+      "id": 8,
+      "area": 489,
+      "bbox_xywh": [
+        118,
+        11,
+        26,
+        26
+      ]
+    },
+    {
+      "id": 9,
+      "area": 436,
+      "bbox_xywh": [
+        150,
+        11,
+        25,
+        25
+      ]
+    },
+    {
+      "id": 10,
+      "area": 415,
+      "bbox_xywh": [
+        198,
+        11,
+        24,
+        25
+      ]
+    },
+    {
+      "id": 5,
+      "area": 360,
+      "bbox_xywh": [
+        95,
+        4,
+        20,
+        32
+      ]
+    },
+    {
+      "id": 6,
+      "area": 199,
+      "bbox_xywh": [
+        18,
+        11,
+        8,
+        25
+      ]
+    },
+    {
+      "id": 1,
+      "area": 48,
+      "bbox_xywh": [
+        18,
+        2,
+        8,
+        6
+      ]
+    },
+    {
+      "id": 3,
+      "area": 48,
+      "bbox_xywh": [
+        182,
+        2,
+        8,
+        6
+      ]
+    }
+  ],
+  "source_size": [
+    594,
+    836
+  ],
+  "other_island_to_main_ratio": 0.02141,
+  "alpha_pixels_removed": 5283,
+  "alpha_visible_removed_ratio": 0.02568,
+  "status": "DETACHED_ALPHA_REMOVED_PHYSICAL_OUTPUT_VISUAL_QA_PENDING",
+  "new_png_file": "01-real-DrG-source-alpha-detached-letters-only-fixed-QA.png",
+  "new_png_sha256": "4381c1e40a72d605ae9d9270e4fe548abfacfc3fb91bea47474891eb97bf553c",
+  "new_jpg_file": "01-real-DrG-no-floating-letters-1080-QA.jpg",
+  "new_jpg_sha256": "bd1c5b341dd9ed6ca411f5721b4f00b9e706a1419b82d263e3291f96c0745d16"
+}
