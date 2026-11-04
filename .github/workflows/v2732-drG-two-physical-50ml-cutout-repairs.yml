@@ -1,0 +1,34 @@
+name: Shopee v2732 two DrG 50mL alternate scene and full-cap alpha repairs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2732-drG-two-physical-50ml-cutout-repairs.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy 'rembg[cpu]==2.0.67'
+      - name: Derive two different genuine photo alpha QA candidates, no prior mutation
+        env:
+          U2NET_HOME: /tmp/isnet-models
+        run: |
+          cp scripts/v2732_two_drg_cutout_source_fixes.py /tmp/v2732.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2732-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2732-qa
+          test ! -e qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts
+          python /tmp/v2732.py
+          git add qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2732 DrG two source-led full cap alternative alpha candidates, no public changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
