@@ -1,0 +1,32 @@
+name: Shopee v2731 DrG floating text alpha cleanup only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2731-drG-alpha-island-cleanup.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Remove only genuinely detached text alpha components if technically safe
+        run: |
+          cp scripts/v2731_drG_detached_text_alpha_cleanup.py /tmp/v2731.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2731-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2731-qa
+          test ! -e qa-review/v2731-drG-brightening-sun-plus-detached-text-alpha-repair
+          python /tmp/v2731.py
+          git add qa-review/v2731-drG-brightening-sun-plus-detached-text-alpha-repair
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2731 source-faithful DrG alpha detached text cleanup QA; public 55 URLs unchanged'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
