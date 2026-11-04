@@ -1,0 +1,66 @@
+{
+  "version": "v2720",
+  "baseline": "v2719",
+  "new_product_families_attempted": 2,
+  "real_alpha_png_jpg_pairs_saved": 2,
+  "new_retail_approvals": 0,
+  "commercial_photo_rights_verified": false,
+  "physical_stock_edition_verified": false,
+  "approved_MK_logo_verified": false,
+  "original_photos_modified": false,
+  "prior_11_approved_groups_modified": false,
+  "prior_55_public_urls_modified": false,
+  "final_xlsx_shared": false,
+  "products": [
+    {
+      "family": "pending-02",
+      "product": "Magic Cushion Moist Up",
+      "original_source": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/01-KR-historical-byte-preserved-QA.jpg",
+      "original_sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+      "cropped_region": [
+        140,
+        150,
+        938,
+        965
+      ],
+      "product_edition_hold": "21/23 shades, stock edition HOLD",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+      "alpha_coverage": 0.2842,
+      "bbox": [
+        96,
+        0,
+        702,
+        584
+      ],
+      "png": "pending-02/01-real-transparent-product-QA.png",
+      "jpg": "pending-02/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "05b1b6cb821acad0bf183613cc45e416f2484b98b9b33bb976d867f85557d753"
+    },
+    {
+      "family": "pending-23",
+      "product": "Pore Zero Oil Control Sun Cream 50mL",
+      "original_source": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-23/01-actual-source-slot01-UNMODIFIED-QA.jpg",
+      "original_sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+      "cropped_region": [
+        150,
+        151,
+        932,
+        960
+      ],
+      "product_edition_hold": "Exact owned 50mL stock HOLD",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+      "alpha_coverage": 0.4645,
+      "bbox": [
+        150,
+        0,
+        574,
+        809
+      ],
+      "png": "pending-23/01-real-transparent-product-QA.png",
+      "jpg": "pending-23/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "c6d0174cd5d09d43bc7671657719188c3c81cf4b4b6e1a1d8f64a243357a3d5a"
+    }
+  ]
+}
