@@ -1,0 +1,32 @@
+name: Shopee v2550 30-family similarity triage from preserved 156 JPG QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2550_30family_similarity_triage.py'
+      - '.github/workflows/v2550-similarity-triage.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  diversity-triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Restore exactly v2549 successful QA manifest and contact sheets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41716087864 -n shopee-v2549-156-jpg-30family-full-contactboards-qa-JSON-no-XLSX -D v2550-input
+      - name: Compute all family-level similarity triage without altering JPGs
+        run: python scripts/v2550_30family_similarity_triage.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2550-30family-similarity-priority-no-XLSX
+          path: v2550-30family-diversity-triage/
+          retention-days: 90
+          if-no-files-found: error
