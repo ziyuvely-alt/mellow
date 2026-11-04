@@ -1,0 +1,55 @@
+{
+  "checkpoint": "v238",
+  "date": "2026-11-04",
+  "parent": "v237",
+  "run_results": {
+    "v235": {
+      "run_id": 41832941770,
+      "detail_photos_requested": 26,
+      "downloaded": 26,
+      "artifact_id": 13324115765
+    },
+    "v236": {
+      "run_id": 41833510779,
+      "new_draft_jpg": 4,
+      "artifact_id": 13323347229,
+      "visual_result": {
+        "172": "RETAIN_GENERIC_MASCARA_TEXTURE_QA",
+        "1000000221": "HOLD_TESTIMONIAL_BANNER",
+        "1000000227": "HOLD_EMBEDDED_KOREAN",
+        "1000000247": "HOLD_EMBEDDED_KOREAN"
+      }
+    },
+    "v237": {
+      "run_id": 41833793807,
+      "new_draft_jpg": 2,
+      "artifact_id": 13324286812,
+      "visual_result": "Both JPGs still contain Korean embedded in original details; do not approve"
+    }
+  },
+  "v238": {
+    "actual_new_cropped_jpg": 2,
+    "photo_only_sources": [
+      "BBIA_1000000227_CLEAN_CROP_v238_QA_PENDING.jpg",
+      "BBIA_1000000247_CLEAN_CROP_v238_QA_PENDING.jpg"
+    ],
+    "visual_result": "Korean text excluded by cropping; genuine product photos are small within canvas; retain as image material ONLY not final design",
+    "zip": "BBIA_v238_TWO_CLEAN_PHOTO_MATERIALS_QA_PENDING.zip",
+    "zip_sha256": "5530822a52ca7b57f782d397c43d80a611d5c37bab3fbc0a725f2417060c9458",
+    "zip_bytes": 182884,
+    "container_zip": "/mnt/data/bbia_v238/BBIA_v238_TWO_CLEAN_PHOTO_MATERIALS_QA_PENDING.zip",
+    "visual_contact": "/mnt/data/bbia_v238/BBIA_v238_TWO_CLEAN_CROP_CONTACT.jpg"
+  },
+  "next": [
+    "Stop cropping this same two products: both are usable source materials but too sparse to present as sale images; seek alternate native detail photos and continue next products",
+    "Retain v234 13 hero layout candidates and v236 mascara independent detail",
+    "Do not fabricate 5-role completion from archived byte counts",
+    "Keep blush testimonial screenshot excluded"
+  ],
+  "safeguards": {
+    "public_images_modified": false,
+    "verified_55_urls_modified": false,
+    "final_xlsx_shared": false,
+    "sale_approved": 0
+  }
+}
