@@ -1,0 +1,40 @@
+{
+  "schema": "bbia_v195_three_new_texture_frames",
+  "date": "2026-11-04",
+  "new_en_images": 3,
+  "prior": "v194 four Lucky Shine scenes preserved",
+  "artifacts": [
+    "BBIA_v195_THREE_NEW_SOURCE_TEXTURE_EN_QA_PENDING.zip",
+    "BBIA_v195_THREE_NEW_TEXTURE_CONTACT.jpg",
+    "BBIA_v195_THREE_SOURCE_TEXTURE_MANIFEST.json",
+    "v195_three_texture_reference_frames.py"
+  ],
+  "products": [
+    {
+      "goodsNo": "1000000135",
+      "name": "Last Velvet Tint full size",
+      "role": "texture photo only",
+      "status": "QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000179",
+      "name": "Eau Matte Cushion Refill",
+      "role": "foundation texture reference, not refill package proof",
+      "status": "HOLD_REFILL_PACKAGING_PROOF"
+    },
+    {
+      "goodsNo": "1000000124",
+      "name": "Eau Glow Cushion Refill",
+      "role": "foundation texture reference, not refill package proof",
+      "status": "HOLD_REFILL_PACKAGING_PROOF"
+    }
+  ],
+  "technical": "3 1080x1080 JPEG below 2MB verified from local preserved files, CRC checked; source/output hashes recorded in manifest",
+  "selective_revision": "Only the 3 newly rendered v195 frames were recropped to remove inherited Korean captions and shade identifiers",
+  "source_status": "Original archived PNG source reused, independent current official source identity not verified",
+  "approved_for_sale": 0,
+  "previous_55_public_urls_preserved": true,
+  "old_files_preserved": true,
+  "no_excel_shared": true,
+  "next": "Do not recreate v195 images. Refill two products need exact official packaging photographs before sales. Never count texture photo as refill contents proof."
+}
