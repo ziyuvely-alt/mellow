@@ -1,0 +1,28 @@
+{
+  "checkpoint": "v250",
+  "parent": "v249",
+  "reviewed": 3,
+  "results": [
+    [
+      "1000000057",
+      "HOLD_PROMOTIONAL_GRAPHICS"
+    ],
+    [
+      "1000000074",
+      "HOLD_KOREAN_TEXT_CROPPED"
+    ],
+    [
+      "1000000113",
+      "HOLD_KOREAN_TEXT"
+    ]
+  ],
+  "existing_files_changed": false,
+  "approved_count": 0,
+  "next": [
+    "1000000185",
+    "1000000126",
+    "1000000200",
+    "1000000127",
+    "1000000142"
+  ]
+}
