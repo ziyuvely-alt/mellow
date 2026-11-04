@@ -1,0 +1,32 @@
+name: Shopee v2689 two more PIXELPURE official product photo upgrades
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2689-pixelpure-cleanser-pad-official.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Upgrade only distinct official 145mL cleanser and 70-pad product photos
+        run: |
+          python -m py_compile scripts/v2689_two_pixelpure_cleanser_pad_official_upgrade.py
+          cp scripts/v2689_two_pixelpure_cleanser_pad_official_upgrade.py /tmp/v2689.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2689-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2689-qa
+          python /tmp/v2689.py
+          git add qa-review/v2689-pixelpure-official-photo-candidate-upgrades
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2689 add only distinct official cleanser/pad product photo QA scenes, preserve all prior frames'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
