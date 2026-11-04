@@ -25,7 +25,7 @@ results=[]
 for case in cases:
  fam=SRC/case["family"];assert fam.is_dir()
  def frame(n):
-  f=list(fam.glob(f"{n:02d}_*.jpg"));assert len(f)==1,(fam,n,f);return f[0]
+  f=list(fam.glob(f"{n:02d}*.jpg"));assert len(f)==1,(fam,n,f);return f[0]
  im=Image.open(frame(case["hero"]));im.load()
  assert im.format=="JPEG" and im.size==(1080,1080)
  canvas=Image.new("RGB",(1080,1080),case["paper"])
