@@ -1,0 +1,25 @@
+name: BBIA v242 four authentic-source detail QA candidates
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v242_four_source_detail_candidates.py
+      - .github/workflows/bbia-v242-four-source-detail.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Produce four alternative scenes from verified official detail sources
+        run: python scripts/bbia_v242_four_source_detail_candidates.py --out /tmp/bbia-v242
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bbia-v242-four-different-detail-scenes
+          path: /tmp/bbia-v242
+          retention-days: 30
+          if-no-files-found: warn
