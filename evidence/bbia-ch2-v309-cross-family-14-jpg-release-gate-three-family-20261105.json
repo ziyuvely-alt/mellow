@@ -1,0 +1,61 @@
+{
+  "checkpoint": "v309",
+  "date": "2026-11-05",
+  "parent": "v308",
+  "actual_execution": {
+    "type": "Local Python ZIP/JPEG cross-family release gate run",
+    "script": "/mnt/data/bbia_v309_gate.py",
+    "generated_report": "/mnt/data/bbia_v309/BBIA_v309_CROSS_FAMILY_RELEASE_GATE.json",
+    "families_checked": 3,
+    "candidate_jpg_bytes_verified": 14,
+    "all_1080x1080_JPG_under_2mb": true,
+    "all_3_zip_crc_pass": true,
+    "within_family_sha_distinct": true,
+    "cross_family_sha_distinct": true
+  },
+  "families": [
+    {
+      "goodsNo": "1000000125",
+      "name": "EAU Stay Concealer",
+      "candidate_roles": 5,
+      "source_version": "v304",
+      "new_in_v304": 2,
+      "reused": 3,
+      "sales_status": "NOT_APPROVED"
+    },
+    {
+      "goodsNo": "1000000223",
+      "name": "Lip Oil Essence",
+      "candidate_roles": 5,
+      "source_version": "v305",
+      "new_in_v305": 1,
+      "reused": 4,
+      "sales_status": "NOT_APPROVED"
+    },
+    {
+      "goodsNo": "1000000239",
+      "name": "Lucky Shine Tint",
+      "candidate_roles": 4,
+      "source_version": "v308",
+      "new_in_v308": 1,
+      "reused": 3,
+      "sales_status": "NOT_APPROVED"
+    }
+  ],
+  "qa_blockers": [
+    "Exact option shade identity and swatch linkage not independently verified",
+    "Real alpha-background extraction and final commercial visual QA outstanding",
+    "1000000239 still missing a fifth genuinely distinct image role; do not count the duplicate hero photo as fifth"
+  ],
+  "preservation": {
+    "prior_published_files_modified": false,
+    "approved_55_public_urls_changed": false,
+    "previous_jpgs_regenerated": false,
+    "final_xlsx_shared": false
+  },
+  "next": [
+    "Retain the three existing ZIP SHA-supported 14 candidate JPGs. Never regenerate them merely to count photos.",
+    "Move to genuine fifth Lucky Shine Tint photo role if distinct, source-backed and clean; otherwise keep under five.",
+    "Batch exact shade/option and true cutout QA across finished 5-role candidate families, never auto-publish or claim approval."
+  ]
+}
