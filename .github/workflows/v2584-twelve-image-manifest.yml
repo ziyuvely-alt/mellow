@@ -1,0 +1,43 @@
+name: Shopee v2584 incremental twelve-image QA manifest checkpoint
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2584_append_obge_one_to_11_delta_manifest.py'
+      - '.github/workflows/v2584-twelve-image-manifest.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  append-only-one-new-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse eleven prior QA SHA evidence without downloading old JPEGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762644574 -n shopee-v2582-eleven-real-JPG-source-QA-delta-no-XLSX -D v2584-prev
+      - name: Reuse actual OBgE double essence 50+50ml factual JPG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762824246 -n shopee-v2583-obge-double-essence-real-photo-factual-info-QA-no-XLSX -D v2584-obge
+      - name: Reuse only OBgE prior five scenes for nearest-neighbor comparison
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2584-source
+      - name: Expose five relevant existing photos without copying other source images
+        run: ln -s ../v2584-source/review-JPG-by-family/pending-11 v2584-base
+      - name: Append exact one new JPG and preserve earlier eleven SHA identities
+        run: python scripts/v2584_append_obge_one_to_11_delta_manifest.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2584-twelve-QA-delta-provenance-and-one-new-JPG-no-XLSX
+          path: v2584-twelve-photo-incremental-manifest-only/
+          retention-days: 90
+          if-no-files-found: error
