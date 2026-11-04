@@ -1,0 +1,34 @@
+{
+  "schema": "bbia_ch2_v157_five_new_EN_images",
+  "date": "2026-11-04",
+  "checkpoint_from": "v156 Last Pen Eyeliner 5-frame set",
+  "family": "BBIA Eau Matte Cushion Puff",
+  "source_archive": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "actual_output_zip": "BBIA_v157_MATTE_CUSHION_PUFF_5_EN_QA_PENDING.zip",
+  "actual_preview": "BBIA_v157_MATTE_PUFF_5_EN_CONTACT.jpg",
+  "actual_manifest": "BBIA_v157_MATTE_CUSHION_PUFF_MANIFEST.json",
+  "new_EN_jpg": 5,
+  "technical_validation": "5 JPEG 1080x1080 under 2MB; ZIP CRC valid",
+  "reuse": "Five photographed images cropped from historical v147 JPG, with source image paths and source SHA256 recorded inside manifest; original v147 JPG untouched",
+  "scene_titles": [
+    "01 Hero",
+    "02 Texture",
+    "03 Precision application reference",
+    "04 Product detail context",
+    "05 Front reverse"
+  ],
+  "in_execution_fixes": [
+    "01 headline overlap corrected in new v157 only",
+    "04 unrelated brush application picture rejected and substituted with already available product/compact reference photograph"
+  ],
+  "source_risks": [
+    "Underlying photographs inherited from previously QA_PENDING composites, not independently matched to official product source pixel evidence",
+    "04 compact context picture might imply included compact; do not publish unless content and exact product scope proven",
+    "No official confirmation that current product name/image group accurately maps to one parent SKU"
+  ],
+  "quality_status": "QA_PENDING_SOURCE_AND_PRODUCT_SCOPE",
+  "sales_approved": 0,
+  "translation_started": false,
+  "previous_versions_preserved": "v147 125 JPG, v150-v156 candidates, previous approved public URLs untouched",
+  "next": "Do not recrop v157 again without verified official source; proceed to another family with better provenance, or replace held scene only upon proof. Never label this five-scene EN candidate pack sale approved."
+}
