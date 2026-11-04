@@ -1,0 +1,54 @@
+{
+  "version": "v2759",
+  "baseline": "v2758",
+  "family": "pending-08",
+  "source_shades": [
+    "18",
+    "19"
+  ],
+  "reprocessed_previous_18_other_shades": false,
+  "source_alphas_untouched": true,
+  "physical_new_corrected_png_jpg_pairs": 0,
+  "remaining_alpha_hold_shades": [
+    "18",
+    "19"
+  ],
+  "color_chart_swatches_fabricated": 0,
+  "new_product_photographs_generated": 0,
+  "old_11_published_approved_groups_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "commercial_photo_rights_verified": false,
+  "stock_package_generation_verified": false,
+  "retail_approved_new": 0,
+  "final_XLSX_shared": false,
+  "records": [
+    {
+      "shade": "18",
+      "original_png": "qa-review/v2753-peripera-legacy-17-product-real-alpha-qa/shade-18/18-exact-legacy-product-true-alpha-QA.png",
+      "original_sha256": "7b8f20b1c53d98f947623c2956c69d6a3aeb863cd49a92665bf50e05961f1aad",
+      "original_corner_alpha": 254,
+      "component_count": 4,
+      "main_foreground_area": 112785,
+      "border_component_area": 112785,
+      "border_component_vs_largest": 1.0,
+      "status": "HOLD_UNSAFE_TO_REMOVE_ATTACHED_OBJECT",
+      "actual_new_corrected_png": null,
+      "exact_original_source_preserved": true,
+      "retail_approved": false
+    },
+    {
+      "shade": "19",
+      "original_png": "qa-review/v2753-peripera-legacy-17-product-real-alpha-qa/shade-19/19-exact-legacy-product-true-alpha-QA.png",
+      "original_sha256": "d5f255fe777167b227236d132a5fc07cee46b4143da0ef325f279727afb4a2b5",
+      "original_corner_alpha": 254,
+      "component_count": 2,
+      "main_foreground_area": 114618,
+      "border_component_area": 114618,
+      "border_component_vs_largest": 1.0,
+      "status": "HOLD_UNSAFE_TO_REMOVE_ATTACHED_OBJECT",
+      "actual_new_corrected_png": null,
+      "exact_original_source_preserved": true,
+      "retail_approved": false
+    }
+  ]
+}
