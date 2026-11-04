@@ -1,0 +1,105 @@
+{
+  "version": "v2750",
+  "base": "v2749",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting No25/27",
+  "distinct_official_original_colorways_only": true,
+  "no_N21_or_N23_photo_used": true,
+  "source_originals_sha_preserved": true,
+  "new_retail_approvals": 0,
+  "photo_commercial_rights_verified": false,
+  "exact_owned_Korean_stock_generation_verified": false,
+  "original_MK_brand_logo_authenticated": false,
+  "published_11_families_unchanged": true,
+  "published_55_public_urls_unchanged": true,
+  "final_xlsx_shared": false,
+  "variants": [
+    {
+      "shade": "25",
+      "source": "qa-review/v2749-MISSHA-coverlasting-N25-N27-official-variant-source-proof/shade-25/01-real-variant-linked-25-source-reference-QA.jpg",
+      "source_sha256": "16742b957e6d786f3092cc1b74febb9d383f40d1aec1c7b2ec39c078bcb66a77",
+      "alpha_methods": [
+        {
+          "method": "isnet",
+          "status": "REAL_ALPHA_RENDERED_VISUAL_QA_REQUIRED",
+          "alpha_coverage": 0.2115,
+          "box_xyxy": [
+            212,
+            207,
+            876,
+            883
+          ],
+          "contours": null,
+          "png": "shade-25/01-original-25-isnet-true-alpha-QA.png",
+          "jpg": "shade-25/01-original-25-isnet-product-1080-QA.jpg",
+          "jpg_bytes": 119534,
+          "png_sha256": "4a23eb709f3dc15e4b649ca02e3b12afd288af9f204937aa6c4588c79c63242b",
+          "jpg_sha256": "50194575c8e7cc4de0a7b2e5926da8c1882efe285be1076d31802505c8a1bcfd"
+        },
+        {
+          "method": "white_bg_contour",
+          "status": "REAL_ALPHA_RENDERED_VISUAL_QA_REQUIRED",
+          "alpha_coverage": 0.2214,
+          "box_xyxy": [
+            213,
+            206,
+            875,
+            881
+          ],
+          "contours": 1,
+          "png": "shade-25/01-original-25-white_bg_contour-true-alpha-QA.png",
+          "jpg": "shade-25/01-original-25-white_bg_contour-product-1080-QA.jpg",
+          "jpg_bytes": 119533,
+          "png_sha256": "8ec6dbba3bd4eaeeb45e1f6d9f7771d0bf50c25241cf437e1fb3112a807831b8",
+          "jpg_sha256": "88a4e2a6e769e1d8fcd3bdf8659a9ca745321e1ad3fc8a98fee72c20446ba8f8"
+        }
+      ],
+      "retail_approved": false,
+      "sku_generation_and_rights_hold": true
+    },
+    {
+      "shade": "27",
+      "source": "qa-review/v2749-MISSHA-coverlasting-N25-N27-official-variant-source-proof/shade-27/01-real-variant-linked-27-source-reference-QA.jpg",
+      "source_sha256": "6a9114e23ba1f3e32c30c1a4254d0e0fe36cf0a0d33d69d55eacdf230726e051",
+      "alpha_methods": [
+        {
+          "method": "isnet",
+          "status": "REAL_ALPHA_RENDERED_VISUAL_QA_REQUIRED",
+          "alpha_coverage": 0.2149,
+          "box_xyxy": [
+            212,
+            207,
+            877,
+            881
+          ],
+          "contours": null,
+          "png": "shade-27/01-original-27-isnet-true-alpha-QA.png",
+          "jpg": "shade-27/01-original-27-isnet-product-1080-QA.jpg",
+          "jpg_bytes": 122255,
+          "png_sha256": "730d090198e24e5872660abab54a4707097c6903d1ddb4708d4c7cf85641ba03",
+          "jpg_sha256": "a607a8af244c4ab45b1cd7ae44cbecb4f4a50a45cbc6ffa2cf0c3b2806b3f766"
+        },
+        {
+          "method": "white_bg_contour",
+          "status": "REAL_ALPHA_RENDERED_VISUAL_QA_REQUIRED",
+          "alpha_coverage": 0.2209,
+          "box_xyxy": [
+            213,
+            206,
+            875,
+            881
+          ],
+          "contours": 1,
+          "png": "shade-27/01-original-27-white_bg_contour-true-alpha-QA.png",
+          "jpg": "shade-27/01-original-27-white_bg_contour-product-1080-QA.jpg",
+          "jpg_bytes": 121703,
+          "png_sha256": "ffe4112abc1e301ece9dd589f733952abec64b1c452bfe34403fe90423039f02",
+          "jpg_sha256": "5a552829f462b800b697c34d30a521fcdaf911b74e139d6b43eadfaa45c6c9e2"
+        }
+      ],
+      "retail_approved": false,
+      "sku_generation_and_rights_hold": true
+    }
+  ],
+  "real_alpha_PNG_and_JPG_pairs": 4
+}
