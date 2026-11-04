@@ -1,0 +1,20 @@
+name: BBIA v282 six later-source-role batch
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v282_six_fresh_source_roles.py, .github/workflows/bbia-v282-fresh-role-gate.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v282_six_fresh_source_roles.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v282-six-fresh-original-detail-source-files
+          path: /tmp/bbia-v282
+          retention-days: 30
