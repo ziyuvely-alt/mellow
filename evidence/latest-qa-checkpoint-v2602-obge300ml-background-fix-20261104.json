@@ -1,0 +1,49 @@
+{
+  "version": "v2602",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "latest_full_corpus": {
+    "version": "v2597",
+    "run_id": 41765900358,
+    "artifact": "shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX",
+    "family_count": 30,
+    "jpg_count": 156
+  },
+  "new_work": {
+    "family": "pending-22",
+    "slot": 4,
+    "product": "OBgE MAX Waterful Sun Cream 300 mL",
+    "old_sha256": "f0cdf6d5b35a9c7977fee488c6175e6e5ec02dc1acdbb89da2bc449a05a9168d",
+    "new_sha256": "06ec8371dae7d84299ede44faa5708e5bc493ff20a63c5e666394daa54a61a13",
+    "new_resolution": "1080x1080",
+    "new_jpg_bytes": 47322,
+    "status": "TECHNICAL_BACKGROUND_CORRECTION_READY_FOR_MANUAL_VISUAL_QA",
+    "new_candidate_location": "conversation output Shopee_v2602_OBGE_300ml_background_fix_QA_ONLY.zip",
+    "overlay_applied_to_main_corpus": false
+  },
+  "same_defect_scan": {
+    "scope": "156 JPG from v2597",
+    "threshold": "black pixel ratio >35% in central region",
+    "number_of_hits": 1,
+    "other_families_affected": 0
+  },
+  "not_integrated": {
+    "v2600": "four fact-only draft frames retained but no sales approval",
+    "v2601": "four reusing existing photo shots retained as QA proposals, avoided replacing existing diverse scenes",
+    "v2598": "failed safely due to unexpected older frame; no image overwritten"
+  },
+  "commercial_release_hold": [
+    "Actual stock packaging edition must match",
+    "Seller copyright/usage rights unconfirmed",
+    "Original MK logo binary cannot be acquired through present integration",
+    "Human visual claim/scene review not complete"
+  ],
+  "preservation": {
+    "existing_public_completed_product_families": 11,
+    "existing_public_verified_urls": 55,
+    "existing_public_urls_changed": 0,
+    "previous_156_image_bytes_changed": 0,
+    "spreadsheet_shared": false
+  },
+  "next_instruction": "Use v2597 for original 156; examine isolated v2602 slot04 repaired image and only then promote as delta after rights/physical-stock/logo/visual-QA checks. Do not rerun black-background scan or regenerate v2600/v2601."
+}
