@@ -1,0 +1,31 @@
+{
+  "version": "v2743-visual-QA",
+  "date": "2026-11-05",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "QA_folder": "qa-review/v2743-obge-finisher-official-5g-only-precision-contour-matte",
+  "verified_real_alpha_png": true,
+  "verified_1080_jpg": true,
+  "source_original_native_px": [
+    997,
+    997
+  ],
+  "source_product_crop_estimate_px": [
+    428,
+    619
+  ],
+  "comparison_visually_inspected": true,
+  "product_body_top_strap_and_bottom_preserved": true,
+  "white_cosmetic_background_swatch_removed": true,
+  "prior_v2742_bad_masks_rejected_no_repeat": true,
+  "QA_status": "VISUAL_QA_CANDIDATE_PASS_NOT_RETAIL_APPROVED",
+  "one_to_one_final_edge_review": "PENDING",
+  "redistributable_image_license": "UNVERIFIED",
+  "physical_owned_5g_EAN_match": "UNVERIFIED",
+  "authentic_MK_logo": "UNVERIFIED",
+  "published_11_groups_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "new_retail_approval": false,
+  "next": "pending-13 use official v2696 single serum bottle source04 rather than old fact card",
+  "final_xlsx_shared": false
+}
