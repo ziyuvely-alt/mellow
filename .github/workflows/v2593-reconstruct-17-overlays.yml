@@ -1,0 +1,53 @@
+name: Shopee v2593 reconstruct definitive 156 JPG review corpus from 17 latest deltas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2593_reconstruct_17_latest_qa_overlays.py'
+      - '.github/workflows/v2593-reconstruct-17-overlays.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  full-reconstruction-and-stock-conflict:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore original 156 reference candidates once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D sources/base
+      - name: Restore 11 approved for isolated QA overlay from v2582
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762644574 -n shopee-v2582-eleven-real-JPG-source-QA-delta-no-XLSX -D sources/eleven
+      - name: Restore one correct OBgE 50 plus 50mL fact image
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762824246 -n shopee-v2583-obge-double-essence-real-photo-factual-info-QA-no-XLSX -D sources/double
+      - name: Restore one official OBgE 300mL image
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763143287 -n shopee-v2585-OBGE-300ml-official-real-photo-QA-no-XLSX -D sources/waterful
+      - name: Restore three MISSHA DrG actual images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763838259 -n shopee-v2588-MISSHA-DrG-real-source-QA-deltas-no-XLSX -D sources/missha-drg
+      - name: Restore latest corrected Goodal JPG instead of stale v2590
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764357199 -n shopee-v2592-goodal-100ml-clean-footer-17QA-checkpoint-no-XLSX -D sources/goodal-corrected
+      - name: Reconstruct and verify exactly 156 JPG and quarantine source stock 15g vs 15ml
+        run: python scripts/v2593_reconstruct_17_latest_qa_overlays.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX
+          path: v2593-latest-156-physical-QA-corpus/
+          retention-days: 90
+          if-no-files-found: error
