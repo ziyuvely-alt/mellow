@@ -1,0 +1,55 @@
+{
+  "checkpoint": "v304",
+  "date": "2026-11-05",
+  "parent": "v303",
+  "goodsNo": "1000000125",
+  "product": "BBIA Eau Stay Concealer",
+  "actual_files": {
+    "archive": "/mnt/data/bbia_v304/BBIA_v304_FIVE_CONCEALER_ROLES_QA_PENDING.zip",
+    "contact": "/mnt/data/bbia_v304/BBIA_v304_FIVE_CONCEALER_ROLES_CONTACT.jpg",
+    "manifest": "/mnt/data/bbia_v304/BBIA_v304_MANIFEST.json"
+  },
+  "production": {
+    "new_jpg": 2,
+    "reused_exact_jpg": 3,
+    "different_photo_roles": 5,
+    "added_roles": [
+      "Three skin-finish photos",
+      "Formula with applicator photo"
+    ],
+    "source": "/mnt/data/bbia_v293_review/BBIA_1000000125_SOURCE_3_v293.jpg",
+    "source_crops": [
+      [
+        0,
+        755,
+        1000,
+        1175
+      ],
+      [
+        0,
+        3300,
+        1000,
+        4110
+      ]
+    ],
+    "sha256_new": [
+      "b0831500371a566ee3fc9f75126362c1128cdb38d9e09dfa9097c2beda038c6d",
+      "d0e7c9b7983d2d0b5929e3bb5c50e6e266eed3fc05984047745f717870fa945c"
+    ]
+  },
+  "qa": {
+    "actual_contact_opened": true,
+    "all_1080_square_jpg_under_2mb": true,
+    "unique_5_sha": true,
+    "archive_crc_pass": true,
+    "not_sales_approved": true,
+    "alpha_cutout_verified": false,
+    "option_shade_mapping_verified": false
+  },
+  "preservation": {
+    "prior_v294_v303_jpg_bytes_unchanged": true,
+    "verified_55_public_urls_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": "Do not re-render 1000000125. Continue lip oil essence goodsNo 1000000223 one remaining genuine lip-finish role from saved original."
+}
