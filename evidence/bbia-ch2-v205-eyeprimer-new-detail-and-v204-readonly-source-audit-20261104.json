@@ -1,0 +1,42 @@
+{
+  "checkpoint": "v205",
+  "date": "2026-11-04",
+  "previous": "v203 one Eau Glow cushion texture image, preserved",
+  "v204": {
+    "archive": "BBIA_v204_46_FAMILY_SOURCE_QA_AND_HOLDS.zip",
+    "audit": "BBIA_v204_READONLY_SOURCE_FAMILY_AUDIT.json",
+    "source_plan_families": 46,
+    "project_declared_families": 48,
+    "families_unreconciled": 2,
+    "source_decoded": 338,
+    "source_corrupt": 24,
+    "source_under_250_axis": 136,
+    "comment": "Read-only inventory of source snapshots and local manifest file names; it does not prove all family five-scene completeness. Missing project master prevents reconciling two family IDs; exclude from automatic regeneration."
+  },
+  "v205": {
+    "product": "BBIA Last Eye Primer",
+    "goodsNo": "205",
+    "new_jpg": "BBIA_v205_EYE_PRIMER_BOTTLE_DETAIL_EN_QA_PENDING.jpg",
+    "zip": "BBIA_v205_EYE_PRIMER_1_NEW_BOTTLE_DETAIL_EN_QA_PENDING.zip",
+    "script": "v205_eyeprimer_bottle_detail.py",
+    "manifest": "QA_MANIFEST_v205.json",
+    "source": "batch/205/photo-4.png",
+    "source_crop": [
+      0,
+      0,
+      800,
+      305
+    ],
+    "visual": "Actual BBIA bottle detail photographed; downstream white separator and unrelated bottom detail excluded",
+    "technical": "new 1080x1080 JPEG 86654 bytes, SHA256 and source hash saved, ZIP CRC passed",
+    "family_roles_v176": 2,
+    "family_roles_now": 3,
+    "remaining_two_roles": true,
+    "qa": "QA_PENDING official contemporaneous identity/photo verification, not sale-approved"
+  },
+  "preserved": "All v147-v203 past JPG and ZIP, source archive, 55 public URLs, main branch untouched",
+  "approved_for_sale": 0,
+  "translations": 0,
+  "excel_shared": false,
+  "next": "Do not recreate v205 new frame. Prioritize reconciling the missing 2 families against original master if accessible, otherwise HOLD rather than invent IDs. Never treat v204 named-output index as exhaustive proof. Remaining two primer roles require distinct authenticated source."
+}
