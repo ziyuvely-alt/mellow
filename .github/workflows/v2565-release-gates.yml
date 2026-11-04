@@ -1,0 +1,29 @@
+name: Shopee v2565 efficient 30-family release-gate batch audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2565_all30_release_gate_issue_queue.py'
+      - '.github/workflows/v2565-release-gates.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  audit-release-queue:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reuse existing 30 family gallery manifest only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41755010679 -n shopee-v2564-30families-156JPG-review-gallery-no-XLSX -D v2565-v2564-gallery
+      - name: Merge inventory options with image QA and prepare next 30-family batch
+        run: python scripts/v2565_all30_release_gate_issue_queue.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2565-30family-issue-specific-release-gates-queue-no-XLSX
+          path: v2565-30family-release-hold-and-batch-queue/
+          retention-days: 90
+          if-no-files-found: error
