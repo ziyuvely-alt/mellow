@@ -1,0 +1,42 @@
+{
+  "version": "v2756",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+  "source_original_path": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+  "source_original_sha256": "703c7d4e3d883364813e09087dfbf9ad08f5c4a422dd8b86b17036be6abf03ff",
+  "source_original_dimensions": [
+    1080,
+    1080
+  ],
+  "source_image_identity": "source04 SAME PRODUCT SINGLE 30mL SERUM; not information card",
+  "source_original_bytes_unchanged": true,
+  "old_failed_input_slot01_NOT_retried": true,
+  "cropped_region_xyxy": [
+    108,
+    11,
+    950,
+    1069
+  ],
+  "status": "REAL_ALPHA_PNG_AND_JPG_PRODUCED_VISUAL_QA_REQUIRED",
+  "retail_approved": false,
+  "output_png": "pending-13-official-30mL-single-serum-true-alpha-QA.png",
+  "output_jpg": "pending-13-official-serum-true-alpha-1080-QA.jpg",
+  "output_png_sha256": "bbe34c85b9ee03e1ecaae10c140c585b9c1f167a20acb7891adef3616f271eaa",
+  "output_jpg_sha256": "0385d53978092a530925a2b0a54b41430f8b22e5b04f3313039449b5bd75a53a",
+  "jpg_bytes": 126541,
+  "alpha_mask_coverage": 0.3166,
+  "mask_bbox": [
+    280,
+    141,
+    806,
+    934
+  ],
+  "photo_redistribution_license_proven": false,
+  "owned_30mL_stock_generation_verified": false,
+  "approved_round_MK_logo_verified": false,
+  "new_retail_approved": 0,
+  "prior_11_approved_product_families_untouched": true,
+  "prior_55_public_urls_untouched": true,
+  "prior_all_photo_and_qa_artifacts_untouched": true,
+  "final_XLSX_shared": false
+}
