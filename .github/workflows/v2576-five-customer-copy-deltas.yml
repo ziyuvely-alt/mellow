@@ -1,0 +1,37 @@
+name: Shopee v2576 five corrected JPG customer-copy delta batch
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2576_stage_five_footer_corrected_QA_delta.py'
+      - '.github/workflows/v2576-five-customer-copy-deltas.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  selective-customer-image-QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse existing 156-image QA checkpoint without regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2576-prior
+      - name: Reuse only five already corrected JPG candidates
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41760689379 -n shopee-v2574-five-real-JPG-customer-safe-footer-QA-no-XLSX -D v2576-fixed
+      - name: Assemble delta-only checkpoint and enforce original-source preservation
+        run: python scripts/v2576_stage_five_footer_corrected_QA_delta.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2576-five-customer-copy-JPG-deltas-156frame-QA-no-XLSX
+          path: v2576-incremental-five-photo-corrections/
+          retention-days: 90
+          if-no-files-found: error
