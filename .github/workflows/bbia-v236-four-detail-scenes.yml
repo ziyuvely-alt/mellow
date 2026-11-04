@@ -1,0 +1,23 @@
+name: BBIA v236 four distinct detail-scene candidates
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v236_four_detail_scenes.py
+      - .github/workflows/bbia-v236-four-detail-scenes.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Make four alternate-role photo-based review scenes from previously verified detail sources
+        run: python scripts/bbia_v236_four_detail_scenes.py --out /tmp/bbia-v236
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v236-four-distinct-photo-detail-scenes-qa
+          path: /tmp/bbia-v236
+          retention-days: 30
