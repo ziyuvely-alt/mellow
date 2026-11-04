@@ -1,0 +1,33 @@
+name: Shopee v2826 discover distinct mini 5g common gallery source scenes
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2826-clio-mini5g-source-gallery-only.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Fetch only shared 5g mini gallery sources, no shade assignment, no approved asset modifications
+        run: |
+          python -m py_compile scripts/v2826_clio_common_gallery_source_audit.py
+          python scripts/v2826_clio_common_gallery_source_audit.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2826-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2826-qa/qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery
+          cp -a qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery /tmp/v2826-qa/qa-review/
+          cd /tmp/v2826-qa
+          git add qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2826 discover actual common mini5g photo scenes without falsely labeling 21C 21N 23N'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
