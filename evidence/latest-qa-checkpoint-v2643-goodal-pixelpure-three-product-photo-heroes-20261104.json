@@ -1,0 +1,40 @@
+{
+  "version": "v2643",
+  "date": "2026-11-04",
+  "baseline": "v2642",
+  "archive": "/mnt/data/Shopee_v2643_156JPG_3_exact_stock_photo_heroes_QA_ONLY.zip",
+  "preview": "/mnt/data/v2643_real_product_hero_QA/before-after-3-heroes.jpg",
+  "total_jpg": 156,
+  "changed": 3,
+  "original_bytes_unchanged": 153,
+  "changes": [
+    {
+      "family": "pending-20",
+      "slot": 1,
+      "product": "GOODAL Vita-C Serum Mist 100ml",
+      "source_existing_slot": 4
+    },
+    {
+      "family": "pending-27",
+      "slot": 1,
+      "product": "PIXEL PURE Soothing Ampule Toner 200ml",
+      "source_existing_slot": 5
+    },
+    {
+      "family": "pending-28",
+      "slot": 1,
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 210ml / 70 pads",
+      "source_existing_slot": 2
+    }
+  ],
+  "quality": "All 156 JPG 1080x1080 under 2MB; archive checksum verified; manual before-after visual preview inspected",
+  "rejected_images": 0,
+  "existing_published_11_families_modified": 0,
+  "existing_verified_55_URLs_modified": 0,
+  "commercial_reuse_rights_verified": false,
+  "physical_stock_edition_confirmed": false,
+  "authentic_MK_logo_verified": false,
+  "final_sales_approval": false,
+  "spreadsheet_created_or_shared": false,
+  "next": "Continue v2643; refrain from repeated crop generation of completed pending20/27/28 slot01. Focus validated product edition, license rights and authentic original MK logo, with only isolated QA edits."
+}
