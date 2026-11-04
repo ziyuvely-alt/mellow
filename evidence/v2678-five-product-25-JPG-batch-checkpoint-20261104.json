@@ -1,0 +1,103 @@
+{
+  "version": "v2678",
+  "date": "2026-11-04",
+  "baseline": "v2676",
+  "repo": "ziyuvely-alt/mellow",
+  "actual_runs": [
+    {
+      "version": "v2677",
+      "run_id": 41836144121,
+      "status": "completed_success",
+      "families": [
+        "pending-09",
+        "pending-10",
+        "pending-11"
+      ],
+      "image_count": 15,
+      "original_untouched_photo_count": 7,
+      "new_factual_info_JPG": 8,
+      "storage": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets"
+    },
+    {
+      "version": "v2678",
+      "run_id": 41836396620,
+      "status": "completed_success",
+      "families": [
+        "pending-12",
+        "pending-06"
+      ],
+      "image_count": 10,
+      "original_untouched_photo_count": 5,
+      "new_factual_info_JPG": 5,
+      "storage": "qa-review/v2678-missha-clio-two-five-JPG-sets"
+    }
+  ],
+  "source_images_real_visual_review": "Opened both v2677 and v2678 five-per-family previews. New information-card copy not cropped; item photos visible. Visually unverified generation/quantity conflicts remain in old source photos.",
+  "new_complete_five_JPG_QA_sets_this_run": 5,
+  "new_physical_QA_JPGs_this_run": 25,
+  "retail_released_this_run": 0,
+  "draft_families_after_prior_baseline": [
+    "pending-28",
+    "pending-22",
+    "pending-17",
+    "pending-20",
+    "pending-16",
+    "pending-19",
+    "pending-01",
+    "pending-14",
+    "pending-13",
+    "pending-09",
+    "pending-10",
+    "pending-11",
+    "pending-12",
+    "pending-06"
+  ],
+  "current_progress": {
+    "total_product_families": 41,
+    "prior_approved_families": 11,
+    "additional_five_JPG_QA_family_drafts": 14,
+    "others_not_newly_staged_in_this_v2668_to_v2678_series": 16,
+    "legacy_public_verified_image_URLs": 55
+  },
+  "hard_holds": [
+    {
+      "family": "pending-09",
+      "hold": "Verify real stock 5g and photographic usage rights; old product image source only"
+    },
+    {
+      "family": "pending-10",
+      "hold": "Inventory 13g vs current photo 15g mismatch; exact generation and genuine available shades unverified; do not publish"
+    },
+    {
+      "family": "pending-11",
+      "hold": "Two objects visible in frame01 may imply two-unit sale; confirm single dual-formula vs bundle"
+    },
+    {
+      "family": "pending-12",
+      "hold": "Existing real photo JPEGs show 15mL but recorded owned stock 15G; never assert they are same without actual stock label proof"
+    },
+    {
+      "family": "pending-06",
+      "hold": "Product photos say 'Essential Cushion Set'; promotional contents/shade edition not verified and may mislead"
+    }
+  ],
+  "quality_limitations": [
+    "QA draft means 5 physical JPGs, not final commercial-quality design",
+    "Fact-only cards are intentionally sparse; do not count them as fully styled customer sales photos",
+    "Current v2647 full physical ZIP not accessible; historical v2593 source used instead",
+    "Original MK logo image not accessible; no synthetic logo allowed",
+    "Source photo distribution license not verified"
+  ],
+  "next": [
+    "Do not regenerate 14 assembled five-JPG draft families",
+    "Inspect actual inventory package capacity/edition on five new hard-hold families",
+    "Recover v2647 image bytes from existing archived source rather than repeating empty GitHub main paths",
+    "Only approve and publish images after photographic licensing, precise product packaging and final image quality checks"
+  ],
+  "protected": {
+    "existing_approved_11_unchanged": true,
+    "existing_55_urls_unchanged": true,
+    "final_xlsx_not_shared": true
+  },
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates"
+}
