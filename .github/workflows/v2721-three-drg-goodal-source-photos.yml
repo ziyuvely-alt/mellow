@@ -1,0 +1,32 @@
+name: Shopee v2721 genuine DrG and Goodal 3 product cutouts
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2721-three-drg-goodal-source-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cutout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Process only three photo-rich previously untreated products
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2721_three_drg_goodal_cutouts.py
+          cp scripts/v2721_three_drg_goodal_cutouts.py /tmp/v2721.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2721-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2721-qa
+          python /tmp/v2721.py
+          git add qa-review/v2721-three-drg-goodal-alpha-photo-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2721 actual new DrG and Goodal physical source alpha candidates; QA only'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
