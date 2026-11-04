@@ -14,7 +14,7 @@ MAX_BYTES = 2_000_000
 EXPECTED = 1080
 
 def jpeg_dimensions(data):
-    if not data.startswith(b"\\xff\\xd8"):
+    if not data.startswith(b"\xff\xd8"):
         return None
     p = 2
     while p + 4 < len(data):
@@ -45,7 +45,7 @@ def inspect(path, root):
     data = path.read_bytes()
     dims = jpeg_dimensions(data)
     issues = []
-    if dims is None or not data.endswith(b"\\xff\\xd9"):
+    if dims is None or not data.endswith(b"\xff\xd9"):
         issues.append("JPEG_STRUCTURE_REVIEW")
     if len(data) >= MAX_BYTES:
         issues.append("OVER_2MB")
@@ -111,7 +111,7 @@ def main():
     result = run(Path(args.repo).resolve())
     rendered = json.dumps(result, ensure_ascii=False, indent=2)
     if args.out:
-        Path(args.out).write_text(rendered + "\\n", encoding="utf-8")
+        Path(args.out).write_text(rendered + "\n", encoding="utf-8")
     print(json.dumps({
         "checkpoint": "v216",
         "jpg_checked": result["published_total_jpg_checked"],
