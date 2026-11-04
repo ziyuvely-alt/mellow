@@ -1,0 +1,37 @@
+name: Shopee v2671 25 existing DrG product scene preview in one run
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2671-five-drG-source-preview.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  scene:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse historical 156 JPGs once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/historical
+      - name: Preview 25 untouched historical photos, preserve no changes to current sale assets
+        run: |
+          python scripts/v2671_drG_fivefamily_photo_preview.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2671-review qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2671-review/qa-review/v2671-drG-unreviewed-source-scenes
+          cp -a qa-review/v2671-drG-unreviewed-source-scenes /tmp/v2671-review/qa-review/
+          cd /tmp/v2671-review
+          git add qa-review/v2671-drG-unreviewed-source-scenes
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2671 five new product families actual 25 photo previews for batch photo-first production'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
