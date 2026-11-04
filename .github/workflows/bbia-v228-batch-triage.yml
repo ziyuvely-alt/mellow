@@ -1,0 +1,21 @@
+name: BBIA v228 batch quality triage
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v228_batch_triage.py
+      - .github/workflows/bbia-v228-batch-triage.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Batch inspect all current public BBIA images once
+        run: python scripts/bbia_v228_batch_triage.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v228-all-family-batch-status
+          path: /tmp/bbia-v228/
+          retention-days: 30
