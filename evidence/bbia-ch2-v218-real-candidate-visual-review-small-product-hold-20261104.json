@@ -1,0 +1,35 @@
+{
+  "checkpoint": "v218",
+  "date": "2026-11-04",
+  "previous": "v217",
+  "run_id": 41824665009,
+  "workflow_conclusion": "success",
+  "artifact_id": 13318890709,
+  "source_artifact_id": 13318516246,
+  "actual_files_inspected": 1,
+  "inspection_method": "Existing v217 JPEG downloaded by Actions; visual overview and native photo-region diagnostic created, then contact image opened and visually examined",
+  "visual_qa": {
+    "product": "BBIA Eau Glow Cushion Refill",
+    "goodsNo": "1000000124",
+    "technically_valid": true,
+    "english_copy_readable": true,
+    "refill_not_full_case": true,
+    "rectangular_boundary_obvious": false,
+    "product_prominence": "FAIL: isolated refill appears too small relative to available 1080-square canvas, oversized whitespace",
+    "source_resolution": "500x500; low detail; do not claim high-resolution master",
+    "result": "HOLD_FOR_TARGETED_HERO_LAYOUT_REFINEMENT"
+  },
+  "outputs": {
+    "diagnostic_archive": "bbia-v218-refill-diagnostic-only",
+    "diagnostic_contact": "BBIA_v218_REFILL_VISUAL_QA_CONTACT.jpg",
+    "report": "BBIA_v218_VISUAL_QA.json"
+  },
+  "no_changed_existing_jpg": true,
+  "no_changed_published_urls": true,
+  "new_sale_approved": 0,
+  "spreadsheet_shared": false,
+  "next": [
+    "Create new variant of v217 only if product scale can be improved without synthetic product details; otherwise retain hold and source higher resolution authentic refill photography",
+    "Continue remaining BBIA family candidate assessment without redoing v216 97-JPG audit"
+  ]
+}
