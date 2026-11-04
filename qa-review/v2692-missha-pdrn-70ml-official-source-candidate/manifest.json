@@ -1,0 +1,19 @@
+{
+  "version": "v2692",
+  "family": "pending-14",
+  "product": "MISSHA PDRN NAD+ Firming Repair Cream",
+  "KR_global_stock_spec": "70mL",
+  "Japan_variant_note": "Japanese launch has 70g, not same stock specification",
+  "official_page": "https://missha.com/en/m/skincare/product_detail?prdmCd=1081",
+  "status": "HOLD_OFFICIAL_SOURCE_ACCESS_OR_IDENTITY",
+  "retail_approved": false,
+  "source_license_confirmed": false,
+  "owned_stock_edition_matched": false,
+  "approved_11_families_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "original_4_qa_photos_modified": false,
+  "final_xlsx_shared": false,
+  "page_title": "MISSHA",
+  "exception_type": "ValueError",
+  "exception_detail": "Official page must explicitly prove MISSHA firming repair cream 70mL"
+}
