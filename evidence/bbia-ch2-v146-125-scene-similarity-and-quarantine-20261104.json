@@ -1,0 +1,35 @@
+{
+  "schema": "bbia_ch2_v146_full_125_image_visual_triage",
+  "date": "2026-11-04",
+  "source_archive": "BBIA_v144_125JPG_RECOVERED_QA_ONLY.zip",
+  "audited_actual_jpg": 125,
+  "review_pending": 111,
+  "previously_held": 14,
+  "passed_binary_spec": 125,
+  "identical_sha256_pairs": 0,
+  "full_or_center_dct_phash_candidate_pairs": 24,
+  "both_regions_close_pairs": 11,
+  "manually_prioritized_pairs": 6,
+  "unique_files_in_review_only_quarantine": 10,
+  "priority_risks": [
+    "YOUR_PEACH vs YOUR_MAUVE eye photo claims may share a photographic source",
+    "LOVELY vs SMOKY eye look claims may share photographic source",
+    "LAST_VELVET_TINT different shade lips require exact shade provenance",
+    "NEVER_DIE shade-labelled eye looks require photographic proof"
+  ],
+  "no_auto_sales_approval": true,
+  "existing_jpg_or_url_changed": false,
+  "local_assets": [
+    "BBIA_v146_125FULL_VISUAL_TRIAGE.json",
+    "BBIA_v146_TOP12_IMAGE_PAIRS.jpg",
+    "BBIA_v146_IMAGE_PROVENANCE_REVIEW.json",
+    "BBIA_v146_IMAGE_PROVENANCE_QUARANTINE.zip"
+  ],
+  "interpretation": "Similarity screen flags candidates only; nonidentical image file hashes do not establish source-photo uniqueness; identical layout can cause false positives. Original pending and held status maintained.",
+  "next_gates": [
+    "retrieve exact official look/colour photo references for six priority pairs",
+    "replace only provably incorrect scene, never invent color",
+    "verify Mellow KR shop name, correct physical product and sale-safe English claims",
+    "then localization TW/TH/VN/BR; MX excluded"
+  ]
+}
