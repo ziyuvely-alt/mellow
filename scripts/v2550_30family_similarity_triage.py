@@ -3,7 +3,6 @@
 QA outputs only: no image overwrite, no URL publishing, no spreadsheet.
 """
 from pathlib import Path
-from PIL import Image, ImageOps, ImageStat, ImageFilter
 from itertools import combinations
 from collections import Counter
 import json, math
