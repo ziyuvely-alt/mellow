@@ -1,0 +1,53 @@
+{
+  "version": "v2619",
+  "date": "2026-11-04",
+  "repository": "ziyuvely-alt/mellow",
+  "project": "Shopee Thumbnail Creator PRO",
+  "actual_work": {
+    "source": "v2618 156-JPG QA corpus",
+    "output": "/mnt/data/Shopee_v2619_156JPG_DrG_MoistureSun_external_badge_removed_QA_ONLY.zip",
+    "product_families": 30,
+    "final_review_jpg": 156,
+    "changed_jpg": 1,
+    "byte_identical_other_jpg": 155,
+    "changed_family": "pending-17",
+    "changed_slot": 4,
+    "product": "Dr.G Brightening Up Moisture Sun 50 mL",
+    "change": "Remove only independently overlaid European Vegetarian Union VEGAN badge from uniform white area to the right of tube. Preserve original tube printing, including printed orange VEGAN wording.",
+    "prior_sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+    "new_sha256": "e1bd2f55b289565c26c254c657a55307090613770c417134247ba63202c617dd",
+    "physical_tube_mean_pixel_error_out_of_255": 0.14112917023096663,
+    "comparison_file": "/mnt/data/v2619_DrG_MoistureSun_badge_cleanup_QA/before_after_review.jpg"
+  },
+  "extra_option_group_visual_audit": {
+    "scope": [
+      "pending-01",
+      "pending-02",
+      "pending-04",
+      "pending-05",
+      "pending-06",
+      "pending-07",
+      "pending-08"
+    ],
+    "review_contact_sheet": "/mnt/data/v2619_option_groups_review.jpg",
+    "new_certified_image_fixes": 0,
+    "stock_generation_release_holds": [
+      "pending-05 CLIO Founwear THE ORIGINAL exact stocked generation pending",
+      "pending-08 Peripera 26AD edition and exact 20 shade photo authenticity pending"
+    ],
+    "note": "Do not replace option swatches without verified exact edition images."
+  },
+  "preservation": {
+    "approved_11_families_untouched": true,
+    "public_55_urls_unchanged": true,
+    "source_v2618_images_untouched": true,
+    "final_xlsx_created_or_shared": false
+  },
+  "release_gate": {
+    "source_photo_commercial_reuse_rights_verified": false,
+    "actual_owned_stock_edition_verified": false,
+    "original_mk_logo_applied": false,
+    "final_human_sales_approval": false
+  },
+  "next": "Continue from v2619 QA archive. Fix only evidenced customer-facing errors, never repeat Dr.G slot04 or previously approved photo groups. Prioritize source photo permissions, physical product edition, authentic original MK logo before sales release."
+}
