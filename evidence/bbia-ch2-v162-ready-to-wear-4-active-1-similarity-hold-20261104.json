@@ -1,0 +1,37 @@
+{
+  "schema": "bbia_ch2_v162_photo_reuse_prevention",
+  "date": "2026-11-04",
+  "previous": "v161 4 new JPG in brush/puff families",
+  "target": "BBIA Ready To Wear Eye Shadow",
+  "new_images_saved": 2,
+  "reused_previous_images_unchanged": 3,
+  "created_candidate_count": 5,
+  "current_active_scene_count": 4,
+  "new_similarity_hold_count": 1,
+  "output": "BBIA_v162b_READY_TO_WEAR_4_ACTIVE_1_HOLD_QA.zip",
+  "preview": "BBIA_v162_READY_TO_WEAR_FIVE_EN_CONTACT.jpg",
+  "reason": "Scene 05 makeup editorial recycles same campaign photo as earlier scene 01 compact/model with only new crop; flagged and excluded from active five-scene completion; original image binary retained under HOLD_SIMILAR_CAMPAIGN instead of deletion",
+  "source_photos": [
+    {
+      "role": "04_COMPACT_MACRO",
+      "prefix": "111_7ed2",
+      "outcome": "new; review pending"
+    },
+    {
+      "role": "05_MAKEUP_EDITORIAL",
+      "prefix": "111_c997",
+      "outcome": "new; held for similarity"
+    }
+  ],
+  "verified_technical": "All 5 saved files 1080x1080 JPG <2 MB, v162b ZIP CRC pass",
+  "source_pixel_proof": "NOT VERIFIED",
+  "status": "4_ACTIVE_EN_QA_PENDING__1_HELD",
+  "sales_approved": 0,
+  "localizations": 0,
+  "immutable": [
+    "v150-v161 files",
+    "v147 original JPG",
+    "55 URLs"
+  ],
+  "next": "Do not regenerate v162 existing frames. Find true fifth distinct exact-source official product scene; if unavailable, leave Ready To Wear at four candidates and move on."
+}
