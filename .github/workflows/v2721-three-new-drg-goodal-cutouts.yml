@@ -1,0 +1,40 @@
+name: Shopee v2721 three new DrG Goodal real product cutouts
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2721-three-new-drg-goodal-cutouts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Recover historic actual product photo corpus once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Segmentation and append-only isolated QA
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2721_three_unprocessed_drg_goodal_cutouts.py
+          python scripts/v2721_three_unprocessed_drg_goodal_cutouts.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2721-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2721-qa/qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes
+          cp -a qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes /tmp/v2721-qa/qa-review/
+          cd /tmp/v2721-qa
+          git add qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2721 three authentic source-product alpha QA trials, no approved image changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
