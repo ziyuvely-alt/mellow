@@ -1,0 +1,89 @@
+{
+  "checkpoint": "v281",
+  "date": "2026-11-05",
+  "parent": "v280",
+  "previous_parent": "v279",
+  "actual_executed": {
+    "v280": {
+      "github_run_id": 41854582414,
+      "artifact_id": 13335534403,
+      "source_images_checked": 6,
+      "source_images_downloaded": 6,
+      "products": [
+        "1000000184",
+        "1000000239",
+        "1000000223"
+      ],
+      "source_archive": "bbia-v280-six-previously-unused-originals"
+    },
+    "v281": {
+      "new_photo_role_jpg": 2,
+      "created_from_existing_v280_original_bytes": true,
+      "new_original_downloads": 0,
+      "jpgs": [
+        {
+          "goodsNo": "1000000239",
+          "name": "BBIA_1000000239_APPLICATION_LOOK_v281_QA_PENDING.jpg",
+          "role": "REAL_MODEL_HOLDING_LUCKY_SHINE_TINT",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "bytes": 196110,
+          "sha256": "05c898ab606c1b5ac698b486ac99c28a833937401214f6745293a4166a517ae4",
+          "crop": [
+            0,
+            505,
+            1000,
+            1965
+          ]
+        },
+        {
+          "goodsNo": "1000000223",
+          "name": "BBIA_1000000223_TEXTURE_AND_TUBE_DETAIL_v281_QA_PENDING.jpg",
+          "role": "LIP_OIL_ESSENCE_TUBE_AND_TEXTURE",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "bytes": 111036,
+          "sha256": "3c3e038f033d7561468e2927e8b5dccb65a7705e8d2f9f5885b781aaae64faa7",
+          "crop": [
+            0,
+            1380,
+            1000,
+            2335
+          ]
+        }
+      ],
+      "contact": "BBIA_v281_TWO_DISTINCT_PHOTO_ROLES_CONTACT.jpg",
+      "zip": "BBIA_v281_TWO_DETAIL_QA_PENDING.zip",
+      "crc_zip_verified": true,
+      "manifest": "BBIA_v281_MANIFEST.json"
+    }
+  },
+  "visual_qa": {
+    "actual_contact_opened": true,
+    "findings": "Real photographs. No visible Korean advertising copy in selected source crops. Both feature different creative roles from existing v240 detail images. Original photographs retain rectangular boundaries rather than genuine alpha-cutout. Exact shade mapping unverified.",
+    "sale_approved": 0
+  },
+  "hold_items": [
+    {
+      "goodsNo": "1000000184",
+      "status": "HOLD_ONLY",
+      "reason": "Both unused new sources are Korean explanatory before-and-after and promotional model/text, not independent clean product-photo roles. Do not retry indices 3 and 4."
+    }
+  ],
+  "preservation": {
+    "v279_approved_artifacts_unchanged": true,
+    "verified_55_public_urls_unchanged": true,
+    "published_jpg_modified": 0,
+    "original_v280_files_modified": 0,
+    "final_excel_shared": false
+  },
+  "next": [
+    "Do not regenerate these two v281 JPEGs; reuse verified output hashes and artifact ZIP.",
+    "Advance only to genuinely missing role sources for other families; source priority photo first, no Korean, no duplicate visual role",
+    "Group final cutout, shade, localized text and sales QA after distinct-source photo coverage."
+  ]
+}
