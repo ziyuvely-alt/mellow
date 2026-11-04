@@ -1,0 +1,172 @@
+{
+  "version": "v2666",
+  "origin": "v2593 historical source images",
+  "no_current_v2647_claim": true,
+  "actual_families": [
+    {
+      "family": "pending-05",
+      "images": [
+        {
+          "slot": 1,
+          "sha256": "1b7da7961aacd75608ab156c9f2a993daa29f00a6bcd9794bccc0a733894ebe4",
+          "filename": "01_01_v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg"
+        },
+        {
+          "slot": 2,
+          "sha256": "0c9dcfa3a8fe3dba514a1b6ce81ffeca3666d37ef32b5934359f81827399ad6e",
+          "filename": "02_02_v2440-source__pending-05_observed_card_collision_repair_V2440.jpg"
+        },
+        {
+          "slot": 3,
+          "sha256": "82eebf799ccc56177d26189b25a91c25d7068181177e2feab2506bde9b87463d",
+          "filename": "03_03_SOURCE_01_041b164bb_EN_V2421C.jpg"
+        },
+        {
+          "slot": 4,
+          "sha256": "1036a55d049d503627fd5669c13668835ecbe279123ace79b7e5ea071dae0fd9",
+          "filename": "04_04_INFO_03_V2413_EN_V2421.jpg"
+        },
+        {
+          "slot": 5,
+          "sha256": "32c22da3a0b0039d5796729eb51fbce966d5fed4b278979e2bf9fa131afa439b",
+          "filename": "05_05_INFO_05_V2413_EN_V2421.jpg"
+        },
+        {
+          "slot": 6,
+          "sha256": "9854f08c15b1a7d9514f1fdf2860277927f578b27510097e44b386c80aee356c",
+          "filename": "06-authentic-CLIO-founwear-five-face-swatches.jpg"
+        }
+      ]
+    },
+    {
+      "family": "pending-07",
+      "images": [
+        {
+          "slot": 1,
+          "sha256": "a781fa2249476c598f793cfde0970aecb8440e0680648c7429e8cfb7d871720e",
+          "filename": "01_01_v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg"
+        },
+        {
+          "slot": 2,
+          "sha256": "c0f9ade354a67b96cbfb61a93fceeee160a49514fbf28ea07646959a96c8d757",
+          "filename": "02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg"
+        },
+        {
+          "slot": 3,
+          "sha256": "d53b78025bb9862a50e15e7ecdc68438a2ff1990e8e1fb2b02743576768b61d5",
+          "filename": "03_03_INFO_03_V2413_EN_V2421.jpg"
+        },
+        {
+          "slot": 4,
+          "sha256": "c39650a4af7a7373f8c16fabddf331aab02422c37ac706e447d246072d42c36b",
+          "filename": "04_04_INFO_05_V2413_EN_V2421.jpg"
+        },
+        {
+          "slot": 5,
+          "sha256": "b8420caee18eaad5baa4bd8f915086b611ed042f1f38c8dccbc47e0f6ea55d19",
+          "filename": "05_05_INFO_DETAIL_01_V2414_EN_V2421.jpg"
+        },
+        {
+          "slot": 6,
+          "sha256": "2b7377473aea5d4b7333fadce66f12eecc065dff7eb6be35248beef66f4cc9fe",
+          "filename": "06-original-CLIO-mesh-blur-three-stock-shades.jpg"
+        }
+      ]
+    },
+    {
+      "family": "pending-15",
+      "images": [
+        {
+          "slot": 1,
+          "sha256": "70d4b189f0e8b9f47e2de48a65de05ab9b565114e83238422dbb90932a19ca90",
+          "filename": "01_01_INV_01_6b3a4a3666_EN_V2421C.jpg"
+        },
+        {
+          "slot": 2,
+          "sha256": "3b838caa2d123476e222cff8c6e86444778558950a83e9070d09125bdce256ed",
+          "filename": "02_02_INV_02_7f3ea992bc_EN_V2421C.jpg"
+        },
+        {
+          "slot": 3,
+          "sha256": "1563a981a5bb66cd84b76420191c6da1c5fc89eddbf9425a9d629e091e848231",
+          "filename": "03_03_INV_03_8d52f556bc_EN_V2421C.jpg"
+        },
+        {
+          "slot": 4,
+          "sha256": "92ebda952f11009d42109bef8cdbce6830552e9c748509b94b895681abddf605",
+          "filename": "04_04_INV_04_b1503b4a4b_EN_V2421C.jpg"
+        },
+        {
+          "slot": 5,
+          "sha256": "d2dca307b98bff0b404f6544de700c441157f02462923e81c22df22ca0f5dfe0",
+          "filename": "05_v2560-REVIEW-ONLY.jpg"
+        }
+      ]
+    },
+    {
+      "family": "pending-22",
+      "images": [
+        {
+          "slot": 1,
+          "sha256": "d7aa6d5332a18c52126eca33966c967b44b150a5eeb2d6ca316604d6d7ca5388",
+          "filename": "01_01_pending-22_factual_copy_revision_V2441.jpg"
+        },
+        {
+          "slot": 2,
+          "sha256": "a79455408c44e6b7dedb06ff3482e35b0e42ba3001e69fe29df35030af0c3503",
+          "filename": "02_02_INV_02_0ab7541042_EN_V2421C.jpg"
+        },
+        {
+          "slot": 3,
+          "sha256": "1bc8b359b03b10cc4acc18826a47262c67c4e54f81d47184b6e682ccb79ba6ce",
+          "filename": "03_03_INV_03_688df5a1bc_EN_V2421C.jpg"
+        },
+        {
+          "slot": 4,
+          "sha256": "f0cdf6d5b35a9c7977fee488c6175e6e5ec02dc1acdbb89da2bc449a05a9168d",
+          "filename": "04_v2593_QA_ONLY_v2585.jpg"
+        },
+        {
+          "slot": 5,
+          "sha256": "7e539d64150ad1d748b19ab4e4aaa9db9c8809b2ac945edaec9df3863e7debdc",
+          "filename": "05_05_INV_05_8629d1d381_EN_V2421C.jpg"
+        }
+      ]
+    },
+    {
+      "family": "pending-28",
+      "images": [
+        {
+          "slot": 1,
+          "sha256": "cca13642cd84f8f8dbfaf82568327bd469cc9b79d9987c4dce75f9c1a63a4bc7",
+          "filename": "01_01_INV_01_5a12115d60_EN_V2421C.jpg"
+        },
+        {
+          "slot": 2,
+          "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "filename": "02_v2546-real-210ml-pads-photo.jpg"
+        },
+        {
+          "slot": 3,
+          "sha256": "a92bea78d2f72f88b2f147af43c1e689f461347daa27487583abc4b499489f1c",
+          "filename": "03_03_INV_03_7280158c0e_EN_V2421C.jpg"
+        },
+        {
+          "slot": 4,
+          "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "filename": "04_v2546-real-210ml-pads-photo.jpg"
+        },
+        {
+          "slot": 5,
+          "sha256": "1e26cf1644e317db07075c42a89eec8c1230b2271b758133f8179b566f6a4d29",
+          "filename": "05_05_INV_05_e921abb23e_EN_V2421C.jpg"
+        }
+      ]
+    }
+  ],
+  "retail_approved": false,
+  "images_reencoded_for_retail": 0,
+  "existing_55_urls_unchanged": true,
+  "original_14_candidate_files_unchanged": true,
+  "xlsx": false
+}
