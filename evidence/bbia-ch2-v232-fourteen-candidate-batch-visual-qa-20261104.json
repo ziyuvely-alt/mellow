@@ -1,0 +1,24 @@
+{
+  "checkpoint": "v232",
+  "date": "2026-11-04",
+  "parent": "v231",
+  "source_artifact_id": 13321634828,
+  "actual_inspected_jpg_count": 14,
+  "dimensions_pass": 14,
+  "visually_visible_product_photos": 14,
+  "main_hero_layout_issue": "Very small product fill; excess whitespace across many SKUs",
+  "priority_small_products": [
+    "1000000056",
+    "1000000216",
+    "1000000223",
+    "1000000244",
+    "1000000251"
+  ],
+  "review_contact": "/mnt/data/bbia_v232/BBIA_v232_FOURTEEN_CONTACT.jpg",
+  "status": "QA_PENDING_PRODUCT_PROMINENCE_AND_OPTION_SOURCE",
+  "no_sales_approvals": 14,
+  "preexisting_images_changed": 0,
+  "verified_55_urls_changed": false,
+  "spreadsheet_shared": false,
+  "next": "Use photo pixels from existing candidate, create separate incremental layout candidates for full batch without re-downloading official sources; do not invent shades or claims."
+}
