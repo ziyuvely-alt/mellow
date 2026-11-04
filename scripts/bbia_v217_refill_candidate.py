@@ -54,11 +54,11 @@ def run(folder):
         shown.thumbnail((620,620),Image.Resampling.LANCZOS)
         x=(1080-shown.width)//2
         y=340
-        mask=Image.new("L",shown.size,255)
+        mask=Image.new("L",shown.size,0)
         edge=45
         m=ImageDraw.Draw(mask)
-        m.rectangle((edge,edge,shown.width-edge,shown.height-edge),fill=255)
-        mask=mask.filter(ImageFilter.GaussianBlur(13))
+        m.rounded_rectangle((edge,edge,shown.width-edge,shown.height-edge),radius=48,fill=255)
+        mask=mask.filter(ImageFilter.GaussianBlur(20))
         canvas.paste(shown,(x,y),mask)
         draw=ImageDraw.Draw(canvas)
         draw.line((88,918,992,918),fill=(207,195,194),width=2)
