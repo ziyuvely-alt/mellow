@@ -1,0 +1,122 @@
+{
+  "version": "v2730",
+  "baseline": "v2729",
+  "attempted_genuinely_selected_families": 3,
+  "new_actual_png_JPG_pairs": 3,
+  "original_product_JPG_bytes_changed": 0,
+  "same_failed_segmentations_repeated": false,
+  "new_retail_approved_families": 0,
+  "new_logo_generated": false,
+  "licensing_proven": false,
+  "stock_package_match_proven": false,
+  "prior_11_approved_families_unchanged": true,
+  "prior_55_public_urls_unchanged": true,
+  "final_excel_shared": false,
+  "results": [
+    {
+      "family": "pending-18",
+      "product": "Brightening Up Sun Plus 50mL",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-18/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "e2cd09a3abe36246e4cab7e5b1c2389e57c402941abf2dd3ba242e5a0024c158",
+      "crop_xyxy": [
+        120,
+        84,
+        916,
+        1060
+      ],
+      "remediation": "BROADER_SAME_AUTHENTIC_SOURCE_ROI",
+      "previous_issue": "v2715 alpha bottom clipped, old narrow crop y<=965",
+      "status": "REAL_ALPHA_JPG_PNG_RENDERED_VISUAL_QA_PENDING",
+      "sale_approved": false,
+      "png": "pending-18/01-recovered-product-foreground-alpha-QA.png",
+      "jpg": "pending-18/01-recovered-source-product-1080-hero-QA.jpg",
+      "png_sha256": "ca3377dbdd1eee8f3075b36778bd1e42b66981e40e6b2cbdccc793d5c4084c25",
+      "jpg_sha256": "a9f19300402ba676e0f946dd25addbb87894552020bb6ae0301c3a4734c91d74",
+      "mask_coverage": 0.2605,
+      "mask_bbox": [
+        0,
+        65,
+        594,
+        901
+      ],
+      "edge_contact_original_ROI": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warning": null,
+      "original_source_image_mutated": false
+    },
+    {
+      "family": "pending-23",
+      "product": "Pore Zero Oil Control Sun Cream 50mL",
+      "source": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-23/01-actual-source-slot01-UNMODIFIED-QA.jpg",
+      "source_sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+      "crop_xyxy": [
+        100,
+        75,
+        910,
+        1060
+      ],
+      "remediation": "BROADER_SAME_AUTHENTIC_SOURCE_ROI",
+      "previous_issue": "v2720 mask top/bottom clipping on y<=960",
+      "status": "REAL_ALPHA_JPG_PNG_RENDERED_VISUAL_QA_PENDING",
+      "sale_approved": false,
+      "png": "pending-23/01-recovered-product-foreground-alpha-QA.png",
+      "jpg": "pending-23/01-recovered-source-product-1080-hero-QA.jpg",
+      "png_sha256": "d64c535bbf2342c99d52829b6cf298b29a6f2d5fa5758fb49859a0a599de7420",
+      "jpg_sha256": "e2ea2523aa9bb4d59bc602a52fec51723efab1bf2b038ba9eb4fdbe92ff16b25",
+      "mask_coverage": 0.3947,
+      "mask_bbox": [
+        68,
+        60,
+        624,
+        970
+      ],
+      "edge_contact_original_ROI": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warning": null,
+      "original_source_image_mutated": false
+    },
+    {
+      "family": "pending-26",
+      "product": "Gentle Gel-to-Foam Cleanser 145mL",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/04-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678",
+      "crop_xyxy": [
+        200,
+        155,
+        894,
+        1065
+      ],
+      "remediation": "DIFFERENT_ARCHIVED_REAL_SOURCE_PHOTO",
+      "previous_issue": "v2711 old frame01 cropped bottle lower base; use real distinct frame04",
+      "status": "REAL_ALPHA_JPG_PNG_RENDERED_VISUAL_QA_PENDING",
+      "sale_approved": false,
+      "png": "pending-26/01-recovered-product-foreground-alpha-QA.png",
+      "jpg": "pending-26/01-recovered-source-product-1080-hero-QA.jpg",
+      "png_sha256": "ec94562e55901c29ffe7272b81679cefdeabdf75b47faa982761399c472d10e9",
+      "jpg_sha256": "54a2b907a73500927ddd06890556aa0ac2b95e045ca27d44084614fc5c58cda7",
+      "mask_coverage": 0.1763,
+      "mask_bbox": [
+        240,
+        145,
+        444,
+        784
+      ],
+      "edge_contact_original_ROI": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "warning": null,
+      "original_source_image_mutated": false
+    }
+  ]
+}
