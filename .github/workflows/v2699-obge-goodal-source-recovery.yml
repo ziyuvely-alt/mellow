@@ -1,0 +1,33 @@
+name: Shopee v2699 OBGE original Cafe24 images and GOODAL exact single crop
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2699-obge-goodal-source-recovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo-quality:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Retrieve same-item official photos and make genuine standing one-tube reference
+        run: |
+          python -m py_compile scripts/v2699_obge_goodal_distinct_photo.py
+          python scripts/v2699_obge_goodal_distinct_photo.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2699-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2699-qa/qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA
+          cp -a qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA /tmp/v2699-qa/qa-review/
+          cd /tmp/v2699-qa
+          git add qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2699 source-authentic Goodal upright-only crop and OBGE official gallery QA candidate search'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
