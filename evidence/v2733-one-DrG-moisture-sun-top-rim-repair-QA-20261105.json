@@ -1,0 +1,45 @@
+{
+  "version": "v2733",
+  "date": "2026-11-05",
+  "success_run": 41876519151,
+  "based_on": "v2732",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "revised_dir": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA",
+  "family": "pending-17",
+  "product": "Dr.G Brightening Up Moisture Sun 50mL",
+  "photo_source": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+  "prior_bad_crop": [
+    180,
+    180,
+    867,
+    1060
+  ],
+  "new_crop": [
+    180,
+    55,
+    867,
+    1060
+  ],
+  "actual_result": {
+    "real_cutout_PNG": true,
+    "real_1080_JPG": true,
+    "alpha_coverage": 0.2467,
+    "top_edge_contact": 0,
+    "bottom_edge_contact": 0,
+    "left_edge_contact": 0,
+    "right_edge_contact": 0,
+    "source_rgb_modified": false,
+    "visual_review": "FULL_SEALED_TOP_RIM_AND_LOWER_CAP_VISIBLE"
+  },
+  "product_image_quality_status": "QA_CANDIDATE",
+  "retail_approval": "HOLD_OWNER_STOCK_GENERATION_PHOTO_RIGHTS_AND_MK_LOGO",
+  "published_11_approved_families_unchanged": true,
+  "previously_verified_55_image_URLs_unchanged": true,
+  "final_xlsx_shared": false,
+  "next_nonrepeating_tasks": [
+    "Preserve v2733 pending-17 and v2732 pending-15 images, no further segmentations of same source.",
+    "Check product mismatch/kit/gift content of other rejected stock families and identify actual alternate product-only original.",
+    "Do not inflate approval count until product edition and licensing proof exists.",
+    "Complete exact option-proof cases for PERIPERA 001..020 exclusive 04/06/07, no invented swatches."
+  ]
+}
