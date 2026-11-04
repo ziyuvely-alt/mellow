@@ -1,0 +1,32 @@
+name: Shopee v2765 correct GOODAL eye cream dangling alpha mask tail
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2765-goodal-eyecream-mask-tail-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Remove false narrow alpha tail only if safe geometry, no old photo alteration
+        run: |
+          cp scripts/v2765_goodal_eye30_narrow_false_tail.py /tmp/v2765.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2765-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2765-qa
+          test ! -e qa-review/v2765-goodal-eye-cream30-remove-narrow-false-tail-QA
+          python /tmp/v2765.py
+          git add qa-review/v2765-goodal-eye-cream30-remove-narrow-false-tail-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2765 safely remove only narrow false tail on existing GOODAL eyecream alpha, retain originals'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
