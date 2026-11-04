@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "checkpoint": "v153",
+  "family": "BBIA Never Die Mascara Slim",
+  "product_id": "1000000056",
+  "official_KR_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000056",
+  "official_VN_page": "https://www.bbia.vn/san-pham/bbia-never-die-mascara-slim-01-black-fit/",
+  "official_confirmed": {
+    "product_name": true,
+    "slim_variant": true,
+    "volume_ml": 3,
+    "brush_width_mm": 5,
+    "shades": [
+      "01 Black Fit",
+      "02 Brown Fit",
+      "03 Rose Fit"
+    ]
+  },
+  "expires_on_official_KR_page_options": {
+    "02 Brown Fit": "2027-07",
+    "03 Rose Fit": "2027-05"
+  },
+  "proof_type": "official product page text, not original JPG exact-pixel/packaging match",
+  "restricted_qa": "EN package remains QA_PENDING. Source JPG visual lineage not yet matched to exact source detail photo and no shade-specific application claim approved.",
+  "previous_output": "BBIA_v153_MASCARA_SLIM_5_EN_SCENES_QA_PENDING.zip",
+  "next": "Check original official-source pixels and current shade options before localization; do not silently promote sales approval."
+}
