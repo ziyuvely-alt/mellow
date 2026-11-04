@@ -1,0 +1,52 @@
+{
+  "schema": "bbia_ch2_v170_actual_photo_artwork",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v168 saved 04 Cinnamon 1 JPG and active-only QA ZIP splits; v169 five aegyosal original-cutout EN candidate JPGs created during continuation",
+  "new_family": "BBIA Over Glaze full-size (NOT Mini)",
+  "official_goodsNo": "1000000166",
+  "official_url": "https://bbia.co.kr/goods/goods_view.php?goodsNo=1000000166",
+  "official_facts": {
+    "name": "Over Glaze",
+    "weight_g": 5
+  },
+  "new_english_JPGs": 5,
+  "source_asset": "BBIA_Cutout_Progress_20261030.zip (archived 157 MB product cutouts)",
+  "source_families_verified_by_goodsNo": [
+    "1000000166"
+  ],
+  "source_image_paths": [
+    "batch/1000000166/hero-cutout.png",
+    "batch/1000000166/photo-2.png",
+    "batch/1000000166/photo-3.png",
+    "batch/1000000166/photo-4.png",
+    "batch/1000000166/photo-5.png"
+  ],
+  "artifacts": {
+    "zip": "/mnt/data/bbia_work/BBIA_v170_OVER_GLAZE_5G_5_EN_ORIGINAL_PHOTOS_QA_PENDING.zip",
+    "preview": "/mnt/data/bbia_work/BBIA_v170_OVER_GLAZE_5G_5_EN_CONTACT.jpg",
+    "manifest": "QA_MANIFEST_v170.json",
+    "script": "v170_over_glaze_regular.py"
+  },
+  "technical": {
+    "new_JPG_count": 5,
+    "dimensions": "1080x1080",
+    "less_than_two_Mbyte": true,
+    "zip_crc_pass": true
+  },
+  "qa": {
+    "source_photos_archived_not_independently_pixel_matched": true,
+    "photo_2_and_3_similar_flatlay": true,
+    "photo_model_shades_not_claimed": true,
+    "final_sales_approved": 0,
+    "locale_created": 0,
+    "status": "QA_PENDING"
+  },
+  "other_discovery": "Cutout ZIP contains 577 PNG entries across 56 folder prefixes, at least five broken source PNGs detected in a separate 6-family sample; skip invalid PNG, never claim all assets verified. Previously completed v169 Aegyosal 5 JPEG ZIP validated CRC without regeneration.",
+  "preserved": [
+    "v147 original 125 JPG",
+    "v150-v169 original project binaries and checkpoints",
+    "55 public URLs",
+    "24 prior holds"
+  ],
+  "next": "Do not recreate v169/v170 drafts. Improve v170 scene 03 only if a distinctly different verified official photograph is available; source-pixel approval needed before sale. Triage intact product cutouts in unworked family goodsNo, skipping bad PNGs and completed Lucky Shine/Last Velvet/Over Glaze Mini."
+}
