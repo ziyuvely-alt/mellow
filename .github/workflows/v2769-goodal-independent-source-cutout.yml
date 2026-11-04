@@ -1,0 +1,31 @@
+name: Shopee v2769 GOODAL eyecream new genuine single-source alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2769-goodal-independent-source-cutout.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  cutout:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow opencv-python-headless requests numpy
+      - name: Fetch genuine independent one-tube eyecream and segment on white without repeating rejected mask
+        run: |
+          cp scripts/v2769_goodal_30ml_new_independent_source_grabcut.py /tmp/v2769.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2769-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2769-qa
+          python /tmp/v2769.py
+          git add qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2769 independent complete 30mL eyecream source photo, actual alpha cutout QA or safe hold'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
