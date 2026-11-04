@@ -1,0 +1,60 @@
+{
+  "version": "v2645",
+  "date": "2026-11-04",
+  "baseline": "v2644",
+  "archive": "/mnt/data/Shopee_v2645_156JPG_four_photo_hero_qa_only.zip",
+  "script": "/mnt/data/v2645_four_product_hero_candidates.py",
+  "preview": "/mnt/data/v2645_four_hero_QA/four_hero_before_after.jpg",
+  "manifest": "/mnt/data/v2645_four_hero_QA/manifest.json",
+  "review_families": 30,
+  "review_jpg": 156,
+  "actual_changed": 4,
+  "unchanged_sha256_verified": 152,
+  "modified": [
+    {
+      "family": "pending-12",
+      "slot": 1,
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25 15mL",
+      "original_photo_source_slot": 3
+    },
+    {
+      "family": "pending-15",
+      "slot": 1,
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "original_photo_source_slot": 3
+    },
+    {
+      "family": "pending-16",
+      "slot": 1,
+      "product": "Dr.G Red Blemish Clear Soothing Cream 70mL",
+      "original_photo_source_slot": 3
+    },
+    {
+      "family": "pending-25",
+      "slot": 1,
+      "product": "BIOHEAL BOH NAD Prizcell Glow Boost Cream 50mL",
+      "original_photo_source_slot": 4
+    }
+  ],
+  "verified": {
+    "zip_integrity": "PASS",
+    "all_156_JPG_1080x1080": "PASS",
+    "all_under_2MB": "PASS",
+    "exactly_four_modified": "PASS",
+    "other_152_sha256_unchanged": "PASS",
+    "visually_inspected_comparison": "PASS"
+  },
+  "preserved": {
+    "legacy_11_approved_families_untouched": true,
+    "verified_55_published_URLs_unchanged": true,
+    "previous_v2644_archive_not_overwritten": true,
+    "final_excel_not_shared": true
+  },
+  "unverified_release_gates": [
+    "commercial usage permission of third-party product photos",
+    "matching owned stock package and edition",
+    "authentic original MK brand mark",
+    "final human photo quality approval"
+  ],
+  "next": "Use v2645 full ZIP as latest QA version, do not redo pending-12/15/16/25 slot 01, and do not overwrite 55 existing public URLs. Continue genuine stock/photo edition validation and approval gating, and no spreadsheet sharing."
+}
