@@ -1,0 +1,31 @@
+name: Shopee v2824 validate CLIO 5g option 21C 21N 23N independent photo sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2824-clio-three-option-comparison.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Validate physical images for all three mini 5g shades, copy none
+        run: |
+          cp scripts/v2824_clio_three_option_qa.py /tmp/v2824.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2824-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2824-qa
+          python /tmp/v2824.py
+          git add qa-review/v2824-clio-mini-5g-three-shade-file-integrity-and-edge-gates
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2824 verify 21C 21N 23N option-specific CLIO 5g photo hashes, no substitutions'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
