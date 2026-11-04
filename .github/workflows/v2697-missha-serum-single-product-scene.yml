@@ -1,0 +1,31 @@
+name: Shopee v2697 MISSHA PDRN 30mL true one-serum lifestyle photo slot04
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2697-missha-serum-single-product-scene.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo-fix:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Use previously captured official 30mL serum media06, do not re-fetch or regenerate
+        run: |
+          cp scripts/v2697_missha_serum_single_scene_slot04.py /tmp/v2697.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2697-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2697-qa
+          python /tmp/v2697.py
+          git add qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2697 fix MISSHA serum frame04 with same-product model scene, preserve 4 image hashes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
