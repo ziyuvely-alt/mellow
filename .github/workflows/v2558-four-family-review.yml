@@ -1,0 +1,49 @@
+name: Shopee v2558 consolidate 4 photo candidates and before after QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2558_four_family_candidate_review_bundle.py'
+      - '.github/workflows/v2558-four-family-review.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  cross-family-candidate-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 unchanged original images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2558-base
+      - name: Restore Goodal candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41751173910 -n shopee-v2552-goodal-21-slot05-distinct-real-photo-QA-no-XLSX -D v2558-candidates/goodal
+      - name: Restore DrG old 70ml candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752270122 -n shopee-v2555-DrG-pending16-old-70ml-package-photo-QA-no-XLSX -D v2558-candidates/drg-old
+      - name: Restore DrG mild usage candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752451326 -n shopee-v2556-pending15-green-mild-new-photo-application-JPG-QA-no-XLSX -D v2558-candidates/drg-mild
+      - name: Restore verified Pixelpure 145ml candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752643604 -n shopee-v2557-pixelpure-pending26-official145-only-photo-QA-no-XLSX -D v2558-candidates/pixelpure
+      - name: Validate staged candidates and render four before-after scene boards
+        run: python scripts/v2558_four_family_candidate_review_bundle.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2558-four-new-JPG-candidates-before-after-QA-no-XLSX
+          path: v2558-four-family-draft-review/
+          retention-days: 90
+          if-no-files-found: error
