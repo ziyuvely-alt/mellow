@@ -1,0 +1,170 @@
+{
+  "version": "v2679",
+  "source": "historical v2593",
+  "families": [
+    {
+      "family": "pending-02",
+      "historic_source_filenames": [
+        "01_01_v2440-source__pending-02_observed_card_collision_repair_V2440.jpg",
+        "02_02_SOURCE_01_640302217_EN_V2421C.jpg",
+        "03_03_INFO_DETAIL_01_V2414_EN_V2421.jpg",
+        "04_v2560-REVIEW-ONLY.jpg",
+        "05_05_INFO_PACKAGE_02_V2414_EN_V2421.jpg"
+      ]
+    },
+    {
+      "family": "pending-03",
+      "historic_source_filenames": [
+        "01_01_INV_01_105c62ce61_EN_V2421C.jpg",
+        "02_02_INV_02_2c2d4f7430_EN_V2421C.jpg",
+        "03_v2593_QA_ONLY_v2588.jpg",
+        "04_SOURCE_QA_2513-missha-bb-legible_04-stock-shade-names-legible.jpg",
+        "05_05_INV_05_f32faba0cf_EN_V2421C.jpg"
+      ]
+    },
+    {
+      "family": "pending-04",
+      "historic_source_filenames": [
+        "01_01_INV_01_3194e3273f_EN_V2421C.jpg",
+        "02_02_INV_02_35438b61d8_EN_V2421C.jpg",
+        "03_03_INV_03_a9f4d2660e_EN_V2421C.jpg",
+        "04_SOURCE_QA_2500b-clio-single-shade-corrected_04-mini-shades-factual-corrected.jpg",
+        "05_05_INV_05_d41b9b1ed2_EN_V2421C.jpg"
+      ]
+    },
+    {
+      "family": "pending-05",
+      "historic_source_filenames": [
+        "01_01_v2439-source__pending-05_fact_copy_and_card_revised_V2439.jpg",
+        "02_02_v2440-source__pending-05_observed_card_collision_repair_V2440.jpg",
+        "03_03_SOURCE_01_041b164bb_EN_V2421C.jpg",
+        "04_04_INFO_03_V2413_EN_V2421.jpg",
+        "05_05_INFO_05_V2413_EN_V2421.jpg"
+      ]
+    },
+    {
+      "family": "pending-07",
+      "historic_source_filenames": [
+        "01_01_v2439-source__pending-07_fact_copy_and_card_revised_V2439.jpg",
+        "02_02_SOURCE_01_3c2612d6d_EN_V2421C.jpg",
+        "03_03_INFO_03_V2413_EN_V2421.jpg",
+        "04_04_INFO_05_V2413_EN_V2421.jpg",
+        "05_05_INFO_DETAIL_01_V2414_EN_V2421.jpg"
+      ]
+    },
+    {
+      "family": "pending-08",
+      "historic_source_filenames": [
+        "01_01_01_peripera_selected_shades_no_20claim_V2435.jpg",
+        "02_02_INFO_FORMULA_01_V2414_EN_V2421.jpg",
+        "03_03_INFO_PRODUCT_01_V2414B_EN_V2421.jpg",
+        "04_04_INFO_SCOPE_05_V2415_EN_V2421.jpg",
+        "05-v2539-20-English-shade-names.jpg"
+      ]
+    },
+    {
+      "family": "pending-15",
+      "historic_source_filenames": [
+        "01_01_INV_01_6b3a4a3666_EN_V2421C.jpg",
+        "02_02_INV_02_7f3ea992bc_EN_V2421C.jpg",
+        "03_03_INV_03_8d52f556bc_EN_V2421C.jpg",
+        "04_04_INV_04_b1503b4a4b_EN_V2421C.jpg",
+        "05_v2560-REVIEW-ONLY.jpg"
+      ]
+    },
+    {
+      "family": "pending-18",
+      "historic_source_filenames": [
+        "01_01_pending-18_factual_copy_revision_V2441.jpg",
+        "02_02_INV_01_254aee0e0f_EN_V2421C.jpg",
+        "03_03_INV_02_66493f8937_EN_V2421C.jpg",
+        "04_04_INV_03_e2cd09a3ab_EN_V2421C.jpg",
+        "05_SOURCE_QA_2515-drg-brightening-one_05-tone-up-sebum-finish.jpg"
+      ]
+    },
+    {
+      "family": "pending-21",
+      "historic_source_filenames": [
+        "01_01_INFO_03_V2413_EN_V2421.jpg",
+        "02_02_INFO_04_V2413_EN_V2421.jpg",
+        "03_03_INFO_05_V2413_EN_V2421.jpg",
+        "04_04_PHOTO_01_V2413.jpg",
+        "05_v2593_QA_ONLY_v2582.jpg"
+      ]
+    },
+    {
+      "family": "pending-23",
+      "historic_source_filenames": [
+        "01_v2521-genuine-product-photo.jpg",
+        "02_02_INFO_05_V2413_EN_V2421.jpg",
+        "03_v2521-genuine-product-photo.jpg",
+        "04_v2593_QA_ONLY_v2582.jpg",
+        "05_v2593_QA_ONLY_v2582.jpg"
+      ]
+    },
+    {
+      "family": "pending-24",
+      "historic_source_filenames": [
+        "01_01_pending-24_factual_copy_revision_V2441.jpg",
+        "02_v2544-real-NAD-prizcell-serum-30ml.jpg",
+        "03_v2593_QA_ONLY_v2582.jpg",
+        "04_v2544-real-NAD-prizcell-serum-30ml.jpg",
+        "05_v2593_QA_ONLY_v2582.jpg"
+      ]
+    },
+    {
+      "family": "pending-25",
+      "historic_source_filenames": [
+        "01_pending-25_official_name_corrected_v2430c.jpg",
+        "02_v2545-real-BOH-NAD-cream-50ml.jpg",
+        "03_v2593_QA_ONLY_v2582.jpg",
+        "04_v2545-real-BOH-NAD-cream-50ml.jpg",
+        "05_v2593_QA_ONLY_v2582.jpg"
+      ]
+    },
+    {
+      "family": "pending-26",
+      "historic_source_filenames": [
+        "01_01_PIXELPURE_INFO_02_V2416C_EN_V2421.jpg",
+        "02_02_PIXELPURE_INFO_03_V2416C_EN_V2421.jpg",
+        "03_03_PHOTO_OFFICIAL_145ML_V2416.jpg",
+        "04_04_PIXELPURE_Gentle_Gel_145ml_HOW_TO_USE_V2443.jpg",
+        "05_v2593_QA_ONLY_v2582.jpg"
+      ]
+    },
+    {
+      "family": "pending-27",
+      "historic_source_filenames": [
+        "01_01_01_correct_200ml_bottle_layout_fixed_V2431b.jpg",
+        "02_SOURCE_QA_2466-pixelpure-toner-three_03-pouring-liquid-original-photo.jpg",
+        "03_SOURCE_QA_2466-pixelpure-toner-three_04-bottle-angles-original-photo.jpg",
+        "04_SOURCE_QA_2466-pixelpure-toner-three_05-package-original-photo.jpg",
+        "05_v2519_original-real-bottle-held-over-water-200ml.jpg"
+      ]
+    },
+    {
+      "family": "pending-29",
+      "historic_source_filenames": [
+        "01_01_INV_01_023f07baae_EN_V2421C.jpg",
+        "02_v2547-real-50ml-cream-photo.jpg",
+        "03_03_INV_03_2ebc3d949d_EN_V2421C.jpg",
+        "04_v2547-real-50ml-cream-photo.jpg",
+        "05_05_INV_05_ee51bf59e7_EN_V2421C.jpg"
+      ]
+    },
+    {
+      "family": "pending-30",
+      "historic_source_filenames": [
+        "01_01_INV_01_449aa19f31_EN_V2421C.jpg",
+        "02_v2548-real-aura-radiance-serum-50ml.jpg",
+        "03_03_INV_03_a2a1622ea7_EN_V2421C.jpg",
+        "04_v2548-real-aura-radiance-serum-50ml.jpg",
+        "05_05_INV_05_ab82a2d14b_EN_V2421C.jpg"
+      ]
+    }
+  ],
+  "preview_pages": 4,
+  "original_images_mutated": 0,
+  "sale_approved": 0,
+  "final_xlsx_not_shared": true
+}
