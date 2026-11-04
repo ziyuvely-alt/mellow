@@ -1,0 +1,52 @@
+{
+  "version": "v2695",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum",
+  "KR_global_stock_spec": "30mL",
+  "Japan_variant_note": "Korean official stock listing 30mL. Never imply other products are included",
+  "official_page": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114237",
+  "status": "FIVE_JPG_QA_PHOTO_CANDIDATE_BUILT_NEEDS_EYES_ON_ITEM_ID",
+  "retail_approved": false,
+  "source_license_confirmed": false,
+  "owned_stock_edition_matched": false,
+  "approved_11_families_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "original_4_qa_photos_modified": false,
+  "final_xlsx_shared": false,
+  "page_title": "피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) | 에이블샵 (able·shop)",
+  "candidate_urls_considered": [
+    "https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/0000388158.jpg"
+  ],
+  "new_candidate": "04-official-30mL-single-serum-photo-QA-only.jpg",
+  "new_photo_sha256": "61adf78a3a3d8828113010c739748a514b72bffa4cce629fbb8310faa8aed5ab",
+  "official_image_url": "https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114237/0000388158.jpg",
+  "official_gallery_source_kind": "metadata",
+  "original_source_dimensions": [
+    1000,
+    1000
+  ],
+  "new_to_old_dhash_distance": [
+    29,
+    24,
+    22,
+    23
+  ],
+  "four_unchanged_previous_sha256": [
+    {
+      "file": "01-original-byte-preserved-QA.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad"
+    },
+    {
+      "file": "02-original-byte-preserved-QA.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6"
+    },
+    {
+      "file": "03-original-byte-preserved-QA.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54"
+    },
+    {
+      "file": "05-net-content-factual-only-QA.jpg",
+      "sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a"
+    }
+  ]
+}
