@@ -1,0 +1,91 @@
+{
+  "version": "v2721",
+  "baseline": "v2719",
+  "new_product_families_attempted": 3,
+  "real_alpha_png_jpg_pairs_saved": 3,
+  "new_retail_approvals": 0,
+  "commercial_photo_rights_verified": false,
+  "physical_stock_edition_verified": false,
+  "approved_MK_logo_verified": false,
+  "original_photos_modified": false,
+  "prior_11_approved_groups_modified": false,
+  "prior_55_public_urls_modified": false,
+  "final_xlsx_shared": false,
+  "products": [
+    {
+      "family": "pending-17",
+      "product": "Brightening Up Moisture Sun 50mL",
+      "original_source": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/03-original-QA.jpg",
+      "original_sha256": "f8d852281445b6c832a6fe875f17078622de14ccf2fef0cb88b822e58ba114eb",
+      "cropped_region": [
+        145,
+        112,
+        954,
+        968
+      ],
+      "product_edition_hold": "Exact formula / package generation HOLD",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+      "alpha_coverage": 0.4916,
+      "bbox": [
+        39,
+        0,
+        711,
+        856
+      ],
+      "png": "pending-17/01-real-transparent-product-QA.png",
+      "jpg": "pending-17/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "c9c45a4b580c924c3e6b6fbaae00f69847f74913483fd7f5b02401a80ab7662f"
+    },
+    {
+      "family": "pending-20",
+      "product": "Green Tangerine Vita C Serum Mist 100mL",
+      "original_source": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/02-original-QA.jpg",
+      "original_sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+      "cropped_region": [
+        132,
+        98,
+        953,
+        965
+      ],
+      "product_edition_hold": "Exact stock 100mL HOLD",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+      "alpha_coverage": 0.1754,
+      "bbox": [
+        328,
+        106,
+        508,
+        862
+      ],
+      "png": "pending-20/01-real-transparent-product-QA.png",
+      "jpg": "pending-20/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561"
+    },
+    {
+      "family": "pending-19",
+      "product": "Green Tangerine Vita C Cream Alpha 50mL",
+      "original_source": "qa-review/v2673-two-new-product-five-JPG-sets/pending-19/01-original-source-slot01-UNMODIFIED-QA.jpg",
+      "original_sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+      "cropped_region": [
+        105,
+        112,
+        973,
+        963
+      ],
+      "product_edition_hold": "Actual 50mL alpha cream and packaging HOLD",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+      "alpha_coverage": 0.417,
+      "bbox": [
+        94,
+        118,
+        711,
+        777
+      ],
+      "png": "pending-19/01-real-transparent-product-QA.png",
+      "jpg": "pending-19/01-real-product-hero-1080-QA.jpg",
+      "jpg_sha256": "1253e088d5f95ffeda557d666fcf75419f1dce8c1f41092921a098d0ae705b53"
+    }
+  ]
+}
