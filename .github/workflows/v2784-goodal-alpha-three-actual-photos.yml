@@ -1,0 +1,29 @@
+name: Shopee v2784 GOODAL Alpha three photographic source-only candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2784-goodal-alpha-three-actual-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  select:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python -m pip install Pillow
+      - name: Preserve only 3 distinct brand product and texture photos, reject claim/bundle cards
+        run: |
+          cp scripts/v2784_goodal_select_three_photographic_gallery_scenes.py /tmp/v2784.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2784-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2784-qa
+          python /tmp/v2784.py
+          git add qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2784 preserve 3 true GOODAL Cream Alpha photos; reject 5 claim and bundle cards'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
