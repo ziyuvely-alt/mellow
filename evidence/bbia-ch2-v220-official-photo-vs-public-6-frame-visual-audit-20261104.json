@@ -1,0 +1,96 @@
+{
+  "checkpoint": "v220",
+  "date": "2026-11-04",
+  "parent_checkpoint": "v219",
+  "branch": "bbia-ch2-qa-20261104",
+  "verified_workflow": {
+    "run_id": 41826226053,
+    "conclusion": "success",
+    "artifact_id": 13319746293,
+    "manifest": "BBIA_v220_SOURCE_PUBLISHED_MANIFEST.json",
+    "contact": "BBIA_v220_OFFICIAL_VS_PUBLIC_CONTACT.jpg"
+  },
+  "actual_source_inventory": [
+    {
+      "goodsNo": "200",
+      "product": "BBIA Last Powder Lipstick",
+      "official_original_dimensions": [
+        500,
+        500
+      ],
+      "official_download": "PASS",
+      "published_jpg": 0,
+      "decision": "OFFICIAL_GENERIC_HERO_REFERENCE_ONLY",
+      "next": "Review v213 two previously created QA candidates against packaging; do not regenerate until review"
+    },
+    {
+      "goodsNo": "206",
+      "product": "BBIA Last Auto Gel Eyeliner",
+      "official_original_dimensions": [
+        1000,
+        1000
+      ],
+      "official_download": "PASS",
+      "published_jpg": 6,
+      "decision": "KEEP_EXISTING_PUBLISHED_FILES_IMMUTABLE"
+    }
+  ],
+  "visual_review": {
+    "source": "Actual rendered contact sheet from GitHub workflow",
+    "frame_gates": [
+      {
+        "goodsNo": "206",
+        "frame": "01.jpg",
+        "finding": "Product pencils visible; official representative product has matching beige pencil format, but shade remains generic",
+        "status": "PRODUCT_FORM_MATCH_CANDIDATE_NOT_OPTION_APPROVED"
+      },
+      {
+        "goodsNo": "206",
+        "frame": "02.jpg",
+        "finding": "Eye application portrait; illustrative campaign reference, not independent proof of shade",
+        "status": "EDITORIAL_REFERENCE_ONLY"
+      },
+      {
+        "goodsNo": "206",
+        "frame": "03.jpg",
+        "finding": "Korean copy visible inside imported photograph in otherwise English frame",
+        "status": "TARGETED_TEXT_CLEANUP_REQUIRED",
+        "action": "Do not alter published source. When original product image is available edit only Korean embedded text or replace inset with verified clean source."
+      },
+      {
+        "goodsNo": "206",
+        "frame": "04.jpg",
+        "finding": "Sample eye/shade names need official option verification",
+        "status": "SHADE_LABEL_VERIFICATION_PENDING"
+      },
+      {
+        "goodsNo": "206",
+        "frame": "05.jpg",
+        "finding": "Model campaign generic pencil, cannot prove particular color",
+        "status": "EDITORIAL_REFERENCE_ONLY"
+      },
+      {
+        "goodsNo": "206",
+        "frame": "06.jpg",
+        "finding": "26-shade image catalog not independently reconciled with current official color naming; prior conflict for shade 21",
+        "status": "OPTION_21_NAME_CONFLICT_HOLD",
+        "action": "Do not use for exact options until SKU by SKU shade name verified"
+      }
+    ]
+  },
+  "verification_limit": "Contact sheet is a small-scale visual inspection, not complete approval at source pixel level. Product 200 has no public listing images in branch, but older v213 candidate JPG exists in separate artifact, should not be reconstructed.",
+  "result": {
+    "new_jpg_generated": 0,
+    "published_jpg_changed": 0,
+    "existing_55_urls_changed": 0,
+    "new_sales_approved": 0,
+    "spreadsheets_shared": 0,
+    "qualitative_visual_findings": 3
+  },
+  "next": [
+    "Retrieve and visually inspect previous v213 two Last Powder Lipstick candidate images instead of regenerating",
+    "Seek clean Korean-free official detail photo for 206 frame 03; hold current frame without altering published file",
+    "Compare exact current official 206 shade list for frame 04 and 06, especially option 21 name collision",
+    "Once authentic source and crop are confirmed, make ONE replacement QA_PENDING candidate and visually inspect before sale approval"
+  ]
+}
