@@ -1,0 +1,113 @@
+{
+  "version": "v2717",
+  "baseline": "v2716",
+  "product_families_attempted": 4,
+  "physically_saved_real_alpha_png_jpg_pairs": 4,
+  "new_sale_approved": 0,
+  "source_photo_commercial_rights_verified": false,
+  "exact_user_owned_stock_edition_verified": false,
+  "original_MK_logo_available": false,
+  "prior_11_approved_groups_modified": false,
+  "prior_55_approved_public_URLs_modified": false,
+  "original_archived_JPGs_modified": 0,
+  "prior_QA_artifacts_modified": 0,
+  "final_spreadsheet_shared": false,
+  "products": [
+    {
+      "family": "pending-01",
+      "original_JPG": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/01-prior-original-byte-identical-QA.jpg",
+      "original_sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+      "crop": [
+        160,
+        145,
+        931,
+        941
+      ],
+      "stock_hold": "Shade 21/23/25/27 and owned item generation not verified",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "source_mask_area_fraction": 0.3019,
+      "bbox": [
+        0,
+        289,
+        771,
+        796
+      ],
+      "png": "pending-01/01-actual-product-alpha-cutout-QA.png",
+      "jpg": "pending-01/01-product-real-cutout-1080-JPG-QA.jpg",
+      "jpg_sha256": "242efdacb3656e5595b4736922aeb5669f809fea7e140ef9b7efa5b6eaf7ffed"
+    },
+    {
+      "family": "pending-10",
+      "original_JPG": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-10/01-original-slot01-byte-preserved-QA.jpg",
+      "original_sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+      "crop": [
+        160,
+        170,
+        932,
+        945
+      ],
+      "stock_hold": "Source package may be 15g while inventory may be 13g; exact edition not proven",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "source_mask_area_fraction": 0.509,
+      "bbox": [
+        0,
+        137,
+        771,
+        598
+      ],
+      "png": "pending-10/01-actual-product-alpha-cutout-QA.png",
+      "jpg": "pending-10/01-product-real-cutout-1080-JPG-QA.jpg",
+      "jpg_sha256": "822f3325d56fe0874fb8c221c37c64fc09b6d25267d22c76484cbedb40fef6b1"
+    },
+    {
+      "family": "pending-14",
+      "original_JPG": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-14/01-prior-original-byte-identical-QA.jpg",
+      "original_sha256": "fffc0ceb749877a95a0407b15725bd654ed1f65046c2ab6d6d263ae45b404c84",
+      "crop": [
+        175,
+        152,
+        921,
+        947
+      ],
+      "stock_hold": "Must match owned 70mL stock, not separate 70g foreign edition",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "source_mask_area_fraction": 0.1487,
+      "bbox": [
+        225,
+        479,
+        566,
+        769
+      ],
+      "png": "pending-14/01-actual-product-alpha-cutout-QA.png",
+      "jpg": "pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+      "jpg_sha256": "1fa717a5584709d12a338eb7d812ca6ffdd15e639bc27303349bdaa190935a3a"
+    },
+    {
+      "family": "pending-06",
+      "original_JPG": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-06/01-existing-original-slot03-unchanged-QA.jpg",
+      "original_sha256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88",
+      "crop": [
+        175,
+        158,
+        920,
+        942
+      ],
+      "stock_hold": "A pictured Essential Cushion Set must not be represented as standalone unless verified",
+      "status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+      "retail_approved": false,
+      "source_mask_area_fraction": 0.4341,
+      "bbox": [
+        0,
+        0,
+        634,
+        699
+      ],
+      "png": "pending-06/01-actual-product-alpha-cutout-QA.png",
+      "jpg": "pending-06/01-product-real-cutout-1080-JPG-QA.jpg",
+      "jpg_sha256": "99e98d961ac4c483c0a4a51754668a6f0a027ab1344878841cc0f59fe94db40d"
+    }
+  ]
+}
