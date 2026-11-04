@@ -1,0 +1,32 @@
+{
+  "checkpoint": "v211",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v210 72 ZIP, 288 photo occurrences, 212 distinct JPEG byte hashes",
+  "actual_work": "Deterministic per-JPG goodsNo linkage using individual manifests and identical SHA256 across versioned archives, without modifying source files",
+  "artifacts": [
+    "BBIA_v211_PER_IMAGE_SKU_LINKAGE_AND_HOLDS.zip",
+    "BBIA_v211_PRECISE_IMAGE_SKU_LINKAGE.json",
+    "BBIA_v211_FAMILY_STATUS_SUMMARY.json",
+    "v211_build_precise_index.py"
+  ],
+  "scan": {
+    "images": 288,
+    "distinct_sha256": 212,
+    "linked_occurrences": 158,
+    "unmapped_or_ambiguous_occurrences": 130,
+    "manifest_image_hash_occurrences": 78,
+    "manifest_filename_occurrences": 32,
+    "archive_single_product_goodsNo_occurrences": 48,
+    "plan_families_with_some_linked_output": 38,
+    "source_plan_families": 46,
+    "declared_family_scope": 48
+  },
+  "interpretation": "Counts of linked JPG candidates are NOT verified final 5 image sets or sale approvals. A known product identifier in a multifamily archive cannot prove that all JPGs belong to that product. 130 images are preserved and quarantined from automated progress math, not deleted or declared missing.",
+  "qa": "Source/output file hashes, immutable archive names and classification method preserved per image; ZIP integrity verified",
+  "no_jpg_created_this_run": true,
+  "existing_jpg_changed": false,
+  "existing_55_public_urls_changed": false,
+  "sale_approved": 0,
+  "excel_shared": false,
+  "next": "Prioritize direct manifest extraction for remaining 130 unassigned occurrences. Reconcile full 48-family master and existing 46-family archive before accurate completion percentage. Select only source-authenticated missing roles; do not fabricate output to inflate quantities."
+}
