@@ -1,0 +1,64 @@
+{
+  "version": "v2716",
+  "baseline": "v2715",
+  "attempted_product_families": 2,
+  "real_new_alpha_PNG_JPG_pairs": 2,
+  "source_image_JPGs_unchanged": true,
+  "prior_11_sale_approved_families_unchanged": true,
+  "prior_55_published_image_URLs_unchanged": true,
+  "new_sales_approved": 0,
+  "photo_license_verified": false,
+  "physical_stock_generation_verified": false,
+  "MK_original_logo_verified": false,
+  "final_XLSX_shared": false,
+  "products": [
+    {
+      "family": "pending-09",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-09/05-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "121547b5c9775971ed9a1fba02a9a5059a85fea0c5216ff728038c290c352677",
+      "source_original_slot": 5,
+      "original_crop": [
+        150,
+        185,
+        921,
+        933
+      ],
+      "status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "coverage": 0.5091,
+      "bbox": [
+        43,
+        148,
+        738,
+        583
+      ],
+      "transparent_PNG": "pending-09/05-actual-transparent-single-product-QA.png",
+      "JPG": "pending-09/05-segmented-product-white-1080-QA.jpg",
+      "JPG_sha256": "088024d7114eceae334c7877385c142bcef5a38eeefb9a2f16a384a8c7d93db1"
+    },
+    {
+      "family": "pending-21",
+      "source": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/02-original-source-sha-unchanged-QA.jpg",
+      "source_sha256": "12cebea05d52a9b79c3d4b27f444cfcf0c8fa1c346fd0cb844fe5f3735ef2823",
+      "source_original_slot": 2,
+      "original_crop": [
+        180,
+        175,
+        933,
+        943
+      ],
+      "status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "coverage": 0.2862,
+      "bbox": [
+        220,
+        151,
+        753,
+        601
+      ],
+      "transparent_PNG": "pending-21/02-actual-transparent-single-product-QA.png",
+      "JPG": "pending-21/02-segmented-product-white-1080-QA.jpg",
+      "JPG_sha256": "73925c491ad342097d6dd33287c7d74277d97eb3d3dfd538da0fe090920ca5c7"
+    }
+  ]
+}
