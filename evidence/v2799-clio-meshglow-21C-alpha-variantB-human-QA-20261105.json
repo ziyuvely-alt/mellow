@@ -1,0 +1,57 @@
+{
+  "version": "v2799",
+  "date": "2026-11-05",
+  "repo": "ziyuvely-alt/mellow",
+  "successful_actions": [
+    {
+      "version": "v2798",
+      "run_id": 41919892118,
+      "result": "success",
+      "qa_image_status": "REJECT_FULL_WIDTH_FADE_CLIPPED_PRODUCT_LOWER_RIGHT",
+      "preserve_original": true
+    },
+    {
+      "version": "v2799",
+      "run_id": 41920185584,
+      "result": "success",
+      "qa_image_status": "VISUAL_INSPECTED_SELECT_VARIANT_B"
+    }
+  ],
+  "family": "pending-06",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+  "preserved_sources": "v2797 five distinct verified 1200px official source-backed scene JPGs, unchanged",
+  "selected_png": "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/01-B-stronger-lower-left-reflection-true-alpha-QA.png",
+  "selected_jpg": "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/01-B-stronger-lower-left-reflection-1080-QA.jpg",
+  "selected_reason": "Visually inspected A and B against original. B removes the pale floor reflection below compact while preserving the bottom-right transparent case edge and upper lid. Prior v2798 clipped hinge and is explicitly rejected.",
+  "rejected": [
+    "v2798-full-width-alpha-fade",
+    "v2799-A-gentle-reflection-tail less effective"
+  ],
+  "scene_preservation": {
+    "original_gallery_native_photos_12": true,
+    "distinct_five_scene_JPGs": true,
+    "source_raw_and_55_approved_urls_unchanged": true
+  },
+  "quality_gates": {
+    "human_visual_image_candidate": "VISUAL_QA_CANDIDATE",
+    "rights_for_selling": "NOT_VERIFIED",
+    "actual_stock_shades": [
+      "19C",
+      "19N",
+      "21C",
+      "21N",
+      "23N"
+    ],
+    "actual_owned_stock_option_match": "NOT_VERIFIED",
+    "bundle_contents": "NOT_VERIFIED",
+    "original_round_MK_logo": "NOT_VERIFIED",
+    "new_retail_approvals": 0
+  },
+  "project": {
+    "existing_sale_approved_product_families": 11,
+    "total_product_families": 41,
+    "existing_55_urls_changed": 0,
+    "final_XLSX_shared": false
+  },
+  "next": "Do not redo pending-06 alpha or five gallery photos. Find exact native gallery assets for remaining CLIO pending-05 mini and pending-07 Mesh Blur by product-specific global store search; if unavailable keep HOLD, not repeat domestic 600px."
+}
