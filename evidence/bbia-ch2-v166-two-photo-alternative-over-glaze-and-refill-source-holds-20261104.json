@@ -1,0 +1,56 @@
+{
+  "schema": "bbia_ch2_v166_incremental_actual_artwork",
+  "date": "2026-11-04",
+  "previous": "v165b 4 JPG candidates (3 active,1 held)",
+  "now": {
+    "family": "BBIA Over Glaze Mini",
+    "new_en_alternative_images": 2,
+    "original_v160_five_en_images_modified": false,
+    "files": [
+      "BBIA_Over_Glaze_Mini_Wand_Editorial_v166_EN_QA_PENDING.jpg",
+      "BBIA_Over_Glaze_Mini_Size_Reference_v166_EN_QA_PENDING.jpg"
+    ],
+    "contact": "BBIA_v166_OVER_GLAZE_MINI_2_NEW_ALT_CONTACT.jpg",
+    "archive": "BBIA_v166_OVER_GLAZE_MINI_2_NEW_ALT_EN_QA_PENDING.zip",
+    "script": "v166_two_incremental_photo_scenes.py",
+    "final_preview_checked": true,
+    "technical": "2 JPEG 1080x1080 under 2MB, ZIP CRC valid"
+  },
+  "photography": {
+    "source_archived_originals": [
+      "101_1c19d05927ad_02_PRODUCT_WAND_EN_QA_PENDING.jpg",
+      "101_961e66f6f835_03_STANDARD_MINI_EN_QA_PENDING.jpg"
+    ],
+    "not_hue_shifted": true,
+    "not_fabricated": true,
+    "exact_official_original_photo_proof": false
+  },
+  "quality_notes": [
+    "Two distinct photographic purposes: product/applicator and size reference, not two claims of different included items.",
+    "Original mini vs full-size photo shows both; second frame explicitly says full-size for scale only and does not represent full-size bottle as included.",
+    "Initial wand draft had text overlap. Fixed only new first frame before archiving.",
+    "These are alternative candidates additional to v160 set; not extra mandatory listing pages or independent sale-approved images."
+  ],
+  "status": "EN_QA_PENDING_SOURCE_PIXEL_PROOF",
+  "sales_approved_new": 0,
+  "preexisting_24_holds_unchanged": true,
+  "original_55_urls_unchanged": true,
+  "original_125_jpg_unchanged": true,
+  "source_blockers_identified": [
+    {
+      "family": "Eau Matte Cushion Refill",
+      "official_SKU": "1000000179",
+      "official_3_5g": true,
+      "official_photo_in_recovered_zip": "HOLD_DO_NOT_PUBLISH; DO NOT REUSE",
+      "url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000179"
+    },
+    {
+      "family": "Eau Glow Cushion Refill",
+      "official_SKU": "1000000124",
+      "official_3_5g": true,
+      "official_photo_in_recovered_zip": "HOLD_DO_NOT_PUBLISH; DO NOT REUSE",
+      "url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124"
+    }
+  ],
+  "next": "Do not recreate v166 artwork. Obtain official original photographic pixels for refill families before any release or design. Do not use 108_ HOLD images as genuine proof. Move to different verified photographed products when blocked."
+}
