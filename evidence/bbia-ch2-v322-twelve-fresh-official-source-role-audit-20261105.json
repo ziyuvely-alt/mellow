@@ -1,0 +1,27 @@
+{
+  "checkpoint": "v322",
+  "parent": "v321",
+  "date": "2026-11-05",
+  "workflow": {
+    "run_id": 41882157256,
+    "artifact_id": 13348758698,
+    "conclusion": "success",
+    "attempted": 12,
+    "saved": 12,
+    "source_sha_duplicates": 0
+  },
+  "four_families": [
+    "1000000056",
+    "172",
+    "207",
+    "1000000151"
+  ],
+  "local_raw_archive": "/mnt/data/bbia_v322_twelve_source_originals.zip",
+  "local_source_directory": "/mnt/data/bbia_v322_sources",
+  "contact": "/mnt/data/bbia_v322_sources/BBIA_v322_TWELVE_SOURCE_CONTACT.jpg",
+  "original_images_only": true,
+  "new_sale_images": 0,
+  "published_modified": false,
+  "hold": "Use only accurate product/shade identities; do not copy Korean marketing text into English sales assets",
+  "next": "Review new source photos and generate clean, distinct QA candidates without re-downloading originals"
+}
