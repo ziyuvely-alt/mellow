@@ -1,0 +1,112 @@
+{
+  "version": "v2787",
+  "baseline": "v2786",
+  "date": "2026-11-05",
+  "goodal": {
+    "family": "pending-19",
+    "actual_five_frames": 5,
+    "existing_4_unmodified": true,
+    "photo_frame5": {
+      "slot": 5,
+      "path": "pending-19/05-open-alpha-cream-texture-real-photo-crop-QA.jpg",
+      "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_crop_xyxy": [
+        425,
+        325,
+        1060,
+        820
+      ],
+      "description": "Real opened Alpha cream texture macro, not complete jar photo",
+      "new_product_pixels_generated": false,
+      "sha256": "dce368ca840f83d7b33fa79d8665fb00980e223f1fd7de2dcb36f22c2cfa9f6f",
+      "exact_previous_bytes": false,
+      "bytes": 171311
+    },
+    "frames": [
+      {
+        "slot": 1,
+        "path": "pending-19/01-existing-authentic-isolated-product-hero-QA.jpg",
+        "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+        "exact_previous_bytes": true,
+        "bytes": 64028
+      },
+      {
+        "slot": 2,
+        "path": "pending-19/02-official-real-jar-cream-background-QA.jpg",
+        "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+        "exact_previous_bytes": true,
+        "bytes": 83045
+      },
+      {
+        "slot": 3,
+        "path": "pending-19/03-official-open-closed-jar-photo-QA.jpg",
+        "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+        "exact_previous_bytes": true,
+        "bytes": 192391
+      },
+      {
+        "slot": 4,
+        "path": "pending-19/04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+        "sha256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+        "exact_previous_bytes": true,
+        "bytes": 174982
+      },
+      {
+        "slot": 5,
+        "path": "pending-19/05-open-alpha-cream-texture-real-photo-crop-QA.jpg",
+        "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+        "source_crop_xyxy": [
+          425,
+          325,
+          1060,
+          820
+        ],
+        "description": "Real opened Alpha cream texture macro, not complete jar photo",
+        "new_product_pixels_generated": false,
+        "sha256": "dce368ca840f83d7b33fa79d8665fb00980e223f1fd7de2dcb36f22c2cfa9f6f",
+        "exact_previous_bytes": false,
+        "bytes": 171311
+      }
+    ],
+    "photo_license_approved": false,
+    "retail_approved": false
+  },
+  "clio": {
+    "family": "pending-04",
+    "official_exact_product_page": "https://clubclio.co.kr/shop/goodsView/0000006954",
+    "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+    "official_net_weight": "5g",
+    "source_url_candidates": [
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+        "evidence": "PRODUCT_PAGE_META"
+      }
+    ],
+    "photo_assets_saved": [
+      {
+        "jpg": "pending-04/01-official-page-single-mini-photo-CANDIDATE.jpg",
+        "original_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+        "source_evidence": "PRODUCT_PAGE_META",
+        "original_size_px": [
+          502,
+          502
+        ],
+        "JPG_sha256": "fc4e2257e191be50d0818f89318993e2068fce6de7ad8a07816e98e6280bffa2",
+        "image_shows_exact_one_mini_object_verified": false,
+        "edition_shade_approved": false,
+        "retail_approval": false
+      }
+    ],
+    "site_access": "HTTP 200",
+    "retail_release": "HOLD_STOCK_OPTIONS_PHOTO_RIGHTS_MK_ORIGINAL",
+    "photo_rights_verified": false,
+    "identity_warning": "Never substitute new full 15g essential cushion set, gift, or historic #3 Linen overseas pack",
+    "page_title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+    "exact_product_title_visible": true,
+    "status": "SOURCE_PHOTOS_CANDIDATE_QA_REQUIRED"
+  },
+  "existing_11_approved_families_untouched": true,
+  "existing_55_verified_public_URLs_untouched": true,
+  "old_QA_art_not_overwritten": true,
+  "final_excel_shared": false
+}
