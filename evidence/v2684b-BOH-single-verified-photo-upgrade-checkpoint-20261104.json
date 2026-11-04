@@ -1,0 +1,46 @@
+{
+  "version": "v2684b",
+  "date": "2026-11-04",
+  "baseline": "v2683",
+  "job_run": 41839920508,
+  "result": "success",
+  "failed_predecessor": {
+    "run_id": 41839756695,
+    "cause": "pending-24 proposed source slot05 was already in existing v2680 source set and had dHash distance 0",
+    "remedy": "Do not retry or duplicate pending-24. Skip that product and continue with pending-25 only"
+  },
+  "created_qa_set": {
+    "family": "pending-25",
+    "product": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50mL",
+    "path": "qa-review/v2684b-BOH-cream-only-distinct-photo",
+    "actual_jpgs": 5,
+    "prior_four_source_jpgs_hash_preserved": true,
+    "exact_new_reused_photo": "v2593 pending-25 slot05 (unchanged source)",
+    "perceptual_difference_to_other_four": 23,
+    "photo_content_before": 2,
+    "photo_content_after": 3,
+    "existing_info_card_before": 3,
+    "info_after": 2,
+    "real_jpg_photo_licensing_verified": false,
+    "source_embedded_korean_claim_verified": false,
+    "retail_sale_release": "HOLD"
+  },
+  "skipped": {
+    "family": "pending-24",
+    "product": "BIOHEAL BOH NAD-PRIZCELL Glow Power Serum 30mL",
+    "reason": "Proposed additional photograph duplicated already included product photo; skip, do not generate filler"
+  },
+  "approved_existing_11_families_unchanged": true,
+  "existing_55_verified_public_urls_unchanged": true,
+  "all_29_qa_families_saved_without_regeneration": true,
+  "pending_peripera_08_remains_hold": true,
+  "current_retail_approved_families": 11,
+  "new_retail_approved_families": 0,
+  "no_final_spreadsheet": true,
+  "next_actions": [
+    "Do not remake v2684b product set or reintroduce duplicate pending-24 slot05",
+    "Only use brand source photography for sales after actual permissions and stock generation validation",
+    "Source photo printed Korean efficacy badge requires claim approval or correct rights-based source alternative",
+    "Proceed to different family with demonstrably different genuine photos; focus on real retail release gates, not generic cards"
+  ]
+}
