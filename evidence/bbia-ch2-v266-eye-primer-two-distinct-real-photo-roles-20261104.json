@@ -1,0 +1,31 @@
+{
+  "checkpoint": "v266",
+  "date": "2026-11-04",
+  "parent": "v265",
+  "source_run_id": 41842981941,
+  "source_artifact_id": 13329592973,
+  "goodsNo": "205",
+  "photo_roles": [
+    {
+      "file": "BBIA_205_SOURCE_DETAIL_v264_QA_PENDING.jpg",
+      "role": "tube",
+      "action": "reused_bytes_unchanged"
+    },
+    {
+      "file": "BBIA_205_APPLICATOR_DETAIL_v266_QA_PENDING.jpg",
+      "role": "applicator",
+      "action": "created_once"
+    }
+  ],
+  "status": "TWO_DIFFERENT_REAL_PHOTO_ROLES_QA_PENDING",
+  "visual_inspected": true,
+  "visual_findings": "Product identities match source; no Korean captions; inset rectangular photo boundaries remain, not genuine alpha cutout",
+  "artifact": "BBIA_v266_205_TWO_DISTINCT_PHOTO_ROLES_QA_PENDING.zip",
+  "verified_crc": true,
+  "hold_173": "Prior crop attempt twice produced black bar and clipped pen; stop repeating",
+  "old_public_images_changed": false,
+  "approved_55_urls_changed": false,
+  "sale_approved": 0,
+  "final_excel_shared": false,
+  "next": "Switch to distinct other products and produce only authentic additional missing roles"
+}
