@@ -1,0 +1,147 @@
+{
+  "version": "v2788",
+  "baseline": "v2787",
+  "goodal": {
+    "family": "pending-19",
+    "alternate_photo_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+    "three_trial_macro_frames": [
+      {
+        "role": "a-top-cream",
+        "file": "pending-19/01-a-top-cream-real-photo-QA.jpg",
+        "crop": [
+          160,
+          10,
+          780,
+          420
+        ],
+        "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+        "source_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+        "sha256": "5f9841bd14d5b8330a256337a606516e9ab862a41a6affbc6ef2791d2a7446a5",
+        "source_pixel_only": true,
+        "visually_reviewed": false
+      },
+      {
+        "role": "b-formula-swirl",
+        "file": "pending-19/02-b-formula-swirl-real-photo-QA.jpg",
+        "crop": [
+          215,
+          8,
+          985,
+          515
+        ],
+        "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+        "source_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+        "sha256": "ed7be360ebbc6184f7a258c2173c86c303c1ba3570741ef131c54944c209b997",
+        "source_pixel_only": true,
+        "visually_reviewed": false
+      },
+      {
+        "role": "c-left-cream-jar-detail",
+        "file": "pending-19/03-c-left-cream-jar-detail-real-photo-QA.jpg",
+        "crop": [
+          180,
+          55,
+          850,
+          680
+        ],
+        "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+        "source_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+        "sha256": "f8eb84f48e26f32dfe8dde364461b72daf6d53c335a958ee86680764b293ce0c",
+        "source_pixel_only": true,
+        "visually_reviewed": false
+      }
+    ],
+    "commercially_approved": false
+  },
+  "clio": {
+    "family": "pending-04",
+    "product_id": "0000006954",
+    "verified_official_product_net_weight": "5g",
+    "filename_variants_probed": [
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+        "same_6954_folder": true,
+        "http_status": 200,
+        "native_dimensions": [
+          502,
+          502
+        ],
+        "source_sha256": "08d560a34e4ce1621b199a30940a39bba790c38d7d948c56576e1d6a86e33793"
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/l.gif",
+        "same_6954_folder": true,
+        "http_status": 404
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/b.gif",
+        "same_6954_folder": true,
+        "http_status": 200,
+        "native_dimensions": [
+          600,
+          600
+        ],
+        "source_sha256": "a386c1acb500295c4540fa80cfeaf6fcd97d2593d0167436ca721c6785797fb3"
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/o.gif",
+        "same_6954_folder": true,
+        "http_status": 404
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/s.gif",
+        "same_6954_folder": true,
+        "http_status": 200,
+        "native_dimensions": [
+          130,
+          130
+        ],
+        "source_sha256": "f09c944390d1271ead844e94adf0eca03c9e86e300da40afb801a742adfe8ee4"
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.jpg",
+        "same_6954_folder": true,
+        "http_status": 404
+      },
+      {
+        "url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/l.jpg",
+        "same_6954_folder": true,
+        "http_status": 404
+      }
+    ],
+    "distinct_native_photo_sources": [
+      {
+        "file": "pending-04/01-official-mini-m-gif-QA.jpg",
+        "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/m.gif",
+        "native_dimensions": [
+          502,
+          502
+        ],
+        "source_sha256": "08d560a34e4ce1621b199a30940a39bba790c38d7d948c56576e1d6a86e33793",
+        "jpg_sha256": "393951f3a2e9f4d0a3de9d591147c4a9b1e8e1e7f6ac177ee7c848df3288971a",
+        "retail_approved": false,
+        "is_upsampled": true
+      },
+      {
+        "file": "pending-04/02-official-mini-b-gif-QA.jpg",
+        "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/69/54/b.gif",
+        "native_dimensions": [
+          600,
+          600
+        ],
+        "source_sha256": "a386c1acb500295c4540fa80cfeaf6fcd97d2593d0167436ca721c6785797fb3",
+        "jpg_sha256": "e51e541e156c239936f98214ff30dc75681e24e1bbd89f6253bf41fa4c767697",
+        "retail_approved": false,
+        "is_upsampled": true
+      }
+    ],
+    "permission_to_republish": false,
+    "actual_owned_shade_match": false,
+    "commercially_approved": false
+  },
+  "actual_commercial_sales_approvals": 0,
+  "existing_11_approved_families_changed": false,
+  "existing_55_verified_public_urls_changed": false,
+  "previous_v2787_source_files_unchanged": true,
+  "final_xlsx_shared": false
+}
