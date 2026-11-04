@@ -1,0 +1,32 @@
+name: Shopee v2747 MIS SHA N23 alternate genuine compact photo silhouette QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2747-missha-cover23-alternate-disc-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Cut out original MISSHA N23 compact silhouette from alternate photo02
+        run: |
+          cp scripts/v2747_missha_cover23_source02_round_compact.py /tmp/v2747.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2747-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2747-qa/qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa
+          cd /tmp/v2747-qa
+          python /tmp/v2747.py
+          git add qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2747 actual source02 N23 compact alpha source-only photo QA, never copy to other shades'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
