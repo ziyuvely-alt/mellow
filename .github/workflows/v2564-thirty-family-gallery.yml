@@ -1,0 +1,37 @@
+name: Shopee v2564 single-run thirty family visual QA gallery
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2564_30family_compact_visual_qa.py'
+      - '.github/workflows/v2564-thirty-family-gallery.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  all-30-products:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 JPG baseline once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2564-base
+      - name: Restore only latest two JPG deltas
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41754796166 -n shopee-v2563-two-JPG-delta-only-and-30family-QA-no-XLSX -D v2564-delta
+      - name: One-pass review gallery over all thirty products
+        run: python scripts/v2564_30family_compact_visual_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2564-30families-156JPG-review-gallery-no-XLSX
+          path: v2564-thirty-family-visual-gallery/
+          retention-days: 90
+          if-no-files-found: error
