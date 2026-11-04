@@ -1,0 +1,35 @@
+name: Shopee v2718 four new CLIO and MISSHA original photo alpha candidates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2718-four-clio-missha-product-cutouts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  make:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real photo foreground tool
+        run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Segment only four previously unprocessed exact family photos, hold all retail
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2718_four_unprocessed_clio_missha_cutouts.py
+          cp scripts/v2718_four_unprocessed_clio_missha_cutouts.py /tmp/v2718.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2718-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2718-qa
+          python /tmp/v2718.py
+          git add qa-review/v2718-four-unprocessed-clio-missha-real-photo-cutouts
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2718 four previously untouched real source photo alpha QA candidates, no public changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
