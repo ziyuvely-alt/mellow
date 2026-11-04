@@ -1,0 +1,85 @@
+{
+  "version": "v2732",
+  "baseline": "v2731",
+  "product_families": 2,
+  "genuine_new_alpha_png_jpg_pairs": 2,
+  "actual_original_photo_bytes_changed": 0,
+  "regenerated_existing_successful_cutouts": 0,
+  "new_sales_approved": 0,
+  "old_11_approved_product_families_preserved": true,
+  "old_55_image_URLs_preserved": true,
+  "source_photos_commercial_reuse_rights_not_confirmed": true,
+  "exact_owned_stock_edition_not_proven": true,
+  "original_MK_logo_not_available": true,
+  "no_final_XLSX_shared": true,
+  "rows": [
+    {
+      "family": "pending-17",
+      "product": "Brightening Up Moisture Sun 50mL",
+      "source_JPG": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+      "source_sha256": "2a983dae4d11f7e1ce25c2b6d0284b05095148bd93cc364ceb065437d3116302",
+      "source_crop_xyxy": [
+        180,
+        180,
+        867,
+        1060
+      ],
+      "why_new_approach": "Different full-tube portrait source scene04 instead of clipped angled scene03",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_VISUAL_REVIEW",
+      "mask_alpha_coverage": 0.2426,
+      "original_roi_boundary_alpha_coverage": {
+        "top": 0.4309,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "input_crop_bbox": [
+        209,
+        0,
+        511,
+        578
+      ],
+      "png": "pending-17/01-real-photographed-product-transparent-QA.png",
+      "jpg": "pending-17/01-real-photographed-product-1080-JPG-QA.jpg",
+      "png_sha256": "1ac40fba16f2639f965713984d31d98d530cc3b491f23f7c22ef1289e827002d",
+      "jpg_sha256": "b07f3b53e37ab392912b5ec9984025f7a7ad7f52263a0ba1ebf085043a1b9184",
+      "jpg_bytes": 95931,
+      "warning": "INPUT_EDGE_TOUCH_REVIEW"
+    },
+    {
+      "family": "pending-15",
+      "product": "Green Mild Up Sun Plus 50mL",
+      "source_JPG": "qa-review/v2706-six-archival-five-real-source-families/pending-15/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "cb19b69c09a00b2235ce16eef0650c33086862c5837b1715229d33b7fb26f4b7",
+      "source_crop_xyxy": [
+        210,
+        205,
+        873,
+        1065
+      ],
+      "why_new_approach": "Wider lower crop preserves authentic green-and-white cap omitted by previous y<=957 crop",
+      "retail_approved": false,
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_VISUAL_REVIEW",
+      "mask_alpha_coverage": 0.3265,
+      "original_roi_boundary_alpha_coverage": {
+        "top": 0.0,
+        "bottom": 0.0,
+        "left": 0.0,
+        "right": 0.0
+      },
+      "input_crop_bbox": [
+        159,
+        82,
+        497,
+        749
+      ],
+      "png": "pending-15/01-real-photographed-product-transparent-QA.png",
+      "jpg": "pending-15/01-real-photographed-product-1080-JPG-QA.jpg",
+      "png_sha256": "11cf8c12382f90f373989c321e547a6553162d7750d06122db7ef217cac0caec",
+      "jpg_sha256": "b9f6087088ab0b85cab7cf2afeb76a31efb380c86fb22be567490089ad2ed999",
+      "jpg_bytes": 75846,
+      "warning": null
+    }
+  ]
+}
