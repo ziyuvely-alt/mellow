@@ -1,0 +1,93 @@
+{
+  "version": "v2668",
+  "date": "2026-11-04",
+  "baseline": "v2666",
+  "repository": "ziyuvely-alt/mellow",
+  "actual_runs": [
+    {
+      "run": 41831044087,
+      "conclusion": "success",
+      "result": "5 source images physically copied and manually previewed",
+      "artifact": 13322663035
+    },
+    {
+      "run": 41831146617,
+      "conclusion": "success",
+      "result": "5 source images archived on isolated QA branch"
+    },
+    {
+      "run": 41831783501,
+      "conclusion": "success",
+      "result": "Pixel Pure 5 distinct frame JPG QA set generated, SHA provenance and actual visual review"
+    }
+  ],
+  "product_family": "pending-28",
+  "product": "PIXEL PURE Glow Cleansing Serum Pad 210 mL / 70 Pads",
+  "isolated_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "new_draft_path": "qa-review/v2668-pixelpure-5card-actual-draft",
+  "frames": [
+    {
+      "frame": 1,
+      "type": "unmodified real source photo",
+      "source": "v2667 pending28 slot02",
+      "status": "QA_ONLY"
+    },
+    {
+      "frame": 2,
+      "type": "unmodified real source photo",
+      "source": "historical pending28 slot04",
+      "status": "QA_ONLY"
+    },
+    {
+      "frame": 3,
+      "type": "new factual information JPG",
+      "status": "QA_ONLY"
+    },
+    {
+      "frame": 4,
+      "type": "new factual information JPG",
+      "status": "QA_ONLY"
+    },
+    {
+      "frame": 5,
+      "type": "new simple usage information JPG",
+      "status": "QA_ONLY"
+    }
+  ],
+  "actual_visual_qa": "All five visible in one review sheet. No text clipping observed on new info frames. Photo content and capacity legible in source images; photography licensing still unverified.",
+  "no_imagegen_generated_catalog_used": true,
+  "other_product_triage": [
+    {
+      "family": "pending-05",
+      "status": "HOLD_KIT_EDITION",
+      "reason": "Original The Original carton photo may not match owned kit"
+    },
+    {
+      "family": "pending-07",
+      "status": "HOLD_BONUS_KIT_DETAILS",
+      "reason": "Original Mesh Blur promo package shows distinct gifts and edition"
+    },
+    {
+      "family": "pending-15",
+      "status": "HOLD_REAL_SOURCE_AND_MK",
+      "reason": "Selected original is a how-to info panel rather than usable clean photo"
+    },
+    {
+      "family": "pending-22",
+      "status": "PHOTO_SOURCE_IDENTIFIED_QA_HOLD",
+      "reason": "Full 300mL OBgE bottle original photo present, commercial rights and v2647 identity not confirmed"
+    }
+  ],
+  "progress": {
+    "new_five_frame_qa_draft_families": 1,
+    "new_retail_approved_product_families": 0,
+    "approved_old_families": 11,
+    "unfinished_families": 30
+  },
+  "protected": {
+    "public_55_urls_unchanged": true,
+    "existing_14_qa_candidates_untouched": true,
+    "final_spreadsheet_not_shared": true
+  },
+  "next": "Do NOT recreate PixelPure pending28 5 frames. Improve its visual storytelling and verify source license/edition only if inputs available; then produce other product family with distinct real original shots. Avoid generic image generation hallucinating packaging/benefits."
+}
