@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""v2739 EXACT-PIXEL contour SVG -> real 1080 transparent PNG plus JPG QA.
+"""v2739 only NEW pending23 EXACT-PIXEL contour SVG -> real 1080 transparent PNG plus JPG QA.
 No product generation, no brand/logo invention. Source SVGs on existing QA
 branch stay byte-identical. All outputs append-only and nonpublic.
 """
@@ -9,12 +9,10 @@ from PIL import Image,ImageDraw,ImageFont,ImageOps
 import cairosvg
 
 ROOT=Path("qa-review")
-OUT=ROOT/"v2739-three-existing-svg-real-png-jpg-photo-QA"
+OUT=ROOT/"v2739-porezero-only-svg-real-png-jpg-photo-QA"
 assert not OUT.exists(), OUT
 OUT.mkdir(parents=True)
 SOURCES=[
- ("pending-09","OBgE Oil Control Finisher 5g","v2738a-direct-contour-svg-fallback/pending-09-exact-source-photo-transparent-clip-QA.svg"),
- ("pending-19","GOODAL Vita C Cream Alpha 50mL","v2738a-direct-contour-svg-fallback/pending-19-exact-source-photo-transparent-clip-QA.svg"),
  ("pending-23","OBgE Pore Zero Sun Cream 50mL","v2738b-porezero-clean-source-alternate-svg-cutout/pending-23-real-50mL-alternate-source-contour-QA.svg"),
 ]
 font="/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf"
@@ -92,9 +90,9 @@ for family,label,relative in SOURCES:
   "commercial_release":"HOLD_ORIGINAL_MK_LOGO_RIGHTS_STOCK_VERSION"}
  rows.append((r,photo,tile,canvas))
 # Build a 3-row, three-column proof so a human can reject rough clip paths.
-proof=Image.new("RGB",(1710,1270),"#f0f0f0")
+proof=Image.new("RGB",(1710,480),"#f0f0f0")
 d=ImageDraw.Draw(proof)
-d.text((20,16),"v2739 THREE SVG -> ACTUAL PNG/JPG, ORIGINAL vs ALPHA vs JPG | QA ONLY",font=f(22,True),fill="#222")
+d.text((20,16),"v2739 PORE ZERO: SVG -> ACTUAL PNG/JPG | QA ONLY",font=f(22,True),fill="#222")
 for idx,(r,photo,checker,white) in enumerate(rows):
  y=60+idx*400
  for ix,img in enumerate([photo,checker,white]):
@@ -119,5 +117,5 @@ report={
  "previous_11_published_groups_unchanged":True,"previous_55_public_urls_unchanged":True,
  "final_excel_or_spreadsheet_shared":False,"products":[r for r,*_ in rows]}
 (OUT/"manifest.json").write_text(json.dumps(report,ensure_ascii=False,indent=2)+"\n")
-print(json.dumps({"version":"v2739","families":3,"png":3,"jpg":3,
+print(json.dumps({"version":"v2739","families":len(rows),"png":len(rows),"jpg":len(rows),
  "technical_QA":"PASS","retail_approved":0}))
