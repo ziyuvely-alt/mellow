@@ -1,0 +1,85 @@
+{
+  "version": "v2569",
+  "date": "2026-11-04",
+  "family": "pending-08",
+  "product": "PERIPERA Mood Glowy Tint 4g",
+  "inventory_scope": "001-020 only",
+  "inventory_product_generation": "26AD",
+  "historical_policy_conflict": "Legacy instructions exclude 26AD generation, while actual stock inventory names 26AD. Do not imply edition match without explicit proof.",
+  "verified_retailer_results": [
+    {
+      "shade": "004",
+      "inventory": "저쩔복숭아",
+      "retailer": "저쩔복숭아",
+      "status": "RETAIL_NAME_CONFIRMED",
+      "source": "https://www.11st.co.kr/products/9653911584"
+    },
+    {
+      "shade": "006",
+      "inventory": "갓기천사",
+      "retailer": "갓기천사",
+      "status": "RETAIL_NAME_CONFIRMED",
+      "source": "https://www.11st.co.kr/products/9653911584"
+    },
+    {
+      "shade": "007",
+      "inventory": "자두뿜뿜",
+      "retailer": "자두뿜뿜",
+      "status": "RETAIL_NAME_CONFIRMED",
+      "source": "https://www.11st.co.kr/products/9653911584"
+    },
+    {
+      "shade": "014",
+      "inventory": "로지워시",
+      "retailer": "로지위시",
+      "english": "ROSY WISH",
+      "status": "NAME_CORRECTION_CONFIRMED_IN_REFERENCE_ONLY",
+      "source": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033"
+    }
+  ],
+  "retailer_warning": "Gmarket listing at goodsCode=4801147791 repeats shade 005 name against shade 006, do not trust that single seller option name.",
+  "canonical_014_for_future_draft": "014 로지위시",
+  "actual_inventory_014_original_preserved": "014 로지워시",
+  "sale_scope": [
+    "001",
+    "002",
+    "003",
+    "004",
+    "005",
+    "006",
+    "007",
+    "008",
+    "009",
+    "010",
+    "011",
+    "012",
+    "013",
+    "014",
+    "015",
+    "016",
+    "017",
+    "018",
+    "019",
+    "020"
+  ],
+  "excluded_shade_numbers": [
+    "021",
+    "022",
+    "023",
+    "024",
+    "025",
+    "026",
+    "027",
+    "028",
+    "029",
+    "030"
+  ],
+  "commercial_photo_rights_confirmed": false,
+  "official_exact_26ad_shade_chart_licensed": false,
+  "physical_stock_editions_verified": false,
+  "mk_logo_binary_recovered": false,
+  "new_customer_approved_images": 0,
+  "public_55_urls_unchanged": true,
+  "no_xlsx_shared": true,
+  "next": "Use name 014 로지위시 in future candidate labels, preserve source inventory, verify actual stock chart edition and permissions before release."
+}
