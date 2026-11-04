@@ -1,0 +1,43 @@
+{
+  "version": "v2607",
+  "date": "2026-11-04",
+  "baseline": "v2605 156-JPG QA zip",
+  "local_artifact": "/mnt/data/Shopee_v2607_156JPG_2product_photo_quality_fixes_QA_ONLY.zip",
+  "product_families": 30,
+  "images_total": 156,
+  "changed_images": 2,
+  "unchanged_sha_identical_images": 154,
+  "changed": [
+    {
+      "family": "pending-03",
+      "slot": 3,
+      "old": "v2605 21 and 23 genuine tubes in one shot",
+      "new_sha256": "a95557d442e9d77ddc44eb24ddb0b4c71911d412b8e4bee94f9d060905b62d5c",
+      "repair": "21/23/25 actual 3 tube packaging photos, no shade swatch, labels readable"
+    },
+    {
+      "family": "pending-26",
+      "slot": 3,
+      "new_sha256": "573b0baedc8e2fdd372d2a45aea65cf9072a562f440ee605d6aaadacb66d00c9",
+      "repair": "Brand's original 145mL bottle photograph; removed customer-facing Korean stamps and internal photo-source note, replaced with English volume fact"
+    }
+  ],
+  "immutable": {
+    "previous_v2605_archive_preserved": true,
+    "existing_11_published_product_families_unchanged": true,
+    "existing_55_verified_public_urls_changed": 0,
+    "xlsx_created_or_shared": false
+  },
+  "releases": {
+    "commercial_approvals": 0,
+    "photo_usage_permissions_confirmed": false,
+    "stock_edition_verified": false,
+    "original_MK_logo_verified": false
+  },
+  "next_actions": [
+    "Verify licensed No.25 genuine photo and owned packaging edition before commercial publish",
+    "Obtain original MK brand logo binary and apply on isolated previews only",
+    "Review other customer-visible internal/stock-copy disclaimers and mixed 145/150mL material, excluding previously fixed frames",
+    "Keep historic v2605 and newly v2607 QA candidates distinct. Never redo 156 images or original 11 released groups."
+  ]
+}
