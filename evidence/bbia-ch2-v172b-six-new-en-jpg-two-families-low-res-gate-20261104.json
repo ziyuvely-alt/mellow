@@ -1,0 +1,60 @@
+{
+  "version": "v172b",
+  "date": "2026-11-04",
+  "continuation_from": "v171 over glaze stick 4 new EN JPG; v168 failed written checkpoint not treated as success",
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "new_photographic_family_candidates": [
+    {
+      "goodsNo": "1000000216",
+      "product": "BBIA Nudy Slim Eyeliner",
+      "official_source": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000216",
+      "new_frame_sources": [
+        "hero-cutout.png",
+        "photo-3.png",
+        "photo-5.png"
+      ],
+      "qa_pending": 3,
+      "held": 0
+    },
+    {
+      "goodsNo": "1000000187",
+      "product": "BBIA L'Eau Tint Mini 3.2g",
+      "official_source": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000187",
+      "new_frame_sources": [
+        "hero-cutout.png",
+        "photo-2.png",
+        "photo-5.png"
+      ],
+      "qa_pending": 2,
+      "held": 1,
+      "held_reason": "hero-cutout.png original only 82x215 pixels, too low quality for premium hero; no fabricated sharpness"
+    }
+  ],
+  "technical": {
+    "new_jpegs": 6,
+    "dimensions": "1080x1080",
+    "file_under_2mb": 6,
+    "valid_zip_crc": true
+  },
+  "state": {
+    "en_qa_pending": 5,
+    "low_res_hold": 1,
+    "sales_approved": 0,
+    "localizations": 0,
+    "official_photo_pixel_match_unverified": true
+  },
+  "artifacts": {
+    "archive": "BBIA_v172b_5_QA_PENDING_1_LOW_RES_HOLD.zip",
+    "visual": "BBIA_v172_SIX_NEW_EN_SCENES_CONTACT.jpg",
+    "script": "v172_new_families.py",
+    "source_inspection": "BBIA_v172_SOURCE_SELECTION.jpg"
+  },
+  "preserved": [
+    "v147 125 JPGs",
+    "v150-v171 candidates",
+    "55 published URLs",
+    "24 previous source holds"
+  ],
+  "next": "Do not recreate these 6 images. Replace only low-resolution L'Eau Tint Mini hero with a larger official real photo; verify product and shade image lineage, then review exact brand styling. Other five frames remain in ordinary QA, not approved for sale. Continue from other product families with larger cutout images if source not available.",
+  "no_excel_shared": true
+}
