@@ -1,0 +1,33 @@
+{
+  "version": "v156",
+  "date": "2026-11-04",
+  "family": "BBIA Last Pen Eyeliner",
+  "source_archive": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "new_edited_jpg": 3,
+  "previous_jpg_reused": 2,
+  "total_en_frames": 5,
+  "output": "/mnt/data/bbia_work/BBIA_v156_LAST_PEN_EYELINER_FIVE_EN_SCENES_QA_PENDING.zip",
+  "contact": "/mnt/data/bbia_work/BBIA_v156_LAST_PEN_FIVE_SCENE_CONTACT.jpg",
+  "production_qa": "All 5 1080x1080 JPG <2MB. ZIP CRC pass. Image 03 cropped again to avoid reusing source editorial labels.",
+  "photo_lineage": "recycled existing source photos from v147 QA archive, not proven to be identical to official product image pixels",
+  "official_description_verified": {
+    "url": "https://www.bbia.vn/san-pham/bbia-last-pen-eyeliner/",
+    "weight_g": 0.6,
+    "shades": [
+      "01 Sharpen Black",
+      "02 Sharpen Brown",
+      "03 Choco Brown"
+    ]
+  },
+  "source_color_image_exactness": "UNVERIFIED",
+  "approval": "QA_PENDING",
+  "previous_family": "v155 Eau Finger Puff 2P is held due to repeating same source photos",
+  "preserve": [
+    "v150-v155 historical image ZIPs and all existing source JPEG",
+    "published 55 URLs",
+    "v147 125 original JPG"
+  ],
+  "sales_approved_count": 0,
+  "localization_count": 0,
+  "next": "Do not redo v156. Seek distinct exact official source photos to validate all five scene images; promote only after exact source and variant proof. Then move on to separate source-ready family."
+}
