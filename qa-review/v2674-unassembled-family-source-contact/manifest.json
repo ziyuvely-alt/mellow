@@ -1,0 +1,369 @@
+{
+  "version": "v2674",
+  "families": [
+    {
+      "family": "pending-01",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4"
+        },
+        {
+          "slot": 2,
+          "source": "02_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "sha256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INFO_FEATURE_02_V2414B_EN_V2421.jpg",
+          "sha256": "8ce88d1feab760979b5ec8ace8ae6789bd79b7a316f1aca92a9d565392a460e2"
+        },
+        {
+          "slot": 4,
+          "source": "04_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "sha256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83"
+        },
+        {
+          "slot": 5,
+          "source": "05_v2593_QA_ONLY_v2582.jpg",
+          "sha256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587"
+        }
+      ]
+    },
+    {
+      "family": "pending-03",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_INV_01_105c62ce61_EN_V2421C.jpg",
+          "sha256": "08175289baf68e010ddd02f6529540c993a5dbd604d405577e47e8a07b0fe485"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_INV_02_2c2d4f7430_EN_V2421C.jpg",
+          "sha256": "69c672e18369d0a0eb340aba5801d4d9d2267a866429d4fe36a2a56314070cbf"
+        },
+        {
+          "slot": 3,
+          "source": "03_v2593_QA_ONLY_v2588.jpg",
+          "sha256": "e251dbf727d8d585cf70e31cc5825659e06e4d5371ecb44a7ec6e8cb9ca05f33"
+        },
+        {
+          "slot": 4,
+          "source": "04_SOURCE_QA_2513-missha-bb-legible_04-stock-shade-names-legible.jpg",
+          "sha256": "f0b5c078b6882909ccf13e1ea966311ae156ae41ed340c965fe7ea63fb954846"
+        },
+        {
+          "slot": 5,
+          "source": "05_05_INV_05_f32faba0cf_EN_V2421C.jpg",
+          "sha256": "36d995efef3079f0c8a0bf8ff0b0a3a3e8c71cc4aac4139ab1ac555f53363389"
+        }
+      ]
+    },
+    {
+      "family": "pending-04",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_INV_01_3194e3273f_EN_V2421C.jpg",
+          "sha256": "e64a48d46e484ff7ead326382b8ee59bc755334c4eb306cb451dc7579125a0a5"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_INV_02_35438b61d8_EN_V2421C.jpg",
+          "sha256": "8a09b7a6c499ced6ee4e9bc7a720bbce3d8e31b34d68091a72ab6ebd0a6791d9"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INV_03_a9f4d2660e_EN_V2421C.jpg",
+          "sha256": "319ea656259e8e5e3754ee1194a0fff05ed4933d142e1d3108f6c669101d5551"
+        },
+        {
+          "slot": 4,
+          "source": "04_SOURCE_QA_2500b-clio-single-shade-corrected_04-mini-shades-factual-corrected.jpg",
+          "sha256": "4f60ff37338f498905e320505f7356ef23bc1995216d0e9f208f20a4f8810aca"
+        },
+        {
+          "slot": 5,
+          "source": "05_05_INV_05_d41b9b1ed2_EN_V2421C.jpg",
+          "sha256": "f619d84aeb61bdf2d89983a691b7d9a93d4159f5284f671ae32d9e58849e1c47"
+        }
+      ]
+    },
+    {
+      "family": "pending-06",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_v2439b-source__pending-06_original_text_clean_card_V2439b.jpg",
+          "sha256": "7c440a9a2bf91a7f7d159079a34b9fc798751ddc20a44d03d0fffbad28cd5d12"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_SOURCE_01_8053457df_EN_V2421C.jpg",
+          "sha256": "fe7c095d772c15949c48d8b26cec6f7c2a8553da02801366b4f5444302f50bec"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_SOURCE_02_8efe54403_EN_V2421C.jpg",
+          "sha256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88"
+        },
+        {
+          "slot": 4,
+          "source": "04_04_SOURCE_03_4bd36df9a_EN_V2421C.jpg",
+          "sha256": "372fdd78226ae1b69ffc14621d28bf70dd3e696f21c9a2179952d923eaa9cd25"
+        },
+        {
+          "slot": 5,
+          "source": "05_v2593_QA_ONLY_v2582.jpg",
+          "sha256": "c79ecc05a16a4ff73819a05267b5412514299b0b299e1c1a5075e5428490e848"
+        }
+      ]
+    },
+    {
+      "family": "pending-09",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_v2439b-source__pending-09_original_text_clean_card_V2439b.jpg",
+          "sha256": "37e89ce87c3fabee25f5190a07b9d6abe0980fcfc6ca941f1a53a8d5fd5d1c62"
+        },
+        {
+          "slot": 2,
+          "source": "02_v2541-official-open-finisher.jpg",
+          "sha256": "7d11be3d700956f889d64d723077e5229811130f1d4dad5d07abe31f93776680"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INV_02_02a7beb90a_EN_V2421C.jpg",
+          "sha256": "e6ceb2658cc8bd252f48b8c4f6f2b30676411d85f4dc9f17cf83a9bebe0e6a86"
+        },
+        {
+          "slot": 4,
+          "source": "04_v2541-real-product-floating-case.jpg",
+          "sha256": "2f9fbbbca9a1203c5f4be29b72e492fe9999cf750e3a01ef390dd598d7d393a2"
+        },
+        {
+          "slot": 5,
+          "source": "05_05_INV_04_1a9728cbc3_EN_V2421C.jpg",
+          "sha256": "df46e79bd2316dbd51f6f57f81e479846d3d0cb0776ae5871b77137e02d8859c"
+        }
+      ]
+    },
+    {
+      "family": "pending-10",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_SOURCE_QA_2511-obge-homme-15g-corrected_01-original-open-compact.jpg",
+          "sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327"
+        },
+        {
+          "slot": 2,
+          "source": "02_SOURCE_QA_2511-obge-homme-15g-corrected_02-original-product-and-texture.jpg",
+          "sha256": "bbe37fea266311c7f9430c1fafa52072e162d5013990786ee5ea379408ce4158"
+        },
+        {
+          "slot": 3,
+          "source": "03_SOURCE_QA_2511-obge-homme-15g-corrected_03-original-model-with-cushion.jpg",
+          "sha256": "f34cf57adbc2702099a0714e4c493ddf3d16243ae2d357de1b020aa9c3c784e9"
+        },
+        {
+          "slot": 4,
+          "source": "04_SOURCE_QA_2511-obge-homme-15g-corrected_04-original-3shade-chart.jpg",
+          "sha256": "b35f8eeaf264a5062600b9db4cc8b22c396653d9fd629dd4c327f8fa86be80bd"
+        },
+        {
+          "slot": 5,
+          "source": "05_SOURCE_QA_2511-obge-homme-15g-corrected_05-15g-verified-product-facts.jpg",
+          "sha256": "fc39a4bb00a6b92985f736b6dffce5a0ef48c8fd1356da2e94adfeddf53dd236"
+        }
+      ]
+    },
+    {
+      "family": "pending-11",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_INV_01_044a1cd940_EN_V2421C.jpg",
+          "sha256": "ad54148d6562745b36300c4e50462605765efac49100be7f735baaebcf153da1"
+        },
+        {
+          "slot": 2,
+          "source": "02_v2543-genuine-double-essence-photo.jpg",
+          "sha256": "84b2619c0205c8130f56f2e00ff9fa5d7131a971f2ffb15f66ae43dc8b8af374"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INV_03_8a47d85c96_EN_V2421C.jpg",
+          "sha256": "5e393de541df74dfc8576ee3419c9e3f94eb668c72d41612db2330fa152dc7f5"
+        },
+        {
+          "slot": 4,
+          "source": "04_v2543-genuine-double-essence-photo.jpg",
+          "sha256": "acfb08b21baee43f033d449d442c6565a857929f356f34a24c2b2e1a549eb10b"
+        },
+        {
+          "slot": 5,
+          "source": "05_v2593_QA_ONLY_v2583.jpg",
+          "sha256": "1246c1b96db0e5c7fe99f4a1d18d81db335bd7e3a843644596ffb6fb35a93dda"
+        }
+      ]
+    },
+    {
+      "family": "pending-12",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_SOURCE_4166c45da556_EN_V2421C.jpg",
+          "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_SOURCE_aeee02ac48ee_EN_V2421C.jpg",
+          "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_SOURCE_f9e33b456bc5_EN_V2421C.jpg",
+          "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba"
+        },
+        {
+          "slot": 4,
+          "source": "04_04_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "ebd10ecfd32955fbb769dfd30b2a01b52ddbcac20a4aae0f88bac13325cd90c0"
+        },
+        {
+          "slot": 5,
+          "source": "05-v2538-official-washoff-usage.jpg",
+          "sha256": "2b732d7b8c95ddd1648e2555139ecb0f208f30f7590e41c02aef32623c208068"
+        }
+      ]
+    },
+    {
+      "family": "pending-13",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_pending-13_second_frame_fact_repair_V2441b.jpg",
+          "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_SOURCE_4d228780ef6c_EN_V2421C.jpg",
+          "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_SOURCE_ac47ea3f8fde_EN_V2421C.jpg",
+          "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54"
+        },
+        {
+          "slot": 4,
+          "source": "04-v2536-true-missha-pdrn-serum-laboratory-photo.jpg",
+          "sha256": "ad1f5d5463903b997e1ec870199e6780f4284b0fe23b73977b11c859cd521a5f"
+        },
+        {
+          "slot": 5,
+          "source": "05_05_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "75f6ec1493fa6904722fa62b60c88d88ab2f8bddc400210c0e1e91eed683cc1d"
+        }
+      ]
+    },
+    {
+      "family": "pending-14",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01-v2537-actual-MISSHA-firming-repair-cream-vases.jpg",
+          "sha256": "fffc0ceb749877a95a0407b15725bd654ed1f65046c2ab6d6d263ae45b404c84"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+          "sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_SOURCE_7f391f26af48_EN_V2421C.jpg",
+          "sha256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616"
+        },
+        {
+          "slot": 4,
+          "source": "04_04_SOURCE_9d197a03300b_EN_V2421C.jpg",
+          "sha256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f"
+        },
+        {
+          "slot": 5,
+          "source": "05_05_INFO_04_V2412B_EN_V2421.jpg",
+          "sha256": "51647f24f13ba8313a22da0e897bad2d78e1c0c86902aa3cf65c38c7635e24de"
+        }
+      ]
+    },
+    {
+      "family": "pending-15",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_INV_01_6b3a4a3666_EN_V2421C.jpg",
+          "sha256": "70d4b189f0e8b9f47e2de48a65de05ab9b565114e83238422dbb90932a19ca90"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_INV_02_7f3ea992bc_EN_V2421C.jpg",
+          "sha256": "3b838caa2d123476e222cff8c6e86444778558950a83e9070d09125bdce256ed"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INV_03_8d52f556bc_EN_V2421C.jpg",
+          "sha256": "1563a981a5bb66cd84b76420191c6da1c5fc89eddbf9425a9d629e091e848231"
+        },
+        {
+          "slot": 4,
+          "source": "04_04_INV_04_b1503b4a4b_EN_V2421C.jpg",
+          "sha256": "92ebda952f11009d42109bef8cdbce6830552e9c748509b94b895681abddf605"
+        },
+        {
+          "slot": 5,
+          "source": "05_v2560-REVIEW-ONLY.jpg",
+          "sha256": "d2dca307b98bff0b404f6544de700c441157f02462923e81c22df22ca0f5dfe0"
+        }
+      ]
+    },
+    {
+      "family": "pending-18",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "01_01_pending-18_factual_copy_revision_V2441.jpg",
+          "sha256": "12f437de188e268704ba3815ff3e7a87a1d0c860ef22c0ec7cdeb85feade9a6c"
+        },
+        {
+          "slot": 2,
+          "source": "02_02_INV_01_254aee0e0f_EN_V2421C.jpg",
+          "sha256": "d0f45c3a371f33cd2c9c04ba6d3bf2a34d593344fc406496b679fc907415ef91"
+        },
+        {
+          "slot": 3,
+          "source": "03_03_INV_02_66493f8937_EN_V2421C.jpg",
+          "sha256": "d8479e3e84cb9bd4503720504dc0620f89fe40b8ab95ef8bf736fa40f3f93e39"
+        },
+        {
+          "slot": 4,
+          "source": "04_04_INV_03_e2cd09a3ab_EN_V2421C.jpg",
+          "sha256": "62bf590f61b515ebe1e9cd30b03a35ffb437e2d6f6ba8f0e203ef3bf62d86529"
+        },
+        {
+          "slot": 5,
+          "source": "05_SOURCE_QA_2515-drg-brightening-one_05-tone-up-sebum-finish.jpg",
+          "sha256": "d85821075f8fcc9cc9197662b0ef340f018688e2826cdf29bf201954e0b144af"
+        }
+      ]
+    }
+  ],
+  "source": "historic v2593 156 JPEGs, current v2647 unverified",
+  "retail_approved": 0,
+  "source_bytes_unchanged": true,
+  "no_spreadsheet": true
+}
