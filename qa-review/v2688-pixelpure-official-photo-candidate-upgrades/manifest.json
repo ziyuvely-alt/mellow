@@ -1,0 +1,137 @@
+{
+  "version": "v2688",
+  "baseline": "v2687",
+  "total_products_checked": 2,
+  "product_photo_families_upgraded": 2,
+  "new_sale_approved": 0,
+  "existing_11_families_untouched": true,
+  "existing_55_public_urls_untouched": true,
+  "photo_license_explicitly_verified": false,
+  "owned_stock_exact_edition_verified": false,
+  "latest_v2647_binary_compared": false,
+  "prior_v2680_qa_JPGs_unchanged": true,
+  "no_xlsx_shared": true,
+  "products": [
+    {
+      "family": "pending-29",
+      "official_page": "https://pixelpure.com/product/detail.html?product_no=26",
+      "sale_approved": false,
+      "status": "NEW_FIVE_JPG_QA_REVISION_BUILT_NOT_RETAIL",
+      "source_urls_considered": [
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20261021/1b91715d685d4b6378b229a4ab40c9e9.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20260909/58f225f2ecec183207d8e2b11ac3aa17.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20260907/791392bae7f687b80fac564a1ac3267f.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20250511/bc57ec43f9deca9b0874525b867d1df9.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20261101/80e60c40bcd15b77826515bbc3e8bd0c.jpg"
+      ],
+      "four_prior_frames_modified": 0,
+      "new_photo_slot": 5,
+      "official_page_title": "Pixelpure | 래디언스 아쿠아 수딩 크림",
+      "prior_four_frames_preserved_exact": true,
+      "original_info_frame_replaced": 5,
+      "selected_official_photo_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+      "distinct_phash_distance_existing": [
+        30,
+        41
+      ],
+      "files": [
+        {
+          "slot": 1,
+          "sha256": "6a196923971d08efa98653e712abdcb4187c45458d1c8c82ce915ac439b14b59",
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 2,
+          "sha256": "e95fdc937b6a8c75d6e94d0bd345509a23e70324662b399c22381c3c849f6467",
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 3,
+          "sha256": "4ea2378e282ca76a728067acc043f9ebe251ad1664ca9f0c2f0d380f5d8eecb8",
+          "file": "03-fact-only-product-information-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 4,
+          "sha256": "0570607ae6907d08e08d28aed7f5b81e1d9a0f86af8e3cdf4ae32b025a24e759",
+          "file": "04-fact-only-net-content-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 5,
+          "sha256": "6e1284b70aca384f3d6c259ac2996edbf0e9e581e9dc2031ae9b2704ce003187",
+          "file": "05-official-product-photo-new-QA-ONLY.jpg",
+          "unchanged": false,
+          "official_image_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+          "official_input_dimensions": [
+            1000,
+            1000
+          ]
+        }
+      ]
+    },
+    {
+      "family": "pending-30",
+      "official_page": "https://pixelpure.com/product/detail.html?product_no=25",
+      "sale_approved": false,
+      "status": "NEW_FIVE_JPG_QA_REVISION_BUILT_NOT_RETAIL",
+      "source_urls_considered": [
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20260213/cb64cbbdf40f0af35ec162dda1bd13bb.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20260213/b1538dd05d1d8b3a354a3690e007b309.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/04f0ac285617118e73242c512467d740.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20250511/bc57ec43f9deca9b0874525b867d1df9.jpg",
+        "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/tiny/20260213/88d239ef5f0d67564cf181532424921b.jpg"
+      ],
+      "four_prior_frames_modified": 0,
+      "new_photo_slot": 5,
+      "official_page_title": "Pixelpure | 픽셀퓨어 아우라 래디언스 세럼",
+      "prior_four_frames_preserved_exact": true,
+      "original_info_frame_replaced": 5,
+      "selected_official_photo_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20260213/cb64cbbdf40f0af35ec162dda1bd13bb.jpg",
+      "distinct_phash_distance_existing": [
+        35,
+        37
+      ],
+      "files": [
+        {
+          "slot": 1,
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "file": "01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 2,
+          "sha256": "a3daa58026d914bcd0d2fb67ca74ff38000d8b07ef89ceb386ebb54d9341d996",
+          "file": "02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 3,
+          "sha256": "126ee23e06808538b85235952a48b32bee9dd0b5cd7db4e499653468c20b07ff",
+          "file": "03-fact-only-product-information-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 4,
+          "sha256": "559a7a3cce9e0d10561407ecec55b7f6cfbcc2304c8a2004c6517a37e085442a",
+          "file": "04-fact-only-net-content-QA.jpg",
+          "unchanged": true
+        },
+        {
+          "slot": 5,
+          "sha256": "db49df98e9b8c7691caf37d5b5c8ad1097ec0b226b7512f2fb2cc30627e0e7a1",
+          "file": "05-official-product-photo-new-QA-ONLY.jpg",
+          "unchanged": false,
+          "official_image_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20260213/cb64cbbdf40f0af35ec162dda1bd13bb.jpg",
+          "official_input_dimensions": [
+            600,
+            600
+          ]
+        }
+      ]
+    }
+  ]
+}
