@@ -1,0 +1,43 @@
+{
+  "version": "v2820",
+  "baseline": "v2819",
+  "family": "pending-05",
+  "product": "CLIO The Original Mini 5g",
+  "source": "https://lilabeauty.com.au/products/mini-kill-cover-founwear-cushion-the-original-5g.js",
+  "merchant": "Lila Beauty",
+  "vendor": "Clio",
+  "product_title": "Mini Kill Cover Founwear Cushion The Original 5g",
+  "21N_variants": [
+    {
+      "variant_id": "42057466216510",
+      "label": "21N Linen",
+      "photo_urls": [
+        "https://cdn.shopify.com/s/files/1/0071/4653/7026/files/buy-clio-mini-kill-cover-founwear-cushion-the-original-5g-at-lila-beauty-korean-and-japanese-beauty-skin-care-8014049.jpg?v=1784411712"
+      ]
+    }
+  ],
+  "images_explicitly_linked_to_21N_saved": 1,
+  "new_actual_21N_photo_candidates": [
+    {
+      "file": "01-21N-variant-linked-Lila-5g-QA.jpg",
+      "sha256": "35abe0bf54c4ef31d365f5a8b4c8b6e0625d681b0a38c94e0efd14cbde75e3ce",
+      "variant_id": "42057466216510",
+      "label": "21N Linen",
+      "original_url": "https://cdn.shopify.com/s/files/1/0071/4653/7026/files/buy-clio-mini-kill-cover-founwear-cushion-the-original-5g-at-lila-beauty-korean-and-japanese-beauty-skin-care-8014049.jpg?v=1784411712",
+      "native_dimensions": [
+        1000,
+        1000
+      ],
+      "still_needs_visual_product_vs_swatch_check": true
+    }
+  ],
+  "prior_v2819_DODOSKIN_21N_swatch_preserved": true,
+  "prior_v2818_23N_JPGs_preserved": true,
+  "new_photo_for_21N_product_hero_proven": false,
+  "photo_license_verified": false,
+  "actual_owned_stock_edition_verified": false,
+  "new_retail_approval": false,
+  "approved_11_families_untouched": true,
+  "approved_55_URLs_untouched": true,
+  "no_final_XLSX": true
+}
