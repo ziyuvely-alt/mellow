@@ -1,0 +1,52 @@
+{
+  "version": "v2693",
+  "family": "pending-14",
+  "product": "MISSHA PDRN NAD+ Firming Repair Cream",
+  "KR_global_stock_spec": "70mL",
+  "Japan_variant_note": "Japanese launch has 70g, not same stock specification; no substitute",
+  "official_page": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114238",
+  "status": "FIVE_JPG_QA_PHOTO_CANDIDATE_BUILT_NEEDS_EYES_ON_ITEM_ID",
+  "retail_approved": false,
+  "source_license_confirmed": false,
+  "owned_stock_edition_matched": false,
+  "approved_11_families_unchanged": true,
+  "public_55_urls_unchanged": true,
+  "original_4_qa_photos_modified": false,
+  "final_xlsx_shared": false,
+  "page_title": "피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) | 에이블샵 (able·shop)",
+  "candidate_urls_considered": [
+    "https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114238/0000388182.jpg"
+  ],
+  "new_candidate": "05-official-70mL-product-photo-review-only.jpg",
+  "new_photo_sha256": "44af4950e96d878a61ea5713315a90623dda9939c2ac03afae562e58c7c97260",
+  "official_image_url": "https://static.ableshop.kr/ext/images/goods/top/26/04/27/03/BO00114238/0000388182.jpg",
+  "official_gallery_source_kind": "metadata",
+  "original_source_dimensions": [
+    1000,
+    1000
+  ],
+  "new_to_old_dhash_distance": [
+    35,
+    33,
+    32,
+    26
+  ],
+  "four_unchanged_previous_sha256": [
+    {
+      "file": "01-prior-original-byte-identical-QA.jpg",
+      "sha256": "fffc0ceb749877a95a0407b15725bd654ed1f65046c2ab6d6d263ae45b404c84"
+    },
+    {
+      "file": "02-prior-original-byte-identical-QA.jpg",
+      "sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f"
+    },
+    {
+      "file": "03-prior-original-byte-identical-QA.jpg",
+      "sha256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616"
+    },
+    {
+      "file": "04-prior-original-byte-identical-QA.jpg",
+      "sha256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f"
+    }
+  ]
+}
