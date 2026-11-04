@@ -1,0 +1,37 @@
+name: Shopee v2684 BOH two genuine photo content replacements
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2684-two-BOH-photo-upgrades.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse immutable prior historical source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Replace only two redundant info frames, keep four original per SKU
+        run: |
+          cp scripts/v2684_two_BOH_photo_substitutions.py /tmp/v2684_photo.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2684-assets qa-assets/v2662-immutable-14-candidates
+          ln -s "$GITHUB_WORKSPACE/historical" /tmp/v2684-assets/historical
+          cd /tmp/v2684-assets
+          python /tmp/v2684_photo.py
+          git add qa-review/v2684-two-BOH-photo-detail-substitutions
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2684 two more genuinely sourced BOH photo slots, 8 previous frames unchanged'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
