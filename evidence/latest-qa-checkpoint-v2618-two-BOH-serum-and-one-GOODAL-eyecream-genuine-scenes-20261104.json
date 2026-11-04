@@ -1,0 +1,58 @@
+{
+  "version": "v2618",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_baseline": {
+    "version": "v2614",
+    "originals": 156,
+    "original_file": "Shopee_v2614_156JPG_BIOHEAL_2badgefree_QA_ONLY.zip"
+  },
+  "checkpoint_v2616": {
+    "file": "/mnt/data/Shopee_v2616_156JPG_BIOHEAL_30mL_serum_solo_QA_ONLY.zip",
+    "count": 156,
+    "replaced": 2,
+    "unchanged_sha": 154,
+    "family": "pending-24",
+    "slots": [
+      3,
+      5
+    ],
+    "new_images": {
+      "slot3": "real 30ml solo serum bottle with dropper",
+      "slot5": "real 30ml serum on water droplet set"
+    },
+    "source_github_run": 41774933238,
+    "commercial_photo_rights_verified": false
+  },
+  "checkpoint_v2617": {
+    "github_run": 41775438613,
+    "product": "Goodal Green Tangerine Vita C Dark Spot Care Eye Cream 30ml",
+    "source_photos": 2,
+    "accepted_photo": "cream dispensing tube",
+    "duplicate_discarded": "white-background tube too similar to existing slot04",
+    "source_page": "https://kbeautyarabia.com/products/green-tangerine-dark-circle-eye-cream-30-ml",
+    "commercial_photo_rights_verified": false
+  },
+  "latest_checkpoint": {
+    "version": "v2618",
+    "full_archive": "/mnt/data/Shopee_v2618_156JPG_GOODAL_eyecream_texture_QA_ONLY.zip",
+    "comparison": "/mnt/data/v2618_GOODAL_eye_cream_texture_156_QA/before-after-eyecream.jpg",
+    "total_jpg": 156,
+    "changed_from_v2616": 1,
+    "unchanged_sha_identical_from_v2616": 155,
+    "family": "pending-21",
+    "slot": 3,
+    "old_sha256": "7c8da6e356387e283b0aa754d540d9206ca4c584cfa6d565248064f36467f831",
+    "new_sha256": "0b94e82555032a0c6d53e1672fce1a9112422ca9dbc4ac6f18e495e0fdf296e0"
+  },
+  "preserved": {
+    "previous_BIOHEAL_cream_pending25_v2614": true,
+    "previous_BIOHEAL_serum_pending24_v2616": true,
+    "published_existing_families": 11,
+    "published_verified_urls": 55,
+    "published_urls_modified": 0,
+    "xlsx_created_or_shared": false
+  },
+  "release_status": "HOLD_PHOTO_LICENSE_STOCK_EDITION_MK_ORIGINAL_FINAL_HUMAN_REVIEW",
+  "next": "Continue from v2618 complete 156 JPG QA corpus. Do not recreate v2615/16/17/18 or previously approved 11 families. Focus nonduplicate genuine product photos or evidence-based edits; preserve source rights and photo generation checks."
+}
