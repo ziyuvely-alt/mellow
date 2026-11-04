@@ -1,0 +1,23 @@
+name: Shopee v2664 enforce actual 14 image visual QA release gates
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2664-enforce-visual-release-gates.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Apply actual visual review results to 14 QA candidate sale gates
+        run: python scripts/v2664_enforce_visual_rejects.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2664-actual-visual-14-qa-release-gates-no-XLSX
+          path: v2664-visual-sale-release-gate/
+          retention-days: 90
+          if-no-files-found: error
