@@ -1,0 +1,22 @@
+{
+  "checkpoint": "v325",
+  "parent": "v324",
+  "source": "Existing v322 twelve original source images",
+  "actual_files_created": 4,
+  "goodsNo": [
+    "1000000056",
+    "172",
+    "207",
+    "1000000151"
+  ],
+  "originals_regenerated": false,
+  "files_manifest": "/mnt/data/bbia_v325/BBIA_v325_MANIFEST.json",
+  "contact": "/mnt/data/bbia_v325/BBIA_v325_FOUR_NEW_ROLES_CONTACT.jpg",
+  "zip": "/mnt/data/bbia_v325/BBIA_v325_FOUR_DISTINCT_PHOTO_ROLES_QA_PENDING.zip",
+  "zip_sha256": "6ca1ee3e8b0f092ab3904a9281d27c59365d75b51dc1933412e3a52e2f592726",
+  "zip_crc": "PASS",
+  "QA": "Four distinct genuine-source roles but all sales QA pending; photographed background remains in 1000000056, exact options/rights, logo not verified",
+  "existing_public_jpg_changed": 0,
+  "verified_55_urls_unchanged": true,
+  "final_excel_shared": false
+}
