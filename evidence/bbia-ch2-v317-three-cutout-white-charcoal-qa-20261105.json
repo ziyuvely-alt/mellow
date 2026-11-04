@@ -1,0 +1,30 @@
+{
+  "checkpoint": "v317",
+  "date": "2026-11-05",
+  "parent": "v316",
+  "qa_executed": "Actual PIL & NumPy alpha pixel audit and two-background visual inspection",
+  "goodsNo": [
+    "1000000223",
+    "1000000239",
+    "1000000178"
+  ],
+  "alpha_feather_percent": [
+    7.4,
+    9.42,
+    4.81
+  ],
+  "src_cutout_png_count": 3,
+  "existing_v316_jpg_count": 3,
+  "contact": "/mnt/data/bbia_v317/BBIA_v317_THREE_CUTOUTS_WHITE_CHARCOAL_COMPARE.jpg",
+  "zip": "/mnt/data/bbia_v317/BBIA_v317_EDGE_QA_EVIDENCE.zip",
+  "zip_crc": "PASS",
+  "findings": {
+    "lip_oil": "Hold as cutout-layout QA candidate; fine fringes remain unapproved",
+    "lucky_tint": "Hold as cutout-layout QA candidate; exact variant not validated",
+    "eau_matte_cushion": "Dark background exposes visible fringe and stair-step edging at metal circumference; targeted edge revision needed"
+  },
+  "sales_approved": 0,
+  "previous_jpgs_changed": false,
+  "public_55_urls_changed": false,
+  "final_excel_shared": false
+}
