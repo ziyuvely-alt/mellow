@@ -1,0 +1,33 @@
+name: Shopee v2591 seventeen-source-qa-delta append-only checkpoint
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2591_append_goodal_fact_card_to_16_qa_delta.py'
+      - '.github/workflows/v2591-goodal-seventeen-qa.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  append-one-factual-card:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reuse prior sixteen changes provenance
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763838259 -n shopee-v2588-MISSHA-DrG-real-source-QA-deltas-no-XLSX -D v2591-prev
+      - name: Reuse new Goodal fact-only QA JPG
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764148539 -n shopee-v2590-GOODAL-100ml-facts-1real-JPG-QA-no-XLSX -D v2591-facts
+      - name: Write seventeen-change checkpoint, do not rebuild originals
+        run: python scripts/v2591_append_goodal_fact_card_to_16_qa_delta.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2591-seventeen-photo-QA-delta-metadata-and-new-Goodal-JPG-no-XLSX
+          path: v2591-seventeen-change-incremental-checkpoint/
+          retention-days: 90
+          if-no-files-found: error
