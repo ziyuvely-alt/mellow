@@ -1,0 +1,33 @@
+name: Shopee v2595 DrG exact 50ml two photo source QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2595_drg_50ml_two_product_photos.py'
+      - '.github/workflows/v2595-drg-50ml-photos.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  check-genuine-50ml-photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse definitive 156 image QA corpus without rebuilding
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D latest
+      - name: Acquire exact DrG Brightening Up Sun PLUS 50ml scenes and skip duplicates
+        run: python scripts/v2595_drg_50ml_two_product_photos.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2595-DrG-SunPlus-50ml-actual-photos-review-no-XLSX
+          path: v2595-drg-brightening-up-sunplus-50ml-new-real-scenes/
+          retention-days: 90
+          if-no-files-found: error
