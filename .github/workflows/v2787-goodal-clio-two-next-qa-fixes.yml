@@ -1,0 +1,29 @@
+name: Shopee v2787 Goodal last crop fix and official CLIO mini photo source
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2787-goodal-clio-two-next-qa-fixes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Replace only still caption-affected cream macro and seek exact CLIO official mini photos
+        run: |
+          cp scripts/v2787_goodal_textfree_macro_clio_official_mini_sources.py /tmp/v2787.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2787-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2787-qa
+          python /tmp/v2787.py
+          git add qa-review/v2787-goodal-fifth-photo-fix-and-clio-mini-official-source
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2787 repair only BAD GOODAL 5th macro; verify exact CLIO 5g product photo source without kits'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
