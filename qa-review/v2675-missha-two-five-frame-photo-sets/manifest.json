@@ -1,0 +1,123 @@
+{
+  "version": "v2675",
+  "prior_checkpoint": "v2674",
+  "two_distinct_five_frame_sets": 2,
+  "physical_JPG_frames": 10,
+  "byte_identical_reused": 8,
+  "new_safe_copy_frames": 2,
+  "new_retail_approvals": 0,
+  "source_is_historical_not_latest": true,
+  "approved_11_product_families_mutated": false,
+  "public_55_URLs_mutated": false,
+  "final_xlsx_shared": false,
+  "families": [
+    {
+      "family": "pending-01",
+      "five_frame_draft_exists": true,
+      "four_real_source_JPGs_unmodified": 4,
+      "new_factual_frame_slot": 3,
+      "unresolved": [
+        "Exact owned-stock version and shades",
+        "Source-photo redistribution rights",
+        "Current v2647 comparison",
+        "Final retail design review"
+      ],
+      "frames": [
+        {
+          "slot": 1,
+          "filename": "01-prior-original-byte-identical-QA.jpg",
+          "sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+          "source": "01_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 90290
+        },
+        {
+          "slot": 2,
+          "filename": "02-prior-original-byte-identical-QA.jpg",
+          "sha256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5",
+          "source": "02_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 101761
+        },
+        {
+          "slot": 3,
+          "filename": "03-factual-detail-new-QA.jpg",
+          "sha256": "0f71d777dfe7c9259fc8d4e00b7f4714515d687ff78e2f8aac435162eb18443a",
+          "status": "NEW_FACTUAL_FRAME_REPLACES_UNVERIFIED_COPY",
+          "bytes": 95952
+        },
+        {
+          "slot": 4,
+          "filename": "04-prior-original-byte-identical-QA.jpg",
+          "sha256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83",
+          "source": "04_v2530-real-MISSHA-cover-lasting-photo.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 213061
+        },
+        {
+          "slot": 5,
+          "filename": "05-prior-original-byte-identical-QA.jpg",
+          "sha256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587",
+          "source": "05_v2593_QA_ONLY_v2582.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 73479
+        }
+      ],
+      "retail_approval": "HOLD"
+    },
+    {
+      "family": "pending-14",
+      "five_frame_draft_exists": true,
+      "four_real_source_JPGs_unmodified": 4,
+      "new_factual_frame_slot": 5,
+      "unresolved": [
+        "Exact owned-stock version and shades",
+        "Source-photo redistribution rights",
+        "Current v2647 comparison",
+        "Final retail design review"
+      ],
+      "frames": [
+        {
+          "slot": 1,
+          "filename": "01-prior-original-byte-identical-QA.jpg",
+          "sha256": "fffc0ceb749877a95a0407b15725bd654ed1f65046c2ab6d6d263ae45b404c84",
+          "source": "01-v2537-actual-MISSHA-firming-repair-cream-vases.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 94808
+        },
+        {
+          "slot": 2,
+          "filename": "02-prior-original-byte-identical-QA.jpg",
+          "sha256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+          "source": "02_02_SOURCE_5c660ccf24ce_EN_V2421C.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 68977
+        },
+        {
+          "slot": 3,
+          "filename": "03-prior-original-byte-identical-QA.jpg",
+          "sha256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616",
+          "source": "03_03_SOURCE_7f391f26af48_EN_V2421C.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 56611
+        },
+        {
+          "slot": 4,
+          "filename": "04-prior-original-byte-identical-QA.jpg",
+          "sha256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f",
+          "source": "04_04_SOURCE_9d197a03300b_EN_V2421C.jpg",
+          "status": "EXISTING_JPG_PRESERVED_NO_REENCODE",
+          "bytes": 105145
+        },
+        {
+          "slot": 5,
+          "filename": "05-factual-detail-new-QA.jpg",
+          "sha256": "f8aab7d2504157f3f6315cfcafbf2fde63726151d775781502a7a77255aa87e0",
+          "status": "NEW_FACTUAL_FRAME_REPLACES_UNVERIFIED_COPY",
+          "bytes": 83379
+        }
+      ],
+      "retail_approval": "HOLD"
+    }
+  ]
+}
