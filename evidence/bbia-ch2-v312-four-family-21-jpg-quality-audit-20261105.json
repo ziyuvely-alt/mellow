@@ -1,0 +1,49 @@
+{
+  "checkpoint": "v312",
+  "date": "2026-11-05",
+  "parent": "v311",
+  "execution": {
+    "source_archives": [
+      "v304 concealer ZIP",
+      "v305 lip oil ZIP",
+      "v310 matte cushion ZIP",
+      "v311 Lucky Shine ZIP"
+    ],
+    "actual_jpg_read_and_verified": 21,
+    "families": 4,
+    "unique_binary_sha256": 21,
+    "all_square_1080x1080_and_under2mb": true,
+    "all_zip_crc_pass": true,
+    "output_contact": "/mnt/data/bbia_v312/BBIA_v312_FOUR_FAMILY_21_JPG_QA_CONTACT.jpg",
+    "full_machine_readable_report": "/mnt/data/bbia_v312/BBIA_v312_QA_REPORT.json"
+  },
+  "visual_findings": [
+    {
+      "goodsNo": "1000000178",
+      "issue": "Existing v233 matte cushion hero title reads OH MATTE CUSHION. Correct source/master English nomenclature EAU MATTE CUSHION",
+      "status": "FAIL_EN_TITLE_NEEDS_CORRECTION"
+    },
+    {
+      "goodsNo": "1000000239",
+      "issue": "Five creative roles but six JPG pages because official lip shade guide spans two pages",
+      "status": "CANDIDATE_NOT_SALES_APPROVED"
+    },
+    {
+      "goodsNo": "1000000125",
+      "issue": "Five source-supported role candidate photographs, embedded background rectangles visible",
+      "status": "CUTOUT_QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000223",
+      "issue": "Five source-supported role candidate photographs; option-image matching and final cutout pending",
+      "status": "CUTOUT_AND_OPTION_QA_PENDING"
+    }
+  ],
+  "releases_approved": 0,
+  "preservation": {
+    "published_jpg_changed": false,
+    "verified_public_55_urls_changed": false,
+    "final_excel_shared": false
+  },
+  "next": "Correct only the wrong EN title in a new candidate, not in existing v310 bytes; never repeat other 20 checks."
+}
