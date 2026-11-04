@@ -1,0 +1,45 @@
+{
+  "version": "v2628",
+  "date": "2026-11-04",
+  "source_checkpoint": "v2627",
+  "source_archive": "Shopee_v2627_156JPG_MISSHA_PDRN_two_verified_product_details_QA_ONLY.zip",
+  "current_zip": "/mnt/data/Shopee_v2628_156JPG_GOODAL_eyecream_ingredient_card_copy_QA_ONLY.zip",
+  "comparison": "/mnt/data/v2628_goodal_eyecream_copy_QA/before-after-goodal-niacinamide.jpg",
+  "product_families": 30,
+  "total_jpg": 156,
+  "changed_jpg": 1,
+  "other_155_sha256_identical": true,
+  "changed_family": "pending-21",
+  "changed_slot": 2,
+  "product": "Goodal Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+  "previous_copy": "Included in product INCI / Ingredient information",
+  "new_copy": "GREEN TANGERINE VITA C / EYE CREAM | 30 mL",
+  "ingredient_title_preserved": "NIACINAMIDE",
+  "ingredient_verified_source": "https://us.oliveyoung.com/products/UA96443780",
+  "old_sha256": "cfcdbdc8bc8c038cc6c13f4c07906d8f687364d950453dd5b8c9779337f137fe",
+  "new_sha256": "245adeea61d14e36fe2698dd305117e80c76f88717941bb4534ce13a915baaf3",
+  "top_photo_area_mae_0_255": 0.0457,
+  "quality_checks": {
+    "dimensions": "1080x1080",
+    "file_size_under_2mb": true,
+    "number_of_different_image_hashes": 1
+  },
+  "unchanged_confirmed": {
+    "goodal_mist_how_to_use_shake_well": true,
+    "reason": "Two-layer formula and shake instructions independently documented by seller",
+    "reference": "https://www.yesstyle.com/en/goodal-green-tangerine-vita-c-serum-mist-100ml/info.html/pid.1136600635"
+  },
+  "preserved": {
+    "approved_11_product_families_unchanged": true,
+    "existing_55_public_urls_modified": 0,
+    "previous_zip_not_overwritten": true,
+    "xlsx_or_spreadsheet_generated_or_shared": false
+  },
+  "pending": {
+    "commercial_photo_usage_rights": false,
+    "physical_owned_stock_edition": false,
+    "original_MK_logo": false,
+    "final_human_sales_approval": false
+  },
+  "next": "Use v2628 QA ZIP, do not re-render pending21 slot02 or preexisting 155 JPEGs. Prioritize genuine photo licensing, exact owned stock package, original MK logo; isolate additional confirmed visual errors, do not publish pending 30 families."
+}
