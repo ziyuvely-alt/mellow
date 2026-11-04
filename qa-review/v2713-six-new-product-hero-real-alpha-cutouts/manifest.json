@@ -1,0 +1,163 @@
+{
+  "version": "v2713",
+  "baseline": "v2712",
+  "candidates": [
+    {
+      "family": "pending-16",
+      "brand": "Dr.G",
+      "product": "R.E.D Blemish Soothing Cream 70mL",
+      "source_JPG": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-16/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "a68f9b0956a1edf56a0e0af100323d8f5868672c645cff4052b8b2b35a4f16ad",
+      "original_source_crop": [
+        180,
+        183,
+        920,
+        956
+      ],
+      "model": "isnet-general-use",
+      "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+      "mask_alpha_coverage": 0.5348,
+      "mask_bbox": [
+        79,
+        95,
+        639,
+        675
+      ],
+      "transparent_PNG": "pending-16/01-truly-transparent-product-QA.png",
+      "JPG": "pending-16/01-product-only-1080white-hero-QA.jpg",
+      "JPG_sha256": "dd374607261d8d6ba4918d56bdee9ff923d0d0d024ee716e564bee73c383fcaa",
+      "bytes": 107785
+    },
+    {
+      "family": "pending-24",
+      "brand": "BIOHEAL BOH",
+      "product": "NAD Glow Power Serum 30mL",
+      "source_JPG": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "5a8626eb9583f0ced9a09dbede3ac08d6fb450e8a9c573b82fc41ba70e609be4",
+      "original_source_crop": [
+        200,
+        182,
+        890,
+        959
+      ],
+      "model": "isnet-general-use",
+      "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+      "mask_alpha_coverage": 0.1528,
+      "mask_bbox": [
+        256,
+        107,
+        427,
+        746
+      ],
+      "transparent_PNG": "pending-24/01-truly-transparent-product-QA.png",
+      "JPG": "pending-24/01-product-only-1080white-hero-QA.jpg",
+      "JPG_sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+      "bytes": 107768
+    },
+    {
+      "family": "pending-27",
+      "brand": "PIXEL PURE",
+      "product": "Soothing Ampoule Toner 200mL",
+      "source_JPG": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "c04468ff58651298f0244f0bba9b14381840591354c201e898ff387a55ff4ee2",
+      "original_source_crop": [
+        210,
+        185,
+        883,
+        950
+      ],
+      "model": "isnet-general-use",
+      "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+      "mask_alpha_coverage": 0.2423,
+      "mask_bbox": [
+        130,
+        96,
+        526,
+        765
+      ],
+      "transparent_PNG": "pending-27/01-truly-transparent-product-QA.png",
+      "JPG": "pending-27/01-product-only-1080white-hero-QA.jpg",
+      "JPG_sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+      "bytes": 69734
+    },
+    {
+      "family": "pending-28",
+      "brand": "PIXEL PURE",
+      "product": "Glow Cleansing Serum Pads 70ea",
+      "source_JPG": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "6d891af057125a0e3842e301b145e259cc940f62b2565770a8a7479cb2041186",
+      "original_source_crop": [
+        190,
+        182,
+        894,
+        953
+      ],
+      "model": "isnet-general-use",
+      "status": "HOLD_MASK_OR_SOURCE_FAILED",
+      "error_type": "AssertionError",
+      "error": "('pending-28', 0.009095699209998821, (175, 419, 298, 549))"
+    },
+    {
+      "family": "pending-29",
+      "brand": "PIXEL PURE",
+      "product": "Radiance Aqua Soothing Cream 50mL",
+      "source_JPG": "qa-review/v2706-six-archival-five-real-source-families/pending-29/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "70399a8937cfd2830a55e664b0b64cc9d3e80d2e49b1aa88db7f5f8ebc688854",
+      "original_source_crop": [
+        190,
+        180,
+        902,
+        951
+      ],
+      "model": "isnet-general-use",
+      "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+      "mask_alpha_coverage": 0.6965,
+      "mask_bbox": [
+        11,
+        113,
+        692,
+        737
+      ],
+      "transparent_PNG": "pending-29/01-truly-transparent-product-QA.png",
+      "JPG": "pending-29/01-product-only-1080white-hero-QA.jpg",
+      "JPG_sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+      "bytes": 113161
+    },
+    {
+      "family": "pending-30",
+      "brand": "PIXEL PURE",
+      "product": "Aura Radiance Serum 50mL",
+      "source_JPG": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "a2a1622ea795cf2c898e609e14a3837978fc871d8d545cae3e12d72d40f4a1e7",
+      "original_source_crop": [
+        212,
+        180,
+        884,
+        960
+      ],
+      "model": "isnet-general-use",
+      "status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+      "mask_alpha_coverage": 0.2438,
+      "mask_bbox": [
+        205,
+        108,
+        425,
+        770
+      ],
+      "transparent_PNG": "pending-30/01-truly-transparent-product-QA.png",
+      "JPG": "pending-30/01-product-only-1080white-hero-QA.jpg",
+      "JPG_sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+      "bytes": 67492
+    }
+  ],
+  "attempted_new_families": 6,
+  "actual_alpha_png_and_jpg_pairs": 5,
+  "approved_for_sale": 0,
+  "exact_owned_stock_edition_verified": false,
+  "photos_reuse_rights_verified": false,
+  "MK_original_logo_verified": false,
+  "existing_11_published_families_mutated": false,
+  "existing_55_public_urls_changed": false,
+  "existing_80_original_JPGs_reencoded": 0,
+  "final_excel_shared": false
+}
