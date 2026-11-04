@@ -1,0 +1,22 @@
+{
+  "checkpoint": "v211b",
+  "date": "2026-11-04",
+  "prior": "v211 per-JPG SHA and manifest mapping; 130 ambiguous occurrences among 288 JPG occurrences",
+  "actual_result": {
+    "additional_linked_occurrences": 90,
+    "remaining_unmapped_occurrences": 40,
+    "total_linked_occurrences": 248,
+    "all_archived_occurrences": 288,
+    "all_distinct_sha": 212
+  },
+  "method": "Second additive pass only maps filename-embedded exact goodsNo tokens and unambiguous explicit family aliases against archived PLAN.json. Does not infer SHA-only ambiguities as commercial approval. Does not touch earlier v211 output.",
+  "artifacts": [
+    "BBIA_v211b_ADDITIONAL_GOODSNO_LINKAGE_ONLY.zip",
+    "BBIA_v211b_ADDITIVE_FILENAME_LINKAGE.json",
+    "v211b_add_filename_identity.py"
+  ],
+  "qa_and_limit": "Exact filename association still requires visual package, shade and latest official source QA. 40 remaining entries preserved, not marked missing. No new JPEG produced and no final sale approval claimed.",
+  "safeguards": "v147-v211 old JPEGs, 55 public URLs, product SKU links and source archives preserved. GitHub branch bbia-ch2-qa-20261104 only; main unchanged.",
+  "next": "Examine remaining 40 archive/photo occurrences and official 48-family master. Use product-verified photos before filling missing scenes; avoid speculative images. Continue only with distinct source-authenticated scene production.",
+  "excel_shared": false
+}
