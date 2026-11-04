@@ -1,0 +1,29 @@
+name: Shopee v2789 two fiveframe genuine GOODAL CLIO photo QA sets
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2789-two-fiveframe-goodal-clio-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python -m pip install Pillow
+      - name: Preserve 4 validated GOODAL photos, switch 5th; produce CLIO five true photo scenes with no unknown MK badge
+        run: |
+          cp scripts/v2789_goodal_clio_five_real_photo_QA.py /tmp/v2789.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2789-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2789-qa
+          python /tmp/v2789.py
+          git add qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2789 create two 5-JPG product photo QA groups without false MK logo, no public images changed'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
