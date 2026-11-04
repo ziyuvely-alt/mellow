@@ -1,0 +1,84 @@
+{
+  "version": "v2771",
+  "date": "2026-11-05",
+  "baseline": "v2770",
+  "product_family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream",
+  "capacity": "30mL",
+  "actual_25AD_public_listing_verified": true,
+  "release_state": "PHOTOGRAPHIC_CUTOUT_QA_PASSED_STOCK_LICENSE_HOLD",
+  "validated_external_product_references": [
+    {
+      "provider": "Shilla Internet Duty Free",
+      "url": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+      "source_type": "Korean retailer product technical listing",
+      "reference_product": "구청귤비타C아이크림 (25AD)",
+      "merchant_SKU": "669210000423",
+      "listed_capacity": "30ml",
+      "limited_finding": "25AD is listed as a 30ml eye cream. Merchant SKU is retailer reference only, not proof of user's owned lot or rights."
+    },
+    {
+      "provider": "Kurly",
+      "url": "https://www.kurly.com/goods/1001465618",
+      "source_type": "Korean retailer product technical listing",
+      "product_title": "[구달] NEW 청귤비타C 잡티케어 아이크림 30ml",
+      "listed_capacity": "30ml",
+      "manufacturer": "COSMAX",
+      "responsible_seller": "CLIO",
+      "limited_finding": "Confirms current catalog 30mL eye cream. Does NOT independently identify photographed 25AD edition or owned inventory."
+    },
+    {
+      "provider": "Olive Young US",
+      "url": "https://us.oliveyoung.com/products/UA96443780",
+      "source_type": "International retailer product technical listing",
+      "product_title": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 1.01 fl. oz.(30ml)",
+      "listed_capacity": "30ml",
+      "manufacturer": "COSMAX",
+      "limited_finding": "Supports product identity and English item name; no license to redistribute retailer photos."
+    },
+    {
+      "provider": "SSG",
+      "url": "https://m.ssg.com/item/itemView.ssg?itemId=1000567091794",
+      "source_type": "Korean retailer gift bundle product listing",
+      "product_title": "구달 아이크림 25AD + 아이패치25AD (증정)구달 청귤비타C듀오샤셰",
+      "product_item_capacity": "30ml",
+      "separate_gift": "eye patch 60 sheets",
+      "sales_guard": "Do not display patches, promotional sachets or gift bundle contents as part of a single 30ml item"
+    }
+  ],
+  "actual_photo_based_cutout": {
+    "source": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/goodal-eyecream-30ml-single-original-independent-source.png",
+    "transparent_png": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/pending-21/01-genuine-single-30mL-tube-transparent-QA.png",
+    "square_1080_JPG": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/pending-21/01-true-alpha-single-eyecream-1080-QA.jpg",
+    "pixel_integrity_evidence": "qa-review/v2770-goodal-single-tube-native-source-alpha-validation/manifest.json",
+    "origin_source_rgb_vs_alpha_foreground_RGB_exact_match": true,
+    "maximum_foreground_rgb_difference": 0,
+    "photographic_product_edges_checked": true,
+    "silver_cap_intact": true,
+    "user_owned_stock_25AD_generation_exact_match": false,
+    "merchant_image_redistribution_rights_verified": false,
+    "new_MK_logo_fabricated": false
+  },
+  "condition_for_sales_release": [
+    "Compare physical owned 30mL stock tube/cap and package edition with reference image; seller's 25AD public listing is not sufficient proof of user's inventory",
+    "Confirm commercial reuse permission for actual photo, or obtain authorized self-taken source",
+    "Use original user-approved round MK bitmap, not synthesized logo",
+    "Assemble five distinct verified product photographs/informational frames and QA all sizes",
+    "Then issue new versioned public URLs without altering 55 existing approved links"
+  ],
+  "final_current_status": {
+    "alpha_hero_frame": "NATIVE_RGB_AND_EDGE_QA_PASSED",
+    "external_30ml_product_spec": "VERIFIED",
+    "public_25AD_30ml_catalog_identity": "VERIFIED",
+    "actual_owned_inventory_25AD_edition": "HOLD_NOT_EVIDENCED",
+    "commercial_image_rights": "HOLD_NOT_EVIDENCED",
+    "five_distinct_selling_frames_complete": false,
+    "new_retail_sale_approved": 0,
+    "public_URLs_published": 0,
+    "original_11_approved_families_untouched": true,
+    "original_55_URLs_untouched": true,
+    "previous_source_photos_unchanged": true,
+    "final_excel_or_spreadsheet_shared": false
+  },
+  "next_step": "Do not repeat GOODAL eyecream cutout (v2769 and v2770). Move on to unmet verified five-frame options and inventory rights; skip blocked group."
+}
