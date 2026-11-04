@@ -1,0 +1,32 @@
+name: Shopee v2766 exact MISSHA Cover Lasting shade21 shade23 separation
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2766-missha-coverlasting-option-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Copy only exact source-byte original photos by shade, quarantine mixed guide
+        run: |
+          cp scripts/v2766_missha_coverlasting_separate_shade_photos.py /tmp/v2766.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2766-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2766-qa
+          test ! -e qa-review/v2766-missha-coverlasting21-23-exact-shade-photo-QA
+          python /tmp/v2766.py
+          git add qa-review/v2766-missha-coverlasting21-23-exact-shade-photo-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2766 quarantine mixed 21/23 MISSHA cushion source, preserve 21 and 23 real photos by shade'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
