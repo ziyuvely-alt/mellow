@@ -1,0 +1,44 @@
+name: Shopee v2655 14 candidate cross SKU photographic identity audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2655_cross_sku_candidate_identity_audit.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Get immutable 156 historic source JPG references
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/historical
+      - name: Get existing v2651 one candidate only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41823617648 -n shopee-v2651-clio-pending05-actual-photo-detail-candidate-QA-no-XLSX -D source/v2651
+      - name: Get existing v2652 one candidate only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41823767454 -n shopee-v2652-two-clio-mesh-conditional-QA-no-XLSX -D source/v2652
+      - name: Get existing v2653 twelve candidates only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41824399357 -n shopee-v2653-27-family-no-repeat-visual-qa-no-XLSX -D source/v2653
+      - name: Run cross-family image similarity check without regenerating
+        run: python scripts/v2655_cross_sku_candidate_identity_audit.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2655-14candidate-crossSKU-identify-QA-only-no-XLSX
+          path: v2655-cross-sku-photo-identity-audit/
+          retention-days: 90
+          if-no-files-found: error
