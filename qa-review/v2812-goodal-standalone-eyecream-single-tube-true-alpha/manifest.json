@@ -1,0 +1,41 @@
+{
+  "version": "v2812",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+  "source": "qa-review/v2811-goodal-25AD-single-30mL-three-real-source-photos/03-30mL-single-listing-scene-REVIEW-ONLY.jpg",
+  "source_sha256": "039a6894297e23349cb06fe2db0a1df29fafd48d60465c0cf26545c397e71bfc",
+  "source_crop": [
+    85,
+    20,
+    995,
+    1065
+  ],
+  "model": "isnet-general-use",
+  "alpha_matting": true,
+  "coverage": 0.2057,
+  "bbox": [
+    353,
+    44,
+    569,
+    1003
+  ],
+  "foreground_main_component_ratio": 1.0,
+  "geometry_gate_pass": true,
+  "status": "TRUE_ALPHA_PHYSICALLY_SAVED_VISUAL_QA_PENDING",
+  "source_is_photograph_of_one_real_product": true,
+  "stock_25AD_package_generation_verified": false,
+  "source_photo_selling_rights_verified": false,
+  "real_retail_approval": false,
+  "png_file": "01-real-transparent-single-30mL-bottle-QA.png",
+  "jpg_file": "01-real-single-30mL-hero-1080-QA.jpg",
+  "png_sha256": "b69602a43c269ff0d67958a234379a851e432eb466e4950b7daf5a854cd2ca82",
+  "jpg_sha256": "a7e18b973a9adceb86d485f253ec7c5b18b75f2a983753797c1686390028f704",
+  "jpg_bytes": 71135,
+  "previous_30mlx2_official_bundle_not_reused": true,
+  "old_bad_clipped_photo_reused": false,
+  "previous_v2811_source_preserved_sha": true,
+  "existing_11_sale_approved_families_untouched": true,
+  "published_55_verified_URLs_untouched": true,
+  "no_fake_MK_logo_generated": true,
+  "final_excel_shared": false
+}
