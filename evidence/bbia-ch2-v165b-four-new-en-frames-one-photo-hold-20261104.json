@@ -1,0 +1,45 @@
+{
+  "schema": "bbia_ch2_v165b_incremental_production",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v164 Never Die Mascara Slim 4 shade photo JPEG candidates",
+  "produced_this_turn": {
+    "jpg_total": 4,
+    "active_qa_pending": 3,
+    "held_due_to_photo_duplication": 1,
+    "technical_jpeg_valid": 4,
+    "zip_crc_pass": true
+  },
+  "families": [
+    {
+      "name": "BBIA Eau Glow Cushion Mini",
+      "new_en_jpg": 2,
+      "output": "BBIA_v165_EAU_GLOW_MINI_2_EN_QA_PENDING.zip",
+      "preview": "BBIA_v165_EAU_GLOW_MINI_2_SCENE_CONTACT.jpg",
+      "facts_official": "4g, 17 Fair/21 Light/23 Natural",
+      "official_url": "https://www.bbia.vn/san-pham/bbia-eau-glow-cushion-mini-17-fair/",
+      "status": "2 QA_PENDING",
+      "risk": "Before/after campaign photo proves Eau Glow cushion family context only, not specific mini package; photo and shade original source not independently authenticated."
+    },
+    {
+      "name": "BBIA Glow Tint Mini",
+      "new_en_jpg": 2,
+      "active_jpg": 1,
+      "held_jpg": 1,
+      "output": "BBIA_v165b_GLOW_TINT_MINI_1_ACTIVE_1_SHADE_HOLD.zip",
+      "preview": "BBIA_v165_GLOW_TINT_MINI_TWO_ADDON_CONTACT.jpg",
+      "option_retailer_url": "https://www.shilladfs.com/estore/kr/en/p/6031137",
+      "status": "One QA_PENDING 03 Mauve, one HOLD_DO_NOT_PUBLISH three-shade photo compare",
+      "risk": "Three shade references display too-similar photographed lip shape; not legitimate shade-specific proof. Avoid sales use without exact photo source evidence."
+    }
+  ],
+  "original_pixels": "Only from v147 archived 1080 JPEG composites; physical original sources not independently verified; source color and product packaging not generated.",
+  "safety": "Do not claim sales-ready or product exact official photo. No localization before EN approval.",
+  "existing_files_unchanged": [
+    "v147 recovered source 125 JPGs",
+    "v150-v164 rendered candidate outputs",
+    "previous holds and approvals",
+    "55 public URLs"
+  ],
+  "sales_approved": 0,
+  "next": "Do not redo any v165 output. Skip suspected recolored model/lips and use authenticated mini packaging photos for new families. Maintain separate HOLD classification for 3-shade chart; never publish it. Technical pass does not equal final visual sign-off."
+}
