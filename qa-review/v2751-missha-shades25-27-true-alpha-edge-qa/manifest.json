@@ -1,0 +1,67 @@
+{
+  "version": "v2751",
+  "baseline": "v2750",
+  "independent_shades_25_27_checked": 2,
+  "existing_PNG_JPG_files_regenerated_or_mutated": 0,
+  "all_technical_invariants_passed": true,
+  "1_to_1_edge_comparison_image_saved": true,
+  "real_retail_approvals": 0,
+  "original_MK_logo_approved": false,
+  "stock_edition_matched": false,
+  "photo_commercial_rights_verified": false,
+  "previous_11_approved_families_unchanged": true,
+  "previous_55_public_urls_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "variants": [
+    {
+      "shade": "25",
+      "official_variant_source": "qa-review/v2749-MISSHA-coverlasting-N25-N27-official-variant-source-proof/shade-25/01-real-variant-linked-25-source-reference-QA.jpg",
+      "selected_alpha_png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+      "selected_jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-product-1080-QA.jpg",
+      "source_sha256": "16742b957e6d786f3092cc1b74febb9d383f40d1aec1c7b2ec39c078bcb66a77",
+      "alpha_png_sha256": "4a23eb709f3dc15e4b649ca02e3b12afd288af9f204937aa6c4588c79c63242b",
+      "jpg_sha256": "50194575c8e7cc4de0a7b2e5926da8c1882efe285be1076d31802505c8a1bcfd",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "jpg_dimensions": [
+        1080,
+        1080
+      ],
+      "alpha_canvas_px": [
+        664,
+        676
+      ],
+      "alpha_opaque_coverage": 0.5496,
+      "alpha_transparent_fraction": 0.3944,
+      "retail_approved": false,
+      "conclusion": "QA_EDGE_PROOF_READY_HUMAN_1TO1_REVIEW_REQUIRED"
+    },
+    {
+      "shade": "27",
+      "official_variant_source": "qa-review/v2749-MISSHA-coverlasting-N25-N27-official-variant-source-proof/shade-27/01-real-variant-linked-27-source-reference-QA.jpg",
+      "selected_alpha_png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+      "selected_jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-product-1080-QA.jpg",
+      "source_sha256": "6a9114e23ba1f3e32c30c1a4254d0e0fe36cf0a0d33d69d55eacdf230726e051",
+      "alpha_png_sha256": "730d090198e24e5872660abab54a4707097c6903d1ddb4708d4c7cf85641ba03",
+      "jpg_sha256": "a607a8af244c4ab45b1cd7ae44cbecb4f4a50a45cbc6ffa2cf0c3b2806b3f766",
+      "source_dimensions": [
+        1080,
+        1080
+      ],
+      "jpg_dimensions": [
+        1080,
+        1080
+      ],
+      "alpha_canvas_px": [
+        665,
+        674
+      ],
+      "alpha_opaque_coverage": 0.5592,
+      "alpha_transparent_fraction": 0.3856,
+      "retail_approved": false,
+      "conclusion": "QA_EDGE_PROOF_READY_HUMAN_1TO1_REVIEW_REQUIRED"
+    }
+  ]
+}
