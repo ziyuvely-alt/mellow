@@ -1,0 +1,91 @@
+{
+  "checkpoint": "v294",
+  "date": "2026-11-05",
+  "parent": "v293",
+  "source_execution": {
+    "run_id": 41860905719,
+    "artifact_id": 13339323061,
+    "source_requested": 8,
+    "source_saved": 8,
+    "source_families": [
+      "1000000125",
+      "1000000216",
+      "1000000239",
+      "1000000223"
+    ]
+  },
+  "production": {
+    "new_jpg_count": 3,
+    "method": "local crop/composite of already-archived official original image bytes, no re-download",
+    "contact": "/mnt/data/bbia_v294/BBIA_v294_THREE_DISTINCT_PHOTO_ROLES_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v294/BBIA_v294_THREE_QA_PENDING_JPG.zip",
+    "zip_sha256": "69d362b9af520c772b41742043ee564f0b1330396f5422feab48ad4fa03a7798",
+    "zip_crc": "PASS",
+    "originals_unchanged": true,
+    "files": [
+      {
+        "goodsNo": "1000000125",
+        "file": "BBIA_1000000125_DISTINCT_DETAIL_v294_QA_PENDING.jpg",
+        "role": "AUTHENTIC_CONCEALER_BOTTLE_APPLICATOR_PRODUCT",
+        "crop": [
+          0,
+          530,
+          1000,
+          1200
+        ],
+        "bytes": 80834,
+        "sha256": "3c345eb5182809a793fe994d16b157fbf024cd55e5ec0767e3f8efcf7b3ee167"
+      },
+      {
+        "goodsNo": "1000000216",
+        "file": "BBIA_1000000216_DISTINCT_DETAIL_v294_QA_PENDING.jpg",
+        "role": "AUTHENTIC_MODEL_HOLDING_EYELINER",
+        "crop": [
+          0,
+          830,
+          1000,
+          1655
+        ],
+        "bytes": 219842,
+        "sha256": "cf048236ff3ff2a52a424ec47e2e9dc44eb9fc2a7acf032ee577f8a14f348855"
+      },
+      {
+        "goodsNo": "1000000223",
+        "file": "BBIA_1000000223_DISTINCT_DETAIL_v294_QA_PENDING.jpg",
+        "role": "ORIGINAL_OIL_DROP_AND_TUBE_DETAIL",
+        "crop": [
+          0,
+          820,
+          1000,
+          1620
+        ],
+        "bytes": 117612,
+        "sha256": "e5cfb572e99b6338386a84ea878fbd4433b48d61b69d6b92cbc8ec933c127658"
+      }
+    ]
+  },
+  "visual_QA": {
+    "contact_opened": true,
+    "all_jpg_1080x1080_under_2mb": true,
+    "embedded_korean_in_photo": false,
+    "all_distinct_roles": true,
+    "original_photo_rectangle_visible": true,
+    "source_option_shade_mapping_pending": true,
+    "sales_approved": 0
+  },
+  "hold": {
+    "goodsNo": "1000000239",
+    "source_indices": [
+      2,
+      3
+    ],
+    "reason": "Additional original color charts mostly duplicate already retained lip/packshot roles and show shade-linked text. No new product JPG from these two sources."
+  },
+  "preservation": {
+    "public_files_changed": false,
+    "verified_55_urls_changed": false,
+    "v292_accepted_assets_untouched": true,
+    "final_excel_shared": false
+  },
+  "next": "Exclude v294 completed goodsNo-source pairs from rerender. Continue other families' never-used details; keep true cutout and exact shade QA gated."
+}
