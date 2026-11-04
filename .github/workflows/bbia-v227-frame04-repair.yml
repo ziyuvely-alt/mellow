@@ -1,0 +1,30 @@
+name: BBIA v227 selective frame04 background repair
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v227_frame04_patch_repair.py
+      - .github/workflows/bbia-v227-frame04-repair.yml
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: bbia-v226-two-corrected-shade-caption-jpg-qa-pending
+          run-id: 41829196838
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/bbia-v226
+      - run: python -m pip install pillow==11.3.0 opencv-python-headless==4.12.0.88
+      - name: Repair only two frame04 label backgrounds
+        run: python scripts/bbia_v227_frame04_patch_repair.py --src /tmp/bbia-v226 --out /tmp/bbia-v227
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v227-frame04-smooth-background-qa-pending
+          path: /tmp/bbia-v227
+          retention-days: 30
