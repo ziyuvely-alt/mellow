@@ -1,0 +1,41 @@
+{
+  "version": "v2640",
+  "date": "2026-11-04",
+  "latest_zip": "/mnt/data/Shopee_v2640_156JPG_2_photo_hero_corrections_QA_ONLY.zip",
+  "source_version": "v2639",
+  "total_review_jpg": 156,
+  "actually_modified": 2,
+  "unchanged_SHA256": 154,
+  "changes": [
+    {
+      "family": "pending-07",
+      "slot": 1,
+      "product": "CLIO Kill Cover Mesh Blur Cushion 15g",
+      "existing_real_photo_reused": "pending-07 slot03",
+      "previous": "Text-only product info card",
+      "new": "Genuine lavender CLIO cushion photo-first 15g hero with small title in photo empty area",
+      "sha256": "dd90880e461397d5fe9487650227ca163233d0bb96a95a72d31fa0216967dcaf",
+      "before_after": "/mnt/data/v2640_product_hero_156_QA/pending-07_before_after.jpg"
+    },
+    {
+      "family": "pending-09",
+      "slot": 1,
+      "product": "OBgE Oil Control Finisher 5g",
+      "existing_real_photo_reused": "pending-09 slot02",
+      "previous": "Text-only net content 5g card",
+      "new": "Genuine OBgE compact and puff photo-first hero with 5g title in white empty area",
+      "sha256": "11b4a1089870aacda02a63a4d4c276aad3ac6137f6cdc7dc0c31b8e2ac5b1436",
+      "before_after": "/mnt/data/v2640_product_hero_156_QA/pending-09_before_after.jpg"
+    }
+  ],
+  "zip_integrity_checked": true,
+  "all_156_actual_images_1080_square_and_under_2MB": true,
+  "legacy_11_approved_families_untouched": true,
+  "existing_55_public_urls_untouched": true,
+  "spreadsheet_not_created_or_shared": true,
+  "commercial_photo_usage_permission_verified": false,
+  "physical_stock_edition_verified": false,
+  "authentic_original_MK_logo_available": false,
+  "human_sales_QA_completed": false,
+  "next": "Resume from v2640 ZIP, do not re-edit pending07 or pending09 slot01. Prioritize commercial photo rights, real stock package authenticity and original MK binary; do not publish or share final spreadsheet."
+}
