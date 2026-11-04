@@ -1,0 +1,79 @@
+{
+  "version": "v2778",
+  "date": "2026-11-05",
+  "family": "pending-13",
+  "product": "MISSHA Camellia PDRN + NAD+ Firming Repair Serum 30mL",
+  "previous_failure": "Prior alpha attempt selected a text-only information image, not an individual serum source",
+  "correction": "Use archived 30mL Korean official product gallery source04 as hero and source03 as actual open dropper, with other documented same-product references",
+  "actual_5_photo_source_reference_JPGs_saved": 5,
+  "new_png_alpha_cutouts_saved": 0,
+  "standalone_original_hero_exists": true,
+  "source_04_is_NOT_alpha_cutout": true,
+  "previous_successful_source_gallery": "qa-review/v2696-missha-serum-official-gallery-proof",
+  "exact_owned_inventory_variant_checked": false,
+  "source_photo_or_model_commercial_permission_verified": false,
+  "original_MK_logo_verified": false,
+  "published_URLs_new": 0,
+  "retail_approved": false,
+  "previous_11_approved_product_families_safe": true,
+  "previous_55_URLs_safe": true,
+  "final_excel_shared": false,
+  "QA_flags": [
+    "Model image needs usage rights",
+    "Ingredient/claims reference requires content validation",
+    "Current 01 is full photographic scene with ingredient decoration, not true background removed product",
+    "Check exact 30mL label and delivery set before publish"
+  ],
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/01-original-single-30mL-serum-product-gallery-QA.jpg",
+      "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+      "sha": "03d1dafe1201692cece8f3ff0338ce190ae1949b",
+      "bytes": 70303,
+      "role": "Original correct MISSHA 30mL serum upright single bottle with decorative ingredient graphic; NOT a transparent alpha cutout",
+      "exact_original_file_bytes": true,
+      "release": "HOLD"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/02-actual-dropper-and-open-serum-QA.jpg",
+      "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-03-REVIEW-ONLY.jpg",
+      "sha": "b4861f5f325408697204705375f7b5d0ef5c5443",
+      "bytes": 117709,
+      "role": "Same 30mL serum open bottle and visible dropper",
+      "exact_original_file_bytes": true,
+      "release": "HOLD"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/03-model-holding-single-serum-QA.jpg",
+      "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-06-REVIEW-ONLY.jpg",
+      "sha": "b0423c602bf269768b8dd436d8b8dbc76ee03e9b",
+      "bytes": 87486,
+      "role": "Same product held in hand, human model/photo rights not yet verified",
+      "exact_original_file_bytes": true,
+      "release": "HOLD"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/04-product-dropper-NAD-fact-REFERENCE.jpg",
+      "source": "qa-review/v2696-missha-serum-official-gallery-proof/source-12-REVIEW-ONLY.jpg",
+      "sha": "92195fe2f199525f9338de82efb7aa4a86941bb7",
+      "bytes": 109789,
+      "role": "Single serum/dropper macro plus NAD topic panel; claims remain unverified",
+      "exact_original_file_bytes": true,
+      "release": "HOLD"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/05-30mL-net-content-information-QA.jpg",
+      "source": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/05-net-content-factual-only-QA.jpg",
+      "sha": "1d5241133bb52d33a795479891331c2c17808a77",
+      "bytes": 81792,
+      "role": "Existing 30mL factual net-content information card (not a product photo)",
+      "exact_original_file_bytes": true,
+      "release": "HOLD"
+    }
+  ]
+}
