@@ -1,0 +1,39 @@
+{
+  "version": "v2748",
+  "baseline": "v2747",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "photo_label": "N21 carton in original photographic artwork",
+  "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/01-prior-original-byte-identical-QA.jpg",
+  "source_sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+  "actual_photo_N23_from_v2747_reused": false,
+  "selected_circle": [
+    768,
+    697,
+    261
+  ],
+  "method": "hough_circle_on_actual_source",
+  "hough_candidates": [
+    [
+      1.593,
+      768,
+      697,
+      261
+    ]
+  ],
+  "source_alpha_png": "01-missha-N21-actual-compact-transparent-QA.png",
+  "1080_jpg": "01-missha-N21-real-compact-1080-QA.jpg",
+  "png_sha256": "f3393f4b03398ff7b7e6768a26016df4b26df3bfbed0c60bd61309f1a59fa152",
+  "jpg_sha256": "24b79648ffa6dde183692a63fb1b13494e4185eb4632da15526042cc8f5570bc",
+  "jpg_bytes": 55080,
+  "N21_exact_user_stock_option_eligible": "UNVERIFIED_HISTORICAL_OPTION_CONFLICT",
+  "use_for_shade23_25_27": false,
+  "display_product_swatch_simulation": false,
+  "photo_redistribution_rights_verified": false,
+  "actual_original_MK_logo_verified": false,
+  "new_retail_approvals": 0,
+  "published_55_urls_untouched": true,
+  "eleven_approved_product_families_unchanged": true,
+  "final_xlsx_shared": false,
+  "visual_QA": "NOT_YET_REVIEWED"
+}
