@@ -1,0 +1,39 @@
+{
+  "schema": "bbia_ch2_v175_checkpoint_resumption",
+  "date": "2026-11-04",
+  "new_jpg_count": 15,
+  "qa_pending_jpg_count": 7,
+  "hold_jpg_count": 8,
+  "families": [
+    {
+      "goodsNo": "1000000223",
+      "product": "Lip Oil Essence",
+      "new": 5,
+      "qa_pending": 2,
+      "hold": 3
+    },
+    {
+      "goodsNo": "1000000209",
+      "product": "Ready To Wear Eye Palette Mini",
+      "new": 5,
+      "qa_pending": 2,
+      "hold": 3
+    },
+    {
+      "goodsNo": "1000000074",
+      "product": "Ready To Wear Water Lipstick",
+      "new": 5,
+      "qa_pending": 3,
+      "hold": 2
+    }
+  ],
+  "output_archives": [
+    "BBIA_v174b_4_ACTIVE_6_SOURCE_HOLD_QA_PENDING.zip",
+    "BBIA_v175_WATER_LIPSTICK_3_QA_2_HOLD.zip"
+  ],
+  "technical": "previously created JPEGs and ZIP archives checked; v175 files exist in retained container session",
+  "photo_source_approval": "PENDING",
+  "sales_approved": 0,
+  "no_originals_modified": true,
+  "next": "Never regenerate these 15 scenes without new source proof. Preserve 8 holds."
+}
