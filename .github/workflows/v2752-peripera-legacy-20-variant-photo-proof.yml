@@ -1,0 +1,32 @@
+name: Shopee v2752 original Peripera 01-20 independently linked old-edition images QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2752-peripera-legacy-20-variant-photo-proof.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  research:
+    runs-on: ubuntu-latest
+    timeout-minutes: 17
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Collect only explicitly variant-linked old Peripera 01-20 photos, no invented swatches
+        run: |
+          python scripts/v2752_peripera_legacy_variant_photos.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2752-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2752-qa/qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence
+          cp -a qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence /tmp/v2752-qa/qa-review/
+          cd /tmp/v2752-qa
+          git add qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2752 exact legacy Peripera 01-20 variant-linked merchant image source QA, exclude 26AD'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
