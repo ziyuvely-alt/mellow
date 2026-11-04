@@ -1,0 +1,72 @@
+{
+  "checkpoint": "v253",
+  "date": "2026-11-04",
+  "parent": "v252",
+  "branch": "bbia-ch2-qa-20261104",
+  "confirmed_executions": {
+    "v249": {
+      "run_id": 41838409011,
+      "artifact_id": 13326853340,
+      "created": 3,
+      "visual_review_result": "HOLD: promotional decoration and Korean labels or cropped lower product row"
+    },
+    "v251": {
+      "run_id": 41838997079,
+      "artifact_id": 13328255204,
+      "source_families": 5,
+      "sources_requested": 10,
+      "sources_verified": 10
+    },
+    "v252": {
+      "run_id": 41839260152,
+      "artifact_id": 13327748875,
+      "actual_new_jpg": 5,
+      "technical_qa": "1080x1080 JPG under 2MB all five",
+      "visual_qa": "Five real product detail photographs; no Korean embedded or review screenshot in sampled contact; still no true alpha cutout or variant-level final sale QA"
+    }
+  },
+  "v252_families": [
+    {
+      "goodsNo": "1000000185",
+      "role": "black cushion puff macro detail",
+      "status": "RETAIN_DETAIL_QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000126",
+      "role": "white cushion puff detail",
+      "status": "RETAIN_DETAIL_QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000200",
+      "role": "powder pact puff group",
+      "status": "RETAIN_DETAIL_QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000127",
+      "role": "finger puff detail",
+      "status": "RETAIN_DETAIL_QA_PENDING"
+    },
+    {
+      "goodsNo": "1000000142",
+      "role": "perfect brush bristle detail",
+      "status": "RETAIN_DETAIL_QA_PENDING"
+    }
+  ],
+  "limitations": [
+    "Each newly produced JPG is only one distinct detail-role candidate, not a complete 5-role product family",
+    "Photo rectangular region remains; no segmentation or alpha proof",
+    "Official current item/variant package identity not fully re-approved"
+  ],
+  "preservation": {
+    "previous_approved_public_files_modified": false,
+    "previous_55_verified_urls_modified": false,
+    "v234_existing_13_images_modified": false,
+    "final_excel_shared": false,
+    "new_sales_approved": 0
+  },
+  "next": [
+    "Reuse v252 artifact ID 13327748875 and its original five JPG, never regenerate identical cutouts",
+    "Review new unused 238, 234, 173, 228 source strips in a batch before authoring new photo scenes; avoid Korean promo crop regions",
+    "Index new five families into product family QA ledger and calculate actual chosen distinct photo roles rather than byte counts"
+  ]
+}
