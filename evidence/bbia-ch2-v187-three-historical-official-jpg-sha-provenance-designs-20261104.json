@@ -1,0 +1,42 @@
+{
+  "schema": "bbia_ch2_v187_source_provenance_upgrade",
+  "date": "2026-11-04",
+  "previous": "v186 Last Auto Gel Eyeliner Slim 2 new EN images preserved unchanged",
+  "discovery": "Previously overlooked verified_sources/catalog/ directory in BBIA_Cutout_Progress_20261030.zip contains actual historical source JPGs and per-goodsNo source URL SHA256 ledgers, not merely already composed crops.",
+  "new_english_JPG_count": 3,
+  "images": [
+    {
+      "goodsNo": "1000000118",
+      "product": "BBIA Essential Eye Palette",
+      "source": "verified_sources/catalog/1000000118/00.jpg",
+      "source_sha256": "be1573856092f8946c6bca3a01ebb664597982aac1aa18f41119a2ba6d9e5529",
+      "role": "historical official-url image product portrait"
+    },
+    {
+      "goodsNo": "188",
+      "product": "BBIA Last Blush",
+      "source": "verified_sources/catalog/188/01.jpg",
+      "source_sha256": "d3632b80aeaac898f8ee6856e273991fcffcc8446f23b779a27e94d15d80680b",
+      "role": "historical official-url source compact photo"
+    },
+    {
+      "goodsNo": "1000000178",
+      "product": "BBIA Eau Matte Cushion full-size",
+      "source": "verified_sources/catalog/1000000178/00.jpg",
+      "source_sha256": "73a51f28b733afc32acc5c792824152ceb45c296c9d9d642221d7e9750566c44",
+      "role": "historical official-url product model portrait"
+    }
+  ],
+  "source_validation": "Read stored original JPG bytes and verified SHA256 match against archived ledger corresponding to official CDN image URL. Archived ledger visual QA remains PENDING, and current official webpage/image/purchased option identity are not verified. No source image pixels were synthetically recolored.",
+  "outputs": {
+    "zip": "BBIA_v187_3_ARCHIVED_OFFICIAL_SOURCE_EDITORIAL_EN_QA_PENDING.zip",
+    "preview": "BBIA_v187_THREE_HISTORICAL_OFFICIAL_PIXEL_PHOTOS_CONTACT.jpg",
+    "script": "v187_historical_official_photo_editorial.py",
+    "manifest": "QA/QA_MANIFEST_v187.json"
+  },
+  "technical": "3 new 1080x1080 JPEG under 2MB; zip CRC passed, saved individual SHA256",
+  "sales_approved": 0,
+  "translations": 0,
+  "previous_work_preserved": "v147 archived 125 JPG; v150-v186 candidate images and holds; all 55 public URLs and default main unchanged",
+  "next": "Do not recreate v187 JPGs; compare current official page product/photo/option identity with historic ledger source URLs, then consider selective replacement of previously weak source-provenance frames only after independent visual approval. Keep other unproven images QA_PENDING. No Excel before whole project done."
+}
