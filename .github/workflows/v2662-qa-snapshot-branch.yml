@@ -1,0 +1,39 @@
+name: Shopee v2662 preserve 14 QA candidates on separate non-publication branch
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2662_prepare_qa_snapshot.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  preserve-on-isolated-branch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Recover existing 14 JPEGs without regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41825277732 -n shopee-v2656-immutable-14-real-photo-QA-JPG-with-hash-manifest-no-XLSX -D source/v2656
+      - name: Build hash-verified QA package in a new path
+        run: python scripts/v2662_prepare_qa_snapshot.py
+      - name: Commit only the new QA path to a dedicated branch
+        run: |
+          mkdir -p /tmp/v2662snapshot
+          cp -a qa-review/v2662-14-candidate-snapshot/. /tmp/v2662snapshot/
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git checkout qa-assets/v2662-immutable-14-candidates
+          test ! -e qa-review/v2662-14-candidate-snapshot
+          mkdir -p qa-review/v2662-14-candidate-snapshot
+          cp -a /tmp/v2662snapshot/. qa-review/v2662-14-candidate-snapshot/
+          git add qa-review/v2662-14-candidate-snapshot
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'QA v2662 preserve 14 existing original JPG candidates (not for publication)'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
