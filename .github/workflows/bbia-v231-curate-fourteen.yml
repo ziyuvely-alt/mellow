@@ -1,0 +1,32 @@
+name: BBIA v231 curate fourteen original-photo QA candidates
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v231_curate_fourteen.py, .github/workflows/bbia-v231-curate-fourteen.yml]
+  workflow_dispatch:
+permissions: {contents: read, actions: read}
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          name: bbia-v229-bulk-photo-new-candidates-and-holds
+          run-id: 41831301367
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/bbia-v229
+      - uses: actions/download-artifact@v4
+        with:
+          name: bbia-v230-three-new-original-photo-jpg
+          run-id: 41831581776
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          path: /tmp/bbia-v230
+      - run: python -m pip install pillow==11.3.0
+      - name: Curate and QA fourteen without regenerating JPGs
+        run: python scripts/bbia_v231_curate_fourteen.py --a /tmp/bbia-v229 --b /tmp/bbia-v230 --out /tmp/bbia-v231
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v231-fourteen-existing-jpg-candidates-curated
+          path: /tmp/bbia-v231
+          retention-days: 30
