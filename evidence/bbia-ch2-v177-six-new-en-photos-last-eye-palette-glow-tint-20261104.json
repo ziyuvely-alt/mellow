@@ -1,0 +1,83 @@
+{
+  "schema": "bbia_ch2_v177_photographic_incremental",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v176 6 English JPGs for Last Contour Stick and Eye Primer",
+  "new_jpg_count": 6,
+  "families": [
+    {
+      "goodsNo": "1000000151",
+      "name": "BBIA Last Eye Palette",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000151",
+      "official_weight": "5g",
+      "produced": 3,
+      "source_photos": [
+        "photo-2.png",
+        "photo-4.png",
+        "photo-5.png"
+      ],
+      "held_source_photos": [
+        {
+          "name": "photo-3.png",
+          "reason": "PNG truncated"
+        },
+        {
+          "name": "hero-cutout.png",
+          "reason": "382x270 insufficient for premium hero enlargement"
+        }
+      ],
+      "fixed_frame": "03: cropped inherited embedded Korean source text"
+    },
+    {
+      "goodsNo": "1000000136",
+      "name": "BBIA Glow Tint full-size",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000136",
+      "official_weight": "3.2g",
+      "produced": 3,
+      "source_photos": [
+        "photo-2.png",
+        "photo-4.png",
+        "photo-5.png"
+      ],
+      "held_source_photos": [
+        {
+          "name": "photo-3.png",
+          "reason": "PNG truncated"
+        },
+        {
+          "name": "hero-cutout.png",
+          "reason": "211x595 skinny low-res hero"
+        }
+      ],
+      "fixed_frame": "03: removed inherited cut-off source GLOW T logo text"
+    }
+  ],
+  "created_files": {
+    "archive": "BBIA_v177_6_EN_TWO_NEW_FAMILIES_QA_PENDING.zip",
+    "contact": "BBIA_v177_SIX_EN_REAL_PHOTO_CONTACT.jpg",
+    "manifest": "QA/MANIFEST_v177.json",
+    "repro_scripts": [
+      "v177_two_unworked_families.py",
+      "v177_fix_two_crops.py"
+    ],
+    "source": "BBIA_Cutout_Progress_20261030.zip"
+  },
+  "technical": {
+    "jpegs": 6,
+    "valid_jpg": 6,
+    "dimensions": "1080x1080",
+    "each_under_2000000_bytes": true,
+    "zip_crc": true
+  },
+  "visual": {
+    "reviewed_contact": true,
+    "source_embedded_captions_removed_in_two_frames": true,
+    "layout_status": "QA_PENDING: three product photo scenes each; remaining distinct role frames missing"
+  },
+  "source_truth": "Photographed assets archived, exact original official photo-pixel provenance and option shade proof not independently authenticated",
+  "approved_for_sale": 0,
+  "localized": 0,
+  "previous_images_modified": false,
+  "public_55_urls_modified": false,
+  "excel_shared": false,
+  "next": "Do not regenerate v177 six images. For two families seek genuine source photo for missing scene roles; no hero upscale from held small photos. Then move to distinct unworked family with intact photo sources. Exact official pixel and shade sign-off required before release."
+}
