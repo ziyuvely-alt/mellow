@@ -1,0 +1,33 @@
+name: Shopee v2608 CLIO Mesh Blur two actual product photograph QA scenes
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2608_meshblur_two_actual_scene_photo_candidates.py'
+      - '.github/workflows/v2608-clio-mesh-blur-photo-source.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  two-true-mesh-blur-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse historical immutable source corpus for matching only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765900358 -n shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX -D input
+      - name: Acquire two exact CLIO mesh blur real photos and reject near duplicates
+        run: python scripts/v2608_meshblur_two_actual_scene_photo_candidates.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2608-CLIO-MeshBlur-two-new-real-photo-review-no-XLSX
+          path: v2608-CLIO-meshblur-two-authentic-photo-QA/
+          retention-days: 90
+          if-no-files-found: error
