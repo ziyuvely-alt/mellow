@@ -1,0 +1,113 @@
+{
+  "version": "v2678",
+  "baseline": "v2677",
+  "source": "historic v2593 original QA corpus",
+  "new_five_frame_QA_family_count": 2,
+  "JPG_count": 10,
+  "original_existing_images_unchanged": 5,
+  "new_fact_only_images": 5,
+  "new_sale_approved": 0,
+  "owned_stock_generation_unverified": true,
+  "commercial_source_photo_rights_unverified": true,
+  "latest_v2647_missing": true,
+  "approved_existing_11_untouched": true,
+  "published_55_URLs_untouched": true,
+  "final_xlsx_shared": false,
+  "families": [
+    {
+      "family": "pending-12",
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "five_QA_jpg_present": true,
+      "photographs_original_unchanged": 3,
+      "new_info_frames": 2,
+      "sale_release": "HOLD_STOCK_15G_VS_OFFICIAL_15ML_PHOTO_RIGHTS",
+      "files": [
+        {
+          "frame": 1,
+          "kind": "ORIGINAL_JPG_BYTE_PRESERVED",
+          "source_slot": 1,
+          "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+          "file": "01-existing-original-slot01-unchanged-QA.jpg",
+          "bytes": 70358
+        },
+        {
+          "frame": 2,
+          "kind": "ORIGINAL_JPG_BYTE_PRESERVED",
+          "source_slot": 2,
+          "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+          "file": "02-existing-original-slot02-unchanged-QA.jpg",
+          "bytes": 103345
+        },
+        {
+          "frame": 3,
+          "kind": "ORIGINAL_JPG_BYTE_PRESERVED",
+          "source_slot": 3,
+          "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+          "file": "03-existing-original-slot03-unchanged-QA.jpg",
+          "bytes": 54624
+        },
+        {
+          "frame": 4,
+          "kind": "NEW_FACT_ONLY_JPG",
+          "sha256": "ea3b551a1b2d417476fed87de50cd3718efae50a7b749d6a44f4e489f1c85b22",
+          "file": "04-safe-original-info-QA.jpg",
+          "bytes": 83427
+        },
+        {
+          "frame": 5,
+          "kind": "NEW_FACT_ONLY_JPG",
+          "sha256": "c12fa2e1877184352cd52c84829ba92066a06daaa6188ec70f559005ad20d57e",
+          "file": "05-safe-original-info-QA.jpg",
+          "bytes": 80828
+        }
+      ]
+    },
+    {
+      "family": "pending-06",
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion",
+      "five_QA_jpg_present": true,
+      "photographs_original_unchanged": 2,
+      "new_info_frames": 3,
+      "sale_release": "HOLD_PACKAGE_GENERATION_PROMOTIONAL_KIT_SHADE_PHOTO_RIGHTS",
+      "files": [
+        {
+          "frame": 1,
+          "kind": "ORIGINAL_JPG_BYTE_PRESERVED",
+          "source_slot": 3,
+          "sha256": "0aff3716f8e0adaea392257c51fa1d8027ecb91a830b37f42210756f82d9ea88",
+          "file": "01-existing-original-slot03-unchanged-QA.jpg",
+          "bytes": 86555
+        },
+        {
+          "frame": 2,
+          "kind": "ORIGINAL_JPG_BYTE_PRESERVED",
+          "source_slot": 4,
+          "sha256": "372fdd78226ae1b69ffc14621d28bf70dd3e696f21c9a2179952d923eaa9cd25",
+          "file": "02-existing-original-slot04-unchanged-QA.jpg",
+          "bytes": 93264
+        },
+        {
+          "frame": 3,
+          "kind": "NEW_FACT_ONLY_JPG",
+          "sha256": "61e8f1b81aa2a4b2983c758c3aea15e88713ce139a9f33ceca0c831cedadb923",
+          "file": "03-safe-original-info-QA.jpg",
+          "bytes": 70805
+        },
+        {
+          "frame": 4,
+          "kind": "NEW_FACT_ONLY_JPG",
+          "sha256": "d8b347a2dbce957f3678d4ed8e51e88a5f4ec7e877c46005aa8fea5aefc5f324",
+          "file": "04-safe-original-info-QA.jpg",
+          "bytes": 77532
+        },
+        {
+          "frame": 5,
+          "kind": "NEW_FACT_ONLY_JPG",
+          "sha256": "7fccbf45bd12339db1fcbb961bfe98b51ab9bb0dbf3bdabe73b35f77882a5651",
+          "file": "05-safe-original-info-QA.jpg",
+          "bytes": 72934
+        }
+      ]
+    }
+  ]
+}
