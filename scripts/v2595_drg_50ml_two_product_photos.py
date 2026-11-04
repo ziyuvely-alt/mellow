@@ -50,7 +50,7 @@ for s in sources:
   scores.extend({"other":"selected-new","dhash":(dhash(canvas)^dhash(x["im"])).bit_count(),"mae":mae(canvas,x["im"])} for x in accepted)
   similar=[x for x in scores if x["dhash"]<=6 or x["mae"]<8]
   item.update(status="HOLD_NEAR_DUPLICATE" if similar else "DISTINCT_REAL_50ML_PHOTO_QA_ONLY",
-   saved_file=out.name, "sha256":sha(out), source_dims=list(orig.size),similarity_alerts=similar)
+   saved_file=out.name, sha256=sha(out), source_dims=list(orig.size),similarity_alerts=similar)
   if not similar:accepted.append({"im":canvas,"file":out})
  except Exception as e:
   item.update(status="ACCESS_HOLD",error_class=type(e).__name__)
