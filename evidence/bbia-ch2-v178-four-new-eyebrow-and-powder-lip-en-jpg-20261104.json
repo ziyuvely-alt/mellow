@@ -1,0 +1,69 @@
+{
+  "schema": "bbia_ch2_v178_four_new_en_photo_candidates",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v177b nine new EN candidates (Last Eye Palette, Glow Tint full size, L'Eau Tint full size)",
+  "official_information": [
+    {
+      "goodsNo": "1000000108",
+      "product": "BBIA Last Auto Eyebrow Pencil",
+      "size": "0.18g",
+      "url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000108",
+      "new_en": 2
+    },
+    {
+      "goodsNo": "200",
+      "product": "BBIA Last Powder Lipstick",
+      "size": "3.5g",
+      "url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=200",
+      "new_en": 2
+    }
+  ],
+  "new_actual_JPG_count": 4,
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "outputs": {
+    "zip": "BBIA_v178_4_NEW_EN_EYEBROW_POWDER_LIP_QA_PENDING.zip",
+    "preview": "BBIA_v178_FOUR_REAL_SOURCE_EN_CONTACT.jpg",
+    "manifest": "v178_new_EN/MANIFEST_v178.json",
+    "scripts": [
+      "v178_unworked_photo_production.py",
+      "v178_fix_embedded_caption_only.py"
+    ]
+  },
+  "frames": [
+    "1000000108 01 pencil photographed details",
+    "1000000108 02 tip and brush details",
+    "200 01 lipstick texture detail",
+    "200 02 lipstick form"
+  ],
+  "in_turn_correction": "One inherited Korean-caption artifact found in lipstick texture frame; crop adjusted and that one JPEG replaced; other 3 JPG preserved, final ZIP rebuilt with correct hashes.",
+  "technical": "4 actual JPEG images 1080x1080, each < 2MB, ZIP CRC valid; provenance/source image SHA256 and crop region written in manifest",
+  "held_original_sources": [
+    {
+      "goodsNo": "1000000108",
+      "assets": [
+        "hero-cutout.png low resolution 77x370",
+        "photo-3.png truncated",
+        "photo-5.png Korean instructions"
+      ]
+    },
+    {
+      "goodsNo": "200",
+      "assets": [
+        "hero-cutout.png unavailable",
+        "photo-2.png unavailable",
+        "photo-5.png swatch shade proof missing and Korean caption"
+      ]
+    }
+  ],
+  "publication_status": "EN_QA_PENDING_SOURCE_PIXEL_MATCH",
+  "sale_approved": 0,
+  "translations_created": 0,
+  "preserved": [
+    "v147 125 source JPEGs",
+    "all v150-v177b produced images",
+    "existing 55 public image URLs",
+    "historic QA holds"
+  ],
+  "next": "Do not redo v178 four images. To finish these two families, obtain separate authentic official photographed scenes for remaining missing roles. Avoid false option shade claims and do not reuse excluded swatch chart until exact provenance is verified. Continue to other unworked goodsNo with intact source photographs.",
+  "no_excel_shared": true
+}
