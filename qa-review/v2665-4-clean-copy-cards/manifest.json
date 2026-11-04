@@ -1,0 +1,100 @@
+{
+  "version": "v2665",
+  "source": "v2664 rejected visual cards, facts from earlier existing evidence",
+  "created_jpg": 4,
+  "technical_pass": 4,
+  "files": [
+    {
+      "family": "pending-02",
+      "original_slot": 5,
+      "brand": "MISSHA",
+      "lines": [
+        "MAGIC CUSHION",
+        "MOIST UP"
+      ],
+      "detail": "Cushion compact",
+      "note": "Exact owned-stock edition confirmation pending",
+      "accent": "#d3dfd5",
+      "path": "pending-02-slot05-copy-repaired-QA-ONLY.jpg",
+      "bytes": 78636,
+      "sha256": "afbc7790501b5de3ab3fd4060f50decc5fd75aceee7ba9b61130a7d266d062f1",
+      "status": "TYPOGRAPHY_REPAIRED_QA_ONLY",
+      "stock_verified": false,
+      "photo_rights_verified": false,
+      "latest_v2647_compared": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-08",
+      "original_slot": 3,
+      "brand": "PERIPERA",
+      "lines": [
+        "MOOD GLOWY TINT"
+      ],
+      "detail": "4 g",
+      "note": "Shade 001-020 | 26AD edition verification pending",
+      "accent": "#f1dfdb",
+      "path": "pending-08-slot03-copy-repaired-QA-ONLY.jpg",
+      "bytes": 63990,
+      "sha256": "5914047f7c2fc24582c89273532007abc40614ccd90787c6b05e3405aec952a3",
+      "status": "TYPOGRAPHY_REPAIRED_QA_ONLY",
+      "stock_verified": false,
+      "photo_rights_verified": false,
+      "latest_v2647_compared": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-21",
+      "original_slot": 3,
+      "brand": "GOODAL",
+      "lines": [
+        "GREEN TANGERINE",
+        "VITA C EYE CREAM"
+      ],
+      "detail": "30 mL",
+      "note": "Actual owned-stock bottle and photo rights pending",
+      "accent": "#f1e3c6",
+      "path": "pending-21-slot03-copy-repaired-QA-ONLY.jpg",
+      "bytes": 80089,
+      "sha256": "10ff4556942c2666a86a0ece3054523f107241de8709904b8b0e874e44afe609",
+      "status": "TYPOGRAPHY_REPAIRED_QA_ONLY",
+      "stock_verified": false,
+      "photo_rights_verified": false,
+      "latest_v2647_compared": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-26",
+      "original_slot": 4,
+      "brand": "PIXEL PURE",
+      "lines": [
+        "GENTLE GEL TO FOAM",
+        "CLEANSER"
+      ],
+      "detail": "145 mL",
+      "note": "Do not substitute a 150 mL product photo",
+      "accent": "#d9e8dc",
+      "path": "pending-26-slot04-copy-repaired-QA-ONLY.jpg",
+      "bytes": 72685,
+      "sha256": "79e002ae8c15dd5d3f0673a615091dc2a7f0b71f77bd43f252a47c9f68c742a3",
+      "status": "TYPOGRAPHY_REPAIRED_QA_ONLY",
+      "stock_verified": false,
+      "photo_rights_verified": false,
+      "latest_v2647_compared": false,
+      "retail_approved": false
+    }
+  ],
+  "sales_approved": 0,
+  "skipped_due_to_rights_or_generation": [
+    "pending-05",
+    "pending-07",
+    "pending-15",
+    "pending-22",
+    "pending-28"
+  ],
+  "original_14_QA_assets_unchanged": true,
+  "published_55_urls_unchanged": true,
+  "approved_11_families_unchanged": true,
+  "final_xlsx_shared": false,
+  "next": "Inspect contact sheet and reject any inaccurate product copy; only after exact-stock/photo rights and v2647 proof can any candidate go to retail."
+}
