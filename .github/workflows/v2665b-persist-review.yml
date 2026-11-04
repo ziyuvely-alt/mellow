@@ -1,0 +1,44 @@
+name: Shopee v2665b persist four new QA cards and contact sheet for actual inspection
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2665b-persist-review.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Recover only generated v2665 originals (not regenerate)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41829242447 -n shopee-v2665-four-reflowed-cards-visual-QA-no-XLSX -D /tmp/v2665-restored
+      - name: Persist isolated four image QA revision and compact preview
+        run: |
+          python - <<'PY'
+          import json,base64,hashlib,pathlib
+          p=pathlib.Path('/tmp/v2665-restored')
+          j=json.loads((p/'manifest.json').read_text())
+          assert j['version']=='v2665' and j['created_jpg']==4
+          for f in j['files']:
+            jpg=p/f['path'];assert hashlib.sha256(jpg.read_bytes()).hexdigest()==f['sha256']
+          q=p/'v2665-four-cards-visual-contact.jpg'
+          (p/'v2665-four-cards-visual-contact.b64.txt').write_text(base64.b64encode(q.read_bytes()).decode('ascii'))
+          print('verified 4 QA images')
+          PY
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2665-worktree qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2665-worktree/qa-review/v2665-4-clean-copy-cards
+          mkdir -p /tmp/v2665-worktree/qa-review/v2665-4-clean-copy-cards
+          cp /tmp/v2665-restored/* /tmp/v2665-worktree/qa-review/v2665-4-clean-copy-cards/
+          cd /tmp/v2665-worktree
+          git add qa-review/v2665-4-clean-copy-cards
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'QA v2665 preserve four actually reflowed text cards and contact proof'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
