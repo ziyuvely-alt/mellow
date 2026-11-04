@@ -1,0 +1,28 @@
+name: Shopee v2605 exact 25 shade and clean 300ml original photo candidates
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2605_retrieve_missha25_obge300_exact_sources.py'
+      - '.github/workflows/v2605-two-genuine-images.yml'
+permissions:
+  contents: read
+jobs:
+  retrieve-product-photographs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Retrieve two exact edition source candidates without altering existing JPG
+        run: python scripts/v2605_retrieve_missha25_obge300_exact_sources.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2605-two-exact-product-reference-photos-QA-no-XLSX
+          path: v2605-two-exact-photo-candidates-QA/
+          retention-days: 90
+          if-no-files-found: error
