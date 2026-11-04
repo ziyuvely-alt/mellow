@@ -1,0 +1,17 @@
+{
+  "version": "v2723",
+  "date": "2026-11-05",
+  "result": "DIRECT_AUDIT_COMPLETE",
+  "qa_folder": "qa-review/v2723-direct-tree-audit-source-correction",
+  "pairs_verified": 32,
+  "families_with_physical_pairs": 28,
+  "candidates": 18,
+  "rejected": 7,
+  "stock_hold": 3,
+  "source_blocked": 2,
+  "source_identified_pending13": "qa-review/v2696-missha-serum-official-gallery-proof/source-03-REVIEW-ONLY.jpg",
+  "peripera_pending08_still_blocked": true,
+  "release_approved_new": 0,
+  "old_55_urls_unchanged": true,
+  "final_XLSX_shared": false
+}
