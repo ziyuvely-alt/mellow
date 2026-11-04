@@ -1,0 +1,53 @@
+{
+  "version": "v2662",
+  "date": "2026-11-04",
+  "baseline": "v2660",
+  "main_work_queue": {
+    "run_id": 41827568890,
+    "artifact_id": 13319587426,
+    "status": "success",
+    "total_unfinished_families": 30,
+    "historical_v2460_jpg": 114,
+    "historical_v2460_shortfall": 49,
+    "note": "114 and 49 are old snapshot counts, not latest v2647 current total",
+    "existing_new_QA_candidates": 14,
+    "product_identity_gated_families": 6,
+    "retail_release_approved": 0
+  },
+  "preservation": {
+    "initial_attempt_run": 41827771963,
+    "initial_error": "in-job checkout conflicted with untracked staged files; no user assets affected",
+    "corrected_run": 41827943963,
+    "corrected_status": "success",
+    "branch": "qa-assets/v2662-immutable-14-candidates",
+    "commit": "af4251f87e53d6c7bd757e900d81f198eb48ec60",
+    "path": "qa-review/v2662-14-candidate-snapshot",
+    "candidate_jpg_files_committed": 14,
+    "manifest_files_committed": 1,
+    "sha256_checked": 14,
+    "link": "https://github.com/ziyuvely-alt/mellow/tree/qa-assets/v2662-immutable-14-candidates/qa-review/v2662-14-candidate-snapshot",
+    "sale_approved": false
+  },
+  "no_redo": [
+    "Do not recreate these 14 images or re-upload same archive",
+    "Do not retry failed v2662 checkout method",
+    "Do not rerun historical 156 image similarity test",
+    "Do not call historical 114 JPG total current"
+  ],
+  "unblocked": [
+    "Original 14 QA candidates no longer dependent only on expiring Actions artifacts"
+  ],
+  "remaining": [
+    "Actual v2647 latest 156 JPG zip not yet in accessible repo",
+    "Original round MK logo asset absent from main",
+    "Exact product stock version/kit and commercial photos rights not independently confirmed",
+    "Human final visual QA needed"
+  ],
+  "preserved": {
+    "existing_approved_families": 11,
+    "existing_verified_URLs": 55,
+    "public_images_modified": 0,
+    "final_spreadsheet_shared": false
+  },
+  "next": "Prioritize real v2647 physical image provenance and source-image license/stock edition. For user-facing quality, review 14 originals from permanent isolated branch rather than generating more near-identical crops."
+}
