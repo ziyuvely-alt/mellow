@@ -1,0 +1,41 @@
+{
+  "schema": "bbia_ch2_v158_essential_eye_palette",
+  "date": "2026-11-04",
+  "from_checkpoint": "v157 matte cushion puff 5 EN candidate JPGs",
+  "new_family": "BBIA Essential Eye Palette",
+  "new_en_images": 5,
+  "frames": [
+    "01 hero with product and model",
+    "02 open palette compact",
+    "03 eye look reference photo only",
+    "04 three-palette details",
+    "05 three palette photograph-only option reference"
+  ],
+  "actual_files": {
+    "zip": "BBIA_v158_ESSENTIAL_EYE_PALETTE_5_EN_QA_PENDING.zip",
+    "contact": "BBIA_v158_ESSENTIAL_EYE_PALETTE_5_CONTACT.jpg",
+    "manifest": "BBIA_v158_ESSENTIAL_EYE_PALETTE_MANIFEST.json"
+  },
+  "source_archive": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "source_policies": "Previously saved product photo regions cropped/recomposed; source pixel-photo official identity independently unverified. No artificial packaging, swatch, shade or model generated.",
+  "fixed_in_run": [
+    "Frame 3 inherited clipped captions removed by recropping only the genuine eye images",
+    "Frame 5 corrupted source captions with Korean words replaced by three existing photographed palette crop regions, using generic A/B/C labels until exact option verification"
+  ],
+  "file_qa": {
+    "jpeg_count": 5,
+    "dimensions": "1080x1080",
+    "under_2mb": true,
+    "zip_crc_pass": true,
+    "reviewed_contact": true
+  },
+  "status": {
+    "design": "EN_QA_PENDING",
+    "official_photo_provenance": "PENDING",
+    "exact_shade_mapping": "PENDING",
+    "sales_approved": 0,
+    "localizations": 0
+  },
+  "immutability": "v147 125 source images, v150-v157 candidate ZIPs, 55 published URLs untouched; existing 24 prior holds unchanged",
+  "next": "Do not recreate v158 assets. Need independent official photo and shade match proof; if unavailable move to next product group. Prioritize a product family with authenticated photo originals rather than repetitive contact-sheet triage."
+}
