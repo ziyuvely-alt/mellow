@@ -1,0 +1,33 @@
+{
+  "schema": "bbia_ch2_v164_mascara_slim_options",
+  "date": "2026-11-04",
+  "previous": "v163 Glow Tint Mini 3 EN partial assets",
+  "new_files": 4,
+  "family": "BBIA Never Die Mascara Slim",
+  "preserved_previous": "v153 5-page EN candidate family unchanged",
+  "new_images": [
+    "01 Black Fit original photographed texture crop",
+    "02 Brown Fit original photographed texture crop",
+    "03 Rose Fit original photographed texture crop",
+    "Three shade photographic texture reference"
+  ],
+  "original_source": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "download_zip": "BBIA_v164_MASCARA_SLIM_4_SHADE_EN_QA_PENDING.zip",
+  "preview": "BBIA_v164_MASCARA_SLIM_SHADE_ADDON_CONTACT.jpg",
+  "manifest": "BBIA_v164_MASCARA_SLIM_SHADE_ADDON_MANIFEST.json",
+  "local_script": "v164_mascara_shade_addon.py",
+  "verified_product_fact": "Bbia Vietnam official catalog lists #01 Black Fit, #02 Brown Fit, #03 Rose Fit and 3ml",
+  "official_link": "https://www.bbia.vn/san-pham/bbia-never-die-mascara-slim-01-black-fit/",
+  "technical": "4 new 1080x1080 JPG <2MB, ZIP CRC valid, actual contact visual checked, no photo hue edits",
+  "review_status": "QA_PENDING_EXACT_ORIGINAL_PIXEL_PROOF",
+  "sales_approved": 0,
+  "source_held": [
+    "Over Glaze Mini option #11 Cherry Plop and #12 Apple Syrup source JPGs 120_93ff and 120_b865 share very similar model lip crop. Hold further shade images pending independently official per-shade source"
+  ],
+  "protected": [
+    "original 125 JPG",
+    "all prior v150-v163 work",
+    "original 55 public URLs"
+  ],
+  "next": "Skip v164 finished 4 preview frames; find authenticated official per-shade pixel source for mascara and Over Glaze; if missing advance distinct new product family instead of repeating crops. No Excel until full completion."
+}
