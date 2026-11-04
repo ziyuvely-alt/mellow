@@ -1,0 +1,31 @@
+name: Shopee v2669 OBgE 300mL official-source five-frame conditional QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2669-obge-300ml-conditional.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Use exact previously staged genuine 300mL bottle source without regenerating
+        run: |
+          cp scripts/v2669_obge_300ml_fiveframe.py /tmp/v2669.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2669-working qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2669-working
+          python /tmp/v2669.py
+          git add qa-review/v2669-obge-300ml-5frame-qa
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2669 OBgE 300mL conditional 5 frame QA draft or official-source hold'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
