@@ -1,0 +1,39 @@
+{
+  "version": "v2747",
+  "baseline": "v2746",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "shade": "N23 ONLY",
+  "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/02-prior-original-byte-identical-QA.jpg",
+  "source_sha256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5",
+  "source_01_failed_cutout_reused": false,
+  "source_02_unchanged": true,
+  "silhouette_method": "opencv_detected_circle_requires_visual_qa",
+  "circle_xyr": [
+    786,
+    654,
+    250
+  ],
+  "hough_candidates_tested": [
+    [
+      0.84,
+      786,
+      654,
+      250
+    ]
+  ],
+  "png": "01-original-pink-compact-N23-transparent-QA.png",
+  "jpg": "01-original-pink-compact-N23-1080-QA.jpg",
+  "png_sha256": "21b28f5b922a1fa342f9699f858a7b06b59815b02dde10ac8f9290aba4f623e4",
+  "jpg_sha256": "e92687c13d9a340a520dd60d18423889e3cccb86f22255d5a2a3b855ed8c4235",
+  "jpg_bytes": 51544,
+  "shades21_25_27_not_generated": true,
+  "photo_commercial_rights_verified": false,
+  "owned_N23_KR_packaging_match_verified": false,
+  "round_original_MK_logo_verified": false,
+  "status": "ACTUAL_PHOTO_ALPHA_CREATED_VISUAL_QA_REQUIRED",
+  "new_retail_approval": false,
+  "approved_old_11_families_unchanged": true,
+  "approved_55_public_urls_unchanged": true,
+  "final_spreadsheet_shared": false
+}
