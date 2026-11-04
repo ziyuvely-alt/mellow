@@ -1,0 +1,31 @@
+{
+  "version": "v2747",
+  "date": "2026-11-05",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "source_shade": "N23 ONLY",
+  "workflow_run_id": 41886651798,
+  "qa_folder": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa",
+  "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/02-prior-original-byte-identical-QA.jpg",
+  "verified_alpha_png": true,
+  "verified_1080_jpg": true,
+  "chosen_circle_xyr": [
+    786,
+    654,
+    250
+  ],
+  "automatic_circle_detected": true,
+  "real_product_case_and_wordmark_preserved": true,
+  "original_box_and_reflection_removed": true,
+  "visual_QA_status": "CONDITIONAL_PASS",
+  "reusable_for_other_shades": false,
+  "source21_unprocessed_and_may_have_stock_option_conflict": true,
+  "photo_commercial_licensing_verified": false,
+  "original_MK_logo_authenticated": false,
+  "exact_owned_shade_inventory_generation_verified": false,
+  "retail_sale_approved": false,
+  "original_11_approved_product_families_unchanged": true,
+  "prior_55_public_URLs_unchanged": true,
+  "final_excel_shared": false,
+  "next": "Inspect source frame01 N21 only as independent shade, never repurpose N23 image; do not relabel to 25 or 27."
+}
