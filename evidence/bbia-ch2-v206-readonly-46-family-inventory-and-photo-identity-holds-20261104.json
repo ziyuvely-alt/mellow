@@ -1,0 +1,44 @@
+{
+  "version": "v206",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v205 one Last Eye Primer photographed bottle detail, preserved",
+  "actual_work": "Read-only inventory of 46 products from preserved PLAN and archive ZIP member filenames; prevented unsafe fifth scene from wrong product photo",
+  "files": [
+    "BBIA_v206_46_FAMILY_INCREMENTAL_PRODUCTION_INDEX.json",
+    "BBIA_v206_READONLY_DEDUP_AND_PRODUCT_MISMATCH_HOLDS.zip",
+    "v206_inventory_increment.py"
+  ],
+  "scope": {
+    "declared_project_families": 48,
+    "source_plan_families": 46,
+    "master_families_unreconciled": 2,
+    "archive_image_occurrences_scanned": 662,
+    "mapped_by_filename_or_alias": 129,
+    "unmapped_because_filename_identity_unverified": 533,
+    "archive_read_errors": 0
+  },
+  "holds": [
+    {
+      "goodsNo": "228",
+      "source": "batch/228/photo-3.png",
+      "reason": "Jar-like container does not match known Lip Oil Balm tube. Do not construct fifth frame."
+    },
+    {
+      "goodsNo": "1000000221",
+      "source": "batch/1000000221/photo-5.png",
+      "reason": "Blush compact and puff props combined; independent product package proof not established."
+    },
+    {
+      "goodsNo": "1000000247",
+      "source": "batch/1000000247/photo-3.png",
+      "reason": "Korean notice rather than actual product photograph."
+    }
+  ],
+  "note": "662 are JPG archive occurrences, not deduplicated unique images, independent creative roles, or sale approvals. 533 are not mapped by dependable filenames and are NOT missing product images. Inventory does not itself prove five frames per family.",
+  "new_images_created": 0,
+  "sale_approved": 0,
+  "previous_assets_changed": false,
+  "existing_55_urls_changed": false,
+  "excel_shared": false,
+  "next": "Improve mapping via archived per-ZIP QA manifests and original 48-family master; only then select never-used source photographs. Do not fabricate or pad image count with misleading photos."
+}
