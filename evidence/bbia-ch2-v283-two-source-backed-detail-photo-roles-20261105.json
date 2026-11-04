@@ -1,0 +1,87 @@
+{
+  "checkpoint": "v283",
+  "date": "2026-11-05",
+  "parent": "v282",
+  "v282": {
+    "run_id": 41855153276,
+    "artifact_id": 13337635303,
+    "source_downloads": 6,
+    "verified_success": 6
+  },
+  "actual_execution": {
+    "source_files_reused": [
+      "BBIA_1000000247_DETAIL_SOURCE_4_v282.jpg",
+      "BBIA_1000000244_DETAIL_SOURCE_3_v282.jpg"
+    ],
+    "new_draft_JPG": 2,
+    "outputs": [
+      {
+        "goodsNo": "1000000247",
+        "file": "BBIA_1000000247_DETAIL_v283_QA_PENDING.jpg",
+        "role": "layered application 1-3 coats",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "bytes": 109666,
+        "sha256": "44fc51029eae59e4734ad9fe1df57ebd2e6dc8aa637e8f4087508e87289d439b",
+        "source_crop": [
+          70,
+          120,
+          930,
+          595
+        ]
+      },
+      {
+        "goodsNo": "1000000244",
+        "file": "BBIA_1000000244_DETAIL_v283_QA_PENDING.jpg",
+        "role": "rounded pencil tip and real texture",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "bytes": 58946,
+        "sha256": "9bc41661c5e97bfdb0f84abb10f646c1805fe847dda86e252cae0f3231698f3d",
+        "source_crop": [
+          660,
+          980,
+          955,
+          1360
+        ]
+      }
+    ],
+    "contact": "/mnt/data/bbia_v283/BBIA_v283_TWO_NEW_DETAILS_CONTACT.jpg",
+    "zip": "/mnt/data/bbia_v283/BBIA_v283_TWO_NEW_DETAILS_QA_PENDING.zip",
+    "zip_sha256": "42a1c62d53b97929f849beafa349dbb18aec536d47d0590cc9df7f0557fcab2f",
+    "zip_crc_verified": true,
+    "actual_visual_QA": "Both source-backed photo crops inspected: Korean copy excluded; primer swatch readable; pencil source region small with retained original rectangle",
+    "sales_approved": 0
+  },
+  "rejected_v282": [
+    {
+      "goodsNo": "1000000227",
+      "indices": [
+        5,
+        6
+      ],
+      "reason": "promotional Korean waterproof test and technical ingredients/specification, not clean standalone product role"
+    },
+    {
+      "goodsNo": "1000000247",
+      "index": 5,
+      "reason": "Korean specification table"
+    },
+    {
+      "goodsNo": "1000000244",
+      "index": 4,
+      "reason": "Korean specification table"
+    }
+  ],
+  "preservation": {
+    "published_jpg_changed": false,
+    "verified_55_public_urls_changed": false,
+    "prior_approved_photos_changed": false,
+    "final_spreadsheet_shared": false
+  },
+  "next": "Do not rework v283 small pencil repeatedly; move to next unseen real-source roles across different family IDs. Defer final real cutout and exact option validation to later batch QA."
+}
