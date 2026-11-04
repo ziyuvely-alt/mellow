@@ -1,0 +1,23 @@
+{
+  "version": "v2783-missha-peelshot-product-spec-evidence",
+  "date": "2026-11-05",
+  "family": "pending-12",
+  "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+  "previously_unresolved": "historical owned-stock/QA description says 15g while the photographed package and official Korean/Japanese product specifications state 15mL",
+  "official_product_spec_2026": {
+    "net_content": "15mL",
+    "unit": "volume",
+    "brand": "MISSHA",
+    "korean_official_product_listing": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+    "japanese_official_press_page": "https://www.missha.co.jp/%E6%9C%AA%E6%9D%A5%E3%82%92%E8%A6%8B%E6%8D%AE%E3%81%88%E3%80%81%E5%81%A5%E3%82%84%E3%81%8B%E3%81%AA%E7%BE%8E%E8%82%8C%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E3%80%82%E3%80%8Cpdrn%C2%B9-nad%C2%B2/",
+    "japan_press_released": "2026-07-27"
+  },
+  "validation": "two independent brand-owned Korean and Japan pages explicitly state 15mL",
+  "restriction": "Do NOT invent a 15g-to-15mL mass-volume conversion, auto-edit existing SKU inventory spreadsheet, or replace signed-off earlier images. Need label from actual owned inventory.",
+  "photo_scene_release": "HOLD_UNTIL_REAL_STOCK_LABEL_AND_RIGHTS_VERIFIED",
+  "source_type": "brand_official_specification",
+  "commercially_approved_new": 0,
+  "original_11_retail_approved_families_safe": true,
+  "verified_55_public_image_urls_safe": true,
+  "final_spreadsheet_shared": false
+}
