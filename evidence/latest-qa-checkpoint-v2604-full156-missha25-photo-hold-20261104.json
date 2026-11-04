@@ -1,0 +1,54 @@
+{
+  "version": "v2604",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "latest_verified_base": {
+    "version": "v2597",
+    "run_id": 41765900358,
+    "product_families": 30,
+    "physical_jpg_count": 156
+  },
+  "executed_current_turn": {
+    "version": "v2604",
+    "local_file": "Shopee_v2604_156JPG_2MISSHA_corrections_QA_ONLY.zip",
+    "full_jpg_count": 156,
+    "sha_preserved_from_v2597": 154,
+    "replacements": [
+      {
+        "family": "pending-03",
+        "slot": 1,
+        "sha256": "c41a70262e6d0eb12577936d8c2a37bbcd67e1c11e32fa3a769fee352d51576c"
+      },
+      {
+        "family": "pending-03",
+        "slot": 2,
+        "sha256": "5b8467ec9a9af934e80f418962ec74113b6465fd5fb6f6277045683641aade3b"
+      }
+    ],
+    "correction": "Replace incorrect TWO AVAILABLE SHADES with actual owned 21/23/25 three-option text; no invented swatches or #25 photo"
+  },
+  "additional_shade25_reference": {
+    "source": "Ulta Beauty, MISSHA M Perfect Cover BB Cream No.25 Warm Beige",
+    "url": "https://www.ulta.com/p/m-perfect-cover-bb-cream-spf-42-pa-mkt77005732?sku=77009053",
+    "image_url": "https://media.ulta.com/i/ulta/77009053?fmt=auto&h=800&w=800",
+    "on_photo": "old-style red tube and pump with No.25 label",
+    "status": "REFERENCE_FOUND_BINARY_DOWNLOAD_BLOCKED",
+    "rights": "NOT_VERIFIED",
+    "stock_generation": "NOT_PHYSICALLY_VERIFIED",
+    "image_added_to_zip": false
+  },
+  "held": {
+    "family": "pending-22",
+    "slot": 4,
+    "candidate_sha256": "06ec8371dae7d84299ede44faa5708e5bc493ff20a63c5e666394daa54a61a13",
+    "reason": "Background removal lightened field but visible dark edge contour remains; not acceptable for final commercial presentation; old file preserved"
+  },
+  "immutable": {
+    "published_families": 11,
+    "public_verified_urls": 55,
+    "public_urls_changed": 0,
+    "original_156_jpg_preserved": true,
+    "xlsx_shared": false
+  },
+  "next": "Use v2604 locally assembled 156 JPG set as current QA baseline. Obtain genuine No.25 packaging source with permission before adding a No.25 photographed option panel; fix OBgE mask edge using verified white-background source or safe manual cutout; continue other product slots. No sale approval."
+}
