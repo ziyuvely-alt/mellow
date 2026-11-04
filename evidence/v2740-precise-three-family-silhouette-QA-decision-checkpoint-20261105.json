@@ -1,0 +1,21 @@
+{
+  "version": "v2740",
+  "qa_path": "qa-review/v2740-three-family-photo-visual-adjudication/manifest.json",
+  "confirmed_real_new_raster_asset": "pending-23",
+  "selected_existing_qa": [
+    "pending-09",
+    "pending-19"
+  ],
+  "shape_QA_accepted": [
+    "pending-19",
+    "pending-23"
+  ],
+  "shape_QA_rejected_for_hero": [
+    "pending-09"
+  ],
+  "new_retail_approved": 0,
+  "previous_public_urls_unchanged": 55,
+  "photo_rights_verified": false,
+  "original_MK_logo_verified": false,
+  "final_excel_shared": false
+}
