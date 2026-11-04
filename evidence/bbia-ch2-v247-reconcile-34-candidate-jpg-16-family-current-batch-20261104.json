@@ -1,0 +1,159 @@
+{
+  "checkpoint": "v247",
+  "date": "2026-11-04",
+  "parent": "v246",
+  "scope": "Incremental proof-linked candidate index for seven local v234-v246 artifact ZIPs only; historical v212 full 48-family data not rerun",
+  "actual_local_validation": {
+    "source_archives": 7,
+    "candidate_jpgs": 34,
+    "families": 16,
+    "all_files_read_and_sha256_hashed": true,
+    "full_sha_ledger_local": "/mnt/data/bbia_v247_index.json",
+    "index_script_local": "/mnt/data/bbia_v247_index.py"
+  },
+  "families": [
+    {
+      "goodsNo": "1000000056",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000125",
+      "candidate_jpgs": 1,
+      "states": [
+        "DETAIL_KOREAN_HOLD"
+      ]
+    },
+    {
+      "goodsNo": "1000000135",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_KOREAN_HOLD"
+      ]
+    },
+    {
+      "goodsNo": "1000000136",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "REPLACED_BY_v243_MATERIAL_ONLY"
+      ]
+    },
+    {
+      "goodsNo": "1000000151",
+      "candidate_jpgs": 3,
+      "states": [
+        "REPLACED_BY_v246_MATERIAL_ONLY",
+        "PHOTO_MATERIAL_ONLY",
+        "PHOTO_MATERIAL_ONLY"
+      ]
+    },
+    {
+      "goodsNo": "1000000178",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000184",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000216",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "REPLACED_BY_v243_MATERIAL_ONLY"
+      ]
+    },
+    {
+      "goodsNo": "1000000221",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "TESTIMONIAL_HOLD"
+      ]
+    },
+    {
+      "goodsNo": "1000000223",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000227",
+      "candidate_jpgs": 3,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_SECONDARY",
+        "PHOTO_MATERIAL_ONLY"
+      ]
+    },
+    {
+      "goodsNo": "1000000239",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000244",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_PHOTO_CLEAN_QA"
+      ]
+    },
+    {
+      "goodsNo": "1000000247",
+      "candidate_jpgs": 3,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_SECONDARY",
+        "PHOTO_MATERIAL_ONLY"
+      ]
+    },
+    {
+      "goodsNo": "172",
+      "candidate_jpgs": 2,
+      "states": [
+        "HERO_LAYOUT_QA",
+        "DETAIL_RETAIN_QA"
+      ]
+    },
+    {
+      "goodsNo": "207",
+      "candidate_jpgs": 2,
+      "states": [
+        "REPLACED_BY_v246_MATERIAL_ONLY",
+        "PHOTO_MATERIAL_ONLY"
+      ]
+    }
+  ],
+  "warnings": [
+    "Candidate JPG count includes old QA failures and photo materials, never use as selected finished creative roles",
+    "Frame 200 and refill 1000000124 still blocked in prior checkpoints",
+    "Keep 48-family historical v212 source archive distinct from the 49 current master source candidate registry",
+    "Never automatically approve options from generic parent listing photos"
+  ],
+  "new_jpg_this_checkpoint": 0,
+  "new_jpg_previous_v246": 3,
+  "approved": 0,
+  "published_assets_modified": false,
+  "verified_55_urls_modified": false,
+  "final_excel_shared": false,
+  "next_batch": "Prioritize genuinely missing product-only detail role for families with one source or held detail; do not repeat 7 indexed ZIPs."
+}
