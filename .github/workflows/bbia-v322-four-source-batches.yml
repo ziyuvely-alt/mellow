@@ -1,0 +1,22 @@
+name: BBIA v322 four unfinished source batches
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v322_four_family_original_source_gate.py
+      - .github/workflows/bbia-v322-four-source-batches.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v322_four_family_original_source_gate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v322-twelve-unused-source-photo-evidence
+          path: /tmp/bbia-v322
+          retention-days: 30
