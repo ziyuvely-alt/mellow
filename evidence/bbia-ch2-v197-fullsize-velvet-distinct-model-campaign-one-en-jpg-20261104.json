@@ -1,0 +1,38 @@
+{
+  "checkpoint": "v197",
+  "date": "2026-11-04",
+  "project": "BBIA Chapter 2",
+  "last_success": "v196 two distinct new English scene candidates (Lucky Shine applicator, Last Contour campaign)",
+  "new_product_family_scene": {
+    "goodsNo": "1000000135",
+    "product": "BBIA Last Velvet Tint FULL SIZE 5g",
+    "role": "NEW product-in-hand model photograph, independent from v183 bottle and v195 texture reference",
+    "archived_original": "verified_sources/catalog/1000000135/04.jpg",
+    "crop_xyxy": [
+      0,
+      2740,
+      1000,
+      4260
+    ],
+    "output": "BBIA_v197_LAST_VELVET_FULL_CAMPAIGN_EN_QA_PENDING.jpg",
+    "delivery_zip": "BBIA_v197_LAST_VELVET_CAMPAIGN_1_NEW_EN_QA_PENDING.zip",
+    "qa_manifest": "BBIA_v197_LAST_VELVET_FULL_CAMPAIGN_MANIFEST.json",
+    "script": "v197_velvet_full_campaign.py",
+    "source_and_output_sha256": "recorded in local manifest",
+    "spec": "1080x1080 JPEG 166918 bytes <2MB, valid ZIP CRC, contact visually inspected",
+    "new_count": 1,
+    "qa": "QA_PENDING_CURRENT_OFFICIAL_PHOTO_AND_SHADE",
+    "sale_approved": 0,
+    "exclusions": "Omitted source new-color captions and all shade names. Image includes actual source model holding product, but not proof of a specific variant."
+  },
+  "current_role_count": "v183 two + v195 one texture + v197 one model = four independently designed draft roles, not final approved set",
+  "preserved": [
+    "v147 original archived 125 files",
+    "v150-v196 candidate images and existing holds",
+    "all 55 published URLs",
+    "main unchanged"
+  ],
+  "limits": "Historical source byte preserved in local archive, current official campaign photo and actual SKU/shade mapping still not independently validated; cannot claim full sales completion.",
+  "pending": "One fifth genuinely distinct official authenticated image role required, plus current source/shade/product photography sign-off",
+  "excel_shared": false
+}
