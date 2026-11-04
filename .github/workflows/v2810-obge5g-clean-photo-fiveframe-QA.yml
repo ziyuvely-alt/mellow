@@ -1,0 +1,31 @@
+name: Shopee v2810 OBgE five source photo QA bundle with clean cutout
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2810-obge5g-clean-photo-fiveframe-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Persist QA five JPGs reusing previous authentic photo and alpha outputs
+        run: |
+          cp scripts/v2810_obge5g_pack_clean_product_fiveframe_QA.py /tmp/v2810.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2810-review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2810-review
+          python /tmp/v2810.py
+          git add qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2810 OBgE clean alpha main and four original brand photos, all retail holds preserved'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
