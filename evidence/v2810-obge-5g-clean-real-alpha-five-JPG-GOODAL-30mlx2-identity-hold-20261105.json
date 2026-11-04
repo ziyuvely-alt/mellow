@@ -1,0 +1,81 @@
+{
+  "version": "v2810",
+  "date": "2026-11-05",
+  "source_checkpoint": "v2807",
+  "actual_successful_runs": [
+    {
+      "version": "v2808",
+      "run_id": 41926841436,
+      "conclusion": "success",
+      "family": "pending-09",
+      "physical_new_JPGs": 5,
+      "physical_transparent_PNGs": 1,
+      "method": "Copied five distinct official gallery reference frames unchanged, generated neural alpha from official 5g compact hero"
+    },
+    {
+      "version": "v2809",
+      "run_id": 41927342570,
+      "conclusion": "success",
+      "family": "pending-09",
+      "physical_new_JPGs": 1,
+      "physical_transparent_PNGs": 1,
+      "method": "Removed light left non-product smear from previous 5g real alpha without clipping tan compact edge; strong product pixels lost 0"
+    },
+    {
+      "version": "v2810",
+      "run_id": 41927638007,
+      "conclusion": "success",
+      "family": "pending-09",
+      "physical_final_QA_JPGs": 5,
+      "physical_transparent_PNGs": 1,
+      "method": "Selected cleaned real alpha as hero; reused four official brand gallery source JPGs SHA unchanged"
+    }
+  ],
+  "latest_QA_branch": "qa-assets/v2662-immutable-14-candidates",
+  "latest_QA_folder": "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD",
+  "photo_technical_QA": {
+    "original_gallery_scene_count": 9,
+    "final_actual_distinct_JPGs": 5,
+    "each_jpg_1080_square": true,
+    "each_under_2MB": true,
+    "main_alpha_cutout_visually_checked": true,
+    "source_copied_four_JPGs_exact_hash_preserved": true
+  },
+  "product_pending_09": {
+    "product": "OBgE Oil Control Finisher 5g",
+    "stage": "FIVE_FRAME_PHOTO_BASED_QA_COMPLETE_RETAIL_HOLD",
+    "final_qa_source_paths": [
+      "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/01-selected-clean-OBgE-5g-real-alpha-hero-QA.jpg",
+      "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/02-original-brand-gallery-unchanged-QA.jpg",
+      "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/03-original-brand-gallery-unchanged-QA.jpg",
+      "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/04-original-brand-gallery-unchanged-QA.jpg",
+      "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/05-original-brand-gallery-unchanged-QA.jpg"
+    ],
+    "remaining_holds": [
+      "Commercial rights for branded promotional photographs and model",
+      "User-owned 5g packaging generation and bundle contents",
+      "Brand claims on informational sources",
+      "Original verified round MK logo absent; do not invent"
+    ]
+  },
+  "product_pending_21": {
+    "product": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+    "stage": "BLOCKED_STOCK_EDITION_AND_SOURCE_SINGLE_UNIT",
+    "old_bad_source_photo": "v2716 partial/clipped tube rejected",
+    "previous_global_404": "https://clubclio.shop/products/goodal-green-tangerine-vita-c-dark-circle-eye-cream",
+    "official_brand_30ml_x2_page": "https://clubclio.co.kr/shop/goodsView/6606",
+    "official_page_is_30ml_times_2_not_standalone": true,
+    "prior_25AD_physical_stock_edition_match_proven": false,
+    "no_new_usable_single_30ml_photo_saved": true,
+    "next": "Only consider truly standalone 30mL exact edition product photograph and rights; do not crop bundle and claim single item, move to next family otherwise"
+  },
+  "preserved": {
+    "approved_existing_product_families": 11,
+    "total_product_families": 41,
+    "published_55_urls_unchanged": true,
+    "previous_QA_unchanged": true,
+    "final_excel_shared": false,
+    "newly_sale_approved_families": 0
+  },
+  "efficiency": "Never redo v2807-v2810 successful OBgE stages; only author follow-up photo rights/stock check or fix distinct new problem"
+}
