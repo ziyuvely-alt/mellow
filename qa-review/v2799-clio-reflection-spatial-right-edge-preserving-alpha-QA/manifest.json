@@ -1,0 +1,48 @@
+{
+  "version": "v2799",
+  "baseline": "v2797",
+  "previous_attempt": "v2798",
+  "previous_v2798_visual_qa": "REJECT_CLIPPED_BOTTOM_RIGHT_CASE",
+  "products_tested": 1,
+  "saved_png_jpg_variant_pairs": 2,
+  "actual_source_1200px_photos_untouched": true,
+  "five_original_official_JPGs_unchanged": true,
+  "all_pixels_at_product_right_edge_unchanged": true,
+  "original_MK_logo_verified": false,
+  "photo_reuse_rights_verified": false,
+  "owned_stock_edition_verified": false,
+  "new_sale_approval": 0,
+  "original_11_approved_families_unchanged": true,
+  "original_55_public_URLs_untouched": true,
+  "final_XLSX_shared": false,
+  "variants": [
+    {
+      "variant": "A-gentle-reflection-tail",
+      "source": "v2797 original transparent cutout, NOT v2798 clipped result",
+      "PNG": "01-A-gentle-reflection-tail-true-alpha-QA.png",
+      "JPG": "01-A-gentle-reflection-tail-1080-QA.jpg",
+      "changed_alpha_pixels": 14335,
+      "source_sha256": "55db3239c2ee1167a1dac222962dc6c8347191ae0c4f4a8eb0a6ada806eb51ea",
+      "output_png_sha256": "c73edfea5bc7161dfb6981fc1dba9ce8ea8ec208589d2f0dc2553582bdd849c1",
+      "output_jpg_sha256": "57659d503558682746f8c09c7bcd1d4675eb0847d96db396bf499a8ff2617f18",
+      "preserved_top_fraction": 0.875,
+      "protected_product_right_fraction": 0.27,
+      "retail_approved": false,
+      "visual_QA": "UNREVIEWED"
+    },
+    {
+      "variant": "B-stronger-lower-left-reflection",
+      "source": "v2797 original transparent cutout, NOT v2798 clipped result",
+      "PNG": "01-B-stronger-lower-left-reflection-true-alpha-QA.png",
+      "JPG": "01-B-stronger-lower-left-reflection-1080-QA.jpg",
+      "changed_alpha_pixels": 18786,
+      "source_sha256": "55db3239c2ee1167a1dac222962dc6c8347191ae0c4f4a8eb0a6ada806eb51ea",
+      "output_png_sha256": "e2b2f799a68e9a6c0f3fd75d81cccb0624ce2465db182e946740dc88f10a0356",
+      "output_jpg_sha256": "09dbfe247b48b50af88f40681ab8edae15032c95648dd278782b76a7f16dea7e",
+      "preserved_top_fraction": 0.85,
+      "protected_product_right_fraction": 0.24,
+      "retail_approved": false,
+      "visual_QA": "UNREVIEWED"
+    }
+  ]
+}
