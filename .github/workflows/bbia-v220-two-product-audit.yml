@@ -1,0 +1,25 @@
+name: BBIA v220 lipstick eyeliner source vs published audit
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v220_two_product_source_audit.py
+      - .github/workflows/bbia-v220-two-product-audit.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Compare official product sources with archived published files
+        run: python scripts/bbia_v220_two_product_source_audit.py --root . --out /tmp/bbia-v220
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: bbia-v220-two-product-authentic-photo-audit
+          path: /tmp/bbia-v220
+          retention-days: 30
+          if-no-files-found: warn
