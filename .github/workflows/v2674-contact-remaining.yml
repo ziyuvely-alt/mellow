@@ -1,0 +1,37 @@
+name: Shopee v2674 twelve unassembled original five-frame families contact QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2674-contact-remaining.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore old 156 real JPEGs in read-only source tree
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Visually stage 12 unprocessed families; preserve preview on isolated QA branch
+        run: |
+          python scripts/v2674_unassembled_source_contact.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2674-archive qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2674-archive/qa-review/v2674-unassembled-family-source-contact
+          cp -a qa-review/v2674-unassembled-family-source-contact /tmp/v2674-archive/qa-review/
+          cd /tmp/v2674-archive
+          git add qa-review/v2674-unassembled-family-source-contact
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2674 contact proof of 12 unprocessed families, source preserved'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
