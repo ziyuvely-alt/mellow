@@ -1,0 +1,33 @@
+name: Shopee v2698 OBGE and GOODAL genuine one-SKU photo evidence batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2698-obge-goodal-source-proof.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Extract only exact official OBGE and standalone GOODAL 30mL product source proof
+        run: |
+          python -m py_compile scripts/v2698_two_product_source_proof.py
+          python scripts/v2698_two_product_source_proof.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2698-review qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2698-review/qa-review/v2698-OBGE-GOODAL-two-source-photo-proof
+          cp -a qa-review/v2698-OBGE-GOODAL-two-source-photo-proof /tmp/v2698-review/qa-review/
+          cd /tmp/v2698-review
+          git add qa-review/v2698-OBGE-GOODAL-two-source-photo-proof
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2698 two product source galleries staged for nonpublic visual product-edition QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
