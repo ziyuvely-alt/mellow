@@ -1,0 +1,32 @@
+name: Shopee v2741 high-native-pixel first-party OBGE 5g product photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2741-obge-5g-firstparty-highres-gallery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Save original-manufacturer only native-resolution OBGE 5g QA references
+        run: |
+          python scripts/v2741_obge_finisher_firstparty_native_highres.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2741-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2741-qa/qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA
+          cp -a qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA /tmp/v2741-qa/qa-review/
+          cd /tmp/v2741-qa
+          git add qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2741 source high native OBGE finisher 5g manufacturer photos only, no existing artwork changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
