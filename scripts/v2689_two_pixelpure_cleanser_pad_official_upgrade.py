@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""v2689 product-photo first repair for PIXEL PURE pending29/pending30.
+"""v2689 product-photo first repair for PIXEL PURE pending26/pending28.
 Only images linked to each official same-SKU product page can be used.
 Preserve 4/5 previous JPGs byte-for-byte; replace one generic card *only if*
 the fetched genuine product image differs perceptually from 2 preexisting photos.
@@ -20,7 +20,8 @@ PRODUCTS=[
   'expected_title':'젤투폼 클렌저','correct_volume':'145ml'},
  {'family':'pending-28','page':'https://pixelpure.com/product/detail.html?product_no=23',
   'expected_title':'클렌징 세럼 패드','correct_volume':'70매'},
-]def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
+]
+def h(p):return hashlib.sha256(p.read_bytes()).hexdigest()
 def dhash(im):
  p=list(ImageOps.grayscale(im.resize((9,8),Image.Resampling.LANCZOS)).getdata())
  return sum(1<<(y*8+x) for y in range(8) for x in range(8) if p[y*9+x]>p[y*9+x+1])
