@@ -1,0 +1,44 @@
+{
+  "version": "v2676",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum 30 mL",
+  "old_real_JPGs_preserved": 4,
+  "new_safe_fact_JPGs": 1,
+  "total_JPGs": 5,
+  "release_status": "HOLD_PHOTO_RIGHTS_STOCK_EDITION_LATEST_V2647",
+  "approved_11_products_untouched": true,
+  "existing_55_URLs_untouched": true,
+  "final_spreadsheet_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-original-byte-preserved-QA.jpg",
+      "sha256": "b2254acb47532e0ae5f95a8bf6884fb228a62354b62ec4908f74811ff0e8eaad",
+      "kind": "EXACT_OLD_PHOTO_PRESERVED"
+    },
+    {
+      "slot": 2,
+      "file": "02-original-byte-preserved-QA.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "kind": "EXACT_OLD_PHOTO_PRESERVED"
+    },
+    {
+      "slot": 3,
+      "file": "03-original-byte-preserved-QA.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "kind": "EXACT_OLD_PHOTO_PRESERVED"
+    },
+    {
+      "slot": 4,
+      "file": "04-original-byte-preserved-QA.jpg",
+      "sha256": "ad1f5d5463903b997e1ec870199e6780f4284b0fe23b73977b11c859cd521a5f",
+      "kind": "EXACT_OLD_PHOTO_PRESERVED"
+    },
+    {
+      "slot": 5,
+      "file": "05-net-content-factual-only-QA.jpg",
+      "sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "kind": "NEW_NO_UNVERIFIED_INGREDIENT_CLAIMS"
+    }
+  ]
+}
