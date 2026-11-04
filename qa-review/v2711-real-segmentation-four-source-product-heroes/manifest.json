@@ -1,0 +1,125 @@
+{
+  "version": "v2711",
+  "baseline": "v2710",
+  "candidate_families": 4,
+  "true_segmentation_successes": 4,
+  "actual_new_1080_JPG_crops": 4,
+  "retail_approved_count": 0,
+  "photo_commercial_rights_verified": false,
+  "exact_owned_stock_package_verified": false,
+  "original_MK_logo_authenticated": false,
+  "prior_80_photo_originals_modified": false,
+  "previous_11_retail_approved_families_modified": false,
+  "prior_55_public_urls_changed": false,
+  "final_XLSX_shared": false,
+  "candidates": [
+    {
+      "family": "pending-04",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db",
+      "crop_xyxy": [
+        190,
+        225,
+        890,
+        866
+      ],
+      "segmentation_model": "u2netp",
+      "cutout_pixels_real_source_only": true,
+      "original_MK_badge_region_excluded": true,
+      "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "mask_alpha_coverage": 0.4088,
+      "mask_bbox": [
+        0,
+        95,
+        599,
+        641
+      ],
+      "cutout_PNG": "pending-04/01-real-alpha-segmented-product-QA.png",
+      "white_hero_JPG": "pending-04/01-background-removed-hero-1080-QA.jpg",
+      "JPG_sha256": "06d47ed0fceb91be41878adc5625e02b220e8672f6dd2e4f7de54cdeacff38b1",
+      "JPG_bytes": 93369
+    },
+    {
+      "family": "pending-26",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "64f60881132c4f115a6eaa1e352e347993f897f62bbba9e716ad322548bf2578",
+      "crop_xyxy": [
+        270,
+        225,
+        800,
+        890
+      ],
+      "segmentation_model": "u2netp",
+      "cutout_pixels_real_source_only": true,
+      "original_MK_badge_region_excluded": true,
+      "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "mask_alpha_coverage": 0.2902,
+      "mask_bbox": [
+        184,
+        104,
+        394,
+        665
+      ],
+      "cutout_PNG": "pending-26/01-real-alpha-segmented-product-QA.png",
+      "white_hero_JPG": "pending-26/01-background-removed-hero-1080-QA.jpg",
+      "JPG_sha256": "ca6628be4f901dd3f14a6c1a5b7027579e526a8e839b9f0a42fed064d0dc88dd",
+      "JPG_bytes": 72655
+    },
+    {
+      "family": "pending-25",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "1bd6f7ce257639056cf4c4791184a5260013d670580c0b4369e0c208e780b907",
+      "crop_xyxy": [
+        240,
+        225,
+        845,
+        877
+      ],
+      "segmentation_model": "u2netp",
+      "cutout_pixels_real_source_only": true,
+      "original_MK_badge_region_excluded": true,
+      "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "mask_alpha_coverage": 0.7299,
+      "mask_bbox": [
+        0,
+        66,
+        605,
+        652
+      ],
+      "cutout_PNG": "pending-25/01-real-alpha-segmented-product-QA.png",
+      "white_hero_JPG": "pending-25/01-background-removed-hero-1080-QA.jpg",
+      "JPG_sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+      "JPG_bytes": 202484
+    },
+    {
+      "family": "pending-22",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "8629d1d381fa4e83af5bec4ba2c1e43edbef32c18b28fa6c9518e05c744ff79d",
+      "crop_xyxy": [
+        270,
+        220,
+        802,
+        882
+      ],
+      "segmentation_model": "u2netp",
+      "cutout_pixels_real_source_only": true,
+      "original_MK_badge_region_excluded": true,
+      "status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+      "retail_approved": false,
+      "mask_alpha_coverage": 0.4355,
+      "mask_bbox": [
+        120,
+        63,
+        421,
+        662
+      ],
+      "cutout_PNG": "pending-22/01-real-alpha-segmented-product-QA.png",
+      "white_hero_JPG": "pending-22/01-background-removed-hero-1080-QA.jpg",
+      "JPG_sha256": "ca5add86974ed0306913aa53a82b346e94986ffedb2f37729b921ae86e6e82ea",
+      "JPG_bytes": 70316
+    }
+  ]
+}
