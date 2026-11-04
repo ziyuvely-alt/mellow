@@ -1,0 +1,31 @@
+name: Shopee v2687 last missing PERIPERA six-frame preserved QA references
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2687-peripera-six-QA-reference.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Create single product-family QA reference set from exactly six existing JPGs
+        run: |
+          cp scripts/v2687_peripera_six_reference_set.py /tmp/v2687.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2687-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2687-qa
+          python /tmp/v2687.py
+          git add qa-review/v2687-peripera-six-frame-reference-QA-NOT-FOR-UPLOAD
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2687 preserve Peripera 6 frame historical reference QA set, hold commercial release'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
