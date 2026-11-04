@@ -1,0 +1,33 @@
+name: Shopee v2700 MISSHA Moist Up genuine regional product photo QA source
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2700-missha-moist-up-regional-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Acquire one exact Magic Cushion Moist Up 21-23 regional catalog source without edition substitution
+        run: |
+          python -m py_compile scripts/v2700_missha_moistup_regional_source.py
+          python scripts/v2700_missha_moistup_regional_source.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2700-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2700-qa/qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs
+          cp -a qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs /tmp/v2700-qa/qa-review/
+          cd /tmp/v2700-qa
+          git add qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2700 gather genuine MISSHA Magic Cushion Moist Up regional 21-23 photo candidates for visual generation QA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
