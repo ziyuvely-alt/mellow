@@ -1,0 +1,20 @@
+name: BBIA v271 three mini source-backed packshots
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v271_three_mini_qa.py, .github/workflows/bbia-v271-three-mini-qa.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - run: python scripts/bbia_v271_three_mini_qa.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v271-three-new-mini-qa-jpg-with-originals
+          path: /tmp/bbia-v271
+          retention-days: 30
