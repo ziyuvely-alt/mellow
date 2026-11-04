@@ -1,0 +1,40 @@
+{
+  "version": "v200",
+  "date": "2026-11-04",
+  "previous": "v199 finger puff 2 JPG",
+  "new_jpg": 3,
+  "products": [
+    {
+      "goodsNo": "239",
+      "name": "Ready To Wear Downy Cheek",
+      "photo": "batch/239/photo-5.png",
+      "scene": "distinct second model photo",
+      "count": 1,
+      "previous_untouched": "v179 3 scenes"
+    },
+    {
+      "goodsNo": "207",
+      "name": "Never Die Brush Eyeliner",
+      "photos": [
+        "batch/207/photo-2.png",
+        "batch/207/photo-5.png"
+      ],
+      "scenes": [
+        "product portrait",
+        "brush tip detail"
+      ],
+      "count": 2,
+      "previous_untouched": "v179 one product photo"
+    }
+  ],
+  "zip": "BBIA_v200_3_NEW_DOWNY_CHEEK_NEVER_DIE_BRUSH_EN_QA_PENDING.zip",
+  "contact": "BBIA_v200_THREE_NEW_EN_PHOTOS_CONTACT.jpg",
+  "manifest": "BBIA_v200_NEW_THREE_MANIFEST.json",
+  "technical": "3 JPG 1080x1080 each <2MB, source/output sha256 logged, ZIP CRC valid",
+  "status": "QA_PENDING",
+  "sales_approved": 0,
+  "existing_assets_modified": false,
+  "live_55_urls_modified": false,
+  "excel_shared": false,
+  "next": "Do not regenerate v200. Continue with other missing distinct roles. Current official package/variant authentication outstanding."
+}
