@@ -1,0 +1,32 @@
+name: Shopee v2805 clean two GOODAL closeups without cropped marketing text
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2805-goodal-alpha-two-clean-photo-crops.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  revise:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Preserve three physical jpg hashes and fix two authentic photographic closeups
+        run: |
+          cp scripts/v2805_goodal_two_clean_source_crops.py /tmp/v2805.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2805-review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2805-review
+          python /tmp/v2805.py
+          test -f qa-review/v2805-goodal-alpha-open-jar-cream-texture-clean-crops-QA/manifest.json
+          git add qa-review/v2805-goodal-alpha-open-jar-cream-texture-clean-crops-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2805 actual original photo text-free GOODAL detail recrops preserve 3 prior jpgs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
