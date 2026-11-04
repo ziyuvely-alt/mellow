@@ -1,0 +1,28 @@
+name: Shopee v2820 Lila CLIO 5g 21N true variant-photo verification
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2820-Lila-clio-21N-source.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: pip install Pillow requests
+      - name: Retrieve only exact 21N variant-linked photo and store QA reference
+        run: |
+          python scripts/v2820_lila_clio_21N_exact_variant_photo.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2820-qa qa-assets/v2662-immutable-14-candidates
+          cp -a qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence /tmp/v2820-qa/qa-review/
+          cd /tmp/v2820-qa
+          git add qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2820 Lila 21N mini 5g exact variant source image check, 23N images immutable'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
