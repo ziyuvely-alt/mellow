@@ -1,0 +1,31 @@
+{
+  "version": "v2720",
+  "date": "2026-11-05",
+  "baseline": "v2719",
+  "successful_run": 41861146012,
+  "qa_folder": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts",
+  "results": [
+    {
+      "family": "pending-02",
+      "actual_png_and_JPG_saved": true,
+      "visual": "HOLD_DUAL_COMPACT_PLUS_BOX",
+      "reason": "Clear cutout of open compact plus retail box, but exact current stock set/options generation unproven"
+    },
+    {
+      "family": "pending-23",
+      "actual_png_and_JPG_saved": true,
+      "visual": "QA_CANDIDATE_BOTTOM_EDGE_HOLD",
+      "reason": "OBgE Pore Zero sunscreen 50mL white tube clean cutout, end of tube near bottom margin; verify stock edition"
+    }
+  ],
+  "actual_pairs_saved": 2,
+  "new_sale_approvals": 0,
+  "prior_11_sale_families_unchanged": true,
+  "prior_55_public_urls_unchanged": true,
+  "original_source_JPGs_unchanged": true,
+  "original_MK_logo_verified": false,
+  "photo_redistribution_rights_verified": false,
+  "stock_edition_proven": false,
+  "final_spreadsheet_shared": false,
+  "next": "New unsegmented pending17 pending19 pending20 original reference photo selection in one batch; avoid redoing prior product families"
+}
