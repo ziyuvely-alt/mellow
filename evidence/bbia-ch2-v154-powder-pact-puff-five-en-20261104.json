@@ -1,0 +1,33 @@
+{
+  "schema": "bbia_ch2_v154_powder_pact_puff_en_bundle",
+  "date": "2026-11-04",
+  "product_id": "1000000200",
+  "official_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000200",
+  "official_verified": "2P product quantity, product code",
+  "new_versioned_JPG_count": 3,
+  "previous_jpg_reused_unchanged": 2,
+  "full_storyboard_candidate_count": 5,
+  "new_files": [
+    "01_STUDIO_WITH_CONTENTS_DISCLAIMER_EN_v154_QA_PENDING.jpg",
+    "04_STRAP_MACRO_EN_v154_QA_PENDING.jpg",
+    "05_SET_CONTENTS_2P_EN_v154_QA_PENDING.jpg"
+  ],
+  "previous_reused": [
+    "EAU_POWDER_PACT_PUFF_EN_DETAIL_v150_QA_PENDING.jpg",
+    "EAU_POWDER_PACT_PUFF_PRODUCT_EN_v152_QA_PENDING.jpg"
+  ],
+  "output": "BBIA_v154_POWDER_PACT_PUFF_5_EN_CANDIDATES_QA_PENDING.zip",
+  "output_contact": "BBIA_v154_POWDER_PACT_PUFF_5_FRAME_CONTACT.jpg",
+  "safety_repair": "Existing hero showed powder compact next to puff, which is not 2P puff bundle content. New variant overlays explicit COMPACT SHOWN FOR CONTEXT. NOT INCLUDED. Original hero left untouched.",
+  "technical_qa": "5 JPEGs at 1080x1080, less than 2MB, ZIP CRC valid",
+  "official_photo_pixel_proof": "NOT_INDEPENDENTLY_VERIFIED",
+  "visual_qa": "candidate only; some older 2/3 detail scenes similar, not final editorial approval",
+  "sales_approved": 0,
+  "translation_started": false,
+  "immutable": [
+    "v150-v153 original JPG and ZIP assets",
+    "v147 125 JPG assets",
+    "55 published URLs"
+  ],
+  "next_action": "Do not redo 3 new v154 JPGs. Match actual official source photograph pixels and distinct page roles before final EN approval; meanwhile advance to next product-family missing frames."
+}
