@@ -1,0 +1,53 @@
+name: Shopee v2560 selective staging six candidates with 150 original JPGs byte preserved
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2560_selectively_stage_six_photo_candidate_jpgs.py'
+      - '.github/workflows/v2560-six-selective-image-qa.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  isolated-review-pack:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore original immutable v2548 156 JPG corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41715911900 -n shopee-v2548-156-JPG-Pixelpure-Aura-Serum-2real-scenes-QA -D v2560-baseline
+      - name: Restore preserved Goodal eye candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41751173910 -n shopee-v2552-goodal-21-slot05-distinct-real-photo-QA-no-XLSX -D v2560-staged/goodal21
+      - name: Restore preserved DrG old cream candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752270122 -n shopee-v2555-DrG-pending16-old-70ml-package-photo-QA-no-XLSX -D v2560-staged/drg16
+      - name: Restore preserved DrG sunscreen candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752451326 -n shopee-v2556-pending15-green-mild-new-photo-application-JPG-QA-no-XLSX -D v2560-staged/drg15
+      - name: Restore Pixelpure exact 145ml candidate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41752643604 -n shopee-v2557-pixelpure-pending26-official145-only-photo-QA-no-XLSX -D v2560-staged/pixelpure26
+      - name: Restore two new MISSHA and Goodal candidate JPGs
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753049285 -n shopee-v2559-MISSHA-Goodal-2-photo-info-candidates-no-XLSX -D v2560-staged/missha-goodal
+      - name: Assemble isolated 156 JPG review copy and prove 150 unchanged SHA
+        run: python scripts/v2560_selectively_stage_six_photo_candidate_jpgs.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX
+          path: v2560-six-selective-QA-only-corpus/
+          retention-days: 90
+          if-no-files-found: error
