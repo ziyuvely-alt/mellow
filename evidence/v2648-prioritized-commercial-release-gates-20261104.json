@@ -1,0 +1,89 @@
+{
+  "version": "v2648",
+  "date": "2026-11-04",
+  "baseline": "v2647",
+  "purpose": "Release blockers prioritized without regenerating completed photos",
+  "baseline_provenance": "evidence/latest-qa-checkpoint-v2647-four-distinct-real-photo-detail-crops-20261104.json",
+  "qa_archive": {
+    "families": 30,
+    "jpg": 156,
+    "source_available_in_this_session": false,
+    "physical_archive_verified_in_this_session": false
+  },
+  "preserved": {
+    "previously_approved_families": 11,
+    "published_verified_urls": 55,
+    "previous_approved_assets_mutated": false
+  },
+  "no_repeat": [
+    {
+      "family": "pending-07",
+      "slot": 3
+    },
+    {
+      "family": "pending-09",
+      "slot": 2
+    },
+    {
+      "family": "pending-27",
+      "slot": 5
+    },
+    {
+      "family": "pending-28",
+      "slot": 2
+    }
+  ],
+  "blockers": [
+    {
+      "family": "pending-05",
+      "product": "CLIO Founwear cushion promo",
+      "status": "HOLD_EDITION",
+      "next_action": "Confirm exact owned-stock generation and included promo items before retouching frame 01/05",
+      "evidence": "evidence/v2554-clio-three-family-edition-and-kit-release-gates-20261104.json"
+    },
+    {
+      "family": "pending-06",
+      "product": "CLIO Mesh Glow Essential",
+      "status": "HOLD_KIT_AND_REPETITION",
+      "next_action": "Check physical carton/re-fill/puff contents, then replace repetitive 01/05 using distinct permitted actual-product photographs",
+      "evidence": "evidence/v2554-clio-three-family-edition-and-kit-release-gates-20261104.json"
+    },
+    {
+      "family": "pending-07",
+      "product": "CLIO Mesh Blur cushion",
+      "status": "HOLD_KIT_AND_REPETITION",
+      "next_action": "Preserve corrected slot03; verify box then compare 01/04 frames for replacement",
+      "evidence": "evidence/v2554-clio-three-family-edition-and-kit-release-gates-20261104.json"
+    },
+    {
+      "family": "pending-08",
+      "product": "PERIPERA Mood Glowy Tint",
+      "status": "HOLD_26AD_GENERATION",
+      "next_action": "Preserve shades 001-020; 014 reference name is 로지위시; confirm 26AD stock and licensed official chart",
+      "evidence": "evidence/v2569-peripera-004-006-007-014-naming-verified-20261104.json"
+    },
+    {
+      "family": "pending-12",
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "status": "HOLD_15G_VS_15ML",
+      "next_action": "Official 15 mL is documented but actual 15G inventory carton unverified; do not silently change inventory",
+      "evidence": "evidence/v2594-missha-pdrn-renew-peel-shot25-official-15ml-versus-stock-15G-20261104.json"
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gel to Foam Cleanser",
+      "status": "HOLD_145_VS_150ML",
+      "next_action": "Quarantine all 150 mL gallery photos; only 145mL photo 01 remains QA-only pending rights and edition proof",
+      "evidence": "evidence/v2533b-pixelpure-official-145ml-vs-150ml-source-photo-visual-quarantine-20261104.json"
+    }
+  ],
+  "global_release_gates": [
+    "Actual physical stock edition and contents verified",
+    "Commercial reuse authorization for source photography verified",
+    "Original approved MK logo asset available",
+    "Final human sales QA passed",
+    "Public links validated only after release"
+  ],
+  "next_lane": "For unblocked families with existing authentic photos, perform distinct-scene visual comparison and exact-volume cross-check, not wholesale regeneration",
+  "output_policy": "Do not share unfinished spreadsheet or publish QA images as approved."
+}
