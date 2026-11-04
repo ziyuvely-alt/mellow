@@ -1,0 +1,35 @@
+name: Shopee v2812 GOODAL one actual 30mL bottle alpha extraction
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2812-goodal-single-30ml-real-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  segment:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install actual segmentation
+        run: python -m pip install Pillow numpy opencv-python-headless 'rembg[cpu]==2.0.67'
+      - name: One new product-only 30mL actual alpha mask from v2811 image 03, no old failed source
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          cp scripts/v2812_goodal_eyecream_one_tube_real_alpha.py /tmp/v2812.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2812-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2812-qa/qa-review/v2812-goodal-standalone-eyecream-single-tube-true-alpha
+          cd /tmp/v2812-qa
+          python /tmp/v2812.py
+          git add qa-review/v2812-goodal-standalone-eyecream-single-tube-true-alpha
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2812 one real GOODAL standalone 30mL background removal from new exact product photo'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
