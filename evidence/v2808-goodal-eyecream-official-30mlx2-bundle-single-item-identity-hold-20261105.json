@@ -1,0 +1,27 @@
+{
+  "version": "v2808-source-identity-check",
+  "date": "2026-11-05",
+  "baseline": "v2807",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+  "official_korean_brand_product_page": "https://clubclio.co.kr/shop/goodsView/6606",
+  "official_korean_listing_title": "[30ml+30ml] 청귤 비타C 다크서클 아이크림 기획",
+  "official_korean_listing_quantity": "30mL x 2 pieces; total 60mL bundle",
+  "original_failed_global_product_url": "https://clubclio.shop/products/goodal-green-tangerine-vita-c-dark-circle-eye-cream",
+  "original_global_fetch_result": "404_NOT_FOUND",
+  "conclusion": "OFFICIAL_6606_BUNDLE_IS_NOT_PROOF_OF_INDIVIDUAL_30ML_SALE_UNIT",
+  "previous_rejected_sources": [
+    "v2716 slot02 clipped eye-cream tube",
+    "v2715 mask failed on thin tube"
+  ],
+  "decision": "HOLD_STOCK_EDITION_25AD_SINGLE_PIECE_AND_PRODUCT_PHOTO_PERMISSION",
+  "reference_only_no_customer_publishing": true,
+  "do_not_crop_bundle_into_fake_single_photo": true,
+  "do_not_repeat_404_global_url": true,
+  "exact_owned_stock_25AD_packaging_confirmed": false,
+  "previous_11_approved_families_unchanged": true,
+  "previous_55_public_urls_unchanged": true,
+  "retail_approved": false,
+  "next": "Authentic original photographed standalone 30mL eye tube with same stock generation and commercial photo rights, otherwise remain HOLD; proceed to other family",
+  "final_spreadsheet_shared": false
+}
