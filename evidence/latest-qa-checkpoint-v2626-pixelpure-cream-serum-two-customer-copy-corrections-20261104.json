@@ -1,0 +1,37 @@
+{
+  "version": "v2626",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_checkpoint": "v2625",
+  "source_qa_zip": "Shopee_v2625_156JPG_PIXELPURE_3_customer_copy_fixes_QA_ONLY.zip",
+  "current_qa_zip": "Shopee_v2626_156JPG_PIXELPURE_2_captions_corrected_QA_ONLY.zip",
+  "comparison_image": "v2626_pixelpure_two_copy_repairs_QA/before_after_pixelpure_two_copy_fixes.jpg",
+  "total_jpg": 156,
+  "changed_jpg": 2,
+  "sha256_identical_other_jpg": 154,
+  "changes": [
+    {
+      "family": "pending-29",
+      "slot": 3,
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50 mL",
+      "old_internal_text": "The original jar and cream",
+      "new_customer_copy": "RADIANCE AQUA SOOTHING CREAM | 50 mL"
+    },
+    {
+      "family": "pending-30",
+      "slot": 5,
+      "product": "PIXEL PURE Aura Radiance Serum 50 mL",
+      "old_internal_text": "The original PIXELPURE bottle design",
+      "new_customer_copy": "AURA RADIANCE SERUM | 50 mL"
+    }
+  ],
+  "photo_area_recreated": false,
+  "commercial_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_round_MK_logo_binary_verified": false,
+  "sales_approved": false,
+  "approved_11_product_families_untouched": true,
+  "previous_55_verified_public_urls_modified": 0,
+  "final_spreadsheet_created_or_shared": false,
+  "next": "Use v2626 156-JPG review ZIP as latest success. Do not repeat v2625/v2626 PIXEL PURE wording changes. Inspect distinct real product photos and claims in other families, do not substitute photos without SKU match or rights. Original MK logo and final sales approval remain HOLD."
+}
