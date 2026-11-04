@@ -1,0 +1,59 @@
+{
+  "version": "v2642",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "baseline": "v2641",
+  "latest_zip": "/mnt/data/Shopee_v2642_156JPG_3_real_hero_replacements_QA_ONLY.zip",
+  "visual_comparison": "/mnt/data/v2642_three_hero_156_QA/before_after_3_heroes.jpg",
+  "script": "/mnt/data/v2642_make_three_heroes.py",
+  "result": {
+    "review_family_count": 30,
+    "jpg_count": 156,
+    "changed": 3,
+    "unchanged_SHA256_count": 153,
+    "jpg_dimensions": "1080x1080",
+    "all_under_2MB": true,
+    "zip_integrity_pass": true
+  },
+  "actual_changes": [
+    {
+      "family": "pending-02",
+      "slot": 1,
+      "product": "MISSHA Magic Cushion Moist Up",
+      "original_source_slot": 2,
+      "stock_options": "No21/No23",
+      "new": "Real product cushion and packaging photo-first hero; remove text-only SPF card; no invented shade swatches"
+    },
+    {
+      "family": "pending-06",
+      "slot": 1,
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion Set",
+      "original_source_slot": 4,
+      "new": "Actual pink cushion close-up replaces text-only MESH GLOW card, existing source copy cropped cleanly"
+    },
+    {
+      "family": "pending-21",
+      "slot": 1,
+      "product": "Goodal Green Tangerine Vita C Eye Cream 30mL",
+      "original_source_slot": 3,
+      "new": "Actual 30 mL eye-cream tube and texture photo replaces generic HOW TO USE card"
+    }
+  ],
+  "rejected_or_held": [
+    {
+      "family": "pending-05",
+      "reason": "CLIO Founwear product edition/purchased stock THE ORIGINAL identity not verified; no photo substitution"
+    }
+  ],
+  "safeguards": {
+    "prior_11_approved_product_families_untouched": true,
+    "existing_55_public_verified_URLs_unchanged": true,
+    "existing_prior_v2641_zip_preserved": true,
+    "final_excel_spreadsheet_created_or_shared": false,
+    "commercial_photo_reuse_permission_verified": false,
+    "physical_owned_stock_edition_verified": false,
+    "authentic_original_round_MK_logo_verified": false,
+    "commercial_release_granted": false
+  },
+  "next": "Resume from v2642 complete 156 JPG QA archive. Do not regenerate slots pending-02/01, pending-06/01 or pending-21/01. Prioritize license and authentic original MK logo, physical stock packaging, and remaining sales-release QA. Do not publish protected 55 URLs or final XLSX."
+}
