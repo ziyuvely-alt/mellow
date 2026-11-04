@@ -1,0 +1,21 @@
+{
+  "checkpoint": "v327",
+  "parent": "v326",
+  "goodsNo": "1000000056",
+  "actual_output": {
+    "new_png": "/mnt/data/bbia_v327/BBIA_1000000056_BRUSH_WHITE_DEMATTED_ALPHA_v327_QA_PENDING.png",
+    "new_png_sha256": "6dc85b054797cfa18e2585e00de00011bbd2ae069eb11099dafb872a195db628",
+    "new_jpg": "/mnt/data/bbia_v327/BBIA_1000000056_BRUSH_DEMATTED_HERO_v327_QA_PENDING.jpg",
+    "new_jpg_sha256": "bca64f615ceb3f6e22c3ed85e67702b765fb29867fe3b523562986baa689d52c",
+    "zip": "/mnt/data/bbia_v327/BBIA_v327_BRUSH_DEMATTE_QA_PENDING.zip",
+    "zip_sha256": "32ba8ef61e6e65ffa364cb5d64163e9e0aba669232cb9f94003a4d2cfa559902",
+    "contact": "/mnt/data/bbia_v327/BBIA_v327_BRUSH_OLD_NEW_BRIGHT_DARK_QA.jpg",
+    "zip_crc": "PASS"
+  },
+  "actual_qa": "Manual compared bright and charcoal background; v327 color-dematting reduces white fringe but brush becomes too faint on dark background and lacks native detail at upscale. Rejected for sales, no more retry of similar alpha/matte techniques.",
+  "status": "REJECTED_FOR_SALES_RETATIN_QA_EVIDENCE",
+  "existing_v325_v326_changed": false,
+  "existing_55_public_urls_unchanged": true,
+  "final_excel_shared": false,
+  "next": "Move to other source imagery and families, not repeat mascara bristle threshold or white dematting."
+}
