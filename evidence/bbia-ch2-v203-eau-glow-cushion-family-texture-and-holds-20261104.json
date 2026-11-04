@@ -1,0 +1,27 @@
+{
+  "version": "v203",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v202 Rubycell Puff 1 new photo and 3 cross-family photo holds. Previous JPEGs, ZIPs and 55 live URLs preserved.",
+  "product": "BBIA Eau Glow Cushion Mini",
+  "goodsNo": "1000000120",
+  "new_english_jpg_count": 1,
+  "image_file": "BBIA_v203_EAU_GLOW_FAMILY_CUSHION_TEXTURE_EN_QA_PENDING.jpg",
+  "zip": "BBIA_v203_GLOW_CUSHION_FAMILY_TEXTURE_NEW_EN_QA_PENDING.zip",
+  "manifest": "BBIA_v203_SOURCE_AND_HOLD_MANIFEST.json",
+  "reproduction_script": "v203_glow_mini_texture_and_audit.py",
+  "source_photo": "batch/1000000120/photo-3.png",
+  "source_sha256": "e3d72f32dc61994448068270dcda71298a9e9464f75774465dba4607273de8b9",
+  "role": "Cushion texture photograph only. NOT proof of the MINI's packaging, contents, puff size, or shade.",
+  "technical": "One new 1080×1080 JPG 199219 bytes. ZIP CRC pass. Final image visually reviewed.",
+  "selective_qa_fix": "Initial new JPEG retained Korean pigment caption from source. Re-cropped only v203 new image and regenerated only v203 archive. Prior files not modified.",
+  "source_holds": [
+    "photo-2.png is an open regular-looking compact, not mini packaging proof",
+    "photo-4.png contains Korean shade captions; shade mapping unconfirmed",
+    "photo-5.png contains Korean application captions, not mini-only proof"
+  ],
+  "sales_approved": 0,
+  "localization_status": "Not approved for translation",
+  "immutability": "All v147-v202 outputs preserved, existing 55 public URLs preserved, main branch untouched",
+  "no_spreadsheet_shared": true,
+  "next": "Do not regenerate v203. Need product-specific MINI 4g physical package photo and exact current official match before using as SKU hero. Source-photo texture reference is independent from previous model and comparison pictures, but does not constitute a fifth sale-approved frame."
+}
