@@ -1,0 +1,159 @@
+{
+  "version": "v2777",
+  "created_at": "2026-11-05",
+  "project": "Shopee existing stock image 82 SKU / 41 product families",
+  "baseline_committed_success": "v2773",
+  "successful_actual_work": [
+    {
+      "version": "v2774",
+      "qa_commit": "12434413b22eec066373129050145c1424c51dcd",
+      "families": [
+        "pending-24",
+        "pending-25"
+      ],
+      "physical_JPG_refs_in_QA": 10,
+      "source_sha_verified": 10,
+      "hero_visually_opened": true
+    },
+    {
+      "version": "v2775",
+      "qa_commit": "5d8cc1d52502a96c05e4c28b5c99a758452afb9b",
+      "families": [
+        "pending-16",
+        "pending-22",
+        "pending-27",
+        "pending-28"
+      ],
+      "physical_JPG_refs_in_QA": 20,
+      "source_sha_verified": 20,
+      "hero_visually_opened": true
+    },
+    {
+      "version": "v2776",
+      "qa_commit": "569e88285d3a3812f6d613bbeedee7a90e18f658",
+      "families": [
+        "pending-23",
+        "pending-26",
+        "pending-29",
+        "pending-30"
+      ],
+      "physical_JPG_refs_in_QA": 20,
+      "source_sha_verified": 20,
+      "hero_visually_opened": true
+    }
+  ],
+  "historical_source_sets_already_present": {
+    "version": "v2772",
+    "families": [
+      "pending-09",
+      "pending-21"
+    ],
+    "qa_commit": "b499f315ecf0dc708696a855a7e117cb5752911d",
+    "source_reused_JPGs": 10
+  },
+  "updated_qa_photo_first_groups_total_from_v2772": 12,
+  "updated_qa_photo_first_groups_v2774_to_v2776": 10,
+  "verified_JPG_refs_v2774_to_v2776": 50,
+  "new_image_pixels_rendered_in_v2774_to_v2776": 0,
+  "verified_families_pending": [
+    {
+      "family": "pending-16",
+      "qa_version": "v2775",
+      "product": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+      "hero": "visual_pass_product_whole",
+      "release": "HOLD rights, logo and owned stock edition"
+    },
+    {
+      "family": "pending-22",
+      "qa_version": "v2775",
+      "product": "OBgE Max Waterful Sun Cream 300mL",
+      "hero": "visual_pass_pump_bottle_whole",
+      "release": "HOLD source rights and actual 300mL packaging"
+    },
+    {
+      "family": "pending-23",
+      "qa_version": "v2776",
+      "product": "OBgE Pore Zero Oil Control Sun Cream",
+      "hero": "visual_pass_tube_whole",
+      "release": "HOLD physical 50mL pack and rights"
+    },
+    {
+      "family": "pending-24",
+      "qa_version": "v2774",
+      "product": "BIOHEAL BOH NAD Glow Power Serum 30mL",
+      "hero": "visual_pass_red_bottle_whole",
+      "release": "HOLD marketing rights and owned SKU"
+    },
+    {
+      "family": "pending-25",
+      "qa_version": "v2774",
+      "product": "BIOHEAL BOH NAD Glow Boost Cream 50mL",
+      "hero": "visual_pass_red_jar_whole",
+      "release": "HOLD marketing rights and owned SKU"
+    },
+    {
+      "family": "pending-26",
+      "qa_version": "v2776",
+      "product": "PIXEL PURE Gel-to-Foam Cleanser 145mL",
+      "hero": "visual_pass_145ml_bottle",
+      "release": "HOLD licensed photos and stock; do not substitute 150mL"
+    },
+    {
+      "family": "pending-27",
+      "qa_version": "v2775",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "hero": "visual_pass_pink_bottle",
+      "release": "HOLD photo license and owned stock"
+    },
+    {
+      "family": "pending-28",
+      "qa_version": "v2775",
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 70pads/210mL",
+      "hero": "visual_pass_pink_tub",
+      "release": "HOLD source rights and native edge detailed check"
+    },
+    {
+      "family": "pending-29",
+      "qa_version": "v2776",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "hero": "visual_pass_jar_whole",
+      "release": "HOLD source rights and exact inventory package"
+    },
+    {
+      "family": "pending-30",
+      "qa_version": "v2776",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "hero": "visual_pass_pink_serum",
+      "release": "HOLD source rights and owned stock"
+    }
+  ],
+  "qa_gates": {
+    "historical_frames_02_to_05_old_MK_badge_verified": false,
+    "licensed_redistribution_or_model_usage_verified": false,
+    "exact_user_owned_product_generation_verified": false,
+    "image_title_and_shade_generation_final_QA": false,
+    "newly_retail_approved_product_families": 0,
+    "total_retail_approved_product_families_unchanged": 11,
+    "total_product_families": 41,
+    "pending_product_families": 30
+  },
+  "protected": {
+    "previous_approved_11_families_untouched": true,
+    "previous_55_published_URLs_unchanged": true,
+    "previously_created_QA_photographs_not_reencoded": true,
+    "GitHub_public_image_deployment_not_triggered": true,
+    "final_XLSX_or_spreadsheet_not_shared": true
+  },
+  "actual_output_locations": [
+    "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA",
+    "qa-review/v2775-four-photo-first-fiveframe-product-QA",
+    "qa-review/v2776-four-source-photo-first-fiveframe-QA"
+  ],
+  "next_work_order": [
+    "Prioritize exact owned inventory package/volume comparison for 10 newly photo-first groups; do not call automatic retail approval.",
+    "Photo/model rights and authentic original MK logo must be confirmed before removing/replacing old badge or publishing.",
+    "Treat photo copies as 5-scene candidate sequences not as 5 independent newly rendered assets.",
+    "Do not repeat product image re-rendering for v2774-v2776 groups; only improve hold factors with verified photos/rights and true brand assets.",
+    "Continue remaining pending families only with new value (valid source, real frame correction, or clearance)."
+  ]
+}
