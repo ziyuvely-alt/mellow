@@ -1,0 +1,27 @@
+{
+  "schema": "bbia_ch2_v179b_additional_last_blush",
+  "date": "2026-11-04",
+  "prior_same_turn": "v179: 6 new EN candidates from 1000000125,239,207",
+  "new_group": "BBIA Last Blush",
+  "goodsNo": "188",
+  "source_asset": "BBIA_Cutout_Progress_20261030.zip",
+  "new_english_JPG": 2,
+  "src_photos": [
+    "batch/188/photo-3.png (crop bottom and remove embedded Korean headline)",
+    "batch/188/photo-4.png campaign model photo"
+  ],
+  "output_zip": "BBIA_v179b_LAST_BLUSH_2_NEW_EN_QA_PENDING.zip",
+  "contact": "BBIA_v179b_LAST_BLUSH_2_EN_CONTACT.jpg",
+  "manifest": "v179b_last_blush_EN/MANIFEST_v179b.json",
+  "technical": "2 JPG 1080x1080 under 2MB, ZIP CRC passed; SHA256 and crop logged",
+  "review": "Framing improved; photographed product and model distinct; but visual aesthetics still a candidate and exact official photo/shade pixels not yet checked. Model scene is not attributed to any specific shade.",
+  "combined_new_this_turn": 8,
+  "approved_sales": 0,
+  "translations": 0,
+  "immutable": [
+    "v147 125 originals",
+    "prior v150-v178 files",
+    "55 public URLs"
+  ],
+  "next": "Do not redo v179 or v179b total 8 images. Continue unworked families with actual source photo, but prioritize correcting remaining photo provenance before releasing as sales-ready. Do not share any final Excel."
+}
