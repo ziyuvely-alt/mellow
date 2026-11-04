@@ -1,0 +1,33 @@
+name: Shopee v2586 append one official 300ml photo to twelve QA deltas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2586_append_300ml_photo_to_12_delta_checkpoint.py'
+      - '.github/workflows/v2586-thirteen-delta-checkpoint.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  metadata-only-checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Reuse prior twelve-change manifest and one photo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41762993639 -n shopee-v2584-twelve-QA-delta-provenance-and-one-new-JPG-no-XLSX -D v2586-prior
+      - name: Reuse new official 300ml candidate image and its original validation
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763143287 -n shopee-v2585-OBGE-300ml-official-real-photo-QA-no-XLSX -D v2586-new
+      - name: Append new validated image and retain twelve previous SHA records
+        run: python scripts/v2586_append_300ml_photo_to_12_delta_checkpoint.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2586-thirteen-delta-OBGE-300ml-provenance-QA-no-XLSX
+          path: v2586-thirteen-incremental-photo-checkpoint/
+          retention-days: 90
+          if-no-files-found: error
