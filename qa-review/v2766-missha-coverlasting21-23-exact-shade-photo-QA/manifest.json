@@ -1,0 +1,89 @@
+{
+  "version": "v2766",
+  "baseline": "v2765",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "family": "pending-01",
+  "option_inventory": [
+    21,
+    23,
+    25,
+    27
+  ],
+  "shade21_photo_candidates": 1,
+  "shade23_photo_candidates": 3,
+  "shade25_verified_photo_candidates": 0,
+  "shade27_verified_photo_candidates": 0,
+  "shade25_27_status": "HOLD_NO_IN_THIS_BATCH_VERIFIED_OPTION_PHOTOS",
+  "mixed_21_23_source_QUARANTINED_AS_REFERENCE": true,
+  "nonshade_factual_card_QUARANTINED_AS_REFERENCE": true,
+  "distinct_real_per_shade_5_photo_sets_complete": false,
+  "all_existing_QA_photo_pixels_unchanged": true,
+  "new_image_generation": false,
+  "prior_11_retail_families_unchanged": true,
+  "prior_55_public_urls_unchanged": true,
+  "stock_edition_rights_MK_logo_still_held": true,
+  "new_retail_approved": 0,
+  "final_spreadsheet_shared": false,
+  "staged_files": [
+    {
+      "exact_shade_scope": "21",
+      "role": "BOX_PLUS_COMPACT_SHADE_21",
+      "image_file": "shade-21/01-box_plus_compact_shade_21-QA.jpg",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/01-prior-original-byte-identical-QA.jpg",
+      "SHA256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+      "source_bytes_unchanged": true,
+      "shade_specific": true,
+      "retail_approved": false
+    },
+    {
+      "exact_shade_scope": "23",
+      "role": "ACTUAL_ALPHA_QA_HERO_SHADE_23",
+      "image_file": "shade-23/01-actual_alpha_qa_hero_shade_23-QA.jpg",
+      "source": "qa-review/v2764-two-new-original-source-real-alpha-QA/pending-01/01-clean-real-object-1080-JPG-QA.jpg",
+      "SHA256": "fe5b37270e9d5674414fddb2a872575a460c862bc5518dd1e0eb0c2e4d1a8b82",
+      "source_bytes_unchanged": true,
+      "shade_specific": true,
+      "retail_approved": false
+    },
+    {
+      "exact_shade_scope": "23",
+      "role": "ORIGINAL_BOX_CLOSED_COMPACT_SHADE_23",
+      "image_file": "shade-23/02-original_box_closed_compact_shade_23-QA.jpg",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/02-prior-original-byte-identical-QA.jpg",
+      "SHA256": "ff8367642418f696023d17b3c80f537650d42f015d09df3e760c7c39b432fcd5",
+      "source_bytes_unchanged": true,
+      "shade_specific": true,
+      "retail_approved": false
+    },
+    {
+      "exact_shade_scope": "23",
+      "role": "APPLICATION_GUIDE_REFERENCES_SHADE_23",
+      "image_file": "shade-23/03-application_guide_references_shade_23-QA.jpg",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/05-prior-original-byte-identical-QA.jpg",
+      "SHA256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587",
+      "source_bytes_unchanged": true,
+      "shade_specific": true,
+      "retail_approved": false
+    },
+    {
+      "exact_shade_scope": "mixed_reference",
+      "role": "MIXED_SHADE_21_23_STOCK_REFERENCE_ONLY",
+      "image_file": "mixed_reference/01-mixed_shade_21_23_stock_reference_only-QA.jpg",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/04-prior-original-byte-identical-QA.jpg",
+      "SHA256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83",
+      "source_bytes_unchanged": true,
+      "shade_specific": false,
+      "retail_approved": false
+    },
+    {
+      "exact_shade_scope": "common_info",
+      "role": "GENERIC_CUSHION_FACT_CARD_NOT_SHADE_PROOF",
+      "image_file": "common_info/01-generic_cushion_fact_card_not_shade_proof-QA.jpg",
+      "source": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-01/03-factual-detail-new-QA.jpg",
+      "SHA256": "0f71d777dfe7c9259fc8d4e00b7f4714515d687ff78e2f8aac435162eb18443a",
+      "source_bytes_unchanged": true,
+      "shade_specific": false,
+      "retail_approved": false
+    }
+  ]
+}
