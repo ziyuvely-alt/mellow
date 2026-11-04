@@ -1,0 +1,27 @@
+{
+  "version": "v2562",
+  "source_run": 41753774564,
+  "pending": [
+    {
+      "family": "pending-01",
+      "slots": [
+        3,
+        5
+      ],
+      "product": "MISSHA Cover Lasting",
+      "action": "Preserve unchanged until licensed exact-edition photo available"
+    },
+    {
+      "family": "pending-06",
+      "slots": [
+        1,
+        5
+      ],
+      "product": "CLIO Mesh Glow Essential Cushion",
+      "action": "Preserve unchanged until distinct actual-photo scene available"
+    }
+  ],
+  "new_sales_images": 0,
+  "public_urls_modified": 0,
+  "excel_shared": false
+}
