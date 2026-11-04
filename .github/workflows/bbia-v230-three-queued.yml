@@ -1,0 +1,20 @@
+name: BBIA v230 three queued authentic hero candidates
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths: [scripts/bbia_v230_three_queued.py, .github/workflows/bbia-v230-three-queued.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  three:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Produce remaining three verified source-photo candidates
+        run: python scripts/bbia_v230_three_queued.py --out /tmp/bbia-v230
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v230-three-new-original-photo-jpg
+          path: /tmp/bbia-v230
+          retention-days: 30
