@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-04",
+  "schema": "BBIA_cross_goodsNo_source_photo_reuse_hold",
+  "compared": "All historically archived verified_sources/catalog/*.jpg originals",
+  "duplicate_sha_groups": 2,
+  "affected_goodsNos": [
+    "1000000122",
+    "1000000124"
+  ],
+  "pairs": [
+    [
+      "verified_sources/catalog/1000000122/05.jpg",
+      "verified_sources/catalog/1000000124/03.jpg"
+    ],
+    [
+      "verified_sources/catalog/1000000122/06.jpg",
+      "verified_sources/catalog/1000000124/04.jpg"
+    ]
+  ],
+  "issue": "Full-size Eau Glow Cushion and refill catalog paths have exact duplicate source JPEG bytes. A shared creative image must not be treated as independent package/contents proof for two different products.",
+  "action": "Flag same original photo as product-specific proof HOLD. Do not rewrite or delete any previous asset. Can be reconsidered only as clearly labeled common family campaign reference after verification.",
+  "verified_technical_duplicate": true,
+  "official_current_photo_proof": false,
+  "retained_originals": true,
+  "sales_approval": 0,
+  "next": "Use actual isolated mini, full-size and refill package photography for listing-specific hero; do not infer refills' packaged contents from parent generic creative."
+}
