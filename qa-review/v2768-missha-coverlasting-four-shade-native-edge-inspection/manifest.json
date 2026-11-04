@@ -1,0 +1,122 @@
+{
+  "version": "v2768",
+  "baseline": "v2767",
+  "native_source_alpha_PNGs_opened_and_inspected_technically": 4,
+  "true_1_to_1_edge_crops_saved": 16,
+  "all_photo_original_bytes_unchanged": true,
+  "new_product_pixel_generation": false,
+  "manual_edge_visual_QA_required": true,
+  "existing_11_sale_approved_families_unchanged": true,
+  "existing_55_public_URLs_unchanged": true,
+  "authentic_MK_original_logo_verified": false,
+  "commercial_photo_reuse_license_verified": false,
+  "real_21_23_25_27_stock_edition_verified": false,
+  "new_retail_approvals": 0,
+  "final_XLSX_shared": false,
+  "four_shade_results": [
+    {
+      "shade": "21",
+      "original_source": "qa-review/v2748-missha-coverlasting-21-source01-round-compact-only/01-missha-N21-actual-compact-transparent-QA.png",
+      "original_png_sha256": "f3393f4b03398ff7b7e6768a26016df4b26df3bfbed0c60bd61309f1a59fa152",
+      "source_dimensions": [
+        527,
+        527
+      ],
+      "mask_bbox": [
+        0,
+        0,
+        527,
+        527
+      ],
+      "mask_nontrivial_coverage": 0.77326,
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "object_touches_original_pixel_frame": true,
+      "native_pixel_crops_created": 4,
+      "retail_approved": false,
+      "stock_rights_logo_hold": true
+    },
+    {
+      "shade": "23",
+      "original_source": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa/01-original-pink-compact-N23-transparent-QA.png",
+      "original_png_sha256": "21b28f5b922a1fa342f9699f858a7b06b59815b02dde10ac8f9290aba4f623e4",
+      "source_dimensions": [
+        505,
+        505
+      ],
+      "mask_bbox": [
+        0,
+        0,
+        505,
+        505
+      ],
+      "mask_nontrivial_coverage": 0.77265,
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "object_touches_original_pixel_frame": true,
+      "native_pixel_crops_created": 4,
+      "retail_approved": false,
+      "stock_rights_logo_hold": true
+    },
+    {
+      "shade": "25",
+      "original_source": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+      "original_png_sha256": "4a23eb709f3dc15e4b649ca02e3b12afd288af9f204937aa6c4588c79c63242b",
+      "source_dimensions": [
+        664,
+        676
+      ],
+      "mask_bbox": [
+        0,
+        0,
+        664,
+        676
+      ],
+      "mask_nontrivial_coverage": 0.54963,
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "object_touches_original_pixel_frame": true,
+      "native_pixel_crops_created": 4,
+      "retail_approved": false,
+      "stock_rights_logo_hold": true
+    },
+    {
+      "shade": "27",
+      "original_source": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+      "original_png_sha256": "730d090198e24e5872660abab54a4707097c6903d1ddb4708d4c7cf85641ba03",
+      "source_dimensions": [
+        665,
+        674
+      ],
+      "mask_bbox": [
+        0,
+        0,
+        665,
+        674
+      ],
+      "mask_nontrivial_coverage": 0.55923,
+      "four_corner_alpha": [
+        0,
+        0,
+        0,
+        0
+      ],
+      "object_touches_original_pixel_frame": true,
+      "native_pixel_crops_created": 4,
+      "retail_approved": false,
+      "stock_rights_logo_hold": true
+    }
+  ]
+}
