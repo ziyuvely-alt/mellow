@@ -1,0 +1,29 @@
+name: Shopee v2791 strict top-margin-only caption patch for two CLIO mini JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2791-clio-only-two-cropped-caption-retry.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: {fetch-depth: 0}
+      - uses: actions/setup-python@v5
+        with: {python-version: '3.11'}
+      - run: python -m pip install Pillow opencv-python-headless numpy
+      - name: Only header text inpainting, exact source product pixels below y310
+        run: |
+          cp scripts/v2791_clio_header_limited_caption_fix.py /tmp/v2791.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2791-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2791-qa
+          python /tmp/v2791.py
+          git add qa-review/v2791-clio-mini-two-cropped-english-captions-corrected-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2791 repair only CLIO 01 and 02 truncated captions within top 310px, keep 8 JPG SHA'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
