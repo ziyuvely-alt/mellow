@@ -1,0 +1,31 @@
+name: Shopee v2827 21N original mini 5g source-halo cleanup only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2827-21n-peach-halo-only.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  remove-peach-halo:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Clear only 21N residual tint alpha with source's product intact
+        run: |
+          cp scripts/v2827_clio_21n_peach_halo_alpha_fix.py /tmp/v2827.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2827-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2827-qa
+          python /tmp/v2827.py
+          git add qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2827 cleanup only remaining left 21N tint ghost using alpha, protect prior QA and retail assets'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
