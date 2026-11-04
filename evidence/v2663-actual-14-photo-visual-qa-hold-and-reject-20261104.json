@@ -79,8 +79,8 @@
   ],
   "counts": {
     "visually_reviewed": 14,
-    "explicit_visual_reject": 8,
-    "hold_for_proof": 6,
+    "explicit_visual_reject": 9,
+    "hold_for_proof": 5,
     "retail_approved": 0
   },
   "safety": [
