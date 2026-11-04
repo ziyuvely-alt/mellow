@@ -1,0 +1,40 @@
+{
+  "schema": "bbia_ch2_v161_actual_incremental_production",
+  "date": "2026-11-04",
+  "last_completed_prior": "v160 over glaze mini five EN QA_PENDING",
+  "new_jpg_total": 4,
+  "outputs": [
+    {
+      "product": "BBIA Eau Perfect Brush",
+      "new_JPG": 2,
+      "reused": 0,
+      "zip": "BBIA_v161_EAU_PERFECT_BRUSH_2_EN_QA_PENDING.zip",
+      "preview": "BBIA_v161_BRUSH_2_EN_CONTACT.jpg",
+      "manifest": "BBIA_v161_BRUSH_MANIFEST.json",
+      "status": "PARTIAL_EN_QA_PENDING",
+      "reason": "Only two distinct real photographed image sources, other roles lack official photo pixel proof"
+    },
+    {
+      "product": "BBIA Eau Cushion Puff 2P",
+      "new_JPG": 2,
+      "reused_previous_unchanged": 3,
+      "zip": "BBIA_v161_EAU_CUSHION_PUFF_FIVE_EN_QA_PENDING.zip",
+      "preview": "BBIA_v161_EAU_CUSHION_PUFF_FIVE_EN_CONTACT.jpg",
+      "manifest": "BBIA_v161_CUSHION_PUFF_MANIFEST.json",
+      "status": "FIVE_EN_CANDIDATES_QA_PENDING",
+      "reason": "Exact official original-source pixel match/variant validation incomplete; compact in frame four is explicitly marked NOT INCLUDED"
+    }
+  ],
+  "technical": "Four new 1080x1080 JPEG under 2MB; both ZIP CRC checks passed",
+  "discovery": "v147 numbered prefix 106 conflates unrelated product groups (Eau Matte Cushion Puff, Eau Perfect Brush, Eau Finger Puff, Eau Cushion Puff). Safe group by pictured product identity, not archive number. Exclude 106_fdaa and 106_0a74 from brush group; keep 110 matte puff scenes out of cushion puff scenes.",
+  "photo_lineage": "v147 preserved originals reused without modification; source SHA and output SHA for each new image recorded inside local manifests.",
+  "new_sale_approvals": 0,
+  "translations": 0,
+  "immutable": [
+    "prior v150-v160 JPG and ZIP candidate files",
+    "v147 125 source JPG",
+    "55 published URLs",
+    "24 prior holds"
+  ],
+  "next": "Do not redo four v161 JPG. Confirm official source exact photo pixel match for existing frames; where missing, hold frame and switch to a different product photo. No repetitions of failed direct CDN downloads. Product-image-specific EN QA is the bottleneck, not generic resizing or ZIP formatting."
+}
