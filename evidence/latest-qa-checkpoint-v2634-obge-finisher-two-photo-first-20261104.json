@@ -1,0 +1,39 @@
+{
+  "version": "v2634",
+  "date": "2026-11-04",
+  "previous": "v2633",
+  "verified_current_local_archive": "/mnt/data/Shopee_v2634_156JPG_OBGE_2_photo_focused_QA_ONLY.zip",
+  "images": 156,
+  "changes_since_v2633": 2,
+  "sha256_identical_other_images": 154,
+  "changes": [
+    {
+      "family": "pending-09",
+      "slot": 3,
+      "product": "OBgE Oil Control Finisher 5g",
+      "source": "original real model applying with branded compact",
+      "action": "Photo-only inner crop enlarged; original graphic square frame and provisional logo excluded"
+    },
+    {
+      "family": "pending-09",
+      "slot": 5,
+      "product": "OBgE Oil Control Finisher 5g",
+      "source": "original real compact interior photograph",
+      "action": "Photo-only inner crop enlarged; old graphic frame and provisional logo excluded"
+    }
+  ],
+  "preview": "/mnt/data/v2634_OBGE_two_photo_first_preview.jpg",
+  "prior_v2633_changes_preserved": [
+    "pending-12 slot03 MISSHA peel shot",
+    "pending-16 slot02 and slot03 Dr.G R.E.D cream"
+  ],
+  "prior_v2631_v2632_five_MISSHA_changes_preserved": true,
+  "approved_old_11_product_families_untouched": true,
+  "old_55_published_urls_modified": 0,
+  "final_excel_or_spreadsheet_shared": false,
+  "commercial_photo_permissions_verified": false,
+  "exact_owned_stock_version_verified": false,
+  "original_round_MK_logo_acquired": false,
+  "final_image_sales_approved": false,
+  "next": "Resume from v2634 complete QA ZIP and preserve prior edits. Concentrate on distinct exact-edition product images, original MK logo and rights; no public or spreadsheet export until verified."
+}
