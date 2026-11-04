@@ -1,0 +1,1008 @@
+{
+  "version": "v2722",
+  "baseline": "v2721",
+  "families_audited": 30,
+  "real_physical_PNG_JPG_pairs_validated": 32,
+  "physical_families_with_at_least_one_pair": 28,
+  "status_counts": {
+    "REJECT": 7,
+    "HOLD_STOCK": 3,
+    "QA_CANDIDATE": 18,
+    "SOURCE_BLOCKED": 2
+  },
+  "source_status_by_family": [
+    {
+      "family": "pending-01",
+      "review_status": "REJECT",
+      "visual_review_basis": "compact partially clipped; source artwork wrong for intact single-product hero",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "png_relative_path": "pending-01/01-actual-product-alpha-cutout-QA.png",
+        "jpg_relative_path": "pending-01/01-product-real-cutout-1080-JPG-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "ff8e90a0e399e053bef5c54af38687e18bddcf6e77b89ab9120370cc217a1dc7",
+        "jpg_sha256": "242efdacb3656e5595b4736922aeb5669f809fea7e140ef9b7efa5b6eaf7ffed",
+        "jpg_bytes": 57309
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+          "png_relative_path": "pending-01/01-actual-product-alpha-cutout-QA.png",
+          "jpg_relative_path": "pending-01/01-product-real-cutout-1080-JPG-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "ff8e90a0e399e053bef5c54af38687e18bddcf6e77b89ab9120370cc217a1dc7",
+          "jpg_sha256": "242efdacb3656e5595b4736922aeb5669f809fea7e140ef9b7efa5b6eaf7ffed",
+          "jpg_bytes": 57309
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-02",
+      "review_status": "HOLD_STOCK",
+      "visual_review_basis": "compact plus box; product/shade package stock match not verified",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+        "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "png_relative_path": "pending-02/01-real-transparent-product-QA.png",
+        "jpg_relative_path": "pending-02/01-real-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "0ea820165d0d4514219138164952f79de3bb5e84b5e8ca21cc38b5d4d3090d4f",
+        "jpg_sha256": "05b1b6cb821acad0bf183613cc45e416f2484b98b9b33bb976d867f85557d753",
+        "jpg_bytes": 83686
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+          "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+          "png_relative_path": "pending-02/01-real-transparent-product-QA.png",
+          "jpg_relative_path": "pending-02/01-real-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "0ea820165d0d4514219138164952f79de3bb5e84b5e8ca21cc38b5d4d3090d4f",
+          "jpg_sha256": "05b1b6cb821acad0bf183613cc45e416f2484b98b9b33bb976d867f85557d753",
+          "jpg_bytes": 83686
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-03",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "old-era gold-pump BB cream shade 23; verify exact inventory edition",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "png_relative_path": "pending-03/01-real-alpha-product-only-QA.png",
+        "jpg_relative_path": "pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "ad96d326b91a82a75427fb88f3703e984c6690236b41b3aac00e08f7cda3f292",
+        "jpg_sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+        "jpg_bytes": 115656
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+          "png_relative_path": "pending-03/01-real-alpha-product-only-QA.png",
+          "jpg_relative_path": "pending-03/01-real-cutout-white-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "ad96d326b91a82a75427fb88f3703e984c6690236b41b3aac00e08f7cda3f292",
+          "jpg_sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+          "jpg_bytes": 115656
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-04",
+      "review_status": "REJECT",
+      "visual_review_basis": "second-model CLIO mini retained nonproduct background; do not retry same frame",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 2,
+      "selected_QA_pair": {
+        "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+        "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "png_relative_path": "pending-04/01-actual-alpha-cutout-high-res-QA.png",
+        "jpg_relative_path": "pending-04/01-full-product-high-quality-cutout-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "c51347047f87d881d62b449957267f69088b15135fec905bf552794f5a5101f5",
+        "jpg_sha256": "e6a9a42f56316240d58bf36d625595dcbb18061a8b69daaf6f50b0e7581089db",
+        "jpg_bytes": 113140
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2711-real-segmentation-four-source-product-heroes",
+          "reported_status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-04/01-real-alpha-segmented-product-QA.png",
+          "jpg_relative_path": "pending-04/01-background-removed-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "d0c241f73deed448c43df4e0658144002bd74b4c750b68a53b154eac607378c5",
+          "jpg_sha256": "06d47ed0fceb91be41878adc5625e02b220e8672f6dd2e4f7de54cdeacff38b1",
+          "jpg_bytes": 93369
+        },
+        {
+          "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+          "png_relative_path": "pending-04/01-actual-alpha-cutout-high-res-QA.png",
+          "jpg_relative_path": "pending-04/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "c51347047f87d881d62b449957267f69088b15135fec905bf552794f5a5101f5",
+          "jpg_sha256": "e6a9a42f56316240d58bf36d625595dcbb18061a8b69daaf6f50b0e7581089db",
+          "jpg_bytes": 113140
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-05",
+      "review_status": "REJECT",
+      "visual_review_basis": "CLIO Founwear mini photograph depicts multiple set components",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "png_relative_path": "pending-05/01-actual-transparent-product-foreground-QA.png",
+        "jpg_relative_path": "pending-05/01-actual-product-cutout-square-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "4046842c5fe7c5f5aade714d6fd46ac99f2a6eb3b1a635df10b859136831b906",
+        "jpg_sha256": "cf60b2a833777798539b9a34c23825073efd6f752b8ff8cb104971f6129e4624",
+        "jpg_bytes": 172876
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+          "png_relative_path": "pending-05/01-actual-transparent-product-foreground-QA.png",
+          "jpg_relative_path": "pending-05/01-actual-product-cutout-square-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "4046842c5fe7c5f5aade714d6fd46ac99f2a6eb3b1a635df10b859136831b906",
+          "jpg_sha256": "cf60b2a833777798539b9a34c23825073efd6f752b8ff8cb104971f6129e4624",
+          "jpg_bytes": 172876
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-06",
+      "review_status": "REJECT",
+      "visual_review_basis": "CLIO Mesh Glow Essential source is kit/multiple compact artwork",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "png_relative_path": "pending-06/01-actual-product-alpha-cutout-QA.png",
+        "jpg_relative_path": "pending-06/01-product-real-cutout-1080-JPG-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "1914236d3b19ae95e4508101d750e97c3ec10e3fbb873e8b58c0e9c1afa92fb4",
+        "jpg_sha256": "99e98d961ac4c483c0a4a51754668a6f0a027ab1344878841cc0f59fe94db40d",
+        "jpg_bytes": 99284
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+          "png_relative_path": "pending-06/01-actual-product-alpha-cutout-QA.png",
+          "jpg_relative_path": "pending-06/01-product-real-cutout-1080-JPG-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "1914236d3b19ae95e4508101d750e97c3ec10e3fbb873e8b58c0e9c1afa92fb4",
+          "jpg_sha256": "99e98d961ac4c483c0a4a51754668a6f0a027ab1344878841cc0f59fe94db40d",
+          "jpg_bytes": 99284
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-07",
+      "review_status": "REJECT",
+      "visual_review_basis": "CLIO Mesh Blur photograph includes GIFT and extra components",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "png_relative_path": "pending-07/01-actual-transparent-product-foreground-QA.png",
+        "jpg_relative_path": "pending-07/01-actual-product-cutout-square-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "7d6dadcbb65467215a386825fda31c2535658aac0e11a348410f43e79542f3d3",
+        "jpg_sha256": "da210c9933c66e55da3abb2a82e1bf2a74eb186a6b46cc132a0b25325b31f223",
+        "jpg_bytes": 131760
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+          "png_relative_path": "pending-07/01-actual-transparent-product-foreground-QA.png",
+          "jpg_relative_path": "pending-07/01-actual-product-cutout-square-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "7d6dadcbb65467215a386825fda31c2535658aac0e11a348410f43e79542f3d3",
+          "jpg_sha256": "da210c9933c66e55da3abb2a82e1bf2a74eb186a6b46cc132a0b25325b31f223",
+          "jpg_bytes": 131760
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-08",
+      "review_status": "SOURCE_BLOCKED",
+      "visual_review_basis": "PERIPERA 01-20 official shade/26AD identity and 004 conflict; no authentic cutout staged",
+      "attempt_count": 0,
+      "verified_PNG_JPG_pairs": 0,
+      "selected_QA_pair": null,
+      "all_source_attempts": [],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-09",
+      "review_status": "REJECT",
+      "visual_review_basis": "OBGE finisher previous alpha retains brown rectangular background",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+        "reported_status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-09/05-actual-transparent-single-product-QA.png",
+        "jpg_relative_path": "pending-09/05-segmented-product-white-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "d10900bcb74c011084425205e9d08d8fbd5c2e265c1382f02e93865ad48b2a47",
+        "jpg_sha256": "088024d7114eceae334c7877385c142bcef5a38eeefb9a2f16a384a8c7d93db1",
+        "jpg_bytes": 88266
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+          "reported_status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-09/05-actual-transparent-single-product-QA.png",
+          "jpg_relative_path": "pending-09/05-segmented-product-white-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "d10900bcb74c011084425205e9d08d8fbd5c2e265c1382f02e93865ad48b2a47",
+          "jpg_sha256": "088024d7114eceae334c7877385c142bcef5a38eeefb9a2f16a384a8c7d93db1",
+          "jpg_bytes": 88266
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-10",
+      "review_status": "HOLD_STOCK",
+      "visual_review_basis": "OBGE Perfect Homme Cushion source says 15g vs possibly owned 13g",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "png_relative_path": "pending-10/01-actual-product-alpha-cutout-QA.png",
+        "jpg_relative_path": "pending-10/01-product-real-cutout-1080-JPG-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "355c630c796463a18aa4e5c76a43703b80a7ee460324477e2f8b46e686818b89",
+        "jpg_sha256": "822f3325d56fe0874fb8c221c37c64fc09b6d25267d22c76484cbedb40fef6b1",
+        "jpg_bytes": 146565
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+          "png_relative_path": "pending-10/01-actual-product-alpha-cutout-QA.png",
+          "jpg_relative_path": "pending-10/01-product-real-cutout-1080-JPG-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "355c630c796463a18aa4e5c76a43703b80a7ee460324477e2f8b46e686818b89",
+          "jpg_sha256": "822f3325d56fe0874fb8c221c37c64fc09b6d25267d22c76484cbedb40fef6b1",
+          "jpg_bytes": 146565
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-11",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "OBGE double-chamber bottle; do not describe as 2 separate products",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "png_relative_path": "pending-11/01-real-alpha-product-only-QA.png",
+        "jpg_relative_path": "pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "dba6d66b2973c3863c0b570302987a540308cf5b0b5f0f35b2a657c9009599a9",
+        "jpg_sha256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37",
+        "jpg_bytes": 61512
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+          "png_relative_path": "pending-11/01-real-alpha-product-only-QA.png",
+          "jpg_relative_path": "pending-11/01-real-cutout-white-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "dba6d66b2973c3863c0b570302987a540308cf5b0b5f0f35b2a657c9009599a9",
+          "jpg_sha256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37",
+          "jpg_bytes": 61512
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-12",
+      "review_status": "HOLD_STOCK",
+      "visual_review_basis": "MISSHA Renew Peel Shot photographed 15mL vs inventory 15g",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+        "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+        "png_relative_path": "pending-12/01-actual-transparent-product-foreground-QA.png",
+        "jpg_relative_path": "pending-12/01-actual-product-cutout-square-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "e462c5719d1ce9dde9633edd811de237cc3f6eed4ac8d81f03a9bbe375f50218",
+        "jpg_sha256": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1",
+        "jpg_bytes": 109764
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "reported_status": "FOREGROUND_JPG_PNG_RENDERED_VISUAL_REVIEW_REQUIRED",
+          "png_relative_path": "pending-12/01-actual-transparent-product-foreground-QA.png",
+          "jpg_relative_path": "pending-12/01-actual-product-cutout-square-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "e462c5719d1ce9dde9633edd811de237cc3f6eed4ac8d81f03a9bbe375f50218",
+          "jpg_sha256": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1",
+          "jpg_bytes": 109764
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-13",
+      "review_status": "SOURCE_BLOCKED",
+      "visual_review_basis": "MISSHA serum slot01 is a fact card, not a product photograph; use already valid v2697 photo set",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 0,
+      "selected_QA_pair": null,
+      "all_source_attempts": [
+        {
+          "folder": "v2719-four-unprocessed-clio-missha-real-photo-cutouts",
+          "reported_status": "HOLD_BAD_SEGMENTATION",
+          "png_relative_path": null,
+          "jpg_relative_path": null,
+          "physical_pair_valid": false,
+          "reason": "NO_BOTH_PNG_AND_JPG"
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-14",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "MISSHA PDRN cream original jar/lid intact; verify 70mL not foreign 70g",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+        "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+        "png_relative_path": "pending-14/01-actual-product-alpha-cutout-QA.png",
+        "jpg_relative_path": "pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "cad43d667893e695f925a1dfe0523939d8f8d8ce5625a38a7c5092961d6491e1",
+        "jpg_sha256": "1fa717a5584709d12a338eb7d812ca6ffdd15e639bc27303349bdaa190935a3a",
+        "jpg_bytes": 129900
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2717-four-fresh-cushion-cream-real-alpha-candidates",
+          "reported_status": "ALPHA_CANDIDATE_RENDERED_REQUIRES_VISUAL_QA",
+          "png_relative_path": "pending-14/01-actual-product-alpha-cutout-QA.png",
+          "jpg_relative_path": "pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "cad43d667893e695f925a1dfe0523939d8f8d8ce5625a38a7c5092961d6491e1",
+          "jpg_sha256": "1fa717a5584709d12a338eb7d812ca6ffdd15e639bc27303349bdaa190935a3a",
+          "jpg_bytes": 129900
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-15",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "Dr.G Green Mild Up Sun tube intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "png_relative_path": "pending-15/01-real-alpha-product-only-QA.png",
+        "jpg_relative_path": "pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "7d00ff450d5808db225d396866db50b38e1e7a2630b50aee754d0a4697fdc3ad",
+        "jpg_sha256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4",
+        "jpg_bytes": 71089
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+          "png_relative_path": "pending-15/01-real-alpha-product-only-QA.png",
+          "jpg_relative_path": "pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "7d00ff450d5808db225d396866db50b38e1e7a2630b50aee754d0a4697fdc3ad",
+          "jpg_sha256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4",
+          "jpg_bytes": 71089
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-16",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "Dr.G R.E.D Blemish cream jar intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-16/01-truly-transparent-product-QA.png",
+        "jpg_relative_path": "pending-16/01-product-only-1080white-hero-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "edd9db3ab1bf180d7b45d500d426a0514f7d1990aa4df8241458daf7f55ac4a7",
+        "jpg_sha256": "dd374607261d8d6ba4918d56bdee9ff923d0d0d024ee716e564bee73c383fcaa",
+        "jpg_bytes": 107785
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-16/01-truly-transparent-product-QA.png",
+          "jpg_relative_path": "pending-16/01-product-only-1080white-hero-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "edd9db3ab1bf180d7b45d500d426a0514f7d1990aa4df8241458daf7f55ac4a7",
+          "jpg_sha256": "dd374607261d8d6ba4918d56bdee9ff923d0d0d024ee716e564bee73c383fcaa",
+          "jpg_bytes": 107785
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-17",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "Dr.G Brightening Up Moisture Sun tube intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+        "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "png_relative_path": "pending-17/01-real-transparent-product-QA.png",
+        "jpg_relative_path": "pending-17/01-real-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "4ef98b6d321b80d91ebc62a11c5be3a639fe3bdb0e390398d03ff29f510ad265",
+        "jpg_sha256": "c9c45a4b580c924c3e6b6fbaae00f69847f74913483fd7f5b02401a80ab7662f",
+        "jpg_bytes": 103889
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+          "png_relative_path": "pending-17/01-real-transparent-product-QA.png",
+          "jpg_relative_path": "pending-17/01-real-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "4ef98b6d321b80d91ebc62a11c5be3a639fe3bdb0e390398d03ff29f510ad265",
+          "jpg_sha256": "c9c45a4b580c924c3e6b6fbaae00f69847f74913483fd7f5b02401a80ab7662f",
+          "jpg_bytes": 103889
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-18",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "Dr.G Brightening Up Sun Plus tube intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+        "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+        "png_relative_path": "pending-18/01-real-alpha-product-only-QA.png",
+        "jpg_relative_path": "pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "a6f97e9da37670c9a04be5c4a82301101f1d0bde487ac5e4a7332034f52dce3b",
+        "jpg_sha256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a",
+        "jpg_bytes": 72241
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "reported_status": "REAL_ALPHA_CUTOUT_RENDERED_NEEDS_VISUAL_REVIEW",
+          "png_relative_path": "pending-18/01-real-alpha-product-only-QA.png",
+          "jpg_relative_path": "pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "a6f97e9da37670c9a04be5c4a82301101f1d0bde487ac5e4a7332034f52dce3b",
+          "jpg_sha256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a",
+          "jpg_bytes": 72241
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-19",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "GOODAL Vita C Cream Alpha jar intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+        "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "png_relative_path": "pending-19/01-real-transparent-product-QA.png",
+        "jpg_relative_path": "pending-19/01-real-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "432393afb877080a263b683e9e5a488c8121f3ca6df8a3059a9f6a3c4abc5fd3",
+        "jpg_sha256": "1253e088d5f95ffeda557d666fcf75419f1dce8c1f41092921a098d0ae705b53",
+        "jpg_bytes": 106596
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+          "png_relative_path": "pending-19/01-real-transparent-product-QA.png",
+          "jpg_relative_path": "pending-19/01-real-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "432393afb877080a263b683e9e5a488c8121f3ca6df8a3059a9f6a3c4abc5fd3",
+          "jpg_sha256": "1253e088d5f95ffeda557d666fcf75419f1dce8c1f41092921a098d0ae705b53",
+          "jpg_bytes": 106596
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-20",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "GOODAL Serum Mist 100mL pump and bottle intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+        "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "png_relative_path": "pending-20/01-real-transparent-product-QA.png",
+        "jpg_relative_path": "pending-20/01-real-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "e7f1a1288957374a17e388a0ec1e0fc2115ba3f57b37321c194cb2f0e8e1894e",
+        "jpg_sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+        "jpg_bytes": 61644
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2721-three-drg-goodal-alpha-photo-QA",
+          "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+          "png_relative_path": "pending-20/01-real-transparent-product-QA.png",
+          "jpg_relative_path": "pending-20/01-real-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "e7f1a1288957374a17e388a0ec1e0fc2115ba3f57b37321c194cb2f0e8e1894e",
+          "jpg_sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+          "jpg_bytes": 61644
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-21",
+      "review_status": "REJECT",
+      "visual_review_basis": "GOODAL 30mL eye tube alternate source clipped; cannot reconstruct",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+        "reported_status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-21/02-actual-transparent-single-product-QA.png",
+        "jpg_relative_path": "pending-21/02-segmented-product-white-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "a8c418bbc0af65148b3b273f187ac26b068b120d847e697ddfc91849f417ccee",
+        "jpg_sha256": "73925c491ad342097d6dd33287c7d74277d97eb3d3dfd538da0fe090920ca5c7",
+        "jpg_bytes": 121753
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2715-five-more-original-product-real-alpha-hero-tests",
+          "reported_status": "HOLD_MASK_REJECTED",
+          "png_relative_path": null,
+          "jpg_relative_path": null,
+          "physical_pair_valid": false,
+          "reason": "NO_BOTH_PNG_AND_JPG"
+        },
+        {
+          "folder": "v2716-obge-finisher-and-goodal-alternate-real-alpha",
+          "reported_status": "ACTUAL_ALPHA_SEGMENTED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-21/02-actual-transparent-single-product-QA.png",
+          "jpg_relative_path": "pending-21/02-segmented-product-white-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "a8c418bbc0af65148b3b273f187ac26b068b120d847e697ddfc91849f417ccee",
+          "jpg_sha256": "73925c491ad342097d6dd33287c7d74277d97eb3d3dfd538da0fe090920ca5c7",
+          "jpg_bytes": 121753
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-22",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "OBGE Max Waterful 300mL pump and base retained in second model",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 2,
+      "selected_QA_pair": {
+        "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+        "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "png_relative_path": "pending-22/01-actual-alpha-cutout-high-res-QA.png",
+        "jpg_relative_path": "pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "9dd38739a27ed4e2bc0bbdb420a5b71615d3ea8a817e3c1b9e8ce9bcaacd99ca",
+        "jpg_sha256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958",
+        "jpg_bytes": 67072
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2711-real-segmentation-four-source-product-heroes",
+          "reported_status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-22/01-real-alpha-segmented-product-QA.png",
+          "jpg_relative_path": "pending-22/01-background-removed-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "97d0fd0ea1be4750c90fae829b85438e2e447a61ebac4b9d3719cf2b12fcccb3",
+          "jpg_sha256": "ca5add86974ed0306913aa53a82b346e94986ffedb2f37729b921ae86e6e82ea",
+          "jpg_bytes": 70316
+        },
+        {
+          "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+          "png_relative_path": "pending-22/01-actual-alpha-cutout-high-res-QA.png",
+          "jpg_relative_path": "pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "9dd38739a27ed4e2bc0bbdb420a5b71615d3ea8a817e3c1b9e8ce9bcaacd99ca",
+          "jpg_sha256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958",
+          "jpg_bytes": 67072
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-23",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "OBGE Pore Zero 50mL cutout largely clean; bottom edge needs 1:1 check",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+        "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+        "png_relative_path": "pending-23/01-real-transparent-product-QA.png",
+        "jpg_relative_path": "pending-23/01-real-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "829aa071f454699526577506e35ff793b1fb40f59322601dc5d60b4a3295c044",
+        "jpg_sha256": "c6d0174cd5d09d43bc7671657719188c3c81cf4b4b6e1a1d8f64a243357a3d5a",
+        "jpg_bytes": 72611
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2720-missha-moistup-obge-porezero-photo-cutouts",
+          "reported_status": "REAL_ALPHA_PNG_JPG_RENDERED_NEEDS_VISUAL_QA",
+          "png_relative_path": "pending-23/01-real-transparent-product-QA.png",
+          "jpg_relative_path": "pending-23/01-real-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "829aa071f454699526577506e35ff793b1fb40f59322601dc5d60b4a3295c044",
+          "jpg_sha256": "c6d0174cd5d09d43bc7671657719188c3c81cf4b4b6e1a1d8f64a243357a3d5a",
+          "jpg_bytes": 72611
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-24",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "BIOHEAL BOH serum detached alpha blob fixed in v2714; edges need 1:1 check",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 2,
+      "selected_QA_pair": {
+        "folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+        "reported_status": "REAL_ALPHA_CLEANUP_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-24/01-cleaned-real-alpha-isolated-serum-QA.png",
+        "jpg_relative_path": "pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "081322f5611fa0cada55768c46ae0c875a0db9babbad83f42cbd2e31442a863a",
+        "jpg_sha256": "5cb1850f773c7edd801e160ec1387e90001d2a0739e6f1035db62246431574fb",
+        "jpg_bytes": 107819
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-24/01-truly-transparent-product-QA.png",
+          "jpg_relative_path": "pending-24/01-product-only-1080white-hero-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "2cf1b44b6d7386bdd8153709d13949423f1cbdb7962742dc2bade03429455869",
+          "jpg_sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+          "jpg_bytes": 107768
+        },
+        {
+          "folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+          "reported_status": "REAL_ALPHA_CLEANUP_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-24/01-cleaned-real-alpha-isolated-serum-QA.png",
+          "jpg_relative_path": "pending-24/01-real-serum-without-detached-red-blob-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "081322f5611fa0cada55768c46ae0c875a0db9babbad83f42cbd2e31442a863a",
+          "jpg_sha256": "5cb1850f773c7edd801e160ec1387e90001d2a0739e6f1035db62246431574fb",
+          "jpg_bytes": 107819
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-25",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "BIOHEAL BOH cream base retained in v2712",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 2,
+      "selected_QA_pair": {
+        "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+        "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+        "png_relative_path": "pending-25/01-actual-alpha-cutout-high-res-QA.png",
+        "jpg_relative_path": "pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "0e3468283d19573fc142d30365b4a8664dce7ab2cb06e4c625c05c8b0a2d2a44",
+        "jpg_sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+        "jpg_bytes": 197314
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2711-real-segmentation-four-source-product-heroes",
+          "reported_status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-25/01-real-alpha-segmented-product-QA.png",
+          "jpg_relative_path": "pending-25/01-background-removed-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "673fda4d15de6f44df3c514454216585bacf4bd8fb1ec65a561644c39974322c",
+          "jpg_sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+          "jpg_bytes": 202484
+        },
+        {
+          "folder": "v2712-3-failed-cutouts-high-quality-recovery",
+          "reported_status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+          "png_relative_path": "pending-25/01-actual-alpha-cutout-high-res-QA.png",
+          "jpg_relative_path": "pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "0e3468283d19573fc142d30365b4a8664dce7ab2cb06e4c625c05c8b0a2d2a44",
+          "jpg_sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+          "jpg_bytes": 197314
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-26",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "PIXEL PURE Gel-to-Foam 145mL body intact in v2711",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2711-real-segmentation-four-source-product-heroes",
+        "reported_status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-26/01-real-alpha-segmented-product-QA.png",
+        "jpg_relative_path": "pending-26/01-background-removed-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "caff796dc460cf44fbaaa3ddb053a2ea51c414554560a09947c98176453816b8",
+        "jpg_sha256": "ca6628be4f901dd3f14a6c1a5b7027579e526a8e839b9f0a42fed064d0dc88dd",
+        "jpg_bytes": 72655
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2711-real-segmentation-four-source-product-heroes",
+          "reported_status": "REAL_ALPHA_SEGMENTATION_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-26/01-real-alpha-segmented-product-QA.png",
+          "jpg_relative_path": "pending-26/01-background-removed-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "caff796dc460cf44fbaaa3ddb053a2ea51c414554560a09947c98176453816b8",
+          "jpg_sha256": "ca6628be4f901dd3f14a6c1a5b7027579e526a8e839b9f0a42fed064d0dc88dd",
+          "jpg_bytes": 72655
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-27",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "PIXEL PURE toner 200mL intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-27/01-truly-transparent-product-QA.png",
+        "jpg_relative_path": "pending-27/01-product-only-1080white-hero-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "0c143ebfbbc923ed5f7292dedaf700c354b55c639caa284436579487e47f405f",
+        "jpg_sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+        "jpg_bytes": 69734
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-27/01-truly-transparent-product-QA.png",
+          "jpg_relative_path": "pending-27/01-product-only-1080white-hero-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "0c143ebfbbc923ed5f7292dedaf700c354b55c639caa284436579487e47f405f",
+          "jpg_sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "jpg_bytes": 69734
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-28",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "PIXEL PURE pads 70ea alternate source fixed in v2714; bottom needs check",
+      "attempt_count": 2,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+        "reported_status": "ALTERNATE_PRODUCT_PHOTO_SEGMENTED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-28/02-alternate-real-source-transparent-product-QA.png",
+        "jpg_relative_path": "pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "7a605b2ce638e121fffbe0dcd7a99c782213d0ea743f0a0434d5a94d3b545d52",
+        "jpg_sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+        "jpg_bytes": 131499
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "HOLD_MASK_OR_SOURCE_FAILED",
+          "png_relative_path": null,
+          "jpg_relative_path": null,
+          "physical_pair_valid": false,
+          "reason": "NO_BOTH_PNG_AND_JPG"
+        },
+        {
+          "folder": "v2714-serum-alpha-component-and-pad-alternate-photo",
+          "reported_status": "ALTERNATE_PRODUCT_PHOTO_SEGMENTED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-28/02-alternate-real-source-transparent-product-QA.png",
+          "jpg_relative_path": "pending-28/02-alternate-real-pad-product-hero-1080-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "7a605b2ce638e121fffbe0dcd7a99c782213d0ea743f0a0434d5a94d3b545d52",
+          "jpg_sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "jpg_bytes": 131499
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-29",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "PIXEL PURE cream 50mL intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-29/01-truly-transparent-product-QA.png",
+        "jpg_relative_path": "pending-29/01-product-only-1080white-hero-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "1444cab6fa8b5033e64c6bfe6e3a682ff1f8761c86a7d6eca5fea875ed9398ea",
+        "jpg_sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+        "jpg_bytes": 113161
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-29/01-truly-transparent-product-QA.png",
+          "jpg_relative_path": "pending-29/01-product-only-1080white-hero-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "1444cab6fa8b5033e64c6bfe6e3a682ff1f8761c86a7d6eca5fea875ed9398ea",
+          "jpg_sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "jpg_bytes": 113161
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    },
+    {
+      "family": "pending-30",
+      "review_status": "QA_CANDIDATE",
+      "visual_review_basis": "PIXEL PURE serum 50mL intact",
+      "attempt_count": 1,
+      "verified_PNG_JPG_pairs": 1,
+      "selected_QA_pair": {
+        "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+        "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+        "png_relative_path": "pending-30/01-truly-transparent-product-QA.png",
+        "jpg_relative_path": "pending-30/01-product-only-1080white-hero-QA.jpg",
+        "physical_pair_valid": true,
+        "reason": null,
+        "png_sha256": "ce13da325bf4da285fbe2371511d9427d17872eb58d80281686449b60ee71db8",
+        "jpg_sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+        "jpg_bytes": 67492
+      },
+      "all_source_attempts": [
+        {
+          "folder": "v2713-six-new-product-hero-real-alpha-cutouts",
+          "reported_status": "ACTUAL_ALPHA_CUTOUT_RENDERED_VISUAL_QA_PENDING",
+          "png_relative_path": "pending-30/01-truly-transparent-product-QA.png",
+          "jpg_relative_path": "pending-30/01-product-only-1080white-hero-QA.jpg",
+          "physical_pair_valid": true,
+          "reason": null,
+          "png_sha256": "ce13da325bf4da285fbe2371511d9427d17872eb58d80281686449b60ee71db8",
+          "jpg_sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "jpg_bytes": 67492
+        }
+      ],
+      "retail_release": "HOLD_ALL_PENDING_ORIGINAL_MK_PHOTO_RIGHTS_STOCK_EDITION"
+    }
+  ],
+  "no_product_image_files_modified": true,
+  "previous_11_approved_product_families_unchanged": true,
+  "previous_55_published_urls_unchanged": true,
+  "new_retail_approved": 0,
+  "commercial_photo_reuse_rights_verified": false,
+  "original_round_MK_logo_verified": false,
+  "owned_stock_exact_editions_verified": false,
+  "final_excel_or_spreadsheet_shared": false
+}
