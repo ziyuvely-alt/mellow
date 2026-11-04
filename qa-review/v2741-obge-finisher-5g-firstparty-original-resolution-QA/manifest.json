@@ -1,0 +1,162 @@
+{
+  "version": "v2741",
+  "family": "pending-09",
+  "product": "OBgE Oil Control Finisher 5g",
+  "manufacturer_listing": "https://obgeglobal.com/products/oil-control-finisher",
+  "source_kind": "first_party_MANUFACTURER_SHOPIFY_gallery",
+  "old_usable_object_resolution": [
+    274,
+    269
+  ],
+  "new_candidate_sources": [
+    {
+      "index": 1,
+      "file": "01-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/83.png?v=1776049524",
+      "source_origin_px": [
+        997,
+        997
+      ],
+      "original_sha256": "b50ae98106014dda57659e758312712a2b65ae980501fc7875912012c4bfa8a9",
+      "file_sha256": "662bc28fc5b820b2109c3a41a804c84644391ec5ef356760a1e11dd70f3d8cf4",
+      "jpg_bytes": 103409,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 2,
+      "file": "02-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/NEW_obge_logo_Logo_1.png?v=1739847965",
+      "source_origin_px": [
+        2237,
+        1096
+      ],
+      "original_sha256": "697e8a8675f3aad720b6da35f84c8c5b0d4a12a7f24b7db7d9b2a5b3dd67bbd8",
+      "file_sha256": "c44fa09315de9cf2bab57cf87b18dc9b949eae5feb2b7e02e35fdfc5c5407e1f",
+      "jpg_bytes": 43235,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 3,
+      "file": "03-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/OB_set_thumb_06.jpg?v=1759279881",
+      "source_origin_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "2f5d731cdca5077ee865192512a1bf878b949c977655dbb120205d87d0bdbd11",
+      "file_sha256": "385c932d0f017aeff0623fda0bb4088cda5a978e3efa199a63e3746ca70eb2ce",
+      "jpg_bytes": 90684,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 4,
+      "file": "04-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/sun_stick_updated.jpg?v=1758088824",
+      "source_origin_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "b402c2264ef95bbaea639dcbc085f7e6b8485bdbfc1dbb54187b720a7d89807f",
+      "file_sha256": "876526fc3e2367536aea78d47f3206ac7ca184853c960b97879114505ce62b13",
+      "jpg_bytes": 99264,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 5,
+      "file": "05-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/OB_set_thumb_04.png?v=1753772149",
+      "source_origin_px": [
+        1200,
+        1500
+      ],
+      "original_sha256": "717b3d0cf665a5219bcba47ec55ad3aa954984943ad4ed1cc32cb6850186fc55",
+      "file_sha256": "5ea67787e6409ab495fb541a0719911190ee7b89caf0fcb1b68aa7c44d89251b",
+      "jpg_bytes": 108530,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 6,
+      "file": "06-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/7.jpg?v=1776049836",
+      "source_origin_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "3084699895ef767420a5ba636dfe80e8536a9d6504e0f1ae8bfd8c1891cea9f0",
+      "file_sha256": "a57bcefc369b6c76034c2b8eb08dd4231cca93e359f5df9682069f65319da6ac",
+      "jpg_bytes": 262448,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 7,
+      "file": "07-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/1_0569c85f-7213-43c4-857b-f6016d4cda56.jpg?v=1776049836",
+      "source_origin_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "19f4600d5d2eeaa0cb8f3e26c4670a454081b237bde76ab61557b6c928be8e96",
+      "file_sha256": "88b141941bedbefcc0ac5527255f915ec24b0e9c8f25bb0b0d2d1909690afb8b",
+      "jpg_bytes": 338296,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    },
+    {
+      "index": 8,
+      "file": "08-MANUFACTURER-real-source-1080-QA.jpg",
+      "url": "https://obgeglobal.com/cdn/shop/files/preview_images/df4d8c33bf0846f799d23ed08803c448.thumbnail.0000000000.jpg?v=1776056283",
+      "source_origin_px": [
+        1800,
+        1800
+      ],
+      "original_sha256": "aa49b2b4046fdc633a4ffe023011bb004e5934c300b6a8a217ea62bf7d0ff383",
+      "file_sha256": "3fabd452431f9922055df56f4e56aa2bf90f529c1a8c1a2f62abc46f34070b51",
+      "jpg_bytes": 150357,
+      "source_method": "official_page_embedded_media",
+      "source_is_manufacturer_domain": true,
+      "commercial_permission_verified": false,
+      "product_single_5g_visual_review": "REQUIRED"
+    }
+  ],
+  "discarded": [
+    {
+      "url": "https://obgeglobal.com/cdn/shop/files/favicon.png",
+      "reason": "ValueError:source<400px"
+    }
+  ],
+  "same_product_exact_single_unit_5g_stock_verified": false,
+  "photo_commercial_rights_verified": false,
+  "original_MK_logo_verified": false,
+  "retail_approved": false,
+  "previous_photo_sources_modified": false,
+  "old_11_approved_groups_unchanged": true,
+  "old_55_public_URLs_unchanged": true,
+  "final_XLSX_shared": false,
+  "manufacturer_product_name": "Oil Control Finisher",
+  "manufacturer_variants": [
+    "Default Title"
+  ],
+  "manufacturer_page_title": "Oil Control Finisher | Instant Shine Control & Smooth Matte Skin – OBgE",
+  "native_high_resolution_source_count": 8,
+  "status": "GALLERY_NATIVE_SOURCE_CANDIDATES_VISUAL_QA_PENDING"
+}
