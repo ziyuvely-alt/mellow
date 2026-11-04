@@ -1,0 +1,89 @@
+{
+  "version": "v2676",
+  "date": "2026-11-04",
+  "baseline": "v2673",
+  "repo": "ziyuvely-alt/mellow",
+  "verified_executions": [
+    {
+      "version": "v2674",
+      "run_id": 41835200997,
+      "conclusion": "success",
+      "action": "12 previously unassembled families, 60 historical JPG source frames visually screened in 2 preview sheets",
+      "source_edit_count": 0
+    },
+    {
+      "version": "v2675",
+      "run_id": 41835511417,
+      "conclusion": "success",
+      "families": [
+        "pending-01",
+        "pending-14"
+      ],
+      "new_QA_five_frame_sets": 2,
+      "source_existing_JPGs_preserved": 8,
+      "new_safe_information_JPGs": 2
+    },
+    {
+      "version": "v2676",
+      "run_id": 41835723591,
+      "conclusion": "success",
+      "families": [
+        "pending-13"
+      ],
+      "new_QA_five_frame_sets": 1,
+      "source_existing_JPGs_preserved": 4,
+      "new_safe_information_JPGs": 1
+    }
+  ],
+  "new_five_frame_draft_families": [
+    "pending-01",
+    "pending-14",
+    "pending-13"
+  ],
+  "all_5frame_draft_family_ids_in_completed_workflow": [
+    "pending-28",
+    "pending-22",
+    "pending-17",
+    "pending-20",
+    "pending-16",
+    "pending-19",
+    "pending-01",
+    "pending-14",
+    "pending-13"
+  ],
+  "total_distinct_new_qa_families_since_v2668": 9,
+  "current_technical_status": {
+    "approved_existing_families": 11,
+    "still_pending_sale_approval_families": 30,
+    "new_this_turn_retail_approvals": 0,
+    "total_five_JPG_QA_sets_staged": 9,
+    "more_source_photo_rights_checks_required": true,
+    "source_v2647_full_binary_available": false,
+    "original_MK_logo_available": false
+  },
+  "manual_contact_sheet_QA": {
+    "pending_01": "5 images visible; no cropped text detected; photo04 shop background and exact owned cushion shade edition need verification",
+    "pending_14": "5 images visible; replacement card05 factual and not clipped; product photo original rights still unresolved",
+    "pending_13": "5 images visible; replacement card05 factual and not clipped; source frame04 shows serum alongside other cosmetic products, confirm or replace before release"
+  },
+  "next_actions": [
+    "DO NOT reproduce 9 already staged five-JPG QA sets",
+    "Do not publish pending-13 source frame04 unless multi-product contents proven not misleading",
+    "Check source-photo commercial usage and exact owned inventory package of each",
+    "Recover newer v2647 actual photo archive from its genuine source before merging",
+    "Use earlier 12-family contact proof to prioritize others avoiding unverified shades/false MK badges"
+  ],
+  "persisted": {
+    "main_checkpoint": "evidence/v2676-three-missha-5frame-production-checkpoint-20261104.json",
+    "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+    "qa_paths": [
+      "qa-review/v2675-missha-two-five-frame-photo-sets",
+      "qa-review/v2676-missha-pdrn-serum-fiveframe-qa"
+    ]
+  },
+  "protected": {
+    "approved_11_unchanged": true,
+    "public_55_urls_unchanged": true,
+    "final_xlsx_not_shared": true
+  }
+}
