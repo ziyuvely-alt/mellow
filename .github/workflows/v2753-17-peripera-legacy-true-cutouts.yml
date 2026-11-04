@@ -1,0 +1,35 @@
+name: Shopee v2753 true alpha of 17 source-linked old Peripera 01 to 20 colors
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2753-17-peripera-legacy-true-cutouts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real-photo-alpha:
+    runs-on: ubuntu-latest
+    timeout-minutes: 29
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install real photo segmentation, no synthetic product rendering
+        run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Segment existing 17 independently option-linked photos without repeating v2752 image search
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2753_peripera_17_legacy_real_alpha.py
+          cp scripts/v2753_peripera_17_legacy_real_alpha.py /tmp/v2753.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2753-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2753-qa
+          python /tmp/v2753.py
+          git add qa-review/v2753-peripera-legacy-17-product-real-alpha-qa
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2753 true-alpha original-source legacy Peripera selected 01-20, exclude 12-14 lip-only pictures, no public changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
