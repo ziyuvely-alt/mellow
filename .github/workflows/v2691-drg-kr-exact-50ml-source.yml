@@ -1,0 +1,32 @@
+name: Shopee v2691 DrG KR 50mL exact one-unit image verification
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2691-drg-kr-exact-50ml-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Filter same SKU Korean DrG 50mL photos, exclude unrelated red blemish
+        run: |
+          python -m py_compile scripts/v2691_drg_kr_exact_50ml.py
+          cp scripts/v2691_drg_kr_exact_50ml.py /tmp/v2691.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2691-assets qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2691-assets
+          python /tmp/v2691.py
+          git add qa-review/v2691-DRG-correct-Korean-source-only
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2691 quarantine cross-product v2690 candidates, keep only KR official same-SKU 50mL images'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
