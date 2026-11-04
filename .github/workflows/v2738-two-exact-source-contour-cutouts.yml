@@ -1,0 +1,33 @@
+name: Shopee v2738 trace two genuine product contours from archived JPGs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2738-two-exact-source-contour-cutouts.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  contour:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Derive two source-pixel exact object cutouts, never touch prior work
+        run: |
+          cp scripts/v2738_two_manual_source_product_contours.py /tmp/v2738.py
+          python -m py_compile /tmp/v2738.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2738-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2738-qa
+          test ! -e qa-review/v2738-two-actual-archived-product-contour-cutout-QA
+          python /tmp/v2738.py
+          git add qa-review/v2738-two-actual-archived-product-contour-cutout-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2738 isolate actual photographed OBGE 5g compact and GOODAL alpha jar contours; no commercial release'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
