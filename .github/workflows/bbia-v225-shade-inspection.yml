@@ -1,0 +1,22 @@
+name: BBIA v225 eyeliner shade imagery inspection
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - .github/workflows/bbia-v225-shade-inspection.yml
+      - scripts/bbia_v225_inspect_shade_frames.py
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Inspect existing frame 04 and 06 without altering JPGs
+        run: python scripts/bbia_v225_inspect_shade_frames.py --out /tmp/bbia-v225
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v225-existing-04-06-shade-frame-review
+          path: /tmp/bbia-v225
+          retention-days: 30
