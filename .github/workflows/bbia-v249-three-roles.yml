@@ -1,0 +1,23 @@
+name: BBIA v249 three untouched-family photo details
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v249_three_new_detail_roles.py
+      - .github/workflows/bbia-v249-three-roles.yml
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Create three new real-photo role candidates
+        run: python scripts/bbia_v249_three_new_detail_roles.py --out /tmp/bbia-v249
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v249-three-new-source-detail-jpg
+          path: /tmp/bbia-v249
+          retention-days: 30
