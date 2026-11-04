@@ -1,0 +1,41 @@
+{
+  "version": "v2639",
+  "date": "2026-11-04",
+  "source_success": "v2638",
+  "actual_output": {
+    "zip": "/mnt/data/Shopee_v2639_156JPG_PIXELPURE_145mL_product_hero_QA_ONLY.zip",
+    "comparison": "/mnt/data/v2639_actual_145ml_product_hero_QA/pending26_slot01_before_after.jpg",
+    "photo": "/mnt/data/v2639_actual_145ml_product_hero_QA/review-JPG-by-family/pending-26/01_v2639_actual_145ml_product_hero_QA_ONLY.jpg",
+    "total_jpg": 156,
+    "changed": 1,
+    "sha_identical": 155,
+    "sha256": "e991a75cede8f22d873022caff7f759606c68891cc19200c17c68185cd5c32d6"
+  },
+  "change": {
+    "family": "pending-26",
+    "slot": 1,
+    "product": "PIXEL PURE Gentle Gel to Foam Cleanser 145 mL",
+    "previous_issue": "No real product photographed in leading hero image, text-only NET CONTENT info frame",
+    "implemented": "Reused genuine 145 mL product photographed in existing slot03, made hero with large product and 145mL, preserving native printed label; photo crop silhouette removes background square. No invented 150 mL edition or fake brand mark.",
+    "source_photo": "pending-26/03_v2607_real_photo_quality_QA_ONLY.jpg"
+  },
+  "verified_external_information": {
+    "official_145ml_page": "https://pixelpure.com/product/detail.html?product_no=21",
+    "independent_145ml_description": "https://m.shilladfs.com/estore/kr/ko/p/5885757",
+    "risk": "Some online official old 20250430 photo renders show 150mL packaging, not current owned 145mL SKU; explicitly rejected. Reusing brand photo commercially still requires permission."
+  },
+  "preservation": {
+    "previous_155_jpg_identical": true,
+    "previous_11_approved_families_untouched": true,
+    "public_55_existing_urls_changed": 0,
+    "final_xlsx_or_spreadsheet_shared": false,
+    "old_checkpoint_v2638_untouched": true
+  },
+  "remaining_release_blocks": [
+    "Brand photo use permission not verified",
+    "Physical stock package/edition not personally checked",
+    "Authentic original MK logo file inaccessible, no invented substitute",
+    "Final human sales image approval not issued"
+  ],
+  "next": "Resume from v2639 zip. Do not recreate pending26 slot01. Do not substitute old 150mL bottle photos for exact 145mL SKU. Prioritize approval gates and remaining authentic photo quality issues. Do not share XLSX."
+}
