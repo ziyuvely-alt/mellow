@@ -1,0 +1,92 @@
+{
+  "schema": "bbia_ch2_v215_official_hero_provenance_and_variant_release_gates",
+  "date": "2026-11-04",
+  "parent_checkpoint": "v214",
+  "scope": "incremental primary-source validation of four previously held BBIA families; NO historical image regeneration",
+  "official_pages": [
+    {
+      "goodsNo": "200",
+      "product": "BBIA Last Powder Lipstick",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=200",
+      "official_primary_photo_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/200/200_magnify_095.jpg",
+      "photo_description": "pink translucent lipstick case and opened lipstick photographed together; general representative listing product, exact shade not identified by image",
+      "official_product_code": "136290",
+      "displayed_size": "3.5g",
+      "expiry_notice": {
+        "01 신뢰감": "2027-03-01"
+      },
+      "source_image_role": "GENERAL_PRODUCT_HERO_REFERENCE_ONLY",
+      "next": "Compare candidate v213 studio frames with official packaging; validate each shade against detail images before sales and do not print expiry dates in timeless images",
+      "status": "OFFICIAL_GENERIC_HERO_FOUND_VARIANT_QA_PENDING"
+    },
+    {
+      "goodsNo": "206",
+      "product": "BBIA Last Auto Gel Eyeliner",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=206",
+      "official_primary_photo_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/206/206_magnify_078.jpg",
+      "photo_description": "two beige-bodied eyeliner pencils, one uncapped, as generic listing representative",
+      "official_product_code": "124161",
+      "displayed_size": "0.3g",
+      "expiry_notice": {
+        "06 초코무스": "2027-10",
+        "21 핑크쿼츠 (official notice text, conflicting number/name)": "2027-11",
+        "22 피치파스텔": "2027-10",
+        "23 핑크파스텔": "2027-10"
+      },
+      "critical_conflict": "Official present expiry notice calls 21 핑크쿼츠, but older official selector text gives 17 핑크쿼츠 and 21 뮤트 브라운. Treat 21 color/name and associated expiry as ambiguous until independently verified; never hardcode either into swatch or option image.",
+      "source_image_role": "GENERAL_PRODUCT_HERO_REFERENCE_ONLY",
+      "next": "Keep published six unchanged, flag shade 21 mislabel risk, check newer official option page or package reference before adding v213 model frame",
+      "status": "OFFICIAL_GENERIC_HERO_FOUND_SHADE_21_HOLD"
+    },
+    {
+      "goodsNo": "1000000122",
+      "product": "BBIA Eau Glow Cushion Full Size",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000122",
+      "official_primary_photo_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000122/1000000122_magnify_089.jpg",
+      "photo_description": "silver/white round cushion compact with BBIA lid and visible sponge",
+      "expiry_notice": {
+        "17 페어": "2027-04",
+        "21 라이트": "2027-04",
+        "23 내추럴": "2027-04"
+      },
+      "status": "OFFICIAL_FULLSIZE_HERO_FOUND_KEEP_PREVIOUS_PUBLISHED_IMAGES_UNCHANGED",
+      "next": "Official hero is full compact; use as package reference for comparing already published 6; expiry and shade need batch-level validation"
+    },
+    {
+      "goodsNo": "1000000124",
+      "product": "BBIA Eau Glow Cushion Refill",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124",
+      "official_primary_photo_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000124/1000000124_magnify_061.jpg",
+      "photo_description": "top view of bare circular refill insert showing sponge, no silver/white compact case",
+      "expiry_notice": {
+        "17 페어": "2027-04",
+        "21 라이트": "2027-04",
+        "23 내추럴": "2027-05"
+      },
+      "status": "OFFICIAL_REFILL_ONLY_HERO_FOUND_PREVIOUS_SHARED_SOURCE_HOLD_PARTIALLY_RESOLVED",
+      "next": "Distinct official refill hero exists and is NOT the full case. Use for reference in future new refill hero candidate only; still do not publish before photo-use/option QA. Do not reuse generic full-size image as refill packaging proof"
+    }
+  ],
+  "independent_visual_findings": [
+    "Official primary full-size 1000000122 and refill 1000000124 show materially different package contents. Historical identical catalog source bytes cannot serve as independent package-proof for both listings.",
+    "Official 200 lipstick hero and 206 pencil hero have different form factors, giving concrete product identity comparators for archived photo candidates.",
+    "All four official hero sources are listing-generic photographs, not full option-specific exact shade references."
+  ],
+  "progress": {
+    "official_pages_verified": 4,
+    "official_hero_photo_urls_identified_and_visually_inspected": 4,
+    "reclassified_previous_holds": 1,
+    "critical_new_variant_conflicts": 1,
+    "new_generated_jpg_count": 0,
+    "new_sales_approvals": 0,
+    "existing_assets_modified": false,
+    "verified_55_urls_modified": false,
+    "final_spreadsheet_shared": false
+  },
+  "next_priority": [
+    "Compare historical candidates from 200 and 206 against documented official hero form factor and selected option",
+    "Build new refill-only scene from already sourced official reference after rights/quality verification, never reuse full-size package hero",
+    "Keep 21 eyeliner naming mismatch quarantined pending exact selector confirmation",
+    "Continue other pending families without repeating archived photo inventory"
+  ]
+}
