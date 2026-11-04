@@ -1,0 +1,50 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "baseline": "v2778",
+  "actual_fiveframe_QA_families_staged": 5,
+  "actual_JPGs_staged": 25,
+  "reused_source_blob_count": 25,
+  "renders_performed": 0,
+  "previously_approved_11_families_unchanged": true,
+  "verified_55_public_urls_unchanged": true,
+  "original_photo_brands_sourced_from_existing_QA": true,
+  "commercial_photo_rights_verified": false,
+  "owned_stock_generation_verified": false,
+  "original_MK_logo_verified": false,
+  "old_badge_in_legacy_scenes_unverified": true,
+  "newly_retail_approved": 0,
+  "final_excel_not_shared": true,
+  "groups": [
+    {
+      "family": "pending-14",
+      "product": "MISSHA PDRN NAD+ Firming Repair Cream 70mL",
+      "archived_JPGs": 5,
+      "hero_source": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-product-real-cutout-1080-JPG-QA.jpg"
+    },
+    {
+      "family": "pending-15",
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "archived_JPGs": 5,
+      "hero_source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-cutout-white-hero-1080-QA.jpg"
+    },
+    {
+      "family": "pending-17",
+      "product": "Dr.G Brightening Up Moisture Sun 50mL",
+      "archived_JPGs": 5,
+      "hero_source": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/pending-17/01-real-photographed-product-1080-JPG-QA.jpg"
+    },
+    {
+      "family": "pending-18",
+      "product": "Dr.G Brightening Up Sun Plus 50mL",
+      "archived_JPGs": 5,
+      "hero_source": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-cutout-white-hero-1080-QA.jpg"
+    },
+    {
+      "family": "pending-20",
+      "product": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+      "archived_JPGs": 5,
+      "hero_source": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg"
+    }
+  ]
+}

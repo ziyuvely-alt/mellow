@@ -1,0 +1,70 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "family": "pending-20",
+  "product": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+  "original_source_photos_reused": 5,
+  "QA_scene_count": 5,
+  "hero_native_visual_check": "product present and pack/volume legible; only technical/photo visual QA",
+  "brand_logo_fabricated": false,
+  "old_MK_logo_in_frames_2_to_5": "UNVERIFIED_SOURCE_GRAPHIC",
+  "commercial_photo_or_model_use_license": "NOT_VERIFIED",
+  "physical_user_owned_package_match": "NOT_VERIFIED",
+  "specific_hold": "Bottle pump and source image generation must be confirmed against actual GOODAL inventory",
+  "retail_sale_approved": false,
+  "new_public_URLs_published": 0,
+  "final_XLSX_shared": false,
+  "all_prior_source_files_immutable": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/01-prior-verified-real-alpha-hero-QA.jpg",
+      "source_path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+      "git_sha1": "d558ea986543c44ea2d26eaa85fc84398b887480",
+      "bytes": 61644,
+      "unmodified_prior_photo": true,
+      "scene": "real 100mL serum mist pump bottle foreground",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/02-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/02-original-QA.jpg",
+      "git_sha1": "caab301a41de26ebaaa92d0f0f5a2d56c91fdd3d",
+      "bytes": 55913,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 02",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/03-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/03-original-QA.jpg",
+      "git_sha1": "bf2ad9a65071c5ab552bdb3449f86640063e3250",
+      "bytes": 57223,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 03",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/04-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/04-original-QA.jpg",
+      "git_sha1": "06ed15e4ed70f90c7fe682c3164816a7032c00cd",
+      "bytes": 103332,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 04",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/05-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/05-original-QA.jpg",
+      "git_sha1": "1241a020017526cb4b96555db31b9abe5264f771",
+      "bytes": 95293,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 05",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    }
+  ]
+}

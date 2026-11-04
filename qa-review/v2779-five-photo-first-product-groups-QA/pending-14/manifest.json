@@ -1,0 +1,70 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "family": "pending-14",
+  "product": "MISSHA PDRN NAD+ Firming Repair Cream 70mL",
+  "original_source_photos_reused": 5,
+  "QA_scene_count": 5,
+  "hero_native_visual_check": "product present and pack/volume legible; only technical/photo visual QA",
+  "brand_logo_fabricated": false,
+  "old_MK_logo_in_frames_2_to_5": "UNVERIFIED_SOURCE_GRAPHIC",
+  "commercial_photo_or_model_use_license": "NOT_VERIFIED",
+  "physical_user_owned_package_match": "NOT_VERIFIED",
+  "specific_hold": "Physical 70mL vs foreign 70g package and source photo rights require verification",
+  "retail_sale_approved": false,
+  "new_public_URLs_published": 0,
+  "final_XLSX_shared": false,
+  "all_prior_source_files_immutable": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/01-prior-verified-real-alpha-hero-QA.jpg",
+      "source_path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/pending-14/01-product-real-cutout-1080-JPG-QA.jpg",
+      "git_sha1": "013fe71e963c74612763f85d1a2e56cc3f60600e",
+      "bytes": 129900,
+      "unmodified_prior_photo": true,
+      "scene": "70mL photographed product-only cutout",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/02-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-14/02-prior-original-byte-identical-QA.jpg",
+      "git_sha1": "bb15f9fbe9031e42dcb5d4acb040c6841c8966ae",
+      "bytes": 68977,
+      "unmodified_prior_photo": true,
+      "scene": "archived product scene 02",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/03-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-14/03-prior-original-byte-identical-QA.jpg",
+      "git_sha1": "76fdc095fdf40358bcbb79f229609cdb93be3c8a",
+      "bytes": 56611,
+      "unmodified_prior_photo": true,
+      "scene": "archived detail scene 03",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/04-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-14/04-prior-original-byte-identical-QA.jpg",
+      "git_sha1": "267be1c2fb4bf9fa41554a7bec879a4f95f61662",
+      "bytes": 105145,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo scene 04",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/05-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2675-missha-two-five-frame-photo-sets/pending-14/05-factual-detail-new-QA.jpg",
+      "git_sha1": "ca4e653c43bd1565745203749a88f5cd4732d7de",
+      "bytes": 83379,
+      "unmodified_prior_photo": true,
+      "scene": "archived factual product details only",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    }
+  ]
+}

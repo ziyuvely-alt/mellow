@@ -1,0 +1,70 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "family": "pending-18",
+  "product": "Dr.G Brightening Up Sun Plus 50mL",
+  "original_source_photos_reused": 5,
+  "QA_scene_count": 5,
+  "hero_native_visual_check": "product present and pack/volume legible; only technical/photo visual QA",
+  "brand_logo_fabricated": false,
+  "old_MK_logo_in_frames_2_to_5": "UNVERIFIED_SOURCE_GRAPHIC",
+  "commercial_photo_or_model_use_license": "NOT_VERIFIED",
+  "physical_user_owned_package_match": "NOT_VERIFIED",
+  "specific_hold": "Sun Plus vs Moisture Sun is not interchangeable; reconcile exact owned packaging",
+  "retail_sale_approved": false,
+  "new_public_URLs_published": 0,
+  "final_XLSX_shared": false,
+  "all_prior_source_files_immutable": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/01-prior-verified-real-alpha-hero-QA.jpg",
+      "source_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-18/01-real-cutout-white-hero-1080-QA.jpg",
+      "git_sha1": "fe4ff6174cd580d5f602b5f2f724d4d3b9e69d82",
+      "bytes": 72241,
+      "unmodified_prior_photo": true,
+      "scene": "50mL orange-band tube with photo-only alpha foreground",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/02-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-18/02-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "8378dd3b097c4326e1f5bb1f20a9ddf618d44673",
+      "bytes": 142682,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 02",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/03-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-18/03-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "baa4d4820cf44df1de8ff4cb6d69a607b2ccfe9b",
+      "bytes": 185378,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 03",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/04-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-18/04-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "1c539aedb22042f180cfef301b77aa8148260671",
+      "bytes": 213926,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 04",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/05-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-18/05-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "97d50b4c2aa82848c41c81bf772aa875778d0720",
+      "bytes": 117176,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 05",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    }
+  ]
+}

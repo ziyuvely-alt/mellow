@@ -1,0 +1,70 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "family": "pending-15",
+  "product": "Dr.G Green Mild Up Sun Plus 50mL",
+  "original_source_photos_reused": 5,
+  "QA_scene_count": 5,
+  "hero_native_visual_check": "product present and pack/volume legible; only technical/photo visual QA",
+  "brand_logo_fabricated": false,
+  "old_MK_logo_in_frames_2_to_5": "UNVERIFIED_SOURCE_GRAPHIC",
+  "commercial_photo_or_model_use_license": "NOT_VERIFIED",
+  "physical_user_owned_package_match": "NOT_VERIFIED",
+  "specific_hold": "Green Mild Up Sun+ original stock packaging and SPF claims still need exact item verification",
+  "retail_sale_approved": false,
+  "new_public_URLs_published": 0,
+  "final_XLSX_shared": false,
+  "all_prior_source_files_immutable": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/01-prior-verified-real-alpha-hero-QA.jpg",
+      "source_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/pending-15/01-real-cutout-white-hero-1080-QA.jpg",
+      "git_sha1": "3da3b9403edbc845448f859cb0657a6062d44cf4",
+      "bytes": 71089,
+      "unmodified_prior_photo": true,
+      "scene": "50mL tube photographed product-only cutout",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/02-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-15/02-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "a07f8fa18496ae000d126f76af4de98f1021f9f6",
+      "bytes": 151986,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 02",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/03-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-15/03-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "248a84df85bf652735dba3fbb52adba24b512edd",
+      "bytes": 160484,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 03",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/04-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-15/04-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "982a1806a06e71f67af1d655a3f4808e9604d70a",
+      "bytes": 163003,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 04",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/05-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2706-six-archival-five-real-source-families/pending-15/05-historical-real-art-photo-unchanged-QA.jpg",
+      "git_sha1": "a6c6a082f75128e61918a607c2082b16ba2df675",
+      "bytes": 132071,
+      "unmodified_prior_photo": true,
+      "scene": "archived photo 05",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    }
+  ]
+}

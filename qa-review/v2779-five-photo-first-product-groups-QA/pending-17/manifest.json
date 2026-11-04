@@ -1,0 +1,70 @@
+{
+  "version": "v2779",
+  "date": "2026-11-05",
+  "family": "pending-17",
+  "product": "Dr.G Brightening Up Moisture Sun 50mL",
+  "original_source_photos_reused": 5,
+  "QA_scene_count": 5,
+  "hero_native_visual_check": "product present and pack/volume legible; only technical/photo visual QA",
+  "brand_logo_fabricated": false,
+  "old_MK_logo_in_frames_2_to_5": "UNVERIFIED_SOURCE_GRAPHIC",
+  "commercial_photo_or_model_use_license": "NOT_VERIFIED",
+  "physical_user_owned_package_match": "NOT_VERIFIED",
+  "specific_hold": "Brightening Up Moisture Sun distinct from Brightening Up Sun Plus, do not swap",
+  "retail_sale_approved": false,
+  "new_public_URLs_published": 0,
+  "final_XLSX_shared": false,
+  "all_prior_source_files_immutable": true,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/01-prior-verified-real-alpha-hero-QA.jpg",
+      "source_path": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/pending-17/01-real-photographed-product-1080-JPG-QA.jpg",
+      "git_sha1": "ea0b8b51f0ee944f29b4435a5c0701104195ae6c",
+      "bytes": 90007,
+      "unmodified_prior_photo": true,
+      "scene": "50mL ivory tube with cap top recovered from real photo",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/02-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/02-original-QA.jpg",
+      "git_sha1": "12e27f59b6b897d63bb752744f0adbd903a4f080",
+      "bytes": 73380,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 02",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/03-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/03-original-QA.jpg",
+      "git_sha1": "2f7a3ef8848a17dc2595060a8bdfde900c23f41d",
+      "bytes": 169128,
+      "unmodified_prior_photo": true,
+      "scene": "archived source photo 03",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/04-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/04-original-QA.jpg",
+      "git_sha1": "15fac3ac2088f12886f4dc4065f14473a7d62789",
+      "bytes": 74403,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 04",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/05-source-archive-story-QA.jpg",
+      "source_path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-17/05-original-QA.jpg",
+      "git_sha1": "82e7e3d0dace07c589e70d840f295ef29b9bcdb2",
+      "bytes": 122084,
+      "unmodified_prior_photo": true,
+      "scene": "archived scene 05",
+      "individual_retail_approval": "HOLD_PHOTO_RIGHTS_MK_STOCK_CLAIMS"
+    }
+  ]
+}
