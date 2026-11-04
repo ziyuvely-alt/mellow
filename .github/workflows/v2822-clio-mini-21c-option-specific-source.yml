@@ -1,0 +1,32 @@
+name: Shopee v2822 original mini 5g 21C explicit merchant variant photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2822-clio-mini-21c-option-specific-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  confirm-21c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Record only images from merchant product variants explicitly mapped to 21C Lingerie 5g
+        run: |
+          python scripts/v2822_clio_exact_21c_variant_only.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2822-review qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2822-review/qa-review/v2822-clio-original-mini-5g-21C-exact-variant-gallery-proof
+          cp -a qa-review/v2822-clio-original-mini-5g-21C-exact-variant-gallery-proof /tmp/v2822-review/qa-review/
+          cd /tmp/v2822-review
+          git add qa-review/v2822-clio-original-mini-5g-21C-exact-variant-gallery-proof
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2822 verify exact 21C Lingerie 5g image options only; never mix 21N and 23N'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
