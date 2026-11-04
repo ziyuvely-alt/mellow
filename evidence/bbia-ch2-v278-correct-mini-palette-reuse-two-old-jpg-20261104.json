@@ -1,0 +1,41 @@
+{
+  "checkpoint": "v278",
+  "date": "2026-11-04",
+  "parent": "v277",
+  "goodsNo": [
+    "1000000108",
+    "188",
+    "1000000209"
+  ],
+  "actual_execution": {
+    "mode": "local_existing_source_reuse",
+    "input_v277": "/mnt/data/bbia_v277/BBIA_v277_THREE_DETAIL_QA_PENDING.zip",
+    "input_palette_crop": "/mnt/data/v278_palette_crop_b.jpg",
+    "new_jpg": 1,
+    "byte_identical_existing_jpgs": 2,
+    "artifact": "/mnt/data/bbia_v278/BBIA_v278_THREE_ROLES_QA_PENDING.zip",
+    "artifact_sha256": "ed7b8cb75f1ec782e4228f2d6b9270c4d14a88cfa5c0b40c7819c646d768f611",
+    "artifact_bytes": 253316,
+    "contact": "/mnt/data/bbia_v278/BBIA_v278_THREE_ROLE_CONTACT.jpg",
+    "zip_crc_valid": true,
+    "original_github_run_id": 41852720459,
+    "original_github_artifact_id": 13336372032
+  },
+  "qa": {
+    "goodsNo_1000000209": "Removed clipped lower edge and pink rule seen in v277, fully visible six-pan palette in new v278 QA JPEG; exact mini identity option remains unverified",
+    "goodsNo_188": "Reused blush photo candidate byte-identically; variant shade mapping still unverified",
+    "goodsNo_1000000108": "Reused eyebrow application photo candidate byte-identically; option shade mapping still unverified"
+  },
+  "preservation": {
+    "v277_jpg_modified": false,
+    "public_jpg_modified": false,
+    "verified_55_urls_modified": false,
+    "approved_for_sale": 0,
+    "final_spreadsheet_shared": false
+  },
+  "next": [
+    "Produce only genuinely missing role for previously incomplete families where verified product-only photos exist",
+    "Avoid duplicate source QA or re-render of accepted v262 five-role palette, v273 mini details and v278 cleaned palette",
+    "Keep square backgrounds as cutout QA hold, no false sale approvals"
+  ]
+}
