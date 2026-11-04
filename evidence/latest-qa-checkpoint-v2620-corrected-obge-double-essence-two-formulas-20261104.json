@@ -1,0 +1,78 @@
+{
+  "version": "v2620",
+  "date": "2026-11-04",
+  "project": "Shopee Thumbnail Creator PRO",
+  "source_checkpoint": {
+    "version": "v2619",
+    "zip": "Shopee_v2619_156JPG_DrG_MoistureSun_external_badge_removed_QA_ONLY.zip",
+    "count": 156
+  },
+  "actual_output": {
+    "zip": "/mnt/data/Shopee_v2620_156JPG_OBGE_DoubleEssence_Correct_Formulas_QA_ONLY.zip",
+    "comparison": "/mnt/data/v2620_double_essence_QA/before_after_step_formula.jpg",
+    "product_image": "/mnt/data/v2620_double_essence_QA/pending-11-slot05-corrected-formulas.jpg",
+    "images": 156,
+    "changed": 1,
+    "unchanged_sha256": 155,
+    "product": "OBgE All In One Double Essence",
+    "family": "pending-11",
+    "slot": 5,
+    "change": "Step 1 formula correctly shown TONER + ESSENCE 50mL; Step 2 formula correctly shown LOTION + CREAM 50mL instead of both incorrectly described ESSENCE",
+    "photo_area_mae_0_255": 0.1618,
+    "product_photo_preserved": true
+  },
+  "verification_sources": [
+    "https://www.ssg.com/item/itemView.ssg?itemId=1000464955759",
+    "https://www.yesstyle.com/es/obge-all-in-one-double-essence-100ml/info.html/pid.1128931980"
+  ],
+  "past_asset_reconciliation": {
+    "status": "5 preexisting corrected images verified byte-identical to v2619, despite legacy archive filenames",
+    "items": [
+      {
+        "family": "pending-05",
+        "slot": 5,
+        "sha256": "512450e4597d4a",
+        "state": "ALREADY_IN_v2619_NO_REWRITE"
+      },
+      {
+        "family": "pending-10",
+        "slot": 1,
+        "sha256": "a558c3e7c5bb4a",
+        "state": "ALREADY_IN_v2619_NO_REWRITE"
+      },
+      {
+        "family": "pending-10",
+        "slot": 2,
+        "sha256": "b5380797e5b1ec",
+        "state": "ALREADY_IN_v2619_NO_REWRITE"
+      },
+      {
+        "family": "pending-10",
+        "slot": 3,
+        "sha256": "b876defcbbb47f",
+        "state": "ALREADY_IN_v2619_NO_REWRITE"
+      },
+      {
+        "family": "pending-12",
+        "slot": 4,
+        "sha256": "b56981a3a28336",
+        "state": "ALREADY_IN_v2619_NO_REWRITE"
+      }
+    ],
+    "no_regeneration": true
+  },
+  "immutable": {
+    "approved_families": 11,
+    "published_verified_urls": 55,
+    "public_urls_changed": 0,
+    "original_MK_logo_substituted": false,
+    "xlsx_created_or_shared": false
+  },
+  "release_gates": {
+    "original_photo_commercial_usage_rights_verified": false,
+    "physical_stock_version_verified": false,
+    "authentic_MK_logo_applied": false,
+    "human_final_commercial_approval": false
+  },
+  "next": "Use v2620 156-JPG QA archive. Do not 'restore' previous five copies: already bit-identical in source v2619. Seek next independently evidenced customer copy or exact-stock photo issue, or obtain original MK logo and photo rights before release."
+}
