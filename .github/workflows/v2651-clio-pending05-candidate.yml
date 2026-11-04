@@ -1,0 +1,36 @@
+name: Shopee v2651 CLIO pending05 isolated actual JPEG detail crop QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2651_pending05_real_photo_detail_candidate.py'
+  workflow_dispatch:
+permissions:
+  actions: read
+  contents: read
+jobs:
+  produce-isolated-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Read v2650 result only
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41822808648 -n shopee-v2650-one-flagged-pair-review-only-no-XLSX -D source/previous-review
+      - name: Restore original historical photos once
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/photos
+      - name: Generate isolated actual pixel crop and technical QA
+        run: python scripts/v2651_pending05_real_photo_detail_candidate.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2651-clio-pending05-actual-photo-detail-candidate-QA-no-XLSX
+          path: v2651-pending05-actual-image-candidate/
+          retention-days: 90
+          if-no-files-found: error
