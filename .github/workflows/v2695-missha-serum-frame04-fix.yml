@@ -1,0 +1,32 @@
+name: Shopee v2695 MISSHA 30mL serum photo frame04 exact-only fix
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2695-missha-serum-frame04-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Repair frame04 from exact 30mL Korean official source; preserve JPG 01 02 03 05
+        run: |
+          python -m py_compile scripts/v2695_missha_serum_slot04_fix.py
+          cp scripts/v2695_missha_serum_slot04_fix.py /tmp/v2695.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2695 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2695
+          python /tmp/v2695.py
+          git add qa-review/v2695-missha-pdrn-30ml-official-source-candidate
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2695 correctly replace MISSHA serum slot04 only if different genuine 30mL official product photo'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
