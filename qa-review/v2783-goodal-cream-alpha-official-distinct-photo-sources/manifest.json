@@ -1,0 +1,137 @@
+{
+  "version": "v2783",
+  "family": "pending-19",
+  "baseline": "v2782",
+  "page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-cream-advanced-ver",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+  "raw_same_product_gallery_urls": [
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/1_83005dbd-050d-4026-887e-95132d160429.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/2_d5a44fc5-ef3a-4f38-a569-24dd62525257.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/3_a430a093-6b35-4505-b8ec-dbe56aae24f4.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/4_9bb850dc-225e-4ca6-b361-8d34a906d6ad.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/5_e98f3c1f-2a99-41a6-b120-d131ce26e20e.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/6_69e4dd90-dce7-43d0-a57e-9cc4ba45fa93.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/7_0c33a317-b397-4bbc-b58d-4260362f1f52.jpg?v=1772777724",
+    "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/g1.jpg?v=1792393396"
+  ],
+  "new_source_photo_candidates": [
+    {
+      "candidate": "01-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/1_83005dbd-050d-4026-887e-95132d160429.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "91e9d7321edadeb1a65c689d0d417d96c4ce1d5ea5923058e67f8f4304afcaa9",
+      "jpg_sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "bytes": 83045,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "02-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/2_d5a44fc5-ef3a-4f38-a569-24dd62525257.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "785e9c032cc4ed20b1f7498cf1f9633a95fef3f17b85609862b62966ffa2c364",
+      "jpg_sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "bytes": 192391,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "03-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/3_a430a093-6b35-4505-b8ec-dbe56aae24f4.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "d4cc1a3cc5038f780214e9c857457408178e285414bee80e6bc72db0d1d8d24d",
+      "jpg_sha256": "2a03796886a0ff83381f6c5c3b2e793747beeedcc405f30f1876601b6904457c",
+      "bytes": 207844,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "04-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/4_9bb850dc-225e-4ca6-b361-8d34a906d6ad.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "245d91a5c237aaf5aa5928b22a0f5831c1b7f2890496c620de33bb3d50f1f419",
+      "jpg_sha256": "c5a226f96a6e9d1626a8e59c2392220bc0c905cb56bb59eb2958cfe959bb6b16",
+      "bytes": 223119,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "05-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/5_e98f3c1f-2a99-41a6-b120-d131ce26e20e.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "89bf4ea43a088b292b0ef67f65bbaacc5092d56ffbbf5f7b6944b9d896aac6db",
+      "jpg_sha256": "d5ee1388900268a50be85a0c7631a5a5cf751b60f997cd2a297abc203db7e3c1",
+      "bytes": 225653,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "06-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/6_69e4dd90-dce7-43d0-a57e-9cc4ba45fa93.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "c6fa1ed2c9a29fd8538ba8cca63f632b3f14b4f8e0ea8a8ee065c3c336138e42",
+      "jpg_sha256": "4614f91ca14074ec3453d74298fc3b95c2d815aef2c8936d39f9f6c13d21a856",
+      "bytes": 139233,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "07-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/7_0c33a317-b397-4bbc-b58d-4260362f1f52.jpg?v=1772777724",
+      "original_size_px": [
+        1200,
+        1200
+      ],
+      "original_sha256": "bf8d31fa0e01b70becf94f1bee1e2e565e39fa77c105c365aaab29baf2e34192",
+      "jpg_sha256": "351984d89e0bf23d7cc411d73fa479ae46c20428cd3cb42f3eb9b625554ce17a",
+      "bytes": 225704,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    },
+    {
+      "candidate": "08-official-product-gallery-QA.jpg",
+      "official_original_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/g1.jpg?v=1792393396",
+      "original_size_px": [
+        1500,
+        1500
+      ],
+      "original_sha256": "38ed4bb1df454ea052e6b700c51c90974bd980223eb14f8871177b879b1f5023",
+      "jpg_sha256": "2d0722e1d5efbbc2cdd507c7a8b8435bbe51c5f02a99e279f40ae0847758f662",
+      "bytes": 171444,
+      "visually_exact_50ml_alpha_generation_verified": false,
+      "license_clearance": "HOLD"
+    }
+  ],
+  "commercial_photo_redistribution_rights_verified": false,
+  "actual_user_stock_edition_verified": false,
+  "old_11_approved_families_unchanged": true,
+  "old_55_published_URLs_unchanged": true,
+  "newly_retail_approved": false,
+  "final_XLSX_shared": false,
+  "actual_english_brand_item_title": "[GOODAL] Green Tangerine Vitamin C Cream [Advanced Ver.]",
+  "product_variant_skus": [
+    {
+      "title": "Default Title",
+      "sku": null
+    }
+  ],
+  "status": "CANDIDATES_STAGED_FOR_REAL_FRAME_VISUAL_QA"
+}
