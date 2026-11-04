@@ -1,0 +1,31 @@
+name: Shopee v2759 safe Peripera 18 19 detached alpha background cleanup only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2759-peripera-18-19-island-alpha-safe-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  safe:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Remove only isolated erroneous boundary component; never cut genuine product pixels
+        run: |
+          cp scripts/v2759_peripera_18_19_island_safe_fix.py /tmp/v2759.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2759 qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2759
+          python /tmp/v2759.py
+          git add qa-review/v2759-peripera-18-19-border-alpha-island-safety
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2759 safe specific 18 and 19 alpha border defect correction or quarantine, no other original change'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
