@@ -1,0 +1,34 @@
+name: Shopee v2823 independent 21C mini 5g compact actual alpha from Lila
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2823-clio-21c-true-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  exact-21c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 26
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless 'rembg[cpu]==2.0.67'
+      - name: Use 21C explicitly merchant-mapped real compact, not 21N or 23N photos
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python -m py_compile scripts/v2823_clio_exact_21c_real_product_alpha.py
+          cp scripts/v2823_clio_exact_21c_real_product_alpha.py /tmp/v2823.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2823-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2823-qa
+          python /tmp/v2823.py
+          git add qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2823 exact 21C Lingerie mini 5g true-photo alpha; previous 21N 23N unchanged'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
