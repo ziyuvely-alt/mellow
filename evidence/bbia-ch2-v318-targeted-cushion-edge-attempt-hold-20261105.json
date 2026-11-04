@@ -1,0 +1,27 @@
+{
+  "checkpoint": "v318",
+  "date": "2026-11-05",
+  "parent": "v317",
+  "goodsNo": "1000000178",
+  "operation": "One targeted 3x3 elliptical alpha erosion + Gaussian feather at 0.8 pixel; unchanged original source RGB; separate new binary output",
+  "new_cutout_png": "/mnt/data/bbia_v318/BBIA_1000000178_CUSHION_ALPHA_EDGE_v318_QA_PENDING.png",
+  "new_png_sha256": "16b2dd95f9244a89f40af6c9cb4556b769d5f41ebc8234ccba0f5c7cc65aee97",
+  "new_layout_jpg": "/mnt/data/bbia_v318/BBIA_1000000178_CUSHION_HERO_EDGE_v318_QA_PENDING.jpg",
+  "new_jpg_sha256": "0324fe3cb376c89a6c8a85094476f8a5d8951a75ccc7d14ef49b40616b3a0a5f",
+  "visual_comparison": "/mnt/data/bbia_v318/BBIA_v318_CUSHION_EDGE_BEFORE_AFTER_CHARCOAL.jpg",
+  "zip": "/mnt/data/bbia_v318/BBIA_v318_CUSHION_EDGE_CANDIDATE_QA_PENDING.zip",
+  "zip_sha256": "423f65e8f195163a41aabda114412405d212ba6836110359201b0dd2579e18bf",
+  "zip_crc": "PASS",
+  "alpha_integral_loss_percent": 0.69,
+  "manual_visual_QA": "Tiny halo improvement but still visible stair-step and bright fringe along lower metal rim on dark background. Do NOT promote or retry same erosion method. Switch to different foreground/masking method later.",
+  "status": "HOLD_EDGE_QA_NOT_SALES_APPROVED",
+  "approved_for_publication": false,
+  "previous_v315_v316_files_changed": false,
+  "verified_55_urls_changed": false,
+  "final_excel_shared": false,
+  "next": [
+    "Keep v318 version solely as comparison candidate, never overwrite v316",
+    "Switch input photo/segmentation technique for cushion rather than repeating edge erosion",
+    "Other two cutout previews remain design QA candidates, not sales approvals"
+  ]
+}
