@@ -1,0 +1,20 @@
+{
+  "version": "v2728",
+  "baseline": "v2727",
+  "family": "pending-13",
+  "role": "02_OPEN_BOTTLE_AND_PIPETTE_PRODUCT_DETAIL",
+  "source_image": "qa-review/v2696-missha-serum-official-gallery-proof/source-03-REVIEW-ONLY.jpg",
+  "source_image_sha256": "b0e701a7e786e06f5a11d9a55e0ddeafe321e97adc0af875ce807c06cdb777e1",
+  "source_is_independent_of_hero_source04": true,
+  "retail_approved": false,
+  "photo_redistribution_permission_proven": false,
+  "exact_30ml_owned_stock_version_proven": false,
+  "original_MK_logo_physically_available_to_renderer": false,
+  "existing_11_approved_families_modified": false,
+  "existing_55_public_urls_modified": false,
+  "source_product_photo_original_mutated": false,
+  "final_excel_shared": false,
+  "status": "HOLD_ALPHA_INDEPENDENT_SOURCE_FAILED",
+  "error": "photo cutout clipped source boundary: {'left': 0.0, 'right': 0.0, 'top': 0.16990291262135923, 'bottom': 0.0}",
+  "exception_type": "ValueError"
+}
