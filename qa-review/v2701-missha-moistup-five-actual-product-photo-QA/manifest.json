@@ -1,0 +1,59 @@
+{
+  "version": "v2701",
+  "base": "v2700",
+  "family": "pending-02",
+  "product": "MISSHA Magic Cushion Moist Up",
+  "five_actual_product_photo_JPGs_present": true,
+  "source_JPGs_reencoded_or_regenerated": 0,
+  "prior_historical_real_JPGs_byte_preserved": 1,
+  "newly_integrated_regional_photo_JPGs_byte_preserved": 4,
+  "replaced_generic_information_cards_in_new_QA_revision": 4,
+  "previous_v2682_5frame_QA_set_untouched": true,
+  "regional_shades_from_source_catalog": [
+    "NO.21",
+    "NO.23"
+  ],
+  "actual_owned_stock_shades_and_Korean_edition_verified": false,
+  "photo_commercial_rights_verified": false,
+  "retail_approved": false,
+  "old_11_approved_families_unchanged": true,
+  "existing_55_verified_public_URLs_unchanged": true,
+  "final_xlsx_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-KR-historical-byte-preserved-QA.jpg",
+      "origin": "qa-review/v2682-seven-remaining-five-JPG-reviews/pending-02/01-existing-actual-frame02-UNMODIFIED-QA.jpg",
+      "sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+      "exact_bytes_preserved": true
+    },
+    {
+      "slot": 2,
+      "file": "02-regional-photo-01-byte-preserved-QA.jpg",
+      "origin": "qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs/01-Missha-regional-real-photo-reference.jpg",
+      "sha256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42",
+      "exact_bytes_preserved": true
+    },
+    {
+      "slot": 3,
+      "file": "03-regional-photo-02-byte-preserved-QA.jpg",
+      "origin": "qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs/02-Missha-regional-real-photo-reference.jpg",
+      "sha256": "b00a890e76a5e901c82472bb0e8425609c97bf10ea94af3f7b1ce635701f1fac",
+      "exact_bytes_preserved": true
+    },
+    {
+      "slot": 4,
+      "file": "04-regional-photo-03-byte-preserved-QA.jpg",
+      "origin": "qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs/03-Missha-regional-real-photo-reference.jpg",
+      "sha256": "1a81493b28a0863416c4afe7ccd62e1c2befb0aac016c27d07c416c628ddbf60",
+      "exact_bytes_preserved": true
+    },
+    {
+      "slot": 5,
+      "file": "05-regional-photo-04-byte-preserved-QA.jpg",
+      "origin": "qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs/04-Missha-regional-real-photo-reference.jpg",
+      "sha256": "2c3c956e67c4082e391520feb401bc0e414c8cfc09569b331f0845610de2cf99",
+      "exact_bytes_preserved": true
+    }
+  ]
+}
