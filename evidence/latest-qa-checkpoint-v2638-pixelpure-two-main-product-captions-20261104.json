@@ -1,0 +1,49 @@
+{
+  "version": "v2638",
+  "date": "2026-11-04",
+  "baseline": "v2637",
+  "archive": "/mnt/data/Shopee_v2638_156JPG_PIXELPURE_two_main_card_captions_QA_ONLY.zip",
+  "script": "/mnt/data/v2638_two_main_caption_fixes.py",
+  "actual_image_count": 156,
+  "actual_changed_count": 2,
+  "original_untouched_count": 154,
+  "actual_changes": [
+    {
+      "family": "pending-29",
+      "slot": 1,
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "old": "Your selected size / Your selected 50 ml cream",
+      "new": "RADIANCE AQUA / SOOTHING CREAM | 50 mL",
+      "preview": "/mnt/data/v2638_156_QA/pending-29-before-after.jpg"
+    },
+    {
+      "family": "pending-30",
+      "slot": 1,
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "old": "Your daily serum step",
+      "new": "AURA RADIANCE SERUM / 50 mL | 1 BOTTLE",
+      "preview": "/mnt/data/v2638_156_QA/pending-30-before-after.jpg"
+    }
+  ],
+  "verified": {
+    "all_156_jpg_square_1080": true,
+    "all_under_2MB": true,
+    "zip_integrity_pass": true,
+    "only_expected_2_hashes_changed": true,
+    "both_before_after_visually_checked": true
+  },
+  "preserved": {
+    "previous_11_commercially_published_families_untouched": true,
+    "prior_55_public_urls_modified": 0,
+    "existing_154_images_byte_identical": true,
+    "previous_archive_not_overwritten": true,
+    "final_xlsx_or_spreadsheet_shared": false
+  },
+  "release_blockers": [
+    "Exact owned stock generation not verified",
+    "Third-party original product photos not cleared for commercial reuse",
+    "Original MellowKR MK logo binary not verified; existing provisional logo still appears on many QA cards",
+    "Final visual QA / sales release still HOLD"
+  ],
+  "next": "Resume using v2638 archive, not v2637. Do not repeat PIXEL PURE pending29/30 slot01 fixes or earlier pending27/28 caption work. Avoid regenerating unrelated photos or trying to invent MK original. Prioritize exact-edition authorized images and original MK binary; all pending 30 review only."
+}
