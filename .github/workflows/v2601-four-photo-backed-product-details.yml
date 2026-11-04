@@ -1,0 +1,33 @@
+name: Shopee v2601 four real-photo-backed product details QA
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2601_four_real_photo_backed_product_info_QA.py'
+      - '.github/workflows/v2601-four-photo-backed-product-details.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  genuine-photo-detail-scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse latest 156 real product photo review scenes
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765900358 -n shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX -D review
+      - name: Produce four original layouts from genuine existing product photos
+        run: python scripts/v2601_four_real_photo_backed_product_info_QA.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2601-four-actual-product-photo-detail-JPG-QA-no-XLSX
+          path: v2601-four-photo-backed-product-info-QA/
+          retention-days: 90
+          if-no-files-found: error
