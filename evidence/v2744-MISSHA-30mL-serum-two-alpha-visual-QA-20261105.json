@@ -1,0 +1,33 @@
+{
+  "version": "v2744",
+  "date": "2026-11-05",
+  "family": "pending-13",
+  "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+  "workflow_run_id": 41884924557,
+  "status": "success",
+  "qa_folder": "qa-review/v2744-MISSHA-PDRN-30mL-single-official-bottle-two-alpha-qa",
+  "original_source": "qa-review/v2696-missha-serum-official-gallery-proof/source-04-REVIEW-ONLY.jpg",
+  "actual_real_photo_alpha_PNG_JPG_pairs": 2,
+  "visual_qa": [
+    {
+      "method": "isnet_30mL_serum",
+      "result": "CONDITIONAL_QA_CANDIDATE",
+      "finding": "Bottle body, label and entire white dropper retained. A small red decorative droplet remains to the right of transparent glass neck; requires targeted crop cleanup."
+    },
+    {
+      "method": "seeded_grabcut_30mL_serum",
+      "result": "REJECT_CROPPED_DROPPER",
+      "finding": "Upper white bulb of dropper removed. Do not publish or regenerate same mask."
+    }
+  ],
+  "no_wrong_vitamin_C_photo_used": true,
+  "no_previous_info_card_used": true,
+  "new_retail_approved": 0,
+  "stock_generation_confirmed": false,
+  "original_MK_logo_authenticated": false,
+  "photo_use_rights_verified": false,
+  "prior_11_sale_groups_unchanged": true,
+  "public_55_image_urls_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "next": "v2745 GOODAL 25AD true full 30mL tube from new actual source, then source-pixel alpha cleanup for serum if feasible; no repeat GrabCut"
+}
