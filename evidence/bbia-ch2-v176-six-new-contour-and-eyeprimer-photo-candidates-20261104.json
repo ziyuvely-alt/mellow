@@ -1,0 +1,56 @@
+{
+  "schema": "bbia_ch2_v176_en_incremental",
+  "date": "2026-11-04",
+  "from_checkpoint": "v175, 15 JPGs (7 pending, 8 held)",
+  "source_zip": "BBIA_Cutout_Progress_20261030.zip",
+  "new_english_JPG_count": 6,
+  "products": [
+    {
+      "goodsNo": "1000000134",
+      "name": "BBIA Last Contour Stick",
+      "official": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000134",
+      "new": 4,
+      "scenes": [
+        "product range",
+        "texture reference",
+        "campaign model",
+        "product detail"
+      ],
+      "held_source": "hero-cutout.png low-resolution 94x354"
+    },
+    {
+      "goodsNo": "205",
+      "name": "BBIA Last Eye Primer",
+      "official": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=205",
+      "official_volume": "2.8g",
+      "new": 2,
+      "scenes": [
+        "product studio",
+        "wand applicator detail"
+      ],
+      "held_sources": [
+        "hero-cutout.png 124x332 unsuitable for hero",
+        "photo-4.png contains obscuring white panel",
+        "photo-5.png embedded Korean caption and before-after claim"
+      ]
+    }
+  ],
+  "files": [
+    "BBIA_v176_6_NEW_ORIGINAL_PHOTO_EN_QA_PENDING.zip",
+    "BBIA_v176_SIX_NEW_EDITORIAL_SOURCE_PHOTO_CONTACT.jpg",
+    "v176_original_source_selection.jpg"
+  ],
+  "manifest": "v176_original_cutout_EN/BBIA_v176_MANIFEST.json",
+  "source_sha256_and_dimensions_recorded": true,
+  "technical": "6 new JPEG 1080x1080 <2MB, valid ZIP CRC",
+  "quality_note": "Distinct existing product photos, but official-original pixel provenance unverified; some archived composition/text may be present; no automatically approved shade/look claim",
+  "new_sales_approved": 0,
+  "localizations": 0,
+  "preserved": [
+    "v147 125 original JPGs",
+    "v150-v175 earlier image binaries and source holds",
+    "55 public URLs"
+  ],
+  "no_excel_shared": true,
+  "next": "Skip v176 six frames and held source PNG on repeated runs. Only replace individual frames when higher-quality official original source photos are available. Continue with a different not-yet-worked family and verify source pixel provenance before final EN release."
+}
