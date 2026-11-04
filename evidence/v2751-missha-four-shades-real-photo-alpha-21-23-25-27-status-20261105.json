@@ -1,0 +1,79 @@
+{
+  "version": "v2751",
+  "date": "2026-11-05",
+  "baseline": "v2750",
+  "family": "pending-01",
+  "action_run_ids": {
+    "v2749_official_variant_source": 41889716223,
+    "v2750_alpha_generation": 41890031231,
+    "v2751_mask_integrity": 41890642267
+  },
+  "source_shades_from_brand_variant_ids": [
+    "25",
+    "27"
+  ],
+  "source_native_images_px": {
+    "25": [
+      1000,
+      1000
+    ],
+    "27": [
+      1000,
+      1000
+    ]
+  },
+  "generated_all_methods_in_v2750": {
+    "transparent_png_jpg_pairs": 4
+  },
+  "preferred_accepted_photo_QA": [
+    {
+      "shade": "25",
+      "method": "isnet-general-use",
+      "jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-product-1080-QA.jpg",
+      "png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+      "technical_pass": true,
+      "visual": "CONDITIONAL_SILHOUETTE_PASS",
+      "transparency_fraction": 0.3944
+    },
+    {
+      "shade": "27",
+      "method": "isnet-general-use",
+      "jpg": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-product-1080-QA.jpg",
+      "png": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+      "technical_pass": true,
+      "visual": "CONDITIONAL_SILHOUETTE_PASS",
+      "transparency_fraction": 0.3856
+    }
+  ],
+  "rejected_new_mask_alternatives": [
+    "25 white_bg_contour produced rectangle/holes on pale upper lid",
+    "27 white_bg_contour produced rectangle/holes on pale upper lid"
+  ],
+  "already_existing_source_shades": {
+    "N21": "v2748 existing authentic N21 photograph alpha, stock option historic conflict",
+    "N23": "v2747 existing authentic N23 photograph alpha, stock generation still not independently verified"
+  },
+  "all_4_shade_numbers_have_independently_source_linked_photo_or_independent_actual_archive_input": true,
+  "public_merchant_official_listing_present_25_27": true,
+  "commercial_photo_license_verified": false,
+  "owned_physical_stock_editions_verified": false,
+  "original_MK_logo_file_verified": false,
+  "technical_jpg_dimensions": [
+    1080,
+    1080
+  ],
+  "user_approved_retail_sale_count_new": 0,
+  "exactly_existing_11_retail_approved_families_unchanged": true,
+  "original_55_verified_public_image_URLs_unchanged": true,
+  "QA_filenames_and_original_PNG_JPG_unmodified": true,
+  "no_fake_color_chip_derived": true,
+  "no_replication_of_21_23_photos_for_other_shades": true,
+  "user_final_excel_shared": false,
+  "reviewer_note": "v2751 proof's ALPHA DETAIL 1:1 visual label is imprecise: preview panel downsamples native pixels. It is a close-view comparison, NOT strict native-pixel inspection. Further 100%-native edge QA is required before final retail approval.",
+  "next": [
+    "Stop rerendering MISSHA 21/23/25/27. Four distinct shade-number photo-source assets are already present.",
+    "Verify Korean owned 21 stock status and each exact item-generation/size, then commercial reuse rights and authenticated MK logo before retail release.",
+    "For pending08 PERIPERA, old-vs-26AD photo/variant edition remains blocked; source v2750a clarifies missing 04/06/07 are merchant selection omission rather than proof of nonexistent shade.",
+    "Prioritize product families without valid actual original sources; do not render flat info cards or promotional sets as single product photo."
+  ]
+}
