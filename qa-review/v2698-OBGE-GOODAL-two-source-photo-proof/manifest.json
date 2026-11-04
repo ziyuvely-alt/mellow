@@ -1,0 +1,46 @@
+{
+  "version": "v2698",
+  "baseline": "v2697",
+  "families": [
+    {
+      "family": "pending-09",
+      "page": "https://obge.co.kr/product/오일-컨트롤-피니셔/1206",
+      "title": "오일 컨트롤 피니셔 - 오브제",
+      "status": "HOLD_NO_DECODABLE_SAME_PRODUCT_PHOTO",
+      "source_candidate_urls": [],
+      "pictures": [],
+      "retail_approved": false,
+      "photo_policy": "official single finisher product, not bundle"
+    },
+    {
+      "family": "pending-21",
+      "page": "https://www.kurly.com/goods/1001465618",
+      "title": "[구달] NEW 청귤비타C 잡티케어 아이크림 30ml - 마켓컬리",
+      "status": "CANDIDATES_STAGED_MUST_VISUALLY_VERIFY_PRODUCT",
+      "source_candidate_urls": [
+        "https://product-image.kurly.com/product/image/8880a713-9c74-484c-adfd-846bce7e1d3a.jpg"
+      ],
+      "pictures": [
+        {
+          "file": "01-source-candidate-NOT-FOR-RETAIL.jpg",
+          "image_url": "https://product-image.kurly.com/product/image/8880a713-9c74-484c-adfd-846bce7e1d3a.jpg",
+          "source_kind": "meta",
+          "source_dimensions": [
+            1010,
+            472
+          ],
+          "sha256": "1232bfb91dc388f5b197977aa0e7fe6f383c33ce5e9c2f45e6aaf03a1d950959"
+        }
+      ],
+      "retail_approved": false,
+      "photo_policy": "single NEW 30mL eye cream, NOT 2EA/eye patch gift set"
+    }
+  ],
+  "source_candidate_physical_JPG_count": 1,
+  "changed_existing_QA_JPGs": 0,
+  "new_retail_approved": 0,
+  "approved_11_families_unchanged": true,
+  "published_55_verified_URLs_unchanged": true,
+  "source_license_and_edition_verified": false,
+  "no_final_spreadsheet_shared": true
+}
