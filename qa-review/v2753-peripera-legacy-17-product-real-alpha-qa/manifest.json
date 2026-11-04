@@ -1,0 +1,477 @@
+{
+  "version": "v2753",
+  "family": "pending-08",
+  "baseline": "v2752",
+  "legacy_source_count": 20,
+  "attempted_real_product_photographs": 17,
+  "source_image_is_from_variant_linked_merchant": true,
+  "source_photo_licensing_verified": false,
+  "not_a_26AD_swatches_or_color_chart": true,
+  "product_edition_matches_owned_stock_verified": false,
+  "actual_transparent_png_1080jpg_pairs_saved": 17,
+  "lip_only_source_shades_intentionally_skipped": [
+    "12",
+    "13",
+    "14"
+  ],
+  "previous_approved_11_families_unchanged": true,
+  "previous_55_public_URLs_unchanged": true,
+  "source_jpgs_unchanged": true,
+  "no_fake_swatches_created": true,
+  "new_retail_approvals": 0,
+  "final_spreadsheet_shared": false,
+  "shades": [
+    {
+      "shade": "01",
+      "merchant_variant": "01 Best Beige Menu",
+      "source_filename": "01-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "7cb4df5f11465a8dd209f83d5ab44c031434eaa4c27948884e77cc61c174709f",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-01/01-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-01/01-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.5681,
+      "foreground_bbox": [
+        0,
+        9,
+        630,
+        721
+      ],
+      "jpg_sha256": "ae13ca7c05c7174d79bca73e9ea63f0a1a62016a78b576a808eece4cb0b34ad2",
+      "jpg_bytes": 110300
+    },
+    {
+      "shade": "02",
+      "merchant_variant": "02 Coral Influencer",
+      "source_filename": "02-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "a7965e6ef84a7f255b66f14c542ae702474bbd0e021f42dcde7d355eb1e69869",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-02/02-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-02/02-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.5169,
+      "foreground_bbox": [
+        0,
+        9,
+        613,
+        720
+      ],
+      "jpg_sha256": "c6f46f8e207d726b1d99b0cc15064d40ac8a9a34f0fc7c2c8c2ca320028fa89c",
+      "jpg_bytes": 109074
+    },
+    {
+      "shade": "03",
+      "merchant_variant": "03 Rose In Mind",
+      "source_filename": "03-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "c2c4cef7415717d7ea78ead7896bf85f642b4082da2defe57b92698d1b3ba501",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-03/03-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-03/03-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.5475,
+      "foreground_bbox": [
+        0,
+        10,
+        638,
+        720
+      ],
+      "jpg_sha256": "1c0f5d4562da6d668e666d2037e92143b748908a83632a4ed24da45cb6964a57",
+      "jpg_bytes": 112943
+    },
+    {
+      "shade": "04",
+      "merchant_variant": "04 Pink Youth",
+      "source_filename": "04-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "63ec8660c70cb256f36cce8be2eeebe5a80646e0c4c5e0c5527db8fe095394cf",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-04/04-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-04/04-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.5396,
+      "foreground_bbox": [
+        0,
+        15,
+        622,
+        721
+      ],
+      "jpg_sha256": "62dcf86df6f6de864cf0fc9125d33147b5512252ea3821a6be2c4376591643b3",
+      "jpg_bytes": 99195
+    },
+    {
+      "shade": "05",
+      "merchant_variant": "05 Cherry So What",
+      "source_filename": "05-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "7f26d6a6791720e0e2f9728f1382b6d28b3ff3bbe0ceeb60c18de1262224fe21",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-05/05-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-05/05-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.4656,
+      "foreground_bbox": [
+        0,
+        15,
+        665,
+        720
+      ],
+      "jpg_sha256": "13871398edc69358a7bc781463582174439c8f4f5cee9805f08dd9ba92ba4bb3",
+      "jpg_bytes": 110394
+    },
+    {
+      "shade": "06",
+      "merchant_variant": "06 Plum Update",
+      "source_filename": "06-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "528dd971b6c3c5372d87872d9b92100d6a344ebd018f5f43b946a75b34fea4da",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-06/06-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-06/06-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.5815,
+      "foreground_bbox": [
+        0,
+        16,
+        625,
+        720
+      ],
+      "jpg_sha256": "b19d94645d032f04d383d7c0777cbeb9230c26b91b1993ba3750425a3e7e0132",
+      "jpg_bytes": 106343
+    },
+    {
+      "shade": "07",
+      "merchant_variant": "07 I'm Pinkest CHOIGOSIM Ver",
+      "source_filename": "07-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "76a05e54b1b70e4ace0df87599147074e01e3b3d6b8a16f96e9464d821904976",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-07/07-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-07/07-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.4206,
+      "foreground_bbox": [
+        95,
+        39,
+        592,
+        755
+      ],
+      "jpg_sha256": "6ee42ef54c8532ff5cb257af4564a6890262e7d6c34b1121eab9580708252ea2",
+      "jpg_bytes": 112715
+    },
+    {
+      "shade": "08",
+      "merchant_variant": "08 Pink Do It CHOIGOSIM Ver",
+      "source_filename": "08-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "77236089a38e7694338967c3d2b70795768896edbeaa15e267d91f6625877615",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-08/08-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-08/08-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.3279,
+      "foreground_bbox": [
+        96,
+        41,
+        589,
+        755
+      ],
+      "jpg_sha256": "84fceec8458f433a5cc5c753547a94c118eb22f4c1ef28f4fbdd79451d722025",
+      "jpg_bytes": 118824
+    },
+    {
+      "shade": "09",
+      "merchant_variant": "09 Nude to Heart",
+      "source_filename": "09-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "203c1661a299b230a0286336e362b6afdacd3bb86e7cea7b59b42bc49afea493",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-09/09-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-09/09-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.4424,
+      "foreground_bbox": [
+        97,
+        47,
+        585,
+        755
+      ],
+      "jpg_sha256": "c5edee0524e92a12e90eb4282392d4fb3dfff57e316ec63912a0a91d18a48ea0",
+      "jpg_bytes": 100825
+    },
+    {
+      "shade": "10",
+      "merchant_variant": "10 Captivating Pink",
+      "source_filename": "10-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "2fc5825ab40638c71cf1ecfd32f0d074233c603c70def193a6e4ffd8a6c7f24f",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-10/10-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-10/10-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.4347,
+      "foreground_bbox": [
+        97,
+        49,
+        563,
+        755
+      ],
+      "jpg_sha256": "24502e42c90c8b539d42efbfc552ddb488569baac763616a8bf69f6b268b7cc8",
+      "jpg_bytes": 89691
+    },
+    {
+      "shade": "11",
+      "merchant_variant": "11 Brown Heaven",
+      "source_filename": "11-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "2a3c3a792dc49e22a2d5aee1686da492ffdda068288e8990c111076c4b5be2ba",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-11/11-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-11/11-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.4472,
+      "foreground_bbox": [
+        97,
+        46,
+        593,
+        755
+      ],
+      "jpg_sha256": "4804739ee0ff879e65588aebff52624a0f8a9bc3e501e685d39cc3eb47a2e8b4",
+      "jpg_bytes": 100544
+    },
+    {
+      "shade": "12",
+      "merchant_variant": "12 Warm-Gorithm (Peritage)",
+      "source_filename": "12-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "533db203ee1f656954a07dee15a596ca7a1c0bd85510600b2cd1cd6c6532e2ce",
+      "retail_approved": false,
+      "status": "HOLD_LIP_SWATCH_ONLY_NO_INTACT_PRODUCT_TUBE",
+      "reason": "Product variant image mainly shows applied lips, not a complete standalone tube; must not invent tube or use generic other shade"
+    },
+    {
+      "shade": "13",
+      "merchant_variant": "13 Berry Pretty (Peritage)",
+      "source_filename": "13-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "b094d8cd8adfece66e7b688fbbd242802dd85c367f363449657dbfb06a056352",
+      "retail_approved": false,
+      "status": "HOLD_LIP_SWATCH_ONLY_NO_INTACT_PRODUCT_TUBE",
+      "reason": "Product variant image mainly shows applied lips, not a complete standalone tube; must not invent tube or use generic other shade"
+    },
+    {
+      "shade": "14",
+      "merchant_variant": "14 Follow Rose (Peritage)",
+      "source_filename": "14-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "116e0209220c72025dd5732169ba932c6fa6475797d570b6001f5f1c4bd1245a",
+      "retail_approved": false,
+      "status": "HOLD_LIP_SWATCH_ONLY_NO_INTACT_PRODUCT_TUBE",
+      "reason": "Product variant image mainly shows applied lips, not a complete standalone tube; must not invent tube or use generic other shade"
+    },
+    {
+      "shade": "15",
+      "merchant_variant": "15 Mellow Melon (Maltese Ver)",
+      "source_filename": "15-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "40072ba5a970b7d9889da5c19b25797fbd4b55eb38bd10cb146b4698f71892bc",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-15/15-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-15/15-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.2574,
+      "foreground_bbox": [
+        145,
+        81,
+        500,
+        651
+      ],
+      "jpg_sha256": "71fb367e6286f0e6f1dce6762d9a2544afd6444c6843f19797f799a2f0771bfe",
+      "jpg_bytes": 100736
+    },
+    {
+      "shade": "16",
+      "merchant_variant": "16 Cerise Pink (Maltese Ver)",
+      "source_filename": "16-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "fcbdcc44bffdfbfe36a4d4cdbcea1461adcbe04b1dd1996c80f3015fd4b566ee",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-16/16-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-16/16-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.2569,
+      "foreground_bbox": [
+        146,
+        81,
+        479,
+        652
+      ],
+      "jpg_sha256": "97d0434fb8408af4b32890ee413c3b40cbceb7f8039f76fc86bb47d18907593f",
+      "jpg_bytes": 100563
+    },
+    {
+      "shade": "17",
+      "merchant_variant": "17 Puppy Berry (Maltese Ver)",
+      "source_filename": "17-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "7446efc8e46249f2b8aef3e29d4bb21ca9f2655abd954b9bf299d68cbae75ee3",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-17/17-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-17/17-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        240,
+        175,
+        910,
+        930
+      ],
+      "mask_coverage": 0.2573,
+      "foreground_bbox": [
+        146,
+        81,
+        478,
+        651
+      ],
+      "jpg_sha256": "6c578f17b7bc196273c23fa7084a3844a5c24a0b014fe98d3e3a2182048a0589",
+      "jpg_bytes": 100553
+    },
+    {
+      "shade": "18",
+      "merchant_variant": "18 Nude Area (Honey K-Ookie)",
+      "source_filename": "18-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "1a95e4521adb9259ea4d8bb74449542fabaf12703d714dbc1c2efd41325f889a",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-18/18-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-18/18-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        88,
+        205,
+        568,
+        930
+      ],
+      "mask_coverage": 0.3222,
+      "foreground_bbox": [
+        0,
+        216,
+        294,
+        725
+      ],
+      "jpg_sha256": "a60393f0c88be0c7dc2c81a868a69ad24d705cd26c40d02840409181148ae012",
+      "jpg_bytes": 103217
+    },
+    {
+      "shade": "19",
+      "merchant_variant": "19 Mauve Chaos (Honey K-Ookie)",
+      "source_filename": "19-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "6293b3d125e8fde9312f1215dd67c38fb6ae568993466b28b9f82460cf9895dc",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-19/19-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-19/19-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        88,
+        205,
+        568,
+        930
+      ],
+      "mask_coverage": 0.327,
+      "foreground_bbox": [
+        0,
+        220,
+        309,
+        725
+      ],
+      "jpg_sha256": "553346310e8dfe9c1d08f1f72954e9497bac3404f4c08210d5b2d32cfc4552df",
+      "jpg_bytes": 100501
+    },
+    {
+      "shade": "20",
+      "merchant_variant": "20 Brown Yakgwa (Honey K-Ookie)",
+      "source_filename": "20-legacy-merchant-variant-linked-source-QA.jpg",
+      "source_sha256": "26df32b5ae57921d05603d0a7bf90a71d222375c878992ab6cd4228b134fbb64",
+      "retail_approved": false,
+      "status": "ACTUAL_ALPHA_PNG_JPG_CREATED_VISUAL_QA_PENDING",
+      "alpha_png_path": "shade-20/20-exact-legacy-product-true-alpha-QA.png",
+      "jpg_path": "shade-20/20-legacy-real-cutout-1080-JPG-QA.jpg",
+      "source_region": [
+        88,
+        205,
+        568,
+        930
+      ],
+      "mask_coverage": 0.3188,
+      "foreground_bbox": [
+        0,
+        217,
+        293,
+        725
+      ],
+      "jpg_sha256": "b5c85ba2da1761fd70a54b8e4e5ddd633f6815036356246da27b4b954e079d96",
+      "jpg_bytes": 104157
+    }
+  ]
+}
