@@ -1,0 +1,117 @@
+{
+  "version": "v2690",
+  "base": "v2689",
+  "families": [
+    {
+      "family": "pending-15",
+      "product": "DR.G Green Mild Up Sun Plus 50mL",
+      "page": "https://www.dr-g.com/our-products/green-mild-up-sun",
+      "status": "OFFICIAL_PHOTO_CANDIDATES_STAGED_VISUAL_REVIEW_REQUIRED",
+      "selected_photos": [
+        {
+          "slot": 1,
+          "url": "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-clear-soothing-cream%2Fred-blemish-soothing-cream.jpg&w=640&q=75",
+          "sha256": "9169dc438e05692586547817f1b899ee26c6824edd483392eceae942cbe767c3",
+          "source_px": [
+            3000,
+            3000
+          ],
+          "file": "01-DRG-official-no-crop-QA-only.jpg"
+        },
+        {
+          "slot": 2,
+          "url": "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-sun.jpg&w=3840&q=75",
+          "sha256": "4db759f8c1207857b2e157f89bb65a23351675ef063f8c7a76a7af54a606d3d7",
+          "source_px": [
+            3000,
+            3000
+          ],
+          "file": "02-DRG-official-no-crop-QA-only.jpg"
+        }
+      ],
+      "retail_release": false,
+      "page_title": "Green Mild Up Sun+",
+      "urls_considered": [
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Flogos%2Fdrglogovert%2Fdr-g-logo--green.png&w=256&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-clear-soothing-cream%2Fred-blemish-soothing-cream.jpg&w=640&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-sun.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-01.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-02.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-03.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-04.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-05.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-06.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-07.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-08.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suncreen-09.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrigtening-peeling-gel%2Fbrightening-peeling-gel.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrigtening-peeling-gel%2Fbrightening-peeling-geltexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-hyal-cica-soothing-serum%2Fred-blemish-hyal-cica-soothing-serum.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-hyal-cica-soothing-serum%2Fred-blemish-clear-hyal--cica-soothing-serumltexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suntexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fpushs%2Fclinic-image.jpg%3Fh%3D801%26iar%3D0%26w%3D800&w=1920&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Ficons%2Fk-clinic-science-icon.svg%3Fiar%3D0&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fpushs%2Fsensorial-image.jpg%3Fh%3D800%26iar%3D0%26w%3D800&w=1920&q=75"
+      ]
+    },
+    {
+      "family": "pending-18",
+      "product": "DR.G Brightening Up Sun Plus 50mL",
+      "page": "https://www.dr-g.com/our-products/brightening-up-sun",
+      "status": "OFFICIAL_PHOTO_CANDIDATES_STAGED_VISUAL_REVIEW_REQUIRED",
+      "selected_photos": [
+        {
+          "slot": 1,
+          "url": "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-clear-soothing-cream%2Fred-blemish-soothing-cream.jpg&w=640&q=75",
+          "sha256": "9169dc438e05692586547817f1b899ee26c6824edd483392eceae942cbe767c3",
+          "source_px": [
+            3000,
+            3000
+          ],
+          "file": "01-DRG-official-no-crop-QA-only.jpg"
+        },
+        {
+          "slot": 2,
+          "url": "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbrightening-up-sun.jpg&w=3840&q=75",
+          "sha256": "38bc04d747d099ee5321f72227569c1f23c9ff17f9d7b8492888c27de7f71144",
+          "source_px": [
+            3000,
+            3000
+          ],
+          "file": "02-DRG-official-no-crop-QA-only.jpg"
+        }
+      ],
+      "retail_release": false,
+      "page_title": "Brightening Up Sun+",
+      "urls_considered": [
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Flogos%2Fdrglogovert%2Fdr-g-logo--green.png&w=256&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-clear-soothing-cream%2Fred-blemish-soothing-cream.jpg&w=640&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbrightening-up-sun.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-01.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-02.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-03.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-04.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-05.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-06.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-07.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-08.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-09.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrightening-up-sun%2Fbright-toning-up-sunscreen-10.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrigtening-peeling-gel%2Fbrightening-peeling-gel.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fbrigtening-peeling-gel%2Fbrightening-peeling-geltexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-hyal-cica-soothing-serum%2Fred-blemish-hyal-cica-soothing-serum.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fred-blemish-hyal-cica-soothing-serum%2Fred-blemish-clear-hyal--cica-soothing-serumltexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-sun.jpg&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fproducts%2Fgreen-mild-up-sun%2Fgreen-mild-up-suntexturex3.jpg%3Fh%3D858%26iar%3D0%26w%3D858&w=3840&q=75",
+        "https://www.dr-g.com/_next/image?url=https%3A%2F%2Fedge.sitecorecloud.io%2Florealsa1d30e-xm15a0f-productiondc32-f0a9%2Fmedia%2Ffeature%2Fmbfv2%2Fdrg%2Fpushs%2Fclinic-image.jpg%3Fh%3D801%26iar%3D0%26w%3D800&w=1920&q=75"
+      ]
+    }
+  ],
+  "official_source_candidate_jpgs": 4,
+  "licensed_commercial_photos_verified": false,
+  "owned_real_stock_edition_verified": false,
+  "prior_QA_JPGs_overwritten": 0,
+  "approved_11_groups_untouched": true,
+  "public_55_URLs_untouched": true,
+  "final_xlsx_not_shared": true
+}
