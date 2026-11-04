@@ -1,0 +1,33 @@
+name: Shopee v2598 one OBgE 5g factual product frame repair
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2598_obge_finisher_correct_single_item_card.py'
+      - '.github/workflows/v2598-obge-single-item-card.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  correct-only-one-qa-scene:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore latest 156 verified review JPEGs as immutable source
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765900358 -n shopee-v2597-final-latest-156-JPG-19delta-isolated-QA-no-XLSX -D input
+      - name: Repair one OBgE 5g slot05 factual image and preserve 155 JPEG byte hashes
+        run: python scripts/v2598_obge_finisher_correct_single_item_card.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2598-full-156-JPG-with-20-technical-QA-changes-no-XLSX
+          path: v2598-obge-one-frame-copy-repair/
+          retention-days: 90
+          if-no-files-found: error
