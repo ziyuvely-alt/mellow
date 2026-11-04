@@ -25,7 +25,7 @@ if hough is not None:
  for xx,yy,rr in hough[0]:
   x,y,rad=round(float(xx)),round(float(yy)),round(float(rr))
   # Circle on right of box, in this independent N21 source photo
-  if 570<=x<=925 and 235<=y<=870 and x-r>=12 and x+rad<=1068 and y-r>=12 and y+rad<=1068:
+  if 570<=x<=925 and 235<=y<=870 and x-rad>=12 and x+rad<=1068 and y-rad>=12 and y+rad<=1068:
    score=abs(x-800)/95+abs(y-560)/125+abs(rad-245)/100
    candidates.append((round(score,3),x,y,rad))
 candidates.sort()
