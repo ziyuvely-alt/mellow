@@ -1,0 +1,64 @@
+{
+  "schema": "bbia_ch2_v179_six_actual_en_artworks",
+  "date": "2026-11-04",
+  "prior_checkpoint": "v178 four images in eyebrow pencil and powder lipstick",
+  "source_archive": "BBIA_Cutout_Progress_20261030.zip",
+  "images_new": 6,
+  "groups": [
+    {
+      "goodsNo": "1000000125",
+      "parent_sku_from_archived_state": "삐아 오 스테이 컨실러",
+      "new_en_jpg": 2,
+      "frames": [
+        "product lineup",
+        "applicator detail"
+      ],
+      "risk": "Photo pixel provenance not independently matched to current official product page; shade claims omitted."
+    },
+    {
+      "goodsNo": "239",
+      "parent_sku_from_archived_state": "삐아 레디 투 웨어 다우니 치크 3.5g",
+      "new_en_jpg": 3,
+      "frames": [
+        "product and texture",
+        "photographed swatches",
+        "campaign look reference"
+      ],
+      "risk": "Swatch-specific shades and model look not independently verified."
+    },
+    {
+      "goodsNo": "207",
+      "parent_sku_from_archived_state": "삐아 네버 다이 아이라이너",
+      "new_en_jpg": 1,
+      "frames": [
+        "product tip detail"
+      ],
+      "risk": "Original photo embedded cropping border remains, needs design polish."
+    }
+  ],
+  "other_unworked_blocker": {
+    "goodsNo": "1000000110",
+    "product": "라스트 오토 젤 아이라이너 슬림",
+    "reason": "2 source PNGs truncated; held, no repeated recovery attempt"
+  },
+  "files": {
+    "zip": "/mnt/data/bbia_work/BBIA_v179_6_NEW_EN_THREE_FAMILIES_QA_PENDING.zip",
+    "preview": "/mnt/data/bbia_work/BBIA_v179_SIX_EN_THREE_FAMILIES_CONTACT.jpg",
+    "manifest": "v179_new_EN/MANIFEST_v179.json",
+    "production_code": "v179_new_scenes.py"
+  },
+  "technical": {
+    "count": 6,
+    "all_1080x1080": true,
+    "all_jpeg_under_2000000": true,
+    "zip_crc_passed": true
+  },
+  "quality_status": "EARLY_EN_DESIGN_CANDIDATE_NOT_PREMIUM_FINAL; SOURCE_PHOTO_AND_SHADE_QA_PENDING",
+  "sale_approved": 0,
+  "translations": 0,
+  "originals_modified": false,
+  "existing_55_public_urls_modified": false,
+  "prior_hold_files_unchanged": true,
+  "next": "Do not recreate six images. Design polish should prioritize distinctive high-quality product cutout treatment and remove residual source border on 207, but only with exact archived pixel assets; verify swatch and model provenance before approval. For next increment, consider unworked 188 Last Blush (photo-3 & 4 valid but embedded Korean caption on source photo-3), 1000000057 Last Contour Pen Eyeliner (sources have large Korean captions), or other unworked sources. Never assume valid JPEG equals premium or sale-ready.",
+  "excel_shared": false
+}
