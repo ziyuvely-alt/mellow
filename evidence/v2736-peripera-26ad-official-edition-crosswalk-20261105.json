@@ -1,0 +1,161 @@
+{
+  "version": "v2736",
+  "date": "2026-11-05",
+  "source_status": "PUBLIC_BRAND_OPERATED_RETAILER_LISTING_CROSSCHECK_NOT_USER_STOCK_LICENSE",
+  "product": "peripera Mood Glowy Tint 26AD",
+  "family": "pending-08",
+  "user_original_work_scope": "Legacy 01 through 20 only; exclude 21 to 26AD variants unless separately approved by user",
+  "official_listing": "https://m.gsshop.com/prd/prd.gs?prdid=1106843033",
+  "source_provider": "GS SHOP, listing describes itself as operated by (주)클리오 official store",
+  "nominal_net_weight": "4g",
+  "edition": "26AD newly renewed",
+  "official_26ad_options_within_01_20": {
+    "count": 17,
+    "shades": [
+      {
+        "number": "01",
+        "korean_name": "딸기기니",
+        "english_name": "Tiny strawberry"
+      },
+      {
+        "number": "02",
+        "korean_name": "쩡신차렷",
+        "english_name": "Coral chemistry"
+      },
+      {
+        "number": "03",
+        "korean_name": "말랑물복",
+        "english_name": "Juicy peach"
+      },
+      {
+        "number": "05",
+        "korean_name": "갓기요정",
+        "english_name": "Baby fairy"
+      },
+      {
+        "number": "08",
+        "korean_name": "핑토당토",
+        "english_name": "Joking pink"
+      },
+      {
+        "number": "09",
+        "korean_name": "맘찍로즈",
+        "english_name": "Rose in mind"
+      },
+      {
+        "number": "10",
+        "korean_name": "내입술인척",
+        "english_name": "Bare pink"
+      },
+      {
+        "number": "11",
+        "korean_name": "비주얼센터",
+        "english_name": "Visual pink"
+      },
+      {
+        "number": "12",
+        "korean_name": "개강여신",
+        "english_name": "Campus queen"
+      },
+      {
+        "number": "13",
+        "korean_name": "분위기여신",
+        "english_name": "Mood queen"
+      },
+      {
+        "number": "14",
+        "korean_name": "로지위시",
+        "english_name": "Rosy wish"
+      },
+      {
+        "number": "15",
+        "korean_name": "맘콕로즈",
+        "english_name": "My pick rose"
+      },
+      {
+        "number": "16",
+        "korean_name": "로즈콕",
+        "english_name": "Rose-pick"
+      },
+      {
+        "number": "17",
+        "korean_name": "이로지무화과?",
+        "english_name": "Blush fig"
+      },
+      {
+        "number": "18",
+        "korean_name": "손웜수템",
+        "english_name": "Coral influencer"
+      },
+      {
+        "number": "19",
+        "korean_name": "어쩔체리",
+        "english_name": "Cherry so what"
+      },
+      {
+        "number": "20",
+        "korean_name": "당맛도리",
+        "english_name": "Brown yakgwa"
+      }
+    ]
+  },
+  "old_user_01_20_scope": [
+    "01",
+    "02",
+    "03",
+    "04",
+    "05",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "11",
+    "12",
+    "13",
+    "14",
+    "15",
+    "16",
+    "17",
+    "18",
+    "19",
+    "20"
+  ],
+  "absent_from_official_26ad_options_01_20": [
+    "04",
+    "06",
+    "07"
+  ],
+  "missing_option_count": 3,
+  "contradictory_old_stock_or_legacy_names": [
+    {
+      "number": "14",
+      "legacy_stock_name_candidate": "로지워시",
+      "current_26AD_name": "로지위시",
+      "rule": "KEEP ORIGINAL STOCK LABEL AND DO NOT RELABEL WITHOUT REAL PACKAGE"
+    },
+    {
+      "number": "04",
+      "current_26AD_options": "ABSENT",
+      "rule": "KEEP LEGACY OPTION UNMAPPED"
+    },
+    {
+      "number": "06",
+      "current_26AD_options": "ABSENT",
+      "rule": "KEEP LEGACY OPTION UNMAPPED"
+    },
+    {
+      "number": "07",
+      "current_26AD_options": "ABSENT",
+      "rule": "KEEP LEGACY OPTION UNMAPPED"
+    }
+  ],
+  "verified_only": "Number/name crosswalk for publicly offered 26AD; 2026-11-05 listing; NOT proof those 17 newly renewed color formulas or tubes equal previously owned older 01-20",
+  "photo_license": "The store page explicitly restricts unauthorized copy/edit of images; DO NOT create commercial swatches from listings without permission",
+  "next_specific_action": "Collect authentic legacy-2025 or earlier edition package+full official 20-shade chart or owned-stock image for exact 01-20. Do not invent colors 04/06/07 or silently map new 26AD names to older stock.",
+  "shopper_facing_listing_or_final_shopee_asset_modified": false,
+  "retail_final_approval": false,
+  "existing_11_approved_groups_untouched": true,
+  "previous_55_verified_public_image_urls_untouched": true,
+  "final_spreadsheet_shared": false
+}
