@@ -1,0 +1,37 @@
+name: Shopee v2705 restore three archival photo-rich 5-JPG QA families
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2705-recover-three-photo-rich-families.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse historically preserved source asset commit, no new web fetches
+        run: |
+          git fetch origin b2b883b86f3e80b7723ccf39b3766dfe6f483da9
+          mkdir old_assets
+          git archive b2b883b86f3e80b7723ccf39b3766dfe6f483da9 public/owned86/20261029 | tar -x -C old_assets
+      - name: Preserve fifteen archived original photo JPGs into isolated QA asset branch
+        run: |
+          python scripts/v2705_recover_three_photo_families.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2705-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2705-qa/qa-review/v2705-three-recovered-photo-first-family-sets
+          cp -a qa-review/v2705-three-recovered-photo-first-family-sets /tmp/v2705-qa/qa-review/
+          cd /tmp/v2705-qa
+          git add qa-review/v2705-three-recovered-photo-first-family-sets
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2705 stage fifteen genuine archived 1080x1080 JPGs for three existing families, no rerender'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
