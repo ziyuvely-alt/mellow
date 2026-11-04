@@ -1,0 +1,23 @@
+name: Shopee v2661 reconcile thirty product family release work queue
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2661_thirty_family_work_queue.py'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  reconcile:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - name: Build 30-family immutable evidence reconciled queue
+        run: python scripts/v2661_thirty_family_work_queue.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2661-thirty-family-release-work-queue-no-XLSX
+          path: v2661-real-work-queue/
+          retention-days: 90
+          if-no-files-found: error
