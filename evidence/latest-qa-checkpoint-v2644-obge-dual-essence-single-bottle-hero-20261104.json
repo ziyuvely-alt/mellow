@@ -1,0 +1,47 @@
+{
+  "version": "v2644",
+  "date": "2026-11-04",
+  "baseline": "v2643",
+  "qa_zip": "/mnt/data/Shopee_v2644_156JPG_OBGE_dual_essence_real_package_hero_QA_ONLY.zip",
+  "qa_manifest": "/mnt/data/v2644_actual_photo_hero_QA/manifest.json",
+  "before_after": "/mnt/data/v2644_actual_photo_hero_QA/pending11_01_before_after.jpg",
+  "actual_changed": [
+    {
+      "family": "pending-11",
+      "slot": 1,
+      "product": "OBgE All In One Double Essence 50mL + 50mL",
+      "source_existing_slot": 4,
+      "source_image": "04_v2543-genuine-double-essence-photo.jpg",
+      "result_sha256": "a283a2be3ab50779649f60f78c7f570e1055fc87cd703865a710d00be3a66ef7",
+      "change": "Replace temporary logo-heavy framed hero with one genuine dual essence bottle and texture photo. Avoid source slot02 photo showing 2 bottles that could mislead customer into expecting two units."
+    }
+  ],
+  "technical_verification": {
+    "full_jpg_count": 156,
+    "pending_family_count": 30,
+    "changed": 1,
+    "untouched_sha256_count": 155,
+    "exact_duplicate_sha_groups": 0,
+    "zip_integrity": true,
+    "all_images_1080x1080_JPG_under_2MB": true
+  },
+  "logo_check": {
+    "github_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+    "github_fetch_result": "404 NOT_FOUND on main",
+    "original_logo_not_recovered": true,
+    "do_not_fabricate_logo": true
+  },
+  "preserved": {
+    "approved_11_product_families_unchanged": true,
+    "existing_55_verified_urls_unchanged": true,
+    "prior_v2643_zip_intact": true,
+    "spreadsheet_not_shared": true
+  },
+  "release_blocks": [
+    "Commercial photo rights not verified",
+    "Exact inventory packaging/edition not confirmed in hand",
+    "Original round MK logo binary not recovered",
+    "Final human sales image approval required"
+  ],
+  "next": "Resume from v2644, do not redo pending-11 slot01. Original MK logo cannot be recovered from listed GitHub path at latest main; do not retry the same 404 path without new evidence. Next prioritize exact-package official rights or image QA errors rather than generic text-only caption changes."
+}
