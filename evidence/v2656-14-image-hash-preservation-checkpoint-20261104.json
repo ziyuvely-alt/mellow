@@ -1,0 +1,57 @@
+{
+  "version": "v2656",
+  "date": "2026-11-04",
+  "baseline": "v2654",
+  "verified_runs": [
+    {
+      "version": "v2655",
+      "run": 41825126540,
+      "artifact": 13318672318,
+      "result": "success",
+      "operation": "cross-SKU comparison of 14 QA candidates against historical 156 reference JPEGs",
+      "cross_family_near_matches": 0,
+      "candidate_to_candidate_collisions": 0
+    },
+    {
+      "version": "v2656",
+      "run": 41825277732,
+      "artifact": 13318876398,
+      "result": "success",
+      "operation": "assemble all 14 original candidate JPEGs without reencoding, compare SHA256 with v2655 per-file provenance",
+      "jpgs": 14,
+      "hash_verified": 14,
+      "bytes_total_archive": 1123075
+    }
+  ],
+  "newly_created_customer_ready_images": 0,
+  "commercial_release_hold": true,
+  "known_missing_assets": [
+    {
+      "asset": "v2647 latest 156 JPG ZIP",
+      "status": "NOT_IN_MAIN_GIT_TREE",
+      "consequence": "Cannot promote historical QA candidates without current-version compare"
+    },
+    {
+      "asset": "Original branded round MK logo",
+      "status": "NOT_IN_MAIN_GIT_TREE",
+      "consequence": "No provisional mark allowed"
+    }
+  ],
+  "preserved": {
+    "completed_families": 11,
+    "public_urls": 55,
+    "no_public_image_mutations": true,
+    "no_final_xlsx_shared": true
+  },
+  "next_actions": [
+    "Stop historical candidate regeneration and redundant similarity audits",
+    "Recover actual v2647 archive via source that contains binary, not checkpoint JSON",
+    "Compare only changed candidate slots with current files before selective merge",
+    "Check exact owned-stock edition, commercial photo rights and human visual QA",
+    "Do not publish any unapproved QA-only candidate"
+  ],
+  "source_artifacts": [
+    "https://github.com/ziyuvely-alt/mellow/actions/runs/41825126540/artifacts/13318672318",
+    "https://github.com/ziyuvely-alt/mellow/actions/runs/41825277732/artifacts/13318876398"
+  ]
+}
