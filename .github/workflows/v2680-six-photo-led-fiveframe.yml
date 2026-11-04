@@ -1,0 +1,37 @@
+name: Shopee v2680 six photo-first five-JPG sets in one batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2680-six-photo-led-fiveframe.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  batch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore only old untouched genuine JPEG inventory corpus
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Generate 30 JPEG QA frames for 6 fresh families, preserve originals
+        run: |
+          python scripts/v2680_six_photo_led_product_sets.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2680-archive qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2680-archive/qa-review/v2680-six-brand-five-JPG-photo-led-batch
+          cp -a qa-review/v2680-six-brand-five-JPG-photo-led-batch /tmp/v2680-archive/qa-review/
+          cd /tmp/v2680-archive
+          git add qa-review/v2680-six-brand-five-JPG-photo-led-batch
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2680 6 new photo-led 5JPG QA sets with exact original photos, no sale publication'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
