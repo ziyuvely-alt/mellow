@@ -1,0 +1,29 @@
+{
+  "version": "v2746",
+  "family": "pending-13",
+  "baseline": "v2744",
+  "new_real_photo_alpha_refinement": false,
+  "no_new_AI_segmentation": true,
+  "old_v2744_cutout_unmodified": true,
+  "old_55_public_URLs_unchanged": true,
+  "old_11_approved_product_families_unchanged": true,
+  "photo_reuse_rights_verified": false,
+  "MK_original_logo_authenticated": false,
+  "new_retail_approval": false,
+  "final_XLSX_shared": false,
+  "attempt": {
+    "version": "v2746",
+    "baseline": "v2744",
+    "family": "pending-13",
+    "source": "qa-review/v2744-MISSHA-PDRN-30mL-single-official-bottle-two-alpha-qa/isnet_30mL_serum/01-real-serum-bottle-alpha-QA.png",
+    "original_png_SHA256": "6eea34e5a5d60dd097d21994190161aaccf3cc8e4faf9fe539dfa138f1f8bf15",
+    "photo_source_actual_bottle": "v2696 official 30mL serum photo04",
+    "red_decor_detection_candidates": [],
+    "status": "HOLD_NO_SAFE_DECOR_REMOVAL",
+    "retail_approved": false,
+    "full_white_dropper_intact_required": true,
+    "commercial_photo_rights_verified": false,
+    "exact_owned_stock_packaging_verified": false,
+    "reason": "No tiny detached red blob meeting restricted upper-right detection"
+  }
+}
