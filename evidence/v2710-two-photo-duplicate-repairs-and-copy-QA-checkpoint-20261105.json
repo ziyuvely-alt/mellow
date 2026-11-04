@@ -1,0 +1,103 @@
+{
+  "version": "v2710",
+  "date": "2026-11-05",
+  "baseline": "v2708",
+  "repository": "ziyuvely-alt/mellow",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "actual_successful_runs": [
+    {
+      "version": "v2709",
+      "run_id": 41855479475,
+      "conclusion": "success",
+      "qa_path": "qa-review/v2709-clio-mini-and-pixelpure-detail-corrections",
+      "processed_families": [
+        "pending-04",
+        "pending-26"
+      ],
+      "changed_photographic_detail_slots": 3,
+      "unchanged_original_JPG_files_sha_identical": 7,
+      "actual_rendered_new_1080JPG": 3
+    },
+    {
+      "version": "v2710",
+      "run_id": 41855729460,
+      "conclusion": "success",
+      "qa_path": "qa-review/v2710-two-accurate-copy-corrections-photo-QA",
+      "processed_families": [
+        "pending-04",
+        "pending-26"
+      ],
+      "changed_text_only_images": 2,
+      "unchanged_previous_image_bytes_sha_identical": 8
+    }
+  ],
+  "artifact_result": [
+    {
+      "family": "pending-04",
+      "product": "CLIO Mesh Glow Essential Mini Cushion 5g",
+      "new_fiveframe_QA": "qa-review/v2710-two-accurate-copy-corrections-photo-QA/pending-04",
+      "upgraded_slots": [
+        3,
+        4
+      ],
+      "photo_detail_source": "existing v2706 originals pending-04 slots03 and 04",
+      "revised_label": "COMPACT DETAILS",
+      "details": [
+        "source photo close-up of authentic finger/puff and compact",
+        "source photo close-up of compact case and cushion"
+      ],
+      "remaining_holds": [
+        "old source MK badge still appears in unchanged frames 01/02/05",
+        "shade 21C/21N/23N source generation not proven",
+        "photo reuse rights not proven"
+      ]
+    },
+    {
+      "family": "pending-26",
+      "product": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+      "new_fiveframe_QA": "qa-review/v2710-two-accurate-copy-corrections-photo-QA/pending-26",
+      "upgraded_slots": [
+        5
+      ],
+      "photo_detail_source": "existing v2706 original pending-26 slot05",
+      "corrected_brand_label": "PIXEL PURE",
+      "remaining_holds": [
+        "original MK badge remains in unchanged frames 01-04",
+        "ensure true 145mL packaging not 150mL",
+        "photo reuse rights not proven"
+      ]
+    }
+  ],
+  "direct_visual_review": {
+    "opened_v2709_clio_contact": true,
+    "opened_v2709_pixelpure_contact": true,
+    "opened_v2710_clio_contact": true,
+    "opened_v2710_pixelpure_contact": true,
+    "photo_contents_are_crops_not_new_original_shoots": true,
+    "actual_background_removal_performed": false,
+    "unverified_MK_logo_added_to_new_crops": false,
+    "sales_quality_final_approval": false
+  },
+  "process_improvement": {
+    "avoid_duplicate_full_product_hero_attachments": true,
+    "avoid_misleading_Inside_The_Compact_label": true,
+    "preserve_complete_brand_please": "PIXEL PURE, never PIXEL",
+    "use_no_unverified_logo_in_new_detail_crops": true,
+    "do_not_repeat_v2709_or_v2710": true
+  },
+  "project": {
+    "original_approved_families": 11,
+    "total_families": 41,
+    "pending_families_with_staged_QA_material": 30,
+    "newly_approved_sale_families": 0,
+    "approved_public_urls_changed": 0,
+    "final_excel_or_spreadsheet_shared": false
+  },
+  "next": [
+    "No more generic content card or already-present photo replacement to inflate counts",
+    "Obtain actual signed-off round MK artwork or owner licensing before customer-facing publish",
+    "Verify exact physical stock packaging editions and official color options",
+    "Review full 5-photo families for real sales-quality and authentic photo licensing, prioritize fewer false claims",
+    "Do not alter old approved 11 or 55 public URLs"
+  ]
+}
