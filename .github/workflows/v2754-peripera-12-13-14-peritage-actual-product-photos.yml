@@ -1,0 +1,34 @@
+name: Shopee v2754 rescue 12 13 14 actual Peritage original product source+alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2754-peripera-12-13-14-peritage-actual-product-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-alpha:
+    runs-on: ubuntu-latest
+    timeout-minutes: 22
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests 'rembg[cpu]==2.0.67'
+      - name: Source three independently shade-matched 12 13 14 Peritage photos; no synthetic swatches
+        env:
+          U2NET_HOME: /tmp/isnet-segmentation-models
+        run: |
+          python scripts/v2754_peripera_12_13_14_bottle_photos.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2754-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2754-qa/qa-review/v2754-peripera-peritage-three-missing-bottle-source-QA
+          cp -a qa-review/v2754-peripera-peritage-three-missing-bottle-source-QA /tmp/v2754-qa/qa-review/
+          cd /tmp/v2754-qa
+          git add qa-review/v2754-peripera-peritage-three-missing-bottle-source-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2754 real old Peritage 12-14 source-bottle candidate assets plus true-alpha QA without retail release'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
