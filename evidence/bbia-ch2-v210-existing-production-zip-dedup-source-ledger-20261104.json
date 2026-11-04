@@ -1,0 +1,35 @@
+{
+  "checkpoint": "v210",
+  "date": "2026-11-04",
+  "previous": "v208 latest JPEG production; v209 read-only source dedup gate already exists in local container",
+  "source_gate": {
+    "families": 46,
+    "png": 230,
+    "decode_ok": 208,
+    "corrupt": 22,
+    "small_one_axis_below_250": 36
+  },
+  "production_reconciliation": {
+    "archives_read": 72,
+    "jpeg_occurrences_with_sku_image_spec_pass": 288,
+    "distinct_jpeg_byte_hashes": 212,
+    "identical_jpeg_reused_across_zip_hash_groups": 58,
+    "unreadable_archives": 0,
+    "nonconforming_jpeg_files": 0,
+    "manifest_identified_family_count_intersection": 39,
+    "extra_known_goods_no": "1000000227",
+    "extra_goods_no_meaning": "Nudy Lip Pencil has historical output manifest but goodsNo absent from accessible 46-family PLAN; 48-family master not available, cannot presume full reconciliation."
+  },
+  "deliverables": {
+    "zip": "BBIA_v210_EXISTING_OUTPUT_RECONCILIATION_AND_QA_GATES.zip",
+    "json": "BBIA_v210_ACTUAL_IMAGE_ARCHIVE_RECONCILIATION.json",
+    "script": "v210_reconcile_deliverables.py"
+  },
+  "important_disambiguation": "288 are occurrences across multiple versioned archives, 212 are distinct bytes, not 212 currently sale-approved final images. Some exact same JPGs intentionally carried forward by later ZIP versions; never re-create from older source just because files are not separately mapped.",
+  "next": "Reconcile missing master goodsNo against original 48-family master. Use final active-version selection per family before computing exact completion percentage. Handle 58 cross-ZIP reused hash groups as inherited assets not duplicate sales items. Prioritize original-photo identity, SKU shade and package validation on existing candidates. Do not create artificial fifth frames.",
+  "sale_approved": 0,
+  "new_jpgs_created": 0,
+  "previous_outputs_changed": false,
+  "public_55_urls_changed": false,
+  "excel_shared": false
+}
