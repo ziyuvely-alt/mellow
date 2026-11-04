@@ -1,0 +1,32 @@
+name: Shopee v2802 five honest GOODAL photo angles from three preserved originals
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2802-goodal-alpha-five-photos-two-derived-details.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compose:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compose actual photo angles from 3 preserved sources with truthful crop lineage, no new product imagery
+        run: |
+          cp scripts/v2802_goodal_three_original_photos_five_angles.py /tmp/v2802.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2802-review qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2802-review/qa-review/v2802-goodal-alpha-three-authentic-scenes-two-explicit-detail-crops-QA
+          cd /tmp/v2802-review
+          python /tmp/v2802.py
+          git add qa-review/v2802-goodal-alpha-three-authentic-scenes-two-explicit-detail-crops-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2802 5 visual GOODAL Alpha angles from 3 authentic preserved photos, 2 explicitly derived crops, QA only'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
