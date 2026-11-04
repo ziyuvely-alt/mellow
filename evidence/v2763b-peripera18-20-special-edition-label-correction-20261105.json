@@ -1,0 +1,69 @@
+{
+  "version": "v2763b",
+  "date": "2026-11-05",
+  "supersedes_labels_only": "v2763 package-appearance group descriptions",
+  "basis": "Direct visual inspection of all four v2762 contact sheets (01..20) and v2763 group manifest",
+  "original_cutout_media_modified": false,
+  "user_stock_identity_not_inferred": true,
+  "important_correction": {
+    "previous_inaccurate_label": "05-honey-k-ookie-pink-artwork labelled for shade 18,19,20",
+    "corrected_display_classification": {
+      "18": "Old Ink Mood Glowy Tint Nude Area; plain rose-gold tube, painted beige decorative background, not a Honey K-ookie branded package",
+      "19": "Old Ink Mood Glowy Tint Mauve Chaos; plain rose-pink tube, painted mauve background, not a Honey K-ookie branded package",
+      "20": "Old Ink Mood Glowy Tint Brown Yakgwa (Honey K-Ookie); brown tube and paint graphic, exact packaging line needs stock match"
+    },
+    "rule": "A shade nickname containing Honey K-Ookie does not prove every shade in group 05 is a Honey K-Ookie branded collection. Do not publish options as a unified special-edition product."
+  },
+  "package_appearance": {
+    "core_standard": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      9,
+      10,
+      11
+    ],
+    "character_choigosim": [
+      7,
+      8
+    ],
+    "ribbon_peritage": [
+      12,
+      13,
+      14
+    ],
+    "maltese_art": [
+      15,
+      16,
+      17
+    ],
+    "old_ink_mood_neutral_painted_background": [
+      18,
+      19
+    ],
+    "old_ink_mood_brown_yakgwa": [
+      20
+    ]
+  },
+  "visual_hold_shades": [
+    12,
+    13,
+    14,
+    18,
+    19
+  ],
+  "mandatory_release_holds": [
+    "Photo licensing unverified",
+    "Original approved MK round logo unavailable",
+    "Physical stock generation and options not established",
+    "No cross-edition shade chart"
+  ],
+  "source_QA_folder": "qa-review/v2763-peripera20-separated-package-appearance-QA",
+  "prior_approved_11_families_intact": true,
+  "prior_55_public_URLs_intact": true,
+  "new_retail_approved": 0,
+  "final_xlsx_not_shared": true
+}
