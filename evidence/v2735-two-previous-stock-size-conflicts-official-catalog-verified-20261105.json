@@ -1,0 +1,66 @@
+{
+  "version": "v2735",
+  "date": "2026-11-05",
+  "scope": "RECONCILE_PREVIOUSLY_BLOCKED_NET_CONTENT_FIELDS_FOR_TWO_UNRELEASED_QA_FAMILIES",
+  "baseline": "v2733 completed and v2734 alternative-cutout queued",
+  "entries": [
+    {
+      "family": "pending-12",
+      "brand": "MISSHA",
+      "exact_product": "PDRN NAD+ Renew Peel Shot 25",
+      "previously_blocked_conflict": {
+        "archive_input": "15g",
+        "real_qa_photo_label": "15mL"
+      },
+      "verified_official_catalog": {
+        "standard_volume": "15mL",
+        "confidence": "HIGH",
+        "sources": [
+          "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+          "https://www.missha.co.jp/%E6%9C%AA%E6%9D%A5%E3%82%92%E8%A6%8B%E6%8D%AE%E3%81%88%E3%80%81%E5%81%A5%E3%82%84%E3%81%8B%E3%81%AA%E7%BE%8E%E8%82%8C%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%99%E3%80%82%E3%80%8Cpdrn%C2%B9-nad%C2%B2/"
+        ]
+      },
+      "verified_result": "Catalog official standard is 15mL, not 15g. Archived input 15g is not proof of a 15g product.",
+      "recommended_source_correction": "Set proposed canonical catalog unit to 15mL in a future reviewed SKU master, but do not auto-edit any uploaded/released user inventory sheet.",
+      "remaining_release_holds": [
+        "actual owned box/net content must be physically cross-checked",
+        "source photograph commercial reuse rights not verified",
+        "MK brand artwork not authenticated"
+      ],
+      "current_status": "PRODUCT_CATALOG_CONFIRMED_15ML__OWNED_STOCK_UNVERIFIED__RETAIL_HOLD",
+      "prior_images_unchanged": true
+    },
+    {
+      "family": "pending-10",
+      "brand": "OBgE",
+      "exact_product": "Perfect Homme Cushion SPF50+ PA+++",
+      "previously_blocked_conflict": {
+        "archive_input_mention": "possibly 13g",
+        "real_qa_photo_label": "15g"
+      },
+      "verified_product_database": {
+        "net_weight": "15g",
+        "source": "https://www.hwahae.co.kr/products/1974313",
+        "other_independent": "https://www.glowpick.com/products/153137"
+      },
+      "product_identity_warning": "Perfect Homme Cushion is an older distinct product from the newer Perfect Cover Cushion, even though both are listed at 15g in product records.",
+      "category_collision_guard": "Never substitute Natural Cover Foundation 13g or rebranded Perfect Cover Cushion 15g as original Perfect Homme Cushion without matching packaging.",
+      "secondary_official_reference": "https://obge.co.kr/product/detail.html?product_no=10",
+      "verified_result": "Exact named older Perfect Homme Cushion listings report 15g, which aligns with QA photo. The mentioned 13g likely refers to a different item but cannot conclusively correct the user's owned-stock record.",
+      "recommended_source_correction": "Do not change net weight solely on photo metadata. Require actual inventory label + item generation; then set 15g for this exact SKU if matching.",
+      "remaining_release_holds": [
+        "physical stock exact product-generation/size unverified",
+        "commercial photo use rights unverified",
+        "original MK artwork not authenticated"
+      ],
+      "current_status": "CATALOG_CORROBORATES_15G__OWNED_STOCK_UNVERIFIED__RETAIL_HOLD",
+      "prior_images_unchanged": true
+    }
+  ],
+  "confirmed_correction_count": 2,
+  "published_11_product_families_unchanged": true,
+  "verified_55_image_URLs_unchanged": true,
+  "any_final_XLSX_shared": false,
+  "new_retail_approvals": 0,
+  "next": "Keep prior QA photos intact. Only after physical stock agrees, approve edition/size. Do not re-shoot or rewrite existing images."
+}
