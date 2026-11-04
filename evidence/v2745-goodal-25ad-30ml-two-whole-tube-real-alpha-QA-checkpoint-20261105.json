@@ -1,0 +1,52 @@
+{
+  "version": "v2745",
+  "date": "2026-11-05",
+  "baseline": "v2744",
+  "workflow_run_id": 41885537300,
+  "workflow_status": "completed_success",
+  "qa_folder": "qa-review/v2745-goodal-eyecream-25ad-full-original-source-QA",
+  "family": "pending-21",
+  "product": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+  "actual_downloaded_photo_references": 3,
+  "photo_reference_sizes": {
+    "clio": [
+      572,
+      572
+    ],
+    "sungsinsa": [
+      1080,
+      1080
+    ],
+    "hwahae": [
+      720,
+      720
+    ]
+  },
+  "new_true_alpha_png_1080jpg_pairs": 2,
+  "visual_findings": [
+    {
+      "source": "sungsinsa_single_tube_product",
+      "decision": "PREFERRED_QA_CANDIDATE",
+      "why": "Entire yellow 30mL tube and metallic silver cap fully visible, source native 1080px, product edges retained; background removed."
+    },
+    {
+      "source": "hwahae_single_tube_product",
+      "decision": "SECONDARY_QA_CANDIDATE",
+      "why": "Entire yellow 30mL tube and silver bottom cap visible, source native 720px; not falsely claim 1080 native resolution."
+    },
+    {
+      "source": "clio_official_two_tubes_identity_only",
+      "decision": "REFERENCE_ONLY",
+      "why": "Official brand source retained for product/packaging comparison, not used as a standalone product hero."
+    }
+  ],
+  "never_repeat_old_clipped_goodal_source": true,
+  "old_11_approved_families_untouched": true,
+  "old_55_public_urls_untouched": true,
+  "source_exact_25AD_stock_physical_in_hand_verified": false,
+  "photo_commercial_redistribution_rights_verified": false,
+  "authentic_MK_logo_verified": false,
+  "new_retail_approvals": 0,
+  "final_xlsx_shared": false,
+  "next": "Target only separate v2744 MISSHA red decoration artifact, preserve white dropper; do not rerun previous segmentation."
+}
