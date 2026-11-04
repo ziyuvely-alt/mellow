@@ -1,0 +1,32 @@
+name: Shopee v2828 stage 5 genuine photo frames each CLIO mini 21C and 21N
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2828-21c21n-five-archived-real-photo-sets.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  assemble:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Make exactly two 5-photo sets from existing separate shade hero and verified common gallery
+        run: |
+          python -m py_compile scripts/v2828_clio_21c21n_five_source_photo_galleries.py
+          cp scripts/v2828_clio_21c21n_five_source_photo_galleries.py /tmp/v2828.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2828-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2828-qa
+          python /tmp/v2828.py
+          git add qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2828 10 SHA preserved real photo QA JPGs for 21C and 21N, common frames explicitly not shade'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
