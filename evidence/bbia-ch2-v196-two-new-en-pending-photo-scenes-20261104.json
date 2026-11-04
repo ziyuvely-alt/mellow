@@ -1,0 +1,38 @@
+{
+  "date": "2026-11-04",
+  "checkpoint": "v196",
+  "previous": "v195 3 texture-reference EN frames preserved; v194 four Lucky Shine images preserved",
+  "new_jpg_count": 2,
+  "files": [
+    "BBIA_v196_TWO_NEW_EN_SCENES_QA_PENDING.zip",
+    "BBIA_v196_TWO_NEW_SOURCE_SCENES_CONTACT.jpg",
+    "BBIA_v196_SCENE_MANIFEST.json",
+    "v196_two_missing_scene_repair.py"
+  ],
+  "families": [
+    {
+      "goodsNo": "1000000239",
+      "name": "Lucky Shine Tint",
+      "new_role": "applicator from archived photo-3.png updated-tip closeup only",
+      "prior_scenes": 4,
+      "now_total_candidate_roles": 5,
+      "status": "QA_PENDING_SHADE_APPLICATOR_PROOF",
+      "caution": "Archived photo distinguishes old/new tips specifically for some shades; not globally applicable. Verify shade and revision before releasing."
+    },
+    {
+      "goodsNo": "1000000057",
+      "name": "Last Contour Pen Eyeliner",
+      "new_role": "independent archived model campaign photo-3.png",
+      "prior_new_scenes": 2,
+      "now_total_candidate_roles": 3,
+      "status": "QA_PENDING_PHOTO_IDENTITY"
+    }
+  ],
+  "source_proof": "Archived source bytes and generated output sha256 stored in local v196 manifest; current official photo and shade provenance unverified.",
+  "qa": "Initial tiny original red arrow visible at left edge in applicator crop; repaired only the new first JPG and regenerated v196 ZIP/contact, not previous v194 4 files. Both JPG 1080x1080 <2MB; ZIP CRC pass.",
+  "approved_for_sales": 0,
+  "public_url_changes": 0,
+  "previous_images_modified": 0,
+  "excel_shared": false,
+  "next": "Do not recreate v196 frames. v194 Lucky Shine now has 5 independent draft roles but shade-specific applicator photo cannot be approved without source mapping; continue remaining 2 Last Contour roles only with authentic independent product photos; preserve v195 refill-packaging holds."
+}
