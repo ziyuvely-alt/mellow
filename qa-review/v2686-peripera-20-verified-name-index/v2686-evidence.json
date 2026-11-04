@@ -1,0 +1,187 @@
+{
+  "version": "v2686",
+  "family": "pending-08",
+  "original_prior_claim_corrected": true,
+  "prior_v2685_error": "Treating missing from GS SHOP selector as absent from 26AD product range",
+  "correction": "04 저쩔복숭아, 06 갓기천사, 07 자두뿜뿜 are legitimate Olive Young-exclusive shades, not removed options",
+  "first_party_brand_channel": "https://pf.kakao.com/_SZjzG",
+  "retailer_exclusive_verification": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000244834",
+  "first_party_01_20_names": [
+    {
+      "no": "01",
+      "ko": "딸기기니",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "02",
+      "ko": "쩡신차렷",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "03",
+      "ko": "말랑물복",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "04",
+      "ko": "저쩔복숭아",
+      "brand_official_verified": true,
+      "olive_young_exclusive": true,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "05",
+      "ko": "갓기요정",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "06",
+      "ko": "갓기천사",
+      "brand_official_verified": true,
+      "olive_young_exclusive": true,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "07",
+      "ko": "자두뿜뿜",
+      "brand_official_verified": true,
+      "olive_young_exclusive": true,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "08",
+      "ko": "핑토당토",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "09",
+      "ko": "맘찍로즈",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "10",
+      "ko": "내입술인척",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "11",
+      "ko": "비주얼센터",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "12",
+      "ko": "개강여신",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "13",
+      "ko": "분위기여신",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "14",
+      "ko": "로지위시",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "15",
+      "ko": "맘콕로즈",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "16",
+      "ko": "로즈콕",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "17",
+      "ko": "이로지무화과?",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "18",
+      "ko": "손웜수템",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "19",
+      "ko": "어쩔체리",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    },
+    {
+      "no": "20",
+      "ko": "당맛도리",
+      "brand_official_verified": true,
+      "olive_young_exclusive": false,
+      "photo_swatch_verified": false,
+      "owned_stock_edition_verified": false
+    }
+  ],
+  "count_source_verified_names": 20,
+  "exclusive_source_verified_numbers": [
+    4,
+    6,
+    7
+  ],
+  "complete_reference_name_index_JPG": "v2686-20-shade-names-no-swatches-QA.jpg",
+  "visual_color_swatches_approved": 0,
+  "exact_user_owned_stock_edition_proven": false,
+  "actual_retailable_jpgs_approved": 0,
+  "prior_v2685_historical_5_photos_preserved": true,
+  "prior_29_fiveframe_QA_drafts_unmodified": true,
+  "existing_11_published_families_unmodified": true,
+  "existing_55_urls_untouched": true,
+  "final_xlsx_not_shared": true,
+  "next": "Replace mistaken shade 04/06/07 exclude rule in future QC; require exact photo proof before generating swatches or 5-frame final image."
+}
