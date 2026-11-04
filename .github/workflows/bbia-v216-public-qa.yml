@@ -1,0 +1,23 @@
+name: BBIA v216 immutable public image QA
+on:
+  push:
+    branches: [bbia-ch2-qa-20261104]
+    paths:
+      - scripts/bbia_v216_public_qa.py
+      - .github/workflows/bbia-v216-public-qa.yml
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Inspect published JPG without modifying assets
+        run: python scripts/bbia_v216_public_qa.py --repo . --out /tmp/bbia-v216-report.json
+      - name: Upload read-only audit report
+        uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v216-public-qa
+          path: /tmp/bbia-v216-report.json
+          retention-days: 30
