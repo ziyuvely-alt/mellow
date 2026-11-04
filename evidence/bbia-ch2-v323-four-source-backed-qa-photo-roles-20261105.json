@@ -1,0 +1,34 @@
+{
+  "checkpoint": "v323",
+  "parent": "v322",
+  "date": "2026-11-05",
+  "execution": {
+    "local_script": "/mnt/data/bbia_v323_build.py",
+    "four_new_JPG": 4,
+    "all_JPG_1080x1080_under_2mb": true,
+    "all_sha_unique": true,
+    "original_photo_sources_reused_from_v322": 12,
+    "archive": "/mnt/data/bbia_v323/BBIA_v323_FOUR_REAL_PHOTO_JPG_QA_PENDING.zip",
+    "actual_archive_sha256": "a9ce3429b1c0c6dce680698e3da596faf27dcdf8dda7fe5ba02d1d9dd1958d56",
+    "contact": "/mnt/data/bbia_v323/BBIA_v323_FOUR_REAL_PHOTO_CANDIDATES_CONTACT.jpg"
+  },
+  "new_goodsNo": [
+    "1000000056",
+    "172",
+    "207",
+    "1000000151"
+  ],
+  "visual_qa": {
+    "real_contact_opened": true,
+    "three_roles_retain_as_QA_candidate": [
+      "1000000056: Black Fit lash photo, bottom black image edge remains",
+      "172: actual before/after eye photos",
+      "207: actual brush nib and stroke product photo"
+    ],
+    "source_palette": "1000000151 v323 holds embedded Korean pan names inside official source photo; preserved immutable but not approved, crop correction planned v324",
+    "sales_approved": 0
+  },
+  "previous_published_images_changed": false,
+  "verified_55_urls_changed": false,
+  "final_spreadsheet_not_shared": true
+}
