@@ -1,0 +1,31 @@
+name: Shopee v2788 GOODAL alternate actual source and CLIO 5g native photo variants
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2788-real-goodal-alternate-and-clio-native-size.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Use previously validated actual sources to create new trial photos and check exact product official sizes
+        run: |
+          cp scripts/v2788_goodal_alternate_clio_native_sources.py /tmp/v2788.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2788-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2788-qa
+          python /tmp/v2788.py
+          git add qa-review/v2788-goodal-new-source-texture-options-clio-mini-native
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2788 actual new-source Goodal cream crop candidates and official CLIO 5g native proof, no approved changes'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
