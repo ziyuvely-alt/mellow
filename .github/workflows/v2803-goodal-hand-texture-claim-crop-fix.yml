@@ -1,0 +1,32 @@
+name: Shopee v2803 GOODAL actual hand photo remove clipped claim in single slot
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2803-goodal-hand-texture-claim-crop-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Cut only the real hand-with-cream region and preserve other four actual photo files
+        run: |
+          cp scripts/v2803_goodal_hand_texture_without_clipped_text.py /tmp/v2803.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2803-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2803-qa
+          python /tmp/v2803.py
+          test -e qa-review/v2803-goodal-alpha-hand-texture-without-clipped-claim-QA/manifest.json
+          git add qa-review/v2803-goodal-alpha-hand-texture-without-clipped-claim-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2803 correct only GOODAL hand texture frame03 crop and keep four prior JPG hashes unchanged'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
