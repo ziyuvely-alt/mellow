@@ -1,0 +1,45 @@
+{
+  "version": "v2714",
+  "date": "2026-11-05",
+  "baseline": "v2713",
+  "successful_run_id": 41858024836,
+  "asset_folder": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo",
+  "actual_work": {
+    "previously_failed_families_processed": 2,
+    "physically_persisted_alpha_PNG_and_1080_JPG": 2,
+    "previous_source_photos_changed": 0,
+    "prior_released_URLs_changed": 0
+  },
+  "manual_eyes_on_visual_QA": [
+    {
+      "family": "pending-24",
+      "product": "BIOHEAL BOH NAD Glow Power Serum 30mL",
+      "decision": "QA_CANDIDATE_WITH_FINAL_EDGE_QA",
+      "reason": "Detached extra red bottom artifact from v2713 removed; bottle now appears continuous and upright, though anti-aliasing near lower edge needs 1:1 inspection."
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pad 70 sheets 210mL",
+      "decision": "QA_CANDIDATE_WITH_FINAL_BOTTOM_EDGE_QA",
+      "reason": "Using archived slot02 instead of failed slot01, correct pink tub, white cap and legible 70-pads label visible; lower right plastic edge needs full-size visual review."
+    }
+  ],
+  "protected": {
+    "previous_published_11_product_families_unchanged": true,
+    "verified_public_55_URLs_unchanged": true,
+    "old_archived_80_JPGs_untouched": true,
+    "final_XLSX_not_shared": true
+  },
+  "sales_newly_approved": 0,
+  "quality_holds": [
+    "No original authenticated MK logo found",
+    "Commercial photo rights are not established",
+    "Exact physical stock edition not independently confirmed"
+  ],
+  "do_not_repeat": [
+    "v2713 pending24 detached alpha image",
+    "v2713 pending28 broken source-slot01 segmentation",
+    "v2714 successful corrections"
+  ],
+  "next": "Work on yet-unsegmented families, specifically pending03 pending11 pending15 pending18 pending21, leaving pending09 complex multi-product source for separate review. Save new actual PNG/JPG only with visual QA and no release."
+}
