@@ -1,0 +1,49 @@
+{
+  "version": "v2715",
+  "date": "2026-11-05",
+  "previous": "v2714",
+  "successful_action_run": 41858550553,
+  "qa_path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests",
+  "new_source_photo_families_processed": 5,
+  "actual_transparent_png_and_1080jpg_pairs_saved": 4,
+  "visual_outcomes": [
+    {
+      "family": "pending-03",
+      "product": "MISSHA M Perfect Cover BB Cream 50mL, shade23",
+      "outcome": "QA_CANDIDATE",
+      "note": "Original old-era red-and-gold tube present, matching the archived 23 shade. Do not substitute redesigned US package or 25/other shades."
+    },
+    {
+      "family": "pending-11",
+      "product": "OBgE All In One Double Essence single double-chamber bottle",
+      "outcome": "QA_CANDIDATE",
+      "note": "Cap and single bottle intact; not two separately shipped bottles."
+    },
+    {
+      "family": "pending-15",
+      "product": "Dr.G Green Mild Up Sun Plus 50mL",
+      "outcome": "QA_CANDIDATE",
+      "note": "Tube, green band, base intact; exact owned edition still held."
+    },
+    {
+      "family": "pending-18",
+      "product": "Dr.G Brightening Up Sun Plus 50mL",
+      "outcome": "QA_CANDIDATE",
+      "note": "Tube, orange band, base intact; exact owned edition still held."
+    },
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+      "outcome": "HOLD_FIRST_SOURCE_MASK_FAILED",
+      "note": "Very thin eye cream tube from first hero was rejected by minimum mask-width geometry. Switch to saved slot02 for v2716, do not retry identical image."
+    }
+  ],
+  "protected": {
+    "prior_11_approved_image_groups": true,
+    "public_55_urls": true,
+    "original_80_photos": true,
+    "final_excel_not_shared": true
+  },
+  "new_retail_approvals": 0,
+  "next_task": "v2716 underway in run 41859046332: alternate GOODAL source slot02 plus OBgE Oil Control Finisher slot05, both photo reproduction/stocks still QA HOLD"
+}
