@@ -1,0 +1,46 @@
+{
+  "version": "v2776",
+  "date": "2026-11-05",
+  "from_version": "v2775",
+  "new_four_photo_first_QA_sets": 4,
+  "source_jpg_blobs_staged": 20,
+  "unchanged_sha_source_count": 20,
+  "converted_photo_pixels": 0,
+  "existing_11_sale_approved_family_count_unchanged": true,
+  "original_55_public_urls_not_modified": true,
+  "actual_new_retail_approvals": 0,
+  "unresolved": [
+    "photo/model redistribution rights",
+    "actual owned product package/edition",
+    "authentic original MK round logo",
+    "legacy 02-05 marketing copy and badge QA"
+  ],
+  "original_assets_untouched": true,
+  "final_spreadsheet_shared": false,
+  "groups": [
+    {
+      "family": "pending-23",
+      "name": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+      "files": 5,
+      "hero_source": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg"
+    },
+    {
+      "family": "pending-26",
+      "name": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+      "files": 5,
+      "hero_source": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-26/01-recovered-source-product-1080-hero-QA.jpg"
+    },
+    {
+      "family": "pending-29",
+      "name": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "files": 5,
+      "hero_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg"
+    },
+    {
+      "family": "pending-30",
+      "name": "PIXEL PURE Aura Radiance Serum 50mL",
+      "files": 5,
+      "hero_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg"
+    }
+  ]
+}

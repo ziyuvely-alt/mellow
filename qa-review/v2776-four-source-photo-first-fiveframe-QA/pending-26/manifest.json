@@ -1,0 +1,70 @@
+{
+  "version": "v2776",
+  "family": "pending-26",
+  "product": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+  "qa_frames_staged": 5,
+  "old_photo_blobs_reused": 5,
+  "photo_content_generated_new": 0,
+  "hero_native_visual_review": true,
+  "prior_sale_approvals_untouched": true,
+  "prior_verified_55_public_urls_untouched": true,
+  "previous_source_photos_untouched": true,
+  "commercial_photo_rights_verified": false,
+  "exact_owned_inventory_edition_verified": false,
+  "legacy_MK_original_not_authenticated": true,
+  "unverified_legacy_MK_in_original_frames_02_to_05": true,
+  "sale_approved": false,
+  "final_xlsx_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/01-true-product-photo-alpha-QA.jpg",
+      "original_source": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-26/01-recovered-source-product-1080-hero-QA.jpg",
+      "source_sha1": "7d405b3a5ad8820470f36e9d2769699284c7dec5",
+      "bytes": 72871,
+      "exact_byte_copy": true,
+      "descriptive_scene": "clear 145mL standalone cleanser cutout, not substituted 150mL",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/02-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/02-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "2a63849b565bfc3c9efa31d0bb087df185333d82",
+      "bytes": 187258,
+      "exact_byte_copy": true,
+      "descriptive_scene": "historical cleanser real detail",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/03-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/03-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "7ff576e1971ad3b1ecddc73668fd3c276b2ab15d",
+      "bytes": 189507,
+      "exact_byte_copy": true,
+      "descriptive_scene": "other real bottle angle",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/04-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/04-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "6a8547d9a5802add5daebb335984316d127be7c3",
+      "bytes": 155807,
+      "exact_byte_copy": true,
+      "descriptive_scene": "physical product/texture shot",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/05-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-26/05-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "e7f946a24bad5b1419f93f686090acc8c24e360a",
+      "bytes": 165462,
+      "exact_byte_copy": true,
+      "descriptive_scene": "product lifestyle view",
+      "current_status": "QA_ONLY"
+    }
+  ]
+}

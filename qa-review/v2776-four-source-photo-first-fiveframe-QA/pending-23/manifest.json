@@ -1,0 +1,70 @@
+{
+  "version": "v2776",
+  "family": "pending-23",
+  "product": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+  "qa_frames_staged": 5,
+  "old_photo_blobs_reused": 5,
+  "photo_content_generated_new": 0,
+  "hero_native_visual_review": true,
+  "prior_sale_approvals_untouched": true,
+  "prior_verified_55_public_urls_untouched": true,
+  "previous_source_photos_untouched": true,
+  "commercial_photo_rights_verified": false,
+  "exact_owned_inventory_edition_verified": false,
+  "legacy_MK_original_not_authenticated": true,
+  "unverified_legacy_MK_in_original_frames_02_to_05": true,
+  "sale_approved": false,
+  "final_xlsx_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/01-true-product-photo-alpha-QA.jpg",
+      "original_source": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg",
+      "source_sha1": "25b80d5fbac31bc70744dc0497ca757ce908b657",
+      "bytes": 57774,
+      "exact_byte_copy": true,
+      "descriptive_scene": "product-only 50mL tube cutout with clear cap and label",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/02-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2683-two-family-photo-content-upgrades/pending-23/01-actual-source-slot01-UNMODIFIED-QA.jpg",
+      "source_sha1": "e87227d7c23e240c148c7749d0d6f01ae41be046",
+      "bytes": 124885,
+      "exact_byte_copy": true,
+      "descriptive_scene": "source 01 original photo",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/03-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2683-two-family-photo-content-upgrades/pending-23/02-actual-source-slot03-UNMODIFIED-QA.jpg",
+      "source_sha1": "16dd2ffbedcb0b88a0549361585130e357a55ffc",
+      "bytes": 122133,
+      "exact_byte_copy": true,
+      "descriptive_scene": "source 03 alternate real photo",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/04-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2683-two-family-photo-content-upgrades/pending-23/03-actual-source-slot04-UNMODIFIED-QA.jpg",
+      "source_sha1": "3133ad4b7582325534bb7db45fcb84750bbb728c",
+      "bytes": 74592,
+      "exact_byte_copy": true,
+      "descriptive_scene": "source 04 alternate real photo",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/05-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2683-two-family-photo-content-upgrades/pending-23/05-genuine-source-slot05-unmodified-QA.jpg",
+      "source_sha1": "abe0613798002c281bf644dcab0ea1d9a3b14952",
+      "bytes": 78341,
+      "exact_byte_copy": true,
+      "descriptive_scene": "source 05 product visual",
+      "current_status": "QA_ONLY"
+    }
+  ]
+}

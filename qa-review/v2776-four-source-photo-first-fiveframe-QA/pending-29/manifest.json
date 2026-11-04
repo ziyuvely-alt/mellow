@@ -1,0 +1,70 @@
+{
+  "version": "v2776",
+  "family": "pending-29",
+  "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+  "qa_frames_staged": 5,
+  "old_photo_blobs_reused": 5,
+  "photo_content_generated_new": 0,
+  "hero_native_visual_review": true,
+  "prior_sale_approvals_untouched": true,
+  "prior_verified_55_public_urls_untouched": true,
+  "previous_source_photos_untouched": true,
+  "commercial_photo_rights_verified": false,
+  "exact_owned_inventory_edition_verified": false,
+  "legacy_MK_original_not_authenticated": true,
+  "unverified_legacy_MK_in_original_frames_02_to_05": true,
+  "sale_approved": false,
+  "final_xlsx_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/01-true-product-photo-alpha-QA.jpg",
+      "original_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+      "source_sha1": "518a8d6da06891cbb9b267ac82881a0c1cf381e5",
+      "bytes": 113161,
+      "exact_byte_copy": true,
+      "descriptive_scene": "real 50mL cream jar, lid and body",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/02-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-29/02-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "46fd71b47150349996bf5ac5a3081972338f31b4",
+      "bytes": 151964,
+      "exact_byte_copy": true,
+      "descriptive_scene": "cream jar original angle",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/03-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-29/03-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "3dcc2f58dc669fefb6d1dc243972697ff1fe3f6e",
+      "bytes": 157329,
+      "exact_byte_copy": true,
+      "descriptive_scene": "cream texture detail",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/04-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-29/04-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "20a10eceaa1c6650a274408658a70f4d440cfa6c",
+      "bytes": 216449,
+      "exact_byte_copy": true,
+      "descriptive_scene": "cream use scene",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/05-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2706-six-archival-five-real-source-families/pending-29/05-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha1": "26b594c138dce698fd45077d349279cf78281e4c",
+      "bytes": 147379,
+      "exact_byte_copy": true,
+      "descriptive_scene": "size/pot packaging detail",
+      "current_status": "QA_ONLY"
+    }
+  ]
+}

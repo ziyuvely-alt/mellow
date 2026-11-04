@@ -1,0 +1,70 @@
+{
+  "version": "v2776",
+  "family": "pending-30",
+  "product": "PIXEL PURE Aura Radiance Serum 50mL",
+  "qa_frames_staged": 5,
+  "old_photo_blobs_reused": 5,
+  "photo_content_generated_new": 0,
+  "hero_native_visual_review": true,
+  "prior_sale_approvals_untouched": true,
+  "prior_verified_55_public_urls_untouched": true,
+  "previous_source_photos_untouched": true,
+  "commercial_photo_rights_verified": false,
+  "exact_owned_inventory_edition_verified": false,
+  "legacy_MK_original_not_authenticated": true,
+  "unverified_legacy_MK_in_original_frames_02_to_05": true,
+  "sale_approved": false,
+  "final_xlsx_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/01-true-product-photo-alpha-QA.jpg",
+      "original_source": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+      "source_sha1": "e58ca78b7e76e43349c9303fa9deee23a0de2740",
+      "bytes": 67492,
+      "exact_byte_copy": true,
+      "descriptive_scene": "50mL serum single bottle foreground",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/02-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/02-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha1": "23181cb53a6d8a4af96da8e267bf5422c20720e2",
+      "bytes": 180845,
+      "exact_byte_copy": true,
+      "descriptive_scene": "serum product angle",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/03-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/03-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha1": "93cb316ab4fbbc35b0fd654455adc1705d9486f7",
+      "bytes": 202331,
+      "exact_byte_copy": true,
+      "descriptive_scene": "serum consistency closeup",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/04-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/04-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha1": "78581b22b4ce1628ec7a15cb7733c02029b4e279",
+      "bytes": 186434,
+      "exact_byte_copy": true,
+      "descriptive_scene": "serum use scene",
+      "current_status": "QA_ONLY"
+    },
+    {
+      "slot": 5,
+      "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/05-original-lifestyle-or-detail-QA.jpg",
+      "original_source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/05-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha1": "be119f6793395e6c50a50cf6e5516000b9d76ae5",
+      "bytes": 216195,
+      "exact_byte_copy": true,
+      "descriptive_scene": "size and real bottle closeup",
+      "current_status": "QA_ONLY"
+    }
+  ]
+}
