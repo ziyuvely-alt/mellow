@@ -1,0 +1,37 @@
+name: Shopee v2685 PERIPERA 26AD exact-edition shade quarantine and source preservation
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2685-peripera-edition-quarantine.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  edition-quarantine:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore historical 156 JPGs without regenerating any images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Quarantine five historical Peripera references and reconcile 001-020 vs current 26AD selector
+        run: |
+          python scripts/v2685_peripera_26AD_edition_quarantine.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2685-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2685-qa/qa-review/v2685-peripera-edition-and-shade-quarantine
+          cp -a qa-review/v2685-peripera-edition-and-shade-quarantine /tmp/v2685-qa/qa-review/
+          cd /tmp/v2685-qa
+          git add qa-review/v2685-peripera-edition-and-shade-quarantine
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2685 preserve five historical Peripera JPGs for reference only and quarantine 26AD shade mismatch'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
