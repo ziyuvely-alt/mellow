@@ -1,0 +1,38 @@
+{
+  "version": "v2635",
+  "date": "2026-11-04",
+  "baseline": "v2634",
+  "archive": "/mnt/data/Shopee_v2635_156JPG_DrG_GreenMild_two_photo_focus_QA_ONLY.zip",
+  "preview": "/mnt/data/v2635_DrG_green_mild_photo_focus_QA/before_after_DrG_two_frames.jpg",
+  "family_count": 30,
+  "jpg_count": 156,
+  "changed": 2,
+  "sha256_identical": 154,
+  "changes": [
+    {
+      "family": "pending-15",
+      "slot": 2,
+      "product": "Dr.G Green Mild Up Sun Plus 50 mL",
+      "change": "Reuse existing genuine eye-area application photo, eliminate large beige square frame and provisional MK graphic, preserve 50mL label",
+      "sha256": "25685b15cf81bdf18e8c122191fdf1447affbbea138683fc3da4a17f71d0e4fb"
+    },
+    {
+      "family": "pending-15",
+      "slot": 3,
+      "product": "Dr.G Green Mild Up Sun Plus 50 mL",
+      "change": "Enlarge source tube without AI redraw; remove large beige border and provisional MK badge",
+      "sha256": "14321a9562c1f3b90845d0edd52976ad5f58cb11f58df616bed5ab4d48c6b8be"
+    }
+  ],
+  "previous_successful_fixes_preserved": true,
+  "prior_11_approved_families_unchanged": true,
+  "existing_55_verified_urls_changed": 0,
+  "xlsx_or_spreadsheet_created_or_shared": false,
+  "release_holds": [
+    "photograph commercial-use permissions",
+    "owned-stock exact packaging/edition",
+    "original genuine MK logo binary",
+    "final visual release approval"
+  ],
+  "next": "Continue from v2635 archive. Do not repeat these 2 cuts, v2633/34 photo crops or prior approved 11. Prioritize actual stock edition authenticity and photo source rights; all remain review-only."
+}
