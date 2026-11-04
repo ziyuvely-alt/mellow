@@ -1,0 +1,32 @@
+name: Shopee v2696 MISSHA PDRN serum exact page media gallery inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2696-missha-serum-official-gallery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Inspect exact 30mL AbleShop gallery; exclude other product media later by visual QA
+        run: |
+          python scripts/v2696_missha_serum_official_gallery_media.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2696-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2696-qa/qa-review/v2696-missha-serum-official-gallery-proof
+          cp -a qa-review/v2696-missha-serum-official-gallery-proof /tmp/v2696-qa/qa-review/
+          cd /tmp/v2696-qa
+          git add qa-review/v2696-missha-serum-official-gallery-proof
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2696 30mL MISSHA serum genuine official gallery visual source proof, not for public'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
