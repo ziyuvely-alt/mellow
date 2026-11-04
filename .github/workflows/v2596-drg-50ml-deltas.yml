@@ -1,0 +1,37 @@
+name: Shopee v2596 two actual DrG Sun Plus 50ml photo deltas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2596_add_two_drg_50ml_sunplus_deltas.py'
+      - '.github/workflows/v2596-drg-50ml-deltas.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  two-real-photo-deltas:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse only two already vetted DrG images
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41765634102 -n shopee-v2595-DrG-SunPlus-50ml-actual-photos-review-no-XLSX -D v2596-source
+      - name: Reuse latest immutable 156-JPG review base without regeneration
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D v2596-base
+      - name: Stage two genuine 50ml source QA JPGs with immutable source hashes
+        run: python scripts/v2596_add_two_drg_50ml_sunplus_deltas.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2596-two-DrG-SunPLUS-50ml-JPG-delta-only-no-XLSX
+          path: v2596-drg-50ml-two-JPG-delta-QA/
+          retention-days: 90
+          if-no-files-found: error
