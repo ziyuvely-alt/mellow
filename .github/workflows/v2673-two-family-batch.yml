@@ -1,0 +1,38 @@
+name: Shopee v2673 two new product five-JPG photo-led draft batch
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2673-two-family-batch.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  produce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse exact previously saved physical originals
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D historical
+      - name: Create 10 JPGs in one batch; write only the non-retail QA branch
+        run: |
+          test -f scripts/v2673_two_family_drafts.py
+          cp scripts/v2673_two_family_drafts.py /tmp/v2673.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2673-working qa-assets/v2662-immutable-14-candidates
+          ln -s "$GITHUB_WORKSPACE/historical" /tmp/v2673-working/historical
+          cd /tmp/v2673-working
+          python /tmp/v2673.py
+          git add qa-review/v2673-two-new-product-five-JPG-sets
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2673 create 2 photo-led five-image QA families DrG Red Blemish and Goodal Cream Alpha'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
