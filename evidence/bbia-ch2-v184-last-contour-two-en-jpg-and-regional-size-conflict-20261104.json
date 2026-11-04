@@ -1,0 +1,51 @@
+{
+  "schema": "bbia_ch2_v184_new_photo_crops",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v183 Last Velvet Tint full size 2 EN source-photo JPGs preserved",
+  "new_product": "BBIA Last Contour Pen Eyeliner shade 01 Café au lait",
+  "goodsNo": "1000000057",
+  "official_product_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000057",
+  "source_zip": "BBIA_Cutout_Progress_20261030.zip",
+  "source_path": "batch/1000000057/photo-4.png",
+  "source_sha256": "81d6a4574f19ec93f668afc8a9bf94123e5acb2313f77918eacf68de60b061a1",
+  "new_en_jpg": 2,
+  "actual_output_archive": "BBIA_v184_LAST_CONTOUR_PEN_TWO_EN_QA_PENDING.zip",
+  "actual_visual_review": "BBIA_v184_LAST_CONTOUR_TWO_EN_CONTACT.jpg",
+  "repro_code": "v184_last_contour_2scene.py",
+  "frames": [
+    {
+      "name": "01_EYE_REFERENCE_EN_QA_PENDING.jpg",
+      "source_crop": [
+        329,
+        312,
+        746,
+        535
+      ],
+      "role": "eye detail reference only"
+    },
+    {
+      "name": "02_TIP_REFERENCE_EN_QA_PENDING.jpg",
+      "source_crop": [
+        50,
+        273,
+        321,
+        550
+      ],
+      "role": "actual pen tip close-up"
+    }
+  ],
+  "selective_repair": "In first candidate frame01, archived BEFORE overlay appeared at top edge. Adjusted crop y=312 to exclude before/after wording; frame02 remained byte-for-byte unmodified.",
+  "technical": "Both 1080×1080 JPEG below 2,000,000 bytes, ZIP CRC pass; output SHA256 stored inside ZIP manifest.",
+  "not_approved": "Original source photo is archived with historical SHA; current official original-photo pixel match not independently verified. Both frames QA_PENDING, not premium final or exact shade proof.",
+  "new_sales_approved": 0,
+  "locale_images_generated": 0,
+  "prior_outputs_preserved": [
+    "v147 125 original JPG",
+    "v150-v183 previously produced JPG and ZIP assets",
+    "55 published URLs",
+    "existing holds"
+  ],
+  "additional_source_issue": "Over Glaze goodsNo 1000000166 has 5g on Korean official product page but 4.5g on BBIA Vietnam official page and archived STATE.json. Do not globally change previously made 5g v170 file; flag regional specification conflict for country-specific checking.",
+  "next": "Do not rerender v184 two images. Product has 3 further missing page roles; seek larger authenticated official product photos and source data, do not upscale tiny 80x359 hero PNG. Country-specific Over Glaze size must be verified before localized claims. Move to other unworked family if source blocked.",
+  "no_excel_shared": true
+}
