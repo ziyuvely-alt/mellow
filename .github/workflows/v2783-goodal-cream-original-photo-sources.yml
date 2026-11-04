@@ -1,0 +1,30 @@
+name: Shopee v2783 GOODAL Cream Alpha original brand product-only photography
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2783-goodal-cream-original-photo-sources.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python -m pip install Pillow requests
+      - name: Read only brand's verified single-cream Shopify product gallery
+        run: |
+          python scripts/v2783_goodal_cream_alpha_brand_gallery.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2783-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2783-qa/qa-review/v2783-goodal-cream-alpha-official-distinct-photo-sources
+          cp -a qa-review/v2783-goodal-cream-alpha-official-distinct-photo-sources /tmp/v2783-qa/qa-review/
+          cd /tmp/v2783-qa
+          git add qa-review/v2783-goodal-cream-alpha-official-distinct-photo-sources
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2783 new GOODAL Cream Alpha exact-item original brand photo evidence; rights and stock held'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
