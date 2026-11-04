@@ -1,0 +1,98 @@
+{
+  "version": "v2786",
+  "family": "pending-19",
+  "baseline": "v2785",
+  "five_1080x1080_JPGs_saved": true,
+  "unchanged_v2785_sha_identical_frames": [
+    1,
+    2,
+    3
+  ],
+  "two_source_photo_crop_fixed_frames": [
+    4,
+    5
+  ],
+  "pixels_synthetic": false,
+  "independent_photo_exposures": 4,
+  "customer_ready_retail_approved": false,
+  "old_original_sources_modified": false,
+  "old_11_sale_approved_families_unchanged": true,
+  "old_55_published_URLs_unchanged": true,
+  "photo_rights_verified": false,
+  "owned_stock_edition_verified": false,
+  "original_MK_logo_available": false,
+  "full_photo_frame_claim_and_edge_QA_status": "VISUAL_REVIEW_REQUIRED",
+  "no_final_excel_shared": true,
+  "frames": [
+    {
+      "slot": 1,
+      "file": "01-existing-authentic-isolated-product-hero-QA.jpg",
+      "role": "SOURCE_WHOLE_JAR",
+      "actual_source": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/pending-19/01-original-product-contour-white-1080-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+      "description": "old genuine isolated 50mL jar; original bytes untouched",
+      "retail_status": "HOLD",
+      "bytes": 64028,
+      "unchanged_byte_exact": true
+    },
+    {
+      "slot": 2,
+      "file": "02-official-real-jar-cream-background-QA.jpg",
+      "role": "OFFICIAL_SINGLE_JAR",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/01-original-PHOTOGRAPHIC_JAR_HERO-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+      "description": "new true cream jar photographed with cream texture backdrop",
+      "retail_status": "HOLD",
+      "bytes": 83045,
+      "unchanged_byte_exact": true
+    },
+    {
+      "slot": 3,
+      "file": "03-official-open-closed-jar-photo-QA.jpg",
+      "role": "OFFICIAL_OPEN_JAR",
+      "actual_source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "same_source_bytes": true,
+      "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+      "description": "open and closed views of the same 50mL cream, not two-pack",
+      "retail_status": "HOLD",
+      "bytes": 192391,
+      "unchanged_byte_exact": true
+    },
+    {
+      "slot": 4,
+      "file": "04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+      "role": "REAL_SOURCE_PHOTO_CROP_NO_BANNER",
+      "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/03-original-PHOTOGRAPHIC_HAND_TEXTURE-QA.jpg",
+      "source_crop_xyxy": [
+        275,
+        448,
+        905,
+        823
+      ],
+      "correction_reason": "Remove clipped tagline by selecting genuine hand/cream surface pixels",
+      "sha256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+      "new_generated_product_pixels": false,
+      "retail_status": "HOLD",
+      "bytes": 174982
+    },
+    {
+      "slot": 5,
+      "file": "05-fullbleed-open-cream-jar-no-banner-QA.jpg",
+      "role": "REAL_SOURCE_PHOTO_CROP_NO_BANNER",
+      "source": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/02-original-PHOTOGRAPHIC_OPEN_JAR_AND_CREAM-QA.jpg",
+      "source_crop_xyxy": [
+        360,
+        445,
+        1040,
+        1050
+      ],
+      "correction_reason": "Remove clipped results banner; show more real open jar bottom",
+      "sha256": "c6736b80af97844ac25308ecdffda7e290ab9e16431d7d76a3d56e5b223e3d5c",
+      "new_generated_product_pixels": false,
+      "retail_status": "HOLD",
+      "bytes": 229393
+    }
+  ]
+}
