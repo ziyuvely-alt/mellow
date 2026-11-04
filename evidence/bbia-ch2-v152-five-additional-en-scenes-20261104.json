@@ -1,0 +1,54 @@
+{
+  "schema": "bbia_ch2_v152_incremental_production",
+  "date": "2026-11-04",
+  "branch": "bbia-ch2-qa-20261104",
+  "previous_checkpoint": "v151 5 EN newly designed JPGs, v150 4 separate JPGs",
+  "execution": "v152 reused v147 REVIEW_PENDING genuine-photo pixels for five newly composed English scenes",
+  "outputs": {
+    "zip": "BBIA_v152_5_ADDITIONAL_EN_SCENES_QA_PENDING.zip",
+    "contact": "BBIA_v152_FIVE_SCENES_CONTACT.jpg",
+    "technical_jpg_count": 5,
+    "technical_pass_count": 5,
+    "zip_crc_pass": true,
+    "source_manifest": "BBIA_v152_NEW_SCENES_REPORT.json"
+  },
+  "scenes": [
+    {
+      "family": "Eau Powder Pact Puff",
+      "scene": "product detail",
+      "source": "132_c99"
+    },
+    {
+      "family": "Eau Cushion Puff",
+      "scene": "under-eye application",
+      "source": "130_1f7"
+    },
+    {
+      "family": "Eau Cushion Puff",
+      "scene": "nose-side application",
+      "source": "130_c342"
+    },
+    {
+      "family": "Never Die Mascara Slim",
+      "scene": "brush detail",
+      "source": "128_b7d"
+    },
+    {
+      "family": "Last Pen Eyeliner",
+      "scene": "application detail",
+      "source": "128_8f6"
+    }
+  ],
+  "quality_improvement": "Three candidate scenes had inherited matting/caption crops or distorted photos. Re-cropped original image region without embedded old text, corrected aspect ratio, regenerated only v152 candidates and checked final preview.",
+  "released_for_sales": 0,
+  "source_provenance_status": "QA_PENDING: inherited prior composite photographs not yet independently matched to current exact brand photo/SKU",
+  "reused_not_modified": [
+    "1515 historical counted draft JPGs",
+    "v147 125 frame source archive",
+    "v150 4 EN repair candidates",
+    "v151 5 EN candidates",
+    "55 public image URLs"
+  ],
+  "hold_status": "14 inherited holds and 10 v147 source-proof holds unchanged",
+  "next": "Continue with different factually supported source scenes; prioritize completing one five-role family, not rehash-only verification; do not classify 5 frames across 4 families as completed family; EN approval required before localization."
+}
