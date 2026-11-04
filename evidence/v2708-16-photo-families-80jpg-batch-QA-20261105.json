@@ -1,0 +1,89 @@
+{
+  "version": "v2708",
+  "date": "2026-11-05",
+  "base": "v2707",
+  "workflow_run_id": 41854607075,
+  "workflow_status": "completed_success",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "qa_output": "qa-review/v2708-16-family-pre-release-80-jpg-unique-scene-audit",
+  "actual_work": {
+    "photo_families_audited": 16,
+    "jpgs_opened_and_validated": 80,
+    "source_JPGs_reencoded_or_overwritten": 0,
+    "checked_image_format": "JPEG",
+    "checked_image_dimensions": "1080x1080",
+    "checked_each_below_2_MB": true,
+    "exact_duplicate_sha_across_families": 0,
+    "bottom_right_corner_phash_variants": 2,
+    "official_original_MK_logo_file_found": false,
+    "photo_publication_licenses_verified": false,
+    "brand_logo_approval_verification": false,
+    "new_sales_approved": 0
+  },
+  "manual_correction_to_similarity_results": [
+    {
+      "family": "pending-03",
+      "automated_pair": "frames 01 and 02",
+      "decision": "NOT DUPLICATE: shade 23 Natural Beige and shade 25 Warm Beige are different variants, preserve both"
+    },
+    {
+      "family": "pending-03",
+      "automated_pair": "frames 03 and 04",
+      "decision": "Different before-after vs application scenes; do not suppress on dHash alone"
+    },
+    {
+      "family": "pending-04",
+      "automated_pair": "frames 01 and 04",
+      "decision": "CANDIDATE REAL NEAR DUPLICATE: same compact front angle; consider replacing only one with authentic verified mini-only distinct scene"
+    },
+    {
+      "family": "pending-04",
+      "automated_pair": "frames 02 and 03",
+      "decision": "CANDIDATE NEAR DUPLICATE: same compact finger/puff use view; improve if distinct source exists"
+    },
+    {
+      "family": "pending-16",
+      "automated_pair": "many false positives",
+      "decision": "White frame/background dominates dHash. Different jar/cream/use scenes; suppress automated duplicate verdict"
+    },
+    {
+      "family": "pending-22",
+      "automated_pair": "frames 03 and 04",
+      "decision": "Hand dispensing vs arm texture, visually different subject; suppress duplicate verdict"
+    },
+    {
+      "family": "pending-26",
+      "automated_pair": "frames 01 and 05",
+      "decision": "Same bottle packshot repeated in similar layout; improve photo diversity if different authenticated 145mL scene found"
+    }
+  ],
+  "current_bottlenecks": [
+    "Commercial rights for historical source photos not documented",
+    "Original actual approved MK logo bitmap not found in tracked GitHub path/commit history",
+    "Current archived assets contain MK badge in lower-right, but badge provenance not authenticated",
+    "Physical stock item generation and options must be matched before publishing",
+    "Do not remove or fabricate logo without original reference and authorized artwork"
+  ],
+  "quality_rule_update": {
+    "automated_phash_is_flag_only": true,
+    "manually_approved_duplicate_deletions": 0,
+    "never_dedupe_across_shades_or_important_different_steps": true,
+    "store_photo_candidate_without_retail_publication": true
+  },
+  "project": {
+    "total_families": 41,
+    "approved_existing_families": 11,
+    "pending_with_QA_assets": 30,
+    "recovered_16_families_with_five_historical_jpgs": 16,
+    "approved_family_count_changes": 0,
+    "public_55_image_urls_unchanged": true,
+    "final_excel_or_spreadsheet_shared": false
+  },
+  "next_tasks": [
+    "Only if verified original MK logo and photo reuse permission become available, prepare derived release artwork, preserving prior 55 URLs",
+    "Find genuinely different 5g CLIO mini photos for frame01/04 and 02/03; never introduce full 15g promotional sets",
+    "Find truly different 145mL PIXEL PURE Gel-to-Foam image scenes, not relabeled 150mL bottle",
+    "Proceed through stock-edition and claim/badge verification for highest-quality product families first",
+    "Avoid repeating v2705-v2708 archived recovery and tech QA"
+  ]
+}
