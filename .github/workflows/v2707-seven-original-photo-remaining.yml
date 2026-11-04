@@ -1,0 +1,37 @@
+name: Shopee v2707 seven final 5-real-JPG historical family recovery
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2707-seven-original-photo-remaining.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore only remaining historical original archive images
+        run: |
+          git fetch origin b2b883b86f3e80b7723ccf39b3766dfe6f483da9
+          mkdir old_assets
+          git archive b2b883b86f3e80b7723ccf39b3766dfe6f483da9 public/owned86/20261029 | tar -x -C old_assets
+      - name: Store 35 physical JPG photo candidates across seven fresh QA families
+        run: |
+          python scripts/v2707_seven_remaining_original_families.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2707-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2707-qa/qa-review/v2707-seven-remaining-archival-real-photo-family-sets
+          cp -a qa-review/v2707-seven-remaining-archival-real-photo-family-sets /tmp/v2707-qa/qa-review/
+          cd /tmp/v2707-qa
+          git add qa-review/v2707-seven-remaining-archival-real-photo-family-sets
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2707 preserve 35 real old JPG sources in 7 additional family QA folders; no published alterations'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
