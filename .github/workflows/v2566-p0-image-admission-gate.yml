@@ -1,0 +1,33 @@
+name: Shopee v2566 five P0 exact SKU and source-photo admission audit
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2566_p0_exact_stock_and_source_hash_guard.py'
+      - '.github/workflows/v2566-p0-image-admission-gate.yml'
+permissions:
+  contents: read
+  actions: read
+jobs:
+  p0-admission-checks:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - name: Restore existing 30-family release queue
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41755214185 -n shopee-v2565-30family-issue-specific-release-gates-queue-no-XLSX -D v2566-reuse
+      - name: Restore existing image candidates, never regenerate
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2566-base
+      - name: Enforce five exact option sets and reject banned product source hashes
+        run: python scripts/v2566_p0_exact_stock_and_source_hash_guard.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2566-p0-five-27-image-real-SKU-and-source-admission-guards-no-XLSX
+          path: v2566-p0-five-family-verifiable-guards/
+          retention-days: 90
+          if-no-files-found: error
