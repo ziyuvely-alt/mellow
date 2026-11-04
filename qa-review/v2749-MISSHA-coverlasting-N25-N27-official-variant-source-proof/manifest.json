@@ -1,0 +1,74 @@
+{
+  "version": "v2749",
+  "baseline": "v2748",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting 15g",
+  "brand_operated_store": "https://www.misshame.com/products/magic-cushion-cover-lasting",
+  "N21_photo_already_preserved": "v2748",
+  "N23_photo_already_preserved": "v2747",
+  "new_source_colors_requested": [
+    "25",
+    "27"
+  ],
+  "do_not_copy_N21_N23_compacts_into_25_27": true,
+  "no_fake_swatch_generation": true,
+  "photo_license_verified": false,
+  "exact_user_owned_Korean_stock_generation_verified": false,
+  "new_retail_approved": 0,
+  "original_11_approved_untouched": true,
+  "previous_55_URLs_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "source_status": "OFFICIAL_PRODUCT_VARIANTS_INSPECTED",
+  "shades": [
+    {
+      "shade": "25",
+      "variants_count": 1,
+      "status": "VARIANT_LINKED_PHOTO_CAPTURED_VISUAL_QA_REQUIRED",
+      "source_item_title": "No. 25",
+      "sku": "MISSHA Magic Cushion Cover Lasting SPF50+/PA+++ (No.25)",
+      "variant_id": 45324187861162,
+      "source_photos": [
+        {
+          "file": "shade-25/01-real-variant-linked-25-source-reference-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/25_c384af66-10ca-4468-a37e-84846e6b19fa.jpg?v=1723017132",
+          "photo_native_px": [
+            1000,
+            1000
+          ],
+          "sha256": "16742b957e6d786f3092cc1b74febb9d383f40d1aec1c7b2ec39c078bcb66a77",
+          "variant_relation": "variant_featured_image"
+        }
+      ],
+      "manual_packaging_and_shade_review_required": true
+    },
+    {
+      "shade": "27",
+      "variants_count": 1,
+      "status": "VARIANT_LINKED_PHOTO_CAPTURED_VISUAL_QA_REQUIRED",
+      "source_item_title": "No. 27",
+      "sku": "8809581475328",
+      "variant_id": 13015205544035,
+      "source_photos": [
+        {
+          "file": "shade-27/01-real-variant-linked-27-source-reference-QA.jpg",
+          "source_url": "https://cdn.shopify.com/s/files/1/1668/4975/files/27.jpg?v=1723017132",
+          "photo_native_px": [
+            1000,
+            1000
+          ],
+          "sha256": "6a9114e23ba1f3e32c30c1a4254d0e0fe36cf0a0d33d69d55eacdf230726e051",
+          "variant_relation": "variant_featured_image"
+        }
+      ],
+      "manual_packaging_and_shade_review_required": true
+    }
+  ],
+  "source_product_title": "Missha Magic Cushion Cover Lasting SPF50+/PA+++",
+  "variant_titles": [
+    "NO. 21",
+    "NO. 23",
+    "No. 25",
+    "No. 27"
+  ],
+  "actual_new_independently_variant_linked_photo_count": 2
+}
