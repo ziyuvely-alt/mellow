@@ -1,0 +1,32 @@
+name: Shopee v2800 exact global CLIO Founwear Mini and Mesh Blur native images
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2800-two-official-clio-gallery-discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  global:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Search two unblocked exact Shopify product titles, never repeat domestic blurry thumbnails
+        run: |
+          python scripts/v2800_two_remaining_clio_global_shopify_exact_items.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2800-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2800-qa/qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation
+          cp -a qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation /tmp/v2800-qa/qa-review/
+          cd /tmp/v2800-qa
+          git add qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2800 investigate 2 remaining official CLIO Shopify catalog item identities and native photos'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
