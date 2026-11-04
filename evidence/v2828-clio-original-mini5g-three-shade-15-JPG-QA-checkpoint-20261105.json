@@ -1,0 +1,75 @@
+{
+  "version": "v2828",
+  "date": "2026-11-05",
+  "baseline": "v2827",
+  "latest_successful_workflow_run": 41936551149,
+  "action_status": "completed",
+  "conclusion": "success",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+  "new_QA_folder": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets",
+  "archive": [
+    {
+      "option": "21C Lingerie",
+      "status": "FIVE_REAL_JPG_QA_STAGED_STOCK_RIGHTS_HOLD",
+      "scenes": 5,
+      "photo_unique_sources": 5,
+      "option_specific_hero": "v2825 unclipped full-lid 21C true alpha",
+      "shared_other_scenes": [
+        "open mini product design",
+        "21C/21N/23N face tone chart",
+        "handheld mini next to larger case",
+        "full vs mini 5g size explainer"
+      ]
+    },
+    {
+      "option": "21N Linen",
+      "status": "FIVE_REAL_JPG_QA_STAGED_STOCK_RIGHTS_HOLD",
+      "scenes": 5,
+      "photo_unique_sources": 5,
+      "option_specific_hero": "v2827 halo-corrected 21N true alpha",
+      "shared_other_scenes": [
+        "open mini product design",
+        "21C/21N/23N face tone chart",
+        "handheld mini next to larger case",
+        "full vs mini 5g size explainer"
+      ]
+    },
+    {
+      "option": "23N Ginger",
+      "status": "PREVIOUS_FIVE_REAL_JPG_QA_PRESERVED",
+      "scenes": 5,
+      "preexisting_photo_QA_folder": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set",
+      "reprocessed": false
+    }
+  ],
+  "overall_three_option_photographic_QA_frames": 15,
+  "newly_physically_staged_this_run": 10,
+  "source_JPG_SHA_identical_to_prior_archives": 10,
+  "user_owned_stock_exact_three_option_availability_confirmed": false,
+  "korean_official_0000007108_listed_variants": [
+    "21N",
+    "23N"
+  ],
+  "overseas_21C_Lingerie_variant_source": "Lila Beauty exact 21C variant ID 42057464741950",
+  "photographic_reuse_rights_verified": false,
+  "original_round_MK_logo_authenticated": false,
+  "new_sale_approvals": 0,
+  "project_overall": {
+    "product_families_total": 41,
+    "previous_approved_families": 11,
+    "pending_QA_families": 30,
+    "already_published_verified_URLs_unchanged": 55,
+    "previous_approved_images_unchanged": true,
+    "final_XLSX_shared": false
+  },
+  "correct_handling": [
+    "Commercial release requires proof that owned physical stock actually includes 21C in same 5g generation",
+    "In 21C and 21N image 01 is exact-shade hero only. Images 02-05 are common product/size/3-option reference, never imply a separate shade or a multi-unit sale",
+    "Never substitute 23N-only gallery photos for 21C or 21N",
+    "Do not approve face images or merchant photographs for resale until permitted photo usage is established",
+    "No need to regenerate v2821, v2823, v2825, v2827, or v2828 after this",
+    "Next product work should choose another unmet family or substantively clear stock/license publication gates."
+  ]
+}
