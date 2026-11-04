@@ -1,0 +1,37 @@
+name: Shopee v2672 stage two photo-first five-JPG product families
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2672-two-source-family-QA-sets.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+jobs:
+  stage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Download historical physical JPEGs without regenerating products
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41764831639 -n shopee-v2593-definitive-156-physical-JPG-17delta-review-corpus-no-XLSX -D source/historical
+      - name: Assemble 10 existing JPGs for two new families, visually preview and persist
+        run: |
+          python scripts/v2672_two_real_photo_qa_family_sets.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2672-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2672-qa/qa-review/v2672-two-five-JPG-real-scene-sets
+          cp -a qa-review/v2672-two-five-JPG-real-scene-sets /tmp/v2672-qa/qa-review/
+          cd /tmp/v2672-qa
+          git add qa-review/v2672-two-five-JPG-real-scene-sets
+          git -c user.name='QA-Archive-Bot' -c user.email='qa-archive-bot@users.noreply.github.com' commit -m 'v2672 preserve 2 five-photo original DrG Goodal QA families without reencoding'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
