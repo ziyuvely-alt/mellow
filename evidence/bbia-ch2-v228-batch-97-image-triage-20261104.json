@@ -1,0 +1,49 @@
+{
+  "checkpoint": "v228",
+  "date": "2026-11-04",
+  "parent": "v227",
+  "mode": "ONE_PASS_BATCH_TRIAGE",
+  "execution": {
+    "run_id": 41830811868,
+    "job_id": 126577213388,
+    "artifact_id": 13321488748,
+    "result": "success",
+    "published_jpg": 97,
+    "published_family_directories": 22,
+    "families_with_at_least_five_public_jpg": 17,
+    "duplicate_sha_groups": 0
+  },
+  "scope_limit": "Current public tree only; archived review ZIPs and full 48-family master not counted. Five bytes are not five creative roles.",
+  "new_workflow": ".github/workflows/bbia-v228-batch-triage.yml",
+  "script": "scripts/bbia_v228_batch_triage.py",
+  "policy": {
+    "old_approved_images_unchanged": true,
+    "verified_55_urls_unchanged": true,
+    "no_new_jpg_generated": true,
+    "no_auto_sale_approval": true,
+    "no_spreadsheet_shared": true
+  },
+  "queue": [
+    {
+      "goodsNo": "206",
+      "status": "SHADE_PHOTO_QA_HOLD",
+      "note": "Do not keep inpainting 04; verify original 06 shade photographs and source first"
+    },
+    {
+      "goodsNo": "200",
+      "status": "ARCHIVED_CANDIDATE_RECOVERY",
+      "note": "Reuse existing v213 two JPG; never recreate blindly"
+    },
+    {
+      "goodsNo": "1000000124",
+      "status": "ORIGINAL_PHOTO_LOW_RES",
+      "note": "Only 500px isolated refill photo"
+    },
+    {
+      "goodsNo": "1000000122",
+      "status": "KEEP_PUBLISHED_IMMUTABLE",
+      "note": "Fullsize visual can't prove refill contents"
+    }
+  ],
+  "next": "Batch reconcile historical ZIP candidates by goodsNo and distinct creative roles, isolate only genuine gaps, process multiple families per execution instead of per-JPG edits."
+}
