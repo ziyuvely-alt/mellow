@@ -1,0 +1,83 @@
+{
+  "version": "v2818",
+  "baseline": "v2817",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear The Original Mini 5g #23N",
+  "five_JPGs_saved_1080_under_2MB": true,
+  "five_scene_count": 5,
+  "original_source_JPGs_copied_identical": 5,
+  "original_transparent_alpha_png_copied_identical": true,
+  "single_23N_shade_only": true,
+  "for_21N_usable": false,
+  "stock_generation_5g_23N_owned_confirmed": false,
+  "commercial_photo_license_verified": false,
+  "original_round_MK_brand_logo_verified": false,
+  "sale_approved": false,
+  "prior_11_approved_families_untouched": true,
+  "prior_55_public_URLs_untouched": true,
+  "previous_v2816_v2817_assets_untouched": true,
+  "final_excel_shared": false,
+  "frames": [
+    {
+      "slot": 1,
+      "scene": "NEURAL_REAL_SINGLE_CLOSED_COMPACT",
+      "file": "01-NEURAL_REAL_SINGLE_CLOSED_COMPACT-QA.jpg",
+      "copied_source": "qa-review/v2817-clio-mini-23N-one-alpha-QA/01-23N-5g-true-alpha-1080-QA.jpg",
+      "source_sha256": "fcbe92de6336266a296d7b36b2e797d3a37adc98a7823396cae9382ccb20c234",
+      "saved_sha256": "fcbe92de6336266a296d7b36b2e797d3a37adc98a7823396cae9382ccb20c234",
+      "jpg_bytes": 36573,
+      "verified_photographic_shade": "23N",
+      "verified_5g_listing": true,
+      "commercial_reuse_authorized": false
+    },
+    {
+      "slot": 2,
+      "scene": "ACTUAL_SINGLE_BOX_WITH_COMPACT",
+      "file": "02-ACTUAL_SINGLE_BOX_WITH_COMPACT-QA.jpg",
+      "copied_source": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/01-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "source_sha256": "6907ba024a090703d0f79872f4c42706944fa2e1aa2d33b4ff7704fd705acd88",
+      "saved_sha256": "6907ba024a090703d0f79872f4c42706944fa2e1aa2d33b4ff7704fd705acd88",
+      "jpg_bytes": 89651,
+      "verified_photographic_shade": "23N",
+      "verified_5g_listing": true,
+      "commercial_reuse_authorized": false
+    },
+    {
+      "slot": 3,
+      "scene": "ACTUAL_OPEN_COMPACT_WITH_PUFF",
+      "file": "03-ACTUAL_OPEN_COMPACT_WITH_PUFF-QA.jpg",
+      "copied_source": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/03-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "source_sha256": "aec225a21d32ec6176e83c42dc8356ae01f8447dee79f0a9e4f382a5ab6134d6",
+      "saved_sha256": "aec225a21d32ec6176e83c42dc8356ae01f8447dee79f0a9e4f382a5ab6134d6",
+      "jpg_bytes": 79045,
+      "verified_photographic_shade": "23N",
+      "verified_5g_listing": true,
+      "commercial_reuse_authorized": false
+    },
+    {
+      "slot": 4,
+      "scene": "ACTUAL_CLOSED_ANGLED_COMPACT",
+      "file": "04-ACTUAL_CLOSED_ANGLED_COMPACT-QA.jpg",
+      "copied_source": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/04-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "source_sha256": "a50424e48520cf9b2dae880fc6c2a6a253ef7282a52d00a944eed27362297b8a",
+      "saved_sha256": "a50424e48520cf9b2dae880fc6c2a6a253ef7282a52d00a944eed27362297b8a",
+      "jpg_bytes": 80822,
+      "verified_photographic_shade": "23N",
+      "verified_5g_listing": true,
+      "commercial_reuse_authorized": false
+    },
+    {
+      "slot": 5,
+      "scene": "ACTUAL_OPEN_CUSHION_AND_PUFF",
+      "file": "05-ACTUAL_OPEN_CUSHION_AND_PUFF-QA.jpg",
+      "copied_source": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/05-original-sasa-23N-5g-photo-1080-QA.jpg",
+      "source_sha256": "de67f070bb77a0e35c59156e3c2e2685e59112fc2e117f43b3bc812ad37f8ca8",
+      "saved_sha256": "de67f070bb77a0e35c59156e3c2e2685e59112fc2e117f43b3bc812ad37f8ca8",
+      "jpg_bytes": 93464,
+      "verified_photographic_shade": "23N",
+      "verified_5g_listing": true,
+      "commercial_reuse_authorized": false
+    }
+  ],
+  "visual_QA": "PENDING_DIRECT_CONTACT_SHEET_REVIEW"
+}
