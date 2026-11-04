@@ -1,0 +1,38 @@
+{
+  "schema": "bbia_ch2_v163_incremental",
+  "date": "2026-11-04",
+  "previous_checkpoint": "v162c Ready To Wear Eye Shadow 5-purpose EN set, source QA_PENDING",
+  "product_family": "BBIA Glow Tint Mini",
+  "new_EN_jpg": 3,
+  "output_zip": "BBIA_v163_GLOW_TINT_MINI_3_EN_QA_PENDING.zip",
+  "contact": "BBIA_v163_GLOW_TINT_MINI_3_CONTACT.jpg",
+  "source_archive": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "frames": [
+    {
+      "type": "00 Rosy Bottle lip photograph",
+      "source_prefix": "105_5875"
+    },
+    {
+      "type": "02 Vintage Bottle lip photograph",
+      "source_prefix": "105_735"
+    },
+    {
+      "type": "9-shade reference",
+      "source_prefix": "119_0b0"
+    }
+  ],
+  "file_checks": {
+    "jpeg": 3,
+    "dimensions": "1080x1080",
+    "each_under_two_mb": true,
+    "zip_crc": true
+  },
+  "source_validation": "Photo source is a historical QA_PENDING composite, not independently authenticated as exact official original source. 9-shade composite guide may not equal currently purchasable options.",
+  "third_party_reference": "https://www.shilladfs.com/estore/kr/en/p/6031136",
+  "brand_reference": "https://www.bbia.vn/san-pham/bbia-glow-tint/",
+  "status": "PARTIAL_EN_QA_PENDING_SOURCE_AND_VARIANTS",
+  "sales_approved": 0,
+  "locale_output": 0,
+  "preserved": "No older v147 original JPG or v150-v162c image outputs modified; 55 published URLs preserved.",
+  "next": "Do not redo v163. Require exact original shade/photo proof before sale. Move to independent source-ready families rather than blindly creating repeated shade scenes."
+}
