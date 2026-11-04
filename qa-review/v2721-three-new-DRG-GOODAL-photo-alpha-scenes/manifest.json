@@ -1,0 +1,97 @@
+{
+  "version": "v2721",
+  "baseline": "v2720",
+  "product_families_newly_attempted": 3,
+  "physically_saved_real_alpha_png_jpg_pairs": 3,
+  "existing_source_jpgs_reencoded_or_mutated": 0,
+  "existing_11_approved_families_modified": false,
+  "existing_55_public_urls_modified": false,
+  "photo_commercial_rights_verified": false,
+  "stock_edition_verified": false,
+  "original_MK_logo_verified": false,
+  "new_retail_sale_approvals": 0,
+  "final_XLSX_shared": false,
+  "products": [
+    {
+      "family": "pending-17",
+      "brand": "Dr.G",
+      "product": "Brightening Up Moisture Sun 50mL",
+      "source_candidates": [
+        "01_01_v2439-source__pending-17_fact_copy_and_card_revised_V2439.jpg",
+        "02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+        "03_v2593_QA_ONLY_v2588.jpg",
+        "04_04_SOURCE_5ea61e16436d_EN_V2421C.jpg",
+        "05_v2593_QA_ONLY_v2588.jpg"
+      ],
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_NEEDS_VISUAL_QA",
+      "approved_for_sale": false,
+      "source_photo": "historical/review-JPG-by-family/pending-17/02_02_SOURCE_1354c0fcba9a_EN_V2421C.jpg",
+      "source_sha256": "ad4afa43ad7c42f9f8ba8ee25a94fb2e17213bcfe802a0679a5b2f7838fc4090",
+      "source_crop": [
+        130,
+        140,
+        929,
+        961
+      ],
+      "mask_alpha_fraction": 0.2421,
+      "png": "pending-17/01-real-transparent-product-cutout-QA.png",
+      "jpg": "pending-17/01-real-1080-product-hero-QA.jpg",
+      "jpg_sha256": "8d0ff27d79ed8e93761f0da73ca07f3196d527790b55df1b9b77505e9208a1d1",
+      "source_file_preserved": true
+    },
+    {
+      "family": "pending-19",
+      "brand": "GOODAL",
+      "product": "Green Tangerine Vita C Cream Alpha 50mL",
+      "source_candidates": [
+        "01_v2521-genuine-product-photo.jpg",
+        "02_02_v2439-source__pending-19_fact_copy_and_card_revised_V2439.jpg",
+        "03_03_INFO_FUNCTION_01_V2414B_EN_V2421.jpg",
+        "04_04_INFO_HOW_TO_01_V2414_EN_V2421.jpg",
+        "05_v2560-REVIEW-ONLY.jpg"
+      ],
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_NEEDS_VISUAL_QA",
+      "approved_for_sale": false,
+      "source_photo": "historical/review-JPG-by-family/pending-19/01_v2521-genuine-product-photo.jpg",
+      "source_sha256": "7ae7601797ed564f228f2ba648238b47b4f66ebc1eda440be3ceaaa13dce63a3",
+      "source_crop": [
+        130,
+        140,
+        929,
+        961
+      ],
+      "mask_alpha_fraction": 0.4694,
+      "png": "pending-19/01-real-transparent-product-cutout-QA.png",
+      "jpg": "pending-19/01-real-1080-product-hero-QA.jpg",
+      "jpg_sha256": "6bebaf31d781afe010902471569eb477c4d5c2344d473c8bde0f3c5a6cc17533",
+      "source_file_preserved": true
+    },
+    {
+      "family": "pending-20",
+      "brand": "GOODAL",
+      "product": "Green Tangerine Vita C Serum Mist 100mL",
+      "source_candidates": [
+        "01_01_SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+        "02_v2521-genuine-product-photo.jpg",
+        "03_03_INFO_03_V2412B_EN_V2421.jpg",
+        "04_v2521-genuine-product-photo.jpg",
+        "05_v2593_QA_ONLY_v2592_NOT_v2590.jpg"
+      ],
+      "status": "REAL_ALPHA_PNG_JPG_STAGED_NEEDS_VISUAL_QA",
+      "approved_for_sale": false,
+      "source_photo": "historical/review-JPG-by-family/pending-20/01_01_SOURCE_8536a4dd0b8b_EN_V2421C.jpg",
+      "source_sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+      "source_crop": [
+        130,
+        140,
+        929,
+        961
+      ],
+      "mask_alpha_fraction": 0.2105,
+      "png": "pending-20/01-real-transparent-product-cutout-QA.png",
+      "jpg": "pending-20/01-real-1080-product-hero-QA.jpg",
+      "jpg_sha256": "c3e376b4af1f96a58329b4f61d9d5e72726466c2e5b658f066a1d0357f41ba36",
+      "source_file_preserved": true
+    }
+  ]
+}
