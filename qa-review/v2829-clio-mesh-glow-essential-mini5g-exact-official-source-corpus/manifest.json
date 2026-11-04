@@ -1,0 +1,235 @@
+{
+  "version": "v2829",
+  "baseline": "v2828",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "exact_clio_official_goods_id": "0000006954",
+  "official_page": "https://clubclio.co.kr/shop/goodsView/0000006954",
+  "official_5g_weight_source_verified": true,
+  "expected_only_mini_options": [
+    "21C Lingerie",
+    "21N Linen",
+    "23N Ginger"
+  ],
+  "do_not_use_full_size_19C_19N_as_mini_options": true,
+  "merchant_probes": [
+    {
+      "merchant": "CLIO Korean Official",
+      "url": "https://clubclio.co.kr/shop/goodsView/0000006954",
+      "status": "REFERENCE_PHOTOS_PERSISTED_VISUAL_QA_REQUIRED",
+      "images_saved": 8,
+      "title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+      "discovered_urls": 60,
+      "skipped_download_examples": [
+        "404 Client Error: Not Found for url: https://assets1.cre.ma/p/clubclio-co-kr/review_videos/00/00/00/05/28/thumbnail/portrait_f378b4356a",
+        "404 Client Error: Not Found for url: https://example.com/product_images_01.jpg",
+        "404 Client Error: Not Found for url: https://example.com/product_images_02.jpg"
+      ]
+    },
+    {
+      "merchant": "Fresh Mask",
+      "url": "https://www.freshmask.ch/de/collections/clio/products/clio-kill-cover-mesh-glow-cushion-mini.js",
+      "status": "REFERENCE_PHOTOS_PERSISTED_VISUAL_QA_REQUIRED",
+      "images_saved": 2,
+      "title": "[CLIO] Kill Cover Mesh Glow Essential Cushion Mini",
+      "title_lacks_5g": "True; visual source QA cannot verify capacity",
+      "variants": [
+        "23N Ginger"
+      ],
+      "discovered_urls": 3
+    },
+    {
+      "merchant": "Korecare",
+      "url": "https://korecareglobal.com/products/clio-kill-cover-mesh-glow-cushion-mini.js",
+      "status": "REFERENCE_PHOTOS_PERSISTED_VISUAL_QA_REQUIRED",
+      "images_saved": 1,
+      "title": "CLIO Kill Cover Mesh Glow Cushion Mini",
+      "title_lacks_5g": "True; visual source QA cannot verify capacity",
+      "variants": [
+        "#2 Lingerie MINI",
+        "#3 Linen MINI",
+        "#4 Ginger MINI"
+      ],
+      "discovered_urls": 1
+    }
+  ],
+  "photographs": [
+    {
+      "file": "01-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004970803708/m_320bccb1d4f8f50b98c24d27b17cab97.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "34e67e6b411b8843b9044248cafbb67daa3daedafbdef297750d08adb62dc47f",
+      "bytes": 156233,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "02-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004970803708/m_a20a9ade2d257ea17dc51124451d70b0.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "94a6c4c0282b90587f88c6111d96ccefac987215b0f341594c16e7a7ee4a8b1c",
+      "bytes": 180649,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "03-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_6866ff32a92be2cc2d8e2bcd6c21c3a4.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "2ccd84a699679702e79387c85fb47f9cce9c179c5713443a20e6d5f94110c1f5",
+      "bytes": 280867,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "04-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_c152f3eaa0b203c9f04a8900c945d6d8.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "e868178cdf225bc88c4979ef86be2338a8634589b84a4789df6c8d90aa0a1f37",
+      "bytes": 296536,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "05-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_3cf4e898a75435cf957646d56cab9cc0.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "03ad0d1b74c03915bbcb6ba8d08896a6547202bd801f64cb78ec699aac981cf7",
+      "bytes": 268941,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "06-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/data/mall_data/product_after/00000000004956072223/m_4a22af34e892b6ba4b333dfeb024540e.jpg",
+      "native_dimensions": [
+        640,
+        640
+      ],
+      "sha256": "4e28eac68fc5436d00db748062567f68099c3e9f42710a599299b6019a2b3306",
+      "bytes": 193885,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "07-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/assets/templet/enterprise/images/shop/pc_morning_noti.jpg",
+      "native_dimensions": [
+        700,
+        1120
+      ],
+      "sha256": "68ce04d29df0667b75ee90f69a5e9a014550273f2098fabeed5ce871685436da",
+      "bytes": 145036,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "08-CLIO-Korean-Official-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "CLIO Korean Official",
+      "source_url": "https://clubclio.co.kr/assets/templet/enterprise/images/chatbot/gud00.png",
+      "native_dimensions": [
+        1500,
+        740
+      ],
+      "sha256": "9e754e0988db4d737a39e4c60fce0ec630ae4dde62629d6ae2150d5f0fb61958",
+      "bytes": 100486,
+      "is_brand_official_source": true,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "09-Fresh-Mask-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "Fresh Mask",
+      "source_url": "https://cdn.shopify.com/s/files/1/0412/6241/6038/files/clio-kill-cover-mesh-glow-essential-cushion-mini-5964024.png?v=1788868993",
+      "native_dimensions": [
+        752,
+        860
+      ],
+      "sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+      "bytes": 91748,
+      "is_brand_official_source": false,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "10-Fresh-Mask-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "Fresh Mask",
+      "source_url": "https://cdn.shopify.com/s/files/1/0412/6241/6038/files/clio-kill-cover-mesh-glow-essential-cushion-mini-3382906.webp?v=1788868991",
+      "native_dimensions": [
+        1000,
+        1000
+      ],
+      "sha256": "710105bbf049c3f28b27b9df9819eec5862dfc0cffdf42972b0c792bf056a819",
+      "bytes": 96976,
+      "is_brand_official_source": false,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    },
+    {
+      "file": "11-Korecare-EXACT-ITEM-REFERENCE-QA.jpg",
+      "merchant": "Korecare",
+      "source_url": "https://cdn.shopify.com/s/files/1/0715/9929/2665/files/clio-kill-cover-mesh-glow-cushion-mini_858c5df0-66e1-43aa-b621-6f7c7d94d421.png?v=1725019464",
+      "native_dimensions": [
+        800,
+        1000
+      ],
+      "sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+      "bytes": 64594,
+      "is_brand_official_source": false,
+      "shade_assignment": "NONE_BEFORE_MANUAL_VISUAL_QA",
+      "image_looks_like_correct_5g_mini": "NOT_YET_VISUALLY_REVIEWED",
+      "photo_licensed_for_shopee": "UNVERIFIED"
+    }
+  ],
+  "photo_reuse_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "original_MK_logo_authenticated": false,
+  "existing_11_approved_families_untouched": true,
+  "existing_55_urls_untouched": true,
+  "pending05_original_mini_shade_photos_unchanged": true,
+  "prior_QA_photos_unchanged": true,
+  "new_sales_approved": 0,
+  "final_excel_shared": false,
+  "new_distinct_encoded_photo_candidates": 11,
+  "new_five_real_photo_sale_approved_sets": 0,
+  "next_action": "Inspect candidate product visuals; exclude full size, kit, old-generation, unrelated banners; retain exact miniature 5g-only scenes and never invent shade identity."
+}
