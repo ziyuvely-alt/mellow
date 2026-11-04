@@ -1,0 +1,91 @@
+{
+  "version": "v2712",
+  "baseline": "v2711",
+  "attempted_families": 3,
+  "technically_rendered_cutout_candidates": 3,
+  "retail_approved": 0,
+  "original_11_approved_product_families_unchanged": true,
+  "old_55_public_urls_unchanged": true,
+  "prior_all_photos_and_v2711_assets_unchanged": true,
+  "source_image_commercial_permissions_unverified": true,
+  "real_owned_stock_variant_match_unverified": true,
+  "approved_MK_logo_source_unavailable": true,
+  "final_spreadsheet_shared": false,
+  "products": [
+    {
+      "family": "pending-04",
+      "source": "qa-review/v2706-six-archival-five-real-source-families/pending-04/01-historical-real-art-photo-unchanged-QA.jpg",
+      "source_sha256": "3194e3273f64fbe7097051942fdc02a4e5966341590b5f9ad52088924da9c3db",
+      "source_crop": [
+        145,
+        205,
+        920,
+        958
+      ],
+      "model": "isnet-general-use",
+      "prior_v2711_result": "REJECTED_VISUAL_PRODUCT_PART_MISSING",
+      "retail_approved": false,
+      "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+      "mask_coverage": 0.5666,
+      "mask_bbox": [
+        0,
+        113,
+        646,
+        753
+      ],
+      "transparent_png": "pending-04/01-actual-alpha-cutout-high-res-QA.png",
+      "square_jpg": "pending-04/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "jpg_sha256": "e6a9a42f56316240d58bf36d625595dcbb18061a8b69daaf6f50b0e7581089db"
+    },
+    {
+      "family": "pending-25",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "1bd6f7ce257639056cf4c4791184a5260013d670580c0b4369e0c208e780b907",
+      "source_crop": [
+        190,
+        199,
+        900,
+        963
+      ],
+      "model": "isnet-general-use",
+      "prior_v2711_result": "REJECTED_VISUAL_PRODUCT_PART_MISSING",
+      "retail_approved": false,
+      "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+      "mask_coverage": 0.669,
+      "mask_bbox": [
+        47,
+        92,
+        653,
+        729
+      ],
+      "transparent_png": "pending-25/01-actual-alpha-cutout-high-res-QA.png",
+      "square_jpg": "pending-25/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "jpg_sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883"
+    },
+    {
+      "family": "pending-22",
+      "source": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-22/01-authentic-old-product-image-unchanged-QA.jpg",
+      "source_sha256": "8629d1d381fa4e83af5bec4ba2c1e43edbef32c18b28fa6c9518e05c744ff79d",
+      "source_crop": [
+        230,
+        193,
+        843,
+        968
+      ],
+      "model": "isnet-general-use",
+      "prior_v2711_result": "REJECTED_VISUAL_PRODUCT_PART_MISSING",
+      "retail_approved": false,
+      "status": "SECOND_MODEL_REAL_CUTOUT_RENDERED_REVIEW_REQUIRED",
+      "mask_coverage": 0.3463,
+      "mask_bbox": [
+        159,
+        90,
+        461,
+        742
+      ],
+      "transparent_png": "pending-22/01-actual-alpha-cutout-high-res-QA.png",
+      "square_jpg": "pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "jpg_sha256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958"
+    }
+  ]
+}
