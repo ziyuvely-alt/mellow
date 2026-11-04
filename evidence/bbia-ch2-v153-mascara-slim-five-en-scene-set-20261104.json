@@ -1,0 +1,34 @@
+{
+  "schema": "bbia_chapter2_v153_family_en_set",
+  "date": "2026-11-04",
+  "source": "v147 125-jpg QA archive + previously completed v151/v152 JPGs",
+  "family": "BBIA Never Die Mascara Slim",
+  "outputs": {
+    "zip": "/mnt/data/bbia_work/BBIA_v153_MASCARA_SLIM_5_EN_SCENES_QA_PENDING.zip",
+    "contact": "/mnt/data/bbia_work/BBIA_v153_MASCARA_SLIM_5_SCENE_REVIEW.jpg",
+    "manifest": "/mnt/data/bbia_work/BBIA_v153_MASCARA_SLIM_MANIFEST.json"
+  },
+  "reused_previous_frames": 2,
+  "new_frames": 3,
+  "total_en_frames": 5,
+  "technical_gate": "1080x1080 JPEG, all < 2MB, zip CRC valid",
+  "source_gate": "PENDING: exact official photo and generation require independent verification",
+  "sales_approved": false,
+  "localizations_created": 0,
+  "qa_notes": [
+    "Initial three v153 frames contained legacy source captions in cropped photo region; re-cropped only these 3 and visually reviewed fixed contact sheet.",
+    "Previous v151 open-product and v152 brush-detail images reused byte-for-byte.",
+    "Scenes include opened slim product, brush detail, brush comparison, lash comparison, product format comparison; not independently verified official usage instructions.",
+    "Original mascara pictured as comparison is explicitly marked not included."
+  ],
+  "preserved": [
+    "v150 four JPG candidates",
+    "v151 five JPG candidates",
+    "v152 five JPG candidates",
+    "v147 125 JPG originals",
+    "prior 1515 draft historical count",
+    "55 live URLs",
+    "24 previously held images"
+  ],
+  "next_action": "Verify official photo source/product package and independent usage claims; until then keep EN QA_PENDING and skip locale release. Move to next ready family rather than repeating same revalidation."
+}
