@@ -1,0 +1,57 @@
+{
+  "date": "2026-11-04",
+  "checkpoint": "v171",
+  "previous": "v168 and v169 Aegyosal 5 EN candidate images preserved",
+  "new_product_families": [
+    {
+      "name": "BBIA Over Glaze full-size 5g",
+      "goodsNo": "1000000166",
+      "official_url": "https://bbia.co.kr/goods/goods_view.php?goodsNo=1000000166",
+      "new_EN_jpg": 5,
+      "source_path_prefix": "batch/1000000166/",
+      "original_cutouts": [
+        "hero-cutout.png",
+        "photo-2.png",
+        "photo-3.png",
+        "photo-4.png",
+        "photo-5.png"
+      ],
+      "zip": "BBIA_v170_OVER_GLAZE_5G_5_EN_ORIGINAL_PHOTOS_QA_PENDING.zip",
+      "preview": "BBIA_v170_OVER_GLAZE_5G_5_EN_CONTACT.jpg",
+      "status": "FIVE_EN_QA_PENDING",
+      "notes": "Photo-2 and photo-3 are related studio product shots; design distinctness review pending. Model images not used to claim exact shade."
+    },
+    {
+      "name": "BBIA Over Glaze Stick",
+      "goodsNo": "1000000128",
+      "official_url": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000128",
+      "new_EN_jpg": 4,
+      "source_path_prefix": "batch/1000000128/",
+      "original_cutouts": [
+        "hero-cutout.png",
+        "photo-2.png",
+        "photo-3.png",
+        "photo-5.png"
+      ],
+      "broken_source": "photo-4.png: invalid/truncated PNG, not reused",
+      "zip": "BBIA_v171_OVER_GLAZE_STICK_4_EN_SOURCE_CUTOUT_QA_PENDING.zip",
+      "preview": "BBIA_v171_OVER_GLAZE_STICK_4_EN_CONTACT.jpg",
+      "status": "FOUR_EN_QA_PENDING_ONE_SOURCE_HELD",
+      "notes": "Original shade swatch imagery carries Korean embedded text; kept unaltered. Exact active shade verification not established."
+    }
+  ],
+  "new_jpg_count": 9,
+  "file_technical": "All 9 new 1080x1080 JPEGs smaller than 2MB, two ZIP CRC checks passed.",
+  "asset_recovery": "BBIA_Cutout_Progress_20261030.zip (157 MB) found in user file library, contains 577 archived PNGs in 56 folder prefixes; some individual PNGs are damaged, handled as single-file holds.",
+  "sales_approved": 0,
+  "translations_generated": 0,
+  "original_source_independent_pixel_proof": false,
+  "originals_unchanged": [
+    "v147 125 preserved JPG",
+    "v150-v169 prior QA originals",
+    "v169 Aegyosal 5 JPG full set",
+    "55 verified public URLs"
+  ],
+  "next": "Do not recreate v169-171 images. Favor recoverable authentic product cutouts in other never-worked families and reject broken PNGs. First solve exact official original photograph / shade proof then perform final typography and localization. Never count 4-frame v171 partial pack as finished sale-ready family.",
+  "no_excel_shared": true
+}
