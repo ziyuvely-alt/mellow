@@ -1,0 +1,85 @@
+{
+  "version": "v2754",
+  "baseline": "v2753",
+  "family": "pending-08",
+  "missing_old_peritage_shades_attempted": [
+    "12",
+    "13",
+    "14"
+  ],
+  "actual_photo_sources_captured": 2,
+  "actual_png_jpg_alpha_pairs_captured": 2,
+  "same_26AD_new_edition_not_used": true,
+  "unverified_photos_not_published": true,
+  "original_55_public_urls_unchanged": true,
+  "approved_previous_11_families_unchanged": true,
+  "commercial_photo_rights_proven": false,
+  "physical_stock_package_proven": false,
+  "original_MK_brand_logo_verified": false,
+  "retail_approved_new": 0,
+  "final_XLSX_not_shared": true,
+  "rows": [
+    {
+      "shade": "12",
+      "legacy_product_name": "Warm-gorithm",
+      "source_page": "https://lacosmetique.com.au/products/ink-mood-glowy-tint",
+      "source_url": "https://lacosmetique.com.au/cdn/shop/files/69_8417969c-7984-487c-9262-4d00b8f40b2b.png?v=1754439487&width=1946",
+      "source_note": "Legacy Peritage shade12 pink product tube plus actual applicator",
+      "source_is_peritage_not_26AD": true,
+      "commercial_photo_rights_verified": false,
+      "owned_inventory_variant_verified": false,
+      "retail_approved": false,
+      "status": "HOLD_SOURCE_DOWNLOAD",
+      "error_type": "HTTPError",
+      "error": "404 Client Error: Not Found for url: https://lacosmetique.com.au/cdn/shop/files/69_8417969c-7984-487c-9262-4d00b8f40b2b.png?v=1754439487&width=1946"
+    },
+    {
+      "shade": "13",
+      "legacy_product_name": "Berry Pretty",
+      "source_page": "https://officialnamane.com/products/ink-mood-glowy-tint-peritage-collection",
+      "source_url": "https://officialnamane.com/cdn/shop/files/PERIPERA_-_Ink_Mood_Glowy_Tint_Peritage_Collection_13_berry_pretty.jpg?v=1749751711&width=1200",
+      "source_note": "Legacy Peritage shade13 ribboned tube and applicator",
+      "source_is_peritage_not_26AD": true,
+      "commercial_photo_rights_verified": false,
+      "owned_inventory_variant_verified": false,
+      "retail_approved": false,
+      "status": "REAL_PHOTO_CUTOUT_RENDERED_NEEDS_VISUAL_QA",
+      "raw_photo": "shade-13/13-unmodified-original-source-bytes-QA.jpg",
+      "prepared_source_JPG": "shade-13/13-old-peritage-exact-source-1080-QA.jpg",
+      "source_dimensions": [
+        1200,
+        1200
+      ],
+      "raw_sha256": "b341a0fdcfadb621c653e461b17b26545f1d6b37ae92e93e660c81d19cc66f2d",
+      "preview_sha256": "8294db0c679f463d6d33cc66fe585dfe7c9abd3127a6ffd877bb81f5f1cba040",
+      "cutout_png": "shade-13/13-real-photo-alpha-only-QA.png",
+      "cutout_jpg": "shade-13/13-old-peritage-true-alpha-1080-QA.jpg",
+      "alpha_coverage": 0.3483,
+      "cutout_jpg_sha256": "2ccc0c92c398d12834437afa4a84998a8567778140afd828e56afa3a3fd370ca"
+    },
+    {
+      "shade": "14",
+      "legacy_product_name": "Follow Rose",
+      "source_page": "https://truekbeautystore.com/products/peripera-ink-mood-glowy-tint-09-nude-to-heart",
+      "source_url": "https://truekbeautystore.com/cdn/shop/files/PERIPERA_-_INK_MOOD_GLOWY_TINT_14_-_FOLLOW_ROSE-PIX4.png?v=1743147135&width=1920",
+      "source_note": "Legacy Peritage shade14 ribboned closed tube, background swatch excluded by crop",
+      "source_is_peritage_not_26AD": true,
+      "commercial_photo_rights_verified": false,
+      "owned_inventory_variant_verified": false,
+      "retail_approved": false,
+      "status": "REAL_PHOTO_CUTOUT_RENDERED_NEEDS_VISUAL_QA",
+      "raw_photo": "shade-14/14-unmodified-original-source-bytes-QA.jpg",
+      "prepared_source_JPG": "shade-14/14-old-peritage-exact-source-1080-QA.jpg",
+      "source_dimensions": [
+        604,
+        506
+      ],
+      "raw_sha256": "10fe84e94b51d68cdcf7c3572116cac763dbb7226c2ccf612353a1f269c4f170",
+      "preview_sha256": "1db6343a9535afcfabd5322b2da4eab17f103094baa5cc56f6f6182ddbad3cb4",
+      "cutout_png": "shade-14/14-real-photo-alpha-only-QA.png",
+      "cutout_jpg": "shade-14/14-old-peritage-true-alpha-1080-QA.jpg",
+      "alpha_coverage": 0.1649,
+      "cutout_jpg_sha256": "def36acc38716685d7e576cdb562bf46b072ca9ad02877842aa9ce149c0e7b44"
+    }
+  ]
+}
