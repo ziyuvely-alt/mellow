@@ -1,0 +1,33 @@
+name: Shopee v2829 CLIO Mesh Glow Essential Mini 5g firstparty exact source gallery QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2829-clio-mesh-glow-mini5g-new-official-photo-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 21
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Download only genuine high-resolution exact mini product reference scenes from official first
+        run: |
+          python -m py_compile scripts/v2829_clio_mesh_glow_mini_exact_source_corpus.py
+          python scripts/v2829_clio_mesh_glow_mini_exact_source_corpus.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2829-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2829-qa/qa-review/v2829-clio-mesh-glow-essential-mini5g-exact-official-source-corpus
+          cp -a qa-review/v2829-clio-mesh-glow-essential-mini5g-exact-official-source-corpus /tmp/v2829-qa/qa-review/
+          cd /tmp/v2829-qa
+          git add qa-review/v2829-clio-mesh-glow-essential-mini5g-exact-official-source-corpus
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2829 source original CLIO Mesh Glow Essential Mini 5g photo evidence, no full-size or other mini product relabel'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
