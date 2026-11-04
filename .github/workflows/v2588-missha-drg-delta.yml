@@ -1,0 +1,41 @@
+name: Shopee v2588 selective MISSHA DrG QA photo deltas
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/v2588_missha_drg_photo_delta_with_fallback.py'
+      - '.github/workflows/v2588-missha-drg-delta.yml'
+permissions:
+  actions: read
+  contents: read
+jobs:
+  incremental-missha-drg-qa:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Restore 156 QA source images without regenerating
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41753618979 -n shopee-v2560-six-candidate-156-JPG-isolated-review-corpus-no-XLSX -D v2588-base
+      - name: Reuse latest thirteen-image QA checkpoint
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763244120 -n shopee-v2586-thirteen-delta-OBGE-300ml-provenance-QA-no-XLSX -D v2588-prev
+      - name: Reuse three product photos and one failed source entry
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run download 41763646587 -n shopee-v2587-MISSHA-DrG-four-real-photo-QA-no-XLSX -D v2588-source
+      - name: Retry only failed exact-product image with alternative URL and stage new deltas
+        run: python scripts/v2588_missha_drg_photo_delta_with_fallback.py
+      - uses: actions/upload-artifact@v4
+        with:
+          name: shopee-v2588-MISSHA-DrG-real-source-QA-deltas-no-XLSX
+          path: v2588-MISSHA-DrG-photo-deltas/
+          retention-days: 90
+          if-no-files-found: error
