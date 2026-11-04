@@ -1,0 +1,46 @@
+{
+  "checkpoint": "v308",
+  "date": "2026-11-05",
+  "parent": "v307",
+  "goodsNo": "1000000239",
+  "product": "BBIA Lucky Shine Tint",
+  "production": {
+    "new_jpg": 1,
+    "reused_exact_existing_jpg": 3,
+    "distinct_creative_roles": 4,
+    "new_file": "BBIA_1000000239_04_APPLICATOR_TEXTURE_v308_QA_PENDING.jpg",
+    "source": "BBIA_1000000239_ORIGINAL_UNSEEN_5_v307.jpg",
+    "crop": [
+      0,
+      1850,
+      1000,
+      2770
+    ],
+    "sha256": "488250e6f12717b2aa689e67280b03f6d8a8e20f061035b8496adc83234e3c5e",
+    "zip": "/mnt/data/bbia_v308/BBIA_v308_FOUR_TINT_ROLES_QA_PENDING.zip",
+    "zip_sha256": "d41fd4b68898018c0a10f2cd343eaa8e3fb32ba7a0a961cc793f04f00ec1cb51",
+    "manifest": "/mnt/data/bbia_v308/BBIA_v308_MANIFEST.json",
+    "contact": "/mnt/data/bbia_v308/BBIA_v308_FOUR_TINT_ROLES_CONTACT.jpg",
+    "zip_crc": "PASS"
+  },
+  "verification": {
+    "actual_contact_opened": true,
+    "all_1080x1080_jpg_under_2mb": true,
+    "all_sha_unique": true,
+    "no_embedded_korean_in_selected_photo": true,
+    "existing_jpg_not_regenerated": true,
+    "transparent_cutout_verified": false,
+    "exact_shade_mapping_verified": false,
+    "sales_approved": 0
+  },
+  "holds": {
+    "source_index6": "Korean promo model portrait lacks independent product-only role; no new image"
+  },
+  "preservation": {
+    "previous_published_files_modified": false,
+    "existing_55_urls_modified": false,
+    "prior_3_jpg_binary_unchanged": true,
+    "final_excel_shared": false
+  },
+  "next": "Do not regenerate v308 4 photo roles. Needs one more distinct role plus photo/option/alpha QA before any final sales approval."
+}
