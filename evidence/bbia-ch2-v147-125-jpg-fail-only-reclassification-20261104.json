@@ -1,0 +1,32 @@
+{
+  "schema": "bbia_ch2_v147_fail_only_release_gate",
+  "date": "2026-11-04",
+  "source_archive": "BBIA_v144_125JPG_RECOVERED_QA_ONLY.zip",
+  "output_archive": "BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "counts": {
+    "REVIEW_PENDING": 101,
+    "HOLD_DO_NOT_PUBLISH": 14,
+    "SOURCE_PROOF_HOLD": 10
+  },
+  "source_proof_hold_names": [
+    "103_32734fc159b8_02_PRODUCT_APPLICATOR",
+    "104_edb1b19748f2_02_PRODUCT_APPLICATOR",
+    "118_bb553695121b_V40_SUMMER_ROSE",
+    "118_eff5ef76a39e_V21_DOCUMENTARY_CLASSIC",
+    "122_1fb3d9019780_10_NATURALLY_DEEP_EYE_LOOK",
+    "122_618749cc808a_07_NATURALLY_CHARMING_EYE_LOOK",
+    "123_0271a03f02c9_02_YOUR_PEACH_SMOKY_LOOK",
+    "123_d9c6422c8772_01_YOUR_MAUVE_SMOKY_LOOK",
+    "123_2f386d4d6903_02_YOUR_PEACH_LOVELY_LOOK",
+    "123_22afc7bc1f61_01_YOUR_MAUVE_LOVELY_LOOK"
+  ],
+  "basis": "v146 manual triage of 6 similar-scene pairs; side-by-side v147 screenshot demonstrates nearly identical eye detail with changed hues; not proof of exact palette SKU photo source",
+  "original_jpg_modified": false,
+  "total_jpg": 125,
+  "hash_preserved": true,
+  "zip_crc_pass": true,
+  "possible_remaining_issue": "Need authenticated official variant-specific photos before release.",
+  "sales_approved": 0,
+  "local_artifact_path": "/mnt/data/bbia_work/BBIA_v147_125JPG_RECLASSIFIED_QA_PENDING.zip",
+  "scope_note": "QA-only reclassification, not final Shopee images; master repository and 55 public URLs remain untouched."
+}
