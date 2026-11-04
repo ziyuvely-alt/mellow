@@ -1,0 +1,55 @@
+{
+  "checkpoint": "v217",
+  "date": "2026-11-04",
+  "parent": "v216",
+  "result": "ONE_NEW_REFILL_ONLY_REAL_PHOTO_EN_JPG_QA_PENDING",
+  "product": {
+    "goodsNo": "1000000124",
+    "name": "BBIA Eau Glow Cushion Refill",
+    "official_product_page": "https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000124",
+    "official_photo_url": "https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000124/1000000124_magnify_061.jpg",
+    "source_dimensions": [
+      500,
+      500
+    ],
+    "source_identity": "official generic refill insert; no full-size compact case",
+    "new_image": "BBIA_1000000124_REFILL_ONLY_EN_v217_QA_PENDING.jpg",
+    "new_image_dimensions": [
+      1080,
+      1080
+    ],
+    "new_image_bytes": 71030,
+    "composition": "EN hero with single genuine source at original resolution and feathered edges, no fake variant swatches",
+    "limitations": [
+      "source image only 500x500: no upscaling and no invented visual details",
+      "final human/visual QA has not inspected the produced binary from artifact",
+      "no color-specific evidence, no sale approval"
+    ]
+  },
+  "executions": [
+    {
+      "run_id": 41823955259,
+      "artifact_id": 13317418081,
+      "status": "CREATED_INITIAL_SQUARE_EDGE_RISK_SUPERSEDED_NOT_FINAL"
+    },
+    {
+      "run_id": 41824071042,
+      "head_sha": "9732225cb5769e63c92c4b123a00db872ed29ad7",
+      "artifact_id": 13318516246,
+      "job_id": 126554208686,
+      "status": "SUCCESS_EDITED_FEATHERED_EDGE_CANDIDATE"
+    }
+  ],
+  "approved_55_urls_changed": false,
+  "existing_published_jpg_changed": false,
+  "final_excel_shared": false,
+  "translations_created": 0,
+  "sales_approved": 0,
+  "remaining": [
+    "Inspect v217 artifact visually and ensure no rectangular perimeter, lettering correctness and actual refill pack",
+    "Obtain higher-resolution original official refill source for hero if available",
+    "Compare active v213 products 200 and 206 with official hero and shade options",
+    "Do not use parent compact photos as refill proof"
+  ],
+  "artifact_url": "https://github.com/ziyuvely-alt/mellow/actions/runs/41824071042/artifacts/13318516246"
+}
