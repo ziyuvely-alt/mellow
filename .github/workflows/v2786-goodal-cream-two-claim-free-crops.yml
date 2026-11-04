@@ -1,0 +1,29 @@
+name: Shopee v2786 GOODAL photo precise crop fix for two QA frames
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2786-goodal-cream-two-claim-free-crops.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  crop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with: { fetch-depth: 0 }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.11' }
+      - run: python -m pip install Pillow
+      - name: Preserve 3 existing good JPGs and revise only photo detail crop regions in 2 JPGs
+        run: |
+          cp scripts/v2786_goodal_two_exact_photo_crop_fixes.py /tmp/v2786.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2786-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2786-qa
+          python /tmp/v2786.py
+          git add qa-review/v2786-goodal-cream-alpha-photo-crop-visual-fix-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2786 fix only 2 GOODAL true photo crop errors, preserve prior source and 55 public URLs'
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
