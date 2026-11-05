@@ -1,0 +1,32 @@
+name: Shopee v2838 no-customer-review 21C 21N five-variant photo QA sets
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2838-two-variant-five-photos-without-customer-reviews.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  curate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Preserve 6 existing JPGs and replace 4 customer-review slots with exact-variant merchant photographs
+        run: |
+          cp scripts/v2838_two_shade_photo_QA_without_customer_review.py /tmp/v2838.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2838-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2838-qa
+          python /tmp/v2838.py
+          git add qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2838 21C/21N 5-photo option QA references without customer-review photos; all sales images untouched'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
