@@ -1,0 +1,64 @@
+{
+  "version": "v2935",
+  "baseline": "v2934",
+  "generated_utc": "2026-11-05T15:48:50Z",
+  "product_families_attempted": 2,
+  "new_unlicensed_native_product_refs": 1,
+  "old_11_families_changed": 0,
+  "old_55_verified_public_urls_changed": 0,
+  "original_images_changed": 0,
+  "retail_approvals": 0,
+  "new_public_urls": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-20",
+      "source_page_json": "https://cnccanada.com/products/goodal-green-tangerine-vita-c-serum-mist-100ml.js",
+      "title": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+      "verified_product_name": true,
+      "urls_seen": 3,
+      "new_source_photos": 0,
+      "near_duplicates_skipped": 0,
+      "visual_contact": null,
+      "photos": [],
+      "errors": [
+        "image skipped 1_ed11d97c-6c5c-4cfb-a007-f435: native min dimension below 900: [600, 800]",
+        "image skipped 2_530e69a0-8521-46a9-b517-cb91: native min dimension below 900: [600, 800]",
+        "image skipped 3_57678c15-31fc-42af-99ec-f17b: native min dimension below 900: [600, 800]"
+      ],
+      "approved_for_marketplace": false
+    },
+    {
+      "family": "pending-24",
+      "source_page_json": "https://k-touch.us/products/bio-heal-boh-nad-prizcell-glow-power-serum-30ml.js",
+      "title": "BIO HEAL BOH - NAD-PRIZCELL Glow Power Serum 30ml",
+      "verified_product_name": true,
+      "urls_seen": 4,
+      "new_source_photos": 1,
+      "near_duplicates_skipped": 2,
+      "visual_contact": "qa-review/v2935-two-new-retailer-exact-SKU-image-native-source-check-QA/pending-24-unseen-shopify-native-source-QA.jpg",
+      "photos": [
+        {
+          "sha256": "49a226b941fd75cfe3434e1ba1bebe54739358ce582fea0b3eb1a53015c29f6e",
+          "native": [
+            1254,
+            1254
+          ],
+          "retailer_original_url": "https://cdn.shopify.com/s/files/1/0764/9453/6926/files/B2ADA058-C68E-4D0A-8D27-479EA966D5DC.png?v=1781042499",
+          "raw_path": "qa-review/v2935-two-new-retailer-exact-SKU-image-native-source-check-QA/pending-24/01-retailer-SKU-gallery-source-REFERENCE-ONLY.png",
+          "preview_path": "qa-review/v2935-two-new-retailer-exact-SKU-image-native-source-check-QA/pending-24/01-source-1080-internal-visual-review.jpg",
+          "preview_sha256": "e2ed06414ed749cda351e9762e42df0b1b8b810b3f15470726dd5dd134bdb84b",
+          "nearest_existing_hamming": 9,
+          "photo_rights_to_reuse": false,
+          "visual_claims_checked": false,
+          "actual_inventory_edition_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "errors": [
+        "image skipped product_images_1765443690.ss_8: native min dimension below 900: [500, 625]"
+      ],
+      "approved_for_marketplace": false
+    }
+  ]
+}
