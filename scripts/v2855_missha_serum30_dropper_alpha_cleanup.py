@@ -35,6 +35,8 @@ right_limit=np.interp(yy.astype(np.float32),
 clearance=(right_limit-xx)/10.0
 clip=np.clip(clearance,0,1)
 clip=clip*clip*(3-2*clip)
+# Strict geometry guard: outside the upper 30% cap edit zone, alpha is byte-identical.
+clip[yy>=int(.30*h)]=1.0
 after=np.rint(before*clip).astype(np.uint8)
 removed=int((before-after).sum()/255)
 affected=int(np.count_nonzero(before!=after))
