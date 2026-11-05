@@ -105,8 +105,8 @@ def main():
               "independent_scene_count_verified":False,
               "retail_release":"HOLD","reason":"Photo 1/2 duplicate-like; 3/5 possibly common open-jar product source; exact MK/stock/license absent"}
             continue
-        path=m.get("new_JPG",m.get("new_reference_JPG"))
-        digest=m.get("new_JPG_sha256",m.get("new_reference_SHA256"))
+        path=m.get("new_JPG") or m.get("new_reference_JPG") or m.get("candidate_JPG_path")
+        digest=m.get("new_JPG_sha256") or m.get("new_reference_SHA256") or m.get("candidate_JPG_sha256")
         if not path or not digest:raise ValueError("Missing candidate fifth for "+fam)
         blob=verified(path,digest)
         with Image.open(io.BytesIO(blob)) as im:
