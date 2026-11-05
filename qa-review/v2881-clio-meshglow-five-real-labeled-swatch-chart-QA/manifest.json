@@ -1,0 +1,195 @@
+{
+  "version": "v2881",
+  "baseline": "v2880",
+  "family": "pending-06",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion 15g+Refill 15g",
+  "distinct_stock_options": [
+    "19C",
+    "19N",
+    "21C",
+    "21N",
+    "23N"
+  ],
+  "merchants_confirm_15g_plus_refill_15g": true,
+  "exact_user_owned_set_verified": false,
+  "photo_commercial_reuse_licensed": false,
+  "reused_previously_saved_common_21N_photo_as_common_not_distinct": true,
+  "v2861_near_duplicate_ten_variant_photo_pairs_still_blocked": true,
+  "new_authentic_five_shade_swatch_QA_JPGs": 5,
+  "original_five_swatch_charts_downloaded": 3,
+  "original_raw_source_images_untouched": true,
+  "new_fake_color_chips": 0,
+  "sources": [
+    {
+      "id": "brand-Clio-official-LIPS-five-shades",
+      "url": "https://cloudflare.lipscosme.com/image/2025-12-18-70d24741cce68ed52ca1da7c.png?auto=avif%2Cwebp&fio=1&orient=1&width=1424",
+      "page": "https://lipscosme.com/posts/8237300",
+      "source": "Official CLIO account on LIPS",
+      "rank": 1,
+      "status": "REAL_FIVE_LABEL_CHART_SOURCE_QA_SAVED",
+      "licensed_for_sales": false,
+      "raw_file": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/brand-Clio-official-LIPS-five-shades-source-original.webp",
+      "raw_sha256": "0569b2908928ab5c9ebcbb001274dcfdb7b51eb8c06ab622bb8ac4f71c84c52f",
+      "original_native_px": [
+        1080,
+        1350
+      ],
+      "original_format": "WEBP",
+      "no_recoloring": true
+    },
+    {
+      "id": "ballagrio-five-real-swatch-arm",
+      "url": "https://www.ballagrio.com/cdn/shop/files/12_8892f631-07c7-469c-900d-bee9719219e1.png?v=1749669982",
+      "page": "https://www.ballagrio.com/products/clio-kill-cover-mesh-glow-essential-cushion-with-refill-5-colors-15g-2ea",
+      "source": "Ballagrio merchant shade chart",
+      "rank": 2,
+      "status": "REAL_FIVE_LABEL_CHART_SOURCE_QA_SAVED",
+      "licensed_for_sales": false,
+      "raw_file": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "raw_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "original_native_px": [
+        550,
+        550
+      ],
+      "original_format": "WEBP",
+      "no_recoloring": true
+    },
+    {
+      "id": "konvy-five-cheek-actual-shades",
+      "url": "https://s3.konvy.com/static/team/2025/0509/2025050911030426948.jpg",
+      "page": "https://www.konvy.com/m/clio/clio-kill-cover-mesh-glow-essential-cushion-spf50%2B-pa%2B%2B%2B%2B-15g-%2B-refill-15g-21c-lingerie-114129.html",
+      "source": "Konvy five-shade model swatches",
+      "rank": 3,
+      "status": "REAL_FIVE_LABEL_CHART_SOURCE_QA_SAVED",
+      "licensed_for_sales": false,
+      "raw_file": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/konvy-five-cheek-actual-shades-source-original.jpg",
+      "raw_sha256": "b03e89ed0f3bf6b81a3fe760d4fdab9abe8a9b3637426aa34c9181b8e8e4a85d",
+      "original_native_px": [
+        1000,
+        1000
+      ],
+      "original_format": "JPEG",
+      "no_recoloring": true
+    }
+  ],
+  "cards": [
+    {
+      "shade": "19C",
+      "name": "LIGHT",
+      "swatch_source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "original_swatch_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "swatch_crop_original_px": [
+        0,
+        88,
+        120,
+        396
+      ],
+      "shared_compact_source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "shared_photo_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "new_QA_jpg": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-19C-real-swatch-1080-QA.jpg",
+      "new_qa_sha256": "42cd4123ce2ac01342de8039b9e0c99a2238d15b21f136e667bdf1b7d0ffb06e",
+      "jpg_bytes": 126522,
+      "shade_specific_compact_photo": false,
+      "swatch_photo_unmodified_RGB": true,
+      "commercial_usage_rights": false,
+      "actual_owned_giftset_confirmed": false,
+      "release_approved": false
+    },
+    {
+      "shade": "19N",
+      "name": "PORCELAIN",
+      "swatch_source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "original_swatch_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "swatch_crop_original_px": [
+        103,
+        88,
+        230,
+        396
+      ],
+      "shared_compact_source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "shared_photo_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "new_QA_jpg": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-19N-real-swatch-1080-QA.jpg",
+      "new_qa_sha256": "bd0ef4a834d0113f42a89486a0bb2f53b4c32c76fb960cd0e44acd03c470d456",
+      "jpg_bytes": 127749,
+      "shade_specific_compact_photo": false,
+      "swatch_photo_unmodified_RGB": true,
+      "commercial_usage_rights": false,
+      "actual_owned_giftset_confirmed": false,
+      "release_approved": false
+    },
+    {
+      "shade": "21C",
+      "name": "LINGERIE",
+      "swatch_source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "original_swatch_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "swatch_crop_original_px": [
+        213,
+        88,
+        340,
+        396
+      ],
+      "shared_compact_source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "shared_photo_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "new_QA_jpg": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-21C-real-swatch-1080-QA.jpg",
+      "new_qa_sha256": "7eed7b241916a9707518fad99483bf13d0f2bfe6b1d95b834e4b3e887cad395d",
+      "jpg_bytes": 128587,
+      "shade_specific_compact_photo": false,
+      "swatch_photo_unmodified_RGB": true,
+      "commercial_usage_rights": false,
+      "actual_owned_giftset_confirmed": false,
+      "release_approved": false
+    },
+    {
+      "shade": "21N",
+      "name": "LINEN",
+      "swatch_source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "original_swatch_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "swatch_crop_original_px": [
+        323,
+        88,
+        450,
+        396
+      ],
+      "shared_compact_source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "shared_photo_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "new_QA_jpg": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-21N-real-swatch-1080-QA.jpg",
+      "new_qa_sha256": "1261404b0602bc8b3497039e1c77c4037cfb69197bb0537126dafd45c5372fdb",
+      "jpg_bytes": 128698,
+      "shade_specific_compact_photo": false,
+      "swatch_photo_unmodified_RGB": true,
+      "commercial_usage_rights": false,
+      "actual_owned_giftset_confirmed": false,
+      "release_approved": false
+    },
+    {
+      "shade": "23N",
+      "name": "GINGER",
+      "swatch_source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "original_swatch_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "swatch_crop_original_px": [
+        433,
+        88,
+        550,
+        396
+      ],
+      "shared_compact_source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "shared_photo_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "new_QA_jpg": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-23N-real-swatch-1080-QA.jpg",
+      "new_qa_sha256": "e482eaa84ab5d9f84e1b6fbd83d713e22f4168fccfe91d699ea1386e4c933b53",
+      "jpg_bytes": 130222,
+      "shade_specific_compact_photo": false,
+      "swatch_photo_unmodified_RGB": true,
+      "commercial_usage_rights": false,
+      "actual_owned_giftset_confirmed": false,
+      "release_approved": false
+    }
+  ],
+  "QA_contact": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/v2881-clio-5-real-shades-vs-common-compact-reference-QA.jpg",
+  "stock_15g+refill_user_owned_variant_verified": false,
+  "new_sales_approved": 0,
+  "new_public_urls": 0,
+  "old_11_published_groups_preserved": true,
+  "old_55_verified_public_urls_preserved": true,
+  "final_spreadsheet_shared": false,
+  "next": "Visual verify crop alignment with 19C/19N/21C/21N/23N printed labels. Confirm seller-owned exact 15g+refill pack, source rights, original MK logo. Do not promote common compact photo to unique variant photo."
+}
