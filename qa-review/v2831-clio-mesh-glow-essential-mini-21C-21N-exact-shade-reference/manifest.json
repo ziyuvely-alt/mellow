@@ -1,0 +1,67 @@
+{
+  "version": "v2831",
+  "baseline": "v2830",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion MINI 5g",
+  "source_21C_21N_only": true,
+  "different_line_Founwear_Original_Mini_source_used": false,
+  "new_shade_labelled_reference_photos_saved": 2,
+  "unique_shade_source_photo_shas": 2,
+  "actual_owned_stock_and_shade_labels_verified": false,
+  "photo_commercial_reuse_rights_verified": false,
+  "customer_review_source_reused": false,
+  "original_MK_logo_authenticated": false,
+  "existing_v2830_five_JPG_QA_set_untouched": true,
+  "prior_11_approved_families_untouched": true,
+  "prior_55_published_URLs_untouched": true,
+  "new_retail_approvals": 0,
+  "final_xlsx_shared": false,
+  "status": "SHADE_LABELLED_REFERENCE_PHOTOS_QA_NOT_LICENSED",
+  "candidates": [
+    {
+      "shade": "21C",
+      "label": "Lingerie",
+      "merchant": "SagiShop Viet Nam",
+      "product_page": "https://sagishop.vn/clio-cushion-kill-cover-mau-hong-mini-21c",
+      "original_image_url": "https://bizweb.dktcdn.net/thumb/1024x1024/100/443/867/products/imgi-1-sg-11134207-81ztc-mitq2uocowsj70-jpeg.jpg?v=1770383044833",
+      "family": "pending-04",
+      "photo_license": "UNVERIFIED",
+      "owned_stock_generation": "UNVERIFIED",
+      "source_type": "MERCHANT_VARIANT_LABELLED_REFERENCE_NOT_AUTHORIZED_REPUBLICATION",
+      "status": "VARIANT_LABELLED_REFERENCE_SAVED_VISUAL_QA_PENDING",
+      "photo_file": "21C-Lingerie-source-variant-labelled-photo-QA.jpg",
+      "original_dimensions": [
+        1000,
+        1000
+      ],
+      "stored_sha256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+      "bytes": 94593,
+      "original_source_reencoded_for_1080": true,
+      "not_background_removed": true,
+      "new_retail_approved": false
+    },
+    {
+      "shade": "21N",
+      "label": "Linen",
+      "merchant": "Tanpopo Viet Nam",
+      "product_page": "https://www.tanpopo.vn/phan-nuoc-2-loi-cang-bong-clio-kill-cover-mesh-glow-essential-cushion-spf50-5g",
+      "original_image_url": "https://bizweb.dktcdn.net/thumb/1024x1024/100/353/847/products/ava-san-pham-tren-website-25-3197fd52-4a2d-4b17-ae6b-96a905564ebf.jpg?v=1785052315773",
+      "family": "pending-04",
+      "photo_license": "UNVERIFIED",
+      "owned_stock_generation": "UNVERIFIED",
+      "source_type": "MERCHANT_VARIANT_LABELLED_REFERENCE_NOT_AUTHORIZED_REPUBLICATION",
+      "status": "VARIANT_LABELLED_REFERENCE_SAVED_VISUAL_QA_PENDING",
+      "photo_file": "21N-Linen-source-variant-labelled-photo-QA.jpg",
+      "original_dimensions": [
+        480,
+        480
+      ],
+      "stored_sha256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+      "bytes": 60016,
+      "original_source_reencoded_for_1080": true,
+      "not_background_removed": true,
+      "new_retail_approved": false
+    }
+  ],
+  "next": "Manual visually confirm shade label printed in each JPG and actual item 5g edition; do not use as seller image without photo rights"
+}
