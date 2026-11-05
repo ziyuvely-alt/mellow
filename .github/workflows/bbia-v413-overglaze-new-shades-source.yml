@@ -1,0 +1,82 @@
+name: BBIA v413 exact official Over Glaze 24 and new series source
+on:
+  push:
+    branches: [bbia-ch2-qa-v413-20261106]
+    paths: [.github/workflows/bbia-v413-overglaze-new-shades-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Download only current brand original chart and gallery
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          import hashlib,json,io
+          out=Path('/tmp/bbia-v413');out.mkdir(parents=True,exist_ok=True)
+          sources={
+            'CURRENT_OFFICIAL_20_SHADE_CHART':'https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/1790130989096.jpg',
+            'CURRENT_OFFICIAL_PRODUCT_HERO':'https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/25/03/12/1000000166/1000000166_magnify_08.jpg',
+            'CURRENT_OFFICIAL_KGYARU_STORY':'https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/1790130989090.jpg',
+          }
+          def fetch(item):
+            role,url=item
+            record={'role':role,'source_url':url,'official_listing':'https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000166'}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://www.bbia.co.kr/goods/goods_view.php?goodsNo=1000000166'}),timeout=30) as s:raw=s.read(18000000)
+              if len(raw)<10000:raise ValueError('Unexpected small image')
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();fmt=im.format;dims=list(im.size)
+              if fmt!='JPEG' or min(dims)<500:raise ValueError('Non-photo/low resolution')
+              fname='BBIA_v413_'+role+'_ORIGINAL.jpg'
+              (out/fname).write_bytes(raw)
+              record.update(status='SAVED',filename=fname,sha256=hashlib.sha256(raw).hexdigest(),dimensions=dims,bytes=len(raw))
+            except Exception as e:
+              record.update(status='HOLD',error=type(e).__name__+': '+str(e)[:220])
+            return record
+          with ThreadPoolExecutor(max_workers=3) as pool:records=list(pool.map(fetch,sources.items()))
+          board=Image.new('RGB',(1200,3*370+60),'#f7f3f1')
+          dr=ImageDraw.Draw(board)
+          dr.text((20,12),'BBIA v413 / Over Glaze 24 Guava / evidence only / no retail approval',fill='#242424')
+          for i,r in enumerate(records):
+            yy=45+i*370
+            dr.text((15,yy),r['role']+': '+r['status'],fill='#222222')
+            if r['status']=='SAVED':
+              with Image.open(out/r['filename']) as im:
+                im=im.convert('RGB')
+                if im.height>im.width*4:
+                    # preserve both top and bottom previews for tall official shade chart
+                    a=im.crop((0,0,im.width,min(im.height,int(im.width*1.4))))
+                    b=im.crop((0,max(0,im.height-int(im.width*1.4)),im.width,im.height))
+                    for col,im2 in enumerate([a,b]):
+                        im2.thumbnail((560,320),Image.Resampling.LANCZOS)
+                        board.paste(im2,(col*600+20,yy+28))
+                else:
+                    im.thumbnail((1150,320),Image.Resampling.LANCZOS)
+                    board.paste(im,(20,yy+28))
+          board.save(out/'BBIA_v413_OFFICIAL_SOURCE_REVIEW_CONTACT.jpg',quality=90,optimize=True)
+          manifest={'version':'v413','parent':'v412','product_id':'1000000166',
+             'purpose':'Recover new, previously uncaptured exact official brand color-chart original, not duplicate old v343 chart',
+             'sources':records,'stored_master_25_options_untouched':True,'prior_image_files_modified':0,
+             'existing_55_public_urls_modified':0,
+             'new_variant_24_name_verified_on_current_dropdown':True,
+             'variant_24_actual_swatch_area_needs_visual_QA':True,
+             'separate_caramel_19_23_series_requires_distinct_product_page_confirmation':True,
+             'reusable_retail_photo_rights_verified':False,
+             'sales_approved':False,'spreadsheet_shared':False}
+          (out/'BBIA_v413_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'downloaded':sum(x['status']=='SAVED' for x in records),'requests':len(records)}))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v413-overglaze24-native-official-sources
+          path: /tmp/bbia-v413
+          retention-days: 30
