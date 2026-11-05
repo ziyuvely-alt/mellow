@@ -1,0 +1,40 @@
+name: Shopee v2936 BIOHEAL Power Serum 5-source immutable internal photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2936-bioheal-serum-five-photo-QA.yml'
+      - 'scripts/v2936_bioheal_power_serum_five_source_existing_photo_archive.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve_5_existing_serum_source_photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compile script and validate original photo SHA without altering prior assets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2936_bioheal_power_serum_five_source_existing_photo_archive.py
+          cp scripts/v2936_bioheal_power_serum_five_source_existing_photo_archive.py /tmp/v2936.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2936qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2936qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail
+          python /tmp/v2936.py
+          git add qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail
+          git diff --cached --name-only | tee /tmp/v2936-changed
+          ! grep -Ev '^qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail/' /tmp/v2936-changed
+          git commit -m 'v2936 SHA-check and preserve five serum photo sources, no retail photo approval'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
