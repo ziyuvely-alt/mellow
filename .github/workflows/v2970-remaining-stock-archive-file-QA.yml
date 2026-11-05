@@ -1,0 +1,36 @@
+name: Shopee v2970 remaining stock archive byte audit JSON only
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2970-remaining-stock-archive-file-QA.yml'
+      - 'scripts/v2970_audit_remaining_unchecked_stock_ZIPs.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit-unchecked-archives-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install offline decoder dependency
+        run: python -m pip install --quiet Pillow
+      - name: Inspect remaining source archive images without creating new binary assets
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2970-remaining-stock-archive-audit-no-new-binary-20261106
+          python scripts/v2970_audit_remaining_unchecked_stock_ZIPs.py
+          git add qa-review/v2970-remaining-stock-archive-audit-no-new-binary-20261106
+          git diff --cached --name-only | tee /tmp/v2970-paths
+          ! grep -Ev '^qa-review/v2970-remaining-stock-archive-audit-no-new-binary-20261106/.*\.json$' /tmp/v2970-paths
+          git commit -m "QA v2970 remaining stock image integrity and cross-family duplicate analysis JSON only"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
