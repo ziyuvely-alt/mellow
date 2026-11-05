@@ -18,7 +18,7 @@ m=json.loads((BASE/"manifest.json").read_text(encoding="utf-8"))
 m24=json.loads((V24/"manifest.json").read_text(encoding="utf-8"))
 m25=json.loads((V25/"manifest.json").read_text(encoding="utf-8"))
 m31=json.loads((V31/"manifest.json").read_text(encoding="utf-8"))
-assert s["version"]=="m["version"]=="v2940" and len(s["families"])==30
+assert s["version"]==m["version"]=="v2940" and len(s["families"])==30
 assert m["mixed_options_and_edition_hold_families"]==5 and m["remaining_distinct_source_photo_slots"]==4
 assert m25["peripera_legacy_shades_archived"]==20 and m31["quarantined_prior_mini_photo_references"]==4
 blocked={x["family"] for x in m24["mixed_option_sources"]}|{"pending-08"}
