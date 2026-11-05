@@ -1,0 +1,417 @@
+{
+  "version": "v2950",
+  "baseline": "v2949",
+  "created_date_kst": "2026-11-06",
+  "project": "Shopee Thumbnail Creator PRO / inventory 82 SKU 41 families",
+  "repo": "ziyuvely-alt/mellow",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "newly_manually_inspected_product_families": 14,
+  "prior_visual_inspected_families": 16,
+  "visual_coverage_of_pending_families": 30,
+  "coverage_qualification": "At least one real QA JPEG/contact for every family. NOT complete per-frame retail approval, not validated photo ownership",
+  "distinct_new_image_evidence_groups": [
+    "pending-01",
+    "pending-02",
+    "pending-05",
+    "pending-07",
+    "pending-08",
+    "pending-15",
+    "pending-16",
+    "pending-17",
+    "pending-18",
+    "pending-19",
+    "pending-20",
+    "pending-21",
+    "pending-23",
+    "pending-28"
+  ],
+  "per_frame_visual_release_gates": [
+    {
+      "family_id": "pending-01",
+      "name": "MISSHA Magic Cushion Cover Lasting",
+      "view": "v2924 pending-01 5-frame contact",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "precise_issue": "SRC1 #23, SRC2 #21; advertised 21/23/25/27 stock shades not fully represented; SRC4 repeats SRC2 source image; fifth is information card, not official all-shade swatch",
+      "next": "Confirm exact stock shades 21/23/25/27 and edition, then obtain licensed official 4-shade comparison; do not use SRC1/SRC2 as any shade other than shown",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-02",
+      "name": "MISSHA Magic Cushion Moist Up",
+      "view": "v2924 pending-02 5-frame contact",
+      "keep_internal": [
+        3,
+        4,
+        5
+      ],
+      "quarantine": [
+        1,
+        2
+      ],
+      "precise_issue": "SRC1 and SRC2 depict nearly identical same open compact/box composition; physical 21 and 23 shade proof absent; other different white compact scenes exist",
+      "next": "Preserve SRC3-5; verify stocked shade-specific white-cushion packaging and source licenses; replace only duplicate scene if distinct-photo gate remains",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-05",
+      "name": "CLIO Founwear Cushion full-size kit",
+      "view": "v2924 pending-05 mixed-option contact",
+      "keep_internal": [],
+      "quarantine": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "precise_issue": "Contact source calls product MINI, not verified full-size bundle; SRC2 and SRC3 same photograph, SRC4 and SRC5 same photograph",
+      "next": "Continue correct 6670 full-size source from v2931, quarantine mini and duplicate image pairs, verify actual kit 19N/19C/21N etc",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-07",
+      "name": "CLIO Mesh Blur cushion 15g x2 set",
+      "view": "v2924 pending-07 mixed-option contact",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "quarantine": [
+        4
+      ],
+      "precise_issue": "SRC1/2/3 label 19C/19N/21N on near-identical cushion render plus lip-tone smears; SRC4 includes bright multi-item gift kit not proven to ship with 15g x2 stock",
+      "next": "Block SRC4 as customer bundle promise; reconcile exact kit + shades and trace original commercial imagery",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-08",
+      "name": "peripera Mood Glowy Tint 4g, 01-20 only",
+      "view": "v2924 peripera legacy 20-shade contact",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "quarantine": [
+        12,
+        18,
+        19
+      ],
+      "precise_issue": "Visible 01..20 legacy shade set only; numbers 12,18,19 highlighted as source holds, 7/8 special packaging, potential renewal 26AD collision; cannot treat this as approved 26AD color table",
+      "next": "Strictly retain seller options 01-20; resolve actual version and shade 12/18/19 proof from authorized exact-edition sources; no fabricated chips",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-15",
+      "name": "Dr.G Green Mild Up Sun Plus 2022 50mL",
+      "view": "v2779 pending-15 all five original QA frames",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        5
+      ],
+      "quarantine": [
+        4
+      ],
+      "precise_issue": "02/03/05 feature older green-stripe tube, but 03 has soft blue halo/cutout edge; 04 is model skin-application claim with usage/image rights unclear; MK present but source-authenticity not proven",
+      "next": "Only clean v2779 frame03 halo using same exact product-source pixels if authorized; verify old 2022 edition and quarantine model frame04 until rights",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-16",
+      "name": "Dr.G Red Blemish Soothing Cream 2022 70mL",
+      "view": "v2910 pending-16 5-frame contact",
+      "keep_internal": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [
+        2
+      ],
+      "precise_issue": "2022 older green-stripe jar; model portrait in #2 has third-party usage rights risk; 03 hand-in-jar requires approval; #4 and #5 jar closeups not exact duplicates",
+      "next": "Keep 2022 edition visibly distinct from newer jar; obtain model rights before photo2 sale use, compare actual owned 70mL jar",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-17",
+      "name": "Dr.G Brightening Up Moisture Sun 2023 50mL",
+      "view": "v2910 pending-17 5-frame contact",
+      "keep_internal": [
+        1,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [
+        2
+      ],
+      "precise_issue": "Different 2023 tube in all frames; frame #2 hands-on-model photo has reuse-rights uncertainty; frame #4 small Vegan footer claim must be source-verified; all hold stock exact version",
+      "next": "Verify 2023 photo label and Vegan claim entitlement; preserve 1/3/4/5 technical source, hold model scene #2",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-18",
+      "name": "Dr.G Brightening Up Sun Plus 50mL",
+      "view": "v2779 pending-18 five actual JPEG frames",
+      "keep_internal": [
+        1,
+        2,
+        5
+      ],
+      "quarantine": [
+        3,
+        4
+      ],
+      "precise_issue": "Frame 2 is intentionally very tight hand/product crop and not an alternative hero; frames 3 and 4 show application models, need source license; frame 5 texture only",
+      "next": "Preserve frame1 hero; use frame2 detail not main, seek rights for frames3/4 and stock exact edition before retail",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-19",
+      "name": "Goodal Vita C Cream Alpha 25AD 50mL",
+      "view": "v2924 pending-19 5-frame contact",
+      "keep_internal": [
+        1,
+        2,
+        4
+      ],
+      "quarantine": [
+        3,
+        5
+      ],
+      "precise_issue": "SRC3 says Faster Visible Results without independent supplied claim substantiation; SRC5 crops to partial green jar rim/cream and cannot serve independent full-product frame",
+      "next": "Replace only SRC5 with distinct official permitted product image, remove or source-approve SRC3 results claim; keep remaining stock-specific frames",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-20",
+      "name": "Goodal Vita C Serum Mist 25AD 100mL",
+      "view": "v2912 old contact plus v2939 two latest full 1080 JPG",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [],
+      "precise_issue": "v2912 displayed 3/5 but v2939 supplied 2 additional distinctive citrus-water scenes; do NOT carry forward stale two-missing-photo blocker. New citrus 02 is tight partially cropped bottle, use as detail not hero; merchant rights/MK/stock unverified",
+      "next": "Treat 5-photo archive in v2939 as existing; verify edition, photo license and MK before retail; do not re-source same two citrus scenes",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-21",
+      "name": "Goodal Vita C Eye Cream 25AD 30mL",
+      "view": "v2906 official front-view plus prior source/stock identity ledger",
+      "keep_internal": [
+        1
+      ],
+      "quarantine": [],
+      "precise_issue": "Official-looking single 30mL tube visually present, whereas earlier seller source can refer to 30mL×2 bundle; front source alone cannot approve single vs set",
+      "next": "Verify owned stock single vs twin pack, retain exact 30mL photographed tube, do not infer two-pack from reference",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-23",
+      "name": "OBgE Pore Zero 50mL",
+      "view": "v2912 five-slot original source photo shortlist",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [],
+      "precise_issue": "Five visibly distinct product/photo scenes; technically strongest preflight option but rights, original MK, 50mL exact stock generation remain unapproved",
+      "next": "First among image-rich families for stock-label and photo-use license gate; no photo recreation necessary if approved",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    },
+    {
+      "family_id": "pending-28",
+      "name": "PIXEL PURE Glow Cleansing Serum Pad 70 pads/210mL",
+      "view": "v2914 clean five-source comparison",
+      "keep_internal": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "quarantine": [],
+      "precise_issue": "Five visibly distinct scenes including old original and new first-party photo source, all contain 70 pads / 210mL pack cues; source rights, original MK, physical stock generation remain blocked",
+      "next": "Verify exact 70 pads 210mL packaging and licensed five-source rights; stage 5 unchanged originals for retail when cleared",
+      "commercial_release_status": "HOLD_UNTIL_PHYSICAL_EDITION_PHOTO_RIGHTS_ORIGINAL_MK",
+      "image_mutation": 0
+    }
+  ],
+  "concrete_quarantine_actions": [
+    {
+      "family": "pending-01",
+      "quarantine_frames": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "action": "Confirm exact stock shades 21/23/25/27 and edition, then obtain licensed official 4-shade comparison; do not use SRC1/SRC2 as any shade other than shown"
+    },
+    {
+      "family": "pending-02",
+      "quarantine_frames": [
+        1,
+        2
+      ],
+      "action": "Preserve SRC3-5; verify stocked shade-specific white-cushion packaging and source licenses; replace only duplicate scene if distinct-photo gate remains"
+    },
+    {
+      "family": "pending-05",
+      "quarantine_frames": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "action": "Continue correct 6670 full-size source from v2931, quarantine mini and duplicate image pairs, verify actual kit 19N/19C/21N etc"
+    },
+    {
+      "family": "pending-07",
+      "quarantine_frames": [
+        4
+      ],
+      "action": "Block SRC4 as customer bundle promise; reconcile exact kit + shades and trace original commercial imagery"
+    },
+    {
+      "family": "pending-08",
+      "quarantine_frames": [
+        12,
+        18,
+        19
+      ],
+      "action": "Strictly retain seller options 01-20; resolve actual version and shade 12/18/19 proof from authorized exact-edition sources; no fabricated chips"
+    },
+    {
+      "family": "pending-15",
+      "quarantine_frames": [
+        4
+      ],
+      "action": "Only clean v2779 frame03 halo using same exact product-source pixels if authorized; verify old 2022 edition and quarantine model frame04 until rights"
+    },
+    {
+      "family": "pending-16",
+      "quarantine_frames": [
+        2
+      ],
+      "action": "Keep 2022 edition visibly distinct from newer jar; obtain model rights before photo2 sale use, compare actual owned 70mL jar"
+    },
+    {
+      "family": "pending-17",
+      "quarantine_frames": [
+        2
+      ],
+      "action": "Verify 2023 photo label and Vegan claim entitlement; preserve 1/3/4/5 technical source, hold model scene #2"
+    },
+    {
+      "family": "pending-18",
+      "quarantine_frames": [
+        3,
+        4
+      ],
+      "action": "Preserve frame1 hero; use frame2 detail not main, seek rights for frames3/4 and stock exact edition before retail"
+    },
+    {
+      "family": "pending-19",
+      "quarantine_frames": [
+        3,
+        5
+      ],
+      "action": "Replace only SRC5 with distinct official permitted product image, remove or source-approve SRC3 results claim; keep remaining stock-specific frames"
+    }
+  ],
+  "independent_lanes": {
+    "production": "Reuse approved source bytes, only repair affected frames",
+    "publication": "No new family currently passes stock version + photo rights + original MK + customer-clean photo release gates"
+  },
+  "source_missing_logo_block": "Original binary named inside private plugin 2.4.9, 280031 bytes, not retrievable through available binary tools; do not substitute",
+  "resumed_latest_files": "v2947/v2948/v2949 preserved, v2950 only new 14-family visual data",
+  "old_approved_families_preserved": 11,
+  "old_verified_url_mapping_preserved": 55,
+  "old_files_modified": 0,
+  "new_images_created": 0,
+  "new_GitHub_public_JPGs": 0,
+  "new_Render_URLs_verified": 0,
+  "new_retail_approvals": 0,
+  "final_xlsx_shared": false,
+  "next_action_shortlist": [
+    {
+      "family": "pending-23",
+      "action": "Check 5 stored exact 50mL product scenes for commercial usage license, actual stock generation, and original MK before any publish"
+    },
+    {
+      "family": "pending-28",
+      "action": "Check distinct 70 pads / 210mL 5-photo stock/rights evidence, preserve source images"
+    },
+    {
+      "family": "pending-20",
+      "action": "Keep v2939 two citrus scenes; avoid stale re-download, resolve rights and exact packaging"
+    },
+    {
+      "family": "pending-19",
+      "action": "Quarantine frame #3 claim and #5 clipped product detail; replace affected frames only with licensed source"
+    },
+    {
+      "family": "pending-05",
+      "action": "Reject mini and exact duplicate pairs 2=3,4=5 from full-size kit; source only correct 6670 exact pack"
+    }
+  ]
+}
