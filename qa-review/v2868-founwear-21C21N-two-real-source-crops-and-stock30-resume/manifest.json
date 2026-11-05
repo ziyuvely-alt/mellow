@@ -1,0 +1,150 @@
+{
+  "version": "v2868",
+  "baseline": "v2867",
+  "family": "pending-05",
+  "new_swatches": 4,
+  "new_source_photos_downloaded": 0,
+  "source_photos_original_bytes_preserved": true,
+  "source_swatches_recolored": false,
+  "native_user_owned_stock_confirmed": false,
+  "user_has_commercial_photo_rights_verified": false,
+  "new_sales_approved": 0,
+  "new_public_urls": 0,
+  "previous_11_signed_off_families_preserved": true,
+  "previous_55_verified_public_URLs_preserved": true,
+  "new_spreadsheet_created_or_shared": false,
+  "items": [
+    {
+      "shade": "21C",
+      "name": "LINGERIE",
+      "src": "merchant-cheek-five-labeled-shades",
+      "crop": [
+        410,
+        560,
+        978,
+        888
+      ],
+      "subject": "21C photographed cheek foundation swatch and native source label",
+      "original_source_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-cheek-five-labeled-shades-source-unaltered.webp",
+      "original_source_SHA256": "a5de7ef55f7510cb96497c45b5243db5e2cd3cb5a094bfe80cb2729a51052a8f",
+      "original_source_native_px": [
+        1286,
+        1290
+      ],
+      "source_crop_coord_original_px": [
+        410,
+        560,
+        978,
+        888
+      ],
+      "output_JPG": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/01-CLIO-Founwear-21C-cheek-labeled-swatch-1080-QA.jpg",
+      "output_sha256": "e4f52a4a096a6ce5956d259b1b1c76cb1c03ef91b15b2963e4bd2f8c7f6ec560",
+      "bytes": 128226,
+      "photo_RGB_swatches_recolored": false,
+      "new_photograph_fabricated": false,
+      "source_modified": false,
+      "native_label_requires_final_reader_check": true,
+      "public_use_allowed": false
+    },
+    {
+      "shade": "21C",
+      "name": "LINGERIE",
+      "src": "merchant-forearm-five-labeled-shades",
+      "crop": [
+        470,
+        182,
+        816,
+        609
+      ],
+      "subject": "21C photographed forearm foundation swatch and native source label",
+      "original_source_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-forearm-five-labeled-shades-source-unaltered.png",
+      "original_source_SHA256": "e7548a612e94d5f786d96b385f81ab3246b966100357942d6043f7088b63a70c",
+      "original_source_native_px": [
+        1200,
+        669
+      ],
+      "source_crop_coord_original_px": [
+        470,
+        182,
+        816,
+        609
+      ],
+      "output_JPG": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/02-CLIO-Founwear-21C-forearm-labeled-swatch-1080-QA.jpg",
+      "output_sha256": "19900aa3dbc2948cc0286eadc62250dfe005d7addd8572b258677b5bbcca1cd2",
+      "bytes": 154972,
+      "photo_RGB_swatches_recolored": false,
+      "new_photograph_fabricated": false,
+      "source_modified": false,
+      "native_label_requires_final_reader_check": true,
+      "public_use_allowed": false
+    },
+    {
+      "shade": "21N",
+      "name": "LINEN",
+      "src": "merchant-cheek-five-labeled-shades",
+      "crop": [
+        500,
+        765,
+        1080,
+        1066
+      ],
+      "subject": "21N photographed cheek foundation swatch and native source label",
+      "original_source_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-cheek-five-labeled-shades-source-unaltered.webp",
+      "original_source_SHA256": "a5de7ef55f7510cb96497c45b5243db5e2cd3cb5a094bfe80cb2729a51052a8f",
+      "original_source_native_px": [
+        1286,
+        1290
+      ],
+      "source_crop_coord_original_px": [
+        500,
+        765,
+        1080,
+        1066
+      ],
+      "output_JPG": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/03-CLIO-Founwear-21N-cheek-labeled-swatch-1080-QA.jpg",
+      "output_sha256": "5501909e39eb046a85a66cf351e535b4da6622c72f69e3e10751574a403db072",
+      "bytes": 123663,
+      "photo_RGB_swatches_recolored": false,
+      "new_photograph_fabricated": false,
+      "source_modified": false,
+      "native_label_requires_final_reader_check": true,
+      "public_use_allowed": false
+    },
+    {
+      "shade": "21N",
+      "name": "LINEN",
+      "src": "merchant-forearm-five-labeled-shades",
+      "crop": [
+        666,
+        92,
+        998,
+        535
+      ],
+      "subject": "21N photographed forearm foundation swatch and native source label",
+      "original_source_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-forearm-five-labeled-shades-source-unaltered.png",
+      "original_source_SHA256": "e7548a612e94d5f786d96b385f81ab3246b966100357942d6043f7088b63a70c",
+      "original_source_native_px": [
+        1200,
+        669
+      ],
+      "source_crop_coord_original_px": [
+        666,
+        92,
+        998,
+        535
+      ],
+      "output_JPG": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/04-CLIO-Founwear-21N-forearm-labeled-swatch-1080-QA.jpg",
+      "output_sha256": "ccbf4ab67d6665d760b37a1dba69871d34124668e0a197358b127b7824175dbc",
+      "bytes": 149725,
+      "photo_RGB_swatches_recolored": false,
+      "new_photograph_fabricated": false,
+      "source_modified": false,
+      "native_label_requires_final_reader_check": true,
+      "public_use_allowed": false
+    }
+  ],
+  "contact": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/v2868-four-labeled-source-swatch-crops-QA.jpg",
+  "contact_SHA256": "7faa0b86a77a31454af3b3ccad4dec5c0438015f85733c2efd40b742f70acc3d",
+  "stock30_checkpoint": "qa-review/v2868-founwear-21C21N-two-real-source-crops-and-stock30-resume/stock30-immutable-delta-checkpoint.json",
+  "next": "Use 21C/21N swatch crops as internal validation only. Need actual CLIO 15g+refill boxed set, rights and distinct shade-linked product photos before sale. Do not repeat near-duplicate generic photos."
+}
