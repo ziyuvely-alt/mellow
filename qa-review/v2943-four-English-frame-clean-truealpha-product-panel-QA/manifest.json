@@ -1,0 +1,85 @@
+{
+  "version": "v2943",
+  "baseline": "v2942",
+  "created_utc": "2026-11-05T16:35:50Z",
+  "families_inspected": 4,
+  "actual_new_clean_photo_panel_frames": 4,
+  "old_v2942_four_images_modified": 0,
+  "old_55_public_urls_changed": 0,
+  "old_11_complete_families_modified": 0,
+  "new_photo_sources_generated": 0,
+  "new_retail_approvals": 0,
+  "new_public_image_URLs": 0,
+  "remaining_distinct_photo_scene_shortfall": 4,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-25",
+      "new_clean_panel_img": "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-25-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+      "source_alpha": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-25/01-actual-alpha-cutout-high-res-QA.png",
+      "previous_QA_frame_untouched": true,
+      "photo_bytes_and_color_unchanged": true,
+      "new_sale_approval": false,
+      "visual_quality": "TRUE_ALPHA_PRODUCT_PHOTO_PANEL_COMPOSED_NEEDS_HUMAN_QA",
+      "new_sha256": "9540b27f1044eeda5fc5a5671da207fdc646168d80e1d9af8d5c0087eac26bd0",
+      "native_product_alpha_pixels": [
+        606,
+        637
+      ],
+      "source_alpha_sha256": "0e3468283d19573fc142d30365b4a8664dce7ab2cb06e4c625c05c8b0a2d2a44",
+      "alpha_nonopaque_fraction": 0.071993,
+      "new_frame_bytes": 158372
+    },
+    {
+      "family": "pending-27",
+      "new_clean_panel_img": "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-27-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+      "source_alpha": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-truly-transparent-product-QA.png",
+      "previous_QA_frame_untouched": true,
+      "photo_bytes_and_color_unchanged": true,
+      "new_sale_approval": false,
+      "visual_quality": "TRUE_ALPHA_PRODUCT_PHOTO_PANEL_COMPOSED_NEEDS_HUMAN_QA",
+      "new_sha256": "0030ab2c81c5a0d4d17acda5afc3eb4ec1d8006c0ec1e08b5f2ca43d9acb32db",
+      "native_product_alpha_pixels": [
+        396,
+        669
+      ],
+      "source_alpha_sha256": "0c143ebfbbc923ed5f7292dedaf700c354b55c639caa284436579487e47f405f",
+      "alpha_nonopaque_fraction": 0.542269,
+      "new_frame_bytes": 102722
+    },
+    {
+      "family": "pending-29",
+      "new_clean_panel_img": "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-29-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+      "source_alpha": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-truly-transparent-product-QA.png",
+      "previous_QA_frame_untouched": true,
+      "photo_bytes_and_color_unchanged": true,
+      "new_sale_approval": false,
+      "visual_quality": "TRUE_ALPHA_PRODUCT_PHOTO_PANEL_COMPOSED_NEEDS_HUMAN_QA",
+      "new_sha256": "ce2661da919201dfc5c42cefc21e8636da76181fb8dc9539dcf42d805a3fd5f3",
+      "native_product_alpha_pixels": [
+        681,
+        624
+      ],
+      "source_alpha_sha256": "1444cab6fa8b5033e64c6bfe6e3a682ff1f8761c86a7d6eca5fea875ed9398ea",
+      "alpha_nonopaque_fraction": 0.133545,
+      "new_frame_bytes": 108434
+    },
+    {
+      "family": "pending-30",
+      "new_clean_panel_img": "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-30-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+      "source_alpha": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-truly-transparent-product-QA.png",
+      "previous_QA_frame_untouched": true,
+      "photo_bytes_and_color_unchanged": true,
+      "new_sale_approval": false,
+      "visual_quality": "TRUE_ALPHA_PRODUCT_PHOTO_PANEL_COMPOSED_NEEDS_HUMAN_QA",
+      "new_sha256": "7c97ac75b4a7fd67370c197043941d9d8934ad0309caf1604f589545dd1cc3d1",
+      "native_product_alpha_pixels": [
+        220,
+        662
+      ],
+      "source_alpha_sha256": "ce13da325bf4da285fbe2371511d9427d17872eb58d80281686449b60ee71db8",
+      "alpha_nonopaque_fraction": 0.148304,
+      "new_frame_bytes": 100194
+    }
+  ]
+}
