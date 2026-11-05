@@ -1,0 +1,31 @@
+{
+  "version": "v2937",
+  "baseline": "v2936",
+  "generated_at_UTC": "2026-11-05T16:00:14Z",
+  "family": "pending-20",
+  "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+  "source_listing": "https://oceanbuy.ca/products/goodal-green-tangerine-vita-c-serum-mist-100ml",
+  "listing_title": "GOODAL Green Tangerine Vita C Brightening Serum Mist 100ml",
+  "exact_100ml_product_title_verified": true,
+  "new_distinct_photo_candidates": 0,
+  "total_candidate_product_scenes": 3,
+  "missing_photo_sources_to_five": 2,
+  "actual_original_existing_photo_sources_reused": 3,
+  "new_photo_source_archive_paths": [],
+  "new_1080_QA_refs": [],
+  "new_internal_contact": null,
+  "new_five_source_QA_zip": null,
+  "new_five_source_zip_sha256": null,
+  "new_retail_approvals": 0,
+  "new_public_urls": 0,
+  "retailer_photo_license_granted": false,
+  "old_11_approved_families_unchanged": true,
+  "old_55_public_URLs_unchanged": true,
+  "old_QA_image_bytes_changed": 0,
+  "final_spreadsheet_shared": false,
+  "new_source_records": [],
+  "errors": [
+    "GOODAL_100ML_CITRUS_PRODUCT_STILL: 404 Client Error: Not Found for url: https://oceanbuy.ca/cdn/shop/products/goodal-goodal-green-tangerine-vita-c-serum-mist-100ml-154746.jpg?v=1745717232&width=1800",
+    "GOODAL_100ML_FINGERTIP_MIST_USE: 404 Client Error: Not Found for url: https://oceanbuy.ca/cdn/shop/files/goodal-goodal-green-tangerine-vita-c-serum-mist-100ml-oceanbuy-beauty-592499.webp?v=1745785888&width=1080"
+  ]
+}
