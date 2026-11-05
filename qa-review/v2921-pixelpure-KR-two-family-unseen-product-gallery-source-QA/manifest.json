@@ -1,0 +1,44 @@
+{
+  "version": "v2921",
+  "baseline": "v2920",
+  "created_at_UTC": "2026-11-05T14:45:05Z",
+  "KR_brand_page_families_processed": 2,
+  "new_distinct_native_original_images": 0,
+  "new_internal_1080_JPGs": 0,
+  "new_contacts": 0,
+  "prior_duplicate_scenes_skipped": 0,
+  "source_url_image_rights_verified": false,
+  "physical_owned_stock_verified": false,
+  "old_11_approved_family_images_changed": 0,
+  "old_55_public_URLs_changed": 0,
+  "previous_QA_sources_changed": 0,
+  "retail_approvals": 0,
+  "public_URLs_added": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "page": "https://www.pixelpure.com/product/detail.html?product_no=24",
+      "page_title": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "exact_KR_page_verified": true,
+      "urls_checked": 0,
+      "archive_new_native_originals": 0,
+      "duplicate_assets_skipped": 0,
+      "items": [],
+      "contact": null,
+      "errors": []
+    },
+    {
+      "family": "pending-30",
+      "page": "https://www.pixelpure.com/product/detail.html?product_no=25",
+      "page_title": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "exact_KR_page_verified": true,
+      "urls_checked": 0,
+      "archive_new_native_originals": 0,
+      "duplicate_assets_skipped": 0,
+      "items": [],
+      "contact": null,
+      "errors": []
+    }
+  ]
+}
