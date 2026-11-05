@@ -1,0 +1,82 @@
+{
+  "version": "v2936",
+  "baseline": "v2935",
+  "created_utc": "2026-11-05T15:51:54Z",
+  "family": "pending-24",
+  "archived_photo_source_count": 5,
+  "original_JPGs_reused": 4,
+  "previously_archived_native_1254_PNG_reused": 1,
+  "new_original_photography_generated": 0,
+  "source_slot_shortfall": 0,
+  "retailer_original_png": "qa-review/v2935-two-new-retailer-exact-SKU-image-native-source-check-QA/pending-24/01-retailer-SKU-gallery-source-REFERENCE-ONLY.png",
+  "retailer_png_sha256": "49a226b941fd75cfe3434e1ba1bebe54739358ce582fea0b3eb1a53015c29f6e",
+  "source_ZIP": "qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail/BIOHEAL_NAD-PRIZCELL_GlowPowerSerum30mL_5SOURCE_INTERNAL_QA.zip",
+  "source_ZIP_sha256": "d700953505664a9b6fb6ef60a3e4a5f5de0b7fa9c9a453fb83654551d4ae4fca",
+  "five_reference_contact": "qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail/BIOHEAL_GlowPower_5source-comparison-INTERNAL.jpg",
+  "commercial_photo_permission_verified": false,
+  "physical_KR_stock_generation_verified": false,
+  "MK_logo_verified": false,
+  "new_retail_approved_images": 0,
+  "new_public_URLs": 0,
+  "existing_11_published_groups_modified": 0,
+  "existing_55_verified_public_URLs_changed": 0,
+  "previous_QA_asset_files_modified": 0,
+  "final_spreadsheet_shared": false,
+  "source_references": [
+    {
+      "slot": 1,
+      "source": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip:01-pending-24-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+      "native_pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "image_rights_approved": false,
+      "sale_approved": false
+    },
+    {
+      "slot": 2,
+      "source": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip:02-pending-24-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+      "native_pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "image_rights_approved": false,
+      "sale_approved": false
+    },
+    {
+      "slot": 3,
+      "source": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip:03-pending-24-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+      "native_pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "image_rights_approved": false,
+      "sale_approved": false
+    },
+    {
+      "slot": 4,
+      "source": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip:04-pending-24-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "1d45520b1e2367c84589e43a0380e94dc00404afb72f049541d0e1cc1d0eb5ab",
+      "native_pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "image_rights_approved": false,
+      "sale_approved": false
+    },
+    {
+      "slot": 5,
+      "source": "qa-review/v2935-two-new-retailer-exact-SKU-image-native-source-check-QA/pending-24/01-source-1080-internal-visual-review.jpg",
+      "sha256": "e2ed06414ed749cda351e9762e42df0b1b8b810b3f15470726dd5dd134bdb84b",
+      "native_pixel_dimensions": [
+        1254,
+        1254
+      ],
+      "image_rights_approved": false,
+      "sale_approved": false
+    }
+  ]
+}
