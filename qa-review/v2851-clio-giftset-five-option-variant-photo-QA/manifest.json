@@ -1,0 +1,187 @@
+{
+  "version": "v2851",
+  "baseline": "v2850",
+  "inventory_families": [
+    "pending-05",
+    "pending-06"
+  ],
+  "reused_without_copying": {
+    "source": "v2797",
+    "pending_06_common_scenes_sha_preserved": true,
+    "count": 5
+  },
+  "prior_11_approved_groups_unchanged": true,
+  "prior_55_public_URLs_unchanged": true,
+  "new_approved_sales_groups": 0,
+  "original_MK_logo_authenticated": false,
+  "source_photo_redistribution_rights_verified": false,
+  "exact_owned_stock_edition_verified": false,
+  "final_excel_shared": false,
+  "source_images_modified": 0,
+  "families": [
+    {
+      "id": "pending-05",
+      "intended_stock_family": "CLIO Kill Cover Founwear Cushion The Original (main + refill)",
+      "intended_stock_options": [
+        "19C",
+        "19N",
+        "21C",
+        "21N",
+        "23N"
+      ],
+      "seller_product_json": "https://lacosmetique.com.au/products/kill-cover-founwear-cushion-the-original.js",
+      "source_product_status": "POTENTIAL_SET_LISTING_REQUIRES_STOCK_EDITION_QA",
+      "stock_bundle_contents_independently_confirmed": false,
+      "source_listing_is_identical_to_user_owned_stock": false,
+      "variants": [
+        {
+          "shade": "19C",
+          "match_count": 1,
+          "status": "HOLD",
+          "merchant_variant_id": 50392482152679,
+          "reason": "NO_MERCHANT_EXACT_SHADE_ASSIGNED_IMAGE"
+        },
+        {
+          "shade": "19N",
+          "match_count": 1,
+          "status": "HOLD",
+          "merchant_variant_id": 50392481497319,
+          "reason": "NO_MERCHANT_EXACT_SHADE_ASSIGNED_IMAGE"
+        },
+        {
+          "shade": "21C",
+          "match_count": 1,
+          "status": "HOLD",
+          "merchant_variant_id": 50392481792231,
+          "reason": "NO_MERCHANT_EXACT_SHADE_ASSIGNED_IMAGE"
+        },
+        {
+          "shade": "21N",
+          "match_count": 1,
+          "status": "HOLD",
+          "merchant_variant_id": 50392481923303,
+          "reason": "NO_MERCHANT_EXACT_SHADE_ASSIGNED_IMAGE"
+        },
+        {
+          "shade": "23N",
+          "match_count": 1,
+          "status": "HOLD",
+          "merchant_variant_id": 50392481988839,
+          "reason": "NO_MERCHANT_EXACT_SHADE_ASSIGNED_IMAGE"
+        }
+      ],
+      "merchant_title": "Kill Cover Founwear Cushion The Original",
+      "merchant_product_id": 9036269355239,
+      "merchant_title_identity_pass": true,
+      "merchant_explicit_set_or_refill": true,
+      "merchant_variant_count": 5,
+      "photos_saved": 0,
+      "release_allowed": false
+    },
+    {
+      "id": "pending-06",
+      "intended_stock_family": "CLIO Kill Cover Mesh Glow Essential Cushion Gift Set",
+      "intended_stock_options": [
+        "19C",
+        "19N",
+        "21C",
+        "21N",
+        "23N"
+      ],
+      "seller_product_json": "https://clubclio.shop/products/clio-kill-cover-mesh-glow-cushion-set-refill.js",
+      "source_product_status": "HOLD_NO_SET_OR_REFILL_INDICATION",
+      "stock_bundle_contents_independently_confirmed": false,
+      "source_listing_is_identical_to_user_owned_stock": false,
+      "variants": [
+        {
+          "shade": "19C",
+          "match_count": 1,
+          "status": "PHYSICAL_MERCHANT_VARIANT_PHOTO_QA_SAVED_RETAIL_HOLD",
+          "merchant_variant_id": 45856715112679,
+          "variant_image_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_19C.jpg?v=1792129433",
+          "filename": "pending-06/19C-merch-exact-shade-JPG1080-QA.jpg",
+          "source_size": [
+            1200,
+            1200
+          ],
+          "source_sha256": "7ad560ae28ac0fb3ea9ce01c869e5ac34630c1e8521feda083325b2d510c9e89",
+          "rendered_sha256": "30e634e6d2b43992c3806af785960b50d1d382445980e66dc096ce0f149f5ddf",
+          "jpeg_bytes": 100749,
+          "original_rgb_unchanged_other_than_fit": true
+        },
+        {
+          "shade": "19N",
+          "match_count": 1,
+          "status": "PHYSICAL_MERCHANT_VARIANT_PHOTO_QA_SAVED_RETAIL_HOLD",
+          "merchant_variant_id": 45856715145447,
+          "variant_image_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_19N.jpg?v=1792129436",
+          "filename": "pending-06/19N-merch-exact-shade-JPG1080-QA.jpg",
+          "source_size": [
+            1200,
+            1200
+          ],
+          "source_sha256": "ded102fe6480d59db8cdebaddae78b7dc65412a617fb1ea94d8a3cab479bbf9f",
+          "rendered_sha256": "b78b00901280a2b29a4c71db2fcc58f610e8509f7246efd1c747e144201a3376",
+          "jpeg_bytes": 101298,
+          "original_rgb_unchanged_other_than_fit": true
+        },
+        {
+          "shade": "21C",
+          "match_count": 1,
+          "status": "PHYSICAL_MERCHANT_VARIANT_PHOTO_QA_SAVED_RETAIL_HOLD",
+          "merchant_variant_id": 45856715178215,
+          "variant_image_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_21C.jpg?v=1792129445",
+          "filename": "pending-06/21C-merch-exact-shade-JPG1080-QA.jpg",
+          "source_size": [
+            1200,
+            1200
+          ],
+          "source_sha256": "4ae9ec93fe29cee712f4249be93b45c75ae3f212ac8dbe99a029654f1453faa5",
+          "rendered_sha256": "3c62c61eb1684af30acb38cf66f7c6467acbb15d50d2c933a1765f0fb5e31f75",
+          "jpeg_bytes": 101170,
+          "original_rgb_unchanged_other_than_fit": true
+        },
+        {
+          "shade": "21N",
+          "match_count": 1,
+          "status": "PHYSICAL_MERCHANT_VARIANT_PHOTO_QA_SAVED_RETAIL_HOLD",
+          "merchant_variant_id": 51749969789159,
+          "variant_image_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_21N.jpg?v=1792129447",
+          "filename": "pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+          "source_size": [
+            1200,
+            1200
+          ],
+          "source_sha256": "9ffc115b392b52f2a74452af45068195276527fe563ce047f32f506d687dfdd5",
+          "rendered_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+          "jpeg_bytes": 101911,
+          "original_rgb_unchanged_other_than_fit": true
+        },
+        {
+          "shade": "23N",
+          "match_count": 1,
+          "status": "PHYSICAL_MERCHANT_VARIANT_PHOTO_QA_SAVED_RETAIL_HOLD",
+          "merchant_variant_id": 51749969821927,
+          "variant_image_url": "https://cdn.shopify.com/s/files/1/0310/4925/3001/files/Product_01_23N.jpg?v=1792129449",
+          "filename": "pending-06/23N-merch-exact-shade-JPG1080-QA.jpg",
+          "source_size": [
+            1200,
+            1200
+          ],
+          "source_sha256": "dcaf995e66e7b58db8168ae520678638da5cc01cc48f93018eb7d625a7993cb7",
+          "rendered_sha256": "e276a2cd4a5fdf7a0ce833df0386cf8481e0c2aa32f0e1e54e9057b5e59903ff",
+          "jpeg_bytes": 102074,
+          "original_rgb_unchanged_other_than_fit": true
+        }
+      ],
+      "merchant_title": "[CLIO] Kill Cover Mesh Glow Essential Cushion Foundation",
+      "merchant_product_id": 8280209228007,
+      "merchant_title_identity_pass": true,
+      "merchant_explicit_set_or_refill": false,
+      "merchant_variant_count": 5,
+      "photos_saved": 5,
+      "release_allowed": false
+    }
+  ],
+  "total_variant_QA_JPGs_saved": 5
+}
