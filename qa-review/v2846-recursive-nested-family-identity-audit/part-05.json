@@ -1,0 +1,250 @@
+{
+  "version": "v2846",
+  "batch": 5,
+  "offset": 75,
+  "records": [
+    {
+      "file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2844-30family-product-identity-batch-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.identity_flags[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-01",
+          "jsonPath": "$.all_30_family_records[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-02",
+          "jsonPath": "$.all_30_family_records[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-03",
+          "jsonPath": "$.all_30_family_records[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.all_30_family_records[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.all_30_family_records[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.all_30_family_records[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.all_30_family_records[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.all_30_family_records[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.all_30_family_records[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-10",
+          "jsonPath": "$.all_30_family_records[9]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.all_30_family_records[10]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-12",
+          "jsonPath": "$.all_30_family_records[11]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-13",
+          "jsonPath": "$.all_30_family_records[12]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.all_30_family_records[13]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.all_30_family_records[14]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-16",
+          "jsonPath": "$.all_30_family_records[15]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-17",
+          "jsonPath": "$.all_30_family_records[16]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.all_30_family_records[17]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.all_30_family_records[18]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.all_30_family_records[19]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.all_30_family_records[20]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.all_30_family_records[21]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.all_30_family_records[22]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.all_30_family_records[23]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.all_30_family_records[24]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.all_30_family_records[25]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.all_30_family_records[26]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.all_30_family_records[27]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.all_30_family_records[28]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.all_30_family_records[29]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    }
+  ]
+}
