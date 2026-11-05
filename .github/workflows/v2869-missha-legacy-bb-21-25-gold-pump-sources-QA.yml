@@ -1,0 +1,34 @@
+name: Shopee v2869 MISSHA BB old gold pump exact 21 and 25 QA sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2869-missha-legacy-bb-21-25-gold-pump-sources-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  original_old_package_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Fetch real gold-pump #21 and #25 shade photos; compare preserved #23 and hold sales
+        run: |
+          cp scripts/v2869_missha_legacy_gold_pump_21_25_option_photo_QA.py /tmp/v2869.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2869qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2869qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2869.py
+          git add qa-review/v2869-missha-legacy-gold-pump-21-23-25-exact-shade-photo-QA
+          git commit -m 'v2869 preserve 21/25 old gold pump MISSHA BB merchant source photos and existing 23 original QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
