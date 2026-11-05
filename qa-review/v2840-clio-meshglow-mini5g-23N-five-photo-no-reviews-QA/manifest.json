@@ -1,0 +1,88 @@
+{
+  "version": "v2840",
+  "prior_success": "v2838",
+  "pending_family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Mini 5g",
+  "shade": "23N Ginger",
+  "gallery_status": "FIVE_REAL_PHOTO_QA_ONLY",
+  "original_real_photo_JPGs_staged": 5,
+  "unique_source_photos": 5,
+  "customer_review_photo_frames": 0,
+  "all_physical_jpg_1080_and_under_2MB": true,
+  "photo_reuse_rights_verified": false,
+  "physical_owned_stock_edition_verified": false,
+  "genuine_MK_logo_authenticated": false,
+  "new_retail_approved": 0,
+  "old_11_approved_families_unchanged": true,
+  "old_55_verified_public_URLs_unchanged": true,
+  "prior_21C_21N_QA_sets_unchanged": true,
+  "prior_source_JPG_files_modified": false,
+  "final_excel_shared": false,
+  "frames": [
+    {
+      "file": "01-23N-GINGER-EXACT-SHADE-SOURCE-QA.jpg",
+      "sha256": "710105bbf049c3f28b27b9df9819eec5862dfc0cffdf42972b0c792bf056a819",
+      "source": "qa-review/v2830-clio-meshglow-essential-mini5g-five-distinct-physical-photo-QA/05-23N-Ginger-exact-mini5g-merchant-reference-QA.jpg",
+      "bytes_identical": true,
+      "slot": 1,
+      "role": "EXACT_23N_GINGER_REFERENCE",
+      "review_photo": false,
+      "rights_verified": false
+    },
+    {
+      "file": "02-COMMON-REAL-PRODUCT-NO-SHADE-QA.jpg",
+      "sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+      "source": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21C/02-PRESERVED_COMMON_UNASSIGNED_SHADE_PACKSHOT-QA.jpg",
+      "bytes_identical": true,
+      "slot": 2,
+      "role": "COMMON_UNASSIGNED_SHADE",
+      "review_photo": false,
+      "rights_verified": false
+    },
+    {
+      "file": "03-COMMON-REAL-PRODUCT-NO-SHADE-QA.jpg",
+      "sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+      "source": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21C/03-PRESERVED_COMMON_UNASSIGNED_SHADE_OPEN_COMPACT-QA.jpg",
+      "bytes_identical": true,
+      "slot": 3,
+      "role": "COMMON_UNASSIGNED_SHADE",
+      "review_photo": false,
+      "rights_verified": false
+    },
+    {
+      "slot": 4,
+      "merchant": "W Cosmetics Australia",
+      "url": "https://cdn.shopify.com/s/files/1/2779/3344/files/23_761bf394-ecb4-4753-a9ec-329cbb59982c.jpg?v=1776669892",
+      "source_variant": "23N Ginger",
+      "merchant_variant_id": 53633702625644,
+      "role": "EXACT_23N_MERCHANT_PHOTO",
+      "review_photo": false,
+      "rights_verified": false,
+      "status": "EXACT_23N_VARIANT_SOURCE_STAGED_QA_ONLY",
+      "file": "04-23N-MERCHANT-W-QA.jpg",
+      "sha256": "9e59cfda4360afae6f09fc93464c581d878bb553134c0e9a8844d0f7875599c2",
+      "source_native_pixels": [
+        800,
+        800
+      ]
+    },
+    {
+      "slot": 5,
+      "merchant": "La Cosmetique Australia",
+      "url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-glow-essential-cushion-mini-3-shades-1864920.png?v=1779943511",
+      "source_variant": "23N Ginger",
+      "merchant_variant_id": 51812879237351,
+      "role": "EXACT_23N_MERCHANT_PHOTO",
+      "review_photo": false,
+      "rights_verified": false,
+      "status": "EXACT_23N_VARIANT_SOURCE_STAGED_QA_ONLY",
+      "file": "05-23N-MERCHANT-LACOSMETIQUE-QA.jpg",
+      "sha256": "1ccd69610f7da053033a9bc1bbc9032b85258f50f019882ad59cc46ce166c91f",
+      "source_native_pixels": [
+        1200,
+        1200
+      ]
+    }
+  ],
+  "next": "Direct visual QA on contact; get photo rights and actual stock validation before publication. Do not turn merchant proof into final seller rights."
+}
