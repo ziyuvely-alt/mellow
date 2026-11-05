@@ -1,0 +1,31 @@
+name: Shopee v2845 Unassigned QA manifest family linkage triage
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2845-unassigned-qa-family-triage.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  triage:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Classify unmapped QA manifests without altering old image files
+        run: |
+          cp scripts/v2845_unassigned_manifest_family_triage.py /tmp/v2845.py
+          cp evidence/inventory-30-family-crosswalk-20261104.json /tmp/v2845-inventory-crosswalk.json
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2845-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2845-qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2845.py
+          git add qa-review/v2845-unassigned-QA-family-linkage-triage
+          git commit -m 'v2845 unmatched QA family suggestions; no auto remapping or sale release'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
