@@ -1,0 +1,42 @@
+{
+  "version": "v2896",
+  "baseline": "v2895",
+  "family": "pending-13",
+  "product": "MISSHA Camellia PDRN NAD+ Firming Repair Serum 30mL",
+  "source_product_page": "https://misshaus.com/products/missha-official-pdrn-nad-firming-repair-serum",
+  "official_source_candidates_attempted": [
+    {
+      "url": "https://misshaus.com/cdn/shop/files/CopyofMS104056.png?v=1782920372&width=1600",
+      "result": "SAVED_VALID_NATIVE_SOURCE",
+      "native_px": [
+        1600,
+        1600
+      ]
+    }
+  ],
+  "primary_official_image_url_selected": "https://misshaus.com/cdn/shop/files/CopyofMS104056.png?v=1782920372&width=1600",
+  "new_firstparty_clean_reference_status": "NEW_OFFICIAL_SINGLE_BOTTLE_SOURCE_SAVED_NO_RETRO_ALPHA",
+  "new_original_native_px": [
+    1600,
+    1600
+  ],
+  "source_native_format": "WEBP",
+  "brand_source_has_real_transparency_alpha": true,
+  "original_saved": "qa-review/v2896-missha30-brand-official-clean-single-bottle-source/MISSHA-US-brand-30ml-original.webp",
+  "original_sha256": "3caf293535fd9660835af0931ca910ae09c450f90a56bfa46fe822acb7ac7de9",
+  "source_white_background_JPG_1080": "qa-review/v2896-missha30-brand-official-clean-single-bottle-source/MISSHA-30ml-brand-clean-white-source-1080-INTERNAL-QA.jpg",
+  "source_1080_sha256": "f8e426b018c506e65559c4eb0384bf04beec5821737356b04d2a2a0e65ce2fbd",
+  "source_1080_bytes": 109342,
+  "source_RGB_recolored_or_ai_regenerated": false,
+  "source_true_alpha_cutout_automatically_claimed": false,
+  "source_needs_actual_human_packaging_edition_confirmation": true,
+  "source_needs_license_for_commercial_use": true,
+  "prior_v2865_redfringe_alpha_JPG_modified": false,
+  "new_sale_approvals": 0,
+  "new_public_urls": 0,
+  "old_11_approved_groups_unchanged": true,
+  "old_55_public_urls_unchanged": true,
+  "MK_original_authenticated": false,
+  "final_spreadsheet_shared": false,
+  "next": "If clean source can replace red fringe for INTERNAL reference, still require physical stock and license. Do not repeat cap masking on v2865."
+}
