@@ -1,0 +1,176 @@
+{
+  "pending-21": {
+    "product": "GOODAL Green Tangerine Vita-C Dark Spot Care Eye Cream, catalog 30 mL",
+    "current_QA_5frame_set": [
+      {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip!/01-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+        "bytes": 65153,
+        "sha256": "e9e2ebc804482a8d74e60cfc25257df540960ac1a8d36219f980cc6c2905292e",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 1,
+        "kind": "EXISTING_UNCHANGED_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false
+      },
+      {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip!/02-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+        "bytes": 44233,
+        "sha256": "efafb6ad146a09afe1249ffea69749c4e4f91a0229f98258e0bce726cf657a6a",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 2,
+        "kind": "EXISTING_UNCHANGED_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false
+      },
+      {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip!/03-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+        "bytes": 65380,
+        "sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 3,
+        "kind": "EXISTING_UNCHANGED_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false
+      },
+      {
+        "path": "qa-review/v2976-goodal-eyecream-one-original-howto-frame-no-photo-20261106/pending-21-frame04-original-English-how-to-no-photo-INTERNAL-QA.jpg",
+        "bytes": 120074,
+        "sha256": "a7c68690b31f71043d714e4d36d3f7be1497299d3bfd1eabc9756dd68030c346",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 4,
+        "kind": "ORIGINAL_NONPHOTO_HOW_TO_QA",
+        "authentic_MK_logo_pending": true,
+        "claimed_new_independent_photo": false
+      },
+      {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip!/05-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+        "bytes": 70917,
+        "sha256": "072f9dd39f2715f481040f6d400ecdecdf719ec2c7a47ff5648e959a12d5c36d",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 5,
+        "kind": "EXISTING_UNCHANGED_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false
+      }
+    ],
+    "legacy_duplicate_frame_04_excluded": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+    "composition": "four archived product photo candidates + one original instruction graphic",
+    "fully_distinct_product_photos_not_claimed": true,
+    "ready_for_commercial_use": false,
+    "blocking": [
+      "stocked 25AD single vs bundle proof",
+      "photo commercial reuse rights",
+      "authentic original MellowKR MK PNG SHA verification",
+      "customer copy/crop and retail visual QA"
+    ]
+  },
+  "pending-09": {
+    "product": "OBgE Oil Control Finisher, brand catalog 5g",
+    "current_QA_5frame_set": [
+      {
+        "path": "qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA/01-OBGE-OIL-CONTROL-5G-EXACT-ARCHIVE-QA.jpg",
+        "bytes": 133884,
+        "sha256": "cc7faf1718ac4c605a4fa4f146772dc3eceb264331cc2a99ba4c8bf230f0c3d1",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 1,
+        "kind": "EXISTING_UNCHANGED_BRAND_SOURCE_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false,
+        "marketing_copy_review": "No extra efficacy claims in frame"
+      },
+      {
+        "path": "qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA/02-OBGE-OIL-CONTROL-5G-EXACT-ARCHIVE-QA.jpg",
+        "bytes": 91908,
+        "sha256": "9c719a0038430eb827b440efd82ca607171e1d1f98f7d7d63b8c68a48a3fea53",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 2,
+        "kind": "EXISTING_UNCHANGED_BRAND_SOURCE_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false,
+        "marketing_copy_review": "Product photo, not evidence of 5g owned SKU edition"
+      },
+      {
+        "path": "qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA/03-OBGE-OIL-CONTROL-5G-EXACT-ARCHIVE-QA.jpg",
+        "bytes": 160411,
+        "sha256": "a3c5f4cd301b92a0feb2d07e3cd31fe78efbdddbd57a9613ac65753bad328682",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 3,
+        "kind": "EXISTING_UNCHANGED_BRAND_SOURCE_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false,
+        "marketing_copy_review": "Brand marketing phrase matte in one tap; retain only for internal QA pending claim authorization"
+      },
+      {
+        "path": "qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA/04-OBGE-OIL-CONTROL-5G-EXACT-ARCHIVE-QA.jpg",
+        "bytes": 168839,
+        "sha256": "616e0b4dfe0f20bff7a933ce7abe6b626d0ea45d6dccc7fb420170ef45e9a61a",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 4,
+        "kind": "EXISTING_UNCHANGED_BRAND_SOURCE_PHOTO",
+        "source_rights_confirmed": false,
+        "stock_edition_confirmed": false,
+        "marketing_copy_review": "Application instruction; verify package and approved local claim wording"
+      },
+      {
+        "path": "qa-review/v2977-obge-finisher5g-one-original-directions-frame-20261106/pending-09-frame05-original-English-usage-guide-INTERNAL-QA.jpg",
+        "bytes": 136447,
+        "sha256": "11f02a842c8f82587a25c20f6273637ac99293af366737d5c2a5cc3b7843dec5",
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "technical_pass": true,
+        "slot": 5,
+        "kind": "ORIGINAL_NONPHOTO_HOW_TO_QA",
+        "authentic_MK_logo_pending": true,
+        "claimed_new_independent_photo": false
+      }
+    ],
+    "old_skin_portrait_candidate_05_excluded": "291e4116c8660ab669641e5fb37bef9e57cecd0ac8bbd08db16ef7e84231ffb9",
+    "composition": "four archived OBgE source photo candidates + one original instruction graphic",
+    "fully_distinct_product_photos_not_claimed": true,
+    "ready_for_commercial_use": false,
+    "blocking": [
+      "stocked exact 5g single pack proof",
+      "photo commercial reuse rights",
+      "authentic original MellowKR MK PNG SHA verification",
+      "frame03 promotional copy and frame04 hand use commercial-rights check"
+    ]
+  }
+}
