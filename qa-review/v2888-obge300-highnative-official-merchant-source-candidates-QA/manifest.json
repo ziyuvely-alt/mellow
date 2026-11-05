@@ -1,0 +1,82 @@
+{
+  "version": "v2888",
+  "baseline": "v2887",
+  "family": "pending-22",
+  "product_page_brand_official": "https://m.obge.co.kr/product/detail.html?product_no=1251",
+  "product_official_volume": "300mL",
+  "owned_inventory_original_capacity": "NOT_RECORDED",
+  "source_only_older_v2857_native": [
+    600,
+    600
+  ],
+  "new_highnative_original_photo_count": 1,
+  "candidates_attempted_once": 3,
+  "candidate_source_results": [
+    {
+      "name": "brand-official-Cafe24-big",
+      "category": "brand_official",
+      "url": "https://m.obge.co.kr/web/product/big/202603/95c2bcbeb8bf7bfa5b3d3b055e3a87d9.png",
+      "product_page": "https://m.obge.co.kr/product/detail.html?product_no=1251",
+      "source_view": "official main bottle catalog image",
+      "status": "HOLD_SOURCE_UNAVAILABLE_SKIP_NO_RETRY",
+      "photo_rights_verified": false,
+      "actual_user_stock_300mL_label_checked": false,
+      "retail_approved": false,
+      "error": "HTTPError: HTTP Error 404: Not Found"
+    },
+    {
+      "name": "SoonsuShopify-candid-angle",
+      "category": "third_party_retailer",
+      "url": "https://soonsubeauty.com/cdn/shop/files/51159251039382615_585094099.jpg?v=1777131226",
+      "product_page": "https://soonsubeauty.com/products/obge-max-waterful-sun-cream-300ml",
+      "source_view": "diagonal pump bottle with shadow",
+      "status": "HIGH_NATIVE_SOURCE_SAVED_PENDING_PRODUCT_VISUAL_AND_RIGHTS",
+      "photo_rights_verified": false,
+      "actual_user_stock_300mL_label_checked": false,
+      "retail_approved": false,
+      "original_pixels": [
+        1000,
+        1000
+      ],
+      "original_format": "WEBP",
+      "raw_SHA256": "1d4b47e160e738c1cce2c164c6837c44a775e99dfbfee7a6f738b30417dd6bf8",
+      "original": "qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA/SoonsuShopify-candid-angle-native-original.webp",
+      "sha256": "1d4b47e160e738c1cce2c164c6837c44a775e99dfbfee7a6f738b30417dd6bf8",
+      "QA_JPG": "qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA/SoonsuShopify-candid-angle-1080-source-QA.jpg",
+      "QA_JPG_SHA256": "7a4e841b75825836d775235eeb1b8a6b91704ce9c46c972a3fe598822381bcf5",
+      "QA_JPG_bytes": 94504,
+      "original_RGB_not_recolored": true
+    },
+    {
+      "name": "MaPetiteCoree-shopify-angle",
+      "category": "third_party_retailer",
+      "url": "https://mylittlekorea.com/cdn/shop/files/OBGE-Max-Waterfull-Sunscreen-300ml-Ma-Petite-Coree_1.png?v=1776485758",
+      "product_page": "https://mylittlekorea.com/products/obge-max-waterfull-sunscreen-300ml",
+      "source_view": "close-up bottle with dark gradient",
+      "status": "HOLD_NATIVE_BELOW_900_NO_SAVE_OR_RECOMPOSITION",
+      "photo_rights_verified": false,
+      "actual_user_stock_300mL_label_checked": false,
+      "retail_approved": false,
+      "original_pixels": [
+        731,
+        731
+      ],
+      "original_format": "WEBP",
+      "raw_SHA256": "f92f91ffd17568c7fb6cf1c1a305e6fcb8f02dc68014e895fed9d7941113d983"
+    }
+  ],
+  "new_source_comparison": "qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA/v2888-native-photo-source-resolution-visual-compare-QA.jpg",
+  "comparison_SHA256": "9149151f774da1b20cd817a002450f24ec901e9cabf87ad81d5139dad58289b7",
+  "old_v2857_original_JPG_modified": false,
+  "old_v2857_alpha_modified": false,
+  "new_generated_sale_artwork": 0,
+  "new_sales_approvals": 0,
+  "new_public_URLs": 0,
+  "photo_license_granted": false,
+  "exact_owned_stock_300mL_confirmed": false,
+  "old_11_published_groups_preserved": true,
+  "old_55_URLs_untouched": true,
+  "final_spreadsheet_shared": false,
+  "family_30_checkpoint": "qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA/stock30-incremental-state-v2888.json",
+  "next": "Review high-native candidate image packaging visually. Use only original source reference until owned stock 300mL is physically verified and image rights granted. If none native>=900, do not run another blind URL variation; skip to other families."
+}
