@@ -1,0 +1,120 @@
+name: BBIA v398 missing five exact official photo evidence
+on:
+  push:
+    branches: [bbia-ch2-qa-v398-20261106]
+    paths: [.github/workflows/bbia-v398-five-missing-official-photo.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0 requests==2.32.5 beautifulsoup4==4.14.2
+      - name: Capture only unresolved BBIA family official photos without changing former assets
+        shell: bash
+        run: |
+          python - <<'PY'
+          import requests, re, html, io, json, hashlib, collections
+          from pathlib import Path
+          from urllib.parse import urljoin, urlsplit, unquote
+          from concurrent.futures import ThreadPoolExecutor
+          from bs4 import BeautifulSoup
+          from PIL import Image, ImageDraw, ImageOps
+          dest=Path('/tmp/bbia-v398');dest.mkdir(parents=True,exist_ok=True)
+          names={'206':'Last Auto Gel Eyeliner','1000000110':'Last Auto Gel Eyeliner Slim','1000000134':'Last Contour Stick','239':'Ready To Wear Downy Cheek','1000000122':'Eau Glow Cushion Original'}
+          sess=requests.Session();sess.headers.update({'User-Agent':'Mozilla/5.0 (compatible; BBIA primary evidence review)','Accept-Language':'ko-KR,ko;q=0.9,en;q=0.8'})
+          def candidates(sku):
+            url='https://www.bbia.co.kr/goods/goods_view.php?goodsNo='+sku
+            page=sess.get(url,timeout=30);page.raise_for_status()
+            if sku not in page.url and sku not in page.text[:30000]:raise ValueError('possibly redirected page')
+            soup=BeautifulSoup(page.text,'html.parser');hits=[]
+            attrs=['src','data-src','data-original','data-zoom-image','data-large','content','href','data-image']
+            for tag in soup.find_all(['img','source','meta','a']):
+              for a in attrs:
+                v=tag.get(a)
+                if not v:continue
+                if a=='href' and tag.name!='a':continue
+                hits.append(v)
+            rx=r'''(?:https?:)?//[^"'<>\\s]+?\.(?:jpg|jpeg|png|webp|gif)(?:\?[^"'<>\\s]*)?'''
+            hits += re.findall(rx, html.unescape(page.text),flags=re.I)
+            cleaned=[]
+            for h in hits:
+              h=html.unescape(str(h)).replace('\\/','/').strip().split(',')[0].split('  ')[0]
+              if h.startswith('data:') or not h:continue
+              if h.startswith('//'):h='https:'+h
+              if not h.startswith('http'):h=urljoin(page.url,h)
+              host=urlsplit(h).netloc.lower()
+              if not any(p in host for p in ['bbia.co.kr','cdn-nhncommerce.com','sabangnet.co.kr']):continue
+              if re.search(r'\.(?:jpg|jpeg|png|webp|gif)(?:$|\?)',urlsplit(h).path,re.I) is None:continue
+              if h not in cleaned:cleaned.append(h)
+            def score(h):
+              p=unquote(urlsplit(h).path).lower()
+              v=0
+              if '/'+sku+'/' in p:v+=150
+              if sku in p:v+=110
+              if 'magnify' in p:v+=65
+              if 'detail' in p:v+=40
+              if 'last_' in p or 'eau_' in p or 'downy_' in p:v+=45
+              if 'goods' in p:v+=10
+              if any(z in p for z in ['icon','banner','logo','event','delivery','notice','benefit']):v-=90
+              if 'thumb' in p or '/t50_' in p:v-=20
+              return v
+            order=sorted(cleaned,key=score,reverse=True)
+            # one main plus up to six official detail/native sources; filter low-signal cross-products
+            selected=[x for x in order if score(x)>=40][:12]
+            return {'url':url,'http_status':page.status_code,'all_candidates':len(cleaned),'shortlist':selected,'preview_candidates':order[:25]}
+          pages={}
+          for id in names:
+            try: pages[id]=candidates(id)
+            except Exception as e:pages[id]={'error':type(e).__name__+':'+str(e)[:250], 'shortlist':[]}
+          requests_list=[(id,n,i,url) for id,meta in pages.items() for i,url in enumerate(meta.get('shortlist',[])[:12]) for n in [names[id]]]
+          def get(job):
+            sku,name,i,url=job;r={'sku':sku,'name':name,'index':i,'url':url}
+            try:
+              resp=sess.get(url,timeout=25,headers={'Referer':pages[sku]['url']});resp.raise_for_status()
+              raw=resp.content
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();fmt=im.format;dim=list(im.size)
+              if fmt not in ('JPEG','PNG','WEBP') or min(dim)<340 or len(raw)<11000:raise ValueError('non-photo, undersized, or unsupported')
+              fn='BBIA_'+sku+'_CANDIDATE_'+str(i).zfill(2)+'_OFFICIAL_v398.'+{'JPEG':'jpg','PNG':'png','WEBP':'webp'}[fmt]
+              (dest/fn).write_bytes(raw)
+              r.update(status='SAVED',filename=fn,dimensions=dim,format=fmt,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+            except Exception as ex:r.update(status='HOLD',reason=type(ex).__name__+': '+str(ex)[:155])
+            return r
+          with ThreadPoolExecutor(max_workers=7) as pool:records=list(pool.map(get,requests_list))
+          saved=[x for x in records if x['status']=='SAVED']
+          # strictly keep only up to 5 strongest distinct SHA files per SKU
+          selected=[]
+          for sku in names:
+            seen=set()
+            for r in [x for x in saved if x['sku']==sku]:
+              if r['sha256'] in seen or len([x for x in selected if x['sku']==sku])>=5:continue
+              seen.add(r['sha256']);selected.append(r)
+          keep=set(r['filename'] for r in selected)
+          for r in saved:
+            if r['filename'] not in keep: (dest/r['filename']).unlink()
+          board=Image.new('RGB',(1600,len(names)*330+60),'#f7f3f0')
+          dr=ImageDraw.Draw(board);dr.text((15,15),'BBIA v398 FIVE MISSING OFFICIAL FAMILIES | SOURCE QA NOT SALES APPROVED',fill='#282426')
+          for row,sku in enumerate(names):
+            y=58+row*330;dr.text((12,y),sku+' '+names[sku],fill='#252525')
+            these=[r for r in selected if r['sku']==sku]
+            for col in range(5):
+              x=col*320+8
+              if col>=len(these):dr.text((x,y+60),'PHOTO HOLD',fill='#ac4a40');continue
+              z=these[col];im=Image.open(dest/z['filename']).convert('RGB')
+              if im.height>im.width*3:im=im.crop((0,0,im.width,min(im.height,im.width*2)))
+              im.thumbnail((304,255),Image.Resampling.LANCZOS)
+              board.paste(im,(x+(310-im.width)//2,y+24))
+              dr.text((x+8,y+288),z['sha256'][:10]+' '+str(z['dimensions']),fill='#555555')
+          board.save(dest/'BBIA_v398_FIVE_SOURCE_CONTACT.jpg',quality=90,optimize=True)
+          state={'version':'v398','parent':'v397b','purpose':'recover firstparty native photos for five never-produced product families','pages':pages,'download_attempts':len(records),'valid_raw_sources':len(saved),'distinct_kept_sources':len(selected),'selected':selected,'failed':[r for r in records if r['status']=='HOLD'],'approved_for_sale':0,'original_55_published_urls_modified':0,'v397b_30_drafts_modified':0,'final_excel_shared':False,'hold_option_specific_photo_validation':True,'hold_retail_use_rights':True}
+          (dest/'BBIA_v398_MISSING_FIVE_SOURCE_CHECKPOINT.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'requests':len(records),'saved':len(saved),'selected':len(selected),'per_sku':{k:len([z for z in selected if z['sku']==k]) for k in names}},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v398-five-missing-source-evidence
+          path: /tmp/bbia-v398
+          retention-days: 30
