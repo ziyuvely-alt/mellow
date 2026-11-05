@@ -1,0 +1,110 @@
+{
+  "version": "v2869",
+  "baseline": "v2868",
+  "family": "pending-05",
+  "product": "CLIO Founwear Cushion The Original (gift-set edition not confirmed)",
+  "source_edition_reference": [
+    {
+      "shade": "21C",
+      "listing": "https://www.belieef.com/clio-kill-cover-founwear-cushion-the-original-1pack-15g-refill-15g-403178.html",
+      "seller_says": "15g compact + 15g refill; 21C one listed option; user-owned stock match unverified"
+    },
+    {
+      "shade": "21N",
+      "listing": "https://www.watsons.com.sg/kill-cover-founwear-cushion-the-original-21n-linen-15g-refill-15g/p/BP_85755",
+      "seller_says": "21N 15g + refill 15g; owned stock match unverified"
+    }
+  ],
+  "new_option_composite_JPGs": 2,
+  "created_from_new_photo_downloads": 0,
+  "archived_original_product_images_changed": 0,
+  "archived_original_swatches_changed": 0,
+  "previous_v2866_three_shade_card_bytes_changed": 0,
+  "two_near_duplicate_merchant_compact_visuals_not_resolved": true,
+  "results": [
+    {
+      "shade": "21C",
+      "name": "LINGERIE",
+      "status": "SOURCE_LINKED_PRODUCT_AND_TWO_REAL_SWATCHS_QA_ONLY",
+      "retail_approved": false,
+      "licensed_for_commercial_use": false,
+      "output": "qa-review/v2869-founwear-21c21n-option-photo-swatch-crosscheck-QA/CLIO-Founwear-21C-product-plus-real-2-source-swatches-1080-QA.jpg",
+      "bytes": 164383,
+      "sha256": "3c03252b9b5d7ce4bb6662532e5ca5220fce840df8de8b14d51aad09693a18de",
+      "source_product": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/21C-Moona-exact-product-1080-QA.jpg",
+      "source_product_sha256": "157e71ee720df6530c9edc69c132145c37f8c020a0a2bb8f8635ae08a6256691",
+      "source_swatch_photos": [
+        {
+          "id": "merchant-cheek-five-labeled-shades",
+          "sha256": "a5de7ef55f7510cb96497c45b5243db5e2cd3cb5a094bfe80cb2729a51052a8f",
+          "crop_original_pixels": [
+            410,
+            560,
+            978,
+            888
+          ]
+        },
+        {
+          "id": "merchant-forearm-five-labeled-shades",
+          "sha256": "e7548a612e94d5f786d96b385f81ab3246b966100357942d6043f7088b63a70c",
+          "crop_original_pixels": [
+            470,
+            182,
+            816,
+            609
+          ]
+        }
+      ],
+      "visual_product_image_near_duplicate_other_shade": true,
+      "photographed_swatch_labels_present_in_source": true,
+      "user_stock_set_packaging_verified": false
+    },
+    {
+      "shade": "21N",
+      "name": "LINEN",
+      "status": "SOURCE_LINKED_PRODUCT_AND_TWO_REAL_SWATCHS_QA_ONLY",
+      "retail_approved": false,
+      "licensed_for_commercial_use": false,
+      "output": "qa-review/v2869-founwear-21c21n-option-photo-swatch-crosscheck-QA/CLIO-Founwear-21N-product-plus-real-2-source-swatches-1080-QA.jpg",
+      "bytes": 164588,
+      "sha256": "098d64af2a8c04d76f8ac87d43689e106e11c5ce74dc2941466bc6e4c24ac0d3",
+      "source_product": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/21N-Moona-exact-product-1080-QA.jpg",
+      "source_product_sha256": "7e85033db395b5d1b41629a08e8f3c22c950c84c4b4922980e554fd13700444a",
+      "source_swatch_photos": [
+        {
+          "id": "merchant-cheek-five-labeled-shades",
+          "sha256": "a5de7ef55f7510cb96497c45b5243db5e2cd3cb5a094bfe80cb2729a51052a8f",
+          "crop_original_pixels": [
+            500,
+            765,
+            1080,
+            1066
+          ]
+        },
+        {
+          "id": "merchant-forearm-five-labeled-shades",
+          "sha256": "e7548a612e94d5f786d96b385f81ab3246b966100357942d6043f7088b63a70c",
+          "crop_original_pixels": [
+            666,
+            92,
+            998,
+            535
+          ]
+        }
+      ],
+      "visual_product_image_near_duplicate_other_shade": true,
+      "photographed_swatch_labels_present_in_source": true,
+      "user_stock_set_packaging_verified": false
+    }
+  ],
+  "contact": "qa-review/v2869-founwear-21c21n-option-photo-swatch-crosscheck-QA/v2869-21C-21N-source-bridge-option-review-QA.jpg",
+  "prior_11_public_groups_unchanged": true,
+  "prior_55_verified_public_URLs_unchanged": true,
+  "retail_photo_rights_verified": false,
+  "authenticated_original_MK_logo_present": false,
+  "physical_owned_stock_edition_verified": false,
+  "new_sales_approved": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "next": "Use source swatches only as internal cross-validation, do not treat near-identical merchant product photos as exact shade-specific proof. To sell, verify user's actual 15g+refill boxes and legal image rights; move to other unresolved family instead of resegmentation."
+}
