@@ -1,0 +1,40 @@
+name: Shopee v2920 package six partial 3or4 image QA archives without rebuilding
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2920-six-partial-photo-zip-qa.yml'
+      - 'scripts/v2920_six_partial_photo_original_byte_archives.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source_preserving_archive_six_pending_product_groups:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Copy exact source JPEG bytes only into six internal QA ZIPs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2920_six_partial_photo_original_byte_archives.py
+          cp scripts/v2920_six_partial_photo_original_byte_archives.py /tmp/v2920.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2920qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2920qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP
+          python /tmp/v2920.py
+          git add qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP
+          git diff --cached --name-only | tee /tmp/v2920-changed
+          ! grep -Ev '^qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/' /tmp/v2920-changed
+          git commit -m 'v2920 archive six non-retail product-specific original byte image ZIPs, 19 SHA-checked photos'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
