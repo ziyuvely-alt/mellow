@@ -1,0 +1,34 @@
+name: Shopee v2852 CLIO Founwear The Original five shade alternate merchant QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2852-founwear-five-merchant-shade-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  shade_source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Match source photos to five exact stock variants; retain all earlier QA assets
+        run: |
+          cp scripts/v2852_founwear_original_five_shade_fallback_sources_QA.py /tmp/v2852.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2852qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2852qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2852.py
+          git add qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA
+          git commit -m 'v2852 real Founwear Original 19C 19N 21C 21N 23N merchant photo source QA; all sales assets unchanged'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
