@@ -1,0 +1,37 @@
+name: Shopee v2889 Goodal 25AD and two Dr.G SunPlus edition QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2889-goodal25ad-drg-3family-existing15photo-edition-gate.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check_15_photos_not_regenerate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Verify 15 archived photo SHA and make 2 product-edition identity proof contact sheets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2889_three_family_edition_and_photo_rights_QA.py
+          cp scripts/v2889_three_family_edition_and_photo_rights_QA.py /tmp/v2889.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2889qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2889qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2889-goodal25ad-drg2022-two-edition-15photo-QA
+          python /tmp/v2889.py
+          git add qa-review/v2889-goodal25ad-drg2022-two-edition-15photo-QA
+          git commit -m 'v2889 Goodal 25AD plus two distinct DrG exact edition 15 photo QA and new 30 family hold checkpoint'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
