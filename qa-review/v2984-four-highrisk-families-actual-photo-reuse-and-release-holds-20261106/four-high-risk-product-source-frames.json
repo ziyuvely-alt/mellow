@@ -1,0 +1,334 @@
+{
+  "pending-05": {
+    "product": "CLIO Founwear cushion fullsize 15g + 15g refill",
+    "chosen_reference_JPGs": [
+      {
+        "source": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/01-6670-M-1080-REFERENCE-NOT-RETAIL.jpg",
+        "sha256": "58ffd0750764363f8cfd692ae684de6d0e12ae40d4444da0ef0f8df0054a1597",
+        "bytes": 166731,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "Correct 6670 model source, but native 502/600px and same core scene M/B",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false,
+        "native_px": [
+          502,
+          502
+        ],
+        "physical_stock_edition": false,
+        "not_retail_ready": true
+      },
+      {
+        "source": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/02-6670-B-1080-REFERENCE-NOT-RETAIL.jpg",
+        "sha256": "c16e39174c60f6512432fc8636defdd94b9b7c5f6698727cd3f6bdadaeb81f64",
+        "bytes": 174346,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "Correct 6670 model source, but native 502/600px and same core scene M/B",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false,
+        "native_px": [
+          600,
+          600
+        ],
+        "physical_stock_edition": false,
+        "not_retail_ready": true
+      }
+    ],
+    "existing_refs_2_not_5_proven": true,
+    "known_wrong_prior_sources": [
+      "5750 MINI 5g",
+      "7108 MINI 5g"
+    ],
+    "distinct_product_scene_count_proven": 1,
+    "QA_stage": "ONLY_TWO_CORRECT_PRODUCT_ID_LOW_NATIVE_REFERENCES; DO_NOT_PROMOTE_5PHOTO",
+    "official_item": "https://clubclio.co.kr/shop/goodsView/0000006670",
+    "official_net": "15g x 2, main compact + refill",
+    "current_promo_puff_gift": "NOT_ASSUMED_IN_OWNED_STOCK",
+    "current_new_color_options_20261012": "DO_NOT_ADD_NEW_15C_20N_22N_TO_STOCK_UNLESS_CONFIRMED",
+    "physical_owned_stock_variant_verified": false,
+    "photo_rights_verified": false,
+    "published": false
+  },
+  "pending-07": {
+    "product": "CLIO Mesh Blur cushion fullsize 15g + 15g refill",
+    "existing_JPGs": [
+      {
+        "source": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/01-official-6455-m-gif-REFERENCE.jpg",
+        "sha256": "5f7f5fc8caac73b277b22211ab259ff99dee76677a153b1c75c96460e9033728",
+        "bytes": 97402,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "M/B same composition",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/02-official-6455-b-gif-REFERENCE.jpg",
+        "sha256": "0f7048370490ee184bcc6423a8d54babc67569a56b0f07e1e24c2f6863208e29",
+        "bytes": 104623,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "M/B same composition",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19C-reference-card-1080-QA.jpg",
+        "sha256": "33fcba1520233be71c29872ed5479d0abe7934f1d713c392354ecd67236971f8",
+        "bytes": 104923,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_INFORMATION_CARD",
+        "review_note": "Shade name card; do not claim authentic swatch pixels",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19N-reference-card-1080-QA.jpg",
+        "sha256": "338bf4442758d91b5f3c5f5ca3b06bb8d642bdb4006396ce64bd506a35b0de40",
+        "bytes": 103126,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_INFORMATION_CARD",
+        "review_note": "Shade name card; do not claim authentic swatch pixels",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-21N-reference-card-1080-QA.jpg",
+        "sha256": "09ef3166666d45835bea0e59859fe6a6a74d8da504e80a8845734da926cb32ee",
+        "bytes": 103165,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_INFORMATION_CARD",
+        "review_note": "Shade name card; do not claim authentic swatch pixels",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      }
+    ],
+    "technically_available": 5,
+    "unique_photo_scene_count_proven": 1,
+    "three_shade_cards_not_photos": true,
+    "QA_stage": "TECH_5FILES_MIXED_2_PHOTOS_3_CARDS_M_B_SIMILAR_HOLD",
+    "official_item": "https://clubclio.co.kr/shop/goodsView/0000006455",
+    "official_net": "15g x 2; option-specific contents vary",
+    "physical_owned_variant_set_confirmed": false,
+    "commercial_rights_confirmed": false,
+    "published": false
+  },
+  "pending-12": {
+    "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+    "candidate_source_5frame_set": [
+      {
+        "source": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/01-existing-original-slot01-unchanged-QA.jpg",
+        "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+        "bytes": 70358,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/02-existing-original-slot02-unchanged-QA.jpg",
+        "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+        "bytes": 103345,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/03-existing-original-slot03-unchanged-QA.jpg",
+        "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+        "bytes": 54624,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-12-MISSHA-PDRN-Peel-Shot25-official-15mL-info-INTERNAL.jpg",
+        "sha256": "5c46673fcf98ad17fd42a5890d4d5e1cd62dfc9fac216e740fe0b8886c1a6fe4",
+        "bytes": 107304,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_BRAND_15ML_QA_CARD",
+        "review_note": "Brand catalog 15mL, not evidence stock 15G is equivalent",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/05-safe-original-info-QA.jpg",
+        "sha256": "c12fa2e1877184352cd52c84829ba92066a06daaa6188ec70f559005ad20d57e",
+        "bytes": 80828,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_ORIGINAL_LABEL_GUIDE",
+        "review_note": "Directions card, not independent product photo",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      }
+    ],
+    "photo_count": 3,
+    "original_info_card_count": 2,
+    "QA_stage": "FIVE_FRAME_TECH_PASS_PRODUCT_NET_15G_STOCK_VS_15ML_BRAND_HOLD",
+    "brand_catalog_volume": "15mL",
+    "stock_legacy_record": "15g (unverified, not converted)",
+    "brand_listing": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+    "stock_printed_unit_verified": false,
+    "photo_rights_verified": false,
+    "published": false
+  },
+  "pending-11": {
+    "product": "OBgE All In One Double Essence 100mL",
+    "candidate_source_5frame_set": [
+      {
+        "source": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/01-real-product-cutout-prior-QA.jpg",
+        "sha256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37",
+        "bytes": 61512,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "White single dual-chamber bottle candidate, actual user-owned edition not proven",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-11/02-original-slot04-byte-preserved-QA.jpg",
+        "sha256": "acfb08b21baee43f033d449d442c6565a857929f356f34a24c2b2e1a549eb10b",
+        "bytes": 70920,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "REFERENCE_PHOTO",
+        "review_note": "Same white bottle with cream texture, user-owned generation unverified",
+        "technical_pass": true,
+        "redistribution_rights_verified": false,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-11/03-product-details-QA.jpg",
+        "sha256": "ffa60a877ce3d2633f5b1eba08a280e11e4ca5a088032d2e3c5a71d393be8c07",
+        "bytes": 71120,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_ORIGINAL_GENERIC_INFO",
+        "review_note": "Original informational frame, no source photo",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2983-obge-doubleessence-photo-free-dual-formula-replacement-20261106/pending-11-OBgE-two-formulas-50plus50-ONE-product-INTERNAL-QA.jpg",
+        "sha256": "f3eb8a3da5d9bc5e7bac4870dad55d917ea378e78ffbc2439c471615ba6b2700",
+        "bytes": 104440,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "NEW_ORIGINAL_FORMULA_CORRECTION",
+        "review_note": "50mL TONER+ESSENCE and 50mL LOTION+CREAM, one bottle, no photo",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      },
+      {
+        "source": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/pending-11/05-product-guide-QA.jpg",
+        "sha256": "cdee19c85f0e2ba24cbfb8b1a6303661f51cd300366af28cb2b3eab9bb4013f5",
+        "bytes": 81852,
+        "dimensions": [
+          1080,
+          1080
+        ],
+        "format": "JPEG",
+        "kind": "EXISTING_ORIGINAL_USAGE_INFO",
+        "review_note": "Product guide generic, no source photo",
+        "technical_pass": true,
+        "redistribution_rights_verified": true,
+        "authentic_MK_embedded": false
+      }
+    ],
+    "photo_count": 2,
+    "original_info_card_count": 3,
+    "QA_stage": "FIVE_FRAME_TECH_PASS_ONE_BOTTLE_TWO_FORMULAS_EXACT_STOCK_AND_RIGHTS_HOLD",
+    "one_bottle": "Yes, 2 formulas in one dual-chamber bottle",
+    "formula_01": "Toner + Essence 50mL",
+    "formula_02": "Lotion + Cream 50mL",
+    "rejected_legacy": "v2923 old photo slot2 see-through golden bottle mismatches preferred white candidate; do not reuse until proved same owned edition",
+    "official_item": "https://www.obge.co.kr/product/detail.html?cate_no=0&display_group=0&product_no=15",
+    "formula_details": "https://www.yesstyle.com/en/obge-all-in-one-double-essence-100ml/info.html/pid.1128931980",
+    "actual_physical_packaging_verified": false,
+    "licensed_source_photo_redistribution": false,
+    "original_MK_logo_verified": false,
+    "published": false
+  }
+}
