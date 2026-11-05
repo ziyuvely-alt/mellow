@@ -1,0 +1,52 @@
+{
+  "version": "v2939",
+  "baseline": "v2938",
+  "generated_utc": "2026-11-05T16:15:55Z",
+  "family": "pending-20",
+  "listing_verified": true,
+  "new_source_photos": 2,
+  "five_source_target_gap": 0,
+  "source_records": [
+    {
+      "scene": "CITRUS_STILL",
+      "native_px": [
+        600,
+        800
+      ],
+      "native_at_least_900": false,
+      "url": "https://oceanbuy.ca/cdn/shop/files/goodalgoodal-green-tangerine-vita-c-serum-mist-100mloceanbuy-beauty-7721846.png?v=1777655591&width=1080",
+      "original": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/01-CITRUS_STILL-original.png",
+      "original_sha256": "e090ff571d32f156d6cb1b7c1bb8930fdf8f9db855fa9a90d8133f95f4a6da68",
+      "qa_ref": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/01-CITRUS_STILL-internal-1080.jpg",
+      "qa_sha256": "ea725fe7abee9041588a25ec135847ad17836980eefb464ff46ee5f0002edb83",
+      "near_scene_distance": 31,
+      "retail_rights": false,
+      "stock_edition_verified": false,
+      "sale_approved": false
+    },
+    {
+      "scene": "CITRUS_WATER",
+      "native_px": [
+        600,
+        800
+      ],
+      "native_at_least_900": false,
+      "url": "https://oceanbuy.ca/cdn/shop/files/goodalgoodal-green-tangerine-vita-c-serum-mist-100mloceanbuy-beauty-8195066.png?v=1777655591&width=1080",
+      "original": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/02-CITRUS_WATER-original.png",
+      "original_sha256": "f97bac20c4fe95dfb1b142796a2d9140143fcc4649c92c99b4c1eed2a01b02a4",
+      "qa_ref": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/02-CITRUS_WATER-internal-1080.jpg",
+      "qa_sha256": "60263e3837e577c6243fa47bd1a6412927ae8e378c63803569c9a05c1a7d8557",
+      "near_scene_distance": 28,
+      "retail_rights": false,
+      "stock_edition_verified": false,
+      "sale_approved": false
+    }
+  ],
+  "qa_zip": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/GOODAL_100ml_five_source_photos_INTERNAL_ONLY.zip",
+  "qa_zip_sha256": "2927a06b1ee3f3a54f6b10471ac9934b55cd07ea728d6f2e7b7e364067520294",
+  "errors": [],
+  "old_55_urls_changed": 0,
+  "old_11_family_assets_changed": 0,
+  "new_sale_approvals": 0,
+  "final_spreadsheet_shared": false
+}
