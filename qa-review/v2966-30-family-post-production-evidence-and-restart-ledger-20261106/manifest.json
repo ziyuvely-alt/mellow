@@ -1,0 +1,578 @@
+{
+  "checkpoint_version": "v2966",
+  "previous": "v2965",
+  "date_kst": "2026-11-06",
+  "repo": "ziyuvely-alt/mellow",
+  "qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "parent_30_family_roster": "qa-review/v2947-manual-contact-sheet-QA-and-two-lane-ledger-20261106/manifest.json",
+  "project": "Shopee Thumbnail Creator PRO | 82 SKU | 41 families",
+  "baseline_preserved_as_historical": {
+    "published_family_count": 11,
+    "verified_image_url_count": 55,
+    "public_files_modified": 0,
+    "new_URLs_verified_current_turn": 0
+  },
+  "actual_operations_done_since_v2956": [
+    {
+      "version": "v2957",
+      "action": "Split five existing Goodal mist photos into two separate observed front-label groups, each internal original-byte ZIP",
+      "state": "COMPLETED",
+      "new_ZIPs": 2
+    },
+    {
+      "version": "v2958",
+      "action": "Imported new 800x800 Pixelpure Aura Radiance Serum 50mL photo and saved five-frame internal QA ZIP",
+      "state": "COMPLETED",
+      "new_JPG": 1
+    },
+    {
+      "version": "v2959",
+      "action": "Failed at JPEG encoder format, source not lost; newer v2961 supersedes",
+      "state": "SUPERSEDED_BY_v2961"
+    },
+    {
+      "version": "v2960",
+      "action": "Toner 639x800 proxy source rejected",
+      "state": "SOURCE_TOO_SMALL_SUPERSEDED"
+    },
+    {
+      "version": "v2961",
+      "action": "Correct JPEG encoded 800px Pixelpure Aqua Soothing Cream source and saved five-frame internal ZIP",
+      "state": "COMPLETED",
+      "new_JPG": 1
+    },
+    {
+      "version": "v2962",
+      "action": "Raw toner origin exceeded 5MB cap; no source saved",
+      "state": "SOURCE_TOO_BIG_SUPERSEDED"
+    },
+    {
+      "version": "v2963",
+      "action": "Obtained 1279x1600 higher-res Pixelpure Soothing Toner source and saved five-scene internal ZIP",
+      "state": "COMPLETED",
+      "new_JPG": 1
+    },
+    {
+      "version": "v2964",
+      "action": "Obtained native 780px transparent Bioheal cream photo, original alpha encoded black in candidate JPEG",
+      "state": "VISUAL_DEFECT_FIXED_BY_v2965"
+    },
+    {
+      "version": "v2965",
+      "action": "Alpha composited Bioheal 50ml fifth frame onto white, saved repaired JPG & five-source QA ZIP, diagnosed semantic overlap",
+      "state": "COMPLETED_TECHNICALLY_NOT_5_UNIQUE_SCENES",
+      "new_JPG": 1
+    }
+  ],
+  "production_scope_summary": {
+    "total_pending_families": 30,
+    "historical_completed_families_protected": 11,
+    "new_original_images_saved_in_v2957_to_v2965": 4,
+    "new_corrected_internal_JPG_in_v2965": 1,
+    "new_sale_approved_customer_JPG": 0,
+    "source_5_JPG_canonical_QA_new_families": [
+      "pending-27",
+      "pending-29",
+      "pending-30"
+    ],
+    "not_sufficient_as_5_distinct": [
+      "pending-25"
+    ],
+    "wrong_generation_split": [
+      "pending-20"
+    ],
+    "logo_original_binary_access": "NOT_OBTAINED_FROM_PRIVATE_PLUGIN_ARCHIVE_VIA_AVAILABLE_TOOLS",
+    "render_publishing": "NOT_ATTEMPTED_THERE_ARE_NO_VERIFIED_NEW_RETAIL_ASSETS",
+    "github_qa_only": "YES"
+  },
+  "release_gate": {
+    "source_photo_exists_not_license": true,
+    "JPG_1080_not_native_detail": true,
+    "photo_file_count_not_scene_count": true,
+    "logo_from_old_photograph_not_authenticated_original": true,
+    "reverify_original_55_URLs": false,
+    "forbid_nonapproved_on_public_images": true,
+    "require_before_sale": [
+      "physical exact stock edition",
+      "commercial image usage permission",
+      "authenticated original MellowKR MK PNG",
+      "frame-specific readibility and no cropping",
+      "new public/image version URL anonymous actual JPEG and SHA256 equality"
+    ]
+  },
+  "family_lanes": [
+    {
+      "family_id": "pending-01",
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2924",
+      "existing_archive_locator": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-02",
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2924",
+      "existing_archive_locator": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-03",
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-03-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-04",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-04-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2941",
+      "existing_archive_locator": null,
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2945",
+      "existing_archive_locator": null,
+      "hold_reasons": [
+        "HOLD_PACK_GENERATION_AND_MISSING_PRODUCT_PHOTO"
+      ],
+      "next_action": "Check owned kit before selecting 25FW or REGULAR pack, retain existing two reference cards"
+    },
+    {
+      "family_id": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2941",
+      "existing_archive_locator": null,
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-08",
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "production_stage": "PERIPERA_01_TO_20_EDITION_OPTION_HOLD",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2941",
+      "existing_archive_locator": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-09",
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-09-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-10",
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-10-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights",
+        "HOLD_SINGLE_PRODUCT_EDITION_AND_PHOTO_DIVERSITY"
+      ],
+      "next_action": "Replace fifth photo slot with different permitted exact-edition product photograph only if independent-photo requirement applies"
+    },
+    {
+      "family_id": "pending-11",
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-11-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2945",
+      "existing_archive_locator": null,
+      "hold_reasons": [
+        "User-owned actual package label must be photographed",
+        "Photo commercial usage permission missing",
+        "HOLD_MEASUREMENT_DISAGREEMENT"
+      ],
+      "next_action": "Resolve physical label before sales claim, preserve existing 15mL card as reference"
+    },
+    {
+      "family_id": "pending-13",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-13-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "HOLD_PHOTO_DIVERSITY_RIGHTS_MK"
+      ],
+      "next_action": "Preserve 30 mL source images; seek independent licensed fifth scene"
+    },
+    {
+      "family_id": "pending-14",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-14-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "HOLD_LAYOUT_RIGHTS_MK"
+      ],
+      "next_action": "Repair pasted rectangular source backgrounds only in frames 2-3 after provenance clearance"
+    },
+    {
+      "family_id": "pending-15",
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "production_stage": "QA_CANDIDATE_REJECTED_2022_PRODUCT_EDGE",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2922",
+      "existing_archive_locator": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_GreenMildUpSunPlus_2022_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Do not retry failed cyan halo mask. Obtain exact 2022-version licensed new native scene; model photo rights on hold.",
+      "latest_evidence": "qa-review/v2953-drg15-visual-reject-and-source-mismatch-protection-20261106/manifest.json"
+    },
+    {
+      "family_id": "pending-16",
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2922",
+      "existing_archive_locator": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_RedBlemishCream_2022_70mL_5HISTORIC_SOURCE_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-17",
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2922",
+      "existing_archive_locator": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningMoistureSun_2023_50mL_5HISTORIC_SOURCE_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-18",
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2922",
+      "existing_archive_locator": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningUpSunPlus_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-19",
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2924",
+      "existing_archive_locator": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "production_stage": "TWO_FRONT_LABEL_GROUPS_ARCHIVED_SEPARATELY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2939",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/GOODAL_VitaC_SerumMist100mL_3OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Check actual owned 25AD bottle front label; retain LABEL_A three originals and LABEL_B two originals separately; no mixed 5-image set.",
+      "latest_evidence": "qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/manifest.json"
+    },
+    {
+      "family_id": "pending-21",
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2922",
+      "existing_archive_locator": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    {
+      "family_id": "pending-22",
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-22-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "source native 600px and softness",
+        "license for commercial photo not confirmed",
+        "owned 300mL packaging edition not inspected",
+        "original MK mark not authenticated",
+        "HOLD_SOFT_EDGES_LOGO_RIGHTS"
+      ],
+      "next_action": "Correct blur/mask only on affected frames using actual exact-edition native photograph; do not alter source"
+    },
+    {
+      "family_id": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "production_stage": "TECHNICAL_5_JPG_QA_STAGE_COMPLETE_NOT_RETAIL",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2918",
+      "existing_archive_locator": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/OBGE_PoreZero_SunCream_50mL_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "No new photos needed until stock batch, photo commercial permission and authentic MK image are verified.",
+      "latest_evidence": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-23-five-immutable-source-JPGs-INTERNAL-QA.zip"
+    },
+    {
+      "family_id": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2936",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "HOLD_LICENSE_STOCK_AND_CUSTOMER_OVERLAY"
+      ],
+      "next_action": "Reuse photos after rights clearance; separate customer-facing styling from QA card"
+    },
+    {
+      "family_id": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "production_stage": "5_JPG_TECHNICAL_QA_BUT_ONLY_3-4_SCENES_PROVEN",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2944",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "Keep corrected white-background candidate. Replace one or two semantically similar front/open-jar photos with genuinely different licensed and exact-50mL native scenes; don't count five JPGs as five independent photographs.",
+      "latest_evidence": "qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/pending-25-4-old-1-alpha-corrected-fifth-candidate-INTERNAL-NOT-RETAIL.zip",
+      "accepted_source_count": 5,
+      "independent_scene_count_verified": false
+    },
+    {
+      "family_id": "pending-26",
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2923",
+      "existing_archive_locator": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-26-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "hold_reasons": [
+        "HOLD_LOGO_AUTHENTICATION_PHOTO_DIVERSITY_RIGHTS"
+      ],
+      "next_action": "Confirm original logo against plugin bundled binary before any retail release"
+    },
+    {
+      "family_id": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "production_stage": "5_DIFFERENT_PRODUCT_PHOTO_SCENES_QA_STAGED_NOT_RETAIL",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2944",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "No repeat source searches. Await photo license, owned 200mL generation, original MK; then customer-clean JPG QA and new immutable Render path.",
+      "latest_evidence": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-five-photos-inc-1-new-KometGlobal-INTERNAL-ONLY.zip",
+      "latest_fifth_JPG": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-new-fifth-source-1080-INTERNAL-QA.jpg",
+      "latest_fifth_SHA256": "a9d107adca1ce45a99c8849cddd56ac989afb0347ab276ec6556b119dd3ee800",
+      "latest_native_px": [
+        1279,
+        1600
+      ]
+    },
+    {
+      "family_id": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "production_stage": "TECHNICAL_5_JPG_QA_STAGE_COMPLETE_NOT_RETAIL",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2918",
+      "existing_archive_locator": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/PixelPure_GlowCleansingSerumPads_210mL70ct_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "No new photos needed until 210mL/70-pads physical stock edition, rights and authenticated original MK are verified.",
+      "latest_evidence": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-28-five-immutable-source-JPGs-INTERNAL-QA.zip"
+    },
+    {
+      "family_id": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "production_stage": "5_DIFFERENT_PRODUCT_PHOTO_SCENES_QA_STAGED_NOT_RETAIL",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2944",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "No repeat photo sources. 800-native hero limited: scene is detail only until quality/rights/stock/MK validated.",
+      "latest_evidence": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-real-photograph-source-candidates-INTERNAL-ONLY.zip",
+      "latest_fifth_JPG": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-photo-new-candidate-1080-INTERNAL-QA.jpg",
+      "latest_fifth_SHA256": "f25438aa31256dacff5b60af1e66464d4da396978072b1c3df48729efeac5106",
+      "latest_native_px": [
+        800,
+        800
+      ]
+    },
+    {
+      "family_id": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "production_stage": "5_DIFFERENT_PRODUCT_PHOTO_SCENES_QA_STAGED_NOT_RETAIL",
+      "publishing_stage": "HOLD_NO_NEW_CUSTOMER_PUBLICATION",
+      "newly_sale_approved": false,
+      "last_completed_checkpoint": "v2944",
+      "existing_archive_locator": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip",
+      "hold_reasons": [
+        "physical stock exact edition, commercial photo permission, authenticated MK logo"
+      ],
+      "next_action": "No repeat photo sources. 800-native scene is QA-only; clear license/physical generation/MK before release.",
+      "latest_evidence": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-five-distinct-scene-candidates-NOT-FOR-RETAIL.zip",
+      "latest_fifth_JPG": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-candidate-05-two-floating-bottles-1080-INTERNAL-QA.jpg",
+      "latest_fifth_SHA256": "3505e93d5e00898d2c33441b850c500c898341378da348b3ce2471dda9116fb6",
+      "latest_native_px": [
+        800,
+        800
+      ]
+    }
+  ],
+  "next_execution_queue": [
+    {
+      "family_id": "pending-25",
+      "task": "Find exact-50mL distinct original scene(s) replacing similarity in 1/2 and 3/5. Preserve new alpha fixed JPG but do not falsely promote."
+    },
+    {
+      "family_id": "pending-20",
+      "task": "Product-generation conflict: reconcile 100mL 25AD actual bottle label; do not merge groups A/B."
+    },
+    {
+      "family_id": "pending-27",
+      "task": "No sourcing needed. Clear owned stock, photo licensing and original MK before customer-facing frame export."
+    },
+    {
+      "family_id": "pending-29",
+      "task": "No sourcing needed. Clear rights/stock/true MK, examine 800-native detail quality."
+    },
+    {
+      "family_id": "pending-30",
+      "task": "No sourcing needed. Clear rights/stock/true MK, examine 800-native detail quality."
+    },
+    {
+      "family_id": "pending-23",
+      "task": "Clear image rights and owned exact edition; reuse existing 5 untouched JPGs."
+    },
+    {
+      "family_id": "pending-28",
+      "task": "Clear image rights and owned exact edition; reuse existing 5 untouched JPGs."
+    }
+  ],
+  "avoid_repeating": [
+    "v2957 Goodal source split",
+    "v2958 Pixelpure serum new source",
+    "v2961 Pixelpure cream new source",
+    "v2963 Pixelpure toner high-res source",
+    "v2965 Bioheal alpha compositing",
+    "old 55 URL checks",
+    "repack old QA ZIPs"
+  ],
+  "newly_published_family_count": 0,
+  "new_verified_public_image_url_count": 0,
+  "final_excel_shared": false
+}
