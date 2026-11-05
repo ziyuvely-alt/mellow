@@ -1,0 +1,39 @@
+{
+  "version": "v2961",
+  "baseline": "v2958",
+  "product": "Pixelpure Radiance Aqua Soothing Cream 50mL",
+  "family": "pending-29",
+  "candidate_page": "https://www.tradekorea.com/product/detail/P849301/pixelpure-radiance-aqua-soothing-cream-50ml--Skin-Care-.html",
+  "candidate_source_url": "https://web.tradekorea.com/product/866/2334866/pixelpure_radiance_aqua_soothing_cream_50ml_%28Skin_Care%29_4.jpg",
+  "product_source_type": "TradeKorea Korean seller product photo; not brand-hosted and not licensed",
+  "candidate_scene_expected": "three cream jars in different angles with one exposed cream swirl",
+  "prior_zip_preserved": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-29-four-valid-photo-source-ONLY-INTERNAL.zip",
+  "old_source_images_overwritten": 0,
+  "prior_published_families_preserved": 11,
+  "prior_verified_urls_preserved": 55,
+  "sale_approved": false,
+  "commercial_photo_rights": false,
+  "owned_stock_version_proven": false,
+  "original_mk_png_proven": false,
+  "new_public_jpgs": 0,
+  "new_verified_urls": 0,
+  "candidate_saved": true,
+  "native_file": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-new-three-jar-scene-native-SOURCE-NOT-LICENSED.jpg",
+  "native_px": [
+    800,
+    800
+  ],
+  "native_sha256": "6ec909c1b9fb2eea30c19092f53a5abb34cd1b9418cacb8a8df99bef832d4a84",
+  "new_reference_JPG": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-photo-new-candidate-1080-INTERNAL-QA.jpg",
+  "new_reference_SHA256": "f25438aa31256dacff5b60af1e66464d4da396978072b1c3df48729efeac5106",
+  "dhash_distance_vs_prior_four": [
+    16,
+    33,
+    36,
+    20
+  ],
+  "outcome": "DISTINCT_FIFTH_SCENE_SOURCE_STAGED_FOR_VISUAL_QA",
+  "new_internally_staged_five_source_zip": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-real-photograph-source-candidates-INTERNAL-ONLY.zip",
+  "new_zip_sha256": "428fe7e99f16c4fefc275b81807ffe0cb89a9cda7fe53872c5cbdbebc4d68ed2",
+  "contact": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-scene-source-review-CONTACT-INTERNAL.jpg"
+}
