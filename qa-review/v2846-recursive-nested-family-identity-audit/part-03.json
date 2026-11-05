@@ -1,0 +1,325 @@
+{
+  "version": "v2846",
+  "batch": 3,
+  "offset": 45,
+  "records": [
+    {
+      "file": "qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts/manifest.json",
+      "nested": [
+        {
+          "family": "pending-17",
+          "jsonPath": "$.rows[0]",
+          "identity": "Brightening Up Moisture Sun 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.rows[1]",
+          "identity": "Green Mild Up Sun Plus 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-17",
+          "jsonPath": "$.rows[0]",
+          "identity": "Brightening Up Moisture Sun 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2734-two-failed-families-different-photo-ROI-u2net/manifest.json",
+      "nested": [
+        {
+          "family": "pending-21",
+          "jsonPath": "$.rows[0]",
+          "identity": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+          "risk": null
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.rows[1]",
+          "identity": "OBgE Oil Control Finisher 5g",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2738a-direct-contour-svg-fallback/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.actual_QA_files[0]",
+          "identity": "OBgE Oil Control Finisher 5g",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.actual_QA_files[1]",
+          "identity": "GOODAL Vita-C Dark Spot Care Cream Alpha 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-23",
+          "jsonPath": "$.products[0]",
+          "identity": "OBgE Pore Zero Sun Cream 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.products[0]",
+          "identity": "OBgE Oil Control Finisher 5g",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.products[1]",
+          "identity": "GOODAL Vita C Cream Alpha 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.products[2]",
+          "identity": "OBgE Pore Zero Sun Cream 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2740-three-family-photo-visual-adjudication/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.items[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.items[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.items[2]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2751-missha-shades25-27-true-alpha-edge-qa/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2761-peripera19-no-lip-panel-and-missha30ml-source03-qa/manifest.json",
+      "nested": [
+        {
+          "family": "pending-08",
+          "jsonPath": "$.results[0]",
+          "identity": "Old Ink Mood Glowy Tint #19 Mauve Chaos",
+          "risk": null
+        },
+        {
+          "family": "pending-13",
+          "jsonPath": "$.results[1]",
+          "identity": "PDRN NAD+ Firming Repair Serum 30mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/manifest.json",
+      "nested": [
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[9]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[10]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[11]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[12]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[13]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[14]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[15]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[16]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[17]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[18]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.peripera_variants[19]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2763-peripera20-separated-package-appearance-QA/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2764-two-new-original-source-real-alpha-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-01",
+          "jsonPath": "$.attempts[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.attempts[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2765-goodal-eye-cream30-remove-narrow-false-tail-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-21",
+          "jsonPath": "$.case",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    }
+  ]
+}
