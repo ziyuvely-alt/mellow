@@ -1,0 +1,101 @@
+{
+  "version": "v2871",
+  "baseline": "v2870",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream 50ml legacy gold pump",
+  "exact_shades_attempted": [
+    "21",
+    "25"
+  ],
+  "shade_23_already_existing_approved_QA_cutout_not_redone": true,
+  "genuine_original_photographs_new_downloads": 0,
+  "new_alpha_pngs": 2,
+  "new_JPGs": 2,
+  "model": "u2net",
+  "read_only_source_sha_locked": true,
+  "original_source_RGB_changed": false,
+  "rows": [
+    {
+      "shade": "21",
+      "name": "LIGHT BEIGE",
+      "source": "qa-review/v2869-missha-legacy-gold-pump-21-23-25-exact-shade-photo-QA/MISSHA-OLD-50ml-No21-source-unaltered.jpg",
+      "source_sha256": "27bf230b17c0a828d4c84cf659197e0b91a5bca6528dbd0df4426bfcf707e0c5",
+      "result": "HOLD_NOT_PROCESSED",
+      "new_license_approval": false,
+      "stock_packaging_verified": false,
+      "sale_approved": false,
+      "alpha_coverage_ratio": 0.251,
+      "mask_bbox": [
+        254,
+        0,
+        546,
+        800
+      ],
+      "probes": {
+        "red_labeled_tube": 254.0,
+        "top_crimp": 254.0,
+        "gold_pump": 255.0,
+        "bottom_nozzle": 254.0,
+        "empty_top_left": 0.0,
+        "empty_lower_right": 0.0
+      },
+      "bbox_top_fraction": 0.0,
+      "bbox_bottom_fraction": 1.0,
+      "status": "ALPHA_TECHNICAL_CANDIDATE_HOLD_LICENSE_STOCK",
+      "diagnostic": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-legacy-No21-u2net-source-checker-QA.jpg",
+      "diagnostic_sha256": "415b3c4c904335789efb5210afe2bf7c93b06bf97300c98c655280c351887a58",
+      "technical_guards_passed": true,
+      "png": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No21-original-RGB-true-alpha-QA.png",
+      "png_sha256": "3ebca136daf5b85d918c16e928a31d6d773e63174bd7187f52cc74aba26de92c",
+      "jpg": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No21-full-gold-pump-1080-QA.jpg",
+      "jpg_sha256": "9cedb4f1f26bba2391f65efc15ab4792b739985b7ce28228ad94d786b758e208",
+      "jpg_bytes": 115484
+    },
+    {
+      "shade": "25",
+      "name": "WARM BEIGE",
+      "source": "qa-review/v2870-missha-old-bb-25-new-cdn-source-and-three-shade-contact-QA/MISSHA-No25-legacy-gold-pump-KGallery-original.webp",
+      "source_sha256": "510713a5b5829dd1cdfed3dd2ffab5a6543c4308cb049f2ed5505bef601dca43",
+      "result": "HOLD_NOT_PROCESSED",
+      "new_license_approval": false,
+      "stock_packaging_verified": false,
+      "sale_approved": false,
+      "alpha_coverage_ratio": 0.206,
+      "mask_bbox": [
+        295,
+        121,
+        1190,
+        1477
+      ],
+      "probes": {
+        "red_labeled_tube": 254.0,
+        "top_crimp": 254.0,
+        "gold_pump": 254.0,
+        "bottom_nozzle": 253.0,
+        "empty_top_left": 0.0,
+        "empty_lower_right": 0.0
+      },
+      "bbox_top_fraction": 0.0807,
+      "bbox_bottom_fraction": 0.9847,
+      "status": "ALPHA_TECHNICAL_CANDIDATE_HOLD_LICENSE_STOCK",
+      "diagnostic": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-legacy-No25-u2net-source-checker-QA.jpg",
+      "diagnostic_sha256": "709fe6704f64364c83d892330f79ec7873adda96505d02a86feb2499db155061",
+      "technical_guards_passed": true,
+      "png": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No25-original-RGB-true-alpha-QA.png",
+      "png_sha256": "2fe0a294b7db453dc1d2a551402d32337362ec18156cd138743b191c286d919f",
+      "jpg": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No25-full-gold-pump-1080-QA.jpg",
+      "jpg_sha256": "9813f8e0de663ab6caac985a4f521ac3f5aad14e9d60747bd9b55939b3c4e0b0",
+      "jpg_bytes": 106019
+    }
+  ],
+  "comparison": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/v2871-missha-legacy-21-25-original-alpha-hero-visual-QA.jpg",
+  "no_new_public_urls": true,
+  "retail_approved": false,
+  "old_11_finished_families_preserved": true,
+  "old_55_verified_URLs_preserved": true,
+  "physical_owned_stock_same_packaging_version_verified": false,
+  "third_party_original_photo_rights_verified": false,
+  "original_round_MK_logo_authenticated": false,
+  "final_spreadsheet_shared": false,
+  "next": "Open and inspect full-sized masks and gold-pump transparent nozzles. If failure keep family held; do not repeat this same model. Keep No23 previous photo and carry pending02/10/12 edition-spec QA forward."
+}
