@@ -1,0 +1,561 @@
+{
+  "version": "v2846",
+  "batch": 0,
+  "offset": 0,
+  "records": [
+    {
+      "file": "qa-review/v2662-14-candidate-snapshot/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.images[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.images[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-16",
+          "jsonPath": "$.images[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-17",
+          "jsonPath": "$.images[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.images[4]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-02",
+          "jsonPath": "$.images[5]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.images[6]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.images[7]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.images[8]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.images[9]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.images[10]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.images[11]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.images[12]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.images[13]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2663-visual-proof/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2665-4-clean-copy-cards/manifest.json",
+      "nested": [
+        {
+          "family": "pending-02",
+          "jsonPath": "$.files[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.files[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.files[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.files[3]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2666-five-original-scenes/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.actual_families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.actual_families[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.actual_families[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.actual_families[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.actual_families[4]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2667-original-photo-picks/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.source_photos[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.source_photos[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.source_photos[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.source_photos[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.source_photos[4]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2671-drG-unreviewed-source-scenes/manifest.json",
+      "nested": [
+        {
+          "family": "pending-16",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-17",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.families[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.families[4]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2672-two-five-JPG-real-scene-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-17",
+          "jsonPath": "$.rows[0]",
+          "identity": "Dr.G Brightening Up Moisture Sun 50mL",
+          "flags": []
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.rows[1]",
+          "identity": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2673-two-new-product-five-JPG-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-16",
+          "jsonPath": "$.rows[0]",
+          "identity": "R.E.D BLEMISH CLEAR SOOTHING CREAM",
+          "flags": []
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.rows[1]",
+          "identity": "GREEN TANGERINE VITA C CREAM ALPHA",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2674-unassembled-family-source-contact/manifest.json",
+      "nested": [
+        {
+          "family": "pending-01",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-03",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.families[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.families[4]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-10",
+          "jsonPath": "$.families[5]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.families[6]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-12",
+          "jsonPath": "$.families[7]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-13",
+          "jsonPath": "$.families[8]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.families[9]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[10]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[11]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2675-missha-two-five-frame-photo-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-01",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.families[0]",
+          "identity": "OBgE Oil Control Finisher",
+          "flags": []
+        },
+        {
+          "family": "pending-10",
+          "jsonPath": "$.families[1]",
+          "identity": "OBgE Perfect Homme Cushion",
+          "flags": []
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.families[2]",
+          "identity": "OBgE All In One Double Essence",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2678-missha-clio-two-five-JPG-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-12",
+          "jsonPath": "$.families[0]",
+          "identity": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+          "flags": []
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.families[1]",
+          "identity": "CLIO Kill Cover Mesh Glow Essential Cushion",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2679-sixteen-pending-family-source-previews/manifest.json",
+      "nested": [
+        {
+          "family": "pending-02",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-03",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[2]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.families[3]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.families[4]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.families[5]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[6]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[7]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.families[8]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.families[9]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.families[10]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.families[11]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[12]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.families[13]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.families[14]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.families[15]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/manifest.json",
+      "nested": [
+        {
+          "family": "pending-23",
+          "jsonPath": "$.families[0]",
+          "identity": "PORE ZERO OIL CONTROL SUN CREAM",
+          "flags": []
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.families[1]",
+          "identity": "NAD-PRIZCELL GLOW POWER SERUM",
+          "flags": []
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.families[2]",
+          "identity": "NAD-PRIZCELL GLOW BOOST CREAM",
+          "flags": []
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.families[3]",
+          "identity": "SOOTHING AMPOULE TONER",
+          "flags": []
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.families[4]",
+          "identity": "RADIANCE AQUA SOOTHING CREAM",
+          "flags": []
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.families[5]",
+          "identity": "AURA RADIANCE SERUM",
+          "flags": []
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2681-two-eyecleanser-five-frame-qa/manifest.json",
+      "nested": [
+        {
+          "family": "pending-21",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "flags": []
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "flags": []
+        }
+      ]
+    }
+  ]
+}
