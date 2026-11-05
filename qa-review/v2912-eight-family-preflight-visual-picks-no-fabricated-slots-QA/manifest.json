@@ -1,0 +1,668 @@
+{
+  "version": "v2912",
+  "baseline": "v2911",
+  "created_utc": "2026-11-05T14:12:56Z",
+  "visual_contact_sheets_reviewed": 8,
+  "previous_image_candidates_reviewed": 71,
+  "preliminary_clean_candidate_source_photos": 21,
+  "quarantined_or_excluded_photo_candidates": 50,
+  "missing_slots_from_eight_five_photo_targets": 19,
+  "internal_five_slot_review_JPGs_created": 8,
+  "old_11_published_families_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "previous_QA_files_modified": 0,
+  "commercial_photo_licenses_cleared": 0,
+  "sale_approved_count": 0,
+  "public_images_published": 0,
+  "final_excel_shared": false,
+  "family_results": [
+    {
+      "family": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "selected_existing_clean_photo_source_count": 3,
+      "minimum_five_photo_source_shortfall": 2,
+      "source_photos": [
+        {
+          "idx": 2,
+          "role": "FULL_BOTTLE_PLAIN",
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/02-original-QA.jpg",
+          "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+          "bytes": 55913,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 4,
+          "role": "ANGLED_BOTTLE",
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/04-original-QA.jpg",
+          "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+          "bytes": 103332,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 6,
+          "role": "PRODUCT_ONLY_1080",
+          "path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+          "sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+          "bytes": 61644,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 1,
+          "reason": "KOREAN_OFFICIAL_STORE_BADGE",
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/01-original-QA.jpg"
+        },
+        {
+          "source_index": 3,
+          "reason": "TEXT_ONLY_USAGE_GUIDE_UNVERIFIED",
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/03-original-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "FACT_ONLY_SLIDE_NOT_PHOTO",
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/05-original-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "OFFICIAL_STORE_BADGE_OVERLAY",
+          "path": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/pending-20/01-real-1080-product-hero-QA.jpg"
+        },
+        {
+          "source_index": 8,
+          "reason": "LOW_NATIVE_359x582_OFFICIAL_BADGE",
+          "path": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/pending-20/01-real-transparent-product-cutout-QA.png"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-20-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Request independent full-size actual spray/hand/texture photos from brand-cleared source; verify 100mL / 25AD package.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "selected_existing_clean_photo_source_count": 5,
+      "minimum_five_photo_source_shortfall": 0,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "FULL_TUBE_WHITE",
+          "path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg",
+          "sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+          "bytes": 57774,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 3,
+          "role": "TUBE_LEAF_ICE",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/02-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "bytes": 124885,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 4,
+          "role": "TUBE_ANGLED_DETAIL",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/03-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "bytes": 122133,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 5,
+          "role": "TUBE_TEXTURE",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/04-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "bytes": 74592,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 6,
+          "role": "TWO_TUBE_PRESENTATION",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/05-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+          "bytes": 78341,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 2,
+          "reason": "NEAR_REDUNDANT_PRODUCT_INFO_HERO",
+          "path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-product-hero-1080-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "BLACK_BACKGROUND_ALPHA_UNVERIFIED",
+          "path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-authentic-source-contour-transparent-1080-QA.png"
+        },
+        {
+          "source_index": 8,
+          "reason": "NATIVE_BELOW_900",
+          "path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-transparent-product-QA.png"
+        },
+        {
+          "source_index": 9,
+          "reason": "NATIVE_BELOW_900",
+          "path": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-23/01-recovered-product-foreground-alpha-QA.png"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-23-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Exact owned 50mL tube edition / source image licensing and claims review.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "selected_existing_clean_photo_source_count": 3,
+      "minimum_five_photo_source_shortfall": 2,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "BOTTLE_CLEAN_WHITE",
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+          "bytes": 107768,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 8,
+          "role": "SOURCE_PRODUCT_SCENE_A",
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+          "bytes": 175959,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 9,
+          "role": "SOURCE_PRODUCT_SCENE_B",
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+          "bytes": 201351,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 2,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/01-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 3,
+          "reason": "PRIOR_ART_MK_AND_PROMO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/02-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/03-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/04-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/05-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "FACT_ONLY_NONPHOTO",
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/04-fact-only-product-information-QA.jpg"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-24-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Two more distinct full-size brand-cleared product/texture scenes; check 30mL old stock package.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "selected_existing_clean_photo_source_count": 2,
+      "minimum_five_photo_source_shortfall": 3,
+      "source_photos": [
+        {
+          "idx": 2,
+          "role": "CREAM_JAR_CLEAN_HERO_A",
+          "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-background-removed-hero-1080-QA.jpg",
+          "sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+          "bytes": 202484,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 3,
+          "role": "CREAM_JAR_CLEAN_HERO_B_SIMILAR",
+          "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+          "sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+          "bytes": 197314,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 1,
+          "reason": "BRAND_PROMO_KOREAN_BADGES",
+          "path": "qa-review/v2684b-BOH-cream-only-distinct-photo/pending-25/05-original-source-slot05-byte-preserved-QA.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/01-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/02-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/03-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "PRIOR_ART_MK_AND_MODEL_RIGHTS",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/04-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 8,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/05-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 9,
+          "reason": "NATIVE_BELOW_900_SIMILAR_HERO",
+          "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-real-alpha-segmented-product-QA.png"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-25-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Both chosen jar views may overlap; acquire actual opened jar + texture scene, no model/claim stickers, 50mL stock proof.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "selected_existing_clean_photo_source_count": 2,
+      "minimum_five_photo_source_shortfall": 3,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "TONER_BOTTLE_CLEAN_HERO",
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "bytes": 69734,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 9,
+          "role": "WATER_TEXTURE_WITH_BOTTLE_SOURCE",
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "bytes": 197694,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 2,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/01-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 3,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/02-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/03-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_AND_HANDS_RIGHTS",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/04-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/05-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "NATIVE_BELOW_900",
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-truly-transparent-product-QA.png"
+        },
+        {
+          "source_index": 8,
+          "reason": "FACT_ONLY_NONPHOTO",
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/04-fact-only-product-information-QA.jpg"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-27-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Find 3 independent photos: full label/angled bottle and liquid texture; stock lot 200mL and photo rights verification.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "selected_existing_clean_photo_source_count": 3,
+      "minimum_five_photo_source_shortfall": 2,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "CLOSED_PADS_JAR_210ML_70EA",
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "bytes": 131499,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 2,
+          "role": "OPENED_JAR_PAD_PICKUP",
+          "path": "qa-review/v2667-original-photo-picks/original-photo-picks/pending-28-source-slot02-QA-ONLY.jpg",
+          "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "bytes": 114431,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 9,
+          "role": "OPEN_JAR_SERUM_PADS",
+          "path": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-28/02-actual-product-source-photo-QA.jpg",
+          "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "bytes": 144068,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 3,
+          "reason": "PRIOR_ART_MK_LOGO_CROPPED",
+          "path": "qa-review/v2662-14-candidate-snapshot/images/v2653_pending-28_pending-28-slot05-original-photo-crop-QA-ONLY.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/01-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/02-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/03-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/04-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 8,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/05-authentic-old-product-image-unchanged-QA.jpg"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-28-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Need 2 more independent source photos: actual cotton pad texture and package back; stock 210mL / 70 sheets verify.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "selected_existing_clean_photo_source_count": 1,
+      "minimum_five_photo_source_shortfall": 4,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "CREAM_JAR_CLEAN_FRONT",
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "bytes": 113161,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 2,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/02-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 3,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/03-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/04-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/05-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO_CROPPED",
+          "path": "qa-review/v2662-14-candidate-snapshot/images/v2653_pending-29_pending-29-slot05-original-photo-crop-QA-ONLY.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2706-six-archival-five-real-source-families/pending-29/01-historical-real-art-photo-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 8,
+          "reason": "NATIVE_BELOW_900_SIMILAR_HERO",
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-truly-transparent-product-QA.png"
+        },
+        {
+          "source_index": 9,
+          "reason": "FACT_ONLY_NONPHOTO",
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-29/03-fact-only-product-information-QA.jpg"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-29-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Highest shortage: 4 additional rights-cleared original full-res opened jar / cream texture / lifestyle photos for exact 50mL version.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "selected_existing_clean_photo_source_count": 2,
+      "minimum_five_photo_source_shortfall": 3,
+      "source_photos": [
+        {
+          "idx": 1,
+          "role": "SERUM_CLEAN_SINGLE_BOTTLE",
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "bytes": 67492,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        },
+        {
+          "idx": 9,
+          "role": "SERUM_DROPPER_TEXTURE",
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "bytes": 146178,
+          "internal_preflight_only": true,
+          "reused_existing_bytes": true,
+          "owned_physical_stock_edition_verified": false,
+          "commercial_photo_license_verified": false,
+          "photo_uniqueness_independent_scene_confirmed": false,
+          "true_MK_brand_asset_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "excluded_by_visual_preflight": [
+        {
+          "source_index": 2,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/02-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 3,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/03-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 4,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/04-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 5,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/05-original-lifestyle-or-detail-QA.jpg"
+        },
+        {
+          "source_index": 6,
+          "reason": "PRIOR_ART_MK_LOGO",
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/01-authentic-old-product-image-unchanged-QA.jpg"
+        },
+        {
+          "source_index": 7,
+          "reason": "FACT_ONLY_NONPHOTO",
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/03-fact-only-product-information-QA.jpg"
+        },
+        {
+          "source_index": 8,
+          "reason": "VEGAN_CHINESE_UNVERIFIED_CLAIM_STAMPS",
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/05-official-product-photo-new-QA-ONLY.jpg"
+        }
+      ],
+      "internal_five_slot_contact_sheet": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-30-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "highest_priority_next": "Need three new full-res brand-cleared product photo scenes; avoid unverified vegan/Chinese claim stamp frame.",
+      "release_state": "PRE_FLIGHT_PHOTO_CANDIDATES_ONLY_NO_RIGHTS_OR_OWNED_STOCK"
+    }
+  ]
+}
