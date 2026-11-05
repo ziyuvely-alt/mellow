@@ -33,7 +33,7 @@ try:
  report.update({"merchant_title":title,"variant_count":len(variants),"shopify_product_id":d.get("id")})
  rows=[]
  for shade,label in required.items():
-  matches=[v for v in variants if re.search(r"\\b"+shade+r"\\b",str(v.get("title","")),re.I)]
+  matches=[v for v in variants if re.search(r"\b"+shade+r"\b",str(v.get("title","")),re.I)]
   row={"shade":shade,"shade_name":label,"matched_variant_count":len(matches),"status":"HOLD"}
   if len(matches)!=1:
    row["reason"]="SHADE_NOT_UNIQUELY_PRESENT";rows.append(row);continue
