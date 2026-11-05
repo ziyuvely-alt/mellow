@@ -1,0 +1,85 @@
+{
+  "version": "v2956",
+  "date_kst": "2026-11-06",
+  "project": "Shopee Thumbnail Creator PRO / 82 SKU 41 families",
+  "preceding_successful_run": "v2955",
+  "github_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "inspection_method": "Opened the three actual v2954/v2955 contact JPGs from GitHub and reconciled old source facts without repeating old URL checks.",
+  "immutable_base": {
+    "public_published_families": 11,
+    "verified_public_urls": 55,
+    "existing_public_files_modified": 0,
+    "source_JPG_hashes_changed": 0
+  },
+  "new_this_turn": {
+    "github_action_v2954_run_id": 42092406396,
+    "github_action_v2955_run_id": 42092716533,
+    "QA_zip_files_new": 4,
+    "QA_contact_JPG_files_new": 4,
+    "physical_original_JPGs_created": 0,
+    "original_JPG_entries_packed": 20,
+    "unique_product_families_staged": 3,
+    "new_retail_approved_families": 0,
+    "new_anonymous_render_verified_urls": 0,
+    "spreadsheet_shared": false
+  },
+  "families": {
+    "pending-23": {
+      "product": "OBgE Pore Zero Oil Control Sun Cream 50 mL",
+      "latest_qa_zip": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-23-five-immutable-source-JPGs-INTERNAL-QA.zip",
+      "source_frame_count": 5,
+      "technical_checks": "PASS",
+      "original_bytes_sha256_preserved": true,
+      "visual_summary": "Five distinguishable compositions (single tube, ice mint scene, angled product/texture, texture product, twin tube display), all old photographed 50mL product scenes.",
+      "presentation_stage": "QA_PRODUCTION_STAGED_5_SCENES",
+      "release_stage": "HOLD_PHYSICAL_STOCK_PHOTO_LICENSE_MK_AUTHENTICATION",
+      "new_publish_allowed": false,
+      "next_action": "Confirm physical exact edition and licensed photo-use plus authenticated original circular MK; then form retail-clean final JPGs without altering originals."
+    },
+    "pending-28": {
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 70 pads / 210 mL",
+      "latest_qa_zip": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-28-five-immutable-source-JPGs-INTERNAL-QA.zip",
+      "source_frame_count": 5,
+      "technical_checks": "PASS",
+      "original_bytes_sha256_preserved": true,
+      "visual_summary": "Distinct hero, product detail, serum-wet cotton scene, embossed pad closeup, jar-and-pad product scene; commercial use and official MK remain unverified.",
+      "presentation_stage": "QA_PRODUCTION_STAGED_5_SCENES",
+      "release_stage": "HOLD_PHYSICAL_STOCK_PHOTO_LICENSE_MK_AUTHENTICATION",
+      "new_publish_allowed": false,
+      "next_action": "Confirm owned 70-count 210mL product, commercial imagery authorization and exact MK asset, then complete customer-clean final QA."
+    },
+    "pending-20": {
+      "product": "GOODAL Vita C Serum Mist 100 mL (25AD generation)",
+      "superseded_wrong_qa_zip": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-20-five-immutable-source-JPGs-INTERNAL-QA.zip",
+      "correct_latest_qa_zip": "qa-review/v2955-goodal-mist-third-slot-real-photo-correction-20261106/pending-20-FIVE-PHOTO-SOURCES-NO-INFO-CARD-INTERNAL-QA.zip",
+      "byte_count_in_correct_zip": 513689,
+      "sha256_in_correct_zip": "8bb626f4b91949046703dba423d865c166b1a807537fc1f7ca65dd3edb8b14a6",
+      "source_jpg_file_count": 5,
+      "unique_underlying_photo_scene_count_conservative": 4,
+      "duplicate_scene_warning": "Slots 1 and 2 use visually near-identical front-view bottle scene; distinct JPG hashes do not establish distinct original photography.",
+      "real_photo_repaired_slot": 3,
+      "replacement_source": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/04-source-archive-story-QA.jpg",
+      "low_native_resolution_warning": "Slots 4 and 5 from v2939 have original source resolution only 600x800 despite 1080px QA renditions; upscaling does not create 1080 native detail.",
+      "old_info_card_quarantined_in_old_zip": true,
+      "presentation_stage": "QA_PRODUCTION_STAGED_5_JPGS_PHOTO_DIVERSITY_REVIEW",
+      "release_stage": "HOLD_ONE_INDEPENDENT_SCENE_LOW_NATIVE_RES_SOURCE_RIGHTS_STOCK_MK",
+      "new_publish_allowed": false,
+      "next_action": "Seek one additional distinct authorized product photo only if five independent photo scenes remain mandatory; avoid refetching the same 600x800 citrus images. Preserve four usable scenes."
+    }
+  },
+  "effective_latest_for_next_turn": {
+    "source_of_truth": "v2956 manifest",
+    "do_not_repeat": [
+      "v2954 pending23 and pending28 source ZIP generation",
+      "v2955 pending20 single frame swap",
+      "historical 55 URL checks",
+      "reproduce old source JPEGS"
+    ],
+    "proceed": [
+      "pending23 and pending28 physical edition / licensed imagery / true MK original",
+      "pending20 one genuinely new source scene at native useful resolution if obtainable",
+      "other families with 4/5 source+info; never count info as distinct photo"
+    ],
+    "explicit_sale_approval_test": "newly approved customer JPG must be 1080x1080, <2MB, authentic MK, exact stock/version, rights verified and anonymous Render GET SHA-256 verified"
+  }
+}
