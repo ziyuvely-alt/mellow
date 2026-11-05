@@ -1,0 +1,38 @@
+name: Shopee v2873 MISSHA Moist Up No21 No23 archived photo and source-swatch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2873-missha-moistup21-23-source-swatch-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve_real_sagi_source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse verified SHA v2528 shade-photo branch plus v2701 product photograph, no old-image modifications
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2873_missha_moistup_21_23_source_swatch_option_QA.py
+          cp scripts/v2873_missha_moistup_21_23_source_swatch_option_QA.py /tmp/v2873.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git fetch origin +refs/heads/production-assets-v2528-155-real-MISSHA-moistup-QA:refs/remotes/origin/production-assets-v2528-155-real-MISSHA-moistup-QA
+          git worktree add --detach /tmp/v2873swatch origin/production-assets-v2528-155-real-MISSHA-moistup-QA
+          git worktree add /tmp/v2873qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2873qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2873.py
+          git add qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA
+          git commit -m 'v2873 two genuine MISSHA MoistUp real-source shade QA images, watermark retained, sales hold'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
