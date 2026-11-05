@@ -1,0 +1,35 @@
+name: v2980 MISSHA and CLIO mini original use-guide frames
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2980-missha-clio-original-howto-guides.yml'
+      - 'scripts/v2980_missha_clio_two_original_application_guides.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  generate-two-original-QA-frames:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Use official application steps without borrowing photos or simulating swatches
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106
+          python scripts/v2980_missha_clio_two_original_application_guides.py
+          git add qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106
+          git diff --cached --name-only | tee /tmp/v2980-only
+          ! grep -Ev '^qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106/' /tmp/v2980-only
+          git commit -m "QA v2980 add original MISSHA and CLIO mini application-guide JPGs, old option photos untouched"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
