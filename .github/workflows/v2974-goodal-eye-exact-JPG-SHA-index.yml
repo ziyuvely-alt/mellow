@@ -1,0 +1,35 @@
+name: v2974 GOODAL eye cream exact existing original JPEG index
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2974-goodal-eye-exact-JPG-SHA-index.yml'
+      - 'scripts/v2974_find_goodal_eye_zip_original_sha_else_hold.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  find-matching-byte-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Look up existing exact source hashes, no image download/recreate
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2974-goodal-eyecream-same-SHA-original-candidate-search-20261106
+          python scripts/v2974_find_goodal_eye_zip_original_sha_else_hold.py
+          git add qa-review/v2974-goodal-eyecream-same-SHA-original-candidate-search-20261106
+          git diff --cached --name-only | tee /tmp/v2974-new-files
+          ! grep -Ev '^qa-review/v2974-goodal-eyecream-same-SHA-original-candidate-search-20261106/.*\.json$' /tmp/v2974-new-files
+          git commit -m "QA v2974 scan existing GOODAL originals against archived SHA without copying binaries"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
