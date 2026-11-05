@@ -1,0 +1,37 @@
+name: Shopee v2896 MISSHA brand clean 30ml serum alternative to red fringe
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2896-missha30-clean-official-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  save_new_official_source_not_old_alpha:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Check first-party new native source, save 1080 QA only when valid
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2896_missha30_brand_clean_source_recovery.py
+          cp scripts/v2896_missha30_brand_clean_source_recovery.py /tmp/v2896.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2896qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2896qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2896-missha30-brand-official-clean-single-bottle-source
+          python /tmp/v2896.py
+          git add qa-review/v2896-missha30-brand-official-clean-single-bottle-source
+          git commit -m 'v2896 first party clean 30ml MISSHA product source internal QA preserving red cap prior'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
