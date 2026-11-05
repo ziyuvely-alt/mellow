@@ -1,0 +1,352 @@
+{
+  "version": "v2877",
+  "baseline": "v2868",
+  "family_count": 30,
+  "previous_11_public_families_unchanged": true,
+  "previous_55_public_urls_unchanged": true,
+  "latest_7_family_delta_versions": {
+    "pending-02": "v2873",
+    "pending-03": "v2872",
+    "pending-04": "v2877",
+    "pending-05": "v2869",
+    "pending-10": "v2874",
+    "pending-11": "v2875",
+    "pending-12": "v2783"
+  },
+  "retail_release_approved_count": 0,
+  "sale_license_and_stock_identity_still_required": true,
+  "families": {
+    "pending-01": {
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "v2859: 4 MISSHA shades 21,23,25,27 reference photo cards",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-02": {
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "2 QA shade photo+swatch comparisons, 21/23, commercial rights and Korean package edition HOLD",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2873",
+      "new_QA_files_since_v2868": 2,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-03": {
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "No21/No25 old gold pump truealpha recovered v2871; No25 ghost trimmed v2872 but checker edge, rights and stock HOLD",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2872",
+      "new_QA_files_since_v2868": 1,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-04": {
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "shared m/b original photo duplicates + v2711 broken alpha quarantined; distinct 21C/23N photos v2876; 21N HOLD_ALTERNATE_RESOLUTION_OR_ACCESS",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2877",
+      "new_QA_files_since_v2868": 2,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-05": {
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "21C/21N real swatches linked to original merchant photos, exact 15g+refill and 21C/21N lookalike compact image HOLD",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2869",
+      "new_QA_files_since_v2868": 2,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-06": {
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "v2861: 5-option gallery all 10 pairs near-duplicate; DO NOT PROMOTE shade-specific originals",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-07": {
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "v2861: CLIO Mesh Blur 19C/19N/21N 3 alpha QA option cards",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-08": {
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-09": {
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-10": {
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "correct dark-square 15g, 1 Ivory 2 Beige 3 Sand, original wrong round case quarantined; physical edition HOLD",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2874",
+      "new_QA_files_since_v2868": 3,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-11": {
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "single 50mL+50mL dual-chamber bottle, NOT a 2-bottle set; old unverified MK-mark cards HOLD",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2875",
+      "new_QA_files_since_v2868": 1,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-12": {
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "official brand 15mL vs owner inventory 15g requires physical label; DO NOT auto-convert",
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2783",
+      "new_QA_files_since_v2868": 0,
+      "open_blockers": [
+        "physical stock label/edition",
+        "photo commercialization rights"
+      ]
+    },
+    "pending-13": {
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "v2865: 30mL serum original RGB alpha correction residual red fringe still HOLD",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-14": {
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-15": {
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-16": {
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-17": {
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-18": {
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-19": {
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-20": {
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-21": {
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-22": {
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": "v2857: intact OBgE 300mL candidate; high-res/halo review and rights remain HOLD",
+      "technical_QA_new_since_v2848": true,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-23": {
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-24": {
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-25": {
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-26": {
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-27": {
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-28": {
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-29": {
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    },
+    "pending-30": {
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "release_status": "QA_ONLY_RELEASE_BLOCKED",
+      "latest_photo_QA_checkpoint": null,
+      "technical_QA_new_since_v2848": false,
+      "needs_real_stock_and_photo_rights": true,
+      "sale_approved": false,
+      "last_delta_version": "v2868"
+    }
+  },
+  "remaining_queue_without_regeneration": [
+    {
+      "family": "pending-08",
+      "action": "validate genuine Peripera 01..20 native photo swatches; 21..26AD excluded"
+    },
+    {
+      "family": "pending-06",
+      "action": "source genuinely distinct CLIO Mesh Glow full 15g+refill shade photos, not 10 duplicate pairs"
+    },
+    {
+      "family": "pending-12",
+      "action": "get actual MISSHA 15g vs brand 15mL unit label photo; no fake 1:1 conversion"
+    },
+    {
+      "family": "pending-04",
+      "action": "visual source proof 21N alternative result and commercial rights hold"
+    },
+    {
+      "family": "pending-13",
+      "action": "new clean rights-cleared droplet photo, not repeat failed local alpha"
+    },
+    {
+      "family": "pending-03",
+      "action": "native mask quality and rights, no more v2872 geometry loops"
+    }
+  ],
+  "last_performed": "v2877 original-source single alternate and updated 30-family delta checkpoint"
+}

@@ -1,0 +1,42 @@
+{
+  "version": "v2877",
+  "baseline": "v2876",
+  "num_original_existing_finished_groups": 11,
+  "num_original_verified_public_URLs": 55,
+  "num_pending_families": 30,
+  "retail_approvals_new": 0,
+  "new_public_urls": 0,
+  "final_excel_shared": false,
+  "21N_alternative_source_result": {
+    "shade": "21N",
+    "label": "LINEN",
+    "source_page": "https://www.tanpopo.vn/phan-nuoc-2-loi-cang-bong-clio-kill-cover-mesh-glow-essential-cushion-spf50-5g",
+    "source_fullres_url": "https://bizweb.dktcdn.net/100/353/847/products/ava-san-pham-tren-website-25-3197fd52-4a2d-4b17-ae6b-96a905564ebf.jpg?v=1785052315773",
+    "previous_failed": "v2876 retailer /thumb/1024x1024 endpoint returned only 480x480 WEBP",
+    "status": "HOLD_ALTERNATE_RESOLUTION_OR_ACCESS",
+    "retail_approved": false,
+    "source_reuse_license_verified": false,
+    "exact_inventory_package_verified": false,
+    "fetched_format": "WEBP",
+    "native_px": [
+      480,
+      480
+    ],
+    "reason": "ValueError: LOW_NATIVE_RESOLUTION_NOT_ACCEPTED: (480, 480)"
+  },
+  "new_21N_QA_JPGs": 0,
+  "revisited_finished_shades_21C_23N": 0,
+  "new_source_photo_download_attempts": 1,
+  "input_previous_QA_manifests": {
+    "v2873_pending02": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/manifest.json",
+    "v2872_pending03": "qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA/manifest.json",
+    "v2876_pending04": "qa-review/v2876-clio-mini5g-three-independent-shade-photo-source-QA/manifest.json",
+    "v2875_pending04_11": "qa-review/v2875-clio-mini5g-obge-doublechamber-batch-identity-QA/manifest.json",
+    "v2869_pending05": "qa-review/v2869-founwear-21c21n-option-photo-swatch-crosscheck-QA/manifest.json",
+    "v2874_pending10": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/manifest.json"
+  },
+  "next": "Continue with incomplete pending-08 Peripera 20 shade canonical chart, pending-06 shade-specific real photo shortage, pending-12 physical label conflict, and other production blockers. Never redo completed 11/public55.",
+  "old_published_images_modified": false,
+  "old_QA_assets_modified": false,
+  "commercial_rights_and_physical_lot_verified": false
+}
