@@ -1,0 +1,37 @@
+name: Shopee v2897 MISSHA BB old gold pump No25 new clean source QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2897-missha-bb25-new-legacy-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive_exact_25_without_old_ghost_mask_loop:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Fetch one independent old-series No25 source and checkpoint as QA only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2897_missha_bb25_independent_merchant_photo.py
+          cp scripts/v2897_missha_bb25_independent_merchant_photo.py /tmp/v2897.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2897qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2897qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2897-missha-bb25-legacy-goldpump-new-independent-source-QA
+          python /tmp/v2897.py
+          git add qa-review/v2897-missha-bb25-legacy-goldpump-new-independent-source-QA
+          git commit -m 'v2897 new independent old MISSHA No25 source and updated 30-family hold state'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
