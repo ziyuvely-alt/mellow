@@ -1,0 +1,37 @@
+name: Shopee v2906 recover fresh official native product photos for 3 pending families
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2906-goodal-obge-threefamily-official-photo.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fresh_official_source_photos_not_for_sales:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Download brand-hosted original photo candidates, save verified 1080 internal references and 30-family state
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2906_new_firstparty_threefamily_gallery_sources.py
+          cp scripts/v2906_new_firstparty_threefamily_gallery_sources.py /tmp/v2906.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2906qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2906qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2906-two-goodal-obge-official-source-photo-recovery-QA
+          python /tmp/v2906.py
+          git add qa-review/v2906-two-goodal-obge-official-source-photo-recovery-QA
+          git commit -m 'v2906 stage distinct first-party source originals and 1080 photo reference JPGs for three stock families'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
