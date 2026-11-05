@@ -1,0 +1,98 @@
+{
+  "version": "v2969",
+  "date_kst": "2026-11-06",
+  "project": "Shopee Thumbnail Creator PRO inventory 82 SKU/41 families",
+  "prev_success": "v2968",
+  "status": "PUBLIC_REPO_QA_RIGHTS_GUARD_APPLIED_TO_NEXT_ACTION_QUEUE",
+  "evidence": {
+    "repo_visibility": "public",
+    "repo": "ziyuvely-alt/mellow",
+    "QA_branch": "qa-assets/v2662-immutable-14-candidates",
+    "public_git_branch_files": "QA image/JPG/ZIP files in this repository are externally reachable. Internal QA tags do NOT provide private access.",
+    "render_separate_live_deploy": {
+      "service": "mellow-bbia-images",
+      "id": "srv-dbh0e1afngtc73bci6tg",
+      "latest_live_deploy_id": "dep-dbj21mgu01pc73e8umo0",
+      "latest_live_commit": "21675106b0a8d856e6bf193080785815c6d5e7d0",
+      "latest_live_date": "2026-10-31",
+      "changed_in_this_run": false
+    },
+    "main_branch_sha": "0d8a8f177082d23f7e2464fb741220131e8aa8eb"
+  },
+  "prior_approved_assets": {
+    "published_product_families": 11,
+    "verified_URLs": 55,
+    "changed": false
+  },
+  "new_work_this_sequence": {
+    "v2967": "Two additional genuinely different Bioheal 50mL source references were downloaded into public GitHub QA branch. A 440px catalog box photo and a 1080px third-party blogger hand scene. They are not licensed for commercial use and must not be promoted.",
+    "v2968": "Actually CRC/SHA256/1080 checks of 6 five-JPG ZIPs and 2 Goodal split ZIPs, 35 JPGs, 30-family blocker matrix persisted; all technical pass, no retail approvals.",
+    "commercial_approvals": 0,
+    "new_customer_render_URLs": 0
+  },
+  "security_policy_for_future_actions": {
+    "no_new_unlicensed_binary_uploads_to_public_GitHub": true,
+    "no_new_public_jpg_or_zip_without_documented_rights_exact_stock_original_MK": true,
+    "permitted_until_private_QA_storage": "Readonly inspection and JSON manifest/QA records using existing GitHub files; do not create new third-party image bytes on the public QA branch.",
+    "do_not_delete_or_rewrite_prior_approved_images_without_user_authorization": true,
+    "do_not_change_repository_visibility_without_user_authorization": true,
+    "safe_resolution": "Switch QA image output to a user-authorized private repository or private file storage, or obtain explicit redistribution permissions for those sources. Only send rights-approved customer JPGs to versioned Render image URLs."
+  },
+  "new_sources_public_exposure_review": [
+    {
+      "family": "pending-25",
+      "reference": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_box-original-REFERENCE-NOT-RETAIL.jpg",
+      "rights": "UNVERIFIED",
+      "stock_generation": "UNVERIFIED",
+      "native": [
+        440,
+        440
+      ],
+      "use": "REFERENCE_HOLD"
+    },
+    {
+      "family": "pending-25",
+      "reference": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_hand_scene-original-REFERENCE-NOT-RETAIL.jpg",
+      "rights": "UNVERIFIED",
+      "stock_generation": "UNVERIFIED",
+      "native": [
+        1080,
+        1080
+      ],
+      "use": "REFERENCE_HOLD"
+    }
+  ],
+  "goodal_25AD_package_evidence": {
+    "variant_A_observed_front": "VITA-C SERUM MIST / NIACINAMIDE / HYALURONIC ACID",
+    "variant_B_observed_front": "VITA-C Dark Spot Care SERUM MIST",
+    "external_2025_version_marketplace": "https://www.yesstyle.com/en/goodal-green-tangerine-vita-c-serum-mist-100ml/info.html/pid.1136600635",
+    "image_listing_A": "https://d1flfk77wl2xk4.cloudfront.net/Assets/goodal-green-tangerine-vita-c-serum-mist-2pcs-bundle-set-100ml-x-2-pcs/01/055/XXL_p0225005501.jpg",
+    "observation": "YesStyle page says 2025 Version 100mL and selected image shows variant A, supporting A as a 2025 package candidate. This does not prove that the user's stocked 25AD is A or that B cannot appear in other renewed batches.",
+    "brand_official_current_100ml": "https://clubclio.co.kr/shop/goodsView/0000003795",
+    "manufacturing_text_verified_current": "2026-04 onward manufacture on brand page",
+    "official_2025_pack_photo_link_verified": false,
+    "next_action": "Physical barcode/lot or authorized manufacturer packaging confirmation required. Keep A/B original-byte archives separate."
+  },
+  "four_families_v2968_technical_ready_not_sales": [
+    "pending-27",
+    "pending-29",
+    "pending-30",
+    "pending-25"
+  ],
+  "other_source_complete_internal_QA": [
+    "pending-23",
+    "pending-28"
+  ],
+  "publication_block_reason": "Image rights, exact stock-generation and authentic original circular MK binary remain unresolved across all candidate groups.",
+  "new_public_approved_families": 0,
+  "new_verified_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "restart_from": "Read v2968 release-blocker-matrix.json and v2969 visibility guard. Do not redo 35 JPG checks, fetch used external sources, or re-check 55 verified URLs. Continue privately/with rights-only.",
+  "do_not_repeat": [
+    "v2967 Bioheal external image downloads in public repo",
+    "v2968 eight immutable ZIP CRC / hashes",
+    "MK binary download from private plugin archive via container.download (blocked twice)",
+    "Google Drive name searches for MellowKR original circle logo (three exact variants returned no matches)",
+    "pre-existing approved 55 public URL verification"
+  ]
+}
