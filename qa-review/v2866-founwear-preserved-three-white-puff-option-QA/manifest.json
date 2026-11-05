@@ -1,0 +1,74 @@
+{
+  "version": "v2866",
+  "baseline": "v2865",
+  "source_qa": "v2864",
+  "family": "pending-05",
+  "new_JPG_1080": 3,
+  "new_photo_sources": 0,
+  "stock_shades_used": [
+    "19C",
+    "19N",
+    "23N"
+  ],
+  "pending_shades_due_to_source_collision": [
+    "21C",
+    "21N"
+  ],
+  "source_alpha_pngs_changed": 0,
+  "earlier_v2862_rejected_mattes_not_reused": true,
+  "approved_11_product_groups_unchanged": true,
+  "verified_55_public_URLs_unchanged": true,
+  "commercial_rights_verified": false,
+  "physical_gift_set_edition_verified": false,
+  "authenticated_original_MK_logo": false,
+  "new_sales_approved": 0,
+  "new_public_URLs": 0,
+  "spreadsheet_shared": false,
+  "cards": [
+    {
+      "shade": "19C",
+      "name": "LIGHT",
+      "source_png": "qa-review/v2864-founwear-3-white-lid-u2net-native-RGB-check/19C-original-RGB-u2net-white-puff-alpha-QA.png",
+      "source_sha256": "1e5512a49322f9ac2bd6775f733cfff9320bfb0683be6ea9a22734eeeec00fe7",
+      "card_jpg": "qa-review/v2866-founwear-preserved-three-white-puff-option-QA/CLIO-Founwear-19C-real-alpha-source-option-QA.jpg",
+      "card_sha256": "acd54f0c7cb81d1a1c3671c7f1b26348db02bb12b7446b1318f085fd6edc105c",
+      "jpg_bytes": 149616,
+      "product_RGB_recolored": false,
+      "source_modified": false,
+      "shade_proven_by_merchant_variant": true,
+      "gift_set_edition_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "19N",
+      "name": "PORCELAIN",
+      "source_png": "qa-review/v2864-founwear-3-white-lid-u2net-native-RGB-check/19N-original-RGB-u2net-white-puff-alpha-QA.png",
+      "source_sha256": "a65ca44c3d67ebf465465790235fa7c2cae7b32aab24f7b2df4e6a06b34ef82a",
+      "card_jpg": "qa-review/v2866-founwear-preserved-three-white-puff-option-QA/CLIO-Founwear-19N-real-alpha-source-option-QA.jpg",
+      "card_sha256": "b0983c7d272798c46d8681da56baca9d12fae0071fc7a16139f6b8528d1fa8f4",
+      "jpg_bytes": 146217,
+      "product_RGB_recolored": false,
+      "source_modified": false,
+      "shade_proven_by_merchant_variant": true,
+      "gift_set_edition_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "23N",
+      "name": "GINGER",
+      "source_png": "qa-review/v2864-founwear-3-white-lid-u2net-native-RGB-check/23N-original-RGB-u2net-white-puff-alpha-QA.png",
+      "source_sha256": "bb0f683768b2ae0f7761bf218396a77909f2225e68801f0c5266f517055baa34",
+      "card_jpg": "qa-review/v2866-founwear-preserved-three-white-puff-option-QA/CLIO-Founwear-23N-real-alpha-source-option-QA.jpg",
+      "card_sha256": "17933375e91300e6e7363529e5cd31040a2731a867e519e7e0074cdbf5a5739e",
+      "jpg_bytes": 159833,
+      "product_RGB_recolored": false,
+      "source_modified": false,
+      "shade_proven_by_merchant_variant": true,
+      "gift_set_edition_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "contact": "qa-review/v2866-founwear-preserved-three-white-puff-option-QA/v2866-three-preserved-real-alpha-option-photo-QA.jpg",
+  "contact_sha256": "40d3fb673b9606796c4d2adb77b22892987e91d7f8ae2377cb1835af8730872a",
+  "next": "Review original product gift-set contents, rights and true brand identity before sales. Source distinct verified 21C/21N imagery separately; never reuse near-duplicate merchant photos as evidence of different shades."
+}
