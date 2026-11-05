@@ -1,0 +1,255 @@
+{
+  "version": "v2933",
+  "baseline": "v2932",
+  "created_utc": "2026-11-05T15:42:33Z",
+  "families_reviewed": 2,
+  "source_images_screened": 12,
+  "clean_new_scene_candidates": 1,
+  "marketing_model_or_duplicate_sources_held": 11,
+  "old_image_bytes_changed": 0,
+  "old_55_verified_URLs_changed": 0,
+  "existing_11_retail_families_changed": 0,
+  "new_sales_image_approvals": 0,
+  "new_public_urls": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-24",
+      "existing_archived_source_photo_count": 4,
+      "reviewed_brand_photo_sources": 6,
+      "clear_provisional_distinct_scene_count": 0,
+      "holds_or_rejections": 6,
+      "visual_decisions": [
+        {
+          "slot": 1,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/01-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "1b99264f22adb67deb237407bcfafe2aa1cff4ba58ee5f30a1f47b683463a6f8",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388235ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "REJECT_PROMO_BUNDLE",
+          "visual_reason": "Includes extra mask/cream and seller promotional overlay; never represent single 30mL serum",
+          "closest_prior_dhash_hamming": 34,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/02-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "109f727ab838da94919fcd07fdab7dbe858b4c467a2649e49c125c972709b075",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388202ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MARKETING_OVERLAY",
+          "visual_reason": "Product source with Slow Aging and NAD advertising badges",
+          "closest_prior_dhash_hamming": 9,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/03-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "7ec55272402c2dff723d60b5bbf73a0fbf81758eba6b9731b3a2aeb6889b2e03",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388225ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MARKETING_OVERLAY",
+          "visual_reason": "Dropper bottle with Slow Aging/NAD/brightening badges; unsupported copy",
+          "closest_prior_dhash_hamming": 8,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/04-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "a23fde538adee9e6e176ce7c41c84a8d67f38fb29266886f3fae4fe2a07b3f88",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388224ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MARKETING_OVERLAY",
+          "visual_reason": "Dropper open, Slow Aging/NAD/brightening advertising badges",
+          "closest_prior_dhash_hamming": 26,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/05-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "5c197ce96c05d4561380ff2b6ad6c5e3c154f9297761d23e94b8bf23bb05d9e9",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388216ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "REJECT_PROMO_BUNDLE",
+          "visual_reason": "Multiple promotional packages and mask gift, not one serum SKU",
+          "closest_prior_dhash_hamming": 36,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 6,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/06-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "8e7f88f16a4fad1f152233d29f324f48cc5e9e3d5cebd1010f23e78791bdb989",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388234ko.jpeg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "CLEAN_ALTERNATE_ONLY",
+          "visual_reason": "Clean full 30mL serum on white; closely resembles existing front bottle references, not a proven new scene",
+          "closest_prior_dhash_hamming": 13,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        }
+      ],
+      "review_contact": "qa-review/v2933-bioheal-twelve-source-visual-bundle-claim-and-scene-QA/pending-24-six-source-classifications-INTERNAL-ONLY.jpg",
+      "sale_approved": false
+    },
+    {
+      "family": "pending-25",
+      "existing_archived_source_photo_count": 3,
+      "reviewed_brand_photo_sources": 6,
+      "clear_provisional_distinct_scene_count": 1,
+      "holds_or_rejections": 5,
+      "visual_decisions": [
+        {
+          "slot": 1,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/01-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "4eb1d2a5b7faa082e05f9fcdb326bce80cde94a2bff2c3245d8f6d11fdbacb88",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629910ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MARKETING_OVERLAY",
+          "visual_reason": "Open cream jar with firming/antiaging badges; not a clean marketplace photo",
+          "closest_prior_dhash_hamming": 28,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/02-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "b3f14e1ba652e3bda65f3074b8305651d5e7ff342473ed3bd252ab2c37ad1441",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629911ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MARKETING_OVERLAY",
+          "visual_reason": "Angled open jar with firming/antiaging badges; not claim-cleared",
+          "closest_prior_dhash_hamming": 25,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/03-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "dab659608b7875e5bd89fdf749b398fbdab53118f23a1f0a49f9d8f16bccbf9f",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629905ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_MODEL_USAGE_RIGHTS",
+          "visual_reason": "Human model holding cream; commercial model and photo rights unverified",
+          "closest_prior_dhash_hamming": 30,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/04-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "9cd6ff4f50cd1083d616ebb58ee37fd00748768470a2f79ce202a5712c28b06e",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629904ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "CLEAN_DISTINCT_SCENE_CANDIDATE",
+          "visual_reason": "Opened and inverted jars showing 50mL cream texture; different original product photo composition",
+          "closest_prior_dhash_hamming": 37,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": true,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/05-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "5311d515b801ca50693d10ea1313d157e7db1c3755b3a1c5eabb2fe0e8b1f661",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629906ko.jpg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_NEAR_DUPLICATE_FRONT",
+          "visual_reason": "Full 50mL cream jar frontal, similar to prior cropped and frontal source photos",
+          "closest_prior_dhash_hamming": 10,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 6,
+          "gallery_photo": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/06-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "6db2ad20cf43ae30e6a2763f8c44129d55a6a2dc6b2c8bc216e9460e6c3267fd",
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629909ko.jpeg",
+          "source_native_px": [
+            1000,
+            1000
+          ],
+          "classification": "HOLD_NEAR_DUPLICATE_FRONT",
+          "visual_reason": "Full 50mL cream jar frontal, same posture as gallery #5 and prior",
+          "closest_prior_dhash_hamming": 15,
+          "pHash_requires_manual_comparison_if_lt_5": false,
+          "provisional_distinct_scene": false,
+          "commercial_use_rights": false,
+          "owned_KR_stock_edition": false,
+          "retail_approved": false
+        }
+      ],
+      "review_contact": "qa-review/v2933-bioheal-twelve-source-visual-bundle-claim-and-scene-QA/pending-25-six-source-classifications-INTERNAL-ONLY.jpg",
+      "sale_approved": false
+    }
+  ]
+}
