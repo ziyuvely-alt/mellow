@@ -1,0 +1,35 @@
+name: v2984 four held product families actual source bytes and identity gates
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2984-four-highrisk-source-batch-gates.yml'
+      - 'scripts/v2984_four_highrisk_product_existing_bytes_release_triage.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-SHA-edition-proof-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Reconcile CLIO fullsize/mini, MISSHA 15g-versus-15mL, OBgE bottle using existing bytes only
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2984-four-highrisk-families-actual-photo-reuse-and-release-holds-20261106
+          python scripts/v2984_four_highrisk_product_existing_bytes_release_triage.py
+          git add qa-review/v2984-four-highrisk-families-actual-photo-reuse-and-release-holds-20261106
+          git diff --cached --name-only | tee /tmp/v2984-files
+          ! grep -Ev '^qa-review/v2984-four-highrisk-families-actual-photo-reuse-and-release-holds-20261106/.*\.json$' /tmp/v2984-files
+          git commit -m "QA v2984 verify 17 archived JPEG bytes and four highrisk exact-pack release gates"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
