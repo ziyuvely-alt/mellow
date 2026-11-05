@@ -1,0 +1,40 @@
+name: Shopee v2914 PixelPure twelve official source visual relevance and claims QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2914-pixelpure-12-source-photo-visual-qa.yml'
+      - 'scripts/v2914_pixelpure_twelve_source_visual_filter.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  screen_twelve_firstparty_sources_without_asset_changes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Write 4 source QA contacts and manifest, do not overwrite approved assets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2914_pixelpure_twelve_source_visual_filter.py
+          cp scripts/v2914_pixelpure_twelve_source_visual_filter.py /tmp/v2914.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2914review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2914review
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA
+          python /tmp/v2914.py
+          git add qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA
+          git diff --cached --name-only | tee /tmp/changed-v2914
+          ! grep -Ev '^qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/' /tmp/changed-v2914
+          git commit -m 'v2914 screen 12 PixelPure brand gallery sources; add clean candidate references; hold rights'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
