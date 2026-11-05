@@ -102,7 +102,7 @@ for record in old["families"]:
    raw.load()
    assert raw.format=="JPEG" and raw.size==(1080,1080) and p.stat().st_size<2_000_000
    photo=ImageOps.exif_transpose(raw).convert("RGB")
-  ins.append({"idx":no,"img":photo,"role":issue["selected_roles"][no] ,"path":str(p),
+  ins.append({"idx":no,"img":photo,"role":issue["selected_roles"][str(no)] ,"path":str(p),
    "sha256":cand["sha256"],"bytes":p.stat().st_size,
    "internal_preflight_only":True,"reused_existing_bytes":True,
    "owned_physical_stock_edition_verified":False,"commercial_photo_license_verified":False,
