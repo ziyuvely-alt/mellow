@@ -1,0 +1,37 @@
+name: Shopee v2904 OBgE300 three real photos two factual slides internal QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2904-obge300-three-photo-five-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reuse_archived_three_300ml_product_photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Build QA-only five files with three exact real product photos, no regeneration
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2904_obge300_threephoto_twofact_internalQA.py
+          cp scripts/v2904_obge300_threephoto_twofact_internalQA.py /tmp/v2904.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2904qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2904qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2904-obge300-three-photo-two-fact-5frame-internal-QA
+          python /tmp/v2904.py
+          git add qa-review/v2904-obge300-three-photo-two-fact-5frame-internal-QA
+          git commit -m 'v2904 reuse archived OBgE300 3 real photos 2 honest fact cards QA5 ZIP and 30-family checkpoint'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
