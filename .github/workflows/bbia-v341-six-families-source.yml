@@ -1,0 +1,79 @@
+name: BBIA v341 six missing families official source batch
+on:
+  push:
+    branches: [bbia-ch2-qa-v341-20261105]
+    paths: [.github/workflows/bbia-v341-six-families-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor
+          from urllib.request import Request,urlopen
+          from PIL import Image,ImageDraw,ImageOps
+          import io,json,hashlib
+          OUT=Path('/tmp/bbia-v341');OUT.mkdir(exist_ok=True)
+          all_families=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf-8'))['families']
+          ids=['205','228','1000000223','1000000247','1000000125','1000000244']
+          lookup={str(x['product_id']):x for x in all_families}
+          jobs=[]
+          for sku in ids:
+            d=lookup[sku]
+            jobs.append((sku,'MAIN',d['official_photo_url']))
+            jobs.extend((sku,'DETAIL_'+str(i),u) for i,u in enumerate(d.get('detail_references',[])[:2]))
+          def get(job):
+            sku,role,url=job
+            rec={'sku':sku,'family_ko':lookup[sku]['family'],'role':role,'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA QA source collection v341','Accept':'image/*'}),timeout=19) as conn:
+                b=conn.read(16000000)
+              im=Image.open(io.BytesIO(b));im.verify()
+              im=Image.open(io.BytesIO(b));im.load()
+              ext='jpg' if im.format in ('JPEG','JPG') else im.format.lower()
+              path=f'BBIA_{sku}_{role}_OFFICIAL_v341.{ext}'
+              (OUT/path).write_bytes(b)
+              rec.update(status='SOURCE_SAVED',filename=path,sha256=hashlib.sha256(b).hexdigest(),bytes=len(b),width=im.width,height=im.height,image_format=im.format)
+            except Exception as ex:
+              rec.update(status='HOLD_SOURCE_UNAVAILABLE',reason=type(ex).__name__+':'+str(ex)[:140])
+            return rec
+          with ThreadPoolExecutor(max_workers=6) as pool:
+            records=list(pool.map(get,jobs))
+          board=Image.new('RGB',(1800,len(ids)*350+70),'#f5f4f2')
+          pen=ImageDraw.Draw(board)
+          pen.text((10,10),'BBIA v341: SIX NEW PRODUCT FAMILIES | ORIGINAL EVIDENCE ONLY | NOT APPROVED FOR SALE',fill='#242e38')
+          for n,sku in enumerate(ids):
+            top=70+n*350
+            pen.text((15,top),sku+' | '+lookup[sku]['family'],fill='#111111')
+            rs=[r for r in records if r['sku']==sku]
+            for c,r in enumerate(rs):
+              left=c*600+12
+              pen.text((left+4,top+22),r['role']+' '+r['status'],fill='#3c4251')
+              if r['status']!='SOURCE_SAVED':continue
+              im=Image.open(OUT/r['filename']).convert('RGB')
+              p=im.copy()
+              if im.height>im.width*2.5:
+                p=im.crop((0,0,im.width,min(im.height,im.width*2)))
+              p.thumbnail((490,276),Image.Resampling.LANCZOS)
+              board.paste(p,(left+8,top+47))
+              pen.text((left+4,top+325),str((im.width,im.height))+' sha '+r['sha256'][:10],fill='#555555')
+          board.save(OUT/'BBIA_v341_6_FAMILIES_18_SOURCES_CONTACT.jpg',quality=90,optimize=True)
+          digest={}
+          for r in records:
+            if r['status']=='SOURCE_SAVED':digest.setdefault(r['sha256'],[]).append([r['sku'],r['role']])
+          summary={'version':'v341','parent':'v340b','purpose':'new uncovered BBIA family sources only','families':ids,'jobs':len(jobs),'success_count':sum(r['status']=='SOURCE_SAVED' for r in records),'duplicates':[v for v in digest.values() if len(v)>1],'records':records,'prior_v340b_12_untouched':True,'prior_v337_14_untouched':True,'public_55_urls_untouched':True,'sale_approval':False,'final_excel_shared':False}
+          (OUT/'BBIA_v341_SOURCE_CHECKPOINT.json').write_text(json.dumps(summary,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+          print('v341',json.dumps({'jobs':len(jobs),'saved':summary['success_count'],'duplicates':summary['duplicates']},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v341-six-new-families-sources
+          path: /tmp/bbia-v341
+          retention-days: 30
