@@ -1,0 +1,107 @@
+{
+  "version": "v2869",
+  "baseline": "v2868",
+  "family": "pending-03",
+  "work": "Original legacy gold pump photos for previously incomplete 21/25 shades and existing unchanged 23",
+  "old_23_existing_original": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/01-real-product-cutout-prior-QA.jpg",
+  "old_23_sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+  "attempted_new_shades": [
+    "21",
+    "25"
+  ],
+  "downloaded_new_original_shade_photos": 1,
+  "new_1080_QA_card_count": 1,
+  "blocked_or_failed": 1,
+  "new_version_US_photo_prohibited_as_old_version_substitute": true,
+  "brand_same_generation_not_yet_confirmed_for_physical_stock": true,
+  "new_source_use_rights_verified": false,
+  "source_photos_recolored": false,
+  "original_v2780_and_v2702_asset_bytes_preserved": true,
+  "previous_11_approved_families_untouched": true,
+  "previous_55_verified_public_URLs_untouched": true,
+  "new_retail_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "new_shade_source_rows": [
+    {
+      "shade": "21",
+      "shade_name": "LIGHT BEIGE",
+      "target_edition": "legacy 50ml red dotted pack with gold pump, NOT 2026 US redesigned beige-bottom squeeze tube",
+      "candidate_sources": [
+        {
+          "url": "https://c.scdn.gr/images/sku_main_images/055479/55479016/20240814151409_missha_m_perfect_cover_bb_21_light_beige_enydatiki_antigirantiki_krema_prosopou_imeras_me_spf42_me_yalouroniko_oxy_kollagono_50ml.jpeg",
+          "merchant": "Skroutz Greece",
+          "expected": "No.21 50ml legacy gold-pump red dotted product"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/GZMAAeSwk7xpaV0f/s-l1200.webp",
+          "merchant": "eBay UK",
+          "expected": "No.21 50ml legacy gold-pump red dotted product and box"
+        }
+      ],
+      "download_attempts": [
+        {
+          "merchant": "Skroutz Greece",
+          "result": "DOWNLOADED_UNALTERED_REFERENCE"
+        }
+      ],
+      "status": "SOURCE_SAVED_INTERNAL_QA_SHADE_AND_EDITION_VISUAL_HOLD",
+      "manual_shade_label_check_required": true,
+      "physical_owned_stock_same_edition_verified": false,
+      "merchant_redistribution_rights_verified": false,
+      "sales_approved": false,
+      "used_url": "https://c.scdn.gr/images/sku_main_images/055479/55479016/20240814151409_missha_m_perfect_cover_bb_21_light_beige_enydatiki_antigirantiki_krema_prosopou_imeras_me_spf42_me_yalouroniko_oxy_kollagono_50ml.jpeg",
+      "source_merchant": "Skroutz Greece",
+      "source_expected": "No.21 50ml legacy gold-pump red dotted product",
+      "source_native_px": [
+        800,
+        800
+      ],
+      "source_bytes": 54937,
+      "source_format": "JPEG",
+      "source_original": "qa-review/v2869-missha-legacy-gold-pump-21-23-25-exact-shade-photo-QA/MISSHA-OLD-50ml-No21-source-unaltered.jpg",
+      "source_sha256": "27bf230b17c0a828d4c84cf659197e0b91a5bca6528dbd0df4426bfcf707e0c5",
+      "output_card": "qa-review/v2869-missha-legacy-gold-pump-21-23-25-exact-shade-photo-QA/MISSHA-OLD-50ml-No21-real-merchant-source-card-QA.jpg",
+      "output_sha256": "0fe87b3caa5964bc92869a9c767602d05530fdda05938335a97bcf8cf7b46802",
+      "jpg_bytes": 136440,
+      "source_rgb_color_recolored": false
+    },
+    {
+      "shade": "25",
+      "shade_name": "WARM BEIGE",
+      "target_edition": "legacy 50ml red dotted pack with gold pump, NOT 2026 US redesigned beige-bottom squeeze tube",
+      "candidate_sources": [
+        {
+          "url": "https://www.bigw.com.au/medias/sys_master/images/images/h8b/h85/152631783784478.jpg",
+          "merchant": "Big W Australia",
+          "expected": "No.25 50ml legacy gold-pump red dotted product"
+        },
+        {
+          "url": "https://i.ebayimg.com/images/g/8KkAAOSwT4RjH95v/s-l1200.jpg",
+          "merchant": "eBay fallback candidate unverified",
+          "expected": "No.25 if exact shade and gold pump after visual check"
+        }
+      ],
+      "download_attempts": [
+        {
+          "merchant": "Big W Australia",
+          "result": "HOLD_FETCH_FAILED",
+          "reason": "TimeoutError: The read operation timed out"
+        },
+        {
+          "merchant": "eBay fallback candidate unverified",
+          "result": "HOLD_FETCH_FAILED",
+          "reason": "AssertionError: "
+        }
+      ],
+      "status": "HOLD_SOURCE_NOT_VERIFIED",
+      "manual_shade_label_check_required": true,
+      "physical_owned_stock_same_edition_verified": false,
+      "merchant_redistribution_rights_verified": false,
+      "sales_approved": false
+    }
+  ],
+  "contact": "qa-review/v2869-missha-legacy-gold-pump-21-23-25-exact-shade-photo-QA/v2869-old-missha-21-23-25-gold-pump-photo-contact-QA.jpg",
+  "contact_sha256": "f9a1ea9781bd78a1f3bb7e4b8031f86ca791e5c8b2482c2b620b1d1bbc3e5fbd",
+  "next": "Check actual No21/No25 printed number + gold-pump 50mL old exact packaging visually. Keep all as internal QA until source rights and owned physical stock confirmed; do not use new beige-bottom US redesign for these old pump photos."
+}
