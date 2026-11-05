@@ -1,0 +1,690 @@
+{
+  "version": "v2848",
+  "baseline": "v2847",
+  "title": "Stock 30-family photo release checkpoint, immutable source map and non-publication work queue",
+  "historical_archive": {
+    "reference": "evidence/latest-qa-checkpoint-v2647-four-distinct-real-photo-detail-crops-20261104.json",
+    "QA_families": 30,
+    "technical_QA_JPG": 156,
+    "archive_not_final_approved": true
+  },
+  "historical_mask": {
+    "reference": "qa-review/v2722-thirty-family-file-backed-cutout-queue/manifest.json",
+    "known_QA_pairs": 32,
+    "known_families_with_pair": 28,
+    "prior_mask_status_counts": {
+      "REJECT": 7,
+      "HOLD_STOCK": 3,
+      "QA_CANDIDATE": 18,
+      "SOURCE_BLOCKED": 2
+    }
+  },
+  "current_work": {
+    "family_count": 30,
+    "release_approved_new": 0,
+    "source_identity_holds": 12,
+    "package_format_gates": 3,
+    "files_scanned_for_recursive_ids": 77,
+    "recovered_nested_manifest_count": 65,
+    "unresolved_unclassified_QA_manifests": 12,
+    "per_family": [
+      {
+        "id": "pending-01",
+        "product": "미샤 매직 쿠션 커버 래스팅",
+        "inventory_options": [
+          "21호",
+          "23호",
+          "25호",
+          "27호"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "compact partially clipped; source artwork wrong for intact single-product hero",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 12,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-02",
+        "product": "미샤 매직 쿠션 모이스트 업",
+        "inventory_options": [
+          "21호",
+          "23호"
+        ],
+        "legacy_v2722_alpha_status": "HOLD_STOCK",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "compact plus box; product/shade package stock match not verified",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-03",
+        "product": "미샤 M 퍼펙트 커버 비비크림",
+        "inventory_options": [
+          "21호 화사한베이지",
+          "23호 자연스러운베이지",
+          "25호 웜베이지"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "old-era gold-pump BB cream shade 23; verify exact inventory edition",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 12,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-04",
+        "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+        "inventory_options": [
+          "21N 리넨",
+          "21C 란제리",
+          "23N 진저"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 2,
+        "legacy_v2722_visual_basis": "second-model CLIO mini retained nonproduct background; do not retry same frame",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 30,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Keep 21C,21N,23N five-photo QA sets and per-shade transparent cutouts; await photo license, authentic MK, actual stock"
+      },
+      {
+        "id": "pending-05",
+        "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+        "inventory_options": [
+          "19N 포슬린",
+          "19C 라이트",
+          "21N 리넨",
+          "21C 란제리",
+          "23N 진저"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "CLIO Founwear mini photograph depicts multiple set components",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 24,
+        "giftset_mini_blocked_source_refs": 12,
+        "package_identity_gate": "MINI_5G_SOURCE_CANNOT_PROVE_GIFT_SET",
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Replace MINI 5g references with exact Founwear gift-set edition / five shades and licensed imagery"
+      },
+      {
+        "id": "pending-06",
+        "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+        "inventory_options": [
+          "19N 포슬린",
+          "19C 라이트",
+          "21N 리넨",
+          "21C 란제리",
+          "23N 진저"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "CLIO Mesh Glow Essential source is kit/multiple compact artwork",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": "SINGLE_OR_PROMOTIONAL_SET_IMAGE_MUST_MATCH_EXACT_OWNED_GIFT_SET",
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify exact Mesh Glow Essential gift-set contents and five shades; single-compact photo is not proof"
+      },
+      {
+        "id": "pending-07",
+        "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+        "inventory_options": [
+          "19C 라이트",
+          "19N 포슬린",
+          "21N 리넨"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "CLIO Mesh Blur photograph includes GIFT and extra components",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 12,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": "SINGLE_OR_PROMOTIONAL_SET_IMAGE_MUST_MATCH_EXACT_OWNED_GIFT_SET",
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify Mesh Blur 15g x2 gift-set edition and three shades; rejected alpha reference not for release"
+      },
+      {
+        "id": "pending-08",
+        "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+        "inventory_options": [
+          "001 딸기기니",
+          "002 쩡신차렷",
+          "003 말랑물복",
+          "004 저쩔복숭아",
+          "005 갓기요정",
+          "006 갓기천사",
+          "007 자두뿜뿜",
+          "008 핑토당토",
+          "009 맘찍로즈",
+          "010 내입술인척",
+          "011 비주얼센터",
+          "012 개강여신",
+          "013 분위기 여신",
+          "014 로지워시",
+          "015 맘콕로즈",
+          "016 로즈콕",
+          "017 이로지무화과?",
+          "018 손웜수템",
+          "019 어쩔체리",
+          "020 당맛도리"
+        ],
+        "legacy_v2722_alpha_status": "SOURCE_BLOCKED",
+        "legacy_v2722_verified_alpha_pairs": 0,
+        "legacy_v2722_visual_basis": "PERIPERA 01-20 official shade/26AD identity and 004 conflict; no authentic cutout staged",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 15,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Reconcile 26AD stock names versus approved legacy 01–20 shade art before any swatch chart"
+      },
+      {
+        "id": "pending-09",
+        "product": "오브제 오일 컨트롤 피니셔 5g",
+        "inventory_options": [
+          "단품"
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "OBGE finisher previous alpha retains brown rectangular background",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 21,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-10",
+        "product": "오브제 퍼펙트 옴므 쿠션 15g",
+        "inventory_options": [
+          "1호 아이보리",
+          "2호 베이지",
+          "3호 샌드"
+        ],
+        "legacy_v2722_alpha_status": "HOLD_STOCK",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "OBGE Perfect Homme Cushion source says 15g vs possibly owned 13g",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 6,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-11",
+        "product": "오브제 올인원 더블 에센스 50ml+50ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "OBGE double-chamber bottle; do not describe as 2 separate products",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 9,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-12",
+        "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+        "inventory_options": [
+          "15G"
+        ],
+        "legacy_v2722_alpha_status": "HOLD_STOCK",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "MISSHA Renew Peel Shot photographed 15mL vs inventory 15g",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 5,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-13",
+        "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+        "inventory_options": [
+          "30ML"
+        ],
+        "legacy_v2722_alpha_status": "SOURCE_BLOCKED",
+        "legacy_v2722_verified_alpha_pairs": 0,
+        "legacy_v2722_visual_basis": "MISSHA serum slot01 is a fact card, not a product photograph; use already valid v2697 photo set",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 18,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Keep two failed serum photo workflows closed; archived 1000px source can be inspected separately, do not rerun failing workflow"
+      },
+      {
+        "id": "pending-14",
+        "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+        "inventory_options": [
+          "70ML"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "MISSHA PDRN cream original jar/lid intact; verify 70mL not foreign 70g",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 9,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-15",
+        "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "Dr.G Green Mild Up Sun tube intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 16,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-16",
+        "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "Dr.G R.E.D Blemish cream jar intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-17",
+        "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "Dr.G Brightening Up Moisture Sun tube intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 11,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-18",
+        "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "Dr.G Brightening Up Sun Plus tube intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 16,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-19",
+        "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "GOODAL Vita C Cream Alpha jar intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 23,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-20",
+        "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "GOODAL Serum Mist 100mL pump and bottle intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 8,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-21",
+        "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "REJECT",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "GOODAL 30mL eye tube alternate source clipped; cannot reconstruct",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 24,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-22",
+        "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+        "inventory_options": [
+          "SPF50+ PA++++"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 2,
+        "legacy_v2722_visual_basis": "OBGE Max Waterful 300mL pump and base retained in second model",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 13,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Check 300mL bottle packaging edition and remaining contour defects"
+      },
+      {
+        "id": "pending-23",
+        "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "OBGE Pore Zero 50mL cutout largely clean; bottom edge needs 1:1 check",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 13,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-24",
+        "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 2,
+        "legacy_v2722_visual_basis": "BIOHEAL BOH serum detached alpha blob fixed in v2714; edges need 1:1 check",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-25",
+        "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+        "inventory_options": [
+          ""
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 2,
+        "legacy_v2722_visual_basis": "BIOHEAL BOH cream base retained in v2712",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 11,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-26",
+        "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+        "inventory_options": [
+          "145ML"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "PIXEL PURE Gel-to-Foam 145mL body intact in v2711",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 15,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-27",
+        "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+        "inventory_options": [
+          "200ML"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "PIXEL PURE toner 200mL intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-28",
+        "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+        "inventory_options": [
+          "210ML/70PADS"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "PIXEL PURE pads 70ea alternate source fixed in v2714; bottom needs check",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 13,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-29",
+        "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+        "inventory_options": [
+          "50ML"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "PIXEL PURE cream 50mL intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 11,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      },
+      {
+        "id": "pending-30",
+        "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+        "inventory_options": [
+          "50ML"
+        ],
+        "legacy_v2722_alpha_status": "QA_CANDIDATE",
+        "legacy_v2722_verified_alpha_pairs": 1,
+        "legacy_v2722_visual_basis": "PIXEL PURE serum 50mL intact",
+        "stock_has_QA_metadata_evidence": true,
+        "QA_explicit_source_references": 10,
+        "giftset_mini_blocked_source_refs": 0,
+        "package_identity_gate": null,
+        "photo_usage_license": "NOT_VERIFIED",
+        "physical_stock_version": "NOT_VERIFIED",
+        "original_MK_logo": "NOT_AUTHENTICATED",
+        "final_human_sales_QA": "NOT_APPROVED",
+        "publication_status": "QA_ONLY_RELEASE_BLOCKED",
+        "next_required_action": "Verify genuine current stock edition + photo rights + authentic MK + final human QA before new public URL"
+      }
+    ]
+  },
+  "constraints": {
+    "prior_11_sales_approved_families_preserved": true,
+    "original_55_public_URLs_preserved": true,
+    "all_existing_photo_bytes_preserved": true,
+    "non_authentic_logo_not_added": true,
+    "final_XLSX_or_spreadsheet_not_shared": true
+  },
+  "release_go_no_go": "NO_GO_FOR_ALL_30_PENDING_FAMILIES",
+  "message": "Technical format and recovered QA source IDs are not licenses or sale release. Use this ledger to skip already checked items.",
+  "created_by": "Direct GitHub connector QA, without rerunning old workflows",
+  "next_priorities": [
+    "pending-05",
+    "pending-06",
+    "pending-07",
+    "pending-08",
+    "pending-13",
+    "pending-22"
+  ]
+}
