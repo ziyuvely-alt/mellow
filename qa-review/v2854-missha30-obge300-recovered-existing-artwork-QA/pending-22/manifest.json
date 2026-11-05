@@ -1,0 +1,77 @@
+{
+  "family": "pending-22",
+  "product": "OBgE Max Waterful Sun Cream 300mL",
+  "photo_reuse_mode": "BYTE_EXACT_COPY_FROM_PRESERVED_QA",
+  "rejected_predecessors": [
+    {
+      "source": "v2670 first image",
+      "reason": "black or transparent-placeholder background visible, unsuitable for sales hero"
+    },
+    {
+      "source": "v2711 early alpha JPG",
+      "reason": "bottle base cut off in first segmentation preview"
+    }
+  ],
+  "visual_hold": [
+    "v2712 pump shadow edge needs close human review; no new segmentation performed",
+    "v2670 2nd 600px native source is a beige product photo, not native 1080",
+    "only 2 different real-product photo slots; 3 factual information frames are not distinct real photos",
+    "source copyright/reuse rights, exact stock label and MK logo unverified"
+  ],
+  "image_revision_required": false,
+  "human_sales_QA": "HOLD",
+  "slots": [
+    {
+      "slot": 1,
+      "role": "full-bottle-no-cut-base-photo-hero",
+      "source": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/pending-22/01-full-product-high-quality-cutout-1080-QA.jpg",
+      "file": "pending-22/01-REUSED-PHOTO-QA.jpg",
+      "sha256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958",
+      "source_bytes_identical": true,
+      "jpg_bytes": 67072,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 2,
+      "role": "official-distinct-packshot",
+      "source": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/02-official-beige-packshot-distinct-QA.jpg",
+      "file": "pending-22/02-REUSED-PHOTO-QA.jpg",
+      "sha256": "d315b5113eefc750ef6096e3d9f43c691af48d5aa1ead8e5aa33e9e89820a9e2",
+      "source_bytes_identical": true,
+      "jpg_bytes": 42305,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 3,
+      "role": "existing-factual-information",
+      "source": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/03-factual-info-qa.jpg",
+      "file": "pending-22/03-REUSED-PHOTO-QA.jpg",
+      "sha256": "a8981cf8a5e8090fd8b5ebfa02aec5d1ea017bab25ab787d5b4ec28290225b64",
+      "source_bytes_identical": true,
+      "jpg_bytes": 60064,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 4,
+      "role": "existing-factual-information",
+      "source": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/04-factual-info-qa.jpg",
+      "file": "pending-22/04-REUSED-PHOTO-QA.jpg",
+      "sha256": "7b5d5b641a5ce9bad6223a91c3f0e8ff9231479047bce27a9c0d3dc030e2dcd0",
+      "source_bytes_identical": true,
+      "jpg_bytes": 44794,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 5,
+      "role": "existing-factual-information",
+      "source": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/05-factual-info-qa.jpg",
+      "file": "pending-22/05-REUSED-PHOTO-QA.jpg",
+      "sha256": "add3c9fa7db7a7b967b45a45ca51d8ff8d250843fe8d98640c074b9feb1aad3d",
+      "source_bytes_identical": true,
+      "jpg_bytes": 67019,
+      "verified_1080_square_under_2MB": true
+    }
+  ],
+  "distinct_file_sha256_count": 5,
+  "commercial_release": "HOLD_RIGHTS_STOCK_EDITION_MK_VISUAL"
+}

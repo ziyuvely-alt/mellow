@@ -1,0 +1,31 @@
+{
+  "version": "v2854",
+  "baseline": "v2853",
+  "purpose": "Recovered exact old QA source assets for 30mL serum and 300mL sunscreen without re-rendering",
+  "new_segmentation_runs": 0,
+  "new_real_photo_downloads": 0,
+  "old_11_approved_families_unchanged": true,
+  "old_55_published_URLs_unchanged": true,
+  "source_originals_modified": false,
+  "commercial_photo_rights_verified": false,
+  "actual_owned_stock_editions_verified": false,
+  "authentic_MK_logo_verified": false,
+  "new_sale_approvals": 0,
+  "final_xlsx_shared": false,
+  "families": [
+    {
+      "id": "pending-13",
+      "copied_verified_JPGs": 5,
+      "sha_unique": 5,
+      "source_manifest": "qa-review/v2854-missha30-obge300-recovered-existing-artwork-QA/pending-13/manifest.json",
+      "retail_approved": false
+    },
+    {
+      "id": "pending-22",
+      "copied_verified_JPGs": 5,
+      "sha_unique": 5,
+      "source_manifest": "qa-review/v2854-missha30-obge300-recovered-existing-artwork-QA/pending-22/manifest.json",
+      "retail_approved": false
+    }
+  ]
+}

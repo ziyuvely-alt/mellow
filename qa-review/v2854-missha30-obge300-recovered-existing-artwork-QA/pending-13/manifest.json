@@ -1,0 +1,80 @@
+{
+  "family": "pending-13",
+  "product": "MISSHA Camellia PDRN + NAD+ Firming Repair Serum 30mL",
+  "photo_reuse_mode": "BYTE_EXACT_COPY_FROM_PRESERVED_QA",
+  "rejected_predecessors": [
+    {
+      "source": "v2839 failed Actions run",
+      "reason": "incorrectly fixed reference image dimensions to 500x500"
+    },
+    {
+      "source": "v2840 failed Actions run",
+      "reason": "image processing succeeded but git rebase lacked user identity"
+    },
+    {
+      "source": "v2756 alternative image",
+      "reason": "red decorative background artifact remained in foreground alpha"
+    }
+  ],
+  "visual_hold": [
+    "small decoration residue visible beside serum dropper cap in v2801 hero; do not call clean approved cutout",
+    "model/lifestyle image photo rights and exact retail claims not confirmed",
+    "owned SKU edition and authorized MK logo not independently verified"
+  ],
+  "image_revision_required": false,
+  "human_sales_QA": "HOLD",
+  "slots": [
+    {
+      "slot": 1,
+      "role": "real-single-bottle-hero",
+      "source": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/01-final-QA-real-single-serum-photo.jpg",
+      "file": "pending-13/01-REUSED-PHOTO-QA.jpg",
+      "sha256": "4fa02bea32d78a37a4d964497b963d04a06218ec0af02fa7a72873985c8fe364",
+      "source_bytes_identical": true,
+      "jpg_bytes": 90029,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 2,
+      "role": "previous-original-photo-or-information",
+      "source": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/02-original-v2697-byte-unchanged-QA.jpg",
+      "file": "pending-13/02-REUSED-PHOTO-QA.jpg",
+      "sha256": "ac675922ae6d5e6e55801941fbd21982606d318daaa249f43cd106169939e1d6",
+      "source_bytes_identical": true,
+      "jpg_bytes": 81089,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 3,
+      "role": "previous-original-photo-or-information",
+      "source": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/03-original-v2697-byte-unchanged-QA.jpg",
+      "file": "pending-13/03-REUSED-PHOTO-QA.jpg",
+      "sha256": "8ad5baab4e8a5fb50e165b2d1dc5703eedd6daebfb2454b7a3e439053d42dd54",
+      "source_bytes_identical": true,
+      "jpg_bytes": 60480,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 4,
+      "role": "previous-original-photo-or-information",
+      "source": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/04-original-v2697-byte-unchanged-QA.jpg",
+      "file": "pending-13/04-REUSED-PHOTO-QA.jpg",
+      "sha256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+      "source_bytes_identical": true,
+      "jpg_bytes": 87486,
+      "verified_1080_square_under_2MB": true
+    },
+    {
+      "slot": 5,
+      "role": "previous-original-photo-or-information",
+      "source": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/05-original-v2697-byte-unchanged-QA.jpg",
+      "file": "pending-13/05-REUSED-PHOTO-QA.jpg",
+      "sha256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+      "source_bytes_identical": true,
+      "jpg_bytes": 81792,
+      "verified_1080_square_under_2MB": true
+    }
+  ],
+  "distinct_file_sha256_count": 5,
+  "commercial_release": "HOLD_RIGHTS_STOCK_EDITION_MK_VISUAL"
+}
