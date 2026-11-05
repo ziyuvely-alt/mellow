@@ -1,0 +1,34 @@
+{
+  "version": "v2842",
+  "baseline": "v2840",
+  "family": "pending-04",
+  "variant": "23N Ginger",
+  "alignment": {
+    "score": 0.99749,
+    "scale": 1.0,
+    "bbox": [
+      302,
+      352,
+      665,
+      742
+    ]
+  },
+  "mask_source": "v2837 21N silhouette alpha only",
+  "23N_photographic_RGB_source": "qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA/05-23N-MERCHANT-LACOSMETIQUE-QA.jpg",
+  "segmentation_model_runs": 0,
+  "review_photos_used": 0,
+  "photo_usage_rights_verified": false,
+  "exact_owned_inventory_verified": false,
+  "authentic_MK_logo_verified": false,
+  "retail_approved": false,
+  "11_published_families_unchanged": true,
+  "55_public_URLs_unchanged": true,
+  "previous_23N_5JPG_galleries_unchanged": true,
+  "final_xlsx_shared": false,
+  "status": "TRUE_23N_RGB_WITH_REGISTERED_MASK_VISUAL_QA_PENDING",
+  "new_PNG": "01-23N-Ginger-real-product-transparent-QA.png",
+  "new_JPG": "01-23N-Ginger-real-product-1080-hero-QA.jpg",
+  "sha256": "823cf844eb2ab53f41cd7bdbe2281e4c1d79258a911d7c0d2c6adde20e75e3a0",
+  "JPG_bytes": 88223,
+  "mask_shift_and_scale_QA_REQUIRED": true
+}
