@@ -1,0 +1,41 @@
+name: Shopee v2930 GOODAL 100ml official Clubclio product photo sources QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2930-goodal-100ml-mist-brand-gallery-source.yml'
+      - 'scripts/v2930_goodal_clubclio_exact100ml_mist_gallery_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect_goodal_mist_real_brand_sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install photo source validation
+        run: python -m pip install Pillow requests beautifulsoup4
+      - name: Static preflight plus one-pass goodal original manufacturer photo discovery
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2930_goodal_clubclio_exact100ml_mist_gallery_QA.py
+          cp scripts/v2930_goodal_clubclio_exact100ml_mist_gallery_QA.py /tmp/v2930.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2930qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2930qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2930-goodal-mist100-clubclio-official-gallery-native-photo-QA
+          python /tmp/v2930.py
+          git add qa-review/v2930-goodal-mist100-clubclio-official-gallery-native-photo-QA
+          git diff --cached --name-only | tee /tmp/v2930-changed
+          ! grep -Ev '^qa-review/v2930-goodal-mist100-clubclio-official-gallery-native-photo-QA/' /tmp/v2930-changed
+          git commit -m 'v2930 GOODAL 100ml exact clubclio brand-gallery source photo QA without old asset changes'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
