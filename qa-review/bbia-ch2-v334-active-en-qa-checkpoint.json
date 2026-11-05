@@ -1,0 +1,195 @@
+{
+  "checkpoint": "v334",
+  "date": "2026-11-05",
+  "purpose": "Current eight non-superseded EN QA scenes consolidated for next stage; no image created by this packaging step",
+  "parents": [
+    "v333 palette text repairs",
+    "v332b three exact-crop repairs"
+  ],
+  "active_EN_JPG_count": 8,
+  "counts": {
+    "tech_QA_pass": 8,
+    "sales_approved": 0,
+    "new_URLs": 0,
+    "approved_MX_localization": false
+  },
+  "active": [
+    {
+      "sku": "1000000151",
+      "option": "01",
+      "family": "Last Eye Palette",
+      "scene": "photo and 6 real shade swatches",
+      "existing_path": "/mnt/data/bbia/v333/EN/BBIA_0151_OPTION_01_CHOCO_VILLAGE_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "filename": "BBIA_0151_OPTION_01_CHOCO_VILLAGE_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "sha256": "62b0a46ba0dc03f54a12277b0e527ad32919c04fa4917dc667ff3c0f0d6fee3c",
+      "source_photo_sha256": "986e907afa8fb2ed3d03ed6aef8eae7579886779b11372366e35fca335f0a94f",
+      "photo_layer_sha256": "852760d58da1d617857279d604540e37f11f154f2202f3add0be22aa297a6559",
+      "version": "v333",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 222975,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "1000000151",
+      "option": "02",
+      "family": "Last Eye Palette",
+      "scene": "photo and 6 real shade swatches",
+      "existing_path": "/mnt/data/bbia/v333/EN/BBIA_0151_OPTION_02_WISH_LIST_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "filename": "BBIA_0151_OPTION_02_WISH_LIST_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "sha256": "b32c24f9fca16bb44f9884fe5e3858885d76f1c57544b9961492a478336a50f2",
+      "source_photo_sha256": "1b5a0a2878d82d3436adafe2ed812af1e90bff4c70be9e5c8955199bcf23d34b",
+      "photo_layer_sha256": "9e96516f5efeef2a5d1fe09687651756666b91d47d14c4ef95483270d93c64ea",
+      "version": "v333",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 201540,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "1000000151",
+      "option": "03",
+      "family": "Last Eye Palette",
+      "scene": "photo and 6 real shade swatches",
+      "existing_path": "/mnt/data/bbia/v333/EN/BBIA_0151_OPTION_03_BUCKET_LIST_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "filename": "BBIA_0151_OPTION_03_BUCKET_LIST_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "sha256": "065bddf7e047bab49c045372af1077cec1d97e3cae7452ae26d0c920789fb658",
+      "source_photo_sha256": "3f6db4ce8a73819f59895a93368786472bb49b7eae1bb6b0b87220f6c5023f9e",
+      "photo_layer_sha256": "e08a5e730f6d8b0b91e9ff85b6b0b8524978624012a89ba2bdb276f4c33d77c2",
+      "version": "v333",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 211405,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "1000000151",
+      "option": "04",
+      "family": "Last Eye Palette",
+      "scene": "photo and 6 real shade swatches",
+      "existing_path": "/mnt/data/bbia/v333/EN/BBIA_0151_OPTION_04_GLOWING_DRAWING_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "filename": "BBIA_0151_OPTION_04_GLOWING_DRAWING_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "sha256": "b03e5491b763d8453e1e9f35382c19f289243c4e9b592c38e323d92f0ffb327b",
+      "source_photo_sha256": "b30b8ee2f664f04e357294bbf51d1097274dca2339b33b29e5eaddc6cf2eda3f",
+      "photo_layer_sha256": "85d8916e4f6abe2dd18832ff417fbc88e4cca447c5e8f1580c526ab7ec492ebe",
+      "version": "v333",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 252044,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "1000000151",
+      "option": "05",
+      "family": "Last Eye Palette",
+      "scene": "photo and 6 real shade swatches",
+      "existing_path": "/mnt/data/bbia/v333/EN/BBIA_0151_OPTION_05_BLOOMING_DRAWING_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "filename": "BBIA_0151_OPTION_05_BLOOMING_DRAWING_EN_v333_TEXT_ALIGNMENT_QA_PENDING.jpg",
+      "sha256": "c53b1714dcb8d6725c6d833fdaa84209e33fbff07b3f4fce17e3df02780f6734",
+      "source_photo_sha256": "0f0cda86010566488aa15f0b5e22254210de537143941cacacce12a13a40e403",
+      "photo_layer_sha256": "f4a88ee682317638a4996e662e987c5b1f0a7398de896b23cd1f2dfc8eaf45f5",
+      "version": "v333",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 229343,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "1000000056",
+      "family": "Never Die Mascara Slim",
+      "scene": "Replace mixed-option v331 crop with option-matched real photos",
+      "existing_path": "/mnt/data/bbia/v332b/EN/BBIA_1000000056_REAL_SHADE_CROP_ISOLATED_EN_v332b_QA_PENDING.jpg",
+      "filename": "BBIA_1000000056_REAL_SHADE_CROP_ISOLATED_EN_v332b_QA_PENDING.jpg",
+      "sha256": "ed7c4ea14b9386e7fd0d139cda42e1c2b1e156e3d5be467e37b2d3ea9be3bc96",
+      "source_photo_sha256": "57451c05b8218d3a6271f9259db773663ff52245a1a6f76d5d9d9a235d58a97a",
+      "version": "v332b",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 281862,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "172",
+      "family": "BBIA NEVER DIE MASCARA",
+      "scene": "Targeted crop to eliminate visible blue screenshot panel/borders",
+      "existing_path": "/mnt/data/bbia/v332b/EN/BBIA_172_BRUSH_CLEAN_CROP_EN_v332b_QA_PENDING.jpg",
+      "filename": "BBIA_172_BRUSH_CLEAN_CROP_EN_v332b_QA_PENDING.jpg",
+      "sha256": "d43bc30d9302f231fe61bd827e16e59aeea81a0677639c8353ca53c51114e499",
+      "source_photo_sha256": "ea56f8362ef6aa73bcbfbec02e885da8014a8776edb1df4cae2fd899ef9074df",
+      "version": "v332b",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 137122,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    },
+    {
+      "sku": "207",
+      "family": "BBIA NEVER DIE BRUSH EYELINER",
+      "scene": "Targeted crop to eliminate visible blue screenshot panel/borders",
+      "existing_path": "/mnt/data/bbia/v332b/EN/BBIA_207_PRECISION_TIP_CLEAN_CROP_EN_v332b_QA_PENDING.jpg",
+      "filename": "BBIA_207_PRECISION_TIP_CLEAN_CROP_EN_v332b_QA_PENDING.jpg",
+      "sha256": "565f46fcaac25ac90c3ff84b6eecbf1a774c3903f43a1afd8f1ec5a3d5251bd8",
+      "source_photo_sha256": "8d05c7089ccb11c11a53cb70a70038999ff9c7e99b3d6d48926724dd6f2faeb5",
+      "version": "v332b",
+      "editorial_status": "CORRECTED_EN_QA_PENDING",
+      "bytes": 97775,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "technical_status": "PASS"
+    }
+  ],
+  "superseded": [
+    "v329 five old palette variants",
+    "v331 five palette pre-text-alignment repair",
+    "v331 three defective product photo crops",
+    "v332 first repair attempt with rectangular feather halo"
+  ],
+  "retained_unmodified": [
+    "v326b/v327/v328b other earlier QA assets",
+    "v322 twelve source downloads",
+    "v329 five official palette source files",
+    "v330 twelve official photo source files",
+    "1,515 first-pass drafts",
+    "55 previously verified image URLs",
+    "main branch"
+  ],
+  "hold": {
+    "8_current_scenes": "FINAL_EDIT_OR_MERCHANT_SIGNOFF_PENDING",
+    "all_other_48_families": "CONTINUE_SOURCE_AND_SCENE_QA",
+    "plugin5": "WAIT_FOR_APPROVED_EN_MASTER",
+    "public_urls": "NOT_DEPLOYED",
+    "final_excel": "NOT_SHARED"
+  },
+  "do_not_repeat": [
+    "Do not download v322 or v330 sources again",
+    "Do not generate v329/v331 palette photos again",
+    "Do not regenerate v332b three corrected scenes",
+    "Do not restore v332 preliminary halo frames",
+    "Do not conflate technical QA with commercial approval"
+  ],
+  "library_path": "/BBIA_TempQA/BBIA_v334_ACTIVE_EN_QA_CHECKPOINT.json",
+  "library_zip": "/BBIA_TempQA/BBIA_v334_CURRENT_EIGHT_EN_QA_MASTER_PACK.zip"
+}
