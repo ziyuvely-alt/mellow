@@ -1,0 +1,39 @@
+name: Shopee v2933 BIOHEAL 12 gallery images visual bundle claims duplicate QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2933-bioheal-domestic-twelve-visual-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  classify_existing_photo_assets_no_publishing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Static test, existing 12-photo inspection, save fresh QA records
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2933_bioheal_12scene_visual_claim_bundle_selection.py
+          cp scripts/v2933_bioheal_12scene_visual_claim_bundle_selection.py /tmp/v2933.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2933qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2933qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2933-bioheal-twelve-source-visual-bundle-claim-and-scene-QA
+          python /tmp/v2933.py
+          git add qa-review/v2933-bioheal-twelve-source-visual-bundle-claim-and-scene-QA
+          git diff --cached --name-only | tee /tmp/v2933-changes
+          ! grep -Ev '^qa-review/v2933-bioheal-twelve-source-visual-bundle-claim-and-scene-QA/' /tmp/v2933-changes
+          git commit -m 'v2933 12 photo scene claims/bundle/model source QA; 1 clean provisional cream scene only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
