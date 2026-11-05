@@ -1,0 +1,103 @@
+{
+  "version": "v2974",
+  "prior": "v2973",
+  "project": "Shopee Thumbnail Creator PRO / 82 SKU, 41 families",
+  "family": "pending-21",
+  "product": "GOODAL 25AD eye cream 30mL",
+  "method": "One offline-pass SHA256 search across only already-committed relevant JPG/PNG paths; no web re-fetch or new photo creation.",
+  "archived_sha256": {
+    "3": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+    "4": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb"
+  },
+  "matching_existing_standalone_paths": {
+    "3": [
+      "qa-review/v2814-goodal-25ad-renewal-tube-five-photo-first-JPG-QA/03-original-2026-yellow-tube-cream-swatch-QA.jpg",
+      "qa-review/v2813-goodal-renewal-25AD-tube-genuine-source-alpha/02-2026-hikoco-tube-photo-1080-QA.jpg",
+      "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/03-original-2026-yellow-tube-cream-swatch-QA.jpg"
+    ],
+    "4": [
+      "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/04-real-tube-front-and-silver-cap-full-detail-QA.jpg"
+    ]
+  },
+  "standalone_matches_recorded": [
+    {
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/04-legacy-nozzle-cream-REFERENCE.jpg",
+      "sha256": "72f53d6f255c109de47bf774c14a765764b16ca78c196b1aa575c5a6ebc7e94e",
+      "direct_target_slots": [],
+      "already_reviewed_legacy_reference": [
+        4
+      ]
+    },
+    {
+      "path": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/03-legacy-eye-area-application-REFERENCE.jpg",
+      "sha256": "2604ec12bbab7158c9fdbd5a7fb8dd91ab3d17fc44658c946112a7a36a6465b1",
+      "direct_target_slots": [],
+      "already_reviewed_legacy_reference": [
+        3
+      ]
+    },
+    {
+      "path": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/03-original-source-sha-unchanged-QA.jpg",
+      "sha256": "2604ec12bbab7158c9fdbd5a7fb8dd91ab3d17fc44658c946112a7a36a6465b1",
+      "direct_target_slots": [],
+      "already_reviewed_legacy_reference": [
+        3
+      ]
+    },
+    {
+      "path": "qa-review/v2705-three-recovered-photo-first-family-sets/pending-21/04-original-source-sha-unchanged-QA.jpg",
+      "sha256": "72f53d6f255c109de47bf774c14a765764b16ca78c196b1aa575c5a6ebc7e94e",
+      "direct_target_slots": [],
+      "already_reviewed_legacy_reference": [
+        4
+      ]
+    },
+    {
+      "path": "qa-review/v2814-goodal-25ad-renewal-tube-five-photo-first-JPG-QA/03-original-2026-yellow-tube-cream-swatch-QA.jpg",
+      "sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+      "direct_target_slots": [
+        3
+      ],
+      "already_reviewed_legacy_reference": []
+    },
+    {
+      "path": "qa-review/v2813-goodal-renewal-25AD-tube-genuine-source-alpha/02-2026-hikoco-tube-photo-1080-QA.jpg",
+      "sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+      "direct_target_slots": [
+        3
+      ],
+      "already_reviewed_legacy_reference": []
+    },
+    {
+      "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/03-original-2026-yellow-tube-cream-swatch-QA.jpg",
+      "sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+      "direct_target_slots": [
+        3
+      ],
+      "already_reviewed_legacy_reference": []
+    },
+    {
+      "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/04-real-tube-front-and-silver-cap-full-detail-QA.jpg",
+      "sha256": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+      "direct_target_slots": [
+        4
+      ],
+      "already_reviewed_legacy_reference": []
+    }
+  ],
+  "unresolved_slots": [],
+  "outcome": "BOTH_MATCHING_STANDALONE_FOUND",
+  "aHash_distance_archived_3_vs_4": 5,
+  "not_proven": "Distinctness of exact archived frames until directly visually inspected; actual stock single/two pack, commercial rights, original MK",
+  "replacement_action": "Do not delete/replace either candidate merely for hash similarity. Verify true archived frames or hold only that specific issue, not all other products.",
+  "new_image_bytes_created": 0,
+  "new_public_urls": 0,
+  "new_retail_approved": 0,
+  "legacy_published_product_families_preserved": 11,
+  "legacy_verified_URLs_preserved": 55,
+  "audit_v2970_result": "19 other archive ZIPs, 130 JPG/PNG files inspected",
+  "audit_v2971_result": "16 loose JPG refs inspected, Peripera JPG/PNG 01-20 structurally verified",
+  "latest_rollup": "v2972 30-family release hold remains authoritative for all other families",
+  "public_repo_rule": "Do not store new unlicensed binary images on public GitHub",
+  "final_spreadsheet_shared": false
+}
