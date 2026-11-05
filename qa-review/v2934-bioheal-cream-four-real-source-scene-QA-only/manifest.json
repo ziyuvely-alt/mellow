@@ -1,0 +1,68 @@
+{
+  "version": "v2934",
+  "baseline": "v2933",
+  "generated_utc": "2026-11-05T15:45:49Z",
+  "family": "pending-25",
+  "existing_previous_sources": 3,
+  "added_previously_screened_scene": 1,
+  "byte_verified_source_references": 4,
+  "remaining_photo_slots": 1,
+  "original_new_photography": 0,
+  "commercial_license_verified": false,
+  "stock_edition_verified": false,
+  "new_retail_approvals": 0,
+  "new_public_urls": 0,
+  "old_55_public_urls_changed": 0,
+  "old_11_approved_families_changed": 0,
+  "prior_QA_modified": 0,
+  "final_spreadsheet_shared": false,
+  "zip_path": "qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only/BIOHEAL_NAD-PRIZCELL_Glow-Boost-Cream_50mL_4OF5_INTERNAL.zip",
+  "zip_sha256": "d2b58956dc15d9c98524dd2703974daaa1544b8ee1aaffe5c2e472fe15365e7c",
+  "contact": "qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only/BIOHEAL_GlowBoostCream_4source_contact_INTERNAL.jpg",
+  "source_records": [
+    {
+      "slot": 1,
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip:01-pending-25-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+      "native_pixels": [
+        1080,
+        1080
+      ],
+      "commercial_rights_granted": false,
+      "retail_approved": false
+    },
+    {
+      "slot": 2,
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip:02-pending-25-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+      "native_pixels": [
+        1080,
+        1080
+      ],
+      "commercial_rights_granted": false,
+      "retail_approved": false
+    },
+    {
+      "slot": 3,
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip:03-pending-25-UNCHANGED-SOURCE-QA.jpg",
+      "sha256": "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+      "native_pixels": [
+        1080,
+        1080
+      ],
+      "commercial_rights_granted": false,
+      "retail_approved": false
+    },
+    {
+      "slot": 4,
+      "path": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/04-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+      "sha256": "9cd6ff4f50cd1083d616ebb58ee37fd00748768470a2f79ce202a5712c28b06e",
+      "native_pixels": [
+        1000,
+        1000
+      ],
+      "commercial_rights_granted": false,
+      "retail_approved": false
+    }
+  ]
+}
