@@ -1,0 +1,304 @@
+{
+  "version": "v2913",
+  "baseline": "v2912",
+  "generated_at_UTC": "2026-11-05T14:17:37Z",
+  "manufacturer_site": "https://pixelpure.com",
+  "families_examined": 4,
+  "new_manufacturer_originals_archived": 12,
+  "new_1080_reference_JPGs": 12,
+  "new_contact_sheets": 4,
+  "retail_approved": 0,
+  "new_published_URLs": 0,
+  "old_11_families_untouched": true,
+  "old_55_verified_URLs_unchanged": true,
+  "old_QA_assets_untouched": true,
+  "final_excel_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=24",
+      "manufacturer_page_loaded": true,
+      "manufacturer_name_in_page": true,
+      "image_candidate_urls_tried": 5,
+      "new_source_originals_count": 4,
+      "new_originals": [
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/573f0ea6528ad58736bd2ca39ebf977f.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/01-firstparty-native-original.jpg",
+          "raw_SHA256": "c34406f23ac521d585ff626aacf468c215c07b515a63f65a879a8f5804ad72fd",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "8d06b7036ee65960de1f4d2327f2faadba324b1e01f20174a63603eb6005633f",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=24",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20261021/51d67ee0410b2f2e786415529d5762b0.png",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/02-firstparty-native-original.png",
+          "raw_SHA256": "8c91803025716e2f1003a745b82d87da0a9b012a77c17871f0f949d81d744af9",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "2b8d38a60d0b5eeed961da0df96bf8c4092e140735f3f60c7dd1b4e0a4fef590",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=24",
+          "file_format": "PNG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/50743b5c924735ef43f9981d5eb1a7f3.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-native-original.jpg",
+          "raw_SHA256": "2830b85ab851f83542cb9f7c8eaf3e64a5303d45a124b3431ca88bd78e05f116",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=24",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/7b8cba86fdded942476a1d067deef53a.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/04-firstparty-native-original.jpg",
+          "raw_SHA256": "50310c30dc0f907ff194d4e92d9a9236b38c9805d8c08a77a0710084e6cf99d4",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/04-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "f4e21e91ccbbc27dc4a887c756cda9762045182f63247508b9a3b9bdc53e048c",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=24",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "contact_sheet": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27-official-gallery-photo-review-CONTACT-INTERNAL.jpg",
+      "errors": [],
+      "retail_release": "NOT_APPROVED"
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 70ct / 210mL",
+      "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=23",
+      "manufacturer_page_loaded": true,
+      "manufacturer_name_in_page": true,
+      "image_candidate_urls_tried": 5,
+      "new_source_originals_count": 4,
+      "new_originals": [
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/cd300dad59dad9b249baf6ac3ae9769c.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/01-firstparty-native-original.jpg",
+          "raw_SHA256": "37e09d62a94a2b06dfe407e7aac06d6e593b820c10b44f3acbb7c0c29bbc17f8",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "dd28c7357223e5770e3fac5049fc5ec5c0b5dab1b8d6a7e8e2fadf5377220e99",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=23",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            2371,
+            3554
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20250731/96b765ab1193b262b85a9dc02d8e3e45.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-native-original.jpg",
+          "raw_SHA256": "0462495f3721b557556d1530f99346006f38adbc50b4179af7c75e8c26643371",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "984ff08e8c544f9439f6540300f9f53224f9264c6f02fac35bd55bfa166df65e",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=23",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fa5cc4a7096bac6f3363ca231904e337.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-native-original.jpg",
+          "raw_SHA256": "7c5d29b4d2d7322b714c8cd370ff597fa083957edc08112df702636da3730fad",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "49297799e7af1bacfe4a34727295a0a11d079e71301042e6d97934291bf1ffeb",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=23",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fe20631aba57f30f9bde781df44544e6.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/04-firstparty-native-original.jpg",
+          "raw_SHA256": "eba9eeefa4f1cafd68bf7ff46c2948353261be4fb542b922e77b165b1e23e952",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/04-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "0814f18009d0ec4a96e407ffa5bf13303a83705d96a980f79d5614a0d66cb217",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=23",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "contact_sheet": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28-official-gallery-photo-review-CONTACT-INTERNAL.jpg",
+      "errors": [],
+      "retail_release": "NOT_APPROVED"
+    },
+    {
+      "family": "pending-29",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=26",
+      "manufacturer_page_loaded": true,
+      "manufacturer_name_in_page": true,
+      "image_candidate_urls_tried": 4,
+      "new_source_originals_count": 3,
+      "new_originals": [
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20260907/791392bae7f687b80fac564a1ac3267f.jpg",
+          "source_class": "VERIFIED_MANUFACTURER_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-native-original.jpg",
+          "raw_SHA256": "e76098e23c837b9db53bbbe2c4aa7dcc7288955abda532430760dd6b42af1333",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=26",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20261021/1b91715d685d4b6378b229a4ab40c9e9.jpg",
+          "source_class": "VERIFIED_MANUFACTURER_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/02-firstparty-native-original.jpg",
+          "raw_SHA256": "98fedf3f723b1e70ed43866fea9070e22b76916f0026f2d21386de4ce0747f93",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "66554ca15ad36c0e67a65ac194d724b29edba88d0402295787b5a4d5fd441e53",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=26",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        },
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/03-firstparty-native-original.jpg",
+          "raw_SHA256": "6ed87c404f138922fba847906a0ec6fa4033540e35ae3caaa9d35ed96993f35f",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "2208c8f7ff7bd3d8049f9ff64ee202fa1862f2d18da8d712e460290ef9a675b5",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=26",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "contact_sheet": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29-official-gallery-photo-review-CONTACT-INTERNAL.jpg",
+      "errors": [],
+      "retail_release": "NOT_APPROVED"
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=25",
+      "manufacturer_page_loaded": true,
+      "manufacturer_name_in_page": true,
+      "image_candidate_urls_tried": 3,
+      "new_source_originals_count": 1,
+      "new_originals": [
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20260213/b1538dd05d1d8b3a354a3690e007b309.jpg",
+          "source_class": "MANUFACTURER_PAGE_GALLERY",
+          "raw": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-native-original.jpg",
+          "raw_SHA256": "d44b5579e7bf4a24450a7bc42f472e04fae771e8c4d552bea758ac8dfe61e1bb",
+          "ref": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "ref_SHA256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "manufacturer_page": "https://pixelpure.com/product/detail.html?product_no=25",
+          "file_format": "JPEG",
+          "exact_stock_edition_verified": false,
+          "distinct_original_scene_approved": false,
+          "promo_badges_and_claims_visually_checked": false,
+          "legal_photo_rights_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "contact_sheet": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30-official-gallery-photo-review-CONTACT-INTERNAL.jpg",
+      "errors": [
+        "skipped cb64cbbdf40f0af35ec162dda1bd13bb.jp: native below 900: (600, 600)"
+      ],
+      "retail_release": "NOT_APPROVED"
+    }
+  ]
+}
