@@ -1,0 +1,36 @@
+name: Shopee v2876 CLIO Mini 5g independent shade labeled real source photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2876-clio-mini-three-independent-source-photos-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch_at_most_once_per_shade:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Save distinct original shade merchant photo once each, QA only, keep failed shade held
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2876_clio_mini_three_shade_real_photo_source_QA.py
+          cp scripts/v2876_clio_mini_three_shade_real_photo_source_QA.py /tmp/v2876.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2876qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2876qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2876.py
+          git add qa-review/v2876-clio-mini5g-three-independent-shade-photo-source-QA
+          git commit -m 'v2876 source only three CLIO Mini 5g real shade merchant photo references, retail rights hold'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
