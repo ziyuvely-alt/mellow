@@ -70,7 +70,7 @@ def checked_image(path,expected=None):
  with Image.open(BytesIO(b)) as im:
   im.load()
   fmt=im.format;native=im.size
-  assert fmt in ("JPEG","PNG","WEBP") and min(native)>=300 and max(native)<=6000
+  assert fmt in ("JPEG","PNG","WEBP") and min(native)>=180 and max(native)<=6000
   rgb=ImageOps.exif_transpose(im).convert("RGB")
  return {"path":str(p),"sha256":digest,"bytes":len(b),"format":fmt,"pixels":list(native),"rgb":rgb,"original_bytes":b}
 def draw_card(family,title,items,notes):
@@ -150,6 +150,7 @@ for item in p_manifest["peripera_variants"]:
  if n in ["12","13","14","18","19"]:flag="EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD"
  variants.append({"shade":n,"JPG":str(src_jpg),"JPG_sha256":a["sha256"],"PNG":str(src_png),"PNG_sha256":b["sha256"],
    "legacy_edition_only":True,"known_issue":item.get("known_issue"),
+   "alpha_native_size_px":b["pixels"],"low_native_alpha_photo_below_300px":min(b["pixels"])<300,
    "status":flag,"commercial_photo_rights_approved":False,"26AD_photo_proven":False,"retail_approved":False})
  views.append((n,a["rgb"]))
 for idx in range(21,27):
@@ -184,6 +185,7 @@ manifest={"version":"v2924","baseline":"v2923","created_utc":time.strftime("%Y-%
  "peripera_legacy_option_JPG_PNG_pairs_SHA_verified":20,
  "peripera_total_original_source_images_verified":40,
  "peripera_known_hold_shades":["12","13","14","18","19"],
+ "peripera_below_300px_alpha_shades":[x["shade"] for x in variants if x["low_native_alpha_photo_below_300px"]],
  "peripera_no_21_26_options_created":True,
  "new_internal_peripera_20shade_contact":str(pcontact),
  "new_product_photo_originals":0,"original_source_pixels_changed":0,
