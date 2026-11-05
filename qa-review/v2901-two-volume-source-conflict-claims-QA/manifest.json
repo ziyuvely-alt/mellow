@@ -1,0 +1,46 @@
+{
+  "version": "v2901",
+  "baseline": "v2900",
+  "scope": "Resolve 145-versus-150 PIXEL PURE label reference and correctly scope OBgE 300mL listing without changing raw inventory",
+  "results": [
+    {
+      "family": "pending-26",
+      "stock_source_index": 81,
+      "raw_inventory_product": "픽셀퓨어 젠틀 잴투폼 클렌저 145ML",
+      "raw_inventory_option": "145ML",
+      "source_physical_pack_label_visible": "145 ml / 4.90 fl.oz.",
+      "qa_photo": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/01-true-product-photo-alpha-QA.jpg",
+      "brand_source_photo": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-26/05-official-product-photo-new-QA-ONLY.jpg",
+      "brand_page": "https://pixelpure.com/product/detail.html?product_no=21",
+      "qa_net_content_frame": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-26/04-net-content-factual-QA.jpg",
+      "technical_identity": "PACKAGING_145ML_MATCHES_RAW_STOCK_REFERENCE",
+      "forbidden_substitution": "Never substitute the 150mL-generation artwork or change 145 mL input",
+      "further_hold": "Actual user-owned item generation and redistribution rights unverified; official secondary image has vegan/skin test claims not independently licensed/verified",
+      "new_image_files": 0,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-22",
+      "stock_source_index": 58,
+      "raw_inventory_product": "OBgE 맥스 워터풀 선크림",
+      "raw_inventory_option": "SPF50+ PA++++",
+      "source_product": "OBgE Max Waterful Sunscreen",
+      "brand_official_product_page": "https://www.obge.co.kr/product/%EB%8C%80%EC%9A%A9%EB%9F%89%EA%B0%80%EC%84%B1%EB%B9%84-%EB%A7%A5%EC%8A%A4-%EC%9B%8C%ED%84%B0%ED%92%80-%EC%84%A0%ED%81%AC%EB%A6%BC-300ml/1251",
+      "brand_official_label": "300 mL / 10.14 fl.oz.",
+      "external_brand_catalog_product_300ml_confirmed": true,
+      "raw_inventory_record_volume_missing": true,
+      "technical_identity": "BRAND_300ML_SKU_EXISTS_BUT_OWNER_OWNED_CAPACITY_UNVERIFIED",
+      "further_hold": "Need physical owned stock/bottle label 300mL; do not fill inventory raw 300mL based on brand product alone; rights and photos remain unlicensed",
+      "new_image_files": 0,
+      "retail_approved": false
+    }
+  ],
+  "old_11_approved_families_preserved": true,
+  "old_55_public_urls_preserved": true,
+  "previous_images_not_overwritten": true,
+  "new_qa_jpg_created": 0,
+  "new_sale_approvals": 0,
+  "stock_raw_values_modified": false,
+  "final_spreadsheet_shared": false,
+  "next": "Seek owned SKU pack photo for OBgE 300ml, PIXEL PURE exact edition, commercial image license and authentic logo. Skip any finished image regeneration."
+}
