@@ -64,7 +64,7 @@ def main():
     for old in old2["variants"]:
         if old["shade"] not in ("21C","21N"):continue
         first=next(z for z in old["frames"] if z["slot"]==1)
-        path="qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/"+old["shade"]+"/"+first["file"]
+        path="qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/"+first["file"]
         verified_sources.append(read_verified(path,first["sha256"]))
     first23=next(z for z in old3["frames"] if z["slot"]==1)
     p23="qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA/"+first23["file"]
