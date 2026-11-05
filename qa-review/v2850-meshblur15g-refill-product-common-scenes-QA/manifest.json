@@ -1,0 +1,28 @@
+{
+  "version": "v2850",
+  "baseline": "v2849",
+  "family": "pending-07",
+  "merchant_gallery_json": "https://lacosmetique.com.au/products/kill-cover-mesh-blur-cushion-refill-set.js",
+  "inventory_shades": [
+    "19C",
+    "19N",
+    "21N"
+  ],
+  "all_excluded_variant_photo_SHA_sources_preserved": true,
+  "source_shade_specific_images_v2849_untouched": true,
+  "all_11_old_approved_groups_untouched": true,
+  "all_55_public_URLs_untouched": true,
+  "existing_QA_JPGs_modified": 0,
+  "new_retail_approved": 0,
+  "final_xlsx_shared": false,
+  "photo_commercial_rights_verified": false,
+  "physical_stock_bundle_edition_verified": false,
+  "original_MK_logo_authenticated": false,
+  "gallery": [],
+  "merchant_total_gallery_images": 9,
+  "merchant_variant_photos_excluded": 5,
+  "unassigned_gallery_candidates": 0,
+  "gallery_photos_saved": 0,
+  "source_photo_rights_not_proven": true,
+  "next": "Select only exact physical 15g+refill product scenes; shade photo labels remain blocked until stock edition + rights."
+}
