@@ -1,0 +1,36 @@
+name: Shopee v2952 localized QA JPG repair + 2 family technical audit
+on:
+  push:
+    branches:
+      - 'qa-assets/v2662-immutable-14-candidates'
+    paths:
+      - '.github/workflows/v2952-incremental-qa-photo-repair.yml'
+      - 'scripts/v2952_repair_drg15_and_verify_pending23_28_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  run_incremental_QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow numpy
+      - name: Repair only previously failed QA frame and audit two source sets
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106
+          python scripts/v2952_repair_drg15_and_verify_pending23_28_QA.py
+          git add qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106
+          git diff --cached --name-only | tee /tmp/v2952-changed-paths
+          ! grep -Ev '^qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106/' /tmp/v2952-changed-paths
+          git commit -m "v2952 one localized existing photo repair and 10 old-frame technical QA, no retail publish"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
