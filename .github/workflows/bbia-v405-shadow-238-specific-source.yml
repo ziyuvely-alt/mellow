@@ -1,0 +1,65 @@
+name: BBIA v405 shadow 238 four precise native source photos
+on:
+  push:
+    branches: [bbia-ch2-qa-v405-20261106]
+    paths: [.github/workflows/bbia-v405-shadow-238-specific-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Download only new verified native official shade source segments
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from PIL import Image,ImageDraw
+          from concurrent.futures import ThreadPoolExecutor
+          import json,hashlib,io
+          D=Path('/tmp/bbia-v405');D.mkdir(parents=True,exist_ok=True)
+          prefix='https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/'
+          sources={
+             '01_TO_05':prefix+'1781219859892.jpg',
+             '06_TO_10':prefix+'1781219859903.jpg',
+             'MODEL_REFERENCE':prefix+'1781219859883.jpg'}
+          def grab(task):
+            role,url=task;r={'role':role,'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://bbia.co.kr/goods/goods_view.php?goodsNo=238'}),timeout=25) as fp:raw=fp.read(15000000)
+              with Image.open(io.BytesIO(raw)) as img:img.verify()
+              with Image.open(io.BytesIO(raw)) as img:img.load();dims=list(img.size);fmt=img.format
+              if fmt!='JPEG' or dims[0]<500 or dims[1]<700 or len(raw)<16000:raise ValueError('invalid photo dimensions or format')
+              filename='BBIA_238_'+role+'_EXACT_OFFICIAL_v405.jpg'
+              (D/filename).write_bytes(raw)
+              r.update(status='SAVED',file=filename,dimensions=dims,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest(),format=fmt)
+            except Exception as ex:r.update(status='HOLD',error=type(ex).__name__+':'+str(ex)[:180])
+            return r
+          with ThreadPoolExecutor(max_workers=3) as pool:records=list(pool.map(grab,sources.items()))
+          board=Image.new('RGB',(1560,750),'#f7f3ef')
+          d=ImageDraw.Draw(board);d.text((15,18),'BBIA 238 CURRENT 06 07 08 10 SOURCE EVIDENCE - NOT APPROVED',fill='#232323')
+          for i,r in enumerate(records):
+            x=20+i*515;y=65;d.text((x,y),r['role']+' '+r['status'],fill='#333333')
+            if r['status']=='SAVED':
+              im=Image.open(D/r['file']).convert('RGB')
+              if im.height>2*im.width:im=im.crop((0,0,im.width,int(im.width*1.7)))
+              im.thumbnail((490,580))
+              board.paste(im,(x,y+25))
+          board.save(D/'BBIA_v405_238_OFFICIAL_SOURCE_CONTACT.jpg',quality=87)
+          manifest={'checkpoint':'v405','sku':'238','family':'Ready To Wear Eye Shadow 3g','official_source_page':'https://bbia.co.kr/goods/goods_view.php?goodsNo=238',
+           'requested':len(records),'source_saved':sum(r['status']=='SAVED' for r in records),
+           'options_in_scope':['06','07','08','10'],'option_09_excluded':'official store 2027-07 shelf life notice; NOT a target option',
+           'records':records,'prior_images_modified':0,'public_55_urls_modified':0,
+           'new_sales_approved':0,'rights_status':'UNVERIFIED','option_photo_QA':'TO_BE_REVIEWED'}
+          (D/'BBIA_v405_238_EXACT_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'saved':manifest['source_saved'],'requested':manifest['requested']},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v405-238-native-shade-source
+          path: /tmp/bbia-v405
+          retention-days: 30
