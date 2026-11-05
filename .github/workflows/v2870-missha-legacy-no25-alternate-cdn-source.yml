@@ -1,0 +1,34 @@
+name: Shopee v2870 alternate merchant MISSHA BB No25 legacy 50mL QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2870-missha-legacy-no25-alternate-cdn-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  new_source_after_failed_two:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: No25 real old gold-pump alternate CDN (not failed BigW/eBay), preserve 21 and 23
+        run: |
+          cp scripts/v2870_missha_old_gold_pump_25_shopify_alternate_QA.py /tmp/v2870.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2870qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2870qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2870.py
+          git add qa-review/v2870-missha-old-bb-25-new-cdn-source-and-three-shade-contact-QA
+          git commit -m 'v2870 archive alternate original No25 MISSHA old gold pump photo and immutable 21 23 sources'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
