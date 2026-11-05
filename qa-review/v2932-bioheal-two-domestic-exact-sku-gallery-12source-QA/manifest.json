@@ -1,0 +1,278 @@
+{
+  "version": "v2932",
+  "baseline": "v2931",
+  "generated_utc": "2026-11-05T15:39:01Z",
+  "family_count": 2,
+  "source_links_scanned": 12,
+  "new_nonduplicate_source_references": 12,
+  "native_at_least_900_source_refs": 12,
+  "source_licensing_and_stock_verified": false,
+  "new_sales_approved_images": 0,
+  "new_public_URLs": 0,
+  "original_11_published_families_unchanged": true,
+  "original_55_verified_public_URLs_unchanged": true,
+  "no_prior_asset_overwrites": true,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-24",
+      "product": "NAD PRIZCELL Glow Power Serum 30 mL",
+      "retailer_sku": "A000000233882",
+      "source_list_page": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000233882",
+      "discovered_urls_checked": 6,
+      "new_distinct_archived_references": 6,
+      "highnative_candidate_count": 6,
+      "potential_product_scene_sufficiency_not_confirmed": true,
+      "new_gallery_photos": [
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388235ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "00000f1cdd17fbfa584f830002586f200b583c5e6924790779b5ce314786a30e",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/01-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/01-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "1b99264f22adb67deb237407bcfafe2aa1cff4ba58ee5f30a1f47b683463a6f8",
+          "min_dhash_from_existing": 35,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388202ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "08ae676531036cc60f8e4194bd32c6ae724a5c9fbdac9d43dbdc5d708527e155",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/02-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/02-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "109f727ab838da94919fcd07fdab7dbe858b4c467a2649e49c125c972709b075",
+          "min_dhash_from_existing": 9,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388225ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "820457b0d8652959f1ccae77af019b7d6b20766a9a977dc0da4dbe28bb7b286e",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/03-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/03-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "7ec55272402c2dff723d60b5bbf73a0fbf81758eba6b9731b3a2aeb6889b2e03",
+          "min_dhash_from_existing": 8,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388224ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "67c05e7e627e3343891dcdafc133cb0f1a990d6264f8dd3c0ae92db333cc72c3",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/04-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/04-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "a23fde538adee9e6e176ce7c41c84a8d67f38fb29266886f3fae4fe2a07b3f88",
+          "min_dhash_from_existing": 26,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388216ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "37db2686c62f8f9de95e3ade83c7bb3999c43ffcf86d10ae3e7e08d44f27e8e2",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/05-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/05-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "5c197ce96c05d4561380ff2b6ad6c5e3c154f9297761d23e94b8bf23bb05d9e9",
+          "min_dhash_from_existing": 32,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0023/A00000023388234ko.jpeg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "fd53e640920921381c107293c0850d5b8034ce0a8e444409790c66f7452dc897",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/06-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24/06-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "8e7f88f16a4fad1f152233d29f324f48cc5e9e3d5cebd1010f23e78791bdb989",
+          "min_dhash_from_existing": 13,
+          "source_listing_sku": "A000000233882",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        }
+      ],
+      "duplicate_sources_skipped": [],
+      "errors": [],
+      "internal_contact": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-24-six-candidate-source-comparison-INTERNAL.jpg",
+      "retail_sale_ready": false
+    },
+    {
+      "family": "pending-25",
+      "product": "NAD PRIZCELL Glow Boost Cream 50 mL",
+      "retailer_sku": "A000000246299",
+      "source_list_page": "https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo=A000000246299",
+      "discovered_urls_checked": 6,
+      "new_distinct_archived_references": 6,
+      "highnative_candidate_count": 6,
+      "potential_product_scene_sufficiency_not_confirmed": true,
+      "new_gallery_photos": [
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629910ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "2164222b1f0ff46f9858df5a97a306e920f0ba797c1e62657b1937fdad97d0c7",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/01-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/01-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "4eb1d2a5b7faa082e05f9fcdb326bce80cde94a2bff2c3245d8f6d11fdbacb88",
+          "min_dhash_from_existing": 27,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629911ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "aecb458e0e51f47c5485ebb160e9d05faf5595150d7b243f119804eb6e29adc0",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/02-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/02-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "b3f14e1ba652e3bda65f3074b8305651d5e7ff342473ed3bd252ab2c37ad1441",
+          "min_dhash_from_existing": 19,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629905ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "154944a9eaabc53d30bc2dcc03c3c3391a264bb9897af0b8380829e4d1847128",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/03-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/03-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "dab659608b7875e5bd89fdf749b398fbdab53118f23a1f0a49f9d8f16bccbf9f",
+          "min_dhash_from_existing": 23,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629904ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "9076db0511f9d47ccfae2c5e9e30c13de5c04e8ea3b15990b5adef64aaf39e09",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/04-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/04-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "9cd6ff4f50cd1083d616ebb58ee37fd00748768470a2f79ce202a5712c28b06e",
+          "min_dhash_from_existing": 22,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629906ko.jpg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "a50e4f35e07a1349ed030f71994ea01ddf4437f24b6bb079fd65f7b6de7f4023",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/05-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/05-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "5311d515b801ca50693d10ea1313d157e7db1c3755b3a1c5eabb2fe0e8b1f661",
+          "min_dhash_from_existing": 10,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://image.oliveyoung.co.kr/cfimages/cf-goods/uploads/images/thumbnails/10/0000/0024/A00000024629909ko.jpeg",
+          "native": [
+            1000,
+            1000
+          ],
+          "native_900_plus": true,
+          "native_sha256": "e3df83dd9495220aa7cb0c8e28ad3a9d19921f037cce668f3e31d618caeb4c34",
+          "raw_original": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/06-domestic-retail-sku-source-NOT-RETAIL.jpg",
+          "reference_1080": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25/06-1080-photo-REFERENCE-NOT-RETAIL.jpg",
+          "reference_sha256": "6db2ad20cf43ae30e6a2763f8c44129d55a6a2dc6b2c8bc216e9460e6c3267fd",
+          "min_dhash_from_existing": 15,
+          "source_listing_sku": "A000000246299",
+          "brand_identity_photo_reviewed": false,
+          "single_not_bundle_verified": false,
+          "claims_cleared": false,
+          "commercial_reuse_rights_granted": false,
+          "retail_approved": false
+        }
+      ],
+      "duplicate_sources_skipped": [],
+      "errors": [],
+      "internal_contact": "qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/pending-25-six-candidate-source-comparison-INTERNAL.jpg",
+      "retail_sale_ready": false
+    }
+  ]
+}
