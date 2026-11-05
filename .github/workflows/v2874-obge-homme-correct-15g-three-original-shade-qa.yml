@@ -1,0 +1,38 @@
+name: Shopee v2874 OBgE Homme exact 15g correct three shade QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2874-obge-homme-correct-15g-three-original-shade-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reuse_correct_v2511_dark_square:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Build only three QA option cards from prior SHA verified correct 15g rectangular cushion and real shade chart
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2874_obge_homme_three_stock_shade_photo_swatch_QA.py
+          cp scripts/v2874_obge_homme_three_stock_shade_photo_swatch_QA.py /tmp/v2874.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git fetch origin +refs/heads/production-assets-v2511-obge-homme-15g-corrected:refs/remotes/origin/production-assets-v2511-obge-homme-15g-corrected
+          git worktree add --detach /tmp/v2874_obge_correct origin/production-assets-v2511-obge-homme-15g-corrected
+          git worktree add /tmp/v2874qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2874qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2874.py
+          git add qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa
+          git commit -m 'v2874 three correct dark-square OBgE Homme 15g source shade reference QA; retail blocked'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
