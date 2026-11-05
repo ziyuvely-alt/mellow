@@ -1,0 +1,37 @@
+name: Shopee v2891 CLIO mini 21N different vendor native photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2891-clio-mini21n-different-flagship-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  qa_new_source_without_old_image_regeneration:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: One-shot CLIO Hong Kong 21N source QA; preserve all prior images
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2891_clio_mini21n_flagship_original_qa.py
+          cp scripts/v2891_clio_mini21n_flagship_original_qa.py /tmp/v2891.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2891qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2891qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2891-clio-mini21n-new-flagship-native-source-QA
+          python /tmp/v2891.py
+          git add qa-review/v2891-clio-mini21n-new-flagship-native-source-QA
+          git commit -m 'v2891 one new CLIO mini 21N original probe and immutable 69-option stock QA checkpoint'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
