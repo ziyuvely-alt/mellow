@@ -1,0 +1,35 @@
+name: v2961 PIXELPURE Cream 50mL JPEG-output repair QA
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2961-pixelpure-cream50-jpeg-format-fix.yml'
+      - 'scripts/v2961_pixelpure_cream50_JPEG_format_repair.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fixed-source-import:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Fix format error and retry one new original with explicit JPEG output
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106
+          python scripts/v2961_pixelpure_cream50_JPEG_format_repair.py
+          git add qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106
+          git diff --cached --name-only | tee /tmp/v2961-only
+          ! grep -Ev '^qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/' /tmp/v2961-only
+          git commit -m "QA v2961 repaired JPEG encoder; Pixelpure 50mL cream new source candidate"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
