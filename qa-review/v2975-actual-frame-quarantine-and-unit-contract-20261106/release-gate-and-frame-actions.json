@@ -1,0 +1,127 @@
+{
+  "catalog_units": {
+    "pending-05": {
+      "product": "CLIO Kill Cover Founwear Cushion full-size gift set",
+      "manufacturer_catalog_net": "15g x 2",
+      "dimension": "net mass",
+      "manufacturer_url": "https://clubclio.co.kr/shop/goodsView/6670",
+      "manufacturer_page_fact": "15g*2; full-size set original compact + refill",
+      "manufacturer_page_batch_hint": "Manufactured July 2025 or later in indexed page; current seasonal packaging/gifts can change",
+      "physical_unit_status": "UNVERIFIED_OWNED_SKU",
+      "do_not_assume_promotional_gifts": true
+    },
+    "pending-07": {
+      "product": "CLIO Kill Cover Mesh Blur cushion 15g x 2",
+      "manufacturer_catalog_net": "15g x 2",
+      "dimension": "net mass",
+      "manufacturer_url": "https://clubclio.co.kr/shop/goodsView/6455",
+      "manufacturer_page_fact": "15g x 2; current listing may include extra finish pact/gift unrelated to stocked set",
+      "manufacturer_page_batch_hint": "Manufactured April 2025 or later in indexed page",
+      "physical_unit_status": "UNVERIFIED_OWNED_SKU",
+      "do_not_assume_promotional_gifts": true
+    },
+    "pending-12": {
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "manufacturer_catalog_net": "15mL",
+      "dimension": "net volume",
+      "manufacturer_url": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+      "manufacturer_page_fact": "Brand seller lists 15ml. Treat previously written 15g as UNVERIFIED_MISMATCH, not convert g -> mL.",
+      "physical_unit_status": "UNVERIFIED_OWNED_SKU",
+      "corrected_source_claim": "15mL BRAND_CATALOG_PROVEN, stock label pending"
+    },
+    "pending-21": {
+      "product": "GOODAL Green Tangerine Vita-C Dark Circle Eye Cream 25AD",
+      "manufacturer_catalog_net": "30mL",
+      "dimension": "net volume",
+      "independent_product_distributor_url": "https://m.shilladfs.com/estore/kr/ko/p/5754369",
+      "retailer_reference": "25AD model and 30mL single product in Shilla DFS catalog",
+      "manufacturer_page_fact": "Shilla Duty Free 25AD single 30mL; other merchants also sell bundles, not proof of actual owned unit",
+      "physical_unit_status": "UNVERIFIED_SINGLE_VS_BUNDLE",
+      "do_not_assume_bundle": true
+    }
+  },
+  "frame_actions": [
+    {
+      "family": "pending-21",
+      "slot": 3,
+      "sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+      "action": "PRESERVE_QA_SOURCE",
+      "existing_source": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/03-original-2026-yellow-tube-cream-swatch-QA.jpg",
+      "reason": "Entire yellow 30mL tube photographed against cream smear; photo distinct from standalone single tube hero. Already present, no recreation."
+    },
+    {
+      "family": "pending-21",
+      "slot": 4,
+      "sha256": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+      "action": "QUARANTINE_FROM_FIVE_DISTINCT_SCENE_COUNT_ONLY",
+      "existing_source": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/04-real-tube-front-and-silver-cap-full-detail-QA.jpg",
+      "reason": "Direct visual comparison of exact identical archived SHA source shows same yellow 30mL tube and cream smear with different crop; repeats #3 scene.",
+      "duplicate_of_slot": 3,
+      "allowed": "Keep original JPG bytes for archival QA; do not include as separate scene 4 in customer-ready pack",
+      "replacement_requirements": [
+        "different exact 25AD product photograph OR factual card from proven claim",
+        "commercial photo permission if replacing with real photo",
+        "authentic MellowKR circular MK before public publication",
+        "owned stock single-vs-bundle net quantity check"
+      ]
+    },
+    {
+      "family": "pending-05",
+      "slot": "M/B reference",
+      "action": "KEEP_ONLY_AS_ONE_COMPOSITION_PER_EDITION",
+      "reason": "6670 M/B sources displayed matching model-with-black-compact, do not count as two independent product scenes"
+    },
+    {
+      "family": "pending-07",
+      "slot": "M/B reference",
+      "action": "KEEP_ONLY_AS_ONE_COMPOSITION_PER_EDITION",
+      "reason": "6455 M/B source visually same pale compact and puff, separate from 3 color information cards"
+    },
+    {
+      "family": "pending-12",
+      "slot": "15g wording in any existing informational frame",
+      "action": "BLOCK_INCORRECT_NET_CONTENT_PROMISE",
+      "reason": "Official brand catalog has 15mL; no mass/volume interchange or physical 15g claim until verified."
+    }
+  ],
+  "release_gate_required_evidence": [
+    "physical_owned_version_proven",
+    "commercial_photo_rights_proven",
+    "original_MK_binary_SHA256_verified",
+    "all_frames_claims_and_crop_pass",
+    "anonymous_Render_JPG_GET_SHA256_verified"
+  ],
+  "published_eligible_families": [],
+  "must_not_publish": [
+    "pending-01",
+    "pending-02",
+    "pending-03",
+    "pending-04",
+    "pending-05",
+    "pending-06",
+    "pending-07",
+    "pending-08",
+    "pending-09",
+    "pending-10",
+    "pending-11",
+    "pending-12",
+    "pending-13",
+    "pending-14",
+    "pending-15",
+    "pending-16",
+    "pending-17",
+    "pending-18",
+    "pending-19",
+    "pending-20",
+    "pending-21",
+    "pending-22",
+    "pending-23",
+    "pending-24",
+    "pending-25",
+    "pending-26",
+    "pending-27",
+    "pending-28",
+    "pending-29",
+    "pending-30"
+  ]
+}
