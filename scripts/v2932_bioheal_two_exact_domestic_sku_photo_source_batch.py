@@ -56,7 +56,7 @@ def dhash(rgb):
 def dist(a,b):return sum(x!=y for x,y in zip(a,b))
 def prior_images(family):
  zmeta=by20[family]
- assert zmeta["actual_original_source_jpgs_in_zip"] in (2,3)
+ assert zmeta["actual_original_source_jpgs_in_zip"] == {"pending-24":4,"pending-25":3}[family], "v2920 archived baseline count must match actual"
  old_hash=set();old_ph=[]
  zpath=Path(zmeta["zip_path"])
  assert sha256(zpath.read_bytes()).hexdigest()==zmeta["zip_sha256"]
