@@ -1,0 +1,40 @@
+name: Shopee v2916 GOODAL two-family official gallery source archive QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2916-goodal-official-gallery-source-qa.yml'
+      - 'scripts/v2916_goodal_two_official_product_gallery_no_rebuild.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  recover_goodal_brand_product_photo_originals_without_overwriting:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Save brand-only product image references and visual QA without modifying previous photos
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2916_goodal_two_official_product_gallery_no_rebuild.py
+          cp scripts/v2916_goodal_two_official_product_gallery_no_rebuild.py /tmp/v2916.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2916qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2916qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA
+          python /tmp/v2916.py
+          git add qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA
+          git diff --cached --name-only | tee /tmp/v2916-changed
+          ! grep -Ev '^qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/' /tmp/v2916-changed
+          git commit -m 'v2916 Goodal official brand gallery original photo reference QA for two pending items, no prior changes'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
