@@ -1,0 +1,34 @@
+name: Shopee v2851 two CLIO gift sets stock 10 shades photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2851-clio-two-giftsets-stock-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  match_10_options:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Reuse 5 saved official scenes and identify ten shade assigned merchant photos only
+        run: |
+          cp scripts/v2851_clio_two_giftsets_five_stock_shades_QA.py /tmp/v2851.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2851qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2851qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2851.py
+          git add qa-review/v2851-clio-giftset-five-option-variant-photo-QA
+          git commit -m 'v2851 exact CLIO Founwear and Mesh Glow gift-set shade references, QA only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
