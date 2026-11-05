@@ -1,0 +1,61 @@
+{
+  "version": "v2938",
+  "baseline": "v2937",
+  "generated_utc": "2026-11-05T16:10:25Z",
+  "official_products_checked": 3,
+  "new_provisional_native_photo_sources": 0,
+  "total_detail_photo_urls": 15,
+  "old_11_published_families_unchanged": true,
+  "old_55_public_urls_unchanged": true,
+  "old_source_pixels_unchanged": true,
+  "new_sale_approvals": 0,
+  "new_public_urls": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "product_no": 24,
+      "exact_product_page_confirmed": true,
+      "page_title_evidence": [
+        "픽셀퓨어 수딩 앰플 토너 200ml - Pixelpure"
+      ],
+      "detail_scopes": [
+        "#prdDetail"
+      ],
+      "candidate_urls_examined": 6,
+      "new_refs": [],
+      "excluded_duplicates_or_dimensions": 6,
+      "errors": []
+    },
+    {
+      "family": "pending-29",
+      "product_no": 26,
+      "exact_product_page_confirmed": true,
+      "page_title_evidence": [
+        "픽셀퓨어 아쿠아 수딩 크림 50ml - Pixelpure"
+      ],
+      "detail_scopes": [
+        "#prdDetail"
+      ],
+      "candidate_urls_examined": 2,
+      "new_refs": [],
+      "excluded_duplicates_or_dimensions": 2,
+      "errors": []
+    },
+    {
+      "family": "pending-30",
+      "product_no": 25,
+      "exact_product_page_confirmed": true,
+      "page_title_evidence": [
+        "픽셀퓨어 아우라 래디언스 세럼 50ml - Pixelpure"
+      ],
+      "detail_scopes": [
+        "#prdDetail"
+      ],
+      "candidate_urls_examined": 7,
+      "new_refs": [],
+      "excluded_duplicates_or_dimensions": 7,
+      "errors": []
+    }
+  ]
+}
