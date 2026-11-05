@@ -1,0 +1,1038 @@
+{
+  "version": "v2879",
+  "baseline": "v2878",
+  "family": "pending-08",
+  "product": "peripera Mood Glowy Tint 26AD 4g",
+  "direct_CDN_photo_sources_attempted": 2,
+  "direct_CDN_sources_saved": 2,
+  "confirmed_variant_associated_photo_candidates": 20,
+  "cdn_assets": [
+    {
+      "role": "common-real-new-tube-with-applicator",
+      "url": "https://www.ballagrio.com/cdn/shop/files/peripera-mood-glowy-tint-4g-01_1024x1024.jpg?v=1777339704",
+      "page": "https://www.ballagrio.com/products/peripera-mood-glowy-tint-4g",
+      "status": "ORIGINAL_NEW_EDITION_SOURCE_SAVED_GALLERY_ONLY",
+      "linked_exact_stock_shade": null,
+      "commercial_photo_rights_verified": false,
+      "retail_approved": false,
+      "product_edition": "Mood Glowy Tint 4g (26AD candidate)",
+      "original_file": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/common-real-new-tube-with-applicator-original-source-unaltered.webp",
+      "raw_sha256": "0edf2716214823c66deeddb12bebe7dbfc4ee9883013ddb2889fc14cef04872c",
+      "native_size": [
+        800,
+        800
+      ],
+      "img_format": "WEBP",
+      "qa_1080": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/common-real-new-tube-with-applicator-1080-internal-QA.jpg",
+      "qa_sha256": "69e4075ac69bc521ca0ba3618ad6b5f23e03d5dbe75c4d3b769982de5e2dbabe",
+      "pixels_recolored": false,
+      "merchant_version_visual_requires_review": true
+    },
+    {
+      "role": "real-8-shade-lip-swatches",
+      "url": "https://www.ballagrio.com/cdn/shop/files/peripera-mood-glowy-tint-4g-14.jpg?v=1777339704",
+      "page": "https://www.ballagrio.com/products/peripera-mood-glowy-tint-4g",
+      "status": "ORIGINAL_NEW_EDITION_SOURCE_SAVED_GALLERY_ONLY",
+      "linked_exact_stock_shade": null,
+      "commercial_photo_rights_verified": false,
+      "retail_approved": false,
+      "product_edition": "Mood Glowy Tint 4g (26AD candidate)",
+      "original_file": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/real-8-shade-lip-swatches-original-source-unaltered.webp",
+      "raw_sha256": "5cbf3c8beaefe55f9d8e06ca6a01afc377c6341ad5eecce3cd6bdf545855b0a7",
+      "native_size": [
+        800,
+        800
+      ],
+      "img_format": "WEBP",
+      "qa_1080": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/real-8-shade-lip-swatches-1080-internal-QA.jpg",
+      "qa_sha256": "7a8e65fcfb9a51a202762930e430f1d68d7381aaffe15ff64e1a522402dea0a2",
+      "pixels_recolored": false,
+      "merchant_version_visual_requires_review": true
+    }
+  ],
+  "shopify": {
+    "url": "https://www.ballagrio.com/products/peripera-mood-glowy-tint-4g.js",
+    "status": "SHOPIFY_JSON_VERIFIED",
+    "detected_variants": [
+      {
+        "shade": "01",
+        "variant_id": 48574959878361,
+        "title": "01 Tiny Strawberry",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-01-tiny-strawberry.jpg?v=1787674899"
+      },
+      {
+        "shade": "02",
+        "variant_id": 48574959911129,
+        "title": "02 Coral Chemistry",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-02-coral-chemistry.jpg?v=1787674900"
+      },
+      {
+        "shade": "03",
+        "variant_id": 48574959943897,
+        "title": "03 Juicy Peach",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-03-juicy-peach.jpg?v=1787674902"
+      },
+      {
+        "shade": "04",
+        "variant_id": 48574959976665,
+        "title": "04 Anyway Peach",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-04-anyway-peach.jpg?v=1787674903"
+      },
+      {
+        "shade": "05",
+        "variant_id": 48574960009433,
+        "title": "05 Baby Fairy",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-05-baby-fairy.jpg?v=1787674905"
+      },
+      {
+        "shade": "06",
+        "variant_id": 48574960042201,
+        "title": "06 Pink Youth",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-06-pink-youth.jpg?v=1787674905"
+      },
+      {
+        "shade": "07",
+        "variant_id": 48574960074969,
+        "title": "07 Plum Fizz",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-07-plum-fizz.jpg?v=1787674906"
+      },
+      {
+        "shade": "08",
+        "variant_id": 48574960107737,
+        "title": "08 Joking Pink",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-08-joking-pink.jpg?v=1787674908"
+      },
+      {
+        "shade": "09",
+        "variant_id": 48574960140505,
+        "title": "09 Rose in Mind",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-09-rose-in-mind.jpg?v=1787674911"
+      },
+      {
+        "shade": "10",
+        "variant_id": 48574960173273,
+        "title": "10 Bare Pink",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-10-bare-pink.jpg?v=1787674913"
+      },
+      {
+        "shade": "11",
+        "variant_id": 48574960206041,
+        "title": "11 Visual Pink",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-11-visual-pink.jpg?v=1787674914"
+      },
+      {
+        "shade": "12",
+        "variant_id": 48574960238809,
+        "title": "12 Campus Queen",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-12-campus-queen.jpg?v=1787674915"
+      },
+      {
+        "shade": "13",
+        "variant_id": 48574960271577,
+        "title": "13 Mood Queen",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-13-mood-queen.jpg?v=1787674916"
+      },
+      {
+        "shade": "14",
+        "variant_id": 48574960304345,
+        "title": "14 Rosy Wish",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-14-rosy-wish.jpg?v=1787674917"
+      },
+      {
+        "shade": "15",
+        "variant_id": 48574960337113,
+        "title": "15 My Pick Rose",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-15-my-pick-rose.jpg?v=1787674918"
+      },
+      {
+        "shade": "16",
+        "variant_id": 48574960369881,
+        "title": "16 Rose-pick",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-16-rose-pick.jpg?v=1787674919"
+      },
+      {
+        "shade": "17",
+        "variant_id": 48574960402649,
+        "title": "17 Blush Fig",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-17-blush-fig.jpg?v=1787674921"
+      },
+      {
+        "shade": "18",
+        "variant_id": 48574960435417,
+        "title": "18 Coral Influencer",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-18-coral-influencer.jpg?v=1787674922"
+      },
+      {
+        "shade": "19",
+        "variant_id": 48574960468185,
+        "title": "19 Cherry So What",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-19-cherry-so-what.jpg?v=1787674923"
+      },
+      {
+        "shade": "20",
+        "variant_id": 48574960500953,
+        "title": "20 Brown Yakgwa",
+        "image_assigned": true,
+        "actual_associated_image_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-20-brown-yakgwa.jpg?v=1787674925"
+      }
+    ],
+    "per_shade_photo_candidates": [
+      {
+        "shade": "01",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-01-tiny-strawberry.jpg?v=1787674899",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-01-actual-Shopify-variant-source.webp",
+        "source_sha256": "104099bd96323a3a1640ebc700707906dad8fefa82d173ff78e207e95f260824",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-01-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4bc625a86e79acb0bbd476608a71d19a1023b82f06636164ab889ecb7458240d"
+      },
+      {
+        "shade": "02",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-02-coral-chemistry.jpg?v=1787674900",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-02-actual-Shopify-variant-source.webp",
+        "source_sha256": "f4e62f5034c1134d431ddc12ac076360dc0a5af672f82164c2a7f77f989a10f6",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-02-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "8d5f5c6f7a13d49cf634fe712657fbd7da42c1facabcdc87827c03797716a853"
+      },
+      {
+        "shade": "03",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-03-juicy-peach.jpg?v=1787674902",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-03-actual-Shopify-variant-source.webp",
+        "source_sha256": "f3427b4ad2504cf141a56b6124b10dae467052c811d238ce3455cd21afb8661b",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-03-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0c5a6856a54861bb70a7a6a624277ec730b62bef6ad17718fb7582136ad26a73"
+      },
+      {
+        "shade": "04",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-04-anyway-peach.jpg?v=1787674903",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-04-actual-Shopify-variant-source.webp",
+        "source_sha256": "0cddc11b2f82b90346bd064baad78b9727f46c8631a259190381be7c8eef2979",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-04-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "7a04e9acd6bea12f9d0b47350f9ddd43bb8ca78baa5f4bed13e07bab2d5bc117"
+      },
+      {
+        "shade": "05",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-05-baby-fairy.jpg?v=1787674905",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-05-actual-Shopify-variant-source.webp",
+        "source_sha256": "d6ffbf1818aec5c124d407029fdb4f4df5a165f5cc0bb26563294dffcd59996b",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-05-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "7bdb7ad802adfccc144afe6ec8a433272bcc0f7de06ac17c9aff21f87688c58e"
+      },
+      {
+        "shade": "06",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-06-pink-youth.jpg?v=1787674905",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-06-actual-Shopify-variant-source.webp",
+        "source_sha256": "faa5f53e77ae800783abc205dda8d44bceb0afc46e1a242387d4e9626bfc2b4e",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-06-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4e0371aaf58698f8a7fd6711e19a887cc38b85fbe234fe25b0aa83389d2012c4"
+      },
+      {
+        "shade": "07",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-07-plum-fizz.jpg?v=1787674906",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-07-actual-Shopify-variant-source.webp",
+        "source_sha256": "964df9110207e1dc0225ebde3a8e887cbe7dc5d983ffdb0b4eb607214b0ae708",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-07-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "aab57242e865793f9ec99d30b6e40bbb5d06473d8f4b13b4afd51a6b6142e4f8"
+      },
+      {
+        "shade": "08",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-08-joking-pink.jpg?v=1787674908",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-08-actual-Shopify-variant-source.webp",
+        "source_sha256": "2b7a350ac3a691567f9087270bd2d31d7224258f7127806aa619eac4ca9acc44",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-08-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "f071a3b77534782597e5e3442079a103b35aa110f4d704e695787090a2414ffc"
+      },
+      {
+        "shade": "09",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-09-rose-in-mind.jpg?v=1787674911",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-09-actual-Shopify-variant-source.webp",
+        "source_sha256": "530a3838e2b023cf9186630fb93bb529fffe9764c7fa38630fbe84b70c6a9089",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-09-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "382e32e54c0ec37ecae1488097e758e34e1cd4d5083f4829c92fe9a6bd052e6b"
+      },
+      {
+        "shade": "10",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-10-bare-pink.jpg?v=1787674913",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-10-actual-Shopify-variant-source.webp",
+        "source_sha256": "c3a68a75a827a8e469e72b3b2845f03ce39a4d65492d1ac14be34b8a6f2ff76f",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-10-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "88233762fce818b382d9891dcbc165a6b5f71426a9aeef6ed2369b9876ca1ec9"
+      },
+      {
+        "shade": "11",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-11-visual-pink.jpg?v=1787674914",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-11-actual-Shopify-variant-source.webp",
+        "source_sha256": "0ddddc3058f29b8dfd43415cb418f046666c8c1f79ae59f57b91ba68e09fdda6",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-11-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "26052d5238e836763a40fbc2c8f2798704c5d32d60b83fd51741c4ce5eee2d1b"
+      },
+      {
+        "shade": "12",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-12-campus-queen.jpg?v=1787674915",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-12-actual-Shopify-variant-source.webp",
+        "source_sha256": "2b199fb6943ed93df97be5c6ab0301c705478b160f1a2f2de196b05c6805f695",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-12-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "e40b5f5cf9bc2e83d6f267541ee1e41440b9fb65f80a912d956f3ee24fdac8ad"
+      },
+      {
+        "shade": "13",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-13-mood-queen.jpg?v=1787674916",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-13-actual-Shopify-variant-source.webp",
+        "source_sha256": "3c57cc409ef354ded940ebff19a009e27c6be9adfb34af0408b3bb5fa5423b20",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-13-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "64c333485843b542fd7164685334fa0e1327ea481d5b2ca3e093ebcdc13823d3"
+      },
+      {
+        "shade": "14",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-14-rosy-wish.jpg?v=1787674917",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-14-actual-Shopify-variant-source.webp",
+        "source_sha256": "14f12fbe17e7135f0439a1da22cfacfe587f7f972c58b30df1fae3b047ac8cc0",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-14-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "9daaaea72a9f5ff2e331745081ac1d67d650961d553b4ecefdd23866f1061cc5"
+      },
+      {
+        "shade": "15",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-15-my-pick-rose.jpg?v=1787674918",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-15-actual-Shopify-variant-source.webp",
+        "source_sha256": "4d6ac52203e374569452d1afc3104c2072d097330508f21e005a4caa896cd382",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-15-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0770fdd6c36b0997e04226e535e10b9bc8e521e78f163e003cf2cc501a918362"
+      },
+      {
+        "shade": "16",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-16-rose-pick.jpg?v=1787674919",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-16-actual-Shopify-variant-source.webp",
+        "source_sha256": "05c1b1a8887afb3cc4f9c02407c1b7080372257bd495b697f8b382a89ef3c25c",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-16-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "18d0305bef321eaa2686a490dd16512e6d98194d1a914919f8a920fe428ee9d2"
+      },
+      {
+        "shade": "17",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-17-blush-fig.jpg?v=1787674921",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-17-actual-Shopify-variant-source.webp",
+        "source_sha256": "11724625e4d1a342ada4971a034ae69b0141fb348f98dee27b044ede9a20f973",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-17-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0ff01327b6936dab7001278b9d31d14cffde7a70b5e192482bf01c94f02c2f7a"
+      },
+      {
+        "shade": "18",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-18-coral-influencer.jpg?v=1787674922",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-18-actual-Shopify-variant-source.webp",
+        "source_sha256": "929971b130daee189485cb6f459c4c0456c96b916c2d03bf7b9eca0645ccb57d",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-18-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4378e636af32718fd82ba0d0c64655c6f82949b7a189fe9c0875ccd986231f2a"
+      },
+      {
+        "shade": "19",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-19-cherry-so-what.jpg?v=1787674923",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-19-actual-Shopify-variant-source.webp",
+        "source_sha256": "b400984c7cfb88da60654f736046f95f3b2161824db49857e38819ebfa760151",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-19-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "e846a54c05a06bdf49192cb5c791de40b702d8d5b74cc13978e29f385814b22e"
+      },
+      {
+        "shade": "20",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-20-brown-yakgwa.jpg?v=1787674925",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-20-actual-Shopify-variant-source.webp",
+        "source_sha256": "78b9c5170d7f7ed567b983fba2be79d9d7bf3ec910e32213bba9867bc44fcd83",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-20-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "82f3b85d407eb0d865853cff9c424fa554c0f772a81ed4656b0619e985a2589d"
+      }
+    ],
+    "product_title": "[peripera] Mood Glowy Tint 4g"
+  },
+  "stock_20_shades": [
+    {
+      "shade": "01",
+      "expected_26AD_EN": "Tiny Strawberry",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "01",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-01-tiny-strawberry.jpg?v=1787674899",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-01-actual-Shopify-variant-source.webp",
+        "source_sha256": "104099bd96323a3a1640ebc700707906dad8fefa82d173ff78e207e95f260824",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-01-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4bc625a86e79acb0bbd476608a71d19a1023b82f06636164ab889ecb7458240d"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "02",
+      "expected_26AD_EN": "Coral Chemistry",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "02",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-02-coral-chemistry.jpg?v=1787674900",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-02-actual-Shopify-variant-source.webp",
+        "source_sha256": "f4e62f5034c1134d431ddc12ac076360dc0a5af672f82164c2a7f77f989a10f6",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-02-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "8d5f5c6f7a13d49cf634fe712657fbd7da42c1facabcdc87827c03797716a853"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "03",
+      "expected_26AD_EN": "Juicy Peach",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "03",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-03-juicy-peach.jpg?v=1787674902",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-03-actual-Shopify-variant-source.webp",
+        "source_sha256": "f3427b4ad2504cf141a56b6124b10dae467052c811d238ce3455cd21afb8661b",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-03-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0c5a6856a54861bb70a7a6a624277ec730b62bef6ad17718fb7582136ad26a73"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "04",
+      "expected_26AD_EN": "Anyway Peach",
+      "oliveyoung_exclusive_in_other_retailer": true,
+      "verified_26AD_variant_photo": {
+        "shade": "04",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-04-anyway-peach.jpg?v=1787674903",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-04-actual-Shopify-variant-source.webp",
+        "source_sha256": "0cddc11b2f82b90346bd064baad78b9727f46c8631a259190381be7c8eef2979",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-04-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "7a04e9acd6bea12f9d0b47350f9ddd43bb8ca78baa5f4bed13e07bab2d5bc117"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "05",
+      "expected_26AD_EN": "Baby Fairy",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "05",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-05-baby-fairy.jpg?v=1787674905",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-05-actual-Shopify-variant-source.webp",
+        "source_sha256": "d6ffbf1818aec5c124d407029fdb4f4df5a165f5cc0bb26563294dffcd59996b",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-05-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "7bdb7ad802adfccc144afe6ec8a433272bcc0f7de06ac17c9aff21f87688c58e"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "06",
+      "expected_26AD_EN": "Pink Youth",
+      "oliveyoung_exclusive_in_other_retailer": true,
+      "verified_26AD_variant_photo": {
+        "shade": "06",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-06-pink-youth.jpg?v=1787674905",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-06-actual-Shopify-variant-source.webp",
+        "source_sha256": "faa5f53e77ae800783abc205dda8d44bceb0afc46e1a242387d4e9626bfc2b4e",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-06-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4e0371aaf58698f8a7fd6711e19a887cc38b85fbe234fe25b0aa83389d2012c4"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "07",
+      "expected_26AD_EN": "Plum Fizz",
+      "oliveyoung_exclusive_in_other_retailer": true,
+      "verified_26AD_variant_photo": {
+        "shade": "07",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-07-plum-fizz.jpg?v=1787674906",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-07-actual-Shopify-variant-source.webp",
+        "source_sha256": "964df9110207e1dc0225ebde3a8e887cbe7dc5d983ffdb0b4eb607214b0ae708",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-07-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "aab57242e865793f9ec99d30b6e40bbb5d06473d8f4b13b4afd51a6b6142e4f8"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "08",
+      "expected_26AD_EN": "Joking Pink",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "08",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-08-joking-pink.jpg?v=1787674908",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-08-actual-Shopify-variant-source.webp",
+        "source_sha256": "2b7a350ac3a691567f9087270bd2d31d7224258f7127806aa619eac4ca9acc44",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-08-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "f071a3b77534782597e5e3442079a103b35aa110f4d704e695787090a2414ffc"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "09",
+      "expected_26AD_EN": "Rose in Mind",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "09",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-09-rose-in-mind.jpg?v=1787674911",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-09-actual-Shopify-variant-source.webp",
+        "source_sha256": "530a3838e2b023cf9186630fb93bb529fffe9764c7fa38630fbe84b70c6a9089",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-09-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "382e32e54c0ec37ecae1488097e758e34e1cd4d5083f4829c92fe9a6bd052e6b"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "10",
+      "expected_26AD_EN": "Bare Pink",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "10",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-10-bare-pink.jpg?v=1787674913",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-10-actual-Shopify-variant-source.webp",
+        "source_sha256": "c3a68a75a827a8e469e72b3b2845f03ce39a4d65492d1ac14be34b8a6f2ff76f",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-10-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "88233762fce818b382d9891dcbc165a6b5f71426a9aeef6ed2369b9876ca1ec9"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "11",
+      "expected_26AD_EN": "Visual Pink",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "11",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-11-visual-pink.jpg?v=1787674914",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-11-actual-Shopify-variant-source.webp",
+        "source_sha256": "0ddddc3058f29b8dfd43415cb418f046666c8c1f79ae59f57b91ba68e09fdda6",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-11-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "26052d5238e836763a40fbc2c8f2798704c5d32d60b83fd51741c4ce5eee2d1b"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "12",
+      "expected_26AD_EN": "Campus Queen",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "12",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-12-campus-queen.jpg?v=1787674915",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-12-actual-Shopify-variant-source.webp",
+        "source_sha256": "2b199fb6943ed93df97be5c6ab0301c705478b160f1a2f2de196b05c6805f695",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-12-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "e40b5f5cf9bc2e83d6f267541ee1e41440b9fb65f80a912d956f3ee24fdac8ad"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "13",
+      "expected_26AD_EN": "Mood Queen",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "13",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-13-mood-queen.jpg?v=1787674916",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-13-actual-Shopify-variant-source.webp",
+        "source_sha256": "3c57cc409ef354ded940ebff19a009e27c6be9adfb34af0408b3bb5fa5423b20",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-13-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "64c333485843b542fd7164685334fa0e1327ea481d5b2ca3e093ebcdc13823d3"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "14",
+      "expected_26AD_EN": "Rosy Wish",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "14",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-14-rosy-wish.jpg?v=1787674917",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-14-actual-Shopify-variant-source.webp",
+        "source_sha256": "14f12fbe17e7135f0439a1da22cfacfe587f7f972c58b30df1fae3b047ac8cc0",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-14-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "9daaaea72a9f5ff2e331745081ac1d67d650961d553b4ecefdd23866f1061cc5"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "15",
+      "expected_26AD_EN": "My Pick Rose",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "15",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-15-my-pick-rose.jpg?v=1787674918",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-15-actual-Shopify-variant-source.webp",
+        "source_sha256": "4d6ac52203e374569452d1afc3104c2072d097330508f21e005a4caa896cd382",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-15-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0770fdd6c36b0997e04226e535e10b9bc8e521e78f163e003cf2cc501a918362"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "16",
+      "expected_26AD_EN": "Rose-pick",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "16",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-16-rose-pick.jpg?v=1787674919",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-16-actual-Shopify-variant-source.webp",
+        "source_sha256": "05c1b1a8887afb3cc4f9c02407c1b7080372257bd495b697f8b382a89ef3c25c",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-16-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "18d0305bef321eaa2686a490dd16512e6d98194d1a914919f8a920fe428ee9d2"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "17",
+      "expected_26AD_EN": "Blush Fig",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "17",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-17-blush-fig.jpg?v=1787674921",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-17-actual-Shopify-variant-source.webp",
+        "source_sha256": "11724625e4d1a342ada4971a034ae69b0141fb348f98dee27b044ede9a20f973",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-17-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "0ff01327b6936dab7001278b9d31d14cffde7a70b5e192482bf01c94f02c2f7a"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "18",
+      "expected_26AD_EN": "Coral Influencer",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "18",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-18-coral-influencer.jpg?v=1787674922",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-18-actual-Shopify-variant-source.webp",
+        "source_sha256": "929971b130daee189485cb6f459c4c0456c96b916c2d03bf7b9eca0645ccb57d",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-18-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "4378e636af32718fd82ba0d0c64655c6f82949b7a189fe9c0875ccd986231f2a"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "19",
+      "expected_26AD_EN": "Cherry So What",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "19",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-19-cherry-so-what.jpg?v=1787674923",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-19-actual-Shopify-variant-source.webp",
+        "source_sha256": "b400984c7cfb88da60654f736046f95f3b2161824db49857e38819ebfa760151",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-19-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "e846a54c05a06bdf49192cb5c791de40b702d8d5b74cc13978e29f385814b22e"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    },
+    {
+      "shade": "20",
+      "expected_26AD_EN": "Brown Yakgwa",
+      "oliveyoung_exclusive_in_other_retailer": false,
+      "verified_26AD_variant_photo": {
+        "shade": "20",
+        "source_url": "https://cdn.shopify.com/s/files/1/0061/7516/2486/files/peripera-mood-glowy-tint-4g-20-brown-yakgwa.jpg?v=1787674925",
+        "status": "CANDIDATE_VARIANT_LINKED_PHOTO_QA_HOLD",
+        "retail_approved": false,
+        "commercial_image_rights_verified": false,
+        "exact_assigned_variant": true,
+        "source_photo": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-20-actual-Shopify-variant-source.webp",
+        "source_sha256": "78b9c5170d7f7ed567b983fba2be79d9d7bf3ec910e32213bba9867bc44fcd83",
+        "pixels_original_not_recolored": true,
+        "native_size": [
+          800,
+          800
+        ],
+        "qa_JPG": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/26AD-20-Shopify-variant-1080-QA.jpg",
+        "qa_sha256": "82f3b85d407eb0d865853cff9c424fa554c0f772a81ed4656b0619e985a2589d"
+      },
+      "status": "SHADE_PHOTO_CANDIDATE_HOLD_RIGHTS",
+      "never_use_legacy_ink_mood_photo": true
+    }
+  ],
+  "new_contact": "qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA/v2879-source-original-tube-and-real-swatch-contact-QA.jpg",
+  "legacy_ink_mood_twenty_photos_quarantined": true,
+  "current_user_scope_01_to_20_unchanged": true,
+  "stock_04_06_07_oliveyoung_exclusive_retained": true,
+  "stock_14_name_raw_not_modified": true,
+  "new_sales_approvals": 0,
+  "new_public_urls": 0,
+  "prior_11_completed_groups_unchanged": true,
+  "prior_55_public_urls_unchanged": true,
+  "all_source_RGB_unchanged": true,
+  "external_photo_reuse_rights_verified": false,
+  "user_owned_product_26AD_edition_proven": false,
+  "final_spreadsheet_shared": false,
+  "next": "Inspect exact Shopify source product and swatch chart at 100%. If variant-specific photos are assigned, verify shade labels by visual QA before use; 04/06/07 OliveYoung source separate. No legacy Ink photo substitution."
+}
