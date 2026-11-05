@@ -1,0 +1,112 @@
+{
+  "version": "v2859",
+  "baseline": "v2858",
+  "family": "pending-01",
+  "product": "MISSHA Magic Cushion Cover Lasting",
+  "qa_only": true,
+  "new_option_specific_internal_1080_JPGs": 4,
+  "shade_numbers": [
+    "21",
+    "23",
+    "25",
+    "27"
+  ],
+  "new_source_photos_downloaded": 0,
+  "source_PNGs_modified": 0,
+  "previous_11_published_families_unchanged": true,
+  "previous_55_verified_public_URLs_unchanged": true,
+  "source_products_real_photographs_reused": true,
+  "false_swatch_claims_generated": 0,
+  "original_logo_faked": false,
+  "shade_21_eligibility_requires_inventory_recheck": true,
+  "exact_owned_stock_packaging_verified": false,
+  "photo_commercial_rights_verified": false,
+  "new_public_sale_URLs": 0,
+  "new_sale_approved_images": 0,
+  "final_spreadsheet_shared": false,
+  "QA_contact": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/v2859-four-distinct-options-contact-QA.jpg",
+  "QA_contact_sha256": "549d55423ef19df636b5b0d19999a9b0b16ef5ab2faaf3df8bb4f8d5f7005973",
+  "variants": [
+    {
+      "shade": "21",
+      "source": "qa-review/v2748-missha-coverlasting-21-source01-round-compact-only/01-missha-N21-actual-compact-transparent-QA.png",
+      "original_png_sha256": "f3393f4b03398ff7b7e6768a26016df4b26df3bfbed0c60bd61309f1a59fa152",
+      "source_native_dimensions_px": [
+        527,
+        527
+      ],
+      "rendered_1080_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No21-1080-photo-option-QA.jpg",
+      "rendered_JPG_sha256": "ec5ebcb7ecc3272a5bec626df6ffb7d42d9cbd05dc335d96006fcb5897f056ee",
+      "jpg_bytes": 86874,
+      "product_pixels_color_altered": false,
+      "source_png_changed": false,
+      "photo_is_source_upscaled": true,
+      "stock_generation_verified": false,
+      "commercial_photo_rights_verified": false,
+      "authenticated_MK_logo_verified": false,
+      "sales_approved": false,
+      "note": "Option-specific candidate only; not evidence of a verified shade-specific swatch."
+    },
+    {
+      "shade": "23",
+      "source": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa/01-original-pink-compact-N23-transparent-QA.png",
+      "original_png_sha256": "21b28f5b922a1fa342f9699f858a7b06b59815b02dde10ac8f9290aba4f623e4",
+      "source_native_dimensions_px": [
+        505,
+        505
+      ],
+      "rendered_1080_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No23-1080-photo-option-QA.jpg",
+      "rendered_JPG_sha256": "68ffcfae35de119be7e20b09d5ed94893c53e7f779290881147248da52983841",
+      "jpg_bytes": 86552,
+      "product_pixels_color_altered": false,
+      "source_png_changed": false,
+      "photo_is_source_upscaled": true,
+      "stock_generation_verified": false,
+      "commercial_photo_rights_verified": false,
+      "authenticated_MK_logo_verified": false,
+      "sales_approved": false,
+      "note": "Option-specific candidate only; not evidence of a verified shade-specific swatch."
+    },
+    {
+      "shade": "25",
+      "source": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-25/01-original-25-isnet-true-alpha-QA.png",
+      "original_png_sha256": "4a23eb709f3dc15e4b649ca02e3b12afd288af9f204937aa6c4588c79c63242b",
+      "source_native_dimensions_px": [
+        664,
+        676
+      ],
+      "rendered_1080_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No25-1080-photo-option-QA.jpg",
+      "rendered_JPG_sha256": "8eea170dedaf0d18841162e8e567aaccdee75ec20534c3af4c0efb0cf2764171",
+      "jpg_bytes": 127403,
+      "product_pixels_color_altered": false,
+      "source_png_changed": false,
+      "photo_is_source_upscaled": true,
+      "stock_generation_verified": false,
+      "commercial_photo_rights_verified": false,
+      "authenticated_MK_logo_verified": false,
+      "sales_approved": false,
+      "note": "Option-specific candidate only; not evidence of a verified shade-specific swatch."
+    },
+    {
+      "shade": "27",
+      "source": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/shade-27/01-original-27-isnet-true-alpha-QA.png",
+      "original_png_sha256": "730d090198e24e5872660abab54a4707097c6903d1ddb4708d4c7cf85641ba03",
+      "source_native_dimensions_px": [
+        665,
+        674
+      ],
+      "rendered_1080_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No27-1080-photo-option-QA.jpg",
+      "rendered_JPG_sha256": "91768f1e5b8d5d4403a60bbc6f304069635adf04a5791fcf9fb05163ad342210",
+      "jpg_bytes": 130203,
+      "product_pixels_color_altered": false,
+      "source_png_changed": false,
+      "photo_is_source_upscaled": true,
+      "stock_generation_verified": false,
+      "commercial_photo_rights_verified": false,
+      "authenticated_MK_logo_verified": false,
+      "sales_approved": false,
+      "note": "Option-specific candidate only; not evidence of a verified shade-specific swatch."
+    }
+  ],
+  "next": "Visually review all four option layouts and the actual owned-stock edition; hold release until image rights and authentic MK logo are supplied. Then move to pending-12 (15mL vs 15g) and pending-10 (13g vs 15g) rather than repeat photo segmentation."
+}
