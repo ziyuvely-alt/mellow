@@ -1,0 +1,37 @@
+name: Shopee v2871 MISSHA legacy BB 21 and 25 intact gold-pump true-alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2871-missha-old-bb-21-25-goldpump-alpha-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  one_model_pass_two_unfinished_shades:
+    runs-on: ubuntu-latest
+    timeout-minutes: 24
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy 'rembg[cpu]==2.0.67'
+      - name: Segment two already-archived source pictures and QA exact gold pump silhouette without prior outputs changed
+        env:
+          U2NET_HOME: /tmp/u2net-originals
+        run: |
+          python -m py_compile scripts/v2871_missha_legacy_bb_21_25_goldpump_alpha_QA.py
+          cp scripts/v2871_missha_legacy_bb_21_25_goldpump_alpha_QA.py /tmp/v2871.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2871qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2871qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2871.py
+          git add qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA
+          git commit -m 'v2871 MISSHA legacy shade No21 No25 existing real gold-pump photo U2Net with safety gates, retail hold'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
