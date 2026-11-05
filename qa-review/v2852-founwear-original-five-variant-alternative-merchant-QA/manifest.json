@@ -1,0 +1,177 @@
+{
+  "version": "v2852",
+  "baseline": "v2851",
+  "inventory_family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original",
+  "expected_set": "15g compact + 15g refill",
+  "stock_shades": [
+    "19C",
+    "19N",
+    "21C",
+    "21N",
+    "23N"
+  ],
+  "excluded_nonstock_shades": true,
+  "prior_v2851_and_all_other_QA_assets_unchanged": true,
+  "original_published_11_families_untouched": true,
+  "original_published_55_urls_untouched": true,
+  "true_owned_stock_set_edition_verified": false,
+  "photo_redistribution_rights_verified": false,
+  "authentic_original_MK_logo_verified": false,
+  "new_public_image_urls": 0,
+  "new_retail_approvals": 0,
+  "final_XLSX_shared": false,
+  "merchants": [
+    {
+      "name": "W Cosmetics AU",
+      "source": "https://wcosmetics.com.au/products/clio-kill-cover-founwear-cushion-the-original.js",
+      "status": "MERCHANT_PRODUCT_LOOKUP_OK",
+      "set_description_verified": false,
+      "shade_photo_candidates": {
+        "19C": "SAVED_INTERNAL_QA",
+        "19N": "SAVED_INTERNAL_QA",
+        "21C": "PHOTO_SHARED_ACROSS_VARIANTS",
+        "21N": "PHOTO_SHARED_ACROSS_VARIANTS",
+        "23N": "PHOTO_SHARED_ACROSS_VARIANTS"
+      },
+      "merchant_title": "Clio Kill Cover Founwear Cushion The Original",
+      "merchant_variants": 8
+    },
+    {
+      "name": "Holiholic KR",
+      "source": "https://holiholic.com/products/clio-kill-cover-founwear-cushion-the-original-refill.js",
+      "status": "MERCHANT_PRODUCT_LOOKUP_OK",
+      "set_description_verified": true,
+      "shade_photo_candidates": {
+        "19C": "ALREADY_STAGED_FROM_EARLIER_MERCHANT",
+        "19N": "ALREADY_STAGED_FROM_EARLIER_MERCHANT",
+        "21C": "NO_VARIANT_ASSIGNED_PHOTO",
+        "21N": "NO_VARIANT_ASSIGNED_PHOTO",
+        "23N": "NO_VARIANT_ASSIGNED_PHOTO"
+      },
+      "merchant_title": "Kill Cover Founwear Cushion The Original + Refill",
+      "merchant_variants": 5
+    },
+    {
+      "name": "Dodoskin",
+      "source": "https://www.dodoskin.com/products/clio-kill-cover-founwear-cushion-the-original-15g-x-2ea-original-refill.js",
+      "status": "HOLD_MERCHANT_ACCESS_OR_PRODUCT_IDENTITY",
+      "set_description_verified": false,
+      "shade_photo_candidates": {},
+      "error": "wrong edition title: clio kill cover founwear cushion the original 15g x 2ea (original + refill)"
+    },
+    {
+      "name": "Moona Store",
+      "source": "https://www.moona.store/products/kill-cover-founwear-cushion-the-original.js",
+      "status": "MERCHANT_PRODUCT_LOOKUP_OK",
+      "set_description_verified": true,
+      "shade_photo_candidates": {
+        "19C": "ALREADY_STAGED_FROM_EARLIER_MERCHANT",
+        "19N": "ALREADY_STAGED_FROM_EARLIER_MERCHANT",
+        "21C": "SAVED_INTERNAL_QA",
+        "21N": "SAVED_INTERNAL_QA",
+        "23N": "SAVED_INTERNAL_QA"
+      },
+      "merchant_title": "Kill Cover Founwear Cushion The Original",
+      "merchant_variants": 5
+    }
+  ],
+  "variants": [
+    {
+      "shade": "19C",
+      "shade_label": "Light",
+      "merchant": "W Cosmetics AU",
+      "merchant_product": "Clio Kill Cover Founwear Cushion The Original",
+      "merchant_variant_id": 51852664602988,
+      "merchant_variant_label": "19C Light",
+      "merchant_product_set_claim": false,
+      "source_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/19c.jpg?v=1756444327",
+      "native_pixels": [
+        1280,
+        1280
+      ],
+      "source_sha256": "6b733c18d1028503996e23b7d1c8c1832d9bf26da87b3372fab09cf8de881899",
+      "rendered_file": "19C-W-exact-product-1080-QA.jpg",
+      "rendered_JPG_sha256": "bb4a41dc67a27636fe513f0cddd28cbc194ad29dfdff7f7118fd4f02a0cb132a",
+      "rendered_JPG_bytes": 108491,
+      "status": "SHADE_ASSIGNED_PHOTO_SAVED_QA_ONLY_RETAIL_HOLD"
+    },
+    {
+      "shade": "19N",
+      "shade_label": "Porcelain",
+      "merchant": "W Cosmetics AU",
+      "merchant_product": "Clio Kill Cover Founwear Cushion The Original",
+      "merchant_variant_id": 51852664635756,
+      "merchant_variant_label": "19N Porcelain",
+      "merchant_product_set_claim": false,
+      "source_url": "https://cdn.shopify.com/s/files/1/2779/3344/files/19n.jpg?v=1756444327",
+      "native_pixels": [
+        1280,
+        1280
+      ],
+      "source_sha256": "0a6fe363adc5ad8db312bf1ce505283fbe33b787c317f3157c4750ae5061e715",
+      "rendered_file": "19N-W-exact-product-1080-QA.jpg",
+      "rendered_JPG_sha256": "4678b520a6db563e75ec8306e1dc9fe8767310c06e8f8994e43439c39c8299a5",
+      "rendered_JPG_bytes": 109577,
+      "status": "SHADE_ASSIGNED_PHOTO_SAVED_QA_ONLY_RETAIL_HOLD"
+    },
+    {
+      "shade": "21C",
+      "shade_label": "Lingerie",
+      "merchant": "Moona Store",
+      "merchant_product": "Kill Cover Founwear Cushion The Original",
+      "merchant_variant_id": 50451896926490,
+      "merchant_variant_label": "#21C Lingerie",
+      "merchant_product_set_claim": true,
+      "source_url": "https://cdn.shopify.com/s/files/1/0056/6221/2166/files/Clio-Kill_Cover_Founwear_Cushion_The_Original-21C_Lingerie-Makeup-Moona-Store-NZ.jpg?v=1742869684",
+      "native_pixels": [
+        640,
+        640
+      ],
+      "source_sha256": "8d22e805f49b4a2884f66805544cf669c61310bd8cc6808ee334422a097b70ef",
+      "rendered_file": "21C-Moona-exact-product-1080-QA.jpg",
+      "rendered_JPG_sha256": "157e71ee720df6530c9edc69c132145c37f8c020a0a2bb8f8635ae08a6256691",
+      "rendered_JPG_bytes": 120291,
+      "status": "SHADE_ASSIGNED_PHOTO_SAVED_QA_ONLY_RETAIL_HOLD"
+    },
+    {
+      "shade": "21N",
+      "shade_label": "Linen",
+      "merchant": "Moona Store",
+      "merchant_product": "Kill Cover Founwear Cushion The Original",
+      "merchant_variant_id": 50451896959258,
+      "merchant_variant_label": "#21N Linen",
+      "merchant_product_set_claim": true,
+      "source_url": "https://cdn.shopify.com/s/files/1/0056/6221/2166/files/Clio-Kill_Cover_Founwear_Cushion_The_Original-21N_Linen-Makeup-Moona-Store-NZ.jpg?v=1742869684",
+      "native_pixels": [
+        640,
+        640
+      ],
+      "source_sha256": "3d3d27214f3f41236500a4ffd636deef0636ba69df6886fa8b03ffba8738faec",
+      "rendered_file": "21N-Moona-exact-product-1080-QA.jpg",
+      "rendered_JPG_sha256": "7e85033db395b5d1b41629a08e8f3c22c950c84c4b4922980e554fd13700444a",
+      "rendered_JPG_bytes": 123012,
+      "status": "SHADE_ASSIGNED_PHOTO_SAVED_QA_ONLY_RETAIL_HOLD"
+    },
+    {
+      "shade": "23N",
+      "shade_label": "Ginger",
+      "merchant": "Moona Store",
+      "merchant_product": "Kill Cover Founwear Cushion The Original",
+      "merchant_variant_id": 50451896992026,
+      "merchant_variant_label": "#23N Ginger",
+      "merchant_product_set_claim": true,
+      "source_url": "https://cdn.shopify.com/s/files/1/0056/6221/2166/files/Clio-Kill_Cover_Founwear_Cushion_The_Original-23N_Ginger-Makeup-Moona-Store-NZ.jpg?v=1742869684",
+      "native_pixels": [
+        640,
+        640
+      ],
+      "source_sha256": "8eac0a8cdbbb41ba21565b4ba03b2d3aaab77a119997918c96387961fc16a9ed",
+      "rendered_file": "23N-Moona-exact-product-1080-QA.jpg",
+      "rendered_JPG_sha256": "7b9f74b02bb9ec7e3440c7dc7b9e1002b00ac081b4e10c788b15ec5fe087c24f",
+      "rendered_JPG_bytes": 125814,
+      "status": "SHADE_ASSIGNED_PHOTO_SAVED_QA_ONLY_RETAIL_HOLD"
+    }
+  ],
+  "shade_specific_QA_JPG_saved": 5
+}
