@@ -1,0 +1,42 @@
+name: Shopee v2843 CLIO Mini 21C high-native registered alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2843-clio-mini21c-registered-alpha.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  qa_21c:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Reuse 21N geometric mask and 21C genuine merchant RGB, guard source mismatch
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          s=Path('scripts/v2842_clio_mini23N_registered_alpha.py').read_text()
+          old='R/"v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA"/"05-23N-MERCHANT-LACOSMETIQUE-QA.jpg"'
+          new='R/"v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA"/"21C"/"05-MERCHANT_LACOSMETIQUE_EXACT_21C_QA.jpg"'
+          assert old in s
+          s=s.replace(old,new).replace('23N','21C').replace('Ginger','Lingerie').replace('v2842','v2843')
+          Path('/tmp/v2843-clio.py').write_text(s)
+          PY
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2843-clio-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2843-clio-qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2843-clio.py
+          git add qa-review/v2843-clio-mini5g-21C-native-registered-alpha-QA
+          git commit -m 'v2843 21C exact merchant pixels registration QA only, prior images untouched'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
