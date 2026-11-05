@@ -1,0 +1,1042 @@
+{
+  "version": "v2968",
+  "checkpoint_base": "v2967",
+  "project": "Shopee Thumbnail Creator PRO, 82 SKUs/41 groups, 30 pending",
+  "audit_scope": "6 independently staged 5-JPG internal QA ZIPs plus 2 separate Goodal label group ZIPs",
+  "source_JPGs_examined_in_zip": 35,
+  "tech_pass_five_JPG_families": [
+    "pending-23",
+    "pending-28",
+    "pending-27",
+    "pending-29",
+    "pending-30",
+    "pending-25"
+  ],
+  "byte_exact_preserved": true,
+  "retail_source_authentication_checked": false,
+  "zip_audits": {
+    "pending-23": {
+      "zip": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-23-five-immutable-source-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "4c93f82a54e28abe4e6f3d6a60122957ac2e893ff8bf244e21cda828c9f2fbeb",
+      "zip_bytes": 458529,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-01-true-product-photo-alpha-QA.jpg",
+          "sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+          "bytes": 57774,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-02-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "bytes": 124885,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-03-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "bytes": 122133,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-04-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "bytes": 74592,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-05-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+          "bytes": 78341,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "pending-28": {
+      "zip": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-28-five-immutable-source-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "e97ba6982c6022015c2a72edf1f3ce42d4c1687a201d97655d016f191930fec4",
+      "zip_bytes": 789899,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-01-real-product-cutout-hero-QA.jpg",
+          "sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "bytes": 131499,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-02-source-photo-story-QA.jpg",
+          "sha256": "7280158c0eebec73dc6fd7517ee04ad7d53e7a01c8b6ac1e73e9a19d7081d135",
+          "bytes": 181690,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-03-source-photo-story-QA.jpg",
+          "sha256": "5a12115d604b22c10a73699aac12b4c870d177252a06371fa775dd778c0f3afd",
+          "bytes": 145097,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-04-source-photo-story-QA.jpg",
+          "sha256": "b5da42cbe32e9e3f9734fd95f0f052a0896c790dc3115a933125fb7ca222eae9",
+          "bytes": 153952,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-05-source-photo-story-QA.jpg",
+          "sha256": "e921abb23e1720894e09cc4514d0aa073e15880d110e2b2fab81a28565bbcb51",
+          "bytes": 176937,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "pending-27": {
+      "zip": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-five-photos-inc-1-new-KometGlobal-INTERNAL-ONLY.zip",
+      "zip_sha256": "97ffa23e7d5539aced822fbfac370429d807ecbe4233debc1b296f869f9018a2",
+      "zip_bytes": 567934,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-PIXELPURE-Toner200-photo-old-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "bytes": 69734,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-PIXELPURE-Toner200-photo-old-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "bytes": 197694,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-PIXELPURE-Toner200-photo-old-QA.jpg",
+          "sha256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "bytes": 80585,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-PIXELPURE-Toner200-photo-old-QA.jpg",
+          "sha256": "91358166a235f7e00f7493f6f1d98099164d932ad256705c8ff33ac09604eb7c",
+          "bytes": 140912,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-PIXELPURE-Toner200-photo-NEW-QA.jpg",
+          "sha256": "a9d107adca1ce45a99c8849cddd56ac989afb0347ab276ec6556b119dd3ee800",
+          "bytes": 78227,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "pending-29": {
+      "zip": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-real-photograph-source-candidates-INTERNAL-ONLY.zip",
+      "zip_sha256": "428fe7e99f16c4fefc275b81807ffe0cb89a9cda7fe53872c5cbdbebc4d68ed2",
+      "zip_bytes": 490203,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-old-PixelpureRadianceCream50-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "bytes": 113161,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-old-PixelpureRadianceCream50-QA.jpg",
+          "sha256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "bytes": 76128,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-old-PixelpureRadianceCream50-QA.jpg",
+          "sha256": "4f36d5220dc07680e450654ccc9574986b82933d6dc47d186adade80eb75610b",
+          "bytes": 150668,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-old-PixelpureRadianceCream50-QA.jpg",
+          "sha256": "7c3d42584097e5e228c2b9a62b40bdc24a9a971276a730a6a777749443d4a998",
+          "bytes": 81241,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-new-PixelpureRadianceCream50-QA.jpg",
+          "sha256": "f25438aa31256dacff5b60af1e66464d4da396978072b1c3df48729efeac5106",
+          "bytes": 68223,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "pending-30": {
+      "zip": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-five-distinct-scene-candidates-NOT-FOR-RETAIL.zip",
+      "zip_sha256": "641f0f56c28822486a1fc7721afed93e2a1f712aa1e9e2442d33a4640870d0db",
+      "zip_bytes": 547466,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-existing-PIXELPURE-AuraRadianceSerum-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "bytes": 67492,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-existing-PIXELPURE-AuraRadianceSerum-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "bytes": 146178,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-existing-PIXELPURE-AuraRadianceSerum-QA.jpg",
+          "sha256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "bytes": 131371,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-existing-PIXELPURE-AuraRadianceSerum-QA.jpg",
+          "sha256": "aac7590dfa2ef6a8e8fb2aa30564ff1ddc8754eb6e963b3d6141e0dc21b22596",
+          "bytes": 145267,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-new-PIXELPURE-AuraRadianceSerum-QA.jpg",
+          "sha256": "3505e93d5e00898d2c33441b850c500c898341378da348b3ce2471dda9116fb6",
+          "bytes": 56306,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "pending-25": {
+      "zip": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/pending-25-four-original-plus-one-independent-unlicensed-INTERNAL-QA.zip",
+      "zip_sha256": "278bcd6a43325a8d1d97b8c0fc8b0150d765960aef302c9d70cd4bd614e3213c",
+      "zip_bytes": 952583,
+      "JPG_count": 5,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-PRESERVED-BIOHEAL50mL.jpg",
+          "sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+          "bytes": 202484,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-PRESERVED-BIOHEAL50mL.jpg",
+          "sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+          "bytes": 197314,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-PRESERVED-BIOHEAL50mL.jpg",
+          "sha256": "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+          "bytes": 192483,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "04-PRESERVED-BIOHEAL50mL.jpg",
+          "sha256": "9cd6ff4f50cd1083d616ebb58ee37fd00748768470a2f79ce202a5712c28b06e",
+          "bytes": 197183,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-NEW-BIOHEAL50mL.jpg",
+          "sha256": "85430d27d86992fa2675d81943bee9f98d8d231cb04ef1a01fab96abe3724dff",
+          "bytes": 162449,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    }
+  },
+  "goodal_split_integrity": {
+    "LABEL_A": {
+      "zip": "qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/pending-20-LABEL_A-unmodified-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "9cc541d8f50ccb28f8abda7936df3e584df50b004444cb369d853192ca7c6e67",
+      "zip_bytes": 221357,
+      "JPG_count": 3,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "01-01-prior-verified-real-alpha-hero-QA.jpg",
+          "sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+          "bytes": 61644,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "02-02-source-archive-story-QA.jpg",
+          "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+          "bytes": 55913,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "03-04-source-archive-story-QA.jpg",
+          "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+          "bytes": 103332,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    },
+    "LABEL_B": {
+      "zip": "qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/pending-20-LABEL_B-unmodified-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "66c1239417f807f9177ebdbfff234c389c028c09bd3072ece5256f295aa5a914",
+      "zip_bytes": 292354,
+      "JPG_count": 2,
+      "all_JPG_1080_under2MB": true,
+      "exact_duplicate_JPG_hashes": false,
+      "frames": [
+        {
+          "name": "04-01-CITRUS_STILL-internal-1080.jpg",
+          "sha256": "ea725fe7abee9041588a25ec135847ad17836980eefb464ff46ee5f0002edb83",
+          "bytes": 116466,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        },
+        {
+          "name": "05-02-CITRUS_WATER-internal-1080.jpg",
+          "sha256": "60263e3837e577c6243fa47bd1a6412927ae8e378c63803569c9a05c1a7d8557",
+          "bytes": 175570,
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "meets_1080_2MB_JPEG": true
+        }
+      ],
+      "CRC_pass": true
+    }
+  },
+  "goodal_2025_version_label_evidence": {
+    "source_name": "YesStyle product listing '2025 Version - 100ml'",
+    "source_page": "https://www.yesstyle.com/en/goodal-green-tangerine-vita-c-serum-mist-100ml/info.html/pid.1136600635",
+    "source_bundle": "https://www.yesstyle.com/en/goodal-green-tangerine-vita-c-serum-mist-2pcs-bundle-set-2025-version/info.html/pid.1137843407",
+    "seller_photo_link": "https://d1flfk77wl2xk4.cloudfront.net/Assets/goodal-green-tangerine-vita-c-serum-mist-2pcs-bundle-set-100ml-x-2-pcs/01/055/XXL_p0225005501.jpg",
+    "observed_label": "LABEL_A: SERUM MIST / NIACINAMIDE / HYALURONIC ACID",
+    "evidence_strength": "EXTERNAL_RETAIL_2025_VERSION_PHOTO_SUPPORTS_LABEL_A_CANDIDACY",
+    "does_not_prove": "actual user's owned 25AD stock bottle or exclusion of different packaging batches",
+    "current_brand_official_product": "https://clubclio.co.kr/shop/goodsView/0000003795",
+    "official_brand_text_says_100ml": true,
+    "official_product_page_visible_label_cross_verified": false,
+    "do_not_use_mixed_A_B_images": true
+  },
+  "family_release_roster": [
+    {
+      "family_id": "pending-01",
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-02",
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-03",
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-04",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Check owned kit before selecting 25FW or REGULAR pack, retain existing two reference cards",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-08",
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "production_stage": "PERIPERA_01_TO_20_EDITION_OPTION_HOLD",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-09",
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-10",
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Replace fifth photo slot with different permitted exact-edition product photograph only if independent-photo requirement applies",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-11",
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "production_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical label before sales claim, preserve existing 15mL card as reference",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-13",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Preserve 30 mL source images; seek independent licensed fifth scene",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-14",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Repair pasted rectangular source backgrounds only in frames 2-3 after provenance clearance",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-15",
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "production_stage": "QA_CANDIDATE_REJECTED_2022_PRODUCT_EDGE",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Do not retry failed cyan halo mask. Obtain exact 2022-version licensed new native scene; model photo rights on hold.",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-16",
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-17",
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-18",
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-19",
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "production_stage": "HOLD_FRONT_LABEL_GENERATION_CONFLICT",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": false,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "MIXED_FRONT_LABELS_A_VS_B",
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Check actual owned 25AD bottle front label; retain LABEL_A three originals and LABEL_B two originals separately; no mixed 5-image set.",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-21",
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-22",
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Correct blur/mask only on affected frames using actual exact-edition native photograph; do not alter source",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "production_stage": "QA_5_FILE_BYTE_VALID_RETAIL_PROVENANCE_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "No new photos needed until stock batch, photo commercial permission and authentic MK image are verified.",
+      "skip_more_source_search_if_stock_and_rights_blocked": true
+    },
+    {
+      "family_id": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Reuse photos after rights clearance; separate customer-facing styling from QA card",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "production_stage": "QA_5_FILE_BYTE_VALID_FOUR_SCENE_CANDIDATE_RIGHTS_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": false,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "NEAR_DUPLICATE_OR_RELATED_PRODUCT_VIEW_1_2_AND_3_5",
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Keep corrected white-background candidate. Replace one or two semantically similar front/open-jar photos with genuinely different licensed and exact-50mL native scenes; don't count five JPGs as five independent photographs.",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-26",
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "production_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "source_photo_count": null,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": false,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "Confirm original logo against plugin bundled binary before any retail release",
+      "skip_more_source_search_if_stock_and_rights_blocked": false
+    },
+    {
+      "family_id": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "production_stage": "QA_5_FILE_BYTE_VALID_RETAIL_PROVENANCE_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "No repeat source searches. Await photo license, owned 200mL generation, original MK; then customer-clean JPG QA and new immutable Render path.",
+      "skip_more_source_search_if_stock_and_rights_blocked": true
+    },
+    {
+      "family_id": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "production_stage": "QA_5_FILE_BYTE_VALID_RETAIL_PROVENANCE_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "No new photos needed until 210mL/70-pads physical stock edition, rights and authenticated original MK are verified.",
+      "skip_more_source_search_if_stock_and_rights_blocked": true
+    },
+    {
+      "family_id": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "production_stage": "QA_5_FILE_BYTE_VALID_RETAIL_PROVENANCE_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "No repeat photo sources. 800-native hero limited: scene is detail only until quality/rights/stock/MK validated.",
+      "skip_more_source_search_if_stock_and_rights_blocked": true
+    },
+    {
+      "family_id": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "production_stage": "QA_5_FILE_BYTE_VALID_RETAIL_PROVENANCE_HOLD",
+      "source_photo_count": 5,
+      "verified_five_independent_scenes": null,
+      "technical_zip_audited_this_run": true,
+      "publication": "HOLD_NOT_APPROVED",
+      "release_gate_missing": [
+        "PHYSICAL_STOCK_EDITION_UNVERIFIED",
+        "COMMERCIAL_PHOTO_REUSE_PERMISSION_UNVERIFIED",
+        "AUTHENTIC_MELLOWKR_MK_ORIGINAL_BINARY_NOT_ACCESSIBLE",
+        "CUSTOMER_CLEAN_FINAL_FRAME_NOT_APPROVED"
+      ],
+      "next_action": "No repeat photo sources. 800-native scene is QA-only; clear license/physical generation/MK before release.",
+      "skip_more_source_search_if_stock_and_rights_blocked": true
+    }
+  ],
+  "remaining_families_count": 30,
+  "existing_11_published_preserved": true,
+  "existing_55_verified_URLs_preserved": true,
+  "new_sales_approved": 0,
+  "new_anonymous_render_URLs_verified": 0,
+  "previous_QA_ZIPs_overwritten": 0,
+  "new_customer_JPGs": 0,
+  "critical_blocker": "Commercial source-photo rights and physical stock/variant plus authenticated original MK binary. No public deployment attempted.",
+  "do_not_repeat": [
+    "v2957 A-B product label split",
+    "v2967 Bioheal candidate image lookup",
+    "v2954/v2958/v2961/v2963/v2965 old successful ZIP creation",
+    "historical 55 previously verified URLs"
+  ],
+  "next_exec": [
+    "Prioritize usable assets from pending23/28/27/29/30; do not source more photos until rights and true MK accessible",
+    "Resolve actual Goodal A/B 25AD stock identity; external 2025 listing supports A only tentatively",
+    "Bioheal pending25 scene 1/2 similar, replacement needed only with rights-cleared source",
+    "Once seller assets legally approved and MellowKR original MK available, generate retail JPGs in a new version path and verify anonymous SHA256"
+  ],
+  "final_excel_shared": false
+}
