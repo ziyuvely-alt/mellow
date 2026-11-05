@@ -1,0 +1,77 @@
+name: BBIA v396 six existing official MINI families source-only delta
+on:
+  push:
+    branches: [bbia-ch2-qa-v396-20261106]
+    paths: [.github/workflows/bbia-v396-six-mini-existing-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  exact-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 11
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Save only six MINI family native photos, SHA and source proof
+        shell: bash
+        run: |
+          python - <<'PY'
+          import io,hashlib,json
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          root=Path('/tmp/bbia-v396');root.mkdir(exist_ok=True)
+          ids=['1000000163','1000000186','1000000209','1000000187','1000000120','1000000208']
+          src=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf8'))
+          fam={str(x['product_id']):x for x in src['families']}
+          refs=[]
+          for sku in ids:
+            x=fam[sku];urls=[('MAIN',x.get('official_photo_url'))]+[('DETAIL_'+str(i),u) for i,u in enumerate(x.get('detail_references',[])[:3])]
+            refs += [{'sku':sku,'family':x['family'],'role':role,'url':url} for role,url in urls if url]
+          unique=list(dict.fromkeys(r['url'] for r in refs))
+          def grab(url):
+            r={'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA approved-reference source-only check','Accept':'image/*'}),timeout=27) as s:b=s.read(16000000)
+              with Image.open(io.BytesIO(b)) as im:im.verify()
+              with Image.open(io.BytesIO(b)) as im: im.load();dims=list(im.size);format=im.format
+              if format not in ('JPEG','PNG','WEBP') or min(dims)<200 or len(b)<7000:raise ValueError('tiny or invalid original')
+              ext={'JPEG':'jpg','PNG':'png','WEBP':'webp'}[format]
+              sha=hashlib.sha256(b).hexdigest()
+              filename='MINI_'+sha[:20]+'.'+ext
+              (root/filename).write_bytes(b)
+              r.update(status='SAVED',filename=filename,sha256=sha,dimensions=dims,format=format,bytes=len(b))
+            except Exception as err:r.update(status='HOLD',reason=type(err).__name__+': '+str(err)[:170])
+            return r
+          with ThreadPoolExecutor(max_workers=7) as pool:fetched=list(pool.map(grab,unique))
+          by_url={r['url']:r for r in fetched}
+          records=[{**r,**{k:v for k,v in by_url[r['url']].items() if k!='url'}} for r in refs]
+          board=Image.new('RGB',(1600,len(ids)*310+65),'#f8f5f1')
+          dr=ImageDraw.Draw(board)
+          dr.text((15,15),'BBIA v396 6 MINI FAMILIES / ORIGINAL PHOTO AUDIT / NOT SALES APPROVED',fill='#252525')
+          for i,sku in enumerate(ids):
+            yy=60+i*310;dr.text((18,yy),sku+' '+fam[sku]['family'],fill='#242424')
+            for k,role in enumerate(['MAIN','DETAIL_0','DETAIL_1','DETAIL_2']):
+              x=k*400+8;y=yy+30
+              z=next((q for q in records if q['sku']==sku and q['role']==role),None)
+              if not z or z['status']!='SAVED':
+                dr.text((x+5,y+20),role+' HOLD',fill='#8d3838');continue
+              im=Image.open(root/z['filename']).convert('RGB')
+              if im.height>3*im.width:im=im.crop((0,0,im.width,int(im.width*2.3)))
+              im.thumbnail((375,240),Image.Resampling.LANCZOS)
+              board.paste(im,(x+(385-im.width)//2,y+7))
+              dr.text((x+8,y+254),role+' '+z['sha256'][:9],fill='#444444')
+          board.save(root/'BBIA_v396_SIX_MINIS_SOURCE_CONTACT.jpg',quality=90,optimize=True)
+          duplicate_sha={}
+          for r in fetched:
+            if r['status']=='SAVED':duplicate_sha.setdefault(r['sha256'],[]).append(r['url'])
+          manifest={'version':'v396','parent':'v395b','sku_ids':ids,'source_refs':len(refs),'unique_urls':len(unique),'sources_saved':sum(r['status']=='SAVED' for r in fetched),'records':records,'hash_duplicates':[v for v in duplicate_sha.values() if len(v)>1],'status':'SOURCE_EVIDENCE_ONLY','shade_specific_claims_approved':False,'rights_for_retail_use_confirmed':False,'sales_approved_count':0,'prior_v395b_and_live_55_urls_unchanged':True,'do_not_publish':True}
+          (root/'BBIA_v396_MINI_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'source_refs':len(refs),'unique_requests':len(unique),'saved':manifest['sources_saved'],'holds':len(unique)-manifest['sources_saved']}))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v396-six-official-mini-native-sources
+          path: /tmp/bbia-v396
+          retention-days: 30
