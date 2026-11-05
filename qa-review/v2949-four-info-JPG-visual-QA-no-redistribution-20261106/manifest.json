@@ -1,0 +1,86 @@
+{
+  "version": "v2949",
+  "date_local": "2026-11-06",
+  "prior_checkpoint": "qa-review/v2948-four-more-real-contact-visual-release-gates-20261106/manifest.json",
+  "project": "Shopee Thumbnail Creator PRO 82SKU 41 families",
+  "examined_existing_JPGs": 4,
+  "actual_original_file_paths": [
+    "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-25-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+    "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-27-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+    "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-29-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg",
+    "qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/pending-30-English-information-clean-source-photo-panel-1080-INTERNAL-QA.jpg"
+  ],
+  "new_information_frame_limited_QA": [
+    {
+      "family": "pending-25",
+      "product": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream",
+      "observed_text_volume": "50 ml",
+      "frame": "v2943 fifth info JPG reused in v2944 5-frame INTERNAL ZIP",
+      "visible_QA": "PASS_READABILITY_INFO_LAYOUT_ONLY",
+      "visible_product_photo": "Present; product container appears fully in view",
+      "observable_blockers": [
+        "Footer explicitly says INTERNAL IMAGE QA, not publishable customer image",
+        "Missing authenticated circular MellowKR MK logo",
+        "Commercial photo reuse and actual owned edition remain unproven",
+        "Fifth independent product photo scene still missing; information card is not an independent source photograph"
+      ],
+      "next_action": "Keep v2943 QA information card unchanged; source fifth distinct original photo with rights and replace only if five-independent-photo requirement; after approval create separate retail-clean frame"
+    },
+    {
+      "family": "pending-27",
+      "product": "PIXELPURE Soothing Ampoule Toner",
+      "observed_text_volume": "200 ml",
+      "frame": "v2943 fifth info JPG reused in v2944 5-frame INTERNAL ZIP",
+      "visible_QA": "PASS_READABILITY_INFO_LAYOUT_ONLY",
+      "visible_product_photo": "Present; product container appears fully in view",
+      "observable_blockers": [
+        "Footer explicitly says INTERNAL IMAGE QA, not publishable customer image",
+        "Missing authenticated circular MellowKR MK logo",
+        "Commercial photo reuse and actual owned edition remain unproven",
+        "Fifth independent product photo scene still missing; information card is not an independent source photograph"
+      ],
+      "next_action": "Keep v2943 QA information card unchanged; source fifth distinct original photo with rights and replace only if five-independent-photo requirement; after approval create separate retail-clean frame"
+    },
+    {
+      "family": "pending-29",
+      "product": "PIXELPURE Radiance Aqua Soothing Cream",
+      "observed_text_volume": "50 ml",
+      "frame": "v2943 fifth info JPG reused in v2944 5-frame INTERNAL ZIP",
+      "visible_QA": "PASS_READABILITY_INFO_LAYOUT_ONLY",
+      "visible_product_photo": "Present; product container appears fully in view",
+      "observable_blockers": [
+        "Footer explicitly says INTERNAL IMAGE QA, not publishable customer image",
+        "Missing authenticated circular MellowKR MK logo",
+        "Commercial photo reuse and actual owned edition remain unproven",
+        "Fifth independent product photo scene still missing; information card is not an independent source photograph"
+      ],
+      "next_action": "Keep v2943 QA information card unchanged; source fifth distinct original photo with rights and replace only if five-independent-photo requirement; after approval create separate retail-clean frame"
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXELPURE Aura Radiance Serum",
+      "observed_text_volume": "50 ml",
+      "frame": "v2943 fifth info JPG reused in v2944 5-frame INTERNAL ZIP",
+      "visible_QA": "PASS_READABILITY_INFO_LAYOUT_ONLY",
+      "visible_product_photo": "Present; product container appears fully in view",
+      "observable_blockers": [
+        "Footer explicitly says INTERNAL IMAGE QA, not publishable customer image",
+        "Missing authenticated circular MellowKR MK logo",
+        "Commercial photo reuse and actual owned edition remain unproven",
+        "Fifth independent product photo scene still missing; information card is not an independent source photograph"
+      ],
+      "next_action": "Keep v2943 QA information card unchanged; source fifth distinct original photo with rights and replace only if five-independent-photo requirement; after approval create separate retail-clean frame"
+    }
+  ],
+  "previous_original_images_modified": 0,
+  "old_verified_URL_count_unchanged": 55,
+  "old_published_family_count_unchanged": 11,
+  "new_URL_count": 0,
+  "new_retail_approvals": 0,
+  "source_recovery_next": [
+    "Require original MK-logo binary in repository or approved local asset pipeline",
+    "Obtain 1 extra licensed truly distinct source photo for each pending-25,27,29,30",
+    "Maintain four v2944 source+information ZIPs as immutable INTERNAL ONLY; no redundant re-render"
+  ],
+  "note": "Readable informational frame is not a fifth independent original photo, and the v2944 ZIP must not be automatically published"
+}
