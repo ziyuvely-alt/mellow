@@ -1,0 +1,1072 @@
+{
+  "version": "v2846",
+  "baseline": "v2845",
+  "scope": "77 unassigned QA manifests, recursive per-item explicit family ID extraction",
+  "method": "Six read-only connector batches; no GitHub workflow modification; subsequent new QA manifest commit only",
+  "completed_batches": 6,
+  "batch_files": [
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-00.json",
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-01.json",
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-02.json",
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-03.json",
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-04.json",
+    "qa-review/v2846-recursive-nested-family-identity-audit/part-05.json"
+  ],
+  "summary": {
+    "v": "v2846",
+    "scanned": 77,
+    "successful": 77,
+    "errors": 0,
+    "recovered": 65,
+    "noExplicit": 12,
+    "nested_occurrences": 327,
+    "risky": 3,
+    "prior9": 9,
+    "familyCoverage": 30
+  },
+  "existing_explicit_top_level_identity_conflicts": [
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO The Original Mini 5g 23N",
+      "file": "qa-review/v2817-clio-mini-23N-one-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear The Original Mini 5g #23N",
+      "file": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO The Original Mini 5g | Mini Kill Cover Founwear Cushion The Original 5g",
+      "file": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Founwear The Original Mini 5g",
+      "file": "qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear The Original Mini Cushion 5g",
+      "file": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    }
+  ],
+  "newly_identified_nested_product_identity_conflicts": [
+    {
+      "source_manifest": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/manifest.json",
+      "family": "pending-05",
+      "jsonPath": "$.products[0]",
+      "identity": "Kill Cover Founwear Cushion Mini",
+      "risk": "GIFT_SET_VS_MINI_HOLD"
+    },
+    {
+      "source_manifest": "qa-review/v2794-clio-official-detail-original-photo-discovery/manifest.json",
+      "family": "pending-05",
+      "jsonPath": "$.products[0]",
+      "identity": "CLIO Kill Cover Founwear Mini",
+      "risk": "GIFT_SET_VS_MINI_HOLD"
+    },
+    {
+      "source_manifest": "qa-review/v2795-clio-mini-meshblur-target-only-single-case-cutout-tests/manifest.json",
+      "family": "pending-05",
+      "jsonPath": "$.products[0]",
+      "identity": "CLIO Kill Cover Founwear Mini 5g",
+      "risk": "GIFT_SET_VS_MINI_HOLD"
+    }
+  ],
+  "prior_v2841_product_identity_block_retained": true,
+  "pending_family_coverage": [
+    {
+      "family_id": "pending-01",
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "explicit_top_level_manifest_count": 6,
+      "additional_nested_manifest_count": 6,
+      "nested_entries_with_product_name": 0,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-02",
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "explicit_top_level_manifest_count": 3,
+      "additional_nested_manifest_count": 7,
+      "nested_entries_with_product_name": 1,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-03",
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "explicit_top_level_manifest_count": 3,
+      "additional_nested_manifest_count": 9,
+      "nested_entries_with_product_name": 1,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-04",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "explicit_top_level_manifest_count": 14,
+      "additional_nested_manifest_count": 16,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "explicit_top_level_manifest_count": 12,
+      "additional_nested_manifest_count": 12,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 12,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "explicit_top_level_manifest_count": 3,
+      "additional_nested_manifest_count": 7,
+      "nested_entries_with_product_name": 2,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "explicit_top_level_manifest_count": 0,
+      "additional_nested_manifest_count": 12,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-08",
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "explicit_top_level_manifest_count": 7,
+      "additional_nested_manifest_count": 8,
+      "nested_entries_with_product_name": 1,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-09",
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "explicit_top_level_manifest_count": 7,
+      "additional_nested_manifest_count": 14,
+      "nested_entries_with_product_name": 6,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-10",
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 5,
+      "nested_entries_with_product_name": 1,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-11",
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 8,
+      "nested_entries_with_product_name": 2,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "explicit_top_level_manifest_count": 0,
+      "additional_nested_manifest_count": 5,
+      "nested_entries_with_product_name": 2,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-13",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "explicit_top_level_manifest_count": 13,
+      "additional_nested_manifest_count": 5,
+      "nested_entries_with_product_name": 2,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-14",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "explicit_top_level_manifest_count": 3,
+      "additional_nested_manifest_count": 6,
+      "nested_entries_with_product_name": 0,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-15",
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 15,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-16",
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 9,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-17",
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 10,
+      "nested_entries_with_product_name": 5,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-18",
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "explicit_top_level_manifest_count": 2,
+      "additional_nested_manifest_count": 14,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-19",
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "explicit_top_level_manifest_count": 8,
+      "additional_nested_manifest_count": 15,
+      "nested_entries_with_product_name": 5,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 7,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-21",
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "explicit_top_level_manifest_count": 8,
+      "additional_nested_manifest_count": 16,
+      "nested_entries_with_product_name": 4,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-22",
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "explicit_top_level_manifest_count": 3,
+      "additional_nested_manifest_count": 10,
+      "nested_entries_with_product_name": 1,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "explicit_top_level_manifest_count": 2,
+      "additional_nested_manifest_count": 11,
+      "nested_entries_with_product_name": 5,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 9,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 10,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-26",
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 14,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 9,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "explicit_top_level_manifest_count": 2,
+      "additional_nested_manifest_count": 11,
+      "nested_entries_with_product_name": 2,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 10,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    },
+    {
+      "family_id": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "explicit_top_level_manifest_count": 1,
+      "additional_nested_manifest_count": 9,
+      "nested_entries_with_product_name": 3,
+      "identity_conflict_records": 0,
+      "current_release_status": "HOLD_FINAL_VISUAL_QA_STOCK_EDITION_PHOTO_RIGHTS"
+    }
+  ],
+  "successful_nested_link_files": [
+    {
+      "path": "qa-review/v2662-14-candidate-snapshot/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07",
+        "pending-16",
+        "pending-17",
+        "pending-08",
+        "pending-02",
+        "pending-15",
+        "pending-04",
+        "pending-28",
+        "pending-18",
+        "pending-21",
+        "pending-29",
+        "pending-22",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2665-4-clean-copy-cards/manifest.json",
+      "families": [
+        "pending-02",
+        "pending-08",
+        "pending-21",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2666-five-original-scenes/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07",
+        "pending-15",
+        "pending-22",
+        "pending-28"
+      ]
+    },
+    {
+      "path": "qa-review/v2667-original-photo-picks/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07",
+        "pending-15",
+        "pending-22",
+        "pending-28"
+      ]
+    },
+    {
+      "path": "qa-review/v2671-drG-unreviewed-source-scenes/manifest.json",
+      "families": [
+        "pending-16",
+        "pending-17",
+        "pending-18",
+        "pending-19",
+        "pending-20"
+      ]
+    },
+    {
+      "path": "qa-review/v2672-two-five-JPG-real-scene-sets/manifest.json",
+      "families": [
+        "pending-17",
+        "pending-20"
+      ]
+    },
+    {
+      "path": "qa-review/v2673-two-new-product-five-JPG-sets/manifest.json",
+      "families": [
+        "pending-16",
+        "pending-19"
+      ]
+    },
+    {
+      "path": "qa-review/v2674-unassembled-family-source-contact/manifest.json",
+      "families": [
+        "pending-01",
+        "pending-03",
+        "pending-04",
+        "pending-06",
+        "pending-09",
+        "pending-10",
+        "pending-11",
+        "pending-12",
+        "pending-13",
+        "pending-14",
+        "pending-15",
+        "pending-18"
+      ]
+    },
+    {
+      "path": "qa-review/v2675-missha-two-five-frame-photo-sets/manifest.json",
+      "families": [
+        "pending-01",
+        "pending-14"
+      ]
+    },
+    {
+      "path": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-10",
+        "pending-11"
+      ]
+    },
+    {
+      "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/manifest.json",
+      "families": [
+        "pending-12",
+        "pending-06"
+      ]
+    },
+    {
+      "path": "qa-review/v2679-sixteen-pending-family-source-previews/manifest.json",
+      "families": [
+        "pending-02",
+        "pending-03",
+        "pending-04",
+        "pending-05",
+        "pending-07",
+        "pending-08",
+        "pending-15",
+        "pending-18",
+        "pending-21",
+        "pending-23",
+        "pending-24",
+        "pending-25",
+        "pending-26",
+        "pending-27",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/manifest.json",
+      "families": [
+        "pending-23",
+        "pending-24",
+        "pending-25",
+        "pending-27",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2681-two-eyecleanser-five-frame-qa/manifest.json",
+      "families": [
+        "pending-21",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2682-seven-remaining-five-JPG-reviews/manifest.json",
+      "families": [
+        "pending-08",
+        "pending-02",
+        "pending-03",
+        "pending-04",
+        "pending-05",
+        "pending-07",
+        "pending-15",
+        "pending-18"
+      ]
+    },
+    {
+      "path": "qa-review/v2683-two-family-photo-content-upgrades/manifest.json",
+      "families": [
+        "pending-23",
+        "pending-27"
+      ]
+    },
+    {
+      "path": "qa-review/v2684b-BOH-cream-only-distinct-photo/manifest.json",
+      "families": [
+        "pending-25"
+      ]
+    },
+    {
+      "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "families": [
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "families": [
+        "pending-26",
+        "pending-28"
+      ]
+    },
+    {
+      "path": "qa-review/v2690-drg-two-official-photo-source-led-QA/manifest.json",
+      "families": [
+        "pending-15",
+        "pending-18"
+      ]
+    },
+    {
+      "path": "qa-review/v2691-DRG-correct-Korean-source-only/manifest.json",
+      "families": [
+        "pending-15",
+        "pending-18"
+      ]
+    },
+    {
+      "path": "qa-review/v2698-OBGE-GOODAL-two-source-photo-proof/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2705-three-recovered-photo-first-family-sets/manifest.json",
+      "families": [
+        "pending-03",
+        "pending-09",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2706-six-archival-five-real-source-families/manifest.json",
+      "families": [
+        "pending-04",
+        "pending-11",
+        "pending-15",
+        "pending-18",
+        "pending-26",
+        "pending-29"
+      ]
+    },
+    {
+      "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/manifest.json",
+      "families": [
+        "pending-16",
+        "pending-22",
+        "pending-24",
+        "pending-25",
+        "pending-27",
+        "pending-28",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2708-16-family-pre-release-80-jpg-unique-scene-audit/manifest.json",
+      "families": [
+        "pending-03",
+        "pending-09",
+        "pending-21",
+        "pending-04",
+        "pending-11",
+        "pending-15",
+        "pending-18",
+        "pending-26",
+        "pending-29",
+        "pending-16",
+        "pending-22",
+        "pending-24",
+        "pending-25",
+        "pending-27",
+        "pending-28",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2709-clio-mini-and-pixelpure-detail-corrections/manifest.json",
+      "families": [
+        "pending-04",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2710-two-accurate-copy-corrections-photo-QA/manifest.json",
+      "families": [
+        "pending-04",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/manifest.json",
+      "families": [
+        "pending-04",
+        "pending-26",
+        "pending-25",
+        "pending-22"
+      ]
+    },
+    {
+      "path": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/manifest.json",
+      "families": [
+        "pending-04",
+        "pending-25",
+        "pending-22"
+      ]
+    },
+    {
+      "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/manifest.json",
+      "families": [
+        "pending-16",
+        "pending-24",
+        "pending-27",
+        "pending-28",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/manifest.json",
+      "families": [
+        "pending-24",
+        "pending-28"
+      ]
+    },
+    {
+      "path": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/manifest.json",
+      "families": [
+        "pending-03",
+        "pending-11",
+        "pending-15",
+        "pending-18",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/manifest.json",
+      "families": [
+        "pending-01",
+        "pending-10",
+        "pending-14",
+        "pending-06"
+      ]
+    },
+    {
+      "path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07",
+        "pending-12",
+        "pending-13"
+      ]
+    },
+    {
+      "path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/manifest.json",
+      "families": [
+        "pending-02",
+        "pending-23"
+      ]
+    },
+    {
+      "path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/manifest.json",
+      "families": [
+        "pending-17",
+        "pending-20",
+        "pending-19"
+      ]
+    },
+    {
+      "path": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/manifest.json",
+      "families": [
+        "pending-17",
+        "pending-19",
+        "pending-20"
+      ]
+    },
+    {
+      "path": "qa-review/v2722-thirty-family-file-backed-cutout-queue/manifest.json",
+      "families": [
+        "pending-01",
+        "pending-02",
+        "pending-03",
+        "pending-04",
+        "pending-05",
+        "pending-06",
+        "pending-07",
+        "pending-08",
+        "pending-09",
+        "pending-10",
+        "pending-11",
+        "pending-12",
+        "pending-13",
+        "pending-14",
+        "pending-15",
+        "pending-16",
+        "pending-17",
+        "pending-18",
+        "pending-19",
+        "pending-20",
+        "pending-21",
+        "pending-22",
+        "pending-23",
+        "pending-24",
+        "pending-25",
+        "pending-26",
+        "pending-27",
+        "pending-28",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2729-eighteen-accepted-masks-foreground-integrity-QA/manifest.json",
+      "families": [
+        "pending-03",
+        "pending-11",
+        "pending-14",
+        "pending-15",
+        "pending-16",
+        "pending-17",
+        "pending-18",
+        "pending-19",
+        "pending-20",
+        "pending-22",
+        "pending-23",
+        "pending-24",
+        "pending-25",
+        "pending-26",
+        "pending-27",
+        "pending-28",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "path": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/manifest.json",
+      "families": [
+        "pending-18",
+        "pending-23",
+        "pending-26"
+      ]
+    },
+    {
+      "path": "qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts/manifest.json",
+      "families": [
+        "pending-17",
+        "pending-15"
+      ]
+    },
+    {
+      "path": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/manifest.json",
+      "families": [
+        "pending-17"
+      ]
+    },
+    {
+      "path": "qa-review/v2734-two-failed-families-different-photo-ROI-u2net/manifest.json",
+      "families": [
+        "pending-21",
+        "pending-09"
+      ]
+    },
+    {
+      "path": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-19"
+      ]
+    },
+    {
+      "path": "qa-review/v2738a-direct-contour-svg-fallback/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-19"
+      ]
+    },
+    {
+      "path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/manifest.json",
+      "families": [
+        "pending-23"
+      ]
+    },
+    {
+      "path": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-19",
+        "pending-23"
+      ]
+    },
+    {
+      "path": "qa-review/v2740-three-family-photo-visual-adjudication/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-19",
+        "pending-23"
+      ]
+    },
+    {
+      "path": "qa-review/v2761-peripera19-no-lip-panel-and-missha30ml-source03-qa/manifest.json",
+      "families": [
+        "pending-08",
+        "pending-13"
+      ]
+    },
+    {
+      "path": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/manifest.json",
+      "families": [
+        "pending-08"
+      ]
+    },
+    {
+      "path": "qa-review/v2764-two-new-original-source-real-alpha-QA/manifest.json",
+      "families": [
+        "pending-01",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2765-goodal-eye-cream30-remove-narrow-false-tail-QA/manifest.json",
+      "families": [
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/manifest.json",
+      "families": [
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2787-goodal-fifth-photo-fix-and-clio-mini-official-source/manifest.json",
+      "families": [
+        "pending-19",
+        "pending-04"
+      ]
+    },
+    {
+      "path": "qa-review/v2788-goodal-new-source-texture-options-clio-mini-native/manifest.json",
+      "families": [
+        "pending-19",
+        "pending-04"
+      ]
+    },
+    {
+      "path": "qa-review/v2791-clio-mini-two-cropped-english-captions-corrected-QA/manifest.json",
+      "families": [
+        "pending-19",
+        "pending-04"
+      ]
+    },
+    {
+      "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/manifest.json",
+      "families": [
+        "pending-19",
+        "pending-04"
+      ]
+    },
+    {
+      "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-06",
+        "pending-07"
+      ]
+    },
+    {
+      "path": "qa-review/v2794-clio-official-detail-original-photo-discovery/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-06",
+        "pending-07"
+      ]
+    },
+    {
+      "path": "qa-review/v2795-clio-mini-meshblur-target-only-single-case-cutout-tests/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07"
+      ]
+    },
+    {
+      "path": "qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-07"
+      ]
+    },
+    {
+      "path": "qa-review/v2807-two-official-single-item-product-photo-discovery/manifest.json",
+      "families": [
+        "pending-09",
+        "pending-21"
+      ]
+    },
+    {
+      "path": "qa-review/v2844-30family-product-identity-batch-QA/manifest.json",
+      "families": [
+        "pending-05",
+        "pending-01",
+        "pending-02",
+        "pending-03",
+        "pending-04",
+        "pending-06",
+        "pending-07",
+        "pending-08",
+        "pending-09",
+        "pending-10",
+        "pending-11",
+        "pending-12",
+        "pending-13",
+        "pending-14",
+        "pending-15",
+        "pending-16",
+        "pending-17",
+        "pending-18",
+        "pending-19",
+        "pending-20",
+        "pending-21",
+        "pending-22",
+        "pending-23",
+        "pending-24",
+        "pending-25",
+        "pending-26",
+        "pending-27",
+        "pending-28",
+        "pending-29",
+        "pending-30"
+      ]
+    }
+  ],
+  "unresolved_original_unassigned_files": [
+    "qa-review/v2663-visual-proof/manifest.json",
+    "qa-review/v2696-missha-serum-official-gallery-proof/manifest.json",
+    "qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA/manifest.json",
+    "qa-review/v2751-missha-shades25-27-true-alpha-edge-qa/manifest.json",
+    "qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence/manifest.json",
+    "qa-review/v2763-peripera20-separated-package-appearance-QA/manifest.json",
+    "qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection/manifest.json",
+    "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/manifest.json",
+    "qa-review/v2796-clio-meshglow-essential-global-original-gallery-source/manifest.json",
+    "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/manifest.json",
+    "qa-review/v2825-clio-mini-5g-21C-21N-uncropped-top-edge-repair/manifest.json",
+    "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/manifest.json"
+  ],
+  "failed_to_read_files": [],
+  "guardrails": {
+    "all_previous_QA_photo_bytes_untouched": true,
+    "retail_approved_new": 0,
+    "prior_approved_families": 11,
+    "prior_public_URL_count": 55,
+    "original_approved_families_and_public_URLs_unchanged": true,
+    "unverified_photo_rights_remain_HOLD": true,
+    "physical_stock_package_match_remains_HOLD": true,
+    "no_excel_or_spreadsheet_shared": true
+  },
+  "next_actions": [
+    "Do not treat a product-family ID alone as image approval or genuine ownership evidence",
+    "Never label Founwear Mini 5g as Founwear gift set pending-05; 12 flags across both v2844 and this nested audit, subject to deduplication",
+    "For pending-07 use only exact Mesh Blur 15g x2 gift set with verified packaging, not Mini",
+    "Perform licensing, logo, actual stock edition, and human visual QA before new publicly sale-approved images"
+  ]
+}
