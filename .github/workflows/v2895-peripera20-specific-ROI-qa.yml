@@ -1,0 +1,37 @@
+name: Shopee v2895 peripera20 26AD exact swatch ROI comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2895-peripera20-specific-ROI-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare_existing_exact_lip_swatches:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Compute lip ROI differences on 20 saved variant photos, no new art
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2895_peripera20_lip_photo_ROI_QA.py
+          cp scripts/v2895_peripera20_lip_photo_ROI_QA.py /tmp/v2895.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2895qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2895qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2895-peripera20-lip-photo-ROI-similarity-check
+          python /tmp/v2895.py
+          git add qa-review/v2895-peripera20-lip-photo-ROI-similarity-check
+          git commit -m 'v2895 targeted 190 peripera real lip region QA pairs; no old image regeneration'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
