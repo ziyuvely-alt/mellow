@@ -1,0 +1,137 @@
+{
+  "version": "v2931",
+  "baseline": "v2930",
+  "created_UTC": "2026-11-05T15:32:45Z",
+  "family": "pending-05",
+  "pending_item": "클리오 킬커버 파운웨어 쿠션 기획세트",
+  "old_incorrect_source_product_ids": [
+    5750,
+    7108
+  ],
+  "quarantined_prior_mini_photo_references": 4,
+  "correct_current_official_product_id": 6670,
+  "correct_official_product_page": "https://clubclio.co.kr/shop/goodsView/0000006670",
+  "correct_official_page_confirmed": true,
+  "official_page_title": "클럽클리오 공식 온라인몰 | CLUBCLIO",
+  "new_correct_product_source_originals_archived": 2,
+  "new_photo_native_resolutions": [
+    [
+      502,
+      502
+    ],
+    [
+      600,
+      600
+    ]
+  ],
+  "photo_source_similarity_hamming": 0,
+  "new_manufacturer_scenes_independent_identity_confirmed": false,
+  "commercial_photo_rights_cleared": false,
+  "user_stock_main_refill_edition_confirmed": false,
+  "no_original_file_changed": true,
+  "prior_11_approved_families_unchanged": true,
+  "prior_55_verified_public_URLs_unchanged": true,
+  "new_sales_approved": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "revised_future_source_filter": {
+    "pending-05": {
+      "allow_unverified_ID_6670_sources_for_internal_QA": true,
+      "disallow_IDs": [
+        5750,
+        7108
+      ],
+      "never_use_mini_5g_image_for_fullsize_set": true,
+      "existing_pending05_master_hero_still_edition_unverified": true,
+      "photo_license_stock_variant_release": "HOLD"
+    }
+  },
+  "new_fullsize_sources": [
+    {
+      "key": "M",
+      "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/66/70/m.gif",
+      "native_format": "JPEG",
+      "native_pixels": [
+        502,
+        502
+      ],
+      "native_high_res_900px": false,
+      "source_path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/01-6670-M-official-unaltered.jpeg",
+      "source_sha256": "aedd4ca6e2d145780761a05be3acf1206523187cfa0980de2218a12bdcf56b5b",
+      "preview_path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/01-6670-M-1080-REFERENCE-NOT-RETAIL.jpg",
+      "preview_sha256": "58ffd0750764363f8cfd692ae684de6d0e12ae40d4444da0ef0f8df0054a1597",
+      "retail_license_approved": false,
+      "owned_stock_pack_verified": false,
+      "retail_approved": false
+    },
+    {
+      "key": "B",
+      "source_url": "https://clubclio.co.kr/data/mall_data/images/product/00/00/00/66/70/b.gif",
+      "native_format": "JPEG",
+      "native_pixels": [
+        600,
+        600
+      ],
+      "native_high_res_900px": false,
+      "source_path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/02-6670-B-official-unaltered.jpeg",
+      "source_sha256": "31ac1b79b802f618899fdea9f905d6d07de6bec4a68f3dc395e992acd526f7bd",
+      "preview_path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/02-6670-B-1080-REFERENCE-NOT-RETAIL.jpg",
+      "preview_sha256": "c16e39174c60f6512432fc8636defdd94b9b7c5f6698727cd3f6bdadaeb81f64",
+      "retail_license_approved": false,
+      "owned_stock_pack_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "quarantined_mini_sources": [
+    {
+      "source_file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/01-official-5750-m-gif-REFERENCE.jpg",
+      "source_sha256": "865b78ddd4eaddd24f927da48dc55b8142ca35f57beb702b24a4b25cf681c3b5",
+      "original_product_id": 5750,
+      "native_source_pixels": [
+        502,
+        502
+      ],
+      "reason": "MINI_5G_PRODUCT_REFERENCE_NOT_PROOF_OF_6670_FULLSIZE_MAIN_REFILL_SET",
+      "approved_for_pending_05_fullsize": false,
+      "immutable_original_preserved": true
+    },
+    {
+      "source_file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/02-official-5750-b-gif-REFERENCE.jpg",
+      "source_sha256": "4a799728296b8af791dcc3f54cf689e9052cdb9e4f699f18dbcc595b9536dfe4",
+      "original_product_id": 5750,
+      "native_source_pixels": [
+        600,
+        600
+      ],
+      "reason": "MINI_5G_PRODUCT_REFERENCE_NOT_PROOF_OF_6670_FULLSIZE_MAIN_REFILL_SET",
+      "approved_for_pending_05_fullsize": false,
+      "immutable_original_preserved": true
+    },
+    {
+      "source_file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/03-official-7108-m-gif-REFERENCE.jpg",
+      "source_sha256": "8a995ee92aec1cbcc85f802f1e1ace77321680c6dc7c3d4ddcad21f2bee6e675",
+      "original_product_id": 7108,
+      "native_source_pixels": [
+        502,
+        502
+      ],
+      "reason": "MINI_5G_PRODUCT_REFERENCE_NOT_PROOF_OF_6670_FULLSIZE_MAIN_REFILL_SET",
+      "approved_for_pending_05_fullsize": false,
+      "immutable_original_preserved": true
+    },
+    {
+      "source_file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/04-official-7108-b-gif-REFERENCE.jpg",
+      "source_sha256": "9d6d273daf8db752638cb2d059b25ed26071990296de0766199d24771d862fc9",
+      "original_product_id": 7108,
+      "native_source_pixels": [
+        600,
+        600
+      ],
+      "reason": "MINI_5G_PRODUCT_REFERENCE_NOT_PROOF_OF_6670_FULLSIZE_MAIN_REFILL_SET",
+      "approved_for_pending_05_fullsize": false,
+      "immutable_original_preserved": true
+    }
+  ],
+  "contact": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05-6670-fullsize-vs-old-mini-visual-INTERNAL-QA.jpg",
+  "errors": []
+}
