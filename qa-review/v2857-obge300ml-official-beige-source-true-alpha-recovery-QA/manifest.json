@@ -1,0 +1,45 @@
+{
+  "version": "v2857",
+  "baseline": "v2856",
+  "family": "pending-22",
+  "product": "OBgE Max Waterful Sun Cream 300mL",
+  "prior_v2856_visual_status": "REJECT_FOR_SALES_NEW_ARTIFICIAL_DIAGONAL_RIGHT_SHOULDER",
+  "replacement_method": "OpenCV GrabCut from genuine preserved official beige-backdrop packshot, not prior shadowed mask",
+  "source": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/02-official-beige-packshot-distinct-QA.jpg",
+  "source_sha256": "d315b5113eefc750ef6096e3d9f43c691af48d5aa1ead8e5aa33e9e89820a9e2",
+  "source_native_px_reported": [
+    600,
+    600
+  ],
+  "qa_cached_source_px": [
+    1080,
+    1080
+  ],
+  "original_RGB_unchanged": true,
+  "new_AI_segmentation_models_used": 0,
+  "mask_algorithm": "grabcut with hard FG seeds and connected-component hold gates",
+  "mask_bbox_xywh": [
+    392,
+    207,
+    297,
+    667
+  ],
+  "foreground_area": 168463,
+  "center_alpha": 255,
+  "qa_original_PNG": "01-OBgE300mL-official-600px-native-packshot-clean-TRUE-ALPHA-QA.png",
+  "qa_original_PNG_sha256": "ce79a373ea7a2a4dd7fe1c4b4b1a17acb9c353bede3abd5e326f044efac352ea",
+  "new_JPG": "01-OBgE300mL-clean-official-photo-hero-1080-QA.jpg",
+  "JPG_sha256": "fd8f045c2aebd77e8d5d49a072bb410733d16b1467131ed4d3a1e36ac98aa912",
+  "JPG_bytes": 51694,
+  "prior_sources_modified": 0,
+  "prior_11_sales_approved_families_unchanged": true,
+  "prior_55_public_URLs_unchanged": true,
+  "commercial_photo_usage_permission_verified": false,
+  "owned_stock_packaging_verified": false,
+  "original_round_MK_logo_verified": false,
+  "closeup_visual_QA": "PENDING",
+  "photo_source_has_been_upscaled_from_native": true,
+  "sale_approved_new": 0,
+  "final_XLSX_shared": false,
+  "next": "Compare full resolution edges for white/beige halos, confirm native-600 softness and package before any approval."
+}
