@@ -1,0 +1,34 @@
+name: Shopee v2869 Founwear 21C 21N photo plus real source swatch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2869-founwear-21c21n-source-bridge-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reuse_two_preserved_shade_photos:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Assemble two source-verified options using old merchant image plus actual labeled source swatches, never publish
+        run: |
+          cp scripts/v2869_founwear_21c21n_source_bridged_option_qa.py /tmp/v2869.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2869qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2869qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2869.py
+          git add qa-review/v2869-founwear-21c21n-option-photo-swatch-crosscheck-QA
+          git commit -m 'v2869 archive two CLIO Founwear 21C 21N source-bridged option proof cards, retail blocked'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
