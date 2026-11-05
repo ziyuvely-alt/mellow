@@ -1,0 +1,484 @@
+{
+  "version": "v2920",
+  "baseline": "v2919",
+  "created_utc": "2026-11-05T14:41:04Z",
+  "six_partial_product_groups": 6,
+  "real_unchanged_photo_sources_in_QA_ZIPs": 19,
+  "new_internal_source_photo_ZIPs": 6,
+  "still_missing_five_photo_slots": 11,
+  "new_photography_generated": 0,
+  "old_original_photos_modified": 0,
+  "existing_11_published_families_unchanged": true,
+  "existing_55_public_URLs_unchanged": true,
+  "v2918_completed_two_fivephoto_ZIPs_preserved": true,
+  "no_financial_spreadsheet_shared": true,
+  "new_sale_approvals": 0,
+  "new_published_urls": 0,
+  "not_upload_ready": true,
+  "results": [
+    {
+      "family": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "actual_original_source_jpgs_in_zip": 3,
+      "five_source_target_shortfall": 2,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/GOODAL_VitaC_SerumMist100mL_3OF5_INTERNAL_QA.zip",
+      "zip_sha256": "749ee5acfaf726d5bf0731bb22b3ddba217148c55d67e0614ad1ed44a81fb22f",
+      "zip_size_bytes": 221361,
+      "image_records": [
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/02-original-QA.jpg",
+          "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 55913,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-20-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/04-original-QA.jpg",
+          "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 103332,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-20-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+          "sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 61644,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-20-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    },
+    {
+      "family": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "actual_original_source_jpgs_in_zip": 4,
+      "five_source_target_shortfall": 1,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip",
+      "zip_sha256": "de354464a44500efaa2c94241411fa0f49b48b2369d5298e988942d02dde89ab",
+      "zip_size_bytes": 688717,
+      "image_records": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 107768,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-24-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 175959,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-24-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 201351,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-24-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-24/01-brand-1080-reference-JPG-INTERNAL.jpg",
+          "sha256": "1d45520b1e2367c84589e43a0380e94dc00404afb72f049541d0e1cc1d0eb5ab",
+          "source_version": "v2915_branded_reference_selected_v2917",
+          "role": "first-party manufacturer gallery photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 4,
+          "source_bytes": 203017,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "04-pending-24-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    },
+    {
+      "family": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "actual_original_source_jpgs_in_zip": 3,
+      "five_source_target_shortfall": 2,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip",
+      "zip_sha256": "132be33a24b44de0eff59a6dfdf6929f774324f10631f29813dcbcfe80b8e914",
+      "zip_size_bytes": 592753,
+      "image_records": [
+        {
+          "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-background-removed-hero-1080-QA.jpg",
+          "sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 202484,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-25-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+          "sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+          "source_version": "v2912",
+          "role": "existing source photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 197314,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-25-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-25/01-brand-1080-reference-JPG-INTERNAL.jpg",
+          "sha256": "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+          "source_version": "v2915_branded_reference_selected_v2917",
+          "role": "first-party manufacturer gallery photograph",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 192483,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-25-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    },
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "actual_original_source_jpgs_in_zip": 3,
+      "five_source_target_shortfall": 2,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip",
+      "zip_sha256": "a7b4feb737c771ff676d2b47f1006017151ff82fb0a6b8d65adc27787f3f17eb",
+      "zip_size_bytes": 348485,
+      "image_records": [
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "source_version": "v2912",
+          "role": "PREVIOUS_SCREENED_SOURCE",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 69734,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "source_version": "v2912",
+          "role": "PREVIOUS_SCREENED_SOURCE",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 197694,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "source_version": "v2913",
+          "role": "two 200 mL pink toner bottles on pale studio background; distinct no promo overlay",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 80585,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "actual_original_source_jpgs_in_zip": 3,
+      "five_source_target_shortfall": 2,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip",
+      "zip_sha256": "16bf74c0e1e1797ed3cef49bcb30906007e7a39af7fb828eedbaecba112a284a",
+      "zip_size_bytes": 340429,
+      "image_records": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "source_version": "v2912",
+          "role": "PREVIOUS_SCREENED_SOURCE",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 113161,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "source_version": "v2913",
+          "role": "50 mL jar open with visible white cream and second jar blurred at rear",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 76128,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA/pending-29/01-pixelpure-1080-reference-NOT-RETAIL.jpg",
+          "sha256": "4f36d5220dc07680e450654ccc9574986b82933d6dc47d186adade80eb75610b",
+          "source_version": "v2919",
+          "role": "newly acquired manufacturer full-native photo scene, visually reviewed",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 150668,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "actual_original_source_jpgs_in_zip": 3,
+      "five_source_target_shortfall": 2,
+      "zip_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip",
+      "zip_sha256": "1d7df3221ffe6e4565e8c866ba4a3d938539742e93462c78f5be52c00949bbcd",
+      "zip_size_bytes": 345513,
+      "image_records": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "source_version": "v2912",
+          "role": "PREVIOUS_SCREENED_SOURCE",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 1,
+          "source_bytes": 67492,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "01-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "source_version": "v2912",
+          "role": "PREVIOUS_SCREENED_SOURCE",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 2,
+          "source_bytes": 146178,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "02-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        },
+        {
+          "path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "source_version": "v2913",
+          "role": "three pink 50 mL serum bottles on pink background with white fluid thread, no promise overlay",
+          "rights_verified": false,
+          "stock_edition_verified": false,
+          "source_index": 3,
+          "source_bytes": 131371,
+          "native_format": "JPEG",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "zip_filename": "03-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sale_approved": false,
+          "photo_scene_distinctness_final_QA": "PENDING",
+          "model_rights_approved": false,
+          "image_claims_approved": false
+        }
+      ],
+      "old_approved_11_families_unchanged": true,
+      "new_commercial_use_approvals": 0,
+      "published": false
+    }
+  ]
+}
