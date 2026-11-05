@@ -1,0 +1,628 @@
+{
+  "version": "v2846",
+  "batch": 2,
+  "offset": 30,
+  "records": [
+    {
+      "file": "qa-review/v2710-two-accurate-copy-corrections-photo-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2711-real-segmentation-four-source-product-heroes/manifest.json",
+      "nested": [
+        {
+          "family": "pending-04",
+          "jsonPath": "$.candidates[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.candidates[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.candidates[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.candidates[3]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/manifest.json",
+      "nested": [
+        {
+          "family": "pending-04",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.products[2]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/manifest.json",
+      "nested": [
+        {
+          "family": "pending-16",
+          "jsonPath": "$.candidates[0]",
+          "identity": "R.E.D Blemish Soothing Cream 70mL",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.candidates[1]",
+          "identity": "NAD Glow Power Serum 30mL",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.candidates[2]",
+          "identity": "Soothing Ampoule Toner 200mL",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.candidates[3]",
+          "identity": "Glow Cleansing Serum Pads 70ea",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.candidates[4]",
+          "identity": "Radiance Aqua Soothing Cream 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.candidates[5]",
+          "identity": "Aura Radiance Serum 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/manifest.json",
+      "nested": [
+        {
+          "family": "pending-24",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/manifest.json",
+      "nested": [
+        {
+          "family": "pending-03",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.products[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.products[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.products[4]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/manifest.json",
+      "nested": [
+        {
+          "family": "pending-01",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-10",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.products[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.products[3]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.products[0]",
+          "identity": "Kill Cover Founwear Cushion Mini",
+          "risk": "GIFT_SET_VS_MINI_HOLD"
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.products[1]",
+          "identity": "Kill Cover Mesh Blur Cushion",
+          "risk": null
+        },
+        {
+          "family": "pending-12",
+          "jsonPath": "$.products[2]",
+          "identity": "PDRN NAD+ Renew Peel Shot 25",
+          "risk": null
+        },
+        {
+          "family": "pending-13",
+          "jsonPath": "$.products[3]",
+          "identity": "PDRN Firming Repair Serum 30mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/manifest.json",
+      "nested": [
+        {
+          "family": "pending-02",
+          "jsonPath": "$.products[0]",
+          "identity": "Magic Cushion Moist Up",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.products[1]",
+          "identity": "Pore Zero Oil Control Sun Cream 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-17",
+          "jsonPath": "$.products[0]",
+          "identity": "Brightening Up Moisture Sun 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.products[1]",
+          "identity": "Green Tangerine Vita C Serum Mist 100mL",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.products[2]",
+          "identity": "Green Tangerine Vita C Cream Alpha 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/manifest.json",
+      "nested": [
+        {
+          "family": "pending-17",
+          "jsonPath": "$.products[0]",
+          "identity": "Brightening Up Moisture Sun 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.products[1]",
+          "identity": "Green Tangerine Vita C Cream Alpha 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.products[2]",
+          "identity": "Green Tangerine Vita C Serum Mist 100mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2722-thirty-family-file-backed-cutout-queue/manifest.json",
+      "nested": [
+        {
+          "family": "pending-01",
+          "jsonPath": "$.source_status_by_family[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-02",
+          "jsonPath": "$.source_status_by_family[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-03",
+          "jsonPath": "$.source_status_by_family[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.source_status_by_family[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.source_status_by_family[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.source_status_by_family[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.source_status_by_family[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-08",
+          "jsonPath": "$.source_status_by_family[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.source_status_by_family[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-10",
+          "jsonPath": "$.source_status_by_family[9]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.source_status_by_family[10]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-12",
+          "jsonPath": "$.source_status_by_family[11]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-13",
+          "jsonPath": "$.source_status_by_family[12]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.source_status_by_family[13]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.source_status_by_family[14]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-16",
+          "jsonPath": "$.source_status_by_family[15]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-17",
+          "jsonPath": "$.source_status_by_family[16]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.source_status_by_family[17]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.source_status_by_family[18]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.source_status_by_family[19]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.source_status_by_family[20]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.source_status_by_family[21]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.source_status_by_family[22]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.source_status_by_family[23]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.source_status_by_family[24]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.source_status_by_family[25]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.source_status_by_family[26]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.source_status_by_family[27]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.source_status_by_family[28]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.source_status_by_family[29]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2729-eighteen-accepted-masks-foreground-integrity-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-03",
+          "jsonPath": "$.results[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.results[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-14",
+          "jsonPath": "$.results[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.results[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-16",
+          "jsonPath": "$.results[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-17",
+          "jsonPath": "$.results[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.results[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-19",
+          "jsonPath": "$.results[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-20",
+          "jsonPath": "$.results[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.results[9]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.results[10]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.results[11]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.results[12]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.results[13]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.results[14]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.results[15]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.results[16]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.results[17]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/manifest.json",
+      "nested": [
+        {
+          "family": "pending-18",
+          "jsonPath": "$.results[0]",
+          "identity": "Brightening Up Sun Plus 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-23",
+          "jsonPath": "$.results[1]",
+          "identity": "Pore Zero Oil Control Sun Cream 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.results[2]",
+          "identity": "Gentle Gel-to-Foam Cleanser 145mL",
+          "risk": null
+        }
+      ]
+    }
+  ]
+}
