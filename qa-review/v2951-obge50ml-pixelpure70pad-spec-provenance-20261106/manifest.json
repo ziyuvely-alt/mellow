@@ -1,0 +1,64 @@
+{
+  "version": "v2951",
+  "date_kst": "2026-11-06",
+  "parent": "qa-review/v2950-fourteen-remaining-family-real-visual-and-frame-quarantine-20261106/manifest.json",
+  "project": "Shopee Thumbnail Creator PRO stock 82SKU 41 families",
+  "type": "OFFICIAL_SPEC_CORROBORATION_PRODUCT_SPEC_GATE_ONLY",
+  "product_spec_evidence": [
+    {
+      "family_id": "pending-23",
+      "product": "OBgE Pore Zero Oil Control Sun Cream",
+      "candidate_images": "qa-review/v2912-eight-family-preflight-visual-picks-no-fabricated-slots-QA/pending-23-five-slot-clean-source-shortlist-INTERNAL-QA.jpg",
+      "confirmed_product_name": "OBgE Pore Zero Oil Control Sun Cream",
+      "confirmed_net_volume": "50 mL",
+      "source_brand_official": "https://www.obge.co.kr/category/sun-care/61/",
+      "source_50ml_retail_verify": "https://global.oliveyoung.com/product/detail?accParam=110&prdtNo=GA250732233",
+      "other_reference": "https://www.jolse.com/product/obge-pore-zero-oil-control-sun-cream-50ml/107549/category/1032/display/1/",
+      "verified_scope": "Brand official catalog confirms product name; retailers explicitly confirm 50mL. Visual QA contact presents 50mL tube.",
+      "catalog_product_spec_status": "CROSS_SOURCE_CORROBORATED",
+      "stock_owned_unit_version_verified": false,
+      "commercial_photo_rights_verified": false,
+      "MK_original_asset_verified": false,
+      "new_sale_approval": false
+    },
+    {
+      "family_id": "pending-28",
+      "product": "Pixelpure Glow Cleansing Serum Pad",
+      "candidate_images": "qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/pending-28-combined-five-scene-internal-QA.jpg",
+      "confirmed_name_and_count": "픽셀퓨어 글로우 클렌징 세럼 패드 70매",
+      "confirmed_net_volume": "210 mL (retailer text; visible source package suggests 210mL)",
+      "source_brand_official": "https://pixelpure.com/product/detail.html?product_no=23",
+      "source_retail_full_quantity": "https://www.hwahae.co.kr/goods/74292",
+      "verified_scope": "Brand official site confirms 70 pads; Hwahae retailer independently identifies 210 mL/70 pads. Brand page's crawled text does not independently state 210mL.",
+      "catalog_product_spec_status": "PARTIAL_BRAND_AND_RETAIL_CORROBORATION",
+      "stock_owned_unit_version_verified": false,
+      "commercial_photo_rights_verified": false,
+      "MK_original_asset_verified": false,
+      "new_sale_approval": false
+    }
+  ],
+  "retail_license_disclaimer": "Presence on official site does NOT grant photo redistribution rights; catalog agreement does NOT prove owned stock batch; avoid pretending specs unlock public release.",
+  "preserved_existing": {
+    "published_families": 11,
+    "verified_urls": 55,
+    "old_public_files_overwritten": 0,
+    "QA_files_overwritten": 0
+  },
+  "this_run": {
+    "new_JPGs": 0,
+    "new_uploaded_sales_images": 0,
+    "new_anon_verified_URLs": 0,
+    "new_sales_approved_families": 0
+  },
+  "next_single_action_per_family": [
+    {
+      "family_id": "pending-23",
+      "action": "Use already five unique 50 mL source photos. Clear original licensed image rights, physical packaging match, authentic MK logo binary; when all 3 pass, versioned publish only."
+    },
+    {
+      "family_id": "pending-28",
+      "action": "Resolve brand official 210mL text (retail page gives 210mL), physical pack 70 pads/210 mL, commercial rights, original MK asset. Preserve v2914 five scenes unchanged."
+    }
+  ],
+  "final_xlsx_not_shared": true
+}
