@@ -1,0 +1,410 @@
+{
+  "version": "v2846",
+  "batch": 1,
+  "offset": 15,
+  "records": [
+    {
+      "file": "qa-review/v2682-seven-remaining-five-JPG-reviews/manifest.json",
+      "nested": [
+        {
+          "family": "pending-08",
+          "jsonPath": "$.not_staged",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-02",
+          "jsonPath": "$.rows[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-03",
+          "jsonPath": "$.rows[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.rows[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-05",
+          "jsonPath": "$.rows[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.rows[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.rows[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.rows[6]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2683-two-family-photo-content-upgrades/manifest.json",
+      "nested": [
+        {
+          "family": "pending-23",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2684b-BOH-cream-only-distinct-photo/manifest.json",
+      "nested": [
+        {
+          "family": "pending-25",
+          "jsonPath": "$.results[0]",
+          "identity": "Glow Boost Cream 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "nested": [
+        {
+          "family": "pending-29",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "nested": [
+        {
+          "family": "pending-26",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2690-drg-two-official-photo-source-led-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[0]",
+          "identity": "DR.G Green Mild Up Sun Plus 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[1]",
+          "identity": "DR.G Brightening Up Sun Plus 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2691-DRG-correct-Korean-source-only/manifest.json",
+      "nested": [
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2696-missha-serum-official-gallery-proof/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2698-OBGE-GOODAL-two-source-photo-proof/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2705-three-recovered-photo-first-family-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-03",
+          "jsonPath": "$.families[0]",
+          "identity": "MISSHA M Perfect Cover BB Cream | gold pump old generation",
+          "risk": null
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.families[1]",
+          "identity": "OBgE Oil Control Finisher 5g",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.families[2]",
+          "identity": "GOODAL Green Tangerine Vita C Eye Cream 30ml",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2706-six-archival-five-real-source-families/manifest.json",
+      "nested": [
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[0]",
+          "identity": "CLIO Mesh Glow Essential Mini 5g",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.families[1]",
+          "identity": "OBgE Double Essence 50mL 2-formula",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[2]",
+          "identity": "Dr.G Green Mild Up Sun Plus 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[3]",
+          "identity": "Dr.G Brightening Up Sun Plus 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[4]",
+          "identity": "PIXEL PURE Gel to Foam Cleanser 145mL",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.families[5]",
+          "identity": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/manifest.json",
+      "nested": [
+        {
+          "family": "pending-16",
+          "jsonPath": "$.families[0]",
+          "identity": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.families[1]",
+          "identity": "OBgE Max Waterful Sun Cream 300mL",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.families[2]",
+          "identity": "BIOHEAL BOH NAD Glow Power Serum 30mL",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.families[3]",
+          "identity": "BIOHEAL BOH NAD Glow Boost Cream 50mL",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.families[4]",
+          "identity": "PIXEL PURE Soothing Ampoule Toner 200mL",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.families[5]",
+          "identity": "PIXEL PURE Glow Cleansing Serum Pads 70ea/210mL",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.families[6]",
+          "identity": "PIXEL PURE Aura Radiance Serum 50mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2708-16-family-pre-release-80-jpg-unique-scene-audit/manifest.json",
+      "nested": [
+        {
+          "family": "pending-03",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-09",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.families[2]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[3]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-11",
+          "jsonPath": "$.families[4]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-15",
+          "jsonPath": "$.families[5]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-18",
+          "jsonPath": "$.families[6]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[7]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-29",
+          "jsonPath": "$.families[8]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-16",
+          "jsonPath": "$.families[9]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-22",
+          "jsonPath": "$.families[10]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-24",
+          "jsonPath": "$.families[11]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-25",
+          "jsonPath": "$.families[12]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-27",
+          "jsonPath": "$.families[13]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-28",
+          "jsonPath": "$.families[14]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-30",
+          "jsonPath": "$.families[15]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2709-clio-mini-and-pixelpure-detail-corrections/manifest.json",
+      "nested": [
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[0]",
+          "identity": "CLIO Mesh Glow Essential Mini Cushion 5g",
+          "risk": null
+        },
+        {
+          "family": "pending-26",
+          "jsonPath": "$.families[1]",
+          "identity": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+          "risk": null
+        }
+      ]
+    }
+  ]
+}
