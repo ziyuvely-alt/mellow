@@ -1,0 +1,38 @@
+name: Shopee v2882 Clio authentic source photo story and 30 stock family resume
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2882-clio-five-photo-story-30-family-incremental-checkpoint.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  five_source_scenes_resume:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow
+        run: python -m pip install Pillow
+      - name: Compose five different true-source scenes, update 30-family resume delta, preserve existing 11 groups and 55 public URLs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2882_meshglow_five_story_photo_and_stock30_checkpoint.py
+          cp scripts/v2882_meshglow_five_story_photo_and_stock30_checkpoint.py /tmp/v2882.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2882qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2882qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint
+          python /tmp/v2882.py
+          git add qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint
+          git commit -m 'v2882 five true Clio photo QA frames and 30-family no-rework checkpoint without sale write'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
