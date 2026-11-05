@@ -23,7 +23,7 @@ m27=json.loads((D27/"manifest.json").read_text(encoding="utf-8"))
 m28=json.loads((D28/"manifest.json").read_text(encoding="utf-8"))
 s=json.loads((D28/"stock30-incremental-state-v2928.json").read_text(encoding="utf-8"))
 ledger=json.loads((LEDGER/"manifest.json").read_text(encoding="utf-8"))
-assert m28["version"]=="s["version"]=="v2928" and m27["version"]=="v2927"
+assert m28["version"]==s["version"]=="v2928" and m27["version"]=="v2927"
 assert m28["new_unique_native_originals_saved"]==1 and m27["new_native_official_photo_candidates_archived"]==2
 assert ledger["sha256_and_ZIP_CRC_verified_archives"]==26
 assert len(s["families"])==30
