@@ -1,0 +1,34 @@
+name: Shopee v2833 CLIO Mesh Glow Essential Mini real alpha 21C and 21N
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2833-two-clio-meshglow-mini-exact-shade-alpha.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  alpha:
+    runs-on: ubuntu-latest
+    timeout-minutes: 23
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install true image segmentation dependencies
+        run: python -m pip install Pillow 'rembg[cpu]==2.0.67'
+      - name: Compute truly transparent PNG and 1080 JPG from 21C 21N exact-labelled photos
+        env:
+          U2NET_HOME: /tmp/segmentation-models
+        run: |
+          cp scripts/v2833_clio_meshglow_two_variant_real_alpha_cutouts.py /tmp/v2833.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2833review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2833review
+          python /tmp/v2833.py
+          git add qa-review/v2833-clio-meshglow-essential-mini-21C-21N-real-alpha-photo-heroes
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2833 isolate two actual 21C and 21N mini cushion product photos with true alpha mask'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
