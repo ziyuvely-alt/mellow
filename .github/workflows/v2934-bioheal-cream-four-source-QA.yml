@@ -1,0 +1,40 @@
+name: Shopee v2934 BIOHEAL cream four source original-byte internal QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2934-bioheal-cream-four-source-QA.yml'
+      - 'scripts/v2934_bioheal_cream_four_existing_source_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve_four_bioheal_cream_real_scene_references:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Assert source integrity and preserve four existing images without past edits
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2934_bioheal_cream_four_existing_source_QA.py
+          cp scripts/v2934_bioheal_cream_four_existing_source_QA.py /tmp/v2934.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2934qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2934qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only
+          python /tmp/v2934.py
+          git add qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only
+          git diff --cached --name-only | tee /tmp/v2934-changed
+          ! grep -Ev '^qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only/' /tmp/v2934-changed
+          git commit -m 'v2934 preserve four BIOHEAL cream QA photo sources, fifth missing, no approved changes'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
