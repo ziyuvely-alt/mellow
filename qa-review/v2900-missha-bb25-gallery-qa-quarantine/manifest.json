@@ -1,0 +1,45 @@
+{
+  "version": "v2900",
+  "baseline": "v2899",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream legacy gold pump No25",
+  "stock_source_row": 10,
+  "clean_photo": "qa-review/v2897-missha-bb25-legacy-goldpump-new-independent-source-QA/MISSHA-old-goldpump-No25-clean-source-1080-INTERNAL-QA.jpg",
+  "visual_identity": "visible No.25 and gold pump; prior ghost no longer in candidate",
+  "clean_photo_status": "QA_ONLY_NOT_RETAIL",
+  "prior_scene_source": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/",
+  "slot_dispositions": [
+    {
+      "slot": 1,
+      "state": "EXCLUDE_FOR_NO25",
+      "why": "previous preserved 5-scene hero is No23"
+    },
+    {
+      "slot": 2,
+      "state": "QUARANTINE",
+      "why": "No25 packaging but unverified original MK decorative badge"
+    },
+    {
+      "slot": 3,
+      "state": "QUARANTINE",
+      "why": "model before-after, photo usage rights and unverified MK badge"
+    },
+    {
+      "slot": 4,
+      "state": "QUARANTINE",
+      "why": "model application, usage rights and unverified MK badge"
+    },
+    {
+      "slot": 5,
+      "state": "QUARANTINE",
+      "why": "chart No23 and No25 only; inventory also has No21, and unverified MK badge"
+    }
+  ],
+  "reprocessing_old_JPGs": 0,
+  "new_published_URLs": 0,
+  "retail_approved_new": 0,
+  "old_11_approved_families_preserved": true,
+  "old_55_published_URLs_preserved": true,
+  "next": "Use original legitimate MK graphic and rights-cleared product photos to construct honest separate No25 listing. Physical-owned package edition not confirmed.",
+  "final_workbook_shared": false
+}
