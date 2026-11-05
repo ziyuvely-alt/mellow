@@ -1,0 +1,41 @@
+{
+  "version": "v2883",
+  "baseline": "v2882",
+  "family": "pending-12",
+  "item": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+  "historical_inventory_unit": "15G",
+  "brand_owned_official_spec": "15mL",
+  "brand_Korean_listing": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+  "do_not_convert_mass_to_volume": true,
+  "new_evidence_JPG_1080_count": 2,
+  "new_evidence": [
+    {
+      "type": "native_15mL_photo_label_zoom",
+      "path": "qa-review/v2883-missha-peelshot25-15G-vs-15mL-source-label-hold-QA/01-MISSHA-peelshot-source-15mL-label-photo-1080-QA.jpg",
+      "sha256": "93c26ea9f780f423ef3121a68cf2059b6105523d07ed76df5a7fc94bf9db9498"
+    },
+    {
+      "type": "original_stock_conflict_HOLD",
+      "path": "qa-review/v2883-missha-peelshot25-15G-vs-15mL-source-label-hold-QA/02-MISSHA-peelshot-15G-vs-15mL-explicit-HOLD-1080-QA.jpg",
+      "sha256": "f9bcb0048dc87958a569e26535b3d7150571c3733799fa112351100364ca61e8"
+    }
+  ],
+  "old_5_QA_JPGs_unchanged": true,
+  "old_photo_SHA256": {
+    "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-12/01-actual-product-cutout-square-1080-QA.jpg": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1",
+    "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/01-existing-original-slot01-unchanged-QA.jpg": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+    "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/02-existing-original-slot02-unchanged-QA.jpg": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+    "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/03-existing-original-slot03-unchanged-QA.jpg": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+    "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/04-safe-original-info-QA.jpg": "ea3b551a1b2d417476fed87de50cd3718efae50a7b749d6a44f4e489f1c85b22",
+    "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/05-safe-original-info-QA.jpg": "c12fa2e1877184352cd52c84829ba92066a06daaa6188ec70f559005ad20d57e"
+  },
+  "actual_owned_stock_label_photo_received": false,
+  "exact_user_stock_edition_verified": false,
+  "existing_11_commercial_groups_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "new_sale_approvals": 0,
+  "new_public_URLs": 0,
+  "next": "Do not render sales/product copy based on 15mL vs 15G until owned bottle and box label evidence. Move to pending22 edge check and pending21 edition, no old recreation.",
+  "checkpoint": "qa-review/v2883-missha-peelshot25-15G-vs-15mL-source-label-hold-QA/stock30-incremental-state-v2883.json",
+  "final_spreadsheet_shared": false
+}
