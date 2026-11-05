@@ -1,0 +1,98 @@
+{
+  "version": "v2946",
+  "baseline": "v2945",
+  "date_utc": "2026-11-05T16:43:27Z",
+  "new_internal_ZIPs_integrity_checked": 4,
+  "new_QA_card_images_integrity_checked": 3,
+  "new_independent_photographs_created": 0,
+  "unresolved_distinct_source_photo_slots": 4,
+  "logo_expected_source_path": "references/mellowkr-brand/mellowkr-mk-original.png",
+  "logo_source_checked_refs": [
+    "main",
+    "qa-assets/v2662-immutable-14-candidates",
+    "production-assets-v2416d-visual-qa",
+    "production-assets-v2420-en-master",
+    "production-assets-v249"
+  ],
+  "logo_verified_source_at_expected_path": false,
+  "logo_policy": "NO_FABRICATION_OR_REPLACEMENT; NEVER_RENDER_UNVERIFIED_MK",
+  "current_retail_release_gate": "HOLD_MK_STOCK_EDITION_COMMERCIAL_PHOTO_RIGHTS",
+  "prior_completed_product_families_preserved": 11,
+  "prior_public_verified_URLs_preserved": 55,
+  "new_sale_approvals": 0,
+  "final_spreadsheet_shared": false,
+  "newly_verified_assets": [
+    {
+      "product": "pending-25",
+      "asset_type": "FOUR_SOURCE_PLUS_ONE_ENG_INFO_INTERNAL_ZIP",
+      "path": "qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs/pending-25/pending-25-FOUR-PHOTOS-PLUS-ONE-EN-INFO-INTERNAL.zip",
+      "sha256": "0e4cb97197c212bda743d683361e16ddaae29b3eed2a66722b068b853ffab933",
+      "frames_verified": 5,
+      "ZIP_CRC": "PASS",
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-27",
+      "asset_type": "FOUR_SOURCE_PLUS_ONE_ENG_INFO_INTERNAL_ZIP",
+      "path": "qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs/pending-27/pending-27-FOUR-PHOTOS-PLUS-ONE-EN-INFO-INTERNAL.zip",
+      "sha256": "bb37fa6ae0b83148f0a35ba962a2220c7bf5a1318c3ca564343917f58b7eac61",
+      "frames_verified": 5,
+      "ZIP_CRC": "PASS",
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-29",
+      "asset_type": "FOUR_SOURCE_PLUS_ONE_ENG_INFO_INTERNAL_ZIP",
+      "path": "qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs/pending-29/pending-29-FOUR-PHOTOS-PLUS-ONE-EN-INFO-INTERNAL.zip",
+      "sha256": "6656d0300fb05a229233fa284e7a7d99ee74891e43380e2c9191a4af3dcae07c",
+      "frames_verified": 5,
+      "ZIP_CRC": "PASS",
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-30",
+      "asset_type": "FOUR_SOURCE_PLUS_ONE_ENG_INFO_INTERNAL_ZIP",
+      "path": "qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs/pending-30/pending-30-FOUR-PHOTOS-PLUS-ONE-EN-INFO-INTERNAL.zip",
+      "sha256": "32f144496482a9b566a9de49d9c866d79372373227bf5afe9a26942f5690d9af",
+      "frames_verified": 5,
+      "ZIP_CRC": "PASS",
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-12",
+      "edition": "SINGLE_15mL",
+      "asset_type": "UNIT_CORRECTED_OR_PACK_EDITION_INTERNAL_QA_IMAGE",
+      "path": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-12-MISSHA-PDRN-Peel-Shot25-official-15mL-info-INTERNAL.jpg",
+      "sha256": "5c46673fcf98ad17fd42a5890d4d5e1cd62dfc9fac216e740fe0b8886c1a6fe4",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-06",
+      "edition": "25FW",
+      "asset_type": "UNIT_CORRECTED_OR_PACK_EDITION_INTERNAL_QA_IMAGE",
+      "path": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-06-CLIO-25FW-distinct-pack-edition-INTERNAL.jpg",
+      "sha256": "f1414f7e3281028d9cc2cd053d84776d125e35e0d4c5fb77140255671801fc2a",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "photo_rights_verified": false
+    },
+    {
+      "product": "pending-06",
+      "edition": "REGULAR",
+      "asset_type": "UNIT_CORRECTED_OR_PACK_EDITION_INTERNAL_QA_IMAGE",
+      "path": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-06-CLIO-REGULAR-distinct-pack-edition-INTERNAL.jpg",
+      "sha256": "6c960e5a68dc6ad929c598e82f3720d7d8a44c18585fc7bd6deec9a908e272da",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "photo_rights_verified": false
+    }
+  ]
+}
