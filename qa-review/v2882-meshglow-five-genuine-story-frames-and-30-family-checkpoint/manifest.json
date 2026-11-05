@@ -1,0 +1,102 @@
+{
+  "version": "v2882",
+  "baseline": "v2881",
+  "family": "pending-06",
+  "source_only_photos": [
+    {
+      "frame": 1,
+      "scene": "ORIGINAL MESH GLOW COMPACT PHOTO",
+      "source_key": "compact",
+      "source": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+      "source_sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+      "original_source_crop": null,
+      "new_JPG": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-01-source-story-QA.jpg",
+      "sha256": "7fc4b23bd73c04a6035316297c40525e1f7bc17acdf546a9ba03a93e3369918b",
+      "size_bytes": 145828,
+      "distinct_real_source_scene": true,
+      "claim_user_owns_exact_pack": false,
+      "retail_approved": false
+    },
+    {
+      "frame": 2,
+      "scene": "OFFICIAL CLIO SHADE LINEUP",
+      "source_key": "official",
+      "source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/brand-Clio-official-LIPS-five-shades-source-original.webp",
+      "source_sha256": "0569b2908928ab5c9ebcbb001274dcfdb7b51eb8c06ab622bb8ac4f71c84c52f",
+      "original_source_crop": [
+        0,
+        0,
+        1080,
+        655
+      ],
+      "new_JPG": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-02-source-story-QA.jpg",
+      "sha256": "b5968c30e361dcb16d1b5324fee6a186b9871d02318663d101e8f224c345daac",
+      "size_bytes": 176146,
+      "distinct_real_source_scene": true,
+      "claim_user_owns_exact_pack": false,
+      "retail_approved": false
+    },
+    {
+      "frame": 3,
+      "scene": "REAL FIVE-SHADE FACE SWATCHES",
+      "source_key": "cheek",
+      "source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/konvy-five-cheek-actual-shades-source-original.jpg",
+      "source_sha256": "b03e89ed0f3bf6b81a3fe760d4fdab9abe8a9b3637426aa34c9181b8e8e4a85d",
+      "original_source_crop": null,
+      "new_JPG": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-03-source-story-QA.jpg",
+      "sha256": "a28207fd8431925edabe42c3a8777dfcf833fb69d667888bfbcd740eacd7a35c",
+      "size_bytes": 227570,
+      "distinct_real_source_scene": true,
+      "claim_user_owns_exact_pack": false,
+      "retail_approved": false
+    },
+    {
+      "frame": 4,
+      "scene": "REAL FIVE-SHADE FOREARM SWATCHES",
+      "source_key": "forearm",
+      "source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/ballagrio-five-real-swatch-arm-source-original.webp",
+      "source_sha256": "9dded175bd08b87f526198823b66181d50cb320f49ab8788785487fbc11efbef",
+      "original_source_crop": null,
+      "new_JPG": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-04-source-story-QA.jpg",
+      "sha256": "9927a5eecf6f8b43776c14a11e0d192527f493ac47bc6356bbeaa06a5b6fc03d",
+      "size_bytes": 135588,
+      "distinct_real_source_scene": true,
+      "claim_user_owns_exact_pack": false,
+      "retail_approved": false
+    },
+    {
+      "frame": 5,
+      "scene": "OFFICIAL APPLICATION FINISH PHOTO",
+      "source_key": "official",
+      "source": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/brand-Clio-official-LIPS-five-shades-source-original.webp",
+      "source_sha256": "0569b2908928ab5c9ebcbb001274dcfdb7b51eb8c06ab622bb8ac4f71c84c52f",
+      "original_source_crop": [
+        46,
+        650,
+        1038,
+        1315
+      ],
+      "new_JPG": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-05-source-story-QA.jpg",
+      "sha256": "744282b1d2f401dcdfea52b87de8691fb363a0299cbcf4f188dcc56bef3d7cf4",
+      "size_bytes": 172506,
+      "distinct_real_source_scene": true,
+      "claim_user_owns_exact_pack": false,
+      "retail_approved": false
+    }
+  ],
+  "new_five_frame_1080_JPGs": 5,
+  "photo_reuse_rights_confirmed": false,
+  "owned_set_config_confirmed": false,
+  "new_approved_sale_files": 0,
+  "new_published_URLs": 0,
+  "existing_11_families_unchanged": true,
+  "existing_55_URLs_unchanged": true,
+  "original_source_bytes_modified": 0,
+  "no_fake_swatches": true,
+  "source_unique_photo_files": 4,
+  "distinct_visual_scenes": 5,
+  "contact": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/v2882-clio-five-authentic-scenes-contact-QA.jpg",
+  "contact_SHA256": "cacc7767668bc63f01f6a10b066f77c415626467b9d831c936a2b1037cd23628",
+  "full_30_family_checkpoint": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/stock30-incremental-state-v2882.json",
+  "next": "Review these 5 scenes for actual 15g+refill pack; no commercial publication without permissions, physical unit, original MK. Continue pending12/22/21 status blockers without resynthesizing valid artwork."
+}
