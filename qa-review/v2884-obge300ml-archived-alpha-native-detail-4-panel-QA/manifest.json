@@ -1,0 +1,49 @@
+{
+  "version": "v2884",
+  "baseline": "v2883",
+  "family": "pending-22",
+  "product": "OBgE Max Waterful Sun Cream 300mL",
+  "source_version": "v2857",
+  "source_native_px": [
+    600,
+    600
+  ],
+  "archived_source_RGB_preserved": true,
+  "exact_mask_RGB_equals_archived_photo_pixels": true,
+  "transparent_alpha_feature_probes": {
+    "pump_top_region_visible": 10482,
+    "bottle_shoulder_region_visible": 24244,
+    "base_region_visible": 29460,
+    "opaque_body_center_alpha": 255,
+    "transparent_border_top_left": 0,
+    "native_source_px_min": 600,
+    "total_foreground_px": 168487,
+    "fractional_edge_alpha_px": 8971
+  },
+  "original_source_SHA256": "d315b5113eefc750ef6096e3d9f43c691af48d5aa1ead8e5aa33e9e89820a9e2",
+  "original_png_SHA256": "ce79a373ea7a2a4dd7fe1c4b4b1a17acb9c353bede3abd5e326f044efac352ea",
+  "original_hero_SHA256": "fd8f045c2aebd77e8d5d49a072bb410733d16b1467131ed4d3a1e36ac98aa912",
+  "new_diagnostic_JPGs": 2,
+  "new_diagnostic": [
+    {
+      "path": "qa-review/v2884-obge300ml-archived-alpha-native-detail-4-panel-QA/v2884-obge300-source-light-dark-checker-edge-QA.jpg",
+      "sha256": "994603e5eff4689367de1ac0f69f3f5b604e48a9996a08914f99bcb993dae3dc"
+    },
+    {
+      "path": "qa-review/v2884-obge300ml-archived-alpha-native-detail-4-panel-QA/v2884-obge300-full-checker-1080-true-alpha-QA.jpg",
+      "sha256": "cff4f51596584e0cfcb9bdac4e6adc52110714bbeabe45dfbcd99161f76f4a8d"
+    }
+  ],
+  "photo_quality_release_status": "TECHNICAL_ALPHA_REFERENCE_ONLY_NATIVE_600px_SALES_HOLD",
+  "fullres_halo_human_review_still_required": true,
+  "commercial_image_rights_verified": false,
+  "owned_exact_stock_verified": false,
+  "no_prior_image_rewrites": true,
+  "public_55_URLs_untouched": true,
+  "commercial_11_group_unchanged": true,
+  "new_sale_approvals": 0,
+  "new_public_URLs": 0,
+  "checkpoint": "qa-review/v2884-obge300ml-archived-alpha-native-detail-4-panel-QA/stock30-incremental-state-v2884.json",
+  "final_spreadsheet_shared": false,
+  "next": "Do not loop failed GrabCut/morphology. Use owned or licensed higher resolution exact 300mL photo if available. Move to Goodal 25AD eye and Dr.G vintage edition QA."
+}
