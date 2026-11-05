@@ -1,0 +1,321 @@
+{
+  "version": "v2914",
+  "baseline": "v2913",
+  "generated_at_utc": "2026-11-05T14:20:46Z",
+  "pixelpure_groups": 4,
+  "official_photos_visually_screened": 12,
+  "new_distinct_scene_candidates_added": 5,
+  "held_or_rejected_sources": 7,
+  "four_family_combined_photo_shortfall": 7,
+  "previous_11_published_families_preserved": true,
+  "previous_55_public_urls_preserved": true,
+  "new_photo_sale_approvals": 0,
+  "new_published_urls": 0,
+  "old_file_modifications": 0,
+  "new_QA_five_slot_images": 4,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "product": "PIXEL PURE Soothing Ampoule Toner 200mL",
+      "prior_v2912_candidate_photos": 2,
+      "new_v2913_originals_visually_reviewed": 4,
+      "v2913_distinct_scene_photo_candidates_added": 1,
+      "v2913_hold_or_reject_count": 3,
+      "combined_independent_scene_candidates_max": 3,
+      "target_5_image_photo_shortfall": 2,
+      "source_visual_review": [
+        {
+          "source_index": 1,
+          "decision": "EXCLUDE_CLAIM_OVERLAY",
+          "reason": "manufacturer promotional vegan & test stamp text: not cleared",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/01-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/573f0ea6528ad58736bd2ca39ebf977f.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "8d06b7036ee65960de1f4d2327f2faadba324b1e01f20174a63603eb6005633f",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 2,
+          "decision": "RESERVE_POSSIBLE_DUPLICATE",
+          "reason": "clear toner pouring close-up resembles existing selected original; no incremental count",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/02-firstparty-native-original.png",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20261021/51d67ee0410b2f2e786415529d5762b0.png",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "2b8d38a60d0b5eeed961da0df96bf8c4092e140735f3f60c7dd1b4e0a4fef590",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 3,
+          "decision": "INCLUDE_DISTINCT_SCENE",
+          "reason": "two 200 mL pink toner bottles on pale studio background; distinct no promo overlay",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/50743b5c924735ef43f9981d5eb1a7f3.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 4,
+          "decision": "EXCLUDE_SIMILAR_SCENE",
+          "reason": "liquid pour closeup near-identical to source #2; does not add new scene",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/04-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/7b8cba86fdded942476a1d067deef53a.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/04-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "f4e21e91ccbbc27dc4a887c756cda9762045182f63247508b9a3b9bdc53e048c",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        }
+      ],
+      "combined_clean_source_candidates": [
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2913",
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-27/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "role": "two 200 mL pink toner bottles on pale studio background; distinct no promo overlay"
+        }
+      ],
+      "five_slot_internal_contact": "qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/pending-27-combined-five-scene-internal-QA.jpg",
+      "sale_approved": false,
+      "release_status": "SOURCE_CANDIDATES_PRELIMINARY_RIGHTS_AND_OWNED_STOCK_HOLD"
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 70ct / 210mL",
+      "prior_v2912_candidate_photos": 3,
+      "new_v2913_originals_visually_reviewed": 4,
+      "v2913_distinct_scene_photo_candidates_added": 2,
+      "v2913_hold_or_reject_count": 2,
+      "combined_independent_scene_candidates_max": 5,
+      "target_5_image_photo_shortfall": 0,
+      "source_visual_review": [
+        {
+          "source_index": 1,
+          "decision": "EXCLUDE_GIFT_PROMOTION",
+          "reason": "serum pad tub displayed with mask product and mini ad card; product bundle not supported",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/01-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/cd300dad59dad9b249baf6ac3ae9769c.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "dd28c7357223e5770e3fac5049fc5ec5c0b5dab1b8d6a7e8e2fadf5377220e99",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 2,
+          "decision": "INCLUDE_DISTINCT_SCENE",
+          "reason": "single saturated cotton cleansing pad under falling serum; texture demo, no claims",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20250731/96b765ab1193b262b85a9dc02d8e3e45.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "984ff08e8c544f9439f6540300f9f53224f9264c6f02fac35bd55bfa166df65e",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 3,
+          "decision": "INCLUDE_DISTINCT_SCENE",
+          "reason": "serum pads layered over closed jar with green leaf and clear liquid; different product composition",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fa5cc4a7096bac6f3363ca231904e337.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "49297799e7af1bacfe4a34727295a0a11d079e71301042e6d97934291bf1ffeb",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 4,
+          "decision": "RESERVE_SIMILAR_HERO",
+          "reason": "closed tub alone on pink plinth; similar to previously selected closed-tub hero, no additional slot",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/04-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/fe20631aba57f30f9bde781df44544e6.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/04-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "0814f18009d0ec4a96e407ffa5bf13303a83705d96a980f79d5614a0d66cb217",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        }
+      ],
+      "combined_clean_source_candidates": [
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2667-original-photo-picks/original-photo-picks/pending-28-source-slot02-QA-ONLY.jpg",
+          "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-28/02-actual-product-source-photo-QA.jpg",
+          "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2913",
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "984ff08e8c544f9439f6540300f9f53224f9264c6f02fac35bd55bfa166df65e",
+          "role": "single saturated cotton cleansing pad under falling serum; texture demo, no claims"
+        },
+        {
+          "origin": "v2913",
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "49297799e7af1bacfe4a34727295a0a11d079e71301042e6d97934291bf1ffeb",
+          "role": "serum pads layered over closed jar with green leaf and clear liquid; different product composition"
+        }
+      ],
+      "five_slot_internal_contact": "qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/pending-28-combined-five-scene-internal-QA.jpg",
+      "sale_approved": false,
+      "release_status": "SOURCE_CANDIDATES_PRELIMINARY_RIGHTS_AND_OWNED_STOCK_HOLD"
+    },
+    {
+      "family": "pending-29",
+      "product": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+      "prior_v2912_candidate_photos": 1,
+      "new_v2913_originals_visually_reviewed": 3,
+      "v2913_distinct_scene_photo_candidates_added": 1,
+      "v2913_hold_or_reject_count": 2,
+      "combined_independent_scene_candidates_max": 2,
+      "target_5_image_photo_shortfall": 3,
+      "source_visual_review": [
+        {
+          "source_index": 1,
+          "decision": "INCLUDE_DISTINCT_SCENE",
+          "reason": "50 mL jar open with visible white cream and second jar blurred at rear",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20260907/791392bae7f687b80fac564a1ac3267f.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 2,
+          "decision": "RESERVE_SIMILAR_HERO",
+          "reason": "closed 50 mL jar on white scene, similar to old full-jar clean hero",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/02-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20261021/1b91715d685d4b6378b229a4ab40c9e9.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "66554ca15ad36c0e67a65ac194d724b29edba88d0402295787b5a4d5fd441e53",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        },
+        {
+          "source_index": 3,
+          "decision": "EXCLUDE_CLAIM_OVERLAY",
+          "reason": "brand vegan + dermatology/skin test claim badges on photo without sales claim clearance",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/03-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/big/20261101/b0f0d8cc3167ad8953b6cd50d4a6bcb7.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "2208c8f7ff7bd3d8049f9ff64ee202fa1862f2d18da8d712e460290ef9a675b5",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        }
+      ],
+      "combined_clean_source_candidates": [
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2913",
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-29/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "role": "50 mL jar open with visible white cream and second jar blurred at rear"
+        }
+      ],
+      "five_slot_internal_contact": "qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/pending-29-combined-five-scene-internal-QA.jpg",
+      "sale_approved": false,
+      "release_status": "SOURCE_CANDIDATES_PRELIMINARY_RIGHTS_AND_OWNED_STOCK_HOLD"
+    },
+    {
+      "family": "pending-30",
+      "product": "PIXEL PURE Aura Radiance Serum 50mL",
+      "prior_v2912_candidate_photos": 2,
+      "new_v2913_originals_visually_reviewed": 1,
+      "v2913_distinct_scene_photo_candidates_added": 1,
+      "v2913_hold_or_reject_count": 0,
+      "combined_independent_scene_candidates_max": 3,
+      "target_5_image_photo_shortfall": 2,
+      "source_visual_review": [
+        {
+          "source_index": 1,
+          "decision": "INCLUDE_DISTINCT_SCENE",
+          "reason": "three pink 50 mL serum bottles on pink background with white fluid thread, no promise overlay",
+          "original_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-native-original.jpg",
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20260213/b1538dd05d1d8b3a354a3690e007b309.jpg",
+          "reference_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "reference_sha256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "marketing_claims_cleared": false,
+          "product_stock_edition_verified": false,
+          "commercial_redistribution_permitted": false,
+          "retail_approved": false
+        }
+      ],
+      "combined_clean_source_candidates": [
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2912",
+          "source_path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "role": "PREVIOUS_SCREENED_SOURCE"
+        },
+        {
+          "origin": "v2913",
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-30/01-firstparty-1080-REFERENCE-ONLY.jpg",
+          "sha256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "role": "three pink 50 mL serum bottles on pink background with white fluid thread, no promise overlay"
+        }
+      ],
+      "five_slot_internal_contact": "qa-review/v2914-pixelpure-twelve-photo-visual-relevance-claims-and-duplicate-QA/pending-30-combined-five-scene-internal-QA.jpg",
+      "sale_approved": false,
+      "release_status": "SOURCE_CANDIDATES_PRELIMINARY_RIGHTS_AND_OWNED_STOCK_HOLD"
+    }
+  ]
+}
