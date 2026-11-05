@@ -1,0 +1,107 @@
+{
+  "version": "v2862",
+  "baseline": "v2861",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original / gift-set identity unconfirmed",
+  "attempted_shades": [
+    "19C",
+    "19N",
+    "23N"
+  ],
+  "intentionally_skipped_near_duplicate_shades": [
+    "21C",
+    "21N"
+  ],
+  "pending06_status": "HOLD_NEAR_DUPLICATE_SOURCE_PHOTOS_10_OF_10_PAIRS",
+  "source_variant_photo_count": 5,
+  "candidate_alpha_count": 3,
+  "held_alpha_count": 0,
+  "new_sale_approvals": 0,
+  "source_images_modified": 0,
+  "new_public_URLs": 0,
+  "previous_11_published_families_unchanged": true,
+  "previous_55_verified_public_URLs_unchanged": true,
+  "merchant_photo_rights_verified": false,
+  "owned_exact_gift_set_packaging_verified": false,
+  "original_MK_logo_verified": false,
+  "spreadsheet_shared": false,
+  "results": [
+    {
+      "shade": "19C",
+      "source": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/19C-W-exact-product-1080-QA.jpg",
+      "source_sha": "bb4a41dc67a27636fe513f0cddd28cbc194ad29dfdff7f7118fd4f02a0cb132a",
+      "merchant_variant_id": 51852664602988,
+      "role": "SHADE_PHOTO_QA_NOT_GIFT_SET",
+      "technical_status": "CUTOUT_CANDIDATE_HOLD_CLOSEUP_AND_PRODUCT_IDENTITY",
+      "physical_stock_edition_verified": false,
+      "merchant_photo_reuse_permission_verified": false,
+      "retail_approved": false,
+      "mask_bbox": [
+        64,
+        100,
+        888,
+        846
+      ],
+      "mask_area_px": 370066,
+      "PNG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19C-truealpha-QA.png",
+      "PNG_SHA256": "3197c4352a40664d2bedf5551d77af1b7e17cc3c4d618a081a84e943863c052f",
+      "JPG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19C-1080-hero-QA.jpg",
+      "JPG_SHA256": "f5650695290c12ccc47e30a73a1060a9baf11ab6a352854fc529be1eebdd87b1",
+      "JPG_BYTES": 131237,
+      "checker": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19C-edge-check-QA.jpg",
+      "source_original_rgb_unaltered": true
+    },
+    {
+      "shade": "19N",
+      "source": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/19N-W-exact-product-1080-QA.jpg",
+      "source_sha": "4678b520a6db563e75ec8306e1dc9fe8767310c06e8f8994e43439c39c8299a5",
+      "merchant_variant_id": 51852664635756,
+      "role": "SHADE_PHOTO_QA_NOT_GIFT_SET",
+      "technical_status": "CUTOUT_CANDIDATE_HOLD_CLOSEUP_AND_PRODUCT_IDENTITY",
+      "physical_stock_edition_verified": false,
+      "merchant_photo_reuse_permission_verified": false,
+      "retail_approved": false,
+      "mask_bbox": [
+        51,
+        80,
+        893,
+        859
+      ],
+      "mask_area_px": 355947,
+      "PNG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19N-truealpha-QA.png",
+      "PNG_SHA256": "6b81d0f30951e8faa041cda9ce1927c409239fa3ad9e53b061da01c082861616",
+      "JPG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19N-1080-hero-QA.jpg",
+      "JPG_SHA256": "f7332c239e9a67aa91b61df88dbc4074de28abf46a949a346291d369d1693dd9",
+      "JPG_BYTES": 133741,
+      "checker": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19N-edge-check-QA.jpg",
+      "source_original_rgb_unaltered": true
+    },
+    {
+      "shade": "23N",
+      "source": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/23N-Moona-exact-product-1080-QA.jpg",
+      "source_sha": "7b9f74b02bb9ec7e3440c7dc7b9e1002b00ac081b4e10c788b15ec5fe087c24f",
+      "merchant_variant_id": 50451896992026,
+      "role": "SHADE_PHOTO_QA_NOT_GIFT_SET",
+      "technical_status": "CUTOUT_CANDIDATE_HOLD_CLOSEUP_AND_PRODUCT_IDENTITY",
+      "physical_stock_edition_verified": false,
+      "merchant_photo_reuse_permission_verified": false,
+      "retail_approved": false,
+      "mask_bbox": [
+        52,
+        159,
+        877,
+        754
+      ],
+      "mask_area_px": 295859,
+      "PNG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-23N-truealpha-QA.png",
+      "PNG_SHA256": "a8243c9f98209e8a97f4dc25d79303abcb382068d67b4725e9a85f7f1b939aed",
+      "JPG": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-23N-1080-hero-QA.jpg",
+      "JPG_SHA256": "c50b319636d627aed50fab1a732b700416df35a40862ecd7760b17cc5b099320",
+      "JPG_BYTES": 134543,
+      "checker": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-23N-edge-check-QA.jpg",
+      "source_original_rgb_unaltered": true
+    }
+  ],
+  "contact": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/v2862-three-founwear-photo-cutouts-comparison-QA.jpg",
+  "next": "Inspect premium silver compact/puff edges at 1:1; if reliable, reuse for shade-only internal QA, not gift-set proof. Source-new 21C/21N and all pending-06 shade photos before release; do not repeat near-identical images."
+}
