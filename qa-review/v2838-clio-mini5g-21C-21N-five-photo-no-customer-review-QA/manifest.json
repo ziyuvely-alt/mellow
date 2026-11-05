@@ -1,0 +1,170 @@
+{
+  "version": "v2838",
+  "baseline": "v2837",
+  "family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "21C_21N_rebuilt_internal_QA_photo_sets": 2,
+  "actual_photo_JPGs_saved": 10,
+  "customer_review_photos_in_new_QA_sets": 0,
+  "licensed_for_Shopee_commercial_use": false,
+  "owned_physical_stock_variants_verified": false,
+  "unverified_original_MK_logo_not_added": true,
+  "old_v2832_customer_review_reference_sets_preserved": true,
+  "old_v2837_corrected_21N_cutout_preserved": true,
+  "previous_11_approved_product_groups_unchanged": true,
+  "previous_55_public_image_URLs_unchanged": true,
+  "new_retail_approved": 0,
+  "final_spreadsheet_shared": false,
+  "variants": [
+    {
+      "shade": "21C",
+      "label": "Lingerie",
+      "actual_photo_JPGs_saved": 5,
+      "distinct_sha_count": 5,
+      "customer_review_photo_frames": 0,
+      "missing_or_invalid_frames": 0,
+      "status": "FIVE_REAL_SOURCE_PHOTO_QA_ONLY_NO_CUSTOMER_REVIEW",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21C/01-EXACT_21C_MERCHANT_SHADE_LABELLED-QA-REFERENCE.jpg",
+          "file": "21C/01-PRESERVED_EXACT_21C_MERCHANT_SHADE_LABELLED-QA.jpg",
+          "sha256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+          "source_sha256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+          "role": "EXACT_21C_MERCHANT_SHADE_LABELLED",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "EXACT"
+        },
+        {
+          "slot": 2,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21C/02-COMMON_UNASSIGNED_SHADE_PACKSHOT-QA-REFERENCE.jpg",
+          "file": "21C/02-PRESERVED_COMMON_UNASSIGNED_SHADE_PACKSHOT-QA.jpg",
+          "sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+          "source_sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+          "role": "COMMON_UNASSIGNED_SHADE_PACKSHOT",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "COMMON_UNASSIGNED"
+        },
+        {
+          "slot": 3,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21C/03-COMMON_UNASSIGNED_SHADE_OPEN_COMPACT-QA-REFERENCE.jpg",
+          "file": "21C/03-PRESERVED_COMMON_UNASSIGNED_SHADE_OPEN_COMPACT-QA.jpg",
+          "sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+          "source_sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+          "role": "COMMON_UNASSIGNED_SHADE_OPEN_COMPACT",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "COMMON_UNASSIGNED"
+        },
+        {
+          "slot": 4,
+          "merchant": "W Cosmetics Australia",
+          "variant_title": "21C Lingerie",
+          "url": "https://cdn.shopify.com/s/files/1/2779/3344/files/21C_9189fe9c-3b9c-44e0-a38e-f7575f892f29.jpg?v=1776669892",
+          "status": "EXACT_SHADE_MERCHANT_IMAGE_SAVED_QA",
+          "source_photo_native_dimensions": [
+            800,
+            800
+          ],
+          "file": "21C/04-MERCHANT_W_EXACT_21C_QA.jpg",
+          "sha256": "a7ecc1b1e662329a7e8c0a71cc321375edc33dac5635b065a554f36ae7a97e45",
+          "source_bytes_preserved": false,
+          "commercial_photo_rights_verified": false
+        },
+        {
+          "slot": 5,
+          "merchant": "La Cosmetique Australia",
+          "variant_title": "21C Lingerie",
+          "url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-glow-essential-cushion-mini-3-shades-8787096.png?v=1779943511",
+          "status": "EXACT_SHADE_MERCHANT_IMAGE_SAVED_QA",
+          "source_photo_native_dimensions": [
+            1200,
+            1200
+          ],
+          "file": "21C/05-MERCHANT_LACOSMETIQUE_EXACT_21C_QA.jpg",
+          "sha256": "336dbee1695b34b2586d67fddad4346f6a7caae1523a032725ea8b6867f49deb",
+          "source_bytes_preserved": false,
+          "commercial_photo_rights_verified": false
+        }
+      ],
+      "photo_redistribution_rights_verified": false
+    },
+    {
+      "shade": "21N",
+      "label": "Linen",
+      "actual_photo_JPGs_saved": 5,
+      "distinct_sha_count": 5,
+      "customer_review_photo_frames": 0,
+      "missing_or_invalid_frames": 0,
+      "status": "FIVE_REAL_SOURCE_PHOTO_QA_ONLY_NO_CUSTOMER_REVIEW",
+      "frames": [
+        {
+          "slot": 1,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21N/01-EXACT_21N_MERCHANT_SHADE_LABELLED-QA-REFERENCE.jpg",
+          "file": "21N/01-PRESERVED_EXACT_21N_MERCHANT_SHADE_LABELLED-QA.jpg",
+          "sha256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+          "source_sha256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+          "role": "EXACT_21N_MERCHANT_SHADE_LABELLED",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "EXACT"
+        },
+        {
+          "slot": 2,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21N/02-COMMON_UNASSIGNED_SHADE_PACKSHOT-QA-REFERENCE.jpg",
+          "file": "21N/02-PRESERVED_COMMON_UNASSIGNED_SHADE_PACKSHOT-QA.jpg",
+          "sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+          "source_sha256": "b1875ebb0c35a279c9e37c0928ee5882f52cc77a87c6cde60d627543f871d101",
+          "role": "COMMON_UNASSIGNED_SHADE_PACKSHOT",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "COMMON_UNASSIGNED"
+        },
+        {
+          "slot": 3,
+          "source": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/21N/03-COMMON_UNASSIGNED_SHADE_OPEN_COMPACT-QA-REFERENCE.jpg",
+          "file": "21N/03-PRESERVED_COMMON_UNASSIGNED_SHADE_OPEN_COMPACT-QA.jpg",
+          "sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+          "source_sha256": "dd7c17b4516a719e04ef11dadd42016ca9cf892b0f2245400ae9e7cd12bd41ec",
+          "role": "COMMON_UNASSIGNED_SHADE_OPEN_COMPACT",
+          "commercial_photo_rights_verified": false,
+          "original_image_bytes_unchanged": true,
+          "source_shade_assignment": "COMMON_UNASSIGNED"
+        },
+        {
+          "slot": 4,
+          "merchant": "W Cosmetics Australia",
+          "variant_title": "21N Linen",
+          "url": "https://cdn.shopify.com/s/files/1/2779/3344/files/21_f943f2a7-8f43-4b5d-ab42-9c431f7593f5.jpg?v=1776669892",
+          "status": "EXACT_SHADE_MERCHANT_IMAGE_SAVED_QA",
+          "source_photo_native_dimensions": [
+            800,
+            800
+          ],
+          "file": "21N/04-MERCHANT_W_EXACT_21N_QA.jpg",
+          "sha256": "4fae11064764ee47448b58824fe485666c9c2aa0ca5a37a4d7fa99781df7d8d4",
+          "source_bytes_preserved": true,
+          "commercial_photo_rights_verified": false
+        },
+        {
+          "slot": 5,
+          "merchant": "La Cosmetique Australia",
+          "variant_title": "21N Linen",
+          "url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-glow-essential-cushion-mini-3-shades-2012787.png?v=1779943511",
+          "status": "EXACT_SHADE_MERCHANT_IMAGE_SAVED_QA",
+          "source_photo_native_dimensions": [
+            1200,
+            1200
+          ],
+          "file": "21N/05-MERCHANT_LACOSMETIQUE_EXACT_21N_QA.jpg",
+          "sha256": "9544206f2e713fb37cfd56f469087f864c36e0bb22b3be163e72f8294797d820",
+          "source_bytes_preserved": true,
+          "commercial_photo_rights_verified": false
+        }
+      ],
+      "photo_redistribution_rights_verified": false
+    }
+  ]
+}
