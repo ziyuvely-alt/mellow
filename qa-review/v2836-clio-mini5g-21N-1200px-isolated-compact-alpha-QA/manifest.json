@@ -1,0 +1,57 @@
+{
+  "version": "v2836",
+  "baseline": "v2835",
+  "product_family": "pending-04",
+  "shade": "21N Linen",
+  "high_native_source_verified_by_variant_link": true,
+  "new_actual_alpha_cutouts_created": 1,
+  "existing_21C_art_and_QA_sets_mutated": false,
+  "existing_21N_v2833_art_mutated": false,
+  "source_v2834_v2835_art_mutated": false,
+  "old_11_sale_approved_families_unchanged": true,
+  "old_55_published_photo_urls_unchanged": true,
+  "photo_commercial_reuse_rights_verified": false,
+  "owned_stock_generation_and_exact_shade_verified": false,
+  "MK_original_logo_authenticated": false,
+  "sales_approved_new": 0,
+  "final_XLSX_shared": false,
+  "candidate": {
+    "version": "v2836",
+    "baseline": "v2835",
+    "family": "pending-04",
+    "product": "CLIO Mesh Glow Essential Cushion MINI 5g",
+    "shade": "21N Linen",
+    "source_merchant": "La Cosmetique Australia",
+    "original_native_dimensions": [
+      1200,
+      1200
+    ],
+    "input_JPG": "qa-review/v2834-clio-meshglow-mini-21N-high-native-resolution-source-probe/02-21N-high-native-source-QA.jpg",
+    "source_sha256": "9544206f2e713fb37cfd56f469087f864c36e0bb22b3be163e72f8294797d820",
+    "previous_480px_native_cutout_JPG": "qa-review/v2833-clio-meshglow-essential-mini-21C-21N-real-alpha-photo-heroes/21N/01-21N-mini5g-real-product-source-1080-QA.jpg",
+    "prior_480px_based_qa_remains_unchanged": true,
+    "status": "TRUE_ALPHA_AND_1080_JPG_CREATED_VISUAL_QA_PENDING",
+    "photo_rights_verified": false,
+    "physical_stock_21N_confirmed": false,
+    "MK_original_logo_verified": false,
+    "retail_approved": false,
+    "extracted_photo_crop": [
+      135,
+      80,
+      755,
+      810
+    ],
+    "mask_bbox": [
+      167,
+      272,
+      530,
+      662
+    ],
+    "mask_coverage": 0.21616,
+    "transparent_PNG": "01-21N-mini5g-single-product-real-alpha-QA.png",
+    "new_1080_JPG": "01-21N-mini5g-1200native-source-1080hero-QA.jpg",
+    "new_1080_JPG_sha256": "2f55862cb886344d000f3331ea3940aabbcf5456a45d365be49b1381ff71ebf3",
+    "new_1080_JPG_bytes": 103533,
+    "source_photo_sha_unchanged_after": true
+  }
+}
