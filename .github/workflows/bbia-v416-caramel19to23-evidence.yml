@@ -1,0 +1,165 @@
+name: BBIA v416 caramel 19-23 exact media evidence audit
+on:
+  push:
+    branches: [bbia-ch2-qa-v416-20261106]
+    paths: [.github/workflows/bbia-v416-caramel19to23-evidence.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests==2.32.5 beautifulsoup4==4.14.2 pillow==11.3.0
+      - name: Check 5 option specific launch-source images, without inventing swatches
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor
+          from urllib.parse import urljoin,urlsplit
+          from bs4 import BeautifulSoup
+          from PIL import Image,ImageDraw
+          import requests,json,re,html,hashlib,io
+          D=Path('/tmp/bbia-v416')
+          D.mkdir(exist_ok=True)
+          item='A000000225046'
+          url='https://www.oliveyoung.co.kr/store/goods/getGoodsDetail.do?goodsNo='+item
+          shades={
+            '19':('바닐라 카라멜','VANILLA CARAMEL','NUDE BEIGE'),
+            '20':('크림 카라멜','CREAM CARAMEL','NUDE PINK'),
+            '21':('플럼 카라멜','PLUM CARAMEL','MAUVE'),
+            '22':('베리 카라멜','BERRY CARAMEL','SOFT RED'),
+            '23':('토피 카라멜','TOFFEE CARAMEL','CREAMY BROWN')}
+          s=requests.Session()
+          s.headers.update({'User-Agent':'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 Chrome/125.0 Safari/537.36','Accept-Language':'ko-KR,ko;q=0.9'})
+          data={'version':'v416','parent':'v415','product_id':'1000000166','source_product':'A000000225046','source_url':url,
+                'launch_claim':'2026-11-01 prelaunch retailer; expanded channels planned 2026-11-16',
+                'shades':{},'prior_25_26_24_17_crops_unchanged':True,'prior_v415_5_images_unchanged':True,
+                'published_55_urls_unchanged':True,'retail_media_license_verified':False,
+                'sales_approved_count':0,'full_product_xlsx_shared':False}
+          try:
+              response=s.get(url,timeout=35)
+              response.raise_for_status()
+              body=response.text
+              data['html_status']=response.status_code
+              data['html_length']=len(body)
+              data['html_sha256']=hashlib.sha256(response.content).hexdigest()
+              soup=BeautifulSoup(body,'html.parser')
+          except Exception as e:
+              data['page_error']=type(e).__name__+': '+str(e)[:250]
+              body=''
+              soup=BeautifulSoup('','html.parser')
+          def urls_from(node):
+              values=[]
+              for tag in [node]+list(node.find_all(['img','source']))[:80]:
+                  if not hasattr(tag,'attrs'):continue
+                  for key in ['src','data-src','data-original','data-img','data-img-url','data-image','data-zoom-image','srcset','alt','title']:
+                      val=tag.get(key)
+                      if not val:continue
+                      if key in ['alt','title']:continue
+                      if isinstance(val,list):val=' '.join(val)
+                      for token in re.split(r'\s*,\s*',str(val)):
+                          t=token.strip().split(' ')[0]
+                          if t.startswith('//'):t='https:'+t
+                          elif t.startswith('/'):t=urljoin(url,t)
+                          if t.startswith('https://') and re.search(r'\.(jpg|png|jpeg|webp)(\?|$)',urlsplit(t).path,re.I):
+                              if t not in values:values.append(t)
+              return values
+          grouped=[]
+          for code,(ko,en,description) in shades.items():
+              phrase=code+' '+ko
+              record={'number':code,'name_ko':ko,'name_en':en,'color_descriptor':description,
+                      'brand_news_description_verified':True,'exact_swatches_downloaded':0,
+                      'candidate_sources':[], 'status':'HOLD_EXACT_IMAGE_NOT_CONFIRMED'}
+              if body:
+                  matched=[]
+                  for tag in soup.find_all(['li','div','span','option','label','a','img']):
+                      attr=' '.join(str(v) for v in getattr(tag,'attrs',{}).values())
+                      local=tag.get_text(' ',strip=True)
+                      if len(local)>600:continue
+                      txt=local+' '+attr
+                      if ko in txt or (code in txt and '카라멜' in txt):
+                          matched.append(tag)
+                  record['matched_dom_nodes']=len(matched)
+                  for tag in matched[:70]:
+                      candidates=[]
+                      if tag.name=='img':
+                          candidates=urls_from(tag)
+                      else:
+                          candidates=urls_from(tag)
+                          # inspect only up to 2 direct ancestors, avoiding unrelated page photos
+                          parent=tag.parent
+                          for _ in range(2):
+                              if parent is None:break
+                              if len(parent.get_text(' ',strip=True)) < 700:
+                                  candidates+=urls_from(parent)
+                              parent=parent.parent
+                      for image_url in candidates:
+                          if image_url not in record['candidate_sources']:
+                              record['candidate_sources'].append(image_url)
+                  record['candidate_sources']=record['candidate_sources'][:8]
+                  record['has_specific_option_text']=bool(matched)
+                  if matched:
+                      record['status']='OPTION_NAME_IN_RETAILER_PAGE_EXACT_PHOTO_QA_PENDING'
+              grouped.append(record)
+              data['shades'][code]=record
+          # Download only candidate photos whose associated text actually mentions this shade.
+          joblist=[]
+          for r in grouped:
+              for j,u in enumerate(r['candidate_sources'][:2]):
+                  joblist.append((r['number'],j,u))
+          def get(job):
+              code,i,u=job
+              row={'shade':code,'source_url':u,'number':i}
+              try:
+                  rr=s.get(u,timeout=25,headers={'Referer':url})
+                  rr.raise_for_status()
+                  raw=rr.content
+                  with Image.open(io.BytesIO(raw)) as im:im.verify()
+                  with Image.open(io.BytesIO(raw)) as im:im.load();fmt=im.format;dim=list(im.size)
+                  if fmt not in ('JPEG','PNG','WEBP') or min(dim)<300 or len(raw)<12000:raise ValueError('image too small or invalid')
+                  sha=hashlib.sha256(raw).hexdigest()
+                  ext={'JPEG':'jpg','PNG':'png','WEBP':'webp'}[fmt]
+                  fn='BBIA_OVER_GLAZE_CARAMEL_'+code+'_CANDIDATE_'+str(i).zfill(2)+'_'+sha[:8]+'.'+ext
+                  (D/fn).write_bytes(raw)
+                  row.update(status='SAVED_UNAPPROVED',filename=fn,dimensions=dim,format=fmt,sha256=sha)
+              except Exception as e:
+                  row.update(status='HOLD_DOWNLOAD',error=type(e).__name__+': '+str(e)[:150])
+              return row
+          with ThreadPoolExecutor(max_workers=5) as pool:downloads=list(pool.map(get,joblist))
+          data['downloads']=downloads
+          for r in grouped:
+              r['exact_swatches_downloaded']=sum(z['shade']==r['number'] and z['status']=='SAVED_UNAPPROVED' for z in downloads)
+              if r['exact_swatches_downloaded']:
+                  r['status']='SOURCE_CANDIDATE_SAVED_VISUAL_SHADE_IDENTIFICATION_PENDING'
+          board=Image.new('RGB',(1500,5*265+75),'#f7f3f1')
+          d=ImageDraw.Draw(board)
+          d.text((25,18),'BBIA Over Glaze Caramel 19-23 | candidate-only photos | verify shade before use',fill='#292223')
+          for row,r in enumerate(grouped):
+              y=65+row*265
+              d.text((20,y),r['number']+' '+r['name_en']+' / '+r['status'][:60],fill='#292223')
+              picks=[z for z in downloads if z['shade']==r['number'] and z['status']=='SAVED_UNAPPROVED']
+              for col,z in enumerate(picks[:2]):
+                  img=Image.open(D/z['filename']).convert('RGB')
+                  if img.height>3*img.width:img=img.crop((0,0,img.width,int(img.width*2)))
+                  img.thumbnail((710,213))
+                  x=col*750+20
+                  board.paste(img,(x+(700-img.width)//2,y+25))
+          board.save(D/'BBIA_v416_CARAMEL_CANDIDATE_SOURCE_REVIEW.jpg',quality=90,optimize=True)
+          data['sources_downloaded']=sum(z['status']=='SAVED_UNAPPROVED' for z in downloads)
+          data['source_only_no_shade_sales_QA']=True
+          (D/'BBIA_v416_CARAMEL_19_TO_23_SOURCE_CHECKPOINT.json').write_text(json.dumps(data,ensure_ascii=False,indent=2),encoding='utf8')
+          text=['BBIA v416 CARAMEL OPTIONS / PHOTO EVIDENCE ONLY']
+          for r in grouped:
+              text.append(r['number']+' '+r['name_en']+' | '+r['status']+' | candidate photos '+str(r['exact_swatches_downloaded']))
+          text.append('Do not publish. No v415 images, 55 URLs or master option files modified.')
+          (D/'BBIA_v416_NEXT_RUN_HOLDS.txt').write_text('\n'.join(text)+'\n',encoding='utf8')
+          print('\n'.join(text))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v416-caramel19to23-native-image-candidate-audit
+          path: /tmp/bbia-v416
+          retention-days: 30
