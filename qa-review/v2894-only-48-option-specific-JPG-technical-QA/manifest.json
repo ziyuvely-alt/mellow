@@ -1,0 +1,2959 @@
+{
+  "version": "v2894",
+  "baseline": "v2893",
+  "work": "only 48 already existing option-linked JPGs technical QA, no pixel edits",
+  "prior_common_photo_115_perceptual_QA_not_repeated": true,
+  "chosen_candidate_count": 48,
+  "technical_1080_jpeg_pass": 48,
+  "technical_holds": 0,
+  "same_family_near_dhash_pairs": 207,
+  "old_11_retail_families_preserved": true,
+  "old_55_public_urls_preserved": true,
+  "original_JPGs_changed": false,
+  "new_generated_images": 0,
+  "new_retail_approved": 0,
+  "licensed_commercial_photo_reuse": false,
+  "actual_owned_stock_edition_verified": false,
+  "original_MK_logo_authenticated": false,
+  "specification": "native image pixel size checks on existing staged JPGs; hash closeness is not shade identity proof",
+  "holds": [],
+  "near_pairs": [
+    {
+      "family": "pending-01",
+      "source_indexes": [
+        3,
+        4
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-02",
+      "source_indexes": [
+        5,
+        6
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-04",
+      "source_indexes": [
+        16,
+        17
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        21,
+        22
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        21,
+        23
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        21,
+        24
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        21,
+        25
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        22,
+        23
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        22,
+        24
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        22,
+        25
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        23,
+        24
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        23,
+        25
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-05",
+      "source_indexes": [
+        24,
+        25
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        26,
+        27
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        26,
+        28
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        26,
+        29
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        26,
+        30
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        27,
+        28
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        27,
+        29
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        27,
+        30
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        28,
+        29
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        28,
+        30
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-06",
+      "source_indexes": [
+        29,
+        30
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-07",
+      "source_indexes": [
+        31,
+        32
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-07",
+      "source_indexes": [
+        31,
+        33
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-07",
+      "source_indexes": [
+        32,
+        33
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        35
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        36
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        37
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        39
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        41
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        42
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        43
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        44
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        45
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        47
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        49
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        50
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        52
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        34,
+        53
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        37
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        38
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        39
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        40
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        41
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        42
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        43
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        44
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        45
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        46
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        47
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        49
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        50
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        51
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        52
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        35,
+        53
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        37
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        38
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        39
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        40
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        41
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        42
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        43
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        44
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        45
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        46
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        47
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        48
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        51
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        36,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        38
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        39
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        41
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        42
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        43
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        44
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        45
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        47
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        49
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        52
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        37,
+        53
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        39
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        40
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        41
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        42
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        43
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        44
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        45
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        46
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        47
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        48
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        49
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        50
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        51
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        52
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        38,
+        53
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        40
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        41
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        42
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        43
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        44
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        45
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        46
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        47
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        48
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        50
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        51
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        52
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        39,
+        53
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        41
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        42
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        43
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        44
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        45
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        46
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        47
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        48
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        51
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        40,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        42
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        43
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        44
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        45
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        47
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        48
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        49
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        50
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        51
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        52
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        41,
+        53
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        43
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        44
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        45
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        46
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        47
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        48
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        50
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        51
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        52
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        42,
+        53
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        44
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        45
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        46
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        47
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        48
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        51
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        43,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        45
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        46
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        47
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        48
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        51
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        44,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        46
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        47
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        48
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        49
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        50
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        51
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        52
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        45,
+        53
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        47
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        48
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        49
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        50
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        51
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        52
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        46,
+        53
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        48
+      ],
+      "dhash_distance": 5,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        49
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        50
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        51
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        52
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        47,
+        53
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        48,
+        49
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        48,
+        50
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        48,
+        51
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        48,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        48,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        49,
+        50
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        49,
+        51
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        49,
+        52
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        49,
+        53
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        50,
+        51
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        50,
+        52
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        50,
+        53
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        51,
+        52
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        51,
+        53
+      ],
+      "dhash_distance": 4,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-08",
+      "source_indexes": [
+        52,
+        53
+      ],
+      "dhash_distance": 0,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-10",
+      "source_indexes": [
+        75,
+        76
+      ],
+      "dhash_distance": 1,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-10",
+      "source_indexes": [
+        75,
+        77
+      ],
+      "dhash_distance": 3,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    },
+    {
+      "family": "pending-10",
+      "source_indexes": [
+        76,
+        77
+      ],
+      "dhash_distance": 2,
+      "exact_sha_identical": false,
+      "status": "CHECK_SHADE_SPECIFICITY_ONLY_DO_NOT_AUTOMATICALLY_REJECT_OR_RELEASE"
+    }
+  ],
+  "results": [
+    {
+      "family": "pending-01",
+      "inventory_source_index": 1,
+      "option": "21호",
+      "existing_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No21-1080-photo-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 86874,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "ec5ebcb7ecc3272a5bec626df6ffb7d42d9cbd05dc335d96006fcb5897f056ee",
+      "dhash_hex": "86b279d8d4e87192",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-01",
+      "inventory_source_index": 2,
+      "option": "23호",
+      "existing_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No23-1080-photo-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 86552,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "68ffcfae35de119be7e20b09d5ed94893c53e7f779290881147248da52983841",
+      "dhash_hex": "86b261c4c4e071b2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-01",
+      "inventory_source_index": 3,
+      "option": "25호",
+      "existing_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No25-1080-photo-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 127403,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "8eea170dedaf0d18841162e8e567aaccdee75ec20534c3af4c0efb0cf2764171",
+      "dhash_hex": "868671e6f8389986",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-01",
+      "inventory_source_index": 4,
+      "option": "27호",
+      "existing_JPG": "qa-review/v2859-missha-coverlasting-four-shade-photo-cards-QA/MISSHA-Cover-Lasting-No27-1080-photo-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 130203,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "91768f1e5b8d5d4403a60bbc6f304069635adf04a5791fcf9fb05163ad342210",
+      "dhash_hex": "868671e6f8589986",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-02",
+      "inventory_source_index": 5,
+      "option": "21호",
+      "existing_JPG": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/MISSHA-MoistUp-No21-real-shade-source-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 132841,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "fc9a0a4851fdcd1cbbabff2244517f3b400eb00f07178c1e17f2bd233fc70d48",
+      "dhash_hex": "86865aceca9933b1",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-02",
+      "inventory_source_index": 6,
+      "option": "23호",
+      "existing_JPG": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/MISSHA-MoistUp-No23-real-shade-source-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 134242,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "91aa678ada324fb6ae2d0c39ab1df0fd27425e3ec3280ff180960bf4d9217f60",
+      "dhash_hex": "86865aceca9933b1",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-03",
+      "inventory_source_index": 8,
+      "option": "21호 화사한베이지",
+      "existing_JPG": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No21-full-gold-pump-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 115484,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "9cedb4f1f26bba2391f65efc15ab4792b739985b7ce28228ad94d786b758e208",
+      "dhash_hex": "70b2b2b2b2b23030",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-03",
+      "inventory_source_index": 9,
+      "option": "23호 자연스러운베이지",
+      "existing_JPG": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/01-real-product-cutout-prior-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 115656,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+      "dhash_hex": "84b032b2b2b230b0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-03",
+      "inventory_source_index": 10,
+      "option": "25호 웜베이지",
+      "existing_JPG": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No25-full-gold-pump-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 106019,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "9813f8e0de663ab6caac985a4f521ac3f5aad14e9d60747bd9b55939b3c4e0b0",
+      "dhash_hex": "7070b272f2f2b270",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-04",
+      "inventory_source_index": 15,
+      "option": "21N 리넨",
+      "existing_JPG": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21N/05-MERCHANT_LACOSMETIQUE_EXACT_21N_QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 47714,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "9544206f2e713fb37cfd56f469087f864c36e0bb22b3be163e72f8294797d820",
+      "dhash_hex": "1000707060640420",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-04",
+      "inventory_source_index": 16,
+      "option": "21C 란제리",
+      "existing_JPG": "qa-review/v2876-clio-mini5g-three-independent-shade-photo-source-QA/CLIO-MINI-21C-LINGERIE-1080-source-evidence-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 113674,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "6b3d1a56b2cfab442ffa77e5908f990f2ac5154cfd87b62375c203acafefe83a",
+      "dhash_hex": "a0d0e8e8f0c1c1b2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-04",
+      "inventory_source_index": 17,
+      "option": "23N 진저",
+      "existing_JPG": "qa-review/v2876-clio-mini5g-three-independent-shade-photo-source-QA/CLIO-MINI-23N-GINGER-1080-source-evidence-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 116402,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "43ff998e6f24d1d256bdbec9121726d31ffd581bf7ce1575b87906c333d8d0b4",
+      "dhash_hex": "a0d0e8e8e0c1c1b2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-05",
+      "inventory_source_index": 21,
+      "option": "19N 포슬린",
+      "existing_JPG": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/19N-W-exact-product-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 109577,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "4678b520a6db563e75ec8306e1dc9fe8767310c06e8f8994e43439c39c8299a5",
+      "dhash_hex": "06fc849ce0f2f048",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-05",
+      "inventory_source_index": 22,
+      "option": "19C 라이트",
+      "existing_JPG": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/19C-W-exact-product-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 108491,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "bb4a41dc67a27636fe513f0cddd28cbc194ad29dfdff7f7118fd4f02a0cb132a",
+      "dhash_hex": "06e4949ce0f2f048",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-05",
+      "inventory_source_index": 23,
+      "option": "21N 리넨",
+      "existing_JPG": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/21N-Moona-exact-product-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 123012,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "7e85033db395b5d1b41629a08e8f3c22c950c84c4b4922980e554fd13700444a",
+      "dhash_hex": "04f8849ce0f2f048",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-05",
+      "inventory_source_index": 24,
+      "option": "21C 란제리",
+      "existing_JPG": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/21C-Moona-exact-product-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 120291,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "157e71ee720df6530c9edc69c132145c37f8c020a0a2bb8f8635ae08a6256691",
+      "dhash_hex": "02fc949ce0f2f048",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-05",
+      "inventory_source_index": 25,
+      "option": "23N 진저",
+      "existing_JPG": "qa-review/v2852-founwear-original-five-variant-alternative-merchant-QA/23N-Moona-exact-product-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 125814,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "7b9f74b02bb9ec7e3440c7dc7b9e1002b00ac081b4e10c788b15ec5fe087c24f",
+      "dhash_hex": "00f0849ce0f2f048",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-06",
+      "inventory_source_index": 26,
+      "option": "19N 포슬린",
+      "existing_JPG": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-19N-real-swatch-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 127749,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "bd0ef4a834d0113f42a89486a0bb2f53b4c32c76fb960cd0e44acd03c470d456",
+      "dhash_hex": "a0b8cccccd9c9c98",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-06",
+      "inventory_source_index": 27,
+      "option": "19C 라이트",
+      "existing_JPG": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-19C-real-swatch-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 126522,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "42cd4123ce2ac01342de8039b9e0c99a2238d15b21f136e667bdf1b7d0ffb06e",
+      "dhash_hex": "a0b0cccccd9c9c98",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-06",
+      "inventory_source_index": 28,
+      "option": "21N 리넨",
+      "existing_JPG": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-21N-real-swatch-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 128698,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "1261404b0602bc8b3497039e1c77c4037cfb69197bb0537126dafd45c5372fdb",
+      "dhash_hex": "a0b0cccccd9c9c98",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-06",
+      "inventory_source_index": 29,
+      "option": "21C 란제리",
+      "existing_JPG": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-21C-real-swatch-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 128587,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "7eed7b241916a9707518fad99483bf13d0f2bfe6b1d95b834e4b3e887cad395d",
+      "dhash_hex": "a0b0cccccd9c9c98",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-06",
+      "inventory_source_index": 30,
+      "option": "23N 진저",
+      "existing_JPG": "qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA/CLIO-MeshGlow-15gRefill-23N-real-swatch-1080-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 130222,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "e482eaa84ab5d9f84e1b6fbd83d713e22f4168fccfe91d699ea1386e4c933b53",
+      "dhash_hex": "a0b0cccccd9c9c98",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-07",
+      "inventory_source_index": 31,
+      "option": "19C 라이트",
+      "existing_JPG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-19C-1080-clear-hero-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 104700,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "cbd265cb2f24c2eff1755f3086c56dacd8b4514a69c50823c91e729f20127e3f",
+      "dhash_hex": "40d89cd0e0f0f808",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-07",
+      "inventory_source_index": 32,
+      "option": "19N 포슬린",
+      "existing_JPG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-19N-1080-clear-hero-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 99278,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "3397a67cecb8f63ec5e454bff1ddfb43e57a411bcb3cbe660dbe0644b1ab80cd",
+      "dhash_hex": "60d89cd0e0f0f808",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-07",
+      "inventory_source_index": 33,
+      "option": "21N 리넨",
+      "existing_JPG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-21N-1080-clear-hero-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 100511,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "eb2a8f62bc117b003549c0b8ba42040135e9483e957c17f0f72810aea4854d52",
+      "dhash_hex": "60d9bcd0e0f8f808",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 34,
+      "option": "001 딸기기니",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No01-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 149401,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "4f4ffd7a755e07946c0c1110f5adea65c489d208bbb8a9fbf03b1e58f90bdee0",
+      "dhash_hex": "84a648ccdeda91c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 35,
+      "option": "002 쩡신차렷",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No02-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 151522,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "c3542e0c63317c05f82340d27aa740ba0962de3ac1b2ca5adc04a27d16e7c3e5",
+      "dhash_hex": "84a648ccded8b1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 36,
+      "option": "003 말랑물복",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No03-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 145981,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "2dfa4847049ff62f428bdfc04072435047c7794cb0a9fcf44e042e64974e8798",
+      "dhash_hex": "84a24cccd8da90c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 37,
+      "option": "004 저쩔복숭아",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No04-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 150879,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "e1c2917c2147b03e3bf6e1b48700b755813ef34f397a12d3a2c702d24295cb6b",
+      "dhash_hex": "84a24cccdede91c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 38,
+      "option": "005 갓기요정",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No05-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 145823,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "e7f3e837dc2107774b4d560348bdcf179412be465c5f98d2e2fab2a947dcb24e",
+      "dhash_hex": "84a24cccdcd8b0c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 39,
+      "option": "006 갓기천사",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No06-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 149701,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "9879c42f086e6a4125ca45a57f2ef1bee1e0b585d7ebbb16db245627496730ed",
+      "dhash_hex": "84a24cccdedab1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 40,
+      "option": "007 자두뿜뿜",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No07-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 149204,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "9be74e76e4139f9fc46e63f71756100a46b477bf538f5b8e9bc8a60573617eec",
+      "dhash_hex": "84a24cccdcd8b0c0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 41,
+      "option": "008 핑토당토",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No08-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 150638,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "32d230e49354e896fc82355006df58cde4d0991e5e34c376cc6f4205a6b1a65f",
+      "dhash_hex": "84a24cccdeda91c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 42,
+      "option": "009 맘찍로즈",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No09-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 151140,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "42bbbf1842a4fad53515372d96d7effa31f65118e5dc9f86c4dcfbc997c624af",
+      "dhash_hex": "84a24cccdedab1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 43,
+      "option": "010 내입술인척",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No10-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 146190,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "cdb30e75026a6a013d2c868723336751ce59ed0a02c588883849ed87f1d83132",
+      "dhash_hex": "84a24cccdcd890c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 44,
+      "option": "011 비주얼센터",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No11-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 146161,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "d8fb7d37812cfdcb797637fd00c92633e005349712e2180cf37943edebdd0324",
+      "dhash_hex": "84a24cccdcd890c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 45,
+      "option": "012 개강여신",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No12-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 148182,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "6083317b2dedb4b884dbe7aca1d3938546da58e4640f2a57c9e6a074a9106186",
+      "dhash_hex": "84a24cccdedab0c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 46,
+      "option": "013 분위기 여신",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No13-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 147510,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "98d69dfa679ad9c87ac0ace478d78fdb247ba60227f4803c0f14d83c69bf4631",
+      "dhash_hex": "84a64cccdcd8b0c0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 47,
+      "option": "014 로지워시",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No14-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 150301,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "8e150a5e3f7e3b7f6beb49b32124fe8bf7f600308ee738c382a9f557055d2a21",
+      "dhash_hex": "84a24cccded8b1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 48,
+      "option": "015 맘콕로즈",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No15-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 148699,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "e67efeb751ab4bca93724e65d38d1b78dc3c38c92f0090f7528e1235cef934dc",
+      "dhash_hex": "80a24cccdcdab0c0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 49,
+      "option": "016 로즈콕",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No16-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 148311,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "29ef5c895f57176d9d12ab7871b0f63774e0b617f510e5d7d4c9a4a1f598c47a",
+      "dhash_hex": "84a24cccdcdab0c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 50,
+      "option": "017 이로지무화과?",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No17-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 149643,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "753b69e9bafcb9c2116559d431dfd5ec6bae42b958c54900c5eeaf33d1874384",
+      "dhash_hex": "84a24cccdedab0c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 51,
+      "option": "018 손웜수템",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No18-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 150560,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "a6a8c51af70d0beaec2043dd00847a3f4b7f21580ae8be3e9401489bf31ed5fb",
+      "dhash_hex": "84a24cccdcd8b0c0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 52,
+      "option": "019 어쩔체리",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No19-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 152142,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "182a7eccbff31b0a10809a3df9a958e8952b52b6d8b9192603e5d9388799cba0",
+      "dhash_hex": "84a24cccdedab1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-08",
+      "inventory_source_index": 53,
+      "option": "020 당맛도리",
+      "existing_JPG": "qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA/peripera-26AD-No20-true-lipswatch-plus-4g-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 152614,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "3caa5c6b1789feb382786324c6a9ec7f8de57f7ec9222a80b0cfebe3b072ac46",
+      "dhash_hex": "84a24cccdedab1c2",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-10",
+      "inventory_source_index": 75,
+      "option": "1호 아이보리",
+      "existing_JPG": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No1-IVORY-1080-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 162457,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "4fac1931fc5cde7f8241f5bd818413a9b5b9665c7692895200ddcfd64c589be9",
+      "dhash_hex": "e09ea4c4cc3831a0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-10",
+      "inventory_source_index": 76,
+      "option": "2호 베이지",
+      "existing_JPG": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No2-BEIGE-1080-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 163871,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "339ba2463d06b20720feaf0e2855ede337a074c36ceb8a3c3819ba566697e2f2",
+      "dhash_hex": "e09ea4c4cc3871a0",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    },
+    {
+      "family": "pending-10",
+      "inventory_source_index": 77,
+      "option": "3호 샌드",
+      "existing_JPG": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No3-SAND-1080-option-QA.jpg",
+      "source_asset_modified": false,
+      "retail_approved": false,
+      "bytes": 163102,
+      "format": "JPEG",
+      "native_size": [
+        1080,
+        1080
+      ],
+      "mode": "RGB",
+      "sha256": "8008549caee0489514f6816ffcef2e16097541ead394bbc2851200a6690f7e1f",
+      "dhash_hex": "e09ea4c4cc387380",
+      "technical_status": "PASS_JPEG_1080_UNDER_2MB"
+    }
+  ],
+  "final_spreadsheet_shared": false
+}
