@@ -1,0 +1,69 @@
+{
+  "version": "v2906",
+  "baseline": "v2905",
+  "reference_only": true,
+  "run_timestamp_utc": "2026-11-05T12:08:02Z",
+  "new_verified_sales_approvals": 0,
+  "new_public_URLs": 0,
+  "new_marketing_images": 0,
+  "old_approved_11_families_untouched": true,
+  "old_55_URLs_untouched": true,
+  "prior_QA_files_untouched": true,
+  "families": [
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream, silver cap edition unverified",
+      "official_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream",
+      "source_candidates_saved": 1,
+      "items": [
+        {
+          "source_url": "https://clubclio.shop/cdn/shop/files/1_30e9f92e-4405-4f2f-894f-b5d078b75cc5.jpg?v=1772779151",
+          "brand_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream",
+          "raw_path": "qa-review/v2906-two-goodal-obge-official-source-photo-recovery-QA/pending-21/01-firstparty-candidate-original.jpg",
+          "raw_sha256": "4478249300b170bd6a43dae81a1eccbd66658f165ca021ce6031b34e2abd8482",
+          "native_pixels": [
+            1200,
+            1200
+          ],
+          "original_format": "JPEG",
+          "jpeg_reference": "qa-review/v2906-two-goodal-obge-official-source-photo-recovery-QA/pending-21/01-firstparty-candidate-1080-reference-QA.jpg",
+          "jpeg_sha256": "122895865fed04d99cdfa2146bec8cc1aacb0c0c227af9040b9e308f3cb2d760",
+          "dhash": "0011000001110000011100000101000011010010101100000011000000110000",
+          "claimed_distinct_original_photo_scene": false,
+          "product_edition_visual_QA": false,
+          "existing_2026_photo_derivative_check_required": true,
+          "commercial_redistribution_rights_verified": false,
+          "sale_ready": false
+        }
+      ],
+      "errors": [
+        "JSON discovery unavailable: 404 Client Error: Not Found for url: https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream.js"
+      ],
+      "next_action": "Inspect full 1080 references against exact owned package and prior photos; permission before any retail or public upload"
+    },
+    {
+      "family": "pending-19",
+      "product": "GOODAL Green Tangerine Vita C Care Cream Advanced version, owned 25AD unverified",
+      "official_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-cream-advanced-ver",
+      "source_candidates_saved": 0,
+      "items": [],
+      "errors": [],
+      "next_action": "Inspect full 1080 references against exact owned package and prior photos; permission before any retail or public upload"
+    },
+    {
+      "family": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300mL, owned bottle size unverified",
+      "official_page": "https://m.obge.co.kr/product/detail.html?product_no=1251",
+      "source_candidates_saved": 0,
+      "items": [],
+      "errors": [
+        "Native below 900: https://m.obge.co.kr/web/product/small/202603/95c2bcbeb8bf7bfa5b3d3b055e3a87d9.png [750, 750]"
+      ],
+      "next_action": "Inspect full 1080 references against exact owned package and prior photos; permission before any retail or public upload"
+    }
+  ],
+  "new_source_photo_originals_downloaded": 1,
+  "new_1080_reference_JPGs": 1,
+  "raw_source_JPGs_are_sale_ready": false,
+  "final_excel_shared": false
+}
