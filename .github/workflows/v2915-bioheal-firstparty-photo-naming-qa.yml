@@ -1,0 +1,40 @@
+name: Shopee v2915 BIOHEAL official HK two product photos and naming QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2915-bioheal-firstparty-photo-naming-qa.yml'
+      - 'scripts/v2915_bioheal_hk_2_family_official_source_name_check.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive_firstparty_bioheal_source_photos_with_name_hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Recover original 2-product manufacturer photos in a NEW QA-only path
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2915_bioheal_hk_2_family_official_source_name_check.py
+          cp scripts/v2915_bioheal_hk_2_family_official_source_name_check.py /tmp/v2915.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2915work qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2915work
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA
+          python /tmp/v2915.py
+          git add qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA
+          git diff --cached --name-only | tee /tmp/v2915-changes
+          ! grep -Ev '^qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/' /tmp/v2915-changes
+          git commit -m 'v2915 brand-owned HK BIOHEAL two-family image references and Power-vs-Boost naming QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
