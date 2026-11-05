@@ -1,0 +1,61 @@
+{
+  "family": "pending-06",
+  "source_gallery": "v2851-clio-giftset-five-option-variant-photo-QA",
+  "pair_count": 10,
+  "most_similar_pairs": [
+    {
+      "shade_pair": [
+        "19C",
+        "19N"
+      ],
+      "whole_image_MAD_RGB": 0.449,
+      "all_channels_within_5_ratio": 0.96472,
+      "all_channels_within_12_ratio": 0.99557,
+      "potential_relabel_collision": true
+    },
+    {
+      "shade_pair": [
+        "21C",
+        "21N"
+      ],
+      "whole_image_MAD_RGB": 0.5181,
+      "all_channels_within_5_ratio": 0.93088,
+      "all_channels_within_12_ratio": 0.99799,
+      "potential_relabel_collision": true
+    },
+    {
+      "shade_pair": [
+        "19C",
+        "21C"
+      ],
+      "whole_image_MAD_RGB": 0.9956,
+      "all_channels_within_5_ratio": 0.91879,
+      "all_channels_within_12_ratio": 0.97826,
+      "potential_relabel_collision": true
+    },
+    {
+      "shade_pair": [
+        "19N",
+        "21C"
+      ],
+      "whole_image_MAD_RGB": 1.0256,
+      "all_channels_within_5_ratio": 0.91133,
+      "all_channels_within_12_ratio": 0.97601,
+      "potential_relabel_collision": true
+    },
+    {
+      "shade_pair": [
+        "19C",
+        "21N"
+      ],
+      "whole_image_MAD_RGB": 1.1577,
+      "all_channels_within_5_ratio": 0.89772,
+      "all_channels_within_12_ratio": 0.9425,
+      "potential_relabel_collision": true
+    }
+  ],
+  "possible_collisions": 10,
+  "method_note": "Same product photo may be reused across shades; similarity cannot prove variant identity or counterfeit swatch.",
+  "contact": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-06-five-original-variant-photo-collision-check-QA.jpg",
+  "contact_sha256": "500970194d7cd6780424688bb343819cde5b5a3eca8b44ecf0b4d53a2419e74b"
+}

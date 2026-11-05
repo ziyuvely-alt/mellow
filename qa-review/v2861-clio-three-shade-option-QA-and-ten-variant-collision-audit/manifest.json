@@ -1,0 +1,185 @@
+{
+  "version": "v2861",
+  "baseline": "v2860",
+  "work_summary": "3 previously recovered native-alpha option cards + source-only 10 shade photo collision audit",
+  "new_individual_option_JPGs": 3,
+  "new_comparison_contacts": 3,
+  "target_families": [
+    "pending-07",
+    "pending-05",
+    "pending-06"
+  ],
+  "new_cards": [
+    {
+      "shade": "19C",
+      "source_PNG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-19C-original-RGB-truealpha-QA.png",
+      "source_SHA256": "68d29d107a6c5a59f5ef5a48af30e83b2add17d15e99ee527635bd841f5b23bc",
+      "new_JPG": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19C-reference-card-1080-QA.jpg",
+      "new_SHA256": "33fcba1520233be71c29872ed5479d0abe7934f1d713c392354ecd67236971f8",
+      "JPG_bytes": 104923,
+      "SHADE_PRESENT_IN_USER_INVENTORY": true,
+      "SET_IMAGE_IDENTITY_APPROVED": false,
+      "COMMERCIAL_IMAGE_APPROVED": false
+    },
+    {
+      "shade": "19N",
+      "source_PNG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-19N-original-RGB-truealpha-QA.png",
+      "source_SHA256": "410aaa1470d424b490b6c1d021c99492062491bf86466623e08484f1ebcb7d0b",
+      "new_JPG": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19N-reference-card-1080-QA.jpg",
+      "new_SHA256": "338bf4442758d91b5f3c5f5ca3b06bb8d642bdb4006396ce64bd506a35b0de40",
+      "JPG_bytes": 103126,
+      "SHADE_PRESENT_IN_USER_INVENTORY": true,
+      "SET_IMAGE_IDENTITY_APPROVED": false,
+      "COMMERCIAL_IMAGE_APPROVED": false
+    },
+    {
+      "shade": "21N",
+      "source_PNG": "qa-review/v2860-clio-meshblur-three-truealpha-source-variants-QA/CLIO-MeshBlur-21N-original-RGB-truealpha-QA.png",
+      "source_SHA256": "fcd29809f41ccf6bf1c7e10c593a21713ee571a97d81ccb4a74d4b4c8f54d831",
+      "new_JPG": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-21N-reference-card-1080-QA.jpg",
+      "new_SHA256": "09ef3166666d45835bea0e59859fe6a6a74d8da504e80a8845734da926cb32ee",
+      "JPG_bytes": 103165,
+      "SHADE_PRESENT_IN_USER_INVENTORY": true,
+      "SET_IMAGE_IDENTITY_APPROVED": false,
+      "COMMERCIAL_IMAGE_APPROVED": false
+    }
+  ],
+  "comparison_metrics": [
+    {
+      "family": "pending-05",
+      "source_gallery": "v2852-founwear-original-five-variant-alternative-merchant-QA",
+      "pair_count": 10,
+      "most_similar_pairs": [
+        {
+          "shade_pair": [
+            "21C",
+            "21N"
+          ],
+          "whole_image_MAD_RGB": 2.774,
+          "all_channels_within_5_ratio": 0.76982,
+          "all_channels_within_12_ratio": 0.87923,
+          "potential_relabel_collision": true
+        },
+        {
+          "shade_pair": [
+            "19N",
+            "21C"
+          ],
+          "whole_image_MAD_RGB": 3.9793,
+          "all_channels_within_5_ratio": 0.70523,
+          "all_channels_within_12_ratio": 0.84842,
+          "potential_relabel_collision": false
+        },
+        {
+          "shade_pair": [
+            "19C",
+            "19N"
+          ],
+          "whole_image_MAD_RGB": 4.3604,
+          "all_channels_within_5_ratio": 0.73213,
+          "all_channels_within_12_ratio": 0.82196,
+          "potential_relabel_collision": false
+        },
+        {
+          "shade_pair": [
+            "19N",
+            "21N"
+          ],
+          "whole_image_MAD_RGB": 4.8386,
+          "all_channels_within_5_ratio": 0.70618,
+          "all_channels_within_12_ratio": 0.8381,
+          "potential_relabel_collision": false
+        },
+        {
+          "shade_pair": [
+            "21N",
+            "23N"
+          ],
+          "whole_image_MAD_RGB": 4.8703,
+          "all_channels_within_5_ratio": 0.73296,
+          "all_channels_within_12_ratio": 0.8255,
+          "potential_relabel_collision": false
+        }
+      ],
+      "possible_collisions": 1,
+      "method_note": "Same product photo may be reused across shades; similarity cannot prove variant identity or counterfeit swatch.",
+      "contact": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-05-five-original-variant-photo-collision-check-QA.jpg",
+      "contact_sha256": "b70cdc6a998e41acf7367ae257b42bee2c747f4c5a3d548021066a279f077d22",
+      "image_uniqueness_release_gate": "HOLD_REVIEW_NEAR_DUPLICATE_SOURCES"
+    },
+    {
+      "family": "pending-06",
+      "source_gallery": "v2851-clio-giftset-five-option-variant-photo-QA",
+      "pair_count": 10,
+      "most_similar_pairs": [
+        {
+          "shade_pair": [
+            "19C",
+            "19N"
+          ],
+          "whole_image_MAD_RGB": 0.449,
+          "all_channels_within_5_ratio": 0.96472,
+          "all_channels_within_12_ratio": 0.99557,
+          "potential_relabel_collision": true
+        },
+        {
+          "shade_pair": [
+            "21C",
+            "21N"
+          ],
+          "whole_image_MAD_RGB": 0.5181,
+          "all_channels_within_5_ratio": 0.93088,
+          "all_channels_within_12_ratio": 0.99799,
+          "potential_relabel_collision": true
+        },
+        {
+          "shade_pair": [
+            "19C",
+            "21C"
+          ],
+          "whole_image_MAD_RGB": 0.9956,
+          "all_channels_within_5_ratio": 0.91879,
+          "all_channels_within_12_ratio": 0.97826,
+          "potential_relabel_collision": true
+        },
+        {
+          "shade_pair": [
+            "19N",
+            "21C"
+          ],
+          "whole_image_MAD_RGB": 1.0256,
+          "all_channels_within_5_ratio": 0.91133,
+          "all_channels_within_12_ratio": 0.97601,
+          "potential_relabel_collision": true
+        },
+        {
+          "shade_pair": [
+            "19C",
+            "21N"
+          ],
+          "whole_image_MAD_RGB": 1.1577,
+          "all_channels_within_5_ratio": 0.89772,
+          "all_channels_within_12_ratio": 0.9425,
+          "potential_relabel_collision": true
+        }
+      ],
+      "possible_collisions": 10,
+      "method_note": "Same product photo may be reused across shades; similarity cannot prove variant identity or counterfeit swatch.",
+      "contact": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-06-five-original-variant-photo-collision-check-QA.jpg",
+      "contact_sha256": "500970194d7cd6780424688bb343819cde5b5a3eca8b44ecf0b4d53a2419e74b",
+      "image_uniqueness_release_gate": "HOLD_REVIEW_NEAR_DUPLICATE_SOURCES"
+    }
+  ],
+  "three_option_contact": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/v2861-three-meshblur-real-alpha-option-cards-QA.jpg",
+  "three_option_contact_sha256": "38fa0db35ff196f91e452a5a5ea769dcf14e0cd51467408bf0db4a94b5707a84",
+  "archived_v2860_v2851_v2852_sources_modified": 0,
+  "previous_11_published_families_unchanged": true,
+  "previous_55_public_URLs_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "verified_stock_edition": false,
+  "commercial_image_rights_verified": false,
+  "original_MK_logo_authenticated": false,
+  "new_sales_approvals": 0,
+  "new_public_urls": 0,
+  "next": "Review visually whether merchant variant-linked source images are actually distinct, not only different filenames; pursue exact 15g+refill stock package evidence for pending-05/06/07 before public release."
+}
