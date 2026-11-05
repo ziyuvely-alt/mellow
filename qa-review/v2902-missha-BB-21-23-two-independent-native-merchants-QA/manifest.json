@@ -1,0 +1,75 @@
+{
+  "version": "v2902",
+  "baseline": "v2901",
+  "family": "pending-03",
+  "product": "MISSHA M Perfect Cover BB Cream 50ml legacy red dotted/gold pump",
+  "real_new_merchant_originals_saved": 2,
+  "new_1080_internal_JPGs_saved": 2,
+  "target_two_stock_rows": [
+    8,
+    9
+  ],
+  "results": [
+    {
+      "shade": "21",
+      "label": "Light Beige",
+      "stock_source_index": 8,
+      "merchant": "Oceanbuy Canada",
+      "page": "https://oceanbuy.ca/products/missha-m-perfect-cover-bb-cream-21-light-beige-50ml",
+      "url": "https://oceanbuy.ca/cdn/shop/files/missha-missha-m-perfect-cover-bb-cream-50ml-no21-light-beige-oceanbuy-beauty-878751.jpg?v=1747722308&width=1600",
+      "one_attempt_only": true,
+      "status": "NEW_ALTERNATIVE_1080_HERO_SAVED_INTERNAL_QA_HOLD",
+      "original_src": "qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA/MISSHA-legacy-goldpump-21-merchant-source-original.webp",
+      "original_sha256": "370f355c770c9265ab7c607948e172cffef9b6ae602dc169b8972e3def101dbd",
+      "qa_JPG_1080": "qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA/MISSHA-legacy-No21-goldpump-1080-INTERNAL-QA.jpg",
+      "qa_JPG_sha256": "d7d8eda503335a4e75678e4bd3fad13e76f2b167f5bf91321fd8f4b2303bb2ff",
+      "native_dimensions": [
+        1200,
+        1200
+      ],
+      "reason": null,
+      "exact_owned_stock_generation_confirmed": false,
+      "merchant_photo_commercial_reuse_rights_confirmed": false,
+      "authentic_original_MK_logo_verified": false,
+      "printed_shade_no_still_requires_human_visual_confirmation": true,
+      "sale_approved": false,
+      "qa_JPG_bytes": 125196
+    },
+    {
+      "shade": "23",
+      "label": "Natural Beige",
+      "stock_source_index": 9,
+      "merchant": "M Beauty Plus",
+      "page": "https://mbeautyplus.com/products/missha-p-cover-bb-cream-23-50ml",
+      "url": "https://mbeautyplus.com/cdn/shop/files/23_568a6a08-e3fd-4576-9d9f-6ee43faebfe3.jpg?v=1783568163&width=1600",
+      "one_attempt_only": true,
+      "status": "NEW_ALTERNATIVE_1080_HERO_SAVED_INTERNAL_QA_HOLD",
+      "original_src": "qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA/MISSHA-legacy-goldpump-23-merchant-source-original.webp",
+      "original_sha256": "e7979e0c75044fa48af8d914397152acef29c8760e907e201ba4663ac2726e22",
+      "qa_JPG_1080": "qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA/MISSHA-legacy-No23-goldpump-1080-INTERNAL-QA.jpg",
+      "qa_JPG_sha256": "c36bd31c3488e799eec3e3da281d9fd742ef2691f26df12528f560d8bd135ae8",
+      "native_dimensions": [
+        1024,
+        1024
+      ],
+      "reason": null,
+      "exact_owned_stock_generation_confirmed": false,
+      "merchant_photo_commercial_reuse_rights_confirmed": false,
+      "authentic_original_MK_logo_verified": false,
+      "printed_shade_no_still_requires_human_visual_confirmation": true,
+      "sale_approved": false,
+      "qa_JPG_bytes": 116758
+    }
+  ],
+  "old_v2871_No21_cutout_and_old_v2780_No23_hero_preserved": true,
+  "No25_v2897_clean_hero_preserved": true,
+  "old_11_sale_approved_groups_preserved": true,
+  "old_55_public_urls_preserved": true,
+  "commercial_photo_license_verified": false,
+  "actual_physical_stock_21_23_pack_generation_verified": false,
+  "new_approved_sale_images": 0,
+  "new_public_urls": 0,
+  "prior_JPGs_reprocessed": 0,
+  "final_XLSX_shared": false,
+  "next": "Direct visual review of printed No.21 and No.23 plus gold pump, then decide if each NEW candidate replaces only previous QA link. Do not automatically approve."
+}
