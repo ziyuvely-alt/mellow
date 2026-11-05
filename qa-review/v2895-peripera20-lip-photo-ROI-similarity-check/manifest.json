@@ -1,0 +1,303 @@
+{
+  "version": "v2895",
+  "baseline": "v2894",
+  "scope": "20 peripera 26AD exact shade 4g photographed lip region only",
+  "prior_v2894_full_template_207_near_dhash_pairs_not_auto_used": true,
+  "crop_box_pixels": [
+    565,
+    324,
+    991,
+    779
+  ],
+  "metric": "unweighted mean per-channel absolute RGB difference across 96x96 ROI; not calibrated swatch colorimetry",
+  "variants_checked": 20,
+  "unique_variant_source_sha_count": 20,
+  "pairs_checked": 190,
+  "same_source_SHA_pairs": 0,
+  "min_roi_RGB_diff": 7.3546,
+  "median_roi_RGB_diff": 19.4789,
+  "close_pairs_le4": 0,
+  "potential_duplicate_lip_scene_needs_human_review": [],
+  "closest_30": [
+    {
+      "shades": [
+        "07",
+        "18"
+      ],
+      "mean_RGB_abs_diff": 7.3546,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "03",
+        "05"
+      ],
+      "mean_RGB_abs_diff": 7.6233,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "05",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 7.7439,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "10",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 8.6047,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "04",
+        "08"
+      ],
+      "mean_RGB_abs_diff": 8.827,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "03",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 9.4404,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "08",
+        "09"
+      ],
+      "mean_RGB_abs_diff": 9.7548,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "12",
+        "14"
+      ],
+      "mean_RGB_abs_diff": 10.5675,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "04",
+        "06"
+      ],
+      "mean_RGB_abs_diff": 11.0805,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "07",
+        "15"
+      ],
+      "mean_RGB_abs_diff": 11.2765,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "13",
+        "15"
+      ],
+      "mean_RGB_abs_diff": 11.3332,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "19",
+        "20"
+      ],
+      "mean_RGB_abs_diff": 11.7888,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "04",
+        "09"
+      ],
+      "mean_RGB_abs_diff": 11.957,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "06",
+        "08"
+      ],
+      "mean_RGB_abs_diff": 12.0183,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "02",
+        "04"
+      ],
+      "mean_RGB_abs_diff": 12.1143,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "01",
+        "04"
+      ],
+      "mean_RGB_abs_diff": 12.1223,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "01",
+        "02"
+      ],
+      "mean_RGB_abs_diff": 12.1287,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "05",
+        "10"
+      ],
+      "mean_RGB_abs_diff": 12.133,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "04",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 12.1384,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "03",
+        "10"
+      ],
+      "mean_RGB_abs_diff": 12.3279,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "12",
+        "17"
+      ],
+      "mean_RGB_abs_diff": 12.4606,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "03",
+        "04"
+      ],
+      "mean_RGB_abs_diff": 12.6253,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "01",
+        "03"
+      ],
+      "mean_RGB_abs_diff": 13.032,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "02",
+        "08"
+      ],
+      "mean_RGB_abs_diff": 13.36,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "06",
+        "09"
+      ],
+      "mean_RGB_abs_diff": 13.4015,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "04",
+        "05"
+      ],
+      "mean_RGB_abs_diff": 13.4457,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "01",
+        "05"
+      ],
+      "mean_RGB_abs_diff": 13.589,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "08",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 13.7422,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "01",
+        "11"
+      ],
+      "mean_RGB_abs_diff": 13.7538,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    },
+    {
+      "shades": [
+        "15",
+        "18"
+      ],
+      "mean_RGB_abs_diff": 13.7694,
+      "source_sha_equal": false,
+      "card_sha_equal": false
+    }
+  ],
+  "new_images_created": 0,
+  "old_images_modified": 0,
+  "new_sale_approvals": 0,
+  "source_photo_rights_verified": false,
+  "actual_owned_26AD_item_verified": false,
+  "authentic_MK_logo_verified": false,
+  "old_11_published_families_preserved": true,
+  "old_55_public_URLs_preserved": true,
+  "final_spreadsheet_shared": false,
+  "followup": "Escalate only visually close lip swatches; never assume shared template means duplicate, no repeat downloads."
+}
