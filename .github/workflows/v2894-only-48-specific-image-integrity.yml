@@ -1,0 +1,37 @@
+name: Shopee v2894 QA 48 option-specific existing JPG technical inspection
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2894-only-48-specific-image-integrity.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  qa_48_specific_JPG_without_rerendering:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Check only 48 previously preserved option JPGs and checkpoint 30 pending
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2894_option_48_jpg_technical_integrity.py
+          cp scripts/v2894_option_48_jpg_technical_integrity.py /tmp/v2894.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2894qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2894qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2894-only-48-option-specific-JPG-technical-QA
+          python /tmp/v2894.py
+          git add qa-review/v2894-only-48-option-specific-JPG-technical-QA
+          git commit -m 'v2894 QA only 48 preserved variant JPEGs dimensions and same-family near similarities'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
