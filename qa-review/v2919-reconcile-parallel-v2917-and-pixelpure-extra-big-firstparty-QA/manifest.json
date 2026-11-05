@@ -1,0 +1,86 @@
+{
+  "version": "v2919",
+  "baseline": "v2918_EXISTING_TWO_FAMILY_PACKS_PLUS_TWO_V2917_BRIDGES",
+  "generated_utc": "2026-11-05T14:38:09Z",
+  "prior_v2917_manifest_paths": [
+    "qa-review/v2917-threefamily-official-photo-visual-claim-review-QA/manifest.json",
+    "qa-review/v2917-goodal-cream-six-source-claims-and-eye-source-edition-QA/manifest.json"
+  ],
+  "merged_delta_families": [
+    "pending-19",
+    "pending-21",
+    "pending-24",
+    "pending-25"
+  ],
+  "v2918_existing_two_fivephoto_ZIPs_preserved": 2,
+  "v2918_existing_packaged_families": [
+    "pending-23",
+    "pending-28"
+  ],
+  "goodal_six_claim_qa_consensus": true,
+  "old_cream_eye_comparison_preserved": "qa-review/v2917-goodal-cream-six-source-claims-and-eye-source-edition-QA/GOODAL-cream50-vs-eye-25AD-1080-INTERNAL-QA.jpg",
+  "new_pixelpure_originals_archived": 1,
+  "new_1080_reference_images": 1,
+  "new_pixelpure_internal_contacts": 1,
+  "existing_11_published_families_unchanged": true,
+  "old_55_public_urls_unchanged": true,
+  "old_QA_files_modified": 0,
+  "new_retail_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "pixelpure_results": [
+    {
+      "family": "pending-29",
+      "product_no": 26,
+      "official_product_page": "https://eng.pixelpure.com/product/detail.html?product_no=26",
+      "official_page_title": "Radiance Aqua Soothing Cream by Pixelpure",
+      "exact_page_title_match": true,
+      "additional_urls_examined": 2,
+      "new_fullnative_originals": 1,
+      "new_contact": "qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA/pending-29-new-official-extra-gallery-INTERNAL-CONTACT.jpg",
+      "new_images": [
+        {
+          "native": [
+            1000,
+            1000
+          ],
+          "source_url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/5695cce612cdac532a1aedacb62b3581.jpg",
+          "source_class": "MANUALLY_VERIFIED_OFFICIAL_PRODUCT_EXTRA_BIG",
+          "raw_original": "qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA/pending-29/01-pixelpure-manufacturer-native.jpg",
+          "raw_original_sha256": "0b2cbd03a361c420a199e924ffece4ffa266d8e739882ebf5fe8d3280c4b6e19",
+          "reference_jpg": "qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA/pending-29/01-pixelpure-1080-reference-NOT-RETAIL.jpg",
+          "reference_sha256": "4f36d5220dc07680e450654ccc9574986b82933d6dc47d186adade80eb75610b",
+          "existing_source_min_dhash_distance": 29,
+          "exact_KR_stock_edition_verified": false,
+          "scene_visual_claim_qa": "PENDING",
+          "commercial_photo_rights_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "prior_near_duplicate_candidates_skipped": [
+        {
+          "url": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/f8d51ba2fbbf7cb558808d00a2f1317a.jpg",
+          "dhash_near_duplicate_distance": 3
+        }
+      ],
+      "errors": [],
+      "retail_approved": false
+    },
+    {
+      "family": "pending-30",
+      "product_no": 25,
+      "official_product_page": "https://eng.pixelpure.com/product/detail.html?product_no=25",
+      "official_page_title": "Radiant Glow Serum by Pixelpure",
+      "exact_page_title_match": false,
+      "additional_urls_examined": 0,
+      "new_fullnative_originals": 0,
+      "new_contact": null,
+      "new_images": [],
+      "prior_near_duplicate_candidates_skipped": [],
+      "errors": [
+        "official English product title does not match all expected tokens; no additional gallery added"
+      ],
+      "retail_approved": false
+    }
+  ]
+}
