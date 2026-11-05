@@ -1,0 +1,35 @@
+name: v2963 PIXELPURE toner200 high-res image-source QA
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2963-pixelpure-toner200-highres-image.yml'
+      - 'scripts/v2963_pixelpure_toner200_cf_1600_source.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source-highres:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Attempt one new 1600px product photo variant
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106
+          python scripts/v2963_pixelpure_toner200_cf_1600_source.py
+          git add qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106
+          git diff --cached --name-only | tee /tmp/v2963-only
+          ! grep -Ev '^qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/' /tmp/v2963-only
+          git commit -m "QA v2963: toner200 highres native scene source test, no licensed sales rights"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
