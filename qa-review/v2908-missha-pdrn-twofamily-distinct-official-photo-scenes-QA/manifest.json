@@ -1,0 +1,111 @@
+{
+  "version": "v2908",
+  "baseline": "v2907",
+  "date_utc": "2026-11-05T12:15:39Z",
+  "new_manufacturer_photo_originals": 4,
+  "new_1080_JPG_internal_references": 4,
+  "families": [
+    {
+      "family": "pending-13",
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "new_source_count": 2,
+      "new_originals": [
+        {
+          "source_url": "https://misshaus.com/cdn/shop/files/MS104056___NAD___03.jpg?v=1782916376&width=3840",
+          "source_type": "MISSHA_US_FIRST_PARTY",
+          "source_scene_description_unverified": "dropper plus bottle and branded benefits text",
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "raw_original_path": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-13/01-manufacturer-original.jpg",
+          "raw_source_sha256": "2fae200f78473e3e6469da7aa0a79faf46030952a63bb17df4d14bbaf2bdf26f",
+          "reference_JPG": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-13/01-manufacturer-1080-INTERNAL-REFERENCE.jpg",
+          "reference_sha256": "a782498cbd4420103efdcab1b078d54f98da1bd612585c6debbbf4d9a2dc2127",
+          "prior_v2907_byte_duplicate": false,
+          "unique_photo_scene_visual_QA": "PENDING",
+          "product_stock_edition": "PENDING",
+          "claims_and_legal_photo_rights": "PENDING",
+          "marketing_claim_overlays_and_model_images": "POTENTIAL_NO_RETAIL_REUSE",
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://www.misshajp.com/photo/goodsimg/MS104056/ms104056-01.jpg",
+          "source_type": "MISSHA_JP_FIRST_PARTY",
+          "source_scene_description_unverified": "bottle and brand styling or texture",
+          "native_pixels": [
+            1040,
+            1040
+          ],
+          "raw_original_path": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-13/02-manufacturer-original.jpg",
+          "raw_source_sha256": "30cdd4a4d2d43f394278577870966412975c33fa274160d8209a8e3838181cc7",
+          "reference_JPG": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-13/02-manufacturer-1080-INTERNAL-REFERENCE.jpg",
+          "reference_sha256": "c29a32c1f6b4b42611384283268d7171140360edfea0253c3f1c3148b8111fcc",
+          "prior_v2907_byte_duplicate": false,
+          "unique_photo_scene_visual_QA": "PENDING",
+          "product_stock_edition": "PENDING",
+          "claims_and_legal_photo_rights": "PENDING",
+          "marketing_claim_overlays_and_model_images": "POTENTIAL_NO_RETAIL_REUSE",
+          "retail_approved": false
+        }
+      ],
+      "skips": [],
+      "release_status": "ORIGINAL_SOURCE_PHOTO_ARCHIVED_REVIEW_ONLY"
+    },
+    {
+      "family": "pending-14",
+      "product": "MISSHA PDRN NAD+ Firming Repair Cream 70mL",
+      "new_source_count": 2,
+      "new_originals": [
+        {
+          "source_url": "https://misshaus.com/cdn/shop/files/MS104031___NAD___03.jpg?v=1782917472&width=3840",
+          "source_type": "MISSHA_US_FIRST_PARTY",
+          "source_scene_description_unverified": "cream jar open and branded benefits text",
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "raw_original_path": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-14/01-manufacturer-original.jpg",
+          "raw_source_sha256": "f74754eb982f788b978a7a65cb5c30fa85ad3495a9a7cce62134ccd417223c0d",
+          "reference_JPG": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-14/01-manufacturer-1080-INTERNAL-REFERENCE.jpg",
+          "reference_sha256": "de1ec8ae9c1ba984279ea8706db29f0955c4ad16351821696e6603ff1da01650",
+          "prior_v2907_byte_duplicate": false,
+          "unique_photo_scene_visual_QA": "PENDING",
+          "product_stock_edition": "PENDING",
+          "claims_and_legal_photo_rights": "PENDING",
+          "marketing_claim_overlays_and_model_images": "POTENTIAL_NO_RETAIL_REUSE",
+          "retail_approved": false
+        },
+        {
+          "source_url": "https://www.misshajp.com/photo/goodsimg/MS104031/ms104031-01.jpg",
+          "source_type": "MISSHA_JP_FIRST_PARTY",
+          "source_scene_description_unverified": "jar and jelly cream texture; JP packaging unit 70g may differ",
+          "native_pixels": [
+            1040,
+            1040
+          ],
+          "raw_original_path": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-14/02-manufacturer-original.jpg",
+          "raw_source_sha256": "e8cf6b31b70c229d746a326a975b5d5c0b0baa31f07d4b77fa584796dcf0b064",
+          "reference_JPG": "qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA/pending-14/02-manufacturer-1080-INTERNAL-REFERENCE.jpg",
+          "reference_sha256": "58c5ec448b91c40bdd791c0cd8deff838352e4807f003a790a8923b9a32e9ff0",
+          "prior_v2907_byte_duplicate": false,
+          "unique_photo_scene_visual_QA": "PENDING",
+          "product_stock_edition": "PENDING",
+          "claims_and_legal_photo_rights": "PENDING",
+          "marketing_claim_overlays_and_model_images": "POTENTIAL_NO_RETAIL_REUSE",
+          "retail_approved": false
+        }
+      ],
+      "skips": [],
+      "release_status": "ORIGINAL_SOURCE_PHOTO_ARCHIVED_REVIEW_ONLY"
+    }
+  ],
+  "photo_distinctness_visual_QA_done": false,
+  "licensed_sales_ready_photos": 0,
+  "existing_11_published_families_untouched": true,
+  "existing_55_public_URLs_untouched": true,
+  "existing_QA_files_modified": 0,
+  "new_commercial_sale_approvals": 0,
+  "new_published_URLs": 0,
+  "final_XLSX_shared": false
+}
