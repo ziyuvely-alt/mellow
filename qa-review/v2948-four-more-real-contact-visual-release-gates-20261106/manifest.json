@@ -1,0 +1,70 @@
+{
+  "version": "v2948",
+  "date_local": "2026-11-06",
+  "project": "82 SKU / 41 product families",
+  "branch": "qa-assets/v2662-immutable-14-candidates",
+  "prior_checkpoint": "qa-review/v2947-manual-contact-sheet-QA-and-two-lane-ledger-20261106/manifest.json",
+  "new_manually_viewed_contact_sheets": 4,
+  "source_modifications": 0,
+  "previous_images_overwritten": 0,
+  "prior_verified_URLs_preserved": 55,
+  "prior_published_families_preserved": 11,
+  "verified_new_public_URLs": 0,
+  "internal_photo_candidates_reclassified_retail_approved": 0,
+  "full_30_family_ledger": "Refer to v2947",
+  "real_visual_findings": {
+    "pending-03": {
+      "product": "MISSHA M Perfect Cover BB Cream",
+      "source_contact": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-03-original-five-photo-contact-1080-INTERNAL.jpg",
+      "observed": [
+        "Hero panels explicitly identify No.23 and No.25 products; No.21 physical edition is not shown in this contact sheet",
+        "Shade graphic shows only No.23 and No.25 even though inventory options require 21, 23, 25",
+        "Frames 1 and 2 are closely related same tube viewpoint; backgrounds are different",
+        "Model/face before-after and application visuals require image reuse permission"
+      ],
+      "status": "HOLD_21_SHADE_REFERENCE_AND_MODEL_RIGHTS",
+      "specific_next_frame": "Obtain exact-stock No.21 reference and a licensed 21/23/25 full official swatch, repair fifth panel only"
+    },
+    "pending-04": {
+      "product": "CLIO Mesh Glow Essential Cushion Mini 5 g",
+      "source_contact": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-04-original-five-photo-contact-1080-INTERNAL.jpg",
+      "observed": [
+        "Image #1 and #4 share the same opened compact composition from slightly different crop, not independent scenes",
+        "Image #2 and #3 are closely related open-compact-with-hand imagery",
+        "Entire contact sheet shows pink 5g model but lacks separate 21C/21N/23N verified option heroes",
+        "No customer-facing original MK logo verified"
+      ],
+      "status": "HOLD_PHOTO_DIVERSITY_VARIANTS_AND_RIGHTS",
+      "specific_next_frame": "Preserve the stronger 1st and 2nd native sources, replace duplicate 3rd/4th only when original distinct shots clear QA; do not fabricate options"
+    },
+    "pending-09": {
+      "product": "OBgE Oil Control Finisher 5 g",
+      "source_contact": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-09-original-five-photo-contact-1080-INTERNAL.jpg",
+      "observed": [
+        "Frames #2 and #3 show skin before-after/customer-like testimonial photos rather than only product photographs",
+        "Frame #5 asserts Clinically Proven 36% Pore Reduction; linked clinical report and permission were not established in this check",
+        "Frame #4 accurately depicts compact/puff product concept visually, but product version/use context still requires label proof"
+      ],
+      "status": "HOLD_TESTIMONIAL_RIGHTS_AND_CLAIM_SUBSTANTIATION",
+      "specific_next_frame": "Quarantine frames #2, #3 and #5 for explicit testimonial/clinical claim substantiation; keep #1 and #4 as internal candidates"
+    },
+    "pending-11": {
+      "product": "OBgE All In One Double Essence 50 mL + 50 mL",
+      "source_contact": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-11-original-five-photo-contact-1080-INTERNAL.jpg",
+      "observed": [
+        "Image #1 shows opaque white bottle, #2 shows translucent gold-toned bottle; exact same-generation/equivalent-SKU identity is not proven by contact images",
+        "Frames #3-5 show texture/pump closeups but can belong to different packaging; cross-SKU contamination risk",
+        "Provisional-looking MK logo appears in frames 2-5, not validated against bundled original"
+      ],
+      "status": "HOLD_CROSS_SKU_PACKAGING_LOGO_AND_RIGHTS",
+      "specific_next_frame": "First reconcile exact 50+50 mL batch vs both depicted container designs; if not exact, replace only mismatched image #2/#3/#4/#5 with verified pack generation"
+    }
+  },
+  "next_source_first_actions": [
+    "pending-09 prohibit unsupported 36% clinical improvement frame pending official evidence; never publish as-is",
+    "pending-03 fix shade No.21 omission in shade reference only after brand official original available",
+    "pending-04 retain stronger exact edition photo, quarantine duplicative image views for 21C/21N/23N support",
+    "pending-11 compare original bottle construction with owned stock before promoting to retail"
+  ],
+  "commercial_rights_and_original_MK_gate": "Not cleared, no publish attempted"
+}
