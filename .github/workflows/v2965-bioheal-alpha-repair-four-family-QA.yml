@@ -1,0 +1,35 @@
+name: v2965 Bioheal transparent fifth photo fix and four-family QA
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2965-bioheal-alpha-repair-four-family-QA.yml'
+      - 'scripts/v2965_bioheal_alpha_fix_and_four_family_QA_gates.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  immutable-four-family-QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Repair alpha to white if image actually has transparency, validate existing source hashes
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106
+          python scripts/v2965_bioheal_alpha_fix_and_four_family_QA_gates.py
+          git add qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106
+          git diff --cached --name-only | tee /tmp/v2965-changed
+          ! grep -Ev '^qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/' /tmp/v2965-changed
+          git commit -m "QA v2965: alpha-compose only failed fifth candidate; validate 4-family SHA and retain hard sales gates"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
