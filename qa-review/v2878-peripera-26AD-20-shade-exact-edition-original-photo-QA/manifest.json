@@ -1,0 +1,398 @@
+{
+  "version": "v2878",
+  "baseline": "v2877",
+  "family": "pending-08",
+  "product": "peripera Mood Glowy Tint 26AD 4g",
+  "current_scope_01_to_20": true,
+  "n_inventory_options": 20,
+  "n_26AD_exact_edition_photo_candidates": 0,
+  "retailer_page_requests": 20,
+  "retailer_range": "Hwahae 76650..76669",
+  "photo_candidate_count": 0,
+  "brand_channel_official_reference": "https://pf.kakao.com/_SZjzG",
+  "brand_channel_oliveyoung_exclusive_shades": [
+    "04",
+    "06",
+    "07"
+  ],
+  "brand_channel_14_name": "로지위시",
+  "stock_014_typo_not_modified": true,
+  "prior_old_ink_mood_glowy_photos_20_quarantined": true,
+  "stock_04_06_07_never_deleted": true,
+  "excluded_21_to_30_and_negative01_negative02": true,
+  "no_fake_swatch_or_recolor": true,
+  "per_shade": [
+    {
+      "shade": "01",
+      "inventory_option": "001 딸기기니",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "딸기기니",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "02",
+      "inventory_option": "002 쩡신차렷",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "쩡신차렷",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "03",
+      "inventory_option": "003 말랑물복",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "말랑물복",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "04",
+      "inventory_option": "004 저쩔복숭아",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": true,
+      "brand_official_name": "저쩔복숭아",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "05",
+      "inventory_option": "005 갓기요정",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "갓기요정",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "06",
+      "inventory_option": "006 갓기천사",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": true,
+      "brand_official_name": "갓기천사",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "07",
+      "inventory_option": "007 자두뿜뿜",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": true,
+      "brand_official_name": "자두뿜뿜",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "08",
+      "inventory_option": "008 핑토당토",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "핑토당토",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "09",
+      "inventory_option": "009 맘찍로즈",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "맘찍로즈",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "10",
+      "inventory_option": "010 내입술인척",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "내입술인척",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "11",
+      "inventory_option": "011 비주얼센터",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "비주얼센터",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "12",
+      "inventory_option": "012 개강여신",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "개강여신",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "13",
+      "inventory_option": "013 분위기 여신",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "분위기 여신",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "14",
+      "inventory_option": "014 로지워시",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "로지위시",
+      "stock_name_mismatch": "로지워시/로지위시",
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "15",
+      "inventory_option": "015 맘콕로즈",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "맘콕로즈",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "16",
+      "inventory_option": "016 로즈콕",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "로즈콕",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "17",
+      "inventory_option": "017 이로지무화과?",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "이로지무화과?",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "18",
+      "inventory_option": "018 손웜수템",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "손웜수템",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "19",
+      "inventory_option": "019 어쩔체리",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "어쩔체리",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    },
+    {
+      "shade": "20",
+      "inventory_option": "020 당맛도리",
+      "legacy_mismatched_photo_quarantined": true,
+      "peripera_oliveyoung_only": false,
+      "brand_official_name": "당맛도리",
+      "stock_name_mismatch": null,
+      "owner_inventory_unchanged": true,
+      "status": "HOLD_NO_HIGH_RES_RETAIL_PRODUCT_PHOTO",
+      "candidate": null
+    }
+  ],
+  "page_attempt_log": [
+    {
+      "goods_id": 76650,
+      "url": "https://www.hwahae.co.kr/goods/76650",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76651,
+      "url": "https://www.hwahae.co.kr/goods/76651",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76652,
+      "url": "https://www.hwahae.co.kr/goods/76652",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76653,
+      "url": "https://www.hwahae.co.kr/goods/76653",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76654,
+      "url": "https://www.hwahae.co.kr/goods/76654",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76655,
+      "url": "https://www.hwahae.co.kr/goods/76655",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76656,
+      "url": "https://www.hwahae.co.kr/goods/76656",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76657,
+      "url": "https://www.hwahae.co.kr/goods/76657",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76658,
+      "url": "https://www.hwahae.co.kr/goods/76658",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76659,
+      "url": "https://www.hwahae.co.kr/goods/76659",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76660,
+      "url": "https://www.hwahae.co.kr/goods/76660",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76661,
+      "url": "https://www.hwahae.co.kr/goods/76661",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76662,
+      "url": "https://www.hwahae.co.kr/goods/76662",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76663,
+      "url": "https://www.hwahae.co.kr/goods/76663",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76664,
+      "url": "https://www.hwahae.co.kr/goods/76664",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76665,
+      "url": "https://www.hwahae.co.kr/goods/76665",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76666,
+      "url": "https://www.hwahae.co.kr/goods/76666",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76667,
+      "url": "https://www.hwahae.co.kr/goods/76667",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76668,
+      "url": "https://www.hwahae.co.kr/goods/76668",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    },
+    {
+      "goods_id": 76669,
+      "url": "https://www.hwahae.co.kr/goods/76669",
+      "status": "HOLD_NO_VALID_26AD_PRODUCT_PAGE",
+      "page_title": "",
+      "error": "AssertionError: ('', 'UNRELATED_PAGE')"
+    }
+  ],
+  "contact_files": [],
+  "photo_original_rights_granted": false,
+  "exact_owned_stock_packaging_matches_26AD_proved": false,
+  "new_sales_approvals": 0,
+  "new_public_URLs": 0,
+  "old_11_finished_families_untouched": true,
+  "old_55_public_URLs_unchanged": true,
+  "original_inventory_spreadsheet_changed": false,
+  "final_XLSX_shared": false,
+  "next": "Visually inspect native source images for correct 26AD tube/artwork, reject near-duplicate cross-shade product photos; locate genuine correct 04/06/07 OliveYoung-only source, do not revive 20 legacy INK images. Then continue pending06 giftset duplicate-photo gap and pending12 unit mismatch."
+}
