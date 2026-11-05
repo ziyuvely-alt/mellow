@@ -1,0 +1,46 @@
+{
+  "version": "v2863",
+  "date": "2026-11-05",
+  "baseline": "v2862",
+  "family": "pending-05",
+  "product": "CLIO Kill Cover Founwear Cushion The Original",
+  "type": "VISUAL_QA_SAFETY_CORRECTION_ON_ALREADY_GENERATED_FILES",
+  "evidence": "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/v2862-three-founwear-photo-cutouts-comparison-QA.jpg",
+  "underlying_workflow": {
+    "run_id": 41957030222,
+    "conclusion": "success",
+    "meaning": "technical execution success only; mask visual failure"
+  },
+  "affected_shades": [
+    "19C",
+    "19N",
+    "23N"
+  ],
+  "rejected_assets": [
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19C-truealpha-QA.png",
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19C-1080-hero-QA.jpg",
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19N-truealpha-QA.png",
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-19N-1080-hero-QA.jpg",
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-23N-truealpha-QA.png",
+    "qa-review/v2862-clio-founwear-three-distinct-source-truealpha-QA/Founwear-Original-23N-1080-hero-QA.jpg"
+  ],
+  "reason": "GrabCut background-prior classification erased near-white compact lid and white powder puff surfaces despite component-size and anchor checks. Clear central holes, disconnected CLIO lettering and truncated puff are visible in all three shades.",
+  "disposition": "REJECT_VISUAL_NEVER_FOR_SALES_OR_FUTURE_ALPHA_INPUT",
+  "archive_preserved": [
+    "v2852 source JPGs (unmodified)",
+    "v2862 rejected files (not deleted)",
+    "v2860 Mesh Blur technical candidates (not part of rejection)",
+    "v2861 Mesh Blur option cards (not part of rejection)"
+  ],
+  "blocked_shades_from_v2861_similarity": [
+    "21C",
+    "21N"
+  ],
+  "pending06": "HOLD near-duplicate all 10 shade-pair comparisons, do not reuse for five option-specific photos",
+  "next_executable": "Try a different archived successful segmentation model u2net from v2734 directly on original v2852 merchant JPGs. Reject if white lid or puff still lost. No repeat of v2862 GrabCut technique.",
+  "preserve_published_11_families": true,
+  "preserve_55_public_URLs": true,
+  "new_retail_approvals": 0,
+  "new_public_URLs": 0,
+  "final_excel_shared": false
+}
