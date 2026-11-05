@@ -1,0 +1,40 @@
+name: Shopee v2917 GOODAL six gallery claims and eye edition preflight QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2917-goodal-cream-six-claim-eye-qa.yml'
+      - 'scripts/v2917_goodal_marketing_claim_six_and_eye_edition_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  classify_goodal_sources_without_rebuilding_images:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Classify six existing original scenes and render one new non-retail comparison
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2917_goodal_marketing_claim_six_and_eye_edition_QA.py
+          cp scripts/v2917_goodal_marketing_claim_six_and_eye_edition_QA.py /tmp/v2917.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2917qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2917qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2917-goodal-cream-six-source-claims-and-eye-source-edition-QA
+          python /tmp/v2917.py
+          git add qa-review/v2917-goodal-cream-six-source-claims-and-eye-source-edition-QA
+          git diff --cached --name-only | tee /tmp/v2917-changed
+          ! grep -Ev '^qa-review/v2917-goodal-cream-six-source-claims-and-eye-source-edition-QA/' /tmp/v2917-changed
+          git commit -m 'v2917 classify Goodal original gallery claims and preserve cream-eye identity comparison QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
