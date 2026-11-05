@@ -1,0 +1,40 @@
+name: Shopee v2931 CLIO full-size 6670 correct source and mini 5g source quarantine
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2931-clio-fullsize-6670-not-mini-QA.yml'
+      - 'scripts/v2931_correct_clio_fullsize_6670_mini_5750_7108_quarantine.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  quarantine_mini_source_product_ids_and_archive_correct_fullsize:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Preflight and exact product ID correction, no legacy source edits
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2931_correct_clio_fullsize_6670_mini_5750_7108_quarantine.py
+          cp scripts/v2931_correct_clio_fullsize_6670_mini_5750_7108_quarantine.py /tmp/v2931.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2931qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2931qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA
+          python /tmp/v2931.py
+          git add qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA
+          git diff --cached --name-only | tee /tmp/v2931-changed
+          ! grep -Ev '^qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/' /tmp/v2931-changed
+          git commit -m 'v2931 separate mini 5g CLIO source IDs from fullsize 6670 and archive current catalog photos internally'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
