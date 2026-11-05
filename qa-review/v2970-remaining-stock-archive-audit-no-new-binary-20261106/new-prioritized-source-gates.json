@@ -1,0 +1,117 @@
+[
+  {
+    "family": "pending-01",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-02",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-03",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-04",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-05",
+    "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+    "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+  },
+  {
+    "family": "pending-06",
+    "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+    "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+  },
+  {
+    "family": "pending-07",
+    "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+    "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+  },
+  {
+    "family": "pending-08",
+    "state": "PERIPERA_01_TO_20_OPTION_REFERENCES_NOT_RETAIL",
+    "immediate": "Compare only listed near-duplicate frames against exact physical edition; keep archive unchanged."
+  },
+  {
+    "family": "pending-09",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-10",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-11",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-12",
+    "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+    "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+  },
+  {
+    "family": "pending-13",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-14",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-15",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-16",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-17",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-18",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-19",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-21",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Compare only listed near-duplicate frames against exact physical edition; keep archive unchanged."
+  },
+  {
+    "family": "pending-22",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-24",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  },
+  {
+    "family": "pending-26",
+    "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+    "immediate": "Clear product rights and stock/MK, no new source search."
+  }
+]

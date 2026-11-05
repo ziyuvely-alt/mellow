@@ -1,0 +1,2451 @@
+{
+  "version": "v2970",
+  "project": "82SKU 41 families, 30 pending stock source QA",
+  "based_on": [
+    "v2966",
+    "v2968",
+    "v2969"
+  ],
+  "prior_archives_skipped_without_rechecking": [
+    "pending-20",
+    "pending-23",
+    "pending-25",
+    "pending-27",
+    "pending-28",
+    "pending-29",
+    "pending-30"
+  ],
+  "pending_families_not_previously_reaudited": 23,
+  "source_ZIP_or_option_archives_attempted": 19,
+  "actual_JPG_PNG_files_decoded_in_newly_checked_archives": 130,
+  "state_counts": {
+    "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING": 18,
+    "NO_ARCHIVE_VARIANT_EDITION_HOLD": 4,
+    "PERIPERA_01_TO_20_OPTION_REFERENCES_NOT_RETAIL": 1
+  },
+  "cross_family_exact_duplicate_blob_hashes": [],
+  "release_status": "ALL_NEW_RETAIL_APPROVALS_HOLD_NOT_AUTHORITATIVE_STOCK_RIGHTS_MK",
+  "no_new_photo_binary_copied": true,
+  "no_prior_files_modified": true,
+  "legacy_published_families_preserved": 11,
+  "legacy_verified_public_URLs_preserved": 55,
+  "new_render_approved_URLs": 0,
+  "new_JPG_created": 0,
+  "public_qa_branch_visibility": "PUBLIC_DO_NOT_UPLOAD_NEW_UNLICENSED_BINARY",
+  "results": {
+    "pending-01": {
+      "archive": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-01-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 100615,
+          "SHA256": "fe5b37270e9d5674414fddb2a872575a460c862bc5518dd1e0eb0c2e4d1a8b82",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010010000110011001101110010110100101011001100000000001000",
+          "gray_stddev": 21.1,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-01-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 90290,
+          "SHA256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1111111000011111000111100011101100110101101101010011001100110010",
+          "gray_stddev": 17.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-01-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 213061,
+          "SHA256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100110011001100110011001101100011000000110100001110100011001100",
+          "gray_stddev": 55.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-01-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 73479,
+          "SHA256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100011000000011000010111000101010000110100100100000110001000",
+          "gray_stddev": 14.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-01-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 95952,
+          "SHA256": "0f71d777dfe7c9259fc8d4e00b7f4714515d687ff78e2f8aac435162eb18443a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001010011010101001101001000111010001110100001101000110000100",
+          "gray_stddev": 25.1,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "5dcb533184e9c6a4126f4065df43d584f0ae652e0c885e38b8ba476bd9566145",
+      "archive_size_bytes": 574259,
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-02": {
+      "archive": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-02-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 83686,
+          "SHA256": "05b1b6cb821acad0bf183613cc45e416f2484b98b9b33bb976d867f85557d753",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010000000111000001110011011110010011111101011011010110110",
+          "gray_stddev": 28.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-02-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 63058,
+          "SHA256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000101101100011011001010111010000011100000101011000001110010000",
+          "gray_stddev": 22.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-02-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 70952,
+          "SHA256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000010001100000111110001100110011011000111011001110100000000000",
+          "gray_stddev": 15.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-02-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 83936,
+          "SHA256": "b00a890e76a5e901c82472bb0e8425609c97bf10ea94af3f7b1ce635701f1fac",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0010000011100000110000101101010011111100011110000001100000000000",
+          "gray_stddev": 18.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-02-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 70310,
+          "SHA256": "1a81493b28a0863416c4afe7ccd62e1c2befb0aac016c27d07c416c628ddbf60",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000000110000111110001101110011110100100100001000010001000000",
+          "gray_stddev": 20.9,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "4507e0ea6358024e9569103233033ebd21957f33d6bb929cbaca2dc5ece8a9dc",
+      "archive_size_bytes": 372804,
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-03": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-03-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-03-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 115656,
+          "SHA256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010110000001100101011001010110010101100100011000010110000",
+          "gray_stddev": 45.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-03-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 111412,
+          "SHA256": "37b096423ce36a10341c7235f447711fe16a7cf12027bb3c48b7b6e7a574eb92",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010000000110010001100101011001000110010001100101011001100000011",
+          "gray_stddev": 44.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-03-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 128993,
+          "SHA256": "6ee100c2c295d2a61c934df96532da19c4bfa45fc6a216878ec2351d966a8829",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001011100000011010010110100101101001011010011110100100000111",
+          "gray_stddev": 77.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-03-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 137533,
+          "SHA256": "f32faba0cfd4149b0921f55a0e7afce6da9e7cb94bd28a64b3ec90559a2cee1e",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001001100000011010010110110101101101011011011111110100001101",
+          "gray_stddev": 66.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-03-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 101822,
+          "SHA256": "2c2d4f7430622239932993217aac54a8a687a71168a06d0c408d6d71736b694c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010010000011100001100000001100000011000001100000000000011",
+          "gray_stddev": 21.0,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "67904198198cd2d069a5aa8985ea7bdfb322a0a909bce7f1ee1823368e0aa0e8",
+      "archive_size_bytes": 596178,
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-04": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-04-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-04-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 106530,
+          "SHA256": "9c453977e430068164e823c5cb3a09372fe37d3f400be61de9faa949c20e0057",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000001100010111110010011110001111100100101011110010111100000",
+          "gray_stddev": 19.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-04-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 176551,
+          "SHA256": "9e15a14438da8fd03293018100cb9d6928222dc98f2cd40b119d18a99c22d16c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000001110001111101001110010011110110111110000111100010110001",
+          "gray_stddev": 35.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-04-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 181803,
+          "SHA256": "305136d555ec13213606b1b02080b80d50dba1c355327e4aab306d733561a40c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0001000011110000110001000100010101000011011100101101110011011100",
+          "gray_stddev": 41.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-04-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 100996,
+          "SHA256": "98010380aece3003b2b81968919a2cd7fe457a2732a7da622886f68ea106f073",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0010000111111100111111001011010010110100100101001101010011100000",
+          "gray_stddev": 21.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-04-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 104103,
+          "SHA256": "e51e541e156c239936f98214ff30dc75681e24e1bbd89f6253bf41fa4c767697",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1110000010011010011110110110110001101110011000101011011110111110",
+          "gray_stddev": 22.0,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "e02535cd031f3342ff4c5c53f762b8afe3266b12a6aec95cef52eb706fb783f4",
+      "archive_size_bytes": 670745,
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-05": {
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "previous_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-06": {
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "previous_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "next_action": "Check owned kit before selecting 25FW or REGULAR pack, retain existing two reference cards"
+    },
+    "pending-07": {
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "previous_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-08": {
+      "archive": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01to20/01/original_01_legacy-photo_1080.jpg",
+          "bytes": 110300,
+          "SHA256": "ae13ca7c05c7174d79bca73e9ea63f0a1a62016a78b576a808eece4cb0b34ad2",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010000000001100010111000011000100111110000110000111100001",
+          "gray_stddev": 33.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/02/original_02_legacy-photo_1080.jpg",
+          "bytes": 109074,
+          "SHA256": "c6f46f8e207d726b1d99b0cc15064d40ac8a9a34f0fc7c2c8c2ca320028fa89c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010100000111000101100000011110000111110000010000111100001",
+          "gray_stddev": 36.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/03/original_03_legacy-photo_1080.jpg",
+          "bytes": 112943,
+          "SHA256": "1c0f5d4562da6d668e666d2037e92143b748908a83632a4ed24da45cb6964a57",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010000000001110011101010011010000011010010110000111100001",
+          "gray_stddev": 40.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/04/original_04_legacy-photo_1080.jpg",
+          "bytes": 99195,
+          "SHA256": "62dcf86df6f6de864cf0fc9125d33147b5512252ea3821a6be2c4376591643b3",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010101000011100101101000111000100011010000110000111100001",
+          "gray_stddev": 33.8,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/05/original_05_legacy-photo_1080.jpg",
+          "bytes": 110394,
+          "SHA256": "13871398edc69358a7bc781463582174439c8f4f5cee9805f08dd9ba92ba4bb3",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010100000110000001101001011010001011010010110000111100001",
+          "gray_stddev": 53.3,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/06/original_06_legacy-photo_1080.jpg",
+          "bytes": 106343,
+          "SHA256": "b19d94645d032f04d383d7c0777cbeb9230c26b91b1993ba3750425a3e7e0132",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010001000001100011110010011010100110010000110000110100000",
+          "gray_stddev": 47.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/07/original_07_legacy-photo_1080.jpg",
+          "bytes": 112715,
+          "SHA256": "6ee42ef54c8532ff5cb257af4564a6890262e7d6c34b1121eab9580708252ea2",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010010000010010010110100001101000011010010110100111100001",
+          "gray_stddev": 28.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/08/original_08_legacy-photo_1080.jpg",
+          "bytes": 118824,
+          "SHA256": "84fceec8458f433a5cc5c753547a94c118eb22f4c1ef28f4fbdd79451d722025",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010011001000011010010110100101101000011010010110100111100001",
+          "gray_stddev": 29.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/09/original_09_legacy-photo_1080.jpg",
+          "bytes": 100825,
+          "SHA256": "c5edee0524e92a12e90eb4282392d4fb3dfff57e316ec63912a0a91d18a48ea0",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010011001000011010010110100101101000011010010110100111101001",
+          "gray_stddev": 32.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/10/original_10_legacy-photo_1080.jpg",
+          "bytes": 89691,
+          "SHA256": "24502e42c90c8b539d42efbfc552ddb488569baac763616a8bf69f6b268b7cc8",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010011001000011010010110100101101000011010010110100111101001",
+          "gray_stddev": 36.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/11/original_11_legacy-photo_1080.jpg",
+          "bytes": 100544,
+          "SHA256": "4804739ee0ff879e65588aebff52624a0f8a9bc3e501e685d39cc3eb47a2e8b4",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010011001000011010010110100101101000011010010110100111101001",
+          "gray_stddev": 40.1,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/12/original_12_legacy-photo_1080.jpg",
+          "bytes": 82035,
+          "SHA256": "1a8c7b7b21f56fee6b38501127c9ec2b8f8f98dcc20ff3dbc1cb6a1662959411",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010010000001100001011000001110001011100001011000010110000",
+          "gray_stddev": 19.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/13/original_13_legacy-photo_1080.jpg",
+          "bytes": 111045,
+          "SHA256": "2ccc0c92c398d12834437afa4a84998a8567778140afd828e56afa3a3fd370ca",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010010000001100000011000001110001111100011011000110110001",
+          "gray_stddev": 21.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/14/original_14_legacy-photo_1080.jpg",
+          "bytes": 85447,
+          "SHA256": "def36acc38716685d7e576cdb562bf46b072ca9ad02877842aa9ce149c0e7b44",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010010000001100101100001011010000110100000011001011010000",
+          "gray_stddev": 29.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/15/original_15_legacy-photo_1080.jpg",
+          "bytes": 100736,
+          "SHA256": "71fb367e6286f0e6f1dce6762d9a2544afd6444c6843f19797f799a2f0771bfe",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000011100000011110000111100101101000011010010110100111101001",
+          "gray_stddev": 20.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/16/original_16_legacy-photo_1080.jpg",
+          "bytes": 100563,
+          "SHA256": "97d0434fb8408af4b32890ee413c3b40cbceb7f8039f76fc86bb47d18907593f",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010010100000011110000111100101101000011010010110100111101001",
+          "gray_stddev": 22.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/17/original_17_legacy-photo_1080.jpg",
+          "bytes": 100553,
+          "SHA256": "6c578f17b7bc196273c23fa7084a3844a5c24a0b014fe98d3e3a2182048a0589",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010011100000011010010111100101101000011010010110100111101001",
+          "gray_stddev": 28.3,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/18/original_18_legacy-photo_1080.jpg",
+          "bytes": 120362,
+          "SHA256": "df570eba2df027b05b8bb38348a4ba1e6378660e8bbc2b2760cf0d6e6c00484f",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100011010100010100000110100101100101011010010100100011000000",
+          "gray_stddev": 38.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/19/original_19_legacy-photo_1080.jpg",
+          "bytes": 116302,
+          "SHA256": "92a03a4e61a5f1cc414591fed48ff04a5cee5bdc147acb487a787b18475cc3ec",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001010010001000001100100111000001100001011010010110000111100000",
+          "gray_stddev": 39.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "01to20/20/original_20_legacy-photo_1080.jpg",
+          "bytes": 104157,
+          "SHA256": "b5c85ba2da1761fd70a54b8e4e5ddd633f6815036356246da27b4b954e079d96",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000011101000011000100110000101101001011010000110100111101001",
+          "gray_stddev": 46.7,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [
+        {
+          "name": "01to20/01/original_01_legacy-alpha.png",
+          "bytes": 361908,
+          "SHA256": "539e94ecb55afc25b9ebb5cf2744f8e78bc79232d77ca298f5ce7e82213fc032",
+          "dimensions": [
+            630,
+            712
+          ],
+          "format": "PNG",
+          "dHash64": "1001110010011100101101111011011000100101011011001110011011100111",
+          "gray_stddev": 23.9,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/02/original_02_legacy-alpha.png",
+          "bytes": 368387,
+          "SHA256": "446d36ebf2a0b96d52ab06db9a395d8451327df17a69e96db014f6d98ab37722",
+          "dimensions": [
+            613,
+            711
+          ],
+          "format": "PNG",
+          "dHash64": "1001110010010101100100111011011001110110001101101010011010110110",
+          "gray_stddev": 26.7,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/03/original_03_legacy-alpha.png",
+          "bytes": 373119,
+          "SHA256": "a2d1994e6c546c8e130401b783db84d62126a623c0c9c1f9da87413beded27f5",
+          "dimensions": [
+            638,
+            710
+          ],
+          "format": "PNG",
+          "dHash64": "1001111110011110001101100011010100110100001101101010011000100110",
+          "gray_stddev": 30.1,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/04/original_04_legacy-alpha.png",
+          "bytes": 334315,
+          "SHA256": "b29c1e0eab30aec867eaafe384e41e041f3fa7bf039ee84dc42a72f372ccbde6",
+          "dimensions": [
+            622,
+            706
+          ],
+          "format": "PNG",
+          "dHash64": "0001110010010010101101101010011100110001111101001010011010010110",
+          "gray_stddev": 26.2,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/05/original_05_legacy-alpha.png",
+          "bytes": 396383,
+          "SHA256": "aaba86f8dc90ecacfe6daabd5a758b93f4ba8be6bba6fee3d879479b85bbb689",
+          "dimensions": [
+            665,
+            705
+          ],
+          "format": "PNG",
+          "dHash64": "0011100010110111001101110111011110100101101011000010011000100111",
+          "gray_stddev": 33.8,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/06/original_06_legacy-alpha.png",
+          "bytes": 369401,
+          "SHA256": "3edc7a087472f79c4b1e5b3cc8300fb7d176adbe32b016cf0009236c122f1e6c",
+          "dimensions": [
+            625,
+            704
+          ],
+          "format": "PNG",
+          "dHash64": "0001110010110000101001100011011000110111001001111010011100010111",
+          "gray_stddev": 42.8,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/07/original_07_legacy-alpha.png",
+          "bytes": 394274,
+          "SHA256": "4a5e8e25b39c7dab0568213e5892dc82aaa9ccd41c59f8de91ea33dc04904211",
+          "dimensions": [
+            497,
+            716
+          ],
+          "format": "PNG",
+          "dHash64": "0111110000000011111001110110010111000110011001100110011011100111",
+          "gray_stddev": 29.5,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/08/original_08_legacy-alpha.png",
+          "bytes": 427397,
+          "SHA256": "c73905ee224746882b7b5610a5288b12795b8e2d0d196c18c2c4276c0a26946e",
+          "dimensions": [
+            493,
+            714
+          ],
+          "format": "PNG",
+          "dHash64": "1011110001111001010000110101110111100110011011100110011001100111",
+          "gray_stddev": 45.3,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/09/original_09_legacy-alpha.png",
+          "bytes": 299016,
+          "SHA256": "cbb786068c1f7098d794392d42d95490fd86d93139eeb31c365911a3ea9e8850",
+          "dimensions": [
+            488,
+            708
+          ],
+          "format": "PNG",
+          "dHash64": "0111110101100011010001110100111111100110011001100110011011100110",
+          "gray_stddev": 27.3,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/10/original_10_legacy-alpha.png",
+          "bytes": 271722,
+          "SHA256": "dca7409d11aa18354fef850e601a8673fab0d75e0ea372d73652ef5c7eeeee29",
+          "dimensions": [
+            466,
+            706
+          ],
+          "format": "PNG",
+          "dHash64": "0111100101110110111011111100001111100011011001010110011111100111",
+          "gray_stddev": 31.5,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/11/original_11_legacy-alpha.png",
+          "bytes": 304128,
+          "SHA256": "dbccec9791c2656ffea5b9462f571b01f2df924445e8287fee31c3846be30224",
+          "dimensions": [
+            496,
+            709
+          ],
+          "format": "PNG",
+          "dHash64": "0111110001100110110101111101011111100110111001100110011010100110",
+          "gray_stddev": 28.2,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/12/original_12_legacy-alpha.png",
+          "bytes": 77952,
+          "SHA256": "f2be139de08864050243c1b3153c9cdf5a38aad7e6dd637b84587984373b569d",
+          "dimensions": [
+            229,
+            325
+          ],
+          "format": "PNG",
+          "dHash64": "0100101101011001110110000011001101111001010110001101110011110000",
+          "gray_stddev": 19.8,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/13/original_13_legacy-alpha.png",
+          "bytes": 705215,
+          "SHA256": "812da8abf2a83ec36474da02749fbbc886a639adf08ca87e36901d75fa4a37f1",
+          "dimensions": [
+            772,
+            1006
+          ],
+          "format": "PNG",
+          "dHash64": "0101100101011001011110010110001101111011111110110111101101110011",
+          "gray_stddev": 27.4,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/14/original_14_legacy-alpha.png",
+          "bytes": 72417,
+          "SHA256": "e47088e5d67f561ae8155ae02d65a0ed651c1d697a46d45b01b2bc12ec63f772",
+          "dimensions": [
+            225,
+            273
+          ],
+          "format": "PNG",
+          "dHash64": "0000110010001100010011000001000100111000000111011000110010001000",
+          "gray_stddev": 34.2,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/15/original_15_legacy-alpha.png",
+          "bytes": 227087,
+          "SHA256": "ab565b07fddf13d92586220fba6dbc47bbd3ad426c3e414ed01b3dc8847f19cb",
+          "dimensions": [
+            355,
+            570
+          ],
+          "format": "PNG",
+          "dHash64": "0111110001111110011100110111101010100111100001111110011110000010",
+          "gray_stddev": 30.6,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/16/original_16_legacy-alpha.png",
+          "bytes": 222218,
+          "SHA256": "d44e199b81b26dc52576656c8eaf5ab7521fd01cafa5819ea3ad3cc954756932",
+          "dimensions": [
+            333,
+            571
+          ],
+          "format": "PNG",
+          "dHash64": "0111110001111110011110110111101110100111100001111110011110000011",
+          "gray_stddev": 36.4,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/17/original_17_legacy-alpha.png",
+          "bytes": 220412,
+          "SHA256": "abd0c8916b0beab761126008a708b3cd01252920a61b15dcd84bfedb15e63f23",
+          "dimensions": [
+            332,
+            570
+          ],
+          "format": "PNG",
+          "dHash64": "0111110001111100011110110111101110100011100001111100011110000011",
+          "gray_stddev": 48.0,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/18/original_18_legacy-alpha.png",
+          "bytes": 533784,
+          "SHA256": "3e079be3cd5c4670f575220007e5eab1063d6981a970d2e315e0f36122bd0860",
+          "dimensions": [
+            630,
+            870
+          ],
+          "format": "PNG",
+          "dHash64": "0111100011111100101011011010110110011011100110111001111010001111",
+          "gray_stddev": 36.1,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/19/original_19_legacy-alpha.png",
+          "bytes": 217830,
+          "SHA256": "4ea3c9c14c735827cf64ef461928c4bf93e3d8be591c4322ad93dc5f6665b0b4",
+          "dimensions": [
+            371,
+            533
+          ],
+          "format": "PNG",
+          "dHash64": "0011110011110110011001100110001011101110111011011110011101000111",
+          "gray_stddev": 38.7,
+          "is_small_1080_JPEG": false
+        },
+        {
+          "name": "01to20/20/original_20_legacy-alpha.png",
+          "bytes": 177566,
+          "SHA256": "a50946af4f1973562d6eadf4007c30d991c4b76b620567e0f7b701cf91fba209",
+          "dimensions": [
+            293,
+            508
+          ],
+          "format": "PNG",
+          "dHash64": "0110110011111100100011101001011110010011110011011000110110000111",
+          "gray_stddev": 44.7,
+          "is_small_1080_JPEG": false
+        }
+      ],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "9add58ca2e333e925c998d27800be361b00674ca4aa811e77f1272c2c4c46fa1",
+      "archive_size_bytes": 8124710,
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "status": "PERIPERA_01_TO_20_OPTION_REFERENCES_NOT_RETAIL",
+      "previous_stage": "PERIPERA_01_TO_20_EDITION_OPTION_HOLD",
+      "JPG_count": 20,
+      "PNG_count": 20,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [
+        {
+          "files": [
+            "01to20/08/original_08_legacy-photo_1080.jpg",
+            "01to20/09/original_09_legacy-photo_1080.jpg"
+          ],
+          "hamming": 1,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/08/original_08_legacy-photo_1080.jpg",
+            "01to20/10/original_10_legacy-photo_1080.jpg"
+          ],
+          "hamming": 2,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/08/original_08_legacy-photo_1080.jpg",
+            "01to20/11/original_11_legacy-photo_1080.jpg"
+          ],
+          "hamming": 1,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/08/original_08_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 4,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/09/original_09_legacy-photo_1080.jpg",
+            "01to20/10/original_10_legacy-photo_1080.jpg"
+          ],
+          "hamming": 1,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/09/original_09_legacy-photo_1080.jpg",
+            "01to20/11/original_11_legacy-photo_1080.jpg"
+          ],
+          "hamming": 0,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/09/original_09_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 3,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/10/original_10_legacy-photo_1080.jpg",
+            "01to20/11/original_11_legacy-photo_1080.jpg"
+          ],
+          "hamming": 1,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/10/original_10_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 4,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/11/original_11_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 3,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/12/original_12_legacy-photo_1080.jpg",
+            "01to20/13/original_13_legacy-photo_1080.jpg"
+          ],
+          "hamming": 5,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/15/original_15_legacy-photo_1080.jpg",
+            "01to20/16/original_16_legacy-photo_1080.jpg"
+          ],
+          "hamming": 2,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/15/original_15_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 3,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        },
+        {
+          "files": [
+            "01to20/16/original_16_legacy-photo_1080.jpg",
+            "01to20/17/original_17_legacy-photo_1080.jpg"
+          ],
+          "hamming": 3,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        }
+      ],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval",
+      "observed_explicit_shade_name_numbers": [],
+      "unwanted_shades_21_to_26_in_file_names": [],
+      "option_mapping_requires_physical_edition_verification": true
+    },
+    "pending-09": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-09-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-09-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 91908,
+          "SHA256": "9c719a0038430eb827b440efd82ca607171e1d1f98f7d7d63b8c68a48a3fea53",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000001111001011110000110100011101001111010010011000000000000",
+          "gray_stddev": 50.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-09-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 227473,
+          "SHA256": "6e5e2e70beb1e17131d10cb39e04526c4a9cde4b3d2c2893e432bd54711a42a5",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0101101101001011001000100010001000100111101010101010001010100101",
+          "gray_stddev": 43.3,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-09-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 296062,
+          "SHA256": "291e4116c8660ab669641e5fb37bef9e57cecd0ac8bbd08db16ef7e84231ffb9",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100010010100100001001000011011011100000100100100100110001101100",
+          "gray_stddev": 45.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-09-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 160411,
+          "SHA256": "a3c5f4cd301b92a0feb2d07e3cd31fe78efbdddbd57a9613ac65753bad328682",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001111110011001100001011100110100101011101100111011100010110001",
+          "gray_stddev": 42.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-09-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 186030,
+          "SHA256": "93366a7062f95f627cb068b4808522ca46f300edef57da8f666cd86fdc3ea2fb",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011000010000010100010011110011011100110111001101110011010110001",
+          "gray_stddev": 51.8,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "ea8405782785af5ac8df3ffe88ba5b80ae67d3e5a679598ee032b1a615fd8e0d",
+      "archive_size_bytes": 962646,
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-10": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-10-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-10-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 146565,
+          "SHA256": "822f3325d56fe0874fb8c221c37c64fc09b6d25267d22c76484cbedb40fef6b1",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000110010100000000111101100111011100010111100101111001000000000",
+          "gray_stddev": 89.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-10-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 122382,
+          "SHA256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100000010100011110111001100000011010010110100100010110110000010",
+          "gray_stddev": 76.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-10-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 204036,
+          "SHA256": "bbe37fea266311c7f9430c1fafa52072e162d5013990786ee5ea379408ce4158",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000001111101100111001001100010011100100110001000100100000100111",
+          "gray_stddev": 78.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-10-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 229449,
+          "SHA256": "f34cf57adbc2702099a0714e4c493ddf3d16243ae2d357de1b020aa9c3c784e9",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1101001011110010110110001111100011101000110011101001111010010100",
+          "gray_stddev": 69.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-10-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 72448,
+          "SHA256": "cd7704ed8f9d0c7d447102a3df7a16c5235c92105c0c4b464dc445c3aee8d058",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001010010010111001101000100110010001110100011000100010000000",
+          "gray_stddev": 24.0,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "5ba0a70e4180ab90ad1dd13025d50c79e8a4e0efb6ac5bb8427be6a073bb3547",
+      "archive_size_bytes": 775642,
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Replace fifth photo slot with different permitted exact-edition product photograph only if independent-photo requirement applies"
+    },
+    "pending-11": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-11-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-11-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 61512,
+          "SHA256": "48cf8f877b1ef89701302d9b9cff72854338004aa2852402abefa5f959d78f37",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010011000001100100011001000111010001100100011101010110010",
+          "gray_stddev": 20.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-11-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 188819,
+          "SHA256": "044a1cd940aab144bff2a6a349552dc3f89f057b9315c2838a80fe7426ce5d1d",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010000100001100011011000000101100001110011011100100000111",
+          "gray_stddev": 38.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-11-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 162379,
+          "SHA256": "d67d74808833ca31fb3a15787011c04c8dc271f1e8b63cfc750413bf404cc0f2",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010000010011110011111000011000110100111001111100100000011",
+          "gray_stddev": 24.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-11-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 176362,
+          "SHA256": "a0c9d28d19159e9771e18d1f54d746e78b58a651411ec7436aa9a0cb4e5d7bf1",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1011000010000010011110011111010011010100110110001111000100000011",
+          "gray_stddev": 28.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-11-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 209506,
+          "SHA256": "329c223adfbb8f0585232224f2bb86d1c2808b3f252ce33a002ba2b42fa06e69",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010000010011110001011100010111000011111001111000100000011",
+          "gray_stddev": 48.4,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "e4dd094a4a6f0c141ce6e1b7fd4fc348b2c9360bd7e3aa933282a154e1428c50",
+      "archive_size_bytes": 799340,
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-12": {
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "previous_stage": "VARIANT_EDITION_MISMATCH_HOLD",
+      "next_action": "Resolve physical label before sales claim, preserve existing 15mL card as reference"
+    },
+    "pending-13": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-13-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-13-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 70303,
+          "SHA256": "703c7d4e3d883364813e09087dfbf9ad08f5c4a422dd8b86b17036be6abf03ff",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000000011100001100001011000010110000101100101011001000110000",
+          "gray_stddev": 60.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-13-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 117709,
+          "SHA256": "b0e701a7e786e06f5a11d9a55e0ddeafe321e97adc0af875ce807c06cdb777e1",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0111000001100000011100000111100111111001111110010111100101111001",
+          "gray_stddev": 79.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-13-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 87486,
+          "SHA256": "7c24e325f3f0eafacaab46ff9058c7eb4a9d27fe9536673a0c2a9c0cd2bd6f91",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0111100001110000011100000111000101100001011000000110100101101001",
+          "gray_stddev": 38.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-13-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 109789,
+          "SHA256": "12c545132465d2daa1b74263679ce6853e51516c18b5511d1c10acf700247a1c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010000011001100110011001110110011101101111011001110110000000000",
+          "gray_stddev": 89.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-13-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 81792,
+          "SHA256": "11f91bc8497a2165b4e9626f5d7d81dff62e1439343dbe1b444adf76ddb2093a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001011001110101100001010000111000110110110101000000110000001",
+          "gray_stddev": 24.6,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "f983e795083997c5e1d9264c687e05587838dbe7fc2b56d2af0dffa1fe735170",
+      "archive_size_bytes": 467841,
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Preserve 30 mL source images; seek independent licensed fifth scene"
+    },
+    "pending-14": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-14-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-14-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 129900,
+          "SHA256": "1fa717a5584709d12a338eb7d812ca6ffdd15e639bc27303349bdaa190935a3a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010010000110111001101110011011100110011001100110011110000",
+          "gray_stddev": 90.3,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-14-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 68977,
+          "SHA256": "ba0114decf65fa46dda47cae15dab6b71a201333aa7be97fd51525015213460f",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0101000010000110101100101011001001110010010011111001000010001000",
+          "gray_stddev": 39.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-14-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 56611,
+          "SHA256": "2634135ae6c63a118ddef63a398ce2d0b7585ddfe42eb2490d98710b64ffb616",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0110110010010010100110011011001010110010000011011001000010001000",
+          "gray_stddev": 34.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-14-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 105145,
+          "SHA256": "89aed042d1152ec8c444333770b2ae857ccd7ae1a270f136f9ccf54504db6f5f",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011001100000001011010010111100000110011011100111011011011001000",
+          "gray_stddev": 56.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-14-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 83379,
+          "SHA256": "f8aab7d2504157f3f6315cfcafbf2fde63726151d775781502a7a77255aa87e0",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001010010010110010001010000111010110100110001000000110000000",
+          "gray_stddev": 24.2,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "79a6b4cc474e6c42919deb13c81f4a6135b7c840a9a449598238f8995b497de9",
+      "archive_size_bytes": 444774,
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Repair pasted rectangular source backgrounds only in frames 2-3 after provenance clearance"
+    },
+    "pending-15": {
+      "archive": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_GreenMildUpSunPlus_2022_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-15-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 71089,
+          "SHA256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010101000001100010011000100110001001100000011000010110000",
+          "gray_stddev": 12.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-15-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 151986,
+          "SHA256": "6b3a4a3666fc5667efa24145fb9e1f6166042106241c2db0dd7d9b94d9f52afc",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000010000010001000011111100011011000001101001000100100000011",
+          "gray_stddev": 14.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-15-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 160484,
+          "SHA256": "8d52f556bce540fa149a4430b87ec1fcc317434f2a7426f677524544adf1eacd",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000010000100001100101011100101011001011110011001001100010011",
+          "gray_stddev": 25.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-15-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 163003,
+          "SHA256": "7f3ea992bc3af9dc36396faaa8e8103bdca250ba26db754f2b1b954882d7f46d",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000010000100000000011111000011110000110110001000001100000111",
+          "gray_stddev": 25.8,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-15-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 132071,
+          "SHA256": "b1503b4a4be8d174d64d07e903a637c3659be58d4112adbbd9a90e3ab0d23887",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000010000010001100011111010011001110001001001000000100000011",
+          "gray_stddev": 16.3,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "dc9285ce12a0444b2ff8727ccfcee078e8d43428794fd9394a61b3d1aa96e219",
+      "archive_size_bytes": 679495,
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "QA_CANDIDATE_REJECTED_2022_PRODUCT_EDGE",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Do not retry failed cyan halo mask. Obtain exact 2022-version licensed new native scene; model photo rights on hold."
+    },
+    "pending-16": {
+      "archive": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_RedBlemishCream_2022_70mL_5HISTORIC_SOURCE_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-16-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 92558,
+          "SHA256": "a68f9b0956a1edf56a0e0af100323d8f5868672c645cff4052b8b2b35a4f16ad",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010000010000110011111100101110000011110011001000100000111",
+          "gray_stddev": 23.8,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-16-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 89605,
+          "SHA256": "17c12aad66a7696de5ca859f0bd2e71c68ce24e554e6f1e776b012c076bd9145",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010000010000110011001100101101001001011011000110100000011",
+          "gray_stddev": 33.1,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-16-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 94270,
+          "SHA256": "3ff07100b8f5ca4ebdbd9d3d8fa2f687ff583818edbd87d39d14b3952eeecc0d",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010000010011011011111100101110001001100011001000100000111",
+          "gray_stddev": 19.3,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-16-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 96295,
+          "SHA256": "3f4aa0b81985760ca95a7391bb7443d732e834194c228b2fbc75feb91106c8b2",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001100010000010001110011011100101111001011110011000000100001011",
+          "gray_stddev": 31.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-16-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 92779,
+          "SHA256": "0a62a56a4b28805c4576dccaede5da93bea8ac3d074cbc27e32c882d6c3b7e48",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010000010001011001011100001111001011110011100100100000111",
+          "gray_stddev": 26.0,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "14fe13c9b02392a6f59a4374ce7b5efee3461b0d159173edc4d3a855cd07eead",
+      "archive_size_bytes": 466369,
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-17": {
+      "archive": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningMoistureSun_2023_50mL_5HISTORIC_SOURCE_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-17-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 129290,
+          "SHA256": "1901d1e8f6d53888e03c80819b3efe2f6da99752ecb9a482544201b7445fbfce",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001010001000011111000110100101101000011100001100010100000011",
+          "gray_stddev": 21.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-17-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 164350,
+          "SHA256": "a7f643fda4350b9dc26c4ed698f5bd75277bb7fc80e160cfd83a6726f333f9c8",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000001001000000011000001101110011001100011001001100100000000011",
+          "gray_stddev": 38.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-17-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 132683,
+          "SHA256": "2ca0483b69b387a27aac57514acd36521041d02082486198955ca92c2da1ebce",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000110110100011101001011010000110100001101001011010000001011",
+          "gray_stddev": 33.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-17-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 116995,
+          "SHA256": "942c208e9bfea0dce2d12516158e9557a82285d59665cdf4e4fc13771ffec080",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010010000001111001011010000111100001110001000011000001011",
+          "gray_stddev": 24.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-17-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 116852,
+          "SHA256": "22c81ed5d01ae2840c3a6fc00ce5e3254fdae50f0c4e440538d62c1e9d89a448",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010000100011010010111100101100001011000001000001100010011",
+          "gray_stddev": 16.5,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "9df7ca41f0ae5a8e5ae500ef5254ef7966247dfc722ec36caa511a1a6ead565b",
+      "archive_size_bytes": 661032,
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-18": {
+      "archive": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningUpSunPlus_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-18-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 72241,
+          "SHA256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010100000001100010011000100110001001100000011000010110000",
+          "gray_stddev": 13.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-18-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 142682,
+          "SHA256": "254aee0e0f1ac1cf5d842f4bad2d487b88ba5b84f721c8642c2cf88eb3b8ea6d",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010010010100001110001001100010011100100110001001101010000000011",
+          "gray_stddev": 36.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-18-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 185378,
+          "SHA256": "ee8907f6a49b324517e1ff3f51e81ce27c5b12df0e0b05fcd025f9b07c3ce894",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010100000011000010110100101110001001110011001100100011001",
+          "gray_stddev": 35.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-18-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 213926,
+          "SHA256": "e3df9b823a530665ebf154a2b57dcdda33c3cc7fb2e05a5fa41e2f2ba90f1fb0",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000110000100011001000111110001001100010011001111110000110100",
+          "gray_stddev": 50.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-18-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 117176,
+          "SHA256": "66493f8937561e8392af96a1f86f23087c956c2cb396da6fd935e6b20f20797a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010000100000110001110000011000000001100001001100000001011",
+          "gray_stddev": 14.6,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "f6814730487aa784d0cf2aae2614048ecf92e059220647095a3baf23418bf9d0",
+      "archive_size_bytes": 732265,
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-19": {
+      "archive": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-19-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 64028,
+          "SHA256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000000000000000000000110100101111001011100010110100000000000",
+          "gray_stddev": 18.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-19-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 83045,
+          "SHA256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000110000111000111100001101110011010000110100001101010001001000",
+          "gray_stddev": 21.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-19-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 192391,
+          "SHA256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1111111011101110111010101110010111100110101111100111110011110000",
+          "gray_stddev": 31.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-19-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 174982,
+          "SHA256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0010001100001110011110000110011001111000110010010001111000001000",
+          "gray_stddev": 56.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-19-archived-source-UNCHANGED-QA.jpg",
+          "bytes": 53171,
+          "SHA256": "ed7be360ebbc6184f7a258c2173c86c303c1ba3570741ef131c54944c209b997",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000000000000100000111001111000011100000110110100111111001111110",
+          "gray_stddev": 15.6,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "b2bf2f7c2ff17c28361362968f62455a7d1d8b8c19c0e00d411ce66c4035f1e4",
+      "archive_size_bytes": 568479,
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-21": {
+      "archive": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 65153,
+          "SHA256": "e9e2ebc804482a8d74e60cfc25257df540960ac1a8d36219f980cc6c2905292e",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000110010001001100011011000100110001000100010011000110010001",
+          "gray_stddev": 13.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 44233,
+          "SHA256": "efafb6ad146a09afe1249ffea69749c4e4f91a0229f98258e0bce726cf657a6a",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011000000110010001100000011000000110000001100000011000000110000",
+          "gray_stddev": 13.8,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 65380,
+          "SHA256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011000000110000011100000111000011010010111100000011000000110000",
+          "gray_stddev": 13.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 69375,
+          "SHA256": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011000001110000011100000111000001110000011100000011000000110000",
+          "gray_stddev": 13.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+          "bytes": 70917,
+          "SHA256": "072f9dd39f2715f481040f6d400ecdecdf719ec2c7a47ff5648e959a12d5c36d",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000101000001010000111100011101000110110011001100110111000000010",
+          "gray_stddev": 12.7,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "40a6cb6bcec451f861af1f4300c5564fac36365936a92d43c0cd7b4d957f2558",
+      "archive_size_bytes": 315920,
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [
+        {
+          "files": [
+            "03-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+            "04-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg"
+          ],
+          "hamming": 5,
+          "classification": "MANUAL_REVIEW_ONLY_NOT_CONFIRMED_COPY"
+        }
+      ],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Resolve physical packaging/version, image rights and original MK before retail approval"
+    },
+    "pending-22": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-22-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-22-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 67072,
+          "SHA256": "962bae495566a7122e4e898d5ff005d2df2fcf079b07485dee75ead689d8d958",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000110110001001100100111100101111001011110010111100111110000",
+          "gray_stddev": 29.4,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-22-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 162731,
+          "SHA256": "0ab7541042297bab7944d9e6eb125fd6778662560391ed172027837861084558",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010000010011100001110100011101000011010001111000100010111",
+          "gray_stddev": 40.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-22-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 203327,
+          "SHA256": "b63c11734890e4b313142f5c3bd60a8d17acaa1af7a9a9b538585c06cc289223",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010000010000010011100011111010010010110111000000111000100000111",
+          "gray_stddev": 76.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-22-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 180421,
+          "SHA256": "688df5a1bc5f3f31332744ebfca4c92f9de6c3ab9db0116f28974296e20c82a0",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1011000010000010011100011111000010000110110011001111100100000111",
+          "gray_stddev": 73.6,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-22-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 186394,
+          "SHA256": "702c1a4d5ca3dbc72750729390321a873945436766367deb838c1be57fb50392",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000010010010011110011001110010111110101111001111100000010011",
+          "gray_stddev": 51.2,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "c4bb77d2a02695dfdbd1597f82c974861fc776df752324b632976286441b0652",
+      "archive_size_bytes": 800707,
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Correct blur/mask only on affected frames using actual exact-edition native photograph; do not alter source"
+    },
+    "pending-24": {
+      "archive": "qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail/BIOHEAL_NAD-PRIZCELL_GlowPowerSerum30mL_5SOURCE_INTERNAL_QA.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-24-SHA-VERIFIED-NOT-RETAIL.jpg",
+          "bytes": 107768,
+          "SHA256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010010000001100101011001010110010101100101011001010110010",
+          "gray_stddev": 31.1,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-24-SHA-VERIFIED-NOT-RETAIL.jpg",
+          "bytes": 175959,
+          "SHA256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0000111100010111000101110011001100110011000100110001001100110011",
+          "gray_stddev": 28.7,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-24-SHA-VERIFIED-NOT-RETAIL.jpg",
+          "bytes": 201351,
+          "SHA256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0001011100010111000101110000011110011111000011110001011100010111",
+          "gray_stddev": 45.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-24-SHA-VERIFIED-NOT-RETAIL.jpg",
+          "bytes": 203017,
+          "SHA256": "1d45520b1e2367c84589e43a0380e94dc00404afb72f049541d0e1cc1d0eb5ab",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000010010001110000011110001011100010111000011110001011100010111",
+          "gray_stddev": 56.2,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-24-SHA-VERIFIED-NOT-RETAIL.jpg",
+          "bytes": 343927,
+          "SHA256": "e2ed06414ed749cda351e9762e42df0b1b8b810b3f15470726dd5dd134bdb84b",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0001001100110011001100110011001100110011001100110011001100110011",
+          "gray_stddev": 42.5,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "d700953505664a9b6fb6ef60a3e4a5f5de0b7fa9c9a453fb83654551d4ae4fca",
+      "archive_size_bytes": 1032834,
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Reuse photos after rights clearance; separate customer-facing styling from QA card"
+    },
+    "pending-26": {
+      "archive": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-26-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "exists": true,
+      "zip_CRC_pass": true,
+      "JPG_files": [
+        {
+          "name": "01-pending-26-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 72871,
+          "SHA256": "54a2b907a73500927ddd06890556aa0ac2b95e045ca27d44084614fc5c58cda7",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100000010010000000100101011001000110010001100101011001010110010",
+          "gray_stddev": 26.1,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "02-pending-26-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 187258,
+          "SHA256": "1ce4ebb33f3449cdf7a52066691867021acbb360a3bdaa6b53f48038800ca1f1",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001100010000000001110101010100101111001011110011111100100110011",
+          "gray_stddev": 25.9,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "03-pending-26-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 189507,
+          "SHA256": "eca7c7d3a1de14f93cde48df042842e0adcde8727f82fd6074e125619568f37e",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010101000001000001101100011100000001000001011000100010011",
+          "gray_stddev": 18.0,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "04-pending-26-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 155807,
+          "SHA256": "8f23914b0431d9142eebd81ad866c6247b265a4954017b380bc638c4b82e5678",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000010001000011100100111000011010000010110001001000100010011",
+          "gray_stddev": 25.5,
+          "is_small_1080_JPEG": true
+        },
+        {
+          "name": "05-pending-26-IMMUTABLE-PHOTO-QA.jpg",
+          "bytes": 165462,
+          "SHA256": "aa0d92f86a2df1c971fcb315cb35e588f315feaa7df9fa08c79337cc8e754b29",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000100010010000001100101011001001110010001100101011001100110011",
+          "gray_stddev": 20.8,
+          "is_small_1080_JPEG": true
+        }
+      ],
+      "PNG_files": [],
+      "other_images": [],
+      "other_entries": 0,
+      "errors": [],
+      "archive_SHA256": "dea54fdc706e08a61ad9e96a3b0cabfb10ca057d27608ceaa89cb5c0b8fc46de",
+      "archive_size_bytes": 771667,
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "status": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "previous_stage": "5_ARCHIVED_SOURCE_FRAMES_INTERNAL_QA_ONLY",
+      "JPG_count": 5,
+      "PNG_count": 0,
+      "invalid_JPGs": [],
+      "same_byte_duplicates": [],
+      "visually_similar_hash_candidates": [],
+      "source_photo_5_scene_count_proven": false,
+      "safety_release": "NOT_APPROVED_RIGHTS_STOCK_MK",
+      "next_action": "Confirm original logo against plugin bundled binary before any retail release"
+    }
+  },
+  "next_queue": [
+    {
+      "family": "pending-01",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-02",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-03",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-04",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-05",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+    },
+    {
+      "family": "pending-06",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+    },
+    {
+      "family": "pending-07",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+    },
+    {
+      "family": "pending-08",
+      "state": "PERIPERA_01_TO_20_OPTION_REFERENCES_NOT_RETAIL",
+      "immediate": "Compare only listed near-duplicate frames against exact physical edition; keep archive unchanged."
+    },
+    {
+      "family": "pending-09",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-10",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-11",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-12",
+      "state": "NO_ARCHIVE_VARIANT_EDITION_HOLD",
+      "immediate": "Resolve missing archive or wrong edition from existing source ledger; avoid image duplication."
+    },
+    {
+      "family": "pending-13",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-14",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-15",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-16",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-17",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-18",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-19",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-21",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Compare only listed near-duplicate frames against exact physical edition; keep archive unchanged."
+    },
+    {
+      "family": "pending-22",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-24",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    },
+    {
+      "family": "pending-26",
+      "state": "JPG_COUNT_TECH_PASS_SEMANTIC_AND_RIGHTS_PENDING",
+      "immediate": "Clear product rights and stock/MK, no new source search."
+    }
+  ],
+  "no_final_spreadsheet_shared": true
+}
