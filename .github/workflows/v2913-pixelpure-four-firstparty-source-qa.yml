@@ -1,0 +1,40 @@
+name: Shopee v2913 PixelPure four official product photo original gallery acquisition
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2913-pixelpure-four-firstparty-source-qa.yml'
+      - 'scripts/v2913_pixelpure_four_official_gallery_source_acquisition.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  collect_four_pixelpure_manufacturer_galleries_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Acquire product-specific manufacturer native photos; internal QA only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2913_pixelpure_four_official_gallery_source_acquisition.py
+          cp scripts/v2913_pixelpure_four_official_gallery_source_acquisition.py /tmp/v2913.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2913work qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2913work
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA
+          python /tmp/v2913.py
+          git add qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA
+          git diff --cached --name-only | tee /tmp/v2913-changed
+          ! grep -Ev '^qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/' /tmp/v2913-changed
+          git commit -m 'v2913 archive manufacturer gallery source photos for four PixelPure inventory items for internal QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
