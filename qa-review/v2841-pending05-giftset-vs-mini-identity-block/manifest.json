@@ -1,0 +1,33 @@
+{
+  "gate_id": "QA-PENDING05-PRODUCT-IDENTITY-20261105",
+  "type": "STOCK_VS_QA_PRODUCT_IDENTITY_BLOCK",
+  "created_from_successful_crosswalk": "evidence/inventory-30-family-crosswalk-20261104.json",
+  "inventory_family_id": "pending-05",
+  "inventory_product": "CLIO Kill Cover Founwear Cushion gift set / 기획세트",
+  "inventory_exact_options": [
+    "19N Porcelain",
+    "19C Light",
+    "21N Linen",
+    "21C Lingerie",
+    "23N Ginger"
+  ],
+  "inventory_option_count": 5,
+  "incorrectly_mapped_QA_reference": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets/manifest.json",
+  "incorrectly_mapped_QA_product": "CLIO Kill Cover Founwear The Original MINI 5g",
+  "incorrectly_mapped_options": [
+    "21C Lingerie",
+    "21N Linen"
+  ],
+  "cause": "Distinct physical set vs single MINI 5g, 5-option vs 2-option; old QA manifest uses pending-05 ID for different item.",
+  "decision": "HOLD_PRODUCT_IDENTITY_INCOMPATIBLE",
+  "customer_gallery_use": "BLOCK_AS_PENDING05_SALE_IMAGE",
+  "retain_source_assets": true,
+  "do_not_delete_or_overwrite_existing_JPG": true,
+  "do_not_count_mini_5g_gallery_as_gift_set_release_progress": true,
+  "next": "Treat verified mini 5g source files as separate references only. For pending-05 source exact Founwear cushion GIFT SET with stock edition and 19N/19C/21N/21C/23N options. No fabricated mini-to-set mappings.",
+  "old_published_groups_11_untouched": true,
+  "old_verified_URLs_55_untouched": true,
+  "final_excel_shared": false,
+  "new_sales_approvals": 0,
+  "note": "Product identity protection, not photo rights clearance or final sales approval."
+}
