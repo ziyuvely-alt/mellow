@@ -1,0 +1,177 @@
+{
+  "pending-03": {
+    "product": "MISSHA M Perfect Cover BB Cream 50mL, legacy gold-pump packaging",
+    "frame_count": 5,
+    "existing_shade_labelled_reference_photos": 3,
+    "new_original_non_photo_info_frames": 2,
+    "photo_origins_independently_licensed": false,
+    "real_swatch_colors_verified": false,
+    "source_identity_warning": "Existing 21/23/25 merchant sources show legacy bottles; actual owned edition not proven, official current product shade naming only.",
+    "old_rejected_model_or_before_after_frames_included": false,
+    "old_two_shade_23_25_only_chart_included": false,
+    "frames": [
+      {
+        "slot": 1,
+        "photo": true,
+        "role": "EXISTING_SHADE_SPECIFIC_LEGACY_GOLD_PUMP_21",
+        "existing_source_path": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No21_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+        "source_SHA256": "d7d8eda503335a4e75678e4bd3fad13e76f2b167f5bf91321fd8f4b2303bb2ff",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 125196,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 2,
+        "photo": true,
+        "role": "EXISTING_SHADE_SPECIFIC_LEGACY_GOLD_PUMP_23",
+        "existing_source_path": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No23_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+        "source_SHA256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 115656,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 3,
+        "photo": true,
+        "role": "EXISTING_SHADE_SPECIFIC_LEGACY_GOLD_PUMP_25",
+        "existing_source_path": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No25_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+        "source_SHA256": "489fb57fb87f638693dcbe3f78429a5946916d72397c7ef6113d380d35acd764",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 126660,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 4,
+        "photo": false,
+        "role": "ORIGINAL_ENGLISH_BRAND_USAGE_INSTRUCTIONS_NOT_PHOTO",
+        "existing_source_path": "qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106/pending-03-MISSHA-BB-50mL-original-apply-guide-INTERNAL-QA.jpg",
+        "source_SHA256": "41e88cef4c26cbdd0c6a1c66b09ebf5e1905eb12268441db7ce57d20556fa9b4",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 120558,
+        "technical_validated_now": true,
+        "commercial_photo_rights": true,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 5,
+        "photo": false,
+        "role": "ORIGINAL_NO21_NO23_NO25_SHADE_NAME_GUIDE_NO_SWATCH",
+        "existing_source_path": "qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106/pending-03-MISSHA-BB-50mL-No21-23-25-option-names-INTERNAL-QA.jpg",
+        "source_SHA256": "dd9e88478c1106d00cf20805a817b7dc76b7b739e68ef69fae530d13e585ab14",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 116813,
+        "technical_validated_now": true,
+        "commercial_photo_rights": true,
+        "MK_original_logo_verified": false
+      }
+    ]
+  },
+  "pending-04": {
+    "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+    "frame_count": 5,
+    "existing_shade_labelled_reference_photos": 3,
+    "new_original_non_photo_info_frames": 2,
+    "photo_origins_independently_licensed": false,
+    "real_swatch_colors_verified": false,
+    "source_identity_warning": "Mini 21C/21N/23N source files selected by merchant labels; shared compact imagery can remain visually similar and must not be relabeled as physical color swatches.",
+    "old_duplicate_legacy_5frame_compact_views_included": false,
+    "frames": [
+      {
+        "slot": 1,
+        "photo": true,
+        "role": "EXISTING_MINI_SHADE_LABELLED_REFERENCE_21C",
+        "existing_source_path": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21C/01-PRESERVED_EXACT_21C_MERCHANT_SHADE_LABELLED-QA.jpg",
+        "source_SHA256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 94593,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 2,
+        "photo": true,
+        "role": "EXISTING_MINI_SHADE_LABELLED_REFERENCE_21N",
+        "existing_source_path": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21N/01-PRESERVED_EXACT_21N_MERCHANT_SHADE_LABELLED-QA.jpg",
+        "source_SHA256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 60016,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 3,
+        "photo": true,
+        "role": "EXISTING_MINI_SHADE_LABELLED_REFERENCE_23N",
+        "existing_source_path": "qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA/01-23N-GINGER-EXACT-SHADE-SOURCE-QA.jpg",
+        "source_SHA256": "710105bbf049c3f28b27b9df9819eec5862dfc0cffdf42972b0c792bf056a819",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 96976,
+        "technical_validated_now": true,
+        "commercial_photo_rights": false,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 4,
+        "photo": false,
+        "role": "ORIGINAL_ENGLISH_MINI_CUSHION_USAGE_GUIDE",
+        "existing_source_path": "qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106/pending-04-CLIO-mini5g-original-apply-guide-INTERNAL-QA.jpg",
+        "source_SHA256": "9131d247db60b5cbee7dabb071fe946a88f333a9675b412102e915b77d052fa2",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 116342,
+        "technical_validated_now": true,
+        "commercial_photo_rights": true,
+        "MK_original_logo_verified": false
+      },
+      {
+        "slot": 5,
+        "photo": false,
+        "role": "ORIGINAL_21C_21N_23N_SHADE_NAMES_NO_SWATCH",
+        "existing_source_path": "qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106/pending-04-CLIO-mini5g-21C-21N-23N-option-names-INTERNAL-QA.jpg",
+        "source_SHA256": "f07e9acdeb7360a648c4318a727ee449d042d9ae18bcae3e084e177481f22637",
+        "size": [
+          1080,
+          1080
+        ],
+        "JPG_bytes": 102124,
+        "technical_validated_now": true,
+        "commercial_photo_rights": true,
+        "MK_original_logo_verified": false
+      }
+    ]
+  }
+}
