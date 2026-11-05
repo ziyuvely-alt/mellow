@@ -1,0 +1,45 @@
+name: BBIA v316 refill native exact source acquisition
+on:
+  push:
+    branches:
+      - bbia-ch2-source-repair-v316-20261105
+    paths:
+      - .github/workflows/bbia-v316-refill-native.yml
+jobs:
+  native-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - name: Install image decoder
+        run: python -m pip install --quiet pillow
+      - name: Fetch only evidence-linked refill image
+        shell: bash
+        run: |
+          python - <<'PY'
+          import urllib.request, json, hashlib, io, os
+          from PIL import Image
+          url='https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/24/02/06/1000000124/1000000124_magnify_061.jpg'
+          req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; BBIA-v316-official-source-QA/1.0)','Accept':'image/jpeg,image/*'})
+          os.makedirs('v316_source',exist_ok=True)
+          try:
+           with urllib.request.urlopen(req,timeout=18) as response:
+            raw=response.read(4000000)
+            status=response.status
+            content_type=response.headers.get('Content-Type','')
+           image=Image.open(io.BytesIO(raw));image.load()
+           width,height=image.size
+           good=(status==200 and width>=400 and height>=400 and image.format=='JPEG')
+           if good:
+            open('v316_source/refill_1000000124_official_native.jpg','wb').write(raw)
+           meta={'goodsNo':'1000000124','source_url':url,'status':status,'mime':content_type,'format':image.format,'size':[width,height],'bytes':len(raw),'sha256':hashlib.sha256(raw).hexdigest(),'source_verified':good,'QA':'EXACT_REFILL_IDENTITY_PENDING'}
+          except Exception as e:
+           meta={'goodsNo':'1000000124','source_url':url,'source_verified':False,'error':str(e)[:400],'QA':'SOURCE_BLOCKED'}
+          open('v316_source/manifest.json','w',encoding='utf8').write(json.dumps(meta,ensure_ascii=False,indent=2))
+          print(json.dumps(meta,ensure_ascii=False))
+          PY
+      - name: Upload native source and factual manifest
+        uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v316-refill-native-qa-source
+          path: v316_source/
+          if-no-files-found: error
