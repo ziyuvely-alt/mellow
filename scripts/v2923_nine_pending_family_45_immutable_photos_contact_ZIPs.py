@@ -42,17 +42,17 @@ def dhash(rgb):
 def dist(a,b):return sum(x!=y for x,y in zip(a,b))
 def overview(fam,product,records):
  canvas=Image.new("RGB",(1080,1080),"#f6f6f8");d=ImageDraw.Draw(canvas)
- d.text((24,13),fam.upper()+" | EXISTING FIVE SOURCE PHOTOS",font(28),fill="#282828")
- d.text((24,52),product[:69],font(18),fill="#444")
- d.text((24,80),"INTERNAL VISUAL QA / edition, rights, MK and claims NOT approved",font(16),fill="#a32c2c")
+ d.text((24,13),fam.upper()+" | EXISTING FIVE SOURCE PHOTOS",font=font(28),fill="#282828")
+ d.text((24,52),product[:69],font=font(18),fill="#444")
+ d.text((24,80),"INTERNAL VISUAL QA / edition, rights, MK and claims NOT approved",font=font(16),fill="#a32c2c")
  for i,row in enumerate(records):
   x=20+(i%3)*350;y=117+(i//3)*433
   d.rounded_rectangle((x,y,x+336,y+413),radius=8,fill="white",outline="#ccc",width=2)
   fit=ImageOps.contain(row["img"],(318,335),Image.Resampling.LANCZOS)
   canvas.paste(fit,(x+168-fit.width//2,y+10+(335-fit.height)//2))
-  d.text((x+12,y+350),f"EXISTING SOURCE #{i+1}",font(18),fill="#343434")
-  d.text((x+12,y+384),"NOT RETAIL APPROVED",font(15),fill="#a32c2c")
- d.text((23,1036),"Existing source bytes not modified, near-similar scenes remain on QA hold.",font(16),fill="#666")
+  d.text((x+12,y+350),f"EXISTING SOURCE #{i+1}",font=font(18),fill="#343434")
+  d.text((x+12,y+384),"NOT RETAIL APPROVED",font=font(15),fill="#a32c2c")
+ d.text((23,1036),"Existing source bytes not modified, near-similar scenes remain on QA hold.",font=font(16),fill="#666")
  return canvas
 OUT.mkdir(parents=True)
 results=[]
