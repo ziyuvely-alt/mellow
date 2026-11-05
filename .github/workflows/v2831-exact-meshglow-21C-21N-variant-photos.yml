@@ -1,0 +1,33 @@
+name: Shopee v2831 Mesh Glow Essential Mini 5g exact 21C 21N shade photo source evidence
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2831-exact-meshglow-21C-21N-variant-photos.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  discover:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Save two exact-shade labelled photo candidates without replacing v2830 artwork
+        run: |
+          python scripts/v2831_meshglow_essential_21C_21N_exact_shade_sources.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2831-qa qa-assets/v2662-immutable-14-candidates
+          test ! -e /tmp/v2831-qa/qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference
+          cp -a qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference /tmp/v2831-qa/qa-review/
+          cd /tmp/v2831-qa
+          git add qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2831 two distinct 21C 21N Mesh Glow Essential Mini 5g merchant reference images; all retail assets untouched'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
