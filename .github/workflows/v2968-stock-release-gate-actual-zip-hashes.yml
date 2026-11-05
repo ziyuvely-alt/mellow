@@ -1,0 +1,35 @@
+name: Shopee v2968 six family JPG hashes and 30-family hard release gates
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2968-stock-release-gate-actual-zip-hashes.yml'
+      - 'scripts/v2968_release_gate_sha_inventory_30families.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  check-existing-bytes-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: SHA256 ZIP CRC and actual JPEG inspection for 30-family production release gate
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2968-30-family-real-zip-integrity-and-no-repeat-gate-20261106
+          python scripts/v2968_release_gate_sha_inventory_30families.py
+          git add qa-review/v2968-30-family-real-zip-integrity-and-no-repeat-gate-20261106
+          git diff --cached --name-only | tee /tmp/v2968-paths
+          ! grep -Ev '^qa-review/v2968-30-family-real-zip-integrity-and-no-repeat-gate-20261106/' /tmp/v2968-paths
+          git commit -m "QA v2968: actual original ZIP source SHA CRC checks and 30-family no-publish gate"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
