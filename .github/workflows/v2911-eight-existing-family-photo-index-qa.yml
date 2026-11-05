@@ -1,0 +1,39 @@
+name: Shopee v2911 eight pending stock family existing-image batch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2911-eight-existing-family-photo-index-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  batch_index_existing_images_for_eight_missing_qa_families:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Reuse original QA files, contact-index eight pending families
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2911_eight_pending_family_existing_image_index_batch.py
+          cp scripts/v2911_eight_pending_family_existing_image_index_batch.py /tmp/v2911.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2911-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2911-qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA
+          python /tmp/v2911.py
+          git add qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA
+          git diff --cached --name-only | tee /tmp/changed-v2911.txt
+          ! grep -Ev '^qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/' /tmp/changed-v2911.txt
+          git commit -m 'v2911 index eight unresolved family photo archives into new non-retail review sheets only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
