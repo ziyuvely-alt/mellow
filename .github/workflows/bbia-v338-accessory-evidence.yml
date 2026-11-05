@@ -1,0 +1,81 @@
+name: BBIA v338 six new accessory families source evidence only
+on:
+  push:
+    branches: [bbia-ch2-qa-v338-20261105]
+    paths: [.github/workflows/bbia-v338-accessory-evidence.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - shell: bash
+        name: Pull six families' official main and first two detail sources once
+        run: |
+          python - <<'PY'
+          from concurrent.futures import ThreadPoolExecutor
+          from pathlib import Path
+          from urllib.request import Request, urlopen
+          from PIL import Image, ImageDraw, ImageOps
+          import hashlib, io, json
+          D=Path('/tmp/bbia-v338');D.mkdir(exist_ok=True)
+          source=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf-8'))
+          ids=['1000000185','1000000126','1000000200','1000000127','1000000251','1000000142']
+          families={str(q['product_id']):q for q in source['families']}
+          jobs=[]
+          for sku in ids:
+            f=families[sku]
+            jobs.append((sku,'MAIN',f['official_photo_url']))
+            jobs += [(sku,f'DETAIL_{i}',u) for i,u in enumerate(f.get('detail_references',[])[:2])]
+          def pull(job):
+            sku,role,url=job
+            r={'goodsNo':sku,'family':families[sku]['family'],'role':role,'url':url,'evidence_only':True}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA-Source-Only-Validation'}),timeout=19) as f:
+                raw=f.read(12000000)
+              with Image.open(io.BytesIO(raw)) as tmp:tmp.verify()
+              img=Image.open(io.BytesIO(raw));img.load()
+              name=f'BBIA_{sku}_{role}_OFFICIAL_v338.jpg'
+              (D/name).write_bytes(raw)
+              r.update(status='SOURCE_SAVED',filename=name,sha256=hashlib.sha256(raw).hexdigest(),size_bytes=len(raw),image_format=img.format,dimensions=list(img.size))
+              if min(img.size)<250:r['quality_flag']='LOW_NATIVE_DIMENSION'
+            except Exception as e:
+              r.update(status='HOLD_SOURCE_UNAVAILABLE',error=f'{type(e).__name__}: {str(e)[:180]}')
+            return r
+          with ThreadPoolExecutor(max_workers=6) as p: records=list(p.map(pull,jobs))
+          seen={}
+          for r in records:
+            if r['status']=='SOURCE_SAVED':
+              seen.setdefault(r['sha256'],[]).append({'sku':r['goodsNo'],'role':r['role']})
+          dup=[v for v in seen.values() if len(v)>1]
+          board=Image.new('RGB',(1800,len(ids)*300+70),'#f8f7f4')
+          pen=ImageDraw.Draw(board)
+          pen.text((18,18),'BBIA v338 | SIX ACCESSORY FAMILIES | REAL OFFICIAL SOURCE ONLY | SELLING QA NOT APPROVED',fill='#232323')
+          for row,sku in enumerate(ids):
+            y=row*300+55
+            pen.text((14,y),f'{sku} | {families[sku]["family"]}',fill='#161616')
+            for col,role in enumerate(['MAIN','DETAIL_0','DETAIL_1']):
+              x=col*600+10
+              r=next((a for a in records if a['goodsNo']==sku and a['role']==role),None)
+              if not r or r['status']!='SOURCE_SAVED':
+                pen.text((x+16,y+50),'HOLD - no source',fill='#bb3224')
+                continue
+              im=Image.open(D/r['filename']).convert('RGB')
+              im.thumbnail((410,245),Image.Resampling.LANCZOS)
+              board.paste(im,(x+10,y+28))
+              pen.text((x+415,y+40),role,fill='#333333')
+              pen.text((x+415,y+60),str(r['dimensions']),fill='#555555')
+              pen.text((x+415,y+80),r['sha256'][:11],fill='#555555')
+          board.save(D/'BBIA_v338_SIX_FAMILIES_OFFICIAL_SOURCE_CONTACT.jpg',quality=89,optimize=True)
+          checkpoint={'version':'v338','parent':'v337','source_type':'official main and official linked detail URLs','target_families':len(ids),'source_jobs':len(jobs),'successful':sum(r['status']=='SOURCE_SAVED' for r in records),'failed':sum(r['status']!='SOURCE_SAVED' for r in records),'duplicate_groups':dup,'records':records,'prior_active_EN_JPG_count':14,'new_sales_approved':0,'new_public_URLs':0,'final_excel_shared':False,'existing_live_55_unchanged':True,'note':'Source evidence only; official image URL alone does not approve a product SKU or confirm sellable 2P variant.'}
+          (D/'BBIA_v338_SIX_FAMILIES_SOURCE_CHECKPOINT.json').write_text(json.dumps(checkpoint,ensure_ascii=False,indent=2)+'\n',encoding='utf8')
+          print('V338_EVIDENCE',json.dumps({'jobs':len(jobs),'successful':checkpoint['successful'],'failed':checkpoint['failed'],'duplicate_groups':dup},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v338-six-accessory-official-originals
+          path: /tmp/bbia-v338
+          retention-days: 30
