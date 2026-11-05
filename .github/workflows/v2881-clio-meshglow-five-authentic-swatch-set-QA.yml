@@ -1,0 +1,37 @@
+name: Shopee v2881 CLIO Mesh Glow 15g+refill five real swatch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2881-clio-meshglow-five-authentic-swatch-set-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  five_genuine_shade_crops_one_common_compact:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Save original CLIO plus independent shade chart sources and compose five non-commercial QA references
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2881_clio_meshglow_five_real_swatch_qa.py
+          cp scripts/v2881_clio_meshglow_five_real_swatch_qa.py /tmp/v2881.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2881qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2881qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA
+          python /tmp/v2881.py
+          git add qa-review/v2881-clio-meshglow-five-real-labeled-swatch-chart-QA
+          git commit -m 'v2881 archive 5 true CLIO shade chart crop references and genuine source photos, keep giftset on hold'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
