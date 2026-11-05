@@ -1,0 +1,38 @@
+name: Shopee v2879 Peripera 26AD exact edition source CDN and variant ID QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2879-peripera26ad-direct-new-edition-CDN-variant.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  direct_CDN_one_pass:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install Pillow only
+        run: python -m pip install Pillow
+      - name: Source two actual new Mood Glowy 4g photos, optional explicit Shopify shade associations, no old release writes
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2879_peripera26ad_direct_shopify_source_photo_qa.py
+          cp scripts/v2879_peripera26ad_direct_shopify_source_photo_qa.py /tmp/v2879.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2879qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2879qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA
+          python /tmp/v2879.py
+          git add qa-review/v2879-peripera26ad-direct-CDN-and-shopify-variant-QA
+          git commit -m 'v2879 real new 26AD direct source photo QA and shade-associated merchant variant image audit, old legacy 20 locked'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
