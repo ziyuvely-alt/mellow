@@ -1,0 +1,40 @@
+name: Shopee v2918 two photo-complete groups byte-preserving 5JPG QA ZIP
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2918-two-photo-complete-five-jpg-qa-zip.yml'
+      - 'scripts/v2918_two_photo_complete_family_5frame_originalbyte_qa_zips.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  validate_10_old_original_photo_sources_and_make_two_internal_ZIPs:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Byte-verify originals and package only two new non-retail photo ZIPs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2918_two_photo_complete_family_5frame_originalbyte_qa_zips.py
+          cp scripts/v2918_two_photo_complete_family_5frame_originalbyte_qa_zips.py /tmp/v2918.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2918qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2918qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA
+          python /tmp/v2918.py
+          git add qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA
+          git diff --cached --name-only | tee /tmp/v2918-changed
+          ! grep -Ev '^qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/' /tmp/v2918-changed
+          git commit -m 'v2918 archive two original-byte five-JPG QA ZIPs, no prior source changes'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
