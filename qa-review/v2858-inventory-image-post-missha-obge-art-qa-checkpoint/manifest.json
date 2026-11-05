@@ -1,0 +1,113 @@
+{
+  "version": "v2858",
+  "created_on": "2026-11-05",
+  "project": "Inventory image QA 82 SKU / 41 families, preserve 11 published and 55 URLs",
+  "previous_success": "v2857",
+  "checkpoint_type": "PRODUCT_IMAGE_QUALITY_AND_EXECUTION_RESUME_GATES",
+  "priority_audit": [
+    {
+      "id": "pending-13",
+      "product": "MISSHA PDRN NAD+ serum 30ml",
+      "latest_art": "qa-review/v2855-missha30ml-dropper-residue-precision-alpha-QA/01-MISSHA30ml-clean-foreground-1080-QA.jpg",
+      "latest_png": "qa-review/v2855-missha30ml-dropper-residue-precision-alpha-QA/01-MISSHA30ml-dropper-residue-cleaned-original-RGB-QA.png",
+      "technical_status": "NEW_1080_JPG_AND_PNG_GENERATED_VISUALLY_SMALL_RED_RESIDUE_REMAINS",
+      "selected_for_sales": false,
+      "new_alpha_pixel_changes": 1979,
+      "old_fiveframe_bytes_preserved": true,
+      "next": "Do not rerun failed fixed-500px approach; obtain genuinely clean bottle photograph or edit upper residue after high zoom, photo rights/owned edition required"
+    },
+    {
+      "id": "pending-22",
+      "product": "OBgE Max Waterful Sun Cream 300ml",
+      "latest_art": "qa-review/v2857-obge300ml-official-beige-source-true-alpha-recovery-QA/01-OBgE300mL-clean-official-photo-hero-1080-QA.jpg",
+      "latest_png": "qa-review/v2857-obge300ml-official-beige-source-true-alpha-recovery-QA/01-OBgE300mL-official-600px-native-packshot-clean-TRUE-ALPHA-QA.png",
+      "technical_status": "ORIGINAL_PHOTO_GRABCUT_VISUAL_CANDIDATE_COMPLETE_BOTTLE_NOT_PUBLISHED",
+      "source_native_px": [
+        600,
+        600
+      ],
+      "source_upscaled": true,
+      "new_source_bottle_mask_bbox": [
+        392,
+        207,
+        297,
+        667
+      ],
+      "v2856_alternative": "REJECT_SALES_DIAGONAL_RIGHT_SHOULDER_CLIP",
+      "v2711_alternative": "REJECT_SALES_CROPPED_BOTTLE_BASE",
+      "old_source_JPGs_preserved": true,
+      "selected_for_sales": false,
+      "next": "Prefer v2857 visual reference, do not rerun old contour mask; 100% halo inspection and licensed higher-resolution exact product photo needed"
+    },
+    {
+      "id": "pending-09",
+      "product": "OBgE Oil Control Finisher 5g",
+      "existing_reference": "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/manifest.json",
+      "existing_5_JPG_QA_count": 5,
+      "technical_status": "EXISTING_GOOD_QA_5_PHOTOS_SKIP_REGENERATION",
+      "selected_for_sales": false,
+      "next": "Confirm source rights, real stock version, original MK; no image recreation unless failed final QA"
+    },
+    {
+      "id": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Eye Cream 30ml",
+      "existing_reference": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/manifest.json",
+      "technical_status": "EXISTING_5_JPG_QA_SKIP_REGENERATION",
+      "selected_for_sales": false,
+      "next": "Check 25AD exact generation, true MK logo and commercial image rights before release"
+    }
+  ],
+  "other_prior_checkpoint_holds": [
+    {
+      "family": "pending-08",
+      "reason": "26AD 01-20 are NOT interchangeable with legacy 20 shades; v2853 block all old photos"
+    },
+    {
+      "family": "pending-05",
+      "reason": "Founwear 5 exact shade photo refs in v2852; still no verified giftset packaging"
+    },
+    {
+      "family": "pending-06",
+      "reason": "Mesh Glow Essential 5 exact shade photo refs in v2851; bundle details not verified"
+    },
+    {
+      "family": "pending-07",
+      "reason": "Mesh Blur 3 shade photo refs in v2849; 15g+refill package proof needs review"
+    }
+  ],
+  "next_unfinished_priorities": [
+    {
+      "family": "pending-01",
+      "focus": "MISSHA Magic Cushion Cover Lasting; use existing 21/23/25/27 shade sources and validate intact true compact silhouette, no old clipped hero"
+    },
+    {
+      "family": "pending-12",
+      "focus": "MISSHA Peel Shot 25 stock physical unit and exact packaging 15mL vs 15g"
+    },
+    {
+      "family": "pending-10",
+      "focus": "OBgE Perfect Homme Cushion verify owned 13g versus image 15g before any listing"
+    },
+    {
+      "family": "pending-08",
+      "focus": "26AD actual photos/edition and photo rights for 01-20; no legacy substitution"
+    }
+  ],
+  "safety": {
+    "original_11_published_families_no_write": true,
+    "original_55_verified_public_URLs_no_write": true,
+    "existing_QA_images_no_overwrite": true,
+    "new_retail_approved_groups": 0,
+    "new_public_URLs": 0,
+    "authentic_MK_logo_unavailable_for_verification": true,
+    "exact_stock_packaging_still_unverified": true,
+    "image_copyright_rights_still_unverified": true,
+    "final_XLSX_or_spreadsheet_shared": false
+  },
+  "outcomes_this_execution": {
+    "v2855": "SUCCESS new PNG and JPG; partial cap residue cleanup",
+    "v2856": "SUCCESS produced alternative, rejected after visual inspection due diagonal shoulder crop",
+    "v2857": "SUCCESS different original photo source, true-alpha PNG and JPG, preferred internal QA candidate",
+    "v2858": "Non-destructive incremental state checkpoint, next queues and approval holds"
+  }
+}
