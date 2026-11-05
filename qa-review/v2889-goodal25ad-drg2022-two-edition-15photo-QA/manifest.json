@@ -1,0 +1,245 @@
+{
+  "version": "v2889",
+  "baseline": "v2888",
+  "families": [
+    "pending-21",
+    "pending-15",
+    "pending-18"
+  ],
+  "existing_source_JPGs_immutably_checked": 15,
+  "new_sale_artwork": 0,
+  "new_visual_QA_comparisons": 2,
+  "new_visual_JPGs": [
+    {
+      "file": "qa-review/v2889-goodal25ad-drg2022-two-edition-15photo-QA/v2889-DrG-Green-vs-Brightening-actual-source-two-identity-QA.jpg",
+      "sha256": "2727ced5a6a9854160bb0b64757cb09784ffad9a7e43b3c59873c1b6924574a8"
+    },
+    {
+      "file": "qa-review/v2889-goodal25ad-drg2022-two-edition-15photo-QA/v2889-Goodal-renewal-yellow-tube-silver-cap-25ad-gate-QA.jpg",
+      "sha256": "7845291bf001128c9f33fa7ef3a2ec0043d88d4d2c09ee352a7fe3b52ec9baa6"
+    }
+  ],
+  "photo_rights_confirmed": false,
+  "physical_owned_stock_packages_confirmed": false,
+  "Goodal_25AD_in_same_physical_edition_as_2026_renewal": false,
+  "DrG_owned_2022_packaging_exact_match_confirmed": false,
+  "DrG_Brightening_vs_Moisture_are_not_interchangeable": true,
+  "DrG_existing_frames2to5_source_MK_mark_unverified": true,
+  "old_11_sales_groups_preserved": true,
+  "old_55_published_urls_preserved": true,
+  "old_photo_sources_changed": false,
+  "new_retail_approved": 0,
+  "new_public_urls": 0,
+  "frame_provenance": [
+    {
+      "family": "pending-21",
+      "files": [
+        {
+          "slot": 1,
+          "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/01-existing-true-alpha-2026-tube-hero-QA.jpg",
+          "immutable_git_blob": "a87da32584aa311c4ad2eec4ee65c21f3488c14d",
+          "source_SHA256": "e9e2ebc804482a8d74e60cfc25257df540960ac1a8d36219f980cc6c2905292e",
+          "size_bytes": 65153,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 2,
+          "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/02-original-2026-single-yellow-tube-full-QA.jpg",
+          "immutable_git_blob": "3ff196f9460ee58b4bdc515acfdfc7f459bd5da3",
+          "source_SHA256": "efafb6ad146a09afe1249ffea69749c4e4f91a0229f98258e0bce726cf657a6a",
+          "size_bytes": 44233,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 3,
+          "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/03-original-2026-yellow-tube-cream-swatch-QA.jpg",
+          "immutable_git_blob": "eac3acd60a68beb383ba85f7082831b129d562f7",
+          "source_SHA256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+          "size_bytes": 65380,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 4,
+          "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/04-real-tube-front-and-silver-cap-full-detail-QA.jpg",
+          "immutable_git_blob": "96f8f698281834d0a19f99f1423c73502c0454a1",
+          "source_SHA256": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+          "size_bytes": 69375,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 5,
+          "path": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/05-real-cream-texture-macro-no-extra-gifts-QA.jpg",
+          "immutable_git_blob": "cc767bac614103c32bd56922605324f62528613e",
+          "source_SHA256": "072f9dd39f2715f481040f6d400ecdecdf719ec2c7a47ff5648e959a12d5c36d",
+          "size_bytes": 70917,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        }
+      ],
+      "frames_existing_total": 5,
+      "new_original_photographs_downloaded": 0,
+      "new_sale_approvals": 0,
+      "source_files_modified": false
+    },
+    {
+      "family": "pending-15",
+      "files": [
+        {
+          "slot": 1,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/01-prior-verified-real-alpha-hero-QA.jpg",
+          "immutable_git_blob": "3da3b9403edbc845448f859cb0657a6062d44cf4",
+          "source_SHA256": "c6ea9e2ad7304d69059ba2bdcd859604a1aae908aea75a483ffc08192c11e4e4",
+          "size_bytes": 71089,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 2,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/02-source-archive-story-QA.jpg",
+          "immutable_git_blob": "a07f8fa18496ae000d126f76af4de98f1021f9f6",
+          "source_SHA256": "6b3a4a3666fc5667efa24145fb9e1f6166042106241c2db0dd7d9b94d9f52afc",
+          "size_bytes": 151986,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 3,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/03-source-archive-story-QA.jpg",
+          "immutable_git_blob": "248a84df85bf652735dba3fbb52adba24b512edd",
+          "source_SHA256": "8d52f556bce540fa149a4430b87ec1fcc317434f2a7426f677524544adf1eacd",
+          "size_bytes": 160484,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 4,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/04-source-archive-story-QA.jpg",
+          "immutable_git_blob": "982a1806a06e71f67af1d655a3f4808e9604d70a",
+          "source_SHA256": "7f3ea992bc3af9dc36396faaa8e8103bdca250ba26db754f2b1b954882d7f46d",
+          "size_bytes": 163003,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 5,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/05-source-archive-story-QA.jpg",
+          "immutable_git_blob": "a6c6a082f75128e61918a607c2082b16ba2df675",
+          "source_SHA256": "b1503b4a4be8d174d64d07e903a637c3659be58d4112adbbd9a90e3ab0d23887",
+          "size_bytes": 132071,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        }
+      ],
+      "frames_existing_total": 5,
+      "new_original_photographs_downloaded": 0,
+      "new_sale_approvals": 0,
+      "source_files_modified": false
+    },
+    {
+      "family": "pending-18",
+      "files": [
+        {
+          "slot": 1,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/01-prior-verified-real-alpha-hero-QA.jpg",
+          "immutable_git_blob": "fe4ff6174cd580d5f602b5f2f724d4d3b9e69d82",
+          "source_SHA256": "374a61ec008fbe37abc1f7b4595286ca5870130697aba89530d275ab7d32537a",
+          "size_bytes": 72241,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 2,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/02-source-archive-story-QA.jpg",
+          "immutable_git_blob": "8378dd3b097c4326e1f5bb1f20a9ddf618d44673",
+          "source_SHA256": "254aee0e0f1ac1cf5d842f4bad2d487b88ba5b84f721c8642c2cf88eb3b8ea6d",
+          "size_bytes": 142682,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 3,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/03-source-archive-story-QA.jpg",
+          "immutable_git_blob": "baa4d4820cf44df1de8ff4cb6d69a607b2ccfe9b",
+          "source_SHA256": "ee8907f6a49b324517e1ff3f51e81ce27c5b12df0e0b05fcd025f9b07c3ce894",
+          "size_bytes": 185378,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 4,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/04-source-archive-story-QA.jpg",
+          "immutable_git_blob": "1c539aedb22042f180cfef301b77aa8148260671",
+          "source_SHA256": "e3df9b823a530665ebf154a2b57dcdda33c3cc7fb2e05a5fa41e2f2ba90f1fb0",
+          "size_bytes": 213926,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        },
+        {
+          "slot": 5,
+          "path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/05-source-archive-story-QA.jpg",
+          "immutable_git_blob": "97d50b4c2aa82848c41c81bf772aa875778d0720",
+          "source_SHA256": "66493f8937561e8392af96a1f86f23087c956c2cb396da6fd935e6b20f20797a",
+          "size_bytes": 117176,
+          "native_staged_px": [
+            1080,
+            1080
+          ],
+          "same_original_photo_scene_independently_proven": false
+        }
+      ],
+      "frames_existing_total": 5,
+      "new_original_photographs_downloaded": 0,
+      "new_sale_approvals": 0,
+      "source_files_modified": false
+    }
+  ],
+  "checkpoint": "qa-review/v2889-goodal25ad-drg2022-two-edition-15photo-QA/stock30-incremental-state-v2889.json",
+  "final_spreadsheet_shared": false,
+  "next": "Pursue only outstanding owned-package photo labels and licensed imagery; do not regenerate already-preserved 5x3 scenes. Review outstanding families with no 5-frame QA set or missing photo source, and avoid repeating partial versions."
+}
