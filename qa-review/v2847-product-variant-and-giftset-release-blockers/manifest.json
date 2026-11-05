@@ -1,0 +1,215 @@
+{
+  "version": "v2847",
+  "baseline": "v2846",
+  "record_type": "NONDESTRUCTIVE_SELLER_UPLOAD_IDENTITY_RELEASE_GATES",
+  "sources": [
+    "qa-review/v2846-recursive-nested-family-identity-audit/manifest.json",
+    "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+    "evidence/inventory-30-family-crosswalk-20261104.json"
+  ],
+  "inventory_pending_groups": 30,
+  "priority_hold_records": 12,
+  "priority_hold_manifest_refs": [
+    {
+      "path": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2817-clio-mini-23N-one-alpha-QA/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO The Original Mini 5g 23N",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear The Original Mini 5g #23N",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO The Original Mini 5g | Mini Kill Cover Founwear Cushion The Original 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Founwear The Original Mini 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear The Original Mini Cushion 5g",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "source": "v2844"
+    },
+    {
+      "path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/manifest.json",
+      "family": "pending-05",
+      "product": "Kill Cover Founwear Cushion Mini",
+      "reasons": [
+        "GIFT_SET_VS_MINI_HOLD"
+      ],
+      "source": "v2846"
+    },
+    {
+      "path": "qa-review/v2794-clio-official-detail-original-photo-discovery/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Mini",
+      "reasons": [
+        "GIFT_SET_VS_MINI_HOLD"
+      ],
+      "source": "v2846"
+    },
+    {
+      "path": "qa-review/v2795-clio-mini-meshblur-target-only-single-case-cutout-tests/manifest.json",
+      "family": "pending-05",
+      "product": "CLIO Kill Cover Founwear Mini 5g",
+      "reasons": [
+        "GIFT_SET_VS_MINI_HOLD"
+      ],
+      "source": "v2846"
+    }
+  ],
+  "additional_release_format_gates": [
+    {
+      "family": "pending-05",
+      "inventory_product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "prior_source_product": "CLIO Kill Cover Founwear Cushion Mini 5g",
+      "reference_manifest": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "candidate_photos_saved": 4,
+      "sample_source_file": "pending-05/01-official-5750-m-gif-REFERENCE.jpg",
+      "source_rights_confirmed": false,
+      "actual_stock_set_confirmed": false,
+      "rule": "MINI_5G_SOURCE_CANNOT_PROVE_GIFT_SET",
+      "status": "HOLD_WRONG_OR_UNVERIFIED_PACKAGE_FORMAT"
+    },
+    {
+      "family": "pending-06",
+      "inventory_product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "prior_source_product": "CLIO Kill Cover Mesh Glow Essential Cushion single compact",
+      "reference_manifest": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "candidate_photos_saved": 2,
+      "sample_source_file": "pending-06/01-official-6182-m-gif-REFERENCE.jpg",
+      "source_rights_confirmed": false,
+      "actual_stock_set_confirmed": false,
+      "rule": "SINGLE_OR_PROMOTIONAL_SET_IMAGE_MUST_MATCH_EXACT_OWNED_GIFT_SET",
+      "status": "HOLD_WRONG_OR_UNVERIFIED_PACKAGE_FORMAT"
+    },
+    {
+      "family": "pending-07",
+      "inventory_product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "prior_source_product": "CLIO Kill Cover Mesh Blur Cushion single compact",
+      "reference_manifest": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "candidate_photos_saved": 2,
+      "sample_source_file": "pending-07/01-official-6455-m-gif-REFERENCE.jpg",
+      "source_rights_confirmed": false,
+      "actual_stock_set_confirmed": false,
+      "rule": "SINGLE_OR_PROMOTIONAL_SET_IMAGE_MUST_MATCH_EXACT_OWNED_GIFT_SET",
+      "status": "HOLD_WRONG_OR_UNVERIFIED_PACKAGE_FORMAT"
+    }
+  ],
+  "options_pending05": [
+    "19N Porcelain",
+    "19C Light",
+    "21N Linen",
+    "21C Lingerie",
+    "23N Ginger"
+  ],
+  "options_pending06": [
+    "19N Porcelain",
+    "19C Light",
+    "21N Linen",
+    "21C Lingerie",
+    "23N Ginger"
+  ],
+  "options_pending07": [
+    "19C Light",
+    "19N Porcelain",
+    "21N Linen"
+  ],
+  "future_upload_checks": [
+    {
+      "step": "CHECK_STOCK_FAMILY",
+      "assertion": "Exact inventory product and bundle/set configuration must match each image"
+    },
+    {
+      "step": "CHECK_VARIANT",
+      "assertion": "Only stock-listed shades; never substitute mini or another shade"
+    },
+    {
+      "step": "CHECK_LICENSE",
+      "assertion": "Photo copyright/reuse permissions and original MK logo need independent confirmation"
+    },
+    {
+      "step": "CHECK_REAL_ART",
+      "assertion": "At least five or six distinct authentic good-quality images, with human visual and package QA"
+    },
+    {
+      "step": "CHECK_LINKS",
+      "assertion": "Create and verify NEW public URLs only after passing gates; preserve original 55 URLs"
+    }
+  ],
+  "strict_public_release_allowed": false,
+  "related_product_groups_not_to_be_conflated": {
+    "pending-04": "Mesh Glow Essential Mini 5g",
+    "pending-05": "Founwear Cushion gift set",
+    "pending-06": "Mesh Glow Essential Cushion gift set",
+    "pending-07": "Mesh Blur Cushion 15g x2 gift set"
+  },
+  "unclassified_original_QA_files": 12,
+  "source_artwork_modified": 0,
+  "old_11_approved_families_unchanged": true,
+  "old_55_public_verified_urls_unchanged": true,
+  "new_sales_approved": 0,
+  "final_excel_shared": false,
+  "next": "Resume only on exact stock-matching, commercially usable original photos. QA references remain preserved and blocked for publication."
+}
