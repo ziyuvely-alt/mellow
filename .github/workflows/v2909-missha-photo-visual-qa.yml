@@ -1,0 +1,39 @@
+name: Shopee v2909 MISSHA four new-source visual QA and non-overwriting comparison
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2909-missha-photo-visual-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect_four_firstparty_photos_without_publishing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Inspect four v2908 scenes and stage two NEW QA comparisons only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2909_missha_four_scene_visual_qa_no_regen.py
+          cp scripts/v2909_missha_four_scene_visual_qa_no_regen.py /tmp/missha_v2909.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/missha-v2909-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/missha-v2909-qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2909-missha-pdrn-v2908-four-photo-visual-and-duplicate-QA
+          python /tmp/missha_v2909.py
+          git add qa-review/v2909-missha-pdrn-v2908-four-photo-visual-and-duplicate-QA
+          git diff --cached --name-only | tee /tmp/v2909-changed.txt
+          ! grep -Ev '^qa-review/v2909-missha-pdrn-v2908-four-photo-visual-and-duplicate-QA/' /tmp/v2909-changed.txt
+          git commit -m 'v2909 internal 4-photo visual review and 2 comparison JPGs; no prior files changed'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
