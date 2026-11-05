@@ -24,6 +24,12 @@ jobs:
         run: |
           set -euo pipefail
           python -m py_compile scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py
+          python - <<'PY'
+          from pathlib import Path
+          s=Path("scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py").read_text()
+          assert '{"pending-24":4,"pending-25":3}' in s
+          print("v2932 source-count preflight passed")
+          PY
           cp scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py /tmp/v2932.py
           git fetch origin qa-assets/v2662-immutable-14-candidates
           git worktree add /tmp/v2932qa qa-assets/v2662-immutable-14-candidates
