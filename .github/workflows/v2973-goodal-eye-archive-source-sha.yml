@@ -1,0 +1,35 @@
+name: Shopee v2973 Goodal eyecream false duplicate resolve SHA only
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2973-goodal-eye-archive-source-sha.yml'
+      - 'scripts/v2973_goodal_eye_03_04_visual_duplicate_false_alarm_check.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  compare-original-bytes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Verify two original bytes, do not replace otherwise valid image
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2973-goodal-eyecream-duplicate-false-alarm-resolution-20261106
+          python scripts/v2973_goodal_eye_03_04_visual_duplicate_false_alarm_check.py
+          git add qa-review/v2973-goodal-eyecream-duplicate-false-alarm-resolution-20261106
+          git diff --cached --name-only | tee /tmp/v2973-only
+          ! grep -Ev '^qa-review/v2973-goodal-eyecream-duplicate-false-alarm-resolution-20261106/.*\.json$' /tmp/v2973-only
+          git commit -m "QA v2973 compare actual Goodal eye cream source frames, preserve correct distinct photos"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
