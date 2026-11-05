@@ -1,0 +1,35 @@
+name: Shopee v2971 four variant-held groups and peripera 01-20 photo inventory
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2971-orphan-family-options-actual-JPG-QA.yml'
+      - 'scripts/v2971_orphan_family_existing_frames_and_peripera20_inventory.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit-existing-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Audit exact pre-existing JPGs for four held families and 01-20 only
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2971-four-orphan-product-photo-sets-peripera20-options-20261106
+          python scripts/v2971_orphan_family_existing_frames_and_peripera20_inventory.py
+          git add qa-review/v2971-four-orphan-product-photo-sets-peripera20-options-20261106
+          git diff --cached --name-only | tee /tmp/v2971-appendonly
+          ! grep -Ev '^qa-review/v2971-four-orphan-product-photo-sets-peripera20-options-20261106/.*\.json$' /tmp/v2971-appendonly
+          git commit -m "QA v2971: hold exact variant conflicts, source hashes and peripera 01-20 inventory JSON only"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
