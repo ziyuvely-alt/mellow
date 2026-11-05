@@ -1,0 +1,74 @@
+name: BBIA v354 new cushion powder sources deduplicated
+on:
+  push:
+    branches: [bbia-ch2-qa-v354-20261105]
+    paths: [.github/workflows/bbia-v354-source-delta.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source-delta:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Collect 4 families without re-downloading shared main/refill references
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          import io,json,hashlib
+          out=Path('/tmp/bbia-v354');out.mkdir(parents=True,exist_ok=True)
+          source=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf-8'))
+          by_id={str(a['product_id']):a for a in source['families']}
+          ids=['1000000184','1000000178','1000000179','1000000124']
+          references=[]
+          for sku in ids:
+            a=by_id[sku]
+            for role,url in [('MAIN',a.get('official_photo_url'))]+[('DETAIL_'+str(i),url) for i,url in enumerate(a.get('detail_references',[])[:3])]:
+              if url:references.append({'sku':sku,'family':a['family'],'role':role,'url':url})
+          distinct=list(dict.fromkeys(a['url'] for a in references))
+          def fetch_url(url):
+            record={'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA-v354 original source audit'}),timeout=22) as conn:raw=conn.read(16000000)
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:
+                im.load();size=list(im.size);fmt=im.format
+              digest=hashlib.sha256(raw).hexdigest()
+              filename='BBIA_v354_UNIQUE_'+digest[:20]+'.'+('jpg' if fmt=='JPEG' else fmt.lower())
+              (out/filename).write_bytes(raw)
+              record.update(status='SOURCE_SAVED',filename=filename,sha256=digest,size_bytes=len(raw),dimensions=size,format=fmt)
+            except Exception as ex:
+              record.update(status='HOLD_UNAVAILABLE',error=f'{type(ex).__name__}:{str(ex)[:180]}')
+            return record
+          with ThreadPoolExecutor(max_workers=6) as pool: fetched=list(pool.map(fetch_url,distinct))
+          cache={r['url']:r for r in fetched}
+          rows=[{**r,**{k:v for k,v in cache[r['url']].items() if k!='url'}} for r in references]
+          board=Image.new('RGB',(1750,4*370+65),'#f6f3f0');pen=ImageDraw.Draw(board)
+          pen.text((20,12),'BBIA v354 | 4 families | original source proof | no retail approval',fill='#202124')
+          for ri,sku in enumerate(ids):
+            pen.text((12,60+ri*370),sku+' '+by_id[sku]['family'],fill='#222222')
+            for ci,role in enumerate(['MAIN','DETAIL_0','DETAIL_1','DETAIL_2']):
+              x=ci*437+9;y=90+ri*370
+              r=next((z for z in rows if z['sku']==sku and z['role']==role),None)
+              if not r or r['status']!='SOURCE_SAVED':
+                pen.text((x+5,y+20),role+' - HOLD',fill='#a33a38');continue
+              im=Image.open(out/r['filename']).convert('RGB')
+              if im.height>im.width*2.5:im=im.crop((0,0,im.width,min(im.height,im.width*2.0)))
+              im.thumbnail((405,298),Image.Resampling.LANCZOS)
+              board.paste(im,(x,y+2))
+              pen.text((x,y+305),role+' '+str(r['dimensions']),fill='#444444')
+          board.save(out/'BBIA_v354_CUSHION_POWDER_ORIGINALS_CONTACT.jpg',quality=88,optimize=True)
+          checkpoint={'checkpoint':'v354','parent':'v353','families':ids,'references':len(references),'unique_urls_requested':len(distinct),'unique_originals_success':sum(r['status']=='SOURCE_SAVED' for r in fetched),'records':rows,'unique_source_records':fetched,'option_claims_approved':False,'powder_fact_7g_vs_9g':'HOLD_SPECIFICATION_MISMATCH','matte_cushion_full_refill_overlap':'SHARED_DETAIL_NOT_INDEPENDENT_REFILL_PHOTO','eau_glow_refill_prior_detail_preserved':True,'existing_55_public_urls_unchanged':True,'no_sales_approval':True,'no_final_excel':True}
+          (out/'BBIA_v354_SOURCE_DELTA_CHECKPOINT.json').write_text(json.dumps(checkpoint,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+          print(json.dumps({'references':len(references),'distinct_urls':len(distinct),'unique_success':checkpoint['unique_originals_success']},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v354-dedup-cushion-powder-original-sources
+          path: /tmp/bbia-v354
+          retention-days: 30
