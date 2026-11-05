@@ -1,0 +1,262 @@
+{
+  "version": "v2910",
+  "baseline": "v2909",
+  "generated_at_UTC": "2026-11-05T14:01:01Z",
+  "old_10_JPGs_inspected": 10,
+  "new_internal_visual_QA_contact_JPGs": 2,
+  "old_image_bytes_rewritten": 0,
+  "previous_public_image_URLs_changed": 0,
+  "existing_commercial_11_families_modified": 0,
+  "old_55_verified_public_URLs_protected": true,
+  "sales_release_approvals": 0,
+  "new_retail_images_published": 0,
+  "original_MK_logo_verified": false,
+  "stock_batch_reconciled": false,
+  "photo_commercial_rights_verified": false,
+  "cases": [
+    {
+      "family": "pending-16",
+      "name": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL, 2022 old edition",
+      "original_commit": "0d261a616cacb756108936ff05e520ec22e5f5fe",
+      "existing_history_photos_validated": 5,
+      "missing_from_current_main": 0,
+      "old_files_recovered_in_history_without_restoring_public_assets": true,
+      "comparison_path": "qa-review/v2910-drg-2022-red-and-2023-moisture-sun-10-existing-image-qa/pending-16-five-existing-frames-1080-INTERNAL-QA.jpg",
+      "frames": [
+        {
+          "slot": 1,
+          "role": "OLD_JAR_FRONT",
+          "existing_immutable_history_source": "0d261a616cacb756108936ff05e520ec22e5f5fe:public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/a68f9b0956a1_01.jpg",
+          "source_bytes_sha256": "a68f9b0956a1edf56a0e0af100323d8f5868672c645cff4052b8b2b35a4f16ad",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 92558,
+          "present_in_current_main": true,
+          "visual_observation": "Old label R.E.D BLEMISH green-band 70mL jar appears; exact owned 2022 label not confirmed",
+          "blocking_flags": [
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "role": "MODEL_HOLD",
+          "existing_immutable_history_source": "0d261a616cacb756108936ff05e520ec22e5f5fe:public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/17c12aad66a7_02.jpg",
+          "source_bytes_sha256": "17c12aad66a7696de5ca859f0bd2e71c68ce24e554e6f1e776b012c076bd9145",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 89605,
+          "present_in_current_main": true,
+          "visual_observation": "Model holding visibly green-band Dr.G jar, third-party portrait/model release needed",
+          "blocking_flags": [
+            "MODEL_PHOTO_RIGHTS",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "role": "HANDS_HOLD",
+          "existing_immutable_history_source": "0d261a616cacb756108936ff05e520ec22e5f5fe:public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/3ff07100b8f5_03.jpg",
+          "source_bytes_sha256": "3ff07100b8f5ca4ebdbd9d3d8fa2f687ff583818edbd87d39d14b3952eeecc0d",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 94270,
+          "present_in_current_main": true,
+          "visual_observation": "Open jar with finger in cream, old green-band visible, rights/edition hold",
+          "blocking_flags": [
+            "HAND_PHOTO_RIGHTS",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "role": "OLD_JAR_CLOSEUP",
+          "existing_immutable_history_source": "0d261a616cacb756108936ff05e520ec22e5f5fe:public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/3f4aa0b81985_04.jpg",
+          "source_bytes_sha256": "3f4aa0b81985760ca95a7391bb7443d732e834194c228b2fbc75feb91106c8b2",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 96295,
+          "present_in_current_main": true,
+          "visual_observation": "Close-up front jar marked R.E.D BLEMISH, green-band, no visible EX word",
+          "blocking_flags": [
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "role": "OPEN_OLD_JAR",
+          "existing_immutable_history_source": "0d261a616cacb756108936ff05e520ec22e5f5fe:public/owned86/20261029/drg-red-blemish-clear-soothing-cream-70ml/0a62a56a4b28_05.jpg",
+          "source_bytes_sha256": "0a62a56a4b28805c4576dccaede5da93bea8ac3d074cbc27e32c882d6c3b7e48",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 92779,
+          "present_in_current_main": true,
+          "visual_observation": "Open cream jar label and texture, 70mL text visible",
+          "blocking_flags": [
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "retail_status": "UNAPPROVED_EXACT_STOCK_MK_LOGO_RIGHTS_HOLD"
+    },
+    {
+      "family": "pending-17",
+      "name": "Dr.G Brightening Up Moisture Sun 50mL, 2023 edition",
+      "original_commit": "1eff81ba41fe71740e18ac1793efaa7f26f90430",
+      "existing_history_photos_validated": 5,
+      "missing_from_current_main": 5,
+      "old_files_recovered_in_history_without_restoring_public_assets": true,
+      "comparison_path": "qa-review/v2910-drg-2022-red-and-2023-moisture-sun-10-existing-image-qa/pending-17-five-existing-frames-1080-INTERNAL-QA.jpg",
+      "frames": [
+        {
+          "slot": 1,
+          "role": "TUBE_HERO",
+          "existing_immutable_history_source": "1eff81ba41fe71740e18ac1793efaa7f26f90430:public/owned86/20261029/drg-brightening-up-moisture-sun-50ml/1901d1e8f6d5_01.jpg",
+          "source_bytes_sha256": "1901d1e8f6d53888e03c80819b3efe2f6da99752ecb9a482544201b7445fbfce",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 129290,
+          "present_in_current_main": false,
+          "visual_observation": "Beige 50mL tube, orange sun logo; confirms visual Moisture Sun edition only, not actual stock",
+          "blocking_flags": [
+            "SPF_CLAIM_NEEDS_LABEL_CHECK",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 2,
+          "role": "MODEL_HANDS_HOLD",
+          "existing_immutable_history_source": "1eff81ba41fe71740e18ac1793efaa7f26f90430:public/owned86/20261029/drg-brightening-up-moisture-sun-50ml/a7f643fda435_02.jpg",
+          "source_bytes_sha256": "a7f643fda4350b9dc26c4ed698f5bd75277bb7fc80e160cfd83a6726f333f9c8",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 164350,
+          "present_in_current_main": false,
+          "visual_observation": "Tube applied over arms and held in hands; image usage/model rights not verified",
+          "blocking_flags": [
+            "MODEL_HANDS_RIGHTS",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 3,
+          "role": "TUBE_USAGE",
+          "existing_immutable_history_source": "1eff81ba41fe71740e18ac1793efaa7f26f90430:public/owned86/20261029/drg-brightening-up-moisture-sun-50ml/2ca0483b69b3_03.jpg",
+          "source_bytes_sha256": "2ca0483b69b387a27aac57514acd36521041d02082486198955ca92c2da1ebce",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 132683,
+          "present_in_current_main": false,
+          "visual_observation": "Tube dispenses cream onto fingertip; package partially cropped",
+          "blocking_flags": [
+            "HANDS_RIGHTS",
+            "SUNSCREEN_USE_CLAIMS_VERIFY",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 4,
+          "role": "TUBE_DETAIL",
+          "existing_immutable_history_source": "1eff81ba41fe71740e18ac1793efaa7f26f90430:public/owned86/20261029/drg-brightening-up-moisture-sun-50ml/942c208e9bfe_04.jpg",
+          "source_bytes_sha256": "942c208e9bfea0dce2d12516158e9557a82285d59665cdf4e4fc13771ffec080",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 116995,
+          "present_in_current_main": false,
+          "visual_observation": "Beige tube with cap off and cream line; 'Vegan' in footer must be supported or removed before sale",
+          "blocking_flags": [
+            "VEGAN_CLAIM_UNVERIFIED",
+            "SPF_CLAIM_NEEDS_LABEL_CHECK",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        },
+        {
+          "slot": 5,
+          "role": "TEXTURE_ONLY",
+          "existing_immutable_history_source": "1eff81ba41fe71740e18ac1793efaa7f26f90430:public/owned86/20261029/drg-brightening-up-moisture-sun-50ml/22c81ed5d01a_05.jpg",
+          "source_bytes_sha256": "22c81ed5d01ae2840c3a6fc00ce5e3254fdae50f0c4e440538d62c1e9d89a448",
+          "image_format": "JPEG",
+          "image_pixels": [
+            1080,
+            1080
+          ],
+          "image_bytes": 116852,
+          "present_in_current_main": false,
+          "visual_observation": "Beige cream strokes show texture, cannot independently prove exact product edition",
+          "blocking_flags": [
+            "TEXTURE_NOT_STOCK_PROOF",
+            "UNAUTHENTICATED_MK_LOGO_IN_ARTWORK",
+            "EXACT_OWNED_STOCK_EDITION_UNCONFIRMED",
+            "PHOTO_COMMERCIAL_USE_RIGHTS_UNCONFIRMED"
+          ],
+          "photo_rights_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "retail_status": "UNAPPROVED_EXACT_STOCK_MK_LOGO_RIGHTS_HOLD"
+    }
+  ],
+  "final_spreadsheet_shared": false
+}
