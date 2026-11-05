@@ -1,0 +1,79 @@
+{
+  "version": "v2849",
+  "family": "pending-07",
+  "source": "https://lacosmetique.com.au/products/kill-cover-mesh-blur-cushion-refill-set.js",
+  "product": "CLIO Kill Cover Mesh Blur Cushion Refill Set",
+  "stock_required_shades": [
+    "19C",
+    "19N",
+    "21N"
+  ],
+  "expected_stock_contents": "Cushion 15g + refill 15g",
+  "no_out_of_stock_extra_shade_usage": true,
+  "downloaded_photos_internal_QA_only": true,
+  "actual_owned_stock_version_verified": false,
+  "merchant_photo_commercial_redistribution_rights_verified": false,
+  "original_MK_logo_authenticated": false,
+  "previous_11_approved_groups_untouched": true,
+  "previous_55_URLs_untouched": true,
+  "prior_QA_unchanged": true,
+  "new_sales_approved": 0,
+  "final_excel_shared": false,
+  "variants": [
+    {
+      "shade": "19C",
+      "shade_name": "Light",
+      "matched_variant_count": 1,
+      "status": "EXACT_VARIANT_PHOTO_SAVED_QA_RETAIL_HOLD",
+      "variant_id": 51435507220711,
+      "variant_linked_photo_url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-blur-cushion-refill-set-7443050.png?v=1779944236",
+      "file": "19C-MERCHANT-EXACT-PHOTO-1080-INTERNAL-QA.jpg",
+      "source_size": [
+        1200,
+        1200
+      ],
+      "raw_sha256": "a37756524721d4aef1ef9648d23a4bccab319eda4ca4399c6fd4507ee782eed2",
+      "jpg_sha256": "e0eb6abde88fc513f8a25c86a8718ff86e87e40b72f0318c49ce9389ed71b519",
+      "jpg_bytes": 52026
+    },
+    {
+      "shade": "19N",
+      "shade_name": "Porcelain",
+      "matched_variant_count": 1,
+      "status": "EXACT_VARIANT_PHOTO_SAVED_QA_RETAIL_HOLD",
+      "variant_id": 51435507253479,
+      "variant_linked_photo_url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-blur-cushion-refill-set-8193733.png?v=1779944236",
+      "file": "19N-MERCHANT-EXACT-PHOTO-1080-INTERNAL-QA.jpg",
+      "source_size": [
+        1200,
+        1200
+      ],
+      "raw_sha256": "63a13fe37de18d490087050c42137b77c02e1ce803f391e199c7544cd6857eab",
+      "jpg_sha256": "11a230b5b34c0bc9920e85f4a91ebb14617c77bb6f2e43b18867178ddce3d350",
+      "jpg_bytes": 50262
+    },
+    {
+      "shade": "21N",
+      "shade_name": "Linen",
+      "matched_variant_count": 1,
+      "status": "EXACT_VARIANT_PHOTO_SAVED_QA_RETAIL_HOLD",
+      "variant_id": 51435507319015,
+      "variant_linked_photo_url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-blur-cushion-refill-set-9464225.png?v=1779944237",
+      "file": "21N-MERCHANT-EXACT-PHOTO-1080-INTERNAL-QA.jpg",
+      "source_size": [
+        1200,
+        1200
+      ],
+      "raw_sha256": "5bf74c77072eb8bc926b917fb878b1f66ebde16ea01277c3a7ffa9edeec23f8e",
+      "jpg_sha256": "4a7c59e2dad5da6be72f6eab73f56e59b3f9db2a34f53a143044d604336dcfaf",
+      "jpg_bytes": 52219
+    }
+  ],
+  "merchant_title": "Kill Cover Mesh Blur Cushion Refill Set",
+  "variant_count": 5,
+  "shopify_product_id": 9361875763431,
+  "source_photos_saved_count": 3,
+  "source_photos_not_saved_count": 0,
+  "retail_ready_variants_count": 0,
+  "release_status": "HOLD_STOCK_PACKAGING_LICENSE_MK_VISUAL_QA"
+}
