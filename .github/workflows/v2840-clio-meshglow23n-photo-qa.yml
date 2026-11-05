@@ -1,0 +1,32 @@
+name: Shopee v2840 CLIO Mesh Glow Mini 23N five real-photo QA without reviews
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2840-clio-meshglow23n-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  curate_23n:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Assemble new 23N QA photo set from existing exact and common photos
+        run: |
+          cp scripts/v2840_clio_meshglow23N_photo_gallery_qa.py /tmp/v2840.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2840qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2840qa
+          python /tmp/v2840.py
+          git add qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2840 staged only 23N new QA gallery; prior images and URLs unchanged'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
