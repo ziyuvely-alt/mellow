@@ -1,0 +1,114 @@
+{
+  "version": "v2834",
+  "baseline": "v2833",
+  "family": "pending-04",
+  "product": "CLIO Mesh Glow Essential Mini 5g",
+  "shade": "21N Linen",
+  "prior_source_native_pixels": [
+    480,
+    480
+  ],
+  "attempted_sources": [
+    {
+      "merchant": "W Cosmetics Australia",
+      "url": "https://wcosmetics.com.au/products/clio-kill-cover-mesh-glow-essential-cushion-mini.js",
+      "exact_21N_variants_found": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "merchant": "La Cosmetique Australia",
+      "url": "https://lacosmetique.com.au/products/kill-cover-mesh-glow-essential-cushion-mini-3-shades.js",
+      "exact_21N_variants_found": 1,
+      "status": "SUCCESS"
+    },
+    {
+      "merchant": "Tanpopo CDN unresized",
+      "shade_scope": "EXACT_21N_ALREADY_VARIANT_LABELLED",
+      "url": "https://bizweb.dktcdn.net/100/353/847/products/ava-san-pham-tren-website-25-3197fd52-4a2d-4b17-ae6b-96a905564ebf.jpg?v=1785052315773",
+      "native_pixels": [
+        480,
+        480
+      ],
+      "native_larger_than_existing_480": false,
+      "native_adequate_for_1080_hero": false,
+      "status": "NO_UPGRADE_LOW_NATIVE_RESOLUTION"
+    },
+    {
+      "merchant": "Tanpopo CDN 2048 mode",
+      "shade_scope": "EXACT_21N_ALREADY_VARIANT_LABELLED",
+      "url": "https://bizweb.dktcdn.net/thumb/2048x2048/100/353/847/products/ava-san-pham-tren-website-25-3197fd52-4a2d-4b17-ae6b-96a905564ebf.jpg?v=1785052315773",
+      "native_pixels": [
+        480,
+        480
+      ],
+      "native_larger_than_existing_480": false,
+      "native_adequate_for_1080_hero": false,
+      "status": "NO_UPGRADE_LOW_NATIVE_RESOLUTION"
+    },
+    {
+      "merchant": "W Cosmetics Australia",
+      "shade_scope": "EXPLICIT_MERCHANT_21N_VARIANT_FEATURED_IMAGE",
+      "url": "https://cdn.shopify.com/s/files/1/2779/3344/files/21_f943f2a7-8f43-4b5d-ab42-9c431f7593f5.jpg?v=1776669892",
+      "native_pixels": [
+        800,
+        800
+      ],
+      "native_larger_than_existing_480": true,
+      "native_adequate_for_1080_hero": true,
+      "file": "01-21N-high-native-source-QA.jpg",
+      "JPG_sha256": "4fae11064764ee47448b58824fe485666c9c2aa0ca5a37a4d7fa99781df7d8d4",
+      "status": "HIGH_NATIVE_PHOTO_STORED_NEEDS_VISUAL_AND_SHADE_ID_QA"
+    },
+    {
+      "merchant": "La Cosmetique Australia",
+      "shade_scope": "EXPLICIT_MERCHANT_21N_VARIANT_FEATURED_IMAGE",
+      "url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-glow-essential-cushion-mini-3-shades-2012787.png?v=1779943511",
+      "native_pixels": [
+        1200,
+        1200
+      ],
+      "native_larger_than_existing_480": true,
+      "native_adequate_for_1080_hero": true,
+      "file": "02-21N-high-native-source-QA.jpg",
+      "JPG_sha256": "9544206f2e713fb37cfd56f469087f864c36e0bb22b3be163e72f8294797d820",
+      "status": "HIGH_NATIVE_PHOTO_STORED_NEEDS_VISUAL_AND_SHADE_ID_QA"
+    }
+  ],
+  "qualified_higher_native_reference_photos": [
+    {
+      "merchant": "W Cosmetics Australia",
+      "shade_scope": "EXPLICIT_MERCHANT_21N_VARIANT_FEATURED_IMAGE",
+      "url": "https://cdn.shopify.com/s/files/1/2779/3344/files/21_f943f2a7-8f43-4b5d-ab42-9c431f7593f5.jpg?v=1776669892",
+      "native_pixels": [
+        800,
+        800
+      ],
+      "native_larger_than_existing_480": true,
+      "native_adequate_for_1080_hero": true,
+      "file": "01-21N-high-native-source-QA.jpg",
+      "JPG_sha256": "4fae11064764ee47448b58824fe485666c9c2aa0ca5a37a4d7fa99781df7d8d4"
+    },
+    {
+      "merchant": "La Cosmetique Australia",
+      "shade_scope": "EXPLICIT_MERCHANT_21N_VARIANT_FEATURED_IMAGE",
+      "url": "https://cdn.shopify.com/s/files/1/0578/4423/6459/files/kill-cover-mesh-glow-essential-cushion-mini-3-shades-2012787.png?v=1779943511",
+      "native_pixels": [
+        1200,
+        1200
+      ],
+      "native_larger_than_existing_480": true,
+      "native_adequate_for_1080_hero": true,
+      "file": "02-21N-high-native-source-QA.jpg",
+      "JPG_sha256": "9544206f2e713fb37cfd56f469087f864c36e0bb22b3be163e72f8294797d820"
+    }
+  ],
+  "retail_approved": false,
+  "photo_use_rights_verified": false,
+  "actual_owned_stock_verified": false,
+  "prior_photo_assets_modified": false,
+  "older_11_retail_approved_families_unchanged": true,
+  "original_55_published_urls_unchanged": true,
+  "final_xlsx_shared": false,
+  "higher_native_source_count": 2,
+  "status": "HIGHER_NATIVE_PHOTOS_REQUIRE_VISUAL_VERIFICATION"
+}
