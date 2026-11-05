@@ -1,0 +1,40 @@
+name: Shopee v2917 Goodal and BIOHEAL eight official source visual QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2917-goodal-bioheal-brand-source-visual-qa.yml'
+      - 'scripts/v2917_goodal_bioheal_three_family_visual_claim_shortlist.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  classify_brand_original_photos_without_changes_to_old_assets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Build claim-aware visual QA for three product families, no source overwrite
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2917_goodal_bioheal_three_family_visual_claim_shortlist.py
+          cp scripts/v2917_goodal_bioheal_three_family_visual_claim_shortlist.py /tmp/v2917.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2917qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2917qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2917-threefamily-official-photo-visual-claim-review-QA
+          python /tmp/v2917.py
+          git add qa-review/v2917-threefamily-official-photo-visual-claim-review-QA
+          git diff --cached --name-only | tee /tmp/v2917-changed
+          ! grep -Ev '^qa-review/v2917-threefamily-official-photo-visual-claim-review-QA/' /tmp/v2917-changed
+          git commit -m 'v2917 review 8 new Goodal/BIOHEAL official photos, hold 5 clinical claims, preserve original bytes'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
