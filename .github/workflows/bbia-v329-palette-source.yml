@@ -1,0 +1,51 @@
+name: BBIA v329 missing palette official originals
+on:
+  push:
+    branches: [bbia-ch2-qa-v329-20261105]
+    paths: [.github/workflows/bbia-v329-palette-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  official-source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Download only missing palette 01 05 and official lineup
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from PIL import Image
+          import io,hashlib,json
+          import concurrent.futures
+          out=Path('/tmp/bbia-v329');out.mkdir(exist_ok=True)
+          prefix='https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/'
+          sources={'LINEUP_01_TO_05':'1781219859304.jpg','01_CHOCO_VILLAGE':'1781219859313.jpg','05_BLOOMING_DRAWING':'1781219859347.jpg'}
+          def grab(item):
+            key,leaf=item
+            url=prefix+leaf
+            m={'role':key,'source_url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA-v329-proof'}),timeout=20) as f: data=f.read(12000000)
+              im=Image.open(io.BytesIO(data));im.verify()
+              im=Image.open(io.BytesIO(data))
+              name='BBIA_0151_OFFICIAL_'+key+'_v329.jpg'
+              (out/name).write_bytes(data)
+              m.update(status='SOURCE_SAVED',filename=name,bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),dimensions=list(im.size))
+            except Exception as e:
+              m.update(status='HOLD_SOURCE_UNAVAILABLE',reason=str(e)[:180])
+            return m
+          with concurrent.futures.ThreadPoolExecutor(max_workers=3) as pool:
+            records=list(pool.map(grab,sources.items()))
+          manifest={'checkpoint':'v329','parent':'v328b','unchanged_v322_12_sources':True,'goodsNo':'1000000151','records':records,'sales_approved':False,'publish_approved':False,'existing_55_urls_untouched':True}
+          (out/'BBIA_v329_OFFICIAL_MISSING_SOURCE_MANIFEST.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2))
+          print(json.dumps(manifest,ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v329-palette-missing-source-three
+          path: /tmp/bbia-v329
+          retention-days: 30
