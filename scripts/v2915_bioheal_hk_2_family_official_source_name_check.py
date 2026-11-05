@@ -43,16 +43,16 @@ def read_existing(x):
   return ImageOps.exif_transpose(orig).convert("RGB")
 def contact(family,actual,items):
  a=Image.new("RGB",(1080,1080),"#f4f4f5");d=ImageDraw.Draw(a)
- d.text((26,19),family.upper()+" | OFFICIAL HK BRAND SOURCE QA",font(28),fill="#333333")
- d.text((26,62),actual[:66],font(18),fill="#5b5b5b")
+ d.text((26,19),family.upper()+" | OFFICIAL HK BRAND SOURCE QA",font=font(28),fill="#333333")
+ d.text((26,62),actual[:66],font=font(18),fill="#5b5b5b")
  for i,z in enumerate(items[:4]):
   col=i%2;row=i//2;x=23+col*523;y=108+row*444
   d.rounded_rectangle((x,y,x+506,y+419),radius=9,fill="white",outline="#cccccc",width=2)
   p=ImageOps.contain(z["img"],(490,340),Image.Resampling.LANCZOS)
   a.paste(p,(x+253-p.width//2,y+10+(340-p.height)//2))
-  d.text((x+12,y+362),f"PHOTO {i+1} {z['size'][0]}x{z['size'][1]}",font(19),fill="#333333")
-  d.text((x+12,y+392),"RIGHTS, KR EDITION & LABEL: HOLD",font(15),fill="#9c3333")
- d.text((24,1025),"NO ADVERTISING CLAIMS OR STOCK EDITION AUTOMATICALLY APPROVED",font(17),fill="#9c3333")
+  d.text((x+12,y+362),f"PHOTO {i+1} {z['size'][0]}x{z['size'][1]}",font=font(19),fill="#333333")
+  d.text((x+12,y+392),"RIGHTS, KR EDITION & LABEL: HOLD",font=font(15),fill="#9c3333")
+ d.text((24,1025),"NO ADVERTISING CLAIMS OR STOCK EDITION AUTOMATICALLY APPROVED",font=font(17),fill="#9c3333")
  return a
 
 OUT.mkdir(parents=True)
