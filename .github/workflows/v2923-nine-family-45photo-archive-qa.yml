@@ -24,6 +24,13 @@ jobs:
         run: |
           set -euo pipefail
           python -m py_compile scripts/v2923_nine_pending_family_45_immutable_photos_contact_ZIPs.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('scripts/v2923_nine_pending_family_45_immutable_photos_contact_ZIPs.py').read_text()
+          assert not re.search(r',font\(\d+\),fill=',s), 'Pillow ImageDraw needs font= keyword'
+          print('v2923 Pillow QA text preflight passed')
+          PY
           cp scripts/v2923_nine_pending_family_45_immutable_photos_contact_ZIPs.py /tmp/v2923.py
           git fetch origin qa-assets/v2662-immutable-14-candidates
           git worktree add /tmp/v2923qa qa-assets/v2662-immutable-14-candidates
