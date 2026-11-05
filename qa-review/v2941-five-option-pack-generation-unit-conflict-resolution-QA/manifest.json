@@ -1,0 +1,168 @@
+{
+  "version": "v2941",
+  "baseline": "v2940",
+  "created_utc": "2026-11-05T16:29:16Z",
+  "previous_mixed_option_holds_inspected": 5,
+  "resolved_official_unit_conflicts": 1,
+  "identified_seasonal_pack_options": 2,
+  "verified_five_shade_labels_for_clio_glow": 5,
+  "peripera_colors_not_in_one_current_chart_but_not_removed": [
+    "04",
+    "06",
+    "07"
+  ],
+  "photos_newly_generated": 0,
+  "source_original_bytes_changed": 0,
+  "previous_21_fivephoto_archives_untouched": true,
+  "previous_4_partial_archives_untouched": true,
+  "previous_11_approved_families_untouched": true,
+  "previous_55_public_urls_untouched": true,
+  "new_retail_approvals": 0,
+  "new_public_urls": 0,
+  "final_spreadsheet_shared": false,
+  "source_evidence_urls": {
+    "MISSHA_OFFICIAL_VOLUME": "https://m.ableshop.kr/product/goods/view-goods?goodsId=BO00114236",
+    "CLIO_OFFICIAL_MESH_GLOW_SETS": "https://clubclio.co.kr/shop/goodsView/6182",
+    "CLIO_CURRENT_FOUNWEAR_SET": "https://clubclio.co.kr/shop/goodsView/0000006670",
+    "CLIO_MESH_BLUR_WEIGHT": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000696139089&salestrNo=6005&siteNo=6004",
+    "CLIO_GLOW_FIVE_SHADE_LABELS": "https://m.shinsegaetvshopping.com/display/detail/1000656537",
+    "PERIPERA_26AD_COLOR_AND_RENEWAL_CHART": "https://www.gsshop.com/prd/prd.gs?prdid=1106843033"
+  },
+  "reconciliation": [
+    {
+      "family": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "verified": "Regular CLIO Founwear Cushion SET, brand goods 6670, not 5g mini goods 5750 or 7108",
+      "newly_resolved": "v2931 removed four misassigned mini 5g sources from internal full-size mapping",
+      "still_blocked": [
+        "Product-generation and physical inventory photos",
+        "image commercial rights",
+        "shade-specific official photographs"
+      ],
+      "release_gate": "HOLD_FULLSIZE_EDITION_AND_SHADE",
+      "sale_approved": false
+    },
+    {
+      "family": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "verified": "CLIO Kill Cover Mesh Glow Essential Cushion, full-size 15g+refill 15g; shade map from retailer product specifications",
+      "newly_resolved": "Current official clubclio goods 6182 lists different added gifts by seasonal pack: 25FW skin-prep base 15mL; regular duo-cheek 10g",
+      "shade_codes": {
+        "19C": "LIGHT",
+        "19N": "PORCELAIN",
+        "21C": "LINGERIE",
+        "21N": "LINEN",
+        "23N": "GINGER"
+      },
+      "offer_variants": [
+        {
+          "edition": "25FW",
+          "main_cushion_g": 15,
+          "refill_g": 15,
+          "added": "skin prep base 15mL"
+        },
+        {
+          "edition": "REGULAR",
+          "main_cushion_g": 15,
+          "refill_g": 15,
+          "added": "duo cheek 10g"
+        }
+      ],
+      "still_blocked": [
+        "Prior 5 shade-linked images are near-identical across all 10 pairs",
+        "stock actual edition undetermined",
+        "retailer source rights"
+      ],
+      "release_gate": "HOLD_SEASONAL_GIFT_GENERATION_AND_OPTION_IMAGES",
+      "sale_approved": false
+    },
+    {
+      "family": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "verified": "Mesh Blur Cushion set capacity 15g * 2 per product information, not a mini 5g cushion",
+      "newly_resolved": "15g x2 package specification externally corroborated",
+      "existing_shade_source_cards": [
+        "19C",
+        "19N",
+        "21N"
+      ],
+      "still_blocked": [
+        "Other shade variants missing or unconfirmed",
+        "cushion + refill stock proof",
+        "photo usage rights"
+      ],
+      "release_gate": "HOLD_OTHER_SHADES_AND_SET_STOCK",
+      "sale_approved": false
+    },
+    {
+      "family": "pending-08",
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "verified": "PERIPERA Mood Glowy Tint 26AD marketed as 4g; new-generation dual container + refreshed formula, legacy JPG/PNG cannot be relabeled 26AD",
+      "newly_resolved": "Published 26AD color chart can be cross-checked by option number. Retained user's strict 01-20 input only.",
+      "external_color_chart_01to20_covered": [
+        "01",
+        "02",
+        "03",
+        "05",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16",
+        "17",
+        "18",
+        "19",
+        "20"
+      ],
+      "not_shown_in_cited_26AD_chart": [
+        "04",
+        "06",
+        "07"
+      ],
+      "not_added_by_user_instruction": [
+        "21",
+        "22",
+        "23",
+        "24",
+        "25",
+        "26",
+        "27",
+        "28",
+        "29",
+        "30"
+      ],
+      "prior_originals": 40,
+      "prior_low_native_alpha_shades": [
+        "12",
+        "14",
+        "20"
+      ],
+      "still_blocked": [
+        "04/06/07 current edition existence not confirmed from cited chart (NOT proof of discontinuation)",
+        "legacy photo vs 26AD bottle and shade mismatch",
+        "5 previously held shade visuals and commercial rights"
+      ],
+      "release_gate": "HOLD_LEGACY_VS_26AD_COLOR_GENERATION",
+      "sale_approved": false
+    },
+    {
+      "family": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "verified": "MISSHA PDRN NAD+ Renew Peel Shot 25 official Korean shop lists volume 15mL, matching stock name",
+      "newly_resolved": "Old 15g vs 15mL ambiguity resolved from current brand-owner official product disclosure",
+      "confirmed_content_unit": "15mL",
+      "volume_conflict_status": "CLEARED_BY_BRAND_OFFICIAL",
+      "still_blocked": [
+        "Previously mixed information frames not independently approved product photos",
+        "product/claim photo rights",
+        "physical inventory lot and packaging"
+      ],
+      "release_gate": "HOLD_PHOTO_CLAIMS_AND_STOCK_AFTER_VOLUME_CLEARED",
+      "sale_approved": false
+    }
+  ]
+}
