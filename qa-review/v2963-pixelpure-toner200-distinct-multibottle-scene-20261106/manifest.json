@@ -1,0 +1,38 @@
+{
+  "version": "v2963",
+  "prior": "v2962",
+  "family": "pending-27",
+  "product": "PIXELPURE Soothing Ampoule Toner 200mL",
+  "source_page": "https://kometglobal.com/service/1755044283174x486505495049011200",
+  "source_url": "https://bb233c5e161f4bce733cb3df3dcd7423.cdn.bubble.io/cdn-cgi/image/w%3D1600%2Ch%3D1600%2Cf%3Djpeg%2Cdpr%3D1%2Cfit%3Dcontain/f1755044080189x354177331539262700/PG0659.jpg",
+  "source_type": "third-party commercial catalog / KometGlobal; not manufacturer approval",
+  "expected_visual": "multiple pink 200mL bottles on beige shelf, visibly different from old 4",
+  "previous_QA_source_zip": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-27-four-valid-photo-source-ONLY-INTERNAL.zip",
+  "prior_11_published_families_preserved": true,
+  "prior_55_verified_urls_preserved": true,
+  "new_sale_approved": false,
+  "rights_verified": false,
+  "physical_edition_verified": false,
+  "authentic_MK_verified": false,
+  "new_public_url_count": 0,
+  "attempted_url_count": 1,
+  "native_dimensions": [
+    1279,
+    1600
+  ],
+  "native_sha256": "2e443fe2b7f5c8e8de4e6001707ba8d1917c367e9f82970240f2c51ad50e8802",
+  "decoded_format": "JPEG",
+  "hamming_to_old_four": [
+    34,
+    41,
+    28,
+    25
+  ],
+  "status": "NEW_DISTINCT_SOURCE_PHOTO_STAGED_VISUAL_QA_PENDING",
+  "native_reference": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-new-multibottle-source-original.jpg",
+  "new_JPG": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-new-fifth-source-1080-INTERNAL-QA.jpg",
+  "new_JPG_sha256": "a9d107adca1ce45a99c8849cddd56ac989afb0347ab276ec6556b119dd3ee800",
+  "five_photo_zip": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-five-photos-inc-1-new-KometGlobal-INTERNAL-ONLY.zip",
+  "five_photo_zip_sha256": "97ffa23e7d5539aced822fbfac370429d807ecbe4233debc1b296f869f9018a2",
+  "contact": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-fifth-photo-source-COMPARISON-INTERNAL.jpg"
+}
