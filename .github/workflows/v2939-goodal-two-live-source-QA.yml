@@ -1,0 +1,35 @@
+name: Shopee v2939 Goodal source QA
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2939-goodal-two-live-source-QA.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install Pillow requests beautifulsoup4
+      - run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2939_goodal_mist_100ml_live_two_sources.py
+          cp scripts/v2939_goodal_mist_100ml_live_two_sources.py /tmp/scan.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/qa
+          test ! -e qa-review/v2939-goodal-100ml-live-citrus-source-QA
+          python /tmp/scan.py
+          git config user.name QA-Bot
+          git config user.email qa-bot@users.noreply.github.com
+          git add qa-review/v2939-goodal-100ml-live-citrus-source-QA
+          git commit -m 'v2939 goodal source QA only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:qa-assets/v2662-immutable-14-candidates
