@@ -1,0 +1,40 @@
+name: Shopee v2942 four actual factual English 5th information-frame QA images
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2942-four-new-fact-info-frames.yml'
+      - 'scripts/v2942_four_sku_safe_factual_5th_info_frames.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  produce_four_factual_info_frames_noncommercial:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Run four newly composed English info frames with original assets protected
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2942_four_sku_safe_factual_5th_info_frames.py
+          cp scripts/v2942_four_sku_safe_factual_5th_info_frames.py /tmp/v2942.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2942qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2942qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2942-four-missing-fifth-slot-fact-only-English-visual-QA
+          python /tmp/v2942.py
+          git add qa-review/v2942-four-missing-fifth-slot-fact-only-English-visual-QA
+          git diff --cached --name-only | tee /tmp/v2942changes
+          ! grep -Ev '^qa-review/v2942-four-missing-fifth-slot-fact-only-English-visual-QA/' /tmp/v2942changes
+          git commit -m 'v2942 four English fifth information frames from preserved original photos, not retail-approved'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
