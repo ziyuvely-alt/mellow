@@ -1,0 +1,37 @@
+name: Shopee v2896 MISSHA30 first-party clean product photo not old mask reruns
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2896-missha30-official-new-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source_one_clean_original:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Source fresh official clean 30mL product hero and persist QA only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2896_missha30_firstparty_clean_single_original.py
+          cp scripts/v2896_missha30_firstparty_clean_single_original.py /tmp/v2896.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2896qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2896qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2896-missha30-new-clean-firstparty-native-photo-QA
+          python /tmp/v2896.py
+          git add qa-review/v2896-missha30-new-clean-firstparty-native-photo-QA
+          git commit -m 'v2896 archive one new official MISSHA 30ml photo QA and 30 family checkpoint without rerender'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
