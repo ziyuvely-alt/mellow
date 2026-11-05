@@ -1,0 +1,35 @@
+name: Shopee v2940 source archive integrity and final four source gaps
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2940-source-archives-release-gate.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install Pillow
+      - run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2940_four_gaps_archive_integrity_release_gate.py
+          cp scripts/v2940_four_gaps_archive_integrity_release_gate.py /tmp/check.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/finalqa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/finalqa
+          test ! -e qa-review/v2940-four-final-source-gaps-photo-archive-integrity-and-approval-gate
+          python /tmp/check.py
+          git config user.name QA-Bot
+          git config user.email qa-bot@users.noreply.github.com
+          git add qa-review/v2940-four-final-source-gaps-photo-archive-integrity-and-approval-gate
+          git commit -m 'v2940 consolidate 30 pending and 4 source gaps, 6 SHA CRC scans'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:qa-assets/v2662-immutable-14-candidates
