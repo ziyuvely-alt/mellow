@@ -1,0 +1,102 @@
+{
+  "version": "v2965",
+  "date_kst": "2026-11-06",
+  "prev_checkpoint": "v2964",
+  "project": "Shopee Thumbnail Creator PRO 82 SKU / 41 families",
+  "photo_imports_this_sequence": "v2958, v2961, v2963, v2964",
+  "family_evidence": {
+    "pending-27": {
+      "new_fifth_JPG": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-new-fifth-source-1080-INTERNAL-QA.jpg",
+      "new_JPG_sha256": "a9d107adca1ce45a99c8849cddd56ac989afb0347ab276ec6556b119dd3ee800",
+      "native_px": [
+        1279,
+        1600
+      ],
+      "QA_zip": "qa-review/v2963-pixelpure-toner200-distinct-multibottle-scene-20261106/pending-27-five-photos-inc-1-new-KometGlobal-INTERNAL-ONLY.zip",
+      "QA_zip_sha256": "97ffa23e7d5539aced822fbfac370429d807ecbe4233debc1b296f869f9018a2",
+      "existing_4_hashes_preserved": true,
+      "technical_pass": true,
+      "visual_status": "PASS_DISTINCT_COMPOSITION_REFERENCE_ONLY",
+      "retail_release": "HOLD_MK_RIGHTS_STOCK_INDEPENDENT_FINAL_QA"
+    },
+    "pending-29": {
+      "new_fifth_JPG": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-photo-new-candidate-1080-INTERNAL-QA.jpg",
+      "new_JPG_sha256": "f25438aa31256dacff5b60af1e66464d4da396978072b1c3df48729efeac5106",
+      "native_px": [
+        800,
+        800
+      ],
+      "QA_zip": "qa-review/v2961-pixelpure-cream50-fifth-tradekorea-photo-20261106/pending-29-five-real-photograph-source-candidates-INTERNAL-ONLY.zip",
+      "QA_zip_sha256": "428fe7e99f16c4fefc275b81807ffe0cb89a9cda7fe53872c5cbdbebc4d68ed2",
+      "existing_4_hashes_preserved": true,
+      "technical_pass": true,
+      "visual_status": "PASS_DISTINCT_COMPOSITION_REFERENCE_ONLY",
+      "retail_release": "HOLD_MK_RIGHTS_STOCK_INDEPENDENT_FINAL_QA"
+    },
+    "pending-30": {
+      "new_fifth_JPG": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-candidate-05-two-floating-bottles-1080-INTERNAL-QA.jpg",
+      "new_JPG_sha256": "3505e93d5e00898d2c33441b850c500c898341378da348b3ce2471dda9116fb6",
+      "native_px": [
+        800,
+        800
+      ],
+      "QA_zip": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-five-distinct-scene-candidates-NOT-FOR-RETAIL.zip",
+      "QA_zip_sha256": "641f0f56c28822486a1fc7721afed93e2a1f712aa1e9e2442d33a4640870d0db",
+      "existing_4_hashes_preserved": true,
+      "technical_pass": true,
+      "visual_status": "PASS_DISTINCT_COMPOSITION_REFERENCE_ONLY",
+      "retail_release": "HOLD_MK_RIGHTS_STOCK_INDEPENDENT_FINAL_QA"
+    },
+    "pending-25": {
+      "technical_result": "ONE_FAILED_FRAME_ALPHA_BACKGROUND_CORRECTED_QA_ONLY",
+      "original_4_zip_preserved": true,
+      "candidate_new_JPG": "qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/pending-25-only-fifth-open-jar-transparent-PNG-composited-on-white-1080-QA.jpg",
+      "fifth_photo_file_exists": true,
+      "independent_scene_count_verified": false,
+      "retail_release": "HOLD",
+      "reason": "Photo 1/2 duplicate-like; 3/5 possibly common open-jar product source; exact MK/stock/license absent"
+    }
+  },
+  "pending25_alpha": {
+    "details": {
+      "native_type": "PNG",
+      "native_size": [
+        780,
+        780
+      ],
+      "has_alpha_or_transparency": true,
+      "alpha_below_250_fraction": 0.6036,
+      "old_bad_JPG_sha256": "253d4a3dae628458004c3da60585a3c14eb5e981dcb0cecec5ba53160862b070",
+      "old_bad_JPG_kept": true,
+      "retail_approved": false,
+      "status": "ONE_FAILED_FRAME_ALPHA_BACKGROUND_CORRECTED_QA_ONLY",
+      "new_JPG": "qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/pending-25-only-fifth-open-jar-transparent-PNG-composited-on-white-1080-QA.jpg",
+      "new_JPG_sha256": "82917518231633482201a9a0ef1a4a61fbfb5f6b5393a87848231c726785380a",
+      "new_JPG_bytes": 69963,
+      "new_qa_zip": "qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/pending-25-4-old-1-alpha-corrected-fifth-candidate-INTERNAL-NOT-RETAIL.zip",
+      "new_zip_sha256": "46b29b66c2a725845dd03c4aaa4337c1feb6db4413bf31e95cb135ee96d71156",
+      "contact": "qa-review/v2965-bioheal-alpha-repair-and-four-family-gate-20261106/pending-25-only-fifth-alpha-repaired-five-source-CONTACT-INTERNAL.jpg",
+      "commercial_rights": false,
+      "exact_stock_edition": false,
+      "semantically_distinct_5_scenes": false,
+      "reason_not_retail": "Underlying product photos #1/#2 and #3/#5 may be semantically similar; photo rights and original MK still missing"
+    }
+  },
+  "public_approved_prior_families": 11,
+  "public_verified_prior_URLs": 55,
+  "previous_public_files_modified": 0,
+  "previous_source_files_modified": 0,
+  "new_retail_approved": 0,
+  "new_public_url_verified": 0,
+  "new_public_assets": 0,
+  "new_customer_source_authorizations": 0,
+  "verified_MK_original_binary_accessible": false,
+  "publishing_route": "UNCHANGED_NOT_ATTEMPTED_NOT_AUTHORIZED_BY_QA",
+  "prevent_false_5photo_count": "Source file count != independent scene count or commercial rights.",
+  "next_source_work": [
+    "pending-25 obtain distinctly composed independent 50mL native source matching stock, avoid near-repeat current #3/5",
+    "pending-20 keep two front label groups separate until owned exact 25AD unit confirmed",
+    "all candidate complete families require stock version/photo reuse permission/original MK binary before customer JPGs and Render deployment"
+  ],
+  "spreadsheet_exported": false
+}
