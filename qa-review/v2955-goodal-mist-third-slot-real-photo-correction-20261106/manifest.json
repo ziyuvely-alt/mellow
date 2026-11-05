@@ -1,0 +1,60 @@
+{
+  "version": "v2955",
+  "parent": "v2954",
+  "project": "82 SKU / 41 families Shopee stock",
+  "corrected_family": "pending-20",
+  "prior_fault": "v2954 Goodal mist slot 3 was English HOW TO USE info card, not source photograph",
+  "prior_qa_zip_to_supersede": "qa-review/v2954-three-family-five-original-JPG-byteexact-ZIPs-20261106/pending-20-five-immutable-source-JPGs-INTERNAL-QA.zip",
+  "prior_zip_not_deleted": true,
+  "previous_approved_images_modified": 0,
+  "other_v2954_zips_modified": 0,
+  "replacement_from_existing_exact_product_photo": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/04-source-archive-story-QA.jpg",
+  "new_zip": "qa-review/v2955-goodal-mist-third-slot-real-photo-correction-20261106/pending-20-FIVE-PHOTO-SOURCES-NO-INFO-CARD-INTERNAL-QA.zip",
+  "new_zip_sha256": "8bb626f4b91949046703dba423d865c166b1a807537fc1f7ca65dd3edb8b14a6",
+  "photo_count": 5,
+  "files": [
+    {
+      "slot": 1,
+      "source_path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/01-prior-verified-real-alpha-hero-QA.jpg",
+      "sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+      "bytes": 61644,
+      "source_type": "independent_existing_photo_not_infocard"
+    },
+    {
+      "slot": 2,
+      "source_path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/02-source-archive-story-QA.jpg",
+      "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+      "bytes": 55913,
+      "source_type": "independent_existing_photo_not_infocard"
+    },
+    {
+      "slot": 3,
+      "source_path": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/04-source-archive-story-QA.jpg",
+      "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+      "bytes": 103332,
+      "source_type": "independent_existing_photo_not_infocard"
+    },
+    {
+      "slot": 4,
+      "source_path": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/01-CITRUS_STILL-internal-1080.jpg",
+      "sha256": "ea725fe7abee9041588a25ec135847ad17836980eefb464ff46ee5f0002edb83",
+      "bytes": 116466,
+      "source_type": "independent_existing_photo_not_infocard"
+    },
+    {
+      "slot": 5,
+      "source_path": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/pending-20/02-CITRUS_WATER-internal-1080.jpg",
+      "sha256": "60263e3837e577c6243fa47bd1a6412927ae8e378c63803569c9a05c1a7d8557",
+      "bytes": 175570,
+      "source_type": "independent_existing_photo_not_infocard"
+    }
+  ],
+  "technical_pass": true,
+  "visual_gate": "PENDING_EXAMINE_NEW_CONTACT; names/photos do not license customer images",
+  "sale_permission": false,
+  "authentic_MK_png_validated": false,
+  "physical_stock_edition_verified": false,
+  "new_verified_public_urls": 0,
+  "old_public_urls_preserved": 55,
+  "action_after_visual": "Once contact is reviewed, retain FIVE PHOTO status if independent enough and verify usage/stock/logo gates; do not re-fetch known source"
+}
