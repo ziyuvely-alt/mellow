@@ -1,0 +1,34 @@
+name: v2975 stock official catalog and real duplicated scene release guard
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2975-catalog-unit-frame-release-guard.yml'
+      - 'scripts/v2975_edition_frame_gate_and_catalog_contract.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  correct-product-unit-frames-and-stage-holds:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Hard fail closed on any unlicensed sale-approved pack; JSON only
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2975-actual-frame-quarantine-and-unit-contract-20261106
+          python scripts/v2975_edition_frame_gate_and_catalog_contract.py
+          git add qa-review/v2975-actual-frame-quarantine-and-unit-contract-20261106
+          git diff --cached --name-only | tee /tmp/v2975-appendonly
+          ! grep -Ev '^qa-review/v2975-actual-frame-quarantine-and-unit-contract-20261106/.*\.json$' /tmp/v2975-appendonly
+          git commit -m "QA v2975 apply 30-family product-unit and proven frame4 duplicate quarantine contracts"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
