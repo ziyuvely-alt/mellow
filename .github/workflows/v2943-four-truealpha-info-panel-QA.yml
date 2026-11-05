@@ -1,0 +1,40 @@
+name: Shopee v2943 real-alpha photo panel refinement of four QA information frames
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2943-four-truealpha-info-panel-QA.yml'
+      - 'scripts/v2943_four_info_frame_real_alpha_panel_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  rebuild_only_new_QA_copies_with_original_alpha:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Test PNG alpha and create new files without old edits
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2943_four_info_frame_real_alpha_panel_QA.py
+          cp scripts/v2943_four_info_frame_real_alpha_panel_QA.py /tmp/v2943.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2943qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2943qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA
+          python /tmp/v2943.py
+          git add qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA
+          git diff --cached --name-only | tee /tmp/v2943files
+          ! grep -Ev '^qa-review/v2943-four-English-frame-clean-truealpha-product-panel-QA/' /tmp/v2943files
+          git commit -m 'v2943 refined four QA-only fifth frames from genuine preexisting alpha product pixels'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
