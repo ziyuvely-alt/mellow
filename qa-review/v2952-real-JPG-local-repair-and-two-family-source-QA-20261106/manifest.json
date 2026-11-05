@@ -1,0 +1,207 @@
+{
+  "version": "v2952",
+  "parent": "v2951",
+  "date_kst": "2026-11-06",
+  "release_lane": "QA_ONLY_NO_PUBLIC_DEPLOY",
+  "prior_published_families": 11,
+  "prior_verified_urls": 55,
+  "new_retail_approvals": 0,
+  "new_public_urls": 0,
+  "prior_images_modified": 0,
+  "families": {
+    "pending-23": {
+      "existing_source_frames": 5,
+      "missing": [],
+      "frames": [
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/01-true-product-photo-alpha-QA.jpg",
+          "bytes": 57774,
+          "sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+          "git_blob_sha1": "25b80d5fbac31bc70744dc0497ca757ce908b657",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1111111111100011111000111110001111100011111000111110001111111111"
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/02-original-lifestyle-or-detail-QA.jpg",
+          "bytes": 124885,
+          "sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "git_blob_sha1": "e87227d7c23e240c148c7749d0d6f01ae41be046",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1111111111111111101110010011100000111000001100000000000110000001"
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/03-original-lifestyle-or-detail-QA.jpg",
+          "bytes": 122133,
+          "sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "git_blob_sha1": "16dd2ffbedcb0b88a0549361585130e357a55ffc",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "0101111111001000111100001111110001101100000001000000011000000000"
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/04-original-lifestyle-or-detail-QA.jpg",
+          "bytes": 74592,
+          "sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "git_blob_sha1": "3133ad4b7582325534bb7db45fcb84750bbb728c",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1111111111111001110000011001001100010011000000111000001111111111"
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/05-original-lifestyle-or-detail-QA.jpg",
+          "bytes": 78341,
+          "sha256": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+          "git_blob_sha1": "abe0613798002c281bf644dcab0ea1d9a3b14952",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1000000110000001111111011111100111100001110000011100000111000001"
+        }
+      ],
+      "all_1080_small_JPEG": true,
+      "visually_similar_ahash_candidate_pairs": [],
+      "final_sale_approved": false,
+      "remaining_gates": [
+        "physical exact stock/edition",
+        "commercial photo reuse rights",
+        "authenticated original circular MK PNG"
+      ]
+    },
+    "pending-28": {
+      "existing_source_frames": 5,
+      "missing": [],
+      "frames": [
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+          "bytes": 131499,
+          "sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "git_blob_sha1": "adb4f874d83d322a848fe2a704305dc4fe4ed8b4",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1111111111111111111000011100000111000001110000011100000111111111"
+        },
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/02-source-photo-story-QA.jpg",
+          "bytes": 181690,
+          "sha256": "7280158c0eebec73dc6fd7517ee04ad7d53e7a01c8b6ac1e73e9a19d7081d135",
+          "git_blob_sha1": "a426b18bd0e5ff0546875a1ea9d73715a388d081",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "1111111100011111111100111110001111000011010000111100001101111111"
+        },
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/03-source-photo-story-QA.jpg",
+          "bytes": 145097,
+          "sha256": "5a12115d604b22c10a73699aac12b4c870d177252a06371fa775dd778c0f3afd",
+          "git_blob_sha1": "b6ca7bcb6f346697ddfc6daf9d388a3e39339289",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "0011111100000111111111111110011111000001010000011000001100111110"
+        },
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/04-source-photo-story-QA.jpg",
+          "bytes": 153952,
+          "sha256": "b5da42cbe32e9e3f9734fd95f0f052a0896c790dc3115a933125fb7ca222eae9",
+          "git_blob_sha1": "f02c010fac1b17e89dc76dc8cd24a49ebf1ebe84",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "0011111100001111111001111100001111000011000000111000011100111111"
+        },
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/05-source-photo-story-QA.jpg",
+          "bytes": 176937,
+          "sha256": "e921abb23e1720894e09cc4514d0aa073e15880d110e2b2fab81a28565bbcb51",
+          "git_blob_sha1": "aaffd711b23304ef834cef07e6f49d4a05919730",
+          "dimensions": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "mode": "RGB",
+          "technical_pass": true,
+          "ahash": "0011111100000111111101111110000111100001011000011011111100111111"
+        }
+      ],
+      "all_1080_small_JPEG": true,
+      "visually_similar_ahash_candidate_pairs": [],
+      "final_sale_approved": false,
+      "remaining_gates": [
+        "physical exact stock/edition",
+        "commercial photo reuse rights",
+        "authenticated original circular MK PNG"
+      ]
+    }
+  },
+  "pending-15": {
+    "action": "BLUE_BACKGROUND_LOCAL_COLOR_REPAIR",
+    "original_git_blob_sha1": "248a84df85bf652735dba3fbb52adba24b512edd",
+    "selected_blue_region_pixels": 83218,
+    "new_image_saved": true,
+    "output": {
+      "path": "qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106/pending-15-frame03-localized-blue-halo-fix-INTERNAL-QA.jpg",
+      "bytes": 138614,
+      "sha256": "7615b808ccad855b7c4ea29851cd079ac838ab4734425cef392dca4d581cbb2d",
+      "git_blob_sha1": "23c58cce744e29b7633e954605323582e33db93d",
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "format": "JPEG",
+      "mode": "RGB",
+      "technical_pass": true,
+      "ahash": "0011111100001111011111111110011101100111001001110000011100111110"
+    },
+    "original_model_and_product_bytes_intact": false,
+    "edits_limited_to_softened_blue_color_class_spatial_region": true,
+    "visual_approval": "PENDING_INDEPENDENT_VIEWER_QA",
+    "commercial_photo_rights": "PENDING",
+    "authentic_logo_match": "PENDING",
+    "note": "This fixes one already-documented QA visual defect, not a new licensed source photo or a retail-ready image"
+  }
+}
