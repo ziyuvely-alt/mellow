@@ -1,0 +1,60 @@
+name: BBIA v356 matte cushion remaining four official detail photos
+on:
+  push:
+    branches: [bbia-ch2-qa-v356-20261105]
+    paths: [.github/workflows/bbia-v356-matte-photo.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Save only as yet uncaptured detail reference indexes 3 to 6
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,hashlib,io
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          base=Path('/tmp/bbia-v356-matte-sources');base.mkdir(parents=True,exist_ok=True)
+          src=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf8'))
+          item=next(x for x in src['families'] if str(x['product_id'])=='1000000178')
+          job=[(i,u) for i,u in enumerate(item['detail_references']) if i in (3,4,5,6)]
+          def grab(job):
+            i,url=job;r={'role':f'DETAIL_{i}','url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 Official photo evidence v356'}),timeout=22) as f:bb=f.read(18000000)
+              if not bb:raise ValueError('zero bytes')
+              im=Image.open(io.BytesIO(bb));im.verify()
+              im=Image.open(io.BytesIO(bb));im.load()
+              if im.format!='JPEG':raise ValueError('non-JPEG source')
+              name=f'BBIA_1000000178_DETAIL_{i}_OFFICIAL_v356.jpg'
+              (base/name).write_bytes(bb)
+              r.update(status='SOURCE_SAVED',file=name,size_bytes=len(bb),sha256=hashlib.sha256(bb).hexdigest(),dimensions=list(im.size))
+            except Exception as e:r.update(status='HOLD_SOURCE_UNAVAILABLE',reason=str(e)[:200])
+            return r
+          with ThreadPoolExecutor(max_workers=4) as pool:rows=list(pool.map(grab,job))
+          board=Image.new('RGB',(1600,580),'#e9ecec');d=ImageDraw.Draw(board)
+          d.text((18,10),'BBIA v356 | 4 previously uncollected detail sources | NOT SALES APPROVED',fill='black')
+          for n,r in enumerate(rows):
+            x=20+n*398;d.text((x,42),r['role']+' '+r['status'],fill='black')
+            if r['status']!='SOURCE_SAVED':continue
+            im=Image.open(base/r['file']);im=im.convert('RGB')
+            if im.height>1800:im=im.crop((0,0,im.width,min(1700,im.height)))
+            im.thumbnail((375,460))
+            board.paste(im,(x,75))
+          board.save(base/'BBIA_v356_remaining_details_contact.jpg',quality=87)
+          report={'checkpoint':'v356','parent':'v354','product_id':'1000000178','role':'SOURCE_EVIDENCE_ONLY','existing_detail_0_to_2_unchanged':True,'rows':rows,'saved':sum(r['status']=='SOURCE_SAVED' for r in rows),'existing_55_URLs_untouched':True,'sales_approved':0}
+          (base/'BBIA_v356_remaining_details_checkpoint.json').write_text(json.dumps(report,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'saved':report['saved'],'total':len(rows)},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v356-matte-remaining-official-details
+          path: /tmp/bbia-v356-matte-sources
+          retention-days: 30
