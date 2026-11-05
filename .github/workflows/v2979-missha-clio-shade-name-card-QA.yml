@@ -1,0 +1,35 @@
+name: v2979 MISSHA and CLIO verified shade-name cards (no fake swatches)
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2979-missha-clio-shade-name-card-QA.yml'
+      - 'scripts/v2979_missha_clio_two_verified_shade_name_cards.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create-two-original-option-guides:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Verify six existing option photos, save two original unlicensed-photo-free JPG QA only
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106
+          python scripts/v2979_missha_clio_two_verified_shade_name_cards.py
+          git add qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106
+          git diff --cached --name-only | tee /tmp/v2979-new
+          ! grep -Ev '^qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106/' /tmp/v2979-new
+          git commit -m "QA v2979: original MISSHA 3-shade and CLIO mini 3-shade option info cards, old photo SHA preserved"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
