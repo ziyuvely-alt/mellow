@@ -1,0 +1,48 @@
+{
+  "baseline": "v2897",
+  "version": "v2898",
+  "scope": "No25 legacy and serum30ml alternative photographs are NOT switched to selling images. Archive linked candidate sources only.",
+  "upgrades": [
+    {
+      "source_index": 10,
+      "family": "pending-03",
+      "old_reference_preserved": "qa-review/v2871-missha-legacy-bb-21-25-gold-pump-u2net-QA/MISSHA-old-BB-No25-full-gold-pump-1080-QA.jpg",
+      "new_alternative": "qa-review/v2897-missha-bb25-legacy-goldpump-new-independent-source-QA/MISSHA-old-goldpump-No25-clean-source-1080-INTERNAL-QA.jpg",
+      "new_source": "qa-review/v2897-missha-bb25-legacy-goldpump-new-independent-source-QA/MISSHA-original-legacy-No25-merchant-raw.webp",
+      "new_candidate_blob_sha": "26dea7d8441847e4bb35efa193a629e4de1d1f74",
+      "new_candidate_source_blob": "50911fea6559a1ef4f8db4698cf190b6b172b06c",
+      "source_native": [
+        1024,
+        1024
+      ],
+      "reason": "visible printed NO.25 and old gold pump, no left grey ghost; internal QA only",
+      "photographic_rights_verified": false,
+      "actual_stock_match_verified": false,
+      "commercial_approved": false
+    },
+    {
+      "source_index": 63,
+      "family": "pending-13",
+      "old_reference_preserved": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/01-original-single-30mL-serum-product-gallery-QA.jpg",
+      "new_alternative": "qa-review/v2896-missha30-brand-official-clean-single-bottle-source/MISSHA-30ml-brand-clean-white-source-1080-INTERNAL-QA.jpg",
+      "new_source": "qa-review/v2896-missha30-brand-official-clean-single-bottle-source/MISSHA-US-brand-30ml-original.webp",
+      "new_candidate_blob_sha": "b88cac6c24e38eacffea8394a5e98776e2c7091d",
+      "new_candidate_source_blob": "33d29c329af44e06a0cd9e818c5cda1d07bcfcc1",
+      "source_native": [
+        1600,
+        1600
+      ],
+      "reason": "white cap full bottle 30mL, prior red-fringe background absent; first-party retail page photo, rights not independently granted",
+      "photographic_rights_verified": false,
+      "actual_stock_match_verified": false,
+      "commercial_approved": false
+    }
+  ],
+  "inventory_69_option_refs_still_valid": 69,
+  "original_published_11_groups_protected": true,
+  "original_55_public_urls_unchanged": true,
+  "unverified_original_MK_logo": false,
+  "new_image_renders": 0,
+  "new_commercial_approvals": 0,
+  "next_goal": "Source/rights and physical SKU packaging confirmation for all pending items. Do not rerun red-fringe/ghost masking, do not compare same photo again."
+}
