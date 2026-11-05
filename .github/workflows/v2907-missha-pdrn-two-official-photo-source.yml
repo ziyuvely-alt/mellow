@@ -1,0 +1,37 @@
+name: Shopee v2907 new MISSHA PDRN cream and serum manufacturer photo sources
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2907-missha-pdrn-two-official-photo-source.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire_new_missha_manufacturer_photo_bytes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Save official MISSHA photo bytes and internal JPEG references without changing finished work
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2907_missha_firstparty_twofamily_sources.py
+          cp scripts/v2907_missha_firstparty_twofamily_sources.py /tmp/v2907.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2907qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2907qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2907-missha-pdrn-firstparty-twofamily-source-photo-QA
+          python /tmp/v2907.py
+          git add qa-review/v2907-missha-pdrn-firstparty-twofamily-source-photo-QA
+          git commit -m 'v2907 preserve two MISSHA official original product photo galleries for internal QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
