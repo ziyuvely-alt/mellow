@@ -1,0 +1,39 @@
+name: Shopee v2910 DRG legacy 2022 2023 ten-frame photo integrity QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2910-drg-10-legacy-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit_ten_original_dr_g_stock_photos_without_republishing:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Validate immutable Dr.G source file history and write two internal QA contacts
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2910_dr_g_two_legacy_fiveframes_immutable_history_qa.py
+          cp scripts/v2910_dr_g_two_legacy_fiveframes_immutable_history_qa.py /tmp/v2910.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2910work qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2910work
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2910-drg-2022-red-and-2023-moisture-sun-10-existing-image-qa
+          python /tmp/v2910.py
+          git add qa-review/v2910-drg-2022-red-and-2023-moisture-sun-10-existing-image-qa
+          git diff --cached --name-only | tee /tmp/v2910-diff
+          ! grep -Ev '^qa-review/v2910-drg-2022-red-and-2023-moisture-sun-10-existing-image-qa/' /tmp/v2910-diff
+          git commit -m 'v2910 audit 10 old Dr.G photo frames and store two internal contact sheets without public edits'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
