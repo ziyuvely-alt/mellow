@@ -1,0 +1,37 @@
+name: Shopee v2902 MISSHA BB 21 23 independent old-goldpump native QA photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2902-missha-bb21-23-independents-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  photo_21_and_23_one_shot_source_archive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Save two genuinely new independent merchant options; do not alter old images
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2902_missha_bb21_23_independent_native_archive.py
+          cp scripts/v2902_missha_bb21_23_independent_native_archive.py /tmp/v2902.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2902qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2902qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA
+          python /tmp/v2902.py
+          git add qa-review/v2902-missha-BB-21-23-two-independent-native-merchants-QA
+          git commit -m 'v2902 archive truly independent No21 and No23 old edition source photos and pending family QA state'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
