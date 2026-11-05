@@ -1,0 +1,38 @@
+name: Shopee v2878 peripera genuine 26AD twenty shade original photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2878-peripera-26ad-exact-20-shades-onepass-source-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  product_version_safe_20shade_sweep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 18
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install pure file parsing deps
+        run: python -m pip install Pillow beautifulsoup4
+      - name: Archive only individually source-title-verified 26AD photos; hold missing without ever substituting legacy
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2878_peripera26ad_20_exact_edition_hero_source_sweep.py
+          cp scripts/v2878_peripera26ad_20_exact_edition_hero_source_sweep.py /tmp/v2878.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2878qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2878qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2878-peripera-26AD-20-shade-exact-edition-original-photo-QA
+          python /tmp/v2878.py
+          git add qa-review/v2878-peripera-26AD-20-shade-exact-edition-original-photo-QA
+          git commit -m 'v2878 source-only actual 26AD first twenty shade merchant proofs, old ink editions quarantined and sold rights hold'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
