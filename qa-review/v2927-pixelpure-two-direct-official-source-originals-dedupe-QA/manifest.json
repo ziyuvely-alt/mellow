@@ -1,0 +1,73 @@
+{
+  "version": "v2927",
+  "baseline": "v2926",
+  "created_utc": "2026-11-05T15:10:22Z",
+  "manufacturer_source_families_attempted": 2,
+  "new_native_official_photo_candidates_archived": 2,
+  "prior_11_public_image_families_changed": 0,
+  "prior_55_verified_public_URLs_changed": 0,
+  "prior_archive_files_modified": 0,
+  "new_sale_approved_images": 0,
+  "new_public_URLs": 0,
+  "previous_missing_11_source_slots": 11,
+  "new_photo_source_gap_after_this_batch": 9,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "product": "PixelPure Soothing Ampoule Toner 200ml",
+      "manufacturer_product_page": "https://www.pixelpure.com/product/detail.html?product_no=24",
+      "verified_product_gallery_image": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/c76386c3a6bb0bedee3ee4a97f03deb3.jpg",
+      "observed_scene": "Full 200mL translucent pink toner bottle next to matching carton on pink studio background",
+      "source_evidence": "Brand product page picture with matching 200mL bottle and carton",
+      "prior_existing_photos": 3,
+      "decision": "NEW_DISTINCT_OFFICIAL_PRODUCT_SOURCE_CANDIDATE_ARCHIVED",
+      "new_reference": {
+        "original_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-27/01-official-original-unmodified.jpg",
+        "original_sha256": "1e500817a62a8e9095193ddfbabde5e28fad09e29823ef3b807ed0129a6330e5",
+        "original_native_px": [
+          1000,
+          1000
+        ],
+        "reference_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-27/01-brand-photo-1080-INTERNAL-QA.jpg",
+        "reference_sha256": "91358166a235f7e00f7493f6f1d98099164d932ad256705c8ff33ac09604eb7c",
+        "near_distance_from_three_previous_sources": 21,
+        "actual_owned_stock_batch_identified": false,
+        "commercial_image_usage_rights_granted": false,
+        "brand_ownership_logo_verified": false,
+        "retail_approved": false
+      },
+      "new_images": 1,
+      "remaining_five_photo_shortfall": 1,
+      "errors": []
+    },
+    {
+      "family": "pending-30",
+      "product": "PixelPure Aura Radiance Serum 50ml",
+      "manufacturer_product_page": "https://pixelpure.com/product/detail.html?product_no=25",
+      "verified_product_gallery_image": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/small/20250430/2b4e82d8d9dbe09c42b2e38f48226df5.jpg",
+      "observed_scene": "Five pastel pink 50mL serum bottles arranged on white ledge",
+      "source_evidence": "Brand product page picture with identical 50mL product label",
+      "prior_existing_photos": 3,
+      "decision": "NEW_DISTINCT_OFFICIAL_PRODUCT_SOURCE_CANDIDATE_ARCHIVED",
+      "new_reference": {
+        "original_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-30/01-official-original-unmodified.jpg",
+        "original_sha256": "4580127afa1fdbf764736f514236bb1681c13360fc43c622bbd3a9fa489369ee",
+        "original_native_px": [
+          1000,
+          1000
+        ],
+        "reference_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-30/01-brand-photo-1080-INTERNAL-QA.jpg",
+        "reference_sha256": "aac7590dfa2ef6a8e8fb2aa30564ff1ddc8754eb6e963b3d6141e0dc21b22596",
+        "near_distance_from_three_previous_sources": 26,
+        "actual_owned_stock_batch_identified": false,
+        "commercial_image_usage_rights_granted": false,
+        "brand_ownership_logo_verified": false,
+        "retail_approved": false
+      },
+      "new_images": 1,
+      "remaining_five_photo_shortfall": 1,
+      "errors": []
+    }
+  ]
+}
