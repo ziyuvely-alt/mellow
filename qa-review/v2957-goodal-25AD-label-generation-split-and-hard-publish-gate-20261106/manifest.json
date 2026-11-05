@@ -1,0 +1,82 @@
+{
+  "version": "v2957",
+  "baseline": "v2956",
+  "project": "Shopee Thumbnail Creator PRO 82SKU 41 families",
+  "family_id": "pending-20",
+  "product": "GOODAL Green Tangerine Vita-C Serum Mist 100mL 25AD",
+  "manual_visual_observation_not_OCR": "Frames 1-3 display SERUM MIST / NIACINAMIDE / HYALURONIC ACID front; frames 4-5 display Dark Spot Care SERUM MIST front",
+  "interpretation": "Two different front labels; cannot establish same commercial product generation or 25AD photo identity from image alone.",
+  "verified_catalog_metadata": {
+    "clubclio_official_product": "https://clubclio.co.kr/shop/goodsView/0000003795",
+    "brand_catalog_volume": "100mL",
+    "ssg_named_25AD_listing": "https://shinsegaemall.ssg.com/item/itemView.ssg?itemId=1000706462566&salestrNo=6005&siteNo=6004",
+    "shilla_listing_SKU": "669210000427",
+    "stock_unit_photo_verified": false,
+    "retailer_listing_does_not_grant_photo_license": true
+  },
+  "prior_mixed_zip_preserved_not_to_use_in_retail": "qa-review/v2955-goodal-mist-third-slot-real-photo-correction-20261106/pending-20-FIVE-PHOTO-SOURCES-NO-INFO-CARD-INTERNAL-QA.zip",
+  "groups": {
+    "LABEL_A": {
+      "observed_label": "GEN_A_SERUM_MIST_NIACINAMIDE_HYALURONIC_ACID",
+      "frames": [
+        1,
+        2,
+        3
+      ],
+      "count": 3,
+      "zip": "qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/pending-20-LABEL_A-unmodified-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "9cc541d8f50ccb28f8abda7936df3e584df50b004444cb369d853192ca7c6e67",
+      "zip_bytes": 221357,
+      "source_JPG_sha256": [
+        "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+        "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+        "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4"
+      ],
+      "native_limit": "Need independent source check",
+      "physical_25AD_exact_generation_confirmed": false,
+      "licensed_for_sales": false
+    },
+    "LABEL_B": {
+      "observed_label": "GEN_B_DARK_SPOT_CARE_SERUM_MIST",
+      "frames": [
+        4,
+        5
+      ],
+      "count": 2,
+      "zip": "qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/pending-20-LABEL_B-unmodified-JPGs-INTERNAL-QA.zip",
+      "zip_sha256": "66c1239417f807f9177ebdbfff234c389c028c09bd3072ece5256f295aa5a914",
+      "zip_bytes": 292354,
+      "source_JPG_sha256": [
+        "ea725fe7abee9041588a25ec135847ad17836980eefb464ff46ee5f0002edb83",
+        "60263e3837e577c6243fa47bd1a6412927ae8e378c63803569c9a05c1a7d8557"
+      ],
+      "native_limit": "600x800 for frames 4/5 from v2939; 1080 JPEG is resized, not natively 1080",
+      "physical_25AD_exact_generation_confirmed": false,
+      "licensed_for_sales": false
+    }
+  },
+  "five_existing_jpgs_two_label_groups": true,
+  "max_count_same_label": 3,
+  "safe_unique_scene_count_GEN_A_estimate": 2,
+  "safe_unique_scene_count_GEN_B_estimate": 2,
+  "gate_result": "REJECT_MULTIPLE_FRONT_LABEL_PATTERNS",
+  "requires": [
+    "proof of exact physical 25AD front label",
+    "five truly independent licensed same-generation scenes",
+    "authenticated original MK binary",
+    "full retail 1080 JPG QA",
+    "anonymous Render JPEG SHA256 GET"
+  ],
+  "old_public_modified": 0,
+  "prior_published_families_preserved": 11,
+  "prior_verified_urls_preserved": 55,
+  "new_customer_JPGs": 0,
+  "new_sale_approved": 0,
+  "new_public_verified_urls": 0,
+  "no_final_spreadsheet": true,
+  "next_actions": [
+    "Reject photos with opposite label after physical edition confirmed",
+    "Do not repeat old retailer photo sources or mix two labels into a five-picture set",
+    "Move to independent families pending-25/27/29/30 while this SKU is on physical edition hold"
+  ]
+}
