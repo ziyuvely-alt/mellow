@@ -1,0 +1,51 @@
+name: Shopee v2924 8 remaining source families and Peripera option integrity QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2924-eight-unpacked-source-option-QA.yml'
+      - 'scripts/v2924_eight_remaining_source_option_integrity_and_QA_archive.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify_and_archive_existing_eight_pending_families:
+    runs-on: ubuntu-latest
+    timeout-minutes: 16
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Static Pillow QA and archived source image integrity check
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2924_eight_remaining_source_option_integrity_and_QA_archive.py
+          python - <<'PY'
+          import re
+          from pathlib import Path
+          s=Path('scripts/v2924_eight_remaining_source_option_integrity_and_QA_archive.py').read_text()
+          assert not re.search(r',font\(\d+\),fill=',s), 'Pillow ImageDraw font must be a named argument'
+          assert "sale_approved" in s and "26AD_photo_proven" in s
+          print('Preflight passed')
+          PY
+      - name: Write only NEW non-retail internal QA assets for remaining 8 groups
+        run: |
+          set -euo pipefail
+          cp scripts/v2924_eight_remaining_source_option_integrity_and_QA_archive.py /tmp/v2924.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2924qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2924qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA
+          python /tmp/v2924.py
+          git add qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA
+          git diff --cached --name-only | tee /tmp/v2924-changed
+          ! grep -Ev '^qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/' /tmp/v2924-changed
+          git commit -m 'v2924 eight unfinished groups: 15 old photos archived, 20 Peripera shade pairs checked, four mixed-source QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
