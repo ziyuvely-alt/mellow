@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/v2912-eight-family-visual-candidate-filter.yml'
+      - 'scripts/v2912_eight_family_visually_cured_clean_photo_slots.py'
   workflow_dispatch:
 permissions:
   contents: write
