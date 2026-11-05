@@ -1,0 +1,77 @@
+name: BBIA v401 exact shade photo and expiry QA
+on:
+  push:
+    branches: [bbia-ch2-qa-v401-20261106]
+    paths: [.github/workflows/bbia-v401-precise-shade-qa.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  shade-evidence:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Retrieve official sources only; no existing or published files modified
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          import json,io,hashlib
+          ROOT=Path('/tmp/bbia-v401');ROOT.mkdir(exist_ok=True)
+          base='https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/'
+          sources={
+            'CONTOUR_WARM_COOL_OPTION_CHART':'1781219859254.jpg',
+            'CONTOUR_01_02_REAL_ARM_SWATCH':'1781219859263.jpg',
+            'CONTOUR_PRODUCT_AND_BRAND':'1781219859288.jpg',
+            'EAU_GLOW_OPTIONS_DETAIL_01':'1781219858555.jpg',
+            'EAU_GLOW_DETAILS_02':'1781219858561.jpg',
+            'EAU_GLOW_DETAILS_03':'1781219858568.jpg',
+            'EAU_GLOW_GALLERY_04':'1781219858580.jpg',
+            'EAU_GLOW_GALLERY_05':'1781219858586.jpg'}
+          def get(kv):
+            role,key=kv;url=base+key;r={'role':role,'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; BBIA official source auditor)','Referer':'https://www.bbia.co.kr/'}),timeout=23) as req:raw=req.read(16000000)
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();size=list(im.size);fmt=im.format
+              if fmt!='JPEG' or min(size)<300 or len(raw)<8000:raise ValueError('Photo QA gate failed')
+              fn='BBIA_v401_'+role+'.jpg';(ROOT/fn).write_bytes(raw)
+              r.update(status='SAVED',filename=fn,sha256=hashlib.sha256(raw).hexdigest(),bytes=len(raw),dimensions=size)
+            except Exception as ex:r.update(status='HOLD',reason=type(ex).__name__+': '+str(ex)[:180])
+            return r
+          with ThreadPoolExecutor(max_workers=6) as pool:records=list(pool.map(get,sources.items()))
+          board=Image.new('RGB',(1600,4*360+60),'#f8f5f2')
+          dr=ImageDraw.Draw(board);dr.text((18,15),'BBIA v401 exact source / variants 01, 02 and full cushion / QA only',fill='#232323')
+          for i,r in enumerate(records):
+            x=(i%2)*800+10;y=(i//2)*360+48
+            dr.text((x,y),r['role']+' - '+r['status'],fill='#282828')
+            if r['status']=='SAVED':
+              with Image.open(ROOT/r['filename']) as img:
+                img=img.convert('RGB')
+                if img.height>4*img.width:img=img.crop((0,0,img.width,min(img.height,int(img.width*2.4))))
+                img.thumbnail((750,295),Image.Resampling.LANCZOS)
+                board.paste(img,(x+10+(750-img.width)//2,y+26))
+          board.save(ROOT/'BBIA_v401_8_OFFICIAL_SOURCE_CONTACT.jpg',quality=88,optimize=True)
+          manifest={'version':'v401','parent':'v400','source_mode':'EXACT_OFFICIAL_SOURCE_NO_REDOWNLOAD_OF_v398',
+            'records':records,'saved':sum(x['status']=='SAVED' for x in records),
+            'contour_options':{'01':'WARM DETAIL','02':'COOL DETAIL','basis':'source photo labels'},
+            'eau_glow_cushion_full_options':{'17':'FAIR','21':'LIGHT','23':'NATURAL'},
+            'eau_glow_2027_04_short_expiry_notice':'OFFICIAL_PAGE_2026_11_06',
+            'eau_glow_all_options_retail_ready':False,
+            'option_photos_separately_verified':False,
+            'retail_photo_usage_rights_verified':False,
+            'previous_25_images_modified':0,
+            'published_55_urls_modified':0,
+            'final_excel':False,'sales_approved':0}
+          (ROOT/'BBIA_v401_SHADE_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'requested':len(records),'saved':manifest['saved']}))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v401-source-shade-qa
+          path: /tmp/bbia-v401
+          retention-days: 30
