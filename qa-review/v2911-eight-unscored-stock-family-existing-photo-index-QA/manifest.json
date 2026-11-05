@@ -1,0 +1,1266 @@
+{
+  "version": "v2911",
+  "baseline": "v2910",
+  "generated_at_utc": "2026-11-05T14:04:24Z",
+  "families_targeted": 8,
+  "family_record_count": 8,
+  "existing_QA_image_assets_indexed": 166,
+  "existing_source_candidate_selection": 71,
+  "new_INTERNAL_QA_contact_JPGs": 8,
+  "new_sales_approved": 0,
+  "new_public_image_URLs": 0,
+  "old_image_bytes_changed": 0,
+  "old_published_11_families_untouched": true,
+  "old_55_published_URLs_unchanged": true,
+  "final_excel_shared": false,
+  "families": [
+    {
+      "family": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "matching_assets_in_worktree": 14,
+      "decodable_existing_images": 13,
+      "distinct_existing_sources_selected": 8,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-20-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/01-original-QA.jpg",
+          "sha256": "866746904bbe12894e04a32a69ffeafc4d9cfdc71f8f04cb177b3ef587cabd0e",
+          "bytes": 54252,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 38,
+          "dhash": "1100110011001100110101001100010011000110000101111010100010100000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/02-original-QA.jpg",
+          "sha256": "065e74ce6b699b104d243aef0ab2c5e8c26d1e7f5cad5dc4bc369d164685e6dd",
+          "bytes": 55913,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 38,
+          "dhash": "1010100100010001001100010011000100110001001100010011000100110001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/03-original-QA.jpg",
+          "sha256": "2dcac9d805108c22dc3eec57a59f9cd8dc1a2f208c25f421949bce5555f82a28",
+          "bytes": 57223,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 38,
+          "dhash": "1010001000110010011010000110100001100001011000001000001000000000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/04-original-QA.jpg",
+          "sha256": "b9ddb317784d1fda2bdeb156bf37ff4e478bc21ecce6a52b8c80eee8ff4c58d4",
+          "bytes": 103332,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 38,
+          "dhash": "0000000001000100001011001011001011001111100011110000111101011111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2672-two-five-JPG-real-scene-sets/pending-20/05-original-QA.jpg",
+          "sha256": "bb97654af24b4fe1323f57c956a012e766db7e67ad3ca80490c3127d92ca98ad",
+          "bytes": 95293,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 38,
+          "dhash": "1000100010000001101001011010000010000000100010000110000111000001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/pending-20/01-real-product-hero-1080-QA.jpg",
+          "sha256": "3dbaa4ebb3c4255581d6f817ec3c7d72123ec4c853f3b365dd319cd4e23a0561",
+          "bytes": 61644,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 34,
+          "dhash": "1000000010010000001100000011000000110000001100000011000010110000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/pending-20/01-real-1080-product-hero-QA.jpg",
+          "sha256": "c3e376b4af1f96a58329b4f61d9d5e72726466c2e5b658f066a1d0357f41ba36",
+          "bytes": 77420,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 34,
+          "dhash": "1000000010011000011010000110100001101000010010000110100011101000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/pending-20/01-real-transparent-product-cutout-QA.png",
+          "sha256": "688b6b953a1ebc9f4b34826083a9fdfe829bfa4841102a3cbc199f1d95592731",
+          "bytes": 145086,
+          "native_pixels": [
+            359,
+            582
+          ],
+          "format": "PNG",
+          "source_selection_score": 25,
+          "dhash": "1001110010000011100001110010011101100111011001110110011101100111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "matching_assets_in_worktree": 23,
+      "decodable_existing_images": 23,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-23-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg",
+          "sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+          "bytes": 57774,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 49,
+          "dhash": "0110100001101000011110000111100001111000001110000011100000110000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-product-hero-1080-QA.jpg",
+          "sha256": "c6d0174cd5d09d43bc7671657719188c3c81cf4b4b6e1a1d8f64a243357a3d5a",
+          "bytes": 72611,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 39,
+          "dhash": "1001000010110000011110000011100000111000001110000011100010111000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/02-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "bytes": 124885,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "0000010110011100100111001001110010011100100111000011101011011000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/03-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "bytes": 122133,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "0100100101101100100111101010011000110111101101110101001000110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/04-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "bytes": 74592,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "0110101000101100110111001100110011001000110110001011100011010000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/05-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+          "bytes": 78341,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1100110010010100101101101010110010111100111010001110100011101000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-authentic-source-contour-transparent-1080-QA.png",
+          "sha256": "0ebe79a080f9da7c0f9137b2e31ed60f17333fe1f0e1ba995acaf0da23867120",
+          "bytes": 173373,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "PNG",
+          "source_selection_score": 30,
+          "dhash": "0000111000001110000011100000111000001110000011000000110000001100",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/pending-23/01-real-transparent-product-QA.png",
+          "sha256": "829aa071f454699526577506e35ff793b1fb40f59322601dc5d60b4a3295c044",
+          "bytes": 191397,
+          "native_pixels": [
+            424,
+            809
+          ],
+          "format": "PNG",
+          "source_selection_score": 25,
+          "dhash": "1111101111111011110111110100111101001111001101110011011111111111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/pending-23/01-recovered-product-foreground-alpha-QA.png",
+          "sha256": "d64c535bbf2342c99d52829b6cf298b29a6f2d5fa5758fb49859a0a599de7420",
+          "bytes": 269924,
+          "native_pixels": [
+            556,
+            910
+          ],
+          "format": "PNG",
+          "source_selection_score": 22,
+          "dhash": "0011111100111011001001110010011100011011000110110011111111111111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "matching_assets_in_worktree": 19,
+      "decodable_existing_images": 17,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-24-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-24/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "7fcd6bfc9647351832d73080f13c8fda7fda5b408e610acf6676142c15b8762b",
+          "bytes": 107768,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 34,
+          "dhash": "1000000010110000001100000011000000110000001100000011000010110000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/01-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "5a8626eb9583f0ced9a09dbede3ac08d6fb450e8a9c573b82fc41ba70e609be4",
+          "bytes": 176553,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000010000001100101011001000110010001100101011001010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/02-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "2bec7c259afe9b81ec786660cf5210097951d57e7f9ea0c4532e3c9e50142b51",
+          "bytes": 191990,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000100000000100001100100111000101101001011010011111000110010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/03-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "216ad6670f6c9d6a890192dd3961e3cef9d830a8f743ad00b9434c41404d4f94",
+          "bytes": 156413,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000010100000000100001011001000110010001100101001001010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/04-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "6fcbb77da683940871a609e819765adf8a3c94a3c73c42b9271b4a421ac20a61",
+          "bytes": 182670,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010001100011111000011010100100100001011000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-24/05-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "aa73fbe6f904f8ca5f9cb2f1b77360988a3eea002cdd055a2c3e99ba073bfd21",
+          "bytes": 167613,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010100010001001100010010010100000001000000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/04-fact-only-product-information-QA.jpg",
+          "sha256": "608a20168a4789c45386cbecf38f4e756c9acb9357ee5bb4e127608d4ae232c3",
+          "bytes": 77103,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 16,
+          "dhash": "1000001010000110101100011010000110100100100101000000000110000001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "29e4b00bc2b5eac696a50ce9112a904bb45ae6a26ab386c70362bf7ea489bdcb",
+          "bytes": 175959,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 15,
+          "dhash": "0000111100010111000101110011001100110011000100110001001100110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-24/02-actual-source-slot04-UNMODIFIED-QA.jpg",
+          "sha256": "2316d7def8c08ae00525b5286f48fae408c6571f8159d3d0d6883e6a26320968",
+          "bytes": 201351,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 15,
+          "dhash": "0001111100010111000101110000011100011111000011110001011100010111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "matching_assets_in_worktree": 24,
+      "decodable_existing_images": 24,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-25-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2684b-BOH-cream-only-distinct-photo/pending-25/05-original-source-slot05-byte-preserved-QA.jpg",
+          "sha256": "e4fdc64930ae86d7b76018cce04b80f2a780f910a892bb2d714d702587c7adda",
+          "bytes": 236415,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "0001011101001110011011110110001011011000011100010011000100010111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-background-removed-hero-1080-QA.jpg",
+          "sha256": "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+          "bytes": 202484,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 31,
+          "dhash": "1000000011011000110111001101110010011000110110001111110000100000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+          "sha256": "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+          "bytes": 197314,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 28,
+          "dhash": "1000000111011000110110001101110011011000110110001111110011111100",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/01-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "1bd6f7ce257639056cf4c4791184a5260013d670580c0b4369e0c208e780b907",
+          "bytes": 245867,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000001000110010010110001101100011011000110110001111110010001101",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/02-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "8056a2f6135e73785947e96715f25b40d23fb9f71de2c45c62b5dcb9c681e737",
+          "bytes": 203475,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000100001100001011000000110000001000001011000010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/03-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "c73f31553185c383998c1631027efd6cf4ff217c8e4abbb7d75ae18aba62366f",
+          "bytes": 148823,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1001000000100010011100001101000010010100101101001101000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/04-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "a7c25f91d5b733b2ec32f24d171aad1687d708bd6654a83d57365f735a893aad",
+          "bytes": 207100,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1001000000010001001101000011000000110010110100001101100010011011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-25/05-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "f8ca8d48f2a7e258e72d0004ea8f1fb1a3eaaaa4503c44c669b9b108ecfeb71e",
+          "bytes": 198297,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010111001001110010011100010111000000000000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-25/01-real-alpha-segmented-product-QA.png",
+          "sha256": "673fda4d15de6f44df3c514454216585bacf4bd8fb1ec65a561644c39974322c",
+          "bytes": 425729,
+          "native_pixels": [
+            605,
+            586
+          ],
+          "format": "PNG",
+          "source_selection_score": 20,
+          "dhash": "0011111100111000001101100001101000011000000110000011110000011000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "matching_assets_in_worktree": 22,
+      "decodable_existing_images": 22,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-27-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "bytes": 69734,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 36,
+          "dhash": "1000000010001000000110000011100000110000001100000111000011100000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/01-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "c04468ff58651298f0244f0bba9b14381840591354c201e898ff387a55ff4ee2",
+          "bytes": 150808,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000000000110011001100000010010001100101011000010100111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/02-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "7a9cbf05cb5a199665978dba75df4e3845ba9df801e72842dedb47ff66b35d68",
+          "bytes": 143906,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010011110000111000001100100011000000011000010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/03-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "4b4942e54268a5ddd3faa0d1938af115e514f5842712693d9106ccd5dc39b054",
+          "bytes": 203754,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000100010011100001111010011110100100001001111010010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/04-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "d3b8460b703b46f98ae76ad782557152b0713eac0e1482821f8165c662310f64",
+          "bytes": 246338,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010011100001111000011110100110101001101100010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-27/05-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "1f25c5d0f4a050d8a900ab04ab8cd523b8f4ee6a810f9a621b9348e4362dc490",
+          "bytes": 164959,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1001000000000010011000001110100011001000110110001111000010110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-27/01-truly-transparent-product-QA.png",
+          "sha256": "0c143ebfbbc923ed5f7292dedaf700c354b55c639caa284436579487e47f405f",
+          "bytes": 146451,
+          "native_pixels": [
+            396,
+            669
+          ],
+          "format": "PNG",
+          "source_selection_score": 23,
+          "dhash": "0111001110110011010011111100111011011110100111101011100001101100",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/04-fact-only-product-information-QA.jpg",
+          "sha256": "dbb7a42d101dcfaff3b35a4e33d04ccd08b352d74160a09f123ca0687ed96183",
+          "bytes": 67735,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 16,
+          "dhash": "1010011010100100101100011110000111000001110110010000010110000001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/pending-27/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "bytes": 197694,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 15,
+          "dhash": "1000111101000111110101101111010010100110000101100110011101011011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "matching_assets_in_worktree": 19,
+      "decodable_existing_images": 19,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-28-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+          "sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "bytes": 131499,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 36,
+          "dhash": "1000000011111000011111001111110011101100111110001111110011001100",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2667-original-photo-picks/original-photo-picks/pending-28-source-slot02-QA-ONLY.jpg",
+          "sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "bytes": 114431,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1100110110010110110011001100101100111011001110110011100100111001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2662-14-candidate-snapshot/images/v2653_pending-28_pending-28-slot05-original-photo-crop-QA-ONLY.jpg",
+          "sha256": "494fc3d0c229afc51afb286fa77ca0c2d98a14f7dbff19d25c985e9789514145",
+          "bytes": 95403,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 31,
+          "dhash": "0001001110100011110000111110001111100011111110011111001101010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/01-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "6d891af057125a0e3842e301b145e259cc940f62b2565770a8a7479cb2041186",
+          "bytes": 190294,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000010000100000010110001101100011100000111010001111100010010001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/02-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "7280158c0eebec73dc6fd7517ee04ad7d53e7a01c8b6ac1e73e9a19d7081d135",
+          "bytes": 181690,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000010001110001111100001111000011110001111100010000101",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/03-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "5a12115d604b22c10a73699aac12b4c870d177252a06371fa775dd778c0f3afd",
+          "bytes": 145097,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1010000000100000001100000111000001110000011111000111100010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/04-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "b5da42cbe32e9e3f9734fd95f0f052a0896c790dc3115a933125fb7ca222eae9",
+          "bytes": 153952,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000010100010001100001110100101101000011010011111000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-28/05-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "e921abb23e1720894e09cc4514d0aa073e15880d110e2b2fab81a28565bbcb51",
+          "bytes": 176937,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000100010100000001100000011100001111100001111000001010010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-28/02-actual-product-source-photo-QA.jpg",
+          "sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "bytes": 144068,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 23,
+          "dhash": "1111111110111111100011110010110100111001011111100011111001111111",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "matching_assets_in_worktree": 23,
+      "decodable_existing_images": 23,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-29-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "bytes": 113161,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 34,
+          "dhash": "1000000011000100110111001111110011001000111010001111100011110000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/02-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "2ebc3d949d3696e3670680144cbc199e0c6317524064e04ed726695ddf82d90a",
+          "bytes": 151964,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1000000000000010011100001100110011011110011010001110100010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/03-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "1a858dfc396e7404bf84a45dcab87530209e9d37252e0dc7f99b57d65911f644",
+          "bytes": 157329,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1000000000000000001100000111100001101000011000000111000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/04-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "ee51bf59e74e98724c0929566bf71dc7b58cf810901cb3d18dff879229def803",
+          "bytes": 216449,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1001000000010010010110001100100011001100110111001111100010011011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/05-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "023f07baae12443e0201f02017daef73403d5672d99b16386118313323a77f26",
+          "bytes": 147379,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1000000000000010011001001110000011100010110000001000000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2662-14-candidate-snapshot/images/v2653_pending-29_pending-29-slot05-original-photo-crop-QA-ONLY.jpg",
+          "sha256": "9a7807af3a1f97534abe92d88d0dba4334cc911b86c909aec447484a7072577e",
+          "bytes": 160858,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 31,
+          "dhash": "0001000101011000110010001000110010011100101110001001100100001101",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2706-six-archival-five-real-source-families/pending-29/01-historical-real-art-photo-unchanged-QA.jpg",
+          "sha256": "70399a8937cfd2830a55e664b0b64cc9d3e80d2e49b1aa88db7f5f8ebc688854",
+          "bytes": 176005,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 27,
+          "dhash": "1000100000000010011111011111100011101000111010001111000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-29/01-truly-transparent-product-QA.png",
+          "sha256": "1444cab6fa8b5033e64c6bfe6e3a682ff1f8761c86a7d6eca5fea875ed9398ea",
+          "bytes": 319007,
+          "native_pixels": [
+            681,
+            624
+          ],
+          "format": "PNG",
+          "source_selection_score": 23,
+          "dhash": "0001011110111110111111001111110011001000110010001111100011111000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-29/03-fact-only-product-information-QA.jpg",
+          "sha256": "4ea2378e282ca76a728067acc043f9ebe251ad1664ca9f0c2f0d380f5d8eecb8",
+          "bytes": 73929,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 21,
+          "dhash": "1010001010100110101100011101000111001001101010010000001110000001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "matching_assets_in_worktree": 22,
+      "decodable_existing_images": 21,
+      "distinct_existing_sources_selected": 9,
+      "decoding_errors": [],
+      "contact_sheet": "qa-review/v2911-eight-unscored-stock-family-existing-photo-index-QA/pending-30-existing-real-photo-source-review-1080-INTERNAL-QA.jpg",
+      "selected_original_paths": [
+        {
+          "path": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/pending-30/01-product-only-1080white-hero-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "bytes": 67492,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 34,
+          "dhash": "1000000010110000001100000011000000110000001100000011000010110000",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/02-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "ab82a2d14b3de7dd6b082f84c3e657fece9401e798589ae143ee2299941a9474",
+          "bytes": 180845,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1000000000000010011100001110100011011100111110001111100010110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/03-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "a4f3f56578ddc4299805ced09ebee9b82f2c6dbc02a0edcdf9d5676a2c083b57",
+          "bytes": 202331,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1001000000000010011100001100010010011100101111001111000010110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/04-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "4d41995fb29c5770f478412cdb47b4564b45c645fce35eebf7a96e7ad9f57eb7",
+          "bytes": 186434,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1001000000000001011110001111010011110000011100000111000010000011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/05-original-lifestyle-or-detail-QA.jpg",
+          "sha256": "449aa19f312bfde421ecc17dbb106ea71805f6922e4a1dd2dd41ca512f6b674a",
+          "bytes": 216195,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 33,
+          "dhash": "1000100000010000011100001101100011011010110010001111100010110011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/pending-30/01-authentic-old-product-image-unchanged-QA.jpg",
+          "sha256": "a2a1622ea795cf2c898e609e14a3837978fc871d8d545cae3e12d72d40f4a1e7",
+          "bytes": 140865,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 26,
+          "dhash": "1000000000000000001100001011000000110010001100101011001010010011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/03-fact-only-product-information-QA.jpg",
+          "sha256": "126ee23e06808538b85235952a48b32bee9dd0b5cd7db4e499653468c20b07ff",
+          "bytes": 65582,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 21,
+          "dhash": "1010011010100110101100011011000110000001100000010010000110000001",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/05-official-product-photo-new-QA-ONLY.jpg",
+          "sha256": "db49df98e9b8c7691caf37d5b5c8ad1097ec0b226b7512f2fb2cc30627e0e7a1",
+          "bytes": 114435,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 21,
+          "dhash": "0011011000110110011101100110001001100110011100100111011001110010",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        },
+        {
+          "path": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/pending-30/01-actual-source-slot02-UNMODIFIED-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "bytes": 146178,
+          "native_pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "source_selection_score": 20,
+          "dhash": "1011101110100111100111001011010100110101001100010110011111001011",
+          "actual_owned_stock_verified": false,
+          "photo_commercial_rights_verified": false,
+          "authentic_original_MK_logo_verified": false,
+          "sale_approved": false
+        }
+      ],
+      "visual_label_rights_stock_check": "PENDING",
+      "retail_photo_release": "HOLD",
+      "next_action": "Review contact sources for exact packaging/edition, visual scene variety and unsafe claims; obtain inventory and rights proof before release."
+    }
+  ]
+}
