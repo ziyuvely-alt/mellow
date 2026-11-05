@@ -1,0 +1,80 @@
+{
+  "version": "v2833",
+  "baseline": "v2832",
+  "family": "pending-04",
+  "product": "CLIO Mesh Glow Essential Cushion Mini 5g",
+  "attempted_variant_cutouts": 2,
+  "physically_saved_alpha_png_plus_1080_jpg_pairs": 2,
+  "previous_10_photo_QA_files_unchanged": true,
+  "previous_11_approved_product_families_untouched": true,
+  "previous_55_public_image_URLs_unchanged": true,
+  "verified_photo_redistribution_rights": false,
+  "owned_stock_edition_and_shade_verified": false,
+  "authentic_MK_logo_verified": false,
+  "photo_source_has_shade_label_not_physical_stock_proof": true,
+  "retail_approved": false,
+  "new_sales_approval_count": 0,
+  "final_xlsx_shared": false,
+  "products": [
+    {
+      "family": "pending-04",
+      "shade": "21C",
+      "shade_label": "Lingerie",
+      "source": "qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference/21C-Lingerie-source-variant-labelled-photo-QA.jpg",
+      "source_sha256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+      "mask_model": "isnet-general-use",
+      "original_photo_rights_verified": false,
+      "owned_stock_variant_confirmed": false,
+      "status": "TRUE_ALPHA_PNG_AND_1080_JPG_SAVED_VISUAL_QA_PENDING",
+      "commercial_release": false,
+      "crop_xyxy": [
+        58,
+        55,
+        1034,
+        737
+      ],
+      "mask_bbox": [
+        94,
+        62,
+        789,
+        578
+      ],
+      "alpha_pixel_coverage": 0.36617,
+      "transparent_png": "21C/01-21C-mini5g-real-alpha-cutout-QA.png",
+      "white_background_jpg": "21C/01-21C-mini5g-real-product-source-1080-QA.jpg",
+      "jpg_sha256": "4743b33ceb705ca441049210e55e7af1e890bb4566cf0166bad8bdd00a31eb98",
+      "jpg_bytes": 112170,
+      "actual_fabricated_product_pixels": 0
+    },
+    {
+      "family": "pending-04",
+      "shade": "21N",
+      "shade_label": "Linen",
+      "source": "qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference/21N-Linen-source-variant-labelled-photo-QA.jpg",
+      "source_sha256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+      "mask_model": "isnet-general-use",
+      "original_photo_rights_verified": false,
+      "owned_stock_variant_confirmed": false,
+      "status": "TRUE_ALPHA_PNG_AND_1080_JPG_SAVED_VISUAL_QA_PENDING",
+      "commercial_release": false,
+      "crop_xyxy": [
+        58,
+        55,
+        1034,
+        737
+      ],
+      "mask_bbox": [
+        196,
+        173,
+        591,
+        498
+      ],
+      "alpha_pixel_coverage": 0.1542,
+      "transparent_png": "21N/01-21N-mini5g-real-alpha-cutout-QA.png",
+      "white_background_jpg": "21N/01-21N-mini5g-real-product-source-1080-QA.jpg",
+      "jpg_sha256": "2ab21cc4c89ebcbf7c5066933fd4db466ea2fed823c333196a180789533a0ae4",
+      "jpg_bytes": 101614,
+      "actual_fabricated_product_pixels": 0
+    }
+  ]
+}
