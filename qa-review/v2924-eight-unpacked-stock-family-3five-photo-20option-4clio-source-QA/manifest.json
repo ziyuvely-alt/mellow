@@ -1,0 +1,826 @@
+{
+  "version": "v2924",
+  "baseline": "v2923",
+  "created_utc": "2026-11-05T14:59:14Z",
+  "remaining_pending_families_scanned": 8,
+  "three_five_photo_archive_zips_created": 3,
+  "existing_JPGs_repacked_verbatim": 15,
+  "four_mixed_source_family_technical_contact_QAs": 4,
+  "peripera_legacy_option_JPG_PNG_pairs_SHA_verified": 20,
+  "peripera_total_original_source_images_verified": 40,
+  "peripera_known_hold_shades": [
+    "12",
+    "13",
+    "14",
+    "18",
+    "19"
+  ],
+  "peripera_below_300px_alpha_shades": [
+    "12",
+    "14",
+    "20"
+  ],
+  "peripera_no_21_26_options_created": true,
+  "new_internal_peripera_20shade_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/peripera-01to20-legacy-source-20shade-INTERNAL-CONTACT.jpg",
+  "new_product_photo_originals": 0,
+  "original_source_pixels_changed": 0,
+  "prior_v2918_2_ZIPs_preserved": true,
+  "prior_v2920_6_ZIPs_preserved": true,
+  "prior_v2922_5_ZIPs_preserved": true,
+  "prior_v2923_9_ZIPs_preserved": true,
+  "approved_11_commercial_families_unchanged": true,
+  "existing_55_verified_URLs_unchanged": true,
+  "new_sale_approved_images": 0,
+  "new_public_image_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "full_reused_5photo_archives": [
+    {
+      "family": "pending-01",
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "photo_count": 5,
+      "original_source_files": [
+        {
+          "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/01-real-corrected-23-cushion-hero-QA.jpg",
+          "sha256": "fe5b37270e9d5674414fddb2a872575a460c862bc5518dd1e0eb0c2e4d1a8b82",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 100615
+        },
+        {
+          "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/02-source-product-scene-QA.jpg",
+          "sha256": "09b2200093a98bf8700b33230997c2682bf803c02c89bc17e0262dd1cbe843c4",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 90290
+        },
+        {
+          "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/03-source-product-scene-QA.jpg",
+          "sha256": "e0f97e0f9cf7d2ddb07d0d619cfaf1e34c39fe1298af16f5acc3fcb5d2892e83",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 213061
+        },
+        {
+          "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/04-source-product-scene-QA.jpg",
+          "sha256": "60a893674b4136aad12e1917d41c954a3e918179a79f5f732cc7394d0d8bb587",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 73479
+        },
+        {
+          "path": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/05-source-product-scene-QA.jpg",
+          "sha256": "0f71d777dfe7c9259fc8d4e00b7f4714515d687ff78e2f8aac435162eb18443a",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 95952
+        }
+      ],
+      "internal_zip": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "zip_sha256": "5dcb533184e9c6a4126f4065df43d584f0ae652e0c885e38b8ba476bd9566145",
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-five-archived-photo-CONTACT-1080-INTERNAL.jpg",
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "Only 23 cushion hero grounded; missing color #21,#25,#27 independent images"
+      ],
+      "sale_approved": false
+    },
+    {
+      "family": "pending-02",
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "photo_count": 5,
+      "original_source_files": [
+        {
+          "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/01-real-product-cutout-prior-QA.jpg",
+          "sha256": "05b1b6cb821acad0bf183613cc45e416f2484b98b9b33bb976d867f85557d753",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 83686
+        },
+        {
+          "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/02-source-archive-detail-QA.jpg",
+          "sha256": "b80ef6948cae9bbe7156ef5b35d2956ced0c283906135c0be88fb00fb5923d3c",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 63058
+        },
+        {
+          "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/03-source-archive-detail-QA.jpg",
+          "sha256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 70952
+        },
+        {
+          "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/04-source-archive-detail-QA.jpg",
+          "sha256": "b00a890e76a5e901c82472bb0e8425609c97bf10ea94af3f7b1ce635701f1fac",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 83936
+        },
+        {
+          "path": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/05-source-archive-detail-QA.jpg",
+          "sha256": "1a81493b28a0863416c4afe7ccd62e1c2befb0aac016c27d07c416c628ddbf60",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 70310
+        }
+      ],
+      "internal_zip": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "zip_sha256": "4507e0ea6358024e9569103233033ebd21957f33d6bb929cbaca2dc5ece8a9dc",
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-five-archived-photo-CONTACT-1080-INTERNAL.jpg",
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "Korean-vs-regional generation/photo conflict unresolved"
+      ],
+      "sale_approved": false
+    },
+    {
+      "family": "pending-19",
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "photo_count": 5,
+      "original_source_files": [
+        {
+          "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/pending-19/01-existing-authentic-isolated-product-hero-QA.jpg",
+          "sha256": "a318dc41faa966392a420b9b1915e0b8767cc6b8834c8058721f9372ebe37f20",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 64028
+        },
+        {
+          "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/pending-19/02-official-real-jar-cream-background-QA.jpg",
+          "sha256": "7707f2450d3f3a0ae1e668edd0150add5e92245ede7f867abf38f1130b3546ac",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 83045
+        },
+        {
+          "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/pending-19/03-official-open-closed-jar-photo-QA.jpg",
+          "sha256": "05f61715a52e968fb94fc37e12213c975cd038c23dc75962d9078f19f6ef15b5",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 192391
+        },
+        {
+          "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/pending-19/04-fullbleed-cream-hand-texture-no-ad-copy-QA.jpg",
+          "sha256": "5a4c09016e4d7828f29aee4069db900bcc1e3095178a0f5f50478bfb22aa70bb",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 174982
+        },
+        {
+          "path": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/pending-19/05-real-cream-formula-closeup-without-ad-copy-QA.jpg",
+          "sha256": "ed7be360ebbc6184f7a258c2173c86c303c1ba3570741ef131c54944c209b997",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "bytes": 53171
+        }
+      ],
+      "internal_zip": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "zip_sha256": "b2bf2f7c2ff17c28361362968f62455a7d1d8b8c19c0e00d411ce66c4035f1e4",
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-five-archived-photo-CONTACT-1080-INTERNAL.jpg",
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "25AD Alpha formula and regional set photos require source and batch verification"
+      ],
+      "sale_approved": false
+    }
+  ],
+  "mixed_option_sources": [
+    {
+      "family": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "reference_count": 5,
+      "unreadable_count": 0,
+      "errors": [],
+      "reference_paths": [
+        {
+          "path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-05/01-actual-product-cutout-square-1080-QA.jpg",
+          "sha256": "cf60b2a833777798539b9a34c23825073efd6f752b8ff8cb104971f6129e4624",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/01-official-5750-m-gif-REFERENCE.jpg",
+          "sha256": "865b78ddd4eaddd24f927da48dc55b8142ca35f57beb702b24a4b25cf681c3b5",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/02-official-5750-b-gif-REFERENCE.jpg",
+          "sha256": "4a799728296b8af791dcc3f54cf689e9052cdb9e4f699f18dbcc595b9536dfe4",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/03-official-7108-m-gif-REFERENCE.jpg",
+          "sha256": "8a995ee92aec1cbcc85f802f1e1ace77321680c6dc7c3d4ddcad21f2bee6e675",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-05/04-official-7108-b-gif-REFERENCE.jpg",
+          "sha256": "9d6d273daf8db752638cb2d059b25ed26071990296de0766199d24771d862fc9",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        }
+      ],
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-05-mixed-option-sources-contact-INTERNAL.jpg",
+      "blockers": [
+        "Two different product ID sets 5750 and 7108. Do not merge as one shade/edition set without verified 15g+refill package.",
+        "v2861 documented possible 21C-vs-21N merchant-source relabel collision",
+        "Image rights and options unapproved"
+      ],
+      "retail_approved": false
+    },
+    {
+      "family": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "reference_count": 5,
+      "unreadable_count": 0,
+      "errors": [],
+      "reference_paths": [
+        {
+          "path": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/19C-merch-exact-shade-JPG1080-QA.jpg",
+          "sha256": "30e634e6d2b43992c3806af785960b50d1d382445980e66dc096ce0f149f5ddf",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/19N-merch-exact-shade-JPG1080-QA.jpg",
+          "sha256": "b78b00901280a2b29a4c71db2fcc58f610e8509f7246efd1c747e144201a3376",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21C-merch-exact-shade-JPG1080-QA.jpg",
+          "sha256": "3c62c61eb1684af30acb38cf66f7c6467acbb15d50d2c933a1765f0fb5e31f75",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/21N-merch-exact-shade-JPG1080-QA.jpg",
+          "sha256": "989dca5f5cd610652aca03ebf5bbada1203b7f07953a1953bfaf652ac0f40b9e",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2851-clio-giftset-five-option-variant-photo-QA/pending-06/23N-merch-exact-shade-JPG1080-QA.jpg",
+          "sha256": "e276a2cd4a5fdf7a0ce833df0386cf8481e0c2aa32f0e1e54e9057b5e59903ff",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        }
+      ],
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-06-mixed-option-sources-contact-INTERNAL.jpg",
+      "blockers": [
+        "v2861 flagged all 10 shade pairs as near-identical product photos despite different filenames; cannot claim differentiated swatches",
+        "Set/re-fill stock pack, source rights and MK verification pending"
+      ],
+      "retail_approved": false
+    },
+    {
+      "family": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "reference_count": 5,
+      "unreadable_count": 0,
+      "errors": [],
+      "reference_paths": [
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19C-reference-card-1080-QA.jpg",
+          "sha256": "33fcba1520233be71c29872ed5479d0abe7934f1d713c392354ecd67236971f8",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19N-reference-card-1080-QA.jpg",
+          "sha256": "338bf4442758d91b5f3c5f5ca3b06bb8d642bdb4006396ce64bd506a35b0de40",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-21N-reference-card-1080-QA.jpg",
+          "sha256": "09ef3166666d45835bea0e59859fe6a6a74d8da504e80a8845734da926cb32ee",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-07/01-actual-product-cutout-square-1080-QA.jpg",
+          "sha256": "da210c9933c66e55da3abb2a82e1bf2a74eb186a6b46cc132a0b25325b31f223",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/01-official-6455-m-gif-REFERENCE.jpg",
+          "sha256": "5f7f5fc8caac73b277b22211ab259ff99dee76677a153b1c75c96460e9033728",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        }
+      ],
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-07-mixed-option-sources-contact-INTERNAL.jpg",
+      "blockers": [
+        "Only 19C,19N,21N shade-specific photo cards, not complete all color options; two extra entries are mixed gallery reference, not validated shade views",
+        "Exact mesh-blur 15g x2 set image source and stock generation not proven"
+      ],
+      "retail_approved": false
+    },
+    {
+      "family": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "reference_count": 5,
+      "unreadable_count": 0,
+      "errors": [],
+      "reference_paths": [
+        {
+          "path": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/pending-12/01-actual-product-cutout-square-1080-QA.jpg",
+          "sha256": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/01-existing-original-slot01-unchanged-QA.jpg",
+          "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/02-existing-original-slot02-unchanged-QA.jpg",
+          "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/03-existing-original-slot03-unchanged-QA.jpg",
+          "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/04-safe-original-info-QA.jpg",
+          "sha256": "ea3b551a1b2d417476fed87de50cd3718efae50a7b749d6a44f4e489f1c85b22",
+          "pixels": [
+            1080,
+            1080
+          ],
+          "format": "JPEG"
+        }
+      ],
+      "internal_contact": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-12-mixed-option-sources-contact-INTERNAL.jpg",
+      "blockers": [
+        "Label quantity conflict 15g vs 15mL. No image relabel or retail release until official owned stock confirmed",
+        "Mixed factual information cards are not five independently proven photographs"
+      ],
+      "retail_approved": false
+    }
+  ],
+  "peripera_legacy_options": [
+    {
+      "shade": "01",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/01-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "ae13ca7c05c7174d79bca73e9ea63f0a1a62016a78b576a808eece4cb0b34ad2",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/01-legacy-source-alpha-QA.png",
+      "PNG_sha256": "539e94ecb55afc25b9ebb5cf2744f8e78bc79232d77ca298f5ce7e82213fc032",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        630,
+        712
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "02",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/02-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "c6f46f8e207d726b1d99b0cc15064d40ac8a9a34f0fc7c2c8c2ca320028fa89c",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/02-legacy-source-alpha-QA.png",
+      "PNG_sha256": "446d36ebf2a0b96d52ab06db9a395d8451327df17a69e96db014f6d98ab37722",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        613,
+        711
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "03",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/03-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "1c0f5d4562da6d668e666d2037e92143b748908a83632a4ed24da45cb6964a57",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/03-legacy-source-alpha-QA.png",
+      "PNG_sha256": "a2d1994e6c546c8e130401b783db84d62126a623c0c9c1f9da87413beded27f5",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        638,
+        710
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "04",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/04-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "62dcf86df6f6de864cf0fc9125d33147b5512252ea3821a6be2c4376591643b3",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/04-legacy-source-alpha-QA.png",
+      "PNG_sha256": "b29c1e0eab30aec867eaafe384e41e041f3fa7bf039ee84dc42a72f372ccbde6",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        622,
+        706
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "05",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/05-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "13871398edc69358a7bc781463582174439c8f4f5cee9805f08dd9ba92ba4bb3",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/05-legacy-source-alpha-QA.png",
+      "PNG_sha256": "aaba86f8dc90ecacfe6daabd5a758b93f4ba8be6bba6fee3d879479b85bbb689",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        665,
+        705
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "06",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/06-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "b19d94645d032f04d383d7c0777cbeb9230c26b91b1993ba3750425a3e7e0132",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/06-legacy-source-alpha-QA.png",
+      "PNG_sha256": "3edc7a087472f79c4b1e5b3cc8300fb7d176adbe32b016cf0009236c122f1e6c",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        625,
+        704
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "07",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/07-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "6ee42ef54c8532ff5cb257af4564a6890262e7d6c34b1121eab9580708252ea2",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/07-legacy-source-alpha-QA.png",
+      "PNG_sha256": "4a5e8e25b39c7dab0568213e5892dc82aaa9ccd41c59f8de91ea33dc04904211",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        497,
+        716
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "08",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/08-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "84fceec8458f433a5cc5c753547a94c118eb22f4c1ef28f4fbdd79451d722025",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/08-legacy-source-alpha-QA.png",
+      "PNG_sha256": "c73905ee224746882b7b5610a5288b12795b8e2d0d196c18c2c4276c0a26946e",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        493,
+        714
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "09",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/09-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "c5edee0524e92a12e90eb4282392d4fb3dfff57e316ec63912a0a91d18a48ea0",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/09-legacy-source-alpha-QA.png",
+      "PNG_sha256": "cbb786068c1f7098d794392d42d95490fd86d93139eeb31c365911a3ea9e8850",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        488,
+        708
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "10",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/10-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "24502e42c90c8b539d42efbfc552ddb488569baac763616a8bf69f6b268b7cc8",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/10-legacy-source-alpha-QA.png",
+      "PNG_sha256": "dca7409d11aa18354fef850e601a8673fab0d75e0ea372d73652ef5c7eeeee29",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        466,
+        706
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "11",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/11-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "4804739ee0ff879e65588aebff52624a0f8a9bc3e501e685d39cc3eb47a2e8b4",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/11-legacy-source-alpha-QA.png",
+      "PNG_sha256": "dbccec9791c2656ffea5b9462f571b01f2df924445e8287fee31c3846be30224",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        496,
+        709
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "12",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/12-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "1a8c7b7b21f56fee6b38501127c9ec2b8f8f98dcc20ff3dbc1cb6a1662959411",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/12-legacy-source-alpha-QA.png",
+      "PNG_sha256": "f2be139de08864050243c1b3153c9cdf5a38aad7e6dd637b84587984373b569d",
+      "legacy_edition_only": true,
+      "known_issue": "Old Peritage Warm-gorithm, require exact owned stock edition confirmation",
+      "alpha_native_size_px": [
+        229,
+        325
+      ],
+      "low_native_alpha_photo_below_300px": true,
+      "status": "EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "13",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/13-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "2ccc0c92c398d12834437afa4a84998a8567778140afd828e56afa3a3fd370ca",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/13-legacy-source-alpha-QA.png",
+      "PNG_sha256": "812da8abf2a83ec36474da02749fbbc886a639adf08ca87e36901d75fa4a37f1",
+      "legacy_edition_only": true,
+      "known_issue": "Old Peritage Berry Pretty, ribbon variant may differ from original inventory",
+      "alpha_native_size_px": [
+        772,
+        1006
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "14",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/14-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "def36acc38716685d7e576cdb562bf46b072ca9ad02877842aa9ce149c0e7b44",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/14-legacy-source-alpha-QA.png",
+      "PNG_sha256": "e47088e5d67f561ae8155ae02d65a0ed651c1d697a46d45b01b2bc12ec63f772",
+      "legacy_edition_only": true,
+      "known_issue": "Old Peritage Follow Rose label; actual owned 014 and 26AD names conflict",
+      "alpha_native_size_px": [
+        225,
+        273
+      ],
+      "low_native_alpha_photo_below_300px": true,
+      "status": "EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "15",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/15-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "71fb367e6286f0e6f1dce6762d9a2544afd6444c6843f19797f799a2f0771bfe",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/15-legacy-source-alpha-QA.png",
+      "PNG_sha256": "ab565b07fddf13d92586220fba6dbc47bbd3ad426c3e414ed01b3dc8847f19cb",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        355,
+        570
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "16",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/16-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "97d0434fb8408af4b32890ee413c3b40cbceb7f8039f76fc86bb47d18907593f",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/16-legacy-source-alpha-QA.png",
+      "PNG_sha256": "d44e199b81b26dc52576656c8eaf5ab7521fd01cafa5819ea3ad3cc954756932",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        333,
+        571
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "17",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/17-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "6c578f17b7bc196273c23fa7084a3844a5c24a0b014fe98d3e3a2182048a0589",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/17-legacy-source-alpha-QA.png",
+      "PNG_sha256": "abd0c8916b0beab761126008a708b3cd01252920a61b15dcd84bfedb15e63f23",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        332,
+        570
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "18",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/18-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "df570eba2df027b05b8bb38348a4ba1e6378660e8bbc2b2760cf0d6e6c00484f",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/18-legacy-source-alpha-QA.png",
+      "PNG_sha256": "3e079be3cd5c4670f575220007e5eab1063d6981a970d2e315e0f36122bd0860",
+      "legacy_edition_only": true,
+      "known_issue": "Nude Area: decorative lipstick swatch remains behind product. Not a bare clean packshot",
+      "alpha_native_size_px": [
+        630,
+        870
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "19",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/19-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "92a03a4e61a5f1cc414591fed48ff04a5cee5bdc147acb487a787b18475cc3ec",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/19-legacy-source-alpha-QA.png",
+      "PNG_sha256": "4ea3c9c14c735827cf64ef461928c4bf93e3d8be591c4322ad93dc5f6665b0b4",
+      "legacy_edition_only": true,
+      "known_issue": "Mauve Chaos: background paint swatch remains attached. Not a bare clean packshot",
+      "alpha_native_size_px": [
+        371,
+        533
+      ],
+      "low_native_alpha_photo_below_300px": false,
+      "status": "EXPLICIT_LEGACY_PHOTO_SOURCE_HOLD",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "20",
+      "JPG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/20-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "b5c85ba2da1761fd70a54b8e4e5ddd633f6815036356246da27b4b954e079d96",
+      "PNG": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/20-legacy-source-alpha-QA.png",
+      "PNG_sha256": "a50946af4f1973562d6eadf4007c30d991c4b76b620567e0f7b701cf91fba209",
+      "legacy_edition_only": true,
+      "known_issue": null,
+      "alpha_native_size_px": [
+        293,
+        508
+      ],
+      "low_native_alpha_photo_below_300px": true,
+      "status": "BRAND_EDITION_IMAGE_IDENTITY_UNVERIFIED",
+      "commercial_photo_rights_approved": false,
+      "26AD_photo_proven": false,
+      "retail_approved": false
+    }
+  ]
+}
