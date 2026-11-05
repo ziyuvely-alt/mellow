@@ -1,0 +1,40 @@
+name: Shopee v2919 reconcile QA checkpoints and inspect new PixelPure originals
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2919-pixelpure-qa-checkpoint-merge.yml'
+      - 'scripts/v2919_integrate_parallel_review_and_pixelpure_extra_big_QA.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  preserve_two_v2918_zip_packs_and_merge_v2917:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests beautifulsoup4
+      - name: Reconcile v2918 and both v2917 branches; fetch only truly new official PixelPure assets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2919_integrate_parallel_review_and_pixelpure_extra_big_QA.py
+          cp scripts/v2919_integrate_parallel_review_and_pixelpure_extra_big_QA.py /tmp/v2919.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2919review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2919review
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA
+          python /tmp/v2919.py
+          git add qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA
+          git diff --cached --name-only | tee /tmp/changed-v2919
+          ! grep -Ev '^qa-review/v2919-reconcile-parallel-v2917-and-pixelpure-extra-big-firstparty-QA/' /tmp/changed-v2919
+          git commit -m 'v2919 preserve two packed groups, merge parallel QA, and stage only new original photo sources'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
