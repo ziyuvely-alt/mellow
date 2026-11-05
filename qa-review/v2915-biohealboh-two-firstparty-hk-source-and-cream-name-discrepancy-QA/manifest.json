@@ -1,0 +1,86 @@
+{
+  "version": "v2915",
+  "baseline": "v2914",
+  "date_UTC": "2026-11-05T14:25:06Z",
+  "family_count": 2,
+  "firstparty_full_resolution_sources": 2,
+  "internal_brand_photo_contacts": 2,
+  "new_sales_approvals": 0,
+  "new_public_image_urls": 0,
+  "existing_11_published_families_unchanged": true,
+  "existing_55_public_urls_unchanged": true,
+  "prior_QA_paths_modified": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-24",
+      "product_record_name": "NAD PRIZCELL Glow Power Serum 30mL",
+      "brand_official_page": "https://www.biohealboh.hk/products/nad-prizcell-glow-power-serum-30ml",
+      "official_shopify_title": "NAD-PRIZCELL Glow Power Serum 30ml",
+      "title_matches_product_identity": true,
+      "market_name_conflict_power_vs_boost": false,
+      "source_URL_count": 1,
+      "new_original_images": 1,
+      "image_records": [
+        {
+          "size": [
+            2250,
+            2250
+          ],
+          "source_url": "https://cdn.shopify.com/s/files/1/0600/6135/2008/files/BOH-oselect_NAD-PRIZCELL_Serum.jpg?v=1785489173",
+          "raw_original_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-24/01-official-HK-native-original.jpg",
+          "raw_SHA256": "557af3f80a4f3cfc5550b79dfb10a2d761a6b54ba90597ea63215a87e22c0c96",
+          "reference_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-24/01-brand-1080-reference-JPG-INTERNAL.jpg",
+          "reference_SHA256": "1d45520b1e2367c84589e43a0380e94dc00404afb72f049541d0e1cc1d0eb5ab",
+          "minimum_dhash_distance_to_prior": 13,
+          "minimum_dhash_distance_to_other_new": 64,
+          "could_be_prior_duplicate": false,
+          "actual_brand_official_title": "NAD-PRIZCELL Glow Power Serum 30ml",
+          "name_mismatch_stock_vs_HK": false,
+          "commercial_usage_rights_verified": false,
+          "physical_KR_stock_edition_verified": false,
+          "model_claims_reviewed": false,
+          "retail_approved": false
+        }
+      ],
+      "contact_image": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-24-official-HK-catalog-review-INTERNAL.jpg",
+      "errors": [],
+      "next": "Confirm KR inventory physical exact labeling, rights, and possible Power/Boost regional name equivalence; do not rename user SKU automatically"
+    },
+    {
+      "family": "pending-25",
+      "product_record_name": "NAD PRIZCELL Glow Boost Cream 50mL",
+      "brand_official_page": "https://www.biohealboh.hk/products/nad-prizcell-glow-boost-cream-50ml",
+      "official_shopify_title": "NAD-PRIZCELL Glow Power Cream 50ml",
+      "title_matches_product_identity": true,
+      "market_name_conflict_power_vs_boost": true,
+      "source_URL_count": 1,
+      "new_original_images": 1,
+      "image_records": [
+        {
+          "size": [
+            2250,
+            2250
+          ],
+          "source_url": "https://cdn.shopify.com/s/files/1/0600/6135/2008/files/BOH-oselect_NAD-PRIZCELL_Cream.jpg?v=1785489174",
+          "raw_original_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-25/01-official-HK-native-original.jpg",
+          "raw_SHA256": "9f3c069f3530181c92a551305c2c81eed1fceaa68c9d99799c0d5a46ceccb698",
+          "reference_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-25/01-brand-1080-reference-JPG-INTERNAL.jpg",
+          "reference_SHA256": "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+          "minimum_dhash_distance_to_prior": 42,
+          "minimum_dhash_distance_to_other_new": 64,
+          "could_be_prior_duplicate": false,
+          "actual_brand_official_title": "NAD-PRIZCELL Glow Power Cream 50ml",
+          "name_mismatch_stock_vs_HK": true,
+          "commercial_usage_rights_verified": false,
+          "physical_KR_stock_edition_verified": false,
+          "model_claims_reviewed": false,
+          "retail_approved": false
+        }
+      ],
+      "contact_image": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-25-official-HK-catalog-review-INTERNAL.jpg",
+      "errors": [],
+      "next": "Confirm KR inventory physical exact labeling, rights, and possible Power/Boost regional name equivalence; do not rename user SKU automatically"
+    }
+  ]
+}
