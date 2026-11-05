@@ -1,0 +1,37 @@
+name: Shopee v2887 CLIO Mesh Blur three real stock shades and five source-photo QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2887-clio-meshblur-three-stock-shades-and-five-source-photo-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  reuse_real_stock_shades_and_verify_promo_hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Build five new QA scenes from three immutable source shades plus official and promo, protect old public URLs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2887_clio_meshblur_three_stock_shades_five_source_story_QA.py
+          cp scripts/v2887_clio_meshblur_three_stock_shades_five_source_story_QA.py /tmp/v2887.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2887qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2887qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2887-clio-meshblur-three-stock-shade-and-five-source-QA
+          python /tmp/v2887.py
+          git add qa-review/v2887-clio-meshblur-three-stock-shade-and-five-source-QA
+          git commit -m 'v2887 CLIO Mesh Blur three distinct stock shades and two source-only scenes; no gift or commercial claims'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
