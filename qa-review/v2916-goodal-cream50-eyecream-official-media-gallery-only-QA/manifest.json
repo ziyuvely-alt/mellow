@@ -1,0 +1,144 @@
+{
+  "version": "v2916",
+  "baseline": "v2915",
+  "date_UTC": "2026-11-05T14:28:42Z",
+  "families_processed": 2,
+  "new_originals_saved": 6,
+  "new_QA_reference_1080": 6,
+  "new_internal_contacts": 1,
+  "existing_11_approved_families_unmodified": true,
+  "existing_55_URLs_unchanged": true,
+  "prior_QA_files_unmodified": true,
+  "commercial_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-19",
+      "product": "GOODAL Green Tangerine Vita-C Dark Spot Care Cream Alpha 50mL",
+      "manufacturer_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-cream-advanced-ver",
+      "product_page_title_matched": true,
+      "gallery_urls_evaluated": 7,
+      "new_brand_original_sources": 6,
+      "images": [
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/1_83005dbd-050d-4026-887e-95132d160429_1200x.jpg?v=1772777724",
+          "source_type": "HAND_VERIFIED_OFFICIAL_PAGE",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/01-brand-native-original.jpg",
+          "original_sha256": "3c1117396a7b4d662f7fee6977c139bd0e40c20469fdf0859868214a1c11bb93",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/01-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "74bcaf08f1135308ecb830158c3f2b22beebcb42f5a09a86b07abff1aeb1aa4d",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        },
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/2_d5a44fc5-ef3a-4f38-a569-24dd62525257_1200x.jpg?v=1772777724",
+          "source_type": "HAND_VERIFIED_OFFICIAL_PAGE",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/02-brand-native-original.jpg",
+          "original_sha256": "8c1abd6224763ac0c9e1dc9134b02646f270e7eb9df24b55b840cccd1945735a",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/02-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "f97b8558cef814ae5a1fab4b28cbdd249afcd893d37bec4291955154a36d5f1d",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        },
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/3_a430a093-6b35-4505-b8ec-dbe56aae24f4_1200x.jpg?v=1772777724",
+          "source_type": "BRAND_PAGE_MEDIA",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/03-brand-native-original.jpg",
+          "original_sha256": "3e1774ca5ac40468857431e8242ffde4f715feeabbc8405a9f3669f3f298f3dc",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/03-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "77fe40cd78f9f61e8fce55af08ea5f14d9e7a7373b9570ad14ed69534319b6a9",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        },
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/4_9bb850dc-225e-4ca6-b361-8d34a906d6ad_1200x.jpg?v=1772777724",
+          "source_type": "BRAND_PAGE_MEDIA",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/04-brand-native-original.jpg",
+          "original_sha256": "dc7a44a8de9075bd2557ca374e0caaac3b3608c942ac8b5495c39f212e6e7790",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/04-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "463ff8d6590c7ac06dd3dac029ed3f5861285e267686ff0b9f99181dac25dcc8",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        },
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/5_e98f3c1f-2a99-41a6-b120-d131ce26e20e_1200x.jpg?v=1772777724",
+          "source_type": "BRAND_PAGE_MEDIA",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/05-brand-native-original.jpg",
+          "original_sha256": "5705f900939465b76585cc0d5159981f1c1a23238445191572de4073d8594cee",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/05-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "30a78b5934a3108d7e545ff7fdbc2dec2ccdf131e23fc52c43fb6c9cd21c5d70",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        },
+        {
+          "size": [
+            1200,
+            1200
+          ],
+          "source_url": "https://clubclio.shop/cdn/shop/files/6_69e4dd90-dce7-43d0-a57e-9cc4ba45fa93_1200x.jpg?v=1772777724",
+          "source_type": "BRAND_PAGE_MEDIA",
+          "original_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/06-brand-native-original.jpg",
+          "original_sha256": "dd4e99aa183fd61c2a8a1e75b15121c2ace3c9690fdebf93eb6841f7baf3d390",
+          "reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/06-brand-1080-INTERNAL-QA.jpg",
+          "reference_sha256": "e8bc7b92c4223c1b8477aa1566019d55b9dd5fb060090370aba17046fe84a21a",
+          "visual_product_edition_check": "PENDING",
+          "claims_review": "PENDING",
+          "commercial_photo_permission": false,
+          "retail_approved": false
+        }
+      ],
+      "contact_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19-gallery-review-INTERNAL.jpg",
+      "errors": [],
+      "stock_generation_verified": false,
+      "image_licenses_verified": false,
+      "sale_approved": false
+    },
+    {
+      "family": "pending-21",
+      "product": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream, 25AD version unverified",
+      "manufacturer_page": "https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream",
+      "product_page_title_matched": false,
+      "gallery_urls_evaluated": 1,
+      "new_brand_original_sources": 0,
+      "images": [],
+      "contact_path": null,
+      "errors": [
+        "page failed: 404 Client Error: Not Found for url: https://clubclio.shop/products/goodal-green-tangerine-vitamin-c-dark-circle-eye-cream"
+      ],
+      "stock_generation_verified": false,
+      "image_licenses_verified": false,
+      "sale_approved": false
+    }
+  ]
+}
