@@ -1,0 +1,37 @@
+name: Shopee v2908 MISSHA official diverse product photo scenes for PDRN inventory
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2908-missha-manufacturer-multiple-photo-scenes.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  acquire_two_pdrn_families_new_manufacturer_scenes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Save first-party source binary photos into new internal QA folder only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2908_missha_new_manufacturer_scene_sources.py
+          cp scripts/v2908_missha_new_manufacturer_scene_sources.py /tmp/v2908.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2908qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2908qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA
+          python /tmp/v2908.py
+          git add qa-review/v2908-missha-pdrn-twofamily-distinct-official-photo-scenes-QA
+          git commit -m 'v2908 acquire manufacturer original new PDRN product scene photos, internal QA only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
