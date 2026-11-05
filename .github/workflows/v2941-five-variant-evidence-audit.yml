@@ -1,0 +1,39 @@
+name: Shopee v2941 option-pack generation and MISSHA volume correction QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2941-five-variant-evidence-audit.yml'
+      - 'scripts/v2941_five_option_pack_generation_unit_source_resolution.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  verify_and_save_next_checkpoint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify syntax and expected non-destructive scope
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2941_five_option_pack_generation_unit_source_resolution.py
+          cp scripts/v2941_five_option_pack_generation_unit_source_resolution.py /tmp/v2941.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2941-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2941-qa
+          test ! -e qa-review/v2941-five-option-pack-generation-unit-conflict-resolution-QA
+          python /tmp/v2941.py
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          git add qa-review/v2941-five-option-pack-generation-unit-conflict-resolution-QA
+          git diff --cached --name-only | tee /tmp/new-files-only
+          ! grep -Ev '^qa-review/v2941-five-option-pack-generation-unit-conflict-resolution-QA/' /tmp/new-files-only
+          git commit -m 'v2941 official MISSHA mL unit correction and CLIO generation-aware stock image release blocks'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
