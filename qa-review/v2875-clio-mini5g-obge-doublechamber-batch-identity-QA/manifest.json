@@ -1,0 +1,67 @@
+{
+  "version": "v2875",
+  "baseline": "v2874",
+  "execution": "Create two new evidence-based product-identity 1080 QA frames and one duplicate/rejected-mask proof; reconcile high-risk release blocks",
+  "families": {
+    "pending-04": {
+      "product": "CLIO Kill Cover Mesh Glow Essential Cushion MINI 5g",
+      "source_merchant": "CLIO brand official product page",
+      "brand_official_page": "https://clubclio.co.kr/shop/goodsView/0000006954",
+      "mini_in_stock_shades": [
+        "21C LINGERIE",
+        "21N LINEN",
+        "23N GINGER"
+      ],
+      "full_size_five_shades_not_substituted": true,
+      "reference_mini_photo_same_for_all_shades": true,
+      "official_photo_files": [
+        "qa-review/v2788-goodal-new-source-texture-options-clio-mini-native/pending-04/01-official-mini-m-gif-QA.jpg",
+        "qa-review/v2788-goodal-new-source-texture-options-clio-mini-native/pending-04/02-official-mini-b-gif-QA.jpg"
+      ],
+      "perceptual_central_grayscale_diff": 0.0889,
+      "per_option_original_photo_distinctness": "NOT PROVEN",
+      "old_v2711_alpha_candidate_status": "REJECT_VISUAL_GREY_HAND_GHOST_AND_HALO",
+      "old_v2711_alpha_candidate_path": "qa-review/v2711-real-segmentation-four-source-product-heroes/pending-04/01-background-removed-hero-1080-QA.jpg",
+      "new_identity_QA": "qa-review/v2875-clio-mini5g-obge-doublechamber-batch-identity-QA/CLIO-mini5g-three-stock-shades-single-official-scene-QA.jpg",
+      "new_identity_sha256": "100da31ae1bde3efc6149a31042d771d3c4e2d37aefe59d1e1963f97b5917fc4",
+      "photo_reuse_rights_verified": false,
+      "stock_edition_verified": false,
+      "sales_approved": false
+    },
+    "pending-11": {
+      "product": "OBgE All In One Double Essence 50mL+50mL",
+      "stock_quantity_unit": "ONE 50mL+50mL DUAL-CHAMBER BOTTLE, NOT TWO BOTTLES",
+      "source_hero": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/01-real-product-cutout-prior-QA.jpg",
+      "source_hero_gitblob_shas": "7688eafe1bbd075f7909cd57d660225dbf2a4093",
+      "new_identity_QA": "qa-review/v2875-clio-mini5g-obge-doublechamber-batch-identity-QA/OBgE-double-essence-single-dual-chamber-50+50-QA.jpg",
+      "new_identity_sha256": "969680d7fea3afcf948eaf87199900797bbe1d48da5100238b132ddc8212d0fd",
+      "legacy_frames_02_to_05_contain_unverified_MK_logo": true,
+      "legacy_frames_02_to_05_status": "HOLD_NO_SALES_UNTIL_VERIFIED_MK",
+      "physical_owned_packaging_verified": false,
+      "photo_reuse_rights_verified": false,
+      "sales_approved": false
+    },
+    "pending-12": {
+      "product": "MISSHA PDRN NAD+ Renew Peel Shot 25",
+      "stock_sheet_recorded_unit": "15G",
+      "brand_owned_product_listing_unit": "15mL",
+      "units_must_not_be_automatically_converted": true,
+      "status": "HOLD_NEED_PHOTO_OF_ACTUAL_OWNED_UNIT_LABEL",
+      "evidence": "evidence/v2783-missha-pdrn-peelshot25-official-15ml-source-vs-stock-15g-conflict-20261105.json",
+      "existing_inventory_edit_performed": false,
+      "sales_approved": false
+    }
+  },
+  "new_1080_JPG_QA_count": 2,
+  "new_qa_comparison_count": 1,
+  "comparison": "qa-review/v2875-clio-mini5g-obge-doublechamber-batch-identity-QA/v2875-clio-mini-source-duplicate-and-bad-alpha-hold.jpg",
+  "comparison_sha256": "1ac4655287e5d3d1122a36e094492a28e1fc292ae09fb905b962e4eab10d2b72",
+  "old_11_published_approved_groups_preserved": true,
+  "old_55_verified_public_URLs_preserved": true,
+  "older_QA_assets_overwritten": 0,
+  "stock_sheet_edited": false,
+  "final_excel_shared": false,
+  "new_public_URLs": 0,
+  "new_retail_approvals": 0,
+  "next": "For pending-04 source independent exact 21C/21N/23N MINI shade photographs or verify packaging before seller upload; do not reuse three copies of same image as shade evidence. For pending-11 validate exact 50+50 owned bottle and original MK mark. For pending-12 verify 15mL/15g on physical stock; no assumed unit conversion."
+}
