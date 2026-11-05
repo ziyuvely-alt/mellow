@@ -1,0 +1,37 @@
+name: Shopee v2880 Peripera genuine 26AD twenty source-linked option QA photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2880-peripera26ad-twenty-actual-variant-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  twenty_genuine_variant_sources_no_research_repeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Build twenty independently SHA verified real lip swatch + one shared new tube option QA cards
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2880_peripera26ad_twenty_real_swatch_option_cards_QA.py
+          cp scripts/v2880_peripera26ad_twenty_real_swatch_option_cards_QA.py /tmp/v2880.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2880qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2880qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA
+          python /tmp/v2880.py
+          git add qa-review/v2880-peripera-26AD-twenty-original-lipswatch-plus-common-tube-QA
+          git commit -m 'v2880 archive 20 source true 26AD peripera swatches with shared tube, no legacy photowork/release'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
