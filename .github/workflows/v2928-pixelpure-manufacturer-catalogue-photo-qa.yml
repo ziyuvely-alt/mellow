@@ -1,0 +1,46 @@
+name: Shopee v2928 PixelPure two manufacturer catalog photo uniqueness checks
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2928-pixelpure-manufacturer-catalogue-photo-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  fetch_and_qa_unseen_pixelpure_firstparty_originals:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Archive only new nonduplicate brand-owned PixelPure photo sources
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2928_pixelpure_official_catalogue_extra_2_originals_QA.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          s=Path('scripts/v2928_pixelpure_official_catalogue_extra_2_originals_QA.py').read_text()
+          assert not re.search(r',font\(\d+\),fill=',s), "Pillow font positional error"
+          assert "v2927" in s and "retail_approved" in s
+          PY
+          cp scripts/v2928_pixelpure_official_catalogue_extra_2_originals_QA.py /tmp/v2928.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2928qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2928qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA
+          python /tmp/v2928.py
+          git add qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA
+          git diff --cached --name-only | tee /tmp/v2928-changed
+          ! grep -Ev '^qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA/' /tmp/v2928-changed
+          git commit -m 'v2928 add only nonduplicate manufacturer original photo candidates, preserve all published and QA images'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
