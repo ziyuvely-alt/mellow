@@ -1,0 +1,74 @@
+name: BBIA v330 source-only delta (3 families x 4 uncaptured slots)
+on:
+  push:
+    branches: [bbia-ch2-qa-v330-20261105]
+    paths: [.github/workflows/bbia-v330-missing-slot-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  delta-sources:
+    runs-on: ubuntu-latest
+    timeout-minutes: 7
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Download only source indexes 0 1 2 6 absent from v322
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from PIL import Image,ImageDraw,ImageFont
+          from concurrent.futures import ThreadPoolExecutor
+          import json,hashlib,io
+          D=Path('/tmp/bbia-v330');D.mkdir(exist_ok=True)
+          data=json.loads(Path('evidence/bbia-image-review-input.json').read_text('utf-8'))
+          by_id={str(x['product_id']):x for x in data['families']}
+          ids=['1000000056','172','207']
+          slots=[0,1,2,6]
+          prior_v322_hashes=set('402d29197f618e6bf644eaf72cead957005a09ea2b6f4907add8874f04bc123f 6f29e889c3674dd68757f36f77a8b21ec5091a4903c171ecad7cb0d3db5b1fe1 75ce62521c5787fcc0d713028720b295c136ff1877a50b7dc2264f71a9dd5cb1 df9fd879ef3ec8594367394e95413e49da7c039909e32456e54249405e06b550 05a17872ef93d1a722a430c9571c016b39821a294c03dc3813580c772df573b8 528f074a58df8884b23026a55918cbeab1decb733c624f2fd59940b03ef36273 077ca49ebd9ffec8ff8c709ff9f262bc8af315fa97d68612094acfed69c395c2 082f3a7feaa76a73793199539ede847b6f407c4642ad35885caebce6734ee9e1 0c9b45c8716f0af0ee9e0ccd887b5cd1987f7969997a5b1e6eb74d782d6c7a29'.split())
+          jobs=[(k,i,by_id[k]['detail_references'][i]) for k in ids for i in slots]
+          def one(job):
+            sku,idx,url=job
+            rec={'goodsNo':sku,'family':by_id[sku]['family'],'source_index':idx,'source_url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA-source-QA-v330'}),timeout=22) as f: blob=f.read(12000000)
+              with Image.open(io.BytesIO(blob)) as probe: probe.verify()
+              im=Image.open(io.BytesIO(blob));im.load()
+              sha=hashlib.sha256(blob).hexdigest()
+              fn=f'BBIA_{sku}_OFFICIAL_SOURCE_{idx}_v330.jpg'
+              (D/fn).write_bytes(blob)
+              rec.update(status='SOURCE_SAVED',filename=fn,bytes=len(blob),sha256=sha,dimensions=list(im.size),duplicates_v322=(sha in prior_v322_hashes))
+            except Exception as e: rec.update(status='HOLD_SOURCE_UNAVAILABLE',error=type(e).__name__+': '+str(e)[:130])
+            return rec
+          with ThreadPoolExecutor(max_workers=6) as p: records=list(p.map(one,jobs))
+          sha_map={}
+          for r in records:
+            if r['status']=='SOURCE_SAVED':sha_map.setdefault(r['sha256'],[]).append((r['goodsNo'],r['source_index']))
+          duplicate_groups=[v for v in sha_map.values() if len(v)>1]
+          board=Image.new('RGB',(4*590,3*500+60),'#f5f4f2')
+          draw=ImageDraw.Draw(board)
+          draw.text((20,12),'BBIA V330 - NEW OFFICIAL SOURCES ONLY / ORIGINAL PHOTOS / NO SALES APPROVAL',fill='#182336')
+          for row,sku in enumerate(ids):
+            for col,idx in enumerate(slots):
+              x=col*590;y=60+row*500
+              r=next(q for q in records if q['goodsNo']==sku and q['source_index']==idx)
+              draw.text((x+10,y+6),f'{sku}  source[{idx}]  {r["status"]}',fill='#182336')
+              if r['status']!='SOURCE_SAVED': continue
+              im=Image.open(D/r['filename']).convert('RGB')
+              positions=[0,max(0,int(im.height*.25)),max(0,int(im.height*.50)),max(0,int(im.height*.75))]
+              for c,start in enumerate(positions):
+                crop=im.crop((0,start,im.width,min(im.height,start+1000)))
+                crop.thumbnail((138,430),Image.Resampling.LANCZOS)
+                board.paste(crop,(x+7+c*145,y+30))
+              draw.text((x+9,y+470),f'{im.width}x{im.height} / '+r['sha256'][:12],fill='#48515e')
+          board.save(D/'BBIA_v330_NEW_SOURCE_CONTACT.jpg',quality=89,optimize=True)
+          manifest={'checkpoint':'v330','parent':'v329','scope':'official source slots absent from v322 only','new_slot_indices':slots,'families':ids,'count_requested':len(jobs),'count_saved':sum(r['status']=='SOURCE_SAVED' for r in records),'duplicates_with_v322':[{'goodsNo':r['goodsNo'],'index':r['source_index']} for r in records if r.get('duplicates_v322')],'duplicates_inside_batch':duplicate_groups,'records':records,'jpgs_sales_approved':0,'preexisting_1515_drafts_unchanged':True,'published_55_urls_unchanged':True,'no_excel_shared':True}
+          (D/'BBIA_v330_SOURCE_DELTA_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2)+'\n')
+          print(json.dumps({'requested':len(jobs),'saved':manifest['count_saved'],'already_v322':manifest['duplicates_with_v322'],'duplicate_new':len(duplicate_groups)},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v330-three-families-uncaptured-official-sources
+          path: /tmp/bbia-v330
+          retention-days: 30
