@@ -1,0 +1,28 @@
+{
+  "version": "v2960",
+  "prior": "v2959",
+  "family": "pending-27",
+  "product": "PIXELPURE Soothing Ampoule Toner 200mL",
+  "source_page": "https://kometglobal.com/service/1755044283174x486505495049011200",
+  "source_url": "https://bb233c5e161f4bce733cb3df3dcd7423.cdn.bubble.io/cdn-cgi/image/w%3D512%2Ch%3D320%2Cf%3Dauto%2Cdpr%3D2.5%2Cfit%3Dcontain/f1755044080189x354177331539262700/PG0659.jpg",
+  "source_type": "third-party commercial catalog / KometGlobal; not manufacturer approval",
+  "expected_visual": "multiple pink 200mL bottles on beige shelf, visibly different from old 4",
+  "previous_QA_source_zip": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-27-four-valid-photo-source-ONLY-INTERNAL.zip",
+  "prior_11_published_families_preserved": true,
+  "prior_55_verified_urls_preserved": true,
+  "new_sale_approved": false,
+  "rights_verified": false,
+  "physical_edition_verified": false,
+  "authentic_MK_verified": false,
+  "new_public_url_count": 0,
+  "attempted_url_count": 1,
+  "native_dimensions": [
+    639,
+    800
+  ],
+  "native_sha256": "5b5dbfaf9fec9a6c65ce7e84629217c0865c1faa68cb6097a097560c80096084",
+  "decoded_format": "JPEG",
+  "status": "SINGLE_CANDIDATE_ON_HOLD_CONTINUE_OTHERS",
+  "error": "ValueError LOW_NATIVE_RES (639, 800)",
+  "no_repeat_same_failed_url": true
+}
