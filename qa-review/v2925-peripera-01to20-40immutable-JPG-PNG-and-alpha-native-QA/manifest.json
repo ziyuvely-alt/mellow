@@ -1,0 +1,631 @@
+{
+  "version": "v2925",
+  "baseline": "v2924",
+  "created_utc": "2026-11-05T15:01:35Z",
+  "peripera_legacy_shades_archived": 20,
+  "original_JPGs": 20,
+  "original_alpha_PNGs": 20,
+  "original_byte_verified_images": 40,
+  "ZIP_path": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+  "ZIP_sha256": "9add58ca2e333e925c998d27800be361b00674ca4aa811e77f1272c2c4c46fa1",
+  "ZIP_members_integrity_verified": 40,
+  "flagged_shades": [
+    "12",
+    "13",
+    "14",
+    "18",
+    "19",
+    "20"
+  ],
+  "issue_shades": {
+    "NATIVE_ALPHA_BELOW_300PX": [
+      "12",
+      "14",
+      "20"
+    ],
+    "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD": [
+      "12",
+      "13",
+      "14",
+      "18",
+      "19"
+    ],
+    "PRIOR_VISUAL_QA_ISSUE": [
+      "12",
+      "13",
+      "14",
+      "18",
+      "19"
+    ]
+  },
+  "visual_QA_contact": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/Peripera_flagged_legacy-shade-source_9up_visual-QA.jpg",
+  "new_original_photos_or_shades_generated": 0,
+  "shades_21_to_26_created": false,
+  "old_PNG_and_JPG_bytes_modified": 0,
+  "preexisting_11_approved_families_preserved": true,
+  "preexisting_55_public_URLs_preserved": true,
+  "new_retail_release_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "variants": [
+    {
+      "shade": "01",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/01-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "ae13ca7c05c7174d79bca73e9ea63f0a1a62016a78b576a808eece4cb0b34ad2",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/01-legacy-source-alpha-QA.png",
+      "PNG_sha256": "539e94ecb55afc25b9ebb5cf2744f8e78bc79232d77ca298f5ce7e82213fc032",
+      "PNG_pixels": [
+        630,
+        712
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.40912,
+      "PNG_fully_transparent_ratio": 0.326219,
+      "archive_entries": [
+        "01to20/01/original_01_legacy-photo_1080.jpg",
+        "01to20/01/original_01_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "02",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/02-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "c6f46f8e207d726b1d99b0cc15064d40ac8a9a34f0fc7c2c8c2ca320028fa89c",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/02-legacy-source-alpha-QA.png",
+      "PNG_sha256": "446d36ebf2a0b96d52ab06db9a395d8451327df17a69e96db014f6d98ab37722",
+      "PNG_pixels": [
+        613,
+        711
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.456967,
+      "PNG_fully_transparent_ratio": 0.378049,
+      "archive_entries": [
+        "01to20/02/original_02_legacy-photo_1080.jpg",
+        "01to20/02/original_02_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "03",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/03-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "1c0f5d4562da6d668e666d2037e92143b748908a83632a4ed24da45cb6964a57",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/03-legacy-source-alpha-QA.png",
+      "PNG_sha256": "a2d1994e6c546c8e130401b783db84d62126a623c0c9c1f9da87413beded27f5",
+      "PNG_pixels": [
+        638,
+        710
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.408265,
+      "PNG_fully_transparent_ratio": 0.370895,
+      "archive_entries": [
+        "01to20/03/original_03_legacy-photo_1080.jpg",
+        "01to20/03/original_03_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "04",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/04-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "62dcf86df6f6de864cf0fc9125d33147b5512252ea3821a6be2c4376591643b3",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/04-legacy-source-alpha-QA.png",
+      "PNG_sha256": "b29c1e0eab30aec867eaafe384e41e041f3fa7bf039ee84dc42a72f372ccbde6",
+      "PNG_pixels": [
+        622,
+        706
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.477098,
+      "PNG_fully_transparent_ratio": 0.351193,
+      "archive_entries": [
+        "01to20/04/original_04_legacy-photo_1080.jpg",
+        "01to20/04/original_04_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "05",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/05-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "13871398edc69358a7bc781463582174439c8f4f5cee9805f08dd9ba92ba4bb3",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/05-legacy-source-alpha-QA.png",
+      "PNG_sha256": "aaba86f8dc90ecacfe6daabd5a758b93f4ba8be6bba6fee3d879479b85bbb689",
+      "PNG_pixels": [
+        665,
+        705
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.583181,
+      "PNG_fully_transparent_ratio": 0.394648,
+      "archive_entries": [
+        "01to20/05/original_05_legacy-photo_1080.jpg",
+        "01to20/05/original_05_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "06",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/06-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "b19d94645d032f04d383d7c0777cbeb9230c26b91b1993ba3750425a3e7e0132",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/06-legacy-source-alpha-QA.png",
+      "PNG_sha256": "3edc7a087472f79c4b1e5b3cc8300fb7d176adbe32b016cf0009236c122f1e6c",
+      "PNG_pixels": [
+        625,
+        704
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.349277,
+      "PNG_fully_transparent_ratio": 0.314182,
+      "archive_entries": [
+        "01to20/06/original_06_legacy-photo_1080.jpg",
+        "01to20/06/original_06_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "07",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/07-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "6ee42ef54c8532ff5cb257af4564a6890262e7d6c34b1121eab9580708252ea2",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/07-legacy-source-alpha-QA.png",
+      "PNG_sha256": "4a5e8e25b39c7dab0568213e5892dc82aaa9ccd41c59f8de91ea33dc04904211",
+      "PNG_pixels": [
+        497,
+        716
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.561278,
+      "PNG_fully_transparent_ratio": 0.366664,
+      "archive_entries": [
+        "01to20/07/original_07_legacy-photo_1080.jpg",
+        "01to20/07/original_07_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "08",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/08-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "84fceec8458f433a5cc5c753547a94c118eb22f4c1ef28f4fbdd79451d722025",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/08-legacy-source-alpha-QA.png",
+      "PNG_sha256": "c73905ee224746882b7b5610a5288b12795b8e2d0d196c18c2c4276c0a26946e",
+      "PNG_pixels": [
+        493,
+        714
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.61271,
+      "PNG_fully_transparent_ratio": 0.352606,
+      "archive_entries": [
+        "01to20/08/original_08_legacy-photo_1080.jpg",
+        "01to20/08/original_08_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "09",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/09-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "c5edee0524e92a12e90eb4282392d4fb3dfff57e316ec63912a0a91d18a48ea0",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/09-legacy-source-alpha-QA.png",
+      "PNG_sha256": "cbb786068c1f7098d794392d42d95490fd86d93139eeb31c365911a3ea9e8850",
+      "PNG_pixels": [
+        488,
+        708
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.393556,
+      "PNG_fully_transparent_ratio": 0.319762,
+      "archive_entries": [
+        "01to20/09/original_09_legacy-photo_1080.jpg",
+        "01to20/09/original_09_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "10",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/10-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "24502e42c90c8b539d42efbfc552ddb488569baac763616a8bf69f6b268b7cc8",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/10-legacy-source-alpha-QA.png",
+      "PNG_sha256": "dca7409d11aa18354fef850e601a8673fab0d75e0ea372d73652ef5c7eeeee29",
+      "PNG_pixels": [
+        466,
+        706
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.380752,
+      "PNG_fully_transparent_ratio": 0.306837,
+      "archive_entries": [
+        "01to20/10/original_10_legacy-photo_1080.jpg",
+        "01to20/10/original_10_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "11",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/11-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "4804739ee0ff879e65588aebff52624a0f8a9bc3e501e685d39cc3eb47a2e8b4",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/11-legacy-source-alpha-QA.png",
+      "PNG_sha256": "dbccec9791c2656ffea5b9462f571b01f2df924445e8287fee31c3846be30224",
+      "PNG_pixels": [
+        496,
+        709
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.384623,
+      "PNG_fully_transparent_ratio": 0.334166,
+      "archive_entries": [
+        "01to20/11/original_11_legacy-photo_1080.jpg",
+        "01to20/11/original_11_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "12",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/12-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "1a8c7b7b21f56fee6b38501127c9ec2b8f8f98dcc20ff3dbc1cb6a1662959411",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/12-legacy-source-alpha-QA.png",
+      "PNG_sha256": "f2be139de08864050243c1b3153c9cdf5a38aad7e6dd637b84587984373b569d",
+      "PNG_pixels": [
+        229,
+        325
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.611192,
+      "PNG_fully_transparent_ratio": 0.554558,
+      "archive_entries": [
+        "01to20/12/original_12_legacy-photo_1080.jpg",
+        "01to20/12/original_12_legacy-alpha.png"
+      ],
+      "flags": [
+        "NATIVE_ALPHA_BELOW_300PX",
+        "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD",
+        "PRIOR_VISUAL_QA_ISSUE"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "13",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/13-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "2ccc0c92c398d12834437afa4a84998a8567778140afd828e56afa3a3fd370ca",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/13-legacy-source-alpha-QA.png",
+      "PNG_sha256": "812da8abf2a83ec36474da02749fbbc886a639adf08ca87e36901d75fa4a37f1",
+      "PNG_pixels": [
+        772,
+        1006
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.617728,
+      "PNG_fully_transparent_ratio": 0.439648,
+      "archive_entries": [
+        "01to20/13/original_13_legacy-photo_1080.jpg",
+        "01to20/13/original_13_legacy-alpha.png"
+      ],
+      "flags": [
+        "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD",
+        "PRIOR_VISUAL_QA_ISSUE"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "14",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/14-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "def36acc38716685d7e576cdb562bf46b072ca9ad02877842aa9ce149c0e7b44",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/14-legacy-source-alpha-QA.png",
+      "PNG_sha256": "e47088e5d67f561ae8155ae02d65a0ed651c1d697a46d45b01b2bc12ec63f772",
+      "PNG_pixels": [
+        225,
+        273
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.674074,
+      "PNG_fully_transparent_ratio": 0.505104,
+      "archive_entries": [
+        "01to20/14/original_14_legacy-photo_1080.jpg",
+        "01to20/14/original_14_legacy-alpha.png"
+      ],
+      "flags": [
+        "NATIVE_ALPHA_BELOW_300PX",
+        "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD",
+        "PRIOR_VISUAL_QA_ISSUE"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "15",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/15-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "71fb367e6286f0e6f1dce6762d9a2544afd6444c6843f19797f799a2f0771bfe",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/15-legacy-source-alpha-QA.png",
+      "PNG_sha256": "ab565b07fddf13d92586220fba6dbc47bbd3ad426c3e414ed01b3dc8847f19cb",
+      "PNG_pixels": [
+        355,
+        570
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.377321,
+      "PNG_fully_transparent_ratio": 0.330684,
+      "archive_entries": [
+        "01to20/15/original_15_legacy-photo_1080.jpg",
+        "01to20/15/original_15_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "16",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/16-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "97d0434fb8408af4b32890ee413c3b40cbceb7f8039f76fc86bb47d18907593f",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/16-legacy-source-alpha-QA.png",
+      "PNG_sha256": "d44e199b81b26dc52576656c8eaf5ab7521fd01cafa5819ea3ad3cc954756932",
+      "PNG_pixels": [
+        333,
+        571
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.337688,
+      "PNG_fully_transparent_ratio": 0.289703,
+      "archive_entries": [
+        "01to20/16/original_16_legacy-photo_1080.jpg",
+        "01to20/16/original_16_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "17",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/17-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "6c578f17b7bc196273c23fa7084a3844a5c24a0b014fe98d3e3a2182048a0589",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/17-legacy-source-alpha-QA.png",
+      "PNG_sha256": "abd0c8916b0beab761126008a708b3cd01252920a61b15dcd84bfedb15e63f23",
+      "PNG_pixels": [
+        332,
+        570
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.334649,
+      "PNG_fully_transparent_ratio": 0.286314,
+      "archive_entries": [
+        "01to20/17/original_17_legacy-photo_1080.jpg",
+        "01to20/17/original_17_legacy-alpha.png"
+      ],
+      "flags": [],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "18",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/18-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "df570eba2df027b05b8bb38348a4ba1e6378660e8bbc2b2760cf0d6e6c00484f",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/18-legacy-source-alpha-QA.png",
+      "PNG_sha256": "3e079be3cd5c4670f575220007e5eab1063d6981a970d2e315e0f36122bd0860",
+      "PNG_pixels": [
+        630,
+        870
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.382054,
+      "PNG_fully_transparent_ratio": 0.266453,
+      "archive_entries": [
+        "01to20/18/original_18_legacy-photo_1080.jpg",
+        "01to20/18/original_18_legacy-alpha.png"
+      ],
+      "flags": [
+        "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD",
+        "PRIOR_VISUAL_QA_ISSUE"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "19",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/19-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "92a03a4e61a5f1cc414591fed48ff04a5cee5bdc147acb487a787b18475cc3ec",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/19-legacy-source-alpha-QA.png",
+      "PNG_sha256": "4ea3c9c14c735827cf64ef461928c4bf93e3d8be591c4322ad93dc5f6665b0b4",
+      "PNG_pixels": [
+        371,
+        533
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.405481,
+      "PNG_fully_transparent_ratio": 0.312294,
+      "archive_entries": [
+        "01to20/19/original_19_legacy-photo_1080.jpg",
+        "01to20/19/original_19_legacy-alpha.png"
+      ],
+      "flags": [
+        "LEGACY_SOURCE_OR_SHADE_EDITION_HOLD",
+        "PRIOR_VISUAL_QA_ISSUE"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    },
+    {
+      "shade": "20",
+      "legacy_source_only": true,
+      "version_26AD_equivalence_confirmed": false,
+      "JPG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/20-legacy-product-1080-QA.jpg",
+      "JPG_sha256": "b5c85ba2da1761fd70a54b8e4e5ddd633f6815036356246da27b4b954e079d96",
+      "JPG_pixels": [
+        1080,
+        1080
+      ],
+      "PNG_original": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/pending-08-peripera-legacy-01to20/20-legacy-source-alpha-QA.png",
+      "PNG_sha256": "a50946af4f1973562d6eadf4007c30d991c4b76b620567e0f7b701cf91fba209",
+      "PNG_pixels": [
+        293,
+        508
+      ],
+      "PNG_actual_alpha_channel": true,
+      "PNG_nonopaque_ratio": 0.295229,
+      "PNG_fully_transparent_ratio": 0.233412,
+      "archive_entries": [
+        "01to20/20/original_20_legacy-photo_1080.jpg",
+        "01to20/20/original_20_legacy-alpha.png"
+      ],
+      "flags": [
+        "NATIVE_ALPHA_BELOW_300PX"
+      ],
+      "commercial_license_verified": false,
+      "physical_stock_shade_match_verified": false,
+      "sale_approved": false
+    }
+  ]
+}
