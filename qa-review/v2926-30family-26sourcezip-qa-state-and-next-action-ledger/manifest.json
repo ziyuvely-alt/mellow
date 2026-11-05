@@ -1,0 +1,820 @@
+{
+  "version": "v2926",
+  "baseline": "v2925",
+  "created_utc": "2026-11-05T15:05:27Z",
+  "total_pending_families_checked": 30,
+  "existing_published_families_preserved": 11,
+  "existing_verified_public_urls_preserved": 55,
+  "sha256_and_ZIP_CRC_verified_archives": 26,
+  "five_source_archived_family_count": 19,
+  "three_or_four_source_archived_family_count": 6,
+  "mixed_option_holds": 4,
+  "peripera_legacy_shade_holds": 1,
+  "reused_original_JPGs_in_25_product_photo_archives": 114,
+  "peripera_legacy_original_JPG_PNG_files": 40,
+  "remaining_photo_slots_in_six_partial_families": 11,
+  "new_original_photos_generated": 0,
+  "new_retail_approvals": 0,
+  "new_public_URLs": 0,
+  "prior_source_archives_changed": 0,
+  "final_spreadsheet_shared": false,
+  "next_unblocked_work_batches": [
+    {
+      "priority": 1,
+      "work": "Fill 11 missing original photo scenes where reliable official rights-cleared matches are available",
+      "families": [
+        "pending-20",
+        "pending-24",
+        "pending-25",
+        "pending-27",
+        "pending-29",
+        "pending-30"
+      ]
+    },
+    {
+      "priority": 2,
+      "work": "Separate authentic shades/product-set editions for four mixed-source cushion and treatment families",
+      "families": [
+        "pending-05",
+        "pending-06",
+        "pending-07",
+        "pending-12"
+      ]
+    },
+    {
+      "priority": 3,
+      "work": "Audit 26AD physical-stock differences and low-native 12/14/20 Peripera shades, no invented color data",
+      "families": [
+        "pending-08"
+      ]
+    },
+    {
+      "priority": 4,
+      "work": "Rights, exact physical stock, genuine MK logo and advertising-claim clearance before any commercial release",
+      "families": "all 30"
+    }
+  ],
+  "family_records": [
+    {
+      "family": "pending-01",
+      "product": "미샤 매직 쿠션 커버 래스팅",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+        "sha256": "5dcb533184e9c6a4126f4065df43d584f0ae652e0c885e38b8ba476bd9566145",
+        "member_count": 5,
+        "bytes": 574259
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "Only 23 cushion hero grounded; missing color #21,#25,#27 independent images"
+      ]
+    },
+    {
+      "family": "pending-02",
+      "product": "미샤 매직 쿠션 모이스트 업",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+        "sha256": "4507e0ea6358024e9569103233033ebd21957f33d6bb929cbaca2dc5ece8a9dc",
+        "member_count": 5,
+        "bytes": 372804
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "Korean-vs-regional generation/photo conflict unresolved"
+      ]
+    },
+    {
+      "family": "pending-03",
+      "product": "미샤 M 퍼펙트 커버 비비크림",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-03-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "67904198198cd2d069a5aa8985ea7bdfb322a0a909bce7f1ee1823368e0aa0e8",
+        "member_count": 5,
+        "bytes": 596178
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-04",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-04-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "e02535cd031f3342ff4c5c53f762b8afe3266b12a6aec95cef52eb706fb783f4",
+        "member_count": 5,
+        "bytes": 670745
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-05",
+      "product": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "category": "OPTIONS_PRODUCT_IDENTITY_HOLD",
+      "valid_existing_product_source_JPGs": 0,
+      "internal_QA_archive": null,
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Two different product ID sets 5750 and 7108. Do not merge as one shade/edition set without verified 15g+refill package.",
+        "v2861 documented possible 21C-vs-21N merchant-source relabel collision",
+        "Image rights and options unapproved"
+      ],
+      "mixed_photo_reference_count": 5
+    },
+    {
+      "family": "pending-06",
+      "product": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "category": "OPTIONS_PRODUCT_IDENTITY_HOLD",
+      "valid_existing_product_source_JPGs": 0,
+      "internal_QA_archive": null,
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "v2861 flagged all 10 shade pairs as near-identical product photos despite different filenames; cannot claim differentiated swatches",
+        "Set/re-fill stock pack, source rights and MK verification pending"
+      ],
+      "mixed_photo_reference_count": 5
+    },
+    {
+      "family": "pending-07",
+      "product": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "category": "OPTIONS_PRODUCT_IDENTITY_HOLD",
+      "valid_existing_product_source_JPGs": 0,
+      "internal_QA_archive": null,
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Only 19C,19N,21N shade-specific photo cards, not complete all color options; two extra entries are mixed gallery reference, not validated shade views",
+        "Exact mesh-blur 15g x2 set image source and stock generation not proven"
+      ],
+      "mixed_photo_reference_count": 5
+    },
+    {
+      "family": "pending-08",
+      "product": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "category": "PERIPERA_LEGACY_SHADE_EDITION_HOLD",
+      "valid_existing_product_source_JPGs": 0,
+      "internal_QA_archive": {
+        "path": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+        "sha256": "9add58ca2e333e925c998d27800be361b00674ca4aa811e77f1272c2c4c46fa1",
+        "member_count": 40,
+        "bytes": 8124710
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "20 legacy shade JPG and alpha PNG pairs; 26AD equivalence unverified",
+        "Low-resolution alpha: 12/14/20; additional shade issues 12/13/14/18/19",
+        "No 21-26 shade image creation"
+      ]
+    },
+    {
+      "family": "pending-09",
+      "product": "오브제 오일 컨트롤 피니셔 5g",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-09-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "ea8405782785af5ac8df3ffe88ba5b80ae67d3e5a679598ee032b1a615fd8e0d",
+        "member_count": 5,
+        "bytes": 962646
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-10",
+      "product": "오브제 퍼펙트 옴므 쿠션 15g",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-10-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "5ba0a70e4180ab90ad1dd13025d50c79e8a4e0efb6ac5bb8427be6a073bb3547",
+        "member_count": 5,
+        "bytes": 775642
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-11",
+      "product": "오브제 올인원 더블 에센스 50ml+50ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-11-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "e4dd094a4a6f0c141ce6e1b7fd4fc348b2c9360bd7e3aa933282a154e1428c50",
+        "member_count": 5,
+        "bytes": 799340
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-12",
+      "product": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "category": "OPTIONS_PRODUCT_IDENTITY_HOLD",
+      "valid_existing_product_source_JPGs": 0,
+      "internal_QA_archive": null,
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Label quantity conflict 15g vs 15mL. No image relabel or retail release until official owned stock confirmed",
+        "Mixed factual information cards are not five independently proven photographs"
+      ],
+      "mixed_photo_reference_count": 5
+    },
+    {
+      "family": "pending-13",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-13-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "f983e795083997c5e1d9264c687e05587838dbe7fc2b56d2af0dffa1fe735170",
+        "member_count": 5,
+        "bytes": 467841
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-14",
+      "product": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-14-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "79a6b4cc474e6c42919deb13c81f4a6135b7c840a9a449598238f8995b497de9",
+        "member_count": 5,
+        "bytes": 444774
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-15",
+      "product": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_GreenMildUpSunPlus_2022_50mL_5ARCHIVED_SOURCE_QA.zip",
+        "sha256": "dc9285ce12a0444b2ff8727ccfcee078e8d43428794fd9394a61b3d1aa96e219",
+        "member_count": 5,
+        "bytes": 679495
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-16",
+      "product": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_RedBlemishCream_2022_70mL_5HISTORIC_SOURCE_QA.zip",
+        "sha256": "14fe13c9b02392a6f59a4374ce7b5efee3461b0d159173edc4d3a855cd07eead",
+        "member_count": 5,
+        "bytes": 466369
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-17",
+      "product": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningMoistureSun_2023_50mL_5HISTORIC_SOURCE_QA.zip",
+        "sha256": "9df7ca41f0ae5a8e5ae500ef5254ef7966247dfc722ec36caa511a1a6ead565b",
+        "member_count": 5,
+        "bytes": 661032
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-18",
+      "product": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningUpSunPlus_50mL_5ARCHIVED_SOURCE_QA.zip",
+        "sha256": "f6814730487aa784d0cf2aae2614048ecf92e059220647095a3baf23418bf9d0",
+        "member_count": 5,
+        "bytes": 732265
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-19",
+      "product": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+        "sha256": "b2bf2f7c2ff17c28361362968f62455a7d1d8b8c19c0e00d411ce66c4035f1e4",
+        "member_count": 5,
+        "bytes": 568479
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Current user physical inventory and exact edition not documented",
+        "Commercial source photo rights and genuine MK owner logo not verified",
+        "25AD Alpha formula and regional set photos require source and batch verification"
+      ]
+    },
+    {
+      "family": "pending-20",
+      "product": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 3,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/GOODAL_VitaC_SerumMist100mL_3OF5_INTERNAL_QA.zip",
+        "sha256": "749ee5acfaf726d5bf0731bb22b3ddba217148c55d67e0614ad1ed44a81fb22f",
+        "member_count": 3,
+        "bytes": 221361
+      },
+      "remaining_photo_source_slots": 2,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 2 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    },
+    {
+      "family": "pending-21",
+      "product": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip",
+        "sha256": "40a6cb6bcec451f861af1f4300c5564fac36365936a92d43c0cd7b4d957f2558",
+        "member_count": 5,
+        "bytes": 315920
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-22",
+      "product": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-22-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "c4bb77d2a02695dfdbd1597f82c974861fc776df752324b632976286441b0652",
+        "member_count": 5,
+        "bytes": 800707
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-23",
+      "product": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/OBGE_PoreZero_SunCream_50mL_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+        "sha256": "2bd7aa9d86acc33d8071a1ad25241d5c220b9c28f9394fa56d25e35cf0747274",
+        "member_count": 5,
+        "bytes": 422047
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-24",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 4,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip",
+        "sha256": "de354464a44500efaa2c94241411fa0f49b48b2369d5298e988942d02dde89ab",
+        "member_count": 4,
+        "bytes": 688717
+      },
+      "remaining_photo_source_slots": 1,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 1 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    },
+    {
+      "family": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 3,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip",
+        "sha256": "132be33a24b44de0eff59a6dfdf6929f774324f10631f29813dcbcfe80b8e914",
+        "member_count": 3,
+        "bytes": 592753
+      },
+      "remaining_photo_source_slots": 2,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 2 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    },
+    {
+      "family": "pending-26",
+      "product": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-26-five-original-photo-reference-INTERNAL-ONLY.zip",
+        "sha256": "dea54fdc706e08a61ad9e96a3b0cabfb10ca057d27608ceaa89cb5c0b8fc46de",
+        "member_count": 5,
+        "bytes": 771667
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 3,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip",
+        "sha256": "a7b4feb737c771ff676d2b47f1006017151ff82fb0a6b8d65adc27787f3f17eb",
+        "member_count": 3,
+        "bytes": 348485
+      },
+      "remaining_photo_source_slots": 2,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 2 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    },
+    {
+      "family": "pending-28",
+      "product": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "category": "FIVE_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 5,
+      "internal_QA_archive": {
+        "path": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/PixelPure_GlowCleansingSerumPads_210mL70ct_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+        "sha256": "ff1c5b61782e29b7f6aeb9f83b812175ff287065b40175ec6e4dfb472785980a",
+        "member_count": 5,
+        "bytes": 567804
+      },
+      "remaining_photo_source_slots": null,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Exact stock edition, image commercial rights and original MK need verification"
+      ]
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 3,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip",
+        "sha256": "16bf74c0e1e1797ed3cef49bcb30906007e7a39af7fb828eedbaecba112a284a",
+        "member_count": 3,
+        "bytes": 340429
+      },
+      "remaining_photo_source_slots": 2,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 2 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "category": "PARTIAL_PHOTO_ARCHIVE",
+      "valid_existing_product_source_JPGs": 3,
+      "internal_QA_archive": {
+        "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip",
+        "sha256": "1d7df3221ffe6e4565e8c866ba4a3d938539742e93462c78f5be52c00949bbcd",
+        "member_count": 3,
+        "bytes": 345513
+      },
+      "remaining_photo_source_slots": 2,
+      "right_to_use_in_marketplace": "NOT_VERIFIED",
+      "actual_held_inventory_edition": "NOT_VERIFIED",
+      "true_MK_logo_and_claims": "NOT_VERIFIED",
+      "sale_approved": false,
+      "blockers": [
+        "Need 2 distinct original photos",
+        "Rights, physical stock and MK unverified"
+      ]
+    }
+  ],
+  "original_ZIP_integrity": [
+    {
+      "path": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/OBGE_PoreZero_SunCream_50mL_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "sha256": "2bd7aa9d86acc33d8071a1ad25241d5c220b9c28f9394fa56d25e35cf0747274",
+      "member_count": 5,
+      "bytes": 422047
+    },
+    {
+      "path": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/PixelPure_GlowCleansingSerumPads_210mL70ct_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "sha256": "ff1c5b61782e29b7f6aeb9f83b812175ff287065b40175ec6e4dfb472785980a",
+      "member_count": 5,
+      "bytes": 567804
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/GOODAL_VitaC_SerumMist100mL_3OF5_INTERNAL_QA.zip",
+      "sha256": "749ee5acfaf726d5bf0731bb22b3ddba217148c55d67e0614ad1ed44a81fb22f",
+      "member_count": 3,
+      "bytes": 221361
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowPowerSerum30mL_4OF5_INTERNAL_QA.zip",
+      "sha256": "de354464a44500efaa2c94241411fa0f49b48b2369d5298e988942d02dde89ab",
+      "member_count": 4,
+      "bytes": 688717
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/BIOHEAL_GlowBoostCream50mL_3OF5_INTERNAL_QA.zip",
+      "sha256": "132be33a24b44de0eff59a6dfdf6929f774324f10631f29813dcbcfe80b8e914",
+      "member_count": 3,
+      "bytes": 592753
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip",
+      "sha256": "a7b4feb737c771ff676d2b47f1006017151ff82fb0a6b8d65adc27787f3f17eb",
+      "member_count": 3,
+      "bytes": 348485
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip",
+      "sha256": "16bf74c0e1e1797ed3cef49bcb30906007e7a39af7fb828eedbaecba112a284a",
+      "member_count": 3,
+      "bytes": 340429
+    },
+    {
+      "path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip",
+      "sha256": "1d7df3221ffe6e4565e8c866ba4a3d938539742e93462c78f5be52c00949bbcd",
+      "member_count": 3,
+      "bytes": 345513
+    },
+    {
+      "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_GreenMildUpSunPlus_2022_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "sha256": "dc9285ce12a0444b2ff8727ccfcee078e8d43428794fd9394a61b3d1aa96e219",
+      "member_count": 5,
+      "bytes": 679495
+    },
+    {
+      "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_RedBlemishCream_2022_70mL_5HISTORIC_SOURCE_QA.zip",
+      "sha256": "14fe13c9b02392a6f59a4374ce7b5efee3461b0d159173edc4d3a855cd07eead",
+      "member_count": 5,
+      "bytes": 466369
+    },
+    {
+      "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningMoistureSun_2023_50mL_5HISTORIC_SOURCE_QA.zip",
+      "sha256": "9df7ca41f0ae5a8e5ae500ef5254ef7966247dfc722ec36caa511a1a6ead565b",
+      "member_count": 5,
+      "bytes": 661032
+    },
+    {
+      "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/DRG_BrighteningUpSunPlus_50mL_5ARCHIVED_SOURCE_QA.zip",
+      "sha256": "f6814730487aa784d0cf2aae2614048ecf92e059220647095a3baf23418bf9d0",
+      "member_count": 5,
+      "bytes": 732265
+    },
+    {
+      "path": "qa-review/v2922-five-legacy-stock-family-original-25photo-internal-only-archive-ZIP/GOODAL_VitaCDarkCircleEyeCream_25AD_5ARCHIVED_SOURCE_QA.zip",
+      "sha256": "40a6cb6bcec451f861af1f4300c5564fac36365936a92d43c0cd7b4d957f2558",
+      "member_count": 5,
+      "bytes": 315920
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-03-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "67904198198cd2d069a5aa8985ea7bdfb322a0a909bce7f1ee1823368e0aa0e8",
+      "member_count": 5,
+      "bytes": 596178
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-04-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "e02535cd031f3342ff4c5c53f762b8afe3266b12a6aec95cef52eb706fb783f4",
+      "member_count": 5,
+      "bytes": 670745
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-09-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "ea8405782785af5ac8df3ffe88ba5b80ae67d3e5a679598ee032b1a615fd8e0d",
+      "member_count": 5,
+      "bytes": 962646
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-10-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "5ba0a70e4180ab90ad1dd13025d50c79e8a4e0efb6ac5bb8427be6a073bb3547",
+      "member_count": 5,
+      "bytes": 775642
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-11-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "e4dd094a4a6f0c141ce6e1b7fd4fc348b2c9360bd7e3aa933282a154e1428c50",
+      "member_count": 5,
+      "bytes": 799340
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-13-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "f983e795083997c5e1d9264c687e05587838dbe7fc2b56d2af0dffa1fe735170",
+      "member_count": 5,
+      "bytes": 467841
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-14-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "79a6b4cc474e6c42919deb13c81f4a6135b7c840a9a449598238f8995b497de9",
+      "member_count": 5,
+      "bytes": 444774
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-22-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "c4bb77d2a02695dfdbd1597f82c974861fc776df752324b632976286441b0652",
+      "member_count": 5,
+      "bytes": 800707
+    },
+    {
+      "path": "qa-review/v2923-nine-other-pending-family-45archived-source-photo-zip-and-contact-QA/pending-26-five-original-photo-reference-INTERNAL-ONLY.zip",
+      "sha256": "dea54fdc706e08a61ad9e96a3b0cabfb10ca057d27608ceaa89cb5c0b8fc46de",
+      "member_count": 5,
+      "bytes": 771667
+    },
+    {
+      "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-01-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "sha256": "5dcb533184e9c6a4126f4065df43d584f0ae652e0c885e38b8ba476bd9566145",
+      "member_count": 5,
+      "bytes": 574259
+    },
+    {
+      "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-02-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "sha256": "4507e0ea6358024e9569103233033ebd21957f33d6bb929cbaca2dc5ece8a9dc",
+      "member_count": 5,
+      "bytes": 372804
+    },
+    {
+      "path": "qa-review/v2924-eight-unpacked-stock-family-3five-photo-20option-4clio-source-QA/pending-19-5photo-source-byte-exact-INTERNAL-ONLY.zip",
+      "sha256": "b2bf2f7c2ff17c28361362968f62455a7d1d8b8c19c0e00d411ce66c4035f1e4",
+      "member_count": 5,
+      "bytes": 568479
+    },
+    {
+      "path": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+      "sha256": "9add58ca2e333e925c998d27800be361b00674ca4aa811e77f1272c2c4c46fa1",
+      "member_count": 40,
+      "bytes": 8124710
+    }
+  ]
+}
