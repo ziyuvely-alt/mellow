@@ -34,11 +34,12 @@ for url in URLS:
   assert 0<len(raw)<=8_000_000,"empty or >8MB"
   with Image.open(BytesIO(raw)) as im:
    im.load();assert im.format in ("PNG","WEBP","JPEG"),"invalid photo data"
+   downloaded_format=im.format
    im=ImageOps.exif_transpose(im)
    w,h=im.size
    assert min(w,h)>=800 and max(w,h)/min(w,h)<=1.5,"low native size or wrong aspect"
    actual=[w,h]
-   fmt=im.format
+   fmt=downloaded_format
    if im.mode in ("RGBA","LA") or ("transparency" in im.info):
     rgba=im.convert("RGBA"); lo,hi=rgba.getchannel("A").getextrema()
     orig_alpha=lo<255
