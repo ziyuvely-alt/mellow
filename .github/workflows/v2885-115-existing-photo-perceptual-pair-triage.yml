@@ -1,0 +1,38 @@
+name: Shopee v2885 115 already archived images perceptual duplicate QA only
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2885-115-existing-photo-perceptual-pair-triage.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  actual_23_family_115_image_onepass_QA:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Run a new perceptual similarity check once across 23 times five existing scenes, never rewrite originals
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2885_pending23_115photo_perceptual_cross_family_triage.py
+          cp scripts/v2885_pending23_115photo_perceptual_cross_family_triage.py /tmp/v2885.py
+          cp evidence/v2782-23-family-115JPG-qa-dedupe-seven-release-blockers-20261105.json /tmp/v2885_src_23_family_inventory.json
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2885qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2885qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2885-23-pending-family-115-existing-JPG-perceptual-dedupe-QA
+          python /tmp/v2885.py
+          git add qa-review/v2885-23-pending-family-115-existing-JPG-perceptual-dedupe-QA
+          git commit -m 'v2885 original 115 JPG source-saved perceptual visual similarity QA, no source regen'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
