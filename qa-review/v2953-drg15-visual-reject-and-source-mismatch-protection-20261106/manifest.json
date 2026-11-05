@@ -1,0 +1,115 @@
+{
+  "version": "v2953",
+  "date_kst": "2026-11-06",
+  "parent": "qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106/manifest.json",
+  "project": "Shopee Thumbnail Creator PRO 82 SKU / 41 families",
+  "source_originals_immutable": true,
+  "status_decisions": {
+    "pending-15": {
+      "product": "Dr.G Green Mild Up Sun Plus 50 mL (owned stock target 2022 edition)",
+      "produced_candidate": "qa-review/v2952-real-JPG-local-repair-and-two-family-source-QA-20261106/pending-15-frame03-localized-blue-halo-fix-INTERNAL-QA.jpg",
+      "produced_candidate_sha256": "7615b808ccad855b7c4ea29851cd079ac838ab4734425cef392dca4d581cbb2d",
+      "produced_candidate_dimensions": [
+        1080,
+        1080
+      ],
+      "produced_candidate_bytes": 138614,
+      "technical_pass": true,
+      "visual_pass": false,
+      "actual_visible_failures": [
+        "Faint pale-cyan oval remains behind bottle",
+        "Right edge shows a ghosted/soft product contour; visually unsatisfactory for customer image",
+        "Original MK symbol visible but cannot be authenticated to required private plugin binary"
+      ],
+      "decision": "REJECT_CANDIDATE_VISUAL; PRESERVE_AS_INTERNAL_EVIDENCE_NO_RETAIL",
+      "quarantined_alternative_wrong_product_sources": [
+        {
+          "path": "qa-review/v2690-drg-two-official-photo-source-led-QA/pending-15/01-DRG-official-no-crop-QA-only.jpg",
+          "observed_label": "R.E.D BLEMISH Clear Soothing Cream",
+          "reason": "Different product: Dr.G cream, not sunscreen"
+        },
+        {
+          "path": "qa-review/v2690-drg-two-official-photo-source-led-QA/pending-15/02-DRG-official-no-crop-QA-only.jpg",
+          "observed_label": "GREEN MILD UP DEFENSE MINERAL SUNSCREEN SPF50",
+          "reason": "Different label/generation from the pending-15 exact 2022 GREEN MILD UP SUN+ product"
+        }
+      ],
+      "corroboration": [
+        {
+          "source": "Dr.G official website",
+          "url": "https://www.dr-g.com/our-products/green-mild-up-sun",
+          "scope": "Current Green Mild Up Sun+ existence and clinical-era product description; not independent proof of stocked 2022 edition"
+        },
+        {
+          "source": "Gmarket 50ml product detail",
+          "url": "https://item.gmarket.co.kr/Item/ItemDetailV2?detailVersionType=2&fasterDeliveryYn=false&fromBottomLayer=true&goodsCode=4722969250&isNew=true",
+          "scope": "50 mL Sun Plus product specification, not owned unit edition or image rights"
+        }
+      ],
+      "next_method": "Stop background-color classifier repeats. Await exact 2022-generation native different scene or physically owned reference with commercial-use permission; meanwhile advance other family.",
+      "publication": "BLOCKED"
+    },
+    "pending-23": {
+      "product": "OBgE Pore Zero 50 mL",
+      "actual_existing_JPG_technical_audit": "v2952 manifests five independent file paths with SHA256, 1080x1080 JPEG under 2MB",
+      "source_jpg_count": 5,
+      "technical_pass": true,
+      "perceptual_aHash_close_pair_alerts": 0,
+      "rights_approved": false,
+      "owned_edition_approved": false,
+      "authentic_mk_asset_verified": false,
+      "publishing_state": "HOLD",
+      "next": "Keep 5 validated originals; resolve physical label and photo rights, then exact-MK authentication before versioned public path"
+    },
+    "pending-28": {
+      "product": "PIXELPURE Glow Cleansing Serum Pads 210 mL / 70 pads",
+      "actual_existing_JPG_technical_audit": "v2952 manifests five original JPG paths with SHA256, 1080x1080 JPEG under 2MB",
+      "source_jpg_count": 5,
+      "technical_pass": true,
+      "perceptual_aHash_close_pair_alerts": 0,
+      "rights_approved": false,
+      "owned_edition_approved": false,
+      "authentic_mk_asset_verified": false,
+      "publishing_state": "HOLD",
+      "next": "Keep 5 existing photos unchanged; verify same 210mL/70 pads stock, rights, and authentic original MK asset"
+    },
+    "pending-19": {
+      "product": "GOODAL 25AD Dark Spot Care Cream Alpha 50mL",
+      "prior_verification_source": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/manifest.json",
+      "newly_visual_examined_brand_photo_frames": 6,
+      "safe_photo_role_only_frame": "01-brand-1080-INTERNAL-QA.jpg exact product/gel",
+      "claim_quarantine_frames": [
+        "02-brand-1080-INTERNAL-QA.jpg: Faster Visible Results",
+        "03-brand-1080-INTERNAL-QA.jpg: 3.5X, one week claim",
+        "04-brand-1080-INTERNAL-QA.jpg: percentages 50.1/29.7/39.6/7.54",
+        "05-brand-1080-INTERNAL-QA.jpg: before/after skin marketing claims"
+      ],
+      "supplementary_info_not_independent_photo": "06-brand-1080-INTERNAL-QA.jpg, ingredient claims pending independent spec",
+      "note": "Six brand page files are NOT six license-cleared independent sale photos. Do not replace missing fifth independent photo with efficacy or before-after advertising.",
+      "product_volume_source": "https://us.oliveyoung.com/products/UA39149376",
+      "publishing_state": "HOLD"
+    }
+  },
+  "immutable_prior": {
+    "live_published_product_families": 11,
+    "verified_public_image_URLs": 55,
+    "old_source_assets_modified": 0,
+    "old_public_assets_rebuilt": 0
+  },
+  "new_actions_this_batch": {
+    "github_action_run_id": 42091158093,
+    "previous_new_qa_JPG": 1,
+    "previous_new_qa_JPG_approved_visual": 0,
+    "new_sale_approvals": 0,
+    "new_Render_urls": 0,
+    "new_published_JPG": 0
+  },
+  "next_queue": [
+    "pending-23: 5 source JPEGs technically pass; resolve stock edition, allowed photo re-use, original logo",
+    "pending-28: same release gates for 70 pad/210mL",
+    "pending-19: fix unsafe claim frames only after source rights and verified factual copy; no unsourced five-scene promotion",
+    "pending-25/27/29/30: require one additional distinct authentic photo per family; preserve 4 sources + information drafts",
+    "pending-15: stop repeated mask editing; seek different exact-era native source"
+  ],
+  "final_excel_shared": false
+}
