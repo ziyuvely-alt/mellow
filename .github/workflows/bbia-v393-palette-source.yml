@@ -1,0 +1,84 @@
+name: BBIA v393 current palette source-only delta
+on:
+  push:
+    branches: [bbia-ch2-qa-v393-20261106]
+    paths: [.github/workflows/bbia-v393-palette-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0 beautifulsoup4==4.14.2 requests==2.32.5
+      - name: Acquire only current official item 234 image evidence
+        shell: bash
+        run: |
+          python - <<'PY'
+          import requests,re,html,json,io,hashlib
+          from pathlib import Path
+          from urllib.parse import urljoin
+          from concurrent.futures import ThreadPoolExecutor
+          from bs4 import BeautifulSoup
+          from PIL import Image,ImageDraw
+          out=Path('/tmp/bbia-v393');out.mkdir(exist_ok=True)
+          url='https://bbia.co.kr/goods/goods_view.php?goodsNo=234'
+          sess=requests.Session()
+          sess.headers.update({'User-Agent':'Mozilla/5.0 (compatible; BBIA image evidence audit)'})
+          body=sess.get(url,timeout=25);body.raise_for_status()
+          htmltext=body.text
+          soup=BeautifulSoup(htmltext,'html.parser')
+          candidates=[]
+          for tag in soup.find_all(['img','source']):
+            for prop in ['src','data-src','data-original','srcset']:
+              val=tag.get(prop)
+              if val:candidates.extend(re.split(r'\s*,\s*',str(val)))
+          candidates.extend(re.findall(r'''(?:https?:)?//[^"'<>\s]+\.(?:jpg|jpeg|png|webp)''',htmltext,re.I))
+          selected=[]
+          for candidate in candidates:
+            candidate=html.unescape(candidate.strip().split(' ')[0]).replace('\\/','/')
+            if any(x in candidate.upper() for x in ['K-GYARU','GYARU_READY_TO_WEAR_EYE_PALETTE','RTW_EYE_PALETTE']):
+              full=urljoin(url,candidate if not candidate.startswith('//') else 'https:'+candidate)
+              if full not in selected and full.startswith('https://'):selected.append(full)
+          selected=selected[:14]
+          records=[]
+          def capture(arg):
+            i,src=arg;row={'source_url':src,'role':'CURRENT_GALLERY_'+str(i).zfill(2)}
+            try:
+              r=sess.get(src,timeout=28,headers={'Referer':url});r.raise_for_status()
+              raw=r.content
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();fmt=im.format;dims=list(im.size)
+              if fmt not in ('JPEG','PNG') or min(dims)<350 or len(raw)<9000:raise ValueError('Invalid size or image format')
+              ext='jpg' if fmt=='JPEG' else 'png'
+              fn='BBIA_234_CURRENT_'+str(i).zfill(2)+'_SOURCE_v393.'+ext
+              (out/fn).write_bytes(raw)
+              row.update(status='SOURCE_SAVED',filename=fn,sha256=hashlib.sha256(raw).hexdigest(),dimensions=dims,format=fmt,bytes=len(raw))
+            except Exception as e:row.update(status='HOLD_SOURCE_UNAVAILABLE',error=str(e)[:210])
+            return row
+          with ThreadPoolExecutor(max_workers=6) as pool:records=list(pool.map(capture,enumerate(selected)))
+          board=Image.new('RGB',(1600,((len(records)+2)//3)*300+60),'#f7f4f1')
+          d=ImageDraw.Draw(board);d.text((15,14),'BBIA v393 CURRENT OFFICIAL 234 GALLERY | source only | not approved',fill='#222')
+          for i,r in enumerate(records):
+            x=(i%3)*530+12;y=(i//3)*300+45
+            d.text((x,y),r['role']+':'+r['status'],fill='#222')
+            if r['status']=='SOURCE_SAVED':
+              with Image.open(out/r['filename']) as im:
+                im=im.convert('RGB')
+                if im.height>3*im.width:im=im.crop((0,0,im.width,2*im.width))
+                im.thumbnail((505,260),Image.Resampling.LANCZOS)
+                board.paste(im,(x,y+22))
+          board.save(out/'BBIA_v393_234_CURRENT_OFFICIAL_CONTACT.jpg',quality=90,optimize=True)
+          manifest={'version':'v393','sku':'234','official_page':url,'page_status':body.status_code,
+              'all_gallery_candidates':len(selected),'saved':sum(r['status']=='SOURCE_SAVED' for r in records),
+              'records':records,'sales_approved':False,'legacy_public_urls_untouched':True,
+              'prior_v392b_preserved':True,'option_identity_match':'HOLD_CURRENT_VERSION_CONFLICT'}
+          (out/'BBIA_v393_234_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,indent=2,ensure_ascii=False),encoding='utf8')
+          print(json.dumps({'found':len(selected),'saved':manifest['saved']}))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v393-current-official-234-source
+          path: /tmp/bbia-v393
+          retention-days: 30
