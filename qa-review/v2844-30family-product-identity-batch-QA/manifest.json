@@ -1,0 +1,1080 @@
+{
+  "version": "v2844",
+  "baseline": "v2843",
+  "scope": "30 pending inventory families and existing linked QA manifest identities",
+  "stock_crosswalk": "evidence/inventory-30-family-crosswalk-20261104.json",
+  "source_qa_branch": "qa-assets/v2662-immutable-14-candidates",
+  "pending_families": 30,
+  "manifest_files_scanned": 184,
+  "manifest_files_with_identified_family": 108,
+  "manifest_files_without_pending_family_id": 76,
+  "parse_errors": [],
+  "family_count_with_explicit_identity_risk": 1,
+  "explicit_identity_flag_count": 9,
+  "identity_flags": [
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO The Original Mini 5g 23N",
+      "file": "qa-review/v2817-clio-mini-23N-one-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear The Original Mini 5g #23N",
+      "file": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO The Original Mini 5g | Mini Kill Cover Founwear Cushion The Original 5g",
+      "file": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "file": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Founwear The Original Mini 5g",
+      "file": "qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "candidate": "CLIO Kill Cover Founwear The Original Mini Cushion 5g",
+      "file": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets/manifest.json",
+      "reasons": [
+        "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+      ],
+      "action": "BLOCK_FOR_STOCK_MATCH_ONLY_NO_IMAGE_DELETE"
+    }
+  ],
+  "existing_pending05_mini_vs_giftset_block_preserved": true,
+  "risk_flags_not_proof_of_sku_match_or_photo_license": true,
+  "all_30_family_records": [
+    {
+      "family_id": "pending-01",
+      "stock_family": "미샤 매직 쿠션 커버 래스팅",
+      "stock_option_count": 4,
+      "matched_manifest_count": 6,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2747-missha-coverlasting-23-source02-round-compact-qa/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting",
+          "flags": [],
+          "stage": "ACTUAL_PHOTO_ALPHA_CREATED_VISUAL_QA_REQUIRED"
+        },
+        {
+          "manifest": "qa-review/v2748-missha-coverlasting-21-source01-round-compact-only/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2749-MISSHA-coverlasting-N25-N27-official-variant-source-proof/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting 15g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2750-missha-N25-N27-distinct-official-photo-cutout-QA/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting No25/27",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2766-missha-coverlasting21-23-exact-shade-photo-QA/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Cover Lasting",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-02",
+      "stock_family": "미샤 매직 쿠션 모이스트 업",
+      "stock_option_count": 2,
+      "matched_manifest_count": 3,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2700-missha-moistup-regional-exact-product-photo-proofs/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Moist Up 21/23",
+          "flags": [],
+          "stage": "REGIONAL_SOURCE_PHOTO_CANDIDATES_PENDING_GENERATION_CHECK"
+        },
+        {
+          "manifest": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Moist Up",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/manifest.json",
+          "candidate_name": "MISSHA Magic Cushion Moist Up",
+          "flags": [],
+          "stage": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-03",
+      "stock_family": "미샤 M 퍼펙트 커버 비비크림",
+      "stock_option_count": 3,
+      "matched_manifest_count": 3,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2702-missha-M-perfect-cover-BB-official-photo-proof/manifest.json",
+          "candidate_name": "MISSHA M Perfect Cover BB Cream SPF42 PA+++ 50ml | M Perfect Cover BB Cream SPF 42 PA+++(50ml)",
+          "flags": [],
+          "stage": "SOURCE_REFERENCES_NEED_PHYSICAL_EDITION_AND_SHADE_VISUAL_QA"
+        },
+        {
+          "manifest": "qa-review/v2703-MISSHA-BB-old-vs-new-package-identity-hold/manifest.json",
+          "candidate_name": "MISSHA M Perfect Cover BB Cream 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/manifest.json",
+          "candidate_name": "MISSHA M Perfect Cover BB Cream 50mL",
+          "flags": [],
+          "stage": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-04",
+      "stock_family": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 미니 5g",
+      "stock_option_count": 3,
+      "matched_manifest_count": 14,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2704-clio-meshglow-mini-5g-genuine-source/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+          "flags": [],
+          "stage": "CANDIDATES_NEED_VISUAL_PRODUCT_ONLY_QA"
+        },
+        {
+          "manifest": "qa-review/v2829-clio-mesh-glow-essential-mini5g-exact-official-source-corpus/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2830-clio-meshglow-essential-mini5g-five-distinct-physical-photo-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion MINI 5g",
+          "flags": [],
+          "stage": "FIVE_REAL_PHOTO_QA_REFERENCES_STAGED_NOT_SELLABLE"
+        },
+        {
+          "manifest": "qa-review/v2831-clio-mesh-glow-essential-mini-21C-21N-exact-shade-reference/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion MINI 5g",
+          "flags": [],
+          "stage": "SHADE_LABELLED_REFERENCE_PHOTOS_QA_NOT_LICENSED"
+        },
+        {
+          "manifest": "qa-review/v2832-meshglow-essential-mini5g-21C-21N-five-image-internal-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Mini Cushion 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2833-clio-meshglow-essential-mini-21C-21N-real-alpha-photo-heroes/manifest.json",
+          "candidate_name": "CLIO Mesh Glow Essential Cushion Mini 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2834-clio-meshglow-mini-21N-high-native-resolution-source-probe/manifest.json",
+          "candidate_name": "CLIO Mesh Glow Essential Mini 5g",
+          "flags": [],
+          "stage": "HIGHER_NATIVE_PHOTOS_REQUIRE_VISUAL_VERIFICATION"
+        },
+        {
+          "manifest": "qa-review/v2835-clio-mini-21N-merchant-variant-image-assignment-audit/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2836-clio-mini5g-21N-1200px-isolated-compact-alpha-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2837-21N-mini5g-restore-inner-cushion-source-pixels-QA/manifest.json",
+          "candidate_name": "CLIO Mesh Glow Essential Cushion Mini 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Mini 5g",
+          "flags": [],
+          "stage": "FIVE_REAL_PHOTO_QA_ONLY"
+        },
+        {
+          "manifest": "qa-review/v2842-clio-mini5g-23N-native-registered-alpha-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "TRUE_23N_RGB_WITH_REGISTERED_MASK_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2843-clio-mini5g-21C-native-registered-alpha-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "TRUE_21C_RGB_WITH_REGISTERED_MASK_VISUAL_QA_PENDING"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-05",
+      "stock_family": "클리오 킬커버 파운웨어 쿠션 기획세트",
+      "stock_option_count": 5,
+      "matched_manifest_count": 12,
+      "requires_option_chart": true,
+      "flags_count": 9,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2816-clio-original-mini-5g-23N-real-single-unit-source/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2817-clio-mini-23N-one-alpha-QA/manifest.json",
+          "candidate_name": "CLIO The Original Mini 5g 23N",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2818-clio-23N-five-distinct-real-photo-QA-set/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear The Original Mini 5g #23N",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2819-clio-original-mini-5g-21N-exact-variant-photo-evidence/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2820-clio-mini-5g-Lila-21N-variant-photo-evidence/manifest.json",
+          "candidate_name": "CLIO The Original Mini 5g | Mini Kill Cover Founwear Cushion The Original 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2821-clio-mini-5g-21N-true-compact-alpha-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": "REAL_21N_ALPHA_RENDERED_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2822b-clio-original-mini-5g-21C-exact-variant-gallery-proof/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2823-clio-mini-5g-21C-true-compact-alpha-QA/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": "REAL_21C_ALPHA_RENDERED_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2824-clio-mini-5g-three-shade-file-integrity-and-edge-gates/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2827-clio-mini5g-21N-remaining-peach-halo-mask-QA/manifest.json",
+          "candidate_name": "CLIO Founwear The Original Mini 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": "HALO_CLEANUP_RENDERED_VISUAL_REVIEW_REQUIRED"
+        },
+        {
+          "manifest": "qa-review/v2828-clio-mini5g-21C-21N-five-real-photo-QA-sets/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear The Original Mini Cushion 5g",
+          "flags": [
+            "GIFT_SET_MAPPED_TO_SINGLE_MINI"
+          ],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2841-pending05-giftset-vs-mini-identity-block/manifest.json",
+          "candidate_name": "CLIO Kill Cover Founwear Cushion gift set / 기획세트",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-06",
+      "stock_family": "클리오 킬커버 메쉬 글로우 에센셜 쿠션 기획세트",
+      "stock_option_count": 5,
+      "matched_manifest_count": 3,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2797-clio-meshglow-five-distinct-official-photo-scenes-and-alpha-qa/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion Foundation",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2798-clio-meshglow-alpha-floor-reflection-precision-correction/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2806-clio-meshglow-b-foreground-four-distinct-real-photo-qa/manifest.json",
+          "candidate_name": "CLIO Kill Cover Mesh Glow Essential Cushion",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-07",
+      "stock_family": "클리오 킬커버 메쉬 블러 쿠션 기획세트 15g x2",
+      "stock_option_count": 3,
+      "matched_manifest_count": 0,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": []
+    },
+    {
+      "family_id": "pending-08",
+      "stock_family": "페리페라 무드 글로이 틴트 4g (판매 옵션 01~20호만)",
+      "stock_option_count": 20,
+      "matched_manifest_count": 7,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2687-peripera-six-frame-reference-QA-NOT-FOR-UPLOAD/manifest.json",
+          "candidate_name": "PERIPERA Mood Glowy Tint 4g, shade numbers 01-20",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2753-peripera-legacy-17-product-real-alpha-qa/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2754-peripera-peritage-three-missing-bottle-source-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2755-only-peripera-12-legacy-alternate-bottle-photo/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2758-peripera-all20-existing-cutout-file-and-edition-audit/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2759-peripera-18-19-border-alpha-island-safety/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2760-peripera-18-19-alternate-actual-photo-alpha/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-09",
+      "stock_family": "오브제 오일 컨트롤 피니셔 5g",
+      "stock_option_count": 1,
+      "matched_manifest_count": 7,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2741-obge-finisher-5g-firstparty-original-resolution-QA/manifest.json",
+          "candidate_name": "OBgE Oil Control Finisher 5g",
+          "flags": [],
+          "stage": "GALLERY_NATIVE_SOURCE_CANDIDATES_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2742-obge-5g-source997-compact-alpha-extraction/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2743-obge-finisher-official-5g-only-precision-contour-matte/manifest.json",
+          "candidate_name": "OBgE Oil Control Finisher 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/manifest.json",
+          "candidate_name": "OBgE Oil Control Finisher 5g",
+          "flags": [],
+          "stage": "STAGED_FIVE_JPGS_QA_NOT_RETAIL_APPROVED"
+        },
+        {
+          "manifest": "qa-review/v2808-obge-oil-finisher-five-official-scenes-true-alpha-QA/manifest.json",
+          "candidate_name": "OBgE Oil Control Finisher 5g",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2809-obge-finisher-genuine-product-left-swipe-alpha-correction/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2810-obge-5g-fiveframe-selected-true-alpha-sales-QA-HOLD/manifest.json",
+          "candidate_name": "OBgE Oil Control Finisher 5g",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-10",
+      "stock_family": "오브제 퍼펙트 옴므 쿠션 15g",
+      "stock_option_count": 3,
+      "matched_manifest_count": 1,
+      "requires_option_chart": true,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/manifest.json",
+          "candidate_name": "OBgE Perfect Homme Cushion",
+          "flags": [],
+          "stage": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-11",
+      "stock_family": "오브제 올인원 더블 에센스 50ml+50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/manifest.json",
+          "candidate_name": "OBgE All In One Double Essence",
+          "flags": [],
+          "stage": "QA_FIVE_SCENES_STAGED_NOT_SALE_APPROVED"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-12",
+      "stock_family": "미샤 피디알엔 엔에이디 리뉴 필 샷 25(PDRN NAD+) 15ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 0,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": []
+    },
+    {
+      "family_id": "pending-13",
+      "stock_family": "미샤 피디알엔 엔에이디 퍼밍 리페어 세럼(PDRN NAD+) 30ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 13,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2676-missha-pdrn-serum-fiveframe-qa/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum 30 mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2694-missha-pdrn-30ml-official-source-candidate/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum",
+          "flags": [],
+          "stage": "HOLD_OFFICIAL_SOURCE_ACCESS_OR_IDENTITY"
+        },
+        {
+          "manifest": "qa-review/v2695-missha-pdrn-30ml-official-source-candidate/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum",
+          "flags": [],
+          "stage": "FIVE_JPG_QA_PHOTO_CANDIDATE_BUILT_NEEDS_EYES_ON_ITEM_ID"
+        },
+        {
+          "manifest": "qa-review/v2697-missha-serum-one-product-lifestyle-photo-repair/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2725-missha-serum-30ml-true-single-bottle-cutout-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "HOLD_SINGLE_BOTTLE_MASK_FAILED"
+        },
+        {
+          "manifest": "qa-review/v2726-missha-serum-30ml-true-single-bottle-cutout-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "TRUE_ALPHA_PNG_AND_JPG_RENDERED_NEEDS_VISUAL_QA"
+        },
+        {
+          "manifest": "qa-review/v2727-missha-serum-only-bubble-alpha-cleanup-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "ALPHA_MASK_REMNANTS_CLEANED_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2728-serum-independent-pipette-product-detail-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": "HOLD_ALPHA_INDEPENDENT_SOURCE_FAILED"
+        },
+        {
+          "manifest": "qa-review/v2744-MISSHA-PDRN-30mL-single-official-bottle-two-alpha-qa/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2746-missha-pdrn-serum-red-decoration-alpha-cleanup/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2756-missha-pdrn-serum-one-bottle-real-alpha/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+          "flags": [],
+          "stage": "REAL_ALPHA_PNG_AND_JPG_PRODUCED_VISUAL_QA_REQUIRED"
+        },
+        {
+          "manifest": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/manifest.json",
+          "candidate_name": "MISSHA Camellia PDRN + NAD+ Firming Repair Serum 30mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2801-missha-pdrn-serum-30ml-real-single-bottle-alpha-and-five-frame-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-14",
+      "stock_family": "미샤 피디알엔 엔에이디 퍼밍 리페어 크림(PDRN NAD+) 70ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 3,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2692-missha-pdrn-70ml-official-source-candidate/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Cream",
+          "flags": [],
+          "stage": "HOLD_OFFICIAL_SOURCE_ACCESS_OR_IDENTITY"
+        },
+        {
+          "manifest": "qa-review/v2693-missha-pdrn-70ml-official-source-candidate/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Cream",
+          "flags": [],
+          "stage": "FIVE_JPG_QA_PHOTO_CANDIDATE_BUILT_NEEDS_EYES_ON_ITEM_ID"
+        },
+        {
+          "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/manifest.json",
+          "candidate_name": "MISSHA PDRN NAD+ Firming Repair Cream 70mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-15",
+      "stock_family": "닥터지 그린 마일드 업 선 플러스 50ml (2022)",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/manifest.json",
+          "candidate_name": "Dr.G Green Mild Up Sun Plus 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-16",
+      "stock_family": "닥터지 레드 블레미쉬 클리어 수딩 크림 70ml (2022)",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/manifest.json",
+          "candidate_name": "Dr.G R.E.D Blemish Clear Soothing Cream 70mL",
+          "flags": [],
+          "stage": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-17",
+      "stock_family": "닥터지 브라이트닝 업 모이스처 선 50ml (2023)",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/manifest.json",
+          "candidate_name": "Dr.G Brightening Up Moisture Sun 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-18",
+      "stock_family": "닥터지 브라이트닝 업 선 플러스 50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 2,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2731-drG-brightening-sun-plus-detached-text-alpha-repair/manifest.json",
+          "candidate_name": "Dr.G Brightening Up Sun Plus 50mL",
+          "flags": [],
+          "stage": "DETACHED_ALPHA_REMOVED_PHYSICAL_OUTPUT_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/manifest.json",
+          "candidate_name": "Dr.G Brightening Up Sun Plus 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-19",
+      "stock_family": "구달 청귤 비타C 잡티케어 크림 알파 50ml (25AD, 글로벌전용)",
+      "stock_option_count": 1,
+      "matched_manifest_count": 8,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2783-goodal-cream-alpha-official-distinct-photo-sources/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": "CANDIDATES_STAGED_FOR_REAL_FRAME_VISUAL_QA"
+        },
+        {
+          "manifest": "qa-review/v2784-goodal-cream-alpha-three-distinct-real-photo-only-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2785-goodal-cream-alpha-fiveframe-photo-first-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2786-goodal-cream-alpha-photo-crop-visual-fix-QA/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2802-goodal-alpha-three-authentic-scenes-two-explicit-detail-crops-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2803-goodal-alpha-hand-texture-without-clipped-claim-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2804-goodal-alpha-open-jar-no-clipped-marketing-copy-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2805-goodal-alpha-open-jar-cream-texture-clean-crops-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Cream Alpha 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-20",
+      "stock_family": "구달 청귤 비타C 세럼 미스트 (디자인25AD) 100ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Serum Mist 100mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-21",
+      "stock_family": "구달 청귤 비타C 잡티케어 아이크림 (디자인25AD)",
+      "stock_option_count": 1,
+      "matched_manifest_count": 8,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2745-goodal-eyecream-25ad-full-original-source-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream",
+          "flags": [],
+          "stage": "FULL_SOURCE_AND_ALPHA_QA_REVIEW_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2770-goodal-single-tube-native-source-alpha-validation/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+          "flags": [],
+          "stage": "STAGED_FIVE_JPGS_QA_NOT_RETAIL_APPROVED"
+        },
+        {
+          "manifest": "qa-review/v2811-goodal-25AD-single-30mL-three-real-source-photos/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2812-goodal-standalone-eyecream-single-tube-true-alpha/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Circle Eye Cream 30mL",
+          "flags": [],
+          "stage": "TRUE_ALPHA_PHYSICALLY_SAVED_VISUAL_QA_PENDING"
+        },
+        {
+          "manifest": "qa-review/v2813-goodal-renewal-25AD-tube-genuine-source-alpha/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Eye Cream 30mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2814-goodal-25ad-renewal-tube-five-photo-first-JPG-QA/manifest.json",
+          "candidate_name": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL (2026 renewal tube)",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2815-goodal-25ad-five-photo-set-silver-cap-crop-fixed/manifest.json",
+          "candidate_name": "",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-22",
+      "stock_family": "오브제 맥스 워터풀 선크림 SPF50+ PA++++ 300ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 3,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2669-obge-300ml-5frame-qa/manifest.json",
+          "candidate_name": "OBgE Max Waterful Sun Cream 300 mL",
+          "flags": [],
+          "stage": "FIVE_FRAME_QA_DRAFT_NOT_RETAIL_APPROVED"
+        },
+        {
+          "manifest": "qa-review/v2670-obge-300ml-distinct-official-photo-qa/manifest.json",
+          "candidate_name": "OBgE Max Waterful Sun Cream 300 mL",
+          "flags": [],
+          "stage": ""
+        },
+        {
+          "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/manifest.json",
+          "candidate_name": "OBgE Max Waterful Sun Cream 300mL",
+          "flags": [],
+          "stage": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-23",
+      "stock_family": "오브제 포어 제로 오일 컨트롤 선크림 50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 2,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2738b-porezero-clean-source-alternate-svg-cutout/manifest.json",
+          "candidate_name": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+          "flags": [],
+          "stage": "DIRECT_SOURCE_PIXEL_TRANSPARENT_SVG_QA_STAGED"
+        },
+        {
+          "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/manifest.json",
+          "candidate_name": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-24",
+      "stock_family": "바이오힐보 NAD 프리즈셀 글로우 파워 세럼 30ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/manifest.json",
+          "candidate_name": "BIOHEAL BOH NAD-PRIZCELL Glow Power Serum 30mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-25",
+      "stock_family": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/manifest.json",
+          "candidate_name": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-26",
+      "stock_family": "픽셀퓨어 젠틀 젤투폼 클렌저 145ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/manifest.json",
+          "candidate_name": "PIXEL PURE Gentle Gel-to-Foam Cleanser 145mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-27",
+      "stock_family": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/manifest.json",
+          "candidate_name": "PIXEL PURE Soothing Ampoule Toner 200mL",
+          "flags": [],
+          "stage": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-28",
+      "stock_family": "픽셀퓨어 글로우 클렌징 세럼 패드 210ml/70매",
+      "stock_option_count": 1,
+      "matched_manifest_count": 2,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2668-pixelpure-5card-actual-draft/manifest.json",
+          "candidate_name": "PIXEL PURE Glow Cleansing Serum Pad 210 mL / 70 Pads",
+          "flags": [],
+          "stage": "QA_ONLY_PENDING_STOCK_IDENTITY_PHOTO_LICENSE_LATEST_V2647_AND_HUMAN_FINAL_QA"
+        },
+        {
+          "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/manifest.json",
+          "candidate_name": "PIXEL PURE Glow Cleansing Serum Pad 70ea / 210mL",
+          "flags": [],
+          "stage": "QA_PHOTO_FIRST_STAGED_PENDING_BRANDING_LICENSE_STOCK_MATCH"
+        }
+      ]
+    },
+    {
+      "family_id": "pending-29",
+      "stock_family": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/manifest.json",
+          "candidate_name": "PIXEL PURE Radiance Aqua Soothing Cream 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    },
+    {
+      "family_id": "pending-30",
+      "stock_family": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "stock_option_count": 1,
+      "matched_manifest_count": 1,
+      "requires_option_chart": false,
+      "flags_count": 0,
+      "linked_manifests": [
+        {
+          "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/manifest.json",
+          "candidate_name": "PIXEL PURE Aura Radiance Serum 50mL",
+          "flags": [],
+          "stage": ""
+        }
+      ]
+    }
+  ],
+  "11_sale_approved_families_unchanged": true,
+  "55_verified_public_URLs_unchanged": true,
+  "source_images_changed": 0,
+  "final_excel_shared": false,
+  "new_sales_approvals": 0,
+  "next": "Resolve actual stock product/version and licensed photos; never reuse a Mini 5g QA reference as a cushion gift-set sale asset."
+}
