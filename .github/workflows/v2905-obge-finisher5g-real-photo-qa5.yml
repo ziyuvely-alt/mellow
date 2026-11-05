@@ -1,0 +1,37 @@
+name: Shopee v2905 OBgE finisher 5g five existing official no MK source photos
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2905-obge-finisher5g-real-photo-qa5.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  curate_obge5g_five_sources_without_unsafe_legacy_MK:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Copy exact five real-photo existing archives to internal QA ZIP and save 30-family state
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2905_obge_finisher5g_five_official_noMK_QA.py
+          cp scripts/v2905_obge_finisher5g_five_official_noMK_QA.py /tmp/v2905.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2905qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2905qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA
+          python /tmp/v2905.py
+          git add qa-review/v2905-obge-finisher5g-five-official-no-unverified-MK-internal-QA
+          git commit -m 'v2905 OBgE finisher 5g five existing photo scenes without unsupported MK or clinical claims, QA only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
