@@ -1,0 +1,32 @@
+name: Shopee v2837 restore 21N cushion center original pixels in alpha mask
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2837-21N-cushion-interior-mask-repair.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  correct:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy opencv-python-headless
+      - name: Restore original cushion pixels at accidental alpha-mask hole without model rerun
+        run: |
+          cp scripts/v2837_restore_21N_cushion_interior_mask.py /tmp/v2837.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2837qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2837qa
+          python /tmp/v2837.py
+          git add qa-review/v2837-21N-mini5g-restore-inner-cushion-source-pixels-QA
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2837 repair erroneous alpha hole in 21N mini cushion using unchanged original source RGB'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
