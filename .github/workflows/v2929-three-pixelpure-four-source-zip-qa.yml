@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/v2929-three-pixelpure-four-source-zip-qa.yml'
+      - 'scripts/v2929_pixelpure_three_four_photo_immutable_QA_zip.py'
   workflow_dispatch:
 permissions:
   contents: write
