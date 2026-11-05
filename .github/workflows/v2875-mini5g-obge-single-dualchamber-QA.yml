@@ -1,0 +1,36 @@
+name: Shopee v2875 CLIO Mini5g & OBgE DoubleChamber no-repeat identity QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2875-mini5g-obge-single-dualchamber-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  batch_identity_without_old_asset_rewrites:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Build two source-locked product identity QA images and duplicate+bad mask proof
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2875_mini5g_and_obge_dual_chamber_product_identity_QA.py
+          cp scripts/v2875_mini5g_and_obge_dual_chamber_product_identity_QA.py /tmp/v2875.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2875qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2875qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2875.py
+          git add qa-review/v2875-clio-mini5g-obge-doublechamber-batch-identity-QA
+          git commit -m 'v2875 save mini 5g exact three option source card and OBgE 50+50 one bottle QA, no retail claims'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
