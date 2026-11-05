@@ -1,0 +1,31 @@
+name: Shopee v2844 30-family stock-product identity guard batch audit
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2844-stock30-product-identity-audit.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Audit all QA manifests against the inventory crosswalk, without altering images
+        run: |
+          cp scripts/v2844_stock30_identity_guard_audit.py /tmp/v2844.py
+          cp evidence/inventory-30-family-crosswalk-20261104.json /tmp/v2844-inventory-crosswalk.json
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2844-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2844-qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2844.py
+          git add qa-review/v2844-30family-product-identity-batch-QA
+          git commit -m 'v2844 full 30-family QA identity audit; images and approved URLs unchanged'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
