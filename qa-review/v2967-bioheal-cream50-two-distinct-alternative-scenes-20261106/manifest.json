@@ -1,0 +1,90 @@
+{
+  "version": "v2967",
+  "parent": "v2966",
+  "family": "pending-25",
+  "product": "BIOHEAL BOH NAD-PRIZCELL Glow Boost Cream 50mL",
+  "old_zip_immutable_path": "qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only/BIOHEAL_NAD-PRIZCELL_Glow-Boost-Cream_50mL_4OF5_INTERNAL.zip",
+  "old_zip_sha256": "d2b58956dc15d9c98524dd2703974daaa1544b8ee1aaffe5c2e472fe15365e7c",
+  "existing_four_hashes_unchanged": [
+    "aa7e02e1c3f0c4b09f1987cdb6ca1fdd120b0e7d10b467c997234c408de6783e",
+    "bd3fcd2fe4a1c2f0fc0371f17a3f00baba4f8da703fd125e1e40ed7e17210883",
+    "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+    "9cd6ff4f50cd1083d616ebb58ee37fd00748768470a2f79ce202a5712c28b06e"
+  ],
+  "prior_11_published_families_preserved": true,
+  "prior_55_verified_urls_preserved": true,
+  "old_existing_JPGs_overwritten": 0,
+  "new_retail_approved": 0,
+  "new_public_urls": 0,
+  "authentic_mk_logo_verified": false,
+  "stock_generation_verified": false,
+  "commercial_reuse_authorizations": 0,
+  "candidates": [
+    {
+      "key": "50ml_box",
+      "page": "https://www.cosme.net/variations/1239977/",
+      "source": "https://fitter.cosme.net/media/product/10291/skuimg_1092450_xl.jpg",
+      "description": "red BIOHEAL BOH 50mL cream retail box on white",
+      "edition": "JAPANESE_PRODUCT_CATALOG_DONT_ASSUME_KR_STOCK",
+      "permission": "THIRD_PARTY_CATALOG_NO_COMMERCIAL_LICENSE",
+      "native_dimensions": [
+        440,
+        440
+      ],
+      "native_format": "JPEG",
+      "native_sha256": "6c87b8129f6aa583b7fc410c6b29e801de822d4653550c3c396f771fd5206b93",
+      "HTTP_content_type": "image/jpeg",
+      "status": "ARCHIVED_REFERENCE_RIGHTS_AND_STOCK_HOLD",
+      "original_path": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_box-original-REFERENCE-NOT-RETAIL.jpg",
+      "JPG_1080_path": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_box-1080-REFERENCE-NOT-RETAIL.jpg",
+      "JPG_1080_sha256": "30596ae2feb9c4fc6f1cd0ca0dc034c34c1967913fd81ed51bfa87167d8352f5",
+      "JPG_1080_bytes": 49803,
+      "source_native_sufficient_for_1080_claim": false,
+      "aHash_distance_to_four": [
+        29,
+        34,
+        36,
+        24
+      ],
+      "independence_candidate": true,
+      "sale_approved": false
+    },
+    {
+      "key": "50ml_hand_scene",
+      "page": "https://ameblo.jp/mari-883/entry-12962548695.html",
+      "source": "https://stat.ameba.jp/user_images/20260410/17/mari-883/37/cc/j/o1080108015769965157.jpg",
+      "description": "real 50mL red cream jar held in hand, product texture on hand",
+      "edition": "BLOG_PHOTO_REAL_JAR_50ML_NEEDS_PHYSICAL_STOCK_MATCH",
+      "permission": "BLOG_AUTHOR_PHOTO_NO_COMMERCIAL_LICENSE",
+      "native_dimensions": [
+        1080,
+        1080
+      ],
+      "native_format": "JPEG",
+      "native_sha256": "5b0b4826ca82749a1d3ab783c36664f2b677e08fdac78e4c1dea27a4468787c5",
+      "HTTP_content_type": "image/jpeg",
+      "status": "ARCHIVED_REFERENCE_RIGHTS_AND_STOCK_HOLD",
+      "original_path": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_hand_scene-original-REFERENCE-NOT-RETAIL.jpg",
+      "JPG_1080_path": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/50ml_hand_scene-1080-REFERENCE-NOT-RETAIL.jpg",
+      "JPG_1080_sha256": "85430d27d86992fa2675d81943bee9f98d8d231cb04ef1a01fab96abe3724dff",
+      "JPG_1080_bytes": 162449,
+      "source_native_sufficient_for_1080_claim": true,
+      "aHash_distance_to_four": [
+        26,
+        27,
+        35,
+        39
+      ],
+      "independence_candidate": true,
+      "sale_approved": false
+    }
+  ],
+  "contact_sheet": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/pending-25-new-alternate-scenes-vs-four-old-CONTACT-INTERNAL.jpg",
+  "new_five_photo_QA_ZIP": "qa-review/v2967-bioheal-cream50-two-distinct-alternative-scenes-20261106/pending-25-four-original-plus-one-independent-unlicensed-INTERNAL-QA.zip",
+  "new_ZIP_SHA256": "278bcd6a43325a8d1d97b8c0fc8b0150d765960aef302c9d70cd4bd614e3213c",
+  "chosen_fifth_reference": "50ml_hand_scene",
+  "JPG_files": 5,
+  "independent_photo_count_NOT_verified": true,
+  "reason": "Historical slots 1 and 2 near duplicates; permission unavailable for all candidate sources",
+  "next_action": "Photo license and exact Korean physical package proof required; don't publish."
+}
