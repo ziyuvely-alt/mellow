@@ -4,6 +4,7 @@ on:
     branches: [main]
     paths:
       - '.github/workflows/v2855-missha30-dropper-alpha-qa.yml'
+      - 'scripts/v2855_missha_serum30_dropper_alpha_cleanup.py'
   workflow_dispatch:
 permissions:
   contents: write
