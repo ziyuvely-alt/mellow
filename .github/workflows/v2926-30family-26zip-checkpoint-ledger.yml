@@ -1,0 +1,38 @@
+name: Shopee v2926 reconcile 30 pending inventory families and validate 26 QA ZIPs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2926-30family-26zip-checkpoint-ledger.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  merge_preserved_stock_image_checkpoints:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: One-pass existing archive integrity verification and new ledger only
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2926_inventory_30family_26archive_SHA_CRC_ledger.py
+          cp scripts/v2926_inventory_30family_26archive_SHA_CRC_ledger.py /tmp/v2926.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2926qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2926qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2926-30family-26sourcezip-qa-state-and-next-action-ledger
+          python /tmp/v2926.py
+          git add qa-review/v2926-30family-26sourcezip-qa-state-and-next-action-ledger
+          git diff --cached --name-only | tee /tmp/v2926-changed
+          ! grep -Ev '^qa-review/v2926-30family-26sourcezip-qa-state-and-next-action-ledger/' /tmp/v2926-changed
+          git commit -m 'v2926 single checkpoint: SHA/CRC verify 26 legacy QA ZIPs, classify 30 pending stock families'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
