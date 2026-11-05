@@ -1,0 +1,43 @@
+{
+  "version": "v2958",
+  "baseline": "v2957",
+  "family": "pending-30",
+  "product": "PIXELPURE Aura Radiance Serum 50mL",
+  "candidate_source_page": "https://www.tradekorea.com/product/detail/P828498/pixelpure-aura-radiance-serum--Skin-Care-.html",
+  "candidate_origin": "TradeKorea third-party Korean seller listing / supplier THE FORTUNE TRADING CO.,LTD.; NOT confirmed brand-hosted",
+  "exact_product_seen_in_source_preview": "two floating pink PIXELPURE Aura Radiance Serum 50mL pump bottles",
+  "prior_four_image_archive": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-30-four-valid-photo-source-ONLY-INTERNAL.zip",
+  "old_original_JPG_byte_modified": 0,
+  "prior_approved_families_preserved": 11,
+  "prior_URLs_preserved": 55,
+  "new_public_JPG": 0,
+  "new_anonymous_verified_URLs": 0,
+  "new_sale_approvals": 0,
+  "rights_approved": false,
+  "physical_stock_edition_verified": false,
+  "original_MK_binary_verified": false,
+  "manual_full_frame_QA": "PENDING",
+  "next_action_on_fail": "Do not repeat same failed URL; evaluate a different true original scene/authorised source or another product family.",
+  "candidate_native": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-new-two-floating-serum-bottles-native-reference.jpg",
+  "native_px": [
+    800,
+    800
+  ],
+  "native_sha256": "3c2dc0b00e609be0250c25c8878b565df65b48b70f0bee5495f554d762771613",
+  "candidate_JPG_path": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-candidate-05-two-floating-bottles-1080-INTERNAL-QA.jpg",
+  "candidate_JPG_sha256": "3505e93d5e00898d2c33441b850c500c898341378da348b3ce2471dda9116fb6",
+  "distance_hamming_to_four_previous": [
+    34,
+    37,
+    30,
+    33
+  ],
+  "technical_JPG_valid": true,
+  "outcome": "FIFTH_DISTINCT_SCENE_ARCHIVED_INTERNAL_VISUAL_QA_PENDING",
+  "five_source_JPG_candidate_ZIP_created": true,
+  "candidate_zip": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-five-distinct-scene-candidates-NOT-FOR-RETAIL.zip",
+  "candidate_zip_sha256": "641f0f56c28822486a1fc7721afed93e2a1f712aa1e9e2442d33a4640870d0db",
+  "contact": "qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/pending-30-five-scene-source-review-CONTACT-INTERNAL.jpg",
+  "five_photos_count": 5,
+  "new_retail_ready_photos": 0
+}
