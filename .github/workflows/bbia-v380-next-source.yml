@@ -1,0 +1,68 @@
+name: BBIA v380 untouched six family photo source capture
+on:
+  push:
+    branches: [bbia-ch2-qa-v380-20261105]
+    paths: [.github/workflows/bbia-v380-next-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  capture-new-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Download only previously uncollected family source photos
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,io,hashlib
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw,ImageFont
+          out=Path('/tmp/bbia-v380');out.mkdir(parents=True,exist_ok=True)
+          payload=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf8'))
+          families={str(x['product_id']):x for x in payload['families']}
+          ids=['172','1000000056','207','1000000151','1000000179','1000000124']
+          jobs=[]
+          for sku in ids:
+            f=families[sku]
+            refs=[('MAIN',f.get('official_photo_url',''))]+[(f'DETAIL_{i}',url) for i,url in enumerate(f.get('detail_references',[])[:3])]
+            jobs.extend((sku,role,url) for role,url in refs if url)
+          def get(job):
+            sku,role,url=job;record={'sku':sku,'family':families[sku]['family'],'role':role,'source_url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA official source audit v380'}),timeout=25) as stream:raw=stream.read(18000000)
+              if len(raw)<3500:raise ValueError('unexpected small photo')
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();dims=list(im.size);fmt=im.format
+              if fmt!='JPEG':raise ValueError('non-JPEG format: '+str(fmt))
+              fn=f'BBIA_{sku}_{role}_OFFICIAL_v380.jpg'
+              (out/fn).write_bytes(raw)
+              record.update(status='SOURCE_SAVED',filename=fn,sha256=hashlib.sha256(raw).hexdigest(),dimensions=dims,bytes=len(raw),format=fmt)
+            except Exception as e:record.update(status='HOLD_SOURCE_UNAVAILABLE',reason=f'{type(e).__name__}: {str(e)[:200]}')
+            return record
+          with ThreadPoolExecutor(max_workers=6) as pool:records=list(pool.map(get,jobs))
+          board=Image.new('RGB',(1600,6*320+80),'#f6f1ec')
+          dr=ImageDraw.Draw(board);dr.text((20,15),'BBIA v380 new family source evidence | QA pending, not approved',fill='#222222')
+          for row,sku in enumerate(ids):
+            y=65+row*320;dr.text((20,y),sku+' '+families[sku]['family'],fill='#222222')
+            for col,role in enumerate(['MAIN','DETAIL_0','DETAIL_1','DETAIL_2']):
+              x=col*400+12
+              r=next((x for x in records if x['sku']==sku and x['role']==role),None)
+              if r is None or r['status']!='SOURCE_SAVED':dr.text((x,y+60),role+' HOLD',fill='#963b33');continue
+              im=Image.open(out/r['filename']).convert('RGB')
+              if im.height>im.width*3: im=im.crop((0,0,im.width,min(im.height,im.width*2.4)))
+              im.thumbnail((370,250))
+              board.paste(im,(x,y+22));dr.text((x,y+280),role+' '+str(r['dimensions']),fill='#555555')
+          board.save(out/'BBIA_v380_NEW_6_FAMILY_SOURCE_CONTACT.jpg',quality=87,optimize=True)
+          manifest={'checkpoint':'v380_official_sources','parent':'v379_completed_5_EN','families':ids,'records':records,'total_requests':len(records),'success':sum(r['status']=='SOURCE_SAVED' for r in records),'new_sales_approved':0,'historical_images_preserved':True,'public_55_urls_unmodified':True,'new_final_xlsx':False}
+          (out/'BBIA_v380_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'requested':len(records),'saved':manifest['success']},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v380-six-new-families-official-photos
+          path: /tmp/bbia-v380
+          retention-days: 30
