@@ -1,0 +1,35 @@
+name: v2958 PIXELPURE 50mL fifth distinct source candidate
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2958-pixelpure-50ml-fifth-source-candidate.yml'
+      - 'scripts/v2958_pixelpure_50ml_distinct_scene_candidate.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  inspect-single-new-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Fetch one new nonduplicated source and archive original bytes for QA only
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106
+          python scripts/v2958_pixelpure_50ml_distinct_scene_candidate.py
+          git add qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106
+          git diff --cached --name-only | tee /tmp/v2958-changed
+          ! grep -Ev '^qa-review/v2958-pixelpure-serum50-distinct-new-scene-candidate-20261106/' /tmp/v2958-changed
+          git commit -m "QA v2958 new exact Pixelpure serum photo candidate, no retail approval"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
