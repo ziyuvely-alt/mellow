@@ -1,0 +1,55 @@
+{
+  "version": "v2928",
+  "baseline": "v2927",
+  "generated_utc": "2026-11-05T15:14:01Z",
+  "official_product_CDN_images_attempted": 2,
+  "new_unique_native_originals_saved": 1,
+  "prior_total_missing_source_slots": 9,
+  "remaining_source_slots": 8,
+  "approved_families_changed": 0,
+  "old_55_verified_public_URLs_changed": 0,
+  "old_QA_files_overwritten": 0,
+  "new_retail_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-29",
+      "product": "PixelPure Radiance Aqua Soothing Cream 50ml",
+      "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/f8d51ba2fbbf7cb558808d00a2f1317a.jpg",
+      "official_page": "https://eng.pixelpure.com/product/detail.html?product_no=26",
+      "role": "manufacturer official 50 mL closed cream jar with product name legible",
+      "prior_sources_screened": 4,
+      "decision": "NEW_OFFICIAL_SITE_IMAGE_CANDIDATE_ADDED",
+      "new_source_count": 1,
+      "new_candidate": {
+        "source_original": "qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA/pending-29/01-brand-original-byte-unchanged.jpg",
+        "source_original_sha256": "66865bc396681f4abc030bea386c291b7b0743a0a9bea3d678086cb59e4ac874",
+        "native_px": [
+          1000,
+          1000
+        ],
+        "reference_1080": "qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA/pending-29/01-official-photo-1080-NOT-RETAIL.jpg",
+        "reference_sha256": "7c3d42584097e5e228c2b9a62b40bdc24a9a971276a730a6a777749443d4a998",
+        "dhash_distance_to_closest_prior": 11,
+        "internal_visual_contact": "qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA/pending-29-official-catalogue-CONTACT-INTERNAL.jpg",
+        "retail_rights_cleared": false,
+        "physical_inventory_edition_verified": false,
+        "retail_approved": false
+      },
+      "errors": []
+    },
+    {
+      "family": "pending-30",
+      "product": "PixelPure Aura Radiance Serum 50ml",
+      "source": "https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/small/20260213/b1538dd05d1d8b3a354a3690e007b309.jpg",
+      "official_page": "https://eng.pixelpure.com/category/best/50/",
+      "role": "manufacturer catalogue 50 mL pink serum three bottles and lotion stream",
+      "prior_sources_screened": 4,
+      "decision": "PRIOR_SOURCE_DUPLICATE_OR_NEAR_DUPLICATE_SKIP",
+      "new_source_count": 0,
+      "new_candidate": null,
+      "errors": []
+    }
+  ]
+}
