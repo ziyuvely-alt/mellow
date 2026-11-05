@@ -1,0 +1,31 @@
+name: Shopee v2834 only 21N Mesh Glow mini photo original native resolution retrieval
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2834-clio-mini-21N-native-resolution-only.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 13
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Check exact 21N original native photos and do not upscale 480px as high resolution
+        run: |
+          cp scripts/v2834_clio_mini21N_true_resolution_source_probe.py /tmp/v2834.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2834review qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2834review
+          python /tmp/v2834.py
+          git add qa-review/v2834-clio-meshglow-mini-21N-high-native-resolution-source-probe
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2834 actual native resolution check and higher-res source QA for 21N mini only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
