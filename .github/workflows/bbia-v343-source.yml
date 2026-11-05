@@ -1,0 +1,75 @@
+name: BBIA v343 6 new source families
+on:
+  push:
+    branches: [bbia-ch2-qa-v343-20261105]
+    paths: [.github/workflows/bbia-v343-source.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Save official unprocessed family originals only
+        shell: bash
+        run: |
+          python - <<'PY'
+          import json,hashlib,io
+          from pathlib import Path
+          from urllib.request import Request,urlopen
+          from concurrent.futures import ThreadPoolExecutor
+          from PIL import Image,ImageDraw
+          dest=Path('/tmp/bbia-v343');dest.mkdir(exist_ok=True)
+          data=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf8'))
+          by_id={str(z['product_id']):z for z in data['families']}
+          ids=['1000000227','1000000216','1000000239','1000000221','1000000135','1000000166']
+          jobs=[]
+          for sku in ids:
+            z=by_id[sku]
+            jobs.append((sku,'MAIN',z['official_photo_url']))
+            jobs.extend((sku,'DETAIL_'+str(i),url) for i,url in enumerate(z.get('detail_references',[])[:2]))
+          def get(job):
+            sku,role,url=job
+            r={'sku':sku,'family':by_id[sku]['family'],'role':role,'url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0 BBIA evidence v343'}),timeout=18) as f: raw=f.read(15000000)
+              im=Image.open(io.BytesIO(raw));im.verify()
+              im=Image.open(io.BytesIO(raw))
+              fn='BBIA_'+sku+'_'+role+'_OFFICIAL_v343.jpg'
+              (dest/fn).write_bytes(raw)
+              r.update(status='SOURCE_SAVED',filename=fn,sha256=hashlib.sha256(raw).hexdigest(),dimensions=list(im.size),bytes=len(raw),format=im.format)
+            except Exception as ex:
+              r.update(status='HOLD_SOURCE_UNAVAILABLE',reason=str(ex)[:140])
+            return r
+          with ThreadPoolExecutor(max_workers=6) as p: records=list(p.map(get,jobs))
+          digests={}
+          for r in records:
+            if r['status']=='SOURCE_SAVED': digests.setdefault(r['sha256'],[]).append([r['sku'],r['role']])
+          bad=[x for x in digests.values() if len(x)>1]
+          board=Image.new('RGB',(1500,6*320+70),'#f4f3f0')
+          pen=ImageDraw.Draw(board)
+          pen.text((14,15),'BBIA v343 | NEW OFFICIAL SOURCES ONLY | NOT SALES APPROVED',fill='#222222')
+          for row,sku in enumerate(ids):
+            y=70+row*320
+            pen.text((20,y),sku+' '+by_id[sku]['family'],fill='#222222')
+            for col,role in enumerate(['MAIN','DETAIL_0','DETAIL_1']):
+              x=col*500+10
+              r=next((q for q in records if q['sku']==sku and q['role']==role),None)
+              if not r or r['status']!='SOURCE_SAVED':continue
+              im=Image.open(dest/r['filename']).convert('RGB')
+              if im.height>3*im.width: im=im.crop((0,0,im.width,min(im.height,2*im.width)))
+              im.thumbnail((420,260),Image.Resampling.LANCZOS)
+              board.paste(im,(x+8,y+26))
+              pen.text((x+8,y+288),role+' '+r['sha256'][:12],fill='#555555')
+          board.save(dest/'BBIA_v343_6_FAMILY_ORIGINALS_CONTACT.jpg',quality=89,optimize=True)
+          checkpoint={'checkpoint':'v343','parent':'v342b','families':ids,'requested':len(jobs),'saved':sum(x['status']=='SOURCE_SAVED' for x in records),'duplicates':bad,'records':records,'new_sales_approved':0,'public_55_urls_untouched':True,'prior_QA_unchanged':True,'final_excel_shared':False}
+          (dest/'BBIA_v343_SOURCE_CHECKPOINT.json').write_text(json.dumps(checkpoint,ensure_ascii=False,indent=2),encoding='utf8')
+          print('v343',json.dumps({'count':checkpoint['saved'],'total':len(jobs),'duplicates':bad},ensure_ascii=False))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v343-six-family-new-originals
+          path: /tmp/bbia-v343
+          retention-days: 30
