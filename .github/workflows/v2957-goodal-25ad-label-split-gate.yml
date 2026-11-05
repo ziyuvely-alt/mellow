@@ -1,0 +1,35 @@
+name: v2957 Goodal mist label generation mismatch containment
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2957-goodal-25ad-label-split-gate.yml'
+      - 'scripts/v2957_split_goodal_mist_edition_and_gate.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  safety-split-only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Keep old ZIPs, split mixed labels into non-sale QA groups
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106
+          python scripts/v2957_split_goodal_mist_edition_and_gate.py
+          git add qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106
+          git diff --cached --name-only | tee /tmp/v2957-only
+          ! grep -Ev '^qa-review/v2957-goodal-25AD-label-generation-split-and-hard-publish-gate-20261106/' /tmp/v2957-only
+          git commit -m "v2957 Goodal mixed front-label ZIP quarantined and original-byte version groups preserved"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
