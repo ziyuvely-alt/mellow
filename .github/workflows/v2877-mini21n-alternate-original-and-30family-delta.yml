@@ -1,0 +1,36 @@
+name: Shopee v2877 Mini 21N alternate source one-shot and 30 family saved checkpoint
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2877-mini21n-alternate-original-and-30family-delta.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  alternate_once_and_ledger:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: One new original-CDN 21N attempt, then write exact thirty-family no-repeat state
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2877_clio21n_origin_resolution_and_30family_delta.py
+          cp scripts/v2877_clio21n_origin_resolution_and_30family_delta.py /tmp/v2877.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2877qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2877qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          python /tmp/v2877.py
+          git add qa-review/v2877-mini-21N-alternate-original-and-30family-delta-QA
+          git commit -m 'v2877 21N MINI original CDN fallback and latest 30-family immutable status; preserve old 55 URLs'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
