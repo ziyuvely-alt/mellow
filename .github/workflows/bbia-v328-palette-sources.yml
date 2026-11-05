@@ -1,0 +1,41 @@
+name: BBIA v328 palette missing source recovery
+on:
+  push:
+    branches: [bbia-ch2-source-repair-v316-20261105]
+    paths:
+      - .github/workflows/bbia-v328-palette-sources.yml
+jobs:
+  download-four:
+    runs-on: ubuntu-latest
+    timeout-minutes: 6
+    steps:
+      - name: Acquire exact-source photographic candidates only
+        run: |
+          python -m pip install -q Pillow
+          python - <<'PY'
+          from PIL import Image
+          import urllib.request,io,json,hashlib,os
+          base='https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/'
+          names=['1781219859296.jpg','1781219859304.jpg','1781219859313.jpg','1781219859347.jpg']
+          os.makedirs('source',exist_ok=True);res=[]
+          for idx,name in enumerate(names):
+           r={'index':('00','01','02','06')[idx],'url':base+name}
+           try:
+            req=urllib.request.Request(base+name,headers={'User-Agent':'Mozilla/5.0','Accept':'image/jpeg,image/*'})
+            with urllib.request.urlopen(req,timeout=16) as resp: raw=resp.read(7000000)
+            im=Image.open(io.BytesIO(raw));im.load()
+            r.update({'width':im.width,'height':im.height,'format':im.format,'sha256':hashlib.sha256(raw).hexdigest(),'bytes':len(raw)})
+            if im.width>=500 and im.height>=500 and im.format=='JPEG':
+             fname=f'BBIA_1000000151_DETAIL_{r["index"]}_v328.jpg'
+             open('source/'+fname,'wb').write(raw);r['saved']=fname
+            else:r['status']='REJECTED_FORMAT_OR_RESOLUTION'
+           except Exception as e:r['error']=str(e)[:250]
+           res.append(r)
+          open('source/manifest.json','w').write(json.dumps({'version':'v328','product':'1000000151','review_status':'SOURCE_CANDIDATE_ONLY','sources':res},ensure_ascii=False,indent=2))
+          print(json.dumps(res))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v328-palette-source-candidates
+          path: source/
+          if-no-files-found: error
