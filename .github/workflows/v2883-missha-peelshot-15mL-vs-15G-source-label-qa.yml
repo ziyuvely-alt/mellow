@@ -1,0 +1,37 @@
+name: Shopee v2883 MISSHA Peel Shot 25 real 15mL label stock 15G mismatch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2883-missha-peelshot-15mL-vs-15G-source-label-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  real_source_stock_label_hold:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Audit existing native photographic 15mL bottle label, preserve five originals, archive sale hold and 30 family state
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2883_missha_peelshot_15ml_15g_actual_photo_label_QA.py
+          cp scripts/v2883_missha_peelshot_15ml_15g_actual_photo_label_QA.py /tmp/v2883.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2883qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2883qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2883-missha-peelshot25-15G-vs-15mL-source-label-hold-QA
+          python /tmp/v2883.py
+          git add qa-review/v2883-missha-peelshot25-15G-vs-15mL-source-label-hold-QA
+          git commit -m 'v2883 archive MISSHA genuine bottle 15mL label, raw stock 15G conflict, preserve old 55 and five photos'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
