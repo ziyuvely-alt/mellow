@@ -1,0 +1,91 @@
+{
+  "version": "v2867",
+  "baseline": "v2866",
+  "family": "pending-05",
+  "work": "Staged 21C/21N original real shade reference photos, not reused ambiguous compact variant images.",
+  "sources_attempted": 3,
+  "real_source_photos_saved": 3,
+  "real_source_photos_held": 0,
+  "sources": [
+    {
+      "id": "merchant-cheek-five-labeled-shades",
+      "url": "https://glowupdiary.com/cdn/shop/files/Snimek_obrazovky_2024-10-20_v_10.53.20.png?v=1729414526&width=4096",
+      "source": "Glow Up Diary merchant",
+      "subject": "Five actual labeled cheek application stripes, including 21C Lingerie and 21N Linen",
+      "status": "SOURCE_ART_BYTES_SAVED_PENDING_VISUAL_SHADENUMBER_QA",
+      "source_reuse_rights_verified": false,
+      "actual_user_stock_verified": false,
+      "format": "WEBP",
+      "native_px": [
+        1286,
+        1290
+      ],
+      "raw_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-cheek-five-labeled-shades-source-unaltered.webp",
+      "raw_sha256": "a5de7ef55f7510cb96497c45b5243db5e2cd3cb5a094bfe80cb2729a51052a8f",
+      "qa_JPG_1080": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-cheek-five-labeled-shades-1080-source-swatch-QA.jpg",
+      "qa_sha256": "0c81ef6fe6828a09967cbc0bfb7f7cd20e4b210113db7e4ed365d961975939a7",
+      "qa_bytes": 150394,
+      "swatch_RGB_recolored": false
+    },
+    {
+      "id": "merchant-forearm-five-labeled-shades",
+      "url": "https://i.ebayimg.com/images/g/Ri0AAOSwbDlm0Q8O/s-l1200.png",
+      "source": "eBay merchant photograph",
+      "subject": "Five real forearm stripe shades, actual labels including 21C and 21N",
+      "status": "SOURCE_ART_BYTES_SAVED_PENDING_VISUAL_SHADENUMBER_QA",
+      "source_reuse_rights_verified": false,
+      "actual_user_stock_verified": false,
+      "format": "PNG",
+      "native_px": [
+        1200,
+        669
+      ],
+      "raw_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-forearm-five-labeled-shades-source-unaltered.png",
+      "raw_sha256": "e7548a612e94d5f786d96b385f81ab3246b966100357942d6043f7088b63a70c",
+      "qa_JPG_1080": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/merchant-forearm-five-labeled-shades-1080-source-swatch-QA.jpg",
+      "qa_sha256": "c3752bd96d9c26f70f31f63185890a7c060bcef07f9cd4b216f045b8eabe2a9b",
+      "qa_bytes": 140006,
+      "swatch_RGB_recolored": false
+    },
+    {
+      "id": "marketplace-color-chart-five-shades",
+      "url": "https://down-my.img.susercontent.com/file/vn-11134208-7ra0g-m8d5d2whzqtj44",
+      "source": "Shopee merchant reference",
+      "subject": "Five labeled brand-shade cosmetics chart, including distinct 21C and 21N",
+      "status": "SOURCE_ART_BYTES_SAVED_PENDING_VISUAL_SHADENUMBER_QA",
+      "source_reuse_rights_verified": false,
+      "actual_user_stock_verified": false,
+      "format": "PNG",
+      "native_px": [
+        1200,
+        1200
+      ],
+      "raw_path": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/marketplace-color-chart-five-shades-source-unaltered.png",
+      "raw_sha256": "b2c16714f6230146d0b27c3492983b90ffde81aee39557bb19c397bf96295c64",
+      "qa_JPG_1080": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/marketplace-color-chart-five-shades-1080-source-swatch-QA.jpg",
+      "qa_sha256": "873e2f02126880e04c2b6a83ccbae8a2614934fca3b6b5efd748b019e41ed183",
+      "qa_bytes": 103645,
+      "swatch_RGB_recolored": false
+    }
+  ],
+  "contact": "qa-review/v2867-founwear-21C-21N-real-swatch-source-evidence-QA/v2867-21C-21N-actual-swatch-source-photo-comparison-QA.jpg",
+  "contact_sha256": "36a19df6d19412e8b708a7571b5d52db917e3662c995391fc7670562216cbbb8",
+  "user_stock_shades_in_scope": [
+    "19C",
+    "19N",
+    "21C",
+    "21N",
+    "23N"
+  ],
+  "prior_v2866_photos_unchanged": true,
+  "prior_v2861_near_duplicate_hold_for_21C_21N": true,
+  "new_source_photo_rights_licensed": false,
+  "exact_stock_giftset_edition_verified": false,
+  "official_clio_swatches_independently_authenticated": false,
+  "new_public_URLs": 0,
+  "new_retail_approved": 0,
+  "old_55_public_URLs_unchanged": true,
+  "old_11_published_families_unchanged": true,
+  "final_spreadsheet_shared": false,
+  "next": "Inspect source photos to confirm 21C/21N text visually; use only actual shade distinctions for internal QA. Never publish third-party reference images or fake product photos. Requires licensed source/owned packaging."
+}
