@@ -1,0 +1,75 @@
+{
+  "version": "v2980",
+  "previous": "v2979",
+  "project": "Shopee Thumbnail Creator PRO 82 SKU / 41 families",
+  "new_original_text_JPGs": 2,
+  "already_verified_option_name_cards": 2,
+  "prior_source_photo_files_recreated": 0,
+  "original_images_modified": 0,
+  "new_unlicensed_photo_uploads": 0,
+  "results": [
+    {
+      "family": "pending-03",
+      "title": "M PERFECT COVER BB CREAM",
+      "line2": "50 mL  |  FACE MAKEUP",
+      "headline": "BB CREAM GUIDE",
+      "steps": [
+        "Apply a small amount to fingers or sponge.",
+        "Gently blend over the face.",
+        "Layer more if additional coverage is desired."
+      ],
+      "name": "pending-03-MISSHA-BB-50mL-original-apply-guide-INTERNAL-QA.jpg",
+      "usage_official_url": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new",
+      "reference": "MISSHA US current 50mL brand usage instruction: pump an appropriate amount, blend onto skin and layer for coverage",
+      "underlying_old_photos_used": 0,
+      "do_not_claim": "same old gold-pump formula/physical stocked edition without proof",
+      "JPG_path": "qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106/pending-03-MISSHA-BB-50mL-original-apply-guide-INTERNAL-QA.jpg",
+      "SHA256": "41e88cef4c26cbdd0c6a1c66b09ebf5e1905eb12268441db7ce57d20556fa9b4",
+      "JPG_bytes": 120558,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "third_party_photo_pixels": false,
+      "original_mellowkr_MK_used": false,
+      "authentic_swatch_colors_imagined": false,
+      "commercial_release_approved": false
+    },
+    {
+      "family": "pending-04",
+      "title": "MESH GLOW ESSENTIAL MINI",
+      "line2": "5 g  |  CUSHION",
+      "headline": "CUSHION GUIDE",
+      "steps": [
+        "Take an appropriate amount with the puff.",
+        "Apply evenly over your skin.",
+        "Tap gently to blend for an even finish."
+      ],
+      "name": "pending-04-CLIO-mini5g-original-apply-guide-INTERNAL-QA.jpg",
+      "usage_official_url": "https://clubclio.co.kr/shop/goodsView/0000006954",
+      "reference": "CLUBCLIO 5g Mini label says apply suitable amount evenly over skin; puff is pictured in product photos",
+      "underlying_old_photos_used": 0,
+      "do_not_claim": "specific 21C/21N/23N swatch color or corresponding physical generation without proof",
+      "JPG_path": "qa-review/v2980-missha-clio-two-original-howto-not-photo-cards-20261106/pending-04-CLIO-mini5g-original-apply-guide-INTERNAL-QA.jpg",
+      "SHA256": "9131d247db60b5cbee7dabb071fe946a88f333a9675b412102e915b77d052fa2",
+      "JPG_bytes": 116342,
+      "dimensions": [
+        1080,
+        1080
+      ],
+      "third_party_photo_pixels": false,
+      "original_mellowkr_MK_used": false,
+      "authentic_swatch_colors_imagined": false,
+      "commercial_release_approved": false
+    }
+  ],
+  "next": "One batch-based, 5-slot byte SHA manifest per pending-03/04 with exact 3 shade-specific source photos + 2 new text-only option/application cards. No model face image.",
+  "user_owned_stock_generation_verified": false,
+  "MellowKR_original_logo_binary_authenticated": false,
+  "retail_photo_rights_cleared": false,
+  "retail_approved": false,
+  "new_public_URLs": 0,
+  "original_11_published_families_preserved": true,
+  "original_55_verified_public_URLs_preserved": true,
+  "final_excel_shared": false
+}
