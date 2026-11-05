@@ -1,0 +1,87 @@
+{
+  "version": "v2874",
+  "baseline": "v2873",
+  "family": "pending-10",
+  "product": "OBgE Perfect Homme Cushion 15g No1/2/3",
+  "source_branch": "production-assets-v2511-obge-homme-15g-corrected",
+  "legacy_incorrect_beige_round_case": "QUARANTINED_DO_NOT_USE",
+  "three_shade_original_case_chart_reused": true,
+  "new_1080_QA_option_JPGs": 3,
+  "input_original_JPGs_reencoded_or_overwritten": 0,
+  "new_swatch_photo_downloads": 0,
+  "new_fake_swatch_colors": 0,
+  "physical_inventory_15g_vs_prior_13g_conflict": "HOLD_ACTUAL_UNIT_LABEL",
+  "verified_from_archived_merchant_sources": "15g square case, SPF50+ PA+++, No1 Ivory No2 Beige No3 Sand",
+  "retail_photo_rights_verified": false,
+  "authentic_original_MK_logo_verified": false,
+  "sale_approvals": 0,
+  "new_public_URLs": 0,
+  "prior_11_approved_groups_preserved": true,
+  "prior_55_public_urls_preserved": true,
+  "final_spreadsheet_shared": false,
+  "cards": [
+    {
+      "shade": "1",
+      "shade_label": "IVORY",
+      "input_case_sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+      "input_shade_chart_sha256": "b35f8eeaf264a5062600b9db4cc8b22c396653d9fd629dd4c327f8fa86be80bd",
+      "original_chart_crop": [
+        261,
+        210,
+        822,
+        440
+      ],
+      "new_option_card": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No1-IVORY-1080-option-QA.jpg",
+      "new_sha256": "4fac1931fc5cde7f8241f5bd818413a9b5b9665c7692895200ddcfd64c589be9",
+      "jpg_bytes": 162457,
+      "real_shade_RGB_recolored": false,
+      "original_wrong_round_pack_reused": false,
+      "photo_rights_granted": false,
+      "physical_owned_unit_label_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "2",
+      "shade_label": "BEIGE",
+      "input_case_sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+      "input_shade_chart_sha256": "b35f8eeaf264a5062600b9db4cc8b22c396653d9fd629dd4c327f8fa86be80bd",
+      "original_chart_crop": [
+        261,
+        446,
+        822,
+        661
+      ],
+      "new_option_card": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No2-BEIGE-1080-option-QA.jpg",
+      "new_sha256": "339ba2463d06b20720feaf0e2855ede337a074c36ceb8a3c3819ba566697e2f2",
+      "jpg_bytes": 163871,
+      "real_shade_RGB_recolored": false,
+      "original_wrong_round_pack_reused": false,
+      "photo_rights_granted": false,
+      "physical_owned_unit_label_verified": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "3",
+      "shade_label": "SAND",
+      "input_case_sha256": "f82b58bc30571e90203de2e47dac05b783cfb97920cb3426562fbd2e366f7327",
+      "input_shade_chart_sha256": "b35f8eeaf264a5062600b9db4cc8b22c396653d9fd629dd4c327f8fa86be80bd",
+      "original_chart_crop": [
+        261,
+        660,
+        822,
+        900
+      ],
+      "new_option_card": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/OBgE-PerfectHomme-15g-No3-SAND-1080-option-QA.jpg",
+      "new_sha256": "8008549caee0489514f6816ffcef2e16097541ead394bbc2851200a6690f7e1f",
+      "jpg_bytes": 163102,
+      "real_shade_RGB_recolored": false,
+      "original_wrong_round_pack_reused": false,
+      "photo_rights_granted": false,
+      "physical_owned_unit_label_verified": false,
+      "retail_approved": false
+    }
+  ],
+  "contact": "qa-review/v2874-obge-homme-15g-three-correct-shade-photo-qa/v2874-obge-homme-three-shade-original-source-comparison-QA.jpg",
+  "contact_sha256": "e93eaa557f1c78755d3e940c51a4cc2071f8314928f8d0733e921ea65ae5539a",
+  "next": "Verify user's actual OBgE 15g physical box label and merchant photo rights. New three options are INTERNAL review only. Never reuse old wrong beige round-case photos or substitute generic shade colors."
+}
