@@ -1,0 +1,34 @@
+{
+  "version": "v2843",
+  "baseline": "v2840",
+  "family": "pending-04",
+  "variant": "21C Lingerie",
+  "alignment": {
+    "score": 0.99747,
+    "scale": 1.0,
+    "bbox": [
+      302,
+      352,
+      665,
+      742
+    ]
+  },
+  "mask_source": "v2837 21N silhouette alpha only",
+  "21C_photographic_RGB_source": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21C/05-MERCHANT_LACOSMETIQUE_EXACT_21C_QA.jpg",
+  "segmentation_model_runs": 0,
+  "review_photos_used": 0,
+  "photo_usage_rights_verified": false,
+  "exact_owned_inventory_verified": false,
+  "authentic_MK_logo_verified": false,
+  "retail_approved": false,
+  "11_published_families_unchanged": true,
+  "55_public_URLs_unchanged": true,
+  "previous_21C_5JPG_galleries_unchanged": true,
+  "final_xlsx_shared": false,
+  "status": "TRUE_21C_RGB_WITH_REGISTERED_MASK_VISUAL_QA_PENDING",
+  "new_PNG": "01-21C-Lingerie-real-product-transparent-QA.png",
+  "new_JPG": "01-21C-Lingerie-real-product-1080-hero-QA.jpg",
+  "sha256": "bcffa60191f52ce11eb17a94329379419ac19ba898a79b81c9a52c114d1a685c",
+  "JPG_bytes": 88162,
+  "mask_shift_and_scale_QA_REQUIRED": true
+}
