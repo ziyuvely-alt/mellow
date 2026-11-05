@@ -1,0 +1,40 @@
+name: Shopee v2945 MISSHA official 15mL and CLIO two separate pack edition review cards
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2945-missha-clio-edition-card-QA.yml'
+      - 'scripts/v2945_missha_15ml_and_clio_seasonal_pack_QA_cards.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  correct_units_and_make_variant_cards:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Create three QA-only distinct unit/edition images
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2945_missha_15ml_and_clio_seasonal_pack_QA_cards.py
+          cp scripts/v2945_missha_15ml_and_clio_seasonal_pack_QA_cards.py /tmp/v2945.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2945qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2945qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA
+          python /tmp/v2945.py
+          git add qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA
+          git diff --cached --name-only | tee /tmp/v2945files
+          ! grep -Ev '^qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/' /tmp/v2945files
+          git commit -m 'v2945 actual MISSHA 15ml frame and CLIO regular versus 25FW stock pack distinction images'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
