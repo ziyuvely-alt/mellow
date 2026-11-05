@@ -1,0 +1,139 @@
+{
+  "version": "v2979",
+  "parent": "v2978",
+  "project": "Shopee Thumbnail Creator PRO | 82 SKUs / 41 families",
+  "date_kst": "2026-11-06",
+  "source_option_JPG_shas_validated": [
+    {
+      "source": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No21_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+      "SHA256": "d7d8eda503335a4e75678e4bd3fad13e76f2b167f5bf91321fd8f4b2303bb2ff",
+      "bytes": 125196,
+      "identity_photo_only": true
+    },
+    {
+      "source": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No23_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+      "SHA256": "f40a238b2616b578ca0dea806bbee7575e4a20c3500db30a269e058622ff7976",
+      "bytes": 115656,
+      "identity_photo_only": true
+    },
+    {
+      "source": "qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA/MISSHA_BB_Legacy_No25_OPTION_QA_NOT_FOR_PUBLIC.jpg",
+      "SHA256": "489fb57fb87f638693dcbe3f78429a5946916d72397c7ef6113d380d35acd764",
+      "bytes": 126660,
+      "identity_photo_only": true
+    },
+    {
+      "source": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21C/01-PRESERVED_EXACT_21C_MERCHANT_SHADE_LABELLED-QA.jpg",
+      "SHA256": "c053e76dd890d6a77886651b5dd8e0f1ede1f0148f9315aaefa8a53786598934",
+      "bytes": 94593,
+      "identity_photo_only": true
+    },
+    {
+      "source": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA/21N/01-PRESERVED_EXACT_21N_MERCHANT_SHADE_LABELLED-QA.jpg",
+      "SHA256": "b806280726752a5878bfcc3d64ad3430d5cebd5b64cf7968629a72ca0bdeb4d5",
+      "bytes": 60016,
+      "identity_photo_only": true
+    },
+    {
+      "source": "qa-review/v2840-clio-meshglow-mini5g-23N-five-photo-no-reviews-QA/01-23N-GINGER-EXACT-SHADE-SOURCE-QA.jpg",
+      "SHA256": "710105bbf049c3f28b27b9df9819eec5862dfc0cffdf42972b0c792bf056a819",
+      "bytes": 96976,
+      "identity_photo_only": true
+    }
+  ],
+  "original_cards_newly_generated": 2,
+  "old_image_bytes_modified": 0,
+  "results": [
+    {
+      "family": "pending-03",
+      "title": "M PERFECT COVER BB CREAM",
+      "subtitle": "50 mL  |  ORIGINAL FORMULA REFERENCE",
+      "rows": [
+        [
+          "No.21",
+          "Light Beige"
+        ],
+        [
+          "No.23",
+          "Natural Beige"
+        ],
+        [
+          "No.25",
+          "Warm Beige"
+        ]
+      ],
+      "name": "pending-03-MISSHA-BB-50mL-No21-23-25-option-names-INTERNAL-QA.jpg",
+      "source": "https://misshaus.com/products/m-perfect-cover-bb-cream-spf-42-pa-50ml-new",
+      "caution": "Official shade names from current MISSHA US M Perfect Cover BB Cream 50mL page; legacy physical gold-pump unit not proven by modern catalog",
+      "replaces_slot_candidate": 5,
+      "old_issue": "Archived 5th option graphic only lists No23 and No25; No21 omitted and swatch source not rights-cleared",
+      "JPG_path": "qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106/pending-03-MISSHA-BB-50mL-No21-23-25-option-names-INTERNAL-QA.jpg",
+      "JPG_SHA256": "dd9e88478c1106d00cf20805a817b7dc76b7b739e68ef69fae530d13e585ab14",
+      "JPG_bytes": 116813,
+      "pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "original_graphics_text_only": true,
+      "third_party_photo_pixels_used": false,
+      "simulated_color_swatches": false,
+      "actual_color_match_proven": false,
+      "original_circular_MK_logo_included": false,
+      "consumer_publish_approved": false,
+      "customer_ready_5_distinct_photos": false
+    },
+    {
+      "family": "pending-04",
+      "title": "MESH GLOW ESSENTIAL MINI",
+      "subtitle": "5 g  |  MINI CUSHION",
+      "rows": [
+        [
+          "21C",
+          "Lingerie"
+        ],
+        [
+          "21N",
+          "Linen"
+        ],
+        [
+          "23N",
+          "Ginger"
+        ]
+      ],
+      "name": "pending-04-CLIO-mini5g-21C-21N-23N-option-names-INTERNAL-QA.jpg",
+      "source": "https://clubclio.co.kr/shop/goodsView/0000006954",
+      "caution": "Official MINI 5g product; labels 21C Lingerie/21N Linen/23N Ginger from independent shade-specific merchant photo manifests. Physical stock generation not proven",
+      "replaces_slot_candidate": 4,
+      "old_issue": "Old frame 4 repeats open-compact view of frame 1, while option identification is missing in legacy 5-photo contact",
+      "JPG_path": "qa-review/v2979-missha-clio-two-original-shade-name-only-cards-20261106/pending-04-CLIO-mini5g-21C-21N-23N-option-names-INTERNAL-QA.jpg",
+      "JPG_SHA256": "f07e9acdeb7360a648c4318a727ee449d042d9ae18bcae3e084e177481f22637",
+      "JPG_bytes": 102124,
+      "pixel_dimensions": [
+        1080,
+        1080
+      ],
+      "original_graphics_text_only": true,
+      "third_party_photo_pixels_used": false,
+      "simulated_color_swatches": false,
+      "actual_color_match_proven": false,
+      "original_circular_MK_logo_included": false,
+      "consumer_publish_approved": false,
+      "customer_ready_5_distinct_photos": false
+    }
+  ],
+  "photo_usage_rights_for_source_hero_photos": "NOT_VERIFIED",
+  "exact_owned_edition_confirmed": false,
+  "original_MellowKR_MK_png_authenticated": false,
+  "new_render_image_urls": 0,
+  "new_sale_approvals": 0,
+  "prior_published_families_preserved": 11,
+  "prior_verified_public_urls_preserved": 55,
+  "important_distinction": "Option name guide is NOT an official color swatch. Do not imply cosmetic shade color accuracy or original logo verification.",
+  "next": [
+    "For pending-03 reuse original legacy No21/23/25 option JPGs; new original text guide fixes missing No21 option label only.",
+    "For pending-04 reuse 21C/21N/23N actual reference photo data without re-labeling shared pink compact as shade-accurate.",
+    "When rights and stocked legacy edition and authentic logo are cleared, select only then for public image version.",
+    "No further source download/rebuild for either card or 6 confirmed variant reference JPGs."
+  ],
+  "final_xlsx_shared": false
+}
