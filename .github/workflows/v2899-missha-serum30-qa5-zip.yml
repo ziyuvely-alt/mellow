@@ -1,0 +1,37 @@
+name: Shopee v2899 MISSHA serum30 clean hero 5-JPG internal QA bundle
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2899-missha-serum30-qa5-zip.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  create_clean_5_JPG_QA_zip:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Byte preserve five individual images and archive QA ZIP
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2899_serum30_cleanhero_fiveframe_bytearchive_QA.py
+          cp scripts/v2899_serum30_cleanhero_fiveframe_bytearchive_QA.py /tmp/v2899.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2899qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2899qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2899-missha-serum30-clean-hero-existing-4scene-internal-QA
+          python /tmp/v2899.py
+          git add qa-review/v2899-missha-serum30-clean-hero-existing-4scene-internal-QA
+          git commit -m 'v2899 clean serum30 hero plus four preserved 1080 JPG exact-byte internal QA set and ZIP'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
