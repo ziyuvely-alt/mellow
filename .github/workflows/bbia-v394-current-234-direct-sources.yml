@@ -1,0 +1,68 @@
+name: BBIA v394 exact official palette 234 source evidence
+on:
+  push:
+    branches: [bbia-ch2-qa-v394-20261106]
+    paths: [.github/workflows/bbia-v394-current-234-direct-sources.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  source:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install pillow==11.3.0
+      - name: Get exact current gallery sources without repeated HTML filtering
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from concurrent.futures import ThreadPoolExecutor
+          from urllib.request import Request,urlopen
+          from PIL import Image,ImageDraw
+          import json,hashlib,io
+          out=Path('/tmp/bbia-v394');out.mkdir(exist_ok=True)
+          base='https://images002.sabangnet.co.kr/v1/AUTH_c55e59a8ec2149e7ad5e61ca73645bd9/mw169402/image/'
+          urls={
+          'CURRENT_HERO':'https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/234/234_magnify_014.jpg',
+          'MODEL_WITH_PALETTE':'https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/234/t50_234_detail_1100.jpg',
+          'MODEL_VARIANT':'https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/234/t50_234_detail_025.jpg',
+          'PRODUCT_DISPLAY':'https://cdn-pro-web-250-115.cdn-nhncommerce.com/sky007com_godomall_com/data/goods/19/03/13/234/t50_234_detail_23.jpg',
+          'LATTE12_CAMPAIGN':base+'1790749145097.jpg',
+          'LATTE12_EYES':base+'1790749145106.jpg',
+          'CHART_OPTIONS_01_05':base+'1790749145122.jpg',
+          'CHART_OPTIONS_06_12':base+'1790749145130.jpg'
+          }
+          def grab(item):
+            key,url=item;rec={'role':key,'source_url':url}
+            try:
+              with urlopen(Request(url,headers={'User-Agent':'Mozilla/5.0','Referer':'https://bbia.co.kr/goods/goods_view.php?goodsNo=234'}),timeout=30) as stream:raw=stream.read(14000000)
+              with Image.open(io.BytesIO(raw)) as im:im.verify()
+              with Image.open(io.BytesIO(raw)) as im:im.load();w,h=im.size;fmt=im.format
+              if fmt!='JPEG' or w<190 or h<300 or len(raw)<9000:raise ValueError('not valid JPEG or too small')
+              name='BBIA_234_'+key+'_CURRENT_OFFICIAL_v394.jpg'
+              (out/name).write_bytes(raw)
+              rec.update(status='SAVED',filename=name,size_bytes=len(raw),dimensions=[w,h],sha256=hashlib.sha256(raw).hexdigest())
+            except Exception as err:rec.update(status='HOLD',error=type(err).__name__+': '+str(err)[:170])
+            return rec
+          with ThreadPoolExecutor(max_workers=6) as pool:records=list(pool.map(grab,urls.items()))
+          board=Image.new('RGB',(1600,4*395+62),'#f6f3f1')
+          draw=ImageDraw.Draw(board);draw.text((18,16),'BBIA 234 | 2026 current source proof | NOT SALES APPROVED',fill='#252525')
+          for i,r in enumerate(records):
+            x=i%2*800+14;y=i//2*395+55
+            draw.text((x,y),r['role']+'  '+r['status'],fill='#222222')
+            if r['status']=='SAVED':
+              im=Image.open(out/r['filename']).convert('RGB')
+              if im.height>im.width*2.5:im=im.crop((0,0,im.width,min(im.height,2*im.width)))
+              im.thumbnail((760,345),Image.Resampling.LANCZOS)
+              board.paste(im,(x+6,y+27))
+          board.save(out/'BBIA_v394_CURRENT_PALETTE_SOURCE_CONTACT.jpg',quality=87,optimize=True)
+          manifest={'version':'v394','product_id':'234','gallery_origin':'https://bbia.co.kr/goods/goods_view.php?goodsNo=234','parent':'v393_HTML_FILTER_ZERO_IMAGE','records':records,'requested':len(urls),'saved':sum(r['status']=='SAVED' for r in records),'legacy_v392b_and_approved_unchanged':True,'option_12_lattee_visual_only':True,'current_option_dropdown_verified':False,'rights_verified':False,'new_sales_approval':False}
+          (out/'BBIA_v394_PALETTE_EXACT_SOURCE_CHECKPOINT.json').write_text(json.dumps(manifest,ensure_ascii=False,indent=2),encoding='utf8')
+          print(json.dumps({'requested':len(urls),'saved':manifest['saved']}))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v394-current-234-exact-official-source
+          path: /tmp/bbia-v394
+          retention-days: 30
