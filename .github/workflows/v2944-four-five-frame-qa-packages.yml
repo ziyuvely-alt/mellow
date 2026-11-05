@@ -1,0 +1,40 @@
+name: Shopee v2944 Four five-frame product-first internal QA ZIP packages
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2944-four-five-frame-qa-packages.yml'
+      - 'scripts/v2944_four_product_five_frame_source_plus_en_info_qa_zip.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  package_four_internal_five_frame_sets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Check source hash and package QA photos without modifying originals
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2944_four_product_five_frame_source_plus_en_info_qa_zip.py
+          cp scripts/v2944_four_product_five_frame_source_plus_en_info_qa_zip.py /tmp/v2944.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2944qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2944qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs
+          python /tmp/v2944.py
+          git add qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs
+          git diff --cached --name-only | tee /tmp/v2944files
+          ! grep -Ev '^qa-review/v2944-four-5frame-product-first-internal-only-QA-ZIPs/' /tmp/v2944files
+          git commit -m 'v2944 four internal five-frame product ZIPs, 16 unchanged photo JPGs, 4 new English info images'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
