@@ -1,0 +1,40 @@
+name: Shopee v2946 7 new QA artifacts CRC/SHA and true MK logo missing-source gate
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2946-seven-asset-and-MK-logo-gate.yml'
+      - 'scripts/v2946_seven_asset_QA_integrity_and_missing_MK_logo_gate.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  seal_QA_without_release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Verify new archive/card bytes and record missing logo asset hold
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2946_seven_asset_QA_integrity_and_missing_MK_logo_gate.py
+          cp scripts/v2946_seven_asset_QA_integrity_and_missing_MK_logo_gate.py /tmp/v2946.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2946qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2946qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2946-seven-new-QA-assets-original-logo-source-hold-checkpoint
+          python /tmp/v2946.py
+          git add qa-review/v2946-seven-new-QA-assets-original-logo-source-hold-checkpoint
+          git diff --cached --name-only | tee /tmp/v2946-files
+          ! grep -Ev '^qa-review/v2946-seven-new-QA-assets-original-logo-source-hold-checkpoint/' /tmp/v2946-files
+          git commit -m 'v2946 seven QA asset SHA/CRC integrity and original MK logo source hold; preserve originals'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
