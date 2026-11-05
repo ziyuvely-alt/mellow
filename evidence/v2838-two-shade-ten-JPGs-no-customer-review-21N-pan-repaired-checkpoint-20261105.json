@@ -1,0 +1,84 @@
+{
+  "version": "v2838",
+  "date": "2026-11-05",
+  "completed_runs": [
+    {
+      "version": "v2836",
+      "id": 41941994206,
+      "result": "SUCCESS_TECHNICAL_BUT_REJECT_VISUAL_INNER_CUSHION_ERASED"
+    },
+    {
+      "version": "v2837",
+      "id": 41942407291,
+      "result": "SUCCESS_PRODUCT_ORIGINAL_PEACH_CUSHION_RGB_RESTORED_24548_PIXELS"
+    },
+    {
+      "version": "v2838",
+      "id": 41942698511,
+      "result": "SUCCESS_TWO_FIVE_JPG_SHADE_SETS_ZERO_CUSTOMER_REVIEW_IMAGES"
+    }
+  ],
+  "product_family": "pending-04",
+  "product": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+  "QA_artifacts": [
+    {
+      "version": "v2837",
+      "path": "qa-review/v2837-21N-mini5g-restore-inner-cushion-source-pixels-QA",
+      "status": "QA_CANDIDATE_PAN_VISIBLY_RESTORED",
+      "new_PNG": 1,
+      "new_JPG": 1,
+      "original_source_unchanged": true
+    },
+    {
+      "version": "v2838",
+      "path": "qa-review/v2838-clio-mini5g-21C-21N-five-photo-no-customer-review-QA",
+      "shades": [
+        "21C Lingerie",
+        "21N Linen"
+      ],
+      "JPGs": 10,
+      "per_shade": 5,
+      "unique_sha_within_each_shade": 5,
+      "customer_review_photos_used": 0
+    }
+  ],
+  "review": {
+    "five_frame_structure_per_shade": [
+      "shade-labelled merchant photo",
+      "common mini product packshot no shade claim",
+      "common mini open compact no shade claim",
+      "W Cosmetics exact variant-linked photo",
+      "La Cosmetique exact variant-linked photo"
+    ],
+    "original_21N_1200native_cushion_part_restored": true,
+    "shade_labels_verified_by_merchant_catalog": true,
+    "stock_identity_and_owner_physical_edition_proven": false,
+    "photo_redistribution_rights_verified": false,
+    "original_round_MK_logo_proven": false,
+    "commercial_release": "HOLD",
+    "note": "Merchant variant-linked images are not proof of permission to redistribute; open compact photos must still be verified as exact mini 5g edition."
+  },
+  "preserved": {
+    "eleven_previously_approved_families": true,
+    "fifty_five_published_image_urls": true,
+    "previous_v2832_customer_inclusive_reference_only_sets": true,
+    "old_v2836_invalid_mask_archived": true,
+    "final_XLSX_not_shared": true
+  },
+  "project": {
+    "all_families": 41,
+    "approved_families": 11,
+    "pending_families": 30,
+    "newly_sale_approved": 0
+  },
+  "next_do_not_repeat": [
+    "v2831-v2838 sources and image assets",
+    "21N erased cushion alpha",
+    "customer review photo slots"
+  ],
+  "next_actions": [
+    "Verify actual owned 5g packaging shade identities",
+    "Obtain permitted photo/license and original round MK logo",
+    "Move to other incomplete product families while identity/rights remain blocked"
+  ]
+}
