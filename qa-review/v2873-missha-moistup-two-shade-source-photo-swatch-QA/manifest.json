@@ -1,0 +1,74 @@
+{
+  "version": "v2873",
+  "baseline": "v2872",
+  "family": "pending-02",
+  "product": "MISSHA Magic Cushion Moist Up No.21 / No.23",
+  "new_1080_shade_QA_JPGs": 2,
+  "new_product_photo_downloads": 0,
+  "input_photo_sources_archived_versions": [
+    "v2701",
+    "v2528"
+  ],
+  "source_files_changed": 0,
+  "new_shade_pixels_synthesized": 0,
+  "watermark_removed_or_faked": false,
+  "prior_11_completed_groups_preserved": true,
+  "prior_55_public_URLs_preserved": true,
+  "commercial_photo_rights_verified": false,
+  "owned_Korean_stock_same_regional_edition_verified": false,
+  "authenticated_original_MK_logo_applied": false,
+  "sale_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "cards": [
+    {
+      "shade": "21",
+      "shade_name": "LIGHT BEIGE",
+      "status": "NEW_QA_REFERENCE_HOLD_SALES",
+      "image_JPG_1080": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/MISSHA-MoistUp-No21-real-shade-source-1080-QA.jpg",
+      "sha256": "fc9a0a4851fdcd1cbbabff2244517f3b400eb00f07178c1e17f2bd233fc70d48",
+      "bytes": 132841,
+      "regional_product_photo_src": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/02-regional-photo-01-byte-preserved-QA.jpg",
+      "regional_photo_sha256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42",
+      "Sagi_watermarked_swatches_src": "/tmp/v2873swatch/review-JPG-by-family/pending-02/06-original-21-23-shades-watermarked-QA.jpg",
+      "Sagi_image_SHA256": "bd2cf9cd687a32136ade63b30e74553bfa44a57f517b96de836de4288b0375a4",
+      "swatch_zoom_source_crop_px": [
+        24,
+        70,
+        529,
+        531
+      ],
+      "original_watermark_retained_in_full_photo": true,
+      "swatch_pixels_recolored": false,
+      "stock_Korean_edition_verified": false,
+      "source_commercial_usage_allowed": false,
+      "retail_approved": false
+    },
+    {
+      "shade": "23",
+      "shade_name": "NATURAL BEIGE",
+      "status": "NEW_QA_REFERENCE_HOLD_SALES",
+      "image_JPG_1080": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/MISSHA-MoistUp-No23-real-shade-source-1080-QA.jpg",
+      "sha256": "91aa678ada324fb6ae2d0c39ab1df0fd27425e3ec3280ff180960bf4d9217f60",
+      "bytes": 134242,
+      "regional_product_photo_src": "qa-review/v2701-missha-moistup-five-actual-product-photo-QA/02-regional-photo-01-byte-preserved-QA.jpg",
+      "regional_photo_sha256": "a8b635226630e4b21074bcee8b05cbd045cd2e4746bbd2c04b24e991b6181e42",
+      "Sagi_watermarked_swatches_src": "/tmp/v2873swatch/review-JPG-by-family/pending-02/06-original-21-23-shades-watermarked-QA.jpg",
+      "Sagi_image_SHA256": "bd2cf9cd687a32136ade63b30e74553bfa44a57f517b96de836de4288b0375a4",
+      "swatch_zoom_source_crop_px": [
+        550,
+        70,
+        1060,
+        531
+      ],
+      "original_watermark_retained_in_full_photo": true,
+      "swatch_pixels_recolored": false,
+      "stock_Korean_edition_verified": false,
+      "source_commercial_usage_allowed": false,
+      "retail_approved": false
+    }
+  ],
+  "contact": "qa-review/v2873-missha-moistup-two-shade-source-photo-swatch-QA/v2873-missha-moistup-two-actual-shade-swatch-comparison-QA.jpg",
+  "contact_sha256": "5cbb58d810dbcced70bb4c0ee49f0f599a89dd7407a73b69e601c8f52fdd6636",
+  "next": "Review v2873 for correct 21 vs 23 group-swatch positioning and original watermark; exact KR stock packaging and reuse license are required before publication. Next SKU should progress without re-cutting v2873 photos."
+}
