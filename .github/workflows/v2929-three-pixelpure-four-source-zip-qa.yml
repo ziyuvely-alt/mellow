@@ -1,0 +1,40 @@
+name: Shopee v2929 three PixelPure four-photo original-source QA ZIPs
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2929-three-pixelpure-four-source-zip-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  archive_three_four_photo_groups:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install photo QA checker
+        run: python -m pip install Pillow
+      - name: Validate new source photo status then archive three pre-existing 4/5 sets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2929_pixelpure_three_four_photo_immutable_QA_zip.py
+          cp scripts/v2929_pixelpure_three_four_photo_immutable_QA_zip.py /tmp/v2929.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2929qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2929qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA
+          python /tmp/v2929.py
+          git add qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA
+          git diff --cached --name-only | tee /tmp/v2929-changed
+          ! grep -Ev '^qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/' /tmp/v2929-changed
+          git commit -m 'v2929 preserve twelve existing PixelPure source photos as three four-of-five QA ZIPs'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
