@@ -1,0 +1,37 @@
+name: Shopee v2888 OBgE 300mL higher native original photo candidate QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2888-obge300-high-native-source-onepass-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  native_originals_no_old_segmentation_repeat:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Inspect three known photo originals once, keep only source native at least 900px
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2888_obge_300ml_new_native_source_high_res_candidate_QA.py
+          cp scripts/v2888_obge_300ml_new_native_source_high_res_candidate_QA.py /tmp/v2888.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2888qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2888qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA
+          python /tmp/v2888.py
+          git add qa-review/v2888-obge300-highnative-official-merchant-source-candidates-QA
+          git commit -m 'v2888 archive only high-native original OBgE candidate sources and 30-family immutable checkpoint'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
