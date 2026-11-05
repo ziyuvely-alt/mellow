@@ -1,0 +1,114 @@
+name: BBIA v411 three official product option HTML evidence audit
+on:
+  push:
+    branches: [bbia-ch2-qa-v411-20261106]
+    paths: [.github/workflows/bbia-v411-three-current-option-audit.yml]
+  workflow_dispatch:
+permissions: {contents: read}
+jobs:
+  read-only-option-audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+      - run: python -m pip install requests==2.32.5 beautifulsoup4==4.14.2
+      - name: Read three public BBIA purchase forms and mark uncertainty
+        shell: bash
+        run: |
+          python - <<'PY'
+          from pathlib import Path
+          from bs4 import BeautifulSoup
+          from concurrent.futures import ThreadPoolExecutor
+          from collections import Counter
+          from datetime import datetime, timezone
+          import requests,json,hashlib,re
+          D=Path('/tmp/bbia-v411')
+          D.mkdir(parents=True,exist_ok=True)
+          ids=['234','1000000122','1000000166']
+          info=json.loads(Path('evidence/bbia-image-review-input.json').read_text(encoding='utf-8'))
+          fam={str(z['product_id']):z for z in info['families']}
+          def norm(x):
+              return re.sub(r'\s+',' ',str(x or '')).strip()
+          def scan(sku):
+              item=fam[sku]
+              url=item.get('official_page') or f'https://www.bbia.co.kr/goods/goods_view.php?goodsNo={sku}'
+              o={'sku':sku,'family':item['family'],'official_url':url,
+                 'expected_stored_options':[{'number':v.get('number',''),'name':v.get('name_ko','')} for v in item.get('options',[])],
+                 'retail_photo_license_confirmed':False,'live_stock_confirmed':False,
+                 'previous_photo_and_url_changes':0}
+              try:
+                  r=requests.get(url,timeout=35,headers={'User-Agent':'Mozilla/5.0 (compatible; BBIA read-only option audit)','Accept-Language':'ko-KR,ko;q=0.9'})
+                  r.raise_for_status()
+                  soup=BeautifulSoup(r.text,'html.parser')
+                  o.update(http_status=r.status_code,final_url=r.url,html_sha256=hashlib.sha256(r.content).hexdigest(),
+                           html_bytes=len(r.content),page_title=norm(soup.title.get_text(' ',strip=True))[:180] if soup.title else '')
+                  selects=[]
+                  for sel in soup.select('select'):
+                      opts=[norm(x.get_text(' ',strip=True)) for x in sel.select('option')]
+                      if not opts:continue
+                      sid=norm(sel.get('id'));sname=norm(sel.get('name'))
+                      group=norm((sel.parent or sel).get_text(' ',strip=True))[:360]
+                      selects.append({'id':sid,'name':sname,'class':sel.get('class',[]),'choices':opts[:90],
+                                      'parent_excerpt':group})
+                  o['select_elements']=selects[:40]
+                  o['select_option_total']=sum(len(s['choices']) for s in selects)
+                  o['product_form_identifiers']=[{'id':x.get('id',''),'action':x.get('action',''),
+                         'class':x.get('class',[])} for x in soup.select('form')][:12]
+                  # Only explicit selectable entries count as purchase-selector evidence.
+                  expected=o['expected_stored_options']
+                  option_flat=' | '.join(y for x in selects for y in x['choices'])
+                  matches=[]
+                  for opt in expected:
+                      label=norm(opt['name'])
+                      num=norm(opt['number'])
+                      by_name=bool(label and label in option_flat)
+                      by_number=bool(num and re.search(r'(?<![0-9A-Za-z])'+re.escape(num)+r'(?![0-9A-Za-z])',option_flat))
+                      matches.append({'number':num,'label':label,'option_html_name_match':by_name,'option_html_number_match':by_number})
+                  o['exact_option_choice_matches']=matches
+                  o['exact_option_name_match_count']=sum(x['option_html_name_match'] for x in matches)
+                  # Embedded scripts may mention shades but are not a purchasable SKU proof.
+                  script_hits=[]
+                  for s in soup.select('script'):
+                      st=s.string or s.get_text(' ',strip=False)
+                      if not st:continue
+                      for m in list(re.finditer(r'option|stock|goodsNo|품절|재고|선택',st,re.I))[:5]:
+                          lo=max(0,m.start()-90);hi=min(len(st),m.end()+125)
+                          seg=norm(st[lo:hi])
+                          if seg and seg not in script_hits:script_hits.append(seg[:225])
+                      if len(script_hits)>35:break
+                  o['embedded_script_option_excerpts']=script_hits[:35]
+                  pg=norm(soup.get_text(' ',strip=True))
+                  o['page_body_2027_expiry_mentions']=[norm(x) for x in re.findall(r'.{0,55}2027.{0,80}',pg)[:12]]
+                  o['page_option_name_mentions']=sum(1 for x in expected if x['name'] and norm(x['name']) in pg)
+                  o['purchase_dropdown_claim']='UNVERIFIED'
+                  if o['exact_option_name_match_count']:
+                      o['purchase_dropdown_claim']='HTML_SELECT_OPTIONS_PRESENT_STOCK_NOT_CHECKED'
+                  else:
+                      o['purchase_dropdown_claim']='NO_EXACT_NAMES_IN_STATIC_SELECT_HOLD'
+                  o['sales_approved']=False
+              except Exception as e:
+                  o['page_error']=type(e).__name__+': '+str(e)[:240]
+                  o['purchase_dropdown_claim']='PAGE_ACCESS_HOLD'
+                  o['sales_approved']=False
+              return o
+          with ThreadPoolExecutor(max_workers=3) as pool:
+              products=list(pool.map(scan,ids))
+          state={'version':'v411','parent':'v410','mode':'official_page_read_only_actual_purchase_selector_evidence',
+                 'product_ids':ids,'products':products,
+                 'no_option_stock_can_be_confirmed_from_static_HTML':True,
+                 'prior_approved_55_urls_modified':0,'prior_images_modified':0,
+                 'new_sales_approved_count':0,'final_excel_shared':False,
+                 'next_action':'If no exact option selector found, HOLD dynamic stock and advance other available source QA'}
+          (D/'BBIA_v411_THREE_PRODUCT_OPTION_AUDIT.json').write_text(json.dumps(state,ensure_ascii=False,indent=2),encoding='utf8')
+          summary=['BBIA v411 OFFICIAL PURCHASE-SELECTOR AUDIT / NOT RETAIL APPROVAL']
+          for p in products:
+              summary.append(f"{p['sku']} {p['family']}: {p['purchase_dropdown_claim']}; exact_name_matches={p.get('exact_option_name_match_count',0)}/{len(p['expected_stored_options'])}; forms={len(p.get('product_form_identifiers',[]))}; HTML_selects={len(p.get('select_elements',[]))}; expiry_mentions={len(p.get('page_body_2027_expiry_mentions',[]))}")
+          summary.append('Prior QA images and public 55 URLs unchanged; never infer live stock from static HTML.')
+          (D/'BBIA_v411_PURCHASE_OPTION_STATUS.txt').write_text('\n'.join(summary)+'\n',encoding='utf8')
+          print('\n'.join(summary))
+          PY
+      - uses: actions/upload-artifact@v4
+        with:
+          name: bbia-v411-current-three-product-options-audit
+          path: /tmp/bbia-v411
+          retention-days: 30
