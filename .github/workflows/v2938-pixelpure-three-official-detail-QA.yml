@@ -1,0 +1,37 @@
+name: v2938 pixelpure exact product detail source QA
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2938-pixelpure-three-official-detail-QA.yml', 'scripts/v2938_pixelpure_three_official_detail_photo_recovery.py']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install Pillow beautifulsoup4 requests
+      - name: Run checked delta without touching previous assets
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2938_pixelpure_three_official_detail_photo_recovery.py
+          cp scripts/v2938_pixelpure_three_official_detail_photo_recovery.py /tmp/v2938.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2938qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2938qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2938-pixelpure-three-official-detail-product-scene-recovery-QA
+          python /tmp/v2938.py
+          git add qa-review/v2938-pixelpure-three-official-detail-product-scene-recovery-QA
+          git diff --cached --name-only | grep -Ev '^qa-review/v2938-pixelpure-three-official-detail-product-scene-recovery-QA/' && exit 1 || true
+          git commit -m 'v2938 product detail source QA only; all old assets preserved'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:qa-assets/v2662-immutable-14-candidates
