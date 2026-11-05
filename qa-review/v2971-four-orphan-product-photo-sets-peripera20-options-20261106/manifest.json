@@ -1,0 +1,398 @@
+{
+  "version": "v2971",
+  "parent": "v2970",
+  "project": "Shopee Thumbnail Creator PRO 82 SKU 41 families",
+  "scope": "Four variant-held families' loose existing JPEG bytes, plus Peripera 01-20 structural option matching",
+  "new_photo_binary_created": 0,
+  "new_photo_binary_published": 0,
+  "public_repo_visibility": "PUBLIC",
+  "four_orphan_families": {
+    "pending-05": {
+      "product": "CLIO Kill Cover Founwear Cushion full-size set",
+      "physical_jpgs_accessible": 2,
+      "all_input_files_technical_valid": true,
+      "files": [
+        {
+          "path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/01-6670-M-1080-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "58ffd0750764363f8cfd692ae684de6d0e12ae40d4444da0ef0f8df0054a1597",
+          "bytes": 166731,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0110010001100110011001101110010011001000111001001110010000011001",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2931-clio-founwear-fullsize-6670-correct-mini-source-quarantine-QA/pending-05/02-6670-B-1080-REFERENCE-NOT-RETAIL.jpg",
+          "sha256": "c16e39174c60f6512432fc8636defdd94b9b7c5f6698727cd3f6bdadaeb81f64",
+          "bytes": 174346,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0110010001100110011001101110010011001000111001001110010000011001",
+          "technical_1080_JPG_under2MB": true
+        }
+      ],
+      "manual_photo_type": [
+        "FULLSIZE_OFFICIAL_M_VARIANT_REFERENCE",
+        "FULLSIZE_OFFICIAL_B_VARIANT_REFERENCE"
+      ],
+      "candidate_near_duplicate_pairs": [
+        {
+          "positions": [
+            1,
+            2
+          ],
+          "similarity_hamming": 0,
+          "human_product_photo_conflict_not_automatically_proven": true
+        }
+      ],
+      "actual_retail_product_photo_count_approved": 0,
+      "unlicensed_qa_sources_not_customer_images": true,
+      "existing_known_conflict": "Prior pending-05 mini product references cannot be used for full-size gift set; 6670 M/B require physical exact kit / options",
+      "exact_blocker": "M vs B full-size edition and stocked refill/gift-set exact composition not proven",
+      "has_final_photo_ZIP": false,
+      "why_not_create_ZIP": "Public repository and source-image commercial permissions not cleared"
+    },
+    "pending-06": {
+      "product": "CLIO Mesh Glow Essential Cushion 15g+15g refill",
+      "physical_jpgs_accessible": 5,
+      "all_input_files_technical_valid": true,
+      "files": [
+        {
+          "path": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-01-source-story-QA.jpg",
+          "sha256": "7fc4b23bd73c04a6035316297c40525e1f7bc17acdf546a9ba03a93e3369918b",
+          "bytes": 145828,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1110000010000010011000010110100101111001011100010011001110100001",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-02-source-story-QA.jpg",
+          "sha256": "b5968c30e361dcb16d1b5324fee6a186b9871d02318663d101e8f224c345daac",
+          "bytes": 176146,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010000010100010101001001100000011010110101111101011110010000001",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-03-source-story-QA.jpg",
+          "sha256": "a28207fd8431925edabe42c3a8777dfcf833fb69d667888bfbcd740eacd7a35c",
+          "bytes": 227570,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1001000111100110111001001100110011000100110001001100010011000100",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-04-source-story-QA.jpg",
+          "sha256": "9927a5eecf6f8b43776c14a11e0d192527f493ac47bc6356bbeaa06a5b6fc03d",
+          "bytes": 135588,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1110000010100010110001001111110011111100011111000000001110000000",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2882-meshglow-five-genuine-story-frames-and-30-family-checkpoint/CLIO-MeshGlow-pending06-05-source-story-QA.jpg",
+          "sha256": "744282b1d2f401dcdfea52b87de8691fb363a0299cbcf4f188dcc56bef3d7cf4",
+          "bytes": 172506,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1110000010100010110001001010000010110010100110001001100001100011",
+          "technical_1080_JPG_under2MB": true
+        }
+      ],
+      "manual_photo_type": [
+        "OPEN_COMPACT_SINGLE_REFERENCE",
+        "FIVE_SHADE_LINEUP_WITH_JAPANESE_TEXT",
+        "FIVE_SHADE_MODEL_FACE_SWATCH",
+        "FIVE_SHADE_FOREARM_SWATCH_LOWER_NATIVE_SRC_550PX",
+        "FACE_BEFORE_AFTER_MARKETING_CLAIM_UNVERIFIED"
+      ],
+      "candidate_near_duplicate_pairs": [],
+      "actual_retail_product_photo_count_approved": 0,
+      "unlicensed_qa_sources_not_customer_images": true,
+      "existing_known_conflict": "Do not treat 5 different story JPGs as 5 independent real product photos. Frame 4 enlarged from ~550px source; frame5 before/after usage rights unsupported.",
+      "exact_blocker": "15g x2 refill package proof + regular/25FW generation + 19C 19N 21C 21N 23N shade identity + commercial rights",
+      "has_final_photo_ZIP": false,
+      "why_not_create_ZIP": "Public repository and source-image commercial permissions not cleared"
+    },
+    "pending-07": {
+      "product": "CLIO Mesh Blur 15g x2 pack",
+      "physical_jpgs_accessible": 5,
+      "all_input_files_technical_valid": true,
+      "files": [
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/01-official-6455-m-gif-REFERENCE.jpg",
+          "sha256": "5f7f5fc8caac73b277b22211ab259ff99dee76677a153b1c75c96460e9033728",
+          "bytes": 97402,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100110011001000111101000110110011110010110111001111100011110000",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/pending-07/02-official-6455-b-gif-REFERENCE.jpg",
+          "sha256": "0f7048370490ee184bcc6423a8d54babc67569a56b0f07e1e24c2f6863208e29",
+          "bytes": 104623,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1100110011001000111101000110110011110010110111001111100011110000",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19C-reference-card-1080-QA.jpg",
+          "sha256": "33fcba1520233be71c29872ed5479d0abe7934f1d713c392354ecd67236971f8",
+          "bytes": 104923,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010011010100010110110011101100111100000111100001111100110000010",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-19N-reference-card-1080-QA.jpg",
+          "sha256": "338bf4442758d91b5f3c5f5ca3b06bb8d642bdb4006396ce64bd506a35b0de40",
+          "bytes": 103126,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010011010100010110110011101100111100000111100001111100110000110",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2861-clio-three-shade-option-QA-and-ten-variant-collision-audit/pending-07-CLIO-MeshBlur-21N-reference-card-1080-QA.jpg",
+          "sha256": "09ef3166666d45835bea0e59859fe6a6a74d8da504e80a8845734da926cb32ee",
+          "bytes": 103165,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1010011010100010110110011101100111100000111110001101100110000110",
+          "technical_1080_JPG_under2MB": true
+        }
+      ],
+      "manual_photo_type": [
+        "OFFICIAL_M_PRODUCT_REFERENCE",
+        "OFFICIAL_B_PRODUCT_REFERENCE",
+        "SHADE_19C_INFO_CARD_NOT_INDEPENDENT_PHOTO",
+        "SHADE_19N_INFO_CARD_NOT_INDEPENDENT_PHOTO",
+        "SHADE_21N_INFO_CARD_NOT_INDEPENDENT_PHOTO"
+      ],
+      "candidate_near_duplicate_pairs": [
+        {
+          "positions": [
+            1,
+            2
+          ],
+          "similarity_hamming": 0,
+          "human_product_photo_conflict_not_automatically_proven": true
+        },
+        {
+          "positions": [
+            3,
+            4
+          ],
+          "similarity_hamming": 1,
+          "human_product_photo_conflict_not_automatically_proven": true
+        },
+        {
+          "positions": [
+            3,
+            5
+          ],
+          "similarity_hamming": 3,
+          "human_product_photo_conflict_not_automatically_proven": true
+        },
+        {
+          "positions": [
+            4,
+            5
+          ],
+          "similarity_hamming": 2,
+          "human_product_photo_conflict_not_automatically_proven": true
+        }
+      ],
+      "actual_retail_product_photo_count_approved": 0,
+      "unlicensed_qa_sources_not_customer_images": true,
+      "existing_known_conflict": "Informational shade cards are not 3 extra original product photographs; avoid claiming full kit if source is single compact.",
+      "exact_blocker": "M/B source generation, actual gift-set refill and 19C/19N/21N stock options need positive official matching",
+      "has_final_photo_ZIP": false,
+      "why_not_create_ZIP": "Public repository and source-image commercial permissions not cleared"
+    },
+    "pending-12": {
+      "product": "MISSHA PDRN Peel Shot 25 (actual net amount unresolved)",
+      "physical_jpgs_accessible": 4,
+      "all_input_files_technical_valid": true,
+      "files": [
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/01-existing-original-slot01-unchanged-QA.jpg",
+          "sha256": "bca52513e6561e348358c109c96827521b0e5bcbd69ece506b383f13d691a69f",
+          "bytes": 70358,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0100110000110010101100100011001110111001001011011001001010001000",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/02-existing-original-slot02-unchanged-QA.jpg",
+          "sha256": "cf1a7417c7d55d222a6f6bb907ca117e21694f1b39a66bfb0faba4059584e719",
+          "bytes": 103345,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0011100100111101101101011011000111010001011100011011010010001010",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2678-missha-clio-two-five-JPG-sets/pending-12/03-existing-original-slot03-unchanged-QA.jpg",
+          "sha256": "e6e2cb9e2447333a16a65ab3a5a7a4f0e033182784cd9f84e0b3a869dfa390ba",
+          "bytes": 54624,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "0110000000010110101100101011001010011010001001111000100010000000",
+          "technical_1080_JPG_under2MB": true
+        },
+        {
+          "path": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-12-MISSHA-PDRN-Peel-Shot25-official-15mL-info-INTERNAL.jpg",
+          "sha256": "5c46673fcf98ad17fd42a5890d4d5e1cd62dfc9fac216e740fe0b8886c1a6fe4",
+          "bytes": 107304,
+          "dims": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "dHash64": "1000000110000001010011011100110101000101111100011001000110000001",
+          "technical_1080_JPG_under2MB": true
+        }
+      ],
+      "manual_photo_type": [
+        "OLD_SOURCE_PRODUCT_PHOTO_1",
+        "OLD_SOURCE_PRODUCT_PHOTO_2",
+        "OLD_SOURCE_PRODUCT_PHOTO_3",
+        "INFORMATIONAL_15ML_CARD_NOT_PHOTO"
+      ],
+      "candidate_near_duplicate_pairs": [],
+      "actual_retail_product_photo_count_approved": 0,
+      "unlicensed_qa_sources_not_customer_images": true,
+      "existing_known_conflict": "Do not promote information card as independent photo or conflate stock sheet 15g with product official 15mL; no density conversion.",
+      "exact_blocker": "Physical Korean label/net quantity 15g vs official 15mL and product generation unresolved",
+      "has_final_photo_ZIP": false,
+      "why_not_create_ZIP": "Public repository and source-image commercial permissions not cleared"
+    }
+  },
+  "peripera": {
+    "product": "peripera Mood Glowy Tint legacy shades 01-20 only",
+    "archive": "qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/PERIPERA_Legacy_01to20_20JPG_20AlphaPNG_OriginalBytes_INTERNAL-QA.zip",
+    "JPG_shades": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "PNG_alpha_shades": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20
+    ],
+    "all_01_to_20_JPG_and_PNG_present": true,
+    "extra_21_to_26_entries": [],
+    "exact_SHA256_duplicate_photos": false,
+    "dHash_shape_similar_pairs": 14,
+    "interpretation": "Near-equal grayscale dHash can result from same package silhouette, not identical tint color; never reject shades solely by shape hash.",
+    "not_yet_proved": "Shade color accuracy, true owned edition, licensing, and same-generation match for shade 12/18/19",
+    "export_allowed_variants": "01..20 only",
+    "retail_approved": false
+  },
+  "new_approved_families": 0,
+  "verified_new_public_URLs": 0,
+  "old_11_published_families_preserved": true,
+  "old_55_public_URLs_preserved": true,
+  "next_execution_priority": [
+    "Do not create customer ZIP for pending-05/06/07/12 until exact edition/net quantity and photo usage rights are proven.",
+    "pending-06 v2882 has five actual story JPG files but only one product compact hero; swatch and before/after frames have separate use/claim gates.",
+    "pending-05 use correct fullsize 6670 M/B candidates not mini sources; choose stocked edition with physical proof.",
+    "pending-07 separate 6455 M/B item photos and three shade info cards, do not call five real photo scenes.",
+    "pending-12 resolve physical 15g vs 15mL label, do not convert units mathematically.",
+    "peripera all 01-20 source filenames structurally present; compare real photo and shade chart rather than rely on grayscale similarity."
+  ],
+  "do_not_repeat": [
+    "v2970 completed 130 source-image integrity checks",
+    "v2968 completed 35 image checks"
+  ],
+  "no_final_xlsx_shared": true
+}
