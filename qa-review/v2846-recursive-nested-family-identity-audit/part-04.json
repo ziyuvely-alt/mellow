@@ -1,0 +1,203 @@
+{
+  "version": "v2846",
+  "batch": 4,
+  "offset": 60,
+  "records": [
+    {
+      "file": "qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-21",
+          "jsonPath": "$.item",
+          "identity": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2787-goodal-fifth-photo-fix-and-clio-mini-official-source/manifest.json",
+      "nested": [
+        {
+          "family": "pending-19",
+          "jsonPath": "$.goodal",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.clio",
+          "identity": "CLIO Kill Cover Mesh Glow Essential Cushion Mini 5g",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2788-goodal-new-source-texture-options-clio-mini-native/manifest.json",
+      "nested": [
+        {
+          "family": "pending-19",
+          "jsonPath": "$.goodal",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.clio",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2791-clio-mini-two-cropped-english-captions-corrected-QA/manifest.json",
+      "nested": [
+        {
+          "family": "pending-19",
+          "jsonPath": "$.family_results[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.family_results[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/manifest.json",
+      "nested": [
+        {
+          "family": "pending-19",
+          "jsonPath": "$.families[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-04",
+          "jsonPath": "$.families[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.products[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.products[1]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.products[2]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2794-clio-official-detail-original-photo-discovery/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.products[0]",
+          "identity": "CLIO Kill Cover Founwear Mini",
+          "risk": "GIFT_SET_VS_MINI_HOLD"
+        },
+        {
+          "family": "pending-06",
+          "jsonPath": "$.products[1]",
+          "identity": "CLIO Mesh Glow Essential Cushion",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.products[2]",
+          "identity": "CLIO Mesh Blur Cushion",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2795-clio-mini-meshblur-target-only-single-case-cutout-tests/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.products[0]",
+          "identity": "CLIO Kill Cover Founwear Mini 5g",
+          "risk": "GIFT_SET_VS_MINI_HOLD"
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.products[1]",
+          "identity": "CLIO Kill Cover Mesh Blur Cushion",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2796-clio-meshglow-essential-global-original-gallery-source/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/manifest.json",
+      "nested": []
+    },
+    {
+      "file": "qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation/manifest.json",
+      "nested": [
+        {
+          "family": "pending-05",
+          "jsonPath": "$.cases[0]",
+          "identity": "",
+          "risk": null
+        },
+        {
+          "family": "pending-07",
+          "jsonPath": "$.cases[1]",
+          "identity": "",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2807-two-official-single-item-product-photo-discovery/manifest.json",
+      "nested": [
+        {
+          "family": "pending-09",
+          "jsonPath": "$.cases[0]",
+          "identity": "OBgE Oil Control Finisher",
+          "risk": null
+        },
+        {
+          "family": "pending-21",
+          "jsonPath": "$.cases[1]",
+          "identity": "GOODAL Green Tangerine Vitamin C Dark Circle Eye Cream",
+          "risk": null
+        }
+      ]
+    },
+    {
+      "file": "qa-review/v2825-clio-mini-5g-21C-21N-uncropped-top-edge-repair/manifest.json",
+      "nested": []
+    }
+  ]
+}
