@@ -1,0 +1,158 @@
+{
+  "version": "v2929",
+  "baseline": "v2928",
+  "generated_utc": "2026-11-05T15:21:00Z",
+  "pending_product_families_updated": 3,
+  "four_source_internal_ZIPs_created": 3,
+  "new_photo_source_references_reused": 3,
+  "original_photography_created": 0,
+  "old_source_photo_bytes_modified": 0,
+  "existing_source_photo_JPGs_SHA_checked": 12,
+  "remaining_five_photo_slots_across_all_6_partial_families": 8,
+  "original_11_approved_families_unchanged": true,
+  "original_55_published_URLs_unchanged": true,
+  "prior_26_QA_ZIPs_reused_without_overwriting": true,
+  "new_retail_approved": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "archive_ZIP": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-27-four-valid-photo-source-ONLY-INTERNAL.zip",
+      "archive_ZIP_sha256": "696848e5ee7699441caf7297615a93a9db174e678ff8615d80e8242986d72958",
+      "contact": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-27-four-source-photo-COMPARISON-INTERNAL.jpg",
+      "source_photos": 4,
+      "five_photo_shortfall": 1,
+      "source_records": [
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip:01-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "df3b5ab511c0458d55a478de859b20fc1909189b93fb528317bd28949b5daebe",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip:02-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "8e3e73b45d9bb4da9b0d15cc5c4843917ce1b97e509b4f7c60405537c2f5afb7",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_SoothingToner200mL_3OF5_INTERNAL_QA.zip:03-pending-27-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "8e733ebcf6f5fd651a8ecc02331e14a0b1a187886e09cbc1aa14175210490b28",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-27/01-brand-photo-1080-INTERNAL-QA.jpg",
+          "sha256": "91358166a235f7e00f7493f6f1d98099164d932ad256705c8ff33ac09604eb7c",
+          "origin": "v2927_firstparty_source",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "latest_new_source_hamming": 21,
+      "new_original_photo_bytes_created": 0,
+      "sale_approved": false
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "archive_ZIP": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-29-four-valid-photo-source-ONLY-INTERNAL.zip",
+      "archive_ZIP_sha256": "3714cac1a84a5f9c3cb752a569c23963abf49538b78f07f266652ea2fd9395c9",
+      "contact": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-29-four-source-photo-COMPARISON-INTERNAL.jpg",
+      "source_photos": 4,
+      "five_photo_shortfall": 1,
+      "source_records": [
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip:01-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "07f35a385c06ce6c698e51b976ad4fac0832118b4a2ee63805ee876eab3eba53",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip:02-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "7703ceeecdfeeae91809d0d3d5e59333a1f731fa9ff6077c5db4e8a2655d25e0",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AquaSoothingCream50mL_3OF5_INTERNAL_QA.zip:03-pending-29-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "4f36d5220dc07680e450654ccc9574986b82933d6dc47d186adade80eb75610b",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2928-pixelpure-2-known-official-catalogue-images-conditional-new-QA/pending-29/01-official-photo-1080-NOT-RETAIL.jpg",
+          "sha256": "7c3d42584097e5e228c2b9a62b40bdc24a9a971276a730a6a777749443d4a998",
+          "origin": "v2928_firstparty_source",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "latest_new_source_hamming": 10,
+      "new_original_photo_bytes_created": 0,
+      "sale_approved": false
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "archive_ZIP": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-30-four-valid-photo-source-ONLY-INTERNAL.zip",
+      "archive_ZIP_sha256": "60808edee404619a54067a60a0a15d55346904b9be1731ff195bca019ff202a4",
+      "contact": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-30-four-source-photo-COMPARISON-INTERNAL.jpg",
+      "source_photos": 4,
+      "five_photo_shortfall": 1,
+      "source_records": [
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip:01-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "4f2ef6d228fbd21f7c8aed220ea108d14940284fdb2404f2763ff4d56e51a658",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip:02-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "60d77da672cacf061c541389863eab8fe5eaf20d0fd616785b97fa94d1d599cb",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2920-six-incomplete-stock-groups-real-original-photo-bytes-internal-ZIP/PIXELPURE_AuraRadianceSerum50mL_3OF5_INTERNAL_QA.zip:03-pending-30-UNCHANGED-SOURCE-QA.jpg",
+          "sha256": "d4e1618efb57fe0fec069d8ead2b38c46d0176752454402ead38ea081dc58eba",
+          "origin": "v2920_existing_unchanged",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        },
+        {
+          "original_source_path": "qa-review/v2927-pixelpure-two-direct-official-source-originals-dedupe-QA/pending-30/01-brand-photo-1080-INTERNAL-QA.jpg",
+          "sha256": "aac7590dfa2ef6a8e8fb2aa30564ff1ddc8754eb6e963b3d6141e0dc21b22596",
+          "origin": "v2927_firstparty_source",
+          "license_approved": false,
+          "actual_stock_edition_verified": false,
+          "retail_approved": false
+        }
+      ],
+      "latest_new_source_hamming": 26,
+      "new_original_photo_bytes_created": 0,
+      "sale_approved": false
+    }
+  ]
+}
