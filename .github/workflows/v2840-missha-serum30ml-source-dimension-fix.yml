@@ -1,0 +1,35 @@
+name: Shopee v2840 MISSHA serum30mL fix archival 1080 dimensions and true alpha
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2840-missha-serum30ml-source-dimension-fix.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  repair:
+    runs-on: ubuntu-latest
+    timeout-minutes: 21
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests 'rembg[cpu]==2.0.67'
+      - name: Use actual saved JPEG size and source-native provenance, never a fact card
+        env:
+          U2NET_HOME: /tmp/missha-segmentation-models
+        run: |
+          python -m py_compile scripts/v2840_real_missha_pdrn30ml_serum_cutout.py
+          cp scripts/v2840_real_missha_pdrn30ml_serum_cutout.py /tmp/v2840.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2840-qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2840-qa
+          python /tmp/v2840.py
+          git add qa-review/v2840-missha-pdrn-serum30ml-correct-single-product-actual-photo-alpha
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2840 actual 30ml serum cutout from archived rescaled original photo; previous error fixed'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
