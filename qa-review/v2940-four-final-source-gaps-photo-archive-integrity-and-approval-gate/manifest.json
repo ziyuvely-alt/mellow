@@ -1,0 +1,104 @@
+{
+  "version": "v2940",
+  "baseline": "v2939",
+  "date_utc": "2026-11-05T16:18:41Z",
+  "pending_total": 30,
+  "source_set_5of5_families": 21,
+  "source_set_4of5_families": 4,
+  "mixed_options_and_edition_hold_families": 5,
+  "remaining_distinct_source_photo_slots": 4,
+  "verified_current_family_ZIPs": 6,
+  "source_set_does_not_mean_retail_release": true,
+  "new_public_URLs": 0,
+  "new_retail_approvals": 0,
+  "approved_prior_families_preserved": 11,
+  "existing_public_urls_preserved": 55,
+  "old_photo_bytes_modified": 0,
+  "final_spreadsheet_shared": false,
+  "next_immediate_work": [
+    "Obtain manufacturer-licensed, edition-verified fifth sources for four listed products",
+    "Reconcile physical owned stock exact variants and source rights before retail use",
+    "Do not repeat unsuccessful official product detail/gallery scans without new source"
+  ],
+  "four_missing_source_families": [
+    {
+      "family": "pending-25",
+      "product": "바이오힐보 NAD 프리즈셀 글로우 부스트 크림 50ml",
+      "missing": 1,
+      "reason": "NAD PRIZCELL Glow Boost Cream 50mL: a fifth authentic independently distinct, rights-cleared product source photo remains missing",
+      "verified_archive": {
+        "path": "qa-review/v2934-bioheal-cream-four-real-source-scene-QA-only/BIOHEAL_NAD-PRIZCELL_Glow-Boost-Cream_50mL_4OF5_INTERNAL.zip",
+        "sha256": "d2b58956dc15d9c98524dd2703974daaa1544b8ee1aaffe5c2e472fe15365e7c",
+        "verified_photos": 4,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      }
+    },
+    {
+      "family": "pending-27",
+      "product": "픽셀퓨어 수딩 앰플 토너 200ml",
+      "missing": 1,
+      "reason": "Pixelpure Soothing Ampoule Toner 200mL: fifth distinct manufacturer scene not found (gallery/detail scanned)",
+      "verified_archive": {
+        "path": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-27-four-valid-photo-source-ONLY-INTERNAL.zip",
+        "sha256": "696848e5ee7699441caf7297615a93a9db174e678ff8615d80e8242986d72958",
+        "verified_photos": 4,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      }
+    },
+    {
+      "family": "pending-29",
+      "product": "픽셀퓨어 래디언스 아쿠아 수딩 크림 50ml",
+      "missing": 1,
+      "reason": "Pixelpure Radiance Aqua Soothing Cream 50mL: fifth distinct manufacturer scene not found (gallery/detail scanned)",
+      "verified_archive": {
+        "path": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-29-four-valid-photo-source-ONLY-INTERNAL.zip",
+        "sha256": "3714cac1a84a5f9c3cb752a569c23963abf49538b78f07f266652ea2fd9395c9",
+        "verified_photos": 4,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      }
+    },
+    {
+      "family": "pending-30",
+      "product": "픽셀퓨어 아우라 래디언스 세럼 50ml",
+      "missing": 1,
+      "reason": "Pixelpure Aura Radiance Serum 50mL: fifth distinct manufacturer scene not found (gallery/detail scanned)",
+      "verified_archive": {
+        "path": "qa-review/v2929-pixelpure-three-four-photo-pack-source-integrity-QA/pending-30-four-valid-photo-source-ONLY-INTERNAL.zip",
+        "sha256": "60808edee404619a54067a60a0a15d55346904b9be1731ff195bca019ff202a4",
+        "verified_photos": 4,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      }
+    }
+  ],
+  "other_verified_families": [
+    {
+      "family": "pending-20",
+      "images": 5,
+      "verified_archive": {
+        "path": "qa-review/v2939-goodal-100ml-live-citrus-source-QA/GOODAL_100ml_five_source_photos_INTERNAL_ONLY.zip",
+        "sha256": "2927a06b1ee3f3a54f6b10471ac9934b55cd07ea728d6f2e7b7e364067520294",
+        "verified_photos": 5,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      },
+      "sale_approved": false
+    },
+    {
+      "family": "pending-24",
+      "images": 5,
+      "verified_archive": {
+        "path": "qa-review/v2936-bioheal-serum-five-source-original-byte-QA-not-retail/BIOHEAL_NAD-PRIZCELL_GlowPowerSerum30mL_5SOURCE_INTERNAL_QA.zip",
+        "sha256": "d700953505664a9b6fb6ef60a3e4a5f5de0b7fa9c9a453fb83654551d4ae4fca",
+        "verified_photos": 5,
+        "ZIP_CRC": "PASS",
+        "photo_dimension": "1080x1080 reference only"
+      },
+      "sale_approved": false
+    }
+  ],
+  "rights_and_stock_gate": "HOLD_FOR_ALL_30"
+}
