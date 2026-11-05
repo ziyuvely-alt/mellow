@@ -1,0 +1,385 @@
+{
+  "version": "v2885",
+  "baseline": "v2884",
+  "scope": "23 already archived 5-JPG family sets, new perceptual QA only",
+  "expected_source_families": 23,
+  "expected_source_JPGs": 115,
+  "families_scanned": 23,
+  "JPGs_analyzed": 95,
+  "JPGs_on_hold_or_unreadable": 20,
+  "near_repeat_comparisons_scanned": 4465,
+  "visual_candidate_pairs": 6,
+  "strong_visual_similarity_pairs": 3,
+  "within_same_family_potential_pairs": 0,
+  "across_family_potential_pairs": 6,
+  "incomplete_families": [
+    {
+      "family": "pending-16",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-22",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-27",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-28",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    }
+  ],
+  "family_reports": [
+    {
+      "family": "pending-09",
+      "batch": "v2772",
+      "manifest": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-09/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-21",
+      "batch": "v2772",
+      "manifest": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-24",
+      "batch": "v2774",
+      "manifest": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-25",
+      "batch": "v2774",
+      "manifest": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-16",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-16/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-22",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-22/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-27",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-27/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-28",
+      "batch": "v2775",
+      "manifest": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/manifest.json",
+      "usable_photo_count": 0,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": [
+        "MANIFEST_PARSE_OR_FIVE_COUNT:"
+      ]
+    },
+    {
+      "family": "pending-23",
+      "batch": "v2776",
+      "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-26",
+      "batch": "v2776",
+      "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-29",
+      "batch": "v2776",
+      "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-30",
+      "batch": "v2776",
+      "manifest": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-13",
+      "batch": "v2778",
+      "manifest": "qa-review/v2778-missha-pdrn-serum-correct-original-5JPG-QA/pending-13/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-14",
+      "batch": "v2779",
+      "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-14/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-15",
+      "batch": "v2779",
+      "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-17",
+      "batch": "v2779",
+      "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-18",
+      "batch": "v2779",
+      "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-20",
+      "batch": "v2779",
+      "manifest": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-02",
+      "batch": "v2780",
+      "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-02/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-03",
+      "batch": "v2780",
+      "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-10",
+      "batch": "v2780",
+      "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-10/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-11",
+      "batch": "v2780",
+      "manifest": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-11/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    },
+    {
+      "family": "pending-01",
+      "batch": "v2781",
+      "manifest": "qa-review/v2781-coverlasting-fixed-source-and-goodal-gap-QA/pending-01/manifest.json",
+      "usable_photo_count": 5,
+      "perceptual_nearduplicate_pairs": [],
+      "warnings": []
+    }
+  ],
+  "human_review_top_pairs": [
+    {
+      "family_a": "pending-15",
+      "frame_a": 1,
+      "file_a": "qa-review/v2779-five-photo-first-product-groups-QA/pending-15/01-prior-verified-real-alpha-hero-QA.jpg",
+      "family_b": "pending-18",
+      "frame_b": 1,
+      "file_b": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/01-prior-verified-real-alpha-hero-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 2,
+      "downsample_RGB_absolute_diff": 2.119,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": true,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-21",
+      "frame_a": 1,
+      "file_a": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/01-real-alpha-single-tube-hero-QA.jpg",
+      "family_b": "pending-20",
+      "frame_b": 1,
+      "file_b": "qa-review/v2779-five-photo-first-product-groups-QA/pending-20/01-prior-verified-real-alpha-hero-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 3,
+      "downsample_RGB_absolute_diff": 5.24,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": true,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-26",
+      "frame_a": 1,
+      "file_a": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/01-true-product-photo-alpha-QA.jpg",
+      "family_b": "pending-30",
+      "frame_b": 1,
+      "file_b": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/01-true-product-photo-alpha-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 3,
+      "downsample_RGB_absolute_diff": 6.133,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": true,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-24",
+      "frame_a": 1,
+      "file_a": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+      "family_b": "pending-30",
+      "frame_b": 1,
+      "file_b": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-30/01-true-product-photo-alpha-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 4,
+      "downsample_RGB_absolute_diff": 8.733,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": false,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-24",
+      "frame_a": 1,
+      "file_a": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+      "family_b": "pending-26",
+      "frame_b": 1,
+      "file_b": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-26/01-true-product-photo-alpha-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 5,
+      "downsample_RGB_absolute_diff": 8.605,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": false,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-25",
+      "frame_a": 5,
+      "file_a": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-25/05-archived-source-scene-QA.jpg",
+      "family_b": "pending-29",
+      "frame_b": 5,
+      "file_b": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-29/05-original-lifestyle-or-detail-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 6,
+      "downsample_RGB_absolute_diff": 8.813,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": true,
+      "high_confidence_visual_similarity_only": false,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-17",
+      "frame_a": 1,
+      "file_a": "qa-review/v2779-five-photo-first-product-groups-QA/pending-17/01-prior-verified-real-alpha-hero-QA.jpg",
+      "family_b": "pending-18",
+      "frame_b": 1,
+      "file_b": "qa-review/v2779-five-photo-first-product-groups-QA/pending-18/01-prior-verified-real-alpha-hero-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 7,
+      "downsample_RGB_absolute_diff": 4.191,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": false,
+      "high_confidence_visual_similarity_only": false,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    },
+    {
+      "family_a": "pending-24",
+      "frame_a": 1,
+      "file_a": "qa-review/v2774-bioheal-two-photo-first-fiveframe-QA/pending-24/01-verified-prior-real-photo-alpha-hero-QA.jpg",
+      "family_b": "pending-03",
+      "frame_b": 1,
+      "file_b": "qa-review/v2780-four-unfinished-missha-obge-photo-first-QA/pending-03/01-real-product-cutout-prior-QA.jpg",
+      "same_family": false,
+      "visual_dhash_hamming": 7,
+      "downsample_RGB_absolute_diff": 12.973,
+      "byte_exact": false,
+      "possible_near_repeat_for_human_QA": false,
+      "high_confidence_visual_similarity_only": false,
+      "retail_approval_effect": "NONE_UNTIL_PRODUCT_AND_RIGHTS_CHECKED"
+    }
+  ],
+  "qa_image": "qa-review/v2885-23-pending-family-115-existing-JPG-perceptual-dedupe-QA/v2885-23family-115scene-perceptual-QA-triage.jpg",
+  "qa_image_sha256": "05908dbb5165f7717b0179353605f53c48d2c75d697380f82955e9a06fdd5b3c",
+  "no_source_image_rewritten": true,
+  "no_auto_reclassification_of_sale_approval": true,
+  "photo_usage_license_already_verified": false,
+  "actual_user_stock_photo_edition_verified": false,
+  "old_11_approved_families_preserved": true,
+  "old_55_public_URLs_preserved": true,
+  "new_sale_approvals": 0,
+  "new_public_URLs": 0,
+  "final_spreadsheet_shared": false,
+  "next": "Review only flagged visual candidates for actual duplicated product view or mislabel, no full regeneration. Continue genuine source/rights/stock validation for unapproved 30."
+}
