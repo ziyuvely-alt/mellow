@@ -1,0 +1,39 @@
+{
+  "version": "v2976",
+  "parent": "v2975",
+  "date_kst": "2026-11-06",
+  "project": "Shopee Thumbnail Creator PRO stock / 82 SKU 41 families",
+  "family": "pending-21",
+  "brand": "GOODAL",
+  "product": "Green Tangerine Vita-C Dark Spot Care Eye Cream",
+  "proposal": "Replace duplicate reference PHOTO #4 with ORIGINAL INFORMATION FRAME, not with an extra independent photo",
+  "created_original_JPG": "qa-review/v2976-goodal-eyecream-one-original-howto-frame-no-photo-20261106/pending-21-frame04-original-English-how-to-no-photo-INTERNAL-QA.jpg",
+  "image_SHA256": "a7c68690b31f71043d714e4d36d3f7be1497299d3bfd1eabc9756dd68030c346",
+  "image_dimensions": [
+    1080,
+    1080
+  ],
+  "JPG_bytes": 120074,
+  "is_original_typography_and_shapes_only": true,
+  "external_product_photography_used": false,
+  "manufacturer_logo_or_original_MK_used": false,
+  "original_MK_asset_pending": true,
+  "commercial_release_approved": false,
+  "product_catalog_net": "30 mL (not independently confirmed against physically owned unit)",
+  "instruction_provenance": "GOODAL Green Tangerine Vita C Dark Spot Care Eye Cream 30mL, Olive Young US",
+  "instruction_source_url": "https://us.oliveyoung.com/products/UA96443780",
+  "instructions_paraphrased_not_product_claims": true,
+  "new_frame_usage": "INTERNAL_QA_ONLY_UNTIL_AUTHENTIC_MK_AND_PHYSICAL_STOCK_CONFIRMED",
+  "do_not_count_as_fifth_independent_product_photo": true,
+  "old_original_04_unchanged": true,
+  "old_verified_jpg_source_sha256": {
+    "3": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+    "4": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb"
+  },
+  "next_action": "Only after owned 30mL unit, photo rights and exact MK original binary become available, make clean retail-ready story; replace only frame 4 and keep all validated image sources",
+  "original_live_11_families_preserved": true,
+  "original_live_55_URLs_preserved": true,
+  "other_family_work_modified": false,
+  "new_verified_live_URLs": 0,
+  "final_xlsx_shared": false
+}
