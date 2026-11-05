@@ -1,0 +1,39 @@
+{
+  "version": "v2891",
+  "baseline": "v2890",
+  "target_family": "pending-04",
+  "stock_source_index": 15,
+  "target_product": "CLIO Kill Cover Mesh Glow Essential Cushion MINI 5g",
+  "target_shade": "21N Linen",
+  "source": {
+    "url": "https://cdn-media.hktvmall.com/hktv-mms/HKTV/mms/uploadProductImage/70e6/a21a/c378/hXJlFXjnmx20260105161204_1200.png",
+    "product_page": "https://www.hktvmall.com/hktv/en/main/CLIO-Hong-Kong-Flagship-Store/s/B1538002/Skincare-%26-Makeup/Skincare-%26-Makeup/Face-Makeup/Cushion-Foundation/Kill-Cover-Mesh-Glow-Essential-Cushion-Mini-21N-Linen/p/B1538002_S_8800322103036",
+    "seller_page_title": "CLIO | Kill Cover Mesh Glow Essential Cushion Mini - 21N Linen",
+    "exact_claim_on_product_page": "mini 5g 21N Linen",
+    "single_attempt_only": true,
+    "commercial_rights_not_granted": true,
+    "owned_stock_edition_not_authenticated": true
+  },
+  "result": "SOURCE_ARCHIVED_INTERNAL_QA_VISUAL_IDENTITY_AND_LICENSE_HOLD",
+  "error": null,
+  "original_native_pixels": [
+    1000,
+    1000
+  ],
+  "archived_original": "qa-review/v2891-clio-mini21n-new-flagship-native-source-QA/hktvmall-CLIO-mini5g-21N-merchant-source-original.png",
+  "archived_original_sha256": "c3c087195dcf640deed278ad9df50348cfca09ada010c9a9483a0ba7d3d1b773",
+  "new_1080_internal_QA_JPG": "qa-review/v2891-clio-mini21n-new-flagship-native-source-QA/CLIO-MeshGlow-Mini5g-21N-merch-native-photo-1080-INTERNAL-QA.jpg",
+  "new_1080_JPG_sha256": "f5a46d7d023f0a86ad88d2c8f65514cd2b6c12f7e648b8336ef55f20ab9c99bd",
+  "new_1080_JPG_bytes": 135642,
+  "merchant_source_variant_identity_not_manually_visual_approved": true,
+  "photo_rights_verified": false,
+  "physical_owned_stock_verified": false,
+  "authentic_original_MK_logo_verified": false,
+  "new_retail_approved": 0,
+  "prior_11_commercial_approved_families_preserved": true,
+  "prior_55_existing_public_URLs_preserved": true,
+  "old_JPG_overwrites": 0,
+  "new_public_URLs": 0,
+  "new_family_crosswalk": "qa-review/v2891-clio-mini21n-new-flagship-native-source-QA/69-option-crosswalk-v2891.json",
+  "new_full_state": "qa-review/v2891-clio-mini21n-new-flagship-native-source-QA/stock30-incremental-state-v2891.json"
+}
