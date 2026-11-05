@@ -1,0 +1,40 @@
+name: Shopee v2932 BIOHEAL two precise domestic SKU photo-source batch QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2932-bioheal-two-sku-twelve-reference-QA.yml'
+      - 'scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  scan_exact_BIOHEAL_catalogue_photo_references_without_retail_release:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow requests
+      - name: Verify 12 URLs only, avoid overwriting old photographs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py
+          cp scripts/v2932_bioheal_two_exact_domestic_sku_photo_source_batch.py /tmp/v2932.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2932qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2932qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA
+          python /tmp/v2932.py
+          git add qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA
+          git diff --cached --name-only | tee /tmp/v2932-changed
+          ! grep -Ev '^qa-review/v2932-bioheal-two-domestic-exact-sku-gallery-12source-QA/' /tmp/v2932-changed
+          git commit -m 'v2932 source-test 12 exact SKU domestic BIOHEAL photos, separate rights and edition holds'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
