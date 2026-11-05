@@ -1,0 +1,60 @@
+{
+  "version": "v2945",
+  "baseline": "v2944",
+  "created_utc": "2026-11-05T16:40:38Z",
+  "new_1080_information_review_images": 3,
+  "missha_15mL_official_fix_frame": 1,
+  "clio_distinct_pack_edition_cards": 2,
+  "new_source_product_photographs": 0,
+  "original_source_photos_changed": 0,
+  "preexisting_11_approved_product_families_unchanged": true,
+  "preexisting_55_public_URLs_unchanged": true,
+  "new_public_URLs": 0,
+  "new_retail_approvals": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-12",
+      "type": "OFFICIAL_VOLUME_CORRECTION_INFO",
+      "edition": "SINGLE_15mL",
+      "image": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-12-MISSHA-PDRN-Peel-Shot25-official-15mL-info-INTERNAL.jpg",
+      "sha256": "5c46673fcf98ad17fd42a5890d4d5e1cd62dfc9fac216e740fe0b8886c1a6fe4",
+      "source_sha256": "56f1bda2d42276782006f3f337feda058bf2ea8f64957ded59a7ca579fce03b1",
+      "official_claim_confirmed": "15mL",
+      "marketplace_photo_rights_confirmed": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-06",
+      "type": "PACK_EDITION_PROOF_REFERENCE",
+      "edition": "25FW",
+      "source_official_goods_id": 6182,
+      "known_inclusions": {
+        "main": "15g",
+        "refill": "15g",
+        "added": "Skin Prep Base 15 mL"
+      },
+      "image": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-06-CLIO-25FW-distinct-pack-edition-INTERNAL.jpg",
+      "sha256": "f1414f7e3281028d9cc2cd053d84776d125e35e0d4c5fb77140255671801fc2a",
+      "exact_inventory_photo_verified": false,
+      "commercial_rights_verified": false,
+      "retail_approved": false
+    },
+    {
+      "family": "pending-06",
+      "type": "PACK_EDITION_PROOF_REFERENCE",
+      "edition": "REGULAR",
+      "source_official_goods_id": 6182,
+      "known_inclusions": {
+        "main": "15g",
+        "refill": "15g",
+        "added": "Duo Cheek 10 g"
+      },
+      "image": "qa-review/v2945-missha-official-15ml-and-clio-edition-distinction-info-QA/pending-06-CLIO-REGULAR-distinct-pack-edition-INTERNAL.jpg",
+      "sha256": "6c960e5a68dc6ad929c598e82f3720d7d8a44c18585fc7bd6deec9a908e272da",
+      "exact_inventory_photo_verified": false,
+      "commercial_rights_verified": false,
+      "retail_approved": false
+    }
+  ]
+}
