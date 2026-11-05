@@ -1,0 +1,37 @@
+name: Shopee v2903 MISSHA BB 21 23 25 source-shade QA 3JPEG archive
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2903-missha-bb-21-23-25-qa3.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  curate_only_best_three_legacy_source_heroes:
+    runs-on: ubuntu-latest
+    timeout-minutes: 9
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: Byte-exact three accepted photos and reject distorted alternate 23 photo
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2903_missha_BB21_23_25_three_existing_best_options.py
+          cp scripts/v2903_missha_BB21_23_25_three_existing_best_options.py /tmp/v2903.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2903qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2903qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA
+          python /tmp/v2903.py
+          git add qa-review/v2903-missha-BB-21-23-25-best-existing-source-option-QA
+          git commit -m 'v2903 actual three distinct MISSHA BB old-packaging shade-specific photo QA JPGs and ZIP'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
