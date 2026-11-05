@@ -1,0 +1,35 @@
+name: v2959 PIXELPURE 50mL Cream fifth source candidate QA
+on:
+  push:
+    branches: ['qa-assets/v2662-immutable-14-candidates']
+    paths:
+      - '.github/workflows/v2959-pixelpure-cream50-fifth-original-candidate.yml'
+      - 'scripts/v2959_pixelpure_cream50_tradeKorea_fifth_scene.py'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  add-fifth-candidate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install --quiet Pillow
+      - name: Try one new independent product photo and preserve source bytes
+        run: |
+          set -euo pipefail
+          git config user.name "QA-Archive-Bot"
+          git config user.email "qa-archive-bot@users.noreply.github.com"
+          test ! -e qa-review/v2959-pixelpure-cream50-fifth-tradekorea-photo-20261106
+          python scripts/v2959_pixelpure_cream50_tradeKorea_fifth_scene.py
+          git add qa-review/v2959-pixelpure-cream50-fifth-tradekorea-photo-20261106
+          git diff --cached --name-only | tee /tmp/v2959-only
+          ! grep -Ev '^qa-review/v2959-pixelpure-cream50-fifth-tradekorea-photo-20261106/' /tmp/v2959-only
+          git commit -m "QA v2959 preserve new fifth PIXELPURE Cream50 scene, no customer sale approval"
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
