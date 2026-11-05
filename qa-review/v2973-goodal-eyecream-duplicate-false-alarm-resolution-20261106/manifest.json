@@ -1,0 +1,43 @@
+{
+  "version": "v2973",
+  "parent": "v2972",
+  "project": "Shopee Thumbnail Creator PRO stock",
+  "family": "pending-21",
+  "product": "GOODAL Vita-C Dark Circle Eye Cream 25AD 30mL",
+  "new_images_downloaded": 0,
+  "new_photo_binary_created": 0,
+  "old_zip_crc_verified": true,
+  "old_zip_unchanged": true,
+  "v2970_dHash_similarity_warning": "Archived frame 03 vs frame 04 grayscale Hamming distance 5",
+  "source_mapping": {
+    "3": {
+      "archived_photo": "03-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+      "archived_sha256": "bbb6087b45ad160d209033a9045d4b3bc6dee88d3e834e6518834dd65bf8e182",
+      "existing_reference": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/03-legacy-eye-area-application-REFERENCE.jpg",
+      "reference_sha256": "2604ec12bbab7158c9fdbd5a7fb8dd91ab3d17fc44658c946112a7a36a6465b1",
+      "exact_same_bytes": false,
+      "visual_independence_in_viewed_reference": "EYE_AREA_APPLICATION",
+      "visual_review_source": "The actual v2772 existing QA standalone JPG was opened and visually checked; not regenerated."
+    },
+    "4": {
+      "archived_photo": "04-pending-21-UNCHANGED-ARCHIVED-REFERENCE.jpg",
+      "archived_sha256": "e27828d7573b2a20ff968c1640347095ae96fe1f7de2dfd19ccec0540d8b0ebb",
+      "existing_reference": "qa-review/v2772-goodal-obge-five-frame-photo-QA/pending-21/04-legacy-nozzle-cream-REFERENCE.jpg",
+      "reference_sha256": "72f53d6f255c109de47bf774c14a765764b16ca78c196b1aa575c5a6ebc7e94e",
+      "exact_same_bytes": false,
+      "visual_independence_in_viewed_reference": "TUBE_NOZZLE_CREAM",
+      "visual_review_source": "The actual v2772 existing QA standalone JPG was opened and visually checked; not regenerated."
+    }
+  },
+  "resolution": "SOURCE_HASH_MAPPING_NOT_IDENTICAL_NEEDS_EXACT_ZIP_3_4_VIEW",
+  "rights_not_proven": true,
+  "single_vs_two_pack_not_resolved": true,
+  "actual_stock_generation_not_verified": true,
+  "original_MK_logo_sha256_not_verified": true,
+  "new_render_urls": 0,
+  "new_retail_approvals": 0,
+  "previously_published_families_preserved": 11,
+  "previous_verified_urls_preserved": 55,
+  "next_action": "When exact source mapping passes, do not replace frame 3/4 for shape similarity; handle stock 30mL single vs twin-pack and image rights, then customer-clean MK QA.",
+  "no_final_excel_shared": true
+}
