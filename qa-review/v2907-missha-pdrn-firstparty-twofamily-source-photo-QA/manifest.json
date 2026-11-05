@@ -1,0 +1,53 @@
+{
+  "version": "v2907",
+  "baseline": "v2906",
+  "new_original_image_count": 1,
+  "new_1080_JPG_reference_count": 1,
+  "reference_only": true,
+  "old_11_published_families_unchanged": true,
+  "verified_55_URLs_unchanged": true,
+  "commercial_approval": false,
+  "final_excel_shared": false,
+  "cases": [
+    {
+      "family": "pending-14",
+      "product": "MISSHA PDRN NAD+ Firming Repair Cream 70mL",
+      "manufacturer_page": "https://misshaus.com/products/missha-official-pdrn-nad-firming-repair-cream",
+      "photo_references_added": 1,
+      "original_images": [
+        {
+          "source_url": "https://misshaus.com/cdn/shop/files/MS104031.png?v=1782920420&width=3840",
+          "photo_page": "https://misshaus.com/products/missha-official-pdrn-nad-firming-repair-cream",
+          "original_path": "qa-review/v2907-missha-pdrn-firstparty-twofamily-source-photo-QA/pending-14/01-manufacturer-original.png",
+          "native_pixels": [
+            3387,
+            3387
+          ],
+          "source_sha256": "b0bfd39ba84a0545aa44655350a13685e637708e3bee3da7db240de6b0692723",
+          "reference_JPG": "qa-review/v2907-missha-pdrn-firstparty-twofamily-source-photo-QA/pending-14/01-manufacturer-1080-INTERNAL-QA.jpg",
+          "JPG_sha256": "b27452c32c5bd1acbf4d3cf6fe2ee193c5a1e55bb358af0de85437b91d3307ec",
+          "scene_visual_check": "PENDING",
+          "stock_batch_match": "PENDING",
+          "original_MK_logo": "NOT_APPLIED",
+          "reuse_rights": "PENDING",
+          "retail_approved": false
+        }
+      ],
+      "errors": [],
+      "physical_stock_note": "Official global and US photo reads 70mL; Japanese market calls 70g, do NOT copy JP units into KR listing.",
+      "release_status": "SOURCE_BYTES_INTERNAL_QA_ONLY"
+    },
+    {
+      "family": "pending-13",
+      "product": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "manufacturer_page": "https://misshaus.com/products/missha-official-pdrn-nad-firming-repair-serum",
+      "photo_references_added": 0,
+      "original_images": [],
+      "errors": [
+        "Skipped low-native 600x600: https://misshaus.com/cdn/shop/files/CopyofMS104056_grande.png"
+      ],
+      "physical_stock_note": "Official US photo reads 30mL; compare existing archived serum 30mL product generations and avoid source duplicates.",
+      "release_status": "SOURCE_BYTES_INTERNAL_QA_ONLY"
+    }
+  ]
+}
