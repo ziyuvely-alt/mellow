@@ -1,0 +1,72 @@
+{
+  "QA_contact": "qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA/v2872-legacy-no25-original-vs-clean-vs-white-qa.jpg",
+  "QA_contact_SHA256": "d8f26365d1aa800c131051f0526cc3eb469f061a029b73d81bd2312f815728c1",
+  "all_older_assets_preserved": true,
+  "alpha_changed_pixels": 157617,
+  "attempt": "single deterministic alpha-only background residue geometry cleanup",
+  "background_artifact_probes": {
+    "1020,980": {
+      "after": 0,
+      "before": 0
+    },
+    "1110,760": {
+      "after": 0,
+      "before": 0
+    },
+    "350,790": {
+      "after": 0,
+      "before": 64
+    },
+    "400,1050": {
+      "after": 0,
+      "before": 3
+    }
+  },
+  "baseline": "v2871",
+  "commercial_photo_license_verified": false,
+  "current_status": "TECHNICAL_ALPHA_REVISION_HOLD_FINAL_VISUAL",
+  "existing_11_approved_families_preserved": true,
+  "existing_55_public_URLs_unchanged": true,
+  "family": "pending-03",
+  "final_spreadsheet_shared": false,
+  "input_original_RGB_untouched": true,
+  "new_JPG_1080": "qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA/MISSHA-No25-legacy-ghost-clean-1080-QA.jpg",
+  "new_JPG_sha256": "8552f81f04d8f9b6686b9604d13a7fc929d380a848090402ceb31f4591f9ed4c",
+  "new_jpg_bytes": 110117,
+  "new_png": "qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA/MISSHA-No25-legacy-red-gold-full-original-RGB-ghost-trim-alpha-QA.png",
+  "new_png_sha256": "9d4fb102aaf2dc08d2d8abe11464a33a740a1e94f7cda272ed7e0bc5c8c54f9f",
+  "new_public_URLs": 0,
+  "next": "Review checker background residue and gold nozzle at 100%. If any haze persists, don't re-run geometric trim; move to clean No25 image with licensed source. Then prepare separate No21/No23/No25 source-verified option QA cards without revisiting original search.",
+  "original_MK_logo_verified": false,
+  "original_v2871_No21_png_SHA256": "3ebca136daf5b85d918c16e928a31d6d773e63174bd7187f52cc74aba26de92c",
+  "original_v2871_No25_png_SHA256": "2fe0a294b7db453dc1d2a551402d32337362ec18156cd138743b191c286d919f",
+  "owned_edition_verified": false,
+  "product": "MISSHA M Perfect Cover BB Cream 50mL No.25 legacy red gold pump",
+  "product_foreground_probes": {
+    "cap_seal": {
+      "after": 254,
+      "before": 254
+    },
+    "clear_pump_tip": {
+      "after": 254,
+      "before": 254
+    },
+    "gold_collar": {
+      "after": 254,
+      "before": 254
+    },
+    "printed_no25": {
+      "after": 254,
+      "before": 254
+    },
+    "red_tube": {
+      "after": 254,
+      "before": 254
+    }
+  },
+  "removed_alpha_255_equivalent": 27977.65,
+  "removed_opaque_pixels": 5363,
+  "sale_approved": false,
+  "version": "v2872",
+  "visual_edge_review_pending": true
+}
