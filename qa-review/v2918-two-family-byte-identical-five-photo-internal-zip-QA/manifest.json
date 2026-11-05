@@ -1,0 +1,246 @@
+{
+  "version": "v2918",
+  "baseline": "v2917",
+  "generated_at_UTC": "2026-11-05T14:35:25Z",
+  "families_packed": 2,
+  "total_original_photos_byte_validated": 10,
+  "internal_verified_5JPG_ZIPs": 2,
+  "new_composite_photo_pixels": 0,
+  "new_public_retail_images": 0,
+  "new_public_urls": 0,
+  "retail_approvals": 0,
+  "previous_11_published_families_preserved": true,
+  "previous_55_published_URLs_preserved": true,
+  "previous_QA_and_approved_files_modified": 0,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-23",
+      "product": "OBgE Pore Zero Oil Control Sun Cream 50mL",
+      "existing_original_photos_packaged": 5,
+      "source_byte_hashes_validated": 5,
+      "new_photo_pixels_generated": 0,
+      "old_archive_files_changed": 0,
+      "all_JPGs_1080_square_under_2MB": true,
+      "five_identical_source_bytes_in_zip": true,
+      "internal_QA_zip": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/OBGE_PoreZero_SunCream_50mL_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "internal_QA_zip_sha256": "2bd7aa9d86acc33d8071a1ad25241d5c220b9c28f9394fa56d25e35cf0747274",
+      "zip_bytes": 422047,
+      "photo_records": [
+        {
+          "slot": 1,
+          "source_path": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/pending-23/01-original-product-contour-white-1080-QA.jpg",
+          "original_sha256": "454cde8a2053cd12e579808ba3f333981aeb4dde5881385b01ee880f9a2f4db9",
+          "original_bytes": 57774,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "01-pending-23-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_V2912_CLEAN_PRODUCT_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 2,
+          "source_path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/02-original-lifestyle-or-detail-QA.jpg",
+          "original_sha256": "d27d69ecbc06ae486721aa9cb701b2ba093fcfd6a861463e7b77cadf9bf17753",
+          "original_bytes": 124885,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "02-pending-23-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_V2912_CLEAN_PRODUCT_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 3,
+          "source_path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/03-original-lifestyle-or-detail-QA.jpg",
+          "original_sha256": "86de205292e365f2705cedc352fa145f42ea59cf36da81918bcd32d440abdd02",
+          "original_bytes": 122133,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "03-pending-23-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_V2912_CLEAN_PRODUCT_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 4,
+          "source_path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/04-original-lifestyle-or-detail-QA.jpg",
+          "original_sha256": "03a5b47208e3cc3d28cff05e11a5a63492ce7e6816ec1a5e285254eddada3e67",
+          "original_bytes": 74592,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "04-pending-23-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_V2912_CLEAN_PRODUCT_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 5,
+          "source_path": "qa-review/v2776-four-source-photo-first-fiveframe-QA/pending-23/05-original-lifestyle-or-detail-QA.jpg",
+          "original_sha256": "6879fb9638421b04ebad206719d6a3801b7b3e068021e2bfcc1ecbe6d63ea33d",
+          "original_bytes": 78341,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "05-pending-23-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_V2912_CLEAN_PRODUCT_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        }
+      ],
+      "source_notes": "All five product-specific tube/detail frames from v2912 archive; exact owned packaging/photo rights & MK logo hold.",
+      "pending_retail_blockers": [
+        "physical owned 50mL/210mL bottle/tub exact package edition",
+        "photo source commercial usage rights",
+        "verified authentic MK owner logo",
+        "marketing claim and packaging proof"
+      ],
+      "commercial_released": false,
+      "public_uploaded": false
+    },
+    {
+      "family": "pending-28",
+      "product": "PIXEL PURE Glow Cleansing Serum Pads 210mL 70ct",
+      "existing_original_photos_packaged": 5,
+      "source_byte_hashes_validated": 5,
+      "new_photo_pixels_generated": 0,
+      "old_archive_files_changed": 0,
+      "all_JPGs_1080_square_under_2MB": true,
+      "five_identical_source_bytes_in_zip": true,
+      "internal_QA_zip": "qa-review/v2918-two-family-byte-identical-five-photo-internal-zip-QA/PixelPure_GlowCleansingSerumPads_210mL70ct_5PHOTO_ORIGINAL_BYTES_INTERNAL_QA.zip",
+      "internal_QA_zip_sha256": "ff1c5b61782e29b7f6aeb9f83b812175ff287065b40175ec6e4dfb472785980a",
+      "zip_bytes": 567804,
+      "photo_records": [
+        {
+          "slot": 1,
+          "source_path": "qa-review/v2775-four-photo-first-fiveframe-product-QA/pending-28/01-real-product-cutout-hero-QA.jpg",
+          "original_sha256": "aef6282e48263644a095519f66153255e5c26def5fe05a3ce24f1e21d88c79a1",
+          "original_bytes": 131499,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "01-pending-28-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_SCREENED_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 2,
+          "source_path": "qa-review/v2667-original-photo-picks/original-photo-picks/pending-28-source-slot02-QA-ONLY.jpg",
+          "original_sha256": "14d1a7e68e8a6e138d853b584734400dff3ab2ad478d963f4c922ae0d34e3310",
+          "original_bytes": 114431,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "02-pending-28-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_SCREENED_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 3,
+          "source_path": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/pending-28/02-actual-product-source-photo-QA.jpg",
+          "original_sha256": "b1c68bf29afdfc7cf09e35467410aba8ce11993af8dffc6d89d45710fa672029",
+          "original_bytes": 144068,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "03-pending-28-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "PREVIOUS_SCREENED_SOURCE",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 4,
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/02-firstparty-1080-REFERENCE-ONLY.jpg",
+          "original_sha256": "984ff08e8c544f9439f6540300f9f53224f9264c6f02fac35bd55bfa166df65e",
+          "original_bytes": 47498,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "04-pending-28-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "single saturated cotton cleansing pad under falling serum; texture demo, no claims",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        },
+        {
+          "slot": 5,
+          "source_path": "qa-review/v2913-pixelpure-four-exact-product-official-gallery-native-source-QA/pending-28/03-firstparty-1080-REFERENCE-ONLY.jpg",
+          "original_sha256": "49297799e7af1bacfe4a34727295a0a11d079e71301042e6d97934291bf1ffeb",
+          "original_bytes": 149819,
+          "photo_size": [
+            1080,
+            1080
+          ],
+          "format": "JPEG",
+          "zip_name": "05-pending-28-ARCHIVED-UNMODIFIED-QA.jpg",
+          "photo_source_role": "serum pads layered over closed jar with green leaf and clear liquid; different product composition",
+          "exact_owner_inventory_edition": "PENDING",
+          "retail_photo_use_rights": "PENDING",
+          "authentic_owner_MK_logo_verified": false,
+          "marketing_claims_final_approved": false,
+          "sale_approved": false
+        }
+      ],
+      "source_notes": "Three v2912 preflight photos + two v2913 vetted brand source scenes from v2914; exact stock and photo rights hold.",
+      "pending_retail_blockers": [
+        "physical owned 50mL/210mL bottle/tub exact package edition",
+        "photo source commercial usage rights",
+        "verified authentic MK owner logo",
+        "marketing claim and packaging proof"
+      ],
+      "commercial_released": false,
+      "public_uploaded": false
+    }
+  ]
+}
