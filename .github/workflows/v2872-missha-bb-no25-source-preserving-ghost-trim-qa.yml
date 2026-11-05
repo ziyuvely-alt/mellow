@@ -1,0 +1,37 @@
+name: Shopee v2872 MISSHA BB 25 only photo-residue alpha trim QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2872-missha-bb-no25-source-preserving-ghost-trim-qa.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  one_existing_photo_alpha_only:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Reuse v2871 true alpha No25, trim only background, preserve RGB and old public URLs
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2872_missha_old_bb_no25_source_rgb_geometry_alpha_trim_QA.py
+          cp scripts/v2872_missha_old_bb_no25_source_rgb_geometry_alpha_trim_QA.py /tmp/v2872.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2872qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2872qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA
+          python /tmp/v2872.py
+          git add qa-review/v2872-missha-bb-no25-background-ghost-geometry-alpha-QA
+          git commit -m 'v2872 photo exact RGB and gold pump preserved; No25 local alpha ghost cleanup QA only'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
