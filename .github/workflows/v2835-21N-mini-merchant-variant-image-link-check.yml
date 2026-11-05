@@ -1,0 +1,31 @@
+name: Shopee v2835 21N original photo ownership and variant link audit
+on:
+  push:
+    branches: [main]
+    paths: ['.github/workflows/v2835-21N-mini-merchant-variant-image-link-check.yml']
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install requests
+      - name: Check native resolution images against actual merchant 21C 21N 23N variant-to-photo assignment
+        run: |
+          cp scripts/v2835_clio_mini21N_variant_photo_link_audit.py /tmp/v2835.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2835qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2835qa
+          python /tmp/v2835.py
+          git add qa-review/v2835-clio-mini-21N-merchant-variant-image-assignment-audit
+          git -c user.name=QA-Archive-Bot -c user.email=qa-archive-bot@users.noreply.github.com commit -m 'v2835 verify 21N high native image variant exclusivity, no image rerenders'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
