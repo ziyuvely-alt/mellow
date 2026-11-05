@@ -1,0 +1,131 @@
+{
+  "version": "v2917",
+  "baseline": "v2916",
+  "date_utc": "2026-11-05T14:32:13Z",
+  "families_updated": 3,
+  "firstparty_new_reference_scenes_screened": 8,
+  "new_clean_product_photo_candidates": 3,
+  "new_claim_scenes_quarantined": 5,
+  "new_internal_qa_comparisons": 3,
+  "retail_approved": 0,
+  "new_public_URLs": 0,
+  "previous_QA_bytes_changed": 0,
+  "existing_11_published_families_preserved": true,
+  "existing_55_public_urls_preserved": true,
+  "final_spreadsheet_shared": false,
+  "results": [
+    {
+      "family": "pending-19",
+      "new_firstparty_originals_inspected": 6,
+      "new_clean_product_photo_candidates": 1,
+      "new_brand_promo_hold_count": 5,
+      "selected_reference_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/01-brand-1080-INTERNAL-QA.jpg",
+      "visual_decisions": [
+        {
+          "frame": 1,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/01-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "74bcaf08f1135308ecb830158c3f2b22beebcb42f5a09a86b07abff1aeb1aa4d",
+          "verdict": "SELECT_CLEAN_REFERENCE",
+          "visual_reason": "Goodal 50mL Alpha jar with cream smear; clean promotional-free photo, volume and physical stock unresolved",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        },
+        {
+          "frame": 2,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/02-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "f97b8558cef814ae5a1fab4b28cbdd249afcd893d37bec4291955154a36d5f1d",
+          "verdict": "HOLD_PROMOTIONAL_CLAIM",
+          "visual_reason": "Faster visible results headline; promotional unverified claim",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        },
+        {
+          "frame": 3,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/03-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "77fe40cd78f9f61e8fce55af08ea5f14d9e7a7373b9570ad14ed69534319b6a9",
+          "verdict": "REJECT_CLAIM_SCIENCE",
+          "visual_reason": "3.5x stronger and comparative illustration claim, not for retail",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        },
+        {
+          "frame": 4,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/04-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "463ff8d6590c7ac06dd3dac029ed3f5861285e267686ff0b9f99181dac25dcc8",
+          "verdict": "REJECT_CLINICAL_PERCENT",
+          "visual_reason": "50.1/29.7/39.6/7.54% clinical percentage overlays",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        },
+        {
+          "frame": 5,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/05-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "30a78b5934a3108d7e545ff7fdbc2dec2ccdf131e23fc52c43fb6c9cd21c5d70",
+          "verdict": "REJECT_BEFORE_AFTER_PERSON",
+          "visual_reason": "Before after facial pigment photos; model/claims rights absent",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        },
+        {
+          "frame": 6,
+          "source_path": "qa-review/v2916-goodal-cream50-eyecream-official-media-gallery-only-QA/pending-19/06-brand-1080-INTERNAL-QA.jpg",
+          "sha256": "e8bc7b92c4223c1b8477aa1566019d55b9dd5fb060090370aba17046fe84a21a",
+          "verdict": "HOLD_INGREDIENT_MARKETING",
+          "visual_reason": "High-potency active ingredients advertising overlay; not product photograph",
+          "sale_approved": false,
+          "claim_cleared": false,
+          "physical_25AD_edition_verified": false,
+          "reuse_rights": false
+        }
+      ],
+      "new_qa_visual_sheet": "qa-review/v2917-threefamily-official-photo-visual-claim-review-QA/pending-19-v2916-official-six-photo-claims-screen-INTERNAL-QA.jpg",
+      "existing_legacy_five_scenes_preserved": true,
+      "stock_25AD_global_edition_verified": false,
+      "sale_approved": false
+    },
+    {
+      "family": "pending-24",
+      "prior_clean_source_candidates": 3,
+      "new_official_source_visual_added": 1,
+      "provisional_combined_photo_scenes": 4,
+      "additional_five_photo_target_shortfall": 1,
+      "brand_website_product_title": "NAD-PRIZCELL Glow Power Serum 30ml",
+      "title_vs_label_conflict": false,
+      "title_and_photo_label_note": "Serum page and bottle label read Glow Power Serum",
+      "official_gallery_source_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-24/01-brand-1080-reference-JPG-INTERNAL.jpg",
+      "official_photo_reference_SHA256": "1d45520b1e2367c84589e43a0380e94dc00404afb72f049541d0e1cc1d0eb5ab",
+      "review_contact": "qa-review/v2917-threefamily-official-photo-visual-claim-review-QA/pending-24-previous-plus-firstparty-four-or-three-INTERNAL-QA.jpg",
+      "model_or_claim_overlay": "Brand logo visible but no extra clinical efficacy wording",
+      "need_physical_KR_batch_check": true,
+      "need_photo_commercial_license": true,
+      "sale_approved": false
+    },
+    {
+      "family": "pending-25",
+      "prior_clean_source_candidates": 2,
+      "new_official_source_visual_added": 1,
+      "provisional_combined_photo_scenes": 3,
+      "additional_five_photo_target_shortfall": 2,
+      "brand_website_product_title": "NAD-PRIZCELL Glow Power Cream 50ml",
+      "title_vs_label_conflict": true,
+      "title_and_photo_label_note": "HK product page says Glow Power Cream, while actual front label and Korean record say Glow Boost Cream",
+      "official_gallery_source_path": "qa-review/v2915-biohealboh-two-firstparty-hk-source-and-cream-name-discrepancy-QA/pending-25/01-brand-1080-reference-JPG-INTERNAL.jpg",
+      "official_photo_reference_SHA256": "4eda857914aa47b1db6ee4619d35ef2a4f45e3dd4553bc011afd0e0994d7651f",
+      "review_contact": "qa-review/v2917-threefamily-official-photo-visual-claim-review-QA/pending-25-previous-plus-firstparty-four-or-three-INTERNAL-QA.jpg",
+      "model_or_claim_overlay": "Brand logo visible but no extra clinical efficacy wording",
+      "need_physical_KR_batch_check": true,
+      "need_photo_commercial_license": true,
+      "sale_approved": false
+    }
+  ]
+}
