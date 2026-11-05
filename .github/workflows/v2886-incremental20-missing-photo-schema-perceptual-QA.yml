@@ -1,0 +1,37 @@
+name: Shopee v2886 remaining 20 photos only add to prior 95 perceptual QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2886-incremental20-missing-photo-schema-perceptual-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  twenty_without_rescanning_ninetyfive:
+    runs-on: ubuntu-latest
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow numpy
+      - name: Audit only missing 20 photos destination schema and compare against saved 95 hashes
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2886_schema_correct_20_missing_photo_perceptual_incremental.py
+          cp scripts/v2886_schema_correct_20_missing_photo_perceptual_incremental.py /tmp/v2886.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2886qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2886qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2886-twenty-skipped-v2775-photos-only-append-perceptual-QA
+          python /tmp/v2886.py
+          git add qa-review/v2886-twenty-skipped-v2775-photos-only-append-perceptual-QA
+          git commit -m 'v2886 finish original 115 photo perceptual QA by scanning only missing 20 schema variant, do not redo 95'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
