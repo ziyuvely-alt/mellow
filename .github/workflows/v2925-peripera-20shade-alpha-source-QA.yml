@@ -1,0 +1,47 @@
+name: Shopee v2925 Peripera 20 shade 40 original JPG PNG pair archive alpha QA
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/v2925-peripera-20shade-alpha-source-QA.yml'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  peripera_20_legacy_original_source_integrity:
+    runs-on: ubuntu-latest
+    timeout-minutes: 14
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: python -m pip install Pillow
+      - name: SHA-check 40 original files, validate real PNG alpha and archive source bytes
+        run: |
+          set -euo pipefail
+          python -m py_compile scripts/v2925_peripera_20shade_40source_zip_alpha_quality.py
+          python - <<'PY'
+          from pathlib import Path
+          import re
+          p=Path("scripts/v2925_peripera_20shade_40source_zip_alpha_quality.py").read_text()
+          assert not re.search(r',font\(\d+\),fill=',p), "Pillow named font required"
+          assert "sha256" in p and "ZipFile" in p and "shades_21_to_26_created" in p
+          print("Preflight v2925 passed")
+          PY
+          cp scripts/v2925_peripera_20shade_40source_zip_alpha_quality.py /tmp/v2925.py
+          git fetch origin qa-assets/v2662-immutable-14-candidates
+          git worktree add /tmp/v2925qa qa-assets/v2662-immutable-14-candidates
+          cd /tmp/v2925qa
+          git config user.name QA-Archive-Bot
+          git config user.email qa-archive-bot@users.noreply.github.com
+          test ! -e qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA
+          python /tmp/v2925.py
+          git add qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA
+          git diff --cached --name-only | tee /tmp/v2925-changed
+          ! grep -Ev '^qa-review/v2925-peripera-01to20-40immutable-JPG-PNG-and-alpha-native-QA/' /tmp/v2925-changed
+          git commit -m 'v2925 preserve 40 legacy Peripera shade-source JPG PNG bytes, photo transparency QA'
+          git pull --rebase origin qa-assets/v2662-immutable-14-candidates
+          git push origin HEAD:refs/heads/qa-assets/v2662-immutable-14-candidates
