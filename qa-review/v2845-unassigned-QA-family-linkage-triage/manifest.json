@@ -1,0 +1,652 @@
+{
+  "version": "v2845",
+  "baseline": "v2844",
+  "scope": "Unassigned QA manifests and conservative family linkage discovery",
+  "unassigned_manifest_count": 77,
+  "single_family_inference_count": 4,
+  "ambiguous_count": 0,
+  "unmapped_count": 73,
+  "coverage_repair_candidates": [
+    "pending-07",
+    "pending-13",
+    "pending-23"
+  ],
+  "zero_explicit_id_families_in_v2844": [
+    "pending-07",
+    "pending-12"
+  ],
+  "identity_links_auto_applied": 0,
+  "prior_v2844_identity_flags_preserved": 9,
+  "old_11_approved_families_unchanged": true,
+  "old_55_public_URLs_unchanged": true,
+  "photo_files_modified": 0,
+  "new_sale_approvals": 0,
+  "final_xlsx_shared": false,
+  "rows": [
+    {
+      "file": "qa-review/v2662-14-candidate-snapshot/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2663-visual-proof/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2665-4-clean-copy-cards/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2666-five-original-scenes/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2667-original-photo-picks/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2671-drG-unreviewed-source-scenes/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2672-two-five-JPG-real-scene-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2673-two-new-product-five-JPG-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2674-unassembled-family-source-contact/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2675-missha-two-five-frame-photo-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2677-three-obge-five-JPG-source-led-QA-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2678-missha-clio-two-five-JPG-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2679-sixteen-pending-family-source-previews/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2680-six-brand-five-JPG-photo-led-batch/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2681-two-eyecleanser-five-frame-qa/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2682-seven-remaining-five-JPG-reviews/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2683-two-family-photo-content-upgrades/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2684b-BOH-cream-only-distinct-photo/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2688-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2689-pixelpure-official-photo-candidate-upgrades/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2690-drg-two-official-photo-source-led-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2691-DRG-correct-Korean-source-only/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2696-missha-serum-official-gallery-proof/manifest.json",
+      "identity_text": "MISSHA PDRN NAD+ Firming Repair Serum 30mL",
+      "potential_families": [
+        "pending-13"
+      ],
+      "status": "PROPOSED_UNVERIFIED",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2698-OBGE-GOODAL-two-source-photo-proof/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2699-OBGE-original-gallery-and-GOODAL-single-tube-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2705-three-recovered-photo-first-family-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2706-six-archival-five-real-source-families/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2707-seven-remaining-archival-real-photo-family-sets/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2708-16-family-pre-release-80-jpg-unique-scene-audit/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2709-clio-mini-and-pixelpure-detail-corrections/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2710-two-accurate-copy-corrections-photo-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2711-real-segmentation-four-source-product-heroes/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2712-3-failed-cutouts-high-quality-recovery/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2713-six-new-product-hero-real-alpha-cutouts/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2714-serum-alpha-component-and-pad-alternate-photo/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2715-five-more-original-product-real-alpha-hero-tests/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2716-obge-finisher-and-goodal-alternate-real-alpha/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2717-four-fresh-cushion-cream-real-alpha-candidates/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2719-four-unprocessed-clio-missha-real-photo-cutouts/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2720-missha-moistup-obge-porezero-photo-cutouts/manifest.json",
+      "identity_text": "",
+      "potential_families": [
+        "pending-23"
+      ],
+      "status": "PROPOSED_UNVERIFIED",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2721-three-drg-goodal-alpha-photo-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2721-three-new-DRG-GOODAL-photo-alpha-scenes/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2722-thirty-family-file-backed-cutout-queue/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2729-eighteen-accepted-masks-foreground-integrity-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2730-three-source-crop-and-alternate-photo-real-alpha-corrections/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2732-two-DrG-50ml-alt-scene-and-lower-cap-cutouts/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2733-moisture-sun-top-edge-extended-source-photo-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2734-two-failed-families-different-photo-ROI-u2net/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2738-two-actual-archived-product-contour-cutout-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2738a-direct-contour-svg-fallback/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2739-porezero-only-svg-real-png-jpg-photo-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [
+        "pending-23"
+      ],
+      "status": "PROPOSED_UNVERIFIED",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2739-three-existing-svg-real-png-jpg-photo-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2740-three-family-photo-visual-adjudication/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2751-missha-shades25-27-true-alpha-edge-qa/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2752-peripera-legacy-01to20-variant-photo-evidence/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2761-peripera19-no-lip-panel-and-missha30ml-source03-qa/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2762-peripera20-variant-QA-and-missha-serum-hero-upgrade/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2763-peripera20-separated-package-appearance-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2764-two-new-original-source-real-alpha-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2765-goodal-eye-cream30-remove-narrow-false-tail-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2768-missha-coverlasting-four-shade-native-edge-inspection/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2769-goodal-eyecream-clean-independent-source-foreground-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2787-goodal-fifth-photo-fix-and-clio-mini-official-source/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2788-goodal-new-source-texture-options-clio-mini-native/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2789-goodal-frame5-and-clio-mini-no-fake-MK-five-scene-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2791-clio-mini-two-cropped-english-captions-corrected-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2792-clio-5g-blank-upper-margin-only-cleanup/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2793-three-clio-remaining-families-exact-page-edition-and-photo-proof/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2794-clio-official-detail-original-photo-discovery/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2795-clio-mini-meshblur-target-only-single-case-cutout-tests/manifest.json",
+      "identity_text": "",
+      "potential_families": [
+        "pending-07"
+      ],
+      "status": "PROPOSED_UNVERIFIED",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2796-clio-meshglow-essential-global-original-gallery-source/manifest.json",
+      "identity_text": "CLIO Kill Cover Mesh Glow Essential Cushion",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2799-clio-reflection-spatial-right-edge-preserving-alpha-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2800-two-remaining-clio-global-official-item-gallery-investigation/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2807-two-official-single-item-product-photo-discovery/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2825-clio-mini-5g-21C-21N-uncropped-top-edge-repair/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2826-clio-mini5g-common-photo-gallery-source-discovery/manifest.json",
+      "identity_text": "CLIO Kill Cover Founwear Cushion The Original Mini 5g",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    },
+    {
+      "file": "qa-review/v2844-30family-product-identity-batch-QA/manifest.json",
+      "identity_text": "",
+      "potential_families": [],
+      "status": "UNMAPPED_NO_SAFE_EXACT_EVIDENCE",
+      "not_sales_ready": true,
+      "not_auto_linked": true
+    }
+  ],
+  "next": "Review proposed family/edition pairings before linking. Continue image production for other clearly matched groups without using ambiguous assets."
+}
