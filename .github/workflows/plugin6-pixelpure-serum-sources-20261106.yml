@@ -1,0 +1,56 @@
+name: Plugin6 PIXELPURE Serum exact-source export 20261106
+on:
+  push:
+    branches: [plugin6-pixelpure-serum-sources-20261106]
+    paths: ['.github/workflows/plugin6-pixelpure-serum-sources-20261106.yml']
+permissions:
+  contents: read
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Get source image binaries without image generation
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import os, json, hashlib, pathlib, urllib.request, io
+          from PIL import Image
+          out=pathlib.Path("PIXELPURE_SERUM_SOURCES");out.mkdir(exist_ok=True)
+          host="https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/"
+          sources={
+           "brand_hero_big":host+"big/20250818/e90f75f60879387aaf91173294768833.jpg",
+           "brand_triple_serum":host+"extra/big/20250430/04f0ac285617118e73242c512467d740.jpg",
+           "brand_model_serum":host+"extra/big/20250430/ea9c5fe57736deeceedae9b70c0054d9.jpg",
+           "brand_detail_four":host+"extra/big/20250430/2b4e82d8d9dbe09c42b2e38f48226df5.jpg",
+           "hwahae_serum":"https://img.hwahae.co.kr/products/2143874/2143874_20250530170051.jpg",
+           "trade_serum_float":"https://web.tradekorea.com/product/858/2334858/pixelpure_aura_radiance_serum_%28Skin_Care%29_4.jpg",
+           "trade_serum_texture":"https://web.tradekorea.com/product/857/2334857/pixelpure_aura_radiance_serum_%28Skin_Care%29_3.jpg",
+          }
+          original="https://raw.githubusercontent.com/ziyuvely-alt/mellow/df1a3c49c474a1e09d0b6421feb1f284fb7d5534/public/owned86/20261029/pixelpure-serum50ml/"
+          for i,f in enumerate(["a2a1622ea795_01.jpg","ab82a2d14b3d_02.jpg","a4f3f56578dd_03.jpg","4d41995fb29c_04.jpg","449aa19f312b_05.jpg"],1):
+            sources["prior_serum_%02d"%i]=original+f
+          audit=[]
+          for name,url in sources.items():
+            row={"name":name,"url":url,"status":"DOWNLOAD_FAILED"}
+            try:
+              req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0","Referer":"https://www.pixelpure.com/"})
+              with urllib.request.urlopen(req,timeout=16) as rsp: raw=rsp.read(8000001)
+              if len(raw)>8000000:raise ValueError("Over 8MB")
+              im=Image.open(io.BytesIO(raw));fmt=im.format;sz=im.size;im.verify()
+              if fmt not in ("JPEG","PNG","WEBP") or min(sz)<450:raise ValueError("Not acceptable raster")
+              ext={"JPEG":"jpg","PNG":"png","WEBP":"webp"}[fmt]
+              (out/(name+"."+ext)).write_bytes(raw)
+              row.update(status="BINARY_VERIFIED_PHOTO_IDENTITY_PENDING",dimensions=sz,bytes=len(raw),sha256=hashlib.sha256(raw).hexdigest())
+            except Exception as e:row["error"]=type(e).__name__+": "+str(e)[:220]
+            print(name,row["status"],row.get("error",""),flush=True)
+            audit.append(row)
+          (out/"source_audit.json").write_text(json.dumps(audit,indent=2),encoding="utf-8")
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: pixelpure-serum-official-and-existing-photo-binaries
+          path: PIXELPURE_SERUM_SOURCES/
+          if-no-files-found: error
