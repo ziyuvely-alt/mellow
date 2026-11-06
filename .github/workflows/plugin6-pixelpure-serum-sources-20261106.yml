@@ -11,6 +11,8 @@ jobs:
     timeout-minutes: 8
     steps:
       - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python3 -m pip install --quiet Pillow
       - name: Get source image binaries without image generation
         shell: bash
         run: |
