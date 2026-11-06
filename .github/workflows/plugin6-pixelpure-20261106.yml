@@ -1,0 +1,57 @@
+name: Plugin6 Pixelpure source acquisition 20261106
+on:
+  push:
+    branches: [plugin6-pixelpure-20261106]
+    paths: ['.github/workflows/plugin6-pixelpure-20261106.yml']
+permissions:
+  contents: read
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    steps:
+      - uses: actions/checkout@v4
+      - name: Install Pillow
+        run: python3 -m pip install --quiet Pillow
+      - name: Fetch authorized brand-source candidates
+        shell: bash
+        run: |
+          python3 - <<'PY'
+          import io,hashlib,json,pathlib,urllib.request
+          from PIL import Image
+          sources={
+            "official_white":"https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/f8d51ba2fbbf7cb558808d00a2f1317a.jpg",
+            "official_open_cream":"https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/5695cce612cdac532a1aedacb62b3581.jpg",
+            "official_packaging":"https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/extra/big/20250430/031054b753a62818320c47df3dacb7ed.jpg",
+            "official_medium":"https://ecimg.cafe24img.com/pg1807b57130625078/pixelpure/web/product/medium/20250519/e091028b1e6f1188b6e3a8e241040bc2.jpg",
+            "hwahae_product":"https://img.hwahae.co.kr/products/2143885/2143885_20251023160440.jpg",
+            "distributor_water":"https://web.tradekorea.com/product/865/2334865/pixelpure_radiance_aqua_soothing_cream_50ml_%28Skin_Care%29_3.jpg",
+            "distributor_multiple":"https://web.tradekorea.com/product/866/2334866/pixelpure_radiance_aqua_soothing_cream_50ml_%28Skin_Care%29_4.jpg"
+          }
+          out=pathlib.Path('plugin6-pixelpure-output');out.mkdir(exist_ok=True)
+          audit=[]
+          for name,url in sources.items():
+            row={'name':name,'url':url,'status':'FAILED'}
+            try:
+              req=urllib.request.Request(url,headers={'User-Agent':'Mozilla/5.0 (compatible; ShopeeAssetEvidence/1.0)','Referer':'https://eng.pixelpure.com/'})
+              with urllib.request.urlopen(req,timeout=12) as rsp:
+                data=rsp.read(9000001)
+              if len(data)>9000000:raise ValueError("oversize")
+              with Image.open(io.BytesIO(data)) as im:
+                fmt=im.format;size=im.size;im.verify()
+              if fmt not in ("JPEG","PNG","WEBP") or min(size)<450:raise ValueError("image integrity/dimensions")
+              ext={'JPEG':'jpg','PNG':'png','WEBP':'webp'}[fmt]
+              (out/(name+'.'+ext)).write_bytes(data)
+              row.update(status='SOURCE_BYTES_VERIFIED_PHOTO_QA_PENDING',size=list(size),bytes=len(data),sha256=hashlib.sha256(data).hexdigest())
+            except Exception as e:
+              row['error']=type(e).__name__+': '+str(e)[:300]
+            audit.append(row)
+            print(name,row['status'],row.get('size',row.get('error','')),flush=True)
+          (out/'audit.json').write_text(json.dumps(audit,indent=2),encoding='utf-8')
+          PY
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: plugin6-pixelpure-originals
+          path: plugin6-pixelpure-output/
+          if-no-files-found: error
